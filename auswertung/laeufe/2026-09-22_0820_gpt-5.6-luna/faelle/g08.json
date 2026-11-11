@@ -1,0 +1,503 @@
+{
+  "fall": {
+    "id": "g08",
+    "case_type": "direct",
+    "question": "Wie reiche ich meine Unterlagen für die Bauingenieur-Stelle bei Albemarle ein?",
+    "reference_answer": "Ausschließlich über das Bewerbungsportal Workday, unter Angabe der Referenznummer.",
+    "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/70_Stellenanzeigen/10_Absolventen/01-2026_Bauingenieur_HT-Q425-Final.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Dann bewerben Sie sich bitte mit Ihren vollständigen Bewerbungsunterlagen (inkl. Anschreiben, eines ausführlichen Lebenslaufs und Zeugnissen) ausschließlich über unser Bewerbungsportal Workday unter Angabe der Referenznummer."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ stellenausschreibung/vorgehen. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "39856551-0e06-5721-a407-d6aaa391b521",
+      "d732c9bd-9015-5472-bab4-22f392049db7",
+      "366dc99b-9947-51c3-b2a5-a953b3a47026",
+      "9ad5bc92-e74d-5a59-9a42-528548a81a1c",
+      "d5afca81-07f7-5398-a04a-a0fb40e7e4aa",
+      "8ce69021-015b-50af-9ca3-c32862064d3e",
+      "64d72a66-9afb-5d3f-a827-e8d496f564af"
+    ],
+    "beleg_punkte": [
+      "64d72a66-9afb-5d3f-a827-e8d496f564af"
+    ],
+    "beleg_urls": [
+      "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/70_Stellenanzeigen/10_Absolventen/01-2026_Bauingenieur_HT-Q425-Final.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-22T08:26:39",
+  "dauer_s": 4.67,
+  "fehler": null,
+  "antwort": "Sie reichen Ihre vollständigen Bewerbungsunterlagen „inkl. Anschreiben, eines ausführlichen Lebenslaufs und Zeugnissen\" [1] ausschließlich „über unser Bewerbungsportal Workday\" [1] ein. Dabei sollen Sie „die Referenznummer\" [1] angeben.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › 70 Stellenanzeigen › 10 Absolventen › 01 2026 Bauingenieur HT Q425 Final",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/70_Stellenanzeigen/10_Absolventen/01-2026_Bauingenieur_HT-Q425-Final.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Bauingenieur Schwerpunkt Hoch- und Tiefbau (m/w/d)\n  ## für die Leitung der Bautechnik für den Bereich Technische Dienste (TD).\n  ## Das bringen Sie mit\n  ## Erforderlich\n  ## Bevorzugt\n  ## Was Sie von uns erwarten können\n  ## Haben wir Ihr Interesse geweckt?\n  ## Dann bewerben Sie sich bitte mit Ihren vollständigen Bewerbungsunterlagen (inkl. Anschreiben, eines ausführlichen Lebenslaufs und Zeugnissen) ausschließlich über unser Bewerbungsportal Workday unter Angabe der Referenznummer."
+    },
+    {
+      "nr": 2,
+      "titel": "Angewandte Informatik (MIN)",
+      "url": "https://f4.hs-hannover.de/studium/master-studiengaenge/angewandte-informatik-min",
+      "fakultaet": "f4",
+      "struktur": "# Angewandte Informatik (MIN)\n  ## Anwendungsorientiert und wissenschaftlich fundiert\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Studienschwerpunkte\n  ## Das ist drin\n  ## Warum bei uns? Darum!\n  ## Studienziele\n  ## Studienvoraussetzungen\n  ## Bewerbungsverfahren\n  ## Weitere Informationen\n    ### Ansprechpartner\n    ### Für Unternehmen und Organisationen\n    ### Downloads und Links für Studieninteressierte\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 02 2019 › 02 IMC Zugangs und Zulassungsordnung 2019 01 15",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/02-2019/02_IMC_Zugangs-und_Zulassungsordnung__2019_01_15.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ordnung über den Zugang und die Zulassung für den dualen BachelorStudiengang Integrated Media & Communication (IMC) der Fakultät III – Medien, Information und Design der Hochschule Hannover\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Hochschulzugang\n  ## § 3\n  ## Bewerbungsverfahren\n  ## § 4\n  ## Auswahlverfahren\n  ## § 5\n  ## Auswahlgespräch\n  ## § 6\n  ## Bemessung der Note nach Auswahlgespräch\n  ## § 7\n  ## Auswahlkommission\n  ## § 8\n  ## Inkrafttreten\n  ## Vorvertragliche Vereinbarung\n  ## Zwischen dem Unternehmen\n  ## §1 Präambel\n  ## § 2 Inkrafttreten und Laufzeit der Absichtserklärung"
+    },
+    {
+      "nr": 4,
+      "titel": "f3 › Fakultaet III › Ordnungen IK › ZulO MMI 2017",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_MMI_2017.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Ordnung über den Zugang und die Zulassung für den konsekutiven Masterstudiengang Medizinisches Informationsmanagement (MMI) an der Fakultät III Medien, Information und Design der Hochschule Hannover\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## § 3\n  ## Studienbeginn und Bewerbungsfrist\n  ## § 4\n  ## Zulassungsverfahren\n  ## § 5\n  ## Auswahlkommissionen für den Masterstudiengang MMI\n  ## § 6\n  ## Auswahlgespräch\n  ## § 7\n  ## Bescheiderteilung, Nachrückverfahren, Abschluss der Verfahren\n  ## § 8\n  ## Zulassung für höhere Fachsemester\n  ## § 9\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 5,
+      "titel": "mint › 3 Arbeiten › Stiebel Eltron GmbH Co. KG Fragebogen — Steckbrief",
+      "url": "https://mint.hs-hannover.de/fileadmin/3_Arbeiten/Stiebel_Eltron_GmbH___Co._KG_Fragebogen.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Stiebel Eltron GmbH & Co. KG\n  ## Steckbrief\n  ## Social Media :\n  ## Wofür steht Ihr Unternehmen? Worauf sind Sie besonders stolz?\n  ## Für welchen Bereich Ihres Unternehmens suchen Sie Nachwuchs?\n  ## Welches sind Besonderheiten Ihres Unternehmens?\n  ## Praktika / Ausbildung / Studium\n  ## Bieten Sie Praktika für Schülerinnen an?\n  ## Bieten Sie Praktika für Studierende an? (auf Anfrage)\n  ## Bilden Sie aus?\n  ## Bietet Ihr Unternehmen ein Duales Studium an? (auf Anfrage)\n  ## Andre Weisser\n  ## Bewerbung\n  ## Welche Bewerbungsfrist gibt es bei Ausbildungen und dem Dualen Studium?\n  ## Einstiegsmöglichkeiten\n  ## Welche Einstiegsmöglichkeiten gibt es für Schulabsolventeninnen?\n  ## Welche Einstiegsmöglichkeiten gibt es für Hochschulabsolventeninnen?"
+    },
+    {
+      "nr": 6,
+      "titel": "www › Verkuendungsblatt › 02 2019 › 01 PUE Zugangs und Zulassungsordnung 2019 01 15",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/02-2019/01_PUE_Zugangs-und_Zulassungsordnung_2019_01_15.pdf",
+      "fakultaet": "",
+      "struktur": "# Ordnung über den Zugang und die Zulassung für den weiterbildenden Master-Studiengang\n  ## Prozessmanagement und Usability Engineering Industrie 4.0 (M-Eng) an der Fakultät II der Hochschule Hannover\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## oder\n  ## § 3\n  ## Zulassungsverfahren\n  ## § 4\n  ## Studienbeginn und Bewerbungsfrist\n  ## § 5\n  ## Auswahlkommission\n  ## § 6\n  ## Bescheiderteilung, Nachrückverfahren, Abschluss der Verfahren\n  ## § 7\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Verkuendungsblatt › 05 2020 › 04 ZulO MTV — der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/04_ZulO_MTV.pdf",
+      "fakultaet": "",
+      "struktur": "# Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang\n  ## „Fernsehjournalismus (MTV)“ an der Fakultät III – Medien, Information und Design\n  ## der Hochschule Hannover\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## § 3\n  ## Studienbeginn und Bewerbungsfrist\n  ## § 4\n  ## Auswahl- und Zulassungsverfahren\n  ## § 5\n  ## Auswahlgespräch\n  ## § 6\n  ## Auswahlkommission für den Master-Studiengang Fernsehjournalismus\n  ## § 7\n  ## Bescheiderteilung, Nachrückverfahren,\n  ## Abschluss der Verfahren\n  ## § 8\n  ## Zulassung für höhere Fachsemester\n  ## § 9\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 8,
+      "titel": "f3 › Fakultaet III › Ordnungen IK › ZulO MTV 20222 — Ordnung über den Zugang und die Zulassung",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_MTV_20222.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Ordnung über den Zugang und die Zulassung\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## § 3\n  ## Studienbeginn und Bewerbungsfrist\n  ## § 4\n  ## Auswahl- und Zulassungsverfahren\n  ## § 5\n  ## Auswahlgespräch\n  ## § 6\n  ## Auswahlkommission für den Master-Studiengang Fernsehjournalismus und Dokumentarfilm\n  ## § 7\n  ## Bescheiderteilung, Nachrückverfahren, Abschluss der Verfahren\n  ## § 8\n  ## Zulassung für höhere Fachsemester\n  ## § 9\n  ## Inkrafttreten\n  ## 1. Änderung:"
+    },
+    {
+      "nr": 9,
+      "titel": "www › Verkuendungsblatt › 14 2015 › 01 ZOIMC Stand 20150914",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/14-2015/01_ZOIMC_Stand_20150914.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ordnung über den Zugang und die Zulassung für den dualen Bachelor-Studiengang Integrated Media & Communication der Fakultät III – Medien, Information und Design der Hochschule Hannover\n  ## § 1 Geltungsbereich\n  ## § 2 Hochschulzugang\n  ## § 3 Bewerbungsverfahren\n  ## § 4 Auswahlverfahren\n  ## § 5 Auswahlgespräch\n  ## § 6 Bemessung der Note nach Auswahlgespräch\n  ## § 7 Auswahlkommission\n  ## § 8 Inkrafttreten"
+    },
+    {
+      "nr": 10,
+      "titel": "f5 › Pflege › Pruefungen › Hinweise SchriflArb 20250314 — Stand: März 2025",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/Hinweise_SchriflArb_20250314.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Hinweise zur Erstellung schriftlicher Arbeiten\n  ## Hochschule Hannover - Fakultät V Abteilung Pflege und Gesundheit\n  ## Stand: März 2025\n  ## Ziel einer schriftlichen Arbeit\n  ## Bestandteile einer schriftlichen Arbeit\n  ## Formale Aspekte\n  ## Folgende grundlegende Zitierweisen gibt es:\n  ## Zitation und Bibliografie\n  ## Indirekte Zitate\n  ## Besonderheiten im Text\n  ## Direkte Zitate\n  ## Sonderregelungen\n  ## Literaturverzeichnis\n  ## Hochschulschriften (Thesis, Dissertation, Habilitation, Forschungsberichte):\n  ## Sprachliche Gestaltung und Layout\n  ## Anmeldung und Abgabe in gedruckter und elektronischer Form\n  ## Literaturempfehlungen\n  ## Hilfen\n  ## Homepage Ihres Studienganges:\n  ## Anhang: Beispiel für das Deckblatt\n  ## Anhang: Beispiel für eine Gliederung bzw. ein Inhaltsverzeichnis\n  ## Inhaltsverzeichnis"
+    },
+    {
+      "nr": 11,
+      "titel": "mint › 3 Arbeiten › Baker Hughes Fragebogen — Steckbrief",
+      "url": "https://mint.hs-hannover.de/fileadmin/3_Arbeiten/Baker_Hughes_Fragebogen.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Baker Hughes\n  ## Steckbrief\n  ## Wofür steht Ihr Unternehmen? Worauf sind Sie besonders stolz?\n  ## Welches sind die Zukunftsperspektiven für die Berufsorientierung?\n  ## Welches sind Besonderheiten Ihres Unternehmens?\n  ## Praktika / Ausbildung / Studium\n  ## Bieten Sie Praktika für Schülerinnen an?\n  ## Bieten Sie Praktika für Studierende an?\n  ## Bilden Sie aus?\n  ## Bietet Ihr Unternehmen ein Duales Studium an?\n  ## Wer ist die Ansprechperson für diese Fragen?\n  ## Henning Gatzlaff\n  ## Bewerbung\n  ## Wie bewerbe ich mich bei Ihnen?\n  ## Welche Unterlagen muss ich einreichen?\n  ## Einstiegsmöglichkeiten\n  ## Welche Einstiegsmöglichkeiten gibt es für Schulabsolventeninnen?"
+    },
+    {
+      "nr": 12,
+      "titel": "f5 › Soziale Arbeit grundstaendig › Anerkennung auslaendischer Bildungsabschluesse › Staatliche Anerkennung auslaendische Abschluesse Infos fuer Homepage 11.11.2025",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Anerkennung_auslaendischer_Bildungsabschluesse/Staatliche_Anerkennung_auslaendische_Abschluesse_-_Infos-fuer-Homepage-11.11.2025.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Kontakt zur Antragsstellung\n  ## Welche Unterlagen sind für die Antragsstellung nötig?\n  ## Bearbeitungsgebühr\n  ## Name:\n  ## Erklärung\n  ## NEIN"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 1,
+      "titel": "f1 › 70 Stellenanzeigen › 10 Absolventen › 01 2026 Bauingenieur HT Q425 Final",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/70_Stellenanzeigen/10_Absolventen/01-2026_Bauingenieur_HT-Q425-Final.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f1 › 70 Stellenanzeigen › 10 Absolventen › 01 2026 Bauingenieur HT Q425 Final",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/70_Stellenanzeigen/10_Absolventen/01-2026_Bauingenieur_HT-Q425-Final.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Haben wir Ihr Interesse geweckt?** > **Dann bewerben Sie sich bitte mit Ihren vollständigen Bewerbungsunterlagen (inkl. Anschreiben, eines ausführlichen Lebenslaufs und Zeugnissen) ausschließlich über unser Bewerbungsportal Workday unter Angabe der Referenznummer.**",
+      "snippets": [
+        "## **Dann bewerben Sie sich bitte mit Ihren vollständigen Bewerbungsunterlagen (inkl. Anschreiben, eines ausführlichen Lebenslaufs und Zeugnissen) ausschließlich über unser Bewerbungsportal Workday unter Angabe der Referenznummer.**  \n_https://albemarle.wd5.myworkdayjobs.com/External/job/Goslar-Area-LangelsheimGermany/Bauingenieur-Schwerpunkt-Hoch--und-Tiefbau--m-w-d-_REQ-29764-2_  \n**Weitere Informationen unter**  \nwww.albemarle.com"
+      ],
+      "zitate": [
+        "inkl. Anschreiben, eines ausführlichen Lebenslaufs und Zeugnissen",
+        "über unser Bewerbungsportal Workday"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 4.45183,
+      "id": "64d72a66-9afb-5d3f-a827-e8d496f564af",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/70_Stellenanzeigen/10_Absolventen/01-2026_Bauingenieur_HT-Q425-Final.pdf",
+      "title_anzeige": "f1 › 70 Stellenanzeigen › 10 Absolventen › 01 2026 Bauingenieur HT Q425 Final",
+      "section_heading": "**Haben wir Ihr Interesse geweckt?** > **Dann bewerben Sie sich bitte mit Ihren vollständigen Bewerbungsunterlagen (inkl. Anschreiben, eines ausführlichen Lebenslaufs und Zeugnissen) ausschließlich über unser Bewerbungsportal Workday unter Angabe der Referenznummer.**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## **Was Sie von uns erwarten können**  \n- Attraktive Vergütung je nach individueller Qualifikation und Berufserfahrung sowie eine betriebliche Altersvorsorge  \n- Wir bieten Ihnen außerdem jährliche Sonderzahlungen, wie Urlaubs/Weihnachtsgeld, 30 Tage Urlaub und vieles mehr  \n- Flexible Arbeitszeitm"
+    },
+    {
+      "rang": 2,
+      "score": 2.52665,
+      "id": "d732c9bd-9015-5472-bab4-22f392049db7",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/70_Stellenanzeigen/10_Absolventen/01-2026_Bauingenieur_HT-Q425-Final.pdf",
+      "title_anzeige": "f1 › 70 Stellenanzeigen › 10 Absolventen › 01 2026 Bauingenieur HT Q425 Final",
+      "section_heading": "**Bauingenieur Schwerpunkt Hoch- und Tiefbau (m/w/d)** > **für die Leitung der Bautechnik für den Bereich Technische Dienste (TD).**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "Die Albemarle Germany GmbH beschäftigt in Deutschland mehr als 700 Arbeitnehmer. Der Albemarle-Konzern ist ein weltweit führender Hersteller von Lithiumverbindungen und ein bedeutender Produzent von Lithium-Rohstoffen. Der Albemarle-Konzern beschäftigt weltweit über 9.000 Mitarbeiter. Weitere Geschä"
+    },
+    {
+      "rang": 3,
+      "score": 1.62681,
+      "id": "367206d8-1c1e-5b12-b6c0-f9b68d511ae2",
+      "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/angewandte-informatik-min",
+      "title_anzeige": "Angewandte Informatik (MIN)",
+      "section_heading": "Kurzübersicht > Bewerbungsverfahren",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "Bewerberinnen und Bewerber, die weder eine deutsche Hochschulzugangsberechtigung aufweisen noch ihren Bachelor-Abschluss an einer deutschen Hochschule erworben haben, müssen über ausreichende Kenntnisse der deutschen Sprache verfügen. Als Nachweis ist ein DSH-2-Zertifikat (Deutsche Sprachprüfung für"
+    },
+    {
+      "rang": 4,
+      "score": 1.50342,
+      "id": "6c693a86-7f9c-55c5-8661-e0ced26d2fa0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/02-2019/02_IMC_Zugangs-und_Zulassungsordnung__2019_01_15.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2019 › 02 IMC Zugangs und Zulassungsordnung 2019 01 15",
+      "section_heading": "**§ 3** > **Bewerbungsverfahren**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "- Nachweis der Anmeldung zu einer Ausbildung zur Gestaltungstechnischen Assistentin oder zum Gestaltungstechnischen Assistenten an einer berufsbildenden Schule  \n- Nachweis einer vorvertraglichen Vereinbarung für ein Praktikumsverhältnis mindestens für die Dauer eines Studienjahres bis spätestens 31"
+    },
+    {
+      "rang": 5,
+      "score": 1.50336,
+      "id": "cbde5f01-be61-5319-8e4e-f507fef4f5a9",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_MMI_2017.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › ZulO MMI 2017",
+      "section_heading": "**§ 3** > **Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "- (2) Der Bewerbung sind – bei Zeugnissen und Nachweisen in beglaubigter Kopie – folgende Unterlagen beizufügen:  \n- a) das Abschlusszeugnis des Bachelor-Studiengangs oder – wenn dieses noch nicht vorliegt – eine Bescheinigung über die erbrachten Leistungen, die Leistungspunkte und über die Durchsch"
+    },
+    {
+      "rang": 6,
+      "score": 1.48148,
+      "id": "285d3a30-7cdf-5e7e-8fe9-237fb0fca05a",
+      "source_url": "https://mint.hs-hannover.de/fileadmin/3_Arbeiten/Stiebel_Eltron_GmbH___Co._KG_Fragebogen.pdf",
+      "title_anzeige": "mint › 3 Arbeiten › Stiebel Eltron GmbH Co. KG Fragebogen — Steckbrief",
+      "section_heading": "Bewerbung",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## Bewerbung  \nWie bewerbe ich mich bei Ihnen?  \nÜber unsere Karriereseite  \nhttps://www.stiebel-eltron.de/karriere  \nWelche Unterlagen muss ich einreichen?  \n- Anschreiben  \n- Lebenslauf  \n- letztes Zeugnis  \n- bei Studierenden: eine Immatrikulationsbescheinigung"
+    },
+    {
+      "rang": 7,
+      "score": 1.45088,
+      "id": "025afb44-0142-545f-a54a-bb25a69fd19a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/02-2019/01_PUE_Zugangs-und_Zulassungsordnung_2019_01_15.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2019 › 01 PUE Zugangs und Zulassungsordnung 2019 01 15",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den weiterbildenden Master-Studiengang** > **§ 4** > **Ordnung über den Zugang und die Zulassung für den weiterbildenden Master-Studiengang** > **Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "- b) Lebenslauf  \n- c) Nachweise der sprachlichen Kompetenz nach § 2 Abs. 5  \n- d) Beschreibung der aktuellen Berufstätigkeit und Nachweise über einschlägige Berufspraxis.  \n- e) ggf. sonstige Nachweise, sofern diese für die Durchführung des Auswahlverfahrens erforderlich sind.  \n- (4) Bewerbungen, "
+    },
+    {
+      "rang": 8,
+      "score": 1.37674,
+      "id": "6d2e9d39-1674-55a1-83ba-92f5cf4f5c34",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/04_ZulO_MTV.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2020 › 04 ZulO MTV — der Hochschule Hannover",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang** > **§ 3** > **Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang** > **Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "- (4) Der Bewerbung sind – bei Zeugnissen und Nachweisen in Kopie – folgende Unterlagen beizufügen:  \n- a) Tabellarischer Lebenslauf  \n- b) Abschlusszeugnis des Bachelorstudiengangs oder – wenn dieses noch nicht vorliegt - eine Bescheinigung über die erbrachten Leistungspunkte und über die Durchschn"
+    },
+    {
+      "rang": 9,
+      "score": 1.37595,
+      "id": "a0fa0ffd-727b-57e3-a5a5-cf435a5bb78f",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_MTV_20222.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › ZulO MTV 20222 — Ordnung über den Zugang und die Zulassung",
+      "section_heading": "**§ 3** > **Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "- (4) Der Bewerbung sind – bei Zeugnissen und Nachweisen in Kopie – folgende Unterlagen beizufügen:  \n- a) Tabellarischer Lebenslauf  \n- b) Abschlusszeugnis des Bachelorstudiengangs oder – wenn dieses noch nicht vorliegt - eine Bescheinigung über die erbrachten Leistungspunkte und über die Durchschn"
+    },
+    {
+      "rang": 10,
+      "score": 1.36321,
+      "id": "d877be0b-4f9f-51ce-b4d8-a8c5260e92a5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/14-2015/01_ZOIMC_Stand_20150914.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 14 2015 › 01 ZOIMC Stand 20150914",
+      "section_heading": "**§ 3 Bewerbungsverfahren**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3 Bewerbungsverfahren**  \n- (1) Der Bewerbung sind - bei Zeugnissen und Nachweisen in beglaubigter Kopie - folgende Unterlagen beizufügen:  \n- das Abschlusszeugnis der Hochschulzugangsberechtigung  \n- Lebenslauf  \n- Arbeitsproben zu Medienproduktion aus Schule und/oder einem Praktikum und/ode"
+    },
+    {
+      "rang": 11,
+      "score": 1.2943,
+      "id": "3e855d7f-5cf3-5d1b-9bf3-342bec43781b",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/Hinweise_SchriflArb_20250314.pdf",
+      "title_anzeige": "f5 › Pflege › Pruefungen › Hinweise SchriflArb 20250314 — Stand: März 2025",
+      "section_heading": "**Anmeldung und Abgabe in gedruckter und elektronischer Form**",
+      "chunk_index": 35,
+      "text_vollstaendig": true,
+      "auszug": "## **Anmeldung und Abgabe in gedruckter und elektronischer Form**  \nDie schriftliche Arbeit ist fristgerecht über den entsprechenden Antragsweg im Prüfungsamt sowie gegenüber den prüfenden Personen anzumelden (vgl. hierzu Informationsschreiben des Prüfungsamts). Nach der Bearbeitung ist die Arbeit f"
+    },
+    {
+      "rang": 12,
+      "score": 1.28813,
+      "id": "ddfda6ad-9efe-5fb2-a898-c1202dbe99b1",
+      "source_url": "https://mint.hs-hannover.de/fileadmin/3_Arbeiten/Baker_Hughes_Fragebogen.pdf",
+      "title_anzeige": "mint › 3 Arbeiten › Baker Hughes Fragebogen — Steckbrief",
+      "section_heading": "Welche Unterlagen muss ich einreichen?",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## Welche Unterlagen muss ich einreichen?  \n- lückenloser Lebenslauf  \n- Anschreiben  \n- mindestens letztes Zeugnis  \n- Praktikumsescheinigungen  \n- Zertifikate  \nWelche Bewerbungsfrist gibt es bei Ausbildungen und dem Dualen Studium?  \nMindestens ein halbes Jahr im Voraus bewerben."
+    },
+    {
+      "rang": 13,
+      "score": 1.26577,
+      "id": "edbd5b32-0a85-5d85-9b37-9e824901817c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Anerkennung_auslaendischer_Bildungsabschluesse/Staatliche_Anerkennung_auslaendische_Abschluesse_-_Infos-fuer-Homepage-11.11.2025.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Anerkennung auslaendischer Bildungsabschluesse › Staatliche Anerkennung auslaendische Abschluesse Infos fuer Homepage 11.11.2025",
+      "section_heading": "**Welche Unterlagen sind für die Antragsstellung nötig?**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Welche Unterlagen sind für die Antragsstellung nötig?**  \nWenn Sie einen Antrag auf staatliche Anerkennung als Sozialarbeiter*in/Sozialpädagoge/in aufgrund Ihres im Ausland erworbenen Bildungsabschlusses stellen möchten, reichen Sie bitte folgende Unterlagen per E-Mail ein.  \n- Kopie des Person"
+    },
+    {
+      "rang": 14,
+      "score": 1.23933,
+      "id": "c536607e-fbe2-5592-abbb-ab6de193f743",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen/15_F2_BV_ZuO_MA_MLV_VB_EBU.pdf",
+      "title_anzeige": "f2 › Service › Ordnungen › 15 F2 BV ZuO MA MLV VB EBU",
+      "section_heading": "**§ 3 Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "- b. Lebenslauf,  \n- c. Nachweise nach § 2 Abs. 3  \n- d. ggf. Nachweise über Berufs- und Praktikantentätigkeit nach § 4 Abs. 2 bzw. 3.  \n- (3) Bewerbungen, die nicht vollständig, form- oder fristgerecht eingehen, sind vom weiteren Verfahren ausgeschlossen. Die eingereichten Unterlagen verbleiben bei"
+    },
+    {
+      "rang": 15,
+      "score": 1.23911,
+      "id": "fd296e02-f9e1-5713-9952-9b138deb7977",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/02-2019/03_MTV_Zugangs-und_Zulassungsordnung_2019-02-04.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2019 › 03 MTV Zugangs und Zulassungsordnung 2019 02 04",
+      "section_heading": "**§ 3** > **Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "- (3) Der Bewerbung sind – bei Zeugnissen und Nachweisen in Kopie – folgende Unterlagen beizufügen:  \n- a) Tabellarischer Lebenslauf  \n- b) Ausdruck der Online Bewerbung  \n- c) Abschlusszeugnis des Bachelorstudiengangs oder – wenn dieses noch nicht vorliegt - eine Bescheinigung über die erbrachten L"
+    },
+    {
+      "rang": 16,
+      "score": 1.20965,
+      "id": "2bd88fbc-62b9-5d52-ae82-c8b11e1972a9",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/LBS_Antrag_auf_Zulassung_zur_Modulpruefung.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Studium › LBS Antrag auf Zulassung zur Modulpruefung — Antrag auf Zulassung zur Modulprüfung",
+      "section_heading": "Datum > Per Mail senden",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## Datum\n\n## Per Mail senden  \nDen ausgefüllten Antrag bitte per E-Mail im PDF-Format an das Prüfungsamt senden und den*die Prüfer*in in der E-Mail ins cc setzen, dadurch entfällt die Unterschrift der*des Prüfenden.  \n- Es ist bekannt, dass Hausarbeiten / Portfolios / Praktikumsu. Projektberichte pe"
+    },
+    {
+      "rang": 17,
+      "score": 1.18701,
+      "id": "80c743d0-f280-52b8-8e74-e8bcb4c99818",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/BMG_Antrag_auf_Zulassung_zur_Modulpruefung.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Studium › BMG Antrag auf Zulassung zur Modulpruefung — Antrag auf Zulassung zur Modulprüfung",
+      "section_heading": "Datum > Per Mail senden",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## Datum\n\n## Per Mail senden  \nDen ausgefüllten Antrag bitte per E-Mail im PDF-Format an das Prüfungsamt senden und den*die Prüfer*in in der E-Mail ins cc setzen, dadurch entfällt die Unterschrift der*des Prüfenden.  \n- Es ist bekannt, dass Hausarbeiten / Portfolios / Praktikumsu. Projektberichte pe"
+    },
+    {
+      "rang": 18,
+      "score": 1.18437,
+      "id": "18d7d099-2cb4-573e-913f-d6351c475eb9",
+      "source_url": "https://mint.hs-hannover.de/fileadmin/3_Arbeiten/Komatsu_Germany_GmbH_Fragebogen.pdf",
+      "title_anzeige": "mint › 3 Arbeiten › Komatsu Germany GmbH Fragebogen — Steckbrief",
+      "section_heading": "Welche Unterlagen muss ich einreichen?",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## Welche Unterlagen muss ich einreichen?  \nWir benötigen folgende Unterlagen:  \n- Lebenslauf  \n- Anschreiben  \n- die letzten zwei Zeugnisse  \n- Praktikumsnachweise (falls vorhanden)  \n- Zertifikate (falls vorhanden)"
+    },
+    {
+      "rang": 19,
+      "score": 1.18003,
+      "id": "44644be2-3a62-5226-8e22-2ae3061f2a47",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/02-MGB-ZulO.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2009 › 02 MGB ZulO",
+      "section_heading": "**§ 3** > **Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "b) Lebenslauf,  \nc) Nachweise nach § 2 Abs. 4,  \nd) Nachweis über eine Berufstätigkeit von mindestens 25 % einer Vollzeitstelle in einem für den Studienabschluss relevanten Tätigkeitsfeld.  \n(3) Bewerbungen, die nicht vollständig, form- oder fristgerecht eingehen, sind vom weiteren Verfahren ausgesc"
+    },
+    {
+      "rang": 20,
+      "score": 1.17558,
+      "id": "8755af93-783e-5fb5-8379-783ddb281274",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/06-2026/03_6._ZulO_MMI_20261_Entwurf_20260715_Freigabe_MWK.pdf",
+      "title_anzeige": "www › Verkuendungsblaetter › 06 2026 › 03 6. ZulO MMI 20261 Entwurf 20260715 Freigabe MWK — Zugangsvoraussetzungen",
+      "section_heading": "**§ 3** > **Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "- d) ggf. Modulhandbuch des Bachelorstudienganges zur Überprüfung der fachlichen Verwandschaft des Studiengangs,  \n- e) ggf. Sprachnachweise über Deutschkenntnisse gemäß § 2 Absatz 3,  \n- f) sonstige Nachweise, sofern diese für die Prüfung der Zugangsvoraussetzung/die Durchführung des Auswahlverfahr"
+    },
+    {
+      "rang": 21,
+      "score": 1.17088,
+      "id": "49880a5a-fd93-52ad-8500-0d6ffacc3c82",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Soziale_Arbeit/BAJ/Studientagsprogramm/Alte_Versionen/Studientagsprogramm_Winter_2025_2026.pdf",
+      "title_anzeige": "f5 › Studientagsprogramm › Alte Versionen › Studientagsprogramm Winter 2025 2026 — Berufsanerkennungsjahr Studientagsprogramm",
+      "section_heading": "**Berufsanerkennungsjahr Studientagsprogramm** > **Winterpause**",
+      "chunk_index": 74,
+      "text_vollstaendig": false,
+      "auszug": "**Anmeldung bitte per Email als PDF Dateien an Frau Bauer senden!**  \n**ANMELDUNG – Studientagsteilnahme**  \nName Vorname ______________________________________________________________________________________________________ Tel. E-Mail _______________________________________________________________"
+    },
+    {
+      "rang": 22,
+      "score": 1.16647,
+      "id": "a27b597e-071c-59f8-82a3-c7aecec8881b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/03-2021/01_ZZO_IMC_2021.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2021 › 01 ZZO IMC 2021",
+      "section_heading": "**§ 3** > **Bewerbungsverfahren**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "- Nachweis der Anmeldung zu einer Ausbildung zur Gestaltungstechnischen Assistentin oder zum Gestaltungstechnischen Assistenten an einer berufsbildenden Schule  \n- Nachweis einer vorvertraglichen Vereinbarung für ein Praktikumsverhältnis mindestens für die Dauer der ersten Praxisphase bis spätestens"
+    },
+    {
+      "rang": 23,
+      "score": 1.16333,
+      "id": "947ecf36-0fc6-546f-aa8b-349b74275c5a",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Pruefungen_BRS/BRS_Antrag_auf_Zulassung_zur_Modulpruefung-17.03.2026.pdf",
+      "title_anzeige": "f5 › Relpaed › Pruefungen BRS › BRS Antrag auf Zulassung zur Modulpruefung 17.03.2026 — Antrag auf Zulassung zur Modulprüfung",
+      "section_heading": "Datum > Per Mail senden",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Datum\n\n## Per Mail senden  \nDen ausgefüllten Antrag bitte per E-Mail im PDF-Format an das Prüfungsamt senden und den*die Prüfer*in in der E-Mail ins cc setzen, dadurch entfällt die Unterschrift der*des Prüfenden.  \n> - Es ist bekannt, dass Hausarbeiten / Portfolios / Praktikumsu. Projektberichte "
+    },
+    {
+      "rang": 24,
+      "score": 1.15532,
+      "id": "5fa2cba2-78ac-57b4-a3f1-37a2acebbbdd",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/2026_Informationsblatt_zum_Bewerbungsverfahren_10.11.2025.pdf",
+      "title_anzeige": "f5 › Pflege › Pruefungen › 2026 Informationsblatt zum Bewerbungsverfahren 10.11.2025",
+      "section_heading": "**Informationsblatt zum Bewerbungsverfahren für den 2. Studienabschnitt Bachelor-Studiengang Pflege**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "- einfache Kopie des Nachweises der Examensnote\n- Nachweis über die bestandene Einstufungsprüfung\n- Nachweis über die Durchschnittsnote der im 1.Studienabschnitt\nabgeleisteten Modulprüfungen\n- evtl. einfache Kopie des Arbeitszeugnisses\n- Nachweis über eine Berufstätigkeit von höchstens 75 % in einem"
+    },
+    {
+      "rang": 25,
+      "score": 1.15121,
+      "id": "ce9ee475-1a8c-5fc2-aa1a-4f16cf465862",
+      "source_url": "https://karriere.hs-hannover.de/bewerbung/stelle-900000452-10057.html",
+      "title_anzeige": "karriere › bewerbung › stelle 900000452 10057",
+      "section_heading": "Ingenieurin / Ingenieur (m/w/d) Fachrichtung Elektro- und Informationstechnik, PM 1040-2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "### Ingenieurin / Ingenieur (m/w/d) Fachrichtung Elektro- und Informationstechnik, PM 1040-2026\n[![Icon](https://karriere.hs-hannover.de/static/static/bilder/content/neu/eingabe_hilfetext_var0.gif) Stellenbeschreibung](https://karriere.hs-hannover.de/bewerbung/stelle-900000452-10057.html) [![Icon](h"
+    },
+    {
+      "rang": 26,
+      "score": 1.13791,
+      "id": "6c339cd2-292b-5baf-aae5-3bfb33b3c232",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/studiengaenge-a-z",
+      "title_anzeige": "Studienangebote A – Z",
+      "section_heading": "Studienangebote A – Z > Ingenieurinformatik Maschinenbau (IIM)",
+      "chunk_index": 37,
+      "text_vollstaendig": true,
+      "auszug": "|  [ **Elektrotechnik und Informationstechnik (EIT)** ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1)  | Bachelor of Engineering (B.Eng.)  |  [ Schnellansicht ](https://www.hs-hannover.de/studium/studienangebot/st"
+    },
+    {
+      "rang": 27,
+      "score": 1.12459,
+      "id": "0f1883d2-331e-50f4-80df-babc5dd4543f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/Richtlinie_der_HsH.pdf",
+      "title_anzeige": "www › Stipendien › PDF Dateien › Richtlinie der HsH",
+      "section_heading": "**§4 Bewerbungs- und Auswahlverfahren**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "4. welche Bewerbungsunterlagen (Abs. 3 und 4) einzureichen sind,  \n5. die Form der Bewerbung und die Stelle, bei der sie einzureichen ist,  \n6. die Frist bis zu dem die Bewerbung einzureichen ist.  \n- (3) Die Bewerbung ist schriftlich an die in der Ausschreibung angegebene Adresse zu richten. Sie ka"
+    },
+    {
+      "rang": 28,
+      "score": 1.10958,
+      "id": "4cbbd9e8-2387-562b-8101-d7f8c3a54ee8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/01-2020/02_FV_ZO_MTA_2020.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2020 › 02 FV ZO MTA 2020 — an der Fakultät V - Diakonie, Gesundheit und Soziales",
+      "section_heading": "**„Therapeutische Arbeit mit Kindern und Jugendlichen (MTA)“ mit dem Abschluss Master of Arts (M.A.)** > **§ 3** > **„Therapeutische Arbeit mit Kindern und Jugendlichen (MTA)“ mit dem Abschluss Master of Arts (M.A.)** > **Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "- (2) Der Bewerbung sind - bei Zeugnissen und Nachweisen in Kopie - folgende Unterlagen beizufügen:  \n- a) das entsprechende Abschlusszeugnis eines Diplom-, Bachelor- oder Masterabschlusses gem. § 2 Abs. 1. dieser Ordnung,  \n- b) Lebenslauf,  \n- c) Nachweise über berufliche Erfahrungen,  \n- d) ggf. "
+    },
+    {
+      "rang": 29,
+      "score": 1.10929,
+      "id": "97165baf-5738-5226-a9d2-1f2cb564446b",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/Studentische_Hilfskraft_-_Antrag_aktuell.pdf",
+      "title_anzeige": "f5 › Service › HiWi werden › Studentische Hilfskraft Antrag aktuell",
+      "section_heading": "**Antrag auf Beschäftigung einer studentischen Hilfskraft nach § 33 NHG**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "|**_Ohne vollständige Vorlage der Unterlagen ist eine Einstellung nicht möglich! Rückwirkende Einstellungen oder Änderungen_**\n**_sind nicht zulässig!_**||||||||||||||||||||||||\n|**_Bitte reichen Sie die Anlagen in der Reihenfolge wie aufgelistet ein!_**||||||||||||||**_anbei_**||||**_liegt_**\n**_im"
+    },
+    {
+      "rang": 30,
+      "score": 1.10745,
+      "id": "2434290c-b1c5-5a0d-8181-13c874b6dd04",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung",
+      "title_anzeige": "Online-Anträge und -Bewerbungen",
+      "section_heading": "Online-Anträge und -Bewerbungen > Für Studieninteressierte und Bewerber:innen",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Für Studieninteressierte und Bewerber:innen\nDas Bewerbungsverfahren erfolgt künftig ausschließlich digital über das [Bewerbungsportal](https://campusmanagement.hs-hannover.de) der Hochschule Hannover.\nAlle erforderlichen Unterlagen werden dort online eingereicht – ein postalischer Versand ist nic"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 1423,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.03,
+    "kandidaten_s": 0.02,
+    "llm_auswahl_s": 0.97,
+    "docs_laden_s": 0.02,
+    "quellen_s": 3.04,
+    "antwort_llm_s": 1.47,
+    "gesamt_s": 4.51
+  },
+  "auswahl_begruendung": "{\"selected\":[1]}"
+}

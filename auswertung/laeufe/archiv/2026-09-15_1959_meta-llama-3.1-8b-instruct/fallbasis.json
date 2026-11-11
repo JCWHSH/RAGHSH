@@ -1,0 +1,36 @@
+[
+  {
+    "id": "q12",
+    "case_type": "direct",
+    "question": "Gibt es Parkplätze am HsH-Campus Linden?",
+    "reference_answer": "Ja. Zum Campus Linden schreibt die HsH, dass in unmittelbarer Nähe der Hochschule Parkplätze zur Verfügung stehen. Die Anfahrt erfolgt über die Stammestraße oder den Lodemannweg.",
+    "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten"
+    ],
+    "required_facts": [
+      "Ja, in unmittelbarer Nähe der Hochschule stehen Parkplätze zur Verfügung.",
+      "Die Anfahrt erfolgt über die Stammestraße oder den Lodemannweg."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [
+      "Eine garantierte Verfügbarkeit freier Parkplätze behaupten.",
+      "Eine konkrete Parkplatzanzahl erfinden."
+    ],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Antwort soll 'in unmittelbarer Nähe' und die Anfahrt über Stammestraße oder Lodemannweg nennen. Keine Aussage über Anzahl, Verfügbarkeit zu Stoßzeiten oder garantierte freie Plätze ergänzen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Stammestraße",
+      "Lodemannweg"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Fakultät I wiederholt den Anfahrtstext wörtlich (Stammestraße, Lodemannweg).",
+    "gold_im_korpus": true
+  }
+]

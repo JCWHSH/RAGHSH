@@ -1,0 +1,1627 @@
+{
+  "fall": {
+    "id": "q06",
+    "case_type": "direct",
+    "question": "An wen wende ich mich in der Fakultät I, wenn ich Probleme bei der Prüfungsanmeldung habe?",
+    "reference_answer": "Für allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung und Umbuchungen ist in der Prüfungsverwaltung der Fakultät I Stephan Rittmüller genannt. Die Adresse lautet F1-Pruefungsverwaltung(at)hs-hannover.de. Die Sprechzeiten sind Montag, Dienstag und Freitag nach Vereinbarung per E-Mail.",
+    "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Stephan Rittmüller ist die genannte Ansprechperson.",
+      "Der Kontext ist die Prüfungsverwaltung der Fakultät I.",
+      "Die Funktionsadresse lautet F1-Pruefungsverwaltung(at)hs-hannover.de."
+    ],
+    "optional_facts": [
+      "Die Zuständigkeit umfasst Prüfungsanmeldungen.",
+      "Die Quelle nennt auch iCMS, 15 CP Überprüfung und Umbuchungen.",
+      "Sprechzeiten sind Montag, Dienstag und Freitag nach Vereinbarung per E-Mail."
+    ],
+    "forbidden_claims": [
+      "Eine andere Ansprechperson als primäre zuständige Person nennen.",
+      "Nicht belegte feste Sprechzeiten oder persönliche Termine erfinden."
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Die Antwort soll Stephan Rittmüller, Prüfungsanmeldungen, die Funktionsadresse und die Sprechzeiten nennen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Stephan Rittmüller",
+      "F1-Pruefungsverwaltung"
+    ],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "c3b8e229-b113-5a10-ab23-fefe7f66d582",
+      "684cd2ba-c33b-5a9f-85e5-b72234102a7e",
+      "0a303b4b-73d8-5ab9-bff4-ec53a7381a49",
+      "a8644d0a-43d7-5c31-819f-b08887d0d522",
+      "9c87a546-ce03-5563-8478-c3abeb90fcfa",
+      "e3f3f300-618c-54e2-948a-6e8fdd43beb2",
+      "2665fb25-93fe-5ada-8824-416680f0c2b0",
+      "bc18985a-b5d1-5a7c-b3e7-830229c9dcac",
+      "f1c25ef1-83ea-5586-aac6-ef0b6e3b7e17",
+      "f8184645-66bb-5df1-b269-f8e8725294d3",
+      "3e2e9569-6258-5ef7-899d-c0ef86cf8a60",
+      "67e971eb-6abb-539e-a080-b89a42b045a5"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:51:20",
+  "dauer_s": 6.41,
+  "fehler": null,
+  "antwort": "Bei Problemen mit der Prüfungsanmeldung in der Fakultät I wenden Sie sich an Stephan Rittmüller. Zu seinen Aufgaben gehören „Allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\" [1]. Sie erreichen ihn unter „+49 511 9296-1204/-7913\" [1] oder per E-Mail an „F1-Pruefungsverwaltung(at)hs-hannover.de\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "fakultaet": "f1",
+      "struktur": "# Prüfungsverwaltung der Fakultät I\n  ## Ansprechpersonen\n    ### Stephan Rittmüller\n  ## Sprechzeiten\n    ### Yvonne Scholz\n  ## Sprechzeiten\n    ### Oxana Schreiber\n  ## Sprechzeiten\n  ## Formulare/Prüfungsangelegenheiten"
+    },
+    {
+      "nr": 2,
+      "titel": "Gleichstellung und Diversität",
+      "url": "https://f1.hs-hannover.de/ueber-uns/gleichstellung-und-diversitaet",
+      "fakultaet": "f1",
+      "struktur": "# Gleichstellung und Diversität\n  ## Herzlich willkommen\n  ## Ihre Ansprechperson\n    ### Gleichstellungsbeauftragte der Fakultät I\n    ### Vertretung\n  ## Wir sind für Sie da"
+    },
+    {
+      "nr": 3,
+      "titel": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "url": "https://f1.hs-hannover.de/studium",
+      "fakultaet": "f1",
+      "struktur": "# Studium an der Fakultät I Elektro- und Informationstechnik\n    ### Zusätzliche Infos\n  ## Leben in Hannover\n  ## Sprechen Sie sich aus.\n  ## Ihr Weg zu uns:\n    ### Routenplaner\n    ### Externer Inhalt\n  ## Informationsbroschüre\n    ### Informationsbroschüre der Fakultät I"
+    },
+    {
+      "nr": 4,
+      "titel": "f1 › 99 Sonstiges › Internationales › Engl. Lectures FI II WS 26 27",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Courses for Incoming Students\n  ## COURSES / LEARNING AGREEMENT\n  ## CONTACT INTERNATIONAL FACULTY OFFICE (IFO)\n  ## CONTACT HsH-INCOMING SERVICE\n  ## SEMESTER DATES\n  ## WELCOME WEEKS\n  ## IT – ACCESS\n  ## HAVE A WONDERFUL STAY!\n  ## Courses for Incoming Students in English Language\n  ## Winter Term 2026/27\n  ## Please note! This is a preliminary list of courses. Changes may occur.\n  ## Faculty I – Electrical Engineering and Information Technology\n  ## Non-Technical Subjects\n  ## Courses from other Faculties\n  ## Faculty V – Diaconic Studies, Health Care and Social Work Campus Kleefeld: Blumhardtstraße 2, 30625 Hannover\n  ## MATLAB/Simulink\n  ## Simulation Laboratory\n  ## Engineering Project\n  ## Operation of Multicopters\n  ## Reaction Engineering\n  ## Production Planning and Control (PPC)\n  ## International Engineering Science (IES) –\n  ## Different topics\n  ## (for further information please refer to the following pages):\n  ## International Engineering Science (IES):\n  ## International Engineering Science (IES) - taught by guest professors\n  ## German Intensive Course\n  ## Business English (English 6)\n  ## German as a Foreign Language / Comprehensive German\n  ## Tandem Language Learning\n  ## ICM Inter Cultural Management Training\n  ## NEXSTVENTURE Creative Entrepreneurship"
+    },
+    {
+      "nr": 5,
+      "titel": "f1 › 10 Ordnungen › 60 Sonstige › Engl. Lectures FI II WS 25 26",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Engl._Lectures-FI-II_WS_25-26.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Courses for Incoming Students in English Language\n  ## Winter Term 2025/26\n  ## Courses for Incoming Students\n  ## COURSES / LEARNING AGREEMENT\n  ## CONTACT INTERNATIONAL FACULTY OFFICE (IFO)\n  ## CONTACT HsH-INCOMING SERVICE\n  ## SEMESTER DATES\n  ## WELCOME WEEKS\n  ## IT – ACCESS\n  ## HAVE A WONDERFUL STAY!\n  ## Design of Analog and Digital Filters\n  ## Power Cable Technology\n  ## MATLAB/Simulink\n  ## Simulation Laboratory\n  ## Product Emergence Process (Submodule EIT-205-09)\n  ## Engineering Project\n  ## Reaction Engineering\n  ## Production Planning and Control (PPC)\n  ## Engineering Design\n  ## International Engineering Science (IES) – Different topics\n  ## International Engineering Science (IES):\n  ## Each semester there is an offer of different topics under the title “IES”, according to availability. The final course offer will be published in September.\n  ## International Engineering Science (IES):\n  ## German Intensive Course\n  ## Business English (English 6)\n  ## German as a Foreign Language / Comprehensive German\n  ## Tandem Language Learning\n  ## ICM"
+    },
+    {
+      "nr": 6,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Bescheinigung Praxisphase ab SoSe 23",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Bescheinigung_Praxisphase_ab_SoSe_23.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Praxisphasenbescheinigung der Hochschule Hannover Fakultät I – Elektro- und Informationstechnik\n  ## Fakultät I\n  ## Wichtig: Diese Bescheinigung ist nur zusammen mit einer aktuellen Immatrikulationsbescheinigung gültig."
+    },
+    {
+      "nr": 7,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Praxisphase Anmeldung — BACHELOR- PRAXISPHASE",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Praxisphase_Anmeldung.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Fakultät I - Elektro- und Informationstechnik Hochschule Hannover\n# BACHELOR- PRAXISPHASE\n  ## 1. Praxisstelle:\n  ## 2. Prüfungsanmeldung\n  ## 3. Einverständnis des Betreuenden (hauptamtl. Lehrperson der Fakultät I, Betreuende aus beteiligten Fakultäten nur mit Genehmigung des Studiengangsleiters):\n  ## 4. Bewertung\n  ## 5. Prüfungsverwaltung"
+    },
+    {
+      "nr": 8,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Fakultät I - Elektro- und Informationstechnik Hochschule Hannover\n  ## Studienprojekt\n  ## 1. Genaue Bezeichnung des Projektes:\n  ## 2. Prüfungsanmeldung\n  ## 3. Einverständnis der Betreuenden\n  ## 3. Bewertung"
+    },
+    {
+      "nr": 9,
+      "titel": "f1 › 10 Ordnungen › 20 Praxisphasenordnung › 20121213 Praxisphasen Ordnung",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/20_Praxisphasenordnung/20121213_Praxisphasen-Ordnung.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Ordnung  für  die  Praxisphase(n) In  der  Fakultät  I  -­  Elektro-­  und  Informationstechnik  der  Hochschule  Hannover (Praxisphasenordnung;;  PraO)\n  ## §  1 Geltungsbereich\n  ## §  2 Ziele  der  Praxisphase(n)\n  ## §  3 Grundlegende  Bestimmungen\n  ## §  4 Ausbildungsinhalte  und  Durchführung  der  Praxisphasen\n  ## §  5\n  ## Zulassung  zu  der/den  Praxisphase(n)  und  Betreuung\n  ## §  6\n  ## Anerkennung  der  Praxisphase(n)\n  ## §  7\n  ## Vertrag  über  die  Praxisphase(n)\n  ## §  8 Auswahl  der  Praxisstellen\n  ## §  9\n  ## Übergangsregelung\n  ## §  10 Inkrafttreten\n  ## Zwischen\n  ## Vertrag über eine Praxisphase\n  ## § 1\n  ## Allgemeines\n  ## Pflichten der Vertragspartner\n  ## § 3\n  ## Kostenerstattungs- und Aufwandsentschädigung\n  ## § 4\n  ## Ausbildungsbetreuer/in\n  ## § 5\n  ## Urlaub\n  ## § 6\n  ## Versicherungsschutz\n  ## § 7\n  ## Auflösung des Vertrages\n  ## § 8\n  ## Vertragsausfertigungen\n  ## § 9 Sonstige Vereinbarungen"
+    },
+    {
+      "nr": 10,
+      "titel": "f1 › 20 Masterstdg › EEE › MPO EEE 2021verk",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/20_Masterstdg/EEE/MPO_EEE_2021verk.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n# für den Master-Studiengang\n# „Elektrische Energiesysteme und Elektromobilität (EEE)“ mit dem Abschluss „Master of Engineering (M.Sc.)“ in der Fakultät I - Elektro- und Informationstechnik\n# der Hochschule Hannover (PO EEE 2021)\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Master-Arbeit\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Übergangsbestimmungen\n  ## § 7\n  ## Inkrafttreten\n  ## Master-Studiengang Elektrische Energiesysteme und Elektromobilität (EEE) 3 Semester\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 11,
+      "titel": "Orientierungssemester StudyMINT",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/studienprogramme/studymint",
+      "fakultaet": "f1",
+      "struktur": "# Orientierungssemester StudyMINT\n    ### Auf einen Blick\n# Kurzübersicht\n# Freie Studienplätze\n# StudyMINT - das Orientierungssemester\n  ## Konzept\n  ## Teilnahmevoraussetzungen\n    ### Hochschulzugangsberechtigung (HZB)\n  ## Ablauf\n  ## Bewerbung\n    ### Zum Bewerbungsportal\n  ## Kontakt\n  ## Sie haben Fragen oder Anregungen? Wenden Sie sich gern an uns!\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 12,
+      "titel": "f1 › semesterstart 1",
+      "url": "https://f1.hs-hannover.de/semesterstart-1",
+      "fakultaet": "f1",
+      "struktur": "# Semesterstart\n    ### Auf einen Blick\n  ## Brückenkurs\n  ## Begrüßungen\n  ## Vorlesungsbeginn/-hinweise\n  ## Informationsveranstaltungen\n  ## Linksammlung"
+    },
+    {
+      "nr": 13,
+      "titel": "itr › kontakt",
+      "url": "https://itr.wp.hs-hannover.de/kontakt",
+      "fakultaet": "",
+      "struktur": "# Kontakt\n# Anfahrt\n# Partner\n# Impressum\n# Datenschutz"
+    },
+    {
+      "nr": 14,
+      "titel": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang International Business Studies (IBS) mit dem Abschluss Bachelor of Science an der Fakultät IV - Wirtschaft und Informatik der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Geltungsbereich der Prüfungsordnung\n  ## § 3\n  ## Zweck der Prüfung und Hochschulgrad\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Art und Umfang der Bachelor-Prüfung\n  ## § 6\n  ## Zulassung zu den Prüfungen des ersten Studienabschnitts\n  ## (Bachelorvorprüfung)\n  ## § 7\n  ## Aufbau und Inhalt der Bachelorvorprüfung\n  ## § 8\n  ## Höchstdauer der Bachelorvorprüfung\n  ## § 9\n  ## Zulassung zum zweiten Studienabschnitt und zur Bachelor-Arbeit\n  ## § 10\n  ## Höchstdauer des zweiten Studienabschnitts\n  ## überschritten worden ist.\n  ## § 11\n  ## Studiensemester im Ausland\n  ## § 12\n  ## Prüfungsanmeldungen und Prüfungszeitpunkte\n  ## § 13\n  ## Arten und Aufteilungsmöglichkeiten von Prüfungsleistungen\n  ## § 14\n  ## Eidesstattliche Versicherungen\n  ## § 15\n  ## Anwesenheitspflichten\n  ## § 16\n  ## Prüfungsvorleistungen\n  ## § 17\n  ## Unbenotete Prüfungsleistungen\n  ## § 18\n  ## Wechsel von Wahlpflichtmodulen\n  ## § 19\n  ## Verbesserungsversuche\n  ## § 20\n  ## Wiederholung nicht bestandener Prüfungen\n  ## § 21\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 22\n  ## Prüfungsausschuss\n  ## § 23\n  ## Inkrafttreten\n  ## Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - Neufassung"
+    },
+    {
+      "nr": 15,
+      "titel": "Online-Anträge und -Bewerbungen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung",
+      "fakultaet": "",
+      "struktur": "# Online-Anträge und -Bewerbungen\n  ## Ein Schritt in die digitale Zukunft...\n    ### Auf einen Blick\n  ## Für Studieninteressierte und Bewerber:innen\n    ### Hinweis\n  ## Für Studierende\n    ### Hinweis\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 16,
+      "titel": "www › Servicezentrum Beratung › Familienservice › Stud Ansprechpersonen Gefaehrungsbeurteilung — FAKULTÄT I",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Stud_-_Ansprechpersonen_Gefaehrungsbeurteilung.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ansprechpersonen für die Gefährdungsbeurteilung während der Schwangerschaft oder Stillzeit\n  ## FAKULTÄT I\n  ## FAKULTÄT II\n  ## FAKULTÄT III\n  ## FAKULTÄT IV\n  ## FAKULTÄT V"
+    },
+    {
+      "nr": 17,
+      "titel": "www › Finanzmanagement › Studienqualitaetsmittel › 20170328 Protokoll 12.Sitzung Senatskommission Studienqualitaetsmittel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20170328_Protokoll_12.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Protokoll\n  ## über die 12. Sitzung der Senatskommission Studienqualitätsmittel der Hochschule Hannover am 28.03.2017 im Senatssitzungssaal (Präsidium), Expo Plaza 4, 30539 Hannover.\n  ## 3. Stellvertretende Mitglieder\n  ## 5. Gäste (Nicht stimmberechtigt)\n  ## TOP 1: Begrüßung\n  ## TOP 2: Feststellung der Tagesordnung\n  ## TOP 3: Herstellung der Hochschulöffentlichkeit / Rederecht der Gäste\n  ## TOP 4: Genehmigung des Protokolls der Sitzung vom 13.12.2016\n  ## TOP 5: Information zur Verteilung und Verwendung von Studienqualitätsmitteln und Studienbeiträgen (Anlage 2a-2h)\n  ## TOP 6: Anträge an die Kommission (Studienqualitätsmittel und Studienbeiträge)\n  ## TOP 7: Verschiedenes"
+    },
+    {
+      "nr": 18,
+      "titel": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "fakultaet": "",
+      "struktur": "    ### Anmeldung am System\n    ### Prüfungsanmeldung\n    ### Anmeldung zur Veranstaltung (Fakultät V)"
+    },
+    {
+      "nr": 19,
+      "titel": "Bewerbungsinformation für höhere Fachsemester und Quereinsteiger*innen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/bewerbungsportal-fuer-hoehere-fachsemester-und-quereinsteigerinnen",
+      "fakultaet": "",
+      "struktur": "# Bewerbungsinformation für höhere Fachsemester und Quereinsteigerinnen\n    ### Auf einen Blick\n  ## Hinweise für Quereinsteigerinnen vor der Bewerbung\n  ## Einstufungen/Anerkennung bisheriger Studienleistungen\n  ## Ansprechpersonen\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 20,
+      "titel": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+      "fakultaet": "",
+      "struktur": "  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Geltungsbereich der Prüfungsordnung\n  ## § 3 Zweck der Prüfung und Hochschulgrad\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Zulassung zur Einstufungsprüfung\n  ## § 6 Durchführung der Einstufungsprüfung\n  ## § 7\n  ## Aufbau und Inhalt der Vorprüfung\n  ## § 8\n  ## Art und Umfang der Bachelor-Prüfung\n  ## § 9\n  ## Zulassung zum zweiten Studienabschnitt und zur Bachelor-Arbeit\n  ## § 10\n  ## Höchstdauer des zweiten Studienabschnitts\n  ## § 11 Prüfungsanmeldungen und Prüfungszeitpunkte\n  ## § 12\n  ## Arten und Aufteilungsmöglichkeiten von Prüfungsleistungen\n  ## § 13 Eidesstattliche Versicherungen\n  ## § 14 Anwesenheitspflichten\n  ## § 15\n  ## Prüfungsvorleistungen\n  ## § 16\n  ## Unbenotete Prüfungsleistungen\n  ## § 17\n  ## Wechsel von Pflicht- und Wahlpflichtmodulen\n  ## § 18\n  ## Verbesserungsversuche\n  ## § 19\n  ## Wiederholung nicht bestandener Prüfungen\n  ## § 20\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 21 Inkrafttreten\n  ## Bachelor-Studiengang Betriebswirtschaftslehre (BBI) - 6 Semester  - PO 2018 / Version 2024\n  ## K2[1] (90 [45-]minütige Klausur)\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch. Vorrangig ist jedoch stets diese Prüfungsordnung."
+    },
+    {
+      "nr": 21,
+      "titel": "www › Studierendenverwaltung › Antraege › 11.Antrag auf Teilnahme an Pruefungen als Gasthoerer deutsch",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/11.Antrag_auf_Teilnahme_an_Pruefungen_als_Gasthoerer_deutsch.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Hochschule Hannover Akademische Angelegenheiten Ricklinger Stadtweg 120 30459 Hannover\n  ## Antrag auf Teilnahme an Prüfungen im Rahmen der Gasthörerschaft gemäß § 12 Immatrikulationsordnung (IO)\n  ## (Zutreffendes bitte ankreuzen!)\n  ## Angaben zur Person\n  ##  Name, Vorname:\n  ##  Straße:\n  ##  PLZ, Ort:\n  ## Wichtige Hinweise:"
+    },
+    {
+      "nr": 22,
+      "titel": "www › Organisation › Berufungsmanagement › W2 1 2024 Ausschreibungstext Monitoring",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_1-2024_Ausschreibungstext_Monitoring.pdf",
+      "fakultaet": "",
+      "struktur": "  ## W2-Professur\n  ## Naturwissenschaftlich-technische Grundlagen und Methoden der Wissensvermittlung"
+    },
+    {
+      "nr": 23,
+      "titel": "www › Verkuendungsblatt › 10 2024 › PO BBA",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/PO_BBA.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Betriebswirtschaftslehre (BBA) mit dem Abschluss Bachelor of Science an der Fakultät IV - Wirtschaft und Informatik – der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Geltungsbereich der Prüfungsordnung\n  ## § 3\n  ## Zweck der Prüfung und Hochschulgrad\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5 Art und Umfang der Bachelor-Prüfung\n  ## § 6\n  ## Zulassung zu den Prüfungen des ersten Studienabschnitts\n  ## § 7\n  ## Aufbau und Inhalt des ersten Studienabschnitts\n  ## § 8\n  ## Höchstdauer des ersten Studienabschnitts\n  ## § 9\n  ## Zulassung zum zweiten Studienabschnitt und zur Bachelor-Arbeit\n  ## § 10 Höchstdauer des zweiten Studienabschnitts\n  ## § 11\n  ## Prüfungsanmeldungen und Prüfungszeitpunkte\n  ## § 12\n  ## Arten und Aufteilungsmöglichkeiten von Prüfungsleistungen\n  ## § 13\n  ## Eidesstattliche Versicherungen\n  ## § 14\n  ## Anwesenheitspflichten\n  ## § 15\n  ## Prüfungsvorleistungen\n  ## § 16\n  ## Unbenotete Prüfungsleistungen\n  ## § 17\n  ## Wechsel von Pflicht- und Wahlpflichtmodulen\n  ## § 18\n  ## Verbesserungsversuche\n  ## § 19\n  ## Wiederholung nicht bestandener Prüfungen\n  ## § 20\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 21 Inkrafttreten\n  ## Bachelor-Studiengang Betriebswirtschaftslehre (BBA) - 7 Semester  - PO 2018 / Version 2024\n  ## K2[1] (90 [45-]minütige Klausur)\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## – Umfang der Prüfungsleistungen Richtwerte der gem. Anlagen B1, B2, B3 relevanten Prüfungsformen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch. Vorrangig ist jedoch stets diese Prüfungsordnung."
+    },
+    {
+      "nr": 24,
+      "titel": "www › Verkuendungsblatt › 10 2024 › 04 PO IBS",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/04_PO_IBS.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang International Business Studies (IBS) mit dem Abschluss Bachelor of Science an der Fakultät IV - Wirtschaft und Informatik - der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Geltungsbereich der Prüfungsordnung\n  ## § 3 Zweck der Prüfung und Hochschulgrad\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5 Art und Umfang der Bachelor-Prüfung\n  ## § 6 Zulassung zu den Prüfungen des ersten Studienabschnitts (Bachelorvorprüfung)\n  ## § 7 Aufbau und Inhalt der Bachelorvorprüfung\n  ## § 8 Höchstdauer der Bachelorvorprüfung\n  ## § 9 Zulassung zum zweiten Studienabschnitt und zur Bachelor-Arbeit\n  ## § 10\n  ## Höchstdauer des zweiten Studienabschnitts\n  ## § 11 Studiensemester im Ausland\n  ## § 12\n  ## Prüfungsanmeldungen und Prüfungszeitpunkte\n  ## § 13\n  ## Arten und Aufteilungsmöglichkeiten von Prüfungsleistungen\n  ## § 14\n  ## Eidesstattliche Versicherungen\n  ## § 15 Anwesenheitspflichten\n  ## § 16\n  ## Prüfungsvorleistungen\n  ## § 17 Unbenotete Prüfungsleistungen\n  ## § 18 Wechsel von Wahlpflichtmodulen\n  ## § 19 Verbesserungsversuche\n  ## § 20\n  ## Wiederholung nicht bestandener Prüfungen\n  ## § 21\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 22\n  ## Inkrafttreten\n  ## Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - PO 2018 / Version 2024\n  ## Hinweise:\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 1,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung"
+    },
+    {
+      "nr": 18,
+      "titel": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende"
+    },
+    {
+      "nr": 15,
+      "titel": "Online-Anträge und -Bewerbungen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prüfungsverwaltung der Fakultät I > Ansprechpersonen > Stephan Rittmüller",
+      "snippets": [
+        "## Ansprechpersonen  \n### Stephan Rittmüller\nAllgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\nRicklinger Stadtweg\n30459 Hannover\nGebäude 1A Raum 1A.013\n[ +49 511 9296-1204/-7913 ](tel:+49%20511%209296-1204/-7913 \"+49 511 9296-1204/-7913 anrufen\")\n[ F1-Pruefungsverwaltung(at)hs-hannover.de  ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"An F1-Pruefungsverwaltung\\(at\\)hs-hannover.de eine E-Mail schreiben\")"
+      ],
+      "zitate": [
+        "Allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen",
+        "+49 511 9296-1204/-7913",
+        "F1-Pruefungsverwaltung(at)hs-hannover.de"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prüfungsanmeldung",
+      "snippets": [
+        "Wie kann ich mich im Campusmanagement für eine Prüfung anmelden?",
+        "### Prüfungsanmeldung\n1. Klicken Sie auf der Startseite im Bereich \"_Quicklinks_ \" oben links auf _Prüfung und Studium_.  \n![Campusmanagement_Quicklinks](https://service.it.hs-hannover.de/media/images/Bild_2.width-800.png)\nEs erscheint die folgende Ansicht:\n![Campusmanagement_Prüfungsanmeldung](https://service.it.hs-hannover.de/media/images/Bild_3.width-800.png)\nHier können Sie sich, wie aus dem iCMS bekannt, für eine Prüfung anmelden."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Online-Anträge und -Bewerbungen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Online-Anträge und -Bewerbungen > Für Studieninteressierte und Bewerber:innen > **Hinweis**",
+      "snippets": [
+        "## Für Studieninteressierte und Bewerber:innen\nDas Bewerbungsverfahren erfolgt künftig ausschließlich digital über das [Bewerbungsportal](https://campusmanagement.hs-hannover.de) der Hochschule Hannover.\nAlle erforderlichen Unterlagen werden dort online eingereicht – ein postalischer Versand ist nicht mehr notwendig.\nSobald die Bewerbungsfrist beginnt, können Sie Ihre Unterlagen im Portal hochladen und den Bearbeitungsstatus jederzeit selbst einsehen.\nNach Abschluss des Auswahlverfahrens erhalten Sie Ihre Zulassungs- oder Ablehnungsinformation direkt über das Portal.\n\n### **Hinweis**\nBitte prüfen Sie regelmäßig Ihr Bewerbungs- oder Studierendenportal, um keine Fristen oder Rückmeldungen zu verpassen.\nBei technischen Fragen oder Problemen mit dem Login wenden Sie sich bitte an den [Info-Point](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/info-point)\n\n## Für Studierende\nAuch für bereits eingeschriebene Studierende werden ab dem Sommersemester 2026 (02.03.2026) ausgewählte Antragsverfahren digitalisiert.  \nFolgende Anträge\n* [Beurlaubung](https://typo3backend-live.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/beurlaubung)\n* [Exmatrikulation](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/exmatrikulation-1)\n* [Gebührenbefreiung/-minderung](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)\n* [Befreiung vom Deutschlandticket](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/deutschlandticket)\n* [Antrag auf Befreiung der Langzeitstudiengebühr gem. § 13 und § 14](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/langzeitstudiengebuehren)",
+        "### **Hinweis**\nBitte prüfen Sie regelmäßig Ihr [Campusmanagement](https://campusmanagement.hs-hannover.de), um keine Fristen oder Rückmeldungen zu verpassen.\nBei Fragen oder Problemen wenden Sie sich bitte an den [Info-Point](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/info-point)."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.2871,
+      "id": "0a303b4b-73d8-5ab9-bff4-ec53a7381a49",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I > Ansprechpersonen > Stephan Rittmüller",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "#  Prüfungsverwaltung der Fakultät I\n[ Ansprechpersonen ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung#ansprechpersonen) [ Formulare/Prüfungsangelegenheiten ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung#formulare)\n\n## Ansprechpersonen "
+    },
+    {
+      "rang": 2,
+      "score": 2.27128,
+      "id": "9036256b-f8e1-577b-888e-e461597358e3",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/gleichstellung-und-diversitaet",
+      "title_anzeige": "Gleichstellung und Diversität",
+      "section_heading": "Gleichstellung und Diversität > Ihre Ansprechperson",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "#  Gleichstellung und Diversität  \n## Herzlich willkommen\nauf den Seiten des Gleichstellungsbüros der Fakultät I. Sie können sich hier über Fördermöglichkeiten und Hilfsangebote informieren, einen individuellen Gesprächstermin vereinbaren oder den für Sie und Ihr Anliegen passenden Gespächspartner r"
+    },
+    {
+      "rang": 3,
+      "score": 2.02984,
+      "id": "57319fae-a700-51ea-85eb-47baaa30faac",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik > Sprechen Sie sich aus.",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "[Neu in Hannover](https://www.facebook.com/groups/NewinHanover/?fref=ts \"Neu in Hannover\"): Geschlossene Gruppe, in der Tipps gegeben und Fragen beantwortet werden. Von Insider zu Neu-Hannoveraner_in und andersrum.\n\n## Sprechen Sie sich aus.\nDas waren viele Informationen, die erstmal verdaut werden "
+    },
+    {
+      "rang": 4,
+      "score": 1.64774,
+      "id": "a2eaa9e8-a7d0-5332-bc12-dbe531dd1eb5",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+      "title_anzeige": "f1 › 99 Sonstiges › Internationales › Engl. Lectures FI II WS 26 27",
+      "section_heading": "**CONTACT INTERNATIONAL FACULTY OFFICE (IFO)**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **CONTACT INTERNATIONAL FACULTY OFFICE (IFO)**  \nFor questions regarding courses and faculty matters: **Viola Wedekind** IFO **for Faculty I - Electrical Engineering Meike Marten** IFO **for Faculty II - Mechanical Engineering Gudrun Hüper** IFO **for Faculty I & II Substitute** Email: viola.wede"
+    },
+    {
+      "rang": 5,
+      "score": 1.46801,
+      "id": "14b50841-ffad-589a-95d8-afa54b2a4067",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Engl._Lectures-FI-II_WS_25-26.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 60 Sonstige › Engl. Lectures FI II WS 25 26",
+      "section_heading": "**CONTACT INTERNATIONAL FACULTY OFFICE (IFO)**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **CONTACT INTERNATIONAL FACULTY OFFICE (IFO)**  \nFor questions regarding courses and faculty matters: **Ms. Viola Wedekind** IFO **for Faculty I - Electrical Engineering Ms. Meike Marten** IFO **for Faculty II - Mechanical Engineering** Email: viola.wedekind@hs-hannover.de Phone: +49 511 9296-131"
+    },
+    {
+      "rang": 6,
+      "score": 1.32242,
+      "id": "08fed6d4-2296-51b3-82ea-de731856aa68",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Bescheinigung_Praxisphase_ab_SoSe_23.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Bescheinigung Praxisphase ab SoSe 23",
+      "section_heading": "**Wichtig: Diese Bescheinigung ist nur zusammen mit einer aktuellen Immatrikulationsbescheinigung gültig.**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Wichtig: Diese Bescheinigung ist nur zusammen mit einer aktuellen Immatrikulationsbescheinigung gültig.**  \nMit freundlichen Grüßen  \nProf. Dr.-Ing. Jan Peter Blath Studiendekan  \n**Kontakt** Prüfungsverwaltung Telefon: +49 511 9296-1204 F1-dekanatsbuero@hs-hannover.de www.hs-hannover.de USt-Id"
+    },
+    {
+      "rang": 7,
+      "score": 1.20429,
+      "id": "dd5d429b-70c7-549b-b112-4abad056c787",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Praxisphase_Anmeldung.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Praxisphase Anmeldung — BACHELOR- PRAXISPHASE",
+      "section_heading": "**BACHELOR- PRAXISPHASE** > **2. Prüfungsanmeldung**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **2. Prüfungsanmeldung**  \nDer Antragsteller hat die Praxisphase im Prüfungsverwaltungssystem (iCMS) angemeldet. Der iCMS Ausdruck „Info über angemeldete Prüfungen“ ist der/dem Betreuenden vorzulegen.  \nDatum, Unterschrift des Antragstellers: ____________________________________________"
+    },
+    {
+      "rang": 8,
+      "score": 1.12115,
+      "id": "bc18985a-b5d1-5a7c-b3e7-830229c9dcac",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I > Formulare/Prüfungsangelegenheiten > Prüfungsverwaltung der Fakultät I",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## Formulare/Prüfungsangelegenheiten\n##\n[ Prüfungsverwaltung ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"Prüfungsverwaltung\")\n[Prüfungsplan](https://f1-ppview.wp.hs-hannover.de/)\n[Prüfungsanmeldung](https://icms.hs-hannover.de/qisserver/rds?state=user&type=0)\n[Kra"
+    },
+    {
+      "rang": 9,
+      "score": 1.08741,
+      "id": "eedb428b-8e0a-5cc4-a561-7c3ffa1f01cf",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "section_heading": "**2. Prüfungsanmeldung**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **2. Prüfungsanmeldung**  \nDer Antragsteller hat das Projekt im Prüfungsverwaltungssystem (iCMS) angemeldet. Der iCMS Ausdruck „Info über angemeldete Prüfungen“ ist den Betreuenden vorzulegen.  \nDatum, Unterschrift des Antragstellers: ____________________________________________"
+    },
+    {
+      "rang": 10,
+      "score": 1.03484,
+      "id": "adab0969-b964-530b-9a30-f2dd9a001b9a",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/20_Praxisphasenordnung/20121213_Praxisphasen-Ordnung.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 20 Praxisphasenordnung › 20121213 Praxisphasen Ordnung",
+      "section_heading": "**§  5** > **Zulassung  zu  der/den  Praxisphase(n)  und  Betreuung**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "- (2) Die  fachliche  Betreuung  der  Studentin  oder  des  Studenten  der  Praxisphase(n)  seitens  der Hochschule  übernimmt  eine  Professorin  oder  ein  Professor  der  Fakultät  I  -  Elektro-  und Informationstechnik.  Die  Bertreuung  kann  auch  von  einer  Professorin  oder  einem  Profess"
+    },
+    {
+      "rang": 11,
+      "score": 0.99684,
+      "id": "ae0cdca4-0414-5769-99f3-d4d7129e41a0",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/20_Masterstdg/EEE/MPO_EEE_2021verk.pdf",
+      "title_anzeige": "f1 › 20 Masterstdg › EEE › MPO EEE 2021verk",
+      "section_heading": "**der Hochschule Hannover (PO EEE 2021)** > **Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch.**",
+      "chunk_index": 24,
+      "text_vollstaendig": false,
+      "auszug": "## **Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch.**  \n**Zu Fragen bzgl. des Genehmigungsverfahrens wenden Sie sich an Frau Kandl und Herrn Zimmer / Dezernat III - Prüfungsordnungsmanagement.**  \nDezernat 3 / PO EEE / 26.07.2021"
+    },
+    {
+      "rang": 12,
+      "score": 0.99304,
+      "id": "2e693f74-adc4-5b6b-bdc1-26dca4b1b4e0",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/studienprogramme/studymint",
+      "title_anzeige": "Orientierungssemester StudyMINT",
+      "section_heading": "StudyMINT - das Orientierungssemester > Kontakt > StudyMINT - das Orientierungssemester > Sie haben Fragen oder Anregungen? Wenden Sie sich gern an uns!",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "## Kontakt\n## Sie haben Fragen oder Anregungen? Wenden Sie sich gern an uns!\nHochschule Hannover\nStudyMINT - das Orientierungssemester  \nDr. Doris Schmidt (V.d.P.)\nBismarckstraße 2\n30173 Hannover  \nRaum: 5A.0.33\n[ +49 511 9296-7321 ](tel:+49%20511%209296-7321 \"+49 511 9296-7321 anrufen\")\n[ doris.sch"
+    },
+    {
+      "rang": 13,
+      "score": 0.98352,
+      "id": "a4995ec1-605c-5ee7-9347-5a6c631740c9",
+      "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+      "title_anzeige": "f1 › semesterstart 1",
+      "section_heading": "Semesterstart",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Semesterstart\n_ _\nScrollen für mehr Infos!\nLiebe Studierende der Fakultät I,\nwir freuen uns sehr, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informationstechnik entschieden haben.  \nFür einen reibungslosen Start finden Sie hier alle wichtigen Informationen zum Semesterbeginn. "
+    },
+    {
+      "rang": 14,
+      "score": 0.9537,
+      "id": "b3878450-2b1c-55a1-a1a8-bbf809852ff3",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Fak_I_Broschuere_Outgoings-_2022_Endversion.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › Fak I Broschuere Outgoings 2022 Endversion — GoING out - studyING abroad",
+      "section_heading": "Bewerbung:",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "## Bewerbung:  \nDie Bewerbungsunterlagen  sollten umfassen: 1. Motivationsschreiben mit Angabe des Studiengangs und des derzeitigen Fachsemesters, 3. Notenspiegel aus QUISPOS/iCMS, 4. Sprachnachweis Englisch (und wenn bereits vorhanden Chinesisch).  \nWenden Sie sich gerne an Viola Wedekind (viola.we"
+    },
+    {
+      "rang": 15,
+      "score": 0.94945,
+      "id": "f530da04-fcfe-5d68-93dd-354304f40ef2",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/06-23_Krankmeldung_F1.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › 06 23 Krankmeldung F1",
+      "section_heading": "**Ärztliches Attest über Prüfungsunfähigkeit zur Vorlage beim Prüfungsausschuss**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Ärztliches Attest über Prüfungsunfähigkeit zur Vorlage beim Prüfungsausschuss**  \n– Bitte nur **digital per E-Mail bei der Prüfungsverwaltung** der HSH, Fakultät I einreichen –"
+    },
+    {
+      "rang": 16,
+      "score": 0.93836,
+      "id": "d26d4104-2176-50d7-bd8b-7dba343a14e5",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+      "title_anzeige": "f1 › 99 Sonstiges › Internationales › Engl. Lectures FI II WS 26 27",
+      "section_heading": "**ICM Inter Cultural Management Training**",
+      "chunk_index": 62,
+      "text_vollstaendig": false,
+      "auszug": "_It is important that you will transfer the money in advance for_\n_the organisation._\n**Please transfer your fee to the following account:**\nHochschule Hannover\nAccount no.: 106020084\nBank no./BLZ: 25050000; Bank Name:\nNorddeutsche Landesbank\nIBAN: DE13250500000106020084; BIC:\nNOLADE2HXXX\nVerwendung"
+    },
+    {
+      "rang": 17,
+      "score": 0.93465,
+      "id": "eff53a64-d704-55e5-baab-a95a0d5ab84c",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Allgemeine_Laborordnung_F1_2024-05_Entwurf_20240527.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 60 Sonstige › Allgemeine Laborordnung F1 2024 05 Entwurf 20240527",
+      "section_heading": "**Fakultät I - Elektro- und Informationstechnik Laborordnung**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **Fakultät I - Elektro- und Informationstechnik Laborordnung**  \nEs wird von jedem Nutzungsberechtigten erwartet, dass er weiß, wie er sich bei einem Unfall oder Notfall zu verhalten hat. Die wichtigsten Grundsätze sind folgende:  \n- Not-Aus-Schalter betätigen oder Spannungsfreiheit herstellen.  "
+    },
+    {
+      "rang": 18,
+      "score": 0.93407,
+      "id": "dcbc9aea-b0e8-55c2-a2e5-62008d7d878e",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EM_WS2021.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch EEE EM WS2021",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 161,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDie Studierenden - kennen die wichtigsten Methoden und Sätze der Vektoranalysis und können diese an Beispielen veranschaulichen.  \n- können eigenständig Lösungsansätze für Aufgaben aus diesem Bereich erarbeiten, insbesondere bei der Berechnung von Feldern.  \n- erk"
+    },
+    {
+      "rang": 19,
+      "score": 0.92941,
+      "id": "b3852fbb-7971-5336-8730-c97e0c95a1bf",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/06-23_Krankmeldung_F1.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › 06 23 Krankmeldung F1",
+      "section_heading": "**Hinweise für Studierende:**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **Hinweise für Studierende:**  \n- Nach § 9 Abs. 3 des Allgemeinen Teils der Prüfungsordnung für die Bachelor- und MasterStudiengänge an der Hochschule Hannover müssen die für den Rücktritt von einer Prüfung geltend gemachten Gründe dem Prüfungsausschuss unverzüglich schriftlich angezeigt und glau"
+    },
+    {
+      "rang": 20,
+      "score": 0.92126,
+      "id": "30a2c31e-1341-56a6-9819-efa444d9ecf2",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Wichtige_Hiweise_fuer_die_Praxisphase_17.2.2025.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 60 Sonstige › Wichtige Hiweise fuer die Praxisphase 17.2.2025",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Das Anmeldeformular für die Praxisphase muss in allen Bachelorstudiengängen der Fakultät für Elektro- und Informationstechnik verwendet werden. Dabei befolgen Sie bitte das auf dem Formular beschriebene Verfahren.  \nBitte tragen Sie **vor Beginn** Ihre Praxisphase im iCMS ein.  \nhttps://icms.hs-hann"
+    },
+    {
+      "rang": 21,
+      "score": 0.91499,
+      "id": "143c13fb-af3e-5a95-bcce-5754148c6e48",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 67 ADT WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Qualifikationsziele** > **Absolventinnen und Absolventen**",
+      "chunk_index": 18,
+      "text_vollstaendig": false,
+      "auszug": "- verstehen betriebswirtschaftliche Grundlagen und können diese auf ingenieurtechnische Fragestellungen anwenden.  \n- …wenden erlerntes Wissen an, erarbeiten Lösungen, und beurteilen mit Hilfe von Fachkenntnissen:  \n- können digitale Systeme mit VHDL entwickeln, simulieren und analysieren. Sie sind "
+    },
+    {
+      "rang": 22,
+      "score": 0.90269,
+      "id": "75a0bc0f-36ad-5929-8359-5c3ad76bfffd",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "section_heading": "**3. Einverständnis der Betreuenden**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **3. Einverständnis der Betreuenden**  \n(Hauptamtl. Lehrpersonen oder Wiss. Mitarbeiter der Fakultät I; EWI auch Fakultät IV, MEC auch Fakultät II, MAT auch Fakultät II oder IV. Wenn der 1. Betreuende nicht aus Fakultät I ist, muss der 2. Betreuende aus Fakultät I sein.)  \nWir übernehmen die Betr"
+    },
+    {
+      "rang": 23,
+      "score": 0.89175,
+      "id": "97a10c1d-0c82-5dc5-89f2-b0c6cf180b44",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EV_WS2021.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch EEE EV WS2021",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 118,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDie Studierenden - kennen die wichtigsten Methoden und Sätze der Vektoranalysis und können diese an Beispielen veranschaulichen.  \n- können eigenständig Lösungsansätze für Aufgaben aus diesem Bereich erarbeiten, insbesondere bei der Berechnung von Feldern.  \n- erk"
+    },
+    {
+      "rang": 24,
+      "score": 0.8554,
+      "id": "2a69fd26-dbcb-5a9a-b46e-d80d6a7f9e55",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/68_EAE_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 68 EAE WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Angestrebte Lernergebnisse** > Die Studierenden",
+      "chunk_index": 88,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**\n\n## Die Studierenden  \n- kennen die wesentlichen Elemente der Programmiersprache C und können diese wiedergeben.  \n- verstehen die grundlegenden Bestandteile und Prinzipien elementarer, prozeduraler Programmierung anhand der Programmiersprache C und  können diese er"
+    },
+    {
+      "rang": 25,
+      "score": 0.85178,
+      "id": "c54a8e1a-5501-5c0e-8716-c9e841373595",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_die_Abschlussarbeit_und_das_Kolloquium.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer die Abschlussarbeit und das Kolloquium — Wichtige Hinweise für die Abschlussarbeit und das Kolloquium",
+      "section_heading": "**Wichtige Hinweise für die Abschlussarbeit und das Kolloquium**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Wichtige Hinweise für die Abschlussarbeit und das Kolloquium**  \nBitte melden Sie die **Abschlussarbeit** und das **Kolloquium** nicht im iCMS an. Beide Prüfungsleistungen **sind genehmigungspflichtig** . Der Eintrag im iCMS wird nach Prüfung des Zulassungsantrages zur Abschlussarbeit durch die"
+    },
+    {
+      "rang": 26,
+      "score": 0.84006,
+      "id": "90105d04-4cd5-575f-99c5-995d74aff1e8",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/69_SKI_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 69 SKI WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Angestrebte Lernergebnisse** > Die Studierenden",
+      "chunk_index": 87,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**\n\n## Die Studierenden  \n- kennen die wesentlichen Elemente der Programmiersprache C und können diese wiedergeben.  \n- verstehen die grundlegenden Bestandteile und Prinzipien elementarer, prozeduraler Programmierung anhand der Programmiersprache C und  können diese er"
+    },
+    {
+      "rang": 27,
+      "score": 0.83652,
+      "id": "f77b29cf-e7b5-5f27-b98e-eb8193e78b39",
+      "source_url": "https://f1.hs-hannover.de/studium/internationales/finanzierungs-und-unterstuetzungsmoeglichkeiten",
+      "title_anzeige": "Finanzierungs- und Unterstützungsangebote",
+      "section_heading": "Finanzierungs- und Unterstützungsangebote > Stipendien > [\"Promos-Stipendien\" und \"ISAP\"-Stipendien für das außereuropäische Ausland](https://f1.hs-hannover.de/studium/internationales/finanzierungs-und-unterstuetzungsmoeglichkeiten)",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Beratung zu Finanzierungsmöglichkeiten Ihres Auslandsaufenthaltes: Patricia Schmelzeisen aus dem Servicezentrum Beratung.  \nZudem vergeben die Fakultäten I und II Vollstipendien für einen Auslandsaufenthalt an den Partnerhochschulen, der ZUST in Hangzhou, China und der UTeM in Melakka, Malaysia im R"
+    },
+    {
+      "rang": 28,
+      "score": 0.82812,
+      "id": "d2767146-d6d8-5120-9fc7-deacb041e55c",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Freie Studienplätze - Bewerben Sie sich jetzt für das Wintersemester 2026/27 (Semesterbeginn: 01.09.2026) über das > Wir stellen uns vor",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "![](https://f1.hs-hannover.de/fileadmin/_processed_/3/c/csm__RL83898_596b0bd211.jpg?rbiFocus=mobile)\nDie Fakultät I ist eine Organisationseinheit der Hochschule Hannover. Sie wurde zum Sommersemester 2007 aus dem Fachbereich Elektro‐ und Informationstechnik sowie dem Fachgebiet „Technische Redaktion"
+    },
+    {
+      "rang": 29,
+      "score": 0.82549,
+      "id": "46bb8517-3219-53d3-965b-9d4b0af68e3a",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/80_Lageplaene/Lageplan_Linden20170915.pdf",
+      "title_anzeige": "f1 › 10 Bilder › 80 Lageplaene › Lageplan Linden20170915",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Ricklinger Stadtweg 120, 30459 Hannover\nRaumnummernsystematik:  z.B.\nFakultäten I und II 1A.0.01\n1   Standort Linden\nA    Gebäudeteil\n0      Geschoss\n01  lfd. Nummer\nIT ServiceDesk\nAudi-\nmax\nHaupteingang\nAula\nDekanate\nFak I + II\nZLB-Studienberatung\nFakultäten I und II\nBibliothek\nFakultät IV Studiere"
+    },
+    {
+      "rang": 30,
+      "score": 0.81374,
+      "id": "1c2e07ed-9edd-5187-96f5-07840d8b8b62",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "section_heading": "**Wichtige Hinweise für Projekte bzw. Studienprojekte**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Wichtige Hinweise für Projekte bzw. Studienprojekte**  \nFür alle Bachelor- und Masterstudiengänge der Fakultät I - Elektro- und Informationstechnik, gilt es, **ausschließlich** das Antragsformular für Projekte bzw. Studienprojekte mit dem im Formular enthaltenen Verfahren anzuwenden.  \nBitte tr"
+    },
+    {
+      "rang": 31,
+      "score": 0.80358,
+      "id": "e74c85ec-9d31-5851-85ac-4b8a633bebdb",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EV_WS2021.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch EEE EV WS2021",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDie Studierenden können - die grundlegende Bedeutung des Systembegriffs und seiner Konzepte in den Ingenieurwissenschaften erläutern,  \n- rechnergestützte Verfahren erstellen,  \n- kontinuierliche und diskrete Systeme analysieren,  \n- insbesondere aktuelle Methoden"
+    },
+    {
+      "rang": 32,
+      "score": 0.80069,
+      "id": "9d773f66-4cd1-543f-bf6f-fd6e3abfd714",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge/elektrische-energiesysteme-und-elektromobilitaet-eee",
+      "title_anzeige": "Elektrische Energiesysteme und Elektromobilität (EEE)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ... ](https://w"
+    },
+    {
+      "rang": 33,
+      "score": 0.80069,
+      "id": "ff2d4f3c-5b8f-57d6-9c91-b2a33bce751b",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge/sensor-und-automatisierungstechnik-esa",
+      "title_anzeige": "Sensor- und Automatisierungstechnik (ESA)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ... ](https://w"
+    },
+    {
+      "rang": 34,
+      "score": 0.7929,
+      "id": "4c3f7723-8842-50c9-9306-86e257b3fc6c",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/2022_Duales_Studienkonzept.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › 2022 Duales Studienkonzept",
+      "section_heading": "**Bewerbungen bitte direkt an die Firmen !**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "**Drewsen Spezialpapiere:** Frau Rusche  Anja.Rusche@drewsen.com **Minda Industrieanlagen:** Herr Altvater j.altvater@minda.de  \n**Zentrale Polizeidirektion Niedersachsen:** Frau Frers mareike.frers@polizei.niedersachsen.de **ILFA GmbH:** Herr Uckun I.Uckun@ilfa.de  \nEinige Firmen ermöglichen einen "
+    },
+    {
+      "rang": 35,
+      "score": 0.79055,
+      "id": "0c550a46-f4be-5410-9d4f-4d217ace2317",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EM_WS2021.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch EEE EM WS2021",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 115,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDas Modul verbreitet die Kompetenzen der Studierenden über die gewählte Vertiefung hinaus. Die Studierenden können  \n- wissenschaftliche Grundlagen sowie spezialisiertes und vertieftes Fachwissen der nicht gewählten Vertiefungsrichtung und aus angrenzenden Fachgeb"
+    },
+    {
+      "rang": 36,
+      "score": 0.78476,
+      "id": "a04f32de-7e3f-5399-88e8-6481f39ba65f",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Bafoeg_Tuerinfo_Koch_SoSe_26.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › Bafoeg Tuerinfo Koch SoSe 26 — BAföG-Beauftragter FB Elektro- und Informationstechnik",
+      "section_heading": "**Bitte nutzen Sie ggfs. auch mein HsH-Postfach:**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Bitte nutzen Sie ggfs. auch mein HsH-Postfach:**  \n- Formulierung Ihres Anliegens, BAföG- Anschreiben (falls vorhanden)  \n- aktuelle Leistungsübersicht (kann auch von mir gedruckt werden)  \n- Telefon-/Handynummer, E-mail- Adresse u, Postanschrift  \n- Aufstellung der eventuell noch fehlenden Prü"
+    },
+    {
+      "rang": 37,
+      "score": 0.76948,
+      "id": "22157282-cfff-5f71-a230-32d9b689f904",
+      "source_url": "https://f1.hs-hannover.de/studium/internationales/bewerbung",
+      "title_anzeige": "Schritt für Schritt ins Ausland",
+      "section_heading": "Schritt für Schritt ins Ausland > In acht Schritten ins Auslandsemester > Schritt für Schritt ins Ausland",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "[ Schritt 2: Kontaktaufnahme zum International Faculty Office oder dem International Coordinator  ](https://f1.hs-hannover.de/studium/internationales/bewerbung \"Schritt 2: Kontaktaufnahme zum International Faculty Office oder dem International Coordinator \")\nWenden Sie sich an den Internationalen Ko"
+    },
+    {
+      "rang": 38,
+      "score": 0.75571,
+      "id": "def47b17-cfab-59e9-aeec-6ca178d2a743",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "title_anzeige": "Elektrotechnik und Informationstechnik (EIT)",
+      "section_heading": "Sie wollen nicht nur wissen, wie Dinge funktionieren ... > Dokumente > Sie wollen nicht nur wissen, wie Dinge funktionieren ...",
+      "chunk_index": 24,
+      "text_vollstaendig": true,
+      "auszug": "Studierende, die ihr Studium bis zum Sommersemester 2025 aufgenommen haben, studieren in den bis dahin gülitgen Prüfungsordnungen und Vertiefungen. Auf Antrag kann in die neue Prüfungsordnung mit den neuen Vertiefungsrichtungen gewechselt werden. Bei inhaltlichen Fragen dazu wenden Sie sich bitte an"
+    },
+    {
+      "rang": 39,
+      "score": 0.75422,
+      "id": "6591f371-c155-555a-ad35-a7bed0110102",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "title_anzeige": "Mechatronik (MEC)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 22,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 40,
+      "score": 0.75422,
+      "id": "348bce65-1de0-5aa0-8c32-708a7f34d45a",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "title_anzeige": "Elektrotechnik und Informationstechnik (EIT)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 35,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 41,
+      "score": 0.75412,
+      "id": "ebf0d8e6-892e-556d-889d-599102d4dafb",
+      "source_url": "https://f1.hs-hannover.de/service-1-2",
+      "title_anzeige": "- Ordnungen - Module - Akkreditierungen -",
+      "section_heading": "- Ordnungen - Module - Akkreditierungen - > Auf dieser Seite sind für Studierende und Interessierte ausführliche Informationen zu Ordnungen, Modulen und Studienstrukturen aller Studiengänge der Fakultät I aufgelistet. > - Ordnungen - Module - Akkreditierungen - > Auf einen Blick",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Auf dieser Seite sind für Studierende und Interessierte ausführliche Informationen zu Ordnungen, Modulen und Studienstrukturen aller Studiengänge der Fakultät I aufgelistet.\n\n### Auf einen Blick\n* [ Ordnungen ](https://f1.hs-hannover.de/service-1-2#ordnungen)\n* [ Module ](https://f1.hs-hannover."
+    },
+    {
+      "rang": 42,
+      "score": 0.754,
+      "id": "e86b3bf1-9e91-5a50-8b02-31e163b6b025",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat",
+      "title_anzeige": "Angewandte Mathematik und Data Science (MAT)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 32,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 43,
+      "score": 0.754,
+      "id": "07552e8f-df54-589b-9044-89968ffd97ec",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi",
+      "title_anzeige": "Wirtschaftsingenieur Elektrotechnik (EWI)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 44,
+      "score": 0.754,
+      "id": "e5ca1947-d0db-54f1-ac23-c46440e597b4",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/technisches-informationsdesign-und-technische-redaktion-itr",
+      "title_anzeige": "Technisches Informationsdesign und Technische Redaktion (ITR)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 27,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 45,
+      "score": 0.754,
+      "id": "b002dba5-6b3a-500a-a967-415754587d52",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/nachhaltige-elektrische-energieversorgung-nev",
+      "title_anzeige": "Nachhaltige Elektrische Energieversorgung (NEV)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 46,
+      "score": 0.7441,
+      "id": "7c76d1dd-2d3d-522e-b771-3f554a3a286c",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Klausuren_Protokollblatt.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Klausuren Protokollblatt — BACHELOR- / DIPLOM- / MASTERPROTOKOLLBLATT",
+      "section_heading": "**BACHELOR- / DIPLOM- / MASTERPROTOKOLLBLATT**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **BACHELOR- / DIPLOM- / MASTERPROTOKOLLBLATT**  \nSommer/Winter*) –Semester 20..../....  \n|Teilprüfungsleistung im Fach:________________________________________________________|\n|---|\n|Bearbeitungszeit:_____________________ Prüfer:______________________________________|\n|Raum-Nr.:_________________"
+    },
+    {
+      "rang": 47,
+      "score": 0.74014,
+      "id": "f62483fa-50af-5ad6-9b2d-dc4a6aef235b",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/ATPO_2015.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 10 Pruefungsordnungen › ATPO 2015",
+      "section_heading": "**§ 6** > **Zulassung zu Prüfungen**",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 6**\n## **Zulassung zu Prüfungen**  \n- (1) Der Antrag auf Zulassung zu den einzelnen Prüfungen der Vorprüfung, der Bachelorbzw. Master-Prüfung ist nach näherer Bestimmung des Besonderen Teils der Prüfungsordnung für den jeweiligen Studiengang schriftlich beim zuständigen Prüfungsausschuss inne"
+    },
+    {
+      "rang": 48,
+      "score": 0.73963,
+      "id": "5696fda5-30ee-56ec-9a0d-10b36b250de3",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › BPO MEC 12.2023",
+      "section_heading": "**§ 11** > **Inkrafttreten**",
+      "chunk_index": 18,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 11**\n## **Inkrafttreten**  \nDieser Besondere Teil der Prüfungsordnung tritt nach ihrer Genehmigung durch das Präsidium am Tage der Bekanntgabe im Verkündungsblatt der Hochschule Hannover in Kraft.  \n*****  \n|Neufassung||\n|---|---|\n|Verkündungsblatt Nr.\n1/2010 vom|03.02.2010|\n|1. Änderung||\n|B"
+    },
+    {
+      "rang": 49,
+      "score": 0.73828,
+      "id": "9c19d0d1-0fa2-557a-8fd3-6333d93ab9c1",
+      "source_url": "https://f1.hs-hannover.de/service/f1-quicklinks",
+      "title_anzeige": "f1 › service › f1 quicklinks — F1-Quicklinks",
+      "section_heading": "F1-Quicklinks",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "##  F1-Quicklinks\n[ Anzeigesystem ](https://f1.wp.hs-hannover.de/meldungen/meldungen.php)\n[ Klausureinsichten & mündliche Prüfungen ](https://f1.hs-hannover.de/service/f1-quicklinks/klausureinsichten-muendliche-pruefungen)\n[ Laboranmeldungen ](https://f1.hs-hannover.de/service/f1-quicklinks/labor)\n["
+    },
+    {
+      "rang": 50,
+      "score": 0.73493,
+      "id": "9a56db95-98af-54ae-803c-9b9db0e69831",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "##### Unser Selbstverständnis\nEin respektvoller, wertschätzender Umgang miteinander – ob nun per Sie oder du – ist für uns selbstverständlich. Wir fördern Diversität, Austausch und kulturelle Vielfalt und wenden uns strikt gegen alle Formen von Diskriminierung und Benachteiligung aufgrund ethnischer"
+    },
+    {
+      "rang": 51,
+      "score": 0.72455,
+      "id": "207aa872-956f-57fa-a015-d2e7ec268565",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/technisches-informationsdesign-und-technische-redaktion-itr",
+      "title_anzeige": "Technisches Informationsdesign und Technische Redaktion (ITR)",
+      "section_heading": "Kurzübersicht > Kontakt > Dekanat",
+      "chunk_index": 25,
+      "text_vollstaendig": true,
+      "auszug": "### Dekanat\nSekretariat\nRicklinger Stadtweg 120\n30459 Hannover  \nRaum 1A.1.12\n[ +49 511 9296-1206/-7991 ](tel:+49%20511%209296-1206/-7991 \"+49 511 9296-1206/-7991 anrufen\")\n[ f1-dekanatsbuero(at)hs-hannover.de  ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/te"
+    },
+    {
+      "rang": 52,
+      "score": 0.72057,
+      "id": "7d31147c-7b05-57e0-87f6-e099072d2b9e",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > **Gleichstellungsbüro der Fakultät I** > Erstsemesterinformation 27.02.2026 > Beratung insbesondere für",
+      "chunk_index": 54,
+      "text_vollstaendig": true,
+      "auszug": "## **Gleichstellungsbüro der Fakultät I**\n\n## Beratung insbesondere für  \n- Studierende mit Kind(ern)  \n- Frauen  \n- Studierende mit Handicap  \n- international Studierende"
+    },
+    {
+      "rang": 53,
+      "score": 0.71826,
+      "id": "9ddcc249-8e75-56d7-8a86-4585c3d93a7b",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee: > Die Fakultät I in Zahlen",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## Die Fakultät I in Zahlen\nStudierende\nStudienplätze\nStudiengänge\nProfessorinnen und Professoren\nLehrbeauftragte\nMitarbeiterinnen und Mitarbeiter\n[ ![Bachelor-Studiengänge](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/30_Grafiken/10_Kacheln_f_Seitenwahl/b_std.jpg?rbiFocus=mobile) ](https://f"
+    },
+    {
+      "rang": 54,
+      "score": 0.7137,
+      "id": "8d2decec-3823-5294-9b3b-7ec0cd67ba7a",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Beratungsangebote_SS26.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › Beratungsangebote SS26 — Studiendekan",
+      "section_heading": "**Studiengangsleiter des Studiengangs Sensor- und Automatisierungstechnik (ESA)**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "**Prüfungsausschuss-** Prof. Dr.-Ing. Tegeler Nach Vereinbarung per E-Mail **Vorsitzender** R. 1E.1.22 , Tel. 9296-1215 sebastian.tegeler@hs-hannover.de **Anerkennung von** Prof. Dr. Finke Montag 11:30 - 14:00 Uhr **Prüfungsleistungen** R. 1A.2.39, Tel. 9296-1273 ullrich.finke@hs-hannover.de **Prüfu"
+    },
+    {
+      "rang": 55,
+      "score": 0.71066,
+      "id": "f14f82ba-8b2d-5e1c-b60c-02045828a211",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/gleichstellung-und-diversitaet",
+      "title_anzeige": "Gleichstellung und Diversität",
+      "section_heading": "Gleichstellung und Diversität > Ihre Ansprechperson > Gleichstellungsbeauftragte der Fakultät I",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Gleichstellungsbeauftragte der Fakultät I\n**Dr. Doris Schmidt**\n_Verwalterin einer Professur, Elektro- und Informationstechnik (F1E)_\nRaum: 5A.0.33\nBismarckstr. 2\n30173 Hannover\n[ +49 511 9296 7321 ](tel:+49%20511%209296%207321)\ndoris.schmidt(at)hs-hannover.de\nProfil"
+    },
+    {
+      "rang": 56,
+      "score": 0.6636,
+      "id": "7fd9415c-7b77-5980-875a-baba9b1178a8",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Bafoeg_Tuerinfo_Koch_SoSe_26.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › Bafoeg Tuerinfo Koch SoSe 26 — BAföG-Beauftragter FB Elektro- und Informationstechnik",
+      "section_heading": "**Wichtig** > **Bafög-Sprechstunde in den Semesterferien: Info-System**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **Wichtig**\n\n## **Bafög-Sprechstunde in den Semesterferien: Info-System**  \nOrt: 1E.1.22  \n**Im Vorlesungszeitraum** : wie oben angegeben in Raum 1E.1.22 .  \nIn dringenden Fällen: Koch Mobiltelefon: 0173 5478005  \nVoraussetzung für positive Bescheinigung des 4. Fachsemesters nach §48: Prüfungen d"
+    },
+    {
+      "rang": 57,
+      "score": 0.65339,
+      "id": "b3cba0d7-fbc3-5a03-b591-26a0de7971ad",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/ATPO_2015.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 10 Pruefungsordnungen › ATPO 2015",
+      "section_heading": "**§ 6** > **Zulassung zu Prüfungen**",
+      "chunk_index": 24,
+      "text_vollstaendig": true,
+      "auszug": "- (5) Der Prüfungsausschuss kann beschließen, dass die Zulassung zu den Prüfungsteilen der Vorprüfung, der Bachelor- bzw. Master-Prüfung auf Grund der Meldung zur jeweils ersten Prüfungsleistung des betreffenden Studienabschnittes erfolgt. Zu den jeweils folgenden Prüfungsteilen ist zugelassen, wer "
+    },
+    {
+      "rang": 58,
+      "score": 0.64871,
+      "id": "4cdc8214-3319-56f0-852f-205a16ba7c75",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch ITR",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 174,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDie Studierenden stellen Probleme im Umgang mit Massendaten zusammen. Die Studierenden benennen die wesentlichen Ideen des Datenbanksystemansatzes. Die Studierenden beschreiben die Aufgabe des Datenbankentwurfes im Relationalen Modell. Die Studierenden schätzen di"
+    },
+    {
+      "rang": 59,
+      "score": 0.64368,
+      "id": "8038ea2c-11a2-5f67-a13c-08a8ff1c7cdc",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 67 ADT WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Vertiefung Automatisierung und nachhaltige, digitale Transformation: Wahlmodule des 2. Studienabschnitts** > **Angestrebte Lernergebnisse** > **Vertiefung Automatisierung und nachhaltige, digitale Transformation: Wahlmodule des 2. Studienabschnitts** > Die Studierenden",
+      "chunk_index": 441,
+      "text_vollstaendig": false,
+      "auszug": "- kennen die Anforderungen an Persönlichkeit und Motivation von Gründer/innen und  \n- können die Grundzüge Unternehmerischen Denkens anwenden.  \nStand 13.05.2025  \n**Fakultät I - Elektro- und Informationstechnik Studiengang Elektrotechnik und Informationstechnik / Vertiefung Automatisierung und nach"
+    },
+    {
+      "rang": 60,
+      "score": 0.64077,
+      "id": "a2625f5f-1d34-5bae-8190-c5362c470b9f",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Klausuren_Deckblatt.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Klausuren Deckblatt — KLAUSURDECKBLATT",
+      "section_heading": "**KLAUSURDECKBLATT**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **KLAUSURDECKBLATT**  \n**Semester:** _________________ **Name, Vorname: ______________________________________  Matr.-Nr.: ____________________**  \nPrüfung: ______________________________________________ Prüferin/Prüfer: ______________________________________________ Bearbeitungszeit: ___________"
+    },
+    {
+      "rang": 61,
+      "score": 1.7891,
+      "id": "d2932cc4-3e90-5b18-95c0-5542fd5e0407",
+      "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+      "title_anzeige": "itr › kontakt",
+      "section_heading": "Kontakt",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "* * *\n* [News](https://itr.wp.hs-hannover.de/news)\n* * *\n* [Kontakt](https://itr.wp.hs-hannover.de/kontakt/)![](https://itr.wp.hs-hannover.de/wp-content/uploads/2022/05/MobileNavPfeil.svg)\n* * *  \nÜbersicht: Studium\n* * *\n* [Studieninhalte](https://itr.wp.hs-hannover.de/landing-page/studium/#studien"
+    },
+    {
+      "rang": 62,
+      "score": 1.69718,
+      "id": "e8531dcc-11c6-5851-a3c4-239bb5bfe50a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "section_heading": "**Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - Neufassung**",
+      "chunk_index": 41,
+      "text_vollstaendig": false,
+      "auszug": "|IBS-431|Personal und\nUnternehmensführung|PF|6|1|IBS-431-01|Personalmanagement|PF|H, K2*, M, P,\nR|\n1|3|2|6|\n||||||IBS-431-02|Unternehmensführung|PF||||2||\n||||||IBS-431-03|Arbeitsrecht|PF||||2||\n|IBS-432|Rechnungswesen|PF|6|1|IBS-432-01|Externes Rechnungswesen|PF|H, K2*, M, P,\nR|\n1|3|4|6|\n||||||IBS-"
+    },
+    {
+      "rang": 63,
+      "score": 1.68773,
+      "id": "7fb6adca-6d5d-5a4b-b909-1d5c50aeae8f",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung",
+      "title_anzeige": "Online-Anträge und -Bewerbungen",
+      "section_heading": "Online-Anträge und -Bewerbungen > Für Studieninteressierte und Bewerber:innen > **Hinweis**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Für Studieninteressierte und Bewerber:innen\nDas Bewerbungsverfahren erfolgt künftig ausschließlich digital über das [Bewerbungsportal](https://campusmanagement.hs-hannover.de) der Hochschule Hannover.\nAlle erforderlichen Unterlagen werden dort online eingereicht – ein postalischer Versand ist nic"
+    },
+    {
+      "rang": 64,
+      "score": 1.39901,
+      "id": "bcf817b3-32aa-566c-8865-3d1a1b72180c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Stud_-_Ansprechpersonen_Gefaehrungsbeurteilung.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Stud Ansprechpersonen Gefaehrungsbeurteilung — FAKULTÄT I",
+      "section_heading": "**Ansprechpersonen für die Gefährdungsbeurteilung während der Schwangerschaft oder Stillzeit** > **FAKULTÄT I**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Ansprechpersonen für die Gefährdungsbeurteilung während der Schwangerschaft oder Stillzeit**\n\n## **FAKULTÄT I**  \nKeine feste Ansprechperson  \nBitte direkt an den **Familienservice** unter _familienservice@hs-hannover.de_ wenden"
+    },
+    {
+      "rang": 65,
+      "score": 1.36021,
+      "id": "e70aba4b-893b-5bb5-91c7-c06e57e5b70e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20170328_Protokoll_12.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "title_anzeige": "www › Finanzmanagement › Studienqualitaetsmittel › 20170328 Protokoll 12.Sitzung Senatskommission Studienqualitaetsmittel",
+      "section_heading": "**TOP 6: Anträge an die Kommission (Studienqualitätsmittel und Studienbeiträge)**",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "Der Antrag wird von Herrn Kiehne vorgestellt.  \nHerr Autenrieth bestätigt, dass in den Fakultäten rechtliche Hilfe in Bezug auf die Prüfungsordnung benötigt werden würde. Auch Herr Lüdersen unterstützt den Antrag, da es für die Studierenden wichtig sei zu wissen, an wen sie sich bei rechtlichen Frag"
+    },
+    {
+      "rang": 66,
+      "score": 1.25976,
+      "id": "dc30aeb4-b7b2-5da2-b88f-fb8749b4cb14",
+      "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "title_anzeige": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Wie kann ich mich im Campusmanagement für eine Prüfung anmelden?"
+    },
+    {
+      "rang": 67,
+      "score": 1.25532,
+      "id": "d5bb22e0-01df-5ea8-b050-8ade3ce7ab6d",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/bewerbungsportal-fuer-hoehere-fachsemester-und-quereinsteigerinnen",
+      "title_anzeige": "Bewerbungsinformation für höhere Fachsemester und Quereinsteiger*innen",
+      "section_heading": "Bewerbungsinformation für höhere Fachsemester und Quereinsteiger*innen > Hinweise für Quereinsteiger*innen vor der Bewerbung > Bewerbungsinformation für höhere Fachsemester und Quereinsteiger*innen",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "Sofern Sie vorher in einem anderen Studiengang studiert haben, soll die Einstufung in ein Fachsemester so gut wie möglich Ihrem tatsächlich erreichten Leistungsstand entsprechen.\nWenn aber nicht ausreichend anerkennungsfähige Leistungen vorhanden sind, kann die Einstufung auch in das 1. Fachsemester"
+    },
+    {
+      "rang": 68,
+      "score": 1.18219,
+      "id": "49eaa861-df21-5e8f-ad6d-b9d8821aa8e4",
+      "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "title_anzeige": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "section_heading": "Prüfungsanmeldung",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Prüfungsanmeldung\n1. Klicken Sie auf der Startseite im Bereich \"_Quicklinks_ \" oben links auf _Prüfung und Studium_.  \n![Campusmanagement_Quicklinks](https://service.it.hs-hannover.de/media/images/Bild_2.width-800.png)\nEs erscheint die folgende Ansicht:\n![Campusmanagement_Prüfungsanmeldung](http"
+    },
+    {
+      "rang": 69,
+      "score": 1.16153,
+      "id": "6f0122b5-71e2-58f0-b60e-4c38012145a9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "section_heading": "**§ 17** > **Wechsel von Pflicht- und Wahlpflichtmodulen**",
+      "chunk_index": 28,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 17**\n\n## **Wechsel von Pflicht- und Wahlpflichtmodulen**  \n- (1) Stehen Prüflingen für den zweiten Studienabschnitt nach der Anlage B2 mehrere Schwerpunkte zur Auswahl, so treffen sie mit Ihren ersten zwei schwerpunktbezogenen Prüfungsanmeldungen eine verbindliche Schwerpunktauswahl. Durch sc"
+    },
+    {
+      "rang": 70,
+      "score": 1.11679,
+      "id": "49b305c9-721a-5db0-8252-91ca437d2141",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/11.Antrag_auf_Teilnahme_an_Pruefungen_als_Gasthoerer_deutsch.pdf",
+      "title_anzeige": "www › Studierendenverwaltung › Antraege › 11.Antrag auf Teilnahme an Pruefungen als Gasthoerer deutsch",
+      "section_heading": "**Wichtige Hinweise:**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **Wichtige Hinweise:**  \nDie Anmeldefristen für die Teilnahme an den Prüfungen erfahren Sie in der Prüfungsverwaltung der Fakultät. Bitte informieren Sie sich rechtzeitig.  \nNach der Genehmigung der Teilnahme müssen Sie die Prüfungen zusätzlich in der Prüfungsverwaltung innerhalb der Anmeldefrist"
+    },
+    {
+      "rang": 71,
+      "score": 1.08997,
+      "id": "e1b7c61e-5319-591c-9342-f0e8082333e0",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung",
+      "title_anzeige": "Online-Anträge und -Bewerbungen",
+      "section_heading": "Online-Anträge und -Bewerbungen > Für Studierende > **Hinweis**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "### **Hinweis**\nBitte prüfen Sie regelmäßig Ihr [Campusmanagement](https://campusmanagement.hs-hannover.de), um keine Fristen oder Rückmeldungen zu verpassen.\nBei Fragen oder Problemen wenden Sie sich bitte an den [Info-Point](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung"
+    },
+    {
+      "rang": 72,
+      "score": 1.05447,
+      "id": "5012df69-3a25-5619-9503-472715dcceca",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_1-2024_Ausschreibungstext_Monitoring.pdf",
+      "title_anzeige": "www › Organisation › Berufungsmanagement › W2 1 2024 Ausschreibungstext Monitoring",
+      "section_heading": "**W2-Professur** > **Naturwissenschaftlich-technische Grundlagen und Methoden der Wissensvermittlung**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "Für Fragen können Sie die Mitarbeitenden der Fakultät I auch per E-Mail, f1-dekanat@hshannover.de, kontaktieren."
+    },
+    {
+      "rang": 73,
+      "score": 1.0106,
+      "id": "f7d2ce36-9342-5142-aef0-a17d0bf829df",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/PO_BBA.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › PO BBA",
+      "section_heading": "**§ 7** > **Aufbau und Inhalt des ersten Studienabschnitts**",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "- (2) Studierende im ersten Fachsemester – sofern sie zu den Prüfungen zugelassen sind - werden von der Prüfungsverwaltung automatisch zu den Prüfungen dieses ersten Semesters angemeldet. Die betroffenen Prüfungen sind als solche in Anlage B1 kenntlich gemacht. Freiwillige Rücktritte (nach § 9 Abs. "
+    },
+    {
+      "rang": 74,
+      "score": 1.01052,
+      "id": "25a69613-9a34-5093-9dbe-c763ab97878b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/04_PO_IBS.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › 04 PO IBS",
+      "section_heading": "**§ 7 Aufbau und Inhalt der Bachelorvorprüfung**",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "- (2) Studierende im ersten Fachsemester – sofern sie zu den Prüfungen zugelassen sind - werden von der Prüfungsverwaltung automatisch zu den Prüfungen dieses ersten Semesters angemeldet. Die betroffenen Prüfungen sind als solche in Anlage B1 kenntlich gemacht. Freiwillige Rücktritte (nach § 9 Abs. "
+    },
+    {
+      "rang": 75,
+      "score": 0.98855,
+      "id": "e1da590e-d9ca-502c-b98b-1f2a8ac0bb02",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Schwangerschaftswegweiser_Region-Hannover_deutsch.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Schwangerschaftswegweiser Region Hannover deutsch — NOTIZEN",
+      "section_heading": "KRISEN RUND UM DIE GEBURT",
+      "chunk_index": 99,
+      "text_vollstaendig": true,
+      "auszug": "## KRISEN RUND UM DIE GEBURT  \nWährend der Schwangerschaft und nach der Geburt kann es zu Problemen kommen. Die Geburt verläuft vielleicht nicht so, wie Sie es sich vorgestellt haben; nach der Geburt fühlen Sie sich nicht so glücklich wie erhofft oder Sie trauern um Ihr verstorbenes Kind. In all die"
+    },
+    {
+      "rang": 76,
+      "score": 0.98041,
+      "id": "3e3a771d-7b58-5b5e-a5f8-9012b4e86982",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+      "title_anzeige": "Für Studierende",
+      "section_heading": "Für Studierende > FAQ",
+      "chunk_index": 22,
+      "text_vollstaendig": true,
+      "auszug": "Weitere Informationen zum Thema findest Du [hier.](https://www.studieren-in-niedersachsen.de/rund-ums-studium/studium-in-allen-lebenslagen/studienzweifel.html)\nWenn Du mit dem Gedanken spielst, eventuell doch eine Ausbildung zu beginnen, aber mehr Informationen benötigst, gibt es viele verschiedene "
+    },
+    {
+      "rang": 77,
+      "score": 0.96777,
+      "id": "481e154a-ad75-558c-978b-8cd1c59d055f",
+      "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+      "title_anzeige": "itr › kontakt",
+      "section_heading": "Impressum",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "#\n# Impressum\n#####  Herausgeber\nHochschule Hannover Fakultät I – Elektro- und Informationstechnik Ricklinger Stadtweg 120 30459 Hannover Telefon: +49 511 9296-1201 E-Mail: f1-dekanat@hs-hannover.de\nDie Hochschule Hannover ist eine Körperschaft des öffentlichen Rechts. Die Fakultät I – Elektro- und "
+    },
+    {
+      "rang": 78,
+      "score": 0.89055,
+      "id": "a2fa687a-c1b2-5320-8b20-4eebf034ba72",
+      "source_url": "https://www.hs-hannover.de/forschung/promotion",
+      "title_anzeige": "Graduiertenförderung an der Hochschule Hannover",
+      "section_heading": "Graduiertenförderung an der Hochschule Hannover > Betreuungsvereinbarung > Graduiertenförderung an der Hochschule Hannover",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "Auskünfte zu den Services des Dezernat 3 - Akademische Angelegenheiten erteilt das [Servicecenter](https://www.hs-hannover.de/ueber-uns/organisation/studierendenverwaltung/kompetenzbereiche/service-center/) des Dezernats (Tel.: 0511-9692-8888).\nBei allen Fragen zur Betreuungsvereinbarung können Sie "
+    },
+    {
+      "rang": 79,
+      "score": 0.88766,
+      "id": "9b9bf94e-8d60-5e8b-8bf0-62fd9274a90c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Soziale_OEffnung/Soziale_OEffnung_Dokumente/Offene_Hochschule/Flyer_FHH-TALENT-PROGRAMM_alle_Fakultaeten.pdf",
+      "title_anzeige": "www › Soziale OEffnung Dokumente › Offene Hochschule › Flyer FHH TALENT PROGRAMM alle Fakultaeten — Fakultäten  I - V",
+      "section_heading": "**Auf die Plätze!** > **Fertig!** > **Förderberechtigte:**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## **Auf die Plätze!**\n\n## **Fertig!**  \nLOS!\n\n## **Förderberechtigte:**  \n- Studierende der Fakultäten I -V, ab 2. Semester, auch Ausländer  \n**Medien, Information und Design Wirtschaft und Informatik Diakonie, Gesundheit und Soziales**  \n**Ansprechpartner: 0511/9296-1336 Prof. Dr.-Ing. Holger Stah"
+    },
+    {
+      "rang": 80,
+      "score": 0.88394,
+      "id": "a528fab1-6ad2-54b4-8549-67466d3965fd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/11-2015/01_Beschaffungsrichtlinie_20151001.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2015 › 01 Beschaffungsrichtlinie 20151001",
+      "section_heading": "**2. Zuständigkeitsregelungen für die Beschaffung**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "Nachschlagewerke wie Duden, Wörterbücher, Tabellenbücher, Formelsammlungen, Ergänzungen zu Dokumentationen, Loseblattsammlungen, Foliensätze für die Lehre, Kommentare und Lehrbücher können ausnahmsweise aus Mitteln der Fakultäten bzw. Organisationseinheiten oder deren Drittmittel finanziert werden. "
+    },
+    {
+      "rang": 81,
+      "score": 0.86737,
+      "id": "95709699-5aa3-5c91-bab8-76f88164aac5",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement",
+      "title_anzeige": "www › ueber uns › organisation › finanzmanagement — Kontakt",
+      "section_heading": "D4 - Finanzmanagement > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "Für Anfragen, die sich nicht den o. g. Bereichen zuordnen lassen:\n[D4-Meldung(at)hs-hannover.de](https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement)\nBei Fragen zu Semesterbeiträgen wenden Sie sich bitte an das [Dezernat für Akademische Angelegenheiten](https://www.hs-hannover.de/uebe"
+    },
+    {
+      "rang": 82,
+      "score": 0.84389,
+      "id": "fde5dfb7-fe10-534b-90c1-6c1a6943b01a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/HsH_Verkuendungsblatt_10_2018.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › HsH Verkuendungsblatt 10 2018 — Ausgabe 10/2018",
+      "section_heading": "**mit dem Abschluss Bachelor of Science an der Fakultät IV - Wirtschaft und Informatik** > **Weiter Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch.**",
+      "chunk_index": 270,
+      "text_vollstaendig": false,
+      "auszug": "## **Weiter Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch.**  \n**Zu Fragen bzgl. des Genehmigungsverfahrens wenden Sie sich an Frau Kandl und Herrn Zimmer / Dezernat III - Prüfungsordnungsmanagement.**  \nDezernat III / PO IBS / 02.07.2018  \nNr. 10/2018 vom 30.09.2018  \nVerkündung"
+    },
+    {
+      "rang": 83,
+      "score": 0.83934,
+      "id": "56dea7e8-c4e7-54f5-a45a-447b99bb9101",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/beratung-kontakt",
+      "title_anzeige": "Beratung & Kontakt",
+      "section_heading": "Beratung & Kontakt > Beratung & Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Beratung & Kontakt  \n## Beratung & Kontakt\nBei allen Fragen, die Ihr Studium betreffen, können Sie gern mit den folgenden Beratungsstellen bzw. mit den folgenden Bereichen der Hochschule Hannover persönlich, schriftlich oder telefonisch in Kontakt treten."
+    },
+    {
+      "rang": 84,
+      "score": 0.83747,
+      "id": "18034d33-dae3-5e86-9c51-a2eb47c2adb2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/ProM_Level_D_2025.pdf",
+      "title_anzeige": "www › Weiterbildung › Flyer › ProM Level D 2025 — // TERMINE",
+      "section_heading": "**Prüfungsanmeldung**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "## **Prüfungsanmeldung**  \nWährend des zweiten Unterrichtsblocks erfolgt die verbindliche Anmeldung zur Prüfung bei der PM-ZERT. Bei einem nachträglichen Rücktritt von der Prüfung sind die von der PM-ZERT geforderten Rücktritts- und ggf. Ausfallgebühren zu entrichten. Sie erhalten Unterstützung bei "
+    },
+    {
+      "rang": 85,
+      "score": 0.82783,
+      "id": "908bd1ad-bb2f-5509-894c-422d23034d30",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/informationen-fuer-gefluechtete",
+      "title_anzeige": "Studieninformationen für Geflüchtete und Bewerber*innen mit ausländischen Bildungsnachweisen",
+      "section_heading": "Studieninformationen für Geflüchtete und Bewerber*innen mit ausländischen Bildungsnachweisen > Weitere Fragen rund um die Bewerbung",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "Außerdem gibt es z.B. vom Deutschen Akademischen Austauschdienst ([DAAD](https://www.daad.de/de/ \"Deutscher Akademischer Austauschdienst\")) die Möglichkeit Stipendien zu beantragen. Eine Stipendiendatenbank des DAAD finden Sie [hier](https://www2.daad.de/deutschland/stipendium/datenbank/de/21148-sti"
+    },
+    {
+      "rang": 86,
+      "score": 0.82578,
+      "id": "9caca86f-2fb4-5827-9841-17152d2ad347",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/bewerbungsportal-fuer-hoehere-fachsemester-und-quereinsteigerinnen",
+      "title_anzeige": "Bewerbungsinformation für höhere Fachsemester und Quereinsteiger*innen",
+      "section_heading": "Bewerbungsinformation für höhere Fachsemester und Quereinsteiger*innen > Hinweise für Quereinsteiger*innen vor der Bewerbung > Bewerbungsinformation für höhere Fachsemester und Quereinsteiger*innen",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Fragen hierzu können Sie richten an:\nAnerkennung von Prüfungsleistungen\nProf. Dr. Finke\nR. 1 A.2.39, Tel. 0511-9296 1273\n[ullrich.finke(at)hs-hannover.de](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/bewerbungsportal-fuer-hoehere-fachse"
+    },
+    {
+      "rang": 87,
+      "score": 0.8155,
+      "id": "be14adaf-1130-5b8b-83b7-4c7b045ec394",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2023/hsh_verkuendungsblatt_nr_11_2023.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2023 › hsh verkuendungsblatt nr 11 2023 — Ausgabe 11/2023",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Innenarchitektur** ( **BIA) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Hinweise:**",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "**Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch.**  \n**Zu Fragen bzgl. des Genehmigungsverfahrens wenden Sie sich an Frau Kandl und Herrn Zimmer / Dezernat III - Prüfungsordnungsmanagement.**  \nDezernat 3 / PO BIA / 10.07.2023  \nNr. 11/2023 vom 15.08.2023  \nVerkündungsbla"
+    },
+    {
+      "rang": 88,
+      "score": 0.81514,
+      "id": "94177085-05f6-576a-9d22-d00f55f071de",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/HsH_Verkuendungsblatt_10_2018.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › HsH Verkuendungsblatt 10 2018 — Ausgabe 10/2018",
+      "section_heading": "**mit dem Abschluss Bachelor of Science an der Fakultät IV - Wirtschaft und Informatik** > **Weiter Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch.**",
+      "chunk_index": 379,
+      "text_vollstaendig": false,
+      "auszug": "## **Weiter Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch.**  \n**Zu Fragen bzgl. des Genehmigungsverfahrens wenden Sie sich an Frau Kandl und Herrn Zimmer / Dezernat III - Prüfungsordnungsmanagement.**  \nDezernat III / PO BBI / 02.07.2018  \nNr. 10/2018 vom 30.09.2018  \nVerkündung"
+    },
+    {
+      "rang": 89,
+      "score": 0.81297,
+      "id": "c93fbecb-66c1-5f4f-9fcc-08fb189ee8e9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_10-2024_Monitoring_Ausschreibungstext.pdf",
+      "title_anzeige": "www › Organisation › Berufungsmanagement › W2 10 2024 Monitoring Ausschreibungstext",
+      "section_heading": "Sie sollen:",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "Für inhaltliche Rückfragen steht Ihnen der Dekan der Fakultät I, Prof. Dr. Freund, Tel. 0511 / 9296 – 1200, gern zur Verfügung.  \nDie Hochschule Hannover ist daran interessiert, den Frauenanteil auch beim wissenschaftlichen Personal zu erhöhen und begrüßt es deshalb besonders, wenn sich Frauen bewer"
+    },
+    {
+      "rang": 90,
+      "score": 0.80211,
+      "id": "c005c8f6-cd39-5000-bf53-6855213d8ce1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_1-2024_Ausschreibungstext_Monitoring.pdf",
+      "title_anzeige": "www › Organisation › Berufungsmanagement › W2 1 2024 Ausschreibungstext Monitoring",
+      "section_heading": "**W2-Professur** > **Naturwissenschaftlich-technische Grundlagen und Methoden der Wissensvermittlung**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Schwerbehinderte Bewerber*innen werden bei gleicher Eignung bevorzugt berücksichtigt. Zur Wahrung Ihrer Interessen bitten wir Sie, uns bereits in Ihrem Bewerbungsschreiben einen entsprechenden Hinweis auf Ihre Schwerbehinderung/Gleichstellung zu geben. Gerne können Sie sich bei Fragen auch vorab an "
+    },
+    {
+      "rang": 91,
+      "score": 0.78924,
+      "id": "bc348216-e8ba-5102-a40e-dc4fd0068400",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "section_heading": "**§ 11 Prüfungsanmeldungen und Prüfungszeitpunkte**",
+      "chunk_index": 20,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 11 Prüfungsanmeldungen und Prüfungszeitpunkte**  \n- (1) Die Zeitpunkte für das Ablegen der Klausuren und mündlichen Prüfungen, die Ausgabe- und Abgabezeitpunkte für die übrigen termingebundenen Prüfungsleistungen, die Fristen für die Anmeldung zu Prüfungen sowie die Fristen für Rücktritte von"
+    },
+    {
+      "rang": 92,
+      "score": 0.78399,
+      "id": "8aa30622-d82c-5d4d-9053-20fb328fa2f2",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+      "title_anzeige": "www › servicezentrum beratung › studienberatung › faqs",
+      "section_heading": "[Fakultät V - Diakonie, Gesundheit und Soziales](https://f5.hs-hannover.de/)",
+      "chunk_index": 43,
+      "text_vollstaendig": true,
+      "auszug": "Ein Teilzeit-Doppelstudium gibt es nicht.\nBitte beachten Sie auch die möglichen Konsequenzen eines Teilzeitstudiums für BAföG, Kindergeld und Nebenjob. Auskünfte geben die entsprechenden Stellen.\nFür geeignete Studiengänge kann die Hochschule eine Einschreibung oder Rückmeldung für ein Teilzeitstudi"
+    },
+    {
+      "rang": 93,
+      "score": 0.76535,
+      "id": "34d7f1cc-ce5d-5185-b1af-fe801ac90654",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_2-2025_Ausschreibung_Monitoring.pdf",
+      "title_anzeige": "www › Organisation › Berufungsmanagement › W2 2 2025 Ausschreibung Monitoring — \"Angewandte Mathematik\"",
+      "section_heading": "**W2-Professur** > **\"Angewandte Mathematik\"**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "Die Stelle ist teilzeitgeeignet.  \nFür inhaltliche Rückfragen steht Ihnen der Dekan der Fakultät I, Prof. Dr. Freund, Tel. 0511 / 9296 – 1200, gern zur Verfügung.  \nDie Hochschule Hannover ist daran interessiert, den Frauenanteil auch beim wissenschaftlichen Personal zu erhöhen und begrüßt es deshal"
+    },
+    {
+      "rang": 94,
+      "score": 0.76441,
+      "id": "f95ffba3-6b50-5158-a578-4286e0d28763",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "section_heading": "**Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)** > _§ 15 Einstufungspr ¨ufung_",
+      "chunk_index": 77,
+      "text_vollstaendig": true,
+      "auszug": "3. und den Erwerb der f ¨ur die Einstufungspr ¨ufung erforderlichen Kenntnisse und F¨ahigkeiten glaubhaft macht.  \n(3) Zur Einstufungspr ¨ufung wird nicht zugelassen, wer f ¨ur einen Studiengang dieser Fachrichtung an einer Hochschule eingeschrieben ist oder in den drei vorangegangenen Jahren einges"
+    },
+    {
+      "rang": 95,
+      "score": 0.76347,
+      "id": "1e0ab7c9-5b2f-508b-b9f8-0086d834f18e",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-lehre/e-pruefungen-und-e-assessment",
+      "title_anzeige": "www › organisation › servicezentrum lehre › e pruefungen und e assessment — E-Prüfungen und E-Assessment",
+      "section_heading": "Servicezentrum Lehre > Anmeldungen für E-Prüfungen",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Anmeldungen für E-Prüfungen\nWir ermöglichen die Durchführung von rein elektronischen Prüfungen mit Moodle in speziell eingerichteten Prüfungsräumen für Gruppengrößen bis max. 60 Studierenden. Die Prüfungen werden direkt am PC geschrieben.\nMelden Sie sich unter [epruefung(at)hs-hannover.de](https"
+    },
+    {
+      "rang": 96,
+      "score": 0.76061,
+      "id": "77222a4a-75fc-5a6c-8e6a-4040929efc29",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/hochschulzugangspruefung",
+      "title_anzeige": "www › akademische angelegenheiten › studieninteressierte › hochschulzugangspruefung — Hochschulzugangsprüfung",
+      "section_heading": "Hochschulzugangsprüfung > Ansprechpersonen > Hochschulzugangsprüfung",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Ansprechpersonen\n##\n[ Ansprechperson an der HsH ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/hochschulzugangspruefung \"Ansprechperson an der HsH\")\nFür die allgemeine Hinweise und Informationen zum Ablauf des **Besonderen Teils** der Prüfung "
+    },
+    {
+      "rang": 97,
+      "score": 0.75713,
+      "id": "a0aedfbb-09af-5869-b4d2-fe53ec1f9c4e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/PO_BBA.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › PO BBA",
+      "section_heading": "**§ 11** > **Prüfungsanmeldungen und Prüfungszeitpunkte**",
+      "chunk_index": 21,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 11**\n\n## **Prüfungsanmeldungen und Prüfungszeitpunkte**  \n- (1) Die Zeitpunkte für das Ablegen der Klausuren und mündlichen Prüfungen, die Ausgabe- und Abgabezeitpunkte für die übrigen termingebundenen Prüfungsleistungen, die Fristen für die Anmeldung zu Prüfungen sowie die Fristen für Rücktr"
+    },
+    {
+      "rang": 98,
+      "score": 0.75713,
+      "id": "b935832e-728c-5136-b643-eca53bb2ea03",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/hsh_verkuendungsvlatt_nr_10_2024.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › hsh verkuendungsvlatt nr 10 2024 — Ausgabe 10/2024",
+      "section_heading": "**§ 11** > **Prüfungsanmeldungen und Prüfungszeitpunkte**",
+      "chunk_index": 96,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 11**\n\n## **Prüfungsanmeldungen und Prüfungszeitpunkte**  \n- (1) Die Zeitpunkte für das Ablegen der Klausuren und mündlichen Prüfungen, die Ausgabe- und Abgabezeitpunkte für die übrigen termingebundenen Prüfungsleistungen, die Fristen für die Anmeldung zu Prüfungen sowie die Fristen für Rücktr"
+    },
+    {
+      "rang": 99,
+      "score": 0.74506,
+      "id": "8157308f-e24d-5345-a6db-da11b6b676f6",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/info-point",
+      "title_anzeige": "www › organisation › servicezentrum beratung › info point",
+      "section_heading": "Info-Point > Unsere Öffnungszeiten: > Weitere Ansprechpartner*innen",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "### Weitere Ansprechpartner*innen\n[ Studienberatung ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung)\n[ Fragen zur Zulassung nach Fakultät ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/kompetenzbereiche/zulassungs-und-besta"
+    },
+    {
+      "rang": 100,
+      "score": 0.74093,
+      "id": "fdfd5dfa-af18-59b0-a9c0-f3c72ec88ca5",
+      "source_url": "https://www.hs-hannover.de/internationales/wege-ins-ausland/studierende/erasmus-studierendenmobilitaet/erasmus-praktikum-smp",
+      "title_anzeige": "ERASMUS+ Praktikum",
+      "section_heading": "ERASMUS+ Praktikum",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "[Fakultät 3](https://f3.hs-hannover.de/internationales)\n[Fakultät 4](https://f4.hs-hannover.de/)\n[Fakultät 5](https://f5.hs-hannover.de/studium/internationales/kontakt-contact-1)\n* * *\nDer Bereich Internationales im Servicezentrum Beratung unterstützt Sie bei der Planung und der Realisierung eines A"
+    },
+    {
+      "rang": 101,
+      "score": 0.72097,
+      "id": "5def7443-8b02-5d5f-98d6-f7c6d6388490",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/03-2015/07-Richtlinie_Repraesentationen.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2015 › 07 Richtlinie Repraesentationen — Richtlinie zu Aufwendungen für Repräsentation",
+      "section_heading": "**3.2. Nachrufe und Kranzspenden**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "## **3.2. Nachrufe und Kranzspenden**  \nKranzspenden können beim Ableben von aktiven oder im Ruhestand befindlichen Beamtinnen und Beamten oder Beschäftigten sowie Auszubildenden und Studierenden gewährt werden.  \nDie genannten Personen können beim Ableben auch durch einen Nachruf geehrt werden. Ein"
+    },
+    {
+      "rang": 102,
+      "score": 0.72097,
+      "id": "fcae0e3c-15d2-5845-8112-c0d13fc91cee",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/08-2017/03_Repraesentationsrichtlinie_Verkuendungsblatt.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2017 › 03 Repraesentationsrichtlinie Verkuendungsblatt — - gilt unabhängig von der Finanzierungsquelle -",
+      "section_heading": "**5.2 Nachrufe und Kranzspenden**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **5.2 Nachrufe und Kranzspenden**  \nKranzspenden können beim Ableben von aktiven oder im Ruhestand befindlichen Beamtinnen und    Beamten oder Beschäftigten sowie Auszubildenden und Studierenden gewährt werden.  \nDie genannten Personen können beim Ableben auch durch einen Nachruf geehrt werden. E"
+    },
+    {
+      "rang": 103,
+      "score": 0.71665,
+      "id": "ed1d16ff-e645-500a-bc16-cf53e047bad1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/01-2019/04_Datenschutzkonzept_HsH.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2019 › 04 Datenschutzkonzept HsH — Datenschutzkonzept der Hochschule Hannover",
+      "section_heading": "6.3 Dezernat I, Abteilung Recht",
+      "chunk_index": 27,
+      "text_vollstaendig": false,
+      "auszug": "## 6.3 Dezernat I, Abteilung Recht  \nDas Dezernat I, Abteilung Recht berät u.a. sämtliche Organisationseinheiten der Hochschule zu Fragestellungen aus dem Bereich des Datenschutzrechts und unterstützt auch den behördlichen Datenschutzbeauftragten in datenschutzrechtlichen Fragestellungen. Dazu ist e"
+    },
+    {
+      "rang": 104,
+      "score": 0.71283,
+      "id": "5f6f8295-757f-569d-b857-c32a3d869477",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/hauptwahlausschuss/hochschulwahlen/oertliche-wahlbeauftragte",
+      "title_anzeige": "www › hauptwahlausschuss › hochschulwahlen › oertliche wahlbeauftragte — Örtliche Wahlbeauftragte",
+      "section_heading": "Örtliche Wahlbeauftragte",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Örtliche Wahlbeauftragte\nFür alle Standorte der Hochschule Hannover sind vom Wahlleiter örtliche Wahlbeauftragte benannt. Diese sind neben der Wahlleitung allgemein die Ansprechperson vor Ort für alle die Wahl betreffenden Fragen.\nIn den Fakultäten finden Sie die örtlichen Wahlbeauftragten in der"
+    },
+    {
+      "rang": 105,
+      "score": 0.70748,
+      "id": "77ac3f6f-265c-530c-9638-a7a00a950cd8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "section_heading": "**§ 1 Studienbeginn** > _§_ **17 Einstufungspr ¨ufung**",
+      "chunk_index": 191,
+      "text_vollstaendig": false,
+      "auszug": "1. eine Erkl¨arung dar ¨uber, f ¨ur welchen Studienabschnitt oder f ¨ur welches Semester die Einstufung beantragt wird,  \n2. die Nachweise nach Absatz 2,  \n3. eine Darstellung des Bildungsganges und der ausge ¨ubten beruflichen T¨atigkeiten  \n4. Erkl¨arungen nach Absatz 3.  \n(5) Uber den Antrag ents"
+    },
+    {
+      "rang": 106,
+      "score": 0.70215,
+      "id": "8b5c2b7f-137b-5132-8314-1a4fff5a014a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/02_BBA_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 02 BBA BT PO mit Anlagen 20182 — der Hochschule Hannover",
+      "section_heading": "**mit dem Abschluss Bachelor of Science an der Fakultät IV - Wirtschaft und Informatik** > **§ 18** > **mit dem Abschluss Bachelor of Science an der Fakultät IV - Wirtschaft und Informatik** > **Wechsel von Pflicht- und Wahlpflichtmodulen**",
+      "chunk_index": 32,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 18**\n\n## **Wechsel von Pflicht- und Wahlpflichtmodulen**  \n- (1) Stehen Prüflingen für den zweiten Studienabschnitt nach der Anlage B2 mehrere Schwerpunkte zur Auswahl, so treffen sie mit Ihren ersten drei schwerpunktbezogenen Prüfungsanmeldungen eine verbindliche Schwerpunktauswahl. Durch sc"
+    },
+    {
+      "rang": 107,
+      "score": 0.70215,
+      "id": "a19c067f-0e79-5565-b26a-c5b4f0bafc4a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/hsh_verkuendungsvlatt_nr_10_2024.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › hsh verkuendungsvlatt nr 10 2024 — Ausgabe 10/2024",
+      "section_heading": "**§ 17** > **Wechsel von Pflicht- und Wahlpflichtmodulen**",
+      "chunk_index": 104,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 17**\n\n## **Wechsel von Pflicht- und Wahlpflichtmodulen**  \n- (1) Stehen Prüflingen für den zweiten Studienabschnitt nach der Anlage B2 mehrere Schwerpunkte zur Auswahl, so treffen sie mit Ihren ersten drei schwerpunktbezogenen Prüfungsanmeldungen eine verbindliche Schwerpunktauswahl. Durch sc"
+    },
+    {
+      "rang": 108,
+      "score": 0.70194,
+      "id": "43070c6c-9ec7-51d7-86f7-65d24638a89f",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/gasthoererschaft",
+      "title_anzeige": "www › akademische angelegenheiten › studieninteressierte › gasthoererschaft — Gasthörerschaft",
+      "section_heading": "Gasthörerschaft > Juniorstudium",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "Wenn Sie im Rahmen des Juniorstudiums an Prüfungen teilnehmen möchten, informieren Sie bitte zusätzlich das **zuständige Prüfungsamt** , damit die Prüfungsanmeldung geklärt werden kann."
+    },
+    {
+      "rang": 109,
+      "score": 0.69423,
+      "id": "40d527bc-c3bb-590a-aa55-041dde547cac",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Hilfen_fuer_Familien_mit_beh.__chron.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Hilfen fuer Familien mit beh. chron",
+      "section_heading": "i. Sonstige Beratungsangebote",
+      "chunk_index": 56,
+      "text_vollstaendig": true,
+      "auszug": "## i. Sonstige Beratungsangebote  \nNeben.den.bereits.aufgeführten.Beratungsangeboten.gibt.es.in.Niedersachsen.eine.Reihe.weiterer.Beratungsstellen,.die.Eltern.und.Angehörigen.von.pflegebedürftigen.und.behinderten.Kindern. sowie.Jugendlichen.unterstützend.zur.Seite.stehen.  \n- ...Eine.Auflistung.mit."
+    },
+    {
+      "rang": 110,
+      "score": 0.68892,
+      "id": "2316daf1-e2cd-5b6a-b1d0-2e0672995190",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/09-2023/01_vk_20230505_Entwurf_Ordnung_GWP_final.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2023 › 01 vk 20230505 Entwurf Ordnung GWP final",
+      "section_heading": "**Abschnitt III Verfahren im Umgang mit wissenschaftlichem Fehlverhalten** > **§ 20 Allgemeine Prinzipien für den Umgang mit Verdachtsfällen wissenschaftlichen Fehlverhaltens**",
+      "chunk_index": 38,
+      "text_vollstaendig": true,
+      "auszug": "- (3) Die Anzeige durch hinweisgebende Personen muss in gutem Glauben erfolgen. Hinweisgebende Personen müssen über objektive Anhaltspunkte dafür verfügen, dass möglicherweise gegen Standards guter wissenschaftlicher Praxis verstoßen worden ist. Kann die hinweisgebende Person die dem Verdacht zugrun"
+    },
+    {
+      "rang": 111,
+      "score": 0.68876,
+      "id": "3da6d4a0-b9e1-5aa8-b4c2-10fb12b073db",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+      "title_anzeige": "Semesterbeitrag und Rückmeldung",
+      "section_heading": "Semesterbeitrag und Rückmeldung > Sie benötigen Hilfe...",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## Sie benötigen Hilfe...\nAnschrift:\nHochschule Hannover\nAkademische Angelegenheiten\nRicklinger Stadtweg 120\n30459 Hannover\nGebäude: 1J\n[ melanie.kohlberg(at)hs-hannover.de  ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung \""
+    },
+    {
+      "rang": 112,
+      "score": 0.68733,
+      "id": "fc8d1522-e52d-5714-bf40-8258ddfcda73",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+      "title_anzeige": "www › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt › kurse",
+      "section_heading": "Ferienkurse im Wintersemester 2021/22",
+      "chunk_index": 378,
+      "text_vollstaendig": false,
+      "auszug": "Leider können Schreibende die Verständlichkeit und Eindeutigkeit ihrer eignen Texte selbst nur schwer einschätzen. Denn die Schreibenden wissen ja bereits, was ihr Text bedeuten soll – und sie wissen i. d. R. mehr, als ihre Leser*innen. Für die Leser*innen bedeuten Verständnisprobleme aber oft, dass"
+    },
+    {
+      "rang": 113,
+      "score": 0.68402,
+      "id": "e00d3097-7bb5-5a68-90ad-e293dca907e1",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/kompetenzbereiche/pruefungsordnungsmanagement",
+      "title_anzeige": "Team Prüfungsordnung- und Campusmanagement (PCM)",
+      "section_heading": "Team Prüfungsordnung- und Campusmanagement (PCM) > Administration von HISPOS, HISISY, QISPOS, HISLSF",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Administration von HISPOS, HISISY, QISPOS, HISLSF\n* Behebung systemseitiger Probleme\n* Sicherstellung eines reibungslosen Studienverlauf hinsichtlich der Prüfungsverwaltung\n* Unterstützung der Fakultätsprüfungsverwaltungen bei Anliegen und Fragen rund um POS/ISY/LSF\n* Unterstützung bei der Abbild"
+    },
+    {
+      "rang": 114,
+      "score": 0.68362,
+      "id": "0b2fcfab-b459-5f28-aaa7-c36ad535399f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/250630_Z3_Broschuere_Bachelor_Master_HsH.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Studienberatung › 250630 Z3 Broschuere Bachelor Master HsH — Studieren an der Hochschule Hannover",
+      "section_heading": "→ Kontakt Fakultät I",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "## → Kontakt Fakultät I  \nDekanat Ricklinger Stadtweg 120 30459 Hannover Telefon: +49 511 9296-1201 E-Mail: f1-dekanat@hs-hannover.de www.f1.hs-hannover.de"
+    },
+    {
+      "rang": 115,
+      "score": 0.68138,
+      "id": "e93a7829-21d5-539e-ba10-0d202e370e09",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "section_heading": "**§ 1 Studienbeginn** > _§_ **13 Wiederholung von Fachpr ¨ufungen**",
+      "chunk_index": 182,
+      "text_vollstaendig": false,
+      "auszug": "(2) Im Hinblick auf die j¨ahrliche Aufnahme von Studierenden im Fachbereich Informatik der Fachhochschule Hannover werden zwei Pr ¨ufungszeitr¨aume angeboten. Der erste Pr ¨ufungszeitraum eines Semesters findet in der ersten Vorlesungswoche des Semesters statt und ist f ¨ur jene Lehrveranstaltungen "
+    },
+    {
+      "rang": 116,
+      "score": 0.67948,
+      "id": "300a04bf-c514-50b5-826a-505262eeeaed",
+      "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000445-10057.html",
+      "title_anzeige": "karriere › bewerbung › beschreibung 900000445 10057",
+      "section_heading": "Technische*r Mitarbeiter*in für die Betreuung der Prüfungsverwaltungssoftware HIS-EXA (m/w/d), PM 1062-2026",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "Das Dezernat 3 – akademische Angelegenheiten berät und unterstützt (Neu-)Studierende und Bewerber*innen bei allen administrativen Fragen vor der Zulassung und im Verlauf ihres Studiums. Wesentliche Aufgaben sind die Zulassung und die Beratung von Studienbewerber*innen sowie die Immatrikulation, Rück"
+    },
+    {
+      "rang": 117,
+      "score": 0.67933,
+      "id": "61a6e18f-7341-5507-a9c8-adc01791a533",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/11-2025/hsh_verkuendungsblatt_nr_11_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblaetter › 11 2025 › hsh verkuendungsblatt nr 11 2025 — Ausgabe 11/2025",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelorstudiengang Heilpädagogik – Inklusive Bildung und Begleitung (BAH) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover (BTPO BAH 2025)** > **§ 5** > **Besonderer Teil der Prüfungsordnung für den Bachelorstudiengang Heilpädagogik – Inklusive Bildung und Begleitung (BAH) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover (BTPO BAH 2025)** > **Modulprüfungen und Teilmodulprüfungen**",
+      "chunk_index": 57,
+      "text_vollstaendig": false,
+      "auszug": "- (5) Modulprüfungen, die während eines Semesters angemeldet werden, sollen bis zum Ende des laufenden Semesters abgegeben und bewertet sein. Bei Hausarbeiten kann sich die Bearbeitungszeit bis in das der Anmeldung folgende Semester ziehen."
+    },
+    {
+      "rang": 118,
+      "score": 0.65959,
+      "id": "8f6384e3-a228-54f2-8c18-94394dc77710",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "section_heading": "**§ 18** > **Wechsel von Wahlpflichtmodulen**",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 18**\n\n## **Wechsel von Wahlpflichtmodulen**  \nStehen Prüflingen für den zweiten Studienabschnitt nach der Anlage B2 mehrere Wahlpflichtmodule zur Auswahl zur Verfügung, so treffen sie mit Ihrer ersten Prüfungsanmeldung eine verbindliche Auswahl. Durch schriftliche Erklärung gegenüber dem Prüf"
+    },
+    {
+      "rang": 119,
+      "score": 0.65943,
+      "id": "b1a8a9b0-6889-5d32-a6eb-74224c9481f8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/Landesstipendium/Antrag-Landesstipendium-Niedersachsen-2026.pdf",
+      "title_anzeige": "www › Stipendien › Landesstipendium › Antrag Landesstipendium Niedersachsen 2026",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Semesterzahl  \nName  \nVorname  \nStraße und Hausnummer  \nPLZ und Ort  \nE-Mail Adresse*  \nTelefon  \nMatrikelnummer Studiengang Bank IBAN  \nFakultät BIC  \n**Hochschule Hannover (HsH) Lale Ates B.Eng. & Dagmar Thomsen M.A. Ricklinger Stadtweg 118, Raum 1J.1.12 30459 Hannover**"
+    },
+    {
+      "rang": 120,
+      "score": 0.65273,
+      "id": "af1a5ccb-34b1-5408-8835-2b4b692e5d2c",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/beratung",
+      "title_anzeige": "www › bibliothek › services › beratung",
+      "section_heading": "Beratung > Beratung",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Beratung\n**Ansprechpersonen**\nWen kann ich ansprechen, wenn ich Fragen zur Fernleihe habe? An wen kann ich mich wenden, wenn ich mich über Citavi informieren will?\nBitte wenden Sie sich direkt an Ihre [Ansprechpersonen](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/kontakt) in der "
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "f1",
+  "fakultaet_erkannt": "f1",
+  "token_budget": {
+    "verwendet": 4818,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 3.51,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 1.14,
+    "docs_laden_s": 0.06,
+    "quellen_s": 4.71,
+    "antwort_llm_s": 1.52,
+    "gesamt_s": 6.24
+  },
+  "auswahl_begruendung": "{\"selected\":[1,18,15]}"
+}

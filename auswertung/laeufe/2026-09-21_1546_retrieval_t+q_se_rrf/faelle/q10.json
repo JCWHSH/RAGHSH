@@ -1,0 +1,1460 @@
+{
+  "fall": {
+    "id": "q10",
+    "case_type": "direct",
+    "question": "Was sind die Öffnungszeiten der Mensa Campus Linden und wann ist die Essenausgabe?",
+    "reference_answer": "Dazu nennt die HsH-Seite selbst keine konkreten Öffnungszeiten oder Essenausgabezeiten. Die HsH-Seite nennt nur die Mensa Campus Linden am Ricklinger Stadtweg 120, erreichbar mit den Stadtbahnlinien 3 und 7 bis zur Haltestelle Linden Fischerhof, und verweist für Lageplan, Öffnungszeiten und Speiseplan auf externe Seiten des Studentenwerks Hannover. Außerdem steht dort, dass Mensa-to-go nur mit Vorbestellung in der App Studi|Futter möglich ist und dass bei Mensa-to-stay keine Essensvorbestellung nötig ist, aber die Studi|Futter-App zur Buchung der Besuchszeit benötigt wird.",
+    "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/sonstiges/mensa",
+    "expected_behavior": "missing_detail_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die HsH-Seite nennt keine konkreten Öffnungszeiten oder Essenausgabezeiten.",
+      "Die HsH-Seite verweist für Lageplan, Öffnungszeiten und Speiseplan auf externe Seiten des Studentenwerks Hannover.",
+      "Die Mensa Campus Linden liegt am Ricklinger Stadtweg 120."
+    ],
+    "optional_facts": [
+      "Erreichbar mit den Stadtbahnlinien 3 und 7 bis Linden/Fischerhof.",
+      "Mensa-to-go ist nur mit Vorbestellung in Studi|Futter möglich.",
+      "Bei Mensa-to-stay ist keine Essensvorbestellung nötig, aber die App wird zur Buchung der Besuchszeit benötigt."
+    ],
+    "forbidden_claims": [
+      "Konkrete Öffnungszeiten oder Essenausgabezeiten als HsH-belegt ausgeben.",
+      "Studentenwerk-Zeiten übernehmen, ohne sie als externe Information außerhalb der HsH-Quelle abzugrenzen."
+    ],
+    "case_difficulty": "schwer",
+    "fairness_risk": "hoch",
+    "evaluation_notes": "Negativ-/Abgrenzungsfall: Weil nur HsH-Quellen erlaubt sind, soll das RAG-System nicht die externen Studentenwerk-Zeiten übernehmen oder erfinden. Erwartet ist die klare Aussage, dass die konkrete Öffnungszeit und Essenausgabezeit nicht auf der HsH-Seite selbst steht; zusätzlich dürfen die belegten HsH-Informationen zur Lage und zur Studi|Futter-App genannt werden.",
+    "tags": [
+      "negativfall"
+    ],
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Ricklinger Stadtweg 120",
+      "Studentenwerk"
+    ],
+    "gold_im_korpus": false,
+    "gold_punkte": [],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T15:47:34",
+  "dauer_s": 4.03,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Standorte und Öffnungszeiten",
+      "url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+      "fakultaet": "f1",
+      "struktur": "# Standorte und Öffnungszeiten\n    ### Auf einen Blick\n  ## Standorte und Öffnungszeiten\n  ## Campus Linden/Ricklinger Stadtweg\n  ## Bismarckstraße\n  ## Wegbeschreibung\n  ## Campus Linden/Ricklinger Stadtweg\n    ### Externer Inhalt\n  ## Bismarckstraße\n    ### Externer Inhalt\n  ## Gebäudepläne"
+    },
+    {
+      "nr": 2,
+      "titel": "f2 › service › orientierungsplaene und oeffnungszeiten",
+      "url": "https://f2.hs-hannover.de/service/orientierungsplaene-und-oeffnungszeiten",
+      "fakultaet": "f2",
+      "struktur": "# Orientierungspläne\n    ### Abt. Maschinenbau / Maschinenbau dual - Standort Linden\n    ### Externer Inhalt\n  ## Öffnungszeiten:\n    ### Abt. Bioverfahrenstechnik - Standort Ahlem\n    ### Externer Inhalt\n  ## Öffnungszeiten:\n    ### Abt. Maschinenbau / Maschinenbau dual - Standort Bismarckstrasse\n    ### Externer Inhalt\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 3,
+      "titel": "Standorte & Öffnungszeiten",
+      "url": "https://f2.hs-hannover.de/ueber-uns/standorte-oeffnungszeiten",
+      "fakultaet": "f2",
+      "struktur": "# Standorte & Öffnungszeiten\n    ### Navigation:\n    ### Standort Ahlem\n    ### Externer Inhalt\n  ## Öffnungszeiten:\n    ### Standort Linden\n    ### Externer Inhalt\n    ### Anschrift:\n  ## Öffnungszeiten:\n    ### Standort Bismarckstraße\n    ### Externer Inhalt\n    ### Anschrift:\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › OFI › IT Service › 26 02 19 IT Infoveranstaltung Erstsemester SS2025 — IT-Infoveranstaltung _für Studierende an der HsH Fakultät IV_",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf",
+      "fakultaet": "f4",
+      "struktur": "# IT-Infoveranstaltung für Studierende an der HsH Fakultät IV\n  ## Inhaltsverzeichnis\n  ## TOP 1: Vorstellung IT-Team\n  ## Lageplan Campus Linden\n  ## IT-Team\n  ## IT-Team\n  ## Gebäude 1H, 1. Etage\n  ## IT-Team\n  ## Abgrenzung Aufgaben, Kompetenzen, Verantwortung\n  ## IT-Team\n  ## Hochschul-IT\n  ## TOP 2: Räumlichkeiten\n  ## Labore (in Gebäude 1H)\n  ## L1: Computerlabor für betriebswirtschaftliche Anwendungen\n  ## Gebäude 1H - 1. Etage - Raum 1.29\n  ## L2: Computerlabor für Spezialanwendungen der Betriebswirtschaft\n  ## Gebäude 1H - 1. Etage - Raum 1.35\n  ## L3: Computerlabor für wirtschaftsinformatische Grundlagen\n  ## Gebäude 1H - Erdgeschoß - Raum 0.13\n  ## L4: Computerlabor für multimediale Anwendungen der Wirtschftsinformatik – VORLESUNGSFREI\n  ## Gebäude 1H - 1. Etage - Raum 1.23\n  ## L5: Computerlabor für Spezialanwendungen der Wirtschftsinformatik\n  ## Gebäude 1H - 1. Etage - Raum 1.38\n  ## Labore – Drucker, Headset\n  ## Gebäude, Labore – Öffnungszeiten | 1[st] Level-Supportzeiten\n  ## Seminarräume (im Gebäude 1H)\n  ## Aufzeichnungsmöglichkeit\n  ## Seminarräume (im Gebäude 1H)\n  ## Ausstattung variabel:\n  ## TOP 3: Account Aktivierung für das Hochschul Netzwerk (Master-, User-, SSO-, WLAN- und Microsoft Azure-Account)\n  ## Aktivierung Master-Account\n  ## Neuaktivierung / Erneutes Versenden der Aktivierungs-E-Mail\n  ## https://accounts.hs-hannover.de\n  ## Aktivierung Master-Account\n  ## Aktivierung Master-Account\n  ## Aktivierung Master-Account\n  ## Übersicht der Accounts (Zoom Account -> temporär, Adobe momentan nicht verfügbar)\n  ## SSO-Account\n  ## Master-Account\n  ## User-Account\n  ## Hilfe:\n  ## W-LAN/Internet (eduroam) auf privaten Geräten\n  ## E-Mail\n  ## Microsoft Office365\n  ## Hilfe:\n  ## Adobe-Account\n  ## E-Mail\n  ## NUR\n# TOP 4: HsH Netzwerk Arbeitsumgebung\n  ## Netzwerk Arbeitsumgebung"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2016 — Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Bilanz zum 31. Dezember 2016\n  ## Gewinn- und Verlustrechnung für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2016\n  ## Anhang für das Geschäftsjahr 2016\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A . Umsatzerlöse\n  ## B . Sonstige betriebliche Erträge\n  ## C. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2016\n  ## F. Organe\n  ## Präsidium\n  ## Senat\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2016\n  ## Erläuterungen zum SOLL-IST Vergleich 2016 bei Abweichungen > 20%\n  ## Position 1a):\n  ## Position 1b):\n  ## Position 1c):\n  ## Position 2a):\n  ## Position 4a):\n  ## Position 4b):\n  ## Position 4c):\n  ## Position 5):\n  ## Position 7c):\n  ## Position 10):\n  ## Position 11a/11b):"
+    },
+    {
+      "nr": 6,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2020 — BESTÄTIGUNGSVERMERK",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Jahresabschluss zum 31. Dezember 2020 und Lagebericht\n  ## BESTÄTIGUNGSVERMERK\n  ## Hochschule Hannover, Hannover\n  ## Bilanz zum 31. Dezember 2020\n  ## A k t i v a\n  ## Hochschule Hannover, Hannover\n  ## Gewinn- und Verlustrechnung für die Zeit vom 1. Januar bis 31. Dezember 2020\n  ## Anhang für das Geschäftsjahr 2020\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## Immaterielle Vermögensgegenstände\n  ## Sachanlagen\n  ## Finanzanlagen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## Folgende Maßnahmen wurden umgesetzt:\n  ## Die verbliebenen Rücklagen sind insbesondere für folgende Maßnahmen vorgesehen:\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## Sonstige Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Erträge\n  ## Umsatzerlöse\n  ## Sonstige betriebliche Erträge\n  ## Sonstige betriebliche Erträge\n  ## B. Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Sonstige Angaben\n  ## A. Haftungsverhältnisse und Sonstige finanzielle Verpflichtungen\n  ## B. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## C. Abschlussprüferhonorar\n  ## D. Geschäfte mit nahestehenden Personen\n  ## E. Beteiligungen\n  ## F. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2020\n  ## G. Organe\n  ## Präsidium\n  ## Senat\n  ## Hochschulrat\n  ## H. Ergebnisverwendung\n  ## I. Nachtragsbericht\n  ## K. Soll-Ist-Vergleich\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20 %"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2014 — Hochschule Hannover Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover Hannover\n  ## Bilanz zum 31. Dezember 2014\n  ## Gewinn- und Verlustrechnung für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2014\n  ## Hochschule Hannover\n  ## Anhang für das Geschäftsjahr 2014\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A . Sonstige betriebliche Erträge\n  ## B. Sonstige betriebliche Aufwendungen\n  ## C. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2014\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2014\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2014\n  ## Erläuterungen zum Soll-Ist-Vergleich\n  ## Hochschule Hannover\n  ## Lagebericht für das Geschäftsjahr 2014\n  ## 1. Rahmenbedingungen\n  ## Präsident von Helden:\n  ## Hauptberuflicher Vizepräsident Schumacher:\n  ## Vizepräsidentin für Lehre, Studium und Qualität Schlünz:\n  ## Vizepräsidentin für Soziale Öffnung, Weiterbildung und Internationales\n  ## Dieball:\n  ## 1.1 Hochschulstruktur\n  ## 1.2 Regionale Vernetzung\n  ## 1.3 Hochschulentwicklungsplanung\n  ## 1.4 Zielvereinbarung\n  ## 1.5 Hochschulpakt und Fachhochschulentwicklungsprogramm\n  ## 2. Geschäftsverlauf\n  ## 2.1 Studienangebot und Studiennachfrage"
+    },
+    {
+      "nr": 8,
+      "titel": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+      "fakultaet": "",
+      "struktur": "  ## Campus Linden\n    ### Auf einen Blick\n    ### Besucheradresse\n    ### Postadresse\n  ## Anfahrtsbeschreibung\n    ### Externer Inhalt\n  ## Gebäudeplan"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.2,
+      "id": "725ae530-ba89-5c91-8125-45d7c7acbec8",
+      "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+      "title_anzeige": "Standorte und Öffnungszeiten",
+      "section_heading": "Standorte und Öffnungszeiten > Standorte und Öffnungszeiten > Standorte und Öffnungszeiten > Campus Linden/Ricklinger Stadtweg",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "#  Standorte und Öffnungszeiten  \n### Auf einen Blick\n* [ Standorte und Öffnungszeiten ](https://f1.hs-hannover.de/service/standorte-oeffnungszeiten#standorte-und-oeffnungszeiten)\n* [ Wegbeschreibung ](https://f1.hs-hannover.de/service/standorte-oeffnungszeiten#wegbeschreibung)\n* [ Gebäudepläne ](ht"
+    },
+    {
+      "rang": 2,
+      "score": 0.875,
+      "id": "3ef26a58-f8a4-53e7-af35-f614a192ae82",
+      "source_url": "https://f2.hs-hannover.de/service/orientierungsplaene-und-oeffnungszeiten",
+      "title_anzeige": "f2 › service › orientierungsplaene und oeffnungszeiten",
+      "section_heading": "Orientierungspläne > Öffnungszeiten:",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Abt. Maschinenbau / Maschinenbau dual - Standort Linden\n\n### Externer Inhalt\nAn dieser Stelle finden Sie einen externen Inhalt von OpenStreetMap, der aufgrund der aktuell getroffenen Cookie-Einstellungen nicht automatisch angezeigt wird.\nMit Klick auf den Button bestätigen Sie die Einbettung des"
+    },
+    {
+      "rang": 3,
+      "score": 0.75,
+      "id": "5d3df17c-fefe-5b6d-8ba4-10470af9d95d",
+      "source_url": "https://f2.hs-hannover.de/ueber-uns/standorte-oeffnungszeiten",
+      "title_anzeige": "Standorte & Öffnungszeiten",
+      "section_heading": "Standorte & Öffnungszeiten > Öffnungszeiten:",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "### Anschrift:\nRicklinger Stadtweg 120\n30459 Hannover  \n[ Fak. II Abt. Maschinenbau / Maschinenbau dual  ](https://www.google.com/maps/place/Hochschule+Hannover/@52.3544181,9.7210087,17z/data=!4m13!1m7!3m6!1s0x47b074db65d4dd4d:0xd14326ea334e872d!2sRicklinger+Stadtweg+120,+30459+Hannover!3b1!8m2!3d52"
+    },
+    {
+      "rang": 4,
+      "score": 0.67619,
+      "id": "9cacd2d0-8994-516a-b942-88dcc8fe2f16",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf",
+      "title_anzeige": "f4 › OFI › IT Service › 26 02 19 IT Infoveranstaltung Erstsemester SS2025 — IT-Infoveranstaltung _für Studierende an der HsH Fakultät IV_",
+      "section_heading": "**IT-Infoveranstaltung** _**für Studierende an der HsH Fakultät IV**_ > **Lageplan Campus Linden**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **Lageplan Campus Linden**  \n**EG Hochschul IT Gebäude 1B Keller Hochhaus Gebäude 1A Validierungsstation Validierungsstation EC Aufwerter EC Aufwerter ITServiceDesk der H-IT (1B.0.43)**  \nValidierungsstation\nValidierung der Campuscard\n(Semeserbeitrag überwiesen)\nEC Aufwerter\nAufbuchung eines Geld"
+    },
+    {
+      "rang": 5,
+      "score": 0.38439,
+      "id": "7e99c954-cb3c-55d8-a508-979e64fe46e2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2016 — Hochschule Hannover",
+      "section_heading": "**2.9 Entwicklungen der baulichen Anlagen und Bauvorhaben** > **Baumaßnahmen**",
+      "chunk_index": 129,
+      "text_vollstaendig": true,
+      "auszug": "KEIN ORIGINAL  \nDer Baubeginn der Maßnahme „Umbau Mensa\" startete wie geplant im Januar 2016. Die Fertigstellung ist zum Wintersemester 2017/2018 geplant.  \nZur Sicherstellung der Stromversorgung am Standort Linden wird eine weitere Trafostation errichtet, um den durch den Neu- und Umbau der Mensa g"
+    },
+    {
+      "rang": 6,
+      "score": 0.33814,
+      "id": "476dca8b-351b-5530-b23f-c8c352130d91",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2020 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**11g).**",
+      "chunk_index": 74,
+      "text_vollstaendig": false,
+      "auszug": "## **11g).**  \nWie auch in Position 7c) ist bei der Planung von Übertragungen des Studierendenzentrums und der Mensa am Standort Linden an den Landesliegenschaftsfonds im Berichtsjahr ausgegangen worden."
+    },
+    {
+      "rang": 7,
+      "score": 0.29762,
+      "id": "ab9080c3-63d3-525e-9c32-eeb6be101c66",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2014 — Hochschule Hannover Hannover",
+      "section_heading": "**2.9 Entwicklungen der baulichen Anlagen und Bauvorhaben** > **Baumaßnahmen**",
+      "chunk_index": 113,
+      "text_vollstaendig": false,
+      "auszug": "Die Maßnahme „Umbau Mensa“ ist im 1. Quartal 2015 in die Phase der HU-Bau eingetreten. Mit dem Bau wurde im Dezember 2015 begonnen. Die Fertigstellung ist zum Wintersemester 2017/2018 geplant.  \nDie Flachdachsanierung der Bibliothek in Linden wurde aufgrund von Planungsverzögerungen von Frühling/Som"
+    },
+    {
+      "rang": 8,
+      "score": 0.28628,
+      "id": "495aea49-cbd8-589f-a475-99a6fbb51c05",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+      "title_anzeige": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "section_heading": "Campus Linden",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Campus Linden\nAuf dem Campus der Hochschule Hannover am Ricklinger Stadtweg in Hannover-Linden finden Sie die Fakultät I – Elektro- und Informationstechnik, Teile der Fakultät II – Maschinenbau und Bioverfahrenstechnik, die Fakultät IV – Wirtschaf"
+    },
+    {
+      "rang": 9,
+      "score": 0.26369,
+      "id": "85d8a4bb-b5fd-556e-89b4-57fa65cc5fe7",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2020 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**7c).**",
+      "chunk_index": 69,
+      "text_vollstaendig": false,
+      "auszug": "## **7c).**  \nBei der Aufstellung der Planzahlen ist von Übertragungen des Studierendenzentrums und der Mensa am Standort Linden an den Landesliegenschaftsfonds im Berichtsjahr ausgegangen worden, die bisher jedoch noch nicht erfolgt ist."
+    },
+    {
+      "rang": 10,
+      "score": 0.23243,
+      "id": "d44c9c26-8128-593b-9035-aa3ae4a9153d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**2.8. Entwicklungen der baulichen Anlagen und Bauvorhaben** > **2.8.1. Baumaßnahmen**",
+      "chunk_index": 152,
+      "text_vollstaendig": false,
+      "auszug": "Die Maßnahme „Umbau und Anbau der Mensa Ricklinger Stadtweg“ wurde in 2018 abgeschlossen. Eine Endabrechnung und die Übertragung an das NLBL stehen noch aus. Nach der Flachdachsanierung der Bibliothek in Linden werden seit Herbst 2016 die Glasdächer im Rahmen des 2. und 3. Bauabschnitts saniert. Der"
+    },
+    {
+      "rang": 11,
+      "score": 0.22619,
+      "id": "c984d8d3-47eb-5f3a-a4e1-967fac322c2a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2018 — Hannover",
+      "section_heading": "**2.8. Entwicklungen der baulichen Anlagen und Bauvorhaben** > **2.8.1. Baumaßnahmen**",
+      "chunk_index": 133,
+      "text_vollstaendig": false,
+      "auszug": "Die Maßnahme „Umbau und Anbau der Mensa Ricklinger Stadtweg“ wurde in 2018 abgeschlossen. Eine Endabrechnung steht noch aus. Nach der Flachdachsanierung der Bibliothek in Linden werden seit Herbst 2016 die Glasdächer im Rahmen des 2. und 3. Bauabschnitts saniert. Der 2. BA wurde in 2018 abgeschlosse"
+    },
+    {
+      "rang": 12,
+      "score": 0.21859,
+      "id": "7a58c36b-bb9f-53fe-8ab9-c4c7ce030b64",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2015 — Hannover",
+      "section_heading": "**2.9 Entwicklungen der baulichen Anlagen und Bauvorhaben** > **Baumaßnahmen**",
+      "chunk_index": 121,
+      "text_vollstaendig": false,
+      "auszug": "Der Baubeginn der Maßnahme „Umbau Mensa“ startete wie geplant zum Januar 2016. Die Fertigstellung ist zum Wintersemester 2017/2018 geplant.  \nFerner erfolgte im Frühling/Sommer 2015 die Flachdachsanierung der Bibliothek in Linden. Hier ist der 1. BA abgeschlossen, es folgt der 2. BA mit der Sanierun"
+    },
+    {
+      "rang": 13,
+      "score": 0.21342,
+      "id": "7d81a6a7-c054-5397-97d7-4c8a772c4f27",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > **Mensazeiten**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **Mensazeiten**  \n**Vorlesungszeit** Mo–Do 07:30–15:30 Uhr Fr 07:30–15:00 Uhr **Essenausgabe**  \nMo–Do 11:00–15:00 Uhr Fr 11:00–14:30 Uhr  \n**Vorlesungsfreie Zeit**  \nMo–Fr 07:30–14:30 Uhr Mo–Fr 11:00–14:00 Uhr  \nHochschule Hannover _Dekan Prof. Dr.-Ing. Frank Freund_ Erstsemesterinformation _Dek"
+    },
+    {
+      "rang": 14,
+      "score": 0.20678,
+      "id": "02ba7c63-4db6-5912-bb84-70c61e663a1a",
+      "source_url": "https://f2.hs-hannover.de/ueber-uns/maschinenbau",
+      "title_anzeige": "Studieren an der Fakultät II - Maschinenbau",
+      "section_heading": "Studieren an der Fakultät II - Maschinenbau",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Mit der Bibliothek, in der Mensa oder im Café, welches sich im Studierendenzentrum befindet – bei uns sind Sie sowohl geistig als auch kulinarisch bestens versorgt.\n![Campus Linden: Zu sehen ist die Bibliothek und das Gebäude der Fakultät I und II](https://f2.hs-hannover.de/fileadmin/_processed_/b/1"
+    },
+    {
+      "rang": 15,
+      "score": 0.19408,
+      "id": "c66e6e74-69c9-5814-aa40-b2c6f39c9f26",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot",
+      "title_anzeige": "www › studium › studienangebot",
+      "section_heading": "Studienangebot > Info-Point am Campus Linden",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Info-Point am Campus Linden\nHier können Sie alle Ihre Fragen rund um das Studium, einen Studiengangswechsel, die Zulassung und Anträge persönlich stellen!\n**Öffnungszeiten:**\nMontag bis Donnerstag von 9–12 Uhr und 13–15 Uhr.\nFreitags keine persönliche Sprechstunde, jedoch telefonisch von 9–12 Uhr"
+    },
+    {
+      "rang": 16,
+      "score": 0.19298,
+      "id": "5e05c2fe-36a7-5cf7-bb18-7926fb9079f4",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik > Ihr Weg zu uns:",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## Ihr Weg zu uns:\n##### Stadtbahn\nDie Stadtbahn fährt mit der Linie 3 oder 7 Richtung Wettbergen bis zur Haltestelle Bahnhof Linden/Fischerhof.\n##### S-Bahn\nDie S- Bahn Linien S2, S21, S5, S51 fahren bis zum Bahnhof Linden/Fischerhof.\n##### Bus\nDie Buslinien 100 und 200 halten direkt am Campus der "
+    },
+    {
+      "rang": 17,
+      "score": 0.18391,
+      "id": "6aa77955-c5e4-5f62-8452-346f9c0940d0",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+      "title_anzeige": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "section_heading": "Campus Linden > Auf einen Blick",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "### Auf einen Blick\n* [ Anschriften ](https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden#anschriften)\n* [ Anfahrtsbeschreibung ](https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/stan"
+    },
+    {
+      "rang": 18,
+      "score": 0.14008,
+      "id": "2fd689c1-49ac-5ad0-b3b2-2dadd5ff4ea8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "section_heading": "**2.8 Entwicklungen der baulichen Anlagen und Bauvorhaben** > **Baumaßnahmen**",
+      "chunk_index": 127,
+      "text_vollstaendig": false,
+      "auszug": "**KEIN ORIGINAL**  \nIm Detail befinden sich folgende weitere umfangreichere Projekte in der Umsetzung, bzw. konnten in 2017 erfolgreich fertiggestellt werden: Die Maßnahme „Umbau und Anbau der Mensa Ricklinger Stadtweg“ wurde in 2017 weiter ausgeführt und wird voraussichtlich in 2018 abgeschlossen s"
+    },
+    {
+      "rang": 19,
+      "score": 0.13918,
+      "id": "a2c4d493-9cf1-567d-a941-6dac1071a5e2",
+      "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+      "title_anzeige": "itr › landing page › studium",
+      "section_heading": "In Vollzeit oder Teilzeit > Campus Linden",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "##\n# Campus Linden\nDen Campus Linden der Hochschule Hannover finden Sie am Ricklinger Stadtweg. Auf dem Campus haben die Fakultäten I, II und IV ihre Räume. Der Studiengang Technisches Informationsdesign und Technische Redaktion gehört zur Fakultät I Elektro- und Informationstechnik. Außerdem befind"
+    },
+    {
+      "rang": 20,
+      "score": 0.1351,
+      "id": "14caf656-91a6-5182-a895-79ab43b1909b",
+      "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+      "title_anzeige": "itr › landing page › studium",
+      "section_heading": "In Vollzeit oder Teilzeit > Campus Linden",
+      "chunk_index": 19,
+      "text_vollstaendig": false,
+      "auszug": "![computerraum_2](https://itr.wp.hs-hannover.de/wp-content/uploads/2022/02/computerraum_2-1024x683.jpg)\n![computerraum_1](https://itr.wp.hs-hannover.de/wp-content/uploads/2022/02/computerraum_1-1024x683.jpg)\n![computerraum_2](https://itr.wp.hs-hannover.de/wp-content/uploads/2022/02/computerraum_2-10"
+    },
+    {
+      "rang": 21,
+      "score": 0.13075,
+      "id": "3c1a329b-7074-505a-aebc-22920256c3f0",
+      "source_url": "https://www.hs-hannover.de/ki-forum2026",
+      "title_anzeige": "KI-Forum 2026",
+      "section_heading": "KI-Forum 2026 > Anmeldung",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## Anmeldung\nZur Teilnahme ist herzlich eingeladen, wer sich für das Thema KI in Lehre und Forschung an Hochschulen interessiert. Eine Teilnahme setzt keine Einreichung eines Beitrags voraus. Für die Teilnahme am KI-Forum wird keine Gebühr erhoben. Während der Mittagspause steht die Mensa auf dem Ca"
+    },
+    {
+      "rang": 22,
+      "score": 0.11488,
+      "id": "a2854659-9a05-5559-bf48-823e7dfc70b0",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center/daad-projekt-hsh2career",
+      "title_anzeige": "Career Service for Internationals: Projekt HsH2Career",
+      "section_heading": "Career Service for Internationals: Projekt HsH2Career > Unsere Angebote > Career Service for Internationals: Projekt HsH2Career > Regelmäßige Angebote",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "**Datum:** Donnerstags\n**Uhrzeit:** 15:45-17:15h\n**Ort:** Raum 1J.1.11, Campus Linden\nKeine Anmeldung nötig. Komm einfach vorbei\n**Achtung:** Hier beraten studentische Guides als Alltags-Expert*innen, die **keine rechtsverbindliche Auskunft** geben können."
+    },
+    {
+      "rang": 23,
+      "score": 0.1131,
+      "id": "e7b0edf4-c831-5336-b7da-cea99fd86d56",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Info_Bienvenue.pdf",
+      "title_anzeige": "www › Bibliothek › Allgemeine Dateien › Info Bienvenue",
+      "section_heading": "Heures d‘ouverture",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Heures d‘ouverture  \npendant le semestre (période de cours) : lun. - ven. 9h00 - 19h30 sam. 9h00 - 14h00 dans la période inter-semestrielle : lun.-mer., ven. 9h00 - 16h00 jeu. 9h00 - 18h00 sam. fermé"
+    },
+    {
+      "rang": 24,
+      "score": 0.11143,
+      "id": "f4ec276b-227f-5fb8-a233-062ef98d7c1f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2018 — Hannover",
+      "section_heading": "**2.4. Entwicklung der technischen Ausstattung**",
+      "chunk_index": 110,
+      "text_vollstaendig": false,
+      "auszug": "Weiterhin erfordern die gehobenen Ansprüche und Anforderungen an die Qualität der Lehre eine Ausstattung der Fakultäten mit weiterer Hard- und Software sowie zusätzlicher Ausstattung im Bereich der Büromöbel, Betriebs- und Geschäftsausstattung.  \nWesentlich sind die Investitionen für den Neu- bzw. U"
+    },
+    {
+      "rang": 25,
+      "score": 0.10633,
+      "id": "08389b9c-170c-5d05-93f1-f25c5c1d2b88",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Dienstag_09.09.25.pdf",
+      "title_anzeige": "www › Studienberatung › HIT › 2025 09 08 HIT Terminuebersicht Dienstag 09.09.25 — Dienstag, 09.09.2025 (Stand 08.09.2025)",
+      "section_heading": "**Zeiten** > **Dienstag, 09.09.2025 (Stand 08.09.2025)**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "> 11.30 bis 12.15 Angewandte MathemaDuale Studiengänge Veranstaltungsmanagetik und Data Science im Maschinenbau ment studieren - Erlebnisse schaffen Leibniz Universität, Campus Linden, Campus Linden, Raum B302 Raum 1A.1.29 Raum 1A.0.36 Online: https://go.lu-h. de/HIT_B302_Tag1  \n> 12.30 bis 13.15 In"
+    },
+    {
+      "rang": 26,
+      "score": 0.10263,
+      "id": "53608399-b66a-5e60-a2ac-21ca89d5cfb9",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+      "title_anzeige": "Häufig gestellte Fragen",
+      "section_heading": "Häufig gestellte Fragen > FAQ > Wie lang ist der Campus geöffnet, um den Rückgabekasten zu nutzen?",
+      "chunk_index": 27,
+      "text_vollstaendig": true,
+      "auszug": "### Wie lang ist der Campus geöffnet, um den Rückgabekasten zu nutzen?\nDie aktuellen Öffnungszeiten aller Hochschulstandorte finden Sie [hier](https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/anschrift-der-fakultaeten/ \"Opens external link in current window\")."
+    },
+    {
+      "rang": 27,
+      "score": 0.09394,
+      "id": "9c6dd735-6746-536f-b350-024133dc28e2",
+      "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+      "title_anzeige": "Standorte und Öffnungszeiten",
+      "section_heading": "Standorte und Öffnungszeiten > Wegbeschreibung > Standorte und Öffnungszeiten > Campus Linden/Ricklinger Stadtweg > Standorte und Öffnungszeiten",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Wegbeschreibung\n\n## Campus Linden/Ricklinger Stadtweg\n##\n[ Mit Bahn und Auto in Hannover ](https://f1.hs-hannover.de/service/standorte-oeffnungszeiten \"Mit Bahn und Auto in Hannover\")\nSie erreichen den Campus der Hochschule mit der Stadtbahn Linie 3 oder 7 Richtung \"Wettbergen\" sowie 17 Richtung "
+    },
+    {
+      "rang": 28,
+      "score": 0.0867,
+      "id": "0cee61d1-ea32-54f6-bb09-09140eb681e2",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen",
+      "title_anzeige": "Sprachen & Studienkompetenzen",
+      "section_heading": "Herzlich willkommen!",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "# Herzlich willkommen!\n* * *\nDie aktuellen **Öffnungszeiten** **unserer Geschäftsstelle (Raum 1J.2.58**) im Studierendenzentrum Campus Linden sind in der Regel:\n* **Montag bis Freitag**\n**09:00-12:00 Uhr**\n* **Montag, Dienstag und Donnerstag**\n**13:00-15:00 Uhr**  \nVon Montag bis Freitag erreichen S"
+    },
+    {
+      "rang": 29,
+      "score": 0.08249,
+      "id": "4694b577-6459-5d81-ac3d-2bc22f874473",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/kontakt",
+      "title_anzeige": "www › hsh akademie › wissenswelt sprachen und studienkompetenzen › kontakt",
+      "section_heading": "Kontakt > Sprachen & Studienkompetenzen",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "##  Sprachen & Studienkompetenzen\nCampus Linden | Studierendenzentrum | Raum 1J.2.58\nRicklinger Stadtweg 120 | 30459 Hannover\n**Öffnungszeiten**\nMontag bis Freitag: 9:00-12:00 Uhr\nMontag, Dienstag und Donnerstag: 13:00-15:00 Uhr\nTelefon +49 511 9296 -7955 oder -8516\nE-Mail [fremdsprachen(at)hs-hanno"
+    },
+    {
+      "rang": 30,
+      "score": 0.08128,
+      "id": "2139c235-86c5-5858-b84c-6733e9806fbe",
+      "source_url": "https://f4.hs-hannover.de/ueber-uns/standort-oeffnungszeiten",
+      "title_anzeige": "Standorte & Öffnungszeiten:",
+      "section_heading": "Standorte & Öffnungszeiten: > Weitere Öffnungszeiten",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Weitere Öffnungszeiten\n[Standort und Anfahrt](https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden/)\n[Service Center als zentrale Anlaufstelle für Studierende](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenhe"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+        "score": 0.62145
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/standorte-oeffnungszeiten",
+        "score": 0.55112
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "score": 0.5289
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf",
+        "score": 0.52382
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "score": 0.52069
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 0.5201
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f2.hs-hannover.de/service/orientierungsplaene-und-oeffnungszeiten",
+        "score": 0.5109
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 0.50478
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+        "score": 0.5034
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/maschinenbau",
+        "score": 0.49421
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 0.49347
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Dienstag_09.09.25.pdf",
+        "score": 0.48978
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Info_Bienvenue.pdf",
+        "score": 0.47794
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+        "score": 0.46807
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center/daad-projekt-hsh2career",
+        "score": 0.46372
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_07_15_BBA_2StA.pdf",
+        "score": 0.46304
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_07_15_IBS.pdf",
+        "score": 0.4625
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/standort-oeffnungszeiten",
+        "score": 0.46183
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen",
+        "score": 0.46149
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot",
+        "score": 0.46004
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f5.hs-hannover.de/service/medien-kopierzentrum",
+        "score": 0.45676
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung",
+        "score": 0.45616
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_03_23_BBA_2StA.pdf",
+        "score": 0.45218
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f5.hs-hannover.de/ueber-uns/standort-oeffnungszeiten",
+        "score": 0.45072
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_03_23_BBA_2StA.pdf",
+        "score": 0.45025
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/kontakt",
+        "score": 0.44806
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 0.44574
+      },
+      {
+        "rang": 28,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+        "score": 0.44195
+      },
+      {
+        "rang": 29,
+        "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+        "score": 0.4394
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/strategische-hochschulentwicklung/thematische-schwerpunkte/green-office",
+        "score": 0.43402
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_07_15_BBA_1StA.pdf",
+        "score": 0.43136
+      },
+      {
+        "rang": 32,
+        "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+        "score": 0.43094
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.43036
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/standorte-oeffnungszeiten",
+        "score": 0.4275
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f3.hs-hannover.de/ueber-uns/standort-oeffnungszeiten",
+        "score": 0.42705
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.42674
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_02_12_IBS.pdf",
+        "score": 0.42211
+      },
+      {
+        "rang": 38,
+        "source_url": "https://hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten",
+        "score": 0.42079
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/mit-familie-auf-dem-campus",
+        "score": 0.4205
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_04_28_BBA_1StA.pdf",
+        "score": 0.41923
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+        "score": 0.41876
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Info1.pdf",
+        "score": 0.41865
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+        "score": 0.41807
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.41553
+      },
+      {
+        "rang": 45,
+        "source_url": "https://hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten",
+        "score": 0.41448
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Info8.pdf",
+        "score": 0.41444
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.41418
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Dienstag_09.09.25.pdf",
+        "score": 0.41237
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-en-Infoveranstaltung_Erstsemester_SS2025.pdf",
+        "score": 0.41236
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+        "score": 0.41148
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://f2.hs-hannover.de/service/orientierungsplaene-und-oeffnungszeiten",
+        "score": 0.72208
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/standorte-oeffnungszeiten",
+        "score": 0.67148
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+        "score": 0.6138
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+        "score": 0.6019
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+        "score": 0.59775
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf",
+        "score": 0.5945
+      },
+      {
+        "rang": 7,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+        "score": 0.58626
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.5782
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.57586
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot",
+        "score": 0.57582
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "score": 0.57086
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+        "score": 0.56888
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 0.56857
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+        "score": 0.56191
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 0.56076
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 0.5595
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/informationsveranstaltung-zum-masterstudiengang-elektrische-energiesysteme-und-elektromobilitaet-eee",
+        "score": 0.55892
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+        "score": 0.55883
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+        "score": 0.55705
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+        "score": 0.55217
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/Informatik/2026-02-23_Stundenplan_SS_26.pdf",
+        "score": 0.55209
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "score": 0.55202
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Info_Bienvenue.pdf",
+        "score": 0.55139
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 0.54856
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+        "score": 0.54614
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Brochure_Faculty_I_II_2023-3.11.23_neue_Fotos-Einzelseiten_6.11.23.pdf",
+        "score": 0.5387
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f4.hs-hannover.de",
+        "score": 0.53725
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/unternehmensentwicklung-mbd",
+        "score": 0.53563
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw/angebote-fuer-studieninteressierte",
+        "score": 0.53525
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.53503
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "score": 0.53437
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f5.hs-hannover.de/service/medien-kopierzentrum",
+        "score": 0.53246
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f5.hs-hannover.de/ueber-uns/gesundheitsfoerderung/ernaehrung",
+        "score": 0.53178
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center/daad-projekt-hsh2career",
+        "score": 0.52686
+      },
+      {
+        "rang": 35,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+        "score": 0.52587
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/campustalk-frag-dich-schlau",
+        "score": 0.52539
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 0.52534
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/40_Veranstaltungen/2025_Veranstaltungen/2026-Erstiveranstaltungen.pdf",
+        "score": 0.52314
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 0.52304
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 0.52218
+      },
+      {
+        "rang": 41,
+        "source_url": "https://service.it.hs-hannover.de/services/support",
+        "score": 0.52189
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/80_Lageplaene/Lageplan_Linden20170915.pdf",
+        "score": 0.52097
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/default-08f60c019da057690039d8824b007082",
+        "score": 0.51619
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/Angebot_Schnupperstudium_SoSe2026_Fakultaet__2.pdf",
+        "score": 0.51476
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/die-hsh-in-bildern",
+        "score": 0.5125
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+        "score": 0.51227
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/standort-oeffnungszeiten",
+        "score": 0.50889
+      },
+      {
+        "rang": 48,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+        "score": 0.50775
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 0.50347
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+        "score": 0.50313
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+        "score": 27.5162
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-forschungszentrum-energie-mobilitaet-prozesse-fz-emp/campusradeln",
+        "score": 23.3804
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/ki-forum2026",
+        "score": 22.40445
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf",
+        "score": 22.00108
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 21.92793
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f5.hs-hannover.de/studium/abteilung-soziale-arbeit-1",
+        "score": 21.49649
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-berufsbegleitend-sbw",
+        "score": 21.49649
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/maschinenbau",
+        "score": 20.74657
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/forschung/promotion",
+        "score": 20.05289
+      },
+      {
+        "rang": 10,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+        "score": 19.9236
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Erstsemesterinfo/25-09-19-HsH2Career_Infos_Fak_4_Einfuehrung_durch_Studiendekane.pdf",
+        "score": 19.43709
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "score": 18.85637
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 18.82696
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 18.62538
+      },
+      {
+        "rang": 15,
+        "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/berufsorientierung/campus-day-berufsorientierungstage",
+        "score": 18.60315
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 18.56285
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/kontakt",
+        "score": 18.50217
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-en-Infoveranstaltung_Erstsemester_SS2025.pdf",
+        "score": 18.25365
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "score": 17.89983
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 17.60219
+      },
+      {
+        "rang": 21,
+        "source_url": "https://itr.wp.hs-hannover.de/ueber-uns/projektseite",
+        "score": 17.18967
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Dienstag_09.09.25.pdf",
+        "score": 17.08525
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 17.01164
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_03_23_BBA_2StA.pdf",
+        "score": 16.95124
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 16.92668
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 16.82283
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f5.hs-hannover.de/studium/abteilung-soziale-arbeit-1",
+        "score": 16.72029
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+        "score": 16.70568
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_07_15_BBA_1StA.pdf",
+        "score": 16.69898
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_07_15_IBS.pdf",
+        "score": 16.63011
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_03_23_BBA_2StA.pdf",
+        "score": 16.6251
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f5.hs-hannover.de/ueber-uns/alumni-arbeit/alumni-soziale-arbeit/anmeldung-alumni-netzwerk/alumni-treffen",
+        "score": 16.49201
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 16.4819
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-ahlem",
+        "score": 16.4443
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Dienstag_09.09.25.pdf",
+        "score": 16.43176
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "score": 16.37989
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_final.pdf",
+        "score": 16.277
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Mittwoch_10.09.pdf",
+        "score": 16.23332
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_02_12_IBS.pdf",
+        "score": 16.1493
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/die-hsh-in-bildern",
+        "score": 16.12357
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen",
+        "score": 16.10697
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20241015_Protokoll_35.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+        "score": 16.10429
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 16.08129
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Mittwoch_10.09.pdf",
+        "score": 16.0609
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_final.pdf",
+        "score": 16.0609
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_07_15_IBS.pdf",
+        "score": 16.05155
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_04_28_BBA_1StA.pdf",
+        "score": 16.00907
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+        "score": 15.94328
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+        "score": 15.91861
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+        "score": 15.84265
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+        "score": 33.68111
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf",
+        "score": 26.52815
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f2.hs-hannover.de/service/orientierungsplaene-und-oeffnungszeiten",
+        "score": 26.36012
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 24.38707
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 24.26837
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 24.10414
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/ki-forum2026",
+        "score": 24.02301
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "score": 23.91805
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/maschinenbau",
+        "score": 23.76376
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "score": 23.48723
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/standorte-oeffnungszeiten",
+        "score": 23.4337
+      },
+      {
+        "rang": 12,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+        "score": 22.72636
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 22.6828
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 22.59049
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 22.00339
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Erstsemesterinfo/25-09-19-HsH2Career_Infos_Fak_4_Einfuehrung_durch_Studiendekane.pdf",
+        "score": 21.46631
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot",
+        "score": 21.44813
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+        "score": 21.04694
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+        "score": 20.9779
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "score": 20.59087
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/kontakt",
+        "score": 20.52853
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/standorte-oeffnungszeiten",
+        "score": 20.52111
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+        "score": 20.36257
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "score": 20.35929
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f2.hs-hannover.de/service/orientierungsplaene-und-oeffnungszeiten",
+        "score": 20.33397
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "score": 20.09031
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 20.09031
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f2.hs-hannover.de/service/orientierungsplaene-und-oeffnungszeiten",
+        "score": 19.99743
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-en-Infoveranstaltung_Erstsemester_SS2025.pdf",
+        "score": 19.94517
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "score": 19.58599
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/40_Veranstaltungen/2025_Veranstaltungen/2026-Erstiveranstaltungen.pdf",
+        "score": 19.52406
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-forschungszentrum-energie-mobilitaet-prozesse-fz-emp/campusradeln",
+        "score": 19.44445
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Dienstag_09.09.25.pdf",
+        "score": 18.83935
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen",
+        "score": 18.69121
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+        "score": 18.47541
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 18.39637
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Dienstag_09.09.25.pdf",
+        "score": 18.24971
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+        "score": 18.11174
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Zeitplan_WiSe2026-2027.pdf",
+        "score": 18.0471
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_final.pdf",
+        "score": 18.031
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center/daad-projekt-hsh2career",
+        "score": 17.9314
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+        "score": 17.90413
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_final.pdf",
+        "score": 17.84195
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/die-hsh-in-bildern",
+        "score": 17.8272
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 17.80726
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 17.75337
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+        "score": 17.60415
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Dienstag_09.09.25.pdf",
+        "score": 17.56725
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_07_15_BBA_1StA.pdf",
+        "score": 17.53707
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 17.5033
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.08,
+    "kandidaten_s": 0.0,
+    "arme_s": 1.83,
+    "gesamt_s": 3.92
+  },
+  "auswahl_begruendung": ""
+}

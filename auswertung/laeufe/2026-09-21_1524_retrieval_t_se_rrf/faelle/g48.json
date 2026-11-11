@@ -1,0 +1,1442 @@
+{
+  "fall": {
+    "id": "g48",
+    "case_type": "direct",
+    "question": "Nach welchem Kriterium wird ein Studienpreis der Fakultät V vergeben, wenn meine Noten nicht herausragend sind?",
+    "reference_answer": "Nach besonderem Engagement – die Hälfte der Preise geht an diese Gruppe.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die Studienpreise werden je zur Hälfte nach Leistung (Abs. 2) oder einem besonderen Engagement (Abs. 3 bis 6) vergeben."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ ordnung/auswahl. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T15:29:34",
+  "dauer_s": 4.95,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ordnung der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung)\n  ## § 1 Allgemeines\n  ## § 2 Ausschreibung\n  ## § 3 Höhe der Studienpreise; Bewilligungszeitraum\n  ## § 4 Antrag\n  ## § 5 Vergabeverfahren\n  ## § 6 Vergabekommission\n  ## § 7 Vergabekriterien\n  ## § 8 Datenschutz\n  ## § 9 Inkrafttreten\n  ## Antrag auf Gewährung eines Studienpreises der Fakultät Diakonie, Gesundheit und Soziales\n  ## (   ) wegen besonderer Leistungen\n  ## (   ) wegen einem besonderen Engagement im Studium oder eines besonderen hochschulpolitischen, gesellschaftlichen oder sozialen Engagements."
+    },
+    {
+      "nr": 2,
+      "titel": "www › Verkuendungsblatt › 01 2009 › 06 Richtlinie Studienpreise FakV",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie der Fakultät Diakonie, Gesundheit und Soziales für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 13.01.2009\n  ## I. Allgemeines\n  ## II. Höhe und Dauer der Studienpreise\n  ## III. Vergabeverfahren\n  ## IV. Vergabekriterien\n  ## V. Inkrafttreten"
+    },
+    {
+      "nr": 3,
+      "titel": "FAWuI-Studierendenpreis 2025 vergeben",
+      "url": "https://f4.hs-hannover.de/aktuelles/news/7456",
+      "fakultaet": "f4",
+      "struktur": "# FAWuI-Studierendenpreis 2025 vergeben\n    ### Der mit 500 € dotierte Studierendenpreis der Fördergemeinschaft und Alumni-Vereinigung der Fakultät IV – Wirtschaft und Informatik – FAWuI e.V. wurde für das Jahr 2025 an Frau Wiebke Schal vergeben."
+    },
+    {
+      "nr": 4,
+      "titel": "www › Verkuendungsblatt › 09 2011 › 01 Richtlinie Studienpreise F III — I. Allgemeines",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+      "fakultaet": "",
+      "struktur": "# Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011\n  ## I. Allgemeines\n  ## II. Höhe und Dauer der Studienpreise\n  ## III. Vergabeverfahren\n  ## IV. Vergabekriterien\n  ## V. Inkrafttreten"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Verkuendungsblatt › 06 2017 › 4 Stipendienordnung der Fakulta t I 2017 — Präambel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Spezifische Stipendienordnung\n  ## der Fakultät I – Elektro- und Informationstechnik\n  ## §1\n  ## Präambel\n  ## §2\n  ## Stipendien\n  ## §3\n  ## Verfahren\n  ## Stipendien für besonderes Engagement und besondere Verdienste\n  ## §5\n  ## Stipendien für einen herausragenden ersten Studienabschnitt in den Bachelorstudiengängen „Angewandte Mathematik“, „Technische Redaktion“, „Elektrotechnik und Informationstechnik“, „Mechatronik“ und „Wirtschaftsingenieur Elektrotechnik“\n  ## Stipendien für eine herausragende Vorleistung in den\n  ## Masterstudiengängen der Fakultät I\n  ## §7\n  ## Verfügbarkeit der Mittel\n  ## §8\n  ## Erforderliche Unterlagen für die Auszahlungen\n  ## §9\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 6,
+      "titel": "f4 › ueber uns › fawui › studierendenpreis",
+      "url": "https://f4.hs-hannover.de/ueber-uns/fawui/studierendenpreis",
+      "fakultaet": "f4",
+      "struktur": "# Studierendenpreis\n  ## Studierendenpreis 2025\n  ## Studierendenpreis 2024\n  ## Studierendenpreis 2023\n  ## Studierendenpreis 2022\n  ## Studierendenpreis 2021"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Verkuendungsblatt › 04 2013 › 03 Spezifische Stipendienordnung der Fakultaet I abgestimmt 2 — § 1 Präambel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Spezifische Stipendienordnung der Fakultät I – Elektro- und Informationstechnik\n  ## § 1 Präambel\n  ## § 2 Stipendien\n  ## §3 Verfahren\n  ## § 4 Stipendien für besonderes Engagement und besondere Verdienste\n  ## § 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“\n  ## § 6 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang„Elektrotechnik und Informationstechnik“, „Mechatronik“ und „Wirtschaftsingenieur Elektrotechnik“\n  ## § 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.\n  ## § 8 Verfügbarkeit der Mittel\n  ## § 9 Erforderliche Unterlagen für die Auszahlungen durch Dezernat IV HaushaltFinanzen- Controlling\n  ## § 10 Inkrafttreten"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Grundordnung der Hochschule Hannover\n  ## Präambel\n  ## § 1\n  ## Rechtsstellung, Sitz\n  ## § 2\n  ## Ziele und Aufgaben\n  ## § 3\n  ## Organisation der Hochschule\n  ## § 4\n  ## Organe der Hochschulen\n  ## § 5\n  ## Institute\n  ## § 6\n  ## Präsidium\n  ## § 7\n  ## Senat\n  ## § 8\n  ## Hochschulrat\n  ## § 9\n  ## Bildung und Zusammensetzung von Kommissionen mit besonderen Aufgaben\n  ## und weiteren beratenden Gremien\n  ## § 10 Dekanat\n  ## § 11\n  ## Fakultätsrat\n  ## § 12\n  ## Wissenschaftliche Einrichtungen und Kooperationen\n  ## § 13\n  ## Mitglieder und Angehörige\n  ## § 14\n  ## Allgemeine Grundsätze der Mitwirkung\n  ## § 15\n  ## Rechtsstellung der Mitglieder von Gremien\n  ## § 16\n  ## Beschlüsse\n  ## § 17\n  ## Öffentlichkeit\n  ## § 18\n  ## Gleichstellungsbeauftragte\n  ## § 19\n  ## Bestellung von Honorarprofessorinnen und Honorarprofessoren\n  ## § 20\n  ## Ernennung von Ehrensenatorinnen und Ehrensenatoren\n  ## § 21\n  ## Berufung von Professorinnen und Professoren\n  ## § 22\n  ## Veröffentlichungen und Bekanntmachungen\n  ## § 23\n  ## Änderung der Grundordnung\n  ## § 24"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 0.83333,
+      "id": "43e72931-0e41-58d9-ad5e-a162e3da530f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "section_heading": "**§ 7 Vergabekriterien**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 7 Vergabekriterien**  \n(1)[1] Die Studienpreise werden je zur Hälfte nach Leistung (Abs. 2) oder einem besonderen Engagement (Abs. 3 bis 6) vergeben.[2] Liegt in einer Gruppe keine ausreichende Zahl von Anträgen vor, werden die überzähligen Studienpreise an Bewerberinnen oder Bewerber der and"
+    },
+    {
+      "rang": 2,
+      "score": 0.53333,
+      "id": "02a70e1c-3e83-587c-bc15-a1384aeb400b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2009 › 06 Richtlinie Studienpreise FakV",
+      "section_heading": "**IV. Vergabekriterien**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "6.[1] Der Fakultätsrat entscheidet im Januar bzw. Juni eines Jahres über die Vergabe.[2] Der Dekan/die Dekanin informiert die designierten Studienpreisträgerinnen und Studienpreisträger und zeigt dem Präsidium die beschlossenen Studienpreise an, nachdem die Bedachten die Annahme der Studienpreise er"
+    },
+    {
+      "rang": 3,
+      "score": 0.5,
+      "id": "f6649b98-c417-56a1-bdad-1fa4469022d7",
+      "source_url": "https://f4.hs-hannover.de/aktuelles/news/7456",
+      "title_anzeige": "FAWuI-Studierendenpreis 2025 vergeben",
+      "section_heading": "FAWuI-Studierendenpreis 2025 vergeben > Der mit 500 € dotierte Studierendenpreis der Fördergemeinschaft und Alumni-Vereinigung der Fakultät IV – Wirtschaft und Informatik – FAWuI e.V. wurde für das Jahr 2025 an Frau Wiebke Schal vergeben.",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "06.08.2025\n# FAWuI-Studierendenpreis 2025 vergeben  \n###  Der mit 500 € dotierte Studierendenpreis der Fördergemeinschaft und Alumni-Vereinigung der Fakultät IV – Wirtschaft und Informatik – FAWuI e.V. wurde für das Jahr 2025 an Frau Wiebke Schal vergeben.\n![](https://f4.hs-hannover.de/fileadmin/_pr"
+    },
+    {
+      "rang": 4,
+      "score": 0.45,
+      "id": "8e3104e8-707a-5555-bd96-bbbdbdd5b47a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2009 › 06 Richtlinie Studienpreise FakV",
+      "section_heading": "**IV. Vergabekriterien**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "3.[1] Die Studienpreise an ausländische Studierende werden aufgrund der in den bis zur Antragstellung absolvierten Prüfungen erzielten Durchschnittsnote, bei Erstsemestern aufgrund der Note der Hochschulzugangsberechtigung vergeben.[2] In beiden Fällen ist als Vergleichsgruppe nur die der ausländisc"
+    },
+    {
+      "rang": 5,
+      "score": 0.3,
+      "id": "3ea5b265-bcaa-5b8f-a221-93f37f7f784b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "section_heading": "**(   ) wegen einem besonderen Engagement im Studium oder eines besonderen hochschulpolitischen, gesellschaftlichen oder sozialen Engagements.**",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "## **(   ) wegen einem besonderen Engagement im Studium oder eines besonderen hochschulpolitischen, gesellschaftlichen oder sozialen Engagements.**  \nBitte ein Gutachten einer/eines hauptberufliche Lehrenden der Fakultät über die in § 7 Abs. 3 der Studienpreis-Ordnung der Fakultät genannten Kriterie"
+    },
+    {
+      "rang": 6,
+      "score": 0.20168,
+      "id": "2ca678fd-e45d-537b-9626-1be9cb45ca0f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2011 › 01 Richtlinie Studienpreise F III — I. Allgemeines",
+      "section_heading": "**Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011** > **IV. Vergabekriterien**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **IV. Vergabekriterien**  \n1. Die Studienpreise werden aus Studienbeiträgen finanziert. Vergeben werden die Studienpreise bei den Bachelor-Studiengängen im 2. Semester (für das 2. und 3. Semester) und im 5. Semester (für das 5. und 6. Semester).  \n2. Die Studienpreise bei den konsekutiven Master-"
+    },
+    {
+      "rang": 7,
+      "score": 0.15873,
+      "id": "da1a55d9-e1e9-54d8-a933-7716a7cf80ce",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › 4 Stipendienordnung der Fakulta t I 2017 — Präambel",
+      "section_heading": "**Stipendien für eine herausragende Vorleistung in den** > **Masterstudiengängen der Fakultät I**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **Stipendien für eine herausragende Vorleistung in den**\n\n## **Masterstudiengängen der Fakultät I**  \nStipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.  \nAntragsberechtigt sind alle im ersten Semester eines M"
+    },
+    {
+      "rang": 8,
+      "score": 0.14927,
+      "id": "afa440a7-7a74-5cde-a32b-1701fdf7be5e",
+      "source_url": "https://f4.hs-hannover.de/ueber-uns/fawui/studierendenpreis",
+      "title_anzeige": "f4 › ueber uns › fawui › studierendenpreis",
+      "section_heading": "Studierendenpreis > Studierendenpreis 2025",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Studierendenpreis 2025\n![Wiebke Schal bei der Preisverleihung](https://f4.hs-hannover.de/fileadmin/_processed_/5/8/csm_FAWuI-Studienpreis-2025-08_c71ac3900f.jpg?rbiFocus=mobile)\nDer mit 500 € dotierte Studierendenpreis der Fördergemeinschaft und Alumni-Vereinigung der Fakultät IV – Wirtschaft und"
+    },
+    {
+      "rang": 9,
+      "score": 0.14354,
+      "id": "797f1429-95ab-5d6e-ac3b-24a095d9c695",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 03 Spezifische Stipendienordnung der Fakultaet I abgestimmt 2 — § 1 Präambel",
+      "section_heading": "**§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**  \nAntragsberechtigt sind alle im ersten Semester eines Masters"
+    },
+    {
+      "rang": 10,
+      "score": 0.14167,
+      "id": "da7abc6f-b95c-5e7b-9cc0-638cc87a879c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "section_heading": "**§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**",
+      "chunk_index": 98,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**  \nAntragsberechtigt sind alle im ersten Semester eines Masters"
+    },
+    {
+      "rang": 11,
+      "score": 0.12778,
+      "id": "c34d4912-65b5-5883-b829-e151ad024114",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2011 › 01 Richtlinie Studienpreise F III — I. Allgemeines",
+      "section_heading": "**Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011** > **IV. Vergabekriterien**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "4. Die Studienpreise werden nach Leistung einerseits und nach besonderem hochschulpolitischem, gesellschaftlichem oder sozialem Engagement andererseits vergeben. Ein besonderes hochschulpolitisches Engagement liegt in der Regel bei einer mindestens zwei Semester dauernden aktiven Mitarbeit in der Se"
+    },
+    {
+      "rang": 12,
+      "score": 0.12692,
+      "id": "464b2dc4-01d6-55d9-a114-4f52521df5eb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › HsH Verkuendungsblatt 06 2017 20220701 — Verkündungsblatt",
+      "section_heading": "**§6** > **Stipendien für eine herausragende Vorleistung in den** > **Masterstudiengängen der Fakultät I**",
+      "chunk_index": 95,
+      "text_vollstaendig": false,
+      "auszug": "## **§6**\n\n## **Stipendien für eine herausragende Vorleistung in den**\n\n## **Masterstudiengängen der Fakultät I**  \nStipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.  \nAntragsberechtigt sind alle im ersten Semes"
+    },
+    {
+      "rang": 13,
+      "score": 0.125,
+      "id": "66f863e2-7a95-5ddc-a548-8687a65c07fd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/05-2007/9-StipendienRahmenO.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2007 › 9 StipendienRahmenO",
+      "section_heading": "**2 Förderkriterien**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **2 Förderkriterien**  \nDie Studienkommissionen in den Fakultäten entwickeln Kriterien für die Förderung von Studierenden der Abteilung bzw. Fakultät; der Fakultätsrat beschließt diese Kriterien und zeigt sie dem Präsidium an. In der Regel basieren diese Kriterien auf besonderen Leistungen bzw. h"
+    },
+    {
+      "rang": 14,
+      "score": 0.125,
+      "id": "100325ea-b94d-5d86-8df3-1b6abb19bb37",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/1._Zulassungsordnung_dualen_Bachelor-Studiengang_Veranstaltungsmanagement_an_der_Fakultaet_III.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2013 › 1. Zulassungsordnung dualen Bachelor Studiengang Veranstaltungsmanagement an der Fakultaet III — Geltungsbereich",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung zum Studium im dualen Bachelor-Studiengang Veranstaltungsmanagement an der Fakultät III der Hochschule Hannover** > **§ 5** > **Ordnung über den Zugang und die Zulassung zum Studium im dualen Bachelor-Studiengang Veranstaltungsmanagement an der Fakultät III der Hochschule Hannover** > **Zulassungsverfahren**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "- (4) Erfüllen mehr Bewerberinnen und Bewerber die Zugangsvoraussetzungen als Studienplätze zur Verfügung stehen, werden die Studienplätze nach dem Ergebnis der Durchschnittsnote der Hochschulzugangsberechtigung vergeben. Bei gleicher Note entscheidet das Los."
+    },
+    {
+      "rang": 15,
+      "score": 0.08523,
+      "id": "baf9f1a2-3772-5ca2-b54a-1521d7de1e62",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2009",
+      "title_anzeige": "www › verkuendungsblatt › aeltere ausgaben › ausgaben 2009 — Ausgabe Nr. 6/2009 vom18.12.2009",
+      "section_heading": "Ausgabe Nr. 1/2009 vom 23.2.2009",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "[Richtlinie der Fakultät V für die Vergabe von Studienpreisen (Studienpreis-Richtlinie)](https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf)"
+    },
+    {
+      "rang": 16,
+      "score": 0.08333,
+      "id": "f48470d5-5e8f-54e3-bd5f-0d2232d1b215",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/02_Stipendienordnung_III_20160321.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2016 › 02 Stipendienordnung III 20160321 — Allgemeines",
+      "section_heading": "**§ 4** > **Vergabekriterien**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "- (5)  Die Stipendien werden nach (1) Leistung (berechnet nach dem Notendurchschnitt) einerseits und nach (2a) besonderem hochschulpolitischem, (2b) gesellschaftlichem oder (2c) sozialem Engagement andererseits vergeben. Ein besonderes hochschulpolitisches Engagement liegt in der Regel bei einer min"
+    },
+    {
+      "rang": 17,
+      "score": 0.07403,
+      "id": "5a438d8e-0302-5230-bff5-1ba4a63edc6e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2013 › HsH Verkuendungsblatt 05 2013 — Verkündungsblatt",
+      "section_heading": "**Ordnung der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover zur Vergabe von „Go Out“-Zuschüssen im Rahmen von studienbezogenen Auslandsaufenthalten** > **Ordnung der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung)**",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "## **Ordnung der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung)**  \nVeröffentlicht im Verkündungsblatt Nr. 1/2009 vom 23.2.2009, 1. Änderung veröffentlicht im Verkündungsblatt Nr. Nr. 5/2013 vom 3.7.2013."
+    },
+    {
+      "rang": 18,
+      "score": 0.07143,
+      "id": "c2f7a1c2-51af-53a1-a403-61f8979b316b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2011 › 01 Richtlinie Deutschlandstipendium",
+      "section_heading": "**(  ) aufgrund der besonders guten Durchschnittsnote im Studium, die ich durch einen offiziellen Notenspiegel nachweise, den ich im Prüfungsamt erhalte und als Anlage beifüge**",
+      "chunk_index": 28,
+      "text_vollstaendig": true,
+      "auszug": "## **(  ) aufgrund der besonders guten Durchschnittsnote im Studium, die ich durch einen offiziellen Notenspiegel nachweise, den ich im Prüfungsamt erhalte und als Anlage beifüge**  \nDieses Kriterium gilt nur für Studierende in der Regelstudienzeit. Stichtag für die Ausstellung des Notenspiegels ode"
+    },
+    {
+      "rang": 19,
+      "score": 0.06667,
+      "id": "8aa920fb-0093-53cc-9b14-dac692d8824c",
+      "source_url": "https://f4.hs-hannover.de/ueber-uns/fawui/studierendenpreis",
+      "title_anzeige": "f4 › ueber uns › fawui › studierendenpreis",
+      "section_heading": "Studierendenpreis",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Studierendenpreis\nDie FAWuI schreibt regelmäßig einen Preis für Studierende aus, deren soziales, gesellschaftliches oder hochschulinternes Engagement sowie akademische Leistungen gewürdigt werden sollen. Teilnahmeberechtigt sind alle eingeschriebenen Studierenden der Fakultät IV ab dem 4. Semeste"
+    },
+    {
+      "rang": 20,
+      "score": 0.0625,
+      "id": "246910e0-b0d3-5dde-8c14-c04518da012b",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Ueber_Uns/FaWuI/Studierendenpreis/25-05-16_FAWuI-Studierendenpreis_2025.pdf",
+      "title_anzeige": "f4 › FaWuI › Studierendenpreis › 25 05 16 FAWuI Studierendenpreis 2025 — FAWuIStudierendenpreis",
+      "section_heading": "**FAWuIStudierendenpreis**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **FAWuIStudierendenpreis**  \nDie FAWuI schreibt erneut einen Preis für Studierende aus, deren soziales, gesellschaftliches oder hochschulinternes Engagement sowie akademische Leistungen gewürdigt werden sollen. Der für eine Person bestimmte und mit 500 € dotierte Preis wird im Sommersemester 2025"
+    },
+    {
+      "rang": 21,
+      "score": 0.06053,
+      "id": "6298adcf-5bad-55a4-bae1-13852a46edae",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_MA_PEP.pdf",
+      "title_anzeige": "f2 › Ordnungen › xZulassungsordnungen › ZulO MA PEP",
+      "section_heading": "**§ 4** > **Zulassungsverfahren**",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "- (3) Die Auswahlkommission (§ 5) trifft die Auswahlentscheidung.  \n- (4) Für die Vergabe der Plätze, die nach der Kombination der Note mit dem Ergebnis des Auswahlgesprächs vergeben werden (Absatz 2 Satz 4), wird eine neue Rangliste gebildet. Maßgebend hierfür ist die Abschluss- bzw. Durchschnittsn"
+    },
+    {
+      "rang": 22,
+      "score": 0.05704,
+      "id": "5462e4b9-5657-533b-8bc0-403f897d9117",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › 4 Stipendienordnung der Fakulta t I 2017 — Präambel",
+      "section_heading": "**§5** > **Stipendien für einen herausragenden ersten Studienabschnitt in den Bachelorstudiengängen „Angewandte Mathematik“, „Technische Redaktion“, „Elektrotechnik und Informationstechnik“, „Mechatronik“ und „Wirtschaftsingenieur Elektrotechnik“**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§5**\n## **Stipendien für einen herausragenden ersten Studienabschnitt in den Bachelorstudiengängen „Angewandte Mathematik“, „Technische Redaktion“, „Elektrotechnik und Informationstechnik“, „Mechatronik“ und „Wirtschaftsingenieur Elektrotechnik“**  \nStipendien für einen herausragenden ersten St"
+    },
+    {
+      "rang": 23,
+      "score": 0.05556,
+      "id": "8f73d6d2-7fc0-59fb-af3d-b9814cc02491",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/5._Go-Out-Ordnung-Fakultaet_II_20130722.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2013 › 5. Go Out Ordnung Fakultaet II 20130722 — Allgemeines",
+      "section_heading": "**§ 4** > **Auswahlentscheidung**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 4**\n\n## **Auswahlentscheidung**  \nDie Vergabe erfolgt nach folgenden Kriterien:  \n- (1) Studiensemester, Praktika, Fachkurse und Studien- und Projektreisen werden gleichrangig gefördert.  \n- (2) Für Studiensemester, Praktika, Fachkurse ist die jeweilige Durchschnittsnote des Vorsemesters maßg"
+    },
+    {
+      "rang": 24,
+      "score": 0.054,
+      "id": "ec47e7a9-740b-5434-96ae-e75ac107dbc3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 03 Spezifische Stipendienordnung der Fakultaet I abgestimmt 2 — § 1 Präambel",
+      "section_heading": "**§ 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“**  \nStipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang  \n„Technische Redaktion“ werden aufgrund besonderer Leistungen im ersten Studienabschnitt vergeben"
+    },
+    {
+      "rang": 25,
+      "score": 0.05163,
+      "id": "133f8de3-d363-5e1f-a334-2bb7e89df0fa",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "section_heading": "**§ 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“**",
+      "chunk_index": 94,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“**  \nStipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang  \n„Technische Redaktion“ werden aufgrund besonderer Leistungen im ersten Studienabschnitt vergeben"
+    },
+    {
+      "rang": 26,
+      "score": 0.04545,
+      "id": "0d5db5a5-8fd8-5385-bbee-49d96ef885bf",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/11-2011/01-Richtlinie_Landesstipendium_Niedersachsen_2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2011 › 01 Richtlinie Landesstipendium Niedersachsen 2011 — `RICHTLINIE`",
+      "section_heading": "**`§ 1`** > **`Quotierung und Vergabekriterien; Höhe und Art der Stipendien`**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **`§ 1`**\n## **`Quotierung und Vergabekriterien; Höhe und Art der Stipendien`**  \n- (1) Von den für Stipendien zur Verfügung stehenden Mitteln werden, soweit genügend Anträge vorliegen, in der Regel  \n1.  95 % an Studierende in grundständigen Studiengängen oder in konsekutiven MasterStudiengängen"
+    },
+    {
+      "rang": 27,
+      "score": 0.04348,
+      "id": "cf3fa044-760f-5fd1-ab53-c10719fbf591",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2013",
+      "title_anzeige": "www › verkuendungsblatt › aeltere ausgaben › ausgaben 2013 — Ausgabe Nr. 10/2013 vom 20.12.2013",
+      "section_heading": "Ausgabe Nr. 05/2013 vom 3.7.2013",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "[Ordnung der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover zur Vergabe von „Go Out“-Zuschüssen im Rahmen von studienbezogenen Auslandsaufenthalten](https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/02__Ord"
+    },
+    {
+      "rang": 28,
+      "score": 0.04,
+      "id": "a7dd51f5-338a-519e-ad4c-e2612771859b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 177,
+      "text_vollstaendig": false,
+      "auszug": "|||||||\n|2009|1|23.02.2009|V|Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Master-Studiengang Social Work an der Fakultät V|V|\n|2009|1|23.02.2009|V|Ordnung über den Zugang und die Zulassung für den konsekutiven berufbegleitenden Master-Studiengang Management für P"
+    },
+    {
+      "rang": 29,
+      "score": 0.03968,
+      "id": "ce639e99-ae4d-5cc8-a3fe-3c113f498490",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/Gesamt-9-2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2011 › Gesamt 9 2011 — Verkündungsblatt",
+      "section_heading": "**Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011** > **I. Allgemeines**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011**  \n## **I. Allgemeines**  \nDie Fakultät III – Medien, Information und Design – Abteilung"
+    },
+    {
+      "rang": 30,
+      "score": 0.03795,
+      "id": "7713bcba-bd67-5d18-9d98-813c478dd203",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/Verkuendungsblatt_01-2009.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2009 › Verkuendungsblatt 01 2009 — Verkündungsblatt",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den konsekutiven berufsbegleitenden Teilzeit-Master-Studiengang Social Work (MSW) mit dem Abschluss Master of Arts (M.A.) an der Fakultät V, Diakonie, Gesundheit und Soziales der Fachhochschule Hannover** > **Richtlinie der Fakultät Diakonie, Gesundheit und Soziales für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 13.01.2009** > **Besonderer Teil der Prüfungsordnung für den konsekutiven berufsbegleitenden Teilzeit-Master-Studiengang Social Work (MSW) mit dem Abschluss Master of Arts (M.A.) an der Fakultät V, Diakonie, Gesundheit und Soziales der Fachhochschule Hannover** > **I. Allgemeines**",
+      "chunk_index": 71,
+      "text_vollstaendig": false,
+      "auszug": "## **Richtlinie der Fakultät Diakonie, Gesundheit und Soziales für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 13.01.2009**\n\n## **I. Allgemeines**  \nDie Fakultät Diakonie, Gesundheit und Soziales entscheidet nach Maßgabe der „Rahmenordnung der Fachhochschule Hannover (FHH) zur Verga"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.65643
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.6528
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.64029
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.63453
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.62974
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 0.60417
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/05-2007/9-StipendienRahmenO.pdf",
+        "score": 0.60336
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 0.59973
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.59342
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.59294
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/02_Stipendienordnung_III_20160321.pdf",
+        "score": 0.59293
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.59143
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf",
+        "score": 0.58423
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/fawui/studierendenpreis",
+        "score": 0.57892
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Ueber_Uns/FaWuI/Studierendenpreis/25-05-16_FAWuI-Studierendenpreis_2025.pdf",
+        "score": 0.57712
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.577
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/5._Go-Out-Ordnung-Fakultaet_II_20130722.pdf",
+        "score": 0.57175
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 0.56986
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+        "score": 0.56886
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+        "score": 0.56683
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/11-2011/01-Richtlinie_Landesstipendium_Niedersachsen_2011.pdf",
+        "score": 0.56499
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.56092
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+        "score": 0.56061
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 0.55714
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.5567
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 0.55613
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/04-Stipendienordnung_III.pdf",
+        "score": 0.55478
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.55408
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20210518_Protokoll_28.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+        "score": 0.55348
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/02-Ordnung_der_Fakultaet_I_zur_Vergabe_von_Go_Out.pdf",
+        "score": 0.55331
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/11-2011/01-Richtlinie_Landesstipendium_Niedersachsen_2011.pdf",
+        "score": 0.54882
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.54719
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/03-Entwurf_Go-Out_Fak__III_-13-05-13redaktionellgeaendert270513.pdf",
+        "score": 0.53947
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+        "score": 0.53843
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+        "score": 0.5376
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/05-2018/03_Richtlinie_HuW_ab_2019_AEnd.pdf",
+        "score": 0.53521
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.53457
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/4._Go-Out-Ordnung-Fakultaet_V_20130528.pdf",
+        "score": 0.53405
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/02__Ordnung_der_Fakultaet_IV_zur_Vergabe_von____Go_out___-Zuschuessen_im_Rahmen_von_studienbezogenen_Auslandsaufenthalten.pdf",
+        "score": 0.53386
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 0.53363
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/05-2010/02_Richtlinien-Leistungsbezuege-5-2010.pdf",
+        "score": 0.53341
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/05-RichtlnieHuWfinal.pdf",
+        "score": 0.532
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2009",
+        "score": 0.53148
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+        "score": 0.53045
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 0.52757
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/04-Stipendienordnung_III.pdf",
+        "score": 0.52728
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.52567
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/05-2015/1_Entwurf_Richtlinie_Leistungsbezuege_Stand_01_04_2015.pdf",
+        "score": 0.5239
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+        "score": 0.52334
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/HsH-WIR-Stipendium-FAQ.pdf",
+        "score": 0.52281
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2009",
+        "score": 0.8113
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.7189
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.69056
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.673
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.665
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.66159
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/Gesamt-9-2011.pdf",
+        "score": 0.65773
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 0.65225
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 0.64139
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.63757
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2013",
+        "score": 0.62225
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.61803
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 0.60989
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.60661
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.60526
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/Verkuendungsblatt_01-2009.pdf",
+        "score": 0.60306
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Promotionsfoerderung_an_Fachhochschulen_-_Recherche_zu_moeglichen_Foerdermassnahmen.pdf",
+        "score": 0.59982
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.59813
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/fawui/studierendenpreis",
+        "score": 0.59626
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.59609
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/Foerdervereinbarung_2025-26.pdf",
+        "score": 0.58906
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 0.58654
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/02-2019/05_BSW_BT_PO_14.09.2018.pdf",
+        "score": 0.57971
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 0.57113
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/05-2007/9-StipendienRahmenO.pdf",
+        "score": 0.57094
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 0.56859
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/03-Entwurf_Go-Out_Fak__III_-13-05-13redaktionellgeaendert270513.pdf",
+        "score": 0.56844
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+        "score": 0.56838
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.56765
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/02-Ordnung_der_Fakultaet_I_zur_Vergabe_von_Go_Out.pdf",
+        "score": 0.56535
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.56255
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 0.5617
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw/bearatungsangebote/finanzierung-und-foerderung-des-studiums",
+        "score": 0.55704
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/04-Stipendienordnung_III.pdf",
+        "score": 0.5564
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 0.55435
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/02-MGB-ZulO.pdf",
+        "score": 0.55075
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/02_Stipendienordnung_III_20160321.pdf",
+        "score": 0.55032
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Niedersaechsische_Hochschulzulassungsverordnung.pdf",
+        "score": 0.55004
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+        "score": 0.54992
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/05-2018/03_Richtlinie_HuW_ab_2019_AEnd.pdf",
+        "score": 0.5471
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf",
+        "score": 0.54605
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+        "score": 0.54524
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 0.5452
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.54457
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 0.54391
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/02-VIF-Zulassungsordnung-190517.pdf",
+        "score": 0.54193
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/02_Stipendienordnung_III_20160321.pdf",
+        "score": 0.54087
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/09-2023/01_vk_20230505_Entwurf_Ordnung_GWP_final.pdf",
+        "score": 0.53903
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+        "score": 0.53893
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 0.53818
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f4.hs-hannover.de/aktuelles/news/7456",
+        "score": 28.62226
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 27.93501
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/fawui/studierendenpreis",
+        "score": 26.886
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 25.8008
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+        "score": 24.68796
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+        "score": 24.58404
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 24.49761
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 24.0549
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 23.87815
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+        "score": 23.6379
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 22.71111
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 21.75473
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 21.68472
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_MA_PEP.pdf",
+        "score": 20.30183
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2009",
+        "score": 20.29988
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 20.20175
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+        "score": 20.18
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 19.83731
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 19.83285
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+        "score": 19.81912
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 19.75
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 19.71965
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+        "score": 19.54051
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 19.5119
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+        "score": 19.45152
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/02-2011/Verkuendungsblatt_02_2011.pdf",
+        "score": 19.45069
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/Verkuendungsblatt_01-2009.pdf",
+        "score": 19.30657
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 19.26229
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 19.09803
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/Gesamt-9-2011.pdf",
+        "score": 19.05732
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 18.79831
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 18.67823
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/01-2011/Verkuendungsblatt_01_2011.pdf",
+        "score": 18.67808
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Stellenangebote_Studierende/SoSe2026/27.04.2026_IDZ_Ausschreibung_Assistenz_Bundespreis_Ecodesign_2026.pdf",
+        "score": 18.62581
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 18.43611
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Masterstdg/20180430_Zulassungsordnung_Masterstudiengang_ESA.pdf",
+        "score": 18.40331
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+        "score": 18.15015
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 18.03438
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2013",
+        "score": 17.72605
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/Verkuendungsblatt_01-2009.pdf",
+        "score": 17.61235
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 17.47818
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+        "score": 17.32855
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/Gesamt-9-2011.pdf",
+        "score": 17.09131
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Masterstdg/20180430_Zulassungsordnung_Masterstudiengang_EEE.pdf",
+        "score": 16.73706
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 16.73133
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 16.62349
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 16.55397
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/gendernetz/genderpreis-2025",
+        "score": 16.3847
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 16.32524
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/02-2019/02_IMC_Zugangs-und_Zulassungsordnung__2019_01_15.pdf",
+        "score": 15.98382
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://f4.hs-hannover.de/aktuelles/news/7456",
+        "score": 29.42393
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 28.8484
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 28.06294
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 27.28252
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 27.10256
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/fawui/studierendenpreis",
+        "score": 26.76537
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/1._Zulassungsordnung_dualen_Bachelor-Studiengang_Veranstaltungsmanagement_an_der_Fakultaet_III.pdf",
+        "score": 25.49291
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+        "score": 25.41016
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+        "score": 25.33582
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 25.24548
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 24.64169
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+        "score": 24.59444
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 24.43968
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 23.62397
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2009",
+        "score": 23.47097
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 23.33283
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_MA_PEP.pdf",
+        "score": 22.9541
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 22.4994
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 22.1309
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 21.69941
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+        "score": 21.47524
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2013",
+        "score": 21.46329
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 21.19227
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 21.15873
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 20.84772
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+        "score": 20.66659
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 20.65414
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/04-2008/04-ZulO_BA_Soziale_Arbeit_18_02_08.pdf",
+        "score": 20.34888
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 20.338
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 20.31461
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+        "score": 20.31323
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/Gesamt-9-2011.pdf",
+        "score": 19.94924
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+        "score": 19.80642
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/Verkuendungsblatt_01-2009.pdf",
+        "score": 19.77992
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+        "score": 19.73021
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/02-2011/Verkuendungsblatt_02_2011.pdf",
+        "score": 19.50991
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 19.49741
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/08_Ordnung_ueber_Zulassung_Heilpaedagogik.pdf",
+        "score": 19.4408
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 19.44062
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "score": 19.2063
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+        "score": 19.01921
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/01-2011/Verkuendungsblatt_01_2011.pdf",
+        "score": 18.94771
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/Gesamt-9-2011.pdf",
+        "score": 18.69602
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/02-2019/03_MTV_Zugangs-und_Zulassungsordnung_2019-02-04.pdf",
+        "score": 18.6402
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Masterstdg/20180430_Zulassungsordnung_Masterstudiengang_ESA.pdf",
+        "score": 18.42293
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 18.26416
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Niedersaechsische_Hochschulzulassungsverordnung.pdf",
+        "score": 18.17257
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/Verkuendungsblatt_01-2009.pdf",
+        "score": 18.06375
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Stellenangebote_Studierende/SoSe2026/27.04.2026_IDZ_Ausschreibung_Assistenz_Bundespreis_Ecodesign_2026.pdf",
+        "score": 18.03371
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+        "score": 17.97839
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.23,
+    "kandidaten_s": 0.0,
+    "arme_s": 2.61,
+    "gesamt_s": 4.84
+  },
+  "auswahl_begruendung": ""
+}

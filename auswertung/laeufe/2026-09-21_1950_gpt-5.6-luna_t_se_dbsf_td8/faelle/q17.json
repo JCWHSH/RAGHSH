@@ -1,0 +1,1663 @@
+{
+  "fall": {
+    "id": "q17",
+    "case_type": "direct",
+    "question": "Gibt es Informationen zur 15-CP-Überprüfung in der Fakultät I und ist dort ein freier Versuch beschrieben?",
+    "reference_answer": "Auf der Seite der Prüfungsverwaltung der Fakultät I ist Stephan Rittmüller als Ansprechpartner für allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung und Umbuchungen genannt. Die Seite beschreibt an dieser Stelle keine Freiversuchsregel und keine Details dazu, dass es wegen 15 CP einen freien Versuch gibt.",
+    "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+    "expected_behavior": "missing_detail_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die Quelle nennt 15 CP Überprüfung im Kontext der Prüfungsverwaltung der Fakultät I.",
+      "Stephan Rittmüller ist dort als Ansprechpartner genannt.",
+      "Die Quelle beschreibt keine Freiversuchsregel und keine Details zu einem freien Versuch wegen 15 CP."
+    ],
+    "optional_facts": [
+      "Die Quelle nennt auch allgemeine Fragen, Prüfungsanmeldungen, iCMS und Umbuchungen."
+    ],
+    "forbidden_claims": [
+      "Eine Freiversuchsregel aus der Quelle ableiten oder erfinden.",
+      "Konkrete Folgen der 15-CP-Überprüfung behaupten, die in der Quelle nicht stehen."
+    ],
+    "case_difficulty": "schwer",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Negativ-/Abgrenzungsfall: Nur die 15 CP Überprüfung und die Ansprechperson sind auf der Quelle belegt. Keine Details zu einem freien Versuch erfinden.",
+    "tags": [
+      "fehlendes-detail"
+    ],
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "15 CP",
+      "Stephan Rittmüller"
+    ],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "c3b8e229-b113-5a10-ab23-fefe7f66d582",
+      "684cd2ba-c33b-5a9f-85e5-b72234102a7e",
+      "0a303b4b-73d8-5ab9-bff4-ec53a7381a49",
+      "a8644d0a-43d7-5c31-819f-b08887d0d522",
+      "9c87a546-ce03-5563-8478-c3abeb90fcfa",
+      "e3f3f300-618c-54e2-948a-6e8fdd43beb2",
+      "2665fb25-93fe-5ada-8824-416680f0c2b0",
+      "bc18985a-b5d1-5a7c-b3e7-830229c9dcac",
+      "f1c25ef1-83ea-5586-aac6-ef0b6e3b7e17",
+      "f8184645-66bb-5df1-b269-f8e8725294d3",
+      "3e2e9569-6258-5ef7-899d-c0ef86cf8a60",
+      "67e971eb-6abb-539e-a080-b89a42b045a5"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:53:09",
+  "dauer_s": 12.15,
+  "fehler": null,
+  "antwort": "Ja. Auf der Seite der Prüfungsverwaltung der Fakultät I wird die „15 CP Überprüfung\" als Zuständigkeit von Stephan Rittmüller genannt: „Allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\" [4].\n\nFür den Bachelorstudiengang Mechatronik ist geregelt, dass „in jedem Zählsemester ... durchschnittlich wenigstens 15 Credits erreicht werden\" müssen [2]. Dies gilt „ab dem zweiten Zählsemester\" [2].\n\nEin „freier Versuch“ wird in den bereitgestellten Dokumenten nicht ausdrücklich beschrieben. Für Wiederholungsprüfungen steht stattdessen: „Die Anzahl der Wiederholungsprüfungen ist nicht begrenzt\" [2]. Diese Regelung „gilt nicht für eine Wiederholung der Bachelorprüfung (§ 23 Allgemeiner Teil)\" [2].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch 1202 75 ITR WS2025 final",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_1202_75_ITR_WS2025_final.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Modulhandbuch\n  ## Modulhandbuch für den Studiengang Bachelor Informationsdesign und Technische Redaktion\n  ## PO-Version WS2025\n  ## Einleitung\n  ## Studieninhalte\n  ## Teilzeitstudium\n  ## Studienverlauf\n  ## Qualifikationsziele\n  ## Legende der Prüfungsformen (laut allgemeiner Teil der PO)\n  ## Module des 1. Studienabschnitts\n  ## Modul ITR-301 / Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-302 / Mathematik und Technische Mechanik\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Materialien auf Moodle\n  ## Modul ITR-303 / CAD 2D/3D\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-304 / Grundlagen der Technischen Redaktion\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-305 / Schreiben für den digitalen Nutzungskontext\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## München: Beck/DTV.\n  ## Modul ITR-306 / Linguistische Grundlagen\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul ITR-306-01 / Vom Satz zum Sprachgebrauch\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Teilmodul ITR-306-02 / Vom Laut zum Fachausdruck"
+    },
+    {
+      "nr": 2,
+      "titel": "f1 › 10 Ordnungen › 40 Modulkatalog › 68 EAE WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/68_EAE_WS2025_Stand_15.04.2025_01.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Modulhandbuch\n  ## Studiengang Elektrotechnik und Informationstechnik\n  ## Modulhandbuch für den Studiengang Elektrotechnik und Informationstechnik / Vertiefung Elektrische Antriebs- und Energiesysteme PO-Version WS2025\n  ## Einleitung\n  ## Studieninhalte\n  ## Studieninhalte der Elektrotechnik und Informationstechnik mit der Vertiefungsrichtung\n  ## Elektrische Antriebs- und Energiesysteme\n  ## Internationale Studienoption\n  ## Individuell organisierter Auslandsaufenthalt\n  ## Teilzeitstudium\n  ## StudyFLEX\n  ## Qualifikationsziele\n  ## Absolventinnen und Absolventen\n  ## Legende der Prüfungsformen (laut allgemeiner Teil der PO)\n  ## Module des 1. Studienabschnitts\n  ## Modul EIT-401 / Lineare Algebra\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-402 / Analysis 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-404 / Physik 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-407 / Gleichstromtechnik\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-413 / Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Skripte zur Vorlesung, z.B.\n  ## Modul EIT-419 / Start-ING\n  ## Angestrebte Lernergebnisse"
+    },
+    {
+      "nr": 3,
+      "titel": "f1 › 10 Ordnungen › 40 Modulkatalog › 69 SKI WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/69_SKI_WS2025_Stand_15.04.2025_01.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Modulhandbuch\n  ## Studiengang Elektrotechnik und Informationstechnik\n  ## Modulhandbuch für den Studiengang Elektrotechnik und Informationstechnik / Vertiefung Systementwicklung und KI PO-Version WS2025\n  ## Einleitung\n  ## Studieninhalte\n  ## Studieninhalte der Elektrotechnik und Informationstechnik mit der Vertiefungsrichtung Systementwicklung und künstliche Intelligenz\n  ## Internationale Studienoption\n  ## Individuell organisierter Auslandsaufenthalt\n  ## Teilzeitstudium\n  ## StudyFLEX\n  ## Qualifikationsziele\n  ## Absolventinnen und Absolventen\n  ## … kennen\n  ## Legende der Prüfungsformen (laut allgemeiner Teil der PO)\n  ## Module des 1. Studienabschnitts\n  ## Modul EIT-401 / Lineare Algebra\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-402 / Analysis 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-404 / Physik 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-407 / Gleichstromtechnik\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-413 / Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Skripte zur Vorlesung, z.B.\n  ## Modul EIT-419 / Start-ING\n  ## Angestrebte Lernergebnisse"
+    },
+    {
+      "nr": 4,
+      "titel": "f1 › 10 Ordnungen › 10 Pruefungsordnungen › ATPO 2015",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/ATPO_2015.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Allgemeiner Teil der Prüfungsordnung für die Bachelor- und MasterStudiengänge an der Hochschule Hannover (ATPO 2015)\n  ## Erster Teil Allgemeine Vorschriften\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zweck der Prüfungen\n  ## § 3\n  ## Prüfungsausschuss\n  ## § 4\n  ## Prüfende und Beisitzende\n  ## § 5\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 6\n  ## Zulassung zu Prüfungen\n  ## § 7\n  ## Aufbau der Prüfungen, Arten der Prüfungsleistungen\n  ## § 8\n  ## Öffentlichkeit von mündlichen Prüfungen\n  ## § 9\n  ## Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 10\n  ## Bewertung der Prüfungsleistung und Bildung der Modulnote\n  ## § 11\n  ## Wiederholung von Prüfungsleistungen\n  ## § 12\n  ## Zeugnisse und Bescheinigungen\n  ## § 13\n  ## Zusatzmodule\n  ## § 14\n  ## Ungültigkeit der Prüfung\n  ## § 15\n  ## Einsicht in Prüfungsergebnisse und die Prüfungsakte\n  ## § 16\n  ## § 17\n  ## Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Vorprüfung\n  ## § 18\n  ## Art und Umfang\n  ## § 19\n  ## Gesamtergebnis der Vorprüfung\n  ## Dritter Teil Bachelor- und Master-Prüfung\n  ## § 20\n  ## Art und Umfang\n  ## § 21\n  ## Bachelor- bzw. Master-Arbeit\n  ## § 22\n  ## Kolloquium; mündliche Abschlussprüfung\n  ## § 23\n  ## Wiederholung der Bachelor- bzw. Master-Arbeit"
+    },
+    {
+      "nr": 5,
+      "titel": "f1 › 10 Bachelorstdg › MEC › BPO MEC 12.2023",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Bestehen der Vor- und Bachelor-Prüfung\n  ## § 6\n  ## Endgültiges Nichtbestehen der Vor- und Bachelor-Prüfung\n  ## § 7\n  ## Wiederholung von Prüfungsleistungen\n  ## § 8\n  ## Bachelor-Arbeit\n  ## § 9\n  ## Teilzeitstudium\n  ## § 10\n  ## Internationale Studienoption\n  ## § 11\n  ## Übergangsbestimmungen\n  ## § 11\n  ## Inkrafttreten\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 6,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "fakultaet": "f1",
+      "struktur": "# Prüfungsverwaltung der Fakultät I\n  ## Ansprechpersonen\n    ### Stephan Rittmüller\n  ## Sprechzeiten\n    ### Yvonne Scholz\n  ## Sprechzeiten\n    ### Oxana Schreiber\n  ## Sprechzeiten\n  ## Formulare/Prüfungsangelegenheiten"
+    },
+    {
+      "nr": 7,
+      "titel": "f1 › 10 Ordnungen › 40 Modulkatalog › 70 SEL WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/70_SEL_WS2025_Stand_15.04.2025_01.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Modulhandbuch\n  ## Studiengang Elektrotechnik und Informationstechnik\n  ## Vertiefung\n  ## Smarte Elektronik\n  ## Modulhandbuch für den Studiengang Elektrotechnik und Informationstechnik / Vertiefung Smarte Elektronik PO-Version WS2025\n  ## Einleitung\n  ## Studieninhalte\n  ## Studieninhalte der Elektrotechnik und Informationstechnik mit der Vertiefungsrichtung Smarte Elektronik\n  ## Vertiefungsrichtung Smarte Elektronik\n  ## Internationale Studienoption\n  ## Individuell organisierter Auslandsaufenthalt\n  ## Teilzeitstudium\n  ## StudyFLEX\n  ## Qualifikationsziele\n  ## Absolventinnen und Absolventen\n  ## Legende der Prüfungsformen (laut allgemeiner Teil der PO)\n  ## Module des 1. Studienabschnitts\n  ## Modul EIT-401 / Lineare Algebra\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-402 / Analysis 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-404 / Physik 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-407 / Gleichstromtechnik\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-413 / Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Skripte zur Vorlesung, z.B."
+    },
+    {
+      "nr": 8,
+      "titel": "f1 › 10 Bachelorstdg › MEC › F I PO MEC 2021",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang\n# mit dem Abschluss „Bachelor of Engineering“\n# in der Fakultät I – Elektro- und Informationstechnik\n# der Hochschule Hannover (PO MEC 2021)\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Bestehen der Vor- und Bachelor-Prüfung\n  ## § 6\n  ## Endgültiges Nichtbestehen der Vor- und Bachelor-Prüfung\n  ## § 7\n  ## Wiederholung von Prüfungsleistungen\n  ## § 8\n  ## Bachelor-Arbeit\n  ## § 9\n  ## Teilzeitstudium\n  ## § 10\n  ## Internationale Studienoption\n  ## § 11\n  ## Übergangsbestimmungen\n  ## § 12\n  ## Inkrafttreten\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 9,
+      "titel": "Labor für Echtzeitsimulation und Hardware-in-the-Loop Systeme",
+      "url": "https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-hardware-in-the-loop-systeme",
+      "fakultaet": "f1",
+      "struktur": "# Labor für Echtzeitsimulation und Hardware-in-the-Loop Systeme\n  ## Labor Hardware-in-the-Loop-Simulation\n  ## Versuche\n  ## Laboranleitungen\n  ## Impressionen\n  ## Kontakt"
+    },
+    {
+      "nr": 10,
+      "titel": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch ITR",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Modulhandbuch für den Studiengang Bachelor Informationsdesign und Technische Redaktion PO-Version WS2018\n  ## Einleitung\n  ## Studieninhalte\n  ## Teilzeitstudium\n  ## Qualifikationsziele\n  ## … kennen:\n  ## … können:\n  ## … kennen:\n  ## … können:\n  ## ... kennen:\n  ## … kennen:\n  ## … können:\n  ## … kennen:\n  ## … können:\n  ## … kennen:\n  ## … können:\n  ## … verfügen:\n  ## Module des 1. Studienabschnitts\n  ## Modul ITR-101 Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul ITR-101-01 Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-102 Mathematik und Technische Mechanik\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul ITR-102-01 Mathematik und Technische Mechanik\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-103 Visuelle Kommunikation - Typografie, Farbe und Prepress\n  ## Teilmodul ITR-103-01 Visuelle Kommunikation - Design, Farbe und Prepress\n  ## Farbe\n  ## Druck und Prepress\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-104 Schreiben für den digitalen Nutzungskontext\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul ITR-104-01 Schreiben für den digitalen Nutzungskontext\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-105 Grundlagen der Technischen Redaktion\n  ## Angestrebte Lernergebnisse"
+    },
+    {
+      "nr": 11,
+      "titel": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT ATP",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-ATP.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Modulhandbuch für den Studiengang Elektrotechnik und Informationstechnik (EIT) / Vertiefung Automatisierungstechnik und Prozessinformatik (ATP) PO-Version WS2018\n  ## Einleitung\n  ## Studieninhalte\n  ## Studieninhalte der Vertiefungsrichtung Automatisierungstechnik/Prozessinformatik (ATP)\n  ## Internationale Studienoption\n  ## Individuell organisierter Auslandsaufenthalt\n  ## Teilzeitstudium\n  ## StudyFLEX\n  ## Legende der Prüfungsformen (laut allgemeiner Teil der PO)\n  ## Module des 1. Studienabschnitts\n  ## Modul EIT-101 Mathematik 1\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Teilmodul EIT-101-01 Mathematik 1\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-104 Physik 1\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Teilmodul EIT-104-01 Physik 1\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-107 Gleichstromtechnik\n  ## Die Studierenden\n  ## Teilmodul EIT-107-01 Gleichstromtechnik\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-110 Programmiersprache C\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Teilmodul EIT-110-01 Programmiersprache C\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Teilmodul EIT-110-02 Rechnerübung C\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Inhalt"
+    },
+    {
+      "nr": 12,
+      "titel": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Erstsemesterinformation 27.02.2026\n  ## Zahlen und Daten zur Hochschule:\n  ## Standorte\n  ## Fünf Bachelorstudiengänge\n  ## ▪ Mechatronik (MEC)\n  ## Konsekutive Masterstudiengänge der Fakultät\n  ## Veranstaltungstypen\n  ## Vorlesungszeiten\n  ## Mensazeiten\n  ## Starter-Kit\n  ## ▪ Taschenrechner (nicht programmierbar)\n  ## Rechtliche Informationen\n  ## 1. HsH-Emailadresse ist offizielle Post\n  ## 2. Umgang mit Materialien und Medien\n  ## Informationen zur Campuscard und Öffi-Ticket etc.\n  ## Materialien in Moodle Online-Kurse zu den Vorlesungen\n  ## Erreichbarkeit/Kommunikation von/mit Lehrenden ProfessorInnen, Lehrbeauftragte, MitarbeiterInnen\n  ## Wahl der Stundenpläne / Start-ING EIT MEC EWI\n  ## Vorlesungszeiten Seminargruppe Z1 Stdg. Elektrotechnik und Informationstechnik\n  ## Vorlesungszeiten Seminargruppe N1 Stdg. Nachhaltige Elektrische Energieversorgung (NEV)\n  ## Vorlesungszeiten Seminargruppe M1 Stdg. Mechatronik\n  ## Wahl eines Start-ING Kurses\n  ## Für das Modul Start-ING besteht Anwesenheitspflicht .\n  ## Vorlesungszeiten Seminargruppe R2 Stdg. Technisches Informationsdesign und Technische Redaktion\n  ## Orientierung im Gebäude Ricklinger Stadtweg 120\n  ## Orientierung im Gebäude Bismarckstraße\n  ## Informationen zu Arbeitssicherheit und Gesundheitsschutz\n  ## ▪ Versicherungsschutz bei Unfällen\n  ## ▪ Mutterschutz\n  ## ▪ Medizinische Notfälle, Erste-Hilfe\n  ## ▪ Räumung von Gebäuden im Gefahrfall\n  ## Versicherungsschutz bei Unfällen Wer und was ist versichert?\n  ## Versicherungsschutz bei Unfällen Was ist nicht versichert?\n  ## ▪ private Studienfahrten\n  ## ▪ private Aktivitäten auf dem Gelände der Hochschule\n  ## Versicherungsschutz bei Unfällen Informationen - LUKN\n  ## ➢ Weitere Informationen erhalten Sie im Internet\n  ## Versicherungsschutz bei Unfällen Unfallmeldung\n  ## Versicherungsschutz bei Unfällen Unfallmeldung - Unfallanzeige\n  ## ▪ Weitere Informationen erhalten Sie bei Ihren Ansprechpersonen in der Studierendenverwaltung, Dezernat III\n  ## Mutterschutz\n  ## ▪ Weitere Informationen erhalten Sie bei den Ansprechpersonen des Familienservice\n  ## Medizinische Notfälle – Erste Hilfe Erste-Hilfe-Plakate, Notfallplan/Notrufnummern in den Gebäuden der HsH\n  ## Meldung von Notfällen Notrufnummern, Notrufmeldung\n  ## Medizinische Notfälle\n  ## Feuer\n  ## Bei VoIP-Telefonen keine Vorwahl der „00“ !\n  ## Medizinische Notfälle – Erste Hilfe\n  ## Kennzeichnung, Standorte – Defibrillatoren, Erste Hilfe Material\n  ## Medizinische Notfälle – Erste Hilfe"
+    },
+    {
+      "nr": 13,
+      "titel": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "fakultaet": "",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Studiengang Mechatronik (BME) mit dem Abschluss Bachelor of Engineering an der Fakultät I – Elektro- und Informationstechnik der Fachhochschule Hannover (FHH)\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## §5\n  ## Technische Wahlpflichtfächer und  Wahlpflichtlabore\n  ## §6\n  ## Übergangsbestimmung\n  ## §7\n  ## Inkrafttreten\n  ## Anlage B2 zum Studiengang Mechatronik\n  ## Legende:"
+    },
+    {
+      "nr": 14,
+      "titel": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Inhalt:\n  ## § 9 Öffentlichkeit von mündlichen Prüfungen\n  ## § 15 Einstufungsprüfung\n  ## § 26 Kolloquium\n  ## Diplomurkunde\n  ## Prüfungsordnung\n  ## für die Abschlüsse Bachelor of Arts und Bachelor of Arts honors in den Studiengängen Journalistik und PR/ Öffentlichkeitsarbeit an der Fachhochschule Hannover\n  ## Erster Teil\n  ## Allgemeine Vorschriften\n  ## § 1 Zweck der Prüfungen\n  ## § 2 Hochschulgrad\n  ## § 4 Prüfungsausschuss\n  ## § 5 Prüfende und Beisitzerinnen oder Beisitzer\n  ## § 6 Anrechnung von Studienzeiten, Studien- und Prüfungsleistungen\n  ## § 7 Zulassung\n  ## § 8 Aufbau der Prüfungen, Arten der Prüfungs- und Studienleistungen\n  ## § 9 Öffentlichkeit von mündlichen Prüfungen\n  ## § 10 Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 11 Bewertung der Prüfungsleistung und Bildung der Fachnote\n  ## (4) 1Die Note lautet:\n  ## § 12 Wiederholung von Prüfungsleistungen, Freiversuch\n  ## § 13 Zeugnisse und Bescheinigungen\n  ## § 14 Zusatzprüfungen\n  ## § 15 Einstufungsprüfung\n  ## § 16 Ungültigkeit von Prüfungen\n  ## § 17 Einsicht in die Prüfungsakte\n  ## § 18 Hochschulöffentliche Bekanntmachungen des Prüfungsausschusses\n  ## § 19 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Bachelor-of-Arts-Prüfung\n  ## § 20 Art und Umfang\n  ## § 21 Zulassung zu der Bachelor-of-Arts-Abschlussarbeit\n  ## § 22 Bachelor-of-Arts-Abschlussarbeit\n  ## § 23 Wiederholung der Abschlussarbeit\n  ## § 24 Gesamtergebnis der Prüfung\n  ## Dritter Teil\n  ## Bachelor-of-Arts-honors-Prüfung\n  ## § 25 Art und Umfang\n  ## 1.) den Fachprüfungen,\n  ## § 26 Zulassung zur Thesis\n  ## § 27 Bachelor-of-Arts-honors-Abschlussarbeit\n  ## § 28 Kolloquium\n  ## § 29 Wiederholung der Thesis\n  ## § 30 Gesamtergebnis der Bachelor-of-Arts-honors-Prüfung\n  ## Vierter Teil\n  ## Schlussvorschriften\n  ## § 31 Übergangsvorschriften\n  ## § 32 Inkrafttreten\n  ## Bachelor of Arts-Urkunde/ Bachelor of Arts honors-Urkunde)"
+    },
+    {
+      "nr": 15,
+      "titel": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Inhalt:\n# Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)\n  ## (2) Die Immatrikulation setzt voraus, dass die Bewerberinnnen und Bewerber,\n  ## § 3 Widerruf der Immatrikulation\n  ## § 4 Versagung der Immatrikulation\n  ## § 6 Exmatrikulation aus besonderem Grund\n  ## Umstrukturierung des bisherigen Studiengangs Produkt-Design in die Studiengänge Produkt-Design sowie Mode- und Kostüm-Design\n  ## Fusion der Fachbereiche Architektur und Bauingenieurwesen der FHH\n  ## Diplompr ¨ufungsordnung f ¨ur den Studiengang Angewandte Informatik der Fachhochschule Hannover, Fachbereich Informatik\n  ## Erster Teil\n  ## Allgemeine Vorschriften\n  ## § 1 Zweck der Pr ¨ufungen\n  ## § 2 Hochschulgrad\n  ## § 3 Dauer und Gliederung des Studiums, Freiversuch\n  ## § 4 Pr ¨ufungsausschuss\n  ## § 5 Pr ¨ufende und Beisitzende\n  ## § 6 Anrechnung von Studienzeiten, Studien- und Pr ¨ufungsleistungen, Quereinsteiger\n  ## § 7 Zulassung\n  ## § 8 Aufbau der Pr ¨ufungen, Arten der Pr ¨ufungsleistungen, Semesterarbeiten\n  ## § 9 Offentlichkeit von m ¨undlichen Pr ¨ufungen[¨]\n  ## § 10 Vers¨aumnis, R ¨ucktritt, T¨auschung, Ordnungsverstoß\n  ## (5) Die Note lautet:\n  ## § 13 Zeugnisse und Bescheinigungen\n  ## § 14 Zusatzpr ¨ufungen\n  ## § 15 Einstufungspr ¨ufung\n  ## § 16 Ung ¨ultigkeit der Pr ¨ufung\n  ## § 17 Einsicht in die Pr ¨ufungsakte\n  ## § 18 Hochschul ¨offentliche Bekanntmachungen des Pr ¨ufungsausschusses\n  ## § 19 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Diplomvorpr ¨ufung\n  ## § 20 Art und Umfang\n  ## § 21 Zulassung\n  ## § 22 Gesamtergebnis der Pr ¨ufung\n  ## Dritter Teil Diplompr ¨ufung\n  ## § 24 Zulassung\n  ## § 23 Art und Umfang\n  ## § 25 Diplomarbeit\n  ## § 26 Kolloquium\n  ## entsprechend.\n  ## § 27 Wiederholung der Diplomarbeit\n  ## § 28 Gesamtergebnis der Pr ¨ufung\n  ## Vierter Teil\n  ## Schlussvorschriften\n  ## § 29 Ubergangsregelungen[¨]\n  ## § 30 Inkrafttreten\n  ## Anlage 1 (zu § 2)\n  ## Diplomurkunde\n  ## Diplom-Informatikerin/Diplom-Informatiker (Fachhochschule) abgek ¨urzt Dipl.-Inf. (FH),"
+    },
+    {
+      "nr": 16,
+      "titel": "www › Verkuendungsblatt › 07 2010 › 06 Regelung der Verantwortlichkeiten — Regelung der Verantwortlichkeiten für den Arbeitsschutz an der FHH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/06_Regelung_der_Verantwortlichkeiten.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Regelung der Verantwortlichkeiten für den Arbeitsschutz an der FHH\n  ## Inhaltsverzeichnis\n  ## 1. Grundsätzliches\n  ## Verantwortung bei der Leitung und den Vorgesetzten\n  ## Verantwortung in Einzelleitungsbereichen\n  ## Jeder trägt Verantwortung für das, was er maßgeblich beeinflusst.\n  ## 2. Umfang der Verantwortung\n  ## 2.1 Verantwortung einer/eines jeden Vorgesetzten\n  ## 2.2 Verantwortung in Einzelleitungsbereichen\n  ## 2.3 Verantwortungsumfang der Präsidentin oder des Präsidenten\n  ## 3. Pflichten der Beschäftigten\n  ## 4. Delegation\n  ## 5. Unterstützung durch die Fachkraft für Arbeitssicherheit und den Betriebsarzt\n  ## 6. Haftung"
+    },
+    {
+      "nr": 17,
+      "titel": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+      "fakultaet": "",
+      "struktur": "  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Geltungsbereich der Prüfungsordnung\n  ## § 3 Zweck der Prüfung und Hochschulgrad\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Zulassung zur Einstufungsprüfung\n  ## § 6 Durchführung der Einstufungsprüfung\n  ## § 7\n  ## Aufbau und Inhalt der Vorprüfung\n  ## § 8\n  ## Art und Umfang der Bachelor-Prüfung\n  ## § 9\n  ## Zulassung zum zweiten Studienabschnitt und zur Bachelor-Arbeit\n  ## § 10\n  ## Höchstdauer des zweiten Studienabschnitts\n  ## § 11 Prüfungsanmeldungen und Prüfungszeitpunkte\n  ## § 12\n  ## Arten und Aufteilungsmöglichkeiten von Prüfungsleistungen\n  ## § 13 Eidesstattliche Versicherungen\n  ## § 14 Anwesenheitspflichten\n  ## § 15\n  ## Prüfungsvorleistungen\n  ## § 16\n  ## Unbenotete Prüfungsleistungen\n  ## § 17\n  ## Wechsel von Pflicht- und Wahlpflichtmodulen\n  ## § 18\n  ## Verbesserungsversuche\n  ## § 19\n  ## Wiederholung nicht bestandener Prüfungen\n  ## § 20\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 21 Inkrafttreten\n  ## Bachelor-Studiengang Betriebswirtschaftslehre (BBI) - 6 Semester  - PO 2018 / Version 2024\n  ## K2[1] (90 [45-]minütige Klausur)\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch. Vorrangig ist jedoch stets diese Prüfungsordnung."
+    },
+    {
+      "nr": 18,
+      "titel": "www › Verkuendungsblatt › 05 2020 › 04 ZulO MTV — der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/04_ZulO_MTV.pdf",
+      "fakultaet": "",
+      "struktur": "# Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang\n  ## „Fernsehjournalismus (MTV)“ an der Fakultät III – Medien, Information und Design\n  ## der Hochschule Hannover\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## § 3\n  ## Studienbeginn und Bewerbungsfrist\n  ## § 4\n  ## Auswahl- und Zulassungsverfahren\n  ## § 5\n  ## Auswahlgespräch\n  ## § 6\n  ## Auswahlkommission für den Master-Studiengang Fernsehjournalismus\n  ## § 7\n  ## Bescheiderteilung, Nachrückverfahren,\n  ## Abschluss der Verfahren\n  ## § 8\n  ## Zulassung für höhere Fachsemester\n  ## § 9\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 19,
+      "titel": "www › Verkuendungsblatt › 05 2011 › 02 Pruefungsordnung DM 2009 2010",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/05-2011/02-Pruefungsordnung_DM_2009___2010.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für die Studierenden des Studienjahrgangs 2009 (Studienbeginn zum Wintersemester 2009/2010 im ersten Fachsemester) der Bachelor-Studiengänge Innenarchitektur (BIA), Kommunikationsdesign (BKD), Modedesign (BMO), Produktdesign (BPD), Szenografie – Kostüm (BSK) der Fakultät III – Medien, Information und Design der Fachhochschule Hannover (FHH)\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Art und Umfang der Vorprüfung\n  ## § 4 Zulassung zur Bachelor-Prüfung\n  ## § 5 Art und Umfang der Bachelor-Prüfung\n  ## § 6 Bewertung und Benotung der Bachelor-Arbeit und des Bachelor-Studiums\n  ## § 7 Studiensemester im Ausland\n  ## § 8 Übergangsregelung\n  ## Studiengang: Kommunikationsdesign/Studienrichtung Fotografie\n  ## Studiengang: Kommunikationsdesign/Studienrichtung Fotografie\n  ## Studiengang: Kommunikationsdesign/Studienrichtung Fotografie\n  ## Studiengang: Kommunikationsdesign/studienrichtung Fotografie\n  ## Studiengang: Kommunikationsdesign/Studienrichtung Grafik Design\n  ## Modul\n  ## Prüfung\n  ## Studiengang Modedesign\n  ## Studiengang: BA Modedesign Abteilung Design und Medien, Bachelor of Arts (BMO)\n  ## Studiengang: BA Kommunikationsdesign/Studienrichtung Multimedia\n  ## Studiengang: BA Kommunikationsdesign/Studienrichtung Multimedia\n  ## Studiengang: BA Kommunikationsdesign/Studienrichtung Multimedia\n  ## Studiengang: BA Kommunikationsdesign/Studienrichtung Multimedia\n  ## Studiengang: BA Kommunikationsdesign/Stdueinrichtung Multimedia\n  ## Studiengang Produktdesign\n  ## Prüfung"
+    },
+    {
+      "nr": 20,
+      "titel": "www › Verkuendungsblatt › 05 2009 › 04 PO AT AEnd3 22 6 2009l — A l l g e m e i n e r  T e i l",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/05-2009/04-PO-AT-AEnd3-_22-6-2009l.pdf",
+      "fakultaet": "",
+      "struktur": "# A l l g e m e i n e r  T e i l\n  ## Erster Teil Allgemeine Vorschriften\n  ## § 1 Geltungsbereich\n  ## § 2 Zweck der Prüfungen\n  ## § 3 Prüfungsausschuss\n  ## § 4 Prüfende und Beisitzerin oder Beisitzer\n  ## § 5 Anrechnung von Studienleistungen\n  ## § 6 Zulassung zu Prüfungen\n  ## § 7 Aufbau der Prüfungen, Arten der Prüfungsleistungen\n  ## (7) Ein Referat umfasst:\n  ## § 8 Öffentlichkeit von mündlichen Prüfungen\n  ## § 9 Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 10\n  ## Bewertung der Prüfungsleistung und Bildung der Modulnote\n  ## § 11 Wiederholung von Prüfungsleistungen\n  ## § 12 Zeugnisse und Bescheinigungen\n  ## § 13 Zusatzmodule\n  ## § 14 Ungültigkeit der Prüfung\n  ## § 15 Einsicht in Prüfungsergebnisse und die Prüfungsakte\n  ## § 16 Hochschulöffentliche Bekanntmachungen des Prüfungsausschusses\n  ## § 17 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil Vorprüfung\n  ## § 18 Art und Umfang\n  ## § 19 Gesamtergebnis der Vorprüfung\n  ## Dritter Teil Bachelor- und Master-Prüfung\n  ## § 20\n  ## Art und Umfang\n  ## § 21 Bachelor- bzw. Master-Arbeit\n  ## § 22 Kolloquium\n  ## § 23 Wiederholung der Bachelor- bzw. Master-Arbeit\n  ## § 24 Gesamtergebnis der Prüfung\n  ## Vierter Teil Schlussvorschriften\n  ## § 25 Übergangsvorschriften\n  ## § 26\n  ## Inkrafttreten\n  ## Bachelor-Urkunde/Master-Urkunde\n  ## Zeugnis über die Vorprüfung\n  ## A n l a g e  A3\n  ## Zeugnis über die Bachelor-Prüfung / Master-Prüfung\n  ## Diploma Supplement\n  ## 1. ANGABEN ZUM INHABER/ZUR INHABERIN DER QUALIFIKATION\n  ## 1.4 Matrikelnummer oder Code des/der Studierenden\n  ## 2. ANGABEN ZUR QUALIFIKATION\n  ## 2.3 Name der Einrichtung, die die Qualifikation verliehen hat\n  ## 2.5 Im Unterricht / in der Prüfung verwendete Sprache(n)\n  ## 3. ANGABEN ZUR EBENE DER QUALIFIKATION\n  ## 3.1 Ebene der Qualifikation\n  ## 3.2 Dauer des Studiums (Regelstudienzeit)\n  ## 4. ANGABEN ZUM INHALT UND ZU DEN ERZIELTEN ERGEBNISSEN\n  ## 4.1 Studienform"
+    },
+    {
+      "nr": 21,
+      "titel": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "fakultaet": "",
+      "struktur": "  ## 01. Wir – die HsH\n  ## Daten & Fakten\n  ## HsH in Zahlen 2006 ─ 2016\n  ## HsH in Zahlen 2016 ─ 2023\n  ## Studierende nach Fakultäten\n  ## Organisation\n  ## Vision Statement des Präsidiums\n  ## Geschichte der HsH\n  ## Vorgängereinrichtungen\n  ## Geschichte der HsH\n  ## Gründung der Fachhochschule Hannover\n# Unsere Standorte\n  ## 02. Qualifizieren – Studium & Lehre\n  ## Studienangebot\n  ## Bachelor-Studiengänge\n  ## Duale Bachelor-Studiengänge\n  ## Ausbildungsbegleitende Bachelor-Studiengänge\n  ## Berufsbegleitende & berufsintegrierende\n  ## Bachelor-Studiengänge\n  ## Master-Studiengänge\n  ## Digitale Transformation\n  ## Duale Master-Studiengänge\n  ## Berufsbegleitende Master-Studiengänge\n  ## Weiterbildende Master-Studiengänge\n  ## HsH – Hier studiert Hannover\n  ## Vielfältig und praxisnah\n  ## Fakultät I\n  ## Elektro- und Informationstechnik\n  ## Basisdaten\n  ## Fakultät II\n  ## Maschinenbau und Bioverfahrenstechnik\n  ## Basisdaten\n  ## Fakultät III\n  ## Medien, Information & Design\n  ## Basisdaten\n  ## Fakultät IV\n  ## Wirtschaft & Informatik\n  ## Betriebswirtschaft\n  ## Basisdaten\n  ## Fakultät V\n  ## Diakonie, Gesundheit & Soziales\n  ## Basisdaten\n  ## HsH-Akademie\n  ## Zentrum für lebenslanges Lernen\n  ## HsH – International\n  ## NEXSTER\n  ## Lebendige Innovations- und Transferkultur Transfer in die Praxis als zentrales Element\n  ## innovercity\n  ## Wissenschaft trifft auf Gesellschaft und Wirtschaft\n  ## Unsere Absolventinnen"
+    },
+    {
+      "nr": 22,
+      "titel": "www › Verkuendungsblatt › 04 2005 › Verkuendungsblatt 04 2005 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/04-2005/Verkuendungsblatt_04_2005.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n# Ordnung über besondere Zugangsvoraussetzungen und die Zulassung für den Master-Studiengang Unternehmensentwicklung (MBP) am Fachbereich Wirtschaft der Fachhochschule Hannover\n  ## § 1 Zweck der Ordnung\n  ## § 2\n  ## Voraussetzungen für Zulassungen\n  ## § 3\n  ## Zulassungsantrag\n  ## § 4 Auswahlverfahren, Zulassungskommission\n  ## § 5 Bescheidung, Nachrückverfahren, Rechtsbehelf\n  ## § 6 Inkrafttreten\n  ## Ordnung für Praxisphasen der Fachhochschule Hannover (Praxisphasenordnung; PraO)\n  ## § 1 Geltungsbereich\n  ## § 2 Ziele von Praxisphasen\n  ## § 3 Grundlegende Bestimmungen\n  ## § 4 Ausbildungsinhalte und Durchführung der Praxisphasen\n  ## § 5 Beauftragte für Praxisphasen\n  ## § 6 Studiengangsübergreifende Angelegenheiten\n  ## § 7 Zulassung und Betreuung zu den Praxisphasen\n  ## § 8\n  ## Anerkennung der Praxisphasen\n  ## § 9 Vertrag über eine Praxisphase\n  ## § 10 Auswahl der Praxisstellen\n  ## § 11 Inkrafttreten\n  ## P r ü f u n g s o r d n u n g\n  ## A l l g e m e i n e r  T e i l Erster Teil Allgemeine Vorschriften\n  ## § 1 Geltungsbereich\n  ## § 2 Zweck der Prüfungen\n  ## § 3 Prüfungsausschuss\n  ## § 4 Prüfende und Beisitzerin oder Beisitzer\n  ## § 5\n  ## Anrechnung von Studienzeiten und Prüfungsleistungen\n  ## § 6 Zulassung zu Prüfungen\n  ## § 7 Aufbau der Prüfungen, Arten der Prüfungsleistungen\n  ## § 8 Öffentlichkeit von mündlichen Prüfungen\n  ## § 9\n  ## Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 10 Bewertung der Prüfungsleistung und Bildung der Modulnote\n  ## § 11 Wiederholung von Prüfungsleistungen\n  ## § 12 Zeugnisse und Bescheinigungen\n  ## § 13 Zusatzprüfungen\n  ## § 14\n  ## Einstufungsprüfung\n  ## § 15 Ungültigkeit der Prüfung\n  ## § 16\n  ## Einsicht in Prüfungsergebnisse und die Prüfungsakte\n  ## § 17 Hochschulöffentliche Bekanntmachungen des Prüfungsausschusses\n  ## § 18 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil Vorprüfung\n  ## § 20 Gesamtergebnis der Prüfung\n  ## Dritter Teil Bachelor- und Master-Prüfung"
+    },
+    {
+      "nr": 23,
+      "titel": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n# Ordnung über besondere Zugangsvoraussetzungen und die Zulassung für die Studiengänge Betriebswirtschaftslehre mit den Schwerpunkten „Financial Institutions (MBA-FIN)” und „Interregional Business (MBA-IRB)“ sowie Wirtschaftsinformatik mit dem Schwerpunkt „Interorganizational Business Computing (MBA-IBC)“ zum Master of Business Administration (MBA) am Fachbereich Wirtschaft der Fachhochschule Hannover\n# § 1 Studienbeginn\n  ## § 2 Zugangsvoraussetzungen\n  ## § 3 Zulassungsantrag, Bewerbungsfristen\n  ## § 4 Zulassungsausschuss, Zulassungsprüfung\n  ## § 5 Förmliche Feststellung der Zulassung\n  ## § 6\n  ## Zulassungs- und Ablehnungsbescheid\n  ## § 7 Nachrückverfahren, Ende des Zulassungsverfahren\n  ## § 8 Rechtsbehelf\n  ## § 9 Inkrafttreten\n  ## Gebührenordnung für die Studiengänge Betriebswirtschaftslehre mit den Schwerpunkten „Financial Institutions (MBA-FIN)” und „Interregional Business (MBA-IRB)“ sowie Wirtschaftsinformatik mit dem Schwerpunkt „Interorganizational Business Computing (MBA-IBC)“ zum Master of Business Administration (MBA) am Fachbereich Wirtschaft der Fachhochschule Hannover\n  ## § 1 Geltungsbereich\n  ## § 2 Höhe der Gebühr\n  ## § 3 Zahlung und Rückzahlung\n  ## § 4 Inkrafttreten\n  ## Masterprüfungsordnung (MPO) für die Studiengänge Betriebswirtschaftslehre mit den Schwerpunkten „Financial Institutions (MBA-FIN)” und „Interregional Business (MBA-IRB)“ sowie Wirtschaftsinformatik mit dem Schwerpunkt „Interorganizational Business Computing (MBA-IBC)“ zum Master of Business Administration (MBA) am Fachbereich Wirtschaft der Fachhochschule Hannover\n  ## Inhaltsverzeichnis\n  ## Allgemeiner Teil\n  ## § 1� Zweck der Masterprüfung\n  ## § 2� Mastergrad\n  ## § 3� Dauer und Gliederung des Studiums\n  ## § 4�\n  ## Prüfungsausschuss\n  ## § 5�\n  ## Prüferinnen und Prüfer, Beisitzerinnen und Beisitzer\n  ## § 6�\n  ## Anrechnung von Studienzeiten, Studien- und Prüfungsleistungen\n  ## § 7� Zulassung\n  ## § 8�\n  ## Aufbau der Prüfungen, Arten der Prüfungsleistungen\n  ## § 9�\n  ## Öffentlichkeit von mündlichen Prüfungen\n  ## § 10�\n  ## Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 11�\n  ## Bewertung der Prüfungsleistung und Bildung der Note\n  ## § 12� Wiederholung von Prüfungsleistungen\n  ## § 13� Zeugnisse und Bescheinigungen\n  ## § 14�\n  ## Zusatzprüfungen\n  ## § 15�\n  ## Einstufungsprüfung\n  ## § 16�\n  ## Ungültigkeit der Prüfung\n  ## § 17� Einsicht in die Prüfungsakte\n  ## § 18�\n  ## Einzelfallentscheidungen, Widerspruchsverfahren\n  ## § 19� Hochschulöffentliche Bekanntmachungen des Prüfungsausschusses"
+    },
+    {
+      "nr": 24,
+      "titel": "Die erste \"Stunde",
+      "url": "https://www.code4comp.wp.hs-hannover.de/2015/11/05/die-erste-stunde",
+      "fakultaet": "",
+      "struktur": "# Die erste \"Stunde\"\n    ### Einstieg\n    ### Fragebogen\n    ### Kommando “Pimperle”\n    ### Die Katze “Scratch” und ihr Zuhause\n    ### Tablets austeilen\n    ### ScratchJr erkunden\n    ### Mundpropaganda\n    ### Die erste konkrete Aufgabe\n    ### Auflösung\n    ### Nachvollziehen\n    ### Wirkungen und Feedback\n    ### Wie geht’s weiter?"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 4,
+      "titel": "f1 › 10 Ordnungen › 10 Pruefungsordnungen › ATPO 2015",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/ATPO_2015.pdf"
+    },
+    {
+      "nr": 5,
+      "titel": "f1 › 10 Bachelorstdg › MEC › BPO MEC 12.2023",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf"
+    },
+    {
+      "nr": 8,
+      "titel": "f1 › 10 Bachelorstdg › MEC › F I PO MEC 2021",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf"
+    },
+    {
+      "nr": 6,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f1 › 10 Ordnungen › 10 Pruefungsordnungen › ATPO 2015",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/ATPO_2015.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**§ 15** > **Einsicht in Prüfungsergebnisse und die Prüfungsakte**",
+      "snippets": [
+        "## **§ 15**\n\n## **Einsicht in Prüfungsergebnisse und die Prüfungsakte**  \n- (1) Prüflinge haben ein Einsichtsrecht in ihre Prüfungsarbeiten. Die Fakultät regelt die Aufbewahrung und das Procedere der Einsichtnahme der Prüfungsarbeiten unter Berücksichtigung der aktuellen ministeriellen Erlasse.  \n- (2) Der Prüfling wird auf Antrag vor Abschluss einer Modulprüfung über Teilergebnisse unterrichtet.  \n- (3) -Dem Prüfling wird auf Antrag Einsicht in seine Prüfungsakte gewährt. Dabei ist auch die Anfertigung von Notizen zum Zwecke der Rechtsverfolgung zulässig. Die Prüfungsakte führt die Fakultätsprüfungsverwaltung. Der Antrag ist spätestens innerhalb eines Jahres nach Aushändigung des Prüfungszeugnisses oder des Bescheides über die endgültig nicht bestandene Prüfung bei der Fakultätsprüfungsverwaltung zu stellen.",
+        "Der Pflichtteil enthält eine inhaltliche Gesamteinschätzung des Moduls, eine zusammenfassende Reflexion der im Modul erfolgten persönlichen Lernentwicklung (z.B. auf der Grundlage eines Lerntagebuchs) sowie einen Begründungskommentar zur Auswahl der im Wahlpflichtteil erfassten Dokumente. Der Wahlpflichtteil enthält eine von der zu prüfenden Person bestimmte Auswahl an Materialien (z.B. Recherchen, Protokolle, Referate, Arbeitsentwürfe etc.), mit der die zu prüfende Person ihre Lernentwicklung im Blick auf die Kompetenzziele des Moduls dokumentiert.  \n- (14) Mit der Bachelor-/Master-Arbeit beweist der Prüfling, dass er in der vorgesehenen Zeit ein Problem aus dieser Fachrichtung selbstständig nach wissenschaftlichen Methoden bearbeiten kann. Bei Gruppenarbeiten muss die selbstständige Leistung jedes Prüflings eindeutig erkennbar sein.  \nAllgemeiner Teil der Prüfungsordnung für die Bachelor- und Master-Studiengänge an der Hochschule Hannover  \nNr. 03/2015 vom 27.02.2015"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f1 › 10 Bachelorstdg › MEC › BPO MEC 12.2023",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_verk25.09.2023.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_2021-Angewandte_Mathematik_und_Data_Science_verkuendet.pdf"
+      ],
+      "abschnitt": "**§ 11** > **Inkrafttreten**",
+      "snippets": [
+        "## **Bestehen der Vor- und Bachelor-Prüfung**  \n- (1) Anstelle der Bestimmungen des §19 Abs. 1 und 3 sowie § 24 Abs. 3 des Allgemeinen Teils gelten die nachfolgenden Bestimmungen.  \n- (2) In jedem Zählsemester (immatrikuliert und nicht beurlaubt) müssen durchschnittlich wenigstens 15 Credits erreicht werden (Anzahl Credits/Anzahl Zählsemester >= 15). Dies gilt ab dem zweiten Zählsemester. Bis zum Erreichen von 90 Credits werden nur Leistungen des ersten Studienabschnittes gezählt.  \n- (3) Die Vorprüfung gemäß § 18 Allgemeiner Teil ist bestanden, wenn der Prüfling alle geforderten Studienleistungen des ersten Studienabschnitts (Anlage B1) bestanden hat.  \n- (4) Die Bachelor-Prüfung ist bestanden, wenn sämtliche in den Anlagen B1 und B2 aufgeführten Studienleistungen der Pflichtmodule und der erforderlichen Wahlpflichtmodule jeweils mindestens mit „ausreichend“ oder „bestanden“ bewertet sind.",
+        "## **Wiederholung von Prüfungsleistungen**  \n- (1) Anstelle der Bestimmungen § 11 Abs.1 bis 3 des Allgemeinen Teils gilt folgende Regelung zur Wiederholung von Prüfungsleistungen: Die Anzahl der Wiederholungsprüfungen ist nicht begrenzt. Dies gilt nicht für eine Wiederholung der Bachelorprüfung (§ 23 Allgemeiner Teil).  \n- (2) Abweichend von § 11 Abs. 4 des Allgemeinen Teils dürfen im Erstversuch bestandene Prüfungen (maximal für 10 CR) im Laufe des Studiums im Rahmen der angebotenen Prüfungen zur Notenverbesserung wiederholt werden.  \nDezernat 3 / PO MEC / 31.07.2023  \nNr. 12/2023 vom 15.09.2023  \nVerkündungsblatt der Hochschule Hannover"
+      ],
+      "zitate": [
+        "ab dem zweiten Zählsemester",
+        "Die Anzahl der Wiederholungsprüfungen ist nicht begrenzt",
+        "gilt nicht für eine Wiederholung der Bachelorprüfung (§ 23 Allgemeiner Teil)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f1 › 10 Bachelorstdg › MEC › F I PO MEC 2021",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_verk25.09.2023.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_2021-Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/20181912_BPO_ITR_verk.pdf"
+      ],
+      "abschnitt": "**der Hochschule Hannover (PO MEC 2021)** > **§ 12** > **der Hochschule Hannover (PO MEC 2021)** > **Inkrafttreten**",
+      "snippets": [
+        "## **Bestehen der Vor- und Bachelor-Prüfung**  \n- (1) Anstelle der Bestimmungen des §19 Abs. 1 und 3 sowie § 24 Abs. 3 des Allgemeinen Teils gelten die nachfolgenden Bestimmungen.  \n- (2) In jedem Zählsemester (immatrikuliert und nicht beurlaubt) müssen durchschnittlich wenigstens 15 Credits erreicht werden (Anzahl Credits/Anzahl Zählsemester >= 15). Dies gilt ab dem zweiten Zählsemester. Bis zum Erreichen von 90 Credits werden nur Leistungen des ersten Studienabschnittes gezählt.  \n- (3) Die Vorprüfung gemäß § 18 Allgemeiner Teil ist bestanden, wenn der Prüfling alle geforderten Studienleistungen des ersten Studienabschnitts (Anlage B1) bestanden hat.  \n- (4) Die Bachelor-Prüfung ist bestanden, wenn sämtliche in den Anlagen B1 und B2 aufgeführten Studienleistungen der Pflichtmodule und der erforderlichen Wahlpflichtmodule jeweils mindestens mit „ausreichend“ oder „bestanden“ bewertet sind.",
+        "## **Wiederholung von Prüfungsleistungen**  \n- (1) Anstelle der Bestimmungen § 11 Abs.1 bis 3 des Allgemeinen Teils gilt folgende Regelung zur Wiederholung von Prüfungsleistungen: Die Anzahl der Wiederholungsprüfungen ist nicht begrenzt. Dies gilt nicht für eine Wiederholung der Bachelorprüfung (§ 23 Allgemeiner Teil).  \n- (2) Abweichend von § 11 Abs. 4 des Allgemeinen Teils dürfen im Erstversuch bestandene Prüfungen (maximal für 10 CR) im Laufe des Studiums im Rahmen der angebotenen Prüfungen zur Notenverbesserung wiederholt werden.  \nDezernat 3 / PO MEC / 25.05.2021  \nNr. 04/2021 vom 31.07.2021  \nVerkündungsblatt der Hochschule Hannover"
+      ],
+      "zitate": [
+        "ab dem zweiten Zählsemester",
+        "Die Anzahl der Wiederholungsprüfungen ist nicht begrenzt",
+        "gilt nicht für eine Wiederholung der Bachelorprüfung (§ 23 Allgemeiner Teil)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prüfungsverwaltung der Fakultät I > Ansprechpersonen > Stephan Rittmüller",
+      "snippets": [
+        "## Ansprechpersonen  \n### Stephan Rittmüller\nAllgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\nRicklinger Stadtweg\n30459 Hannover\nGebäude 1A Raum 1A.013\n[ +49 511 9296-1204/-7913 ](tel:+49%20511%209296-1204/-7913 \"+49 511 9296-1204/-7913 anrufen\")\n[ F1-Pruefungsverwaltung(at)hs-hannover.de  ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"An F1-Pruefungsverwaltung\\(at\\)hs-hannover.de eine E-Mail schreiben\")"
+      ],
+      "zitate": [
+        "15 CP Überprüfung",
+        "Allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.38087,
+      "id": "10953465-4938-515f-bd7d-0821b5fbef21",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_1202_75_ITR_WS2025_final.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch 1202 75 ITR WS2025 final",
+      "section_heading": "**Inhalt**",
+      "chunk_index": 188,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDie Studierenden können ausgehend von dem bisher erworbenen physikalischen und technischen Wissen sich selbstständig neue technische Inhalte erarbeiten und praktisch anwenden. Dazu gehört im Einzelnen  \n– die Versuche inhaltlich eigenständig vorzubereiten inklusiv"
+    },
+    {
+      "rang": 2,
+      "score": 1.2342,
+      "id": "1f92b660-0eca-5474-85b0-6ccb99062295",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/68_EAE_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 68 EAE WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Literatur**",
+      "chunk_index": 120,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nStiny: „Passive elektronische Bauelemente“, Springer Vieweg, 2. Aufl., 2015 Stiny: „Aktive elektronische Bauelemente“, Springer Vieweg, 3. Aufl., 2016 Tietze, Schenk: „Halbleiterschaltungstechnik“, Springer Vieweg, 15. Aufl., 2016 R. J. Baker: „CMOS – Circuit Design, Layout, and S"
+    },
+    {
+      "rang": 3,
+      "score": 1.2234,
+      "id": "20c59811-9e72-5b5a-aff6-9bedc007f357",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/69_SKI_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 69 SKI WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Literatur**",
+      "chunk_index": 119,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nStiny: „Passive elektronische Bauelemente“, Springer Vieweg, 2. Aufl., 2015 Stiny: „Aktive elektronische Bauelemente“, Springer Vieweg, 3. Aufl., 2016 Tietze, Schenk: „Halbleiterschaltungstechnik“, Springer Vieweg, 15. Aufl., 2016 R. J. Baker: „CMOS – Circuit Design, Layout, and S"
+    },
+    {
+      "rang": 4,
+      "score": 1.15275,
+      "id": "0adae025-e21b-572c-88cd-d4b8a336bba1",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/ATPO_2015.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 10 Pruefungsordnungen › ATPO 2015",
+      "section_heading": "**§ 15** > **Einsicht in Prüfungsergebnisse und die Prüfungsakte**",
+      "chunk_index": 61,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 15**\n\n## **Einsicht in Prüfungsergebnisse und die Prüfungsakte**  \n- (1) Prüflinge haben ein Einsichtsrecht in ihre Prüfungsarbeiten. Die Fakultät regelt die Aufbewahrung und das Procedere der Einsichtnahme der Prüfungsarbeiten unter Berücksichtigung der aktuellen ministeriellen Erlasse.  \n- "
+    },
+    {
+      "rang": 5,
+      "score": 1.12733,
+      "id": "5696fda5-30ee-56ec-9a0d-10b36b250de3",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › BPO MEC 12.2023",
+      "section_heading": "**§ 11** > **Inkrafttreten**",
+      "chunk_index": 18,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 11**\n## **Inkrafttreten**  \nDieser Besondere Teil der Prüfungsordnung tritt nach ihrer Genehmigung durch das Präsidium am Tage der Bekanntgabe im Verkündungsblatt der Hochschule Hannover in Kraft.  \n*****  \n|Neufassung||\n|---|---|\n|Verkündungsblatt Nr.\n1/2010 vom|03.02.2010|\n|1. Änderung||\n|B"
+    },
+    {
+      "rang": 6,
+      "score": 1.0854,
+      "id": "0a303b4b-73d8-5ab9-bff4-ec53a7381a49",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I > Ansprechpersonen > Stephan Rittmüller",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Ansprechpersonen  \n### Stephan Rittmüller\nAllgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\nRicklinger Stadtweg\n30459 Hannover\nGebäude 1A Raum 1A.013\n[ +49 511 9296-1204/-7913 ](tel:+49%20511%209296-1204/-7913 \"+49 511 9296-1204/-7913 anrufen\")\n[ F1-Pruefungsverwaltung("
+    },
+    {
+      "rang": 7,
+      "score": 1.06605,
+      "id": "73f09a8f-db31-5b2c-bbed-0e1f9d8a6783",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/70_SEL_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 70 SEL WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Literatur**",
+      "chunk_index": 121,
+      "text_vollstaendig": false,
+      "auszug": "Dort:  \n– E-Klausuren (4.2.5)  \n– Klausuren im Antwort-Wahl-Verfahren (4.2.6)  \n– Suchbegriff Kurztest / „Vorleistung Kurztest“  \n–  \nStand 13.05.2025  \n**Fakultät I - Elektro- und Informationstechnik Studiengang Elektrotechnik und Informationstechnik Vertiefung Smarte Elektronik**"
+    },
+    {
+      "rang": 8,
+      "score": 1.03355,
+      "id": "5a3fd510-8ac3-5c79-b192-d7df1e42fc38",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › F I PO MEC 2021",
+      "section_heading": "**der Hochschule Hannover (PO MEC 2021)** > **§ 12** > **der Hochschule Hannover (PO MEC 2021)** > **Inkrafttreten**",
+      "chunk_index": 28,
+      "text_vollstaendig": false,
+      "auszug": "**PF/WP**|**Arten der**\n**Prüfungsleistung**|**Gew.TM **|**Sem. **|**SWS **|**CrTM**|\n|MEC-213|MEC 1|PF|5|1|Studierende|wählen 5 CP aus dem KatalogWahlmodule Maschinenbau|||||||\n|MEC-213|Wahlmodule Maschinenbau|PF|5|1|KTD-252-02|Sicherheitstechnik|WP|E, R, B, P|0,5|6|1|2,5|\n||||||KTD-253-01|Hydrauli"
+    },
+    {
+      "rang": 9,
+      "score": 1.01816,
+      "id": "adf31c49-c748-5411-8413-5367d42ac88e",
+      "source_url": "https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-hardware-in-the-loop-systeme",
+      "title_anzeige": "Labor für Echtzeitsimulation und Hardware-in-the-Loop Systeme",
+      "section_heading": "Labor für Echtzeitsimulation und Hardware-in-the-Loop Systeme > Versuche > Labor für Echtzeitsimulation und Hardware-in-the-Loop Systeme",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "[ Versuch 4: FRT Echtzeitsimulation einer VSC-HVDC mit angeschlossenem Windpark ](https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-hardware-in-the-loop-systeme \"Versuch 4: FRT Echtzeitsimulation einer VSC-HVDC mit angeschlossenem Windpark\")\n[ Versuch 5: PHiL-Simulatio"
+    },
+    {
+      "rang": 10,
+      "score": 0.96615,
+      "id": "5a8b95a6-157c-560d-b598-414638cf4b89",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/ATPO_2015.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 10 Pruefungsordnungen › ATPO 2015",
+      "section_heading": "**§ 7** > **Aufbau der Prüfungen, Arten der Prüfungsleistungen**",
+      "chunk_index": 33,
+      "text_vollstaendig": true,
+      "auszug": "Der Pflichtteil enthält eine inhaltliche Gesamteinschätzung des Moduls, eine zusammenfassende Reflexion der im Modul erfolgten persönlichen Lernentwicklung (z.B. auf der Grundlage eines Lerntagebuchs) sowie einen Begründungskommentar zur Auswahl der im Wahlpflichtteil erfassten Dokumente. Der Wahlpf"
+    },
+    {
+      "rang": 11,
+      "score": 0.94849,
+      "id": "4ba4c628-98e7-5204-8319-066218f69d36",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch ITR",
+      "section_heading": "**Anforderungen des Selbststudiums**",
+      "chunk_index": 171,
+      "text_vollstaendig": false,
+      "auszug": "## **Anforderungen des Selbststudiums**  \nEinarbeiten in die Themen der Versuche und die Fragestellungen  \nSelbstständiges Erstellen der Laborberichte mit kritischer Diskussion der eigenen Resultate und des Lernprozesses.  \nVorbereitung einer Präsentation zu einem Versuchsthema Literaturstudium"
+    },
+    {
+      "rang": 12,
+      "score": 0.93348,
+      "id": "8829c930-2ebd-516d-9e37-2bfd91acfeff",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-ATP.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT ATP",
+      "section_heading": "**Anforderungen des Selbststudiums**",
+      "chunk_index": 138,
+      "text_vollstaendig": false,
+      "auszug": "## **Anforderungen des Selbststudiums**  \nEinarbeitung in die Theorie der Versuche. Vergleich theoretischer Modelle mit experimentellen Ergebnissen. Selbstständiges Erstellen der Laborberichte mit kritischer Diskussion der eigenen Resultate."
+    },
+    {
+      "rang": 13,
+      "score": 0.92277,
+      "id": "46b6df78-7b23-54c3-9a84-c2b1ab1d9015",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > Zahlen und Daten zur Hochschule:",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Zahlen und Daten zur Hochschule:  \n- 1971 gegründet als FH Hannover mit 7 Fachbereichen  \n- FB Elektrotechnik und Maschinenbau: hervorgegangen aus der 1892 gegründeten »Handwerker und Kunstgewerbeschule«  \n- 5 Fakultäten  \n- – -  \n- Fakultät I Elektro und Informationstechnik  \n- –  \n- Fakultät II"
+    },
+    {
+      "rang": 14,
+      "score": 0.91633,
+      "id": "3e2bd3ae-1029-5794-9e15-bb2b7d963f47",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch MEC WS2023 V3 — Modulhandbuch für den Studiengang Mechatronik PO-Version WS2023",
+      "section_heading": "**Inhalt**",
+      "chunk_index": 145,
+      "text_vollstaendig": false,
+      "auszug": "## **Inhalt**  \nEs sind 5 Versuche aus den Gebieten Gleich- und Wechselstromtechnik sowie elektrischer und magnetischer Felder mit entsprechender Dokumentation und Auswertung durchzuführen. Zu einem Versuch ist eine ausführliche Versuchsbeschreibung mit theoretischen Hintergrund zu erstellen."
+    },
+    {
+      "rang": 15,
+      "score": 0.91328,
+      "id": "6d692f17-c5d2-5948-be36-a3dfebdd19b1",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › F I PO MEC 2021",
+      "section_heading": "**der Hochschule Hannover (PO MEC 2021)** > **§ 12** > **der Hochschule Hannover (PO MEC 2021)** > **Inkrafttreten**",
+      "chunk_index": 18,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 12**\n## **Inkrafttreten**  \nDieser Besondere Teil der Prüfungsordnung tritt nach ihrer Genehmigung durch das Präsidium am Tage der Bekanntgabe im Verkündungsblatt der Hochschule Hannover in Kraft.  \n*****  \nNeufassung: Beschluss Fakultätsrat der Fakultät I: 17.11.2009 Verkündungsblatt Nr. 1/2"
+    },
+    {
+      "rang": 16,
+      "score": 0.90647,
+      "id": "7082dba7-c38c-5918-8652-02b56ad08568",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/20181912_BPO_MAT_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › 20181912 BPO MAT verk",
+      "section_heading": "**§ 5** > **Bestehen der Vor- und Bachelor-Prüfung**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n\n## **Bestehen der Vor- und Bachelor-Prüfung**  \n(1) Anstelle der Bestimmungen der §§ 11 Abs. 1 bis 3, 19 Abs. 1 und 3 sowie 24 Abs. 3 des Allgemeinen Teils gelten die nachfolgenden Bestimmungen.  \n(2) In jedem Zählsemester (immatrikuliert und nicht beurlaubt) müssen durchschnittlich weni"
+    },
+    {
+      "rang": 17,
+      "score": 0.90085,
+      "id": "389d8517-97bc-5745-a2f5-b9d5a1f5cd48",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/04_Genehmigung_EIT_2015-11-10_gesamt.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EIT › 04 Genehmigung EIT 2015 11 10 gesamt",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Elektrotechnik und Informationstechnik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **§ 5** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Elektrotechnik und Informationstechnik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **Bestehen der Vor- und Bachelor-Prüfung**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n\n## **Bestehen der Vor- und Bachelor-Prüfung**  \n- (1) Anstelle der Bestimmungen der §§ 11 Abs. 1 bis 3, 19 Abs. 1 und 3 sowie 24 Abs. 3 des Allgemeinen Teils gelten die nachfolgenden Bestimmungen.  \n- (2) In jedem Zählsemester (immatrikuliert und nicht beurlaubt) müssen durchschnittlich "
+    },
+    {
+      "rang": 18,
+      "score": 0.90005,
+      "id": "6be7bf3c-54ff-5c2b-b81b-86efdc99c8d1",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 67 ADT WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Literatur**",
+      "chunk_index": 120,
+      "text_vollstaendig": false,
+      "auszug": "https://www.hs-rm.de/fileadmin/Home/Hochschule/Veroeffentlichungen/Amtliche_Mitteilungen/600649/635.pdf  \nDort:  \n– E-Klausuren (4.2.5)  \n– Klausuren im Antwort-Wahl-Verfahren (4.2.6)  \n– Suchbegriff Kurztest / „Vorleistung Kurztest“  \n–  \nStand 13.05.2025  \n**Fakultät I - Elektro- und Informationst"
+    },
+    {
+      "rang": 19,
+      "score": 0.89596,
+      "id": "79b3c150-3065-5f7a-aef5-2d38d864cc55",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/20181912_BPO_ITR_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › ITR › 20181912 BPO ITR verk",
+      "section_heading": "**für den Studiengang Technisches Informationsdesign und Technische Redaktion (ITR) mit dem Abschluss Bachelor of Engineering an der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover** > **§ 5** > **für den Studiengang Technisches Informationsdesign und Technische Redaktion (ITR) mit dem Abschluss Bachelor of Engineering an der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover** > **Bestehen der Vor- und Bachelor-Prüfung**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n\n## **Bestehen der Vor- und Bachelor-Prüfung**  \n- (1) Anstelle der Bestimmungen des §19 Abs. 1 und 3 sowie § 24 Abs. 3 des Allgemeinen Teils gelten die nachfolgenden Bestimmungen.  \n- (2) In jedem Zählsemester (immatrikuliert und nicht beurlaubt) müssen durchschnittlich wenigstens 15 Cre"
+    },
+    {
+      "rang": 20,
+      "score": 0.89518,
+      "id": "4a9543bd-473d-5d0b-8741-557db8ac5dca",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/20193009_BPO_EWI_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EWI › 20193009 BPO EWI verk",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **§ 5** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **Bestehen der Vor- und Bachelor-Prüfung**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n\n## **Bestehen der Vor- und Bachelor-Prüfung**  \n- (1) Anstelle der Bestimmungen des §19 Abs. 1 und 3 sowie § 24 Abs. 3 des Allgemeinen Teils gelten die nachfolgenden Bestimmungen.  \n- (2) In jedem Zählsemester (immatrikuliert und nicht beurlaubt) müssen durchschnittlich wenigstens 15 Cre"
+    },
+    {
+      "rang": 21,
+      "score": 0.89165,
+      "id": "6dd52046-b138-5158-b49f-c9efd7643e9a",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EIT › 01 F I PO EIT 2019",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **§ 5** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **Bestehen der Vor- und Bachelor-Prüfung**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 5**\n\n## **Bestehen der Vor- und Bachelor-Prüfung**  \n- (1) Anstelle der Bestimmungen des §19 Abs. 1 und 3 sowie § 24 Abs. 3 des Allgemeinen Teils gelten die nachfolgenden Bestimmungen.  \n- (2) In jedem Zählsemester (immatrikuliert und nicht beurlaubt) müssen durchschnittlich wenigstens 15 Cre"
+    },
+    {
+      "rang": 22,
+      "score": 0.89152,
+      "id": "7b08abbc-ccb8-53f8-b97c-2c4400fff1d9",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/69_SKI_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 69 SKI WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Literatur**",
+      "chunk_index": 127,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nLaboranleitung und darin angegebene spezielle Literatur zum Versuch. Laboranleitungen unter https://moodle.hs-hannover.de/course/view.php?id=14724 und darin angegebene spezielle Literatur zum Versuch. Walcher, Praktikum der Physik, Teubner, Stuttgart, 2006.  \nStand 13.05.2025  \n**"
+    },
+    {
+      "rang": 23,
+      "score": 0.89122,
+      "id": "06229dca-8066-57f8-a9ea-521000e823ae",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › BPO MEC 12.2023",
+      "section_heading": "**§ 5** > **Bestehen der Vor- und Bachelor-Prüfung**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n\n## **Bestehen der Vor- und Bachelor-Prüfung**  \n- (1) Anstelle der Bestimmungen des §19 Abs. 1 und 3 sowie § 24 Abs. 3 des Allgemeinen Teils gelten die nachfolgenden Bestimmungen.  \n- (2) In jedem Zählsemester (immatrikuliert und nicht beurlaubt) müssen durchschnittlich wenigstens 15 Cre"
+    },
+    {
+      "rang": 24,
+      "score": 0.88716,
+      "id": "c56422bf-7adb-57ad-a179-c231a1cf1e1c",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/68_EAE_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 68 EAE WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Literatur**",
+      "chunk_index": 128,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nLaboranleitung und darin angegebene spezielle Literatur zum Versuch. Laboranleitungen unter https://moodle.hs-hannover.de/course/view.php?id=14724 und darin angegebene spezielle Literatur zum Versuch. Walcher, Praktikum der Physik, Teubner, Stuttgart, 2006.  \nStand 13.05.2025  \n**"
+    },
+    {
+      "rang": 25,
+      "score": 0.86534,
+      "id": "6f8aeacc-19c7-576c-a1ac-c210855f42e2",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 67 ADT WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Literatur**",
+      "chunk_index": 132,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nLaboranleitung und darin angegebene spezielle Literatur zum Versuch. https://docs.f1.hs-hannover.de/dl_fachgebiete/labore.php?id_fachgebiet=3  \nStand 13.05.2025  \n**Fakultät I - Elektro- und Informationstechnik Studiengang Elektrotechnik und Informationstechnik / Vertiefung Automa"
+    },
+    {
+      "rang": 26,
+      "score": 0.85853,
+      "id": "19c8450b-f312-56bf-8b4c-b91413baa2c3",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT SFT",
+      "section_heading": "**Literatur**",
+      "chunk_index": 142,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nLaboranleitung und darin angegebene spezielle Literatur zum Versuch. https://docs.f1.hs-hannover.de/dl_fachgebiete/labore.php?id_fachgebiet=3  \nStand 05.09.2018  \n**Fakultät I - Elektro- und Informationstechnik Studiengang Elektrotechnik und Informationstechnik / Vertiefung System"
+    },
+    {
+      "rang": 27,
+      "score": 0.85318,
+      "id": "28ac1526-b5c3-5fdd-90e1-f8fe8052fec2",
+      "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+      "title_anzeige": "f1 › semesterstart 1",
+      "section_heading": "Semesterstart > Brückenkurs",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Brückenkurs\nStudienanfängerinnen und -anfänger der Fakultät I - Elektro- und Informationstechnik aller Studiengänge außer ITR, können zur Auffrischung Ihrer Mathematik- und Physikkenntnisse an kostenlosen Vorbereitungskursen teilnehmen. Die Teilnahme am Brückenkurs (16.-26-02.2026) ist freiwillig"
+    },
+    {
+      "rang": 28,
+      "score": 0.85189,
+      "id": "30a2c31e-1341-56a6-9819-efa444d9ecf2",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Wichtige_Hiweise_fuer_die_Praxisphase_17.2.2025.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 60 Sonstige › Wichtige Hiweise fuer die Praxisphase 17.2.2025",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Das Anmeldeformular für die Praxisphase muss in allen Bachelorstudiengängen der Fakultät für Elektro- und Informationstechnik verwendet werden. Dabei befolgen Sie bitte das auf dem Formular beschriebene Verfahren.  \nBitte tragen Sie **vor Beginn** Ihre Praxisphase im iCMS ein.  \nhttps://icms.hs-hann"
+    },
+    {
+      "rang": 29,
+      "score": 0.84358,
+      "id": "d88f43b8-a3dc-53b7-b7de-8dd2816e6c5d",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/70_SEL_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 70 SEL WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Literatur**",
+      "chunk_index": 133,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nLaboranleitung und darin angegebene spezielle Literatur zum Versuch. https://docs.f1.hs-hannover.de/dl_fachgebiete/labore.php?id_fachgebiet=3  \nStand 13.05.2025  \n**Fakultät I - Elektro- und Informationstechnik Studiengang Elektrotechnik und Informationstechnik Vertiefung Smarte E"
+    },
+    {
+      "rang": 30,
+      "score": 0.81011,
+      "id": "1851273d-6777-5ad5-ab39-86cff713c5fe",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT SFT",
+      "section_heading": "**Literatur**",
+      "chunk_index": 138,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nLaboranleitungen unter https://f1.hs-hannover.de/fachgebiete/physik/labore/index.html und darin angegebene spezielle Literatur zum Versuch, Walcher, Praktikum der Physik, Teubner, Stuttgart, 2006.  \nStand 05.09.2018  \n**Fakultät I - Elektro- und Informationstechnik Studiengang Ele"
+    },
+    {
+      "rang": 31,
+      "score": 0.80673,
+      "id": "5b32bae4-d995-5cb7-b2d4-7977a6f86c12",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-ATP.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT ATP",
+      "section_heading": "**Anforderungen des Selbststudiums**",
+      "chunk_index": 226,
+      "text_vollstaendig": false,
+      "auszug": "## **Anforderungen des Selbststudiums**  \nErstellung von Berichten zu den Versuchen. Erarbeiten der theoretischen Grundlagen vor der Versuchsdurchführung."
+    },
+    {
+      "rang": 32,
+      "score": 0.7954,
+      "id": "66308d1e-aab2-5b84-9ad2-f67d35f9e67c",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Brochure_Faculty_I_II_2023-3.11.23_neue_Fotos-Einzelseiten_6.11.23.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 60 Sonstige › Brochure Faculty I II 2023 3.11.23 neue Fotos Einzelseiten 6.11.23",
+      "section_heading": "The Engineering Faculties > Faculty I - Electrical Engineering and Information Technologyogy",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "The study programs may change slightly, see website.  \nBachelor Degrees (B.Eng.)  \n- Industrial Electrical Engineering Electrical Engineering and Information Technology (EIT) _with specializations in:_  \n- 1) Automation Technolgy/ Process Informatics  \n- 2) Electronics  \n- 3) Electrical Drive Engine"
+    },
+    {
+      "rang": 33,
+      "score": 0.77928,
+      "id": "c86dc3fb-5117-5666-bc5f-8a4ab9837220",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EM_WS2021.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch EEE EM WS2021",
+      "section_heading": "**Literatur**",
+      "chunk_index": 104,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nLaborunterlagen  \neigenständige Literaturrecherche zur Einarbeitung in die jeweilige Versuchsthematik  \nStand 03.02.2021  \n**Fakultät I - Elektro- und InformationstechnikMasterstudiengang Elektrische Energiesysteme und Elektromobilität - Vertiefung EM**"
+    },
+    {
+      "rang": 34,
+      "score": 0.77305,
+      "id": "416d3c75-5d71-5300-aaa0-dbe31fb7f8b8",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EV_WS2021.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch EEE EV WS2021",
+      "section_heading": "**Literatur**",
+      "chunk_index": 56,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nLaborunterlagen  \neigenständige Literaturrecherche zur Einarbeitung in die jeweilige Versuchsthematik  \nStand 03.02.2021  \n**Fakultät I - Elektro- und InformationstechnikMasterstudiengang Elektrische Energiesysteme und Elektromobilität - Vertiefung EV**"
+    },
+    {
+      "rang": 35,
+      "score": 0.76655,
+      "id": "a4995ec1-605c-5ee7-9347-5a6c631740c9",
+      "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+      "title_anzeige": "f1 › semesterstart 1",
+      "section_heading": "Semesterstart",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Semesterstart\n_ _\nScrollen für mehr Infos!\nLiebe Studierende der Fakultät I,\nwir freuen uns sehr, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informationstechnik entschieden haben.  \nFür einen reibungslosen Start finden Sie hier alle wichtigen Informationen zum Semesterbeginn. "
+    },
+    {
+      "rang": 36,
+      "score": 0.76632,
+      "id": "a1881115-31ec-598e-a983-d7bb89546dc6",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EM_WS2021.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch EEE EM WS2021",
+      "section_heading": "**Anforderungen des Selbststudiums**",
+      "chunk_index": 201,
+      "text_vollstaendig": false,
+      "auszug": "## **Anforderungen des Selbststudiums**  \nVorbereitung der Versuchsdurchführung anhand der Laboranleitungen, der darin genannten Literatur sowie der entsprechenden Lehrveranstaltung."
+    },
+    {
+      "rang": 37,
+      "score": 0.75777,
+      "id": "88c0e1b1-b609-5d29-b9f7-1d162fef6489",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/physik",
+      "title_anzeige": "Fachgebiet Physik",
+      "section_heading": "Fachgebiet Physik > Das Fachgebiet Physik",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Fachgebiet Physik  \n## Das Fachgebiet Physik\nZiel der Physiklehre innerhalb der Ingenieurstudiengänge an der Fakultät I - Elektro- und Informationstechnik ist das Vermitteln von physikalischem Denken als Grundlage für das Verstehen technischer Zusammenhänge. Das Umsetzen von naturwissenschaftlich"
+    },
+    {
+      "rang": 38,
+      "score": 0.75753,
+      "id": "0febdd5d-22f1-5e1d-82e1-d2d1ef4a3e92",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/verk_2025_05_F_I__ITR_BTPO.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › ITR › verk 2025 05 F I ITR BTPO",
+      "section_heading": "**Arten der Prufungsleistungen:**",
+      "chunk_index": 24,
+      "text_vollstaendig": false,
+      "auszug": "## **Arten der Prufungsleistungen:**  \n**B** (Bericht) **EDR** (Erstellung und Dokumentation von Rechnerprogrammen) **BA (** Bericht (allg.)) **FB** (Forschungsbericht) **BAA** (Bachelor-Arbeit ) **H** (Hausarbeit) **BU** (Berufsprak) **K** (Klausur) **BÜ** (Berufspraktische Übung) **KO** (Kolloquiu"
+    },
+    {
+      "rang": 39,
+      "score": 0.73288,
+      "id": "d1fbbe96-a2ca-58fd-9d08-547a7ef4bd98",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Neuigkeiten",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "# Neuigkeiten\n[Teilen](https://f1.hs-hannover.de/ \"Teilen\")\n[![](https://f1.hs-hannover.de/fileadmin/_processed_/0/3/csm_janschoelzel_2025.09.18-Liminale_MG_6115_2510752657.jpg)](https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemittei"
+    },
+    {
+      "rang": 40,
+      "score": 0.73119,
+      "id": "a5da5b57-d2ba-5070-8f39-1e1f5f6e5ded",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-EAN.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT EAN",
+      "section_heading": "**Anforderungen des Selbststudiums**",
+      "chunk_index": 278,
+      "text_vollstaendig": false,
+      "auszug": "## **Anforderungen des Selbststudiums**  \nVor- und Nachbereitung der Versuche, Erstellung von Protokollen u. Bericht"
+    },
+    {
+      "rang": 41,
+      "score": 0.71203,
+      "id": "92309e1a-8fac-5a9c-ab3c-9e08c566c3b9",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/Verk_2025_01_F_I__EIT_BTPO.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EIT › Verk 2025 01 F I EIT BTPO — der Hochschule Hannover",
+      "section_heading": "**für den Bachelor-Studiengang Elektrotechnik und Informationstechnik (EIT) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I – Elektro- und Informationstechnik** > **§ 10** > **für den Bachelor-Studiengang Elektrotechnik und Informationstechnik (EIT) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I – Elektro- und Informationstechnik** > **Inkrafttreten**",
+      "chunk_index": 28,
+      "text_vollstaendig": false,
+      "auszug": "**PF/WP**|**Arten der**\n**Prüfungsleistung**|**Gew.TM **|**Sem. **|**SWS **|**CrTM**|\n|EIT-511|Echtzeitsysteme|PF|5|1|EIT-511-01|Echtzeitsysteme|PF|K90,EDR|1|4|4|5|\n|EIT-512|Robotertechnik|PF|5|1|EIT-512-01|Robotertechnik|PF|K60, H, EDR, B, P|1|4|2|2,5|\n||||||EIT-512-02|Labor Robotertechnik|PF|EA, B"
+    },
+    {
+      "rang": 42,
+      "score": 0.70977,
+      "id": "5193d24c-9a2a-5393-a1c8-9347edd26148",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EIT › 01 F I PO EIT 2019",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **§ 12** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **Inkrafttreten**",
+      "chunk_index": 56,
+      "text_vollstaendig": true,
+      "auszug": "|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|**M-Kürzel**|**Modul-Bezeichnung**|**ArtM**\n**PF/WP**|**CrM**|**Gew.M **|**TM-Kürzel**|**Teilmodul-Bezeichnung**|**ArtTM**\n**PF/WP**|**Arten der**\n**Prüfungsleistung**|**Gew.TM **|**Sem. **|**SWS **|**CrTM**|\n||Labor analoge und digitale||||EIT-"
+    },
+    {
+      "rang": 43,
+      "score": 0.70678,
+      "id": "57319fae-a700-51ea-85eb-47baaa30faac",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik > Sprechen Sie sich aus.",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## Sprechen Sie sich aus.\nDas waren viele Informationen, die erstmal verdaut werden müssen. Sie haben Fragen oder Anregungen? Wenden Sie sich gern an uns!\n#### FAKULTÄT I – ELEKTRO- UND INFORMATIONSTECHNIK\nFür die Fakultät I Elektro- und Informationstechnik ist Ihre erste Anlaufstelle das [Dekanat]("
+    },
+    {
+      "rang": 44,
+      "score": 0.70322,
+      "id": "579ccf20-8b29-51b6-8cda-2f978b5b1bde",
+      "source_url": "https://f1.hs-hannover.de/teilzeitstudium",
+      "title_anzeige": "Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik  \n[Zurück](javascript:history.back\\(\\); \"Zurück\")\n![Teilzeit](https://f1.hs-hannover.de/fileadmin/_processed_/d/1/csm_Teilzeit_0cb88dd47f.jpg?rbiFocus=mobile)"
+    },
+    {
+      "rang": 45,
+      "score": 0.70231,
+      "id": "53b85668-134f-5606-964c-e1962ddd95f2",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/BPO_EWI_verkuendet_2025.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EWI › BPO EWI verkuendet 2025",
+      "section_heading": "**der Hochschule Hannover** > **Bachelor-Studiengang Wirtschaftsingenieur Elektrotechnik (EWI) - 7 Semester**",
+      "chunk_index": 29,
+      "text_vollstaendig": false,
+      "auszug": "|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|Studierendewählen ModuleimUmfangvon 15 Craus|||||||||||||\n|**M-Kürzel**|**Modul-Bezeichnung**|**ArtM**\n**PF/WP**|**CrM**|**Gew.M **|**TM-Kürzel**|**Teilmodul-Bezeichnung**|**ArtTM**\n**PF/WP**|**Arten der**\n**Prüfungsleistung**|**Gew.TM**|**Sem.*"
+    },
+    {
+      "rang": 46,
+      "score": 0.69891,
+      "id": "3b95a7a9-77cb-5bff-9097-aecf0e488bb6",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-EAN.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT EAN",
+      "section_heading": "**Anforderungen des Selbststudiums**",
+      "chunk_index": 499,
+      "text_vollstaendig": false,
+      "auszug": "## **Anforderungen des Selbststudiums**  \nVorbereitung zu den Laborversuchen mit Hilfe der Vorlesung, des Skriptes aus dem Intranet und der empfohlenen Literatur durchführen"
+    },
+    {
+      "rang": 47,
+      "score": 0.69619,
+      "id": "ef6ccfab-b94f-5219-82fa-9b39382140df",
+      "source_url": "https://f1.hs-hannover.de/studium/studienstart",
+      "title_anzeige": "Mit Durchblick durchs Studium",
+      "section_heading": "Mit Durchblick durchs Studium > [Erstsemesterinformationen der Fakultät I ](https://f1.hs-hannover.de/semesterstart-1)",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### [Erstsemesterinformationen der Fakultät I ](https://f1.hs-hannover.de/semesterstart-1)\n[ Weiterlesen ](https://f1.hs-hannover.de/semesterstart-1)\n[ ![](https://f1.hs-hannover.de/fileadmin/_processed_/1/0/csm_hoersaal_180b33cd5d.jpg) ](https://www.hs-hannover.de/ueber-uns/organisation/akademische"
+    },
+    {
+      "rang": 48,
+      "score": 0.68958,
+      "id": "39584bb9-9bf8-5193-9998-388dbb6e0cd2",
+      "source_url": "https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-netzdynamik",
+      "title_anzeige": "Labor Netzdynamik",
+      "section_heading": "Labor Netzdynamik > Laborversuche > Labor Netzdynamik",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Laborversuche\n##\n[ Versuch 1: Lastflussrechnung ](https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-netzdynamik \"Versuch 1: Lastflussrechnung\")\n[ Versuch 2: Spannungsstabilität ](https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-netzdy"
+    },
+    {
+      "rang": 49,
+      "score": 0.68,
+      "id": "b002dba5-6b3a-500a-a967-415754587d52",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/nachhaltige-elektrische-energieversorgung-nev",
+      "title_anzeige": "Nachhaltige Elektrische Energieversorgung (NEV)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 50,
+      "score": 0.68,
+      "id": "348bce65-1de0-5aa0-8c32-708a7f34d45a",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "title_anzeige": "Elektrotechnik und Informationstechnik (EIT)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 35,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 51,
+      "score": 0.68,
+      "id": "07552e8f-df54-589b-9044-89968ffd97ec",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi",
+      "title_anzeige": "Wirtschaftsingenieur Elektrotechnik (EWI)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 52,
+      "score": 0.68,
+      "id": "e5ca1947-d0db-54f1-ac23-c46440e597b4",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/technisches-informationsdesign-und-technische-redaktion-itr",
+      "title_anzeige": "Technisches Informationsdesign und Technische Redaktion (ITR)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 27,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 53,
+      "score": 0.68,
+      "id": "6591f371-c155-555a-ad35-a7bed0110102",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "title_anzeige": "Mechatronik (MEC)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 22,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 54,
+      "score": 0.68,
+      "id": "e86b3bf1-9e91-5a50-8b02-31e163b6b025",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat",
+      "title_anzeige": "Angewandte Mathematik und Data Science (MAT)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 32,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 55,
+      "score": 0.67527,
+      "id": "73cbb668-5cf8-5723-9105-8240991d73ff",
+      "source_url": "https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-regenerative-energien",
+      "title_anzeige": "Labor Regenerative Energien",
+      "section_heading": "Labor Regenerative Energien > Versuche > Labor Regenerative Energien",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "[ Versuch 4: Pumpspeicherkraftwerk ](https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-regenerative-energien \"Versuch 4: Pumpspeicherkraftwerk\")\n[ Versuch 5: Netzsynchronisation und Betrieb von Kraftwerken ](https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-un"
+    },
+    {
+      "rang": 56,
+      "score": 0.67323,
+      "id": "9d773f66-4cd1-543f-bf6f-fd6e3abfd714",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge/elektrische-energiesysteme-und-elektromobilitaet-eee",
+      "title_anzeige": "Elektrische Energiesysteme und Elektromobilität (EEE)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ... ](https://w"
+    },
+    {
+      "rang": 57,
+      "score": 0.67323,
+      "id": "ff2d4f3c-5b8f-57d6-9c91-b2a33bce751b",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge/sensor-und-automatisierungstechnik-esa",
+      "title_anzeige": "Sensor- und Automatisierungstechnik (ESA)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ... ](https://w"
+    },
+    {
+      "rang": 58,
+      "score": 0.67185,
+      "id": "2888f4f8-2948-551f-92ef-74e5cf109bfd",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-ELK.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT ELK",
+      "section_heading": "**Anforderungen des Selbststudiums**",
+      "chunk_index": 216,
+      "text_vollstaendig": false,
+      "auszug": "## **Anforderungen des Selbststudiums**  \nAusführliche Vorbereitung auf die Versuche, Erstellung von Laborberichten"
+    },
+    {
+      "rang": 59,
+      "score": 0.6633,
+      "id": "98e5397b-a7bb-52b1-937c-c360bfcfe088",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/20_Masterstdg/ESA/ESA_BTPO_MA_verkuendet_2025.pdf",
+      "title_anzeige": "f1 › 20 Masterstdg › ESA › ESA BTPO MA verkuendet 2025 — Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Master-Studiengang Sensor- und Automatisierungstechnik (ESA) mit dem Abschluss Master of Engineering in der** > **Arten der Prüfungsleistungen:**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "## **Arten der Prüfungsleistungen:**  \n**B** (Bericht) **EDR** (Erstellung und Dokumentation von Rechnerprogrammen) **BA (** Bericht (allg.)) **FB** (Forschungsbericht) **BAA** (Bachelor-Arbeit ) **H** (Hausarbeit) **BU** (Berufsprak) **K** (Klausur) **P BÜ** (Berufspraktische Übung) **KO** (Kolloqu"
+    },
+    {
+      "rang": 60,
+      "score": 0.66171,
+      "id": "7f906f5b-9d37-55f7-b844-685e1f43b763",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EV_WS2021.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch EEE EV WS2021",
+      "section_heading": "**Literatur**",
+      "chunk_index": 174,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nLiteratur zu den Themen Projektmanagement und Präsentationen sowie der jeweils fachlichen Inhalte  \nStand 03.02.2021  \n**Fakultät I - Elektro- und InformationstechnikMasterstudiengang Elektrische Energiesysteme und Elektromobilität - Vertiefung EV**"
+    },
+    {
+      "rang": 61,
+      "score": 1.31068,
+      "id": "87011de0-f2e7-5081-8a51-0d486eabf675",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "section_heading": "**`§7`** > **`Inkrafttreten`**",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "Spannung, Verformung, Flächenpressung,\nKnickung, Reibung, Schrauben und Muttern,\nKlemm- und Spannelemente, Welle- Nabe-\nVerbindungen, Schweißen, Löten, Kleben,\nVorstellung von Berechnungsprogrammen\nfür Maschinenelemente, Durchführung von\nBerechnungen,Beurteilungder Ergebnisse|Kenntnisse\nKonstruktion"
+    },
+    {
+      "rang": 62,
+      "score": 1.12166,
+      "id": "599c1989-90f0-5913-b2bc-6ad9f1a2904f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "section_heading": "**§ 15 Einstufungsprüfung**",
+      "chunk_index": 144,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 14 Zusatzprüfungen**  \n- (1) Die Studierenden können sich mit Genehmigung des Prüfungsausschusses in weiteren als den in den Anlagen 5, 6 (a bzw. b) und 7 (a bzw. b) vorgeschriebenen Pflicht- und Wahlpflichtfächern einer Prüfung unterziehen (Zusatzprüfungen).  \nPrüfO BA und BA hon. Journalist"
+    },
+    {
+      "rang": 63,
+      "score": 1.05252,
+      "id": "e625553a-0ba0-5c37-8cfd-4d6f7bdf5dd6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "section_heading": "**Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)** > _§ 15 Einstufungspr ¨ufung_",
+      "chunk_index": 76,
+      "text_vollstaendig": true,
+      "auszug": "## _§ 14 Zusatzpr ¨ufungen_  \n(1) Die Studierenden k ¨onnen sich in weiteren als den im Zweiten Teil vorgeschriebenen F¨achern (Wahlf¨achern) einer Pr ¨ufung unterziehen (Zusatzpr ¨ufungen).  \n(2) Das Ergebnis der Zusatzpr ¨ufungen wird auf Antrag in das Zeugnis aufgenommen, jedoch bei der Festsetzu"
+    },
+    {
+      "rang": 64,
+      "score": 1.03677,
+      "id": "84017c8b-3f29-5ede-b398-2dd8923aacd8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "section_heading": "§ 15 Einstufungsprüfung",
+      "chunk_index": 44,
+      "text_vollstaendig": false,
+      "auszug": "## § 15 Einstufungsprüfung  \n(1) Abweichend von den §§ 7, 21 und 24 kann zur Diplomvorprüfung, zu den Fachprüfungen der Diplomprüfung und zu der Diplomarbeit auch zugelassen werden, wer in einer Einstufungsprüfung nachweist, dass er über Kenntnisse und Fähigkeiten verfügt, die dem jeweiligen Studien"
+    },
+    {
+      "rang": 65,
+      "score": 1.03485,
+      "id": "79d2c85f-9808-5320-a1f2-bd570969e46d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/06_Regelung_der_Verantwortlichkeiten.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2010 › 06 Regelung der Verantwortlichkeiten — Regelung der Verantwortlichkeiten für den Arbeitsschutz an der FHH",
+      "section_heading": "**2. Umfang der Verantwortung** > **2.1 Verantwortung einer/eines jeden Vorgesetzten**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **2. Umfang der Verantwortung**\n## **2.1 Verantwortung einer/eines jeden Vorgesetzten**  \nJede Führungskraft ist für die ihr unterstellten Beschäftigten und die anvertrauten Studierenden zuständig und verantwortlich. Sie trägt die Verantwortung für Sicherheit und Gesundheit dieser Personen auch d"
+    },
+    {
+      "rang": 66,
+      "score": 1.01725,
+      "id": "0b01670f-ad98-545f-a16f-8e1ac333dede",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "section_heading": "**§ 15** > **Prüfungsvorleistungen**",
+      "chunk_index": 26,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 15**\n\n## **Prüfungsvorleistungen**  \n- (1) Alle Formen möglicher Prüfungsvorleistungen und mögliche Notenauswirkungen sind den Studierenden zu Vorlesungsbeginn bekannt zu geben.  \n- (2) Verpflichtende Prüfungsvorleistungen sind Voraussetzungen für die Zulassung zu einer Prüfung. Sie werden vo"
+    },
+    {
+      "rang": 67,
+      "score": 1.01608,
+      "id": "6b4d3262-061a-55d2-b61d-5f297e6b23a3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/04_ZulO_MTV.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2020 › 04 ZulO MTV — der Hochschule Hannover",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang** > **§ 3** > **Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang** > **Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Studienbeginn und Bewerbungsfrist**  \n- (1) Der Master-Studiengang Fernsehjournalismus beginnt jährlich zum Wintersemester.  \n- (2) Die schriftliche Bewerbung zum hochschuleigenen Auswahlverfahren muss mit den gem. Absatz 3 erforderlichen Unterlagen in der Regel bis zum 30. April in "
+    },
+    {
+      "rang": 68,
+      "score": 0.9868,
+      "id": "f9f0b3d9-37cc-509c-865d-01c05f764038",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/05-2011/02-Pruefungsordnung_DM_2009___2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2011 › 02 Pruefungsordnung DM 2009 2010",
+      "section_heading": "Studiengang: Kommunikationsdesign/Studienrichtung Grafik Design",
+      "chunk_index": 69,
+      "text_vollstaendig": false,
+      "auszug": "Verkündungsblatt der FHH  \nNr. 5/2011 vom 15.6.2011  \n|Entwurf 5 (Wahl): Entwurf\nEditorial Design**oder**\nEntwurf Interaktive Medien|BVK-211|||12|||Entwurf Editorial Design oder|BVK-211-01|12|E|4|E/ P|1|Selbstständiger freier Entwurf Editorial Design: alleine\noder Team|keine|\n|---|---|---|---|---|--"
+    },
+    {
+      "rang": 69,
+      "score": 0.98452,
+      "id": "4e50f47e-1cbb-591d-a293-94f498654eb8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/05-2009/04-PO-AT-AEnd3-_22-6-2009l.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2009 › 04 PO AT AEnd3 22 6 2009l — A l l g e m e i n e r  T e i l",
+      "section_heading": "**A l l g e m e i n e r  T e i l** > **8. NATIONAL HIGHER EDUCATION SYSTEM**",
+      "chunk_index": 115,
+      "text_vollstaendig": false,
+      "auszug": "## **8. NATIONAL HIGHER EDUCATION SYSTEM**  \nThe information on the national higher education system on the following pages provides a context for the qualification and the type of higher education that awarded it."
+    },
+    {
+      "rang": 70,
+      "score": 0.98084,
+      "id": "5b533e01-3c84-5632-9e1a-133c85b20527",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "section_heading": "**Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)** > _§ 3 Dauer und Gliederung des Studiums, Freiversuch_",
+      "chunk_index": 32,
+      "text_vollstaendig": true,
+      "auszug": "(5) Erstmals nicht bestandene Pr ¨ufungsleistungen gelten als nicht unternommen, wenn sie sp¨atestens zu den regul¨aren in der Pr ¨ufungsordnung festgelegten Pr ¨ufungsterminen abgelegt werden (Freiversuch). Im Rahmen des Freiversuchs bestandene Pr ¨ufungsleistungen des Hauptstudiums k ¨onnen zur No"
+    },
+    {
+      "rang": 71,
+      "score": 0.94806,
+      "id": "ce11cd8c-700d-549f-8790-4aef26549632",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Unsere Standorte** > **Fakultät I** > **Unsere Standorte** > _Elektro- und Informationstechnik_",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## **Fakultät I**\n\n## _Elektro- und Informationstechnik_  \n- **12 Fachgebiete** repräsentieren **wichtige Schlüsseltechnologien** im gesamten Spektrum der Elektrotechnik: Energieversorgung und Erneuerbare Energien  \n- Elektromobilität und Antriebstechnik  \n- Hoch- und Höchstfrequenztechnik  \n- Senso"
+    },
+    {
+      "rang": 72,
+      "score": 0.91892,
+      "id": "9c930a52-5e65-5746-b36d-eae1bdd7dcb4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/04-2005/Verkuendungsblatt_04_2005.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2005 › Verkuendungsblatt 04 2005 — Verkündungsblatt",
+      "section_heading": "**Ordnung über besondere Zugangsvoraussetzungen und die Zulassung für den Master-Studiengang Unternehmensentwicklung (MBP) am Fachbereich Wirtschaft der Fachhochschule Hannover** > **§ 7 Aufbau der Prüfungen, Arten der Prüfungsleistungen**",
+      "chunk_index": 54,
+      "text_vollstaendig": false,
+      "auszug": "Nr. 4/2005 vom 15.9.2005  \nVerkündungsblatt der FHH  \n2. die Darstellung der Arbeit und die Vermittlung ihrer Ergebnisse im mündlichen Vortrag sowie in einer anschließenden Diskussion.  \n(8) Die Erstellung und Dokumentation von Rechnerprogrammen umfasst in der Regel  \n1. die Beschreibung der Aufgabe"
+    },
+    {
+      "rang": 73,
+      "score": 0.88485,
+      "id": "b35e7015-9a83-590a-80f5-b6ac1b7fe889",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "section_heading": "**§ 1 Studienbeginn** > _§_ **6 Anrechnung von Studienzeiten, Studienund Pr ¨ufungsleistungen, Quereinsteiger**",
+      "chunk_index": 148,
+      "text_vollstaendig": false,
+      "auszug": "(6) F ¨ur Studierende, die in ein h ¨oheres Semester zugelassen werden (Quereinsteiger), gilt eine Pr ¨ufung als Freiversuch, wenn sie den erstm ¨oglichen Pr ¨ufungstermin nach dem erstm ¨oglichen Besuch der Lehrveranstaltung wahrnehmen."
+    },
+    {
+      "rang": 74,
+      "score": 0.87363,
+      "id": "39455e8f-3e29-5e34-bab1-88df1cea44c9",
+      "source_url": "https://www.code4comp.wp.hs-hannover.de/2015/11/05/die-erste-stunde",
+      "title_anzeige": "Die erste \"Stunde",
+      "section_heading": "Die erste \"Stunde\" > Auflösung",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "### Auflösung\nNach etwa 15-20 Minuten freier Arbeitszeit sind fast alle Kinder mit der ersten Aufgabe fertig, einige auch mit der zweiten Aufgabe. Der Lehrer entwickelt nun mit den Kindern gemeinsam die Lösung am Whiteboard. Ich gehe herum und versuche die Aufmerksamkeit vom Tablet auf die Tafel zu "
+    },
+    {
+      "rang": 75,
+      "score": 0.85292,
+      "id": "df2996a6-b0ec-55d6-818b-caa8434dff88",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/09-2023/01_vk_20230505_Entwurf_Ordnung_GWP_final.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2023 › 01 vk 20230505 Entwurf Ordnung GWP final",
+      "section_heading": "**§ 13 Dokumentation und Archivierung**",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 13 Dokumentation und Archivierung**  \n- (1) Wissenschaftlich Tätige dokumentieren alle für das Zustandekommen eines Forschungsergebnisses relevanten Informationen so nachvollziehbar, wie es im betroffenen Fachgebiet erforderlich und angemessen ist, um das Ergebnis überprüfen und bewerten zu k"
+    },
+    {
+      "rang": 76,
+      "score": 0.84782,
+      "id": "e98b2c4f-8e12-5d57-837a-9932b42c8e48",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/02-2011/Verkuendungsblatt_02_2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2011 › Verkuendungsblatt 02 2011",
+      "section_heading": "",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "Diakonie, Gesundheit, Soziales der Fachhochschule Hannover in Kooperation mit dem\nWinnicott Institut zur Förderung der Psychoanalyse bei Kindern und Jugendlichen e.V.|||  \nÜbersicht über die Veröffentlichungen im Verkündungsblatt der Fachhochschule Hannover und hochschulöffentliche Verkündungen seit"
+    },
+    {
+      "rang": 77,
+      "score": 0.84332,
+      "id": "a79b199d-7d82-5fd9-9f38-f9f6153a22a0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/07-2003/Verkuendungsblatt_07_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2003 › Verkuendungsblatt 07 2003 — Verkündungsblatt",
+      "section_heading": "Aufbau der Prüfungen, Arten der Prüfungsleistungen",
+      "chunk_index": 54,
+      "text_vollstaendig": false,
+      "auszug": "(8) Eine experimentelle Arbeit umfasst die theoretische Vorbereitung, den Aufbau und die Durchführung eines Experiments sowie die schriftliche Darstellung der Arbeitsschritte, des Versuchsablaufs und der Ergebnisse des Experiments und deren kritische Würdigung. Absatz 5 Sätze 2 bis 4 gilt entspreche"
+    },
+    {
+      "rang": 78,
+      "score": 0.84321,
+      "id": "ec9350a9-336f-5dca-8c9a-e40e11947d5e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "|2026|04|15.05.2026|IV|Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Verwaltungsinformatik (VIF) mit dem Abschluss Bachelor of Science an der Fakultät IV–Wirtschaft und Informatik der Hochschule Hannover (VIF PO 2025)|IV|\n|2026|04|15.05.2026|III|Besonderer Teil der Prüfungsordnung"
+    },
+    {
+      "rang": 79,
+      "score": 0.83552,
+      "id": "fa362d7f-153a-5124-a735-531da2a31bfd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/HsH_Verkuendungsblatt_05_2016.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2016 › HsH Verkuendungsblatt 05 2016 — Ausgabe 05/2016",
+      "section_heading": "**Ausgabe 05/2016**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Ausgabe 05/2016**  \n**Hannover, den 18.05.2016**  \nHerausgeber: Redaktion:  \nDer Präsident der Hochschule Hannover Präsidiumsbüro und Hochschulplanung, Expo Plaza 4, 30539 Hannover  \nTel.: 0511 9296-1015,  \nE-Mail: Harald.Bietenduewel@hs-hannover.de www.hs-hannover.de/verkuendungsblatt  \n|**Inh"
+    },
+    {
+      "rang": 80,
+      "score": 0.82571,
+      "id": "d9692742-3d56-553c-8a37-9b1392473dae",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/01-2008/Verkuendungsblatt_01-2008.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2008 › Verkuendungsblatt 01 2008 — Verkündungsblatt",
+      "section_heading": "**Allgemeine Vorschriften** > **(15) Ein Portfolio soll die selbst gesteuerten und eigenverantwortlichen Lernprozesse der Studierenden zur Erreichung der Kompetenzziele eines Moduls widerspiegeln. Die Qualität des Portfolios orientiert sich an der strukturierten, begründeten und reflektierten Auswahl**",
+      "chunk_index": 79,
+      "text_vollstaendig": false,
+      "auszug": "**Der Wahlpflichtteil enthält eine von der zu prüfenden Person bestimmte Auswahl an Materialien (z. B. Recherchen, Protokolle, Referate, Arbeitsentwürfe etc.), mit der die zu prüfende Person ihre Lernentwicklung im Blick auf die Kompetenzziele des Moduls dokumentiert**  \n(16) Die Aufgabe für die Prü"
+    },
+    {
+      "rang": 81,
+      "score": 0.8181,
+      "id": "88694237-2999-584e-ada1-bcc4a0e04bbe",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 21,
+      "text_vollstaendig": false,
+      "auszug": "Bioverfahrenstechnik-der Hochschule Hannover (HsH) (Auslaufordnung)|II|\n|2024|9|01.10.2024|HsH|Richtlinie zur Vergabe des „Nothilfefonds“an der Hochschule Hannover durch das Servicezentrum Beratung-Internationales|HsH|\n|2024|8|15.09.2024|HsH|Leitlinie des Präsidiums zu den Prüfungsordnungen der Hoch"
+    },
+    {
+      "rang": 82,
+      "score": 0.81785,
+      "id": "e5f94fa7-5c2d-5de8-a7db-cf1146d545a9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/01_Praktikumsordnung_Heilpaedagogik_-_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2013 › 01 Praktikumsordnung Heilpaedagogik 2013",
+      "section_heading": "**§ 15** > **Kolloquium**",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 15**\n## **Kolloquium**  \n(1) Am Prüfungsgespräch (Kolloquium) nehmen zwei Lehrende und die Prüfungskandidatin oder der Prüfungskandidat teil. Sie oder er ist berechtigt, eine prüfende Person (§ 10 Satz 3 SozHeilVO) vorzuschlagen.  \n(2) Die Prüfungskandidatin oder der Prüfungskandidat legt nac"
+    },
+    {
+      "rang": 83,
+      "score": 0.80985,
+      "id": "a2e2acda-d1f9-5d69-8482-6e74173903c4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "Studierende der Fakultät I",
+      "chunk_index": 36,
+      "text_vollstaendig": false,
+      "auszug": "## Studierende der Fakultät I  \nnach Studienjahr und Staatsangehörigkeit (Stichtag: 15. November eines Jahres)  \n1600\n1400\n1200\n1000\n800\n600\n400\n200\n0\nWS WS WS WS WS WS WS\n15/16 16/17 17/18 18/19 19/20 20/21 21/22\nStudierende gesamt deutsche Studierende  \nStudierende der Fakultät I nach Studiengang "
+    },
+    {
+      "rang": 84,
+      "score": 0.80846,
+      "id": "b118990f-7d63-5b3d-a268-70ff948fda5f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/02_Berufspraktikumsordnung_Soziale_Arbeit_-_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2013 › 02 Berufspraktikumsordnung Soziale Arbeit 2013",
+      "section_heading": "**§ 15** > **Kolloquium**",
+      "chunk_index": 26,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 15**\n## **Kolloquium**  \n(1) Am Prüfungsgespräch (Kolloquium) nehmen zwei Lehrende und die Prüfungskandidatin oder der Prüfungskandidat teil. Sie oder er ist berechtigt, eine prüfende Person(§ 10 Satz 3 VO) vorzuschlagen.  \n(2) Die Prüfungskandidatin oder der Prüfungskandidat legt nach Abspra"
+    },
+    {
+      "rang": 85,
+      "score": 0.80718,
+      "id": "53fd68bb-bff0-594f-afaf-98cb49f6be07",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "section_heading": "**§ 1 Studienbeginn** > _§_ **8 Aufbau der Pr ¨ufungen, Arten der Pr ¨ufungsleistungen, Semesterarbeiten**",
+      "chunk_index": 154,
+      "text_vollstaendig": false,
+      "auszug": "5. Seminarleistung (Absatz 7),  \n6. Erstellung und Dokumentation von Rechnerprogrammen (Absatz 8),  \n7. experimentelle Arbeit (Absatz 9),  \n8. Klausur mit experimenteller Arbeit (Absatz 10).  \n9. m ¨undliche Pr ¨ufung mit experimenteller Arbeit (Absatz 11)  \n(2) Die Studierenden sollen auch bef¨ahig"
+    },
+    {
+      "rang": 86,
+      "score": 0.7914,
+      "id": "deb14dc3-2063-52be-bd16-189340743733",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/03-2018/06_PO-BPR_20172.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2018 › 06 PO BPR 20172 — Prüfungen",
+      "section_heading": "**mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design, Abteilung Information und Kommunikation der Hochschule Hannover** > **§ 7** > **mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design, Abteilung Information und Kommunikation der Hochschule Hannover** > **Inkrafttreten**",
+      "chunk_index": 19,
+      "text_vollstaendig": false,
+      "auszug": "**PF/WP**|**Arten der**\n**Prüfungsleistung**|**Gew. **|**Sem.**|**SWS**|**CrTM**||\n|BPR-230|Sprache und Kreativität|WP|18|18|BPR-230-01|Textsorten & Textanalyse|WP|BÜ, R, H, P|0,5|5|2|3||\n||||||BPR-230-02|Kommunikation mit Bild und Film|WP|||5|3|4||\n||||||BPR-230-03|Content(Strategien & Kanäle)|WP||"
+    },
+    {
+      "rang": 87,
+      "score": 0.78995,
+      "id": "4743bd08-4cf0-5ff1-a5ef-69f85d39a71b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/05-2011/03-Pruefungsordnung_DM_2010___2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2011 › 03 Pruefungsordnung DM 2010 2011",
+      "section_heading": "**Gesamt**",
+      "chunk_index": 173,
+      "text_vollstaendig": false,
+      "auszug": "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n||210||||||Visuelle Konzepte|01||||||||\n|||||||||||||||||\n||||||||Entwurf Corporate und\nInformation Design,\nMarkensysteme|BVK-210-\n02|6|E|3|E/ P|1|Erstellung selbstständiger\nEntwürfe alleine oder im\nTeam|keine|\n|Entwurf 5 (Wahl):\nEntw"
+    },
+    {
+      "rang": 88,
+      "score": 0.78809,
+      "id": "0aa7fc46-0d2b-5d32-b8ff-3a519258916a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/07-2025/hsh_verkuendungsblatt_nr_07_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblaetter › 07 2025 › hsh verkuendungsblatt nr 07 2025 — Ausgabe 07/2025",
+      "section_heading": "**Zweiter Teil Vorprüfung** > **§ 3** > **Zweiter Teil Vorprüfung** > **Wahlrecht**",
+      "chunk_index": 218,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n\n## **Wahlrecht**  \nDie Teilnahme an Online-Prüfungen in privaten Räumen erfolgt auf freiwilliger Basis. Die Freiwilligkeit der Teilnahme ist grundsätzlich dadurch sicherzustellen, dass es den zu prüfenden Personen ermöglicht wird, am Prüfungstermin anstelle der Online-Prüfung in privaten"
+    },
+    {
+      "rang": 89,
+      "score": 0.78515,
+      "id": "55895597-48da-57b5-95d6-e8d96dd65149",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/08-2024/Leitlinie_Pruefungsordnungen_mit_Anlage_Muster-ATPO_2024.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2024 › Leitlinie Pruefungsordnungen mit Anlage Muster ATPO 2024 — Prüfungsordnungen der Hochschule Hannover",
+      "section_heading": "**für die Bachelor- und Master- Studiengänge an der Hochschule Hannover (Muster-ATPO 2024)** > **§ 15** > **für die Bachelor- und Master- Studiengänge an der Hochschule Hannover (Muster-ATPO 2024)** > **Einsicht in Prüfungsergebnisse und die Prüfungsakte**",
+      "chunk_index": 55,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 15**\n\n## **Einsicht in Prüfungsergebnisse und die Prüfungsakte**  \n- (1) Prüflinge haben ein Einsichtsrecht in ihre Prüfungsarbeiten. Die Fakultät regelt die Aufbewahrung und das Procedere der Einsichtnahme der Prüfungsarbeiten unter Berücksichtigung der aktuellen ministeriellen Erlasse.  \n- "
+    },
+    {
+      "rang": 90,
+      "score": 0.77874,
+      "id": "7587a615-05b9-52a5-a4a8-c33746e5deb3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/hsh_verkuendungsvlatt_nr_10_2024.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › hsh verkuendungsvlatt nr 10 2024 — Ausgabe 10/2024",
+      "section_heading": "**§ 12** > **Prüfungsvorleistungen**",
+      "chunk_index": 227,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 12**\n\n## **Prüfungsvorleistungen**  \n- (1) Alle Formen möglicher Prüfungsvorleistungen und mögliche Notenauswirkungen sind den Studierenden zu Vorlesungsbeginn bekannt zu geben.  \n- (2) Verpflichtende Prüfungsvorleistungen sind Voraussetzungen für die Zulassung zu einer Prüfung. Sie werden vo"
+    },
+    {
+      "rang": 91,
+      "score": 0.77151,
+      "id": "d29dfa17-5e19-5a14-a907-5b7ba3ce2e0f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/09-2018/02_BIM_BT_PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2018 › 02 BIM BT PO mit Anlagen 20182 — der Hochschule Hannover",
+      "section_heading": "**für den Bachelor-Studiengang Informationsmanagement (BIM) mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design** > **§ 4** > **für den Bachelor-Studiengang Informationsmanagement (BIM) mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design** > **Aufbau und Inhalt der Vorprüfung**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Aufbau und Inhalt der Vorprüfung**  \n- (1) Die Vorprüfung wird studienbegleitend mit Bestehen der Module des ersten Studienabschnitts erbracht.  \n- (2) Im ersten Studienabschnitt beträgt der Gesamtumfang der Pflichtmodule 96 Credits. Im Umfang von 24 Credits werden Wahlpflichtmodule"
+    },
+    {
+      "rang": 92,
+      "score": 0.76713,
+      "id": "105f1f54-94d5-5ccf-875e-7e4d40deacf4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/05-2011/02-Pruefungsordnung_DM_2009___2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2011 › 02 Pruefungsordnung DM 2009 2010",
+      "section_heading": "**§ 8 Übergangsregelung**",
+      "chunk_index": 33,
+      "text_vollstaendig": false,
+      "auszug": "/P|3|E/P/H/\nR/K90||Vermittlung der theoretischen,\nmethodischen, gestalterischen und\ninformationstechnischen Kenntnisse in\neinem Fach freier Wahl innerhalb des\nWF-Angebots.|keine|  \n2. Änderung des Besonderen Teils der Prüfungsordnung für den Bachelor-Studiengang Kommunikationsdesign/Studienrichtung "
+    },
+    {
+      "rang": 93,
+      "score": 0.76293,
+      "id": "3909b2db-7ff4-5550-9f78-0098740007ed",
+      "source_url": "http://itr.wp.hs-hannover.de/wp-content/uploads/2022/03/Allgemeiner_Teil_der_PO_2015.pdf",
+      "title_anzeige": "itr › Allgemeiner Teil der PO 2015",
+      "section_heading": "**§ 15** > **Einsicht in Prüfungsergebnisse und die Prüfungsakte**",
+      "chunk_index": 61,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 15**\n\n## **Einsicht in Prüfungsergebnisse und die Prüfungsakte**  \n- (1) Prüflinge haben ein Einsichtsrecht in ihre Prüfungsarbeiten. Die Fakultät regelt die Aufbewahrung und das Procedere der Einsichtnahme der Prüfungsarbeiten unter Berücksichtigung der aktuellen ministeriellen Erlasse.  \n- "
+    },
+    {
+      "rang": 94,
+      "score": 0.76217,
+      "id": "74d4f7ce-3fb2-5409-8af2-b2c170e2f4e4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/04-2007/Verkuendungsblatt_04_2007.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2007 › Verkuendungsblatt 04 2007 — Verkündungsblatt",
+      "section_heading": "**Gemeinsame Pr ¨ufungsordnung f ¨ur die Bachelor- und Master-Studieng¨ange ”Angewandte Informatik“ der Fachhochschule Hannover, Fakult¨at IV – Wirtschaft und Informatik** > _§_ **3 Dauer und Gliederung des Studiums, Freiversuch**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "(3) Die Studienordnung und das Lehrangebot sind so zu gestalten, dass die Studierenden die Bachelorpr ¨ufung bzw. die Masterpr ¨ufung jeweils innerhalb der Regelstudienzeit abschließen k ¨onnen.  \n(4) Erstmals nicht bestandene Pr ¨ufungsleistungen gelten als nicht unternommen, wenn sie sp¨atestens z"
+    },
+    {
+      "rang": 95,
+      "score": 0.76039,
+      "id": "f7d8396f-cec9-5e6d-9b68-5b9ee7c2279b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/04-2005/Verkuendungsblatt_04_2005.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2005 › Verkuendungsblatt 04 2005 — Verkündungsblatt",
+      "section_heading": "**Ordnung über besondere Zugangsvoraussetzungen und die Zulassung für den Master-Studiengang Unternehmensentwicklung (MBP) am Fachbereich Wirtschaft der Fachhochschule Hannover** > **§ 14** > **Ordnung über besondere Zugangsvoraussetzungen und die Zulassung für den Master-Studiengang Unternehmensentwicklung (MBP) am Fachbereich Wirtschaft der Fachhochschule Hannover** > **Einstufungsprüfung**",
+      "chunk_index": 76,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 14**\n## **Einstufungsprüfung**  \n(1) Abweichend von § 6 Allgemeiner Teil und in §§ 3 und 4 Besonderer Teil kann zur Vorprüfung, zu den Fachprüfungen der Bachelor-Prüfung und zu der Bachelor-Arbeit auch zugelassen werden, wer in einer Einstufungsprüfung nachweist, dass er über Kenntnisse und F"
+    },
+    {
+      "rang": 96,
+      "score": 0.75837,
+      "id": "e313a082-9f5c-53bd-8198-b8de8d5827f1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/07-2017/04_PO_BIM.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2017 › 04 PO BIM",
+      "section_heading": "**§ 4** > **Aufbau und Inhalt der Vorprüfung**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Aufbau und Inhalt der Vorprüfung**  \n- (1) Die Vorprüfung wird studienbegleitend mit Bestehen der Module des ersten Studienabschnitts erbracht.  \n- (2) Im ersten Studienabschnitt beträgt der Gesamtumfang der Pflichtmodule 66 Credits. Im Umfang von 24 Credits werden Wahlpflichtmodule"
+    },
+    {
+      "rang": 97,
+      "score": 0.75648,
+      "id": "b886a239-d197-546d-b112-fdb41695f40d",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+      "title_anzeige": "Informationen für Studieninteressierte",
+      "section_heading": "Informationen für Studieninteressierte > FAQs für Studieninteressierte",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "Dazu werden im ersten Schritt künstlerischen Arbeiten angefertigt und bis zum 15. März des Jahres direkt bei der Abteilung Design und Medien hochgeladen oder eingereicht.\nInformationen dazu finden Sie auf den Seiten des jeweiligen Studiengangs.  \n2. Vorpraktika\nUnter \"Brauche ich ein Vorpraktikum\" f"
+    },
+    {
+      "rang": 98,
+      "score": 0.7545,
+      "id": "dcd0b551-6533-5682-83bd-d18bd6d44fd3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/queer-guide",
+      "title_anzeige": "www › organisation › gleichstellung › queer guide",
+      "section_heading": "Queer Guide der Hochschulen in Hannover > Events? Queer Hannover: https://queer-hannover.de/events > Hochschulen",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "[Insta: flinta_hmtmh ](https://www.instagram.com/flinta_hmtmh/)\n_Beratung - Gruppe - Freizeit - Hochschulen - Vernetzung_\n**Vornamensänderung**\nAn der HMTMH können sich Studierende mit einer Kopie des Ergänzungsausweises der dgti e.V. formlos an das Immatrikulationsamt (I-Amt@hmtm-hannover.de) wende"
+    },
+    {
+      "rang": 99,
+      "score": 0.73661,
+      "id": "ed2747b7-4c75-5858-9fae-4c0265af562d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/02-2022/01_10_Fortschreibung_GSP_Senat.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2022 › 01 10 Fortschreibung GSP Senat",
+      "section_heading": "**4 Festlegung verbindlicher Maßnahmen für den Zeitraum 2021 - 23**",
+      "chunk_index": 71,
+      "text_vollstaendig": true,
+      "auszug": "|4|Entwicklung Online-Berufsorientierungsplattform mit interaktiven Angeboten in  Social Media als Informationskanäle für\nJugendliche (Instagram-Account)|\n|5|Bekanntmachung von Studienmöglichkeiten in spezifischen Situationen z.B. Teilzeitstudium, Urlaubssemester, Auszeit\nwg. Krankheit oder Pflege, "
+    },
+    {
+      "rang": 100,
+      "score": 0.72777,
+      "id": "8426fd56-e691-5e96-9010-6fc1de765af4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/03-2020/01_PO_IIM_FII_20202.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2020 › 01 PO IIM FII 20202 — Bachelor Studiengang Ingenieurinformatik Maschinenbau (IIM)",
+      "section_heading": "**„Ingenieurinformatik Maschinenbau (IIM)“ mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät II - Maschinenbau und Bioverfahrenstechnik, Abteilung Maschinenbau, der Hochschule Hannover** > **Bachelor Studiengang Ingenieurinformatik Maschinenbau (IIM)**",
+      "chunk_index": 22,
+      "text_vollstaendig": false,
+      "auszug": "**PF/WP**|**Arten der**\n**Prüfungsleistung**|**Gew.TM **|**SWS **|**CrTM**|\n|IIM-203|Numerische Mathematik|PF|4|8|IIM-203-01|Numerische Mathematik|PF|B, EDR, H, K, M, P,\nR|1|4|4|\n|IIM-204|Bewegungslehre 1|PF|4|8|MAB-207-01|Bewegungstechnik 1|PF|H, K, M|1|2|2|\n||||||MAB-207-02|Maschinendynamik 1|PF|H"
+    },
+    {
+      "rang": 101,
+      "score": 0.7243,
+      "id": "44b605aa-57aa-524d-b084-cc7d9691468c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/07_IBS_AO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 07 IBS AO mit Anlagen 20182",
+      "section_heading": "**der Hochschule Hannover („PO 2014“)** > **§ 4** > **der Hochschule Hannover („PO 2014“)** > **Aufbau und Inhalt der Vorprüfung**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Aufbau und Inhalt der Vorprüfung**  \n- (1) Die Vorprüfung wird studienbegleitend mit Bestehen der Module des ersten Studienabschnitts erbracht.  \n- (2) Der Gesamtumfang der Pflicht- und Wahlpflichtmodule der Vorprüfung beträgt 90 Credits, die sich wie folgt zusammensetzen:  \n- 78 Cr"
+    },
+    {
+      "rang": 102,
+      "score": 0.71965,
+      "id": "5c6c75a7-ce8e-5c96-b3ff-b964399422db",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/PO_MBD.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › PO MBD",
+      "section_heading": "**§ 12 Prüfungsvorleistungen**",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 12 Prüfungsvorleistungen**  \n- (1) Alle Formen möglicher Prüfungsvorleistungen und mögliche Notenauswirkungen sind den Studierenden zu Vorlesungsbeginn bekannt zu geben.  \n- (2) Verpflichtende Prüfungsvorleistungen sind Voraussetzungen für die Zulassung zu einer Prüfung. Sie werden von den Pr"
+    },
+    {
+      "rang": 103,
+      "score": 0.71928,
+      "id": "7c30051e-0277-5a3f-92ed-0c4914e3b57a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/04-2016/02_Richtlinie_Verfahren_Gewaehrung_Forschungssemester_und_Lehrdeputatsermaessigung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2016 › 02 Richtlinie Verfahren Gewaehrung Forschungssemester und Lehrdeputatsermaessigung — Voraussetzungen und das Verfahren bei der",
+      "section_heading": "**§ 3** > **Verfahren**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "3. Die Fakultäten übersenden semesterweise zum 15.05. bzw. 15.11. eines jeden Jahres ihre Stellungnahmen mit einer Priorisierung der Anträge an die Stabsstelle Forschung und Entwicklung. Die Stellungnahme enthält eine Aussage der Studiendekanin oder des Studiendekans dazu, ob im Falle der Gewährung "
+    },
+    {
+      "rang": 104,
+      "score": 0.71498,
+      "id": "d67c1c34-4a28-532b-b624-a4b34f976763",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/04-2007/Verkuendungsblatt_04_2007.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2007 › Verkuendungsblatt 04 2007 — Verkündungsblatt",
+      "section_heading": "**Gemeinsame Pr ¨ufungsordnung f ¨ur die Bachelor- und Master-Studieng¨ange ”Angewandte Informatik“ der Fachhochschule Hannover, Fakult¨at IV – Wirtschaft und Informatik** > _§_ **8 Aufbau der Pr ¨ufungen, Arten der Pr ¨ufungsleistungen, Semesterarbeiten**",
+      "chunk_index": 28,
+      "text_vollstaendig": false,
+      "auszug": "~~Seite 7~~ von 34  \n~~Verkündungsblatt der FHH~~  \n(2) Die Studierenden sollen auch bef¨ahigt werden, selbst¨andig und im Zusammenwirken mit anderen Personen wissenschaftliche Erkenntnisse zu gewinnen sowie deren Bedeutung f ¨ur die Gesellschaft und die berufliche Praxis zu erkennen. Hierzu sollen "
+    },
+    {
+      "rang": 105,
+      "score": 0.71495,
+      "id": "93a409fe-9670-5713-8c90-b257a5b6f559",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/01-2014/03-Bes._Teil_IBS_vom_16.12.2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2014 › 03 Bes. Teil IBS vom 16.12.2013",
+      "section_heading": "**Fakultät IV - Wirtschaft und Informatik, Abteilung Betriebswirtschaft der Hochschule Hannover (HsH)** > **§ 4** > **Fakultät IV - Wirtschaft und Informatik, Abteilung Betriebswirtschaft der Hochschule Hannover (HsH)** > **Aufbau und Inhalt der Vorprüfung**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Aufbau und Inhalt der Vorprüfung**  \n(1) Die Vorprüfung wird studienbegleitend mit Bestehen der Module des ersten Studienabschnitts erbracht.  \n(2) Der Gesamtumfang der Pflicht- und Wahlpflichtmodule der Vorprüfung beträgt 90 Credits, die sich wie folgt zusammensetzen:  \n- 78 Credit"
+    },
+    {
+      "rang": 106,
+      "score": 0.70801,
+      "id": "32b25fd4-18a1-5cd2-9323-fc7a2415e71e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2004 › Verkuendungsblatt 03 2004 — Verkündungsblatt",
+      "section_heading": "**Diplomprüfungsordnung für den Studiengang Wirtschaftsingenieur / Technischer Vertrieb im Praxisverbund an der Fachhochschule Hannover, Fachbereich Maschinenbau**",
+      "chunk_index": 228,
+      "text_vollstaendig": false,
+      "auszug": "Diplomvorprüfung und der Diplomprüfung oder bei Teilung dieser Prüfungen zum jeweils letzten Teil so rechtzeitig, dass die Fristen nach Absatz 2 Nrn. 1 und 2 eingehalten werden können.[3] Erstmals nicht bestandene, den Fachprüfungen zugeordnete Prüfungsleistungen gelten als nicht unternommen, wenn s"
+    },
+    {
+      "rang": 107,
+      "score": 0.69756,
+      "id": "a13c71a0-7f4a-5e6a-8994-11352a310b24",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2004 › Verkuendungsblatt 03 2004 — Verkündungsblatt",
+      "section_heading": "**Ordnung über die Feststellung der Eignung und Zulassung für die Studiengänge Betriebswirtschaftslehre mit den Schwerpunkten „Financial Institutions (MBA-FIN)” und „Interregional Business (MBA-IRB)“ sowie Wirtschaftsinformatik mit dem Schwerpunkt „Interorganizational Business Computing (MBA-IBC)“ zum Master of Business Administration (MBA) am Fachbereich Wirtschaft der Fachhochschule Hannover** > **§ 3 Dauer und Gliederung des Studiums, Freiversuch**",
+      "chunk_index": 34,
+      "text_vollstaendig": false,
+      "auszug": "- (5) Erstmals nicht bestandene Prüfungsleistungen gelten als nicht unternommen, wenn sie innerhalb der Regelstudienzeit des jeweiligen Studienabschnitts (Diplomvorprüfung und Diplomprüfung) abgelegt werden (Freiversuch). Im Rahmen des Freiversuches bestandene Prüfungsleistungen der Diplomprüfung kö"
+    },
+    {
+      "rang": 108,
+      "score": 0.69658,
+      "id": "65851279-08cf-5b13-bf29-2bff4a334b8f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/08_PO-Fakultaet_III-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2010 › 08 PO Fakultaet III 2010",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für die aufgeführten Bachelor-Studiengänge des Jahrgangs 2009** > Studiengang: Kommunikationsdesign/Studienrichtung Grafik Design",
+      "chunk_index": 68,
+      "text_vollstaendig": false,
+      "auszug": "Verkündungsblatt der FHH  \nNr. 9/2010 vom 22.12.2010  \n|Entwurf 5 (Wahl): Entwurf\nEditorial Design**oder**\nEntwurf Interaktive Medien|BVK-211|||12|||Entwurf Editorial Design oder|BVK-211-01|12|E|4|E/ P|1|Selbstständiger freier Entwurf Editorial Design: alleine\noder Team|keine|\n|---|---|---|---|---|-"
+    },
+    {
+      "rang": 109,
+      "score": 0.69658,
+      "id": "82ab374e-75fb-539a-882c-bcb483014b9e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/Verkuendungsblatt_06-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2010 › Verkuendungsblatt 06 2010 — Verkündungsblatt",
+      "section_heading": "**Ordnung für Praxisphasen der Fachhochschule Hannover, Abteilung Design und Medien der Fakultät III – Medien, Information und Design (Praxisphasenordnung; PraODM)** > **Anlage B 2**",
+      "chunk_index": 260,
+      "text_vollstaendig": false,
+      "auszug": "Editorial Design**oder**\nEntwurf Interaktive Medien|BVK-211|||12|||Entwurf Editorial Design oder|BVK-211-01|12|E|4|E/ P|1|Selbstständiger freier Entwurf\nEditorial Design: alleine oder\nTeam|keine|\n||||||||Entwurf Interaktive Medien|BVK-211-02||||E/ P||Selbstständiger freier Entwurf\nInteraktiver Medie"
+    },
+    {
+      "rang": 110,
+      "score": 0.69025,
+      "id": "66286580-6b6c-5084-9d5b-2a3c7c86d4b3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/07-2023/03_MDI.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2023 › 03 MDI",
+      "section_heading": "**§ 4** > **Aufbau und Inhalt der Vorprüfung**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Aufbau und Inhalt der Vorprüfung**  \n- (1)  Die Vorprüfung wird studienbegleitend mit Bestehen der Module des ersten Studienabschnitts erbracht.  \n- (2)  Die Anzahl der Module sowie Art und Anzahl der ihnen zugeordneten Teilmodule und die Prüfungsanforderungen, die Gewichtungsfaktor"
+    },
+    {
+      "rang": 111,
+      "score": 0.68918,
+      "id": "cb0b2fe8-2da4-55c0-ab9f-0716c8f0528c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2020 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**1.4.2 Entwicklung Studierendenzahlen**",
+      "chunk_index": 97,
+      "text_vollstaendig": false,
+      "auszug": "Seite **7** von **39**  \nNach wie vor ist die Verteilung der Studentinnen auf einzelne Fachgruppen sehr unterschiedlich. Während der Anteil der Studentinnen in der Fakultät V - Diakonie, Gesundheit und Soziales 74,4 % (Vj. 73,9 %) betrug, lag er in der Fakultät I - Elektrotechnik und Informationstec"
+    },
+    {
+      "rang": 112,
+      "score": 0.67708,
+      "id": "40738243-54e6-56ad-8569-98bfc63fc488",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+      "title_anzeige": "Herzlich Willkommen an der Hochschule Hannover",
+      "section_heading": "Herzlich Willkommen an der Hochschule Hannover > Informationen aus den Fakultäten > Herzlich Willkommen an der Hochschule Hannover > Fakultät I - Elektro- und Informationstechnik:",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Informationen aus den Fakultäten\n\n## Fakultät I - Elektro- und Informationstechnik:\n![](https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Bilder_Teaser/Fak.I.png?rbiFocus=mobile)\n* [Standorte & Öffnungszeiten](https://f1.hs-hannover.de/service/stando"
+    },
+    {
+      "rang": 113,
+      "score": 0.67433,
+      "id": "f7d2ce36-9342-5142-aef0-a17d0bf829df",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/PO_BBA.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › PO BBA",
+      "section_heading": "**§ 7** > **Aufbau und Inhalt des ersten Studienabschnitts**",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "- (2) Studierende im ersten Fachsemester – sofern sie zu den Prüfungen zugelassen sind - werden von der Prüfungsverwaltung automatisch zu den Prüfungen dieses ersten Semesters angemeldet. Die betroffenen Prüfungen sind als solche in Anlage B1 kenntlich gemacht. Freiwillige Rücktritte (nach § 9 Abs. "
+    },
+    {
+      "rang": 114,
+      "score": 0.67408,
+      "id": "25a69613-9a34-5093-9dbe-c763ab97878b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/04_PO_IBS.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › 04 PO IBS",
+      "section_heading": "**§ 7 Aufbau und Inhalt der Bachelorvorprüfung**",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "- (2) Studierende im ersten Fachsemester – sofern sie zu den Prüfungen zugelassen sind - werden von der Prüfungsverwaltung automatisch zu den Prüfungen dieses ersten Semesters angemeldet. Die betroffenen Prüfungen sind als solche in Anlage B1 kenntlich gemacht. Freiwillige Rücktritte (nach § 9 Abs. "
+    },
+    {
+      "rang": 115,
+      "score": 0.66831,
+      "id": "e860521f-a91a-58df-8f84-4e629ffcf867",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "title_anzeige": "FAQ für Studierende und Studienbewerber*innen",
+      "section_heading": "FAQ für Studierende und Studienbewerber*innen > Fragen vor der Bewerbung > FAQ für Studierende und Studienbewerber*innen",
+      "chunk_index": 25,
+      "text_vollstaendig": true,
+      "auszug": "* Das Praktikum muss **nicht am Stück** absolviert werden.\nEs kann auf mehrere Zeiträume verteilt und bei verschiedenen Unternehmen/Einrichtungen abgeleistet werden.  \nWeitere Informationen zu Dauer, Inhalten und Nachweisen des Vorpraktikums stehen in den **Studiengangsbeschreibungen** und auf den *"
+    },
+    {
+      "rang": 116,
+      "score": 0.66671,
+      "id": "92d78091-2077-5a12-88fc-85f4123b2a2a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Anreicherungen_Personen/Prof._Fraeger/000_Formelsammlung_elektrische_Antriebe_Fraeger_2019-10-15a.pdf",
+      "title_anzeige": "www › Anreicherungen Personen › Prof. Fraeger › 000 Formelsammlung elektrische Antriebe Fraeger 2019 10 15a",
+      "section_heading": "_• •_ **Synchronmaschine Asynchronmaschine** > **15.5 Magnetische Spannung, magnetischer Widerstand, magnetischer Leitwert**",
+      "chunk_index": 260,
+      "text_vollstaendig": true,
+      "auszug": "## **15.5 Magnetische Spannung, magnetischer Widerstand, magnetischer Leitwert**  \nTeile des magnetischen Kreise k¨onnen durch magnetische Spannungen und Widerst¨ande beschrieben werden.  \nMagnetische Spannung entlang eines Abschnitts des Magnetkreises:  \n2019-10-15a – Prof. Dr.-Ing. Carsten Fr¨ager"
+    },
+    {
+      "rang": 117,
+      "score": 0.66651,
+      "id": "d1c5f4d0-dff7-583e-a06f-cff4aa2c65c7",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/02052022_.pdf",
+      "title_anzeige": "www › Finanzmanagement › Studienqualitaetsmittel › 02052022",
+      "section_heading": "**TOP 5: Anträge an die Kommission**",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "Sitzung der 29. Senatskommission Studienqualitätsmittel vom 16.11.2021  \nHerr Huck teilt im Hinblick auf die Anlage 15f mit, dass vom Budget der Fakultät I in 2021 noch kein Cent abgeflossen sei. Frau Just entgegnet, dass ihr dazu keine Informationen vorliegen und ihr Fokus auf den Fakultäten IV und"
+    },
+    {
+      "rang": 118,
+      "score": 0.65948,
+      "id": "68912bbd-2967-5094-8721-be2d0cceb15f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/08-2024/hsh_verkuendungsblatt_nr_08_2024_neu.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2024 › hsh verkuendungsblatt nr 08 2024 neu — Ausgabe 08/2024",
+      "section_heading": "**für die Bachelor- und Master- Studiengänge an der Hochschule Hannover (Muster-ATPO 2024)** > **§ 3** > **für die Bachelor- und Master- Studiengänge an der Hochschule Hannover (Muster-ATPO 2024)** > **Wahlrecht**",
+      "chunk_index": 81,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n\n## **Wahlrecht**  \nDie Teilnahme an Online-Prüfungen in privaten Räumen erfolgt auf freiwilliger Basis. Die Freiwilligkeit der Teilnahme ist grundsätzlich dadurch sicherzustellen, dass es den Prüflingen ermöglicht wird, am Prüfungstermin anstelle der Online-Prüfung in privaten Räumen, ei"
+    },
+    {
+      "rang": 119,
+      "score": 0.65344,
+      "id": "3cea791a-53d2-5515-8be4-dbef8d7eff02",
+      "source_url": "https://itr.wp.hs-hannover.de/wp-content/uploads/2025/06/Modulhandbuch_1202_75_ITR_WS2025_final.pdf",
+      "title_anzeige": "itr › Modulhandbuch 1202 75 ITR WS2025 final",
+      "section_heading": "**Inhalt**",
+      "chunk_index": 188,
+      "text_vollstaendig": false,
+      "auszug": "## **Inhalt**  \n– Eigenständiges Erarbeiten der physikalischen und technischen Grundlagen und Vorbereitung der Versuche  \n- Planmäßige Durchführung von Versuchen aus der Mechanik, Schwingungslehre, Elektrotechnik und Messtechnik  \n– Auswerten der Messdaten und Darstellung der Versuchsergebnisse sowi"
+    },
+    {
+      "rang": 120,
+      "score": 0.64697,
+      "id": "7f279556-146b-5993-b78a-5056cb04a3c6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/06_Regelung_der_Verantwortlichkeiten.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2010 › 06 Regelung der Verantwortlichkeiten — Regelung der Verantwortlichkeiten für den Arbeitsschutz an der FHH",
+      "section_heading": "**2.2 Verantwortung in Einzelleitungsbereichen**",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "Diese Pflichten werden eigenverantwortlich wahrgenommen.  \nInnerhalb der Fachhochschule verteilen sich diese Pflichten auf  \n- die **Mitglieder des Präsidiums** in ihrer Funktion als Ressortleiter/innen. Sie tragen für diesen Bereich die Verantwortung für den Arbeits- und Gesundheitsschutz  \n- die *"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "f1",
+  "fakultaet_erkannt": "f1",
+  "token_budget": {
+    "verwendet": 51900,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 3.9,
+    "kandidaten_s": 0.02,
+    "llm_auswahl_s": 3.46,
+    "docs_laden_s": 0.12,
+    "quellen_s": 7.5,
+    "antwort_llm_s": 4.38,
+    "gesamt_s": 11.88
+  },
+  "auswahl_begruendung": "{\"selected\":[4,5,8,6]}"
+}

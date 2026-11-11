@@ -1,0 +1,1594 @@
+{
+  "fall": {
+    "id": "g35",
+    "case_type": "direct",
+    "question": "Wo werden die neuen Bachelor-Studierenden der Fakultät I willkommen geheißen?",
+    "reference_answer": "Im Audimax, Raum 1A.1.02 auf dem Campus Linden.",
+    "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "findet am **Freitag, 18.09.2026 um 09:00 Uhr im Audimax (Raum 1A.1.02, Campus Linden)** statt"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ sonstiges/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "951d1ca5-7769-5c83-949e-29d0263e455c",
+      "a4995ec1-605c-5ee7-9347-5a6c631740c9",
+      "ae495ec9-5f6b-5dbb-918e-743818d17b61",
+      "28ac1526-b5c3-5fdd-90e1-f8fe8052fec2",
+      "820b83d9-8a41-5742-8a41-c4fa423407be",
+      "893ea81b-ca5e-54c5-beb7-d0c6b661cb5b",
+      "d47f828e-731b-5ee6-850d-1cb7d46c8640",
+      "760d3953-fb1f-5237-a075-058b4f33c780",
+      "f9b771bf-2f8d-56fa-8179-16e4dfb8d7ec",
+      "8683520f-f3b0-521d-a72f-64751f573fbd",
+      "25f82cac-4dd5-5fd8-803e-0c764fa8f962"
+    ],
+    "beleg_punkte": [
+      "820b83d9-8a41-5742-8a41-c4fa423407be"
+    ],
+    "beleg_urls": [
+      "https://f1.hs-hannover.de/semesterstart-1"
+    ]
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T15:39:55",
+  "dauer_s": 4.01,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters",
+      "fakultaet": "f1",
+      "struktur": "# Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n  ## 18.09.2026\n    ### Veranstal­tungs­ort"
+    },
+    {
+      "nr": 2,
+      "titel": "f3 › bachelor studiengaenge › informationsmanagement berufsbegleitend bib › kurzbericht auslandspraktikum",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/kurzbericht-auslandspraktikum",
+      "fakultaet": "f3",
+      "struktur": "    ### Kurzbericht zu einem Auslandspraktikum an der UiT – The Arctic University of Norway von Kristin Viegweger"
+    },
+    {
+      "nr": 3,
+      "titel": "Herzlich Willkommen an der Hochschule Hannover",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/herzlich-willkommen-an-der-hochschule-hannover",
+      "fakultaet": "f3",
+      "struktur": "# Herzlich Willkommen an der Hochschule Hannover\n    ### Wir freuen uns sehr, erneut über 40 Studierende im Studiengang BIB begrüßen zu dürfen."
+    },
+    {
+      "nr": 4,
+      "titel": "f2 › studium › studierende › erstsemesterinformationen — Willkommen!",
+      "url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+      "fakultaet": "f2",
+      "struktur": "# Erstsemesterinformationen\n  ## Willkommen!\n    ### Auf einen Blick\n  ## Wintersemester 2026/2027\n  ## Brückenkurse\n  ## Semesterbeginn\n  ## Begrüßungen\n  ## Vorlesungsbeginn\n  ## Englisch-Einstufungstest\n  ## Informationen zum Einstufungstest Englisch\n  ## Interne Informationen\n  ## Externe Informationen"
+    },
+    {
+      "nr": 5,
+      "titel": "f1 › semesterstart 1",
+      "url": "https://f1.hs-hannover.de/semesterstart-1",
+      "fakultaet": "f1",
+      "struktur": "# Semesterstart\n    ### Auf einen Blick\n  ## Brückenkurs\n  ## Begrüßungen\n  ## Vorlesungsbeginn/-hinweise\n  ## Informationsveranstaltungen\n  ## Linksammlung"
+    },
+    {
+      "nr": 6,
+      "titel": "Herzlich Willkommen",
+      "url": "https://f4.hs-hannover.de",
+      "fakultaet": "f4",
+      "struktur": "# Herzlich Willkommen\n    ### an der Fakultät IV\n    ### Wirtschaft und Informatik\n  ## Studiengangsangebot der Fakultät IV\n    ### Wichtiges in Kürze\n  ## Die Fakultät IV in Zahlen\n  ## Gute Gründe für ein Studium an der Hochschule Hannover in der Fakultät IV\n  ## Aktuelle Veranstaltungen\n    ###  Von Rohdaten zu Entscheidungen: Entwicklung einer BI-Architektur auf Basis der Medallion-Architektur für datengetriebene Prozesse in der Bauwirtschaft \n    ###  Die Abteilung Wirtschaftsinformatik der Fakultät IV feierte erfolgreiche Studienabschlüsse \n    ###  Mission erfüllt: Die Abteilung Betriebswirtschaft feiert ihre Absolventinnen und Absolventen! \n    ### Kontakt:\n    ### Lageplan Campus Linden\n    ### Externer Inhalt"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › BRS Religionspaesagogik und Soziale Arbeit › WiSe 25 26 › BRS Informationen Homepage Wintersemester 25 14.07.2025",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BRS-Religionspaesagogik_und_Soziale_Arbeit/WiSe-25-26/BRS_Informationen_Homepage_Wintersemester_25-14.07.2025.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Informationen zum Studienbeginn im Wintersemester 202526\n  ## Die Einführungswoche\n  ## Fakultät V\n  ## Kontakt\n  ## Öffentliche Verkehrsmittel\n  ## Online oder Präsenz oder beides?\n  ## Die CampusCard\n  ## Ihr Account der Hochschule Hannover (HsH-Account)\n  ## Ihre HsH-Email-Adresse\n  ## Die Nutzung der Bibliothek\n  ## VPN-Verbindung mit dem Netz der Hochschule\n  ## Weitere Angebote der Hochschule\n  ## Bevor das Studium beginnt:"
+    },
+    {
+      "nr": 8,
+      "titel": "f1 › aktuelles › veranstaltungen",
+      "url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen",
+      "fakultaet": "f1",
+      "struktur": "# Veranstaltungen\n    ### 3. Open Door Event im KITE Creative Lab Expo, August 2026\n    ### StudiTalk: Welches Studium passt zu mir?\n    ### StudiTalk: Was ich vor Studienbeginn gerne gewusst hätte\n    ### Brückenkurs Mathematik und Physik\n    ### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n    ### Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV)\n    ### Zusätzliche Erstsemesterbegrüßung des Studiengangs StudyMINT\n    ### Zusätzliche Erstsemesterbegrüßung des Studiengangs Technisches Informationsdesign und Technische Redaktion (ITR)\n    ### Zusätzliche Erstsemesterbegrüßung des Studiengangs Angewandte Mathematik und Data Science (MAT)\n    ### Begrüßung aller Master-Studierenden des 1. Fachsemesters\n    ### Informationsveranstaltung für Studierende zu Auslandsstudienmöglichkeiten\n    ### StudiTalk: Studieren in Hannover\n    ### Onlineworkshop für Studierende: \"Unterstützungsangebote an der HsH - ein Überblick\"\n    ### Informationsveranstaltung zum Masterstudiengang Elektrische Energiesysteme und Elektromobilität (EEE)\n    ### Onlineworkshop für Studierende: \"Zeitmanagement - strukturiert durchs Studium\"\n    ### Informationsveranstaltung für Studierende zur Wahl der Vertiefungsrichtung im 2. Studienabschnitt\n    ### StudiTalk: Zwischen Vorlesung, Nebenjob und Freizeit\n    ### Informationsveranstaltung des Masterstudiengangs Sensor- und Automatisierungstechnik (ESA)\n    ### Onlineworkshop für Studierende \"Psychisch fit studieren\"\n    ### Onlineworkshop für Studierende: \"Prokrastination? Was kann ich tun?\"\n    ### Onlineworkshop für Studierende: \"Stressmanagement - Gelassenheit im Hochschulalltag\"\n    ### StudiTalk: Wie fühlt sich Studieren wirklich an?\n    ### Onlineworkshop für Studierende: \"Studienzweifel?\""
+    },
+    {
+      "nr": 9,
+      "titel": "www › Verkuendungsblaetter › 07 2025 › hsh verkuendungsblatt nr 07 2025 — Ausgabe 07/2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/07-2025/hsh_verkuendungsblatt_nr_07_2025.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 07/2025\n  ## Inhalt:\n  ## Richtlinie zu Aufwendungen für Repräsentation\n  ## - gilt unabhängig von der Finanzierungsquelle -\n  ## Präambel\n  ## 1. Begriffserläuterungen / Bewirtungskosten\n  ## 2. Angemessener Rahmen\n  ## 3. Mögliche Kostenübernahme\n  ## 4. Keine Kostenübernahme\n  ## 5. Kostenübernahme unter bestimmten Bedingungen\n  ## 5.1 Akademische Abschlussfeiern\n  ## 5.2 Nachrufe und Kranzspenden\n  ## 5.3 Veranstaltungen\n  ## 5.4 Geräte\n  ## 6. Kostenübernahme in besonderen Fällen\n  ## 7. Finanzierung von Repräsentationsaufwendungen, Bewirtungskosten und Betriebsausgaben\n  ## 8. Abrechnungsmodalitäten/ Ablauf der Zahlung\n  ## 8.1 Nachrufe und Kranzspenden\n  ## 8.2 Veranstaltungen\n  ## 8.3 Geräte\n  ## 8.4 Weiteres\n  ## 9. Sonstige Hinweise\n  ## 10. Inkrafttreten\n# Besonderer Teil der Prüfungsordnung für den weiterbildenden Master-Studiengang „Intelligente Produktion“ (InPro) mit dem Abschluss Master of Engineering (M.Eng) an der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Geltungsbereich der Prüfungsordnung und Übergangsregelung\n  ## § 3\n  ## Zweck der Prüfung und Hochschulgrad\n  ## §4\n  ## Dauer und Gliederung des Studiums\n  ## §5\n  ## Master-Prüfung und Master-Arbeit\n  ## § 6\n  ## Anrechnung von Studienzeiten, Studien- und Prüfungsleistungen\n  ## §7\n  ## Inkrafttreten\n  ## Änderung:\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## Allgemeiner Teil der Prüfungsordnung für die Bachelor- und Master- Studiengänge an der Fakultät IV Wirtschaft und Informatik an der Hochschule Hannover (ATPO-FIV 2025)\n  ## Erster Teil Allgemeine Vorschriften\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zweck der Prüfungen\n  ## § 3\n  ## Prüfungsausschuss"
+    },
+    {
+      "nr": 10,
+      "titel": "www › Verkuendungsblatt › 06 2009 › 02 PO BSW BT AEnd1 23 09 2009 endg",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/06-2009/02-PO_BSW_BT_AEnd1-23-09-2009-endg.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Soziale Arbeit (BSW) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Fachhochschule Hannover\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Teilzeitstudium\n  ## § 6\n  ## Ausnahmeregelungen\n  ## § 7 Übergangsbestimmungen\n  ## § 8 Inkrafttreten\n  ## Bachelor-Studiengang Soziale Arbeit\n  ## Informationen zu den Anlagen B1 und B2\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2\n  ## Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3"
+    },
+    {
+      "nr": 11,
+      "titel": "www › Verkuendungsblatt › 02 2010 › 06 BA Mechatronik 2 2010",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/06_BA_Mechatronik-2-2010.pdf",
+      "fakultaet": "",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den dualen Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering (B.Eng) in der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Fachhochschule Hannover\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3\n  ## Ausnahmeregelungen im Studienablauf\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Inkrafttreten\n  ## Studiengang Mechatronik (dual) Anlage B1 – Erster Studienabschnitt\n  ## Studiengang Mechatronik (dual) Anlage B1 – Erster Studienabschnitt"
+    },
+    {
+      "nr": 12,
+      "titel": "www › Verkuendungsblatt › 03 2012 › 11 PO Bachelor EIT",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/03-2012/11-PO_Bachelor_EIT.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Studiengang Informationstechnik (EIT) mit den Vertiefungsrichtungen Datenverarbeitung, Prozessinformatik/Automatisierungstechnik und Ingenieurinformatik\n# mit dem Abschluss Bachelor of Engineering an der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## §5\n  ## Ausnahmeregelungen\n  ## § 6 Inkrafttreten\n  ## Anlage B1 - Vertiefungsrichtung Datenverarbeitung\n  ## Anlage B2 - Vertiefungsrichtung Datenverarbeitung\n  ## Anlage B1 – Vertiefungsrichtung Prozessinformatik/Automatisierungstechnik\n  ## Anlage B2 – Vertiefungsrichtung Prozessinformatik/Automatisierungstechnik\n  ## Anlage B1 Vertiefungsrichtung Ingenieurinformatik\n  ## Anlage B2 Vertiefungsrichtung Ingenieurinformatik\n  ## Katalog der Wahlpflichtfächer"
+    },
+    {
+      "nr": 13,
+      "titel": "Fachgebiet Elektrische Antriebe und Automatisierungstechnik",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-antriebe-und-automatisierungstechnik",
+      "fakultaet": "f1",
+      "struktur": "# Fachgebiet Elektrische Antriebe und Automatisierungstechnik\n  ## Das Fachgebiet Elektrische Antriebe und Automatisierungstechnik\n  ## Personen\n  ## Lehrveranstaltungen\n    ### Überblick:\n  ## Labore\n  ## Forschung und Entwicklung\n  ## Kontakt"
+    },
+    {
+      "nr": 14,
+      "titel": "Geschafft: Abschluss Bachelor BIB",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-859cfac77c9a7b98af4df317d4489a58",
+      "fakultaet": "f3",
+      "struktur": "# Geschafft: Abschluss Bachelor BIB\n    ### Studienabschluss und Start in neue Berufsperspektiven"
+    },
+    {
+      "nr": 15,
+      "titel": "f3 › Fakultaet III › Ordnungen IK › PPO BJO 20222",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PPO_BJO-20222.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III – Medien, Information und Design, Abteilung Information und Kommunikation an der Hochschule Hannover\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Ziele der Praxisphase\n  ## § 3\n  ## Grundlegende Bestimmungen\n  ## § 4\n  ## Ausbildungsinhalte und Durchführung der Praxisphasen\n  ## § 5\n  ## Zulassung und Betreuung zu den Praxisphasen\n  ## § 6\n  ## Anerkennung der Praxisphase\n  ## § 7\n  ## Vertrag über eine Praxisphase\n  ## § 8\n  ## Auswahl der Praxisstellen\n  ## § 9\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 16,
+      "titel": "www › Verkuendungsblatt › 03 2005 › Verkuendungsblatt 03 2005 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/03-2005/Verkuendungsblatt_03_2005.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ordnung über besondere Zugangsvoraussetzungen und die Zulassung für den Master-Studiengang Sensor- und Automatisierungstechnik (ESA) am Fachbereich Elektro- und Informationstechnik der Fachhochschule Hannover\n  ## § 1\n  ## Zweck der Ordnung\n  ## § 2\n  ## Voraussetzungen für Zulassungen\n  ## § 3 Zulassungsantrag\n  ## § 4 Auswahlverfahren\n  ## relevante Praxiserfahrungen und Zusatzqualifikationen.\n  ## § 5 Bescheidung, Nachrückverfahren, Rechtsbehelf\n  ## § 6 Inkrafttreten\n  ## Ordnung über den Nachweis einer praktischen Ausbildung für ein Studium im Fachbereich Elektro- und Informationstechnik an der Fachhochschule Hannover\n  ## § 1\n  ## § 2\n  ## § 3\n  ## § 4\n# Ordnung für die Praxisphase(n) im Fachbereich Elektro- und Informationstechnik der Fachhochschule Hannover (Praxisphasenordnung; PraO)\n  ## § 1 Geltungsbereich\n  ## § 2 Ziele der Praxisphase(n)\n  ## § 3 Grundlegende Bestimmungen\n  ## § 4 Ausbildungsinhalte und Durchführung der Praxisphasen\n  ## § 5 Beauftragte\n  ## § 6 Praktikantenamt der Fachhochschule Hannover\n  ## § 7\n  ## Zulassung zu der/den Praxisphase(n) und Betreuung\n  ## § 8 Anerkennung der Praxisphase(n)\n  ## § 9 Vertrag über die Praxisphase(n)\n  ## § 10\n  ## Auswahl der Praxisstellen\n  ## § 11\n  ## Inkrafttreten\n  ## TÄTIGKEITSNACHWEIS\n  ## RAHMENAUSBILDUNGSPLAN\n  ## Praxisphase(n) im Fachbereich Elektro- und Informationstechnik\n  ## Ausbildungsziel:\n  ## Ausbildungsinhalt:\n  ## Ausbildungszeit :\n  ## Vertrag über die Praxisphase(n)\n  ## (bitte Zutreffendes ankreuzen)\n  ## � zusammenhängende Praxisphase � in zwei Teile geteilte Praxisphasen\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Pflichten der Vertragspartner\n  ## § 3\n  ## Kostenerstattungs- und Aufwandsentschädigung\n  ## § 4\n  ## Ausbildungsbetreuer/in\n  ## § 5\n  ## Urlaub"
+    },
+    {
+      "nr": 17,
+      "titel": "International Business Studies (IBS)",
+      "url": "https://f4.hs-hannover.de/studium/bachelor-studiengaenge/international-business-studies-ibs",
+      "fakultaet": "f4",
+      "struktur": "# International Business Studies (IBS)\n    ### Auf einen Blick\n# Kurzübersicht\n# Warum International Business Studies an der HsH?\n  ## Wie hast Du Dein Studium erlebt?\n    ### Studiengangsleitung\n    ### Studiengangsassistenz\n    ### International Business Studies in den sozialen Medien\n  ## Studieninhalt, Zielgruppe und Studienaufbau\n  ## Studienziele und Perspektiven\n  ## Weitere Informationen\n  ## Partnerhochschulen\n  ## Für Studieninteressierte\n  ## Für Studierende\n  ## Häufig gestellte Fragen (FAQ)"
+    },
+    {
+      "nr": 18,
+      "titel": "f2 › Ordnungen › WIM › 1wim 2006 — B e s o n d e r e r  T e i l  d e r P r ü f u n g s o r d n u n g",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/1wim_2006.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r P r ü f u n g s o r d n u n g\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5\n  ## Ausnahmeregelungen\n  ## Erster Studienabschnitt\n  ## Anlage B1\n  ## Zweiter Studienabschnitt: Pflichtmodule\n  ## Technische Vertiefungsmodule\n  ## Nichttechnisches und integratives Vertiefungsmodul\n  ## Fächerkatalog mit Wahlpflichtmodulen für den Bachelor-Studiengang Wirtschaftsingenieur Maschinenbau, die im Fachbereich Wirtschaft durchzuführen sind:"
+    },
+    {
+      "nr": 19,
+      "titel": "Heilpädagogik - Inklusive Bildung und Begleitung (BAH)",
+      "url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/heilpaedagogik-inklusive-bildung-und-begleitung-bah",
+      "fakultaet": "f5",
+      "struktur": "# Heilpädagogik - Inklusive Bildung und Begleitung (BAH)\n    ### Noch bis zum 12.8. bewerben!\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Was ist eigentlich Heilpädagogik?\n  ## Wir bieten\n    ### Jetzt bewerben\n  ## FAQ\n  ## Studienstruktur\n  ## Studienziele\n  ## Qualifikationsziele im Studium\n  ## Studienablauf\n  ## Bewerbungsverfahren\n  ## Fragen zu Zulassungsvoraussetzungen, Bewerbung oder Einschreibung?\n  ## Informationen für Studierende\n    ### Fragen zu Beruf, Studium und Voraussetzungen?\n    ### Fragen zum Stundenplan und zur individuellen Studienverlaufsplanung?\n    ### Studentische Beratung"
+    },
+    {
+      "nr": 20,
+      "titel": "f4 › WI › Ordnungen › 01 BIS PO2026 30.07.2026 Verkuendungsblatt",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-BIS-PO2026-30.07.2026_Verkuendungsblatt.pdf",
+      "fakultaet": "f4",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)\n# mit dem Abschluss Bachelor of Science\n# an der Fakultät IV – Wirtschaft und Informatik, der Hochschule Hannover (BIS PO 2026)\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums, Teilzeitstudium\n  ## § 4\n  ## Aufbau und Inhalt der Vorprüfung\n  ## § 5\n  ## Aufbau, Inhalt und Höchstdauer der Bachelor-Prüfung\n  ## § 6\n  ## Zulassung zur Bachelor-Prüfung\n  ## § 7\n  ## Zulassung zur Bachelor-Arbeit\n  ## § 8\n  ## Praxisphase\n  ## § 9\n  ## Studiensemester im Ausland\n  ## § 10\n  ## Prüfungen\n  ## § 11\n  ## Inkrafttreten\n  ## Für die Wahl der Ergänzungsmodule gilt:\n  ## Errechnung der Gesamtnote"
+    },
+    {
+      "nr": 21,
+      "titel": "f3 › Fakultaet III › Ordnungen IK › PO BIB 2017 — Informationsmanagement - berufsbegleitend (BIB)",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PO_BIB_2017.pdf",
+      "fakultaet": "f3",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang\n  ## Informationsmanagement - berufsbegleitend (BIB)\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Zweck der Prüfung und Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Aufbau und Inhalt der Vorprüfung\n  ## § 5\n  ## Art und Umfang der Bachelor-Prüfung\n  ## § 6\n  ## Zulassung zur Bachelor-Prüfung und zur Bachelor-Arbeit\n  ## § 7\n  ## Prüfungen\n  ## § 8\n  ## Praxisphasen\n  ## § 9\n  ## Teilzeitstudium\n  ## § 10\n  ## Übergangsregelung\n  ## § 11\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 22,
+      "titel": "f4 › Informatik › Modulhandbuecher › 2024 04 29 modules MDI 23WS DE — Inhaltsverzeichnis",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/2024-04-29-modules-MDI-23WS-DE.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Modulhandbuch für den Studiengang Bachelor Mediendesigninformatik, PO Version 23 WS\n  ## Inhaltsverzeichnis\n  ## Fakultät IV - Wirtschaft und Informatik, Bachelor Mediendesigninformatik\n  ## Fakultät IV - Wirtschaft und Informatik, Bachelor Mediendesigninformatik\n  ## Modul MDI-100 Mathematik 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul BIN-100-01 Mathematik 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MDI-101 Startprojekt\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul BIN-101-01 Startprojekt\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MDI-102 Programmieren 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul BIN-102-01 Programmieren 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MDI-103 Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul BIN-103-01 Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MDI-104 Animation 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MDI-104-01 Animation 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MDI-105 Bildbearbeitung 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MDI-105-01 Bildbearbeitung 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit"
+    },
+    {
+      "nr": 23,
+      "titel": "www › Verkuendungsblatt › 04 2011 › Gesamt 4 2011",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/04-2011/Gesamt-4___2011.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS) mit dem Abschluss Bachelor of Science in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik der Fachhochschule Hannover (FHH)\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung des Bachelor-Studiengangs\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Ausnahmeregelungen\n  ## § 6 Studiensemester im Ausland\n  ## § 7 Prüfungen\n  ## § 8 Übergangsregelungen\n  ## § 9 Inkrafttreten\n  ## Abt. Wirtschaftsinformatik\n  ## Abt. Wirtschaftsinformatik\n  ## Erster Studienabschnitt Bachelor Wirtschaftsinformatik (BIS)\n  ## Anlage B1\n  ## Notwendige Leistungsnachweise im 1. Studienabschnitt BIS:\n  ## Legende für Art der Prüfungsleistung\n  ## Abt. Wirtschaftsinformatik\n  ## Abt. Wirtschaftsinformatik\n  ## Abt. Wirtschaftsinformatik\n  ## Zweiter Studienabschnitt Bachelor Wirtschaftsinformatik (BIS)\n  ## Notwendige Leistungsnachweise im 2. Studienabschnitt BIS:\n  ## Legende für Art der Prüfungsleistung\n  ## Besonderer Teil der Prüfungsordnung für den berufsintegrierenden Bachelor-Studiengang Heilpädagogik (BHP) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Fachhochschule Hannover (FHH)\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Zugangsprüfung zweiter Studienabschnitt\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5\n  ## Ausnahmeregelungen\n  ## § 6 Inkrafttreten\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Bachelorstudiengang berufsintegrierend\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt"
+    },
+    {
+      "nr": 24,
+      "titel": "www › Verkuendungsblatt › 03 2010 › 01 PO Besonderer Teil BA Heilpaedagogik berufsintegrierend",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/03-2010/01_PO_Besonderer_Teil_BA_Heilpaedagogik_berufsintegrierend.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den berufsintegrierenden Bachelor-Studiengang Heilpädagogik (BHP) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Fachhochschule Hannover\n  ## § 1\n  ## Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5\n  ## Zugangsprüfung zweiter Studienabschnitt\n  ## §6\n  ## Ausnahmeregelungen\n  ## § 7\n  ## Inkrafttreten\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt Bachelor-Studiengang berufsintegrierend\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Bachelor- bzw. Master-Studiengang\n  ## Anlage B 2 Zweiter Studienabschnitt"
+    },
+    {
+      "nr": 25,
+      "titel": "www › Verkuendungsblatt › 06 2012 › 02 Fakultaet I Praxisphasenordnung",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/02_Fakultaet_I_Praxisphasenordnung.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ordnung für die Praxisphase(n) In der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover (Praxisphasenordnung; PraO)\n  ## § 1 Geltungsbereich\n  ## § 2 Ziele der Praxisphase(n)\n  ## § 3 Grundlegende Bestimmungen\n  ## § 4 Ausbildungsinhalte und Durchführung der Praxisphasen\n  ## § 5 Zulassung zu der/den Praxisphase(n) und Betreuung\n  ## § 6 Anerkennung der Praxisphase(n)\n  ## § 7 Vertrag über die Praxisphase(n)\n  ## § 8 Auswahl der Praxisstellen\n  ## § 9\n  ## Übergangsregelung\n  ## § 10 Inkrafttreten\n  ## Vertrag über eine Praxisphase\n  ## § 1\n  ## Allgemeines\n  ## Pflichten der Vertragspartner\n  ## § 3\n  ## Kostenerstattungs- und Aufwandsentschädigung\n  ## § 4\n  ## Ausbildungsbetreuer/in\n  ## § 5\n  ## Urlaub\n  ## § 6\n  ## Versicherungsschutz\n  ## § 7\n  ## Auflösung des Vertrages\n  ## § 8\n  ## Vertragsausfertigungen\n  ## § 9\n  ## Sonstige Vereinbarungen"
+    },
+    {
+      "nr": 26,
+      "titel": "www › Verkuendungsblatt › 06 2010 › 01 Besonderer Teil der Pruefungsordnung BIM — § 2 Dauer und Gliederung des Studiums",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/01_Besonderer_Teil_der_Pruefungsordnung_BIM.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n  ## für den Studiengang Informationsmanagement (BIM) mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design, der Abteilung Information und Kommunikation an der Fachhochschule Hannover ,\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## §5 Praxisphasen\n  ## §6 Studiensemester und Mehrfachgraduierung im Ausland\n  ## §7\n  ## Anrechnung von Studienleistungen\n  ## §8 Ausnahmeregelungen\n  ## §9 Inkrafttreten\n  ## 1. Studienabschnitt (1. / 2. / 3. Semester) BIM\n  ## 2. Studienabschnitt (4. bis 7. Semester) BIM Pflichtmodule"
+    },
+    {
+      "nr": 27,
+      "titel": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Inhalt:\n  ## § 9 Öffentlichkeit von mündlichen Prüfungen\n  ## § 15 Einstufungsprüfung\n  ## § 26 Kolloquium\n  ## Diplomurkunde\n  ## Prüfungsordnung\n  ## für die Abschlüsse Bachelor of Arts und Bachelor of Arts honors in den Studiengängen Journalistik und PR/ Öffentlichkeitsarbeit an der Fachhochschule Hannover\n  ## Erster Teil\n  ## Allgemeine Vorschriften\n  ## § 1 Zweck der Prüfungen\n  ## § 2 Hochschulgrad\n  ## § 4 Prüfungsausschuss\n  ## § 5 Prüfende und Beisitzerinnen oder Beisitzer\n  ## § 6 Anrechnung von Studienzeiten, Studien- und Prüfungsleistungen\n  ## § 7 Zulassung\n  ## § 8 Aufbau der Prüfungen, Arten der Prüfungs- und Studienleistungen\n  ## § 9 Öffentlichkeit von mündlichen Prüfungen\n  ## § 10 Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 11 Bewertung der Prüfungsleistung und Bildung der Fachnote\n  ## (4) 1Die Note lautet:\n  ## § 12 Wiederholung von Prüfungsleistungen, Freiversuch\n  ## § 13 Zeugnisse und Bescheinigungen\n  ## § 14 Zusatzprüfungen\n  ## § 15 Einstufungsprüfung\n  ## § 16 Ungültigkeit von Prüfungen\n  ## § 17 Einsicht in die Prüfungsakte\n  ## § 18 Hochschulöffentliche Bekanntmachungen des Prüfungsausschusses\n  ## § 19 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Bachelor-of-Arts-Prüfung\n  ## § 20 Art und Umfang\n  ## § 21 Zulassung zu der Bachelor-of-Arts-Abschlussarbeit\n  ## § 22 Bachelor-of-Arts-Abschlussarbeit\n  ## § 23 Wiederholung der Abschlussarbeit\n  ## § 24 Gesamtergebnis der Prüfung\n  ## Dritter Teil\n  ## Bachelor-of-Arts-honors-Prüfung\n  ## § 25 Art und Umfang\n  ## 1.) den Fachprüfungen,\n  ## § 26 Zulassung zur Thesis\n  ## § 27 Bachelor-of-Arts-honors-Abschlussarbeit\n  ## § 28 Kolloquium\n  ## § 29 Wiederholung der Thesis\n  ## § 30 Gesamtergebnis der Bachelor-of-Arts-honors-Prüfung\n  ## Vierter Teil\n  ## Schlussvorschriften\n  ## § 31 Übergangsvorschriften\n  ## § 32 Inkrafttreten\n  ## Bachelor of Arts-Urkunde/ Bachelor of Arts honors-Urkunde)"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 0.5,
+      "id": "7e7040e9-7aac-5557-b8e4-58b8b90cc7af",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters",
+      "title_anzeige": "Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "section_heading": "Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters > 18.09.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters  \n##  18.09.2026\n09:00 Uhr\nDie Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters (inkl. ITR) findet am Freitag, 18.09.2026 um 09:00 Uhr im Audimax (Raum 1A.1.02, Campus Linden) durch den Dekan Prof. Dr. Frank Freund statt.\nIm Ansc"
+    },
+    {
+      "rang": 2,
+      "score": 0.5,
+      "id": "237c4dec-c34a-5099-9d53-05919d661426",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/kurzbericht-auslandspraktikum",
+      "title_anzeige": "f3 › bachelor studiengaenge › informationsmanagement berufsbegleitend bib › kurzbericht auslandspraktikum",
+      "section_heading": "**Kurzbericht zu einem Auslandspraktikum an der UiT – The Arctic University of Norway von Kristin Viegweger**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "###\n### **Kurzbericht zu einem Auslandspraktikum an der UiT – The Arctic University of Norway von Kristin Viegweger**\nMeine zweite Praxisphase hat mich unerwarteterweise nach Norwegen verschlagen. Nach dem Besuch der BOBCATSSS-Konferenz 2023 in Oslo schlug eine Bekannte, die ich dort kennengelernt h"
+    },
+    {
+      "rang": 3,
+      "score": 0.37681,
+      "id": "6c3c20de-58a9-5afa-94b4-be86d988640e",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/herzlich-willkommen-an-der-hochschule-hannover",
+      "title_anzeige": "Herzlich Willkommen an der Hochschule Hannover",
+      "section_heading": "Herzlich Willkommen an der Hochschule Hannover > Wir freuen uns sehr, erneut über 40 Studierende im Studiengang BIB begrüßen zu dürfen.",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "29.08.2025\n# Herzlich Willkommen an der Hochschule Hannover  \n###  Wir freuen uns sehr, erneut über 40 Studierende im Studiengang BIB begrüßen zu dürfen.\n![](https://f3.hs-hannover.de/fileadmin/_processed_/1/6/csm_IMG_1681_45f359f763.jpg)\nDie interessierten Erstsemester freuen sich auf neue Erkenntn"
+    },
+    {
+      "rang": 4,
+      "score": 0.33333,
+      "id": "3b5b7041-787c-5026-94c3-2f935b88f6af",
+      "source_url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+      "title_anzeige": "f2 › studium › studierende › erstsemesterinformationen — Willkommen!",
+      "section_heading": "Erstsemesterinformationen > Begrüßungen > Erstsemesterinformationen",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "**Begrüßung der 1. Semester** für alle Bachelor-Studiengänge durch den Dekan: Raum 1A.1.02 (Audimax)\nanschließend Betreuung durch die Fachschaften Maschinenbau und Bioverfahrenstechnik\nIm Anschluss freut sich unsere studentische Fachschaft darauf, Sie zum Erstsemester-Frühstück einladen zu dürfen un"
+    },
+    {
+      "rang": 5,
+      "score": 0.26613,
+      "id": "56500dd9-a44f-5bd8-a31a-28a65c9573a5",
+      "source_url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+      "title_anzeige": "f2 › studium › studierende › erstsemesterinformationen — Willkommen!",
+      "section_heading": "Erstsemesterinformationen > Willkommen!",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n# Erstsemesterinformationen  \n##  Willkommen!\nLiebe Studierende der Fakultät II,\nwir freuen uns sehr, dass Sie sich für ein Studium an der Fakultät II - Maschinenbau und Bioverfahrenstechnik entschieden haben.\nZur besseren Orientierung finden Sie auf "
+    },
+    {
+      "rang": 6,
+      "score": 0.25,
+      "id": "820b83d9-8a41-5742-8a41-c4fa423407be",
+      "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+      "title_anzeige": "f1 › semesterstart 1",
+      "section_heading": "Semesterstart > Begrüßungen > Semesterstart",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Begrüßungen\n##\n[ Erstsemesterbegrüßung aller Bachelor-Studiengänge ](https://f1.hs-hannover.de/semesterstart-1 \"Erstsemesterbegrüßung aller Bachelor-Studiengänge\")\nDie Begrüßung durch den Dekan Prof. Dr. Frank Freund findet am **Freitag, 18.09.2026 um 09:00 Uhr im Audimax (Raum 1A.1.02, Campus Li"
+    },
+    {
+      "rang": 7,
+      "score": 0.2,
+      "id": "d24b618d-155b-549d-bd02-defe8e59a29d",
+      "source_url": "https://f4.hs-hannover.de",
+      "title_anzeige": "Herzlich Willkommen",
+      "section_heading": "Herzlich Willkommen > an der Fakultät IV > Herzlich Willkommen > Wirtschaft und Informatik",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Herzlich Willkommen  \n### an der Fakultät IV\n\n### Wirtschaft und Informatik\n_ _\nScrollen für mehr Infos!\nDie Fakultät IV – Wirtschaft und Informatik bietet ihren Studierenden in den Bereichen Betriebswirtschaft, Informatik und Wirtschaftsinformatik wissenschaftlich fundierte, berufsqualifizierend"
+    },
+    {
+      "rang": 8,
+      "score": 0.19048,
+      "id": "c6ef13c8-4952-5311-bce0-4b38c5e4583d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BRS-Religionspaesagogik_und_Soziale_Arbeit/WiSe-25-26/BRS_Informationen_Homepage_Wintersemester_25-14.07.2025.pdf",
+      "title_anzeige": "f5 › BRS Religionspaesagogik und Soziale Arbeit › WiSe 25 26 › BRS Informationen Homepage Wintersemester 25 14.07.2025",
+      "section_heading": "**Die Einführungswoche**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **Die Einführungswoche**  \nWir werden Sie am **Montag, den 15.09.2025 um 11:00h** an unserer Fakultät V - Diakonie, Gesundheit und Soziales zusammen mit den neuen Studierenden im Studiengang Soziale Arbeit in der **Aula** willkommen heißen (Gebäude E, Untergeschoss). Von 10:30h bis 11:00h gibt es"
+    },
+    {
+      "rang": 9,
+      "score": 0.16667,
+      "id": "aa891a4f-0dc9-5143-8f29-c13a6ea4f01e",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen",
+      "title_anzeige": "f1 › aktuelles › veranstaltungen",
+      "section_heading": "Veranstaltungen > Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n| [Zur Veranstaltung](https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters)  |\n|  21.09.2026  08:45 Uhr"
+    },
+    {
+      "rang": 10,
+      "score": 0.1625,
+      "id": "14f7f111-e05f-5276-a955-c0788032b2c0",
+      "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-informatik",
+      "title_anzeige": "Erstsemesterinformationen Abteilung Informatik",
+      "section_heading": "Erstsemesterinformationen Abteilung Informatik > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Kontakt\nProf. Dr. Matthias Hovestadt\nStudiendekan der Abteilung Informatik\n[f4-i-dekanat(at)hs-hannover.de](https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-informatik)\nLiebe neue Studierende der Studiengänge Angewandte Informatik (Bachelor oder Master) und Mediendesigninformat"
+    },
+    {
+      "rang": 11,
+      "score": 0.14286,
+      "id": "dcd0b551-6533-5682-83bd-d18bd6d44fd3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/queer-guide",
+      "title_anzeige": "www › organisation › gleichstellung › queer guide",
+      "section_heading": "Queer Guide der Hochschulen in Hannover > Events? Queer Hannover: https://queer-hannover.de/events > Hochschulen",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "[Insta: flinta_hmtmh ](https://www.instagram.com/flinta_hmtmh/)\n_Beratung - Gruppe - Freizeit - Hochschulen - Vernetzung_\n**Vornamensänderung**\nAn der HMTMH können sich Studierende mit einer Kopie des Ergänzungsausweises der dgti e.V. formlos an das Immatrikulationsamt (I-Amt@hmtm-hannover.de) wende"
+    },
+    {
+      "rang": 12,
+      "score": 0.14286,
+      "id": "51fe5a77-0899-58a9-8402-69467a830e31",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen",
+      "title_anzeige": "www › organisation › kom › veranstaltungen",
+      "section_heading": "Veranstaltungen > Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n| [Zur Veranstaltung](https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters)  |\n|  18.09.2026  14:00 Uhr"
+    },
+    {
+      "rang": 13,
+      "score": 0.125,
+      "id": "c2ffeea7-becb-5dd0-8219-27e631e2884d",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Zeitplan_SoSe2026.pdf",
+      "title_anzeige": "f2 › Abt M › Sonstiges › Zeitplan SoSe2026",
+      "section_heading": "**Zeitplan für das Sommersemester 2026** > **Fakultät II – Abt. Maschinenbau (M) / Maschinenbau dual (Md) / Bioverfahrenstechnik (BV)**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "**Begrüßung der 1. Semester für alle nicht-dualen Bachelor-Studiengänge**\n(MAB, GEV, IIM, WIM) durch den Dekan: Raum 1A.0.01 (Aula)\nanschließend Betreuung durch die Fachschaft Maschinenbau\nWeitere Informationen unter:hs-h.de/f2-erstsemesterinformationen||**BV:**\n**Begrüßung der 1.Semester für die Ba"
+    },
+    {
+      "rang": 14,
+      "score": 0.125,
+      "id": "f497525c-929b-5d62-be78-9367a4fbb6da",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › FI BTPO BA MEC 15.05.2026",
+      "section_heading": "**der Hochschule Hannover** > **§ 9** > **der Hochschule Hannover** > **Übergangsbestimmungen**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttreten dieser Ordnung im Bachelor-Studiengang Mechatronik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, längstens jedoch bis "
+    },
+    {
+      "rang": 15,
+      "score": 0.11143,
+      "id": "53e9dc69-ea07-5504-a823-a46972548d31",
+      "source_url": "https://f3.hs-hannover.de",
+      "title_anzeige": "create what's next.",
+      "section_heading": "Die Fakultät III in Bildern > Aktuelle Beiträge auf Instagram",
+      "chunk_index": 31,
+      "text_vollstaendig": true,
+      "auszug": "[![Der Countdown läuft 🤗\nSchon bald dürfen wir unsere neuen Erstsemester an der Fakultät III willkommen heißen – und wir...](https://f3.hs-hannover.de/typo3temp/assets/_processed_/f/4/csm_18170833534444156_e41b3cd97b.jpg)Der Countdown läuft 🤗 Schon bald dürfen wir unsere neuen Erstsemester an der Fa"
+    },
+    {
+      "rang": 16,
+      "score": 0.11111,
+      "id": "893ea81b-ca5e-54c5-beb7-d0c6b661cb5b",
+      "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+      "title_anzeige": "f1 › semesterstart 1",
+      "section_heading": "Semesterstart > Begrüßungen > Semesterstart",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "[ Zusätzliche Erstsemesterbegrüßung der MAT-Studierenden ](https://f1.hs-hannover.de/semesterstart-1 \"Zusätzliche Erstsemesterbegrüßung der MAT-Studierenden\")\nDie **zusätzliche** **Begrüßung** der Studierenden im Studiengang Angewandte Mathematik und Data Science (MAT) findet am **Montag, 21.09.2026"
+    },
+    {
+      "rang": 17,
+      "score": 0.11111,
+      "id": "f3ab9d96-5805-5629-8ced-badea7156221",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/Verk_2025_01_F_I__EIT_BTPO.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EIT › Verk 2025 01 F I EIT BTPO — der Hochschule Hannover",
+      "section_heading": "**für den Bachelor-Studiengang Elektrotechnik und Informationstechnik (EIT) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I – Elektro- und Informationstechnik** > **§ 9** > **für den Bachelor-Studiengang Elektrotechnik und Informationstechnik (EIT) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I – Elektro- und Informationstechnik** > **Übergangsbestimmungen**",
+      "chunk_index": 15,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Elektrotechnik und Informationstechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschl"
+    },
+    {
+      "rang": 18,
+      "score": 0.10621,
+      "id": "4ba825f1-e4d1-56a4-b4e9-b8a65d383fc7",
+      "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-informatik",
+      "title_anzeige": "Erstsemesterinformationen Abteilung Informatik",
+      "section_heading": "Erstsemesterinformationen Abteilung Informatik > Kontakt",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Für Musik, Spiel, Spaß, Getränke und nette Gesellschaft ist gesorgt. Es fehlt nur noch ihr, um die Rallye auch mit Schwung zu erfüllen! Startpunkt ist **Freitag 18.9. ab 16:00 Uhr** vor dem **J-Gebäude am Campus in Linden**. Bringt gute Laune, festes Schuhwerk und Lust auf eure neuen Kommilitonen mi"
+    },
+    {
+      "rang": 19,
+      "score": 0.09091,
+      "id": "68c1594d-45f8-51af-b177-6c1280562959",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_15.05.2026.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › BPO MAT 15.05.2026",
+      "section_heading": "**der Hochschule Hannover** > **§ 8** > **der Hochschule Hannover** > **Übergangsbestimmungen**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 8**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Angewandte Mathematik und Data Science der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschl"
+    },
+    {
+      "rang": 20,
+      "score": 0.08333,
+      "id": "0bc94eae-00e4-5f0b-8fb2-3d55a2a29b83",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/20181912_BPO_ITR_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › ITR › 20181912 BPO ITR verk",
+      "section_heading": "**für den Studiengang Technisches Informationsdesign und Technische Redaktion (ITR) mit dem Abschluss Bachelor of Engineering an der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover** > **§ 10** > **für den Studiengang Technisches Informationsdesign und Technische Redaktion (ITR) mit dem Abschluss Bachelor of Engineering an der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover** > **Übergangsbestimmungen**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 10**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Technische Redaktion der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, längstens "
+    },
+    {
+      "rang": 21,
+      "score": 0.07692,
+      "id": "2b97699d-0192-59a3-9167-d38a5cb7f822",
+      "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-wirtschaftsinformatik",
+      "title_anzeige": "Erstsemesterinformationen Abteilung Wirtschaftsinformatik",
+      "section_heading": "Erstsemesterinformationen Abteilung Wirtschaftsinformatik > Einführungsveranstaltungen > Erstsemesterinformationen Abteilung Wirtschaftsinformatik",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Die Begrüßung findet am Donnerstag, den 24. September 2026, 09.15 Uhr in Raum 5E.1.02 (Bismarckstraße) statt.\n[ Informationen für Quereinsteiger*innen BIS ](https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-wirtschaftsinformatik \"Informationen für Quereinsteiger*innen BIS\")\nWichtig"
+    },
+    {
+      "rang": 22,
+      "score": 0.07692,
+      "id": "0858bbe6-2029-577d-bd84-81e578ddb145",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/verk_2025_05_F_I__ITR_BTPO.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › ITR › verk 2025 05 F I ITR BTPO",
+      "section_heading": "**§ 8** > **Übergangsbestimmungen**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 8**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttreten dieser Ordnung im Bachelor-Studiengang Technisches Informationsdesign und Technische Redaktion der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfun"
+    },
+    {
+      "rang": 23,
+      "score": 0.07143,
+      "id": "6f041ab4-341d-54ff-95bb-65f78c44e4b5",
+      "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-wirtschaftsinformatik",
+      "title_anzeige": "Erstsemesterinformationen Abteilung Wirtschaftsinformatik",
+      "section_heading": "Erstsemesterinformationen Abteilung Wirtschaftsinformatik > Einführungsveranstaltungen > Erstsemesterinformationen Abteilung Wirtschaftsinformatik",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "[ Erstsemester VIF ](https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-wirtschaftsinformatik \"Erstsemester VIF\")\nAm **Freitag, den 18.09.2026** finden folgende Einführungsveranstaltungen statt:\n* 11.00 Uhr, Raum 1H.0.10\n* Informationsveranstaltung VIF, Prof. Dr. Obermöller\n* 13.00 "
+    },
+    {
+      "rang": 24,
+      "score": 0.06667,
+      "id": "26aa75c2-8cde-5bb1-8687-87f1f7ce532c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BSW-Soziale_Arbeit_grundstaendig/SoSe_2026/Erstsemesterinformationen_BSW_SoSe_2026.pdf",
+      "title_anzeige": "f5 › BSW Soziale Arbeit grundstaendig › SoSe 2026 › Erstsemesterinformationen BSW SoSe 2026",
+      "section_heading": "**Aula der Fakultät V – Diakonie, Gesundheit und Soziales Blumhardtstraße 2 30625 Hannover Kleefeld**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "An die Begrüßung schließen sich die weiteren Inhalte der Einführungstage an, über die wir Sie beim Auftakt informieren werden.  \nIn der Einführungswoche stellen Ihnen Lehrende und Tutor*innen den Ablauf und die Anforderungen des Studiums im Einzelnen vor (u.a. den Stundenplan für das 1. Semester). S"
+    },
+    {
+      "rang": 25,
+      "score": 0.06506,
+      "id": "71cf4a9b-9b13-5535-98ff-fcd65c1b7481",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Informationen_Erstsemester/BRS_Informationen_Homepage_Wintersemester_26_27_14.07.2026.pdf",
+      "title_anzeige": "f5 › Relpaed › Informationen Erstsemester › BRS Informationen Homepage Wintersemester 26 27 14.07.2026",
+      "section_heading": "**Die Einführungswoche**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Die Einführungswoche**  \nWir werden Sie am **Montag, den 14.09.2026 um 10:30h** an unserer Fakultät V - Diakonie, Gesundheit und Soziales zusammen mit den neuen Studierenden im Studiengang Soziale Arbeit in der **Aula** willkommen heißen (Gebäude E, Untergeschoss). Von 10:15h bis 10:30h ist Zei"
+    },
+    {
+      "rang": 26,
+      "score": 0.0625,
+      "id": "b2e51591-ae38-5fa2-aef1-62fdf7a0af9c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/04_PO__EIT.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2018 › 04 PO EIT",
+      "section_heading": "**§ 11 Übergangsbestimmungen**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 11 Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Elektrotechnik und Informationstechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, "
+    },
+    {
+      "rang": 27,
+      "score": 0.05882,
+      "id": "da03bd16-14a7-55c7-9370-62d940bcd9bd",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee: > Events > Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n[Zur Veranstaltung](https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters)\n[Mehr Veranstaltungen](https://f1.hs-hannover.de/aktuelles/veranstaltungen)"
+    },
+    {
+      "rang": 28,
+      "score": 0.05882,
+      "id": "bd07f824-48bd-5805-a70e-e9d89cc68b68",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EIT › 01 F I PO EIT 2019",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **§ 11** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **Übergangsbestimmungen**",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 11**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Elektrotechnik und Informationstechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung absch"
+    },
+    {
+      "rang": 29,
+      "score": 0.05556,
+      "id": "fff6fe90-d91c-5e72-96fc-5996b6f02780",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/BPO_EWI_verkuendet_2025.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EWI › BPO EWI verkuendet 2025",
+      "section_heading": "**der Hochschule Hannover** > **§ 9 Übergangsbestimmungen**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9 Übergangsbestimmungen**  \n- (1)  Studierende, die vor Inkrafttreten dieser Ordnung im Bachelor-Studiengang Wirtschaftsingenieur Elektrotechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, läng"
+    },
+    {
+      "rang": 30,
+      "score": 0.05556,
+      "id": "80bfae97-8ba7-503b-abe1-95ff60bdde2a",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Zeitplan_WiSe2026-2027.pdf",
+      "title_anzeige": "f2 › Abt M › Sonstiges › Zeitplan WiSe2026 2027 — Zeitplan für das Wintersemester 2026/2027",
+      "section_heading": "**Zeitplan für das Wintersemester 2026/2027**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "|Di. –\nDo.|15.09. –\n17.09.26|09:00 Uhr –\n16:15 Uhr|**Brückenkurs Physik**für die Erstsemester (3 Tage): Raum 5D.-1.01 (Bismarckstraße)\nWeitere Informationen unter:hs-h.de/f2-erstsemesterinformationen|||\n|**Fr.**|**18.09.26**|**09:30 Uhr**|**Begrüßung der 1. Semester für alledualen**\n**Bachelor-Studi"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters",
+        "score": 0.63516
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+        "score": 0.62299
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+        "score": 0.59681
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+        "score": 0.59491
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen",
+        "score": 0.56451
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen",
+        "score": 0.56135
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Zeitplan_SoSe2026.pdf",
+        "score": 0.55966
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+        "score": 0.55684
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-informatik",
+        "score": 0.55552
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+        "score": 0.55334
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-informatik",
+        "score": 0.55103
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-wirtschaftsinformatik",
+        "score": 0.53896
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-wirtschaftsinformatik",
+        "score": 0.53808
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BSW-Soziale_Arbeit_grundstaendig/SoSe_2026/Erstsemesterinformationen_BSW_SoSe_2026.pdf",
+        "score": 0.53787
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-informatik",
+        "score": 0.53654
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.51924
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Zeitplan_WiSe2026-2027.pdf",
+        "score": 0.51733
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-SoSe-2026/VV-BSW-PO-2026-SoSe-2026-klein.pdf",
+        "score": 0.5173
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f3.hs-hannover.de/internationales/kooperationen/intern-moeglichkeiten-internationalisierung-1",
+        "score": 0.51242
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-betriebswirtschaft",
+        "score": 0.50986
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+        "score": 0.50954
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/herzlich-willkommen-an-der-hochschule-hannover",
+        "score": 0.50954
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen",
+        "score": 0.50746
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f3.hs-hannover.de",
+        "score": 0.50688
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/erstsemesterbegruessung-aller-master-studierenden",
+        "score": 0.50332
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/herzlich-willkommen-an-der-hochschule-hannover",
+        "score": 0.50281
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-technisches-informationsdesign-und-technische-redaktion-itr",
+        "score": 0.50272
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-erstsemester",
+        "score": 0.49869
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f1.hs-hannover.de/studium/internationales/information-for-incomings/further-recommendations",
+        "score": 0.49865
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Brueckenkurs/2026-2_Brueckenkurs-Termine.pdf",
+        "score": 0.49745
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Brueckenkurs/2026-1_Brueckenkurs_Einladung.pdf",
+        "score": 0.49494
+      },
+      {
+        "rang": 32,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+        "score": 0.49134
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Termine-Sprechzeiten/26-06-26-WiSe2026-Abt._WI_Semesterstarttermine.pdf",
+        "score": 0.49009
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-informatik",
+        "score": 0.49004
+      },
+      {
+        "rang": 35,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+        "score": 0.48463
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/07_Brandschutzordnung.pdf",
+        "score": 0.48211
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f4.hs-hannover.de/aktuelles/news/2026/default-4f22cbf77988cd313345e1dfb6758816",
+        "score": 0.48078
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._4.pdf",
+        "score": 0.47906
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-nachhaltige-elektrische-energieversorgung-nev",
+        "score": 0.47829
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-angewandte-mathematik-und-data-science-mat",
+        "score": 0.47665
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BRS-Religionspaesagogik_und_Soziale_Arbeit/WiSe-25-26/BRS_Informationen_Homepage_Wintersemester_25-14.07.2025.pdf",
+        "score": 0.47516
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/Semestertermine_Abteilung_BWL_WiSe26-27.pdf",
+        "score": 0.474
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.47199
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-der-studymint-studierenden",
+        "score": 0.47195
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BAH_und_HBI-Heilpaedagogik/WiSe_26_27/Begruessungsschreiben_Erstsemester_BAH.pdf",
+        "score": 0.46918
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+        "score": 0.46827
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f1.hs-hannover.de/studium/internationales/information-for-incomings",
+        "score": 0.46759
+      },
+      {
+        "rang": 48,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+        "score": 0.46717
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-SoSe-2023/SBW-SoSe-2023-klein.pdf",
+        "score": 0.46651
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Informationen_Erstsemester/BRS_Informationen_Homepage_Wintersemester_26_27_14.07.2026.pdf",
+        "score": 0.46599
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+        "score": 0.81007
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen",
+        "score": 0.77245
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.76465
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f3.hs-hannover.de/studium/master-studiengaenge/medizinisches-informationsmanagement-mmi/news",
+        "score": 0.74606
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters",
+        "score": 0.73573
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen",
+        "score": 0.72923
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-erstsemester",
+        "score": 0.72284
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Zeitplan_WiSe2026-2027.pdf",
+        "score": 0.71392
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+        "score": 0.70499
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f1.hs-hannover.de/studium/studienstart",
+        "score": 0.68793
+      },
+      {
+        "rang": 11,
+        "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+        "score": 0.67866
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen",
+        "score": 0.67457
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BAH_und_HBI-Heilpaedagogik/WiSe_26_27/Begruessungsschreiben_Erstsemester_BAH.pdf",
+        "score": 0.66797
+      },
+      {
+        "rang": 14,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+        "score": 0.66543
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/herzlich-willkommen-an-der-hochschule-hannover",
+        "score": 0.66423
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-wirtschaftsinformatik",
+        "score": 0.65788
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-informatik",
+        "score": 0.65364
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-wirtschaftsinformatik",
+        "score": 0.64918
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-nachhaltige-elektrische-energieversorgung-nev",
+        "score": 0.64748
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 0.64649
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+        "score": 0.64425
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-betriebswirtschaft",
+        "score": 0.63522
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+        "score": 0.63472
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-wirtschaftsinformatik",
+        "score": 0.63338
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Zeitplan_SoSe2026.pdf",
+        "score": 0.63309
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+        "score": 0.63053
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-technisches-informationsdesign-und-technische-redaktion-itr",
+        "score": 0.62854
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+        "score": 0.62648
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-angewandte-mathematik-und-data-science-mat",
+        "score": 0.62637
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/Green_Office/Umsetzung_IKSK_hsh_20-12-04.pdf",
+        "score": 0.62563
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2022.pdf",
+        "score": 0.62526
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.62022
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-erstsemester",
+        "score": 0.61994
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Termine-Sprechzeiten/26-06-26-WiSe2026-Abt._WI_Semesterstarttermine.pdf",
+        "score": 0.61749
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BRS-Religionspaesagogik_und_Soziale_Arbeit/WiSe-25-26/BRS_Informationen_Homepage_Wintersemester_25-14.07.2025.pdf",
+        "score": 0.61223
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.60683
+      },
+      {
+        "rang": 37,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+        "score": 0.6054
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Zeitplan_WiSe2026-2027.pdf",
+        "score": 0.60503
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen",
+        "score": 0.60449
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 0.60312
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 0.602
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.59804
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Mittwoch_10.09.pdf",
+        "score": 0.59583
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f3.hs-hannover.de/studium/master-studiengaenge/medizinisches-informationsmanagement-mmi",
+        "score": 0.59519
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge",
+        "score": 0.59146
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+        "score": 0.59074
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.58896
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Brueckenkurs/2026-1_Brueckenkurs-Termine.pdf",
+        "score": 0.58631
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BSW-Soziale_Arbeit_grundstaendig/SoSe_2026/Erstsemesterinformationen_BSW_SoSe_2026.pdf",
+        "score": 0.58524
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f1.hs-hannover.de/studium/internationales/information-for-incomings",
+        "score": 0.58187
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/kurzbericht-auslandspraktikum",
+        "score": 21.61157
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/herzlich-willkommen-an-der-hochschule-hannover",
+        "score": 18.49593
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+        "score": 18.33143
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f4.hs-hannover.de",
+        "score": 17.75124
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BRS-Religionspaesagogik_und_Soziale_Arbeit/WiSe-25-26/BRS_Informationen_Homepage_Wintersemester_25-14.07.2025.pdf",
+        "score": 17.006
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/queer-guide",
+        "score": 16.83911
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+        "score": 16.65648
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/Verk_2025_01_F_I__EIT_BTPO.pdf",
+        "score": 16.57631
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-informatik",
+        "score": 16.5072
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_15.05.2026.pdf",
+        "score": 16.41835
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/20181912_BPO_ITR_verk.pdf",
+        "score": 16.08356
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/verk_2025_05_F_I__ITR_BTPO.pdf",
+        "score": 16.01157
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f3.hs-hannover.de",
+        "score": 15.89815
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+        "score": 15.73721
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/20193009_BPO_EWI_verk.pdf",
+        "score": 15.71279
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/04_PO__EIT.pdf",
+        "score": 15.71279
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+        "score": 15.71279
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_2021-Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+        "score": 15.71279
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/BPO_EWI_verkuendet_2025.pdf",
+        "score": 15.71279
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._8.pdf",
+        "score": 15.30151
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Informationen_Erstsemester/BRS_Informationen_Homepage_Wintersemester_26_27_14.07.2026.pdf",
+        "score": 15.14176
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/HsH_Verkuendungsblatt_12_2018.pdf",
+        "score": 14.98879
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f2.hs-hannover.de/internationales/information-for-incomings-wege-an-die-fakultaet-ii",
+        "score": 14.8647
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/unsere-austauschprogramme",
+        "score": 14.73924
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 14.64342
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 14.56233
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+        "score": 14.54292
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf",
+        "score": 14.54292
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_verk25.09.2023.pdf",
+        "score": 14.47123
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+        "score": 14.4654
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/gleichstellung-und-diversitaet",
+        "score": 14.38171
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/02-_PO_EWI_.pdf",
+        "score": 14.26045
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f3.hs-hannover.de/internationales/kooperationen/intern-moeglichkeiten-internationalisierung-1",
+        "score": 14.23658
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung",
+        "score": 14.14232
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+        "score": 13.91301
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+        "score": 13.73686
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/news",
+        "score": 13.72763
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+        "score": 13.71212
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/schnupperstudium",
+        "score": 13.57455
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 13.41744
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/2023_05_Antrag_Zulassung_zur_Bachelor-Arbeit_IBS_PO_2018.pdf",
+        "score": 13.39296
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/18-10-08-BBI_PO_2018-Antrag_Zulassung_zur_Bachelor-Arbeit.pdf",
+        "score": 13.35842
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+        "score": 13.35476
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f5.hs-hannover.de/aktuelles/gemeinsam-lernen-politik-und-inklusion",
+        "score": 13.22398
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+        "score": 13.17209
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf",
+        "score": 13.11238
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/20_Masterstdg/ESA/ESA_BTPO_MA_verkuendet_2025.pdf",
+        "score": 13.07947
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/20_Masterstdg/ESA/20181912_MPO_ESA_verk.pdf",
+        "score": 13.07947
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f5.hs-hannover.de/studium/internationales/exchange-students-1",
+        "score": 13.05484
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20161018_Protokoll_10.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+        "score": 13.01076
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/kurzbericht-auslandspraktikum",
+        "score": 21.92642
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/herzlich-willkommen-an-der-hochschule-hannover",
+        "score": 18.95191
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BRS-Religionspaesagogik_und_Soziale_Arbeit/WiSe-25-26/BRS_Informationen_Homepage_Wintersemester_25-14.07.2025.pdf",
+        "score": 18.49285
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+        "score": 17.89089
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/queer-guide",
+        "score": 17.64701
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f4.hs-hannover.de",
+        "score": 17.61155
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+        "score": 17.20527
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/20181912_BPO_ITR_verk.pdf",
+        "score": 17.13312
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/Verk_2025_01_F_I__EIT_BTPO.pdf",
+        "score": 17.03817
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+        "score": 16.86116
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/verk_2025_05_F_I__ITR_BTPO.pdf",
+        "score": 16.83365
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_15.05.2026.pdf",
+        "score": 16.51844
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-informatik",
+        "score": 16.46387
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 16.30369
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+        "score": 16.15108
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f3.hs-hannover.de",
+        "score": 16.11818
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/20193009_BPO_EWI_verk.pdf",
+        "score": 16.026
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_2021-Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+        "score": 16.026
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/04_PO__EIT.pdf",
+        "score": 15.96421
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-wirtschaftsinformatik",
+        "score": 15.87357
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/BPO_EWI_verkuendet_2025.pdf",
+        "score": 15.84213
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/HsH_Verkuendungsblatt_12_2018.pdf",
+        "score": 15.6785
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+        "score": 15.51583
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Informationen_Erstsemester/BRS_Informationen_Homepage_Wintersemester_26_27_14.07.2026.pdf",
+        "score": 15.5025
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 15.47766
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/01-PO-Elektro-und_Informationstechnik.pdf",
+        "score": 15.17349
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/02-_PO_EWI_.pdf",
+        "score": 15.14872
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._8.pdf",
+        "score": 15.13212
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 15.10794
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f2.hs-hannover.de/internationales/information-for-incomings-wege-an-die-fakultaet-ii",
+        "score": 15.09671
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_verk25.09.2023.pdf",
+        "score": 14.93144
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 14.86952
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf",
+        "score": 14.82521
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/unsere-austauschprogramme",
+        "score": 14.6944
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 14.61558
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f3.hs-hannover.de/internationales/kooperationen/intern-moeglichkeiten-internationalisierung-1",
+        "score": 14.60502
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 14.54834
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f1.hs-hannover.de/aktuelles/news",
+        "score": 14.49997
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+        "score": 14.43625
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/gleichstellung-und-diversitaet",
+        "score": 14.37974
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+        "score": 14.35466
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/07-2018/02_Auslauf-Ordnung_Bachelor_E_N_I.pdf",
+        "score": 14.32254
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+        "score": 14.12986
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/aktuelles/herzlich-willkommen-prof-dr-lena-sachse",
+        "score": 14.1161
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+        "score": 14.10958
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung",
+        "score": 14.10452
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/Verkuendungsblatt_09-2010.pdf",
+        "score": 14.05011
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/05-2019/HsH_Verkuendungsblatt_05_2019.pdf",
+        "score": 14.01213
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+        "score": 13.95608
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+        "score": 13.88982
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.0,
+    "kandidaten_s": 0.02,
+    "arme_s": 1.87,
+    "gesamt_s": 3.88
+  },
+  "auswahl_begruendung": ""
+}

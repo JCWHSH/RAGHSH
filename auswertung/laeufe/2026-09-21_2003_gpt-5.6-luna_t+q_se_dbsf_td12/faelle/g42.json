@@ -1,0 +1,601 @@
+{
+  "fall": {
+    "id": "g42",
+    "case_type": "direct",
+    "question": "In welchem Teil des Fotojournalismus-Studiums arbeite ich ein Semester lang in der Praxis?",
+    "reference_answer": "Im zweiten Studienabschnitt, der fünf Semester umfasst.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/03-2014/01-Besonderer_Teil_PO_BFO_2012-2_B1B2.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BFO_2012.pdf"
+    ],
+    "required_facts": [
+      "einen fünf Semester umfassenden zweiten Studienabschnitt, der eine Praxisphase von einem Semester enthält"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ ordnung/auswahl. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "vertreter_von": {
+      "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BFO_2012.pdf": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/03-2014/01-Besonderer_Teil_PO_BFO_2012-2_B1B2.pdf"
+    },
+    "source_policy_original": "exact_gold_source",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "82265a21-b5f2-52b2-8c21-a337ae194622",
+      "768bf829-0e12-53ab-9a9a-a7705e141182",
+      "cfb5f02b-0c3a-53e3-92bf-4657418ba7cd",
+      "e279508d-57db-5edf-b22c-0427d243c57b",
+      "9c5befa8-771e-5c27-949d-c52e0b99f867",
+      "81755af8-da70-5472-b737-d433087d9d7c",
+      "62283689-b443-5fb9-981e-317b13237725",
+      "bab2f650-4e78-5b22-97a3-6d478a05145f",
+      "c6bf7ee0-0909-58a0-8d11-4abbd35dc1e9",
+      "c3d29562-f94b-550f-a070-dcf1a480668b",
+      "c14fbd6f-c5fd-58b7-982f-f2846e05860e",
+      "961fe978-0340-5d3a-b638-1c233ff20fdc",
+      "3f5670f2-7bfd-509c-891b-cc63989577b1",
+      "2ace7716-b275-5aa7-9c27-8daa515ea591",
+      "4aabcb28-b638-5dc5-ad05-737974a6c210",
+      "377dc7aa-a19e-5fbe-a937-ed889594fc50",
+      "fdac097b-fa49-547e-9694-b5d53ada7005",
+      "9b847a1e-5671-563d-841d-5badee0daa7c",
+      "47315f55-f17b-532b-bfa8-4be6705a5060",
+      "5714c88b-7d45-542b-be72-8765b2d97d22",
+      "5df5701e-d268-5181-b053-e1e48c1b8cf8",
+      "8c590af2-388c-5ae6-b290-d8c08e5da18a",
+      "e9362456-771a-5d8b-868a-4037e26b3ecb",
+      "098e56cc-7242-5c43-97bb-17433748fe37",
+      "e9c50ccd-a621-5baf-ac37-880aae57e4e0",
+      "2bcf83de-3993-504b-9c59-1139221fed43",
+      "52e2158f-a0cf-5da0-b224-6eb92546320f",
+      "f78a5e54-4743-5e2c-a17d-6ed7ced11c93"
+    ],
+    "beleg_punkte": [
+      "9c5befa8-771e-5c27-949d-c52e0b99f867",
+      "81755af8-da70-5472-b737-d433087d9d7c",
+      "52e2158f-a0cf-5da0-b224-6eb92546320f",
+      "f78a5e54-4743-5e2c-a17d-6ed7ced11c93"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/03-2014/01-Besonderer_Teil_PO_BFO_2012-2_B1B2.pdf",
+      "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BFO_2012.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:14:58",
+  "dauer_s": 5.31,
+  "fehler": null,
+  "antwort": "Im **fünften Semester**: „Das fünfte Semester ist für ein 19-wöchiges Pflichtpraktikum vorgesehen\" [2]. Die Praxisphase ist im Studiengang als „Praxisphase Extern\" ausgewiesen [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f3 › Fakultaet III › Studiengangsflyer › BFO Fotojournalismus Studiengangsflyer A5 202405 — Worum geht es?",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BFO_Fotojournalismus_Studiengangsflyer_A5_202405.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Worum geht es?\n  ## Was werde ich lernen?\n  ## Wie werde ich lernen?\n  ## Kann ich im Ausland studieren?\n  ## Wer unterstützt mich dabei?\n  ## »Die Studierenden aus Hannover setzen sich sehr ernsthaft mit der journalistischen Fotografie auseinander und sind auf einem hohen Niveau praxisnah ausgebildet.«\n  ## Semesterbeitrag\n  ## Weitere Informationen:\n  ## Wie sammle ich Berufserfahrung?\n  ## Wo kann ich später arbeiten?\n  ## Studiendauer\n  ## Studienberatung\n  ## Bewerbung\n  ## Kontakt"
+    },
+    {
+      "nr": 2,
+      "titel": "Visual Journalism and Documentary Photography (BFO)",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo",
+      "fakultaet": "f3",
+      "struktur": "# Visual Journalism and Documentary Photography (BFO)\n  ## Türöffner in Redaktionen, Verlage und Unternehmen\n    ### Auf einen Blick\n# Kurzübersicht\n# Das Studium\n    ### „Die Studierenden aus Hannover setzen sich sehr ernsthaft mit der journalistischen Fotografie auseinander und sind auf einem hohen Niveau praxisnah ausgebildet.“\n# Bewerbung\n    ### „Am Studiengang Visual Journalism and Documentary Photography schätze ich besonders den offenen Austausch. Alle Studierenden finden hier ihren Weg.“\n    ### Allgemeine Informationen rund um das Thema Bewerbung\n    ### Weitere Informationen über den Studiengang und die Details zu den einzureichenden Bewerbungsunterlagen finden Sie unter:\n    ### „Schon vor fast einem Jahrzehnt haben wir mit Studierenden aus Hannover im Ressort Multimedia die ersten Visual Stories produziert, die dann auch viel Aufmerksamkeit bekamen und viele Journalistenpreise gewonnen haben.“\n  ## Internationale Klasse\n  ## Forschung an den Schnittstellen von Theorie und Praxis\n    ### \"Ich habe im Studium eine Toolbox an die Hand bekommen, mit der ich mich jetzt als Fotografin frei entfalten kann.\"\n  ## Weitere Informationen\n    ### Ansprechperson\n    ### Links\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 3,
+      "titel": "f3 › Fakultaet III › Ordnungen IK › PPO BJO 20222",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PPO_BJO-20222.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III – Medien, Information und Design, Abteilung Information und Kommunikation an der Hochschule Hannover\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Ziele der Praxisphase\n  ## § 3\n  ## Grundlegende Bestimmungen\n  ## § 4\n  ## Ausbildungsinhalte und Durchführung der Praxisphasen\n  ## § 5\n  ## Zulassung und Betreuung zu den Praxisphasen\n  ## § 6\n  ## Anerkennung der Praxisphase\n  ## § 7\n  ## Vertrag über eine Praxisphase\n  ## § 8\n  ## Auswahl der Praxisstellen\n  ## § 9\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 4,
+      "titel": "Veranstaltungsmanagement (BVM)",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/veranstaltungsmanagement-bvm",
+      "fakultaet": "f3",
+      "struktur": "# Veranstaltungsmanagement (BVM)\n  ## Veranstaltungsmanagement: praxisorientiert und theoretisch fundiert\n    ### Auf einen Blick\n# Kurzübersicht\n# Das Studium\n    ### »Der Studiengang bildet Studierende für verantwortungsvolle Tätigkeiten in der Veranstaltungswirtschaft aus und bietet ein wissenschaftlich fundiertes und praxisnahes Studium.«\n    ### »Anwendungsorientierte Projektphasen und individuelle Wahlschwerpunkte ermöglichen eine fachspezifische Vertiefung mit vielseitigen Qualifikationsfeldern.«\n  ## Studieninhalte\n    ###  Wenn aus Theorie Praxis wird \n    ###  Wissenschaft und Praxis im Dialog beim 6. Event Education Symposium an der Hochschule Hannover \n    ###  The 6th edition of the Event Education Symposium receives prestigious support. \n    ### Rigging Point\n# Bewerbung\n    ### »Mit seiner neuartigen Studienorganisation bereitet das Bachelorstudium angehende Eventmanagerinnen theoretisch fundiert und praxisorientiert auf den Arbeitsmarkt vor.«\n  ## Weitere Informationen\n  ## Dekanatsverwaltung IK\n  ## Studiengangskoordination\n    ### Links"
+    },
+    {
+      "nr": 5,
+      "titel": "f3 › Fakultaet III › Ordnungen IK › PPO BJO 2017 — der Hochschule Hannover",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PPO_BJO_2017.pdf",
+      "fakultaet": "f3",
+      "struktur": "# Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III, Abteilung Information und Kommunikation der Fakultät III Medien, Information und Design\n  ## der Hochschule Hannover\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Ziele der Praxisphase\n  ## § 3\n  ## Grundlegende Bestimmungen\n  ## § 4\n  ## Ausbildungsinhalte und Durchführung der Praxisphasen\n  ## § 5\n  ## Zulassung und Betreuung zu den Praxisphasen\n  ## § 6\n  ## Anerkennung der Praxisphase\n  ## § 7\n  ## Vertrag über eine Praxisphase\n  ## § 8\n  ## Auswahl der Praxisstellen\n  ## § 9\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 6,
+      "titel": "www › Verkuendungsblatt › 04 2018 › 01 DM SG Praxisphasenordnung 20172",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/04-2018/01_DM-SG-Praxisphasenordnung_20172.pdf",
+      "fakultaet": "",
+      "struktur": "  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Ziele von praktischen Studiensemestern\n  ## § 3\n  ## Grundlegende Bestimmungen\n  ## § 4\n  ## Ausbildungsinhalte und Durchführung der Praxisphase\n  ## § 5\n  ## Beauftragte für die Praxisphase\n  ## § 6\n  ## Zulassung zur Praxisphase und Betreuung\n  ## § 7\n  ## Anerkennung der Praxisphase\n  ## § 8\n  ## Vertrag über eine Praxisphase\n  ## § 9\n  ## Auswahl der Praxisstellen\n  ## § 10\n  ## Inkrafttreten\n  ## Anmeldung\n  ## Studiengang\n  ## Bescheinigung"
+    },
+    {
+      "nr": 7,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › PO BFO 2018",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BFO_2018.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n# für den Bachelor-Studiengang Fotojournalismus und Dokumentarfotografie\n# (BFO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design\n  ## der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 8,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BFO 2022 23",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BFO_2022_23.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Modulhandbuch für den Bachelorstudiengang Visual Journalism and Documentary Photography Hochschule Hannover, Fakultät III, Abt. Design und Medien (Prüfungsordnung 2022 23)\n  ## BA Visual Journalism and Documentary Photography Studienverlaufsplan\n  ## 1. Semester\n  ## 2. Semester\n  ## 3. Semester\n  ## 4. Semester\n  ## 5. Semester\n  ## 6. Semester 7. Semester\n  ## 8. Semester\n  ## Bachelor-Studiengang BA Visual Journalism and Documentary Photography BFO - 8 Semester\n  ## Hinweise\n  ## Hochschule Hannover\n# BA Visual Journalism and Documentary Photography BFO121 Techniken und Methoden I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer\n  ## Häufigkeit des Angebots\n  ## Art, Gewichtung\n  ## ECTS-Punkte\n  ## Workload\n  ## Qualifikationsziele\n  ## Voraussetzungen\n  ## Verwendbarkeit\n  ## Prüfungsformen\n  ## Lehr- und Lernmethoden\n  ## Modulverantwortlicher\n  ## Lehrinhalte\n  ## BA Visual Journalism and Documentary Photography BFO121 Techniken und Methoden I\n  ## Lehrveranstaltungen\n  ## Gewichtung\n  ## Lehr- und Lernmethoden\n  ## Prüfungsformen\n  ## Hochschule Hannover\n# BA Visual Journalism and Documentary Photography BFO131 Theorie (Grundlagen) I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer\n  ## Häufigkeit des Angebots\n  ## Art, Gewichtung\n  ## Qualifikationsziele\n  ## ECTS-Punkte\n  ## Workload\n  ## Voraussetzungen\n  ## Verwendbarkeit\n  ## Prüfungsformen\n  ## Modulverantwortlicher\n  ## Lehrinhalte\n  ## BA Visual Journalism and Documentary Photography BFO131 Theorie (Grundlagen) I\n  ## Lehrveranstaltungen\n  ## Gewichtung"
+    },
+    {
+      "nr": 9,
+      "titel": "www › Verkuendungsblatt › 09 2010 › 08 PO Fakultaet III 2010",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/08_PO-Fakultaet_III-2010.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für die aufgeführten Bachelor-Studiengänge des Jahrgangs 2009\n  ## (Studienbeginn zum Wintersemester 2009/2010 im ersten Fachsemester): Innenarchitektur (BIA), Kommunikationsdesign (BKD), Modedesign (BMO), Produktdesign (BPD) und Szenografie – Kostüm (BSK) der Fakultät III – Medien, Information und Design der Fachhochschule Hannover (FHH)\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Art und Umfang der Vorprüfung\n  ## § 4 Zulassung zur Bachelor-Prüfung\n  ## § 5 Art und Umfang der Bachelor-Prüfung\n  ## § 6 Bewertung und Benotung der Bachelor-Arbeit und des Bachelor-Studiums\n  ## § 7 Inkrafttreten\n  ## Studiengang: Kommunikationsdesign/Studienrichtung Fotografie\n  ## Studiengang: Kommunikationsdesign/Studienrichtung Fotografie\n  ## Studiengang: Kommunikationsdesign/Studienrichtung Fotografie\n  ## Studiengang: Kommunikationsdesign/studienrichtung Fotografie\n  ## Modul\n  ## Prüfung\n  ## Studiengang: Kommunikationsdesign/Studienrichtung Grafik Design\n  ## Modul\n  ## Prüfung\n  ## Studiengang Modedesign\n  ## Studiengang: BA Modedesign Abteilung Design und Medien, Bachelor of Arts (BMO)\n  ## Modul\n  ## Prüfung\n  ## Studiengang: BA Kommunikationsdesign/Studienrichtung Multimedia\n  ## Studiengang: BA Kommunikationsdesign/Studienrichtung Multimedia\n  ## Studiengang: BA Kommunikationsdesign/Studienrichtung Multimedia\n  ## Studiengang: BA Kommunikationsdesign/Studienrichtung Multimedia\n  ## Studiengang: BA Kommunikationsdesign/Stdueinrichtung Multimedia\n  ## Studiengang Produktdesign\n  ## Prüfung"
+    },
+    {
+      "nr": 10,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › Besondere PO 2009",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Besondere_PO_2009.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für die aufgeführten Bachelor-Studiengänge des Jahrgangs 2009\n  ## (Studienbeginn zum Wintersemester 2009/2010 im ersten Fachsemester): Innenarchitektur (BIA), Kommunikationsdesign (BKD), Modedesign (BMO), Produktdesign (BPD) und Szenografie – Kostüm (BSK) der Fakultät III – Medien, Information und Design der Fachhochschule Hannover (FHH)\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Art und Umfang der Vorprüfung\n  ## § 4 Zulassung zur Bachelor-Prüfung\n  ## § 5 Art und Umfang der Bachelor-Prüfung\n  ## § 6 Bewertung und Benotung der Bachelor-Arbeit und des Bachelor-Studiums\n  ## § 7 Inkrafttreten"
+    },
+    {
+      "nr": 11,
+      "titel": "www › Verkuendungsblatt › 04 2018 › HsH Verkuendungsblatt 04 2018 — Ausgabe 04/2018",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/04-2018/HsH_Verkuendungsblatt_04_2018.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 04/2018\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Ziele von praktischen Studiensemestern\n  ## § 3\n  ## Grundlegende Bestimmungen\n  ## § 4\n  ## Ausbildungsinhalte und Durchführung der Praxisphase\n  ## § 5\n  ## Beauftragte für die Praxisphase\n  ## § 6\n  ## Zulassung zur Praxisphase und Betreuung\n  ## § 7\n  ## Anerkennung der Praxisphase\n  ## § 8\n  ## Vertrag über eine Praxisphase\n  ## § 9\n  ## Auswahl der Praxisstellen\n  ## § 10\n  ## Inkrafttreten\n  ## Anmeldung\n  ## Studiengang\n  ## Bescheinigung\n# Ordnung über die die Praxisphase im Bachelor-Studiengang Public Relations (BPR) der Fakultät III, Abteilung Information und Kommunikation der Hochschule Hannover\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Ziele der Praxisphase\n  ## § 3\n  ## Grundlegende Bestimmungen\n  ## § 4\n  ## Ausbildungsinhalte und Durchführung der Praxisphasen\n  ## § 5\n  ## Zulassung und Betreuung zu den Praxisphasen\n  ## § 6\n  ## Anerkennung der Praxisphase\n  ## § 7\n  ## Vertrag über eine Praxisphase\n  ## § 8\n  ## Auswahl der Praxisstellen\n  ## § 9\n  ## Inkrafttreten\n# Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III, Abteilung Information und Kommunikation der Fakultät III Medien, Information und Design der Hochschule Hannover\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Ziele der Praxisphase\n  ## § 3"
+    },
+    {
+      "nr": 12,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › PO BFO 2012",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BFO_2012.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Besonderer Teil\n# Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der\n  ## Prüfungsordner\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Art und Umfang der Vorprüfung\n  ## § 5\n  ## Zulassung zur Bachelor-Prüfung\n  ## § 6\n  ## Art und Umfang der Bachelor-Prüfung\n  ## § 7\n  ## Bewertung und Benotung der Bachelor-Arbeit und des Bachelor-\n  ## Studiums\n  ## § 8\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 13,
+      "titel": "MODE: konzept. design. kommunikation. (BMO)",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/mode-konzeptdesignkommunikation-bmo",
+      "fakultaet": "f3",
+      "struktur": "# MODE: konzept. design. kommunikation. (BMO)\n  ## Modedesign bewegt sich zwischen Funktion und Fashion, Material und Marketing, Kreation und Medien, Produktion und Konsum\n    ### Auf einen Blick\n# Kurzübersicht\n# Das Studium\n    ### »Modedesign ist Anprobieren, Ausprobieren, Verwerfen, Skizzieren, Zeichnen, Nähen, Trennen, Bügeln, Diskutieren, Experimentieren, Recherchieren, Reisen, Tanzen, Schneiden.«\n# Bewerbung\n    ### »Modedesign ist ganzheitlich, sinnlich, nachhaltig, polarisierend, provokativ, praktisch, humorvoll, zeitgenössisch, visionär, glamourös, puristisch.«\n  ## Weitere Informationen\n    ### Ansprechpersonen\n    ### Links\n  ## Themen vertiefen"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 8,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BFO 2022 23",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BFO_2022_23.pdf"
+    },
+    {
+      "nr": 1,
+      "titel": "f3 › Fakultaet III › Studiengangsflyer › BFO Fotojournalismus Studiengangsflyer A5 202405 — Worum geht es?",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BFO_Fotojournalismus_Studiengangsflyer_A5_202405.pdf"
+    },
+    {
+      "nr": 7,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › PO BFO 2018",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BFO_2018.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "Visual Journalism and Documentary Photography (BFO)",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BFO 2022 23",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BFO_2022_23.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "_**BA Visual Journalism and Documentary Photography BFO129 Projekt III (WP 1 aus 3)**_ > _**Modulverantwortliche*r**_ > _**BA Visual Journalism and Documentary Photography BFO129 Projekt III (WP 1 aus 3)**_ > _**Lehrinhalte**_",
+      "snippets": [
+        "||||||BFO-223-02|Fotoprojekt|PF|E, R, H|1|4|4|360|\n||||||BFO-223-03|Digital Storytelling (E)|PF|E, R, H|1|4|4|360|\n|BFO-235|Praxisphase Extern|PF|30|0|BUE-235-01|Praxisphase Extern|PF|B,P|0|5|2|900|\n|BFO-233|Fachtheorie III|PF|6|1|BFO-233-01|Theorie 1 / Theory1(E)|PF|R, H|1|6|2|90|\n||||||BFO-233-02|Theorie 2 / Theory2(E)|PF|R, H|1|7|2|90|\n|BFO-231|Freies Modul III (WP)|PF|6|o.P|BFO-231-01|Wahlfach 3 / Elective Course 3(E)|WP|-|o.P|6|2|90|\n||||||BFO-231-02|Wahlfach 4 / Elective Course 4(E)|WP|-|o.P|7|2|90|\n|BFO-224|Workshop III (WP 1 aus 3)|PF|6|1|BFO-224-01|Photo Workshop (E)|PF|E, R, H|1|6|2|180|\n||||||BFO-224-02|Fotobuch / Photobook(E)|PF|E, R, H|1|6|2|180|\n||||||BFO-224-03|Porträt narrativ|PF|E, R, H|1|6|2|180|\n|BFO-225|Qualifikation V (WP 2 aus 4)|PF|6|1|BFO-225-01|Online-Magazin: Text u. Social Media|PF|E, R, H|1|6|2|90|\n||||||BFO-225-02|Digital Communication Strategies(E)|PF|E, R, H|1|6|2|90|\n||||||BFO-225-03|Entrepreneurship|PF|R, H|1|6|2|90|"
+      ],
+      "zitate": [
+        "Praxisphase Extern"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f3 › Fakultaet III › Studiengangsflyer › BFO Fotojournalismus Studiengangsflyer A5 202405 — Worum geht es?",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BFO_Fotojournalismus_Studiengangsflyer_A5_202405.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Wie sammle ich Berufserfahrung?",
+      "snippets": [
+        "## Was werde ich lernen?  \nWährend in den ersten beiden Semestern die Vermittlung wesentlicher fachlicher und methodischer Grundlagen wie Bildsprache, Recherche oder Visual Storytelling im Zentrum der Ausbildung stehen, können die Studierenden sich in den folgenden Semestern auf selbstgewählte Schwerpunkte wie dokumentarfotografische Praktiken oder multimediale Erzählweisen fokussieren.  \nZahlreiche Wahlpflichtfächer ab dem dritten Semester (z.B. Photobook, Short Documentary oder Data Visualisation) bieten die Möglichkeit, ein individuelles Profil zusammenzustellen. Das fünfte Semester ist für ein 19-wöchiges Pflichtpraktikum vorgesehen und das achte für die Erstellung der Bachelorarbeit.  \nFoto: Maximilian von Lachner"
+      ],
+      "zitate": [
+        "Das fünfte Semester ist für ein 19-wöchiges Pflichtpraktikum vorgesehen"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f3 › Fakultaet III › Ordnungen DM › PO BFO 2018",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BFO_2018.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BFO.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/01_BTPO_BMO_VB_EBU.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BMO.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/03_F_III_PO_BIA_gueltig_ab_2026_.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/07_PO_F_III_gueltig_ab_2026_BVK.pdf"
+      ],
+      "abschnitt": "**Besonderer Teil der Prüfungsordnung** > **für den Bachelor-Studiengang Fotojournalismus und Dokumentarfotografie** > **(BFO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design** > **der Hochschule Hannover**",
+      "snippets": [
+        "## **Besonderer Teil der Prüfungsordnung**\n\n# **für den Bachelor-Studiengang Fotojournalismus und Dokumentarfotografie**\n\n# **(BFO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design**  \n## **der Hochschule Hannover**"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Visual Journalism and Documentary Photography (BFO)",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Das Studium",
+      "snippets": [
+        "[ Wo kann ich später arbeiten? ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo \"Wo kann ich später arbeiten?\")\nDas Studium zielt auf eine Tätigkeit in ganz unterschiedlichen Funktionen und verschiedenen Medien. Dies umfasst Tätigkeiten in Redaktionen und Verlagen, in Agenturen oder in der Unternehmenskommunikation. Unsere Absolvent*innen sind als freiberufliche Fotograf*innen, Videojournalist*innen oder Kameraleute ebenso tätig, wie als Bild-oder Videoredakteur*in bei einer Zeitung, als Kurator*in in einer Galerie oder als Multimedia Producer*in bei einer NGO. Zudem gründen immer mehr Absolvent*innen eigene Start-ups und profitieren auch dabei vom internationalen Netzwerk unseres Studiengangs.\n[ Studiendauer ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo \"Studiendauer\")\n\n[ Studiendauer ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo \"Studiendauer\")\nDas Studium Visual Journalism and Documentary Photography dauert acht Semester und beinhaltet eine mindestens 19-wöchige Praxisphase sowie zum Abschluss die Bachelorarbeit. Die Hochschule Hannover bietet darüber hinaus das zweisemestrige Masterstudium Design und Medien an.\n[ Studienberatung ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo \"Studienberatung\")",
+        "[ Kann ich im Ausland studieren? ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo \"Kann ich im Ausland studieren?\")\nDer Studiengang Visual Journalism and Documentary Photography verfügt über vielfältige internationale Kontakte und Partnerschulen weltweit, u.a. in Bangladesch, Belgien, Dänemark, Frankreich, Israel, den Niederlanden, Nordirland, Portugal und Spanien. Du kannst sowohl dein Praxissemester als auch einen Teil des Studiums im Ausland absolvieren. Um dich optimal auf die Tätigkeit im Ausland vorzubereiten, bietet die Hochschule Hannover dir kostenlose Sprachkurse an.\n[ Wie sammel ich Berufserfahrung? ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo \"Wie sammel ich Berufserfahrung?\")\n\n[ Wie sammel ich Berufserfahrung? ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo \"Wie sammel ich Berufserfahrung?\")\nFester Bestandteil des Studiums ist ein 19-wöchiges Pflichtpraktikum, das in der Regel im fünften Semester absolviert wird. Praktikumspartnerschaften bestehen mit der Frankfurter Allgemeinen Zeitung (F.A.Z.) und der Leipziger Volkszeitung (LVZ). Daneben absolvieren Studierende auch Praktika in Redaktionen, wie Geo, Spiegel, Stern und Die Zeit, bei Fotograf*innen sowie in Ausstellungsinstitutionen.\n[ Wo kann ich später arbeiten? ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo \"Wo kann ich später arbeiten?\")"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.55583,
+      "id": "28d2fdfc-43f5-5548-922e-91002df7213b",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BFO_Fotojournalismus_Studiengangsflyer_A5_202405.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Studiengangsflyer › BFO Fotojournalismus Studiengangsflyer A5 202405 — Worum geht es?",
+      "section_heading": "Wie sammle ich Berufserfahrung?",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## »Die Studierenden aus Hannover setzen sich sehr ernsthaft mit der journalistischen Fotografie auseinander und sind auf einem hohen Niveau praxisnah ausgebildet.«\n\n## Semesterbeitrag\n\n## Weitere Informationen:  \nAlle Studierenden zahlen jedes Semester den Weitere Informationen: Semesterbeitrag. Di"
+    },
+    {
+      "rang": 2,
+      "score": 2.91098,
+      "id": "493bea23-9ab8-53d5-803b-36b0f277b1fd",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo",
+      "title_anzeige": "Visual Journalism and Documentary Photography (BFO)",
+      "section_heading": "Das Studium",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "[ Wo kann ich später arbeiten? ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo \"Wo kann ich später arbeiten?\")\nDas Studium zielt auf eine Tätigkeit in ganz unterschiedlichen Funktionen und verschiedenen Medien. Dies umfasst Tätigkeiten in Reda"
+    },
+    {
+      "rang": 3,
+      "score": 2.26144,
+      "id": "ee563159-9d48-54c3-bdb5-eb487ad14aff",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo",
+      "title_anzeige": "Visual Journalism and Documentary Photography (BFO)",
+      "section_heading": "Das Studium",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "[ Kann ich im Ausland studieren? ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/fotojournalismus-und-dokumentarfotografie-bfo \"Kann ich im Ausland studieren?\")\nDer Studiengang Visual Journalism and Documentary Photography verfügt über vielfältige internationale Kontakte und Partnerschule"
+    },
+    {
+      "rang": 4,
+      "score": 1.92161,
+      "id": "8052c32d-002e-5dff-b8b8-c5cf92becb8f",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BFO_Fotojournalismus_Studiengangsflyer_A5_202405.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Studiengangsflyer › BFO Fotojournalismus Studiengangsflyer A5 202405 — Worum geht es?",
+      "section_heading": "Wo kann ich später arbeiten?",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## Wo kann ich später arbeiten?  \nDas Studium zielt ab auf eine Tätigkeit in ganz unterschiedlichen Funktionen und verschiedenen Medien. Dies umfasst Tätigkeiten in Redaktionen und Verlagen, in Agenturen oder in der Unternehmenskommunikation. Die Absolvent*innen sind als freiberufliche Fotograf*inne"
+    },
+    {
+      "rang": 5,
+      "score": 1.77665,
+      "id": "0d24e054-0dc7-5f10-a707-eb223192838c",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PPO_BJO-20222.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › PPO BJO 20222",
+      "section_heading": "**§ 4** > **Ausbildungsinhalte und Durchführung der Praxisphasen**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Ausbildungsinhalte und Durchführung der Praxisphasen**  \nStudierende sollen Tätigkeiten übernehmen, die wesentlich für die Berufsfelder im Bereich Journalismus sind.  \nZu diesen Tätigkeiten gehören zum Beispiel:  \n- Themenfindung, Recherche, Schreiben, Produktion für alle journalist"
+    },
+    {
+      "rang": 6,
+      "score": 1.77459,
+      "id": "f379ded4-f214-5fc3-a075-9b77c07fac6a",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/veranstaltungsmanagement-bvm",
+      "title_anzeige": "Veranstaltungsmanagement (BVM)",
+      "section_heading": "Veranstaltungsmanagement (BVM) > Veranstaltungsmanagement: praxisorientiert und theoretisch fundiert",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "Praxisphase im vierten Semester konnten sie den Berufsalltag fünf Monate aus erster Hand kennenlernen. In zahlreichen Praxisprojekten während des Studiums in konkreter Arbeit für konkrete Kunden haben sie gelernte Theorie praktisch erprobt."
+    },
+    {
+      "rang": 7,
+      "score": 1.76296,
+      "id": "05a46ca8-1175-57da-b436-159121875c70",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PPO_BJO_2017.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › PPO BJO 2017 — der Hochschule Hannover",
+      "section_heading": "**Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III, Abteilung Information und Kommunikation der Fakultät III Medien, Information und Design** > **§ 4** > **Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III, Abteilung Information und Kommunikation der Fakultät III Medien, Information und Design** > **Ausbildungsinhalte und Durchführung der Praxisphasen**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Ausbildungsinhalte und Durchführung der Praxisphasen**  \nDie Studierenden sollen Tätigkeiten übernehmen, die wesentlich für die Berufsfelder im Bereich Journalistik sind.  \nZu diesen Tätigkeiten gehören zum Beispiel:  \n- Themenfindung, Recherche, Schreiben, Produktion für alle journ"
+    },
+    {
+      "rang": 8,
+      "score": 1.64365,
+      "id": "f14bc746-e9db-5a90-9a86-57cb78fa2322",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/04-2018/01_DM-SG-Praxisphasenordnung_20172.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2018 › 01 DM SG Praxisphasenordnung 20172",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Nr. 04/2018 vom 15.03.2018  \nVerkündungsblatt der Hochschule Hannover  \n**Ordnung über die Praxisphase in den Bachelor-Studiengängen Innenarchitektur (BIA), Fotojournalismus und Dokumentarfotografie (BFO), Mediendesign (BME), Modedesign (BMO), Produktdesign (BPD), Szenografie, Kostüm, Experimentelle"
+    },
+    {
+      "rang": 9,
+      "score": 1.63917,
+      "id": "a556f029-d731-5379-bd3a-72e0e727ea2e",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BFO_2018.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › PO BFO 2018",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung** > **für den Bachelor-Studiengang Fotojournalismus und Dokumentarfotografie** > **(BFO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design** > **der Hochschule Hannover**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil der Prüfungsordnung**\n\n# **für den Bachelor-Studiengang Fotojournalismus und Dokumentarfotografie**\n\n# **(BFO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design**  \n## **der Hochschule Hannover**"
+    },
+    {
+      "rang": 10,
+      "score": 1.4754,
+      "id": "3d1249e8-7b54-54c2-b78c-bc48726339a6",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BFO_2022_23.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BFO 2022 23",
+      "section_heading": "_**BA Visual Journalism and Documentary Photography BFO129 Projekt III (WP 1 aus 3)**_ > _**Modulverantwortliche*r**_ > _**BA Visual Journalism and Documentary Photography BFO129 Projekt III (WP 1 aus 3)**_ > _**Lehrinhalte**_",
+      "chunk_index": 169,
+      "text_vollstaendig": false,
+      "auszug": "## _**Modulverantwortliche*r**_  \nProf. Christoph Bangert\n## _**Lehrinhalte**_  \nDie fotografischen Semesterarbeiten der Studierenden werden im Seminar präsentiert, besprochen und editiert. Das Finden der passenden Bildsprache, der Einsatz der fotografischen Mittel, Logistik, Organisation wird währe"
+    },
+    {
+      "rang": 11,
+      "score": 1.47367,
+      "id": "ed530dbf-f21c-5802-8e33-b0f81b09ce39",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/08_PO-Fakultaet_III-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2010 › 08 PO Fakultaet III 2010",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für die aufgeführten Bachelor-Studiengänge des Jahrgangs 2009** > **§ 7 Inkrafttreten**",
+      "chunk_index": 23,
+      "text_vollstaendig": false,
+      "auszug": "undperspektivischem Zeichnen|Ü|3|||\n||||||||DM-UE-05-02|Zeichnen II|3|P|1|Erlernen der weiterführenden Grundlagen\nvon figürlichem und räumlichem Zeichnen|Ü||3||\n|DM-KD/FO-01|Grundlagen 1 FO|P|6|4|1,5|keine|DM-KD/FO-01-01|Fotografie I|2|P|1|Vermittlung von technischen,\ngestalterischen und geschichtli"
+    },
+    {
+      "rang": 12,
+      "score": 1.42204,
+      "id": "c3fc4b0f-df71-5e8a-ba72-6af2d81fff16",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Besondere_PO_2009.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › Besondere PO 2009",
+      "section_heading": "**§ 7 Inkrafttreten**",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "P\n6\n4\n1,5 keine\nDM-KD/FO-01-01\nFotografie I\n2\nP\n1\nVermittlung von technischen,\ngestalterischen und geschichtlichen\nGrundlagen\nS\n3\nDM-KD/FO-01-02\nFotografie II\n2\nP\n1\nVertiefung von fotografischen\nGrundlagen auf technischer,\ngestalterischer und geschichtlicher Ebene\nE\n3\nDM-KD/FO-02\nGrundlagen 2 FO\nP\n6"
+    },
+    {
+      "rang": 13,
+      "score": 1.36898,
+      "id": "2a0e170f-bb53-5ab0-ac85-011f62bf6114",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PPO_BJO-20222.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › PPO BJO 20222",
+      "section_heading": "**§ 6** > **Anerkennung der Praxisphase**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "- Geschichte der Einrichtung, des Unternehmens, Stellenwert innerhalb der Branche  \n- Organisationsstruktur  \n- Qualifikation der Beschäftigten  \n- Aufgabenstellung und Arbeitsschwerpunkte (innerhalb der Praxisphase)  \n- Arbeitsabläufe  \n- Arbeitsmittel  \n- Neu erworbene Kompetenzen  \n- Bezug zum bi"
+    },
+    {
+      "rang": 14,
+      "score": 1.35625,
+      "id": "5e0d12d7-78ad-5158-b8f3-84d2b2e58485",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/04-2018/HsH_Verkuendungsblatt_04_2018.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2018 › HsH Verkuendungsblatt 04 2018 — Ausgabe 04/2018",
+      "section_heading": "**Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III, Abteilung Information und Kommunikation der Fakultät III Medien, Information und Design der Hochschule Hannover** > **Allgemeines**",
+      "chunk_index": 33,
+      "text_vollstaendig": false,
+      "auszug": "## **Allgemeines**  \nDas Studium schließt im Bachelor-Studiengang Journalistik eine Praxisphase im  \n3. Regelstudiensemester ein. In begründeten und vom Prüfungsausschuss auf Antrag des oder der Studierenden vor der Praxisphase genehmigten Ausnahmefällen kann ein Studiensemester in einem vergleichba"
+    },
+    {
+      "rang": 15,
+      "score": 1.33985,
+      "id": "5d2f15eb-18bd-55c6-8c7f-cabd80e44d7b",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Besondere_PO_2009.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › Besondere PO 2009",
+      "section_heading": "**§ 7 Inkrafttreten**",
+      "chunk_index": 27,
+      "text_vollstaendig": false,
+      "auszug": "Grundlagen\nS\n3\nDM-KD/FO-01-02\nFotografie II\n2\nP\n1\nVertiefung von fotografischen\nGrundlagen auf technischer,\ngestalterischer und geschichtlicher Ebene\nE\n3\nDM-KD/FO-02\nGrundlagen 2 FO\nP\n6\n3\n1,5 keine\nDM-KD/FO-02-01\nKurzzeit-Reportagen I\n1,5\nE/P*\n1\nErlernen erster erzählerischer Mittel in der\nReportage"
+    },
+    {
+      "rang": 16,
+      "score": 1.32171,
+      "id": "e9c50ccd-a621-5baf-ac37-880aae57e4e0",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BFO_2012.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › PO BFO 2012",
+      "section_heading": "**Besonderer Teil**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil**  \n**der Prüfungsordnung für den Bachelor-Studiengang Fotojournalismus und Dokumentarfotografie (BFO)**  \n**mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule**"
+    },
+    {
+      "rang": 17,
+      "score": 1.29773,
+      "id": "d86ecab6-1356-54d4-8091-5ecb8075af1c",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PPO_BJO_2017.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › PPO BJO 2017 — der Hochschule Hannover",
+      "section_heading": "**Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III, Abteilung Information und Kommunikation der Fakultät III Medien, Information und Design** > **§ 3** > **Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III, Abteilung Information und Kommunikation der Fakultät III Medien, Information und Design** > **Grundlegende Bestimmungen**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Grundlegende Bestimmungen**  \n- (1) Die Praxisphase dauert insgesamt mindestens 20 Wochen. Die Zeit für die Erstellung des Berichtes ist darin enthalten Der Aufenthalt in der Praxisstelle umfasst einen zusammenhängenden Zeitraum von mindestens 18 Wochen.  \nDez.III / Praxisphasenordnu"
+    },
+    {
+      "rang": 18,
+      "score": 1.22923,
+      "id": "1a206e2f-56a9-5e3a-8680-69bc2d97ade1",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BFO_2022_23.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BFO 2022 23",
+      "section_heading": "_**BA Visual Journalism and Documentary Photography BFO224 Workshop III (WP 1 aus 3)**_ > _**Qualifikationsziele**_",
+      "chunk_index": 278,
+      "text_vollstaendig": false,
+      "auszug": "## _**Qualifikationsziele**_  \nFür das Modul Workshop II besteht die Möglichkeit unter drei verschiedenen Praxisprojekten zu wählen. Alle Workshops bieten Qualifizierung für unerschiedliche Präsentations- und Publikationskontexte.  \nSo erlernen die Studierenden auf der Grundlage einer eigenen fotogr"
+    },
+    {
+      "rang": 19,
+      "score": 1.1899,
+      "id": "6912ba4e-9be9-5155-b572-5d05117f3308",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/04-2018/HsH_Verkuendungsblatt_04_2018.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2018 › HsH Verkuendungsblatt 04 2018 — Ausgabe 04/2018",
+      "section_heading": "**Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III, Abteilung Information und Kommunikation der Fakultät III Medien, Information und Design der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 32,
+      "text_vollstaendig": false,
+      "auszug": "# **Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III, Abteilung Information und Kommunikation der Fakultät III Medien, Information und Design der Hochschule Hannover**  \n## **§ 1**"
+    },
+    {
+      "rang": 20,
+      "score": 1.18229,
+      "id": "717e697c-cf72-57db-a1bc-5b242da5f18e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/05-2011/03-Pruefungsordnung_DM_2010___2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2011 › 03 Pruefungsordnung DM 2010 2011",
+      "section_heading": "**§ 9 Inkrafttreten**",
+      "chunk_index": 38,
+      "text_vollstaendig": false,
+      "auszug": "03|4|E|2|P|1|Die Teilnehmer sollen den\nCharakter von\nunterschiedlichen Bildbänden\nerforschen, grundlegende\nEigenschaften erkennen und\nfür das eigene Projekt ein\nadäquates Konzept\nentwickeln.|keine|  \nAnlage 2 des Besonderen Teils der Prüfungsordnung des Bachelor-Studiengangs Fotojournalismus und Dok"
+    },
+    {
+      "rang": 21,
+      "score": 1.13552,
+      "id": "75380e66-b453-511b-a323-3ace659912a5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/04-2018/01_DM-SG-Praxisphasenordnung_20172.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2018 › 01 DM SG Praxisphasenordnung 20172",
+      "section_heading": "**§ 1** > **Geltungsbereich**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 1**\n\n## **Geltungsbereich**  \nDas Studium schließt in den Bachelor-Studiengängen Innenarchitektur (BIA), Fotojournalismus und Dokumentarfotografie (BFO), Mediendesign (BME), Modedesign (BMO), Produktdesign (BPD), Szenografie, Kostüm, Experimentelle Gestaltung (SKE), Visuelle Kommunikation (BV"
+    },
+    {
+      "rang": 22,
+      "score": 1.13522,
+      "id": "491fc7cf-c044-5ad8-af67-e695b5dc887a",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Praxisphasenordnung.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › Praxisphasenordnung",
+      "section_heading": "**§ 1** > **Geltungsbereich**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 1**\n\n## **Geltungsbereich**  \nDas Studium schließt in den Bachelor-Studiengängen Innenarchitektur (BIA), Fotojournalismus und Dokumentarfotografie (BFO), Mediendesign (BME), Modedesign (BMO), Produktdesign (BPD), Szenografie, Kostüm, Experimentelle Gestaltung (SKE), Visuelle Kommunikation (BV"
+    },
+    {
+      "rang": 23,
+      "score": 1.13476,
+      "id": "ccd65992-3c10-51fe-b311-38b7b2a89550",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PO_BFO_2022__eng.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › PO BFO 2022 eng",
+      "section_heading": "**§ 7** > **Entry into force**",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "**Bachelor Programme: BA in Visual Journalism and Documentary Photography BFO - 8 Semesters**  \n|**1st Study Stage**|**1st Study Stage**|**1st Study Stage**|**1st Study Stage**|**1st Study Stage**|**Appendix B1**|**Appendix B1**|**Appendix B1**|**Appendix B1**|**Appendix B1**|**Appendix B1**|**Appen"
+    },
+    {
+      "rang": 24,
+      "score": 1.13231,
+      "id": "675612bf-f3d3-5e06-b370-626b89f68da9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2022/hsh_verkuendungsblatt_nr_05_2022_link.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2022 › hsh verkuendungsblatt nr 05 2022 link — Ausgabe 05/2022",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Master Studiengang Fernsehjournalismus und Dokumentarfilm (MTV) mit dem Abschluss Master of Arts (M.A.) der Fakultät III – Medien, Information und Design, Abteilung Information und Kommunikation an der Hochschule Hannover** > **Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III – Medien, Information und** > **Design, Abteilung Information und Kommunikation an der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 134,
+      "text_vollstaendig": false,
+      "auszug": "## **Ordnung über die Praxisphase im Bachelor-Studiengang Journalistik (BJO) der Fakultät III – Medien, Information und**\n\n# **Design, Abteilung Information und Kommunikation an der Hochschule Hannover**  \n## **§ 1**"
+    },
+    {
+      "rang": 25,
+      "score": 1.11873,
+      "id": "7f3da5a9-8a82-562b-8e13-3f0912bfda4e",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PO_BJO_2012.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › PO BJO 2012",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Studiengang Journalistik (BJO) mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design der Hochschule Hannover** > **§ 2** > **Besonderer Teil der Prüfungsordnung für den Studiengang Journalistik (BJO) mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 2**\n## **Dauer und Gliederung des Studiums**  \n- (1)  Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Journalistik einschließlich der Bachelor-Prüfung sechs Semester (Regelstudienzeit).  \n- (2)  Das Bachelor-Studium gliedert sich in  \n- einen"
+    },
+    {
+      "rang": 26,
+      "score": 1.07986,
+      "id": "5a2daed6-1b2a-5a00-b506-228d24329a3f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/03-2012/06-PO_Bachelor_BJO.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2012 › 06 PO Bachelor BJO",
+      "section_heading": "**§ 2 Dauer und Gliederung des Studiums**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 2 Dauer und Gliederung des Studiums**  \n- (1)  Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Journalistik einschließlich der Bachelor-Prüfung sechs Semester (Regelstudienzeit).  \n- (2)  Das Bachelor-Studium gliedert sich in  \n- einen dreise"
+    },
+    {
+      "rang": 27,
+      "score": 1.0789,
+      "id": "85cc1e48-ae77-5e87-b1b5-f8bb076b4ca2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/05-PO-Journalistik.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2012 › 05 PO Journalistik",
+      "section_heading": "**§ 2 Dauer und Gliederung des Studiums**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 2 Dauer und Gliederung des Studiums**  \n- (1)  Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Journalistik einschließlich der Bachelor-Prüfung sechs Semester (Regelstudienzeit).  \n- (2)  Das Bachelor-Studium gliedert sich in  \n- einen dreise"
+    },
+    {
+      "rang": 28,
+      "score": 1.07384,
+      "id": "d649c6e4-d73e-5023-8b35-9e7509f6f1f9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/05-2011/03-Pruefungsordnung_DM_2010___2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2011 › 03 Pruefungsordnung DM 2010 2011",
+      "section_heading": "**§ 9 Inkrafttreten**",
+      "chunk_index": 36,
+      "text_vollstaendig": false,
+      "auszug": "und der Leuchtmittel.|keine|\n||||||||Prominenz on Location|BFO-210-\n03|4|E|2|P|0|Erlernen verschiedener\nPortraitarten unter\nBedingungen on Location, mit\nBlitz und vorhandenem Licht.|keine|  \nAnlage 2 des Besonderen Teils der Prüfungsordnung des Bachelor-Studiengangs Fotojournalismus und Dokumentarfo"
+    },
+    {
+      "rang": 29,
+      "score": 1.06404,
+      "id": "8c458d7b-5ea4-5ee4-8407-b2f4ebb0db29",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/05-2008/05-BT_IK_BJO-Text-AEnd1-29-10-08.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2008 › 05 BT IK BJO Text AEnd1 29 10 08",
+      "section_heading": "**§ 2** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 2**\n## **Dauer und Gliederung des Studiums**  \n(1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den Bachelor-Studiengang Journalistik einschließlich der Bachelor-Prüfung sechs Semester (Regelstudienzeit).  \n- (2) Das Bachelor-Studium gliedert sich in  \n- einen vi"
+    },
+    {
+      "rang": 30,
+      "score": 1.04004,
+      "id": "ca715d75-008a-534f-924e-cf30b858d01d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/11-2016/02_BFO_Stand_20160811.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2016 › 02 BFO Stand 20160811",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung** > **für den Bachelor-Studiengang Fotojournalismus und** > **Dokumentarfotografie (BFO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil der Prüfungsordnung**\n\n# **für den Bachelor-Studiengang Fotojournalismus und**\n\n# **Dokumentarfotografie (BFO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover**  \n## **§ 1**"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 55618,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.67,
+    "kandidaten_s": 0.02,
+    "llm_auswahl_s": 1.94,
+    "docs_laden_s": 0.13,
+    "quellen_s": 3.77,
+    "antwort_llm_s": 1.33,
+    "gesamt_s": 5.1
+  },
+  "auswahl_begruendung": "{\"selected\":[8,1,7,2]}"
+}

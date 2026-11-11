@@ -1,0 +1,562 @@
+{
+  "fall": {
+    "id": "q12",
+    "case_type": "direct",
+    "question": "Gibt es Parkplätze am HsH-Campus Linden?",
+    "reference_answer": "Ja. Zum Campus Linden schreibt die HsH, dass in unmittelbarer Nähe der Hochschule Parkplätze zur Verfügung stehen. Die Anfahrt erfolgt über die Stammestraße oder den Lodemannweg.",
+    "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten"
+    ],
+    "required_facts": [
+      "Ja, in unmittelbarer Nähe der Hochschule stehen Parkplätze zur Verfügung.",
+      "Die Anfahrt erfolgt über die Stammestraße oder den Lodemannweg."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [
+      "Eine garantierte Verfügbarkeit freier Parkplätze behaupten.",
+      "Eine konkrete Parkplatzanzahl erfinden."
+    ],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Antwort soll 'in unmittelbarer Nähe' und die Anfahrt über Stammestraße oder Lodemannweg nennen. Keine Aussage über Anzahl, Verfügbarkeit zu Stoßzeiten oder garantierte freie Plätze ergänzen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Stammestraße",
+      "Lodemannweg"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Fakultät I wiederholt den Anfahrtstext wörtlich (Stammestraße, Lodemannweg).",
+    "gold_im_korpus": true
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T11:19:10",
+  "dauer_s": 1.77,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+      "fakultaet": "",
+      "struktur": "  ## Campus Linden\n    ### Auf einen Blick\n    ### Besucheradresse\n    ### Postadresse\n  ## Anfahrtsbeschreibung\n    ### Externer Inhalt\n  ## Gebäudeplan"
+    },
+    {
+      "nr": 2,
+      "titel": "Standorte und Öffnungszeiten",
+      "url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+      "fakultaet": "f1",
+      "struktur": "# Standorte und Öffnungszeiten\n    ### Auf einen Blick\n  ## Standorte und Öffnungszeiten\n  ## Campus Linden/Ricklinger Stadtweg\n  ## Bismarckstraße\n  ## Wegbeschreibung\n  ## Campus Linden/Ricklinger Stadtweg\n    ### Externer Inhalt\n  ## Bismarckstraße\n    ### Externer Inhalt\n  ## Gebäudepläne"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Strategische Hochschulentwicklung › Green Office › 240319 mobilitaetskonzept — Einleitung",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/Green_Office/240319_mobilitaetskonzept.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Maßnahmenkonzept für nachhaltige Mobilität 2023/24\n  ## Einleitung"
+    },
+    {
+      "nr": 4,
+      "titel": "Career Center",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center",
+      "fakultaet": "",
+      "struktur": "# Career Center\n  ## Beratungsangebot\n  ## Angebote des Career Centers\n  ## Kontakt\n    ### Sabine Halling\n    ### Projektkoordination\n    ### Anna Pankkonen-Kroll\n    ### Reini Joosten\n    ### Taha Abdulmawjood (Studentische Hilfskraft)\n    ### Ben Ziegan (Studentische Hilfskraft)\n  ## Anfahrt"
+    },
+    {
+      "nr": 5,
+      "titel": "Campus Linden wird zur Radzone: Hochschule Hannover feiert Fahrradfest-Premiere",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/campus-linden-wird-zur-radzone-hochschule-hannover-feiert-fahrradfest-premiere",
+      "fakultaet": "",
+      "struktur": "# Campus Linden wird zur Radzone: Hochschule Hannover feiert Fahrradfest-Premiere\n    ### Fahrradcheck, Fahrradbörse und Live-Musik: Die Hochschule Hannover hat mit ihrem ersten Fahrradfest auf dem Campus Linden ein buntes Programm für nachhaltige Mobilität auf die Beine gestellt – und will damit erst den Anfang gemacht haben."
+    },
+    {
+      "nr": 6,
+      "titel": "itr › kontakt",
+      "url": "https://itr.wp.hs-hannover.de/kontakt",
+      "fakultaet": "",
+      "struktur": "# Kontakt\n# Anfahrt\n# Partner\n# Impressum\n# Datenschutz"
+    },
+    {
+      "nr": 7,
+      "titel": "mint › orientieren › waehrend der schulzeit › campus day berufsorientierungstage",
+      "url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+      "fakultaet": "",
+      "struktur": "  ## Neuigkeiten im Überblick\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover"
+    },
+    {
+      "nr": 8,
+      "titel": "www › profil › wer wir sind › die hsh in bildern",
+      "url": "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/die-hsh-in-bildern",
+      "fakultaet": "",
+      "struktur": "  ## Die HsH in Bildern"
+    },
+    {
+      "nr": 9,
+      "titel": "www › bibliothek › literatursuche › e books — E-Books",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/literatursuche/e-books",
+      "fakultaet": "",
+      "struktur": "# E-Books\n  ## Recherche und Download"
+    },
+    {
+      "nr": 10,
+      "titel": "Religionspädagogik und Soziale Arbeit (BRS)",
+      "url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs",
+      "fakultaet": "f5",
+      "struktur": "# Religionspädagogik und Soziale Arbeit (BRS)\n    ### Wann geht es los?\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Zielgruppe des Studiengangs\n  ## Youtube-Kanal der Fakultät V\n    ### Externer Inhalt\n  ## Diakonin / Gemeindepädagogin werden\n    ### Externer Inhalt\n  ## Termine und aktuelle Informationen\n  ## Informationen für Studieninteressierte & Studierende\n    ### Beratungsangebote für Studierende & Studieninteressierte \n    ### Bewerbung\n    ### Erstsemesterinformation\n    ### Zulassungsordnung/Prüfungsordnung\n    ### Semesterbeitrag & Rückmeldung\n    ### Wege ins Ausland\n    ### Ästhetische Werkstätten & Soziale Kulturarbeit\n    ### Lehr- und Lernwerkstatt\n    ### Alumni-Netzwerk Soziale Arbeit\n  ## Studienverlauf & -inhalt\n  ## Praxisbezug und Praktika\n  ## Radioandachten von Studierenden\n    ### Praktikum (M 11 (PO 2020/21) / M 23 (PO 2026))\n    ### Integriertes Berufsanerkennungsjahr (IBA)\n  ## Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & IBA)\n    ### Beauftragter für Praktika & Praxiskontakte\n    ### Beauftragter für Praktika & Praxiskontakte\n    ### Sachbearbeitung Praktikumsamt\n  ## Hauptamtlich Lehrende der Abteilung Religionspädagogik und Diakonie\n  ## Ansprechpersonen Studiengang\n  ## Bewerbung & Immatrikulation\n    ### Studiendekanin\n    ### Sekretariat\n    ### Fachstudienberatung intern (eingeschriebene Studierende)\n    ### Fachstudienberatung extern (Studieninteressierte und Gasthörende)\n    ### Studiendekanatsassistenz\n    ### Prüfungsamt\n  ## Beratung durch Mitarbeitende der Evangelisch-lutherischen Landeskirche Hannovers für den Studiengang\n  ## Weitere Informationen\n  ## Anfahrt zum Campus Kleefeld"
+    },
+    {
+      "nr": 11,
+      "titel": "www › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt › kurse",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+      "fakultaet": "",
+      "struktur": "  ## Kurse\n  ## Kursanmeldung\n    ### Jetzt Neu!\n  ## Ferienkurse im Sommersemester 2026\n  ## Semesterkurse im Sommersemester 2026\n  ## Ferienkurse im Wintersemester 2025/26\n  ## Semesterkurse im Wintersemester 2025/26\n  ## Ferienkurse im Sommersemester 2025\n  ## Semesterkurse im Sommersemester 2025\n  ## Ferienkurse im Wintersemester 2024/25\n  ## Semesterkurse im Wintersemester 2024/25\n  ## Ferienkurse im Sommersemester 2024\n  ## Semesterkurse im Sommersemester 2024\n  ## Ferienkurse im Wintersemester 2023/24\n  ## Semesterkurse im Wintersemester 2023/24\n  ## Ferienkurse im Sommersemester 2023\n  ## Semesterkurse im Sommersemester 2023\n  ## Ferienkurse im Wintersemester 2022/23\n  ## Semesterkurse im Wintersemester 2022/23\n  ## Ferienkurse im Sommersemester 2022\n  ## Semesterkurse im Sommersemester 2022\n  ## Ferienkurse im Wintersemester 2021/22\n  ## Semesterkurse Wintersemester 2021/22\n  ## Ferienkurse im Sommersemester 2021\n  ## Semesterkurse Sommersemester 2021\n  ## Ferienkurse Wintersemester 2020/21\n  ## Semesterkurse Wintersemester 2020/21\n  ## Ferienkurse Sommersemester 2020\n  ## Semesterkurse Sommersemester 2020\n  ## Ferienkurse Wintersemester 2019/20\n  ## Semesterkurse Wintersemester 2019/20\n  ## Ferienkurse Sommersemester 2019"
+    },
+    {
+      "nr": 12,
+      "titel": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "fakultaet": "",
+      "struktur": "  ## 01. Wir – die HsH\n  ## Daten & Fakten\n  ## HsH in Zahlen 2006 ─ 2016\n  ## HsH in Zahlen 2016 ─ 2023\n  ## Studierende nach Fakultäten\n  ## Organisation\n  ## Vision Statement des Präsidiums\n  ## Geschichte der HsH\n  ## Vorgängereinrichtungen\n  ## Geschichte der HsH\n  ## Gründung der Fachhochschule Hannover\n# Unsere Standorte\n  ## 02. Qualifizieren – Studium & Lehre\n  ## Studienangebot\n  ## Bachelor-Studiengänge\n  ## Duale Bachelor-Studiengänge\n  ## Ausbildungsbegleitende Bachelor-Studiengänge\n  ## Berufsbegleitende & berufsintegrierende\n  ## Bachelor-Studiengänge\n  ## Master-Studiengänge\n  ## Digitale Transformation\n  ## Duale Master-Studiengänge\n  ## Berufsbegleitende Master-Studiengänge\n  ## Weiterbildende Master-Studiengänge\n  ## HsH – Hier studiert Hannover\n  ## Vielfältig und praxisnah\n  ## Fakultät I\n  ## Elektro- und Informationstechnik\n  ## Basisdaten\n  ## Fakultät II\n  ## Maschinenbau und Bioverfahrenstechnik\n  ## Basisdaten\n  ## Fakultät III\n  ## Medien, Information & Design\n  ## Basisdaten\n  ## Fakultät IV\n  ## Wirtschaft & Informatik\n  ## Betriebswirtschaft\n  ## Basisdaten\n  ## Fakultät V\n  ## Diakonie, Gesundheit & Soziales\n  ## Basisdaten\n  ## HsH-Akademie\n  ## Zentrum für lebenslanges Lernen\n  ## HsH – International\n  ## NEXSTER\n  ## Lebendige Innovations- und Transferkultur Transfer in die Praxis als zentrales Element\n  ## innovercity\n  ## Wissenschaft trifft auf Gesellschaft und Wirtschaft\n  ## Unsere Absolventinnen"
+    },
+    {
+      "nr": 13,
+      "titel": "www › Finanzmanagement › Studienqualitaetsmittel › 20210518 Protokoll 28.Sitzung Senatskommission Studienqualitaetsmittel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20210518_Protokoll_28.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Protokoll\n  ## über die 28. Sitzung der Senatskommission Studienqualitätsmittel der Hochschule Hannover am 18.05.2021 als Videokonferenz über https://meet.gwdg.de/b/geo-tlc-0i6-d1l .\n  ## TOP 1: Begrüßung\n  ## TOP 2: Feststellung der Tagesordnung\n  ## TOP 3: Herstellung der Hochschulöffentlichkeit / Rederecht der Gäste\n  ## TOP 4: Genehmigung des Protokolls der Sitzung vom 08.12.2020 (Anlagen 1a – 1b)\n  ## TOP 5: Stellungnahme Personalkosten-Verschiebung Z2 (Anlage 2)\n  ## TOP 6: Anträge an die Kommission\n  ## 6.2 Fak. II (Herr Stahl), Akquise zur Stipendieneinwerbung, 0,5 E11, unbefristet, ab 01.09.2021, 37.683,50 EUR (Anlage 4)\n  ## 6.5 Fak. I (Herr Kutzner), LabView Lizenz, 2021 – 01.03.2021 – 29.02.2024, 9.728,25 EUR p.a. (Anlage 7)\n  ## 6.6 Z3 (Frau Rex), Tutorien 2021/2022, 01.09.201 – 31.08.2022, 38.000,00 EUR (Anlage 8)\n  ## 6.7 D5 (Herr Hellmich), Unterstützung von Prüfungsangeboten in den Poolräumen der Hochschul-IT, SoSe 2021 – SoSe 2023, 63.000,00 EUR (Anlage 9)\n  ## 6.8 D5 (Herr Hellmich), Anteil der Studierenden am Microsoft Campus Vertrag, Anpas– sung auf 20.000,00 EUR, SoSe 2021 SoSe 2023 (Anlage 10)\n  ## Nicht-öffentlicher Teil der Sitzung\n  ## TOP 7: Information zur Verteilung und Verwendung von Studienqualitätsmitteln (Anlagen 11a – 11g)\n  ## a) Zuweisung Mittelverteilung SQM\n  ## b) neue und bewilligte Anträge SQM der letzten vier Semester\n  ## c) Mittelabfluss SQM 2021\n  ## d) Hochrechnung Personalkosten SQM\n  ## e) aus zentralen SQM jährlich bereitgestellte Budgets\n  ## f) Zuweisungen und Restmittel\n  ## g) Verfügbare zentrale SQM zum Stichtag 26.03.2021\n  ## TOP 8: Interne Beratung und Beschlussfassung zu den Anträgen\n  ## 6.2 Fak. II (Herr Stahl), Akquise zur Stipendieneinwerbung, 0,5 E11, unbefristet, ab 01.09.2021, 37.683,50 EUR p.a. (Anlage 4)\n  ## 6.3.1 Z3 (Frau Petersen), Mentoring Flex-Programm zum Berufseinstieg der Studierenden – der HsH, 0,25 E11, 01.01.2022 31.12.2024, 19.000,00 EUR (Anlage 5)\n  ## 6.4 Z1 (Herr Nowak), Antrag auf Besetzung durch Stundenreduzierung freigewordene Anteile einer festen SQM-Stelle, 01.01.2021 – 31.08.2022, kostenneutral (Anlage 6)\n  ## 6.5 Fak. I (Herr Kutzner), LabView Lizenz, 2021 – 01.03.2021 – 29.02.2024, 9.728,25 EUR p.a. (Anlage 7)\n  ## 6.6 Z3 (Frau Rex), Tutorien 2021/2022, 01.09.201 – 31.08.2022, 38.000,00 EUR (Anlage 8)\n  ## 6.7 D5 (Herr Hellmich), Unterstützung von Prüfungsangeboten in den Poolräumen der Hochschul-IT, SoSe 2021 – SoSe 2023, 63.000,00 EUR (Anlage 9)\n  ## TOP 9: Information Jahresrückblick 2020 – Z3 Career Center (Anlage 12)\n  ## TOP 10: Verschiedenes"
+    },
+    {
+      "nr": 14,
+      "titel": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## An alle Lehrbeauftragten der Abteilung Religionspädagogik und Diakonie sowie der Abteilung Soziale Arbeit\n  ## Wichtige Informationen\n  ## Sehr geehrte Lehrbeauftragte,\n  ## Informationen für Lehrbeauftragte in den Abteilungen Soziale Arbeit sowie Religionspädagogik und Diakonie\n  ## I. Personal- und Lehrangelegenheiten\n  ## 1. Planung des Lehrangebotes\n  ## Sekretariat Abteilung Soziale Arbeit\n  ## Sekretariat Abteilung Religionspädagogik und Diakonie\n  ## 3. Vorlesungsverzeichnis\n  ## 4. Vorlesungszeiten des Sommersemesters 2026 und des Wintersemesters 2026/27\n  ## Vorlesungszeiten Sommersemester 2026:\n  ## BA Soziale Arbeit grundständig und BA Religionspädagogik und Soziale Arbeit:\n  ## BA Soziale Arbeit berufsbegleitend:\n  ## Vorlesungszeiten Wintersemester 2026/27\n  ## BA Soziale Arbeit grundständig und BA Religionspädagogik und Soziale Arbeit:\n  ## Kontinuierliche Vorlesungszeit:\n  ## BA Soziale Arbeit berufsbegleitend:\n  ## 5. Modulhandbuch\n  ## 6. iCMS (Integriertes Campus Management System) – Teilnehmendenliste Veranstaltung Über das integrierte Campus Management System (iCMS) (https://icms.hs-\n  ## 7. Veranstaltungen mit zu geringer Teilnehmendenzahl\n  ## Studiendekanin der Abteilung Soziale Arbeit:\n  ## Studiendekanin der Abteilung Religionspädagogik und Diakonie:\n  ## 8. Terminausfall Lehrveranstaltung\n  ## 9. Honorarabrechnung\n  ## 10. Reisekosten\n  ## Voraussetzungen Reisekosten\n  ## Reiskostenabrechnung\n  ## Eingereicht werden muss gesammelt und vollständig:\n  ## Tagegeld\n  ## Übernachtung\n  ## Darüberhinausgehende Rechnungsbeträge bedürfen einer schriftlichen Begründung.\n  ## 11. Richtlinie zu Lehraufträgen\n  ## 12. Gastvorträge\n  ## 13. Aktive Teilnahme von Studierenden\n  ## 14. Prüfungsberechtigung\n  ## 15. Prüfungen und Leitfäden zu Prüfungsleistungen\n  ## II. Räume, Exkursionen, Material und Service\n  ## 16. Zugang zu Seminarräumen, Raumbuchung und -ausstattung CampusCard:\n  ## Raumbuchung:\n  ## Medienzentrum:\n  ## Zugang zu Gebäuden:\n  ## 17. Flexbüro\n  ## Hygiene\n  ## Datenschutz & Sicherheit\n  ## 18. Exkursionen\n  ## 19. Lehrmaterial\n  ## 20. Kopie-/Druckaufträge von Lehrmaterial\n  ## Kopierzentrum:\n  ## 21. Nutzung der Bibliotheken der Hochschule Hannover\n  ## Wie melde ich mich für die Nutzung der (Teil-)Bibliotheken der Hochschule Hannover an?"
+    },
+    {
+      "nr": 15,
+      "titel": "Wissenschaftlich Arbeiten mit KI",
+      "url": "https://www.hs-hannover.de/aktuelles/veranstaltungen/wissenschaftlich-arbeiten-mit-ki",
+      "fakultaet": "",
+      "struktur": "# Wissenschaftlich Arbeiten mit KI\n  ## 18.03.2026 - 09.06.2026\n    ### Veranstal­tungs­ort\n  ## Workshopbeschreibungen\n    ### Ausblick ins Wintersemester 2026/27\n    ### Kontakt"
+    },
+    {
+      "nr": 16,
+      "titel": "EnergyZERO-Campus – Innovationslabor für einen klimaneutralen Campus",
+      "url": "https://www.hs-hannover.de/ueber-uns/strategie/drifthsh-driver-of-future-transformation/energyzero-campus-innovationslabor-fuer-einen-klimaneutralen-campus",
+      "fakultaet": "",
+      "struktur": "# EnergyZERO-Campus – Innovationslabor für einen klimaneutralen Campus\n  ## Auf dem Weg zum klimaneutralen Campus\n    ### Auf einen Blick\n  ## Schwerpunkte\n    ### Pilotcampus im Echtbetrieb\n    ### Modellierung von Nutzungsszenarien\n    ### Schritt für Schritt zum klimaneutralen Campus\n# News\n    ###  Startschuss für DriFT@HsH \n  ## Projektteam"
+    },
+    {
+      "nr": 17,
+      "titel": "CAMPUS Radeln Hannover 2026",
+      "url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-forschungszentrum-energie-mobilitaet-prozesse-fz-emp/campusradeln",
+      "fakultaet": "",
+      "struktur": "# CAMPUS Radeln Hannover 2026\n  ## CAMPUS Radeln Hannover 2026\n  ## Saisonstart am 04.05.2026 am Campus Linden\n    ### Navigation\n  ## Gesamtstatistik\n  ## Wie geht's los?\n  ## Wie funktioniert CAMPUS Radeln?\n  ## Warum CAMPUS Radeln?\n  ## Häufig gestellte Fragen\n  ## AnsprechpartnerInnen\n  ## PartnerInnen des CAMPUS Radeln"
+    },
+    {
+      "nr": 18,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2018 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Inhaltsverzeichnis\n  ## Bilanz zum 31. Dezember 2018\n  ## Gewinn- und Verlustrechnung für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2018\n  ## Anhang für das Geschäftsjahr 2018\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionszuschüsse\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## Sonstige Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## Details zu den sonstigen periodenfremden Erträgen:\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2018\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2018\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2018\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2a).\n  ## 4a).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c).\n  ## 8a).\n  ## 9a).\n  ## 11a).\n  ## 11c).\n  ## 13).\n  ## 15)."
+    },
+    {
+      "nr": 19,
+      "titel": "www › wissenswelt sprachen und studienkompetenzen › kontakt › lehrkraefte fuer spanisch",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/kontakt/lehrkraefte-fuer-spanisch",
+      "fakultaet": "",
+      "struktur": "    ### Spanisch"
+    },
+    {
+      "nr": 20,
+      "titel": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Impressum:\n  ## Inhalt\n  ## Vorwort des Präsidiums\n  ## — 1 Ausgangslage\n  ## — 2 Kurzdarstellung der Hochschule\n  ## Leitbild und Umstrukturierungen\n  ## — 2 Kurzdarstellung der Hochschule\n  ## — 3 Kurzdarstellung der Fakultäten\n  ## Elektround Informationstechnik Fakultät I\n  ## Elektro- und Informationstechnik\n  ## Highlights\n  ## Studierende der Fakultät I\n# Maschinenbau und Bioverfahrenstechnik Fakultät II\n  ## Maschinenbau und Bioverfahrenstechnik\n  ## Highlights\n  ## Studierende der Fakultät II\n  ## Studierende der Fakultät II\n# Medien, Information und Design\n  ## Medien, Information und Design\n  ## Highlights\n  ## →   Motion Cube\n# Wirtschaft und Informatik\n  ## Wirtschaft und Informatik\n  ## Basisdaten\n  ## Highlights\n  ## →   Lehre\n  ## →   Praxisnähe\n  ## →   Studienbedingungen\n  ## →   Internationalität\n# Diakonie, Gesundheit und Soziales Fakultät V\n  ## Diakonie, Gesundheit und Soziales\n  ## Highlights\n  ## →   Internationale Vernetzung\n  ## →   Regionale Kontakte\n  ## Studierende der Fakultät V nach Studiengang\n# HsH – Hier studiert 34 Hannover.\n  ## — 4 Strategische Ziele der Hochschulentwicklung\n  ## 4 — Strategische Ziele der Hochschulentwicklung\n  ## StudierendenPerspektive\n  ## TREIBENDE FAKTOREN HAW-spezifisch hochqualifiziertes Lehrpersonal Studiengangs(neu)entwicklung MASSNAHMEN MIT HÖCHSTER PRIORITÄT\n  ## StudierendenPerspektive\n  ## Qualitativ hochwertige Studienabschlüsse anbieten\n  ## Nachhaltigkeit in der Lehre\n  ## StudierendenPerspektive\n  ## Nachhaltigkeit meets Internationalisierung in Studium und Praxis\n  ## StudierendenPerspektive\n  ## Attraktivität für Bewerber:innen steigern\n  ## Frauen in MINT\n  ## StudierendenPerspektive\n  ## Digitalisierung des Student Life Cycle"
+    },
+    {
+      "nr": 21,
+      "titel": "www › Finanzmanagement › Studienqualitaetsmittel › 20250415 Protokoll 36.Sitzung Senatskommission Studienqualitaetsmittel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20250415_Protokoll_36.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Protokoll\n  ## über die 36. Sitzung der Senatskommission Studienqualitätsmittel der Hochschule Hannover am 15.04.2025 im Senatssitzungssaal (Präsidium), Expo Plaza 4, 30539 Hannover\n  ## TOP 1: Begrüßung\n  ## TOP 2: Feststellung der Tagesordnung\n  ## TOP 3: Herstellung der Hochschulöffentlichkeit / Rederecht der Gäste\n  ## TOP 4: Genehmigung des Protokolls der 35. Sitzung vom 15.10.2024 (Anlage 1)\n  ## TOP 5: Anträge an die Kommission (Anlage 2)\n  ## 5.4 Z1 (Herr Nowak), Erwerbungsmittel für digitale Angebote, 01.05.2025 – 28.02.2026, 75.000,00 EUR (Anlage 6)\n  ## 5.6 S3-Nexster (Herr Lehmann), NEXSTVENTURE - Entrepreneurship Education, 01.09.2025 – 31.08.2026, 10.200,00 EUR (Anlage 8)\n  ## 5.7 F1, F2, F4, D5 (Herr Kallage), Verlängerung Matlab Campus-Lizenz, 01.01.2026 – 31.12.2028, 61.199,32 EUR p.a. (Anlage 8)\n  ## Nicht-öffentlicher Teil der Sitzung\n  ## TOP 6: Information zur Verteilung und Verwendung von Studienqualitätsmitteln (Anlagen 13a – 13h)\n  ## a) Zuweisung Mittelverteilung SQM\n  ## b) neue und bewilligte Anträge SQM der letzten vier Semester\n  ## c) Mittelabfluss dezentrale SQM 2025\n  ## d) Hochrechnung Personalkosten SQM\n  ## e) Verausgabungsquoten Personalkosten SQM\n  ## f) aus zentralen SQM jährlich bereitgestellte Budgets\n  ## g) Zuweisungen und Restmittel\n  ## h) Verfügbare zentrale SQM zum Stichtag 31.03.2025\n  ## TOP 7: Interne Beratung und Beschlussfassung zu den Anträgen\n  ## 5.6 S3-Nexster (Herr Lehmann), NEXSTVENTURE - Entrepreneurship Education, 01.09.2025 – 31.08.2026, 10.200,00 EUR (Anlage 8)\n  ## TOP 8: Verschiedenes"
+    },
+    {
+      "nr": 22,
+      "titel": "www › organisation › strategische hochschulentwicklung › gesundheitsmanagement",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/strategische-hochschulentwicklung/gesundheitsmanagement",
+      "fakultaet": "",
+      "struktur": "# Gesundheitsmanagement\n    ### Aktuelles:\n    ### Ihre Ansprechpartnerin\n  ## Beratungsangebote und Anlaufstellen \"Gesund arbeiten\" an der HsH\n  ## Allgemeine Angebote und Leistungen\n  ## Angebote für Beschäftigte\n  ## Angebote für Leitungen\n  ## Allgemeine Informationen\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 23,
+      "titel": "Fragen zum Studium? Wir haben die Antworten!",
+      "url": "https://www.hs-hannover.de",
+      "fakultaet": "",
+      "struktur": "    ### Jetzt bewerben!\n  ## Jetzt für das Wintersemester 2026/27 bewerben!\n    ### Jetzt bewerben!\n  ## Gemeinsam Lehre gestalten – Tag der Lehre 2026\n    ### Jetzt bewerben!\n  ## HsH-Akademie: Bringt mich weiter.\n  ## Offen und vielfältig\n  ## Entdecken Sie Ihr Potenzial\n  ## What's next? HsH!\n    ### Externer Inhalt\n# Fragen zum Studium? Wir haben die Antworten!\n# Aktuelles\n    ###  Von Rohdaten zu Entscheidungen: Entwicklung einer BI-Architektur auf Basis der Medallion-Architektur für datengetriebene Prozesse in der Bauwirtschaft \n    ###  Individueller Wissenszugang im Naturerlebnis: Eine Bachelorarbeit zur Förderung kindlicher Entdeckungsfreude. \n    ###  Timo Strache: Zwischen Hörsaal und Heimrennen \n  ## Veranstaltungen und Termine\n    ### Online-Informationsabend Weiterbildung \"Sustainability Management\"\n    ### Summer School: Prokrastination und Zeitmanagement (Präsenz)\n    ### Informationsabend zur Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\"\n    ### Summer School: Moderationskompetenzen für den Beruf (Präsenz)\n# Social Media\n    ### Folgen Sie uns\n    ### Aktuelle Beiträge auf Instagram\n# Anwendungsorientierte Forschung\n  ## HsH und Gesellschaft\n    ### Stellungnahme zum Thema Antisemitismus und freie Diskursräume\n    ### innovation + hannover + university + city = innovercity\n    ### ForuM-Studie: Neue Erkenntnisse zu sexualisierter Gewalt und Herausforderungen für die evangelische Kirche\n    ### Kabelloses Ladesystem für Elektrofahrzeuge: Forschungsprojekt LaneCharge präsentiert erfolgreiche Ergebnisse\n    ### Doppelte Auszeichnung: Professorin und Studentin der HsH erhalten Wissenschaftspreis Niedersachsen des MWK\n    ### Frauen starten durch in der IT: neue Weiterbildung an der HsH-Akademie\n    ### Campus Motorsport startet in eine ihrer erfolgreichsten Saisons\n# Job und Karriere\n  ## Study what's next. Studieren an der HsH\n  ## Erfolgsgeschichten\n  ## Studierende an der HsH schließen erfolgreich ihr Studium ab und starten vielfältige Karrierewege.\n    ### Dr. Bennet Luck\n    ### Saskia Reis\n    ### Laurenz Wuttke\n    ### Anna-Lena Sting & Jasmin Friedrichs\n    ### Jorsina Lukaj"
+    },
+    {
+      "nr": 24,
+      "titel": "www › drifthsh driver of future transformation › energyzero campus innovationslabor fuer einen klimaneutralen campus › news — Aktuelles",
+      "url": "https://www.hs-hannover.de/ueber-uns/strategie/drifthsh-driver-of-future-transformation/energyzero-campus-innovationslabor-fuer-einen-klimaneutralen-campus/news",
+      "fakultaet": "",
+      "struktur": "# Aktuelles\n    ###  Startschuss für DriFT@HsH "
+    },
+    {
+      "nr": 25,
+      "titel": "Sprachen & Studienkompetenzen",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen",
+      "fakultaet": "",
+      "struktur": "# Sprachen & Studienkompetenzen\n# Herzlich willkommen!\n  ## Sprachen & Studienkompetenzen - Angebot\n  ## Aktuelles\n    ### Intensivkurse im SoSe 2026\n    ### Language Tandem\n  ## Kontakt\n    ### Adresse\n    ### Karte\n    ### Externer Inhalt"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.50943,
+      "id": "9c7cc94c-b7d8-5a06-954b-66e68806874f",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+      "title_anzeige": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "section_heading": "Anfahrtsbeschreibung",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "### Postadresse\nHochschule Hannover\nPostfach 92 02 51\n30441 Hannover\n\n## Anfahrtsbeschreibung\nSollten Sie mit dem Auto kommen, stehen in unmittelbarer Nähe der Hochschule Parkplätze zur Verfügung. Anfahrt über Stammestraße oder Lodemannweg (siehe oben).\nWenn Sie während Ihrer Anreise zum Campus Lind"
+    },
+    {
+      "rang": 2,
+      "score": 2.33784,
+      "id": "9c6dd735-6746-536f-b350-024133dc28e2",
+      "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+      "title_anzeige": "Standorte und Öffnungszeiten",
+      "section_heading": "Standorte und Öffnungszeiten > Wegbeschreibung > Standorte und Öffnungszeiten > Campus Linden/Ricklinger Stadtweg > Standorte und Öffnungszeiten",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Bismarckstraße\nGebäude 5A - 5E\nHörsäle, Seminarräume\nProjekthaus Zukunf MINT/MINT-Zukunftslabor\nBismarckstraße 2\n30173 Hannover\nÖffnungszeiten:  \n|   |   | Vorlesungszeit   | Vorlesungsfreie Zeit  |\n| --- | --- | --- | --- |\n| Öffentlichkeit, Hochschulpersonal und weitere Zutrittsberechtigte   | "
+    },
+    {
+      "rang": 3,
+      "score": 2.20923,
+      "id": "f868c94e-e754-51e2-ae8c-24f5e6d1725d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/Green_Office/240319_mobilitaetskonzept.pdf",
+      "title_anzeige": "www › Strategische Hochschulentwicklung › Green Office › 240319 mobilitaetskonzept — Einleitung",
+      "section_heading": "**Maßnahmenkonzept für nachhaltige Mobilität 2023/24** > **Einleitung**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "|**Autoverkehr**||\n|Ab Sommer 2024|Der Fuhrpark der HsH wird nachhaltiger aufgestellt. Die bisher geleasten\nVerbrenner-Autos werden durch E-Autos ersetzt und der Fuhrpark wird\ninsgesamt verkleinert. In den Fuhrpark werden außerdem E-Diensträder\naufgenommen, die für Dienstgänge genutzt werden können."
+    },
+    {
+      "rang": 4,
+      "score": 1.94203,
+      "id": "b911cbf9-ca20-57ab-aa66-d61a5d31f258",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center",
+      "title_anzeige": "Career Center",
+      "section_heading": "Career Center > Anfahrt",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "## Anfahrt\n**Adresse:**\nHochschule Hannover\nUniversity of Applied Sciences and Arts\nServicezentrum Beratung\nCareer Center\nHaus 1J\nRicklinger Stadtweg 120\n30459 Hannover  \n**Anfahrt:**\nSollten Sie mit dem Auto kommen, stehen in unmittelbarer Nähe der Hochschule Parkplätze zur Verfügung. Anfahrt über "
+    },
+    {
+      "rang": 5,
+      "score": 1.71143,
+      "id": "82c1d29d-4f28-5ff9-91c3-c17ac33e8d2b",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/campus-linden-wird-zur-radzone-hochschule-hannover-feiert-fahrradfest-premiere",
+      "title_anzeige": "Campus Linden wird zur Radzone: Hochschule Hannover feiert Fahrradfest-Premiere",
+      "section_heading": "Campus Linden wird zur Radzone: Hochschule Hannover feiert Fahrradfest-Premiere > Fahrradcheck, Fahrradbörse und Live-Musik: Die Hochschule Hannover hat mit ihrem ersten Fahrradfest auf dem Campus Linden ein buntes Programm für nachhaltige Mobilität auf die Beine gestellt – und will damit erst den Anfang gemacht haben.",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "05.05.2026\n# Campus Linden wird zur Radzone: Hochschule Hannover feiert Fahrradfest-Premiere  \n###  Fahrradcheck, Fahrradbörse und Live-Musik: Die Hochschule Hannover hat mit ihrem ersten Fahrradfest auf dem Campus Linden ein buntes Programm für nachhaltige Mobilität auf die Beine gestellt – und wil"
+    },
+    {
+      "rang": 6,
+      "score": 1.67214,
+      "id": "f4065949-9e7a-5535-ad1d-2607dec0b4bc",
+      "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+      "title_anzeige": "itr › kontakt",
+      "section_heading": "Anfahrt",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "#\n\n# Anfahrt\n#####  Stadtbahn (ÜSTRA)\nAus Richtung Hauptbahnhof: Nehmen Sie die Linie 3 oder Linie 7 (Richtung Wettbergen) bis zur Haltestelle Bahnhof Linden/Fischerhof.\nAus Richtung Wettbergen: Nehmen Sie die Linie 3 (Richtung Altwarmbüchen) oder die Linie 7 (Richtung Misburg) bis zur Haltestelle B"
+    },
+    {
+      "rang": 7,
+      "score": 1.60501,
+      "id": "4f47801d-ac3b-524f-ad68-8a9dae795623",
+      "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+      "title_anzeige": "mint › orientieren › waehrend der schulzeit › campus day berufsorientierungstage",
+      "section_heading": "",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "* [Vortragsübersicht für Freitag, den 6. Februar 2026](https://mint.hs-hannover.de/fileadmin/4_F%C3%BCr_Lehrkr%C3%A4fte/Campus_Day_2026_Vortragswahl_Freitag.pdf)  \nWir empfehlen die Anreise mit öffentlichen Verkehrsmitteln, da vor Ort nur eine begrenzte Anzahl an Parkplätzen zur Verfügung steht.\nDie"
+    },
+    {
+      "rang": 8,
+      "score": 1.53625,
+      "id": "5c40f211-3784-5889-9f22-295dbb5a57b6",
+      "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+      "title_anzeige": "mint › orientieren › waehrend der schulzeit › campus day berufsorientierungstage",
+      "section_heading": "",
+      "chunk_index": 20,
+      "text_vollstaendig": false,
+      "auszug": "Wir empfehlen die Anreise mit öffentlichen Verkehrsmitteln, da vor Ort nur eine begrenzte Anzahl an Parkplätzen zur Verfügung steht.\nDie nächst gelegene Haltestelle ist **Hannover-Linden/Fischerhof** , die sowohl per Bus (100, 200), Stadtbahn (3, 7, 13, 17), S-Bahn (S1, S2, S51, S52) als auch mit de"
+    },
+    {
+      "rang": 9,
+      "score": 1.43745,
+      "id": "ccc320bf-f57e-59fb-9822-33816993f29f",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/die-hsh-in-bildern",
+      "title_anzeige": "www › profil › wer wir sind › die hsh in bildern",
+      "section_heading": "Die HsH in Bildern",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "![Eindruck des Campus Kleefeld](https://www.hs-hannover.de/fileadmin/_processed_/9/b/csm_HsH-Campus_Kleefeld_web_d1f6918c5b.jpg?rbiFocus=mobile)\n© HsH\nEindruck des Campus Kleefeld\n![Gebäude auf dem Campus Linden](https://www.hs-hannover.de/fileadmin/_processed_/2/d/csm_HsH-Campus_Linden_F1_F2_web_c2"
+    },
+    {
+      "rang": 10,
+      "score": 1.43317,
+      "id": "a2c4d493-9cf1-567d-a941-6dac1071a5e2",
+      "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+      "title_anzeige": "itr › landing page › studium",
+      "section_heading": "In Vollzeit oder Teilzeit > Campus Linden",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "##\n# Campus Linden\nDen Campus Linden der Hochschule Hannover finden Sie am Ricklinger Stadtweg. Auf dem Campus haben die Fakultäten I, II und IV ihre Räume. Der Studiengang Technisches Informationsdesign und Technische Redaktion gehört zur Fakultät I Elektro- und Informationstechnik. Außerdem befind"
+    },
+    {
+      "rang": 11,
+      "score": 1.39247,
+      "id": "495aea49-cbd8-589f-a475-99a6fbb51c05",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+      "title_anzeige": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "section_heading": "Campus Linden",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Campus Linden\nAuf dem Campus der Hochschule Hannover am Ricklinger Stadtweg in Hannover-Linden finden Sie die Fakultät I – Elektro- und Informationstechnik, Teile der Fakultät II – Maschinenbau und Bioverfahrenstechnik, die Fakultät IV – Wirtschaf"
+    },
+    {
+      "rang": 12,
+      "score": 1.30744,
+      "id": "78122f9b-0181-5757-ac2f-16ad8881c8cc",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+      "title_anzeige": "Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert",
+      "section_heading": "Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert > Fünf Standorte für Vielfalt",
+      "chunk_index": 32,
+      "text_vollstaendig": true,
+      "auszug": "## Fünf Standorte für Vielfalt\nDie unterschiedlichen Fakultäten und Einrichtungen der HsH sind auf fünf Standorte in Hannover verteilt, die sich im Laufe der Jahrzehnte aus der [Geschichte der HsH](https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh) entwickelt haben. Hau"
+    },
+    {
+      "rang": 13,
+      "score": 1.30662,
+      "id": "eb4d2568-49a0-5340-9c2d-6e70394ab034",
+      "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+      "title_anzeige": "Standorte und Öffnungszeiten",
+      "section_heading": "Standorte und Öffnungszeiten > Gebäudepläne",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## Gebäudepläne\n[ Hier finden Sie eine Übersicht der Gebäude am Standort Campus Linden/Ricklinger Stadtweg. ](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/80_Lageplaene/Lageplan_Linden20170915.pdf)\n[ Hier finden Sie eine Übersicht der Gebäude am Standort Bismarckstraße. ](https://f1"
+    },
+    {
+      "rang": 14,
+      "score": 1.27643,
+      "id": "1a332384-94cd-5d42-bab8-c578e681ec08",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "— 3 Kurzdarstellung der Fakultäten",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "Hochschulentwicklungsplan 2022–2026  \nFakultäten  \nCampus Linden Ricklinger Stadtweg 118/120 | 30459 Hannover\nLinden  \nCampus Linden Ricklinger Stadtweg 118/120 | 30459 Hannover  \nVorworFakultä **t** I"
+    },
+    {
+      "rang": 15,
+      "score": 1.26575,
+      "id": "65933799-5a89-5f78-996b-df1bfac1d557",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt",
+      "title_anzeige": "www › gebaeudemanagement › standorte › standorte und anfahrt",
+      "section_heading": "Standorte und Anfahrt",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Standorte und Anfahrt\nDie fünf Fakultäten der Hochschule Hannover verteilen sich auf mehrere Standorte innerhalb der niedersächschen Landeshauptstadt. Über den zentralen Campus am Ricklinger Stadtweg in Linden hinaus, auf dem drei Fakultäten anges"
+    },
+    {
+      "rang": 16,
+      "score": 1.24632,
+      "id": "91aa3662-eecf-5c0d-a3a3-4be311779c65",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+      "title_anzeige": "f5 › Studium › Internationales › HsH Fakultaet V en webseite — Hannover",
+      "section_heading": "**Hochschule Hannover** _University of Applied Sciences and Arts_ > **Locations** > **Hochschule Hannover** _University of Applied Sciences and Arts_ > _Linden_ > **Hochschule Hannover** _University of Applied Sciences and Arts_ > **Campus Linden**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **Locations**\n\n## _Linden_  \n- Faculties I/ II/ IV:\n\n## **Campus Linden**  \nRicklinger Stadtweg 120, 30459 Hanover  \n- Electrical Engineering &  \n- Information Technology  \n- Mechanical & Bio Process  \nEngineering  \n- Business & Computer  \nScience  \nPage 8"
+    },
+    {
+      "rang": 17,
+      "score": 1.24364,
+      "id": "d75a5fe6-f4fe-5059-8b83-a2a968e8b48f",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh",
+      "title_anzeige": "Unsere Geschichte",
+      "section_heading": "Unsere Geschichte > Der Hauptstandort Linden im Herzen Hannovers",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "Die jüngste Fakultät der HsH hat Ende 1998 den damaligen Neubau Gebäude H auf dem Campus bezogen: Bereits zum Wintersemester 1993/94 wurden die Studiengänge Betriebswirtschaftslehre und Wirtschaftsinformatik der Fakultät IV – Wirtschaft und Informatik eingerichtet. Zum Wintersemester 1997/98 nahmen "
+    },
+    {
+      "rang": 18,
+      "score": 1.22916,
+      "id": "3d7e6d8d-537d-5b63-aa8c-37ace43684db",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/mit-familie-auf-dem-campus",
+      "title_anzeige": "Mit Kind(ern) auf dem Campus",
+      "section_heading": "Mit Kind(ern) auf dem Campus > Wickel- und Stillräume",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Wickel- und Stillräume\nDamit Eltern, die mit ihren Kindern Zeit an der Hochschule verbringen, sich zurückziehen und die Kinder versorgen können, wurden an allen Standorten Wickelräume und zum Teil auch Stillräume eingerichtet. Die Räume liegen entweder ebenerdig oder sind mit einem Aufzug gut zu "
+    },
+    {
+      "rang": 19,
+      "score": 1.22878,
+      "id": "c66e6e74-69c9-5814-aa40-b2c6f39c9f26",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot",
+      "title_anzeige": "www › studium › studienangebot",
+      "section_heading": "Studienangebot > Info-Point am Campus Linden",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Info-Point am Campus Linden\nHier können Sie alle Ihre Fragen rund um das Studium, einen Studiengangswechsel, die Zulassung und Anträge persönlich stellen!\n**Öffnungszeiten:**\nMontag bis Donnerstag von 9–12 Uhr und 13–15 Uhr.\nFreitags keine persönliche Sprechstunde, jedoch telefonisch von 9–12 Uhr"
+    },
+    {
+      "rang": 20,
+      "score": 1.20666,
+      "id": "05aa42db-cf65-5480-ad0b-7ee8bdfc4469",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Unsere Standorte** > **Basisdaten**",
+      "chunk_index": 21,
+      "text_vollstaendig": true,
+      "auszug": "## **Basisdaten**  \nStandort Campus Linden  \n- 5 Bachelor-Studiengänge  \n- 2 Master-Studiengänge Rund 1.300 Studierende  \n- 44 Professor*innen  \n© HsH/Lam Nguyen  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_"
+    },
+    {
+      "rang": 21,
+      "score": 1.20586,
+      "id": "3ae17394-633c-540b-882b-6a10bb439433",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte",
+      "title_anzeige": "www › organisation › gebaeudemanagement › standorte",
+      "section_heading": "Standorte",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Standorte\nDie fünf Fakultäten der Hochschule Hannover verteilen sich auf mehrere Standorte innerhalb der niedersächschen Landeshauptstadt. Über den zentralen Campus am Ricklinger Stadtweg in Linden hinaus, auf dem drei Fakultäten angesiedelt sind,"
+    },
+    {
+      "rang": 22,
+      "score": 1.19757,
+      "id": "5e05c2fe-36a7-5cf7-bb18-7926fb9079f4",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik > Ihr Weg zu uns:",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## Ihr Weg zu uns:\n##### Stadtbahn\nDie Stadtbahn fährt mit der Linie 3 oder 7 Richtung Wettbergen bis zur Haltestelle Bahnhof Linden/Fischerhof.\n##### S-Bahn\nDie S- Bahn Linien S2, S21, S5, S51 fahren bis zum Bahnhof Linden/Fischerhof.\n##### Bus\nDie Buslinien 100 und 200 halten direkt am Campus der "
+    },
+    {
+      "rang": 23,
+      "score": 1.19294,
+      "id": "9ebb3047-84a0-5ce0-892b-b18bf55ee85b",
+      "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/sonstiges/einfuehrung-inarbeitssicherheit-und-gesundheitsschutzfuer-studierende-an-der-hsh-fakultaet-iv/medizinische-notfaelle-erste-hilfe",
+      "title_anzeige": "Medizinische Notfälle, Erste-Hilfe",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "![](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Bilderpool/Gebaeude/1H-vom-Parkplatz.jpg?rbiFocus=mobile)"
+    },
+    {
+      "rang": 24,
+      "score": 1.16437,
+      "id": "4cd0681c-cb8b-5bdd-a523-c78622ad7cc8",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-nachhaltige-elektrische-energieversorgung-nev",
+      "title_anzeige": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV)",
+      "section_heading": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV) > 21.09.2026 > Veranstaltungsort",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "### Veranstaltungsort\nHochschule Hannover, Fakultät I – Elektro- und Informationstechnik, Campus Linden\nRicklinger Stadtweg 120\n30459 Hannover\nDeutschland\n1B.0.11  \n[ Lageplan  ](https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden/ \"La"
+    },
+    {
+      "rang": 25,
+      "score": 1.14028,
+      "id": "13a04c03-9f52-5c60-98ae-cb9b292f0a7d",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+      "title_anzeige": "Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert",
+      "section_heading": "Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert > Fünf Standorte für Vielfalt",
+      "chunk_index": 34,
+      "text_vollstaendig": true,
+      "auszug": "Linden\n![Eindruck des Campus Kleefeld](https://www.hs-hannover.de/fileadmin/_processed_/9/b/csm_HsH-Campus_Kleefeld_web_5c2a372aa5.jpg?rbiFocus=mobile)\nKleefeld\n![](https://www.hs-hannover.de/fileadmin/_processed_/a/2/csm_Ahlem_LamNguyenTien_komp_351d6ca453.jpg?rbiFocus=mobile)\nAhlem\n![](https://www"
+    },
+    {
+      "rang": 26,
+      "score": 1.13665,
+      "id": "605c5895-15da-55d8-a909-3c8a2f5f4fae",
+      "source_url": "https://f4.hs-hannover.de",
+      "title_anzeige": "Herzlich Willkommen",
+      "section_heading": "Herzlich Willkommen > Aktuelle Veranstaltungen > Lageplan Campus Linden > Herzlich Willkommen > Aktuelle Veranstaltungen > Externer Inhalt",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "### Lageplan Campus Linden\n### Externer Inhalt\nAn dieser Stelle finden Sie einen externen Inhalt von OpenStreetMap, der aufgrund der aktuell getroffenen Cookie-Einstellungen nicht automatisch angezeigt wird.\nMit Klick auf den Button bestätigen Sie die Einbettung des externen Inhalts und damit das Se"
+    },
+    {
+      "rang": 27,
+      "score": 1.12025,
+      "id": "eaeedd2d-402f-5ed0-b848-9ca49b3093a7",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/campustalk-frag-dich-schlau",
+      "title_anzeige": "CampusTalk - Frag dich schlau!",
+      "section_heading": "CampusTalk - Frag dich schlau! > 04.06.2026 > Veranstaltungsort",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Veranstaltungsort\nHörsaal im Studierendenzentrum, Campus Linden\nStudienberatung\nRicklinger Stadtweg 120\n30459 Hannover\n1J.0.01  \n[ 0511 9296 -8054 oder -7972 ](tel:0511%209296%20-8054%20oder%20-7972 \"Call 0511 9296 -8054 oder -7972 anrufen\")\nberatung(at)hs-hannover.de\n[ Lageplan  ](https://www.h"
+    },
+    {
+      "rang": 28,
+      "score": 1.09615,
+      "id": "a974ebab-939c-50c7-b886-7946f2e2f4fc",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/die-hsh-in-bildern",
+      "title_anzeige": "www › profil › wer wir sind › die hsh in bildern",
+      "section_heading": "Die HsH in Bildern",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "![Blick auf Planet M](https://www.hs-hannover.de/fileadmin/_processed_/3/f/csm_DSCF0212_Web_2ec9ec85f9.jpg?rbiFocus=mobile)\n© HsH/Lam Nguyen\nExpo Plaza 4: Verwaltungsgebäude und Planet M\n![Zwei Studierende in der Bibliothek](https://www.hs-hannover.de/fileadmin/_processed_/0/e/csm_Imagebilder_HsH_-4"
+    },
+    {
+      "rang": 29,
+      "score": 1.09476,
+      "id": "a14588f2-14b5-5ac7-afa1-594fac2a710c",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/strategische-hochschulentwicklung/thematische-schwerpunkte/green-office",
+      "title_anzeige": "www › strategische hochschulentwicklung › thematische schwerpunkte › green office",
+      "section_heading": "Gartentreffen",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## Gartentreffen\n![Campusgarten](https://www.hs-hannover.de/fileadmin/_processed_/b/a/csm_20240711_113206_824c338007.jpg?rbiFocus=mobile)\nWir treffen uns jeden Dienstag im Sommersemester 2026 um 15:30 Uhr am Garten vor 1H, auch in der vorlesungsfreien Zeit.  \nAlle Studierenden, Lehrenden und Mitarbe"
+    },
+    {
+      "rang": 30,
+      "score": 1.08159,
+      "id": "180e1fb9-05ef-55ce-8edf-0f7d0f82ba25",
+      "source_url": "https://www.hs-hannover.de",
+      "title_anzeige": "Fragen zum Studium? Wir haben die Antworten!",
+      "section_heading": "Fragen zum Studium? Wir haben die Antworten!",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "#  Fragen zum Studium? Wir haben die Antworten!  \nBesuchen Sie den Info-Point am Campus Linden. Hier können Sie Ihre Fragen rund um das Studium, einen Studiengangswechsel, die Zulassung und Anträge persönlich stellen!  \n[ Erfahren Sie mehr am Info-Point! ](https://www.hs-hannover.de/ueber-uns/organi"
+    }
+  ],
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.65,
+    "kandidaten_s": 0.03,
+    "gesamt_s": 1.68
+  },
+  "auswahl_begruendung": ""
+}

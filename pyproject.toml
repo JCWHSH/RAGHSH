@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raghsh"
+version = "0.9.0"
+description = "RAG-System für die Hochschule Hannover: Crawler, Hybrid-Suche in Qdrant, MCP-Server, Web-App"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Jens Christian Will" }]
+requires-python = ">=3.11"
+# Kern: Index, Suche, MCP-Server. Getestete Versionen stehen in requirements.txt.
+dependencies = [
+    "qdrant-client>=1.17",
+    "fastembed>=0.8",
+    "onnxruntime",
+    "numpy",
+    "pyarrow",
+    "openai>=2",
+    "mcp>=1.27",
+    "httpx",
+    "requests",
+    "python-dotenv",
+    "langchain-text-splitters",
+]
+
+[project.optional-dependencies]
+crawl = ["crawl4ai[all]", "pymupdf4llm", "python-slugify"]   # pymupdf4llm/PyMuPDF: AGPL-3.0
+web = ["streamlit"]
+auswertung = ["openpyxl", "pytest"]
+ragas = ["ragas", "langchain-openai"]
+alles = ["raghsh[crawl,web,auswertung]"]
+
+[project.scripts]
+raghsh-server = "raghsh.server.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"raghsh.web" = ["static/*", "pages/*.py"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "auswertung/gold"]

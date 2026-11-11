@@ -1,0 +1,1 @@
+"""Streamlit-Oberfläche (MCP-Client)."""

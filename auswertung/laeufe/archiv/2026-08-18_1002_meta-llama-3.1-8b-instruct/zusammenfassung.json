@@ -1,0 +1,69 @@
+{
+  "stand": {
+    "erzeugt": "2026-08-18T10:11:54",
+    "git_commit": "b40e486"
+  },
+  "kennzahlen": {
+    "faelle_gesamt": 2,
+    "faelle_moeglich": 2,
+    "gold_in_kandidaten": 1,
+    "gold_in_quellen": 0,
+    "gold_kandidat_rang1": 0,
+    "median_rang_kandidat": 8,
+    "diagnosen": {
+      "retrieval_fehler": 1,
+      "auswahl_fehler": 1
+    },
+    "fragmente": 2
+  },
+  "faelle": [
+    {
+      "id": "n03",
+      "herkunft": "nutzer_gold",
+      "antwort_auszug": "Dazu liegen mir keine Informationen aus den offiziellen Dokumenten der HsH vor.",
+      "gold_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/20_Praxisphasenordnung/20121213_Praxisphasen-Ordnung.pdf",
+      "schwierigkeit": "mittel",
+      "fairness_risiko": "niedrig",
+      "gold_im_korpus": true,
+      "rang_kandidat": null,
+      "rang_quelle": null,
+      "rang_chunk": null,
+      "gold_in_kandidaten": false,
+      "gold_in_quellen": false,
+      "begriffe_quote": 0.0,
+      "begriffe_fehlend": [
+        "10 Wochen",
+        "18 Credits"
+      ],
+      "verbotene": [],
+      "fragment_im_kontext": true,
+      "diagnose": "retrieval_fehler",
+      "dauer_s": 3.65,
+      "frage": "[Nutzerfrage – nicht veröffentlicht]"
+    },
+    {
+      "id": "q06",
+      "herkunft": "chargy_beidawi",
+      "antwort_auszug": "Dazu liegen mir keine Informationen aus den offiziellen Dokumenten der HsH vor.",
+      "gold_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "schwierigkeit": "mittel",
+      "fairness_risiko": "mittel",
+      "gold_im_korpus": true,
+      "rang_kandidat": 8,
+      "rang_quelle": null,
+      "rang_chunk": 8,
+      "gold_in_kandidaten": true,
+      "gold_in_quellen": false,
+      "begriffe_quote": 0.0,
+      "begriffe_fehlend": [
+        "Stephan Rittmüller",
+        "F1-Pruefungsverwaltung"
+      ],
+      "verbotene": [],
+      "fragment_im_kontext": true,
+      "diagnose": "auswahl_fehler",
+      "dauer_s": 6.47,
+      "frage": "An wen wende ich mich in der Fakultät I, wenn ich Probleme bei der Prüfungsanmeldung habe?"
+    }
+  ]
+}

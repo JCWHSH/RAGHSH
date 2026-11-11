@@ -1,0 +1,561 @@
+{
+  "fall": {
+    "id": "q18",
+    "case_type": "direct",
+    "question": "Wie viele Studierende studieren ungefähr an der Hochschule Hannover?",
+    "reference_answer": "Offizielle HsH-Seiten nennen unterschiedliche gerundete Angaben: Die Profilseite und die Seite Studierende nennen rund 9.000 Studierende; die allgemeine Über-uns-Seite nennt mehr als 10.000 Studierende. Eine Antwort ist gültig, wenn sie eine dieser offiziellen gerundeten HsH-Angaben korrekt wiedergibt und nicht als exakte Zahl ausgibt.",
+    "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/studierende",
+      "https://www.hs-hannover.de/ueber-uns"
+    ],
+    "required_facts": [
+      "Die Antwort nennt eine offizielle gerundete HsH-Angabe zur Studierendenzahl."
+    ],
+    "optional_facts": [
+      "Die Profilseite nennt außerdem rund 1.300 Beschäftigte.",
+      "Wenn mehrere HsH-Seiten herangezogen werden, sollte die Antwort die unterschiedlichen offiziellen Rundungen einordnen."
+    ],
+    "forbidden_claims": [
+      "Eine exakte Studierendenzahl nennen, die die Quelle nicht belegt.",
+      "Eine nicht-HsH-Quelle für die Studierendenzahl verwenden."
+    ],
+    "answer_variants": [
+      {
+        "id": "profil_rund_9000",
+        "title": "Profilseite: rund 9.000 Studierende",
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+        "source_policy": "exact_gold_source",
+        "accepted_source_urls": [
+          "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/studierende"
+        ],
+        "required_facts": [
+          "Die HsH nennt rund 9.000 Studierende."
+        ],
+        "optional_facts": [
+          "Die HsH nennt außerdem rund 1.300 Beschäftigte."
+        ],
+        "forbidden_claims": [
+          "Die rund 9.000 als exakte Zahl darstellen."
+        ]
+      },
+      {
+        "id": "ueber_uns_mehr_als_10000",
+        "title": "Über-uns-Seite: mehr als 10.000 Studierende",
+        "source_url": "https://www.hs-hannover.de/ueber-uns",
+        "source_policy": "exact_gold_source",
+        "accepted_source_urls": [],
+        "required_facts": [
+          "Die HsH nennt mehr als 10.000 Studierende."
+        ],
+        "optional_facts": [
+          "Die Aussage steht auf der allgemeinen Über-uns-Seite."
+        ],
+        "forbidden_claims": [
+          "Mehr als 10.000 als exakte Zahl darstellen."
+        ]
+      }
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Mehrere offizielle HsH-Seiten nennen unterschiedliche gerundete Angaben. Deshalb sind rund 9.000 und mehr als 10.000 gültige HsH-belegte Antwortpfade, solange die Antwort die Angabe nicht als exakte Zahl ausgibt.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true
+  },
+  "modell": "meta-llama-3.1-8b-instruct",
+  "zeitstempel": "2026-08-17T16:39:47",
+  "dauer_s": 8.21,
+  "fehler": null,
+  "antwort": "Die genaue Anzahl der Studierenden an der Hochschule Hannover ist in den bereitgestellten Dokumenten nicht explizit angegeben. Es wird jedoch erwähnt, dass die Hochschule im Wintersemester 2019/20 eine Gesamtzahl von 9.897 Studierenden hatte.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "fakultaet": "",
+      "struktur": "  ## 01. Wir – die HsH\n  ## Daten & Fakten\n  ## HsH in Zahlen 2006 ─ 2016\n  ## HsH in Zahlen 2016 ─ 2023\n  ## Studierende nach Fakultäten\n  ## Organisation\n  ## Vision Statement des Präsidiums\n  ## Geschichte der HsH\n  ## Vorgängereinrichtungen\n  ## Geschichte der HsH\n  ## Gründung der Fachhochschule Hannover\n# Unsere Standorte\n  ## 02. Qualifizieren – Studium & Lehre\n  ## Studienangebot\n  ## Bachelor-Studiengänge\n  ## Duale Bachelor-Studiengänge\n  ## Ausbildungsbegleitende Bachelor-Studiengänge\n  ## Berufsbegleitende & berufsintegrierende\n  ## Bachelor-Studiengänge\n  ## Master-Studiengänge\n  ## Digitale Transformation\n  ## Duale Master-Studiengänge\n  ## Berufsbegleitende Master-Studiengänge\n  ## Weiterbildende Master-Studiengänge\n  ## HsH – Hier studiert Hannover\n  ## Vielfältig und praxisnah\n  ## Fakultät I\n  ## Elektro- und Informationstechnik\n  ## Basisdaten\n  ## Fakultät II\n  ## Maschinenbau und Bioverfahrenstechnik\n  ## Basisdaten\n  ## Fakultät III\n  ## Medien, Information & Design\n  ## Basisdaten\n  ## Fakultät IV\n  ## Wirtschaft & Informatik\n  ## Betriebswirtschaft\n  ## Basisdaten\n  ## Fakultät V\n  ## Diakonie, Gesundheit & Soziales\n  ## Basisdaten\n  ## HsH-Akademie\n  ## Zentrum für lebenslanges Lernen\n  ## HsH – International\n  ## NEXSTER\n  ## Lebendige Innovations- und Transferkultur Transfer in die Praxis als zentrales Element\n  ## innovercity\n  ## Wissenschaft trifft auf Gesellschaft und Wirtschaft\n  ## Unsere Absolventinnen"
+    },
+    {
+      "nr": 2,
+      "titel": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Erstsemesterinformation 27.02.2026\n  ## Zahlen und Daten zur Hochschule:\n  ## Standorte\n  ## Fünf Bachelorstudiengänge\n  ## ▪ Mechatronik (MEC)\n  ## Konsekutive Masterstudiengänge der Fakultät\n  ## Veranstaltungstypen\n  ## Vorlesungszeiten\n  ## Mensazeiten\n  ## Starter-Kit\n  ## ▪ Taschenrechner (nicht programmierbar)\n  ## Rechtliche Informationen\n  ## 1. HsH-Emailadresse ist offizielle Post\n  ## 2. Umgang mit Materialien und Medien\n  ## Informationen zur Campuscard und Öffi-Ticket etc.\n  ## Materialien in Moodle Online-Kurse zu den Vorlesungen\n  ## Erreichbarkeit/Kommunikation von/mit Lehrenden ProfessorInnen, Lehrbeauftragte, MitarbeiterInnen\n  ## Wahl der Stundenpläne / Start-ING EIT MEC EWI\n  ## Vorlesungszeiten Seminargruppe Z1 Stdg. Elektrotechnik und Informationstechnik\n  ## Vorlesungszeiten Seminargruppe N1 Stdg. Nachhaltige Elektrische Energieversorgung (NEV)\n  ## Vorlesungszeiten Seminargruppe M1 Stdg. Mechatronik\n  ## Wahl eines Start-ING Kurses\n  ## Für das Modul Start-ING besteht Anwesenheitspflicht .\n  ## Vorlesungszeiten Seminargruppe R2 Stdg. Technisches Informationsdesign und Technische Redaktion\n  ## Orientierung im Gebäude Ricklinger Stadtweg 120\n  ## Orientierung im Gebäude Bismarckstraße\n  ## Informationen zu Arbeitssicherheit und Gesundheitsschutz\n  ## ▪ Versicherungsschutz bei Unfällen\n  ## ▪ Mutterschutz\n  ## ▪ Medizinische Notfälle, Erste-Hilfe\n  ## ▪ Räumung von Gebäuden im Gefahrfall\n  ## Versicherungsschutz bei Unfällen Wer und was ist versichert?\n  ## Versicherungsschutz bei Unfällen Was ist nicht versichert?\n  ## ▪ private Studienfahrten\n  ## ▪ private Aktivitäten auf dem Gelände der Hochschule\n  ## Versicherungsschutz bei Unfällen Informationen - LUKN\n  ## ➢ Weitere Informationen erhalten Sie im Internet\n  ## Versicherungsschutz bei Unfällen Unfallmeldung\n  ## Versicherungsschutz bei Unfällen Unfallmeldung - Unfallanzeige\n  ## ▪ Weitere Informationen erhalten Sie bei Ihren Ansprechpersonen in der Studierendenverwaltung, Dezernat III\n  ## Mutterschutz\n  ## ▪ Weitere Informationen erhalten Sie bei den Ansprechpersonen des Familienservice\n  ## Medizinische Notfälle – Erste Hilfe Erste-Hilfe-Plakate, Notfallplan/Notrufnummern in den Gebäuden der HsH\n  ## Meldung von Notfällen Notrufnummern, Notrufmeldung\n  ## Medizinische Notfälle\n  ## Feuer\n  ## Bei VoIP-Telefonen keine Vorwahl der „00“ !\n  ## Medizinische Notfälle – Erste Hilfe\n  ## Kennzeichnung, Standorte – Defibrillatoren, Erste Hilfe Material\n  ## Medizinische Notfälle – Erste Hilfe"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Internationales › Ukraine Krieg › Ukraine DE — Studieren in Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/Ukraine-Krieg/Ukraine_DE.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Studieren in Hannover\n  ## ERSTE SCHRITTE:\n  ## WAS IST DER UNTERSCHIED ZWISCHEN EINER UNIVERSITÄT UND EINER FACHHOCHSCHULE?\n  ## BEWERBUNGSVERFAHREN AN DEN HOCHSCHULEN HANNOVERS\n  ## VORAUSSETZUNGEN ZUM STUDIUM: BACHELOR UND STAATSEXAMEN\n  ## VORAUSSETZUNGEN ZUM STUDIUM: MASTER\n  ## SPRACHNACHWEISE\n  ## KOSTEN, FINANZIERUNG, KRANKENVERSICHERUNG\n  ## KONTAKT\n  ## RECHTSBERATUNG\n  ## ALLGEMEINE INFOS"
+    },
+    {
+      "nr": 4,
+      "titel": "f3 › Studiengaenge › BMI › BMI Studienhandbuch",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+      "fakultaet": "f3",
+      "struktur": "# Bachelor Medizinisches Informationsmanagement Studien- und  Modulhandbuch\n  ## Inhaltsverzeichnis\n  ## Vorwort\n  ## Teil I.\n  ## Studienhandbuch\n# 1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation\n  ## 1.1 Fakultäts- und Abteilungsstruktur\n  ## 1.2 Kleines Hochschullexikon\n  ## Dekanat\n  ## Erstsemester-Aufnahme\n  ## Lehrveranstaltungen\n  ## Moodle\n  ## iCMS\n  ## SWS\n  ## Credits, ECTS\n  ## Prüfungsordnung\n  ## Prüfungskommission\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## Auslandssemester\n  ## Studienpreise\n  ## 1.3 Kontaktdaten\n  ## Anschrift\n  ## Besucheradresse\n  ## E-Mail\n  ## Fax\n  ## Dekan der Fakultät III\n  ## Studiengangskoordinator\n  ## stv. Vorsitzender des Prüfungsausschusses\n  ## Auslandsbeauftragte\n  ## Studiengangsassistent\n  ## Prüfungsverwaltung\n  ## IT-Service-Desk\n  ## IT-Team der Abteilung IK\n  ## 1.4 Personenverzeichnis\n  ## 2 Bachelor-Studiengang Medizinisches Informationsmanagement (BMI)\n  ## 2.1 Studienvoraussetzung\n  ## 2.2 Studienaufnahme und Gebühren\n  ## 2.3 Ziel des Studiums\n  ## 2.4 Aufbau des Studiums\n  ## 2.4.1 Grundsätzliches zum Aufbau\n  ## 2.4.2 Pflicht, Wahlpflicht- und Wahlmodule\n  ## 2.4.3 Praxisphasen\n  ## 2.5 Prüfungsordnung\n  ## 2.6 Modulhandbuch\n  ## 2.6.1 Modulprüfungen\n  ## Teil II.\n  ## Modulbeschreibungen\n  ## 3 Erster Studienabschnitt\n  ## 3.1"
+    },
+    {
+      "nr": 5,
+      "titel": "Campus Day 2026: Über 1.000 Schülerinnen und Schüler erkunden die Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/campus-day-2026-ueber-1000-schuelerinnen-und-schueler-erkunden-die-hochschule-hannover",
+      "fakultaet": "",
+      "struktur": "# Campus Day 2026: Über 1.000 Schülerinnen und Schüler erkunden die Hochschule Hannover\n    ### Über 1.000 Schülerinnen und Schüler aus der Region strömten jüngst zum Campus Day der Hochschule Hannover (HsH). Bei mehr als 120 Veranstaltungen erlebten sie hautnah, welche vielfältigen Studienmöglichkeiten die HsH bietet. Das Interesse zeigt: Der Bedarf an Orientierung ist groß."
+    },
+    {
+      "nr": 6,
+      "titel": "karriere › portal › seiten › hochschule hannover 900000011 10057",
+      "url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html",
+      "fakultaet": "",
+      "struktur": "    ### Hochschule Hannover"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Jahresabschluss zum 31. Dezember 2019 und Lagebericht\n  ## BESTÄTIGUNGSVERMERK\n  ## Hochschule Hannover, Hannover\n  ## Bilanz zum 31. Dezember 2019\n  ## A k t i v a\n  ## Hochschule Hannover, Hannover\n  ## Gewinn- und Verlustrechnung für die Zeit vom 1. Januar bis 31. Dezember 2019\n  ## Anhang für das Geschäftsjahr 2019\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## Details zu den sonstigen periodenfremden Erträgen:\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## C. Abschlussprüferhonorar\n  ## D. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2019\n  ## Haftungsverhältnisse\n  ## E. Organe\n  ## Präsidium\n  ## Senat\n  ## Hochschulrat\n  ## Ergebnisverwendung\n  ## Nachtragsbericht\n  ## Hochschule Hannover, Hannover\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2019\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2019\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2b).\n  ## 4b).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c)."
+    },
+    {
+      "nr": 8,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Bilanz zum 31. Dezember 2017\n  ## Gewinn- und Verlustrechnung\n  ## für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2017\n  ## Anhang für das Geschäftsjahr 2017\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Kassenbestand, Guthaben bei Kreditinstituten\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2017\n  ## F. Organe\n  ## Präsidium\n  ## Senat\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2017\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2017\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2a/2b).\n  ## 4a).\n  ## 4b).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c).\n  ## 9).\n  ## 11a)."
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 6,
+      "titel": "karriere › portal › seiten › hochschule hannover 900000011 10057",
+      "url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html"
+    },
+    {
+      "nr": 1,
+      "titel": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "karriere › portal › seiten › hochschule hannover 900000011 10057",
+      "url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Hochschule Hannover",
+      "snippets": [
+        "### Hochschule Hannover\nDie HsH ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule der niedersächsischen Landeshauptstadt. Sie ist mit über 100 Partnerhochschulen international ausgerichtet und ermöglicht intensive Kooperationen in Lehre, Forschung und Verwaltung sowie internationalen Austausch von Studierenden, Lehrenden und Mitarbeitenden. Zugleich ist die Hochschule regionale verankert und beschäftigt derzeit insgesamt über 1.000 Lehrende, wissenschaftliche, künstlerische und Verwaltungsmitarbeitende."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "crawl_date": "2026-08-06",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Studierende nach Fakultäten**",
+      "snippets": [
+        "## **HsH in Zahlen** 2016 ─ 2023  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_\n\n## **Studierende nach Fakultäten**  \n**Fak. I Fak. II** ElektroMaschinenbau & Informations& Bioverfahrenstechnik technik  \n**Fak. III** Medien, Information & Design  \n**Fak. IV Fak. V** Wirtschaft Diakonie, & Informatik Gesundheit & Soziales  \nQuelle: Amtliche Statistik einschl. beurlaubte Studierende, Hochschule Hannover  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_\n\n## **Organisation**  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_  \n**Das Präsidium**",
+        "## Betriebswirtschaft\n\n## **Basisdaten**  \nStandort Campus Linden  \n- 7 Bachelor-Studiengänge 4 Master-Studiengänge Rund 2.100 Studierende  \n- 57 Professor*innen  \n© HsH/Ulf Ostländer  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "crawl_date": "2026-08-06",
+      "fremde_fundstellen": [
+        "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2023.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2021.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2022.pdf"
+      ],
+      "abschnitt": "**Offene Hochschule**",
+      "snippets": [
+        "##  **Offene Hochschule**  \nBeruflich qualifizierte Menschen ohne klassische Hochschulzugangsberechtigung erhalten Unterstützung, um ihre fachlichen Kenntnisse, Fertigkeiten und Kompetenzen aus der Berufspraxis in hochschulische Bildungskarrieren zu überführen. Derzeit sind rund 819 Bachelor- und 88 Master-Studierende (Stand WS 2019/20) an der Hochschule Hannover aufgrund beruflicher Qualifikation (§ 18 Abs. 4 NHG) immatrikuliert."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf"
+      ],
+      "abschnitt": "**2.7 Gleichstellung**",
+      "snippets": [
+        "- In Lehrangeboten und Workshops werden interkulturelle Handlungskompetenz und Diversitätskompetenz entwickelt und vermittelt. Ziel ist es, Studierende, Lehrende und Mitarbeitende für die Herausforderungen der Internationalisierung und der Globalisierung zu stärken.  \n- Beruflich qualifizierte Menschen ohne klassische Hochschulzugangsberechtigung erhalten Unterstützung, um ihre fachlichen Kenntnisse, Fertigkeiten und Kompetenzen aus der Berufspraxis in hochschulische Bildungskarrieren zu überführen. Während im Wintersemester 2016 / 2017 noch 851 Studierende mit beruflicher Qualifikation an der Hochschule Hannover studierten, konnte der Anteil um 48 Studierende gesteigert werden. Derzeit sind rund 842 Bachelor- und 57 Master-Studierende (Stand WS 2017 / 18) an der Hochschule Hannover aufgrund beruflicher Qualifikation (§ 18 Abs. 4 NHG) immatrikuliert."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.54954,
+      "id": "fec32499-92a0-5deb-8d5c-a990f33da950",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Studierende nach Fakultäten**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **HsH in Zahlen** 2016 ─ 2023  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_\n\n## **Studierende nach Fakultäten**  \n**Fak. I Fak. II** ElektroMaschinenbau & Informations& Bioverfahrenstechnik technik  \n**Fak. III** Medien, Information & Design  \n**Fak. IV Fak. V** Wirtschaft Diakonie, & I"
+    },
+    {
+      "rang": 2,
+      "score": 1.38826,
+      "id": "46b6df78-7b23-54c3-9a84-c2b1ab1d9015",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > Zahlen und Daten zur Hochschule:",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Erstsemesterinformation 27.02.2026  \nDekan Prof. Dr.-Ing. Frank Freund  \n**Fakultät I – Elektro- und Informationstechnik** _Dekanat und Verwaltung der Fakultät_  \nDekan: Prof. Dr.-Ing. Frank Freund Studiendekan: Prof. Dr.-Ing. Jan Peter Blath : Organisation/Beratung/Prüfungsangelegenheiten Herr Li"
+    },
+    {
+      "rang": 3,
+      "score": 1.3662,
+      "id": "b23b9a3c-1b1c-5619-aacc-6fd05a40789d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/Ukraine-Krieg/Ukraine_DE.pdf",
+      "title_anzeige": "www › Internationales › Ukraine Krieg › Ukraine DE — Studieren in Hannover",
+      "section_heading": "Studieren in Hannover",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Studieren in Hannover  \nHannover ist eine Studierendenstadt mit über 40 000 Studierenden. Es gibt verschiedene Universitäten und Hochschulen in Hannover mit einem umfassenden Studienangebot:\n\n## ERSTE SCHRITTE:  \nStudienangebot an der Hochschule prüfen: bietet die Hochschule meinen gewünschten St"
+    },
+    {
+      "rang": 4,
+      "score": 1.29979,
+      "id": "fba77d17-0968-5fb4-91be-69655ae542bf",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+      "title_anzeige": "f3 › Studiengaenge › BMI › BMI Studienhandbuch",
+      "section_heading": "**Bachelor Medizinisches Informationsmanagement** Studien- und  Modulhandbuch > **Teil I.** > **Bachelor Medizinisches Informationsmanagement** Studien- und  Modulhandbuch > **Studienhandbuch** > **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **1.1 Fakultäts- und Abteilungsstruktur**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "Die Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design  \n- Information und Kommunikation  \nDie Fakultät III ist die größte Fakultät der Hochschule Hannover. Insgesamt studieren an dieser Fakultät zurzeit etwa 2000 Studierende in 14 Bac"
+    },
+    {
+      "rang": 5,
+      "score": 1.29649,
+      "id": "f3de42e2-876c-57e1-9c82-46fd119b5b18",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/campus-day-2026-ueber-1000-schuelerinnen-und-schueler-erkunden-die-hochschule-hannover",
+      "title_anzeige": "Campus Day 2026: Über 1.000 Schülerinnen und Schüler erkunden die Hochschule Hannover",
+      "section_heading": "Campus Day 2026: Über 1.000 Schülerinnen und Schüler erkunden die Hochschule Hannover > Über 1.000 Schülerinnen und Schüler aus der Region strömten jüngst zum Campus Day der Hochschule Hannover (HsH). Bei mehr als 120 Veranstaltungen erlebten sie hautnah, welche vielfältigen Studienmöglichkeiten die HsH bietet. Das Interesse zeigt: Der Bedarf an Orientierung ist groß.",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "An der HsH studieren rund 9.000 Studierende in etwa 70 akkreditierten Studienangeboten an fünf Fakultäten. Damit ist sie die zweitgrößte Hochschule der Landeshauptstadt mit einem breitgefächerten Studienangebot in den Bereichen Ingenieur- und Wirtschaftswissenschaften, Sozialwesen sowie Informatik, "
+    },
+    {
+      "rang": 6,
+      "score": 1.27335,
+      "id": "8016a612-d26c-5974-90a7-c4990d93eeb0",
+      "source_url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html",
+      "title_anzeige": "karriere › portal › seiten › hochschule hannover 900000011 10057",
+      "section_heading": "Hochschule Hannover",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "### Hochschule Hannover\nDie HsH ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule der niedersächsischen Landeshauptstadt. Sie ist mit über 100 Partnerhochschulen international ausgerichtet und ermöglicht intensive Kooperationen in Lehre, Forschung und Verwaltung sow"
+    },
+    {
+      "rang": 7,
+      "score": 1.22399,
+      "id": "17e08bf6-0199-5c7d-8972-6356685e3cc5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**Offene Hochschule**",
+      "chunk_index": 149,
+      "text_vollstaendig": false,
+      "auszug": "##  **Offene Hochschule**  \nBeruflich qualifizierte Menschen ohne klassische Hochschulzugangsberechtigung erhalten Unterstützung, um ihre fachlichen Kenntnisse, Fertigkeiten und Kompetenzen aus der Berufspraxis in hochschulische Bildungskarrieren zu überführen. Derzeit sind rund 819 Bachelor- und 88"
+    },
+    {
+      "rang": 8,
+      "score": 1.19924,
+      "id": "9cafb620-ee2e-5e68-8937-cbb33205ea28",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "section_heading": "**2.7 Gleichstellung**",
+      "chunk_index": 125,
+      "text_vollstaendig": false,
+      "auszug": "- In Lehrangeboten und Workshops werden interkulturelle Handlungskompetenz und Diversitätskompetenz entwickelt und vermittelt. Ziel ist es, Studierende, Lehrende und Mitarbeitende für die Herausforderungen der Internationalisierung und der Globalisierung zu stärken.  \n- Beruflich qualifizierte Mensc"
+    },
+    {
+      "rang": 9,
+      "score": 1.19812,
+      "id": "d5c50f0e-e371-5f7f-a479-15cec1ca50da",
+      "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+      "title_anzeige": "itr › landing page › news",
+      "section_heading": "News",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "Herzlichen Glückwunsch! Es ist äußerst spannend, für die Studierenden zu erfahren, wie Du Dich für dieses Stipendium beworben hast. Kannst Du uns mehr zu dem Bewerbungsablauf erzählen?\nIch habe mich über die Website der Hochschule für das WIR-Stipendium beworben. Zunächst habe ich meine grundlegende"
+    },
+    {
+      "rang": 10,
+      "score": 1.19361,
+      "id": "ea14d018-8ae3-5108-929b-9c19601456c4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/05-MeldeRichtli.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2018 › 05 MeldeRichtli — 1. Einleitung",
+      "section_heading": "**8. Meldung von IS-Vorfällen an interne Stellen**",
+      "chunk_index": 15,
+      "text_vollstaendig": false,
+      "auszug": "Die Meldung enthält  \n- den Verantwortlichen des Verfahrens mit Kontaktdaten,  \n- eine Beschreibung des aufgetretenen Vorfalls,  \n- eine Abschätzung des Schadens,  \n- die zu erwartenden oder festgestellten Auswirkungen auf Schutzziele, und  \n- unternommene oder geplante Korrekturmaßnahmen mit Zeitpl"
+    },
+    {
+      "rang": 11,
+      "score": 1.15502,
+      "id": "534f5db4-b146-58c4-ae83-7655bb222ab5",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+      "title_anzeige": "f5 › Studium › Internationales › HsH Fakultaet V en webseite — Hannover",
+      "section_heading": "**Hochschule Hannover** _University of Applied Sciences and Arts_ > **The Hochschule Hannover** _Students per Faculty_",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **The Hochschule Hannover** _Students per Faculty_  \nFaculty I – Electrical Engineering and Information Technology  \nFaculty II – Mechanical and Bio Process Engineering Faculty III – Media, Information and Design Faculty IV – Business and Computer Science  \nFaculty V – Social Welfare and Diaconic"
+    },
+    {
+      "rang": 12,
+      "score": 1.12349,
+      "id": "45bc3134-97a3-5146-b25d-716e590bea37",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIB 2017",
+      "section_heading": "**Teil I.** > **Studienhandbuch** > **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **1.1 Fakultäts- und Abteilungsstruktur**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **Teil I.**\n\n## **Studienhandbuch**\n\n## **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation**\n## **1.1 Fakultäts- und Abteilungsstruktur**  \nDie Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design und  \n- Inform"
+    },
+    {
+      "rang": 13,
+      "score": 1.11525,
+      "id": "e2d01e23-6d85-54cc-87d8-ff884b0bfc0f",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Forschungen/Institute/IVEK/20190427_VEU_Fragen_und_Antworten.pdf",
+      "title_anzeige": "f2 › Institute › IVEK › 20190427 VEU Fragen und Antworten — Unsere Antworten!",
+      "section_heading": "**Hochschule Hannover** > **Fakultät II**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **Hochschule Hannover**\n\n## **Fakultät II**  \n**Maschinenbau und Bioverfahrenstechnik**  \n**(rd. 2.500 Studierende)**  \n**Campus Expo Plaza**  \n**Fak. III** Medien, Information und Design  \n**Campus Blumhardtstraße (Kleefeld) Fak. V** Diakonie, Gesundheit, Soziales  \nSeite 3  \nStudiengang VEU - V"
+    },
+    {
+      "rang": 14,
+      "score": 1.1048,
+      "id": "fad6b60d-8193-50f8-9fce-2cf691b43aeb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Unsere Standorte** > Betriebswirtschaft > **Unsere Standorte** > **Basisdaten**",
+      "chunk_index": 27,
+      "text_vollstaendig": true,
+      "auszug": "## Betriebswirtschaft\n\n## **Basisdaten**  \nStandort Campus Linden  \n- 7 Bachelor-Studiengänge 4 Master-Studiengänge Rund 2.100 Studierende  \n- 57 Professor*innen  \n© HsH/Ulf Ostländer  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_"
+    },
+    {
+      "rang": 15,
+      "score": 1.08668,
+      "id": "12d541bb-ffea-5922-a7f7-f32cedf1b0f4",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/studienprogramme/studymint",
+      "title_anzeige": "Orientierungssemester StudyMINT",
+      "section_heading": "StudyMINT - das Orientierungssemester > Ablauf",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## Ablauf\nDas Orientierungssemester StudyMINT ist ein Vollzeitsemester mit ungefähr 28 bis 30 Semesterwochenstunden. In den folgenden Angeboten können Sie bis zu 15 Credit Points (CPs) für Ihr späteres Studium sammeln:\nModul „Studieren“\n* Mathematik I\n* Grundlagen der Informatik\n* Wahlpflichtvorlesu"
+    },
+    {
+      "rang": 16,
+      "score": 1.06221,
+      "id": "0d0c90ae-1688-59de-b5f8-340b6c8586af",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2020.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM 2020",
+      "section_heading": "**Teil I.** > **Studienhandbuch** > **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **1.1 Fakultäts- und Abteilungsstruktur**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **Teil I.**\n\n## **Studienhandbuch**\n\n## **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation**\n## **1.1 Fakultäts- und Abteilungsstruktur**  \nDie Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design  \n- Informatio"
+    },
+    {
+      "rang": 17,
+      "score": 1.02836,
+      "id": "32bf715b-1274-5d79-a6ea-914897905a7b",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 Studien Modulhandbuch MDT 26 07 16",
+      "section_heading": "1.1 Fakultäts- und Abteilungsstruktur",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover ist in drei Abteilungen organisiert: Betriebswirtschaft (BWL), Informatik (I) und Wirtschaftsinformatik (WI). Insgesamt studieren zurzeit ca. 2110 Studierende (davon 950 in der Abt. Betrieb"
+    },
+    {
+      "rang": 18,
+      "score": 1.02825,
+      "id": "80f79fea-1911-5814-a052-a6507ea2a6b4",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch BIS PO 2018 25 10 07",
+      "section_heading": "1.1 Fakultäts- und Abteilungsstruktur",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover ist in drei Abteilungen organisiert: Betriebswirtschaft (BWL), Informatik (I) und Wirtschaftsinformatik (WI). Insgesamt studieren zurzeit ca. 2110 Studierende (davon 950 in der Abt. Betrieb"
+    },
+    {
+      "rang": 19,
+      "score": 0.9877,
+      "id": "ad77cd4f-1f3c-5dbe-847d-03983822a617",
+      "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000429-10057.html",
+      "title_anzeige": "karriere › bewerbung › beschreibung 900000429 10057 — Wissenschaftlicher Mitarbeiterin (m/w/d), PM 1042-2026",
+      "section_heading": "Wissenschaftliche*r Mitarbeiter*in (m/w/d), PM 1042-2026",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "**Über uns:**\nDie Hochschule Hannover ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule in der niedersächsischen Landeshauptstadt. Insgesamt sind an ihr über 1.000 Lehrende, wissenschaftliche, künstlerische und Verwaltungsmitarbeitende tätig. Wir sind ein verlässlic"
+    },
+    {
+      "rang": 20,
+      "score": 0.98722,
+      "id": "9ede7edd-c208-52d3-8db0-15912e8e4a61",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/offene-hochschule",
+      "title_anzeige": "Offene Hochschule – Studieren ohne Abitur",
+      "section_heading": "Offene Hochschule – Studieren ohne Abitur > Offene Hochschule – Studieren ohne Abitur",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "#  Offene Hochschule – Studieren ohne Abitur  \n##  Offene Hochschule – Studieren ohne Abitur\nRund 900 Studierende ohne Abitur sind derzeit an der Hochschule Hannover (HsH) immatrikuliert. Mit diesem hohen Anteil beruflich Qualifizierter belegt die HsH eine Spitzenposition unter den staatlichen Hochs"
+    },
+    {
+      "rang": 21,
+      "score": 0.96417,
+      "id": "9937d67e-a7ab-5c9c-86fa-d20b7cdad368",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch PO2016",
+      "section_heading": "1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik > 1.1 Fakultäts- und Abteilungsstruktur",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## 1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik\n## 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover ist in drei Abteilungen organisiert: Betriebswirtschaft (BWL), Informatik (I) und Wirtschaftsinformatik (WI). Insgesamt st"
+    },
+    {
+      "rang": 22,
+      "score": 0.94704,
+      "id": "8b64820b-ce22-5a1d-914e-3242f23a2c5d",
+      "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000445-10057.html",
+      "title_anzeige": "karriere › bewerbung › beschreibung 900000445 10057",
+      "section_heading": "Technische*r Mitarbeiter*in für die Betreuung der Prüfungsverwaltungssoftware HIS-EXA (m/w/d), PM 1062-2026",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "**Über uns:**\nDie Hochschule Hannover ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule in der niedersächsischen Landeshauptstadt. Insgesamt sind an ihr über 1.000 Lehrende, wissenschaftliche, künstlerische und Verwaltungsmitarbeitende tätig. Wir sind ein verlässlic"
+    },
+    {
+      "rang": 23,
+      "score": 0.94145,
+      "id": "edc822c5-f112-596a-ab92-2e8b9dc6ff19",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_12-2024_Ausschreibungstext_Monitoring.pdf",
+      "title_anzeige": "www › Organisation › Berufungsmanagement › W2 12 2024 Ausschreibungstext Monitoring",
+      "section_heading": "**Über uns:**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Über uns:**  \nDie Hochschule Hannover ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule in der niedersächsischen Landeshauptstadt. Insgesamt sind an ihr über 1.000 Lehrende, wissenschaftliche, künstlerische und Verwaltungsmitarbeitende tätig. Wir sind eine verl"
+    },
+    {
+      "rang": 24,
+      "score": 0.9412,
+      "id": "5bb8c294-81d9-59e1-bf5e-322d32de17e1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_13-2024_Ausschreibungstext_Monitoring.pdf",
+      "title_anzeige": "www › Organisation › Berufungsmanagement › W2 13 2024 Ausschreibungstext Monitoring — - Kennziffer W2 13/2024 –",
+      "section_heading": "**Über uns:**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **Über uns:**  \nDie Hochschule Hannover ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule in der niedersächsischen Landeshauptstadt. Insgesamt sind an ihr über 1.000 Lehrende, wissenschaftliche, künstlerische und Verwaltungsmitarbeitende tätig. Wir sind eine verl"
+    },
+    {
+      "rang": 25,
+      "score": 0.93801,
+      "id": "31821b9a-af7e-5c13-aae0-e03dae555a2b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/1-2023_VOE_Monitoring.pdf",
+      "title_anzeige": "www › Organisation › Personal › 1 2023 VOE Monitoring",
+      "section_heading": "**Über uns:**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Über uns:**  \nDie Hochschule Hannover ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule in der niedersächsischen Landeshauptstadt. Insgesamt sind an ihr über 1.000 Lehrende, wissenschaftliche, künstlerische und Verwaltungsmitarbeitende tätig. Wir sind ein verlä"
+    },
+    {
+      "rang": 26,
+      "score": 0.93191,
+      "id": "4ed2f842-f4b1-5939-97bf-f908e68031d2",
+      "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/unsere-austauschprogramme",
+      "title_anzeige": "Unsere Austauschprogramme",
+      "section_heading": "Unsere Austauschprogramme",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Viele Wege führen als Austauschstudierender an die Hochschule Hannover. Ob Sie nur für ein Semester zu uns kommen möchten oder für einen längeren Aufenthalt, ob Sie von der ZUST kommen und am 2plus3 Programm teilnehmen möchten oder ob Sie als Freemover an der Hochschule Hannover studieren möchten, h"
+    },
+    {
+      "rang": 27,
+      "score": 0.92399,
+      "id": "5f8369d4-89de-52ba-ba50-3d79682e021d",
+      "source_url": "https://www.code4comp.wp.hs-hannover.de/2015/11/18/grune-fahne-und-ende-baustein",
+      "title_anzeige": "Grüne Fahne und Ende-Baustein",
+      "section_heading": "Grüne Fahne und Ende-Baustein > Wiederholung: ein einfaches Programm schreiben",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "### Wiederholung: ein einfaches Programm schreiben\nDer Lehrer fragt: wer kann ein Programm schreiben, so dass die Katze in die Mitte läuft? Ein Kind steht auf, bewegt den “Rechts”-Baustein in den Programmberereich und tippt mehrfach darauf. Alle Kinder sollen mitzählen. Bei 7 steht die Katze ungefäh"
+    },
+    {
+      "rang": 28,
+      "score": 0.91023,
+      "id": "907c2163-01fe-5df0-83b3-f7817157b6ee",
+      "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000421-10057.html",
+      "title_anzeige": "karriere › bewerbung › beschreibung 900000421 10057 — Wissenschaftliche/r Mitarbeiter/in (m/w/d), PM 1018-2026",
+      "section_heading": "Wissenschaftliche/r Mitarbeiter/in (m/w/d), PM 1018-2026",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "**Über uns:**\nDie Hochschule Hannover ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule in der niedersächsischen Landeshauptstadt. Insgesamt sind an ihr über 1.000 Lehrende, wissenschaftliche, künstlerische und Verwaltungsmitarbeitende tätig. Wir sind ein verlässlic"
+    },
+    {
+      "rang": 29,
+      "score": 0.89101,
+      "id": "3d771335-5ba3-5a29-a625-f2dfcc76bef9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Genderaspekte_in_der_Forschung/Evaluation_Gender_in_der_Forschung_an_der_HsH.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Genderaspekte in der Forschung › Evaluation Gender in der Forschung an der HsH",
+      "section_heading": "_Über die Hochschule Hannover_",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "Das Profil der Studierenden unterscheidet sich auch an der HsH in mehreren Hinsichten von dem „traditionellen“ Studierenden an einer Universität: So studieren an der Hochschule Hannover vglw. viele Personen mit beruflicher Qualifikation, was zum Teil mit den Anforderungen der Studiengänge und/oder d"
+    },
+    {
+      "rang": 30,
+      "score": 0.88737,
+      "id": "21f4a18a-3eb6-5c4f-ab25-7f65ac63a27f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "HsH – Hier studiert 34 Hannover. > Digitalisierung des Student Life Cycle",
+      "chunk_index": 114,
+      "text_vollstaendig": false,
+      "auszug": "sind etwa 900 Studierende ohne schulische HZB an der HsH immatrikuliert, die mit diesem hohen Anteil beruflich Qualifizierter eine Spitzenposition unter den staatlichen Hochschulen in Niedersachsen belegt."
+    }
+  ],
+  "token_budget": {
+    "verwendet": 90036,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.04,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 0.31,
+    "docs_laden_s": 0.21,
+    "quellen_s": 2.56,
+    "antwort_llm_s": 5.47,
+    "gesamt_s": 8.04
+  },
+  "auswahl_begruendung": "{\"selected\": [6, 1, 7, 8]}"
+}

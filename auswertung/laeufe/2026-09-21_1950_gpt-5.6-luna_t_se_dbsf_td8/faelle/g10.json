@@ -1,0 +1,536 @@
+{
+  "fall": {
+    "id": "g10",
+    "case_type": "direct",
+    "question": "Wo bekomme ich als Austauschstudent den Semesterplan für die Wirtschaftsinformatik-Kurse im Winter?",
+    "reference_answer": "Auf der Seite \"Courses offered in English\" der Fakultät IV, als verlinktes PDF.",
+    "source_url": "https://f4.hs-hannover.de/internationales/information-for-exchange-students/courses-offered-in-english-language",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Winter Term 2026 | Schedule | Business Information Systems"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ internationales/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "64b5ef93-efa7-5769-a381-267e5ba70fd1",
+      "acad75c1-ab94-50fa-a1a6-aa2970c3c202",
+      "519a8995-248c-5147-8577-fb5736bd646d",
+      "7d8f1719-1f61-5507-842f-4194aac4061d",
+      "db3fd1cc-23e3-526e-8e14-a8da3878ee3f",
+      "45b13292-7ff9-5ac2-8dec-f7082ab3710d",
+      "b80f3943-0e8a-5b1d-aa59-64b383cc2c13"
+    ],
+    "beleg_punkte": [
+      "45b13292-7ff9-5ac2-8dec-f7082ab3710d"
+    ],
+    "beleg_urls": [
+      "https://f4.hs-hannover.de/internationales/information-for-exchange-students/courses-offered-in-english-language"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:56:17",
+  "dauer_s": 11.63,
+  "fehler": null,
+  "antwort": "Für den Bachelorstudiengang Wirtschaftsinformatik finden Sie die Mehrsemesterplanung auf den Webseiten der Fakultät IV unter „Service – Formulare und Informationen – Abteilung Wirtschaftsinformatik – Stundenpläne“ [3]. Dort heißt es: „Die Mehrsemesterplanung zeigt für einen Zeithorizont von mehreren Semestern, in welchem Semester welche Module (voraussichtlich) angeboten werden.“ [3]\n\nFür Austauschstudierende enthält das Austauschkursangebot außerdem die verfügbaren Kurse; die Kursauswahl ist „from the offer of non-technical courses“ möglich [4]. Das Angebot ist jedoch ausdrücklich vorläufig: „This is a preliminary list of courses. Changes may occur.“ [4]",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f2 › Abt M › International Office › English Lectures FI und FII 2021",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Bilder/International_Office/English_Lectures-FI_und_FII_2021.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Courses for Incoming Students in English Language Winter Term 2021/22\n  ## Faculty I – Electrical Engineering and Information Technology\n  ## Non-Technical Subjects\n  ## APPLICATION\n  ## LEARNING AGREEMENT\n  ## CONTACT\n  ## IT – ACCESS\n  ## Digital Image Coding\n  ## Explosive Protection for Electrical and Non-Electrical Apparatus\n  ## MATLAB/Simulink\n  ## Power Cable Technology\n  ## Simulation Laboratory\n  ## High Voltage Fields\n  ## Product Development Process (Submodule EIT-205-09)\n  ## CAD / CAM Systems\n  ## Engineering Project\n  ## Production Planning and Control (PPC)\n  ## Computational Fluid Dynamics (CFD) basic module\n  ## Please note:\n  ## International Engineering Science (IES) – Different topics\n  ## International Engineering Science (IES):\n  ## Each semester there is an offer of different topics under the title “IES”, according to availability. The final course offer will be published in August.\n  ## German Intensive Course\n  ## Communication Skills\n  ## Business English (English 6)\n  ## German as a Foreign Language / Comprehensive German\n  ## Tandem Language Learning\n  ## ICM Inter Cultural Management Training"
+    },
+    {
+      "nr": 2,
+      "titel": "f2 › Abt M › Internationales › Engl. Lectures FI II WS 26 27",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Courses for Incoming Students\n  ## COURSES / LEARNING AGREEMENT\n  ## CONTACT INTERNATIONAL FACULTY OFFICE (IFO)\n  ## CONTACT HsH-INCOMING SERVICE\n  ## SEMESTER DATES\n  ## WELCOME WEEKS\n  ## IT – ACCESS\n  ## HAVE A WONDERFUL STAY!\n  ## Courses for Incoming Students in English Language\n  ## Winter Term 2026/27\n  ## Please note! This is a preliminary list of courses. Changes may occur.\n  ## Faculty I – Electrical Engineering and Information Technology\n  ## Non-Technical Subjects\n  ## Courses from other Faculties\n  ## Faculty V – Diaconic Studies, Health Care and Social Work Campus Kleefeld: Blumhardtstraße 2, 30625 Hannover\n  ## MATLAB/Simulink\n  ## Simulation Laboratory\n  ## Engineering Project\n  ## Operation of Multicopters\n  ## Reaction Engineering\n  ## Production Planning and Control (PPC)\n  ## International Engineering Science (IES) –\n  ## Different topics\n  ## (for further information please refer to the following pages):\n  ## International Engineering Science (IES):\n  ## International Engineering Science (IES) - taught by guest professors\n  ## German Intensive Course\n  ## Business English (English 6)\n  ## German as a Foreign Language / Comprehensive German\n  ## Tandem Language Learning\n  ## ICM Inter Cultural Management Training\n  ## NEXSTVENTURE Creative Entrepreneurship"
+    },
+    {
+      "nr": 3,
+      "titel": "f1 › 99 Sonstiges › Internationales › Engl. Lectures FI II WS 26 27",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Courses for Incoming Students\n  ## COURSES / LEARNING AGREEMENT\n  ## CONTACT INTERNATIONAL FACULTY OFFICE (IFO)\n  ## CONTACT HsH-INCOMING SERVICE\n  ## SEMESTER DATES\n  ## WELCOME WEEKS\n  ## IT – ACCESS\n  ## HAVE A WONDERFUL STAY!\n  ## Courses for Incoming Students in English Language\n  ## Winter Term 2026/27\n  ## Please note! This is a preliminary list of courses. Changes may occur.\n  ## Faculty I – Electrical Engineering and Information Technology\n  ## Non-Technical Subjects\n  ## Courses from other Faculties\n  ## Faculty V – Diaconic Studies, Health Care and Social Work Campus Kleefeld: Blumhardtstraße 2, 30625 Hannover\n  ## MATLAB/Simulink\n  ## Simulation Laboratory\n  ## Engineering Project\n  ## Operation of Multicopters\n  ## Reaction Engineering\n  ## Production Planning and Control (PPC)\n  ## International Engineering Science (IES) –\n  ## Different topics\n  ## (for further information please refer to the following pages):\n  ## International Engineering Science (IES):\n  ## International Engineering Science (IES) - taught by guest professors\n  ## German Intensive Course\n  ## Business English (English 6)\n  ## German as a Foreign Language / Comprehensive German\n  ## Tandem Language Learning\n  ## ICM Inter Cultural Management Training\n  ## NEXSTVENTURE Creative Entrepreneurship"
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › WI › Informationen › 20 09 28 Hinweise 2. Studienabschnitt BIS",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/20-09-28-Hinweise_2._Studienabschnitt_BIS.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Hinweise zum zweiten Studienabschnitt im Bachelor-Studiengang Wirtschaftsinformatik (BIS)\n  ## I. Abschluss des ersten Studienabschnitts\n  ##  Prüfungsberechtigung im zweiten Studienabschnitt\n  ##  7-Semester-Frist für das Bestehen der Vorprüfung\n  ##  Nachweis eines ordnungsgemäßen Studienverlaufs für BAföG\n  ##  Vorprüfungszeugnis\n  ## II. Struktur des zweiten Studienabschnitts\n  ##  Individuelle Planung – Mehrsemesterplanung – Musterstudienplan:\n  ##  Wahl des Schwerpunktes\n  ##  Ergänzungsmodule\n  ##  Auslandssemester\n  ##  Gesamtnote der Bachelor-Prüfung\n  ## III. Praxisphase und Bachelor-Arbeit\n  ##  Praxisphase\n  ##  Bachelor-Arbeit"
+    },
+    {
+      "nr": 5,
+      "titel": "f2 › Abt M › Sonstiges › Engl. Lectures FI II WS 25 26",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Engl._Lectures-FI-II_WS_25-26.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Courses for Incoming Students\n  ## COURSES / LEARNING AGREEMENT\n  ## CONTACT INTERNATIONAL FACULTY OFFICE (IFO)\n  ## CONTACT HsH-INCOMING SERVICE\n  ## SEMESTER DATES\n  ## WELCOME WEEKS\n  ## IT – ACCESS\n  ## HAVE A WONDERFUL STAY!\n# Courses for Incoming Students in English Language\n  ## Winter Term 2025/26\n  ## Non-Technical Subjects\n  ## Faculty III – Media, Information and Design\n  ## Faculty IV – Business and Computer Science\n  ## Faculty V – Diaconic Studies, Health Care and Social Work Campus Kleefeld: Blumhardtstraße 2, 30625 Hannover\n  ## MATLAB/Simulink\n  ## Simulation Laboratory\n  ## Product Emergence Process (Submodule EIT-205-09)\n  ## Engineering Project\n  ## Reaction Engineering\n  ## Production Planning and Control (PPC)\n  ## Engineering Design\n  ## International Engineering Science (IES) – Different topics (for further information please refer to the following pages):\n  ## International Engineering Science (IES):\n  ## International Engineering Science (IES):\n  ## Titles of the lectures from our guest Professors – their courses will be offered as a block-course between 6[th] and 17[th] October 2025:\n  ## German Intensive Course\n  ## Business English (English 6)\n  ## German as a Foreign Language / Comprehensive German\n  ## Tandem Language Learning\n  ## ICM Inter Cultural Management Training\n  ## NEXSTVENTURE Creative Entrepreneurship"
+    },
+    {
+      "nr": 6,
+      "titel": "Elective Courses | ISP",
+      "url": "https://f3.hs-hannover.de/internationales/elective-courses",
+      "fakultaet": "f3",
+      "struktur": "# Elective Courses | ISP\n  ## Elective Courses | International Study Programme\n  ## Winter Semester\n    ### Design.class\n  ## Summer Semester\n    ### Design.class\n    ### Media.class\n    ### Media.class\n    ### Information.class\n    ### Information.class\n    ### Communication.class\n    ### Communication.class\n    ### Cross Over(Culture and Management)\n    ### Cross Over(Culture and Management)\n  ## Coordinator International Study Programme | Elective Courses"
+    },
+    {
+      "nr": 7,
+      "titel": "f4 › OFI › Internationales › 2026 Spring Modules in English BIN MIN MDI 121125 — Dear exchange students,",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2026_Spring_Modules_in_English_BIN_MIN_MDI_121125.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Dear exchange students,\n  ## Preparatory and language modules available\n  ## Modules available in English Department of Computer Science\n  ## Indicative module contents\n  ## Bachelor courses\n  ## Master courses\n  ## Overview of Department of Computer Science\n  ## Prof. Dr. Volker Ahlers\n  ## Team International Programmes (TIP)"
+    },
+    {
+      "nr": 8,
+      "titel": "f4 › WI › Ordnungen › 04 Musterstudienplan BIS PO2016 — - Bachelor Studiengang Wirtschaftsinformatik Musterstudienplan PO 2016",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/04-Musterstudienplan-BIS-PO2016.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## - Bachelor Studiengang Wirtschaftsinformatik Musterstudienplan PO 2016"
+    },
+    {
+      "nr": 9,
+      "titel": "www › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt › kurse",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+      "fakultaet": "",
+      "struktur": "  ## Kurse\n  ## Kursanmeldung\n    ### Jetzt Neu!\n  ## Ferienkurse im Sommersemester 2026\n  ## Semesterkurse im Sommersemester 2026\n  ## Ferienkurse im Wintersemester 2025/26\n  ## Semesterkurse im Wintersemester 2025/26\n  ## Ferienkurse im Sommersemester 2025\n  ## Semesterkurse im Sommersemester 2025\n  ## Ferienkurse im Wintersemester 2024/25\n  ## Semesterkurse im Wintersemester 2024/25\n  ## Ferienkurse im Sommersemester 2024\n  ## Semesterkurse im Sommersemester 2024\n  ## Ferienkurse im Wintersemester 2023/24\n  ## Semesterkurse im Wintersemester 2023/24\n  ## Ferienkurse im Sommersemester 2023\n  ## Semesterkurse im Sommersemester 2023\n  ## Ferienkurse im Wintersemester 2022/23\n  ## Semesterkurse im Wintersemester 2022/23\n  ## Ferienkurse im Sommersemester 2022\n  ## Semesterkurse im Sommersemester 2022\n  ## Ferienkurse im Wintersemester 2021/22\n  ## Semesterkurse Wintersemester 2021/22\n  ## Ferienkurse im Sommersemester 2021\n  ## Semesterkurse Sommersemester 2021\n  ## Ferienkurse Wintersemester 2020/21\n  ## Semesterkurse Wintersemester 2020/21\n  ## Ferienkurse Sommersemester 2020\n  ## Semesterkurse Sommersemester 2020\n  ## Ferienkurse Wintersemester 2019/20\n  ## Semesterkurse Wintersemester 2019/20\n  ## Ferienkurse Sommersemester 2019"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 5,
+      "titel": "f2 › Abt M › Sonstiges › Engl. Lectures FI II WS 25 26",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Engl._Lectures-FI-II_WS_25-26.pdf"
+    },
+    {
+      "nr": 8,
+      "titel": "f4 › WI › Ordnungen › 04 Musterstudienplan BIS PO2016 — - Bachelor Studiengang Wirtschaftsinformatik Musterstudienplan PO 2016",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/04-Musterstudienplan-BIS-PO2016.pdf"
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › WI › Informationen › 20 09 28 Hinweise 2. Studienabschnitt BIS",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/20-09-28-Hinweise_2._Studienabschnitt_BIS.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "f2 › Abt M › Internationales › Engl. Lectures FI II WS 26 27",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f2 › Abt M › Sonstiges › Engl. Lectures FI II WS 25 26",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Engl._Lectures-FI-II_WS_25-26.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Engl._Lectures-FI-II_WS_25-26.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf"
+      ],
+      "abschnitt": "**HAVE A WONDERFUL STAY!** > **Courses for Incoming Students in English Language** > **Winter Term 2025/26**",
+      "snippets": [
+        "## **HAVE A WONDERFUL STAY!**\n# **Courses for Incoming Students in English Language**  \n## **Winter Term 2025/26**  \nEngineering exchange students may select their courses from the range of technical courses of both Engineering Faculties (Electrical Engineering and Mechanical Engineering) and the offer of non-technical courses. We currently have a range of courses on the 3rd and 4th year level. A class will be offered if a minimum of five students register for it. _**Please note! This is a preliminary list of courses. Changes may occur.**_  \n**Faculty I – Electrical Engineering and Information Technology**  \n|**Subject**|**Contact**\n**hrs.**|**ECTS**|**Responsible**|\n|---|---|---|---|\n|Introduction to Matlab / Simulink|2 per week|2.5|Hisseine|\n|Simulation Laboratory|2 per week|2.5|Fragner / Beyki|\n|Product Emergence Process(dependent on no.\nof participants)|\n2 per week|2.5|Patzke|\n|**_International Engineering Science_**\n**_(IES) by International guest lecturers_**\n_You can choose more than one course._"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f4 › WI › Ordnungen › 04 Musterstudienplan BIS PO2016 — - Bachelor Studiengang Wirtschaftsinformatik Musterstudienplan PO 2016",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/04-Musterstudienplan-BIS-PO2016.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "- Bachelor Studiengang Wirtschaftsinformatik Musterstudienplan PO 2016",
+      "snippets": [
+        "## - Bachelor Studiengang Wirtschaftsinformatik Musterstudienplan PO 2016  \n|||||||||||||||||||\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|1. Studienabschnitt BIS||||||||||||||||||\n|1. Semester\n2. Semester\n3. Semester|||||||||||||||Programmieren\n6\n4\nAnforderungs-\nanalyse\n6\n4\nSchlüssel-\nqualifikationen der\nWI\n6\n6|||\n||BWL 1|6\n6||Mathematik 1|6\n4||Wirtschaftsinformatik -\nGrundlagen||6\n4|||Informatik -\nGrundlagen|6\n4||Programmieren||6\n4|\n||BWL 2|6\n6||Mathematik 2|6\n4||Spezielle BWL der\nWirtschaftsinformatik||6\n6|||Projekt-\nmanagement|6\n6||Anforderungs-\nanalyse||6\n4|\n||Datenbanksysteme\n6\n4|||||||||||||||||\n||Datenbanksysteme|6\n4||Diskrete\nMathematik|6\n4||Unternehmens-prozesse\nund ERP-Systeme||6\n4|||Wirtschafts-\nenglisch**|6\n6||Schlüssel-\nqualifikationen der\nWI||6\n6|\n|2. Studienabschnitt BIS||||||||||||||||||\n|4. Semester\n5. Semester\n6. Semester\n7. Semester\n8. Semester|Anwendungs-\nprogrammierung\n6\n4|||||||||||||||||\n|||||Software\nEngineering|6"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f4 › WI › Informationen › 20 09 28 Hinweise 2. Studienabschnitt BIS",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/20-09-28-Hinweise_2._Studienabschnitt_BIS.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Individuelle Planung – Mehrsemesterplanung – Musterstudienplan:**",
+      "snippets": [
+        "_Sie finden die Mehrsemesterplanung auf den Webseiten der Fakultät unter Service – Formulare und Informationen – Abteilung Wirtschaftsinformatik – Stundenpläne._"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f2 › Abt M › Internationales › Engl. Lectures FI II WS 26 27",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Engl._Lectures-FI-II_WS_25-26.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf"
+      ],
+      "abschnitt": "**HAVE A WONDERFUL STAY!** > **Courses for Incoming Students in English Language** > **Winter Term 2026/27**",
+      "snippets": [
+        "## **IT – ACCESS**  \nStudent account: Your study buddy will help you with information about your student account after you received your student card from the incoming service team at the beginning of the semester. Your HsH-email address will be: [E-Mail entfernt]. Eduroam is the free wifi at HsH, see: https://service.it.hs-hannover.de/en/welcome/\n\n## **HAVE A WONDERFUL STAY!**\n\n## **Courses for Incoming Students in English Language**\n\n## **Winter Term 2026/27**  \nAll our exchange students may select their courses from the range of technical courses of both Engineering faculties (Electrical Engineering & Mechanical Engineering) and from the offer of non-technical courses. We currently have a range of courses on the 3[rd] and 4[th] year level.   A course will be offered if a minimum of five students register.\n\n## _**Please note! This is a preliminary list of courses. Changes may occur.**_\n## **Faculty I – Electrical Engineering and Information Technology**  \n|**Subject**(Course Code)|**Contact**\n**hours**|**ECTS**\n**Credits**|**Responsible**|\n|---|---|---|---|\n|Introduction to Matlab / Simulink (EIT-542)|2 per week|2.5|Hisseine|\n|Simulation Laboratory (EIT-554)|2 per week|2.5|Fragner / Beyki|\n|**International Engineering Science**\n**(IES)**\nYou can choose more than one course.\nEach course (Lecture and Project) counts\nfor 2.5 credits.\nAll listed IES-courses below will be offered as\nblock courses between**5 - 16 Oct**. 2026.|||The final IES\ncourse will be\nannounced at the\nbeginning of the\nsemester|\n|IES-Lecture “Photoelectric Detection\nTechnology” (IES-1)|14 in two\nweeks|2.5|Guest Prof.\nShuguang Li\n(China)|\n|IES-Lecture “Smart Robots: How\nElectronics make Machines come alive”\n(IES-2)|14 in two\nweeks|2.5|Guest Dr. Xia\nWang (China)|\n|IES-Lecture “Industrial Automation and\nApplications” (IES-3)|14 in two\nweeks|2.5|Guest Ass. Prof.\nKhairuddin Osman\n(Malaysia)|"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.67676,
+      "id": "f7f56d1c-a416-52f5-b7b0-eb2396f23e47",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Bilder/International_Office/English_Lectures-FI_und_FII_2021.pdf",
+      "title_anzeige": "f2 › Abt M › International Office › English Lectures FI und FII 2021",
+      "section_heading": "**Courses for Incoming Students in English Language Winter Term 2021/22**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "**Winter Term 2021/22**  \nFaculty I – Electrical Engineering and Information Technology Faculty II – Department of Mechanical Engineering\n\n## **Courses for Incoming Students in English Language Winter Term 2021/22**  \nEngineering exchange students may select their courses from the range of technical"
+    },
+    {
+      "rang": 2,
+      "score": 1.6704,
+      "id": "39e5c138-9092-55cb-9e4f-ab38082b368d",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+      "title_anzeige": "f2 › Abt M › Internationales › Engl. Lectures FI II WS 26 27",
+      "section_heading": "**HAVE A WONDERFUL STAY!** > **Courses for Incoming Students in English Language** > **Winter Term 2026/27**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **IT – ACCESS**  \nStudent account: Your study buddy will help you with information about your student account after you received your student card from the incoming service team at the beginning of the semester. Your HsH-email address will be: [E-Mail entfernt]. Eduroam is th"
+    },
+    {
+      "rang": 3,
+      "score": 1.6704,
+      "id": "c392713b-f2ce-543d-bdae-bdde284f7e49",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+      "title_anzeige": "f1 › 99 Sonstiges › Internationales › Engl. Lectures FI II WS 26 27",
+      "section_heading": "**HAVE A WONDERFUL STAY!** > **Courses for Incoming Students in English Language** > **Winter Term 2026/27**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **IT – ACCESS**  \nStudent account: Your study buddy will help you with information about your student account after you received your student card from the incoming service team at the beginning of the semester. Your HsH-email address will be: [E-Mail entfernt]. Eduroam is th"
+    },
+    {
+      "rang": 4,
+      "score": 1.39427,
+      "id": "10b67016-1d90-5ec0-a55c-82d9e2b85e29",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/20-09-28-Hinweise_2._Studienabschnitt_BIS.pdf",
+      "title_anzeige": "f4 › WI › Informationen › 20 09 28 Hinweise 2. Studienabschnitt BIS",
+      "section_heading": "**Individuelle Planung – Mehrsemesterplanung – Musterstudienplan:**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "_Sie finden die Mehrsemesterplanung auf den Webseiten der Fakultät unter Service – Formulare und Informationen – Abteilung Wirtschaftsinformatik – Stundenpläne._"
+    },
+    {
+      "rang": 5,
+      "score": 1.36423,
+      "id": "c0393b89-4eee-5465-baf0-4bfd29a9c034",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Engl._Lectures-FI-II_WS_25-26.pdf",
+      "title_anzeige": "f2 › Abt M › Sonstiges › Engl. Lectures FI II WS 25 26",
+      "section_heading": "**HAVE A WONDERFUL STAY!** > **Courses for Incoming Students in English Language** > **Winter Term 2025/26**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **HAVE A WONDERFUL STAY!**\n# **Courses for Incoming Students in English Language**  \n## **Winter Term 2025/26**  \nEngineering exchange students may select their courses from the range of technical courses of both Engineering Faculties (Electrical Engineering and Mechanical Engineering) and the of"
+    },
+    {
+      "rang": 6,
+      "score": 1.36407,
+      "id": "42440d81-1739-5236-a7a2-7a90b57f5231",
+      "source_url": "https://f3.hs-hannover.de/internationales/elective-courses",
+      "title_anzeige": "Elective Courses | ISP",
+      "section_heading": "Elective Courses | ISP > Winter Semester",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## Winter Semester\nOur winter semester runs from 1st September until 28th/29th February.\nSemester break: 1st February - 28th/29th February."
+    },
+    {
+      "rang": 7,
+      "score": 1.35185,
+      "id": "5cc0096e-2043-5167-bf44-988649c47c8f",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2026_Spring_Modules_in_English_BIN_MIN_MDI_121125.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › 2026 Spring Modules in English BIN MIN MDI 121125 — Dear exchange students,",
+      "section_heading": "Dear exchange students,",
+      "chunk_index": 0,
+      "text_vollstaendig": false,
+      "auszug": "## Dear exchange students,  \nPlease find attached information concerning courses that are available for our incoming students. In the field of **Computer Science** , we currently have a range of courses on the 3[rd ] and 4[th] year level available in English, as listed below. Please also consult the"
+    },
+    {
+      "rang": 8,
+      "score": 1.24977,
+      "id": "968f7d67-0d2e-51f5-8594-9252599e2d00",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/04-Musterstudienplan-BIS-PO2016.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 04 Musterstudienplan BIS PO2016 — - Bachelor Studiengang Wirtschaftsinformatik Musterstudienplan PO 2016",
+      "section_heading": "- Bachelor Studiengang Wirtschaftsinformatik Musterstudienplan PO 2016",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## - Bachelor Studiengang Wirtschaftsinformatik Musterstudienplan PO 2016  \n|||||||||||||||||||\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|1. Studienabschnitt BIS||||||||||||||||||\n|1. Semester\n2. Semester\n3. Semester|||||||||||||||Programmieren\n6\n4\nAnforderungs-\nanal"
+    },
+    {
+      "rang": 9,
+      "score": 1.24889,
+      "id": "a52bf031-e355-5b19-9cdb-29b1ba610696",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Brochure_Faculty_I_II_2023-3.11.23_neue_Fotos-Einzelseiten_6.11.23.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 60 Sonstige › Brochure Faculty I II 2023 3.11.23 neue Fotos Einzelseiten 6.11.23",
+      "section_heading": "The Engineering Faculties > General Information for International Students > The Engineering Faculties > Term dates (winter term) > The Engineering Faculties > Required application documents:",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## General Information for International Students\n\n## Term dates (winter term)\n\n## Required application documents:  \n- 1 September to 28 February  \n- Lectures start on 20 September and examinations are in January.  \n- HsH-Application Form  \n- Motivation letter  \n- Transcript of Records.  \n- February"
+    },
+    {
+      "rang": 10,
+      "score": 1.148,
+      "id": "52e72833-3939-5f3a-92e1-7fc1180c445d",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Termine-Sprechzeiten/26-07-17-WiSe2026-Abt.WI-Semestertermine.pdf",
+      "title_anzeige": "f4 › WI › Termine Sprechzeiten › 26 07 17 WiSe2026 Abt.WI Semestertermine",
+      "section_heading": "Termine für das Wintersemester 2026/2027 Abteilung Wirtschaftsinformatik",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Termine für das Wintersemester 2026/2027 Abteilung Wirtschaftsinformatik  \n|Freitag, 18. September 2026|Semesterbegrüßung für StudienanfängerInnen der\nStudiengänge BIS/VIF/MDT -siehe extra Aushang|\n|---|---|\n|Montag, 21. September 2026|Beginn der Vorlesungen nach Stundenplan|\n|Dienstag, 29. Septe"
+    },
+    {
+      "rang": 11,
+      "score": 1.1333,
+      "id": "cfd24c46-e67a-5d2e-bc4b-5cd4e4600eb8",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2019_Archiv_Dokumente/06-05-19_MUSTER_Learning-Agreement_Non-Erasmus_Changes.pdf",
+      "title_anzeige": "f4 › Internationales › 2019 Archiv Dokumente › 06 05 19 MUSTER Learning Agreement Non Erasmus Changes",
+      "section_heading": "",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "**Summer/Winter School 20__**||||||_Please use a separate_\n_form for each semester!_|||||\n|||||||||||||||\n|**Name of Student**\nMax Mustermann|||**Subject at HsH**\ne.g. BIS||||**Sending Institution**\nHochschule Hannover||**Receiving Institution**\nAjou University|||||\n|**E-Mail**\nmax.mustermann@stud.h"
+    },
+    {
+      "rang": 12,
+      "score": 1.11871,
+      "id": "6db112d0-ab0a-544b-89f6-9c7b5a4101af",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2019_Archiv_Dokumente/Annex_Double_Degree_CS_HCU_HsH_20190919_final.pdf",
+      "title_anzeige": "f4 › Internationales › 2019 Archiv Dokumente › Annex Double Degree CS HCU HsH 20190919 final — Annex A",
+      "section_heading": "**Annex A**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Annex A**  \nThe exchange students will follow a two-semester program of study at their host institution. The first semester will consist of regular course work at the host institution according to the tables below. The courses offered to double degree students will be taught in English. The sec"
+    },
+    {
+      "rang": 13,
+      "score": 1.10488,
+      "id": "37ede0a0-bdc3-5569-9cdf-1f4025a272f1",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2025-11_Modules_in_English_BIS_Spring_2026.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › 2025 11 Modules in English BIS Spring 2026 — Courses offered in English",
+      "section_heading": "**IT Entrepreneurship**",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "We trust that the information provided above helps you to select your courses. Questions are welcome! Please let us know as soon as possible which courses you would like to attend. We are looking forward to meeting you in Hannover.  \n**Prof. Dr. Dagmar Mack Team International Programmes | TIP** Inte"
+    },
+    {
+      "rang": 14,
+      "score": 1.09644,
+      "id": "45b13292-7ff9-5ac2-8dec-f7082ab3710d",
+      "source_url": "https://f4.hs-hannover.de/internationales/information-for-exchange-students/courses-offered-in-english-language",
+      "title_anzeige": "f4 › internationales › information for exchange students › courses offered in english language",
+      "section_heading": "Department of Computer Science",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "[ ![Winter Semester 2026 courses taught in English BIS](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2026_WS_BIS_englModule_c.svg?rbiFocus=mobile) ](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2026_Fall_Modules_in"
+    },
+    {
+      "rang": 15,
+      "score": 1.07535,
+      "id": "7c86df4a-2114-5c67-8e3c-6c38cc2312b9",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Bilder/International_Office/English_Lectures-FI_und_FII_2021.pdf",
+      "title_anzeige": "f2 › Abt M › International Office › English Lectures FI und FII 2021",
+      "section_heading": "**CONTACT**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "**SEMESTER** Semester incl. exam sessions: 1 September to 28 February (winter term) Welcome Week / Orientation: 2nd and 3rd week of September Beginning of classes: 20 September 2021 End of classes: End of December 2021 Exams: In January 2022 Lecture-free time 3 Oct.  (Public holiday: Day of German U"
+    },
+    {
+      "rang": 16,
+      "score": 1.0249,
+      "id": "90bdfaeb-a734-524f-95ea-317f224b709c",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Bilder/International_Office/English_Lectures_FI-II_Ws_2023_24_NEU.pdf",
+      "title_anzeige": "f2 › Abt M › International Office › English Lectures FI II Ws 2023 24 NEU — Winter Term 2023/24",
+      "section_heading": "**Courses for Incoming Students in English Language** > **Winter Term 2023/24**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **Courses for Incoming Students in English Language**\n\n## **Winter Term 2023/24**  \nEngineering exchange students may select their courses from the range of technical courses of both Engineering faculties (Electrical Engineering and Mechanical Engineering) and the offer of non-technical courses. "
+    },
+    {
+      "rang": 17,
+      "score": 0.97784,
+      "id": "76b77f4b-3df4-5ffe-bfa9-8e9aeca5f15d",
+      "source_url": "https://f5.hs-hannover.de/studium/internationales/wege-ins-ausland-outgoings/studienbezogene-auslandsaufenthalte",
+      "title_anzeige": "Studienbezogene Auslandsaufenthalte",
+      "section_heading": "Studienbezogene Auslandsaufenthalte > ZHAW Winter School, Schweiz",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "## ZHAW Winter School, Schweiz\nDie **Zürcher Hochschule für Angewandte Wissenschaften (ZHAW)** bietet jedes Jahr eine **Winterschule zum Thema „Challenges in Interprofessional Health and Social Services“** an, die für Studierende aller Abteilungen der Fakultät V relevant ist. Im Rahmen der Wintersch"
+    },
+    {
+      "rang": 18,
+      "score": 0.97251,
+      "id": "3b6e119d-2d66-5b3b-b77c-d7481772c5ff",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Termine-Sprechzeiten/26-03-03-SoSe_2026-Abt._WI_Semestertermine.pdf",
+      "title_anzeige": "f4 › WI › Termine Sprechzeiten › 26 03 03 SoSe 2026 Abt. WI Semestertermine — Termine für das Sommersemester 2026 Abteilung Wirtschaftsinformatik",
+      "section_heading": "Termine für das Sommersemester 2026 Abteilung Wirtschaftsinformatik",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Termine für das Sommersemester 2026 Abteilung Wirtschaftsinformatik  \n|Freitag, den 27. Februar 2026|Semesterbegrüßung für StudienanfängerInnen der Studiengänge\nBIS/VIF/MDT - siehe extra Aushang|\n|---|---|\n|Montag, den 02. März 2026|Beginn der Vorlesungen nach Stundenplan|\n|Freitag, den 06. März "
+    },
+    {
+      "rang": 19,
+      "score": 0.96554,
+      "id": "43ee3ee9-80cc-5684-b229-8041d381e92c",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/academic_calendar_summer_term_2026.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › academic calendar summer term 2026 — ~~Summer Semester 2026~~",
+      "section_heading": "~~ACADEMIC CALENDAR~~ > ~~Summer Semester 2026~~",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## ~~ACADEMIC CALENDAR~~\n## ~~Summer Semester 2026~~  \n|~~Beginning of semester~~|~~1 March 2026~~|\n|---|---|\n|~~German Intensive Course~~|~~16 February– 27 February 2026~~|\n|~~(part of the Welcome Weeks)~~||\n|~~Beginning of classes~~||\n|~~Department of Business Administration~~|~~2 March 2026~~|\n|~"
+    },
+    {
+      "rang": 20,
+      "score": 0.96397,
+      "id": "4c071799-8599-5390-9d5e-cdf4224131f4",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2024_06-13_Ajou_Exchange_Program_Fact_Sheet.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › 2024 06 13 Ajou Exchange Program Fact Sheet",
+      "section_heading": "**Contents**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Contents**  \nAbout Ajou University Ajou Exchange Program Academic Calendar for Exchange students English Course List for Academic Year (2024) Undergraduate English Course List for Academic Year (2024) Graduate  \n**AJOU UNIVERSITY**  \nABOUT AJOU UNIVERSITY"
+    },
+    {
+      "rang": 21,
+      "score": 0.94552,
+      "id": "7929312b-4c47-5cbc-8bfe-274bc2d319a6",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/WI/26-06-10-MSP_BIS_1._STA_WiSe_2026.pdf",
+      "title_anzeige": "f4 › Stundenplan › WI › 26 06 10 MSP BIS 1. STA WiSe 2026",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "|**Mehrsemesterplanung 1. Studienabschnitt Wirtschaftsinformatik**\nStand: 10.06.2026; Änderungen vorbehalten|**Mehrsemesterplanung 1. Studienabschnitt Wirtschaftsinformatik**\nStand: 10.06.2026; Änderungen vorbehalten|**Mehrsemesterplanung 1. Studienabschnitt Wirtschaftsinformatik**\nStand: 10.06.2026"
+    },
+    {
+      "rang": 22,
+      "score": 0.94165,
+      "id": "52b43240-596d-5e25-87b5-4a563316bec3",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2026_Fall_Modules_in_English_BIN_MIN_MDI_04062026.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › 2026 Fall Modules in English BIN MIN MDI 04062026",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Dear exchange students,  \nPlease find attached information concerning courses that are available for our incoming students. In the field of **Computer Science** , we currently have a range of courses on the 3[rd ] and 4[th] year level available in English, as listed below. Please also consult the co"
+    },
+    {
+      "rang": 23,
+      "score": 0.93809,
+      "id": "6051e9db-f429-590a-be0d-71beabb34aa6",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2021_Archiv_Dokumente/25_Ajou_Visiting-Exchange_Program_Fact_Sheet.pdf",
+      "title_anzeige": "f4 › Internationales › 2021 Archiv Dokumente › 25 Ajou Visiting Exchange Program Fact Sheet",
+      "section_heading": "**Academic Information**",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## **Academic Information**  \n**Academic calendar** Fall Semester: September to Mid-December (16 weeks) (2024 Fall: 1st week of September to 3rd week of December) Spring Semester: March to Mid-June (16 weeks) (2025 Spring: 1st week of March to 3rd week of June) **Full-time workload** Visiting/Exchan"
+    },
+    {
+      "rang": 24,
+      "score": 0.93286,
+      "id": "d69039e3-8ece-53a1-be63-9aadcb92b152",
+      "source_url": "https://f5.hs-hannover.de/studium/internationales/exchange-students/study-options-1",
+      "title_anzeige": "Studienmöglichkeiten für Austauschstudierende",
+      "section_heading": "Studienmöglichkeiten für Austauschstudierende > Studienangebot auf Englisch",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Studienmöglichkeiten für Austauschstudierende  \n## Studienangebot auf Englisch\n**Die Fakultät V der Hochschule Hannover bietet englischsprachigen Austauschstudierenden eine Reihe von Kursen vor allem im Bereich der Sozialen Arbeit an.**\nDie Lehrveranstaltungen werden in englischer Sprache abgehal"
+    },
+    {
+      "rang": 25,
+      "score": 0.92587,
+      "id": "d0a0dd96-2b96-5d76-977e-c63c41052ff3",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/WI/26-07-10-WiSe26-BIS-2.Studienabschnitt.pdf",
+      "title_anzeige": "f4 › Stundenplan › WI › 26 07 10 WiSe26 BIS 2.Studienabschnitt",
+      "section_heading": "Stundenplan 2. Studienabschnitt Wirtschaftsinformatik nach Semestern im Regelstudienplan Wintersemester 2026/2027",
+      "chunk_index": 0,
+      "text_vollstaendig": false,
+      "auszug": "## Stundenplan 2. Studienabschnitt Wirtschaftsinformatik nach Semestern im Regelstudienplan Wintersemester 2026/2027  \n_Vorlesungszeit: Montag, den 21. September 2026 bis Freitag, den 08. Januar 2027 Prüfungszeit: Montag, den 11. Januar 2027 bis Samstag, den 30. Januar 2027_"
+    },
+    {
+      "rang": 26,
+      "score": 0.9125,
+      "id": "98a2a674-0abf-5dc9-b689-87498d82a9d1",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Erstsemesterinfo/Erstsemesterbegruessung.pdf",
+      "title_anzeige": "f4 › WI › Erstsemesterinfo › Erstsemesterbegruessung",
+      "section_heading": "**Ihr Studiengang**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **Ihr Studiengang**  \n- Bachelor-Studiengang Wirtschaftsinformatik (BIS) oder Verwaltungsinformatik (VIF)  \n- Immatrikulation im Winter- und im Sommersemester möglich  \n- 7 Semester Regelstudienzeit (1. und 2. Studienabschnitt)  \n- derzeit ca. 600 Studierende  \n- ca. 65 / 35 Studienanfänger je Se"
+    },
+    {
+      "rang": 27,
+      "score": 0.88719,
+      "id": "05ec9eee-fc5a-5396-b6fe-8e8894549d15",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+      "title_anzeige": "Übersicht der angebotenen Studiengänge",
+      "section_heading": "Übersicht der angebotenen Studiengänge > Bachelor's degree programmes",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "##  Bachelor's degree programmes\n* WiSe = winter semester, SoSe = summer semester, WiSe & SoSe = winter and summer semesters"
+    },
+    {
+      "rang": 28,
+      "score": 0.88206,
+      "id": "9af97b5c-e626-5a41-b3ec-621511d8a8e6",
+      "source_url": "https://f2.hs-hannover.de/internationales/information-for-incomings-wege-an-die-fakultaet-ii/study-options",
+      "title_anzeige": "Study Options",
+      "section_heading": "Study Options > Study Options > Study Options",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Study Options\n_ _\nScrollen für mehr Infos!\n\n## Study Options\nStudents can choose their courses from the offer of Faculty I - Electrical Engineering and Information Technology and Faculty II - Mechanical and Bio Process Engineering. Here you can overview the courses offered in English Language in "
+    },
+    {
+      "rang": 29,
+      "score": 0.8633,
+      "id": "e568468a-7b76-5275-80f1-9fc356bd0ed9",
+      "source_url": "https://f5.hs-hannover.de/studium/internationales/wege-ins-ausland-outgoings/studienbezogene-auslandsaufenthalte-1",
+      "title_anzeige": "Studienbezogene Auslandsaufenthalte",
+      "section_heading": "Studienbezogene Auslandsaufenthalte > ZHAW Winter School, Schweiz",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## ZHAW Winter School, Schweiz\nDie **Zürcher Hochschule für Angewandte Wissenschaften (ZHAW)** bietet jedes Jahr eine **Winterschule zum Thema „Challenges in Interprofessional Health and Social Services“** an, die für Studierende aller Abteilungen der Fakultät V relevant ist. Im Rahmen der Wintersch"
+    },
+    {
+      "rang": 30,
+      "score": 0.85462,
+      "id": "b98a62f7-3b2b-5f6f-b21c-90a0cd0d656c",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2021_Archiv_Dokumente/25_Ajou_Visiting-Exchange_Program_Fact_Sheet.pdf",
+      "title_anzeige": "f4 › Internationales › 2021 Archiv Dokumente › 25 Ajou Visiting Exchange Program Fact Sheet",
+      "section_heading": "**Contents**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **Contents**  \nAbout Ajou University Ajou Visiting/Exchange Program Academic Calendar for Visiting/Exchange students English Course List for Academic Year (2024) Undergraduate English Course List for Academic Year Graduate  \n**AJOU UNIVERSITY**  \nABOUT AJOU UNIVERSITY"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 39604,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.07,
+    "kandidaten_s": 0.02,
+    "llm_auswahl_s": 5.82,
+    "docs_laden_s": 0.12,
+    "quellen_s": 8.04,
+    "antwort_llm_s": 3.45,
+    "gesamt_s": 11.48
+  },
+  "auswahl_begruendung": "{\"selected\":[5,8,4,2]}"
+}

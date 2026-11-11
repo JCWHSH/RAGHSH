@@ -1,0 +1,39 @@
+{
+  "lauf_id": "2026-08-17_1637_meta-llama-3.1-8b-instruct",
+  "gestartet": "2026-08-17T16:37:53",
+  "modell": "meta-llama-3.1-8b-instruct",
+  "fallauswahl": "alle",
+  "fallzahl": 26,
+  "notiz": "Erstlauf: 4-Arm-Index, 2 Arme aktiv, DBSF, Volltext-Runde-2",
+  "pause_s": 2.0,
+  "konfiguration": {
+    "DENSE_ARMS": [
+      "text"
+    ],
+    "SPARSE_ARMS": [
+      "sparse_expanded"
+    ],
+    "TOP_K": 8,
+    "CANDIDATE_LIMIT": 200,
+    "DEDUP_BUFFER": 4,
+    "MAX_PER_URL": 2,
+    "USE_RERANKER": true,
+    "AUGMENT_TOP_N": 3,
+    "SPARSE_LANGUAGE": "german",
+    "COLLECTION_NAME": "hsh_knowledge",
+    "FUSION": "dbsf",
+    "RAG_CANDIDATE_K": 30,
+    "TOP_DOCS": 8,
+    "SELECT_N": 4,
+    "MAX_CONTEXT_TOKENS": 100000,
+    "points_count": 121134,
+    "git_commit": "b40e486"
+  },
+  "laufzeit": {
+    "wall_clock_s": 181.6,
+    "gemessen_s": 131.5,
+    "geplante_pausen_s": 50.0,
+    "ungetrackt_s": 0.1,
+    "beendet": "2026-08-17T16:40:56"
+  }
+}

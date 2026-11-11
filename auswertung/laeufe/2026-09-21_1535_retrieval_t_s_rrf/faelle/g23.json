@@ -1,0 +1,1465 @@
+{
+  "fall": {
+    "id": "g23",
+    "case_type": "direct",
+    "question": "Mein Aufsatz ist nur gegen Gebühr lesbar – was erwartet die Hochschule von mir?",
+    "reference_answer": "Das Recht auf Zweitveröffentlichung nutzen und eine Kopie auf dem Publikationsserver SerWisS ablegen.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Open-Access-Policy_der_Hochschule_Hannover__HsH_.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "ihr Recht auf digitale Zweitveröffentlichung wahrzunehmen und eine Kopie ihrer Publikation auf dem von der Bibliothek der HsH betreuten Publikationsserver SerWisS abzulegen"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ forschung/vorgehen. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "bd219747-d7d6-5a93-87b3-5b821394dfc1",
+      "d27444e4-bf5a-5c53-8a95-f472781bc6ab",
+      "1a4fa018-a072-50bb-9814-12ad6c984ae0",
+      "588c971b-942f-5641-8233-1b543c2e7ecf",
+      "41dc6147-b3a2-5974-9bf6-2ef76b34799a",
+      "3e2e0c33-bc6a-54f3-a001-1d165b2c81a5",
+      "29c760b7-7380-576d-b3e7-057c1ea6271c",
+      "e7c942fa-ede1-5c90-92e9-b7511d94f505",
+      "c84e9705-0a89-5ddb-a39c-fa13018fa07d",
+      "efa8181b-3c5d-5fe6-a0cb-f80f1ab79f89",
+      "11732718-8ef6-55f7-9988-4e548f07782d",
+      "35cce803-8989-5c63-a900-43019322327e",
+      "2e03f489-f5e5-5117-aec1-f1239a571f56",
+      "7a1ad0d4-633f-59c0-9ce1-c5216bb635de",
+      "c8df3fee-68ca-5195-a35d-098fb4715294"
+    ],
+    "beleg_punkte": [
+      "c84e9705-0a89-5ddb-a39c-fa13018fa07d"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Open-Access-Policy_der_Hochschule_Hannover__HsH_.pdf"
+    ]
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T15:39:03",
+  "dauer_s": 5.54,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Studierendenverwaltung › Antraege › 14. Antrag auf Zulassung als Gasthoerer deutsch",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/14._Antrag_auf_Zulassung_als_Gasthoerer_deutsch.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Hochschule Hannover Akademische Angelegenheiten Ricklinger Stadtweg 120 30459 Hannover\n  ## Antrag auf Zulassung als Gasthörerin/Gasthörer gemäß § 12 Immatrikulationsordnung (IO)\n  ## im Studiengang:\n  ## Angaben zur Person\n  ## Hinweise:\n  ## (Ort, Datum )\n  ## (Unterschrift der/des Antragstellenden)\n  ## Merkblatt für Gasthörerinnen und Gasthörer\n  ## Hochschule Hannover\n  ## Norddeutsche Landesbank Girozentrale\n  ## Zum Verfahrensablauf:\n  ## Wichtiger Hinweis"
+    },
+    {
+      "nr": 2,
+      "titel": "f4 › Ueber Uns › Personen › Bericht zum Forschungsvorhaben Koenig Somersemester 2018 oeffentlich",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Ueber_Uns/Personen/Bericht_zum_Forschungsvorhaben_Koenig_Somersemester_2018_oeffentlich.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Bericht zum Forschungsvorhaben\n  ## Untersuchung von Einsatzmöglichkeiten moderner Datenanalyseverfahren in der Praxis am Beispiel von Text Mining in der Finanzindustrie\n  ## durchgeführt im Sommersemester 2018\n  ## Prof. Dr. Stephan König\n  ## Kurzbeschreibung\n  ## 1. Beschreibung des Forschungsvorhabens\n  ## 2.1. Derzeitiger Stand des Wissens im Fachgebiet\n  ## 3. Erzielte Ergebnisse\n  ## 3. Welche Programmiersprachen (z.B. Python, Scala) und Bibliotheken (NLTK, scikit-learn, MLib) sind für die Analyse großer Textmengen geeignet?\n  ## 4. Referenzen\n  ## 11. Anlagen\n  ## Anlage 1:\n  ## Anlage 2: Programm zur Sentiment Analyse in pyspark\n# Code follows ideas in: http://classes.ischool.syr.edu/ist718/content/unit09/labsentimentanalysis/\n# stop words - Nicht erforderlich für Sentiment Analyse mit Lexikon\n# Pipeline verwenden\n# Read all Files with Spark def gettext(row):\n# Generate list of relevant CIKs (with Quoniam Asset ID)\n# assetidcikmappingcombined.csv\n# Read McDonald Word List\n# Create df with words and pos (1) and neg (-1) sentiments\n# Spark df\n# Lower words via RegexTokenizer\n# Find Section 1A in 10-K # Erst ab 2006 def get1a(text): item1asearch = re.findall( \"(Ite\\sm|ITE\\sM)\\s1[.\\s][Aa][.:]?\\s([\\s\\S]?)(\\r\\n|[ ]{6,})\\s(Ite\\sm|ITE\\sM)\\s(1[.\\s][Bb]|2)[.:]?\\s\", text) item1asearch = [x[1] for x in item1asearch] item1a = max(item1asearch, key=len) if item1asearch else None item1a = item1a if item1a and (len(item1a) >= 200) else None return (item1a)\n# Find Section 7 in 10-K def get7(text): item7search = re.findall( \"(Ite\\sm|ITE\\sM)\\s7\\s[.:]?[\\s](Management|MANAGEMENT|Trustee|TRUSTEE)([\\s\\S]?)(\\r\\n|[ ]{8,})\\s(Ite\\sm|ITE\\sM)\\s(7[.\\s][Aa]|8)\\s[.:]?\\s\", text) item7search = [x[2] for x in item7search] item7 = max(item7search, key=len) if item7search else None item7 = item7 if item7 and (len(item7) >= 200) else None if not item7: item7search = re.findall( \"(Ite\\sm|ITE\\sM)\\s6\\s[.:]?[\\s](Management|MANAGEMENT|Trustee|TRUSTEE)([\\s\\S]?)(\\r\\n|[ ]{8,})\\s(Ite\\sm|ITE\\sM)\\s(6[.\\s][Aa]|7)\\s[.:]?\\s\",\n# Use only CIKs from qciklist relevanturllist = [x for x in urllist if int(x.split(\".\")[4].split(\"/\")[3].split(\"\")[4]) in qcikset]\n# Spark Dataframe\n# Tokenize 10-K dataframe\n# Start of the New Code, does not explode the DF.\n# Reduce 10K to sentiment words and sum the sentiments in rdd level.\n# parse context information via Path\n  ## Anlage 3: Programm zum Topic Modelling auf Basis des Scala Latent Dirichlet Allocation (LDA) Moduls in Spark MLib"
+    },
+    {
+      "nr": 3,
+      "titel": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Vorwort\n  ## Inhaltsübersicht\n  ## Erster Teil Hochschulen in staatlicher Verantwortung\n  ## Erstes Kapitel\n  ## Allgemeine Bestimmungen\n  ## Erster Abschnitt\n  ## Grundlagen\n  ## Zweiter Abschnitt\n  ## Studium und Lehre\n  ## Dritter Abschnitt\n  ## Verwaltungskostenbeitrag; Studienguthaben; Gebühren und Entgelte\n  ## Vierter Abschnitt\n  ## Studienqualitätsmittel\n  ## Dritter Abschnitt\n  ## Organisation\n  ## Grundlagen\n  ## Zweiter Abschnitt\n  ## Erster Titel\n  ## Studierende\n  ## Drittes Kapitel\n  ## Hochschulen in Trägerschaft des Staates\n  ## Zweiter Titel\n  ## Wissenschaftliches und künstlerisches Personal\n  ## Viertes Kapitel\n  ## Hochschulen in Trägerschaft von rechtsfähigen Stiftungen des öffentlichen Rechts\n  ## Dritter Teil Studentenwerke\n  ## Vierter Teil Übergangs- und Schlussvorschriften\n  ## Fünftes Kapitel\n  ## Humanmedizinische Einrichtungen; Medizinische Fakultät der Universität Oldenburg\n  ## Anlage 1\n  ## Anlage 2\n  ## Zweiter Teil\n  ## Hochschulen in nichtstaatlicher Verantwortung\n  ## Erster Teil Hochschulen in staatlicher Verantwortung\n  ## Erstes Kapitel\n  ## § 1 Staatliche Verantwortung\n  ## § 2 Hochschulen\n  ## § 3 Aufgaben der Hochschulen\n  ## § 4 Zusammenwirken der Hochschulen\n  ## § 5 Evaluation von Forschung und Lehre\n  ## Zweiter Abschnitt\n  ## § 6 Studiengänge und ihre Akkreditierung; Regelstudienzeit; Studienberatung\n  ## § 7 Prüfungen und Leistungspunktsystem; staatliche Anerkennung\n  ## § 8 Inländische Grade\n  ## § 9 Promotion; Doktorandinnen und Doktoranden\n  ## § 9 a Habilitation\n  ## Dritter Abschnitt\n  ## § 10 Ausländische Grade, Titel und Bezeichnungen\n  ## Verwaltungskostenbeitrag; Studienguthaben; Gebühren und Entgelte\n  ## § 11 Verwaltungskostenbeitrag"
+    },
+    {
+      "nr": 4,
+      "titel": "www › Verkuendungsblatt › 03 2024 › 02 HsH Zertifikatsordnung — Geltungsbereich",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/03-2024/02_HsH-Zertifikatsordnung.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ordnung über die Ausgestaltung von Zertifikatsprogrammen und Zertifikatskursen an der Hochschule Hannover\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zertifikatskurse und Hochschulzertifikate\n  ## § 3\n  ## Zertifikatsprogramme und Zertifikatsformate CBS/DBS/CAS/DAS\n  ## § 4\n  ## Prüfungsleistungen und Prüfungsmodalitäten\n  ## § 5\n  ## Teilnahmebescheinigungen\n  ## § 6\n  ## Zugangsvoraussetzungen und Teilnahmebedingungen\n  ## § 7\n  ## Modulbeschreibungen\n  ## § 8\n  ## Gebühren\n  ## § 9\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 5,
+      "titel": "Häufig gestellte Fragen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+      "fakultaet": "",
+      "struktur": "# Häufig gestellte Fragen\n  ## FAQ\n    ### Wo kann ich vorgemerkte Bücher abholen?\n    ### Ich kann das Buch nicht selbst abholen. Kann ich jemand anderen schicken?\n    ### Wie melde ich mich an?\n    ### Ich bin kein Mitglied der Hochschule Hannover (mehr). Darf ich trotzdem ausleihen?\n    ### Wie lange ist meine Karte gültig?\n    ### Was mache ich, wenn ich meine Karte verloren habe?\n    ### Wie lautet mein Passwort?\n    ### Welche Kosten entstehen bei einer Fernleihe?\n    ### Wie lange dauert die Lieferung von Literatur per Fernleihe?\n    ### Kann ich die Leihfrist von per Fernleihe entliehenen Büchern verlängern?\n    ### Kann ich Literatur per Fernleihe bestellen, die in der Bibliothek der Hochschule Hannover derzeit verliehen ist?\n    ### Ich brauche die Literatur so dringend, dass eine Lieferung per Fernleihe u.U. zu lange dauert. Gibt es eine einen Service mit garantierter Lieferzeit?\n    ### Wie bekomme ich ein Guthabenkonto zur selbstständigen Bestellung von Fernleihen?\n    ### Ist die von mir gesuchte Literatur in der Bibliothek der Hochschule Hannover vorhanden?\n    ### Ist die von mir gewünschte Literatur in Hannover vorhanden?\n    ### Was kann ich tun, wenn die von mir gewünschte Literatur nicht in Hannover vorhanden ist?\n    ### Wie kann ich auf von der Bibliothek angebotene E-Books und elektronische Zeitschriften zugreifen?\n    ### Wie finde ich Zeitschriftenaufsätze?\n    ### Wie finde ich Informationen zu einem bestimmten Thema?\n    ### Wie finde ich an der Hochschule Hannover geschriebene Abschlussarbeiten?\n    ### Wie bekomme ich Hilfe bei der Literatursuche?\n    ### Wie lang ist der Campus geöffnet, um den Rückgabekasten zu nutzen?\n    ### Wo kann ich ausgeliehene Medien zurückgeben?\n    ### Kann ich entliehene Bücher auch per Post zurückschicken?\n    ### Kann ich ausstehende Gebühren auch überweisen?"
+    },
+    {
+      "nr": 6,
+      "titel": "f1 › 20 Dokumente › 99 Sonstiges › EIT EMT Sitzpositionsvermessungssystem — Motivation",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/EIT-EMT_Sitzpositionsvermessungssystem.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Sitzpositionsvermessungssystem für Fahrräder\n  ## Motivation\n  ## Klassische Vermessung der Sattelposition\n  ## Das neue Sitzpositionsvermessungssystem\n  ## Bestimmung der horizontalen Sattelposition\n  ## Bestimmung der vertikalen Sattelposition\n  ## Kontakt"
+    },
+    {
+      "nr": 7,
+      "titel": "www › akademische angelegenheiten › studieninteressierte › gasthoererschaft — Gasthörerschaft",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/gasthoererschaft",
+      "fakultaet": "",
+      "struktur": "# Gasthörerschaft\n    ### Auf einen Blick\n  ## Umfang der Teilnahme\n  ## Ablauf der Antragstellung\n  ## Gebühren\n  ## Teilnahme an Prüfungen\n  ## Antragsformulare\n  ## Wichtige Hinweise\n  ## Juniorstudium\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 04 2010 › 03 2010 Gebuehren Entgeltordnung",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Gebühren- und Entgeltordnung der Fachhochschule Hannover\n  ## ( - EntgeltO - )\n  ## § 1 Gebühren und Entgelte\n  ## § 2\n  ## Gebühren für Gasthörer\n  ## § 3 Entgelte für Weiterbildungsprogramme und Einzelveranstaltungen\n  ## § 4\n  ## Gebühren für Teilnahme an Weiterbildungsstudiengängen\n  ## § 5\n  ## Gebühren für Studierende, die das 60. Lebensjahr vollendet haben\n  ## § 6\n  ## Entgelte für die Nutzung von Hochschuleinrichtungen\n  ## § 7 Entgelte für die Teilnahme an Sprachprüfungen\n  ## § 8\n  ## Entgelte für die Teilnahme an Einstufungs- und Zugangsprüfungen\n  ## § 9\n  ## Entgelte für die Bewertung ausländischer Bildungsnachweise\n  ## § 10\n  ## Erhebung von Gebühren und Auslagen für sonstige Amtshandlungen\n  ## § 11 Entgelte für die Erstausstellung einer FHHCard\n  ## § 12\n  ## Ermäßigung und Befreiung\n  ## § 13 Fälligkeit\n  ## § 14 Anpassungsklausel\n  ## § 15 Inkrafttreten\n  ## Neufassung der Richtlinien der Fachhochschule Hannover für die Überlassung von Einrichtungen und die Inanspruchnahme von Dienstleistungen außerhalb ihrer gesetzlichen Aufgaben, vom  1.3.2000, veröffentlicht im Verkündungsblatt Nr. 3/2000 vom 12.7.2000 - Überlassungsbedingungen –\n  ## § 1 Vertragsschluss\n  ## § 2 Entgeltpflicht\n  ## § 3 Rücktritt durch Veranstalter\n  ## § 4 Benutzungsbedingungen\n  ## § 5 Audiovisuelle Medien\n  ## § 6 Gebrauchsüberlassung an Dritte\n  ## § 7 Haftung, Schadensersatz, Gerichtsstand\n  ## § 8 Gerichtsstand\n  ## § 9 Inkrafttreten\n  ## Preisliste für die Nutzung von Einrichtungen und die Inanspruchnahme von Dienstleistungen der Fachhochschule Hannover unter Berücksichtung der EU-Trennungsrechnung\n  ## I. Entgelte für Dienstleistungen\n  ## II. Besondere Entgeltregelungen\n  ## 1) Veranstaltungsgruppe A\n  ## 2) Veranstaltungsgruppe B\n  ## 3) Veranstaltungsgruppe C\n  ## III. Entgelte für die Nutzung von Einrichtungen\n  ## 1) Nutzungsentgelte für Räume und Plätze innerhalb der Öffnungszeiten je Tag, ggf. zzgl. Mehrwertsteuer\n  ## Zusätzliche Kosten:\n  ## Anlage 3 der Gebühren und Entgeltordnung der Fachhochschule Hannover\n  ## - EntgeltO -"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 0.50893,
+      "id": "a560be03-77b6-5b10-b43f-019cdbc5aa7c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/14._Antrag_auf_Zulassung_als_Gasthoerer_deutsch.pdf",
+      "title_anzeige": "www › Studierendenverwaltung › Antraege › 14. Antrag auf Zulassung als Gasthoerer deutsch",
+      "section_heading": "**(Ort, Datum** ) > **(Unterschrift der/des Antragstellenden)** > **Merkblatt für Gasthörerinnen und Gasthörer**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## **(Ort, Datum** )\n\n## **(Unterschrift der/des Antragstellenden)**\n## **Merkblatt für Gasthörerinnen und Gasthörer**  \nAn der Hochschule Hannover können gemäß § 13 Absatz 5 des Niedersächsischen Hochschulgesetzes (NHG) in der zurzeit gültigen Fassung, Personen bestimmte Lehrveranstaltungen besuche"
+    },
+    {
+      "rang": 2,
+      "score": 0.5,
+      "id": "4d1b7637-85e6-546a-9bdc-e6752055ab9f",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Ueber_Uns/Personen/Bericht_zum_Forschungsvorhaben_Koenig_Somersemester_2018_oeffentlich.pdf",
+      "title_anzeige": "f4 › Ueber Uns › Personen › Bericht zum Forschungsvorhaben Koenig Somersemester 2018 oeffentlich",
+      "section_heading": "**3. Welche Programmiersprachen (z.B. Python, Scala) und Bibliotheken (NLTK, scikit-learn, MLib) sind für die Analyse großer Textmengen geeignet?**",
+      "chunk_index": 42,
+      "text_vollstaendig": true,
+      "auszug": "**6. Welche Text Mining Verfahren eignen sich für die Textanalyse?**  \nKlassische grundlegende Text Mining Verfahren, die im Rahmen des Forschungsvorhabens verwendet wurden, fallen in die Bereiche Readability, Sentiment und Distance Measures (siehe auch unter 1. Beschreibung des Forschungsvorhabens)"
+    },
+    {
+      "rang": 3,
+      "score": 0.44444,
+      "id": "a1f21141-5871-5e91-9bf5-e22c98893ebd",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "title_anzeige": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "section_heading": "§ 13 Langzeitstudiengebühren, sonstige Gebühren und Entgelte",
+      "chunk_index": 72,
+      "text_vollstaendig": true,
+      "auszug": "(2)[1] Von den Einnahmen nach Absatz 1 Satz 1 stehen den Hochschulen jährlich 5.000.000 Euro zur Verfügung.[2] Die Aufteilung auf die Hochschulen und, bei Hochschulen in Trägerschaft von Stiftungen, auf die Stiftungen erfolgt entsprechend dem jeweiligen Anteil der Hochschule an der Gesamtzahl der St"
+    },
+    {
+      "rang": 4,
+      "score": 0.33333,
+      "id": "3c669489-f97c-5cf1-a698-ce0d3a4c018e",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "title_anzeige": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "section_heading": "§ 13 Langzeitstudiengebühren, sonstige Gebühren und Entgelte",
+      "chunk_index": 73,
+      "text_vollstaendig": true,
+      "auszug": "(5)[1] Die Hochschulen in staatlicher Verantwortung erheben von Gasthörerinnen und Gasthörern je Semester eine Gebühr in Höhe von mindestens  \n1.   50 Euro bei einer Belegung bis vier Semesterwochenstunden,  \n3 Die Höhe der Langzeitstudiengebühren nach Satz 1 vermindert sich für Studierende in einem"
+    },
+    {
+      "rang": 5,
+      "score": 0.25935,
+      "id": "e38673a8-7217-5e90-af94-964469a0b03b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/03-2024/02_HsH-Zertifikatsordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2024 › 02 HsH Zertifikatsordnung — Geltungsbereich",
+      "section_heading": "**§ 8** > **Gebühren**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 8**\n\n## **Gebühren**  \n- (1) Für Zertifikatskurse und Zertifikatsprogramme werden kostendeckende Gebühren nach einem von der Hochschule Hannover/HsH-Akademie vorgegebenen Kostenplan für die wirtschaftliche Tätigkeit erhoben. Diese Gebühren enthalten die Teilnahme- und Prüfungsgebühren. Anhand"
+    },
+    {
+      "rang": 6,
+      "score": 0.25719,
+      "id": "ec41a780-4a63-59a3-a38c-dc50021e9d2a",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+      "title_anzeige": "Häufig gestellte Fragen",
+      "section_heading": "Häufig gestellte Fragen > FAQ > Welche Kosten entstehen bei einer Fernleihe?",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "### Welche Kosten entstehen bei einer Fernleihe?\nEine Fernleihbestellung, d.h. die Ausleihe eines Buches aus einer anderen Bibliothek oder die Kopie eines Aufsatzes kostet 1,50 EUR. Diese Bestellgebühr ist unabhängig vom Erfolg der Bestellung, die meisten Ihrer Fernleihwünsche können aber natürlich "
+    },
+    {
+      "rang": 7,
+      "score": 0.20503,
+      "id": "3e463ac7-308d-51dd-b372-dfa489adc48f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/14._Antrag_auf_Zulassung_als_Gasthoerer_deutsch.pdf",
+      "title_anzeige": "www › Studierendenverwaltung › Antraege › 14. Antrag auf Zulassung als Gasthoerer deutsch",
+      "section_heading": "**Hinweise:**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "|Bezeichnung der\nLehrveranstaltung|Zahl der\nWochenstunden|Zahl der\nCredits|Unterschrift des/der\nLehrenden|Name des/der Lehrenden\n(in Druckbuchstaben!!!)|\n|---|---|---|---|---|\n||||||\n||||||\n||||||\n||||||\n||||||  \nSollte die Gebühr innerhalb der Zahlungsfrist nicht eingegangen sein, wird die Gasthöre"
+    },
+    {
+      "rang": 8,
+      "score": 0.2,
+      "id": "9382dc56-ee67-5a21-acb3-f14f18bb6560",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/EIT-EMT_Sitzpositionsvermessungssystem.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › EIT EMT Sitzpositionsvermessungssystem — Motivation",
+      "section_heading": "**Bestimmung der horizontalen Sattelposition**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **Bestimmung der horizontalen Sattelposition**  \nZur Bestimmung der horizontalen Sattelposition wird das Messsystem senkrecht gestellt (Anzeige 90°). Durch einen horizontal verschiebbaren Aufsatz kann der Versatz des Sattels hinter der Tretlagerachse bestimmt werden. Hierzu wird eine auf dem Aufs"
+    },
+    {
+      "rang": 9,
+      "score": 0.17763,
+      "id": "9f8c7a15-9cba-5fcf-ac39-9d5f72085f81",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/gasthoererschaft",
+      "title_anzeige": "www › akademische angelegenheiten › studieninteressierte › gasthoererschaft — Gasthörerschaft",
+      "section_heading": "Gasthörerschaft > Gebühren",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Gebühren\nFür die Teilnahme als Gasthörerin oder Gasthörer wird eine Gebühr erhoben. Die Höhe richtet sich nach dem Umfang der belegten Lehrveranstaltungen.\n– bis zu 4 Semesterwochenstunden: 110 Euro\n– mehr als 4 Semesterwochenstunden: 160 Euro\n– Einzelunterricht: 250 Euro\nDie Gebühr ist nach Antr"
+    },
+    {
+      "rang": 10,
+      "score": 0.17584,
+      "id": "758a7240-3d2e-52df-ac51-fa6bf3d34435",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2010 › 03 2010 Gebuehren Entgeltordnung",
+      "section_heading": "**§ 2** > **Gebühren für Gasthörer**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 2**\n## **Gebühren für Gasthörer**  \n- (1) Personen, die an einzelnen Lehrveranstaltungen teilnehmen, werden als Gasthörerinnen oder Gasthörer zugelassen. Die Gebühr für die Teilnahme an einer Lehrveranstaltung als Gasthörerin bzw. als Gasthörer beträgt pro Semester:  \n- 110,00 € bei Belegung "
+    },
+    {
+      "rang": 11,
+      "score": 0.14286,
+      "id": "2dee8b77-b074-572a-bc02-7a7d77d8bace",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch ITR",
+      "section_heading": "**Teilmodul ITR-103-01 Visuelle Kommunikation - Design, Farbe und Prepress**",
+      "chunk_index": 35,
+      "text_vollstaendig": false,
+      "auszug": "Die Studierenden können Typografie klassifizieren. Die Studierenden können die Historie der Typografie zuordnen.  \nDie Studierenden können die Lesbarkeit von Typografie evaluieren."
+    },
+    {
+      "rang": 12,
+      "score": 0.125,
+      "id": "5685efd0-d3a4-5ede-ae5a-408accc07154",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/HsH_Verkuendungsblatt_05_2020.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2020 › HsH Verkuendungsblatt 05 2020 — Ausgabe 05/2020",
+      "section_heading": "**mit dem Abschluss „Master of Science (M.Sc.)“ in der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover** > **§ 3** > **mit dem Abschluss „Master of Science (M.Sc.)“ in der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover** > **Gebühren für Wiederholungsprüfungen zur Notenverbesserung oder bei Versäumnis, Rücktritt, Krankheit oder Täuschung**",
+      "chunk_index": 116,
+      "text_vollstaendig": false,
+      "auszug": "- (3) Für die Wiederholung einer als „nicht ausreichend“ (5,0) bewerteten Master Thesis ist erneut eine Gebühr von 900,- Euro zu überweisen."
+    },
+    {
+      "rang": 13,
+      "score": 0.11111,
+      "id": "ca961a56-fb83-5c3c-ad3c-81c805499600",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIB 2017",
+      "section_heading": "**Qualifikationsziele**",
+      "chunk_index": 80,
+      "text_vollstaendig": false,
+      "auszug": "## **Qualifikationsziele**  \nDie Studierenden kennen die Grundbegriffe der allgemeinen Sprachwissenschaf. Sie sind in der Lage, deutsche Wörter und Sätze morphologisch, syntaktisch und semantisch zu analysieren und bezüglich Grammatik, Stil und Lesbarkeit zu beurteilen und zu korrigieren. Die Studie"
+    },
+    {
+      "rang": 14,
+      "score": 0.11,
+      "id": "335c236f-5611-56ad-873c-832c0625ddd9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2011 › 3 Gebuehren und Entgeltordnung",
+      "section_heading": "**`§ 2`** > **`Gebühren für Gasthörer`**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **`§ 2`**\n## **`Gebühren für Gasthörer`**  \n- (1) Personen, die an einzelnen Lehrveranstaltungen teilnehmen, werden als Gasthörerinnen oder Gasthörer zugelassen. Die Gebühr für die Teilnahme an einer Lehrveranstaltung als Gasthörerin bzw. als Gasthörer beträgt pro Semester:  \n- 110,00 ! bei Beleg"
+    },
+    {
+      "rang": 15,
+      "score": 0.10133,
+      "id": "d0fd4419-f6d3-5123-9f9b-5a0c7ded73bc",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2011 › 3 Gebuehren und Entgeltordnung",
+      "section_heading": "**`§ 1 Gebühren und Entgelte`**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **`§ 1 Gebühren und Entgelte`**  \n- (1) Die Fachhochschule Hannover erhebt nach § 13 Absätze 5 und 6, § 14 des Niedersächsischen Hochschulgesetzes (NHG) eine Gebühr  \n1. von Gasthörerinnen und Gasthörern  \n2. von Teilnehmerinnen und Teilnehmern an Weiterbildungs- und Ergänzungsstudiengängen.  \n- "
+    },
+    {
+      "rang": 16,
+      "score": 0.1,
+      "id": "bcfb5e06-a234-523b-84d4-daeb10930786",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/ProM_GPM_Weiterbildungsbroschuere_HSHannover_web.pdf",
+      "title_anzeige": "www › Weiterbildung › Flyer › ProM GPM Weiterbildungsbroschuere HSHannover web",
+      "section_heading": "**Projektmanagement bringt Klarheit** > **Schlüssel zum Projekterfolg**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Hinweis:  Werden Personenbezeichnungen aus Gründen der besseren Lesbarkeit lediglich in der männlichen Form verwendet, so schließt dies das weibliche Geschlecht mit ein."
+    },
+    {
+      "rang": 17,
+      "score": 0.09091,
+      "id": "0ab43b4a-5d04-56cc-af77-9b7e64311a5a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/5-2024_Ausschreibung_Monitoring.pdf",
+      "title_anzeige": "www › Organisation › Personal › 5 2024 Ausschreibung Monitoring",
+      "section_heading": "**Das Studienprogramm:**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "Die Hochschule Hannover strebt eine Stärkung der Forschung an. Daher wird von der/dem Stellenbewerber/in ein hohes Interesse an Bildungsforschung bzw. an praxisbezogener Forschung im Pflege- und Gesundheitsbereich erwartet. Erfahrungen im internationalen Fachdiskurs sind erwünscht.  \nDie Mitarbeit a"
+    },
+    {
+      "rang": 18,
+      "score": 0.08333,
+      "id": "0cfd9c59-7ec0-5264-bab6-c04bf34abdfc",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/24-02-06-Wichtige_Information_fuer_Quereinsteiger_in_den_Bachelor_Stand_Februar_2024.pdf",
+      "title_anzeige": "f4 › WI › Informationen › 24 02 06 Wichtige Information fuer Quereinsteiger in den Bachelor Stand Februar 2024",
+      "section_heading": "**II. Unter welchen Voraussetzungen können Studienleistungen anerkannt werden?**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "> * In diesem Text wird aus Gründen der besseren Lesbarkeit das generische Maskulinum verwendet, weibliche und andere Geschlechteridentitäten sind ausdrücklich mitgemeint.  \nInformation für Quereinsteiger BIS bzw. VIF"
+    },
+    {
+      "rang": 19,
+      "score": 0.07943,
+      "id": "7ef7a9e9-aa67-5741-9177-7f221de77975",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2010 › 03 2010 Gebuehren Entgeltordnung",
+      "section_heading": "**§ 2** > **Gebühren für Gasthörer**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Aktualisierte Fassung der Gebühren- und Entgeltordnung der Fachhochschule Hannover  \nSeite 1 von 1 2  \nVerkündungsblatt der FHH  \nSeite 12 von 2 3  \nNr.4/2010 vom 18.5.2010  \n- (3) Die Gebührenpflicht nach Abs. 1 Satz 2 entsteht mit Antrag auf Zulassung als Gasthörerin bzw. Gasthörer. Die Gebührenpf"
+    },
+    {
+      "rang": 20,
+      "score": 0.07692,
+      "id": "1ec0b00c-92f7-5df0-9765-360f74d94ec1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Auslaender/Informationsblatt_APP_fuer_auslaendische_Studieninteressierte_ab_SoSe_2024.pdf",
+      "title_anzeige": "www › Studierendenverwaltung › Auslaender › Informationsblatt APP fuer auslaendische Studieninteressierte ab SoSe 2024",
+      "section_heading": "**� 2. Welche Unterlagen müssen Sie hochladen?**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **� 2. Welche Unterlagen müssen Sie hochladen?**  \nBitte laden Sie **alle Dokumente als PDF- oder JPG-Datei** hoch. Achten Sie darauf, dass sie **klar lesbar** sind."
+    },
+    {
+      "rang": 21,
+      "score": 0.07681,
+      "id": "96a569b9-5bac-583d-bae0-9da1dbb2bf68",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/literatursuche",
+      "title_anzeige": "www › organisation › bibliothek › literatursuche",
+      "section_heading": "Literatursuche > FAQ zur Literatursuche",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "Aufsatztitel sind in der Datenbank [Online Contents](http://gso.gbv.de/DB=2.3/ \"Online Contents\") (OLC) nachgewiesen, die allerdings nur aus dem Hochschulnetz erreichbar ist.\nBitte geben Sie Ihre Suchbegriffe (z.B. Verfasser oder Titelstichwort des Aufsatzes) unverbunden nebeneinander in den Suchsch"
+    },
+    {
+      "rang": 22,
+      "score": 0.07143,
+      "id": "03abf4da-384f-5abd-9809-52915c98c164",
+      "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000050192",
+      "title_anzeige": "Prof. Dr. Julius Späte",
+      "section_heading": "Prof. Dr. Julius Späte > Veröffentlichungen und mehr...",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "[ Aufsätze und Studien, Rezensionen ](https://f5.hs-hannover.de/service/personenfinder/person/1000050192 \"Aufsätze und Studien, Rezensionen\")\n**Aufsätze und Studien**\nSpäte, J. (2026). Praxis als Widerfahrnis. In S. Haupt, T. Kallenbach & N. Klevermann (Hrsg.), _Ein Glossar zum Praxisverständnis in "
+    },
+    {
+      "rang": 23,
+      "score": 0.06667,
+      "id": "aa21b31d-fc28-5f13-8c8f-ddecf78e0dcf",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+      "title_anzeige": "www › bibliothek › services › publizieren an der hsh",
+      "section_heading": "Publikationsfonds",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "[ Förderbedingungen für die Übernahme von Article Processing Charges (Zeitschriftenartikel) aus dem Publikationsfonds der Bibliothek ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh \"Förderbedingungen für die Übernahme von Article Processing Charges \\(Ze"
+    },
+    {
+      "rang": 24,
+      "score": 0.06667,
+      "id": "dbb7330c-23cd-5291-a7db-43beb04b39cf",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_MAT.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch MAT",
+      "section_heading": "**Literatur**",
+      "chunk_index": 727,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nAufsätze aus Fachpublikationen, die je nach Vertiefungsthema aktuell zusammengestellt werden  \nStand 05.09.2018"
+    },
+    {
+      "rang": 25,
+      "score": 0.06083,
+      "id": "0b60c8bc-bee7-5219-8105-2841d8724065",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/11-2025/hsh_verkuendungsblatt_nr_11_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblaetter › 11 2025 › hsh verkuendungsblatt nr 11 2025 — Ausgabe 11/2025",
+      "section_heading": "**§ 3** > **Gebühren für Wiederholungsprüfungen zur Notenverbesserung oder bei Versäumnis, Rücktritt, Krankheit oder Täuschung**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n\n## **Gebühren für Wiederholungsprüfungen zur Notenverbesserung oder bei Versäumnis, Rücktritt, Krankheit oder Täuschung**  \n- (1) Bestandene Prüfungen dürfen gemäß § 11 Abs. 4 des AT der Prüfungsordnung einmal zum Zweck der Notenverbesserung wiederholt werden. Hierfür sind erneut Studien"
+    },
+    {
+      "rang": 26,
+      "score": 0.05882,
+      "id": "9e19769a-aaf3-5ea3-846b-1d2d64bf95fd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Flyer_NdsOPEN_HsH.pdf",
+      "title_anzeige": "www › Bibliothek › Allgemeine Dateien › Flyer NdsOPEN HsH — Kontakt",
+      "section_heading": "**Open-Access-Publizieren kostet Geld...**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **Open-Access-Publizieren kostet Geld...**  \nDas Veröffentlichen von Büchern und Artikeln im OA kostet häufig Geld. Die Verlage erheben Gebühren,  \nsogenannte Article und Book Processing Charges (APC/BPC), und stellen diese Autor:innen bzw. Herausgeber:innen in  \nRechnung."
+    },
+    {
+      "rang": 27,
+      "score": 0.05882,
+      "id": "fee19d40-907c-57f5-8f86-649073393ceb",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Antrag_Zulassung_Masterarbeit_01_2022.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › Antrag Zulassung Masterarbeit 01 2022 — Antrag auf Zulassung zur Masterprüfung",
+      "section_heading": "**Aktuelle Anschrift** > **Thema/Arbeitstitel der Arbeit**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **Aktuelle Anschrift**  \n**Telefon E-Mail**\n\n## **Thema/Arbeitstitel der Arbeit**  \n_Maximal zulässige Länge sind 100 Zeichen, Thema bitte eindeutig lesbar eintragen_"
+    },
+    {
+      "rang": 28,
+      "score": 0.05632,
+      "id": "81fb770a-c302-5683-af96-c209c9b6c2d2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/02_Neufassung_I-Ordnung-07_05_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 02 Neufassung I Ordnung 07 05 2013 — Immatrikulationsordnung der Hochschule Hannover (HsH)",
+      "section_heading": "**§ 12** > **Gasthörerinnen und Gasthörer**",
+      "chunk_index": 34,
+      "text_vollstaendig": false,
+      "auszug": "- (4) Gasthörerinnen und Gasthörer nach Absatz 1 Satz 1 haben die gemäß § 2 EntgeltO der Hochschule Hannover zu zahlenden Gebühren zu leisten.  \n- (5) Der Aufnahmeantrag als Gasthörerin oder Gasthörer ist für jedes Semester neu zu stellen."
+    },
+    {
+      "rang": 29,
+      "score": 0.05556,
+      "id": "70561503-6e56-5ac8-a49f-b28690059046",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Externe_Abschlussarbeiten_2018__00000002_.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Externe Abschlussarbeiten 2018 00000002",
+      "section_heading": "**7. Erstattung von Kosten**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **7. Erstattung von Kosten**  \nDie Betreuung der Abschlussarbeit erfolgt seitens der Hochschule im Rahmen der Dienstaufgaben der Professorinnen und Professoren _**kostenfrei**_ . Sie umfasst keine Beratungsleistungen der Professorinnen und Professoren, die über die Betreuung der Abschlussarbeit h"
+    },
+    {
+      "rang": 30,
+      "score": 0.05556,
+      "id": "e6afbfd7-a879-55d1-9230-3eaa72a43ede",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/EIT-EMT_Sitzpositionsvermessungssystem.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › EIT EMT Sitzpositionsvermessungssystem — Motivation",
+      "section_heading": "**Das neue Sitzpositionsvermessungssystem**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **Das neue Sitzpositionsvermessungssystem**  \nDas hier beschriebene Vermessungssystem soll die Vermessung der Sattelposition vereinfachen und eine genauere Messung ermöglichen. Das System besteht aus zwei ineinander gesteckten Aluminiumprofilen von denen eines einen Maßstab zur Bestimmung der ver"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/14._Antrag_auf_Zulassung_als_Gasthoerer_deutsch.pdf",
+        "score": 0.54179
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.52526
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+        "score": 0.51285
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/14._Antrag_auf_Zulassung_als_Gasthoerer_deutsch.pdf",
+        "score": 0.50989
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 0.48899
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.48857
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/HsH_Verkuendungsblatt_05_2020.pdf",
+        "score": 0.48736
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.48513
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 0.48378
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 0.48178
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.48133
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 0.47846
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 0.47806
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+        "score": 0.47708
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 0.47182
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Flyer_NdsOPEN_HsH.pdf",
+        "score": 0.47085
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Externe_Abschlussarbeiten_2018__00000002_.pdf",
+        "score": 0.46892
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/gasthoererschaft",
+        "score": 0.46843
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/15._Antrag_auf_Zulassung_als_Gasthoererin_englisch.pdf",
+        "score": 0.46494
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/gasthoererschaft",
+        "score": 0.46449
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 0.46443
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/literatursuche",
+        "score": 0.46249
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/03_PUE_-_GebO_WbgStg_29.06.2020Wu.pdf",
+        "score": 0.4621
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+        "score": 0.4568
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/02_Neufassung_I-Ordnung-07_05_2013.pdf",
+        "score": 0.45613
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Immatrikulationsordnung_der_Hochschule_vom_12.06.2013.pdf",
+        "score": 0.4561
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_07.03.2025.pdf",
+        "score": 0.4541
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20170613_Protokoll_13.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+        "score": 0.45223
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/08-2015/01_Richtlinie_Lehrauftraege_AEnderungen_15_06_2015.pdf",
+        "score": 0.45112
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/11-2025/hsh_verkuendungsblatt_nr_11_2025.pdf",
+        "score": 0.45032
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/02-2018/02_Richtlinie_Lehrauftraege_12.02.2018.pdf",
+        "score": 0.44949
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 0.44924
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/07-2017/01_Richtlinie_Lehrauftraege_AEnd_30_06_2017.pdf",
+        "score": 0.44847
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 0.44798
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 0.44784
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z",
+        "score": 0.44705
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/07-2017/HsH_Verkuendungsblatt_07_2017.pdf",
+        "score": 0.44495
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.44458
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/16-07-01-Unforced-Errors-Disterer.pdf",
+        "score": 0.44323
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Info8.pdf",
+        "score": 0.4428
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 0.44248
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/07-2016/02_UEberlassungsentgelte_2016-Anlage_2.pdf",
+        "score": 0.44234
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 0.44205
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+        "score": 0.44194
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 0.44159
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+        "score": 0.44074
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Open-Access-Policy_der_Hochschule_Hannover__HsH_.pdf",
+        "score": 0.44026
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.44013
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.43949
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/01_Richtlinie_Erteilung_Verguetung_Lehrauftraegen_und_Gastvortraegen_2021.pdf",
+        "score": 0.43922
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services",
+        "score": 0.60106
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+        "score": 0.59892
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2011",
+        "score": 0.5593
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+        "score": 0.55256
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/BSK_-_Besonderer_Teil_der_Pruefungsordnung_mit_Anlagen_B1_und_B2__ab_Studenjahrgang_2008_.pdf",
+        "score": 0.54128
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/04-2011/05-Soziale_Arbeit.pdf",
+        "score": 0.53881
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Ordnungen/Modulhandbuch_MBD_neue_PO_2024_260323.pdf",
+        "score": 0.52716
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Antrag_MA_neu.pdf",
+        "score": 0.52294
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.51752
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/08-2024/hsh_verkuendungsblatt_nr_08_2024_neu.pdf",
+        "score": 0.5163
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 0.51491
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/11_Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraegen_Endversion.pdf",
+        "score": 0.51456
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.51381
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.51184
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+        "score": 0.50485
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/forschung/kooperationsmoeglichkeiten",
+        "score": 0.50436
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/unternehmensentwicklung-mbd",
+        "score": 0.50347
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/11-2015/01_Beschaffungsrichtlinie_20151001.pdf",
+        "score": 0.50262
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2025-07-09_ICM_Concept_2025.pdf",
+        "score": 0.50214
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.50151
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/03-2008/Verkuendungsblatt_03-2008.pdf",
+        "score": 0.50093
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/gasthoererschaft",
+        "score": 0.49926
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/Archiv/18-05-17-Modulhandbuch_MIN_eng_20132_20180516.pdf",
+        "score": 0.49863
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 0.49768
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MSW/Modulhandbuch_MSW/Modulhandbuch-MSW-WiSe_2019-20.pdf",
+        "score": 0.49634
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/08-2017/03_Repraesentationsrichtlinie_Verkuendungsblatt.pdf",
+        "score": 0.49369
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/08_Gebuehrenordnung.pdf",
+        "score": 0.49243
+      },
+      {
+        "rang": 28,
+        "source_url": "https://service.it.hs-hannover.de/ivs-bo",
+        "score": 0.49215
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Flyer_NdsOPEN_HsH.pdf",
+        "score": 0.49203
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/hsh_verkunedungsblatt_nr_05_2025.pdf",
+        "score": 0.49163
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/Archiv/Modulverzeichnis_BIN_MIN_2013.pdf",
+        "score": 0.49058
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/5._Antrag_auf_Erlass_Covid-Nachweis_01.pdf",
+        "score": 0.4905
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/2024-04-29-modules-BIN-19WS-EN.pdf",
+        "score": 0.48899
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/forschungsstrategie-richtlinien-und-leitlinien",
+        "score": 0.48864
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.48824
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+        "score": 0.4872
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 0.48699
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 0.48695
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/01_Richtlinie_Erteilung_Verguetung_Lehrauftraegen_und_Gastvortraegen_2021.pdf",
+        "score": 0.4868
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/2024-04-29-modules-BIN-19WS-DE.pdf",
+        "score": 0.48673
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/05_FV_ATPO_2025_mit_Anhang_VB.pdf",
+        "score": 0.48376
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 0.48357
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/08-2024/hsh_verkuendungsblatt_nr_08_2024_neu.pdf",
+        "score": 0.48242
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/EngCourseGuide_WS2025.pdf",
+        "score": 0.48175
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Landingpages/HannoTalents/Dein_Weg_zur_Promotion_Ratgeber-GUP-Kolleg_HsH_04.09.25.pdf",
+        "score": 0.48126
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/02-2008/07-Master-NED-GebuehrenO-29-1-08.pdf",
+        "score": 0.48063
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/literatursuche",
+        "score": 0.48049
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_07.03.2025.pdf",
+        "score": 0.48007
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/2024-04-29-modules-BIN-19WS-DE.pdf",
+        "score": 0.48001
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_20240911_01.pdf",
+        "score": 0.47984
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Ueber_Uns/Personen/Bericht_zum_Forschungsvorhaben_Koenig_Somersemester_2018_oeffentlich.pdf",
+        "score": 13.64479
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 13.11628
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/03-2024/02_HsH-Zertifikatsordnung.pdf",
+        "score": 12.95295
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/EIT-EMT_Sitzpositionsvermessungssystem.pdf",
+        "score": 12.91513
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 12.43363
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+        "score": 12.43075
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/gasthoererschaft",
+        "score": 12.41244
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 12.40562
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/ProM_GPM_Weiterbildungsbroschuere_HSHannover_web.pdf",
+        "score": 12.34168
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/5-2024_Ausschreibung_Monitoring.pdf",
+        "score": 12.17233
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Auslaender/Informationsblatt_APP_fuer_auslaendische_Studieninteressierte_ab_SoSe_2024.pdf",
+        "score": 12.08198
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/24-02-06-Wichtige_Information_fuer_Quereinsteiger_in_den_Bachelor_Stand_Februar_2024.pdf",
+        "score": 12.08198
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000050192",
+        "score": 12.03966
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_MAT.pdf",
+        "score": 11.86944
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 11.84153
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Antrag_Zulassung_Masterarbeit_01_2022.pdf",
+        "score": 11.83298
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/EIT-EMT_Sitzpositionsvermessungssystem.pdf",
+        "score": 11.76074
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000050192",
+        "score": 11.69715
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 11.66394
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 11.6427
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 11.52436
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 11.52436
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000004432",
+        "score": 11.43371
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 11.40991
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 11.38667
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/fernleihe",
+        "score": 11.38044
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+        "score": 11.37682
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/03_PUE_-_GebO_WbgStg_29.06.2020Wu.pdf",
+        "score": 11.35861
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/literatursuche",
+        "score": 11.35477
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+        "score": 11.27692
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/14._Antrag_auf_Zulassung_als_Gasthoerer_deutsch.pdf",
+        "score": 11.15762
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/Antrag_auf_Zulassung_31052024.pdf",
+        "score": 11.14398
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/Presse/Fotos_Presse/dr.-arthur-pfungst-stiftung--newsletter-ausgabe-2-2024-komprimiert.pdf",
+        "score": 11.14398
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/11-2025/hsh_verkuendungsblatt_nr_11_2025.pdf",
+        "score": 11.13294
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000004468",
+        "score": 11.12437
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/Bericht_Rucksackprogramm_2009.pdf",
+        "score": 11.07235
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004873",
+        "score": 11.03064
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/02-2008/07-Master-NED-GebuehrenO-29-1-08.pdf",
+        "score": 11.00714
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/psp-evaluationsbericht_zusammenfassung.pdf",
+        "score": 11.00163
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/kompetenzbereiche/gebuehren-und-beitragsmanagement",
+        "score": 10.98813
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000004491",
+        "score": 10.93939
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000004491",
+        "score": 10.93939
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+        "score": 10.92028
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/06_Gebuehrenordnung_MU-MBA.pdf",
+        "score": 10.88666
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+        "score": 10.88347
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/06-2020/01_Benutzungsordnung_Medienwerkstatt_Fakultaet_III_11_06_2020.pdf",
+        "score": 10.86741
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Antrag_Zulassung_Bachelorarbeit_01_2022.pdf",
+        "score": 10.86286
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+        "score": 10.85689
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "score": 10.84691
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/Broschuere_Modellfabrik.pdf",
+        "score": 10.82739
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+        "score": 17.05577
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Ueber_Uns/Personen/Bericht_zum_Forschungsvorhaben_Koenig_Somersemester_2018_oeffentlich.pdf",
+        "score": 14.67329
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/literatursuche",
+        "score": 13.99148
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/literatursuche/kataloge",
+        "score": 13.87101
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 13.66169
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+        "score": 13.4597
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 13.42335
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004873",
+        "score": 13.32467
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+        "score": 12.98033
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000050192",
+        "score": 12.97413
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 12.78031
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000004468",
+        "score": 12.72375
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000004491",
+        "score": 12.70332
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000050192",
+        "score": 12.68296
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/03-2024/02_HsH-Zertifikatsordnung.pdf",
+        "score": 12.66484
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/EIT-EMT_Sitzpositionsvermessungssystem.pdf",
+        "score": 12.64832
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000004432",
+        "score": 12.55079
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+        "score": 12.49621
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/ProM_GPM_Weiterbildungsbroschuere_HSHannover_web.pdf",
+        "score": 12.42126
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 12.39679
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/gasthoererschaft",
+        "score": 12.39679
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 12.39679
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 12.37619
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000004491",
+        "score": 12.36768
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000004491",
+        "score": 12.36768
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000008419",
+        "score": 12.24012
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000008419",
+        "score": 12.24012
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Auslaender/Informationsblatt_APP_fuer_auslaendische_Studieninteressierte_ab_SoSe_2024.pdf",
+        "score": 12.20172
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005359",
+        "score": 12.13995
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000026277",
+        "score": 12.11517
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+        "score": 12.0792
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.code4comp.wp.hs-hannover.de/2016/05/21/workshop-informatik-fuer-kinder",
+        "score": 12.06947
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+        "score": 12.04606
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/02_Neufassung_I-Ordnung-07_05_2013.pdf",
+        "score": 12.04315
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000005359",
+        "score": 12.01703
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000038838",
+        "score": 12.01703
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/03-2011/3-Gebuehren-und_Entgeltordnung.pdf",
+        "score": 11.99687
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/09-2025/01_Gebuehrenordnung_MU-MBA_2025.pdf",
+        "score": 11.99687
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000004468",
+        "score": 11.99274
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Antrag_Zulassung_Masterarbeit_01_2022.pdf",
+        "score": 11.98981
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/11-2025/hsh_verkuendungsblatt_nr_11_2025.pdf",
+        "score": 11.97853
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005359",
+        "score": 11.96855
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_MAT.pdf",
+        "score": 11.93444
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000004491",
+        "score": 11.92047
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000008419",
+        "score": 11.89657
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000008419",
+        "score": 11.89657
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/04-2010/03_2010_Gebuehren_Entgeltordnung.pdf",
+        "score": 11.87043
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/06-2020/01_Benutzungsordnung_Medienwerkstatt_Fakultaet_III_11_06_2020.pdf",
+        "score": 11.84283
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/03_PUE_-_GebO_WbgStg_29.06.2020Wu.pdf",
+        "score": 11.82074
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000004468",
+        "score": 11.75516
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.89,
+    "kandidaten_s": 0.01,
+    "arme_s": 2.47,
+    "gesamt_s": 5.37
+  },
+  "auswahl_begruendung": ""
+}

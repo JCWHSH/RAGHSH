@@ -1,0 +1,540 @@
+{
+  "fall": {
+    "id": "g06",
+    "case_type": "direct",
+    "question": "Wie komme ich an ein Gespräch bei Patricia Adam?",
+    "reference_answer": "Nur nach vorheriger Vereinbarung per E-Mail.",
+    "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000002922",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Termine nur nach Vereinbarung per E-Mail"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ person_kontakt/vorgehen. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "778915d3-8459-5ecb-b6bc-c24a670a0c8c",
+      "f9b7ac15-6ffe-5634-86fd-12b22be90137",
+      "52bed373-8f20-52c4-956d-cb4959a09bca",
+      "3d310138-bbd9-5f6e-bd93-9a7de2107a03",
+      "c8d5b8c7-ecb1-5e2c-9dc0-68b527ecf382",
+      "9ac11669-4bf5-5220-8f57-94498d9e5778",
+      "bf5eb7ea-e45d-5fba-8960-ba2a8e0c16d5"
+    ],
+    "beleg_punkte": [
+      "3d310138-bbd9-5f6e-bd93-9a7de2107a03"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/service/personenfinder/person/1000002922"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:55:36",
+  "dauer_s": 5.1,
+  "fehler": null,
+  "antwort": "Für ein Gespräch mit Prof. Dr. Patricia Adam gilt: „Termine nur nach Vereinbarung per E-Mail\" [2]. Ihre E-Mail-Adresse lautet „patricia.adam(at)hs-hannover.de\" [2]. Sie ist der Abteilung „Betriebswirtschaftslehre (F4BWL)\" [2] zugeordnet.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f4 › internationales › information for exchange students › icm intercultural management training — Join our ICM project and participate in something special!",
+      "url": "https://f4.hs-hannover.de/internationales/information-for-exchange-students/icm-intercultural-management-training",
+      "fakultaet": "f4",
+      "struktur": "  ## InterCultural Management Training (ICM) is designed for today’s business challenges:\n    ### Join our ICM project and participate in something special!\n  ## ICM - Concept\n  ## Schedule\n    ### ICM Promo-Video\n    ### Contact"
+    },
+    {
+      "nr": 2,
+      "titel": "Prof. Dr. Patricia Adam",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000002922",
+      "fakultaet": "",
+      "struktur": "# Prof. Dr. Patricia Adam\n    ### Kontakt\n    ### Forschungsgebiete\n    ### Forschungsprojekte\n  ## Lehre\n  ## Lehrgebiete\n  ## Aktivitäten\n  ## HsH Gremien\n  ## Weiteres\n  ## Zur Person"
+    },
+    {
+      "nr": 3,
+      "titel": "Prof. Dr. Patricia Adam",
+      "url": "https://f4.hs-hannover.de/service/personenfinder/person/1000002922",
+      "fakultaet": "f4",
+      "struktur": "# Prof. Dr. Patricia Adam\n    ### Kontakt\n    ### Forschungsgebiete\n    ### Forschungsprojekte\n  ## Lehre\n  ## Lehrgebiete\n  ## Aktivitäten\n  ## HsH Gremien\n  ## Weiteres\n  ## Zur Person"
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › studium › internationales fakultaet iv › master doppelstudiengang 1",
+      "url": "https://f4.hs-hannover.de/studium/internationales-fakultaet-iv/master-doppelstudiengang-1",
+      "fakultaet": "f4",
+      "struktur": "# Doppelmaster-Studiengänge\n  ## Doppelmaster-Studiengang MBD – MSc International Business Management Robert Gordon University (RGU)\n  ## Doppelmaster-Studiengang Informatik (MIN) – Hiroshima City University (HCU), Japan\n  ## Kontakt\n    ### Unternehmensentwicklung (MBD)\n    ### Angewandte Informatik (MIN)"
+    },
+    {
+      "nr": 5,
+      "titel": "Studienkommission Abteilung Betriebswirtschaftslehre",
+      "url": "https://f4.hs-hannover.de/ueber-uns/gremien/studienkommissionen/studienkommission-betriebswirtschaft",
+      "fakultaet": "f4",
+      "struktur": "# Studienkommission Abteilung Betriebswirtschaftslehre\n  ## Vorsitz\n    ### Studiendekan\n  ## Professorinnen/Professorengruppe\n    ### Mitglied\n    ### Stellvertretung\n    ### Mitglied\n    ### Stellvertretung\n  ## Studierendengruppe\n    ### Mitglied\n    ### Stellvertretung\n    ### Mitglied\n    ### Stellvertretung"
+    },
+    {
+      "nr": 6,
+      "titel": "f4 › OFI › Internationales › 2025 07 09 ICM Concept 2025",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2025-07-09_ICM_Concept_2025.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## ICM 2025 - Basics\n  ## Schedule\n  ## Departure times:\n  ## Location\n  ## Fees\n  ## Please transfer your fee to the following account:\n  ## Please note: Registration is binding!\n  ## Contact (for Emergencies only)\n  ## Concept and Content of ICM\n  ## Requirements\n  ## Additional Information Concerning the Events:"
+    },
+    {
+      "nr": 7,
+      "titel": "f4 › OFI › Internationales › 2026 ICM Concept",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2026_ICM_Concept.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## ICM 2026 - Basics\n  ## Schedule\n  ## Departure times:\n  ## Location\n  ## Fees\n  ## Please transfer your fee to the following account:\n  ## Please note: Registration is binding!\n  ## Contact (for Emergencies only)\n  ## Concept and Content of ICM\n  ## Requirements\n  ## Additional Information Concerning the Events:"
+    },
+    {
+      "nr": 8,
+      "titel": "www › internationales › internationale hochschule › kooperationsaufbau",
+      "url": "https://www.hs-hannover.de/internationales/internationale-hochschule/kooperationsaufbau",
+      "fakultaet": "",
+      "struktur": "# Kooperationsaufbau\n  ## Kooperationen\n    ### Kontakt Kooperationen (non-ERASMUS)\n    ### Kontakt Kooperationen in ERASMUS+"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 2,
+      "titel": "Prof. Dr. Patricia Adam",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000002922"
+    },
+    {
+      "nr": 3,
+      "titel": "Prof. Dr. Patricia Adam",
+      "url": "https://f4.hs-hannover.de/service/personenfinder/person/1000002922"
+    },
+    {
+      "nr": 1,
+      "titel": "f4 › internationales › information for exchange students › icm intercultural management training — Join our ICM project and participate in something special!",
+      "url": "https://f4.hs-hannover.de/internationales/information-for-exchange-students/icm-intercultural-management-training"
+    },
+    {
+      "nr": 5,
+      "titel": "Studienkommission Abteilung Betriebswirtschaftslehre",
+      "url": "https://f4.hs-hannover.de/ueber-uns/gremien/studienkommissionen/studienkommission-betriebswirtschaft"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Prof. Dr. Patricia Adam",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000002922",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prof. Dr. Patricia Adam > Kontakt",
+      "snippets": [
+        "###  Forschungsprojekte\n[ Forschungsprojekte im Forschungsfinder anzeigen  ](https://www.hs-hannover.de/forschung/forschungsfinder-forschungsprojekte/forschungsfinder?researchprojects-members=1000002922&cHash=10cb94dec997f6b806e28c1cc2e355b6)\n#### Sprechzeiten\n[ Termine nur nach Vereinbarung per E-Mail ](https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-betriebswirtschaft/servicezeiten-der-abteilung-bwl)\n* * *",
+        "# Prof. Dr. Patricia Adam  \n###  Kontakt\n**Prof. Dr. Patricia Adam**\n_Professorin\nAbt. Betriebswirtschaftslehre (F4BWL) _\nRaum: 1H.1.12\nRicklinger Stadtweg 120\n30459 Hannover\npatricia.adam(at)hs-hannover.de\n![Prof. Dr. Patricia Adam](data:image/jpg;base64,)"
+      ],
+      "zitate": [
+        "Termine nur nach Vereinbarung per E-Mail",
+        "patricia.adam(at)hs-hannover.de",
+        "Betriebswirtschaftslehre (F4BWL)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Prof. Dr. Patricia Adam",
+      "url": "https://f4.hs-hannover.de/service/personenfinder/person/1000002922",
+      "crawl_date": "2026-08-11",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prof. Dr. Patricia Adam > Kontakt",
+      "snippets": [
+        "###  Forschungsprojekte\n[ Forschungsprojekte im Forschungsfinder anzeigen  ](https://f4.hs-hannover.de/forschung/forschungsfinder?researchprojects-members=1000002922&cHash=26b04425f6d5b880b0bc433e1f13a8a1)\n#### Sprechzeiten\n[ Termine nur nach Vereinbarung per E-Mail ](https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-betriebswirtschaft/servicezeiten-der-abteilung-bwl)\n* * *",
+        "# Prof. Dr. Patricia Adam  \n###  Kontakt\n**Prof. Dr. Patricia Adam**\n_Professorin\nAbt. Betriebswirtschaftslehre (F4BWL) _\nRaum: 1H.1.12\nRicklinger Stadtweg 120\n30459 Hannover\npatricia.adam(at)hs-hannover.de\n![Prof. Dr. Patricia Adam](data:image/jpg;base64,)"
+      ],
+      "zitate": [
+        "Termine nur nach Vereinbarung per E-Mail",
+        "patricia.adam(at)hs-hannover.de",
+        "Betriebswirtschaftslehre (F4BWL)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f4 › internationales › information for exchange students › icm intercultural management training — Join our ICM project and participate in something special!",
+      "url": "https://f4.hs-hannover.de/internationales/information-for-exchange-students/icm-intercultural-management-training",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Schedule > Contact",
+      "snippets": [
+        "### Contact\n**Prof. Dr. Patricia Adam**\n_Professorin, Betriebswirtschaftslehre (F4BWL)_\nRaum: 1H.1.12\nRicklinger Stadtweg 120\n30459 Hannover\npatricia.adam(at)hs-hannover.de\n[ Profil ](https://f4.hs-hannover.de/service/personenfinder/person/1000002922 \"zum Profil von Prof. Dr. Patricia Adam\")\n![](https://f4.hs-hannover.de/fileadmin/_processed_/7/b/csm_ICM_Gruppenseminar_c10bafd723.jpg?rbiFocus=mobile)\n![](https://f4.hs-hannover.de/fileadmin/_processed_/d/f/csm_DSC_0079_ac725b5ed7.jpg?rbiFocus=mobile)\n![](https://f4.hs-hannover.de/fileadmin/_processed_/3/3/csm_DSP07062_5b4f03ab92.jpg?rbiFocus=mobile)\n![](https://f4.hs-hannover.de/fileadmin/_processed_/f/4/csm_DSC_0561_4d5e9b4b5e.jpg?rbiFocus=mobile)\n![](https://f4.hs-hannover.de/fileadmin/_processed_/5/7/csm_IMG-20251114-WA0041_62d450a202.jpg?rbiFocus=mobile)"
+      ],
+      "zitate": [
+        "patricia.adam(at)hs-hannover.de",
+        "Betriebswirtschaftslehre (F4BWL)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Studienkommission Abteilung Betriebswirtschaftslehre",
+      "url": "https://f4.hs-hannover.de/ueber-uns/gremien/studienkommissionen/studienkommission-betriebswirtschaft",
+      "crawl_date": "2026-08-05",
+      "fremde_fundstellen": [],
+      "abschnitt": "Studienkommission Abteilung Betriebswirtschaftslehre > Professorinnen/Professorengruppe > Mitglied",
+      "snippets": [
+        "## Professorinnen/Professorengruppe  \n### Mitglied\n**Prof. Dr. Patricia Adam**\n_Professorin, Betriebswirtschaftslehre (F4BWL)_\nRaum: 1H.1.12\nRicklinger Stadtweg 120\n30459 Hannover\npatricia.adam(at)hs-hannover.de\n[ Profil ](https://f4.hs-hannover.de/service/personenfinder/person/1000002922 \"zum Profil von Prof. Dr. Patricia Adam\")",
+        "## Vorsitz  \n### Studiendekan\n**Prof. Dr. Michael Kempe**\n_Professor, Betriebswirtschaftslehre (F4BWL)_\nRaum: 1H.1.52\nRicklinger Stadtweg 120\n30459 Hannover\nmichael.kempe(at)hs-hannover.de\n[ Profil ](https://f4.hs-hannover.de/service/personenfinder/person/1000010065 \"zum Profil von Prof. Dr. Michael Kempe\")"
+      ],
+      "zitate": [
+        "patricia.adam(at)hs-hannover.de",
+        "Betriebswirtschaftslehre (F4BWL)"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.42614,
+      "id": "2c568a04-187d-56e5-9b9f-1fbfbee4516e",
+      "source_url": "https://f4.hs-hannover.de/internationales/information-for-exchange-students/icm-intercultural-management-training",
+      "title_anzeige": "f4 › internationales › information for exchange students › icm intercultural management training — Join our ICM project and participate in something special!",
+      "section_heading": "Schedule > Contact",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Schedule\n**8 November – 13 November 2026**\n\n### ICM Promo-Video\n[ Get inspired ... ](https://youtu.be/AC6y01qI-50)\n\n### Contact\n**Prof. Dr. Patricia Adam**\n_Professorin, Betriebswirtschaftslehre (F4BWL)_\nRaum: 1H.1.12\nRicklinger Stadtweg 120\n30459 Hannover\npatricia.adam(at)hs-hannover.de\n[ Profil"
+    },
+    {
+      "rang": 2,
+      "score": 2.2766,
+      "id": "f9b7ac15-6ffe-5634-86fd-12b22be90137",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000002922",
+      "title_anzeige": "Prof. Dr. Patricia Adam",
+      "section_heading": "Prof. Dr. Patricia Adam > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "[Zum Personenfinder](https://www.hs-hannover.de/service/personenfinder \"Zum Personenfinder\")\n\n# Prof. Dr. Patricia Adam  \n###  Kontakt\n**Prof. Dr. Patricia Adam**\n_Professorin\nAbt. Betriebswirtschaftslehre (F4BWL) _\nRaum: 1H.1.12\nRicklinger Stadtweg 120\n30459 Hannover\npatricia.adam(at)hs-hannover.de"
+    },
+    {
+      "rang": 3,
+      "score": 2.27643,
+      "id": "25c77c5c-ca2d-5a43-85b1-78999b72557c",
+      "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000002922",
+      "title_anzeige": "Prof. Dr. Patricia Adam",
+      "section_heading": "Prof. Dr. Patricia Adam > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "[Zum Personenfinder](https://f4.hs-hannover.de/service/personenfinder \"Zum Personenfinder\")\n\n# Prof. Dr. Patricia Adam  \n###  Kontakt\n**Prof. Dr. Patricia Adam**\n_Professorin\nAbt. Betriebswirtschaftslehre (F4BWL) _\nRaum: 1H.1.12\nRicklinger Stadtweg 120\n30459 Hannover\npatricia.adam(at)hs-hannover.de\n"
+    },
+    {
+      "rang": 4,
+      "score": 2.18387,
+      "id": "63a88375-14c1-55a9-ae1d-23ab96221de2",
+      "source_url": "https://f4.hs-hannover.de/studium/internationales-fakultaet-iv/master-doppelstudiengang-1",
+      "title_anzeige": "f4 › studium › internationales fakultaet iv › master doppelstudiengang 1",
+      "section_heading": "Doppelmaster-Studiengänge > Kontakt > Unternehmensentwicklung (MBD)",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Kontakt  \n### Unternehmensentwicklung (MBD)\n**Prof. Dr. Patricia Adam**\n_Professorin, Betriebswirtschaftslehre (F4BWL)_\nRaum: 1H.1.12\nRicklinger Stadtweg 120\n30459 Hannover\npatricia.adam(at)hs-hannover.de\n[ Profil ](https://f4.hs-hannover.de/service/personenfinder/person/1000002922 \"zum Profil vo"
+    },
+    {
+      "rang": 5,
+      "score": 1.88491,
+      "id": "06b1d464-a041-59c3-85da-4b93c1c12a40",
+      "source_url": "https://f4.hs-hannover.de/ueber-uns/gremien/studienkommissionen/studienkommission-betriebswirtschaft",
+      "title_anzeige": "Studienkommission Abteilung Betriebswirtschaftslehre",
+      "section_heading": "Studienkommission Abteilung Betriebswirtschaftslehre > Professorinnen/Professorengruppe > Mitglied",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Professorinnen/Professorengruppe  \n### Mitglied\n**Prof. Dr. Patricia Adam**\n_Professorin, Betriebswirtschaftslehre (F4BWL)_\nRaum: 1H.1.12\nRicklinger Stadtweg 120\n30459 Hannover\npatricia.adam(at)hs-hannover.de\n[ Profil ](https://f4.hs-hannover.de/service/personenfinder/person/1000002922 \"zum Profi"
+    },
+    {
+      "rang": 6,
+      "score": 1.71876,
+      "id": "336c3ef7-2726-5821-b253-a2119a628c49",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2025-07-09_ICM_Concept_2025.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › 2025 07 09 ICM Concept 2025",
+      "section_heading": "**Contact (for Emergencies only)**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **Contact (for Emergencies only)**  \nProf. Patricia Adam: ++49(0)170 7761504; Prof. Dr. Henning Austmann: ++49(0)160 4050224  \nIBS-436 / BBA 571 ICM Concept, 21.01.2025 Prof. Dr. Patricia Adam"
+    },
+    {
+      "rang": 7,
+      "score": 1.7149,
+      "id": "ac3c466b-c46a-5255-a164-9df8b0c11a47",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2026_ICM_Concept.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › 2026 ICM Concept",
+      "section_heading": "**Contact (for Emergencies only)**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **Contact (for Emergencies only)**  \nProf. Patricia Adam: ++49(0)170 7761504; Prof. Dr. Henning Austmann: ++49(0)160 4050224  \nIBS-436 / BBA 571 ICM Concept, 26.06.2026 Prof. Dr. Patricia Adam"
+    },
+    {
+      "rang": 8,
+      "score": 1.40306,
+      "id": "7f0c0ce4-8e71-555f-8b6c-437802def52f",
+      "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000002922",
+      "title_anzeige": "Prof. Dr. Patricia Adam",
+      "section_heading": "Prof. Dr. Patricia Adam > Weiteres",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Weiteres\n* Schriftenreihe [Management](https://serwiss.bib.hs-hannover.de/solrsearch/index/search/searchtype/series/id/11)\n* [ORCID](https://orcid.org/0000-0001-9335-4198)\n## Zur Person\n* <https://www.patricia-adam.com/person>"
+    },
+    {
+      "rang": 9,
+      "score": 1.40299,
+      "id": "bf5eb7ea-e45d-5fba-8960-ba2a8e0c16d5",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000002922",
+      "title_anzeige": "Prof. Dr. Patricia Adam",
+      "section_heading": "Prof. Dr. Patricia Adam > Weiteres",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Weiteres\n* Schriftenreihe [Management](https://serwiss.bib.hs-hannover.de/solrsearch/index/search/searchtype/series/id/11)\n* [ORCID](https://orcid.org/0000-0001-9335-4198)\n## Zur Person\n* <https://www.patricia-adam.com/person>"
+    },
+    {
+      "rang": 10,
+      "score": 1.30975,
+      "id": "1e1ec856-9180-5fb4-9251-fdbdbbe0f53f",
+      "source_url": "https://www.hs-hannover.de/internationales/internationale-hochschule/kooperationsaufbau",
+      "title_anzeige": "www › internationales › internationale hochschule › kooperationsaufbau",
+      "section_heading": "Kooperationsaufbau > Kooperationen > Kontakt Kooperationen in ERASMUS+",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Kontakt Kooperationen in ERASMUS+\n**Patricia Schmelzeisen**\n_Mitarbeiterin, Servicezentrum Beratung (Z3)_\nRaum: 1J.1.07\nRicklinger Stadtweg 120\n30459 Hannover\n[ +49 511 9296 7716 ](tel:+49%20511%209296%207716)\npatricia.schmelzeisen(at)hs-hannover.de\n[ Profil ](https://www.hs-hannover.de/service/"
+    },
+    {
+      "rang": 11,
+      "score": 1.20232,
+      "id": "919612a2-81f3-5726-a54e-44d71abc33ef",
+      "source_url": "https://www.hs-hannover.de/internationales/wege-ins-ausland/studierende/erasmus-studierendenmobilitaet/erasmus-studium-sms",
+      "title_anzeige": "ERASMUS+ Studium",
+      "section_heading": "ERASMUS+ Studium > Downloads und Formulare > ERASMUS+ Studium und ERASMUS+ Hochschulkoordination",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "### ERASMUS+ Studium und ERASMUS+ Hochschulkoordination\n**Patricia Schmelzeisen**\n_Mitarbeiterin, Servicezentrum Beratung (Z3)_\nRaum: 1J.1.07\nRicklinger Stadtweg 120\n30459 Hannover\n[ +49 511 9296 7716 ](tel:+49%20511%209296%207716)\npatricia.schmelzeisen(at)hs-hannover.de\n[ Profil ](https://www.hs-ha"
+    },
+    {
+      "rang": 12,
+      "score": 1.20222,
+      "id": "22c3fa80-bb87-5fc5-8240-93f214475ad6",
+      "source_url": "https://www.hs-hannover.de/internationales/weltweit-vernetzt/erasmus/erasmus",
+      "title_anzeige": "www › weltweit vernetzt › erasmus › erasmus",
+      "section_heading": "ERASMUS+ > ERASMUS+ Studium und ERASMUS+ Hochschulkoordination",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "### ERASMUS+ Studium und ERASMUS+ Hochschulkoordination\n**Patricia Schmelzeisen**\n_Mitarbeiterin, Servicezentrum Beratung (Z3)_\nRaum: 1J.1.07\nRicklinger Stadtweg 120\n30459 Hannover\n[ +49 511 9296 7716 ](tel:+49%20511%209296%207716)\npatricia.schmelzeisen(at)hs-hannover.de\n[ Profil ](https://www.hs-ha"
+    },
+    {
+      "rang": 13,
+      "score": 1.20146,
+      "id": "e837b9c4-e335-5323-bc62-abe603faccc9",
+      "source_url": "https://www.hs-hannover.de/internationales/wege-ins-ausland/studierende/promos-und-andere-programme",
+      "title_anzeige": "www › wege ins ausland › studierende › promos und andere programme",
+      "section_heading": "PROMOS > Downloads und Formulare > ERASMUS+ Studium und ERASMUS+ Hochschulkoordination",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "### ERASMUS+ Studium und ERASMUS+ Hochschulkoordination\n**Patricia Schmelzeisen**\n_Mitarbeiterin, Servicezentrum Beratung (Z3)_\nRaum: 1J.1.07\nRicklinger Stadtweg 120\n30459 Hannover\n[ +49 511 9296 7716 ](tel:+49%20511%209296%207716)\npatricia.schmelzeisen(at)hs-hannover.de\n[ Profil ](https://www.hs-ha"
+    },
+    {
+      "rang": 14,
+      "score": 1.20146,
+      "id": "127213a2-55a9-52dd-855e-0ff7e942df1b",
+      "source_url": "https://www.hs-hannover.de/internationales/wege-ins-ausland/studierende/erasmus-studierendenmobilitaet",
+      "title_anzeige": "ERASMUS+ Studium und Praktikum",
+      "section_heading": "ERASMUS+ Studium und Praktikum > ERASMUS+ Studium und ERASMUS+ Hochschulkoordination",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "### ERASMUS+ Studium und ERASMUS+ Hochschulkoordination\n**Patricia Schmelzeisen**\n_Mitarbeiterin, Servicezentrum Beratung (Z3)_\nRaum: 1J.1.07\nRicklinger Stadtweg 120\n30459 Hannover\n[ +49 511 9296 7716 ](tel:+49%20511%209296%207716)\npatricia.schmelzeisen(at)hs-hannover.de\n[ Profil ](https://www.hs-ha"
+    },
+    {
+      "rang": 15,
+      "score": 1.20059,
+      "id": "05471297-e609-5b0b-8fbe-d896833a41c6",
+      "source_url": "https://www.hs-hannover.de/internationales/wege-ins-ausland/studierende/vorbereitung-auslandsaufenthalt-mit-wanderlust",
+      "title_anzeige": "Vorbereitung Auslandsaufenthalt mit WANDERLUST",
+      "section_heading": "Vorbereitung Auslandsaufenthalt mit WANDERLUST > Sprachkenntnisse > ERASMUS+ Studium und ERASMUS+ Hochschulkoordination",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "### ERASMUS+ Studium und ERASMUS+ Hochschulkoordination\n**Patricia Schmelzeisen**\n_Mitarbeiterin, Servicezentrum Beratung (Z3)_\nRaum: 1J.1.07\nRicklinger Stadtweg 120\n30459 Hannover\n[ +49 511 9296 7716 ](tel:+49%20511%209296%207716)\npatricia.schmelzeisen(at)hs-hannover.de\n[ Profil ](https://www.hs-ha"
+    },
+    {
+      "rang": 16,
+      "score": 1.20049,
+      "id": "8eb688d0-a32e-5aff-96b2-47591e5d5280",
+      "source_url": "https://www.hs-hannover.de/internationales/weltweit-vernetzt/erasmus/erasmus-blended-intensive-program-bip",
+      "title_anzeige": "ERASMUS+ Blended Intensive Programs (BIP)",
+      "section_heading": "ERASMUS+ Blended Intensive Programs (BIP) > Teilnahme an einem Blended Intensive Program (BIP) an einer ERASMUS+ Partnerhochschule > ERASMUS+ Studium und ERASMUS+ Hochschulkoordination",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "### ERASMUS+ Studium und ERASMUS+ Hochschulkoordination\n**Patricia Schmelzeisen**\n_Mitarbeiterin, Servicezentrum Beratung (Z3)_\nRaum: 1J.1.07\nRicklinger Stadtweg 120\n30459 Hannover\n[ +49 511 9296 7716 ](tel:+49%20511%209296%207716)\npatricia.schmelzeisen(at)hs-hannover.de\n[ Profil ](https://www.hs-ha"
+    },
+    {
+      "rang": 17,
+      "score": 1.20029,
+      "id": "c061b153-b044-5288-a56f-7132ad158f21",
+      "source_url": "https://www.hs-hannover.de/internationales/weltweit-vernetzt/wanderlust",
+      "title_anzeige": "www › internationales › weltweit vernetzt › wanderlust",
+      "section_heading": "WANDERLUST > ERASMUS+ Studium und ERASMUS+ Hochschulkoordination",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### ERASMUS+ Studium und ERASMUS+ Hochschulkoordination\n**Patricia Schmelzeisen**\n_Mitarbeiterin, Servicezentrum Beratung (Z3)_\nRaum: 1J.1.07\nRicklinger Stadtweg 120\n30459 Hannover\n[ +49 511 9296 7716 ](tel:+49%20511%209296%207716)\npatricia.schmelzeisen(at)hs-hannover.de\n[ Profil ](https://www.hs-ha"
+    },
+    {
+      "rang": 18,
+      "score": 1.16299,
+      "id": "4204dcc8-ca7c-5468-a2f7-24531950703a",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000008834",
+      "title_anzeige": "Patricia Schmelzeisen",
+      "section_heading": "Patricia Schmelzeisen > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Patricia Schmelzeisen  \n###  Kontakt\n**Patricia Schmelzeisen**\n_Mitarbeiterin\nServicezentrum Beratung (Z3) _\n[ +49 511 9296 7716 ](tel:+49%20511%209296%207716)\nRaum: 1J.1.07\nRicklinger Stadtweg 120\n30459 Hannover\npatricia.schmelzeisen(at)hs-hannover.de\n![Patricia Schmelzeisen](data:image/jpg;base6"
+    },
+    {
+      "rang": 19,
+      "score": 1.03605,
+      "id": "2a769dd7-c4a5-5906-ba3b-4b3541e3de1b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/03-2016/01_DV_BEM_mit_Anlagen.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2016 › 01 DV BEM mit Anlagen",
+      "section_heading": "- **Betrieblichen Eingliederungsmanagement - zwischen dem Präsidenten und dem Personalrat der Hochschule Hannover** > **§ 4** > - **Betrieblichen Eingliederungsmanagement - zwischen dem Präsidenten und dem Personalrat der Hochschule Hannover** > **Verfahren des BEM gem. § 84 Abs. 2 SGB IX**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "Der Erstkontakt vor Zusendung eines Schreibens kann, je nach Umständen, auf angemessene Weise, u.U. auch durch ein telefonisches oder persönliches Gespräch erfolgen. Die Berechtigten können ein Mitglied des BEM-Teams für das erste Gespräch auswählen.  \nBei Zustimmung zu diesem Gespräch wird ein Term"
+    },
+    {
+      "rang": 20,
+      "score": 1.01784,
+      "id": "cd0df6af-f016-5bdc-8078-67555bb8e4c7",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/12-2015/01_HsH_-_DV_BEM_-_20150916.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2015 › 01 HsH DV BEM 20150916",
+      "section_heading": "**Dienstvereinbarung nach § 78 NPersVG zum Betrieblichen Eingliederungsmanagement gem. § 84 Abs. 2 SGB IX** > **§ 4 Verfahren des BEM gem. § 84 Abs. 2 SGB IX**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "Der Erstkontakt vor Zusendung eines Schreibens kann, je nach Umständen, auf angemessene Weise, u.U. auch durch ein telefonisches oder persönliches Gespräch erfolgen. Die Betroffenen können ein Mitglied des BEM-Teams für das erste Gespräch auswählen.  \nBei Zustimmung zu diesem Gespräch, wird ein Term"
+    },
+    {
+      "rang": 21,
+      "score": 0.87136,
+      "id": "405a65f9-eb1b-5ab2-acbf-0f7630514b3f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/03-2016/01_DV_BEM_mit_Anlagen.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2016 › 01 DV BEM mit Anlagen",
+      "section_heading": "- **Betrieblichen Eingliederungsmanagement - zwischen dem Präsidenten und dem Personalrat der Hochschule Hannover** > **Anlage 3)** > - **Betrieblichen Eingliederungsmanagement - zwischen dem Präsidenten und dem Personalrat der Hochschule Hannover** > **Antwort zur Einladung zum Eingliederungsgespräch**",
+      "chunk_index": 43,
+      "text_vollstaendig": false,
+      "auszug": "Ich möchte das Gespräch mit dem folgenden Mitglied des BEM-Teams führen:  \n(Zutreffendes bitte ankreuzen)  \nSelbstverständlich können Sie sich von einer Person Ihres Vertrauens begleiten lassen. Bitte teilen Sie uns dies vorab mit.  \nDatum: _________ Unterschrift: ___________________________________"
+    },
+    {
+      "rang": 22,
+      "score": 0.85133,
+      "id": "0f0635b2-863b-5d69-bc40-d8fff91d1da9",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Stellenangebote_Studierende/SoSe2026/30.03.2026_Werkstudierende_im_Bereich_Baumanagement.pdf",
+      "title_anzeige": "f3 › Stellenangebote Studierende › SoSe2026 › 30.03.2026 Werkstudierende im Bereich Baumanagement",
+      "section_heading": "**Wir bieten:**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Für Fragen und Informationen zum Aufgabengebiet steht Ihnen Frau Köpper, Telefon: 05101/1001-422, E-Mail: koepper@pattensen.de zur Verfügung. Ansprechpartner im Sachgebiet Personal ist Frau Blödorn, Telefon: 05101/1001-141, E-Mail: bloedorn@pattensen.de.  \nEin mögliches Vorstellungsgespräch wird vor"
+    },
+    {
+      "rang": 23,
+      "score": 0.85118,
+      "id": "39a69604-de48-5c17-ac06-4f4ad2dabf22",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Stellenanzeigen/20260326_Stadt-Pattensen_Werkstudierende-Baumanagement.pdf",
+      "title_anzeige": "f2 › Fakultaet II › Stellenanzeigen › 20260326 Stadt Pattensen Werkstudierende Baumanagement",
+      "section_heading": "**Wir bieten:**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Für Fragen und Informationen zum Aufgabengebiet steht Ihnen Frau Köpper, Telefon: 05101/1001-422, E-Mail: koepper@pattensen.de zur Verfügung. Ansprechpartner im Sachgebiet Personal ist Frau Blödorn, Telefon: 05101/1001-141, E-Mail: bloedorn@pattensen.de.  \nEin mögliches Vorstellungsgespräch wird vor"
+    },
+    {
+      "rang": 24,
+      "score": 0.82914,
+      "id": "76a9500c-217a-51c0-9267-4dfdc2ef153f",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2021_Archiv_Dokumente/2021-02-17_Prados_Brea__Rocio.pdf",
+      "title_anzeige": "f4 › Internationales › 2021 Archiv Dokumente › 2021 02 17 Prados Brea Rocio",
+      "section_heading": "**What did you like about studying at Hannover university?**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## **What did you like about studying at Hannover university?**  \nI think the professors are the best in Hochschule. Patricia Adam and Henning Austmann are the best professors I have, not only in Hannover but in my university life."
+    },
+    {
+      "rang": 25,
+      "score": 0.82456,
+      "id": "0713c50e-cc1d-543d-87db-722811e0edbc",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/Stellenausschreibungen/BAJ/Aushang_HSH5_Dauerstellen_Anerkennungsjahr.pdf",
+      "title_anzeige": "f5 › Stellenausschreibungen › BAJ › Aushang HSH5 Dauerstellen Anerkennungsjahr — Herzlich Willkommen bei",
+      "section_heading": "**Oder schickt eine Bewerbung an:**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **Oder schickt eine Bewerbung an:**  \nBalance e.V. Frau Patricia Jacobs Birkenweg 82 30827 Garbsen Telefon 05131-90863-32 E-Mail: p.personal@balance-ev.com"
+    },
+    {
+      "rang": 26,
+      "score": 0.80147,
+      "id": "b8048578-b242-5a92-a5a1-69aeb05e37e4",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/servicebuero-beeintraechtigung-und-studium",
+      "title_anzeige": "Servicebüro Beeinträchtigung und Studium",
+      "section_heading": "Kommende Veranstaltungen > Selbsthilfegruppe für Betroffene von Depressionen und Burnout",
+      "chunk_index": 21,
+      "text_vollstaendig": true,
+      "auszug": "zudem noch ein Plakat zu der AD\\(H\\)S-Gruppe, welches Sie gerne aushängen können.  Bei Rückfragen können Sie und alle Studierenden sich gerne telefonisch oder per E-Mail bei uns melden.  Herzlichen Dank und mit freundlichen Grüßen aus der ptb Tomma Aulbert  --  Anmeldung und Information Tomma Aulber"
+    },
+    {
+      "rang": 27,
+      "score": 0.78928,
+      "id": "e60813a4-8bb1-5683-b8be-9f12bbdf7856",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2025-07-09_ICM_Concept_2025.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › 2025 07 09 ICM Concept 2025",
+      "section_heading": "**Please note: Registration is binding!**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## **Please note: Registration is binding!**  \nResponsible teachers: Prof. Patricia Adam, Prof. Henning Austmann"
+    },
+    {
+      "rang": 28,
+      "score": 0.78928,
+      "id": "d2f6bcd6-575f-5b05-b19d-a81c75b6735d",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2026_ICM_Concept.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › 2026 ICM Concept",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": false,
+      "auszug": "IBS-436 / BBA 571 ICM Concept, 26.06.2026 Prof. Dr. Patricia Adam"
+    },
+    {
+      "rang": 29,
+      "score": 0.77452,
+      "id": "d4d13ec2-fc12-5e8e-a398-f8ce0742d89f",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/beratung",
+      "title_anzeige": "www › bibliothek › services › beratung",
+      "section_heading": "Beratung > Beratung",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Vereinbaren Sie einen Termin, und wir besprechen Ihre Fragestellung mit Ihnen in angenehmer Atmosphäre - ohne Zeitdruck.\nAuf Wunsch bieten wir unsere Beratung auch als Videokonferenz an."
+    },
+    {
+      "rang": 30,
+      "score": 0.76455,
+      "id": "29c3aebd-14e3-573a-965f-ba9cbe04d2c2",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/Mehrsemesterplanung_BBA_ab_SoSe_27.pdf",
+      "title_anzeige": "f4 › Stundenplan › BWL › Mehrsemesterplanung BBA ab SoSe 27",
+      "section_heading": "**Mehrsemesterplanung 2. Studienabschnitt \"Betriebswirtschaftslehre (BBA)\" PO 2018 (Version 2024) (inkl. IBS und BBI)**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "Peter Hohberger\nPeter Hohberger\nJana Stöver\nPatricia Adam\nHenning Austmann\nCardozo Silva\nHenning Austmann  \nHenning Austmann\nPatricia Adam/\nHenning Austmann\nArtur Geier\nDirk Heithecker\nHenning Austmann\nChristian Lehmann\nUlrich Schneider\nHenning Austmann\nChristian Möller\nN.N.\nTheo Berger\nPeter Scholz"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 3120,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.66,
+    "kandidaten_s": 0.0,
+    "llm_auswahl_s": 1.96,
+    "docs_laden_s": 0.05,
+    "quellen_s": 3.67,
+    "antwort_llm_s": 1.26,
+    "gesamt_s": 4.93
+  },
+  "auswahl_begruendung": "{\"selected\":[2,3,1,5]}"
+}

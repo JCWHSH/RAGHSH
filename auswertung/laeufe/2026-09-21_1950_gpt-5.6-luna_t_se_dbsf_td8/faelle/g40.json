@@ -1,0 +1,550 @@
+{
+  "fall": {
+    "id": "g40",
+    "case_type": "direct",
+    "question": "An wen muss ich mich wenden, wenn ich mich an der Hochschule diskriminiert fühle?",
+    "reference_answer": "Formlos an das Justiziariat der Hochschule Hannover.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/08-2013/02-Richtlinie_zu_Beschwerdeverfahren.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die formlose Beschwerde ist an das Justiziariat der Hochschule Hannover zu richten."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ ordnung/vorgehen. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "b44d2d3b-5c3f-5f81-849f-9263dc7e521a",
+      "1eecf14d-baac-59ea-b79b-216701f9ced1",
+      "7a87baa0-a119-54ae-a39f-721155b769e8",
+      "dcefe01d-106d-5bd8-909e-21073270d5b4",
+      "635ba3b1-be28-5c55-8216-bc0980cde776",
+      "b7df7ce5-2f55-5ab7-adf2-1e52e47e74b4",
+      "d4e01ab7-1ac3-5e4c-9c7b-7eb959b6df25",
+      "2c2a4340-8548-53b8-959b-83a9dbfe0332",
+      "6b3cde9a-9927-51f1-83d1-fc1e52240fca",
+      "a63c1871-8076-5eff-b2e0-9566d2a9f130",
+      "44a68f5b-4e8a-5c57-9e36-23b5b0391944",
+      "17e9fe11-a5d8-5da4-92c7-b17285c744c4",
+      "6abffa14-bcfe-50ac-912e-6c69ffeb8b05"
+    ],
+    "beleg_punkte": [
+      "d4e01ab7-1ac3-5e4c-9c7b-7eb959b6df25"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/08-2013/02-Richtlinie_zu_Beschwerdeverfahren.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:01:23",
+  "dauer_s": 7.94,
+  "fehler": null,
+  "antwort": "Nach der aktuellen Richtlinie können Sie sich zunächst vertraulich an interne Beratungsstellen oder Interessenvertretungen wenden. Genannt werden insbesondere:\n\n- „Gleichstellungsbeauftragte\" [1]\n- „Servicezentrum Beratung\" [1]\n- „Allgemeiner Studierendenausschuss (AStA) (Studierende)\" [1]\n- „Beauftragte Person für Belange von Studierenden mit Behinderungen oder chronischen Erkrankungen (Studierende)\" [1]\n- „Personalrat (Beschäftigte)\" [1]\n- „Schwerbehindertenvertretung (Beschäftigte)\" [1]\n- „Inklusionsbeauftragte (Beschäftigte)\" [1]\n\nDiese Stellen bieten „vertrauliche Unterstützung über Schutz- und Handlungsmöglichkeiten\" [1] und beraten auch dazu, „ob das Beschwerdeverfahren nach § 4 dieser Richtlinie für den konkreten Einzelfall der geeignete Weg ist\" [1].\n\nWenn Sie eine formelle Beschwerde einreichen möchten, können Sie diese an die zentrale Beschwerdestelle richten: „Beschwerdestelle (derzeit Dezernat 1 Personal und Recht – Team Recht)\" [1]. Beschwerdeberechtigt sind „alle Mitglieder und Angehörigen der Hochschule Hannover\" [1].\n\nZusätzlich nennt die Zentrale Studienberatung die „Feedbackbox\" als „die zentrale Beschwerdestelle der Hochschule Hannover\" [3]. Die Regelungen gelten hochschulweit; die bereitgestellte aktuelle Richtlinie ist im Kontext der Fakultät f5 veröffentlicht.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Verkuendungsblatt › 08 2013 › 02 Richtlinie zu Beschwerdeverfahren — Hochschule",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/08-2013/02-Richtlinie_zu_Beschwerdeverfahren.pdf",
+      "fakultaet": "",
+      "struktur": "# Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der\n  ## Hochschule\n  ## Präambel\n  ## § 1\n  ## Pflichten der Hochschule\n  ## § 2\n  ## Beschwerderechte\n  ## § 3\n  ## Vertrauliche Unterstützung und Beratung\n  ## § 4\n  ## Beschwerdeverfahren\n  ## § 5\n  ## Konsequenzen\n  ## (1) Studierende und Angehörige\n  ## (2) Beschäftigte\n  ## § 6\n  ## Schlussbestimmungen"
+    },
+    {
+      "nr": 2,
+      "titel": "f5 › Soziale Arbeit grundstaendig › Richtlinie Beschwerdeverfahren › Richtlinie Beschwerdeverfahren Diskriminierung 29.03.2024",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Richtlinie-Beschwerdeverfahren/Richtlinie-Beschwerdeverfahren-Diskriminierung_-_29.03.2024.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Richtlinie für das Beschwerdeverfahren bei Diskriminierung an der Hochschule Hannover\n  ## Präambel\n  ## § 1\n  ## Pflichten der Hochschule\n  ## § 2\n  ## Benachteiligung\n  ## § 3\n  ## Vertrauliche Unterstützung, Beratung und Beschwerderecht\n  ## § 4\n  ## Beschwerdeverfahren\n  ## § 5\n  ## Maßnahmen\n  ## § 6\n  ## Schlussbestimmungen"
+    },
+    {
+      "nr": 3,
+      "titel": "Studienberatung für Studierende und Studieninteressierte",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung",
+      "fakultaet": "",
+      "struktur": "# Studienberatung für Studierende und Studieninteressierte\n  ## Willkommen in der Zentralen Studienberatung\n  ## Beratungszeiten\n  ## Ihr Beratungsteam\n    ### Johanna Milena Wolf\n    ### Marlene Jeschke\n    ### Martin Schmidt\n    ###  Veranstaltungsreihe zum gelingenden Studieren \n    ###  StudiTalk: Neue Veranstaltungsreihe für Studieninteressierte \n    ###  CampusTalk - Frag dich schlau! \n    ### StudiTalk: Welches Studium passt zu mir?\n    ### StudiTalk: Was ich vor Studienbeginn gerne gewusst hätte\n    ### StudiTalk: Studieren in Hannover\n    ### Onlineworkshop für Studierende: \"Unterstützungsangebote an der HsH - ein Überblick\"\n  ## Feedbackbox\n  ## Möchten Sie etwas loswerden? Sie haben Diskriminierung erfahren?\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 4,
+      "titel": "www › Gleichstellung › Gleichstellung PDF › EU Strategie fuer Gleichstellung von LGBTIQ Personen 2020 2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Gleichstellung/Gleichstellung_PDF/EU-Strategie_fuer_Gleichstellung_von_LGBTIQ-Personen_2020-2025.pdf",
+      "fakultaet": "",
+      "struktur": "  ## MITTEILUNG DER KOMMISSION AN DAS EUROPÄISCHE PARLAMENT, DEN RAT, DEN EUROPÄISCHEN WIRTSCHAFTS- UND SOZIALAUSSCHUSS UND DEN AUSSCHUSS DER REGIONEN\n  ## AUF DEM WEG ZUR GLEICHSTELLUNG VON LGBTIQ: IN DER EU MAN SELBST SEIN DÜRFEN\n  ## Ursula von der Leyen (Präsidentin der Europäischen Kommission) Rede zur Lage der Union 2020\n  ## 1. BEKÄMPFUNG DER DISKRIMINIERUNG VON LGBTIQ-PERSONEN\n  ## 1.1 Durchsetzung und Verbesserung des rechtlichen Schutzes vor Diskriminierung\n  ## 1.2 Förderung der Inklusion und Vielfalt am Arbeitsplatz\n  ## 1.3 Bekämpfung der Ungleichheit in Bildung, Gesundheit, Kultur und Sport\n  ## 1.4 Wahrung der Rechte von LGBTIQ, die internationalen Schutz beantragen\n  ## Schlüsselmaßnahmen der Europäischen Kommission:\n  ## Die Europäische Kommission wird die Mitgliedstaaten dabei unterstützen,\n  ## 2. GEWÄHRLEISTUNG DER SICHERHEIT VON LGBTIQ-PERSONEN\n  ## 2.1 Verstärkung des rechtlichen Schutzes von LGBTIQ-Personen vor Hassdelikten, Hetze und Gewalt\n  ## 2.2 Stärkung der Maßnahmen zur Bekämpfung von gegen LGBTIQ gerichtete Hetze und Desinformation\n  ## 2.3 Meldung von Hassdelikten gegen LGBTIQ und Austausch bewährter Verfahren\n  ## 2.4 Schutz und Förderung der körperlichen und geistigen Gesundheit von LGBTIQ-Personen\n  ## Schlüsselmaßnahmen der Europäischen Kommission:\n  ## Die Europäische Kommission wird die Mitgliedstaaten dabei unterstützen,\n  ## 3. AUFBAU VON GESELLSCHAFTEN, DIE LGBTIQ EINSCHLIEßEN\n  ## 3.1 Sicherstellen der Rechte von LGBTIQ-Personen in grenzüberschreitenden Fällen\n  ## 3.2 Verbesserung des rechtlichen Schutzes für Regenbogenfamilien in grenzüberschreitenden Situationen\n  ## 3.3 Verbesserung der Anerkennung von trans und nichtbinären Identitäten und von intersexuellen Personen\n  ## 3.4 Förderung eines positiven Umfelds für die Zivilgesellschaft\n  ## Schlüsselmaßnahmen der Europäischen Kommission:\n  ## 4. FÜHRUNGSROLLE BEI DER FORDERUNG NACH DER GLEICHSTELLUNG VON LGBTIQ IN DER GANZEN WELT\n  ## 4.1 Stärkung des Engagements der EU in Bezug auf Probleme von LGBTIQ in all ihren Außenbeziehungen\n  ## Schlüsselmaßnahmen der Europäischen Kommission:\n  ## 5. UMSETZUNG DER STRATEGIE: UMFASSENDE NUTZUNG DER EUINITIATIVEN\n  ## Schlüsselmaßnahmen der Europäischen Kommission:\n  ## Die Europäische Kommission wird die Mitgliedstaaten dabei unterstützen,\n  ## 6. FAZIT: ZUSAMMENARBEIT FÜR DIE GLEICHSTELLUNG VON LGBTIQ"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Verkuendungsblatt › 08 2013 › HsH Verkuendungsblatt 08 2013 — Ausgabe 08/2013",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/08-2013/HsH_Verkuendungsblatt_08_2013.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 08/2013\n  ## Inhalt:\n  ## Richtlinie zur Vergabe der Landesstipendien Niedersachsen\n  ## Präambel\n  ## § 1\n  ## Förderzweck und Adressatenkreis\n  ## § 2\n  ## Vergaberahmen\n  ## § 3\n  ## Vergabekriterien\n  ## § 4\n  ## Antrags- und Auswahlverfahren\n  ## § 5\n  ## Höhe der Stipendien\n  ## § 6\n  ## Inkrafttreten\n  ## Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der Hochschule\n  ## Präambel\n  ## § 1\n  ## Pflichten der Hochschule\n  ## § 2\n  ## Beschwerderechte\n  ## § 3\n  ## Vertrauliche Unterstützung und Beratung\n  ## § 4\n  ## Beschwerdeverfahren\n  ## § 5\n  ## Konsequenzen\n  ## (1) Studierende und Angehörige\n  ## (2) Beschäftigte\n  ## § 6\n  ## Schlussbestimmungen\n# Aufhebung der Ordnung des Zentrums für Weiterbildung und Technologietransfer der Fachhochschule Hannover"
+    },
+    {
+      "nr": 6,
+      "titel": "www › Gleichstellung › Gleichstellung PDF › Ordnung fuer Gleichstellung — Ordnung für Gleichstellung",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Gleichstellung/Gleichstellung_PDF/Ordnung_fuer_Gleichstellung.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ordnung für Gleichstellung\n  ## Präambel\n  ## Kapitel 1: Stellenbesetzungen und Berufungen\n  ## Kapitel 2: Vereinbarkeit von Studium oder Beruf und Familie\n  ## Quellen\n  ## Kapitel 3: Forschung\n  ## A: Frauen in der Forschung\n  ## B: Gender in der Forschung\n  ## Kapitel 4: Studium und Lehre\n  ## Kapitel 5: Weiterbildung\n  ## Kapitel 6: Geschlechtergerechte Sprache\n  ## Kapitel 7: Sexuelle Diskriminierung und Gewalt\n  ## Kapitel 8: Gleichstellungsplan\n  ## Kapitel 9: Gleichstellungsbeauftragte, Gleichstellungsbüro\n  ## Kapitel 10: Kommission für Gleichstellung und andere Hochschulgremien\n  ## Kapitel 11 Inkrafttreten"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Servicezentrum Beratung › Familienservice › Schwangerschaftswegweiser Region Hannover deutsch — NOTIZEN",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Schwangerschaftswegweiser_Region-Hannover_deutsch.pdf",
+      "fakultaet": "",
+      "struktur": "  ## NOTIZEN\n  ## Fotos\n  ## SCHWANGERSCHAFTSWEGWEISER\n  ## GRUSSWORT\n  ## EINFÜHRUNG\n  ## INHALTSVERZEICHNIS\n  ## INHALTSVERZEICHNIS\n  ## GYNÄKOLOGISCHE PRAXEN\n  ## GESUNDHEIT\n  ## MUTTERPASS\n  ## ZEITPUNKT\n  ## GEBURTSKLINIKEN\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## GEBURTSKLINIKEN\n  ## HAUSHALTSHILFE\n  ## U-UNTERSUCHUNGEN\n  ## HEBAMMEN\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## GEBURTSVORBEREITUNG\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## GEBURTSHÄUSER\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## HAUSGEBURT\n  ## WOCHENBETTBETREUUNG\n  ## Nach der Geburt\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## RÜCKBILDUNGSGYMNASTIK\n  ## FAMILIENHEBAMMEN UND FAMILIEN-GESUNDHEITSKINDERKRANKENPFLEGERINNEN\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## FAMILIENHEBAMMEN UND FAMILIEN-GESUNDHEITSKINDERKRANKENPFLEGERINNEN\n  ## STILLBERATUNG\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## PRÄNATALDIAGNOSTIK\n  ## ZEITPUNKT Während der Schwangerschaft\n  ## BERATUNG\n  ## SCHWANGEREN- UND SCHWANGERSCHAFTSKONFLIKTBERATUNG\n  ## ZEITPUNKT\n  ## FAMILIEN- UND ERZIEHUNGSBERATUNG\n  ## ZEITPUNKT\n  ## SCHREIAMBULANZ\n  ## FAMILIENSERVICEBÜRO"
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › Beratungsangebote › Mental Health First Aid › Mental Health First Aid — ADRESSE",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Beratungsangebote/Mental_Health_First_Aid/Mental_Health_First_Aid.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## ADRESSE"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 2,
+      "titel": "f5 › Soziale Arbeit grundstaendig › Richtlinie Beschwerdeverfahren › Richtlinie Beschwerdeverfahren Diskriminierung 29.03.2024",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Richtlinie-Beschwerdeverfahren/Richtlinie-Beschwerdeverfahren-Diskriminierung_-_29.03.2024.pdf"
+    },
+    {
+      "nr": 1,
+      "titel": "www › Verkuendungsblatt › 08 2013 › 02 Richtlinie zu Beschwerdeverfahren — Hochschule",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/08-2013/02-Richtlinie_zu_Beschwerdeverfahren.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "Studienberatung für Studierende und Studieninteressierte",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung"
+    },
+    {
+      "nr": 6,
+      "titel": "www › Gleichstellung › Gleichstellung PDF › Ordnung fuer Gleichstellung — Ordnung für Gleichstellung",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Gleichstellung/Gleichstellung_PDF/Ordnung_fuer_Gleichstellung.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f5 › Soziale Arbeit grundstaendig › Richtlinie Beschwerdeverfahren › Richtlinie Beschwerdeverfahren Diskriminierung 29.03.2024",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Richtlinie-Beschwerdeverfahren/Richtlinie-Beschwerdeverfahren-Diskriminierung_-_29.03.2024.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**§ 4** > **Beschwerdeverfahren**",
+      "snippets": [
+        "## **§ 3**\n## **Vertrauliche Unterstützung, Beratung und Beschwerderecht**  \n- (1) Betroffene, Beobachtende sowie Beteiligte können Personen ihres Vertrauens und Interessenvertretungen sowie beratende Stellen innerhalb oder außerhalb der Hochschule informieren oder zu ihrer Unterstützung ansprechen.  \n- (2) Die internen Beratungsstellen und Interessenvertretungen bieten vertrauliche Unterstützung über Schutz- und Handlungsmöglichkeiten an. Sie beraten auch bei der Entscheidung, ob das Beschwerdeverfahren nach § 4 dieser Richtlinie für den konkreten Einzelfall der geeignete Weg ist.  \n- (3) Angebote zur vertraulichen Unterstützung und Beratung bieten innerhalb der Hochschule insbesondere:  \n- Gleichstellungsbeauftragte  \n- Servicezentrum Beratung  \n- Ombudsperson nach der Ordnung zur Sicherung guter wissenschaftlicher Praxis und zum Umgang mit wissenschaftlichem Fehlverhalten an der Hochschule Hannover  \n- Allgemeiner Studierendenausschuss (AStA) (Studierende)",
+        "- Allgemeiner Studierendenausschuss (AStA) (Studierende)  \n- Beauftragte Person für Belange von Studierenden mit Behinderungen oder chronischen Erkrankungen (Studierende)  \n- Personalrat (Beschäftigte)  \n- Schwerbehindertenvertretung (Beschäftigte)  \n- Inklusionsbeauftragte (Beschäftigte)",
+        "## **§ 4**\n## **Beschwerdeverfahren**  \n- (1) Beschwerdeberechtigt sind alle Mitglieder und Angehörigen der Hochschule Hannover, die eine Diskriminierung durch Organe, Mitglieder oder Angehörige der Hochschule Hannover oder durch Dritte empfinden. Sie können eine Beschwerde an die Beschwerdestelle (derzeit Dezernat 1 Personal und Recht – Team Recht) richten. Sie dürfen wegen der Wahrnehmung dieses Beschwerderechtes nicht benachteiligt oder diskriminiert werden  \n- (2) Die Beschwerde muss die als benachteiligend empfundenen Ereignisse sowie das angenommene Diskriminierungsmerkmal beschreiben. Soweit weitere Personen die Ereignisse wahrgenommen haben oder andere Beweismittel bekannt sind, sollen diese beigefügt oder soweit dies nicht möglich ist benannt werden. Außerdem ist mitzuteilen, wer (welche Personen und Stellen) bereits über die Beschwerde informiert wurde, ob und wenn ja welche Maßnahmen bereits eingeleitet und mit wem Gespräche geführt wurden.  \nSeite **2** von **4**"
+      ],
+      "zitate": [
+        "Gleichstellungsbeauftragte",
+        "Servicezentrum Beratung",
+        "Allgemeiner Studierendenausschuss (AStA) (Studierende)",
+        "Beauftragte Person für Belange von Studierenden mit Behinderungen oder chronischen Erkrankungen (Studierende)",
+        "Personalrat (Beschäftigte)",
+        "Schwerbehindertenvertretung (Beschäftigte)",
+        "Inklusionsbeauftragte (Beschäftigte)",
+        "vertrauliche Unterstützung über Schutz- und Handlungsmöglichkeiten",
+        "ob das Beschwerdeverfahren nach § 4 dieser Richtlinie für den konkreten Einzelfall der geeignete Weg ist",
+        "Beschwerdestelle (derzeit Dezernat 1 Personal und Recht – Team Recht)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 08 2013 › 02 Richtlinie zu Beschwerdeverfahren — Hochschule",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/08-2013/02-Richtlinie_zu_Beschwerdeverfahren.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/08-2013/01-Richtlinie_Landesstipendium_Nds.pdf"
+      ],
+      "abschnitt": "**Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der** > **§ 2** > **Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der** > **Beschwerderechte**",
+      "snippets": [
+        "## **Vertrauliche Unterstützung und Beratung**  \nBetroffene, Beobachtende wie Beteiligte können Personen ihres Vertrauens und Interessenvertretungen zu ihrer Unterstützung ansprechen. Darüber hinaus können sie externe Beratungsangebote wahrnehmen, wie z. B. durch den Frauennotruf Hannover e.V. Die Beratungsstellen und Interesseneinrichtungen bieten vertrauliche Unterstützung über eigene Schutz- und Handlungsmöglichkeiten an, unter anderem auch bei der Entscheidung, ob eine Beschwerde eingereicht werden soll.  \nAngebote zur vertraulichen Unterstützung bieten innerhalb der Hochschule u.a.:  \n- Gleichstellungsbeauftragte  \n- AStA  \n- Personalrat  \n- Schwerbehindertenvertretung"
+      ],
+      "zitate": [
+        "Gleichstellungsbeauftragte"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Studienberatung für Studierende und Studieninteressierte",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Studienberatung für Studierende und Studieninteressierte > Feedbackbox > Studienberatung für Studierende und Studieninteressierte > Möchten Sie etwas loswerden? Sie haben Diskriminierung erfahren?",
+      "snippets": [
+        "## Feedbackbox"
+      ],
+      "zitate": [
+        "Feedbackbox"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Gleichstellung › Gleichstellung PDF › Ordnung fuer Gleichstellung — Ordnung für Gleichstellung",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Gleichstellung/Gleichstellung_PDF/Ordnung_fuer_Gleichstellung.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Kapitel 7: Sexuelle Diskriminierung und Gewalt**",
+      "snippets": [
+        "## **Ordnung für Gleichstellung**  \n|Präambel|Seite|2|\n|---|---|---|\n|1.  Stellenbesetzungen und Berufungen||3|\n|2.  Vereinbarkeit von Studium oder Beruf und Familie||5|\n|3.  Forschung||6|\n|4.  Studium und Lehre||8|\n|5.  Weiterbildung||10|\n|6.  Geschlechtergerechte Sprache||11|\n|7.  Sexuelle Diskriminierung und Gewalt||12|\n|8.  Gleichstellungsplan||13|\n|9.  Gleichstellungsbeauftragte, Gleichstellungsbüro||14|\n|10.  Kommission für Gleichstellung und andere Hochschulgremien||17|\n|11.  Inkrafttreten und Laufzeit||17|  \nOrdnung für Gleichstellung an der FHH  \nNr. 1/2010 vom 3.2.2010  \nVerkündungsblatt der FHH"
+      ],
+      "zitate": [
+        "Gleichstellungsbeauftragte"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.34125,
+      "id": "635ba3b1-be28-5c55-8216-bc0980cde776",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/08-2013/02-Richtlinie_zu_Beschwerdeverfahren.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2013 › 02 Richtlinie zu Beschwerdeverfahren — Hochschule",
+      "section_heading": "**Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der** > **§ 2** > **Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der** > **Beschwerderechte**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 1**\n\n## **Pflichten der Hochschule**  \nDie Hochschule Hannover ist verpflichtet, Studierende und Angehörige sowie Beschäftigte weder unmittelbar noch mittelbar zu benachteiligen oder zu diskriminieren und sie vor Gewalt, Benachteiligungen und Diskriminierungen durch andere Mitglieder, Angehör"
+    },
+    {
+      "rang": 2,
+      "score": 1.70016,
+      "id": "1e368d36-9da4-5cb4-b885-277a4161053c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Richtlinie-Beschwerdeverfahren/Richtlinie-Beschwerdeverfahren-Diskriminierung_-_29.03.2024.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Richtlinie Beschwerdeverfahren › Richtlinie Beschwerdeverfahren Diskriminierung 29.03.2024",
+      "section_heading": "**§ 4** > **Beschwerdeverfahren**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "- Allgemeiner Studierendenausschuss (AStA) (Studierende)  \n- Beauftragte Person für Belange von Studierenden mit Behinderungen oder chronischen Erkrankungen (Studierende)  \n- Personalrat (Beschäftigte)  \n- Schwerbehindertenvertretung (Beschäftigte)  \n- Inklusionsbeauftragte (Beschäftigte)\n\n## **§ 4*"
+    },
+    {
+      "rang": 3,
+      "score": 1.50594,
+      "id": "3fcb493e-7a6a-5dea-b3cc-bee368b112c3",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Richtlinie-Beschwerdeverfahren/Richtlinie-Beschwerdeverfahren-Diskriminierung_-_29.03.2024.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Richtlinie Beschwerdeverfahren › Richtlinie Beschwerdeverfahren Diskriminierung 29.03.2024",
+      "section_heading": "**§ 5** > **Maßnahmen**",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "- a. Dienstgespräch bzw. Personalgespräch  \n- b. Versetzung an einen anderen Arbeitsplatz  \n- c. Durchführung eines Disziplinarverfahrens  \n- d. Abmahnung oder Kündigung  \n- e. Beendigung des Rechtsverhältnisses (z.B. durch Widerruf oder Entzug)  \nPersonalvertretungsrechtliche Vorschriften bleiben u"
+    },
+    {
+      "rang": 4,
+      "score": 1.39558,
+      "id": "a63c1871-8076-5eff-b2e0-9566d2a9f130",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/08-2013/02-Richtlinie_zu_Beschwerdeverfahren.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2013 › 02 Richtlinie zu Beschwerdeverfahren — Hochschule",
+      "section_heading": "**Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der** > **§ 5** > **Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der** > **Konsequenzen** > **Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der** > **(1) Studierende und Angehörige**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n\n## **Konsequenzen**\n\n## **(1) Studierende und Angehörige**  \n1. Benachteiligen oder diskriminieren Studierende und Angehörige andere Mitglieder, Angehörige oder Gäste  der Hochschule Hannover oder wenden Gewalt an, so kann die Präsidentin oder der Präsident Schlichtungsverfahren einleite"
+    },
+    {
+      "rang": 5,
+      "score": 1.38555,
+      "id": "9d064692-7019-5223-bf87-5a6433edea84",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung",
+      "title_anzeige": "Studienberatung für Studierende und Studieninteressierte",
+      "section_heading": "Studienberatung für Studierende und Studieninteressierte > Feedbackbox > Studienberatung für Studierende und Studieninteressierte > Möchten Sie etwas loswerden? Sie haben Diskriminierung erfahren?",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "## Feedbackbox\n\n## Möchten Sie etwas loswerden? Sie haben Diskriminierung erfahren?\nDann schreiben Sie einfach der [Feedbackbox](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/feedbackbox), der zentralen Beschwerdestelle der Hochschule Hannover. Nur so kann"
+    },
+    {
+      "rang": 6,
+      "score": 1.30774,
+      "id": "29126c77-c7f8-5803-a38b-d577d6c84dd5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Gleichstellung/Gleichstellung_PDF/EU-Strategie_fuer_Gleichstellung_von_LGBTIQ-Personen_2020-2025.pdf",
+      "title_anzeige": "www › Gleichstellung › Gleichstellung PDF › EU Strategie fuer Gleichstellung von LGBTIQ Personen 2020 2025",
+      "section_heading": "**Ursula von der Leyen (Präsidentin der Europäischen Kommission)** _Rede zur Lage der Union 2020_",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "In einer Umfrage aus dem Jahr 2019 stellte die Agentur der Europäischen Union für Grundrechte (FRA) fest, dass die Diskriminierung aufgrund der sexuellen Ausrichtung, der Geschlechtsidentität/ geschlechtlichen Ausdrucksform und der Geschlechtsmerkmale in der EU tatsächlich zunimmt: 43 % der LGBT-Per"
+    },
+    {
+      "rang": 7,
+      "score": 1.29124,
+      "id": "7798eee1-7803-57ff-8f8e-a64ef3399130",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/08-2013/HsH_Verkuendungsblatt_08_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2013 › HsH Verkuendungsblatt 08 2013 — Ausgabe 08/2013",
+      "section_heading": "**Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der Hochschule**",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "## **Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der Hochschule**"
+    },
+    {
+      "rang": 8,
+      "score": 1.2843,
+      "id": "a5404b98-c9f4-5c37-967b-6184f93d0749",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Gleichstellung/Gleichstellung_PDF/Ordnung_fuer_Gleichstellung.pdf",
+      "title_anzeige": "www › Gleichstellung › Gleichstellung PDF › Ordnung fuer Gleichstellung — Ordnung für Gleichstellung",
+      "section_heading": "**Kapitel 7: Sexuelle Diskriminierung und Gewalt**",
+      "chunk_index": 30,
+      "text_vollstaendig": true,
+      "auszug": "(3) Die FHH setzt sich auf allen Ebenen für den Schutz der Würde von Frauen und Männern ein und legt Wert auf eine vertrauensvolle Zusammenarbeit der weiblichen und männlichen Beschäftigten und Studierenden.  \nSexuelle Belästigung und Gewalt stellen eine Verletzung arbeits-, dienst- und hochschulrec"
+    },
+    {
+      "rang": 9,
+      "score": 1.15503,
+      "id": "c46688dd-b307-5ff6-9919-2737407f8fd1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Schwangerschaftswegweiser_Region-Hannover_deutsch.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Schwangerschaftswegweiser Region Hannover deutsch — NOTIZEN",
+      "section_heading": "HÄUSLICHE GEWALT",
+      "chunk_index": 55,
+      "text_vollstaendig": true,
+      "auszug": "## HÄUSLICHE GEWALT  \nHäusliche Gewalt kann viele Formen haben – nicht nur körperliche oder sexuelle Übergriffe. Auch wenn der Lebensgefährte, Ehemann oder Ex-Partner Sie beispielsweise beleidigt, Ihnen oder Ihren Kindern droht, Ihnen verbietet das Haus zu verlassen oder Sie nach einer Trennung weit"
+    },
+    {
+      "rang": 10,
+      "score": 1.1487,
+      "id": "1ad23fa5-d362-5075-a79b-3981d6f23abe",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Gleichstellung/Gleichstellung_PDF/EU-Strategie_fuer_Gleichstellung_von_LGBTIQ-Personen_2020-2025.pdf",
+      "title_anzeige": "www › Gleichstellung › Gleichstellung PDF › EU Strategie fuer Gleichstellung von LGBTIQ Personen 2020 2025",
+      "section_heading": "**1. BEKÄMPFUNG DER DISKRIMINIERUNG VON LGBTIQ-PERSONEN**",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## **1. BEKÄMPFUNG DER DISKRIMINIERUNG VON LGBTIQ-PERSONEN**  \n**19 %** der **46 %** der LGBTI- **51 %** der lesbischen, Personen gehen intersexuellen schwulen und gegenüber Personen **48 %** der bisexuellen medizinischem trans*-Personen, Personen, **35 %** der Personal oder **35 %** der trans*-Pers"
+    },
+    {
+      "rang": 11,
+      "score": 1.11897,
+      "id": "e92829bd-ef5f-5bf8-b9f7-fdbb787a4590",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Beratungsangebote/Mental_Health_First_Aid/Mental_Health_First_Aid.pdf",
+      "title_anzeige": "f5 › Beratungsangebote › Mental Health First Aid › Mental Health First Aid — ADRESSE",
+      "section_heading": "ADRESSE",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## ADRESSE  \n**MENTAL HEALTH FIRST AID – ERSTE HILFE FÜR DIE PSYCHISCHE GESUNDHEIT VON MITARBEITENDEN/ STUDIERENDEN/ PROFESSOR*INNEN**  \nKONTAKT  \nSIE SICH ÜBERFORDERT ODER GESTRESST FÜHLEN,  \nUNTER PRÜFUNGSANGST, SCHLAFPROBLEMEN ODER DAUERHAFTER ERSCHÖPFUNG LEIDEN,  \nHÄUFIG TRAURIG ODER ÄNGSTLICH S"
+    },
+    {
+      "rang": 12,
+      "score": 1.108,
+      "id": "e5228951-97b5-57cd-9293-95e5b01f48ef",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/a-team-an-der-hsh",
+      "title_anzeige": "Das A-Team an der HsH",
+      "section_heading": "Das A-Team an der HsH > – Im Einsatz gegen Diskriminierung",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "Das A-Team: **“** _**Wir sind stolz darauf, Teil dieser Initiative zu sein und setzen uns leidenschaftlich für eine diskriminierungsfreie Umgebung an der Hochschule Hannover ein. Zögert nicht, euch an uns zu wenden, wenn ihr Unterstützung benötigt- egal wie klein oder groß euer Anliegen scheint, wir"
+    },
+    {
+      "rang": 13,
+      "score": 1.09389,
+      "id": "68d57d8e-b736-57f1-ae22-a15e635ed886",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Antidiskriminierungsstelle/Schutzkonzept.pdf",
+      "title_anzeige": "www › Organisation › Antidiskriminierungsstelle › Schutzkonzept",
+      "section_heading": "**4. Ansprechpersonen vor der Veranstaltung**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## **4. Ansprechpersonen vor der Veranstaltung**  \nBei Fragen zur Veranstaltung, zum Awareness- und Schutzkonzept oder zu Unterstützungsbedarfen im Vorfeld können sich Teilnehmer*innen an die Antidiskriminierungsstelle der Hochschule Hannover wenden."
+    },
+    {
+      "rang": 14,
+      "score": 1.07069,
+      "id": "46aaacac-dce0-50cf-9227-519672ab1927",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/Verhaltenskodex_gegen_Korruption.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › Verhaltenskodex gegen Korruption",
+      "section_heading": "**6. Unterstützen Sie Ihre Dienststelle bei der Entdeckung und Aufklärung von Korruption. Informieren Sie Ihre Vorgesetzten, die Ansprechpartnerin oder den Ansprechpartner für Korruptionsbekämpfung bei Anhaltspunkten für korruptes Verhalten.**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **6. Unterstützen Sie Ihre Dienststelle bei der Entdeckung und Aufklärung von Korruption. Informieren Sie Ihre Vorgesetzten, die Ansprechpartnerin oder den Ansprechpartner für Korruptionsbekämpfung bei Anhaltspunkten für korruptes Verhalten.**  \nKorruption kann nur verhindert und bekämpft werden,"
+    },
+    {
+      "rang": 15,
+      "score": 1.05177,
+      "id": "e1da590e-d9ca-502c-b98b-1f2a8ac0bb02",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Schwangerschaftswegweiser_Region-Hannover_deutsch.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Schwangerschaftswegweiser Region Hannover deutsch — NOTIZEN",
+      "section_heading": "KRISEN RUND UM DIE GEBURT",
+      "chunk_index": 99,
+      "text_vollstaendig": true,
+      "auszug": "## KRISEN RUND UM DIE GEBURT  \nWährend der Schwangerschaft und nach der Geburt kann es zu Problemen kommen. Die Geburt verläuft vielleicht nicht so, wie Sie es sich vorgestellt haben; nach der Geburt fühlen Sie sich nicht so glücklich wie erhofft oder Sie trauern um Ihr verstorbenes Kind. In all die"
+    },
+    {
+      "rang": 16,
+      "score": 0.99967,
+      "id": "4b914815-0056-5d93-b166-d97f31576cd7",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_13-2024_Ausschreibungstext_Monitoring.pdf",
+      "title_anzeige": "www › Organisation › Berufungsmanagement › W2 13 2024 Ausschreibungstext Monitoring — - Kennziffer W2 13/2024 –",
+      "section_heading": "**Weiterhin wünschenswert ist, wenn der/die Stelleninhaber*in außerdem folgende Kriterien erfüllt:**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "Die Hochschule Hannover ist aufgrund ihrer erfolgreichen Aktivitäten für die Verwirklichung der Gleichstellung mehrfach mit dem Total E-Quality Prädikat und für ihre Initiativen zur familiengerechten Gestaltung mit dem Audit familiengerechte Hochschule ausgezeichnet.  \nSchwerbehinderte Bewerberinnen"
+    },
+    {
+      "rang": 17,
+      "score": 0.99459,
+      "id": "dcc9d262-5373-5a41-8d76-bc9f80220941",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw/bearatungsangebote/psychosoziale-beratung",
+      "title_anzeige": "f5 › soziale arbeit grundstaendig bsw › bearatungsangebote › psychosoziale beratung",
+      "section_heading": "Psychosoziale Beratung",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "* Zeiten: nach Vereinbarung per E-Mail  \n**Sprechen Sie mich gern an, wenn Sie:**\n* sich überfordert oder gestresst fühlen,\n* unter Prüfungsangst, Schlafproblemen oder dauerhafter Erschöpfung leiden,\n* häufig traurig oder ängstlich sind,\n* nicht wissen, an wen Sie sich wenden können,\n* Sie sich um e"
+    },
+    {
+      "rang": 18,
+      "score": 0.97206,
+      "id": "72aa36a2-86c5-5805-82a7-684c279b7aa3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/4-2023_Ausschreibung_Monitoring.pdf",
+      "title_anzeige": "www › Organisation › Personal › 4 2023 Ausschreibung Monitoring — - Kennziffer W2 4/2023 –",
+      "section_heading": "**W2-Professur \"Strategische Kommunikationsplanung und Medienkonzeption\"** > **- Kennziffer W2 4/2023 –**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "Die Hochschule Hannover ist aufgrund ihrer erfolgreichen Aktivitäten für die Verwirklichung der Gleichstellung mehrfach mit dem Total E-Quality Prädikat und für ihre Initiativen zur familiengerechten Gestaltung mit dem Audit familiengerechte Hochschule ausgezeichnet.  \nSchwerbehinderte Bewerberinnen"
+    },
+    {
+      "rang": 19,
+      "score": 0.96274,
+      "id": "a522770a-d3ff-50f8-aba4-5346bbe4fc2c",
+      "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000006104",
+      "title_anzeige": "Prof. Dr. Nina Fleischmann",
+      "section_heading": "Prof. Dr. Nina Fleischmann > HsH-Gremien > Prof. Dr. Nina Fleischmann",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "* Deutsche Gesellschaft für Pflegewissenschaft (DGP)\n* Landesvereinigung für Gesundheit und Akademie für Sozialmedizin Niedersachsen Bremen (LVG & AFS)  \n[ Forschungsprojekte ](https://f5.hs-hannover.de/service/personenfinder/person/1000006104 \"Forschungsprojekte\")\n* [zusammenHÖREN](https://www.gesu"
+    },
+    {
+      "rang": 20,
+      "score": 0.95126,
+      "id": "22d96bb3-f43a-500d-9b9b-af2498d6fa64",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Antidiskriminierungsstelle/Schutzkonzept.pdf",
+      "title_anzeige": "www › Organisation › Antidiskriminierungsstelle › Schutzkonzept",
+      "section_heading": "**6. Was tun, wenn ich Diskriminierung erlebe?**",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "## **6. Was tun, wenn ich Diskriminierung erlebe?**  \nWenn Sie während der Veranstaltung Diskriminierung, Belästigung, Abwertung, eine Grenzverletzung oder eine andere belastende Situation erleben, können Sie sich an eine Mitarbeiterin der Antidiskriminierungsstelle sowie Mitglieder des studentische"
+    },
+    {
+      "rang": 21,
+      "score": 0.94422,
+      "id": "e6d47eb7-0560-509f-b843-c7070c31cb83",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/09-2023/01_vk_20230505_Entwurf_Ordnung_GWP_final.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2023 › 01 vk 20230505 Entwurf Ordnung GWP final",
+      "section_heading": "**§ 19 Ombudstätigkeit**",
+      "chunk_index": 34,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 19 Ombudstätigkeit**  \n- (1) Die Ombudsperson und ihre Stellvertretung nehmen die Ombudstätigkeit nach § 18 unabhängig wahr, insbesondere unabhängig von Weisungen oder informellen einzelfallbezogenen Einflussnahmen durch die Hochschulleitung und andere Hochschulorgane. Die Ombudstätigkeit erf"
+    },
+    {
+      "rang": 22,
+      "score": 0.93629,
+      "id": "346ceca9-de38-5fae-b38b-696178a8caf3",
+      "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000413-10057.html",
+      "title_anzeige": "karriere › bewerbung › beschreibung 900000413 10057 — W2-Professur: Angewandte Pflegewissenschaft W2 15/2025",
+      "section_heading": "W2-Professur: Angewandte Pflegewissenschaft W2 15/2025",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Die Hochschule Hannover ist aufgrund ihrer erfolgreichen Aktivitäten für die Verwirklichung der Gleichstellung mehrfach mit dem Total E-Quality Prädikat und für ihre Initiativen zur familiengerechten Gestaltung mit dem Audit familiengerechte Hochschule ausgezeichnet.\nSchwerbehinderte Bewerber*innen "
+    },
+    {
+      "rang": 23,
+      "score": 0.87446,
+      "id": "21a9314c-10f5-5c4d-a98d-34590e8be0b2",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/sexualisierte-diskriminierung-und-gewalt",
+      "title_anzeige": "www › organisation › gleichstellung › sexualisierte diskriminierung und gewalt",
+      "section_heading": "Veranstaltungen zu SDG in der Hochschule:",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "Richtlinie der Hochschule Hannover für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung von Studierenden, Angehörigen, Beschäftigten sowie Gästen der Hochschule\nDie Hochschule Hannover ermöglicht es jedem Individuum die eigenen Ressourcen\ndiskriminierungs"
+    },
+    {
+      "rang": 24,
+      "score": 0.87015,
+      "id": "2e864180-f3c8-5be7-8f37-509344c6006e",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/recht",
+      "title_anzeige": "www › ueber uns › organisation › recht",
+      "section_heading": "Recht > Richtlinie für das Beschwerdeverfahren bei Diskriminierung an der Hochschule Hannover",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n# Recht  \n##  Richtlinie für das Beschwerdeverfahren bei Diskriminierung an der Hochschule Hannover\n**Allgemeines**\nDie Hochschule Hannover ermöglicht es jedem Menschen die eigenen Ressourcen diskriminierungsfrei optimal zu entwickeln.\nBenachteiligunge"
+    },
+    {
+      "rang": 25,
+      "score": 0.86863,
+      "id": "c2cfee49-170b-5284-91be-4698abf6736e",
+      "source_url": "https://f5.hs-hannover.de/aktuelles/diskrim",
+      "title_anzeige": "Beschwerdeverfahren bei Diskriminierung an der Hochschule Hannover",
+      "section_heading": "Beschwerdeverfahren bei Diskriminierung an der Hochschule Hannover > Die Hochschule Hannover ermöglicht es jedem Individuum die eigenen Ressourcen diskriminierungsfrei optimal zu entwickeln. Diskriminierende Gewaltanwendung, sexuelle Diskriminierung sowie mittelbare oder unmittelbare Benachteiligungen aus rassistischen Gründen, wegen der ethnischen Herkunft, des Geschlechts, der Religion oder Weltanschauung, einer Behinderung, des Alters oder der sexuellen Identität sind verboten. Diese Verfahrensrichtlinie regelt den Umgang mit Beschwerden im Falle eines Verstoßes gegen diese Verbote und zeigt den Beschwerdeweg auf. Sie dokumentiert die Umsetzung des Allgemeinen Gleichbehandlungsgesetzes (AGG).",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "### Die Hochschule Hannover ermöglicht es jedem Individuum die eigenen Ressourcen diskriminierungsfrei optimal zu entwickeln. Diskriminierende Gewaltanwendung, sexuelle Diskriminierung sowie mittelbare oder unmittelbare Benachteiligungen aus rassistischen Gründen, wegen der ethnischen Herkunft, des "
+    },
+    {
+      "rang": 26,
+      "score": 0.84203,
+      "id": "f918df26-1d56-581b-ab29-f04a63e92a37",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/17.04.2026_Chancengleichheit%40HsH__2_.pdf",
+      "title_anzeige": "www › Organisation › Strategische Hochschulentwicklung › 17.04.2026 Chancengleichheit@HsH 2",
+      "section_heading": "**Bestandsanalyse: Der Status Quo der Diversitätsförderung an der HsH**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "Ein wirkungsvolles Instrument gegen Diskriminierung ist zudem die **Richtlinie der Hochschule für das Beschwerdeverfahren bei Gewaltanwendung, Benachteiligung, Belästigung und Diskriminierung** . Diese richtet sich gegen verschiedene Arten von Diskriminierung und spricht dabei viele Diversitätsdimen"
+    },
+    {
+      "rang": 27,
+      "score": 0.83712,
+      "id": "31788690-b2ae-5caf-87e7-5f732ce3158c",
+      "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000424-10057.html",
+      "title_anzeige": "karriere › bewerbung › beschreibung 900000424 10057",
+      "section_heading": "Wiss. Mitarbeiter/in (m/w/d) – Regelungstechnik & Gebäudeenergiesysteme, PM 1017-2026",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "Die Hochschule Hannover setzt sich darüber hinaus für die berufliche Gleichstellung der Geschlechter ein und strebt an, in allen Bereichen und Positionen eine Unterrepräsentanz im Sinne des NGG abzubauen. Vor diesem Hintergrund werden insbesondere qualifizierte Frauen gebeten, sich zu bewerben.\nBewe"
+    },
+    {
+      "rang": 28,
+      "score": 0.83137,
+      "id": "c82ffed5-3851-55a7-a4b1-e4cbb0cd66ad",
+      "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000426-10057.html",
+      "title_anzeige": "karriere › bewerbung › beschreibung 900000426 10057",
+      "section_heading": "Mitarbeiter*in in der Personal- und Organisationsentwicklung (m/w/d), PM 1033-2026",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "Die Hochschule Hannover setzt sich darüber hinaus für die berufliche Gleichstellung der Geschlechter ein und strebt an, in allen Bereichen und Positionen eine Unterrepräsentanz im Sinne des NGG abzubauen.\nVor diesem Hintergrund werden insbesondere qualifizierte Männer gebeten, sich zu bewerben.\nBewe"
+    },
+    {
+      "rang": 29,
+      "score": 0.82839,
+      "id": "c5ac3c3e-0d31-594a-b1c2-5afe16dee5f8",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/feedbackbox",
+      "title_anzeige": "www › servicezentrum beratung › studienberatung › feedbackbox",
+      "section_heading": "Feedbackbox > Fragen und Antworten rund um die Feedbackbox",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Bei Diskriminierungsfällen ist es wichtig zu schildern, was genau passiert ist bzw. was Sie als Zeug*in gesehen haben. Diskriminierungen sind immer persönlich, daher fällt es vielen Betroffenen schwer, die Vorfälle in Worte zu fassen. Das wissen wir und reagieren auf alle an uns herangetragenen Vorf"
+    },
+    {
+      "rang": 30,
+      "score": 0.82837,
+      "id": "f6e1b436-5613-55ee-9e71-cfea7d373f0b",
+      "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000456-10057.html",
+      "title_anzeige": "karriere › bewerbung › beschreibung 900000456 10057 — Mitarbeiterin Drittmittelverwaltung (m/w/d), PM 1085-2026",
+      "section_heading": "Mitarbeiter*in Drittmittelverwaltung (m/w/d), PM 1085-2026",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Die Hochschule Hannover setzt sich darüber hinaus für die berufliche Gleichstellung der Geschlechter ein und strebt an, in allen Bereichen und Positionen eine Unterrepräsentanz im Sinne des NGG abzu-bauen. Vor diesem Hintergrund werden insbesondere qualifizierte Männer gebeten, sich zu bewerben.\nBew"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 23336,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.99,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 1.35,
+    "docs_laden_s": 0.09,
+    "quellen_s": 3.44,
+    "antwort_llm_s": 4.25,
+    "gesamt_s": 7.69
+  },
+  "auswahl_begruendung": "{\"selected\":[2,1,3,6]}"
+}

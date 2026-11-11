@@ -1,0 +1,689 @@
+2026-09-21 19:22:03 INFO    lauf: Lauf 2026-09-21_1922_retrieval_t+q_se_dbsf_td12
+2026-09-21 19:22:03 INFO    lauf: Modell : — (nur Retrieval, kein LLM)
+2026-09-21 19:22:03 INFO    lauf: Arme   : ['text'] / ['sparse_expanded']  Fusion: dbsf
+2026-09-21 19:22:03 INFO    lauf: Punkte : 121134
+2026-09-21 19:22:03 INFO    lauf: Vertrag: 529351a (75 Fälle)
+2026-09-21 19:22:03 INFO    lauf: Experiment: {"dense_arms": ["text", "questions"], "sparse_arms": ["sparse_expanded"], "fusion": "dbsf", "top_docs": 12}
+2026-09-21 19:22:03 INFO    lauf: Fälle  : 75 offen von 75
+2026-09-21 19:22:03 INFO    httpx: HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-09-21 19:22:03 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:03 INFO    mcp.client.streamable_http: Received session ID: 7decc96e9d434148b318aab5ebe5e858
+2026-09-21 19:22:06 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:22:06 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:22:06 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:06 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:35 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:35 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:35 INFO    lauf: [ 1/75] ✓   32.1s  q01  Welche konsekutiven Masterstudiengänge bietet die Fakultät
+2026-09-21 19:22:35 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:35 INFO    mcp.client.streamable_http: Received session ID: 099b8ce6feda4b788a19d9290ba0d7fc
+2026-09-21 19:22:35 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:22:35 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:22:35 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:35 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:41 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:41 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:41 INFO    lauf: [ 2/75] ✓    5.7s  q02  Ist der Bachelorstudiengang Mechatronik zulassungsfrei und
+2026-09-21 19:22:41 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:41 INFO    mcp.client.streamable_http: Received session ID: 9103d0c2bc394b27a118b95da7fa175b
+2026-09-21 19:22:41 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:22:41 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:22:41 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:41 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:45 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:45 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:45 INFO    lauf: [ 3/75] ✓    4.4s  q03  Welchen Abschluss hat Mechatronik an der HsH, wann beginnt
+2026-09-21 19:22:45 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:45 INFO    mcp.client.streamable_http: Received session ID: f2950f4f6a754afca41940a7acb90cae
+2026-09-21 19:22:45 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:22:45 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:22:45 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:45 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:50 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:50 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:50 INFO    lauf: [ 4/75] ✓    4.3s  q04  Wie stelle ich einen Online-Antrag für die Einschreibung?
+2026-09-21 19:22:50 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:50 INFO    mcp.client.streamable_http: Received session ID: af9c01f7fca04668ba17e036f2765999
+2026-09-21 19:22:50 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:22:50 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:22:50 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:50 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:55 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:55 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:56 INFO    lauf: [ 5/75] ✓    5.8s  q05  Wo finde ich in der Fakultät I die Anmeldung für Studienpr
+2026-09-21 19:22:56 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:56 INFO    mcp.client.streamable_http: Received session ID: aa060c877d314e7eb7bb2ada0beead9f
+2026-09-21 19:22:56 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:22:56 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:22:56 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:22:56 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:02 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:02 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:02 INFO    lauf: [ 6/75] ✓    6.1s  q06  An wen wende ich mich in der Fakultät I, wenn ich Probleme
+2026-09-21 19:23:02 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:02 INFO    mcp.client.streamable_http: Received session ID: b7c6c13d44d044f295c6ee31fe408186
+2026-09-21 19:23:02 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:02 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:02 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:02 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:06 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:06 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:06 INFO    lauf: [ 7/75] ✓    4.0s  q07  Wie kann ich mich über das WIR-Stipendium informieren und
+2026-09-21 19:23:06 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:06 INFO    mcp.client.streamable_http: Received session ID: 6ff7294117b94a4e9c481bdca6482fbb
+2026-09-21 19:23:06 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:06 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:06 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:06 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:09 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:09 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:09 INFO    lauf: [ 8/75] ✓    3.6s  q08  Wann muss ich den Semesterbeitrag für die Rückmeldung beza
+2026-09-21 19:23:09 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:09 INFO    mcp.client.streamable_http: Received session ID: 9b8982c0385642caaa842d65da69f726
+2026-09-21 19:23:09 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:09 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:09 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:09 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:13 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:13 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:13 INFO    lauf: [ 9/75] ✓    4.1s  q09  Wo befindet sich der IT-ServiceDesk der HsH am Campus Lind
+2026-09-21 19:23:13 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:13 INFO    mcp.client.streamable_http: Received session ID: f901e611568c4cdc9d5a94e771051648
+2026-09-21 19:23:13 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:13 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:13 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:13 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:17 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:17 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:17 INFO    lauf: [10/75] ✓    3.6s  q10  Was sind die Öffnungszeiten der Mensa Campus Linden und wa
+2026-09-21 19:23:17 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:17 INFO    mcp.client.streamable_http: Received session ID: 0a59d43c03b548408679f4958d6d64b2
+2026-09-21 19:23:17 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:17 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:17 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:17 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:22 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:22 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:22 INFO    lauf: [11/75] ✓    5.5s  q11  Wo verweist die Fakultät IV für Prüfungsanmeldung und Note
+2026-09-21 19:23:23 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:23 INFO    mcp.client.streamable_http: Received session ID: b8bfc743d566445d8c97dab658784c41
+2026-09-21 19:23:23 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:23 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:23 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:23 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:26 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:26 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:26 INFO    lauf: [12/75] ✓    3.7s  q12  Gibt es Parkplätze am HsH-Campus Linden?
+2026-09-21 19:23:26 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:26 INFO    mcp.client.streamable_http: Received session ID: 2b26f7443dd74a828bf21d93cb743af9
+2026-09-21 19:23:26 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:26 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:26 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:26 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:30 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:30 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:30 INFO    lauf: [13/75] ✓    3.8s  q13  Gibt es Lern- oder Arbeitsplätze in den Bibliotheken der H
+2026-09-21 19:23:30 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:30 INFO    mcp.client.streamable_http: Received session ID: 4f9c1d3a2cb840c4a42bbc1c8fc1c6c4
+2026-09-21 19:23:30 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:30 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:30 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:30 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:36 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:36 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:36 INFO    lauf: [14/75] ✓    6.0s  q14  Wie viele Bachelorstudiengänge bietet die Fakultät II der
+2026-09-21 19:23:36 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:36 INFO    mcp.client.streamable_http: Received session ID: 882664144da04ddc940063872731e15d
+2026-09-21 19:23:36 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:36 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:36 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:36 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:40 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:40 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:40 INFO    lauf: [15/75] ✓    4.3s  q15  Welches Fachgebiet hat Prof. Dr.-Ing. Alexander Kreim an d
+2026-09-21 19:23:40 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:40 INFO    mcp.client.streamable_http: Received session ID: b3c160040f954e00bc7b25619df33d0a
+2026-09-21 19:23:40 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:40 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:40 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:40 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:47 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:47 INFO    lauf: [16/75] ✓    6.4s  q17  Gibt es Informationen zur 15-CP-Überprüfung in der Fakultä
+2026-09-21 19:23:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:47 INFO    mcp.client.streamable_http: Received session ID: 607a40316c784a8494c992a67875677b
+2026-09-21 19:23:47 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:47 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:50 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:50 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:50 INFO    lauf: [17/75] ✓    3.7s  q18  Wie viele Studierende studieren ungefähr an der Hochschule
+2026-09-21 19:23:50 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:50 INFO    mcp.client.streamable_http: Received session ID: 82a7cfedaa9b490bab54efa26b32800f
+2026-09-21 19:23:50 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:50 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:50 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:50 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:54 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:54 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:54 INFO    lauf: [18/75] ✓    3.8s  q19  Welche Wahlpflichtmöglichkeiten nennt die HsH im Bachelors
+2026-09-21 19:23:54 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:54 INFO    mcp.client.streamable_http: Received session ID: c27020fff7394b63be7d1d5a7f1c4772
+2026-09-21 19:23:54 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:54 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:54 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:54 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:58 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:58 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:58 INFO    lauf: [19/75] ✓    3.9s  q20  Welche Informationen nennt die HsH in der Meldung „Schulun
+2026-09-21 19:23:58 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:58 INFO    mcp.client.streamable_http: Received session ID: 98a0cf37815d46aaa30ca853efc32ee5
+2026-09-21 19:23:58 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:23:58 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:23:58 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:23:58 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:02 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:02 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:02 INFO    lauf: [20/75] ✓    3.8s  n01  [Nutzerfrage – nicht veröffentlicht]
+2026-09-21 19:24:02 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:02 INFO    mcp.client.streamable_http: Received session ID: a7d89cf336ba4e6ca70018e4c7ab3b27
+2026-09-21 19:24:02 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:02 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:02 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:02 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:07 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:07 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:07 INFO    lauf: [21/75] ✓    5.3s  n02  [Nutzerfrage – nicht veröffentlicht]
+2026-09-21 19:24:07 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:07 INFO    mcp.client.streamable_http: Received session ID: c9fca4cc4935432faf792a1f4ddb5345
+2026-09-21 19:24:07 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:07 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:07 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:07 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:12 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:12 INFO    lauf: [22/75] ✓    5.2s  n03  [Nutzerfrage – nicht veröffentlicht]
+2026-09-21 19:24:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:12 INFO    mcp.client.streamable_http: Received session ID: 9a15406ee7e34e34acc872ec9cf5d728
+2026-09-21 19:24:12 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:12 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:16 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:16 INFO    lauf: [23/75] ✓    3.8s  n04  [Nutzerfrage – nicht veröffentlicht]
+2026-09-21 19:24:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:16 INFO    mcp.client.streamable_http: Received session ID: e06c9b903aed41fcbd74c795c433494b
+2026-09-21 19:24:16 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:16 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:20 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:20 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:20 INFO    lauf: [24/75] ✓    4.3s  n05  [Nutzerfrage – nicht veröffentlicht]
+2026-09-21 19:24:21 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:21 INFO    mcp.client.streamable_http: Received session ID: ec4a371117ab4b8a91ea90a4e90c8cb9
+2026-09-21 19:24:21 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:21 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:21 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:21 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:24 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:24 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:24 INFO    lauf: [25/75] ✓    3.9s  n06  [Nutzerfrage – nicht veröffentlicht]
+2026-09-21 19:24:24 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:25 INFO    mcp.client.streamable_http: Received session ID: 390b96397020488b863ff4661451700a
+2026-09-21 19:24:25 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:25 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:25 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:25 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:28 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:28 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:28 INFO    lauf: [26/75] ✓    4.0s  g01  In welchem Raum kann ich Stoffe für ein Projekt einfärben?
+2026-09-21 19:24:28 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:28 INFO    mcp.client.streamable_http: Received session ID: 4f82dfde809d4b4388606148af5490af
+2026-09-21 19:24:28 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:28 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:28 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:28 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:33 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:33 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:33 INFO    lauf: [27/75] ✓    4.2s  g02  In welchem Raum sitzt die Sachbearbeiterin des Praktikumsa
+2026-09-21 19:24:33 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:33 INFO    mcp.client.streamable_http: Received session ID: f9ab15a15ccf47099ed40f46f39a649e
+2026-09-21 19:24:33 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:33 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:33 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:33 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:37 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:37 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:37 INFO    lauf: [28/75] ✓    4.6s  g03  An welchem Standort hat Anke Wittich ihr Büro?
+2026-09-21 19:24:37 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:37 INFO    mcp.client.streamable_http: Received session ID: 684395d5e10249a89b8c6d1b09c10c33
+2026-09-21 19:24:37 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:37 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:37 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:37 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:41 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:42 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:42 INFO    lauf: [29/75] ✓    4.3s  g04  Wo finde ich das Büro von Susanne Martini-Ohnesorg?
+2026-09-21 19:24:42 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:42 INFO    mcp.client.streamable_http: Received session ID: c8487e733b0f4e93b651b585e04e3e9f
+2026-09-21 19:24:42 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:42 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:42 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:42 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:45 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:45 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:45 INFO    lauf: [30/75] ✓    3.8s  g05  An welcher Universität hat Moritz Fragner seinen Doktortit
+2026-09-21 19:24:45 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:45 INFO    mcp.client.streamable_http: Received session ID: 1049dbb4c113475d9703c7e904178852
+2026-09-21 19:24:45 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:45 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:45 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:45 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:49 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:49 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:49 INFO    lauf: [31/75] ✓    3.7s  g06  Wie komme ich an ein Gespräch bei Patricia Adam?
+2026-09-21 19:24:49 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:49 INFO    mcp.client.streamable_http: Received session ID: 753e241d3bc04442a4316bbc5f2b0a91
+2026-09-21 19:24:49 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:49 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:49 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:49 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:53 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:53 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:53 INFO    lauf: [32/75] ✓    4.2s  g07  Wie lange bindet mich der Verzicht auf die Rentenversicher
+2026-09-21 19:24:53 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:53 INFO    mcp.client.streamable_http: Received session ID: c7c6f8144dc5416387caca2cda050e96
+2026-09-21 19:24:53 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:53 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:53 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:53 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:57 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:57 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:57 INFO    lauf: [33/75] ✓    3.9s  g08  Wie reiche ich meine Unterlagen für die Bauingenieur-Stell
+2026-09-21 19:24:57 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:57 INFO    mcp.client.streamable_http: Received session ID: 07fc8e2416ec43a494c8ca85fb693fe5
+2026-09-21 19:24:57 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:24:57 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:24:57 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:24:57 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:01 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:01 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:01 INFO    lauf: [34/75] ✓    4.1s  g09  An welche Adresse sende ich meine Unterlagen für das Anerk
+2026-09-21 19:25:01 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:01 INFO    mcp.client.streamable_http: Received session ID: 039e3fda6d31477f86b130eb75b9d327
+2026-09-21 19:25:01 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:01 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:01 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:01 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:06 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:06 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:06 INFO    lauf: [35/75] ✓    4.8s  g10  Wo bekomme ich als Austauschstudent den Semesterplan für d
+2026-09-21 19:25:06 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:06 INFO    mcp.client.streamable_http: Received session ID: 6a4b7a04a8a1434c97f7e20b75627183
+2026-09-21 19:25:06 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:06 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:06 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:06 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:10 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:10 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:10 INFO    lauf: [36/75] ✓    3.8s  g11  Womit schließe ich den Kurs zur digitalen Transformation a
+2026-09-21 19:25:10 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:10 INFO    mcp.client.streamable_http: Received session ID: d4b11ef64e6242ad980e968c65cebcc8
+2026-09-21 19:25:10 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:10 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:10 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:10 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:14 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:14 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:14 INFO    lauf: [37/75] ✓    4.2s  g12  Wann bin ich im Doppelmaster an der RGU?
+2026-09-21 19:25:14 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:14 INFO    mcp.client.streamable_http: Received session ID: 8ff9cad7ee574f5a89c272e1c6f6840c
+2026-09-21 19:25:14 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:14 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:14 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:14 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:18 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:18 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:18 INFO    lauf: [38/75] ✓    4.1s  g13  Unter welchem Namen läuft VEU inzwischen?
+2026-09-21 19:25:18 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:18 INFO    mcp.client.streamable_http: Received session ID: 2423d7e4f4f5457c84868e1b61b00e8d
+2026-09-21 19:25:18 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:18 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:18 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:18 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:22 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:22 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:22 INFO    lauf: [39/75] ✓    3.7s  g14  Wo hat das FZ EMP seine erste Tagung abgehalten?
+2026-09-21 19:25:22 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:22 INFO    mcp.client.streamable_http: Received session ID: 4bfbb814fc0e46358837ba637e463e5c
+2026-09-21 19:25:22 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:22 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:22 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:22 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:26 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:26 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:26 INFO    lauf: [40/75] ✓    4.3s  g15  Wo fand die Tagung über Nachhaltigkeit und Gesundheit an H
+2026-09-21 19:25:26 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:26 INFO    mcp.client.streamable_http: Received session ID: 57eae42d932b43a192b244995468cd5e
+2026-09-21 19:25:26 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:26 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:26 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:26 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:31 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:31 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:31 INFO    lauf: [41/75] ✓    4.6s  g16  Welche Weiterbildung bereitet mich auf Führungsaufgaben in
+2026-09-21 19:25:31 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:31 INFO    mcp.client.streamable_http: Received session ID: 2b1cec00ed774b17962e649c7a813e19
+2026-09-21 19:25:31 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:31 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:31 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:31 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:34 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:34 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:34 INFO    lauf: [42/75] ✓    3.6s  g17  Wohin bringe ich mein Kind zur Notbetreuung, wenn in Niede
+2026-09-21 19:25:34 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:34 INFO    mcp.client.streamable_http: Received session ID: eaca4fb4bf3140f39caba31668f1d522
+2026-09-21 19:25:34 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:34 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:34 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:34 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:39 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:39 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:39 INFO    lauf: [43/75] ✓    4.2s  g18  An wen wende ich mich, wenn mein Fach im Anmeldesystem nic
+2026-09-21 19:25:39 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:39 INFO    mcp.client.streamable_http: Received session ID: f2dda5ea4f4a418da17a494334695748
+2026-09-21 19:25:39 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:39 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:39 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:39 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:43 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:43 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:43 INFO    lauf: [44/75] ✓    3.9s  g19  Was soll ich tun, wenn in meinem Gebäude ein Amoklauf geme
+2026-09-21 19:25:43 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:43 INFO    mcp.client.streamable_http: Received session ID: e6b3f830709d4d3bb56cf208e9e5bb3c
+2026-09-21 19:25:43 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:43 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:43 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:43 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:47 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:47 INFO    mcp.client.streamable_http: GET stream disconnected, reconnecting in 1000ms...
+2026-09-21 19:25:47 INFO    lauf: [45/75] ✓    4.8s  g20  An welchem Standort arbeitet die Finanzabteilung der Hochs
+2026-09-21 19:25:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:47 INFO    mcp.client.streamable_http: Received session ID: 92fcb629822b45e3ac0bd895d88a590a
+2026-09-21 19:25:47 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:47 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:51 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:51 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:51 INFO    lauf: [46/75] ✓    3.9s  g21  In welchem Raum sitzt der Vorsitzende des Prüfungsausschus
+2026-09-21 19:25:51 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:51 INFO    mcp.client.streamable_http: Received session ID: bbe57f41b2dd4ce0b54c22520d414028
+2026-09-21 19:25:51 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:51 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:51 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:51 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:56 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:56 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:56 INFO    lauf: [47/75] ✓    5.1s  g22  Was muss ich einreichen, wenn ich wegen einer langen Krank
+2026-09-21 19:25:56 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:56 INFO    mcp.client.streamable_http: Received session ID: 59957e3c126b477aaacad54b519eb2a5
+2026-09-21 19:25:56 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:25:56 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:25:56 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:25:56 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:01 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:01 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:01 INFO    lauf: [48/75] ✓    4.5s  g23  Mein Aufsatz ist nur gegen Gebühr lesbar – was erwartet di
+2026-09-21 19:26:01 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:01 INFO    mcp.client.streamable_http: Received session ID: 9140756c359344a5b002951851c3a2a4
+2026-09-21 19:26:01 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:01 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:01 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:01 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:05 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:05 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:05 INFO    lauf: [49/75] ✓    4.2s  g24  Wie bekomme ich meine Forschungsergebnisse in die hochschu
+2026-09-21 19:26:05 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:05 INFO    mcp.client.streamable_http: Received session ID: 7eb209168458486f996a82cae2484bfb
+2026-09-21 19:26:05 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:05 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:05 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:05 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:09 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:09 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:09 INFO    lauf: [50/75] ✓    4.1s  g25  Welche Stiftung hat das Projekt über trans Personen im Gef
+2026-09-21 19:26:09 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:09 INFO    mcp.client.streamable_http: Received session ID: 7a316599167247f691e52af8101b2580
+2026-09-21 19:26:09 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:09 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:09 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:09 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:13 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:13 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:13 INFO    lauf: [51/75] ✓    4.0s  g26  Was sollte ich vorher machen, wenn mir das nötige Vorwisse
+2026-09-21 19:26:13 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:13 INFO    mcp.client.streamable_http: Received session ID: b2c0533c425245969995c4b6493cf7b7
+2026-09-21 19:26:13 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:13 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:13 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:13 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:19 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:19 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:19 INFO    lauf: [52/75] ✓    5.4s  g27  Welchen Englischtest kann ich an der Hochschule ablegen, w
+2026-09-21 19:26:19 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:19 INFO    mcp.client.streamable_http: Received session ID: 5423049a463f4380a75e17daa649c1f6
+2026-09-21 19:26:19 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:19 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:19 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:19 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:23 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:23 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:23 INFO    lauf: [53/75] ✓    3.9s  g28  Welche Weiterbildung der HsH-Akademie richtet sich an Mens
+2026-09-21 19:26:23 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:23 INFO    mcp.client.streamable_http: Received session ID: 9d87812b7d1b404cbf2fc19318d8fd19
+2026-09-21 19:26:23 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:23 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:23 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:23 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:27 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:27 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:27 INFO    lauf: [54/75] ✓    4.0s  g29  In welchem Bachelor lerne ich sowohl Programmieren als auc
+2026-09-21 19:26:27 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:27 INFO    mcp.client.streamable_http: Received session ID: 656a1a2368ac46ce936ac2ad45b37634
+2026-09-21 19:26:27 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:27 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:27 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:27 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:31 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:31 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:31 INFO    lauf: [55/75] ✓    4.1s  g30  Welches Wahlpflichtmodul beschäftigt sich mit Drohnen?
+2026-09-21 19:26:31 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:31 INFO    mcp.client.streamable_http: Received session ID: de97d966dd8847f1aa02e098666a6bb2
+2026-09-21 19:26:31 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:31 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:31 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:31 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:35 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:35 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:35 INFO    lauf: [56/75] ✓    4.2s  g31  Welche Lehrveranstaltung im zweiten Semester behandelt Soz
+2026-09-21 19:26:35 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:35 INFO    mcp.client.streamable_http: Received session ID: 18a135f731634ca3bc693535d104fed4
+2026-09-21 19:26:35 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:35 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:35 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:35 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:38 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:38 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:38 INFO    lauf: [57/75] ✓    3.5s  g32  Warum haben die Studierenden die interaktiven Lernbaustein
+2026-09-21 19:26:38 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:38 INFO    mcp.client.streamable_http: Received session ID: 09978e24926a40f78ad76d545c3802a5
+2026-09-21 19:26:38 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:38 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:38 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:38 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:43 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:43 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:43 INFO    lauf: [58/75] ✓    4.5s  g33  Wo sitze ich in der Veranstaltung zur Sicherheit im Master
+2026-09-21 19:26:43 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:43 INFO    mcp.client.streamable_http: Received session ID: 622737c534024ad7a00655e5a40732f2
+2026-09-21 19:26:43 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:43 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:43 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:43 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:47 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:47 INFO    lauf: [59/75] ✓    4.4s  g34  In welchem Raum wird im ersten Semester der Verwaltungsinf
+2026-09-21 19:26:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:47 INFO    mcp.client.streamable_http: Received session ID: 2e3b8abf5ed64faea22b1227eb9dfb9b
+2026-09-21 19:26:47 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:47 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:47 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:53 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:53 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:53 INFO    lauf: [60/75] ✓    5.6s  g35  Wo werden die neuen Bachelor-Studierenden der Fakultät I w
+2026-09-21 19:26:53 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:53 INFO    mcp.client.streamable_http: Received session ID: 9217ceb112f34baeb0c8364a75dc674d
+2026-09-21 19:26:53 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:26:53 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:26:53 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:53 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:26:59 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:00 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:00 INFO    lauf: [61/75] ✓    6.7s  g36  An welche Adresse richte ich eine Anfrage an die Informati
+2026-09-21 19:27:00 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:00 INFO    mcp.client.streamable_http: Received session ID: 82042643bd754b41be2d13e89111d7d4
+2026-09-21 19:27:00 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:00 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:00 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:00 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:04 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:04 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:04 INFO    mcp.client.streamable_http: GET stream disconnected, reconnecting in 1000ms...
+2026-09-21 19:27:04 INFO    lauf: [62/75] ✓    4.1s  g37  In welchem Modul des MBA lerne ich, wie ich einen Betrieb
+2026-09-21 19:27:04 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:04 INFO    mcp.client.streamable_http: Received session ID: 51f3b97b25524a7db98ebdfaea4b792a
+2026-09-21 19:27:04 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:04 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:04 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:04 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:08 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:08 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:08 INFO    lauf: [63/75] ✓    4.1s  g38  Zwischen welchen beiden Modulen kann ich mich im dritten S
+2026-09-21 19:27:08 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:08 INFO    mcp.client.streamable_http: Received session ID: 3aae2f046bbc42eebad01041d74ae563
+2026-09-21 19:27:08 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:08 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:08 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:08 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:12 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:12 INFO    lauf: [64/75] ✓    3.9s  g39  Wie viele Seiten darf meine Abschlussarbeit im Studiengang
+2026-09-21 19:27:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:12 INFO    mcp.client.streamable_http: Received session ID: 9b0a082ddf184da197c82d1fe455b9c0
+2026-09-21 19:27:12 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:12 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:16 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:16 INFO    lauf: [65/75] ✓    4.2s  g40  An wen muss ich mich wenden, wenn ich mich an der Hochschu
+2026-09-21 19:27:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:16 INFO    mcp.client.streamable_http: Received session ID: d5c20da382e44b0d89fe0a8f4263524d
+2026-09-21 19:27:16 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:16 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:20 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:20 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:20 INFO    lauf: [66/75] ✓    3.7s  g41  Wie viel Berufspraxis muss ich für den Bachelor HBI mitbri
+2026-09-21 19:27:20 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:20 INFO    mcp.client.streamable_http: Received session ID: e54c8f819eea4dbcbadb553289d50d13
+2026-09-21 19:27:20 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:20 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:20 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:20 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:23 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:23 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:23 INFO    mcp.client.streamable_http: GET stream disconnected, reconnecting in 1000ms...
+2026-09-21 19:27:23 INFO    lauf: [67/75] ✓    3.9s  g42  In welchem Teil des Fotojournalismus-Studiums arbeite ich
+2026-09-21 19:27:24 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:24 INFO    mcp.client.streamable_http: Received session ID: 32168443934640d0a53ea7b7db3ad7cc
+2026-09-21 19:27:24 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:24 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:24 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:24 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:28 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:28 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:28 INFO    lauf: [68/75] ✓    4.3s  g43  Was muss ich vorlegen, wenn ich in Teilzeit studieren möch
+2026-09-21 19:27:28 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:28 INFO    mcp.client.streamable_http: Received session ID: f97cd4f308ad45d18bc93f2ccf88cf36
+2026-09-21 19:27:28 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:28 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:28 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:28 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:32 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:32 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:32 INFO    lauf: [69/75] ✓    4.4s  g44  Wie viel Zeit habe ich für die Masterarbeit in Digitale Tr
+2026-09-21 19:27:32 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:32 INFO    mcp.client.streamable_http: Received session ID: 6e38f7527d0a4ac2adc0c42f11998ae7
+2026-09-21 19:27:32 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:32 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:32 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:32 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:36 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:36 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:36 INFO    lauf: [70/75] ✓    4.2s  g45  Wie viele Versuche habe ich bei einer durchgefallenen Klau
+2026-09-21 19:27:36 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:37 INFO    mcp.client.streamable_http: Received session ID: 342e067e29434c64a14490b655e7a52c
+2026-09-21 19:27:37 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:37 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:37 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:37 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:40 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:40 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:40 INFO    lauf: [71/75] ✓    3.8s  g46  Wohin schicke ich den Antrag auf einen Lehrauftrag?
+2026-09-21 19:27:40 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:40 INFO    mcp.client.streamable_http: Received session ID: f23efc7cb5804080be370054ca8459a7
+2026-09-21 19:27:40 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:40 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:40 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:40 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:44 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:44 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:44 INFO    lauf: [72/75] ✓    3.7s  g47  Welches Einzelfach aus dem Abiturzeugnis wird bei der Plat
+2026-09-21 19:27:44 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:44 INFO    mcp.client.streamable_http: Received session ID: 29c0020f262041cc9ccc8b0cbfb38400
+2026-09-21 19:27:44 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:44 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:44 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:44 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:50 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:50 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:50 INFO    lauf: [73/75] ✓    6.5s  g48  Nach welchem Kriterium wird ein Studienpreis der Fakultät
+2026-09-21 19:27:51 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:51 INFO    mcp.client.streamable_http: Received session ID: 10483ca5c6754d6fb56de2ba436eee61
+2026-09-21 19:27:51 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:51 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:51 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:51 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:55 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:55 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:55 INFO    lauf: [74/75] ✓    4.3s  g49  Wie wirkt sich eine Geburt auf die Zahlung meines Stipendi
+2026-09-21 19:27:55 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:55 INFO    mcp.client.streamable_http: Received session ID: 3cd37634c74b4f31a2bc961b1aee618d
+2026-09-21 19:27:55 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 19:27:55 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 19:27:55 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:55 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:59 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:59 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 19:27:59 INFO    lauf: [75/75] ✓    4.3s  g50  Wie viele Kreditpunkte bringt die Praxisphase im dualen St
+2026-09-21 19:27:59 INFO    lauf: Fertig in 5.9 min (Arbeit 5.9 · Pausen 0.0 · ungetrackt 0.0)
+2026-09-21 19:27:59 INFO    lauf: Rohdaten: /home/christian/RAGHSH/hsh_scraper/eval_gold/laeufe/2026-09-21_1922_retrieval_t+q_se_dbsf_td12
+2026-09-21 19:27:59 INFO    lauf: Auswertung: python eval_gold/auswertung.py 2026-09-21_1922_retrieval_t+q_se_dbsf_td12

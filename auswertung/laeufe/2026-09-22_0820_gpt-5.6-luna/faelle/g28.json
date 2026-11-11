@@ -1,0 +1,647 @@
+{
+  "fall": {
+    "id": "g28",
+    "case_type": "direct",
+    "question": "Welche Weiterbildung der HsH-Akademie richtet sich an Menschen, die selbst Seminare geben?",
+    "reference_answer": "Die Weiterbildung \"Train the Trainer\".",
+    "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/train-the-trainer",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die **Weiterbildung \"Train the Trainer\"** der HsH-Akademie lebt vom **Austausch der heterogenen Zielgruppe**"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ weiterbildung/auswahl. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "9aad030d-8f8b-5bde-a39c-f0f937c5fd26",
+      "c131f7b1-c628-59ff-b025-14ea88447e13",
+      "75074dd8-408c-5874-afe2-37392ff344f9",
+      "500cd553-ccc4-526f-a8a4-e2aae3b1c920",
+      "c884a29d-37d7-5f14-ae93-8b8a43f86591",
+      "80c977fa-df5f-50ef-9ea4-8597a1fdb712",
+      "d53165e5-6db7-5e5b-9299-4a1d9bcb2e99",
+      "5bf33e5e-888a-5487-9b1b-67c5946829b0",
+      "c6688d6d-c699-59cc-aece-61d5ef2e126e",
+      "1d508660-b5c0-5437-b892-099ec5eefaa9",
+      "04b93a1a-4e92-5826-874d-60edeea223c4",
+      "3d88236f-8278-5132-8671-144d3813fa02"
+    ],
+    "beleg_punkte": [
+      "5bf33e5e-888a-5487-9b1b-67c5946829b0"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/train-the-trainer"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-22T08:30:15",
+  "dauer_s": 11.61,
+  "fehler": null,
+  "antwort": "Für Menschen, die selbst Seminare geben, ist am ehesten die Weiterbildung „Train the Trainer\" [3] geeignet. Sie ist im Bereich „Beratung & Pädagogik\" [3] als „Zertifikatskurs\" [3] aufgeführt und findet „Vor Ort in Hannover\" [3] statt. Weitere Angaben zur Zielgruppe enthält der bereitgestellte Kontext nicht.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Digitalisierung im Gesundheitswesen: Prozesse digitalisieren (Modul 2)",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/digitalisierung-im-gesundheitswesen-prozesse-digitalisieren-modul-2",
+      "fakultaet": "",
+      "struktur": "# Digitalisierung im Gesundheitswesen: Prozesse digitalisieren (Modul 2)\n  ## Digitalisierung von Prozessen ganzheitlich denken und gestalten\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Auf einen Blick: Digitalisierung im Gesundheitswesen \"Digitalisierung von Prozessen ganzheitlich denken und gestalten\"\n  ## Video zum Zertifikatsprogramm\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 2,
+      "titel": "Digitalisierung im Gesundheitswesen: Data Analytics (Modul 3b)",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/digitalisierung-im-gesundheitswesen-data-analytics-modul-3b",
+      "fakultaet": "",
+      "struktur": "# Digitalisierung im Gesundheitswesen: Data Analytics (Modul 3b)\n  ## Daten integrieren, analysieren und interpretieren\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Auf einen Blick: Digitalisierung im Gesundheitswesen \"Data-Analytics\"\n  ## Video zum Zertifikatsprogramm\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 3,
+      "titel": "Digitalisierung im Gesundheitswesen: Grundlagen (Modul 1)",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/digitalisierung-im-gesundheitswesen-grundlagen-modul-1",
+      "fakultaet": "",
+      "struktur": "# Digitalisierung im Gesundheitswesen: Grundlagen (Modul 1)\n  ## Grundlagen und Informationssysteme verstehen und einordnen\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Digitalisierung im Gesundheitswesen - Auf einen Blick\n  ## Video zum Zertifikatsprogramm\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 4,
+      "titel": "Generationenmix und Menschenbilder - Vielfalt im Team",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/generationenmix-und-menschenbilder-vielfalt-im-team",
+      "fakultaet": "",
+      "struktur": "# Generationenmix und Menschenbilder - Vielfalt im Team\n  ## Wie Führungskräfte Herausforderungen in Teams erkennen und erfolgreich meistern\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Generationenmix und Menschenbilder: Auf einen Blick\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 5,
+      "titel": "Psychology at work: Positive Führung & Resilienz",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/psychology-at-work-positive-fuehrung-resilienz",
+      "fakultaet": "",
+      "struktur": "# Psychology at work: Positive Führung & Resilienz\n  ## Positiv gestärkt durch die Arbeitswelt navigieren\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Auf einen Blick: Psychology at work - Positive Führung und Resilienz\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 6,
+      "titel": "Insoweit erfahrene Fachkraft/Kinderschutzfachkraft – Herbst",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/insoweit-erfahrene-fachkraft/kinderschutzfachkraft-herbst",
+      "fakultaet": "",
+      "struktur": "# Insoweit erfahrene Fachkraft/Kinderschutzfachkraft – Herbst\n  ## Verstehen, Handeln, Schützen – Ihre Weiterbildung für Fachkompetenz im Kinderschutz\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Insoweit erfahrene Fachkraft/Kinderschutzfachkraft: Auf einen Blick\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 7,
+      "titel": "Psychology at work",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/psychology-at-work",
+      "fakultaet": "",
+      "struktur": "# Psychology at work\n  ## Positiv gestärkt durch die Wildwasserwelt der Arbeit navigieren\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Inhalte und Organisatorisches\n    ### Detaillierte Informationen zu den Schwerpunkten finden Sie auf den folgenden Seiten:\n    ### Weitere Informationen erhalten Sie:"
+    },
+    {
+      "nr": 8,
+      "titel": "Certified Credit Controller®",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/certified-credit-controllerr",
+      "fakultaet": "",
+      "struktur": "# Certified Credit Controller®\n  ## Top-Qualifizierung mit Hochschulzertifikat komplett online\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Certified Credit Controller®: Auf einen Blick\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 9,
+      "titel": "Empowerment: Selbstsicher & gestärkt auftreten",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/empowerment-selbstsicher-gestaerkt-auftreten",
+      "fakultaet": "",
+      "struktur": "# Empowerment: Selbstsicher & gestärkt auftreten\n  ## Stimme und Körpersprache perfekt einsetzen\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Empowerment: Auf einen Blick\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 10,
+      "titel": "Herausforderung oder Überforderung? Wirksam Führen mit Konzepten der Transaktionsanalyse",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/herausforderung-oder-ueberforderung-wirksam-fuehren-mit-konzepten-der-transaktionsanalyse",
+      "fakultaet": "",
+      "struktur": "# Herausforderung oder Überforderung? Wirksam Führen mit Konzepten der Transaktionsanalyse\n  ## Mit eigenen Antreibern Führungsalltag meistern\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Auf einen Blick: Wirksam Führen\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 11,
+      "titel": "Medienpädagogik für Bibliotheksmitarbeitende",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/medienpaedagogik-fuer-bibliotheksmitarbeitende",
+      "fakultaet": "",
+      "struktur": "# Medienpädagogik für Bibliotheksmitarbeitende\n  ## Fit für die digitale Bildungsarbeit!\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Medienpädagogik für Bibliotheksmitarbeitende: Auf einen Blick\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 12,
+      "titel": "Sustainability Management - Strategien, Kommunikation und Umsetzung für zukunftsfähige Wertschöpfung",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/sustainability-management-strategien-kommunikation-und-umsetzung-fuer-zukunftsfaehige-wertschoepfung",
+      "fakultaet": "",
+      "struktur": "# Sustainability Management - Strategien, Kommunikation und Umsetzung für zukunftsfähige Wertschöpfung\n  ## Erfolgsfaktor: Nachhaltiges Wirtschaften\n    ### In Kooperation mit:\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Sustainability Management: Auf einen Blick\n    ### Dozierende:\n    ### Impulsgebende:\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 13,
+      "titel": "Gesundheitswesen & Pflege",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-gesundheitswesen-und-pflege",
+      "fakultaet": "",
+      "struktur": "# Gesundheitswesen & Pflege\n  ## Vielfalt schätzen und Wandel gestalten\n    ### Zertifikatskurse\n    ### Seminare\n    ### Inhouse-Schulungen\n  ## Sie interessieren sich für Informationen rund um diese Wissenswelt?\n  ## Weiterbildungsformate\n  ## Referenzen\n  ## Persönlicher Austausch\n  ## Führungskompetenzen entwickeln\n  ## Ihr Kontakt zu uns\n    ### Postanschrift\n    ### Besucheranschrift\n    ### Weitere Kontaktdaten"
+    },
+    {
+      "nr": 14,
+      "titel": "www › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt › kurse",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+      "fakultaet": "",
+      "struktur": "  ## Kurse\n  ## Kursanmeldung\n    ### Jetzt Neu!\n  ## Ferienkurse im Sommersemester 2026\n  ## Semesterkurse im Sommersemester 2026\n  ## Ferienkurse im Wintersemester 2025/26\n  ## Semesterkurse im Wintersemester 2025/26\n  ## Ferienkurse im Sommersemester 2025\n  ## Semesterkurse im Sommersemester 2025\n  ## Ferienkurse im Wintersemester 2024/25\n  ## Semesterkurse im Wintersemester 2024/25\n  ## Ferienkurse im Sommersemester 2024\n  ## Semesterkurse im Sommersemester 2024\n  ## Ferienkurse im Wintersemester 2023/24\n  ## Semesterkurse im Wintersemester 2023/24\n  ## Ferienkurse im Sommersemester 2023\n  ## Semesterkurse im Sommersemester 2023\n  ## Ferienkurse im Wintersemester 2022/23\n  ## Semesterkurse im Wintersemester 2022/23\n  ## Ferienkurse im Sommersemester 2022\n  ## Semesterkurse im Sommersemester 2022\n  ## Ferienkurse im Wintersemester 2021/22\n  ## Semesterkurse Wintersemester 2021/22\n  ## Ferienkurse im Sommersemester 2021\n  ## Semesterkurse Sommersemester 2021\n  ## Ferienkurse Wintersemester 2020/21\n  ## Semesterkurse Wintersemester 2020/21\n  ## Ferienkurse Sommersemester 2020\n  ## Semesterkurse Sommersemester 2020\n  ## Ferienkurse Wintersemester 2019/20\n  ## Semesterkurse Wintersemester 2019/20\n  ## Ferienkurse Sommersemester 2019"
+    },
+    {
+      "nr": 15,
+      "titel": "www › Weiterbildung › Flyer › 250901 L Akademie Flyer Milchwirtschaft Online",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/250901_L_Akademie_Flyer_Milchwirtschaft_Online.pdf",
+      "fakultaet": "",
+      "struktur": "  ## MILCHTROCKNUNGSVERFAHREN\n  ## Kontakt und Information:\n  ## INFOS IM ÜBERBLICK\n  ## Zielgruppe\n  ## Lehrende\n  ## Struktur, Dauer und Abschluss\n  ## Kosten und Anmeldung"
+    },
+    {
+      "nr": 16,
+      "titel": "Informationsmanagement (BIM)",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim",
+      "fakultaet": "f3",
+      "struktur": "# Informationsmanagement (BIM)\n  ## Menschen, Daten und Wissen verbinden\n    ### Auf einen Blick\n# Kurzübersicht\n# Das Studium\n    ### \"Information is only useful when it can be understood. \"\n    ### \"Die Hochschule Hannover bildet Informationsspezialisteninnen für ein breites Beschäftigungsfeld aus.\"\n# Bewerbung\n    ### »Die Möglichkeit, sich auf verschiedene Studienschwerpunkte zu spezialisieren, bietet individuelle Studien- und Entfaltungsmöglichkeiten, die sich den Studierenden anpassen.«\n    ###  „The Vibe Web“ auf der Werkschau 2026 \n    ###  Wie \"Professoren-Superkräfte\" bei der Wohnungssuche helfen \n    ###  Hochschulübergreifende Lehre ausgezeichnet! \n  ## Weitere Informationen\n    ### Kontakt\n    ### Downloads\n    ### Links\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 17,
+      "titel": "Psychology at work: Selbstmanagement & Authentic Leadership",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/psychology-at-work-selbstmanagement-im-unternehmen-authentic-leadership",
+      "fakultaet": "",
+      "struktur": "# Psychology at work: Selbstmanagement & Authentic Leadership\n  ## Sich selbst und andere gut führen\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Selbstmanagement & Authentic Leadership: Auf einen Blick\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 18,
+      "titel": "Start der Weiterbildung \"Insoweit erfahrene Fachkraft/Kinderschutzfachkraft",
+      "url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/start-der-weiterbildung-insoweit-erfahrene-fachkraft/kinderschutzfachkraft-1",
+      "fakultaet": "",
+      "struktur": "# Start der Weiterbildung \"Insoweit erfahrene Fachkraft/Kinderschutzfachkraft\"\n  ## 29.09.2026\n    ### Veranstal­tungs­ort\n  ## Unser Angebot im Überblick"
+    },
+    {
+      "nr": 19,
+      "titel": "Fortbildung für Spielleiter*innen „Szenisches Spiel“",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/fortbildung-fuer-spielleiterinnen-szenisches-spiel",
+      "fakultaet": "",
+      "struktur": "# Fortbildung für Spielleiterinnen „Szenisches Spiel“\n  ## Kompetenzen vertiefen im „Szenischen Spiel“\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Fortbildung für Spielleiterinnen „Szenisches Spiel“\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 20,
+      "titel": "Neue Perspektiven gesucht? Weiterbildungen im Überblick",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z",
+      "fakultaet": "",
+      "struktur": "# Neue Perspektiven gesucht? Weiterbildungen im Überblick\n  ## Ihr Ziel zählt!\n  ## Jetzt hier auswählen:\n  ## FAQ zum Bildungsurlaub/Arbeitnehmerweiterbildung\n  ## FAQ zu den Seminaren\n  ## FAQ zu den Zertifikatskursen\n  ## FAQ zu den Studiengängen\n  ## FAQ zu den Inhouse-Schulungen"
+    },
+    {
+      "nr": 21,
+      "titel": "Module und Lehrinhalte",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/mittelstaendische-unternehmensfuehrung-in-entrepreneurship-mba/modulbeschreibungen",
+      "fakultaet": "",
+      "struktur": "# Module und Lehrinhalte\n  ## Module"
+    },
+    {
+      "nr": 22,
+      "titel": "Neuer Jahrgang im berufsbegleitenden MBA gestartet",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/mittelstaendische-unternehmensfuehrung-in-entrepreneurship-mba/news/neuer-jahrgang-im-mba-mittelstaendische-unternehmensfuehrung-in-entrepreneurship-gestartet",
+      "fakultaet": "",
+      "struktur": "# Neuer Jahrgang im berufsbegleitenden MBA gestartet\n    ### Wir freuen uns, den 14. Jahrgang unseres berufsbegleitenden Weiterbildungsmasterstudiengangs Mittelständische Unternehmensführung in Entrepreneurship (MBA) begrüßen zu dürfen!"
+    },
+    {
+      "nr": 23,
+      "titel": "Beratung & Pädagogik",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-beratung-und-paedagogik",
+      "fakultaet": "",
+      "struktur": "# Beratung & Pädagogik\n  ## Ruhig und kraftvoll, positiv und tiefgründig\n    ### Zertifikatskurse\n    ### Seminare\n  ## Sie interessieren sich für Informationen rund um diese Wissenswelt?\n  ## Weiterbildungsformate\n  ## Ihr Kontakt zu uns\n    ### Postanschrift\n    ### Besucheranschrift\n    ### Weitere Kontaktdaten"
+    },
+    {
+      "nr": 24,
+      "titel": "Driver of Future Transformation: Kick-off an der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/hsh-akademie/aktuelles/projekt-drift-strategischer-kick-off-der-hochschule-hannover",
+      "fakultaet": "",
+      "struktur": "# Driver of Future Transformation: Kick-off an der Hochschule Hannover\n    ### Bei einem internen Kick-off wurden spannende Einblicke in das Strategie-Programm \"DriFT - Driver of Future Transformation\" gegeben. Ziel ist es, Zukunftskompetenzen in den Bereichen KI und Nachhaltigkeit zu stärken - u.a. mit neuen Weiterbildungsangeboten in diesen Bereichen.\n  ## Sie interessieren sich für weitere News aus der HsH-Akademie?"
+    },
+    {
+      "nr": 25,
+      "titel": "Willkommen an der HsH-Akademie",
+      "url": "https://www.hs-hannover.de/hsh-akademie",
+      "fakultaet": "",
+      "struktur": "# Willkommen an der HsH-Akademie\n  ## Die HsH-Akademie stellt sich vor\n  ## HsH-Akademie: Bringt mich weiter.\n  ## Wissenswelten\n  ## Vielfältig, anwendungsorientiert, wissenschaftlich fundiert\n    ### Technik & IT\n    ### Beratung & Pädagogik\n    ### Management & Innovation\n    ### Gesundheitswesen & Pflege\n    ### Persönlichkeit & Kommunikation\n    ### Sprachen & Studienkompetenzen\n  ## Veranstaltungen\n    ### Online-Informationsabend Weiterbildung \"Sustainability Management\"\n    ### Informationsabend zur Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\"\n    ### Start Masterstudiengang \"Mittelständische Unternehmensführung in Entrepreneurship (MBA)\"\n# Aktuelles\n    ###  Erste CO-OP-Weiterbildung für Ergotherapeutinnen \n    ###  Maik von Fischer mit Lehrpreis der HsH ausgezeichnet \n    ###  Lehrpreis 2026: HsH-Akademie gratuliert Thorsten Heermann \n  ## Stimmen unserer Teilnehmenden\n    ### Absolut empfehlenswert\n    ### Persönlicher Austausch\n    ### Datenschutz ist Team-Aufgabe\n    ### Führungskompetenz entwickeln\n    ### Berufsbegleitend studieren\n    ### Unternehmerisches Mindset\n    ### Kreativität trifft Strategie\n  ## Grußworte\n  ## Häufig gestellte Fragen\n  ## Ihr Kontakt zu uns\n    ### Postanschrift\n    ### Besucheranschrift\n    ### Weitere Kontaktdaten"
+    },
+    {
+      "nr": 26,
+      "titel": "Wissenschaftlich Arbeiten mit KI",
+      "url": "https://www.hs-hannover.de/aktuelles/veranstaltungen/wissenschaftlich-arbeiten-mit-ki",
+      "fakultaet": "",
+      "struktur": "# Wissenschaftlich Arbeiten mit KI\n  ## 18.03.2026 - 09.06.2026\n    ### Veranstal­tungs­ort\n  ## Workshopbeschreibungen\n    ### Ausblick ins Wintersemester 2026/27\n    ### Kontakt"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 19,
+      "titel": "Fortbildung für Spielleiter*innen „Szenisches Spiel“",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/fortbildung-fuer-spielleiterinnen-szenisches-spiel"
+    },
+    {
+      "nr": 9,
+      "titel": "Empowerment: Selbstsicher & gestärkt auftreten",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/empowerment-selbstsicher-gestaerkt-auftreten"
+    },
+    {
+      "nr": 20,
+      "titel": "Neue Perspektiven gesucht? Weiterbildungen im Überblick",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Fortbildung für Spielleiter*innen „Szenisches Spiel“",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/fortbildung-fuer-spielleiterinnen-szenisches-spiel",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Fortbildung für Spielleiter*innen „Szenisches Spiel“ > HsH-Akademie: Bringt mich weiter!",
+      "snippets": [
+        "#  Fortbildung für Spielleiter*innen „Szenisches Spiel“  \n## Kompetenzen vertiefen im „Szenischen Spiel“\n**Für die Absolvent*innen des Zertifikatskurses “Spielleiter*in Szenisches Spiel” gibt es einmal jährlich eine zweitägige Fortbildung**.\nDiese Fortbildung konzentriert sich auf die Reflexion von Spielleiter*innenerfahrungen und die Erprobung neuer Spielprojekte. In besonderem Maß wird dabei die existenzielle und/oder gesellschaftlich-soziale Thematik im Pflege- und Gesundheitsbereich fokussiert. Die Teilnehmenden erproben verschiedene szenische Verfahren und werten diese im Hinblick auf deren Einsatz in der Pflegebildung aus. Darüber hinaus reflektieren die Teilnehmenden Erfahrungen und Herausforderungen aus der alltäglichen szenischen Bildungsarbeit.\n**Steigen Sie tiefer ein in die Facetten des szenisches Spiels und erweitern Sie Ihren Handlungsspielraum.**\nKontaktieren Sie uns:\nHochschule Hannover | HsH-Akademie\nIngeborg Schröder\nBlumhardtstr. 2, 30625 Hannover"
+      ],
+      "zitate": [
+        "Zertifikatskurs"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Empowerment: Selbstsicher & gestärkt auftreten",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/empowerment-selbstsicher-gestaerkt-auftreten",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Empowerment: Selbstsicher & gestärkt auftreten > HsH-Akademie: Bringt mich weiter!",
+      "snippets": [
+        "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEngagierte Trainer*innen"
+      ],
+      "zitate": [
+        "Zertifikatskurs"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Neue Perspektiven gesucht? Weiterbildungen im Überblick",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Neue Perspektiven gesucht? Weiterbildungen im Überblick",
+      "snippets": [
+        "* [Psychosoziale Beratung](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Sachkundelehrgang berufliche Betreuung](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Six Sigma Green Belt](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Spielleiter*in Szenisches Spiel](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Systemische Kompetenzen entdecken, entwickeln, erweitern](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Train the Trainer](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Traumaberatung](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Zertifizierte*r Innovationsmanager*in nach ISO 56002](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Certified Credit Manager](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Generative KI produktiv nutzen](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)",
+        "## Jetzt hier auswählen:\n[ Angebote filtern  ](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\nWissenswelt\n* [Gesundheitswesen & Pflege](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Technik & IT](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Management & Innovation](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Persönlichkeit & Kommunikation](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Beratung & Pädagogik](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)  \nWeiterbildungsart\n* [Seminar](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Weiterbildungsstudium](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Zertifikatskurs](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)  \nFormat\n* [Online](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)\n* [Blended Learning](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z)",
+        "##\n[ Seminare ](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z \"Seminare\")\nKurzweilige, aktuelle und wissenschaftlich fundierte Inhalte mit praxisrelevanten Bezügen stehen hier im Fokus. Wer sein Wissen kompakt auffrischen und erweitern möchte oder konkrete Tipps und Handlungsempfehlungen für den Berufsalltag benötigt, findet in den ein- bis zweitägigen Seminaren das passende Angebot. Nach erfolgreicher Teilnahme erhalten Sie eine Teilnahmebescheinigung.\n[ Zertifikatskurse ](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z \"Zertifikatskurse\")"
+      ],
+      "zitate": [
+        "Train the Trainer",
+        "Beratung & Pädagogik",
+        "Zertifikatskurs"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.25337,
+      "id": "71fe71d6-1278-5330-85b0-c4a038e162f4",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/digitalisierung-im-gesundheitswesen-prozesse-digitalisieren-modul-2",
+      "title_anzeige": "Digitalisierung im Gesundheitswesen: Prozesse digitalisieren (Modul 2)",
+      "section_heading": "Digitalisierung im Gesundheitswesen: Prozesse digitalisieren (Modul 2) > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "* * *\n| Das Besondere?  | Für wen?  | Mein Nutzen?  |\n| --- | --- | --- |\n|  Das Modul vermittel ein grundlegendes technologisches Verständnis und bietet den Teilnehmenden eine bedarfsorientierte Digitalisierung im Gesundheitswesen. Durch Praxisbezug, digitale Lösungskonzepte und Methodenvermittlung"
+    },
+    {
+      "rang": 2,
+      "score": 2.25333,
+      "id": "ee1902e5-f341-5f4f-84f8-4126a5257fe0",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/digitalisierung-im-gesundheitswesen-data-analytics-modul-3b",
+      "title_anzeige": "Digitalisierung im Gesundheitswesen: Data Analytics (Modul 3b)",
+      "section_heading": "Digitalisierung im Gesundheitswesen: Data Analytics (Modul 3b) > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "* * *\n| Das Besondere?  | Für wen?  | Mein Nutzen?  |\n| --- | --- | --- |\n|  Verknüpfung von Informatik, Medizin, Data Engineering und Data Science in einem interdisziplinären Kontext – mit klarem Fokus auf die praktische Anwendung in der klinischen Datenanalyse und Business Intelligence (BI). Vermi"
+    },
+    {
+      "rang": 3,
+      "score": 2.25333,
+      "id": "6ff5ebcf-b3e7-5d60-9695-6046d8c650d2",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/digitalisierung-im-gesundheitswesen-grundlagen-modul-1",
+      "title_anzeige": "Digitalisierung im Gesundheitswesen: Grundlagen (Modul 1)",
+      "section_heading": "Digitalisierung im Gesundheitswesen: Grundlagen (Modul 1) > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "* * *\n| Das Besondere?  | Für wen?  | Mein Nutzen?  |\n| --- | --- | --- |\n|  Das Modul bietet eine theoretische und praktische Weiterbildung, damit die Teilnehmenden Fähigkeiten erwerben, um eine bedarfsorientierte Digitalisierung im Gesundheitswesen mitzugestalten und zu steuern. **Des Weiteren ist"
+    },
+    {
+      "rang": 4,
+      "score": 2.19658,
+      "id": "ed9b04e5-74da-58da-9996-5d27fcd199db",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/generationenmix-und-menschenbilder-vielfalt-im-team",
+      "title_anzeige": "Generationenmix und Menschenbilder - Vielfalt im Team",
+      "section_heading": "Generationenmix und Menschenbilder - Vielfalt im Team > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 5,
+      "score": 2.17433,
+      "id": "4e7b533e-3cd8-5cca-9a38-ae28c6e0b08c",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/psychology-at-work-positive-fuehrung-resilienz",
+      "title_anzeige": "Psychology at work: Positive Führung & Resilienz",
+      "section_heading": "Psychology at work: Positive Führung & Resilienz > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 6,
+      "score": 2.15836,
+      "id": "9bea6198-28dc-502d-bb85-9957304ea9c1",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/insoweit-erfahrene-fachkraft/kinderschutzfachkraft-herbst",
+      "title_anzeige": "Insoweit erfahrene Fachkraft/Kinderschutzfachkraft – Herbst",
+      "section_heading": "Insoweit erfahrene Fachkraft/Kinderschutzfachkraft – Herbst > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 7,
+      "score": 2.13365,
+      "id": "c3419bdd-2f18-5951-a83d-b5294ed3a54d",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/psychology-at-work",
+      "title_anzeige": "Psychology at work",
+      "section_heading": "Psychology at work > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 8,
+      "score": 2.12254,
+      "id": "58b1610e-ec8b-5710-9111-a776b46e4295",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/certified-credit-controllerr",
+      "title_anzeige": "Certified Credit Controller®",
+      "section_heading": "Certified Credit Controller® > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 9,
+      "score": 2.1195,
+      "id": "b33ac89a-7856-5667-81c5-164f21e45026",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/empowerment-selbstsicher-gestaerkt-auftreten",
+      "title_anzeige": "Empowerment: Selbstsicher & gestärkt auftreten",
+      "section_heading": "Empowerment: Selbstsicher & gestärkt auftreten > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 10,
+      "score": 2.11374,
+      "id": "3c8ca675-7870-50a2-9538-e39b6738183b",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/herausforderung-oder-ueberforderung-wirksam-fuehren-mit-konzepten-der-transaktionsanalyse",
+      "title_anzeige": "Herausforderung oder Überforderung? Wirksam Führen mit Konzepten der Transaktionsanalyse",
+      "section_heading": "Herausforderung oder Überforderung? Wirksam Führen mit Konzepten der Transaktionsanalyse > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 11,
+      "score": 2.10662,
+      "id": "db74271a-ddae-5fba-b240-c3d646fb8570",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/medienpaedagogik-fuer-bibliotheksmitarbeitende",
+      "title_anzeige": "Medienpädagogik für Bibliotheksmitarbeitende",
+      "section_heading": "Medienpädagogik für Bibliotheksmitarbeitende > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 12,
+      "score": 2.08622,
+      "id": "76b70527-1c26-5dd0-a5e5-f35639730025",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/sustainability-management-strategien-kommunikation-und-umsetzung-fuer-zukunftsfaehige-wertschoepfung",
+      "title_anzeige": "Sustainability Management - Strategien, Kommunikation und Umsetzung für zukunftsfähige Wertschöpfung",
+      "section_heading": "Sustainability Management - Strategien, Kommunikation und Umsetzung für zukunftsfähige Wertschöpfung > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 13,
+      "score": 2.06779,
+      "id": "5edc0cfd-af8d-5d02-b2b3-3f9504117f05",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/zertifizierter-innovationsmanagerin-nach-iso-56002",
+      "title_anzeige": "Zertifizierte*r Innovationsmanager*in nach ISO 56002",
+      "section_heading": "Zertifizierte*r Innovationsmanager*in nach ISO 56002 > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 14,
+      "score": 2.04381,
+      "id": "9b72e5ea-dd2e-5abf-badb-f06fb08f7eef",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z",
+      "title_anzeige": "Neue Perspektiven gesucht? Weiterbildungen im Überblick",
+      "section_heading": "Neue Perspektiven gesucht? Weiterbildungen im Überblick",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "[ Zertifikatskurse ](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z \"Zertifikatskurse\")\nZertifikatskurse dienen dazu, sich innerhalb eines Themengebietes zu spezialisieren, weitere Expertise zu erwerben oder das eigene Karriereprofil zu erweitern. Das akademisch fundierte Wissen wird zi"
+    },
+    {
+      "rang": 15,
+      "score": 2.01508,
+      "id": "4813f593-86e1-5ab4-9a39-5bbfc355ca9f",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/erfolg-durch-gesundheit-die-zukunft-des-leadership",
+      "title_anzeige": "Erfolg durch Gesundheit: Die Zukunft des Leadership",
+      "section_heading": "Erfolg durch Gesundheit: Die Zukunft des Leadership > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 16,
+      "score": 1.97714,
+      "id": "0e5e4c95-8e3d-545b-9b46-e05f84b1451c",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/staerken-staerken-gesund-bleiben-als-fuehrungskraft",
+      "title_anzeige": "Stärken stärken: Gesund bleiben als Führungskraft",
+      "section_heading": "Stärken stärken: Gesund bleiben als Führungskraft > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 17,
+      "score": 1.9711,
+      "id": "9a10f988-620a-5cdd-a8d2-7cc3015577c5",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/certified-credit-manager",
+      "title_anzeige": "Certified Credit Manager®",
+      "section_heading": "Certified Credit Manager® > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 18,
+      "score": 1.93278,
+      "id": "3188fc9e-bd2d-5c23-830c-c76357757010",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/psychology-at-work-selbstmanagement-im-unternehmen-authentic-leadership",
+      "title_anzeige": "Psychology at work: Selbstmanagement & Authentic Leadership",
+      "section_heading": "Psychology at work: Selbstmanagement & Authentic Leadership > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 19,
+      "score": 1.93267,
+      "id": "3aa8508b-5ea1-553b-a34d-a3542ce222eb",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/die-eigene-fuehrungsrolle-entwickeln",
+      "title_anzeige": "Die eigene Führungsrolle entwickeln",
+      "section_heading": "Die eigene Führungsrolle entwickeln > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 20,
+      "score": 1.91016,
+      "id": "e1e320e0-296e-5438-83d0-16229b5be4b3",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-beratung-und-paedagogik",
+      "title_anzeige": "Beratung & Pädagogik",
+      "section_heading": "Beratung & Pädagogik",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "[ Inhouse-Schulungen ](https://www.hs-hannover.de/hsh-akademie/wissenswelt-beratung-und-paedagogik \"Inhouse-Schulungen\")\nWählen Sie aus dem vielfältigen Themenspektrum der HsH-Akademie das für Ihre Einrichtung oder Ihr Unternehmen passende Angebot aus. Mit einer wissenschaftlich fundierten Weiterbil"
+    },
+    {
+      "rang": 21,
+      "score": 1.8735,
+      "id": "f09988e5-b68d-54b6-9c41-3c6ca9aa15db",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/leistung-und-wohlbefinden-psychologie-hinter-erfolgreichem-new-work",
+      "title_anzeige": "Leistung und Wohlbefinden: Psychologie hinter erfolgreichem \"New Work",
+      "section_heading": "Leistung und Wohlbefinden: Psychologie hinter erfolgreichem \"New Work\" > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 22,
+      "score": 1.86615,
+      "id": "b77b2256-f2d7-5692-8f32-183b40bb2abf",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/systemische-kompetenzen-entdecken-entwickeln-erweitern",
+      "title_anzeige": "Systemische Kompetenzen entdecken, entwickeln, erweitern",
+      "section_heading": "Systemische Kompetenzen entdecken, entwickeln, erweitern > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 23,
+      "score": 1.86478,
+      "id": "373399ec-54cb-5a11-9f2d-f32b0a397035",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/fragen-zur-mitarbeiterorientierten-fuehrung-mit-recht",
+      "title_anzeige": "Fragen zur mitarbeiterorientierten Führung? Mit Recht!",
+      "section_heading": "Fragen zur mitarbeiterorientierten Führung? Mit Recht! > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 24,
+      "score": 1.85458,
+      "id": "9e395d70-8a19-5f4d-b394-22ef4d64265b",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z",
+      "title_anzeige": "Neue Perspektiven gesucht? Weiterbildungen im Überblick",
+      "section_heading": "Neue Perspektiven gesucht? Weiterbildungen im Überblick",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "[ Inhouse-Schulungen ](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z \"Inhouse-Schulungen\")\nWählen Sie aus dem vielfältigen Themenspektrum der HsH-Akademie das für Ihre Einrichtung oder Ihr Unternehmen passende Angebot aus. Mit einer wissenschaftlich fundierten Weiterbildung werden hoch"
+    },
+    {
+      "rang": 25,
+      "score": 1.80877,
+      "id": "3f238a9d-6e52-52cd-8182-e2d2453b8c9b",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/fortbildung-fuer-spielleiterinnen-szenisches-spiel",
+      "title_anzeige": "Fortbildung für Spielleiter*innen „Szenisches Spiel“",
+      "section_heading": "Fortbildung für Spielleiter*innen „Szenisches Spiel“ > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 26,
+      "score": 1.80514,
+      "id": "e59c10ed-e34e-51a6-bd2d-fa442bc8c385",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/ethik-und-fallbesprechungen-in-der-praxis",
+      "title_anzeige": "Ethik und Fallbesprechungen in der Praxis",
+      "section_heading": "Ethik und Fallbesprechungen in der Praxis > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 27,
+      "score": 1.79818,
+      "id": "6eb3ff11-ba81-5888-8f82-4f9495f7efe5",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-beratung-und-paedagogik",
+      "title_anzeige": "Beratung & Pädagogik",
+      "section_heading": "Beratung & Pädagogik > Ruhig und kraftvoll, positiv und tiefgründig > Seminare",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "### Seminare\n[ Fortbildung für Spielleiter*innen „Szenisches Spiel“ ](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/fortbildung-fuer-spielleiterinnen-szenisches-spiel)\n[ Selbstständig in der Sozialen Arbeit? ](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/selbststaendig-i"
+    },
+    {
+      "rang": 28,
+      "score": 1.79376,
+      "id": "cfceccdd-44df-5158-8461-ef4423c1268b",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/spielleiterin-szenisches-spiel",
+      "title_anzeige": "Spielleiter*in Szenisches Spiel",
+      "section_heading": "Spielleiter*in Szenisches Spiel > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 29,
+      "score": 1.79358,
+      "id": "595bd430-c62f-54e1-a5b1-0ee81c68db1d",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/milchtrocknungsverfahren",
+      "title_anzeige": "www › hsh akademie › weiterbildungen a z › milchtrocknungsverfahren",
+      "section_heading": "Milchtrocknungsverfahren > HsH-Akademie: Bringt mich weiter!",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## HsH-Akademie: Bringt mich weiter!\nUnter dem Dach der **Hochschule Hannover** bieten**** wir **Seminare, Zertifikatskurse und berufsbegleitende Studiengänge** für **Fach- und Führungskräfte** - mit Erfahrungen aus **30 Jahren** Weiterbildung.\nJährliche Absolvent*innen\nStarke Kooperationspartner\nEn"
+    },
+    {
+      "rang": 30,
+      "score": 1.78327,
+      "id": "28311424-ed6e-564d-bb6f-d1dfb1d7ee55",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-persoenlichkeit-und-kommunikation",
+      "title_anzeige": "Persönlichkeit & Kommunikation",
+      "section_heading": "Persönlichkeit & Kommunikation",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "[ Inhouse-Schulungen ](https://www.hs-hannover.de/hsh-akademie/wissenswelt-persoenlichkeit-und-kommunikation \"Inhouse-Schulungen\")\nWählen Sie aus dem vielfältigen Themenspektrum der HsH-Akademie das für Ihre Einrichtung oder Ihr Unternehmen passende Angebot aus. Mit einer wissenschaftlich fundierten"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 23251,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.15,
+    "kandidaten_s": 0.03,
+    "llm_auswahl_s": 4.78,
+    "docs_laden_s": 0.06,
+    "quellen_s": 7.01,
+    "antwort_llm_s": 4.43,
+    "gesamt_s": 11.44
+  },
+  "auswahl_begruendung": "{\"selected\":[19,9,20]}"
+}

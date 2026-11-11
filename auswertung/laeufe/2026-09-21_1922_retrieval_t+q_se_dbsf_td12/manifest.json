@@ -1,0 +1,61 @@
+{
+  "lauf_id": "2026-09-21_1922_retrieval_t+q_se_dbsf_td12",
+  "gestartet": "2026-09-21T19:22:02",
+  "modus": "retrieval",
+  "modell": "",
+  "experiment": {
+    "dense_arms": [
+      "text",
+      "questions"
+    ],
+    "sparse_arms": [
+      "sparse_expanded"
+    ],
+    "fusion": "dbsf",
+    "top_docs": 12
+  },
+  "fallauswahl": "alle",
+  "fallzahl": 75,
+  "notiz": "Nach Punkt 1-3: Vertrag 529351a, Umlaute repariert (Index noch alt), Fakultaet aus Frage",
+  "pause_s": 0.0,
+  "premium": false,
+  "fallbasis": {
+    "hash": "529351aadf07d8df4e385f74d72309c6ebf7f8ad0546ea61eaabd64ef38a882f",
+    "hash_auswahl": "529351aadf07d8df4e385f74d72309c6ebf7f8ad0546ea61eaabd64ef38a882f",
+    "fallzahl": 75,
+    "stand": "2026-09-21T19:17:54"
+  },
+  "konfiguration": {
+    "DENSE_ARMS": [
+      "text",
+      "questions"
+    ],
+    "SPARSE_ARMS": [
+      "sparse_expanded"
+    ],
+    "TOP_K": 8,
+    "CANDIDATE_LIMIT": 200,
+    "DEDUP_BUFFER": 4,
+    "MAX_PER_URL": 2,
+    "AUGMENT_TOP_N": 3,
+    "SPARSE_LANGUAGE": "german",
+    "COLLECTION_NAME": "hsh_knowledge",
+    "FUSION": "dbsf",
+    "RAG_CANDIDATE_K": 30,
+    "TOP_DOCS": 12,
+    "SELECT_N": 4,
+    "MAX_CONTEXT_TOKENS": 100000,
+    "points_count": 121134,
+    "git_commit": "a841e2e",
+    "reranker_aktiv": false,
+    "keyword_boost": true,
+    "_wirksam": true
+  },
+  "laufzeit": {
+    "wall_clock_s": 356.0,
+    "gemessen_s": 355.3,
+    "geplante_pausen_s": 0.0,
+    "ungetrackt_s": 0.6,
+    "beendet": "2026-09-21T19:27:59"
+  }
+}

@@ -1,0 +1,1453 @@
+{
+  "fall": {
+    "id": "g03",
+    "case_type": "direct",
+    "question": "An welchem Standort hat Anke Wittich ihr Büro?",
+    "reference_answer": "An der Expo Plaza 12 in Hannover, Raum 2E.4.16.",
+    "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Expo Plaza 12"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ studiengang/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "ee0c35dc-1c7e-5737-b058-f69ad9d1cab7",
+      "01d4e8ec-669b-5761-87e4-e6dabc3c154e",
+      "ee771511-ee11-54db-a31c-08f36357c761"
+    ],
+    "beleg_punkte": [
+      "ee0c35dc-1c7e-5737-b058-f69ad9d1cab7"
+    ],
+    "beleg_urls": [
+      "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich"
+    ]
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T15:43:15",
+  "dauer_s": 4.3,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Promptathon zeigt Anwendungsfälle von KI für bibliothekarische Aufgaben auf",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/promptathon-zeigt-anwendungsfaelle-von-ki-fuer-bibliothekarische-aufgaben-auf-1",
+      "fakultaet": "f3",
+      "struktur": "# Promptathon zeigt Anwendungsfälle von KI für bibliothekarische Aufgaben auf\n    ### Welche Anwendungen können bibliothekarische Arbeit unterstützen, wie können Kolleginnen von guten Beispielen profitieren?\n    ### Ansprechperson"
+    },
+    {
+      "nr": 2,
+      "titel": "Nachlese BiblioCon2026",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+      "fakultaet": "f3",
+      "struktur": "# Nachlese BiblioCon2026\n    ### Es war viel los auf der BiblioCon2026 in Berlin!"
+    },
+    {
+      "nr": 3,
+      "titel": "Workshopband zu \"Fachspezifischer Informationskompetenz - KI\" erschienen",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/workshopband-zu-fachspezifischer-informationskompetenz-ki-erschienen-1",
+      "fakultaet": "f3",
+      "struktur": "# Workshopband zu \"Fachspezifischer Informationskompetenz - KI\" erschienen\n    ### Expertinnen aus Forschung und Praxis diskutieren zu fachspezifischen Besonderheiten von KI-Anwendungen, didaktischen Konzepten in der Vermittlung und Kompetenzrahmen in der Vermittlungspraxis von KI.\n    ### Ansprechperson"
+    },
+    {
+      "nr": 4,
+      "titel": "Dr. Anke Wittich",
+      "url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+      "fakultaet": "f3",
+      "struktur": "# Dr. Anke Wittich\n    ### Kontakt\n    ### Lehrgebiete:"
+    },
+    {
+      "nr": 5,
+      "titel": "f3 › informationsmanagement bim › lehrende › dr anke wittich — Dr. Anke Wittich",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+      "fakultaet": "f3",
+      "struktur": "    ### Dr. Anke Wittich\n  ## Lehrgebiet"
+    },
+    {
+      "nr": 6,
+      "titel": "Studiengang BIB mit neuer Zugangsordnung für Quereinsteigende",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/studiengang-bib-mit-neuer-zugangsordnung-fuer-quereinsteigende",
+      "fakultaet": "f3",
+      "struktur": "# Studiengang BIB mit neuer Zugangsordnung für Quereinsteigende\n    ### Für Studieninteressierte mit Abitur oder Fachabitur ohne FaMI-Abschluss ändern sich ab dem Wintersemester 2025/26 die Zugangsbedingungen.\n    ### Für weitere Informationen wenden Sie sich an:"
+    },
+    {
+      "nr": 7,
+      "titel": "Informationsmanagement berufsbegleitend (BIB)",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+      "fakultaet": "f3",
+      "struktur": "# Informationsmanagement berufsbegleitend (BIB)\n  ## Praxisnahe Methoden und das Fachwissen zur Informationsarbeit\n    ### Auf einen Blick\n# Kurzübersicht\n# Das Studium\n    ### »Durch die Praxisnähe des berufsbegleitenden Studiums werden die Studierenden ideal auf den Berufsalltag vorbereitet.«\n    ### »Sie bilden sich aufbauend auf der bestehenden Berufserfahrung in Ihrem Betätigungsfeld weiter, erweitern und aktualisieren Ihre Kenntnisse.«\n    ### ---\n    ### ---\n    ### ---\n    ### ---\n    ### ---\n# News des Studiengangs\n    ###  Nachlese BiblioCon2026 \n    ###  Geschafft: Abschluss Bachelor BIB \n    ###  Informationsveranstaltung zum Studiengang BIB \n    ### Studiengangsfachberatung\n    ### Weiterführende Informationen\n    ### Downloads"
+    },
+    {
+      "nr": 8,
+      "titel": "Lehrende im Bachelorstudiengang Mediendesign",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/mediendesign-bme/lehrende",
+      "fakultaet": "f3",
+      "struktur": "# Lehrende im Bachelorstudiengang Mediendesign\n  ## Studiengangskoordination\n  ## Professorinnen und Professoren\n  ## Lehrkräfte für besondere Aufgaben\n  ## Lehrbeauftragte"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.69394,
+      "id": "b81cf896-8530-5ca7-943c-2460d21628b7",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/promptathon-zeigt-anwendungsfaelle-von-ki-fuer-bibliothekarische-aufgaben-auf-1",
+      "title_anzeige": "Promptathon zeigt Anwendungsfälle von KI für bibliothekarische Aufgaben auf",
+      "section_heading": "Promptathon zeigt Anwendungsfälle von KI für bibliothekarische Aufgaben auf > Ansprechperson",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "![](https://f3.hs-hannover.de/fileadmin/_processed_/1/0/csm_2026_BIB-BIM_Promptothek_447992c8fc.png)\n[ Teilen ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/promptathon-zeigt-anwendungsfaelle-von-ki-fuer-bibliothekarische-aufgaben-auf-1 \"Teilen\")"
+    },
+    {
+      "rang": 2,
+      "score": 3.51503,
+      "id": "33eba0ef-b9ce-5969-9e05-19a01b38b5a3",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+      "title_anzeige": "Nachlese BiblioCon2026",
+      "section_heading": "Nachlese BiblioCon2026 > Es war viel los auf der BiblioCon2026 in Berlin!",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "![Krimi-Spiel-Gefangen zwischen den Zeilen](https://f3.hs-hannover.de/fileadmin/_processed_/1/2/csm_Krimi_Spiel_Gefangen_zwischen_den_Zeilen_0a67b888ea.jpeg?rbiFocus=mobile)\nFoto: A. Wittich\n![LOD per RDF Mapping](https://f3.hs-hannover.de/fileadmin/_processed_/a/7/csm_LOD_per_RDF_Mapping_07df804d02"
+    },
+    {
+      "rang": 3,
+      "score": 3.48232,
+      "id": "bec4a21d-eeff-559d-bb97-fe01c5dd8d6a",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/workshopband-zu-fachspezifischer-informationskompetenz-ki-erschienen-1",
+      "title_anzeige": "Workshopband zu \"Fachspezifischer Informationskompetenz - KI\" erschienen",
+      "section_heading": "Workshopband zu \"Fachspezifischer Informationskompetenz - KI\" erschienen > Ansprechperson",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "![](https://f3.hs-hannover.de/fileadmin/_processed_/a/1/csm_2026_BIB-BIM_Workshopband_Deckblatt_15e02bd01c.png)\n[ Teilen ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/workshopband-zu-fachspezifischer-informationskompetenz-ki-erschienen-1 \"Teilen"
+    },
+    {
+      "rang": 4,
+      "score": 3.30138,
+      "id": "f8165f80-3bc6-5d48-baa8-c17cf98867f3",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+      "title_anzeige": "Nachlese BiblioCon2026",
+      "section_heading": "Nachlese BiblioCon2026 > Es war viel los auf der BiblioCon2026 in Berlin!",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "![Krimi-Spiel-Gefangen zwischen den Zeilen](https://f3.hs-hannover.de/fileadmin/_processed_/1/2/csm_Krimi_Spiel_Gefangen_zwischen_den_Zeilen_0a67b888ea.jpeg?rbiFocus=mobile)\nFoto: A. Wittich\n![LOD per RDF Mapping](https://f3.hs-hannover.de/fileadmin/_processed_/a/7/csm_LOD_per_RDF_Mapping_07df804d02"
+    },
+    {
+      "rang": 5,
+      "score": 3.25521,
+      "id": "11c157d4-20e8-5852-a0bc-ec2b92452e18",
+      "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+      "title_anzeige": "Dr. Anke Wittich",
+      "section_heading": "Dr. Anke Wittich > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Dr. Anke Wittich  \n###  Kontakt\n**Dr. Anke Wittich**\n_Lehrkraft für besondere Aufgaben\nAbt. Information und Kommunikation (F3IK) _\n[ +49 511 9296 7998 ](tel:+49%20511%209296%207998)\nRaum: 2E.4.16\nExpo Plaza 12\n30539 Hannover\nanke.wittich(at)hs-hannover.de\n![Dr. Anke Wittich](data:image/jpg;base64,"
+    },
+    {
+      "rang": 6,
+      "score": 2.97794,
+      "id": "ee0c35dc-1c7e-5737-b058-f69ad9d1cab7",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+      "title_anzeige": "f3 › informationsmanagement bim › lehrende › dr anke wittich — Dr. Anke Wittich",
+      "section_heading": "Dr. Anke Wittich",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "### Dr. Anke Wittich\nLehrkraft für besondere Aufgaben\nAbt. Information und Kommunikation (F3IK)  \nRaum: 2E.4.16\nExpo Plaza 12\n30539 Hannover  \n[ +49 511 9296 7998 ](tel:+49%20511%209296%207998 \"+49 511 9296 7998 anrufen\")\n[ anke.wittich(at)hs-hannover.de  ](https://f3.hs-hannover.de/studium/bachelor"
+    },
+    {
+      "rang": 7,
+      "score": 2.8693,
+      "id": "832845a6-628b-541b-b1d8-2aff4178c590",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/studiengang-bib-mit-neuer-zugangsordnung-fuer-quereinsteigende",
+      "title_anzeige": "Studiengang BIB mit neuer Zugangsordnung für Quereinsteigende",
+      "section_heading": "Studiengang BIB mit neuer Zugangsordnung für Quereinsteigende > Für weitere Informationen wenden Sie sich an:",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Für weitere Informationen wenden Sie sich an:\n**Dr. Anke Wittich**\n_Lehrkraft für besondere Aufgaben, Information und Kommunikation (F3IK)_\nRaum: 2E.4.16\nExpo Plaza 12\n30539 Hannover\n[ +49 511 9296 7998 ](tel:+49%20511%209296%207998)\nanke.wittich(at)hs-hannover.de\n[ Profil ](https://f3.hs-hannov"
+    },
+    {
+      "rang": 8,
+      "score": 2.7761,
+      "id": "5440b8f3-765c-52ba-83b5-a58296a05989",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+      "title_anzeige": "Informationsmanagement berufsbegleitend (BIB)",
+      "section_heading": "News des Studiengangs > Studiengangsfachberatung",
+      "chunk_index": 59,
+      "text_vollstaendig": true,
+      "auszug": "### Studiengangsfachberatung\n**Dr. Anke Wittich**\n_Lehrkraft für besondere Aufgaben, Information und Kommunikation (F3IK)_\nRaum: 2E.4.16\nExpo Plaza 12\n30539 Hannover\n[ +49 511 9296 7998 ](tel:+49%20511%209296%207998)\nanke.wittich(at)hs-hannover.de\n[ Profil ](https://f3.hs-hannover.de/service/persone"
+    },
+    {
+      "rang": 9,
+      "score": 2.64039,
+      "id": "8eeb7f0e-e645-5eec-ab72-e95225deb965",
+      "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+      "title_anzeige": "Dr. Anke Wittich",
+      "section_heading": "Dr. Anke Wittich > Lehrgebiete:",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Lehrgebiete:\nInformationsdidaktik\nLese-, Informations-, Medienkompetenz\nWissensmanagement - Wissenskommunikation\n[**Zum Profil**](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich)"
+    },
+    {
+      "rang": 10,
+      "score": 1.95531,
+      "id": "ae2f04c1-c66d-58fd-85c5-22ffbebf23fd",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/mediendesign-bme/lehrende",
+      "title_anzeige": "Lehrende im Bachelorstudiengang Mediendesign",
+      "section_heading": "Lehrende im Bachelorstudiengang Mediendesign > Professorinnen und Professoren",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "[ Profil ](https://f3.hs-hannover.de/service/personenfinder/person/1000005014 \"zum Profil von Prof. Timo Schnitt\")\n**Anke Wiesenthal**\n_Professorin, Design und Medien (F3DM)_\nRaum: 2A.3.11\nExpo Plaza 2\n30539 Hannover\n[ +49 511 9296 8124 ](tel:+49%20511%209296%208124)\nanke.wiesenthal(at)hs-hannover.d"
+    },
+    {
+      "rang": 11,
+      "score": 1.87154,
+      "id": "785c5ae0-6ed3-5c28-9487-4d53cabe1b97",
+      "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000036315",
+      "title_anzeige": "Anke Wiesenthal",
+      "section_heading": "Anke Wiesenthal > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Anke Wiesenthal  \n###  Kontakt\n**Anke Wiesenthal**\n_Professorin\nAbt. Design und Medien (F3DM) _\n[ +49 511 9296 8124 ](tel:+49%20511%209296%208124)\nRaum: 2A.3.11\nExpo Plaza 2\n30539 Hannover\nanke.wiesenthal(at)hs-hannover.de"
+    },
+    {
+      "rang": 12,
+      "score": 1.78683,
+      "id": "55e6f390-08b2-5fca-a1a4-d5dc9a9e1bcd",
+      "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000001861",
+      "title_anzeige": "Prof. Anke Bertram",
+      "section_heading": "Prof. Anke Bertram > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Prof. Anke Bertram  \n###  Kontakt\n**Prof. Anke Bertram**\n_Professorin\nAbt. Design und Medien (F3DM) _\n[ +49 511 9296 7274 ](tel:+49%20511%209296%207274)\nRaum: 2A.4.02\nExpo Plaza 2\n30539 Hannover\nanke.bertram(at)hs-hannover.de\n![Prof. Anke Bertram](data:image/jpg;base64,)"
+    },
+    {
+      "rang": 13,
+      "score": 1.54556,
+      "id": "ee771511-ee11-54db-a31c-08f36357c761",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+      "title_anzeige": "f3 › informationsmanagement bim › lehrende › dr anke wittich — Dr. Anke Wittich",
+      "section_heading": "",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "##\n[ Publikationen / ORCID ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich \"Publikationen / ORCID\")\n[ORCID-Register](https://orcid.org/0000-0001-5240-0573 \"https://orcid.org/0000-0001-5240-0573\")\n[ Betreute Abschlussarbeiten ](https://f3"
+    },
+    {
+      "rang": 14,
+      "score": 1.45299,
+      "id": "0f546f80-73d2-5adb-88fa-149be85b7d87",
+      "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+      "title_anzeige": "testim › Praesentationen Zitation 05 08 — Zitation 02: Wissenschaftliches Arbeiten",
+      "section_heading": "**Zitation im Studiengang Informationsmanagement** _Folge 5: Zitation von Monographien_ > **Monographie**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **Monographie**  \n**Hochschule Hannover**  \nFakt. III, Abt. IK / Dr. Anke Wittich"
+    },
+    {
+      "rang": 15,
+      "score": 1.44285,
+      "id": "3ede1170-2b43-5334-a21c-25db2fd3c2ed",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende",
+      "title_anzeige": "Lehrende im Bachelorstudiengang Informationsmanagement",
+      "section_heading": "Lehrende im Bachelorstudiengang Informationsmanagement > Lehrkräfte für besondere Aufgaben",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## Lehrkräfte für besondere Aufgaben\n**Silke Clausing M.A.**\n_Lehrkraft für besondere Aufgaben, Information und Kommunikation (F3IK)_\nRaum: 2E.4.16\nExpo Plaza 12\n30539 Hannover\n[ +49 511 9296 8862 ](tel:+49%20511%209296%208862 \"+49 511 9296 8862 anrufen\")\n[ silke.clausing(at)hs-hannover.de  ](https:"
+    },
+    {
+      "rang": 16,
+      "score": 1.41495,
+      "id": "546b0db9-ef96-5285-9ed8-8e7b28ca5f5b",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005541",
+      "title_anzeige": "Prof. Dr. Annika Schach",
+      "section_heading": "Prof. Dr. Annika Schach",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "##\n[ Vita Annika Schach ](https://www.hs-hannover.de/service/personenfinder/person/1000005541 \"Vita Annika Schach\")\nseit 2020\nGründerin und Geschäftsführerin\nsegmenta futurist:a GmbH\n2019 – 2020\nLeiterin Stabsabteilung Kommunikation & Marketing\nHochschule Hannover\n2018 – 2019\nBereichsleiterin Kommun"
+    },
+    {
+      "rang": 17,
+      "score": 1.37361,
+      "id": "10f6c37b-99a8-515f-9e20-a895ac59e197",
+      "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000036150",
+      "title_anzeige": "Prof. Dr. Anke Neuber",
+      "section_heading": "Prof. Dr. Anke Neuber > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Prof. Dr. Anke Neuber  \n###  Kontakt\n**Prof. Dr. Anke Neuber**\n_Professorin\nAbt. Soziale Arbeit (F5SA) _\nRaum: 3B.1.02\nBlumhardtstr. 2\n30625 Hannover\nanke.neuber(at)hs-hannover.de\n![Prof. Dr. Anke Neuber](data:image/jpg;base64,)"
+    },
+    {
+      "rang": 18,
+      "score": 1.33236,
+      "id": "20a7082b-7d55-5162-9f1d-2a48e07d6ea1",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIB 2017",
+      "section_heading": "**Studiengangskoordinatorin**",
+      "chunk_index": 27,
+      "text_vollstaendig": false,
+      "auszug": "## **Studiengangskoordinatorin**  \nDr. Anke Wittich Expo Plaza 12, 4.03 0511 9296-2645 `anke.wittich@hs-hannover.de`"
+    },
+    {
+      "rang": 19,
+      "score": 1.32791,
+      "id": "1bfa5945-ffdc-5c5d-b4c3-2c77d01512a0",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIB ab WiSe 26 27 — Studiengang B.A. Informationsmanagement - berufsbegleitend -",
+      "section_heading": "**Studiengang B.A. Informationsmanagement - berufsbegleitend -** > **BIB-114 _ Methodenkompetenz**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "|**Dozent(in)**||**Titel der Lehrveranstaltung**|||||**SWS**|\n|||||||||\n|Dr. Anke Wittich||Wissenschaftliche Arbeitstechniken|||||2|\n|||||||||\n|Dr. Anke Wittich||Präsentationstechniken|||||Pauschale|\n||||||||Anerkennung|\n|||||||||"
+    },
+    {
+      "rang": 20,
+      "score": 1.32761,
+      "id": "9ce8a179-c479-5b95-bf7e-b530df55b89a",
+      "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000005541",
+      "title_anzeige": "Prof. Dr. Annika Schach",
+      "section_heading": "Prof. Dr. Annika Schach",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "##\n[ Vita Annika Schach ](https://f3.hs-hannover.de/service/personenfinder/person/1000005541 \"Vita Annika Schach\")\nseit 2020\nGründerin und Geschäftsführerin\nsegmenta futurist:a GmbH\n2019 – 2020\nLeiterin Stabsabteilung Kommunikation & Marketing\nHochschule Hannover\n2018 – 2019\nBereichsleiterin Kommuni"
+    },
+    {
+      "rang": 21,
+      "score": 1.30888,
+      "id": "76aa2f37-74ee-55ea-a6d2-099386782933",
+      "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+      "title_anzeige": "testim › Zitation 03 inkl Forschungskreislauf — Zitation 02: Wissenschaftliches Arbeiten",
+      "section_heading": "**Zitation im Studiengang Informationsmanagement** _Folge 3: Zitierstile: ein Prinzip – viele Lösungen_ > **Zitierstil**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **Zitierstil**  \nSeite 12  \n**Hochschule Hannover** Fakt. III, Abt. IK / Dr. Anke Wittich"
+    },
+    {
+      "rang": 22,
+      "score": 1.29953,
+      "id": "914e5ca1-2b3d-5576-a828-5f60f94c1094",
+      "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000004129",
+      "title_anzeige": "Anja Miehe",
+      "section_heading": "Anja Miehe > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Anja Miehe  \n###  Kontakt\n**Anja Miehe**\n_Mitarbeiterin\nAbt. Wirtschaftsinformatik (F4WI) _\n[ +49 511 9296 7013 ](tel:+49%20511%209296%207013)\nRaum: 1H.1.59\nRicklinger Stadtweg 120\n30459 Hannover\nanja.miehe(at)hs-hannover.de\n![Anja Miehe](data:image/jpg;base64,)"
+    },
+    {
+      "rang": 23,
+      "score": 1.23019,
+      "id": "8871b65a-549c-5067-a813-04d6a1ac3459",
+      "source_url": "http://q-plus-im.wp.hs-hannover.de/wp-content/uploads/2022/07/220707_Abschlussbericht_qplus_Steinberg_Wittich.pdf",
+      "title_anzeige": "q-plus-im › 220707 Abschlussbericht qplus Steinberg Wittich",
+      "section_heading": "_**– Komm‘ Se digital lernen!**_ > **Antragstellende**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## _**– Komm‘ Se digital lernen!**_\n\n## **Antragstellende**  \nHochschule Hannover (University of Applied Sciences and Arts) Fakultät 3 - Medien, Information und Design, Abteilung Information und Kommunikation Studiengang: Informationsmanagement und Informationsmanagement – berufsbegleitend  \nProf. D"
+    },
+    {
+      "rang": 24,
+      "score": 1.22077,
+      "id": "662e2cea-e989-5679-8798-b49614b13d34",
+      "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+      "title_anzeige": "testim › Praesentationen Zitation 05 08 — Zitation 02: Wissenschaftliches Arbeiten",
+      "section_heading": "**Zitation im Studiengang Informationsmanagement** _Folge 6: Beitrag Sammelwerk (Teil einer Zusammenstellung)_ > **Teil einer Zusammenstellung: Sammelwerk**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **Teil einer Zusammenstellung: Sammelwerk**  \n**Hochschule Hannover** Fakt. III, Abt. IK / Dr. Anke Wittich"
+    },
+    {
+      "rang": 25,
+      "score": 1.17903,
+      "id": "2c2f0ce3-f8d9-5eb7-a2a0-4db87303224d",
+      "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+      "title_anzeige": "testim › Zitation 03 inkl Forschungskreislauf — Zitation 02: Wissenschaftliches Arbeiten",
+      "section_heading": "**Zitation im Studiengang Informationsmanagement** _Folge 3: Zitierstile: ein Prinzip – viele Lösungen_ > **IWP: Hinweise für die Autoren**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "## **IWP: Hinweise für die Autoren**  \nSeite 7  \n**Hochschule Hannover** Fakt. III, Abt. IK / Dr. Anke Wittich"
+    },
+    {
+      "rang": 26,
+      "score": 1.17318,
+      "id": "fe258f14-ed48-5379-bfef-62b648fd90a2",
+      "source_url": "https://f2.hs-hannover.de/forschung/labore/abt-bioverfahrenstechnik/chemie-und-instrumentelle-analytik",
+      "title_anzeige": "Chemie und Instrumentelle Analytik",
+      "section_heading": "Chemie und Instrumentelle Analytik > Das Team",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "**Dr. Antje Riecke**\nTechnische Mitarbeiterin\n_Bioverfahrenstechnik (F2BV)_\n[ +49 511 9296 7309 ](tel:+49%20511%209296%207309 \"+49 511 9296 7309 anrufen\")\n[ antje.riecke(at)hs-hannover.de  ](https://f2.hs-hannover.de/forschung/labore/abt-bioverfahrenstechnik/chemie-und-instrumentelle-analytik \"An an"
+    },
+    {
+      "rang": 27,
+      "score": 1.16782,
+      "id": "631fbe93-41f3-5c19-bdfe-fa8eece6f66e",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+      "title_anzeige": "Informationsmanagement berufsbegleitend (BIB)",
+      "section_heading": "Das Studium",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "[ Studienberatung ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib \"Studienberatung\")\nDie Studienberatung der Hochschule Hannover berät alle Studierenden und Studieninteressierte. Sie informiert über die Studienangebote, Studieninhalte sowie über"
+    },
+    {
+      "rang": 28,
+      "score": 1.16681,
+      "id": "9218147c-88f5-5a03-9917-95fb5c36d32d",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005664",
+      "title_anzeige": "Dr. Nicole Wente M.Eng.",
+      "section_heading": "Dr. Nicole Wente M.Eng. > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Dr. Nicole Wente M.Eng.  \n###  Kontakt\n**Dr. Nicole Wente M.Eng.**\n_Wissenschaftliche Mitarbeiterin\nAbt. Bioverfahrenstechnik (F2BV) _\nRaum: 4B.1.05\nHeisterbergallee 10A\n30453 Hannover\nnicole.wente(at)hs-hannover.de\n![Dr. Nicole Wente M.Eng.](data:image/jpg;base64,)"
+    },
+    {
+      "rang": 29,
+      "score": 1.13814,
+      "id": "0cd7d045-066c-5f0c-8f93-226adf6850b6",
+      "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004873",
+      "title_anzeige": "Prof. Dr. Jutta Bertram",
+      "section_heading": "Prof. Dr. Jutta Bertram",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "##\n[ Gremien & Selbstverwaltung ](https://f3.hs-hannover.de/service/personenfinder/person/1000004873 \"Gremien & Selbstverwaltung\")\n* Stellvertretendes Mitglied im Fakultätsrat der Fakultät III – Medien, Information und Design der Hochschule Hannover\n* Vorsitzende der Berufungskommission „Information"
+    },
+    {
+      "rang": 30,
+      "score": 1.13513,
+      "id": "6aa0db48-a7ea-5774-9bf1-f36b786d0ccf",
+      "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000001942",
+      "title_anzeige": "Andreas Holitschke",
+      "section_heading": "Andreas Holitschke > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Andreas Holitschke  \n###  Kontakt\n**Andreas Holitschke**\n_Wissenschaftlicher Mitarbeiter\nAbt. Informatik (F4I) _\nRaum: 1H.2.61\nRicklinger Stadtweg 120\n30459 Hannover\nandreas.holitschke(at)hs-hannover.de"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+        "score": 0.54397
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+        "score": 0.51644
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/studiengang-bib-mit-neuer-zugangsordnung-fuer-quereinsteigende",
+        "score": 0.50883
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+        "score": 0.5048
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/promptathon-zeigt-anwendungsfaelle-von-ki-fuer-bibliothekarische-aufgaben-auf-1",
+        "score": 0.49697
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/workshopband-zu-fachspezifischer-informationskompetenz-ki-erschienen-1",
+        "score": 0.49697
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+        "score": 0.4889
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+        "score": 0.47956
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000005541",
+        "score": 0.43668
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+        "score": 0.4333
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005541",
+        "score": 0.43328
+      },
+      {
+        "rang": 12,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 0.39328
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000036315",
+        "score": 0.39264
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+        "score": 0.38989
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004873",
+        "score": 0.38034
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000043779",
+        "score": 0.36657
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/erfolgsgeschichten.pdf",
+        "score": 0.36082
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Vita_CvDenkowski_CV092025.pdf",
+        "score": 0.35962
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/team/jan-weisberg",
+        "score": 0.35837
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/praesidium/vizepraesidentin-vpl",
+        "score": 0.35837
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/forschung/labore/abt-bioverfahrenstechnik/chemie-und-instrumentelle-analytik",
+        "score": 0.35761
+      },
+      {
+        "rang": 22,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 0.3547
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000004606",
+        "score": 0.35212
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000004129",
+        "score": 0.34832
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000001942",
+        "score": 0.34468
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/UAS_Technikum_Wien_Fact_Sheet_2025-26.pdf",
+        "score": 0.3422
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/masterstudiengang-mittelstaendische-unternehmensfuehrung-in-entrepreneurship-das-team",
+        "score": 0.34003
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000043779",
+        "score": 0.33866
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/mediendesign-bme/lehrende",
+        "score": 0.3352
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f5.hs-hannover.de/ueber-uns/hochschule-praxis/hospiz-palliativ-sozialarbeit",
+        "score": 0.33383
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/News/SoSe2026/Crown_Contemporary.pdf",
+        "score": 0.33308
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000005541",
+        "score": 0.33301
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005664",
+        "score": 0.33239
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005541",
+        "score": 0.33199
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/gremien/pruefungsausschuesse/pruefungsausschuss-wirtschaftsinformatik",
+        "score": 0.33056
+      },
+      {
+        "rang": 36,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 0.32934
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-lehre",
+        "score": 0.32757
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 0.32637
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/Publikationen/Simon__2021__Nursing_Related_Groups_-_Kritik_der_Idee__eines_NRG-Systems.pdf",
+        "score": 0.32581
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/buchbindewerkstatt",
+        "score": 0.32566
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/mittelstaendische-unternehmensfuehrung-in-entrepreneurship-mba/news/kaminabend-mit-anika-schoen-und-antje-diller-wolf",
+        "score": 0.32439
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f5.hs-hannover.de/studium/abteilung-soziale-arbeit-1",
+        "score": 0.32327
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000003442",
+        "score": 0.32291
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f5.hs-hannover.de/studium/abteilung-soziale-arbeit",
+        "score": 0.32091
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen/50-jahre-hsh/hardy-seiler",
+        "score": 0.32058
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000008513",
+        "score": 0.32056
+      },
+      {
+        "rang": 47,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 0.32015
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/personen/mitarbeiterinnen-und-mitarbeiter",
+        "score": 0.32015
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/berufungsmanagement-1/hannotalents",
+        "score": 0.31771
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/personen/mitarbeiterinnen-und-mitarbeiter",
+        "score": 0.31498
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/promptathon-zeigt-anwendungsfaelle-von-ki-fuer-bibliothekarische-aufgaben-auf-1",
+        "score": 0.73638
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+        "score": 0.72899
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/workshopband-zu-fachspezifischer-informationskompetenz-ki-erschienen-1",
+        "score": 0.666
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+        "score": 0.63237
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+        "score": 0.59673
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+        "score": 0.59416
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+        "score": 0.57673
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/studiengang-bib-mit-neuer-zugangsordnung-fuer-quereinsteigende",
+        "score": 0.54031
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/mediendesign-bme/lehrende",
+        "score": 0.53268
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000036315",
+        "score": 0.51733
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000036150",
+        "score": 0.51429
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+        "score": 0.50882
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000001861",
+        "score": 0.50139
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende",
+        "score": 0.48083
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000004129",
+        "score": 0.48032
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-25-26/VV_BRS-WiSe-25-26-PO-2020-2021-klein.pdf",
+        "score": 0.47698
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f5.hs-hannover.de/forschung/forschungsprojekt-gekonntes",
+        "score": 0.47164
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000026277",
+        "score": 0.46608
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+        "score": 0.46037
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2026/VV-BRS-PO-2021-SoSe-2026-klein.pdf",
+        "score": 0.46037
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+        "score": 0.4593
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005227",
+        "score": 0.45795
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/internationales/internationale-hochschule/verein-fuer-internationale-beziehungen",
+        "score": 0.45496
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005664",
+        "score": 0.45491
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005541",
+        "score": 0.45474
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000005541",
+        "score": 0.45474
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+        "score": 0.45244
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-25-26/VV_BRS-WiSe-25-26-PO-2020-2021-klein.pdf",
+        "score": 0.45244
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/SoSe_2025/BSW_PO20201_KLEIN.pdf",
+        "score": 0.44457
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/berufungsmanagement-1/hannotalents",
+        "score": 0.44365
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/personen/mitarbeiterinnen-und-mitarbeiter",
+        "score": 0.4424
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/fakultaetsverwaltung/dekanat/abt-bioverfahrenstechnik-2-1-1",
+        "score": 0.44124
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/forschung/kontakt-stabsabteilung-fue",
+        "score": 0.44092
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000003442",
+        "score": 0.43989
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center",
+        "score": 0.43952
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000004605",
+        "score": 0.43808
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+        "score": 0.43701
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2018-klein.pdf",
+        "score": 0.43681
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-berufsbegleitend-sbw",
+        "score": 0.43614
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/SoSe_2025/BSW_PO20201_KLEIN.pdf",
+        "score": 0.43531
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2018-klein.pdf",
+        "score": 0.43521
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2021-klein.pdf",
+        "score": 0.43521
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2021-klein.pdf",
+        "score": 0.4352
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2021-klein.pdf",
+        "score": 0.4352
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2021-klein.pdf",
+        "score": 0.4352
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Praktikumsstellen/WiSe2025-26/20260128_Praktikum_Cuvillier-Verlag_Autorenbetreuung.pdf",
+        "score": 0.4352
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2021-WiSe-24-25-klein.pdf",
+        "score": 0.43516
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+        "score": 0.43397
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+        "score": 0.43397
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+        "score": 0.43397
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf",
+        "score": 22.63897
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_20250106.pdf",
+        "score": 22.39287
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+        "score": 22.05718
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+        "score": 21.56252
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 21.30709
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 21.2193
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 21.10791
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 21.10791
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/promptathon-zeigt-anwendungsfaelle-von-ki-fuer-bibliothekarische-aufgaben-auf-1",
+        "score": 20.77527
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/workshopband-zu-fachspezifischer-informationskompetenz-ki-erschienen-1",
+        "score": 20.77527
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+        "score": 20.77527
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/studiengang-bib-mit-neuer-zugangsordnung-fuer-quereinsteigende",
+        "score": 20.66411
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 20.44534
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 20.33769
+      },
+      {
+        "rang": 15,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 20.14047
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 19.91816
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+        "score": 19.75452
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende",
+        "score": 19.59358
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2020.pdf",
+        "score": 19.51706
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+        "score": 19.09497
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/das-studium/absolventinnenbefragung",
+        "score": 18.85458
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 18.80304
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 18.7474
+      },
+      {
+        "rang": 24,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 18.71752
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/020-MH-BSW-PO-2021-SoSe_2025-Stand-09.01.2025-web.pdf",
+        "score": 18.55049
+      },
+      {
+        "rang": 26,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 18.4493
+      },
+      {
+        "rang": 27,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 18.4493
+      },
+      {
+        "rang": 28,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 18.4493
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 18.28154
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 18.21687
+      },
+      {
+        "rang": 31,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 18.18866
+      },
+      {
+        "rang": 32,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 18.18866
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 17.90027
+      },
+      {
+        "rang": 34,
+        "source_url": "http://q-plus-im.wp.hs-hannover.de/wp-content/uploads/2022/07/220707_Abschlussbericht_qplus_Steinberg_Wittich.pdf",
+        "score": 17.83827
+      },
+      {
+        "rang": 35,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 17.81121
+      },
+      {
+        "rang": 36,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 17.81121
+      },
+      {
+        "rang": 37,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 17.81121
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf",
+        "score": 17.77669
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 17.77669
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+        "score": 17.71554
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 17.71554
+      },
+      {
+        "rang": 42,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/IIS-Informationsmanagement_2020_final.pdf",
+        "score": 17.56817
+      },
+      {
+        "rang": 43,
+        "source_url": "http://q-plus-im.wp.hs-hannover.de/wp-content/uploads/2022/07/220707_Abschlussbericht_qplus_Steinberg_Wittich.pdf",
+        "score": 17.41598
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f3.hs-hannover.de/forschung/forschungsprojekte",
+        "score": 17.33167
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 17.21579
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+        "score": 17.21579
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 17.12639
+      },
+      {
+        "rang": 48,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/IIS-Informationsmanagement_2020_final.pdf",
+        "score": 16.98861
+      },
+      {
+        "rang": 49,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 16.90155
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 16.84626
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+        "score": 28.7075
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/workshopband-zu-fachspezifischer-informationskompetenz-ki-erschienen-1",
+        "score": 28.44045
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/news/aktuelles/promptathon-zeigt-anwendungsfaelle-von-ki-fuer-bibliothekarische-aufgaben-auf-1",
+        "score": 28.38077
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+        "score": 27.80508
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000004988",
+        "score": 22.77699
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+        "score": 22.58339
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf",
+        "score": 22.40885
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/studiengang-bib-mit-neuer-zugangsordnung-fuer-quereinsteigende",
+        "score": 22.31833
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_20250106.pdf",
+        "score": 22.16995
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 22.08222
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+        "score": 21.78292
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 21.45672
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/news/default-202b6d8dd34f07dc5fbf81d6d5895097",
+        "score": 21.40156
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 21.29954
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 21.01259
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende",
+        "score": 20.72993
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 20.09109
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 20.09109
+      },
+      {
+        "rang": 19,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 19.88387
+      },
+      {
+        "rang": 20,
+        "source_url": "http://q-plus-im.wp.hs-hannover.de/wp-content/uploads/2022/07/220707_Abschlussbericht_qplus_Steinberg_Wittich.pdf",
+        "score": 19.66883
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 19.62758
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2020.pdf",
+        "score": 19.18023
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/das-studium/absolventinnenbefragung",
+        "score": 19.05151
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 19.02893
+      },
+      {
+        "rang": 25,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 18.93586
+      },
+      {
+        "rang": 26,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 18.70873
+      },
+      {
+        "rang": 27,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 18.70873
+      },
+      {
+        "rang": 28,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 18.70873
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 18.52587
+      },
+      {
+        "rang": 30,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 18.48698
+      },
+      {
+        "rang": 31,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 18.48698
+      },
+      {
+        "rang": 32,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 18.16403
+      },
+      {
+        "rang": 33,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 18.16403
+      },
+      {
+        "rang": 34,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Zitation-03-inkl-Forschungskreislauf.pdf",
+        "score": 18.16403
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/020-MH-BSW-PO-2021-SoSe_2025-Stand-09.01.2025-web.pdf",
+        "score": 18.10577
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 18.04366
+      },
+      {
+        "rang": 37,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/IIS-Informationsmanagement_2020_final.pdf",
+        "score": 17.95494
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 17.88845
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 17.88845
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/lehrende/dr-anke-wittich",
+        "score": 17.88845
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf",
+        "score": 17.8373
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 17.8373
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f3.hs-hannover.de/forschung/forschungsprojekte",
+        "score": 17.7506
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 17.63562
+      },
+      {
+        "rang": 45,
+        "source_url": "http://q-plus-im.wp.hs-hannover.de/wp-content/uploads/2022/07/220707_Abschlussbericht_qplus_Steinberg_Wittich.pdf",
+        "score": 17.58591
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+        "score": 17.53648
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 17.29343
+      },
+      {
+        "rang": 48,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/Praesentationen-Zitation-05-08.pdf",
+        "score": 17.24563
+      },
+      {
+        "rang": 49,
+        "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/IIS-Fake-News_2020_final.pdf",
+        "score": 17.07063
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_ab_WiSe_26_27.pdf",
+        "score": 17.01053
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.85,
+    "kandidaten_s": 0.0,
+    "arme_s": 2.3,
+    "gesamt_s": 4.15
+  },
+  "auswahl_begruendung": ""
+}

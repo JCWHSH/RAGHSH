@@ -1,0 +1,1462 @@
+{
+  "fall": {
+    "id": "q17",
+    "case_type": "direct",
+    "question": "Gibt es Informationen zur 15-CP-Überprüfung in der Fakultät I und ist dort ein freier Versuch beschrieben?",
+    "reference_answer": "Auf der Seite der Prüfungsverwaltung der Fakultät I ist Stephan Rittmüller als Ansprechpartner für allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung und Umbuchungen genannt. Die Seite beschreibt an dieser Stelle keine Freiversuchsregel und keine Details dazu, dass es wegen 15 CP einen freien Versuch gibt.",
+    "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+    "expected_behavior": "missing_detail_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die Quelle nennt 15 CP Überprüfung im Kontext der Prüfungsverwaltung der Fakultät I.",
+      "Stephan Rittmüller ist dort als Ansprechpartner genannt.",
+      "Die Quelle beschreibt keine Freiversuchsregel und keine Details zu einem freien Versuch wegen 15 CP."
+    ],
+    "optional_facts": [
+      "Die Quelle nennt auch allgemeine Fragen, Prüfungsanmeldungen, iCMS und Umbuchungen."
+    ],
+    "forbidden_claims": [
+      "Eine Freiversuchsregel aus der Quelle ableiten oder erfinden.",
+      "Konkrete Folgen der 15-CP-Überprüfung behaupten, die in der Quelle nicht stehen."
+    ],
+    "case_difficulty": "schwer",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Negativ-/Abgrenzungsfall: Nur die 15 CP Überprüfung und die Ansprechperson sind auf der Quelle belegt. Keine Details zu einem freien Versuch erfinden.",
+    "tags": [
+      "fehlendes-detail"
+    ],
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "15 CP",
+      "Stephan Rittmüller"
+    ],
+    "gold_im_korpus": true
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T15:30:53",
+  "dauer_s": 4.25,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Inhalt:\n  ## § 9 Öffentlichkeit von mündlichen Prüfungen\n  ## § 15 Einstufungsprüfung\n  ## § 26 Kolloquium\n  ## Diplomurkunde\n  ## Prüfungsordnung\n  ## für die Abschlüsse Bachelor of Arts und Bachelor of Arts honors in den Studiengängen Journalistik und PR/ Öffentlichkeitsarbeit an der Fachhochschule Hannover\n  ## Erster Teil\n  ## Allgemeine Vorschriften\n  ## § 1 Zweck der Prüfungen\n  ## § 2 Hochschulgrad\n  ## § 4 Prüfungsausschuss\n  ## § 5 Prüfende und Beisitzerinnen oder Beisitzer\n  ## § 6 Anrechnung von Studienzeiten, Studien- und Prüfungsleistungen\n  ## § 7 Zulassung\n  ## § 8 Aufbau der Prüfungen, Arten der Prüfungs- und Studienleistungen\n  ## § 9 Öffentlichkeit von mündlichen Prüfungen\n  ## § 10 Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 11 Bewertung der Prüfungsleistung und Bildung der Fachnote\n  ## (4) 1Die Note lautet:\n  ## § 12 Wiederholung von Prüfungsleistungen, Freiversuch\n  ## § 13 Zeugnisse und Bescheinigungen\n  ## § 14 Zusatzprüfungen\n  ## § 15 Einstufungsprüfung\n  ## § 16 Ungültigkeit von Prüfungen\n  ## § 17 Einsicht in die Prüfungsakte\n  ## § 18 Hochschulöffentliche Bekanntmachungen des Prüfungsausschusses\n  ## § 19 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Bachelor-of-Arts-Prüfung\n  ## § 20 Art und Umfang\n  ## § 21 Zulassung zu der Bachelor-of-Arts-Abschlussarbeit\n  ## § 22 Bachelor-of-Arts-Abschlussarbeit\n  ## § 23 Wiederholung der Abschlussarbeit\n  ## § 24 Gesamtergebnis der Prüfung\n  ## Dritter Teil\n  ## Bachelor-of-Arts-honors-Prüfung\n  ## § 25 Art und Umfang\n  ## 1.) den Fachprüfungen,\n  ## § 26 Zulassung zur Thesis\n  ## § 27 Bachelor-of-Arts-honors-Abschlussarbeit\n  ## § 28 Kolloquium\n  ## § 29 Wiederholung der Thesis\n  ## § 30 Gesamtergebnis der Bachelor-of-Arts-honors-Prüfung\n  ## Vierter Teil\n  ## Schlussvorschriften\n  ## § 31 Übergangsvorschriften\n  ## § 32 Inkrafttreten\n  ## Bachelor of Arts-Urkunde/ Bachelor of Arts honors-Urkunde)"
+    },
+    {
+      "nr": 2,
+      "titel": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Inhalt:\n# Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)\n  ## (2) Die Immatrikulation setzt voraus, dass die Bewerberinnnen und Bewerber,\n  ## § 3 Widerruf der Immatrikulation\n  ## § 4 Versagung der Immatrikulation\n  ## § 6 Exmatrikulation aus besonderem Grund\n  ## Umstrukturierung des bisherigen Studiengangs Produkt-Design in die Studiengänge Produkt-Design sowie Mode- und Kostüm-Design\n  ## Fusion der Fachbereiche Architektur und Bauingenieurwesen der FHH\n  ## Diplompr ¨ufungsordnung f ¨ur den Studiengang Angewandte Informatik der Fachhochschule Hannover, Fachbereich Informatik\n  ## Erster Teil\n  ## Allgemeine Vorschriften\n  ## § 1 Zweck der Pr ¨ufungen\n  ## § 2 Hochschulgrad\n  ## § 3 Dauer und Gliederung des Studiums, Freiversuch\n  ## § 4 Pr ¨ufungsausschuss\n  ## § 5 Pr ¨ufende und Beisitzende\n  ## § 6 Anrechnung von Studienzeiten, Studien- und Pr ¨ufungsleistungen, Quereinsteiger\n  ## § 7 Zulassung\n  ## § 8 Aufbau der Pr ¨ufungen, Arten der Pr ¨ufungsleistungen, Semesterarbeiten\n  ## § 9 Offentlichkeit von m ¨undlichen Pr ¨ufungen[¨]\n  ## § 10 Vers¨aumnis, R ¨ucktritt, T¨auschung, Ordnungsverstoß\n  ## (5) Die Note lautet:\n  ## § 13 Zeugnisse und Bescheinigungen\n  ## § 14 Zusatzpr ¨ufungen\n  ## § 15 Einstufungspr ¨ufung\n  ## § 16 Ung ¨ultigkeit der Pr ¨ufung\n  ## § 17 Einsicht in die Pr ¨ufungsakte\n  ## § 18 Hochschul ¨offentliche Bekanntmachungen des Pr ¨ufungsausschusses\n  ## § 19 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Diplomvorpr ¨ufung\n  ## § 20 Art und Umfang\n  ## § 21 Zulassung\n  ## § 22 Gesamtergebnis der Pr ¨ufung\n  ## Dritter Teil Diplompr ¨ufung\n  ## § 24 Zulassung\n  ## § 23 Art und Umfang\n  ## § 25 Diplomarbeit\n  ## § 26 Kolloquium\n  ## entsprechend.\n  ## § 27 Wiederholung der Diplomarbeit\n  ## § 28 Gesamtergebnis der Pr ¨ufung\n  ## Vierter Teil\n  ## Schlussvorschriften\n  ## § 29 Ubergangsregelungen[¨]\n  ## § 30 Inkrafttreten\n  ## Anlage 1 (zu § 2)\n  ## Diplomurkunde\n  ## Diplom-Informatikerin/Diplom-Informatiker (Fachhochschule) abgek ¨urzt Dipl.-Inf. (FH),"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+      "fakultaet": "",
+      "struktur": "  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Geltungsbereich der Prüfungsordnung\n  ## § 3 Zweck der Prüfung und Hochschulgrad\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Zulassung zur Einstufungsprüfung\n  ## § 6 Durchführung der Einstufungsprüfung\n  ## § 7\n  ## Aufbau und Inhalt der Vorprüfung\n  ## § 8\n  ## Art und Umfang der Bachelor-Prüfung\n  ## § 9\n  ## Zulassung zum zweiten Studienabschnitt und zur Bachelor-Arbeit\n  ## § 10\n  ## Höchstdauer des zweiten Studienabschnitts\n  ## § 11 Prüfungsanmeldungen und Prüfungszeitpunkte\n  ## § 12\n  ## Arten und Aufteilungsmöglichkeiten von Prüfungsleistungen\n  ## § 13 Eidesstattliche Versicherungen\n  ## § 14 Anwesenheitspflichten\n  ## § 15\n  ## Prüfungsvorleistungen\n  ## § 16\n  ## Unbenotete Prüfungsleistungen\n  ## § 17\n  ## Wechsel von Pflicht- und Wahlpflichtmodulen\n  ## § 18\n  ## Verbesserungsversuche\n  ## § 19\n  ## Wiederholung nicht bestandener Prüfungen\n  ## § 20\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 21 Inkrafttreten\n  ## Bachelor-Studiengang Betriebswirtschaftslehre (BBI) - 6 Semester  - PO 2018 / Version 2024\n  ## K2[1] (90 [45-]minütige Klausur)\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch. Vorrangig ist jedoch stets diese Prüfungsordnung."
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › WI › Ordnungen › 05 VIF Studien Modulhandbuch PO2020 240301",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Dekanat\n  ## Aufnahme von Erstsemestern\n  ## Lehrveranstaltungen\n  ## Prüfungsordnung\n  ## f4.hs-hannover.de/studium/bachelor-studiengaenge/verwaltungsinformatik-vif\n  ## Prüfungsausschuss\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## IT-Team\n  ## Fördergemeinschaft und Alumni-Vereinigung (FAWuI)\n  ## Fachschaftsrat\n  ## 1.2 Kontaktdaten\n  ## 2. Bachelor-Studiengang Verwaltungsinformatik (VIF)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Berufsperspektiven\n  ## 2.3 Studienvoraussetzungen\n  ## 2.4 Studienbeginn und Studiengebühren\n  ## 2.5 Unterstützung im Studium (Stipendium)\n  ## 2.6 Regeln (Ordnungen) im Studium\n  ## 2.7 Aufbau des Studiums\n  ## 2.7.1 Grundsätzliches zum Aufbau des Studiums\n  ## 2.7.2 Übersicht über das Studium\n  ## 2.7.3 Erster Studienabschnitt\n  ## 2.7.4 Zweiter Studienabschnitt mit Praxisphasen und Bachelorarbeit\n  ## 2.7.5 Studienablauf\n  ## 2.8 Soziale Kompetenz\n  ## Modulhandbuch für den Studiengang Bachelor Verwaltungsinformatik, PO-Version 20 SoSe\n  ## Inhaltsverzeichnis\n  ## 1. Studienabschnitt\n  ## Modul  VIF-101 Staatsrecht\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  VIF-101-01 Staatsrecht\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  VIF-102 Verwaltungshandeln\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  VIF-102-01 Verwaltungshandeln\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  VIF-105 Rechtsanwendung in der Verwaltung\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  VIF-105-01 Rechtsanwendung in der Verwaltung\n  ## Angestrebte Lernergebnisse\n  ## Inhalt"
+    },
+    {
+      "nr": 5,
+      "titel": "f4 › WI › Ordnungen › 05 VIF Studienhandbuch VIF PO 2025 ohne MHB 25 10 07",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Dekanat\n  ## Aufnahme von Erstsemestern\n  ## Lehrveranstaltungen\n  ## Prüfungsordnung\n  ## Prüfungsausschuss\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## IT-Team\n  ## Fachschaftsrat\n  ## 1.2 Kontaktdaten\n  ## 2. Bachelor-Studiengang Verwaltungsinformatik (VIF)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Berufsperspektiven\n  ## 2.3 Studienvoraussetzungen\n  ## 2.4 Studienbeginn und Studiengebühren\n  ## 2.5 Unterstützung im Studium (Stipendium)\n  ## 2.6 Regeln (Ordnungen) im Studium\n  ## 2.7 Aufbau des Studiums\n  ## 2.7.1 Grundsätzliches zum Aufbau des Studiums\n  ## 2.7.2 Übersicht über das Studium\n  ## 2.7.3 Aufbau des Studiums Fachrichtung Allgemeine Verwaltung\n  ## 2.7.4 Aufbau des Studiums Fachrichtung Polizei\n  ## 2.8 Soziale Kompetenz\n  ## 3. Modulhandbuch"
+    },
+    {
+      "nr": 6,
+      "titel": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "fakultaet": "",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Studiengang Mechatronik (BME) mit dem Abschluss Bachelor of Engineering an der Fakultät I – Elektro- und Informationstechnik der Fachhochschule Hannover (FHH)\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## §5\n  ## Technische Wahlpflichtfächer und  Wahlpflichtlabore\n  ## §6\n  ## Übergangsbestimmung\n  ## §7\n  ## Inkrafttreten\n  ## Anlage B2 zum Studiengang Mechatronik\n  ## Legende:"
+    },
+    {
+      "nr": 7,
+      "titel": "Aufnahme-, Bewerbungs- und Auswahlverfahren",
+      "url": "https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte/aufnahme-bewerbungs-und-auswahlverfahren",
+      "fakultaet": "f3",
+      "struktur": "# Aufnahme-, Bewerbungs- und Auswahlverfahren\n    ### Studiengänge aus der Abteilung Design und Medien\n    ### Studiengänge aus der Abteilung Information und Kommunikation\n    ### Übersicht aller Fristen und Informationen zur Bewerbung für einen Bachelorstudiengang\n    ### Übersicht aller Fristen und Informationen zur Bewerbung für einen Masterstudiengang"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 07 2010 › 06 Regelung der Verantwortlichkeiten — Regelung der Verantwortlichkeiten für den Arbeitsschutz an der FHH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/06_Regelung_der_Verantwortlichkeiten.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Regelung der Verantwortlichkeiten für den Arbeitsschutz an der FHH\n  ## Inhaltsverzeichnis\n  ## 1. Grundsätzliches\n  ## Verantwortung bei der Leitung und den Vorgesetzten\n  ## Verantwortung in Einzelleitungsbereichen\n  ## Jeder trägt Verantwortung für das, was er maßgeblich beeinflusst.\n  ## 2. Umfang der Verantwortung\n  ## 2.1 Verantwortung einer/eines jeden Vorgesetzten\n  ## 2.2 Verantwortung in Einzelleitungsbereichen\n  ## 2.3 Verantwortungsumfang der Präsidentin oder des Präsidenten\n  ## 3. Pflichten der Beschäftigten\n  ## 4. Delegation\n  ## 5. Unterstützung durch die Fachkraft für Arbeitssicherheit und den Betriebsarzt\n  ## 6. Haftung"
+    },
+    {
+      "nr": 9,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "fakultaet": "f1",
+      "struktur": "# Prüfungsverwaltung der Fakultät I\n  ## Ansprechpersonen\n    ### Stephan Rittmüller\n  ## Sprechzeiten\n    ### Yvonne Scholz\n  ## Sprechzeiten\n    ### Oxana Schreiber\n  ## Sprechzeiten\n  ## Formulare/Prüfungsangelegenheiten"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.16258,
+      "id": "599c1989-90f0-5913-b2bc-6ad9f1a2904f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "section_heading": "**§ 15 Einstufungsprüfung**",
+      "chunk_index": 144,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 14 Zusatzprüfungen**  \n- (1) Die Studierenden können sich mit Genehmigung des Prüfungsausschusses in weiteren als den in den Anlagen 5, 6 (a bzw. b) und 7 (a bzw. b) vorgeschriebenen Pflicht- und Wahlpflichtfächern einer Prüfung unterziehen (Zusatzprüfungen).  \nPrüfO BA und BA hon. Journalist"
+    },
+    {
+      "rang": 2,
+      "score": 1.07457,
+      "id": "e625553a-0ba0-5c37-8cfd-4d6f7bdf5dd6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "section_heading": "**Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)** > _§ 15 Einstufungspr ¨ufung_",
+      "chunk_index": 76,
+      "text_vollstaendig": true,
+      "auszug": "## _§ 14 Zusatzpr ¨ufungen_  \n(1) Die Studierenden k ¨onnen sich in weiteren als den im Zweiten Teil vorgeschriebenen F¨achern (Wahlf¨achern) einer Pr ¨ufung unterziehen (Zusatzpr ¨ufungen).  \n(2) Das Ergebnis der Zusatzpr ¨ufungen wird auf Antrag in das Zeugnis aufgenommen, jedoch bei der Festsetzu"
+    },
+    {
+      "rang": 3,
+      "score": 1.05454,
+      "id": "84017c8b-3f29-5ede-b398-2dd8923aacd8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "section_heading": "§ 15 Einstufungsprüfung",
+      "chunk_index": 44,
+      "text_vollstaendig": false,
+      "auszug": "Diplomprüfungsordnung Wirtschaftsingenieurwesen in der Fassung vom 2.10.2002  \nNr. 5 vom 4.10.2002             Verkündungsblatt der Fachhochschule Hannover `11`  \n(2) Das Ergebnis der Zusatzprüfungen wird auf Antrag in das Zeugnis aufgenommen, jedoch bei der Festsetzung der Gesamtnote nicht mit einb"
+    },
+    {
+      "rang": 4,
+      "score": 1.02969,
+      "id": "0b01670f-ad98-545f-a16f-8e1ac333dede",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "section_heading": "**§ 15** > **Prüfungsvorleistungen**",
+      "chunk_index": 26,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 15**\n\n## **Prüfungsvorleistungen**  \n- (1) Alle Formen möglicher Prüfungsvorleistungen und mögliche Notenauswirkungen sind den Studierenden zu Vorlesungsbeginn bekannt zu geben.  \n- (2) Verpflichtende Prüfungsvorleistungen sind Voraussetzungen für die Zulassung zu einer Prüfung. Sie werden vo"
+    },
+    {
+      "rang": 5,
+      "score": 0.98334,
+      "id": "5b533e01-3c84-5632-9e1a-133c85b20527",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "section_heading": "**Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)** > _§ 3 Dauer und Gliederung des Studiums, Freiversuch_",
+      "chunk_index": 32,
+      "text_vollstaendig": true,
+      "auszug": "(5) Erstmals nicht bestandene Pr ¨ufungsleistungen gelten als nicht unternommen, wenn sie sp¨atestens zu den regul¨aren in der Pr ¨ufungsordnung festgelegten Pr ¨ufungsterminen abgelegt werden (Freiversuch). Im Rahmen des Freiversuchs bestandene Pr ¨ufungsleistungen des Hauptstudiums k ¨onnen zur No"
+    },
+    {
+      "rang": 6,
+      "score": 0.95203,
+      "id": "746f7695-e51a-5c22-a08f-30d4e15ad39a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 VIF Studien Modulhandbuch PO2020 240301",
+      "section_heading": "2.3 Studienvoraussetzungen",
+      "chunk_index": 35,
+      "text_vollstaendig": false,
+      "auszug": "Der Ablauf der Bewerbung um einen Studienplatz ist auf folgender Seite beschrieben: https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/  \nBei der Bewerbung auf einen Studienplatz sind Termine und spezielle Vorschriften wie die Zulassungsordnung zu beachten. Der Bewerbungss"
+    },
+    {
+      "rang": 7,
+      "score": 0.95203,
+      "id": "1583f152-9c90-5d38-8249-aa58cfe8ec3a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 VIF Studienhandbuch VIF PO 2025 ohne MHB 25 10 07",
+      "section_heading": "2.3 Studienvoraussetzungen",
+      "chunk_index": 33,
+      "text_vollstaendig": false,
+      "auszug": "Der Ablauf der Bewerbung um einen Studienplatz ist auf folgender Seite beschrieben: https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/  \nBei der Bewerbung auf einen Studienplatz sind Termine und spezielle Vorschriften wie die Zulassungsordnung zu beachten. Der Bewerbungss"
+    },
+    {
+      "rang": 8,
+      "score": 0.9261,
+      "id": "87011de0-f2e7-5081-8a51-0d486eabf675",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "section_heading": "**`§7`** > **`Inkrafttreten`**",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "**Grundlagen 2**|**6**|**K90**|**6/7**|Fähigkeit zur Anwendung der wichtigsten\nBegriffe und Methoden zur Behandlung\nelektrischer und magnetischer Felder|Kenntnisse EGR1|  \n1. Änderung des Besonderen Teils der Prüfungsordnung für den Bachelor-Studiengang Mechatronik der Fakultät I – Elektro- und Info"
+    },
+    {
+      "rang": 9,
+      "score": 0.89118,
+      "id": "efa516c2-92df-5534-adf9-dc7d162f87b1",
+      "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte/aufnahme-bewerbungs-und-auswahlverfahren",
+      "title_anzeige": "Aufnahme-, Bewerbungs- und Auswahlverfahren",
+      "section_heading": "Aufnahme-, Bewerbungs- und Auswahlverfahren",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Aufnahme-, Bewerbungs- und Auswahlverfahren\nAn der Fakultät III gibt es 15 Bachelor- und vier Masterstudiengänge. Auf dieser Seite finden Sie Informationen, wie Sie sich bewerben können."
+    },
+    {
+      "rang": 10,
+      "score": 0.88779,
+      "id": "79d2c85f-9808-5320-a1f2-bd570969e46d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/06_Regelung_der_Verantwortlichkeiten.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2010 › 06 Regelung der Verantwortlichkeiten — Regelung der Verantwortlichkeiten für den Arbeitsschutz an der FHH",
+      "section_heading": "**2. Umfang der Verantwortung** > **2.1 Verantwortung einer/eines jeden Vorgesetzten**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **2. Umfang der Verantwortung**\n## **2.1 Verantwortung einer/eines jeden Vorgesetzten**  \nJede Führungskraft ist für die ihr unterstellten Beschäftigten und die anvertrauten Studierenden zuständig und verantwortlich. Sie trägt die Verantwortung für Sicherheit und Gesundheit dieser Personen auch d"
+    },
+    {
+      "rang": 11,
+      "score": 0.88096,
+      "id": "251de16c-6ff2-5d1c-be86-edfb9fdf1c13",
+      "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-informatik/kooperationsmoeglichkeiten-fuer-unternehmen-und-organisationen",
+      "title_anzeige": "Kooperationsmöglichkeiten für Unternehmen und Organisationen (Abt. Informatik)",
+      "section_heading": "Kooperationsmöglichkeiten für Unternehmen und Organisationen (Abt. Informatik) > Zum Ablauf von Abschlussarbeiten",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Zum Ablauf von Abschlussarbeiten\nFalls Sie in Ihrer Firma oder Organisation eine Aufgabenstellung haben, die von einem Studenten oder einer Studentin der Angewandten Informatik oder der Mediendesigninformatik als Bachelor- oder Master-Arbeit bearbeitet werden soll, können Sie jederzeit eine schri"
+    },
+    {
+      "rang": 12,
+      "score": 0.86115,
+      "id": "b35e7015-9a83-590a-80f5-b6ac1b7fe889",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "section_heading": "**§ 1 Studienbeginn** > _§_ **6 Anrechnung von Studienzeiten, Studienund Pr ¨ufungsleistungen, Quereinsteiger**",
+      "chunk_index": 148,
+      "text_vollstaendig": false,
+      "auszug": "(6) F ¨ur Studierende, die in ein h ¨oheres Semester zugelassen werden (Quereinsteiger), gilt eine Pr ¨ufung als Freiversuch, wenn sie den erstm ¨oglichen Pr ¨ufungstermin nach dem erstm ¨oglichen Besuch der Lehrveranstaltung wahrnehmen."
+    },
+    {
+      "rang": 13,
+      "score": 0.82967,
+      "id": "f1d5ca7a-1954-5ae4-ba41-165864c668ef",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/HsH_FIII-Campusordnung-20201208.pdf",
+      "title_anzeige": "f3 › Fakultaet III › HsH FIII Campusordnung 20201208",
+      "section_heading": "**Campusordnung der Fakultät III – Medien, Information und Design der Hochschule Hannover**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Campusordnung der Fakultät III – Medien, Information und Design der Hochschule Hannover**  \nAuf der Grundlage der Richtlinie zur Ausübung des Hausrechts an der Hochschule Hannover (Hausordnung) der Hochschule Hannover vom 15. April 2016 (Verkündungsblatt Nr. 04/2016) gibt sich die Fakultät III "
+    },
+    {
+      "rang": 14,
+      "score": 0.80829,
+      "id": "a79b199d-7d82-5fd9-9f38-f9f6153a22a0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/07-2003/Verkuendungsblatt_07_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2003 › Verkuendungsblatt 07 2003 — Verkündungsblatt",
+      "section_heading": "Aufbau der Prüfungen, Arten der Prüfungsleistungen",
+      "chunk_index": 54,
+      "text_vollstaendig": false,
+      "auszug": "(8) Eine experimentelle Arbeit umfasst die theoretische Vorbereitung, den Aufbau und die Durchführung eines Experiments sowie die schriftliche Darstellung der Arbeitsschritte, des Versuchsablaufs und der Ergebnisse des Experiments und deren kritische Würdigung. Absatz 5 Sätze 2 bis 4 gilt entspreche"
+    },
+    {
+      "rang": 15,
+      "score": 0.80743,
+      "id": "6fce6f27-e8f8-548b-8d45-414900237a36",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/Matchup/MAtCHuP_Zwischenbericht_Mai_2018.pdf",
+      "title_anzeige": "f5 › Forschung › Matchup › MAtCHuP Zwischenbericht Mai 2018 — I. Zwischenbericht",
+      "section_heading": "**15 Perspektiven und weitere Projektschritte**",
+      "chunk_index": 165,
+      "text_vollstaendig": false,
+      "auszug": "## **15 Perspektiven und weitere Projektschritte**  \n**Die „Projektphase II: Analyse hochschuldidaktischer Konzepte“** wurde mit einzelnen Fragen der oben beschriebenen Online-Kurzbefragung zu hochschuldidaktischen Formaten, Konzepten und Methoden (zu 217 Studienangeboten an bundesdeutschen Hochschu"
+    },
+    {
+      "rang": 16,
+      "score": 0.80658,
+      "id": "e43e717b-04f6-5f9b-9195-dcb8c9782aa4",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/012-MH-BSW-PO-2020-26.02.2021-Online.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 012 MH BSW PO 2020 26.02.2021 Online",
+      "section_heading": "**1. Studienabschnitt**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **1. Studienabschnitt**  \nM 01 – Einführung in Soziale Arbeit und Erstsemesterprojekt (15 CP)  \nM 02 – Fachwissenschaftliche Grundlagen der Sozialen Arbeit I (15 CP)  \nM 03 – Gesellschaftliche Bedingungen Sozialer Arbeit I (10 CP)  \nM 04 – Normative Grundlagen der Sozialen Arbeit I (15 CP)  \nM 05"
+    },
+    {
+      "rang": 17,
+      "score": 0.80658,
+      "id": "d1c8e100-c135-5bff-9fef-b5eabfc27e57",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/016-MH-BSW-PO-2021-SoSe-2023-Stand-22.03.2023-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 016 MH BSW PO 2021 SoSe 2023 Stand 22.03.2023 web",
+      "section_heading": "**1. Studienabschnitt**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **1. Studienabschnitt**  \nM 01 – Einführung in Soziale Arbeit und Erstsemesterprojekt (15 CP)  \n- M 02 – Fachwissenschaftliche Grundlagen der Sozialen Arbeit I (15 CP)  \nM 03 – Gesellschaftliche Bedingungen Sozialer Arbeit I (10 CP)  \nM 04 – Normative Grundlagen der Sozialen Arbeit I (15 CP)  \nM "
+    },
+    {
+      "rang": 18,
+      "score": 0.78588,
+      "id": "d9692742-3d56-553c-8a37-9b1392473dae",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/01-2008/Verkuendungsblatt_01-2008.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2008 › Verkuendungsblatt 01 2008 — Verkündungsblatt",
+      "section_heading": "**Allgemeine Vorschriften** > **(15) Ein Portfolio soll die selbst gesteuerten und eigenverantwortlichen Lernprozesse der Studierenden zur Erreichung der Kompetenzziele eines Moduls widerspiegeln. Die Qualität des Portfolios orientiert sich an der strukturierten, begründeten und reflektierten Auswahl**",
+      "chunk_index": 79,
+      "text_vollstaendig": false,
+      "auszug": "**Der Wahlpflichtteil enthält eine von der zu prüfenden Person bestimmte Auswahl an Materialien (z. B. Recherchen, Protokolle, Referate, Arbeitsentwürfe etc.), mit der die zu prüfende Person ihre Lernentwicklung im Blick auf die Kompetenzziele des Moduls dokumentiert**  \n(16) Die Aufgabe für die Prü"
+    },
+    {
+      "rang": 19,
+      "score": 0.77588,
+      "id": "e5f94fa7-5c2d-5de8-a7db-cf1146d545a9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/01_Praktikumsordnung_Heilpaedagogik_-_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2013 › 01 Praktikumsordnung Heilpaedagogik 2013",
+      "section_heading": "**§ 15** > **Kolloquium**",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 15**\n## **Kolloquium**  \n(1) Am Prüfungsgespräch (Kolloquium) nehmen zwei Lehrende und die Prüfungskandidatin oder der Prüfungskandidat teil. Sie oder er ist berechtigt, eine prüfende Person (§ 10 Satz 3 SozHeilVO) vorzuschlagen.  \n(2) Die Prüfungskandidatin oder der Prüfungskandidat legt nac"
+    },
+    {
+      "rang": 20,
+      "score": 0.77455,
+      "id": "789889dd-ea9f-5a83-a498-b5c8129b825f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/023-MH-BSW-PO-2026-Stand-30.06.2026-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 023 MH BSW PO 2026 Stand 30.06.2026 web",
+      "section_heading": "**1. Studienabschnitt**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **1. Studienabschnitt**  \n- M 01 – Einführung in Soziale Arbeit und Erstsemesterprojekt (15 CP)  \n- M 02 – Fachwissenschaftliche Grundlagen der Sozialen Arbeit (15 CP)  \n- M 03 – Gesellschaftliche Bedingungen Sozialer Arbeit I (10 CP)  \n- M 04 – Normative Grundlagen der Sozialen Arbeit I (15 CP) "
+    },
+    {
+      "rang": 21,
+      "score": 0.77455,
+      "id": "1bbbacb7-1604-5dfb-b09b-44240784b030",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 022 MH BSW PO 2026 Stand 16.03.2026 web",
+      "section_heading": "**1. Studienabschnitt**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **1. Studienabschnitt**  \nM 01 – Einführung in Soziale Arbeit und Erstsemesterprojekt (15 CP)  \n- M 02 – Fachwissenschaftliche Grundlagen der Sozialen Arbeit (15 CP)  \n- M 03 – Gesellschaftliche Bedingungen Sozialer Arbeit I (10 CP)  \n- M 04 – Normative Grundlagen der Sozialen Arbeit I (15 CP)  \n"
+    },
+    {
+      "rang": 22,
+      "score": 0.76439,
+      "id": "c87f61ab-10aa-5d15-8177-1f228fbbb0ec",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/Modulhandbuch_HBI_2025-09-01.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik berufsintegrierend HBI › Modulhandbuch HBI 2025 09 01 — Modulhandbuch des",
+      "section_heading": "**Allgemeine Informationen zum Studiengang**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **Allgemeine Informationen zum Studiengang**  \nDer berufsbegleitende Bachelorstudiengang Heilpädagogik – Inklusive Bildung und Begleitung (HBI) besteht aus zwei Studienabschnitten. Der erste Studienabschnitt (Semester 1 bis 3, Module 101-107, Umfang 90 CP) wird den Studierenden gemäß den geltende"
+    },
+    {
+      "rang": 23,
+      "score": 0.76392,
+      "id": "b118990f-7d63-5b3d-a268-70ff948fda5f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/02_Berufspraktikumsordnung_Soziale_Arbeit_-_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2013 › 02 Berufspraktikumsordnung Soziale Arbeit 2013",
+      "section_heading": "**§ 15** > **Kolloquium**",
+      "chunk_index": 26,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 15**\n## **Kolloquium**  \n(1) Am Prüfungsgespräch (Kolloquium) nehmen zwei Lehrende und die Prüfungskandidatin oder der Prüfungskandidat teil. Sie oder er ist berechtigt, eine prüfende Person(§ 10 Satz 3 VO) vorzuschlagen.  \n(2) Die Prüfungskandidatin oder der Prüfungskandidat legt nach Abspra"
+    },
+    {
+      "rang": 24,
+      "score": 0.7623,
+      "id": "53fd68bb-bff0-594f-afaf-98cb49f6be07",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "section_heading": "**§ 1 Studienbeginn** > _§_ **8 Aufbau der Pr ¨ufungen, Arten der Pr ¨ufungsleistungen, Semesterarbeiten**",
+      "chunk_index": 154,
+      "text_vollstaendig": false,
+      "auszug": "5. Seminarleistung (Absatz 7),  \n6. Erstellung und Dokumentation von Rechnerprogrammen (Absatz 8),  \n7. experimentelle Arbeit (Absatz 9),  \n8. Klausur mit experimenteller Arbeit (Absatz 10).  \n9. m ¨undliche Pr ¨ufung mit experimenteller Arbeit (Absatz 11)  \n(2) Die Studierenden sollen auch bef¨ahig"
+    },
+    {
+      "rang": 25,
+      "score": 0.75674,
+      "id": "e6f48a7c-1b89-582d-9093-f35d6493f930",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw",
+      "title_anzeige": "Soziale Arbeit - grundständig (BSW)",
+      "section_heading": "Kurzübersicht > Studienverlauf & -inhalt",
+      "chunk_index": 44,
+      "text_vollstaendig": false,
+      "auszug": "Ein erfolgreicher **Studienabschluss** erfordert **180 CP**(Credit Points) und setzt sich aus den folgenden Modulen (M) zusammen:\n* **1. Studienabschnitt (1. bis 3. Semester)**\nM 01 – Einführung in Soziale Arbeit und Erstsemesterprojekt (15 CP)\nM 02 – Fachwissenschaftliche Grundlagen der Sozialen Ar"
+    },
+    {
+      "rang": 26,
+      "score": 0.75638,
+      "id": "14fe7028-f6bd-5693-8bc2-96438be47520",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Ralf_Hoburg__Altera_-_Erfahrungen_mit_dem_Anderen.pdf",
+      "title_anzeige": "f5 › UEber uns › Personen › Ralf Hoburg Altera Erfahrungen mit dem Anderen — Abschlußbericht",
+      "section_heading": "„Es war eine andere Welt...“ Motivlagen der Teilnahme",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "Die qualitativen Interviews, die im Rahmen der Projektevaluation von Altera durchgeführt wurden, weisen vor allem auf den Feldern „Abwechslung der Alltagsroutine“ und „Soziales Engagement“ eine ähnliche Motivlage auf wie die Pilotstudie von Janning zu erkennen gibt. Zunächst aber liefern auch die Da"
+    },
+    {
+      "rang": 27,
+      "score": 0.75289,
+      "id": "366774c0-88d4-5b91-bee3-1e6b9f6365d8",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 017 MH BRS PO 2026 WiSe 26 27 Stand 17.06.2026 web — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **Modulübersicht mit Teilmodulen – 1. Studienabschnitt (1.‒3. Semester)**",
+      "chunk_index": 54,
+      "text_vollstaendig": false,
+      "auszug": "## **Modulübersicht mit Teilmodulen – 1. Studienabschnitt (1.‒3. Semester)**  \n|**Modul**|**M 1:**|**M 2:**|**M 3:**|**M 4:**|**M 6:**|**M 22**|**M 23:**|**M 15:**|\n|---|---|---|---|---|---|---|---|---|\n||**Einführung in das**|**Fachwissen-**|**Gesellschaftliche**|**Normative**|**Handlungsfelder,**|"
+    },
+    {
+      "rang": 28,
+      "score": 0.75025,
+      "id": "adf31c49-c748-5411-8413-5367d42ac88e",
+      "source_url": "https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-hardware-in-the-loop-systeme",
+      "title_anzeige": "Labor für Echtzeitsimulation und Hardware-in-the-Loop Systeme",
+      "section_heading": "Labor für Echtzeitsimulation und Hardware-in-the-Loop Systeme > Versuche > Labor für Echtzeitsimulation und Hardware-in-the-Loop Systeme",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "[ Versuch 4: FRT Echtzeitsimulation einer VSC-HVDC mit angeschlossenem Windpark ](https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-hardware-in-the-loop-systeme \"Versuch 4: FRT Echtzeitsimulation einer VSC-HVDC mit angeschlossenem Windpark\")\n[ Versuch 5: PHiL-Simulatio"
+    },
+    {
+      "rang": 29,
+      "score": 0.74476,
+      "id": "b7e282a7-da30-5b1d-b245-992d9652c1dc",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_MTV_20222.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › ZulO MTV 20222 — Ordnung über den Zugang und die Zulassung",
+      "section_heading": "**§ 3** > **Studienbeginn und Bewerbungsfrist**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Studienbeginn und Bewerbungsfrist**  \n- (1) Der Master-Studiengang Fernsehjournalismus und Dokumentarfilm beginnt jährlich zum Wintersemester.  \n- (2) Die schriftliche Bewerbung zum hochschuleigenen Auswahlverfahren muss mit den gem. Absatz 3 erforderlichen Unterlagen in der Regel bi"
+    },
+    {
+      "rang": 30,
+      "score": 0.74221,
+      "id": "deb14dc3-2063-52be-bd16-189340743733",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/03-2018/06_PO-BPR_20172.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2018 › 06 PO BPR 20172 — Prüfungen",
+      "section_heading": "**mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design, Abteilung Information und Kommunikation der Hochschule Hannover** > **§ 7** > **mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design, Abteilung Information und Kommunikation der Hochschule Hannover** > **Inkrafttreten**",
+      "chunk_index": 19,
+      "text_vollstaendig": false,
+      "auszug": "**PF/WP**|**Arten der**\n**Prüfungsleistung**|**Gew. **|**Sem.**|**SWS**|**CrTM**||\n|BPR-230|Sprache und Kreativität|WP|18|18|BPR-230-01|Textsorten & Textanalyse|WP|BÜ, R, H, P|0,5|5|2|3||\n||||||BPR-230-02|Kommunikation mit Bild und Film|WP|||5|3|4||\n||||||BPR-230-03|Content(Strategien & Kanäle)|WP||"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+        "score": 0.49457
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+        "score": 0.48459
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+        "score": 0.48232
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+        "score": 0.4795
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+        "score": 0.47425
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+        "score": 0.46039
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/07-2003/Verkuendungsblatt_07_2003.pdf",
+        "score": 0.4544
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/01-2008/Verkuendungsblatt_01-2008.pdf",
+        "score": 0.45186
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/01_Praktikumsordnung_Heilpaedagogik_-_2013.pdf",
+        "score": 0.45073
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/02_Berufspraktikumsordnung_Soziale_Arbeit_-_2013.pdf",
+        "score": 0.44937
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+        "score": 0.44919
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/03-2018/06_PO-BPR_20172.pdf",
+        "score": 0.44691
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+        "score": 0.44681
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+        "score": 0.44663
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/07-2025/hsh_verkuendungsblatt_nr_07_2025.pdf",
+        "score": 0.44643
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/08-2024/Leitlinie_Pruefungsordnungen_mit_Anlage_Muster-ATPO_2024.pdf",
+        "score": 0.44601
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/hsh_verkuendungsvlatt_nr_10_2024.pdf",
+        "score": 0.44508
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/04_FIV_ATPO_2025_mit_Anhang_VB.pdf",
+        "score": 0.44499
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/09-2018/02_BIM_BT_PO_mit_Anlagen_20182.pdf",
+        "score": 0.44404
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PO_BIM_2014.pdf",
+        "score": 0.44363
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/ATPO_2015.pdf",
+        "score": 0.4428
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/Pruefungsordnung_HP_allg_Teil_01-ATPO_2015_mit_Anlagen_A1-A3.pdf",
+        "score": 0.4428
+      },
+      {
+        "rang": 23,
+        "source_url": "http://itr.wp.hs-hannover.de/wp-content/uploads/2022/03/Allgemeiner_Teil_der_PO_2015.pdf",
+        "score": 0.4428
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/01-ATPO_2015_mit_Anlagen_A1-A3.pdf",
+        "score": 0.4428
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/04-2007/Verkuendungsblatt_04_2007.pdf",
+        "score": 0.44269
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/04-2005/Verkuendungsblatt_04_2005.pdf",
+        "score": 0.44243
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/07-2017/04_PO_BIM.pdf",
+        "score": 0.44214
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+        "score": 0.44193
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-VIF-PO20252-AEnderung_Verkuendungsblatt.pdf",
+        "score": 0.4408
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/04_FIV_ATPO_2025_mit_Anhang_VB.pdf",
+        "score": 0.44069
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/02_ATPO_F3__2024.pdf",
+        "score": 0.44067
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Allgemeine_Teil_Pruefungsordnung_BRS/Allgemeiner_Teil_PO_BRS_Stand_11_2011.pdf",
+        "score": 0.43994
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/03-2020/01_PO_IIM_FII_20202.pdf",
+        "score": 0.43773
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/07_IBS_AO_mit_Anlagen_20182.pdf",
+        "score": 0.43723
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+        "score": 0.43714
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_MDM_PO_2022_23.pdf",
+        "score": 0.43676
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/VEU/2020_Uebergang-VEU-WS2016-WS2019-final-1-Abschnitt.pdf",
+        "score": 0.43669
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/PO_MBD.pdf",
+        "score": 0.43655
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/04-2007/Verkuendungsblatt_04_2007.pdf",
+        "score": 0.43588
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/01-2014/03-Bes._Teil_IBS_vom_16.12.2013.pdf",
+        "score": 0.43588
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Ordnungen/18-10-23-Nr._8.pdf",
+        "score": 0.43567
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/F2_BA_WIM_BTPO_2025-07-15.pdf",
+        "score": 0.43529
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PO_BMI_2017.pdf",
+        "score": 0.43522
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/05_FV_ATPO_2025_mit_Anhang_VB.pdf",
+        "score": 0.4352
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+        "score": 0.43488
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+        "score": 0.43398
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+        "score": 0.43337
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_IIM_BTPO_2020-05-04.pdf",
+        "score": 0.43312
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Forschung/Konferenzen/NKIF2015/Garmann_Dennert-Moeller_NKIF2015Startprojekt_Alle.pdf",
+        "score": 0.43268
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/19-08-31-12_F_IV_PO_MDI_2019.pdf",
+        "score": 0.43236
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+        "score": 0.62586
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+        "score": 0.56553
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+        "score": 0.55992
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/04-2007/Verkuendungsblatt_04_2007.pdf",
+        "score": 0.55281
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/04-2007/Verkuendungsblatt_04_2007.pdf",
+        "score": 0.54635
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+        "score": 0.54102
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+        "score": 0.53431
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Bewerbung_und_Studieninteressierte/Studienvoraussetzungen_Fak_III_DM_Stand_12-2024_DE.pdf",
+        "score": 0.53188
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/07-2003/Verkuendungsblatt_07_2003.pdf",
+        "score": 0.52854
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Besondere_PO_2005.pdf",
+        "score": 0.52782
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+        "score": 0.52643
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/Archiv/Modulverzeichnis_BIN_MIN_2013.pdf",
+        "score": 0.51439
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/07-2017/02_F_3_DM_kuenstlerischen_Befaehigung.pdf",
+        "score": 0.51351
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Aufnahmeordnung_2022_DM.pdf",
+        "score": 0.51038
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+        "score": 0.5064
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/20-09-28-Hinweise_2._Studienabschnitt_BIS.pdf",
+        "score": 0.50425
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/02-2014/02-Bes._Teil_BBI_Endversion_vom_09.12.13.pdf",
+        "score": 0.50386
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+        "score": 0.50208
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+        "score": 0.49913
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/MAB-AM-WS2016-Modulhandbuch.pdf",
+        "score": 0.49523
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/MAB-PS-WS2016-Modulhandbuch.pdf",
+        "score": 0.49523
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/WIM-WS2016-Modulhandbuch.pdf",
+        "score": 0.49516
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/10-2015/04_MPO_ESA_mit_Anlage_B3_201509.pdf",
+        "score": 0.4857
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PO_BIMC_2014.pdf",
+        "score": 0.48567
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2024/F4_VIF_PO.pdf",
+        "score": 0.48363
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2024/01_Allgemeiner_Teil_der_Pruefungsordnung_fuer_die_zentralen_Studiengaenge.pdf",
+        "score": 0.48345
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+        "score": 0.48315
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2024/hsh_verkuendungsblatt_nr_04_2024.pdf",
+        "score": 0.4829
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Forschungsstrategie_der_Hochschule_Hannover.pdf",
+        "score": 0.48195
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/02-2014/02-Bes._Teil_BBI_Endversion_vom_09.12.13.pdf",
+        "score": 0.48184
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/01-2014/03-Bes._Teil_IBS_vom_16.12.2013.pdf",
+        "score": 0.48181
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Dokumente/Ordnungen_Mumba/Mumba_BT_PO_2024.pdf",
+        "score": 0.47921
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/Neufassung_ATPO_No_04_2025__from_28.02.2025.pdf",
+        "score": 0.4787
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/04-2014/02-Ordnung_Nachweis_kuenstlerischen_Befaehigung_DM.pdf",
+        "score": 0.47777
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/PO_BTPO_BIN_2017.pdf",
+        "score": 0.47739
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/07-2016/05_Genehmigung_EWI_20102_gesamt.pdf",
+        "score": 0.47525
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/TNR_20102.pdf",
+        "score": 0.47461
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/MED-WS2010-Modulhandbuch.pdf",
+        "score": 0.47451
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/07-2022/01_Zulassungsordnung_Abtlg_DM_2022.pdf",
+        "score": 0.47428
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Aufnahmeordnung_2022_DM.pdf",
+        "score": 0.47427
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/08-2014/03_Besonderer_Teil_der_Pruefungsordnung_BMI.pdf",
+        "score": 0.47427
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Dokumente/Ordnungen_Mumba/Mumba_01_Allgemeiner_Teil_der_Pruefungsordnung_fuer_die_zentralen_Studiengaenge.pdf",
+        "score": 0.47189
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+        "score": 0.4716
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/09_BBI_AO_mit_Anlagen_20182.pdf",
+        "score": 0.47118
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PO_BVM_2018.pdf",
+        "score": 0.47004
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/MTD-WS2019-Modulhandbuch.pdf",
+        "score": 0.46908
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Modulhandbuch_SBW/Modulhandbuch_ab_SoSe26_Webversion_neu.pdf",
+        "score": 0.46906
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+        "score": 0.46872
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/VEU/PO-VEU-2019-Verkuendungsblatt_Nr._04.2019_vom_31.08.2019.pdf",
+        "score": 0.46819
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_V/MLP_LBS_Sprint_FR_Pflege_Pruefungsinformationen_16.10.2025_DS.pdf",
+        "score": 0.46686
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+        "score": 17.65397
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+        "score": 17.65397
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 17.44342
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte/aufnahme-bewerbungs-und-auswahlverfahren",
+        "score": 17.15983
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/06_Regelung_der_Verantwortlichkeiten.pdf",
+        "score": 17.13233
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-informatik/kooperationsmoeglichkeiten-fuer-unternehmen-und-organisationen",
+        "score": 17.07688
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/HsH_FIII-Campusordnung-20201208.pdf",
+        "score": 16.66036
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/Matchup/MAtCHuP_Zwischenbericht_Mai_2018.pdf",
+        "score": 16.4797
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/012-MH-BSW-PO-2020-26.02.2021-Online.pdf",
+        "score": 16.47279
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/016-MH-BSW-PO-2021-SoSe-2023-Stand-22.03.2023-web.pdf",
+        "score": 16.47279
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+        "score": 16.21271
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/023-MH-BSW-PO-2026-Stand-30.06.2026-web.pdf",
+        "score": 16.21271
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/Modulhandbuch_HBI_2025-09-01.pdf",
+        "score": 16.13024
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw",
+        "score": 16.06812
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Ralf_Hoburg__Altera_-_Erfahrungen_mit_dem_Anderen.pdf",
+        "score": 16.06518
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 16.03684
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-hardware-in-the-loop-systeme",
+        "score": 16.01534
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_MTV_20222.pdf",
+        "score": 15.97081
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/04_ZulO_MTV.pdf",
+        "score": 15.8946
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/008-Modulhandbuch-BRS-PO-2018-2019-09-02-Online.pdf",
+        "score": 15.85343
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/011-MH-BRS-PO-2021-31.08.2021-Online.pdf",
+        "score": 15.85343
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/013-MH-BSW-PO-2021-01.09.2021-Online.pdf",
+        "score": 15.79495
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/012_MH-BRS-PO-2021-SoSe-2022-Stand-09.03.2022.pdf",
+        "score": 15.76286
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/014-MH-BRS-PO-2021-WiSe-23-24-Stand-21.08.2023-web.pdf",
+        "score": 15.76286
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/011-MH-BRS-PO-2021-31.08.2021-Online.pdf",
+        "score": 15.76286
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/013-MH-BRS-PO-2021-WiSe-2022-23-Stand-28.07.2022-online.pdf",
+        "score": 15.76286
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/012-MH-BSW-PO-2020-26.02.2021-Online.pdf",
+        "score": 15.74354
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/010_MH-BRS-PO-2020-WiSe-2020-21-Stand-11.08.2020-Online.pdf",
+        "score": 15.65314
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/010_MH-BRS-PO-2020-WiSe-2020-21-Stand-11.08.2020-Online.pdf",
+        "score": 15.64192
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 15.51859
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/007-Modulhandbuch-BRS-PO-2018-2019-03.pdf",
+        "score": 15.50392
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/012-MH-BSW-PO-2020-26.02.2021-Online.pdf",
+        "score": 15.48413
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/014-MH-BSW-PO-2021-SoSe-2022-Stand-20.04.2022-web.pdf",
+        "score": 15.48413
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/05-2011/02-Pruefungsordnung_DM_2009___2010.pdf",
+        "score": 15.45587
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/008-Modulhandbuch-BRS-PO-2018-2019-09-02-Online.pdf",
+        "score": 15.34085
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/19-07-01-Benutzerordnung-Richtlinien-v2.1.pdf",
+        "score": 15.3257
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f3.hs-hannover.de",
+        "score": 15.31467
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 15.19988
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/010_MH-BRS-PO-2020-WiSe-2020-21-Stand-11.08.2020-Online.pdf",
+        "score": 15.19988
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/012_MH-BRS-PO-2021-SoSe-2022-Stand-09.03.2022.pdf",
+        "score": 15.17833
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/014-MH-BRS-PO-2021-WiSe-23-24-Stand-21.08.2023-web.pdf",
+        "score": 15.15685
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/013-MH-BRS-PO-2021-WiSe-2022-23-Stand-28.07.2022-online.pdf",
+        "score": 15.15685
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/011-MH-BRS-PO-2021-31.08.2021-Online.pdf",
+        "score": 15.15685
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/015-MH-BRS-PO-2021-WiSe-24-25-Stand-13.08.2024-web.pdf",
+        "score": 15.15685
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/016-MH-BRS-PO-2021-WiSe-25-26-Stand-14.07.2025-web.pdf",
+        "score": 15.15685
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+        "score": 15.13953
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/006-Modulhandbuch-BRS-PO-2018-2018-09.pdf",
+        "score": 15.09249
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+        "score": 15.06405
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 15.05382
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/007-Modulhandbuch-BRS-PO-2018-2019-03.pdf",
+        "score": 14.91826
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 17.84182
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+        "score": 17.66672
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+        "score": 17.59882
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+        "score": 17.48722
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/008-Modulhandbuch-BRS-PO-2018-2019-09-02-Online.pdf",
+        "score": 17.19882
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/023-MH-BSW-PO-2026-Stand-30.06.2026-web.pdf",
+        "score": 17.10913
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 17.06691
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-informatik/kooperationsmoeglichkeiten-fuer-unternehmen-und-organisationen",
+        "score": 16.84446
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/011-MH-BRS-PO-2021-31.08.2021-Online.pdf",
+        "score": 16.66549
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/016-MH-BSW-PO-2021-SoSe-2023-Stand-22.03.2023-web.pdf",
+        "score": 16.6219
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/012-MH-BSW-PO-2020-26.02.2021-Online.pdf",
+        "score": 16.6219
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BIA_PO_2022_23.pdf",
+        "score": 16.60747
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f2.hs-hannover.de/forschung/labore/abt-maschinenbau/digitale-fabrik-und-produktentwicklung",
+        "score": 16.51563
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/012-MH-BSW-PO-2020-26.02.2021-Online.pdf",
+        "score": 16.49841
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/013-MH-BSW-PO-2021-01.09.2021-Online.pdf",
+        "score": 16.4581
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+        "score": 16.40915
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/023-MH-BSW-PO-2026-Stand-30.06.2026-web.pdf",
+        "score": 16.40915
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw",
+        "score": 16.3679
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 16.35274
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/TNR_20102.pdf",
+        "score": 16.33829
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/010_MH-BRS-PO-2020-WiSe-2020-21-Stand-11.08.2020-Online.pdf",
+        "score": 16.29912
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f1.hs-hannover.de/labor-nachhaltige-energiesysteme-und-smart-grids/labor-hardware-in-the-loop-systeme",
+        "score": 16.28623
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/013-MH-BRS-PO-2021-WiSe-2022-23-Stand-28.07.2022-online.pdf",
+        "score": 16.28382
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/011-MH-BRS-PO-2021-31.08.2021-Online.pdf",
+        "score": 16.28382
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/014-MH-BRS-PO-2021-WiSe-23-24-Stand-21.08.2023-web.pdf",
+        "score": 16.28382
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/012_MH-BRS-PO-2021-SoSe-2022-Stand-09.03.2022.pdf",
+        "score": 16.28382
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/Modulhandbuch_HBI_2025-09-01.pdf",
+        "score": 16.19927
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/010_MH-BRS-PO-2020-WiSe-2020-21-Stand-11.08.2020-Online.pdf",
+        "score": 16.1939
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/007-Modulhandbuch-BRS-PO-2018-2019-03.pdf",
+        "score": 16.13404
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+        "score": 16.12784
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+        "score": 16.05233
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/014-MH-BSW-PO-2021-SoSe-2022-Stand-20.04.2022-web.pdf",
+        "score": 15.93962
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/008-Modulhandbuch-BRS-PO-2018-2019-09-02-Online.pdf",
+        "score": 15.92605
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/Matchup/MAtCHuP_Zwischenbericht_Mai_2018.pdf",
+        "score": 15.90438
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 15.83282
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/012-MH-BSW-PO-2020-26.02.2021-Online.pdf",
+        "score": 15.82727
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/06_Regelung_der_Verantwortlichkeiten.pdf",
+        "score": 15.79832
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 15.73192
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/04_ZulO_MTV.pdf",
+        "score": 15.65922
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/010_MH-BRS-PO-2020-WiSe-2020-21-Stand-11.08.2020-Online.pdf",
+        "score": 15.60074
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/006-Modulhandbuch-BRS-PO-2018-2018-09.pdf",
+        "score": 15.59447
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/012_MH-BRS-PO-2021-SoSe-2022-Stand-09.03.2022.pdf",
+        "score": 15.58196
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/016-MH-BRS-PO-2021-WiSe-25-26-Stand-14.07.2025-web.pdf",
+        "score": 15.56323
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/014-MH-BRS-PO-2021-WiSe-23-24-Stand-21.08.2023-web.pdf",
+        "score": 15.56323
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/015-MH-BRS-PO-2021-WiSe-24-25-Stand-13.08.2024-web.pdf",
+        "score": 15.56323
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/013-MH-BRS-PO-2021-WiSe-2022-23-Stand-28.07.2022-online.pdf",
+        "score": 15.56323
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/011-MH-BRS-PO-2021-31.08.2021-Online.pdf",
+        "score": 15.56323
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_MTV_20222.pdf",
+        "score": 15.53579
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 15.48878
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/05-2011/02-Pruefungsordnung_DM_2009___2010.pdf",
+        "score": 15.44232
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.12,
+    "kandidaten_s": 0.01,
+    "arme_s": 2.0,
+    "gesamt_s": 4.12
+  },
+  "auswahl_begruendung": ""
+}

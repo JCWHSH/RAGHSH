@@ -1,0 +1,532 @@
+{
+  "fall": {
+    "id": "g12",
+    "case_type": "direct",
+    "question": "Wann bin ich im Doppelmaster an der RGU?",
+    "reference_answer": "Im zweiten Semester, dem Sommersemester.",
+    "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2023_Internat._Dokumente/2023-11-16_HsH_Master_of_Business_Development_MBD_Studienplan_151123_.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/MBD/2023-11-15_HsH_Master_of_Business_Development_MBD_Studienplan_151123_.pdf"
+    ],
+    "required_facts": [
+      "**2. Semester(Sommersemester), RGU**"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ internationales/fakt. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "vertreter_von": {
+      "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/MBD/2023-11-15_HsH_Master_of_Business_Development_MBD_Studienplan_151123_.pdf": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2023_Internat._Dokumente/2023-11-16_HsH_Master_of_Business_Development_MBD_Studienplan_151123_.pdf"
+    },
+    "source_policy_original": "exact_gold_source",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "d7d4f07f-f130-5759-9561-10769195b219",
+      "368f8241-a2e6-5549-84e4-c693b0f23d73"
+    ],
+    "beleg_punkte": [
+      "368f8241-a2e6-5549-84e4-c693b0f23d73"
+    ],
+    "beleg_urls": [
+      "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/MBD/2023-11-15_HsH_Master_of_Business_Development_MBD_Studienplan_151123_.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:56:44",
+  "dauer_s": 9.29,
+  "fehler": null,
+  "antwort": "Im Doppelmaster sind Sie im **zweiten Semester (Sommersemester)** an der RGU. Der Aufenthalt beginnt „around the 20th of January\" [1]. In dieser Phase absolvieren Sie an der RGU „your 60 credits (including Capstone)\" [1]. Anschließend findet das „3. Semester auch an der RGU\" statt? Die offiziellen Dokumente sind hierzu widersprüchlich: Der Studienplan weist das „3. Semester (Wintersemester), HsH\" [3] aus, während der Flyer angibt, das „3rd term also at RGU\" [2] stattfinde.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Unternehmensentwicklung (MBD)",
+      "url": "https://f4.hs-hannover.de/studium/master-studiengaenge/unternehmensentwicklung-mbd",
+      "fakultaet": "f4",
+      "struktur": "# Unternehmensentwicklung (MBD)\n  ## Business Development\n    ### Auf einen Blick\n# Kurzübersicht\n# Wandel als Erfolgsrezept\n  ## Pflichtmodule\n  ## Wahlpflichtmodule\n# Warum MBD an der HsH?\n# Bewerten Sie uns auf StudyCheck!\n  ## Veranstaltungen\n  ## FAQ\n  ## Ist MBD das Richtige für mich?\n  ## Fragen zum Zulassungs- und Bewerbungverfahren\n  ## Fragen zu Studienverlauf und Organisation\n  ## Fragen zum Double Degree\n  ## Kontakt\n    ### Studiengangsleiterin\n    ### Studiengangsassistentin\n    ### Social-Web\n  ## Veranstaltungen der Fakultät"
+    },
+    {
+      "nr": 2,
+      "titel": "f4 › BWL › MBD › 2023 11 15 HsH Master of Business Development MBD Studienplan 151123 — HSH- RGU Doppelmaster Studienplan",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/MBD/2023-11-15_HsH_Master_of_Business_Development_MBD_Studienplan_151123_.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## HSH- RGU Doppelmaster Studienplan"
+    },
+    {
+      "nr": 3,
+      "titel": "f4 › studium › internationales fakultaet iv › master doppelstudiengang 1",
+      "url": "https://f4.hs-hannover.de/studium/internationales-fakultaet-iv/master-doppelstudiengang-1",
+      "fakultaet": "f4",
+      "struktur": "# Doppelmaster-Studiengänge\n  ## Doppelmaster-Studiengang MBD – MSc International Business Management Robert Gordon University (RGU)\n  ## Doppelmaster-Studiengang Informatik (MIN) – Hiroshima City University (HCU), Japan\n  ## Kontakt\n    ### Unternehmensentwicklung (MBD)\n    ### Angewandte Informatik (MIN)"
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › BWL › Formulare Und Informationen › RGU Hannover Uni Flyer for students final 2022 corr — _COMPLETE YOUR DOUBLE DEGREE FROM HOCHSCHULE HANNOVER_",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Hannover_Uni_Flyer_for_students_final_2022_corr.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## COMPLETE YOUR DOUBLE DEGREE FROM HOCHSCHULE HANNOVER\n  ## INTRODUCING ABERDEEN CITY AND ROBERT GORDON UNIVERSITY\n  ## ABOUT THE COURSE\n  ## Grey – Hochschule Hannover\n  ## Purple – Course Robert Gordon University\n  ## Semester 1\n  ## Semester 2\n  ## ACCOMMODATION:\n  ## Semester 3\n  ## ENGLISH LANGUAGE REQUIREMENTS\n  ## FEES\n  ## HOW TO FIND US\n  ## DEGREE AWARD:\n  ## EMBRACE YOUR FUTURE: CONTACT US"
+    },
+    {
+      "nr": 5,
+      "titel": "f4 › BWL › Formulare Und Informationen › RGU Application Notes 2022 06 — Double-Degree HsH and RGU: Admission Process – Notes for Applicants",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Application-Notes_2022-06.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Double-Degree HsH and RGU: Admission Process – Notes for Applicants\n  ## Application Phase\n  ## Winter Term (MBD study at HsH, first semester of double-degree programme)\n  ## Summer Term (MIB study at RGU, second semester of double-degree programme)\n  ## Winter Term (MBD study at HsH, third semester of double-degree programme)"
+    },
+    {
+      "nr": 6,
+      "titel": "Internationale Studienprogramme",
+      "url": "https://f4.hs-hannover.de/internationales/internationale-studiengaenge",
+      "fakultaet": "f4",
+      "struktur": "# Internationale Studienprogramme\n    ### Doppel­-Bachelor-Studiengang\n    ### Doppelmaster-Studiengänge\n    ### Summer School "
+    },
+    {
+      "nr": 7,
+      "titel": "www › Verkuendungsblatt › 01 2014 › 03 Bes. Teil IBS vom 16.12.2013",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/01-2014/03-Bes._Teil_IBS_vom_16.12.2013.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang International Business Studies (IBS)\n# mit dem Abschluss Bachelor of Science in der\n# Fakultät IV - Wirtschaft und Informatik, Abteilung Betriebswirtschaft der Hochschule Hannover (HsH)\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Zweck der Prüfung und Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Aufbau und Inhalt der Vorprüfung\n  ## § 5\n  ## Art und Umfang der Bachelor-Prüfung\n  ## § 6\n  ## Zulassung zur Bachelor-Prüfung und zur Bachelor-Arbeit\n  ## § 7\n  ## Studiensemester im Ausland\n  ## § 8\n  ## Doppelabschluss für Studierende von Partnerhochschulen\n  ## §9\n  ## Prüfungen\n  ## § 10\n  ## Übergangsregelungen\n  ## § 11\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 06 2010 › 06 Besonderer Teil der Pruefungsordnung fuer IBS — Besonderer Teil der Prüfungsordnung für den",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/06_Besonderer_Teil_der_Pruefungsordnung_fuer_IBS.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den\n# Bachelor-Studiengang International Business Studies (IBS) mit dem Abschluss Bachelor of Arts (BA) in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaft der Fachhochschule Hannover (FHH)\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung des Bachelor-Studiengangs\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Ausnahmeregelungen\n  ## § 6 Studiensemester im Ausland\n  ## § 7 Doppelabschluss für Studierende von Partnerhochschulen\n  ## § 8 Prüfungen\n  ## Spezifisches Wahlpflichtmodul Kategorie B zweiter Studienabschnitt RGU (6 Credits):"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 5,
+      "titel": "f4 › BWL › Formulare Und Informationen › RGU Application Notes 2022 06 — Double-Degree HsH and RGU: Admission Process – Notes for Applicants",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Application-Notes_2022-06.pdf"
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › BWL › Formulare Und Informationen › RGU Hannover Uni Flyer for students final 2022 corr — _COMPLETE YOUR DOUBLE DEGREE FROM HOCHSCHULE HANNOVER_",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Hannover_Uni_Flyer_for_students_final_2022_corr.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "f4 › BWL › MBD › 2023 11 15 HsH Master of Business Development MBD Studienplan 151123 — HSH- RGU Doppelmaster Studienplan",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/MBD/2023-11-15_HsH_Master_of_Business_Development_MBD_Studienplan_151123_.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "f4 › studium › internationales fakultaet iv › master doppelstudiengang 1",
+      "url": "https://f4.hs-hannover.de/studium/internationales-fakultaet-iv/master-doppelstudiengang-1"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f4 › BWL › Formulare Und Informationen › RGU Application Notes 2022 06 — Double-Degree HsH and RGU: Admission Process – Notes for Applicants",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Application-Notes_2022-06.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Summer Term (MIB study at RGU, second semester of double-degree programme)**",
+      "snippets": [
+        "## **Summer Term (MIB study at RGU, second semester of double-degree programme)**  \n- You start your second part of your studies with the RGU in Aberdeen around the 20th of January  \n- You successfully finish your 60 credits (including Capstone) at the RGU and receive a Transcript of Records (eTranscript)"
+      ],
+      "zitate": [
+        "around the 20th of January",
+        "your 60 credits (including Capstone)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f4 › BWL › Formulare Und Informationen › RGU Hannover Uni Flyer for students final 2022 corr — _COMPLETE YOUR DOUBLE DEGREE FROM HOCHSCHULE HANNOVER_",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Hannover_Uni_Flyer_for_students_final_2022_corr.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**ABOUT THE COURSE**",
+      "snippets": [
+        "## **ABOUT THE COURSE**  \nThe double degree starts only once a year in the winter term/ September, beginning at HsH, with the following term starting at RGU in January.  The 3rd term also at RGU covers mainly the thesis, the hand in of the thesis is usually in August.  \nHochschule Hannover Master of Science Business Development MBD. The details of the course and how to apply can be found at **https://f4.hs-hannover.de/studium/master-studienga enge/unternehmensentwicklung-mbd**  \nRobert Gordon University MSc International Business. The details of the course can be found at : www.rgu. ac.uk/internationalbusiness and details of how to apply here: **www.rgu.ac.uk/apply**  \nWhen applying select September start date for the course, and write in the notes that you are through this partnership to begin in January with RGU."
+      ],
+      "zitate": [
+        "3rd term also at RGU"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f4 › BWL › MBD › 2023 11 15 HsH Master of Business Development MBD Studienplan 151123 — HSH- RGU Doppelmaster Studienplan",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/MBD/2023-11-15_HsH_Master_of_Business_Development_MBD_Studienplan_151123_.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**HSH- RGU Doppelmaster Studienplan**",
+      "snippets": [
+        "+ additional credits|7,5|15|\n|||||||||\n|MBD‐615|Forschungsmethoden|6|➔|BSM260|Personal, Professional And\nAcademic Skills|7,5|15|\n|||||||||\n|MBD‐624|Internationales Marketing|6|➔|CBM822|Marketing Strategy|7,5|15|\n|||||||||\n||**2. Semester(Sommersemester), RGU**|||||||\n||**Stage 2**|||||||\n|BSM017|Finance For Managers|7,5|➔|MBD‐627|Finanzwirtschaftliche Kennzahlen –\nCorporate Finance|||\n|||||||||\n|BSM018|Economics Of Business|7,5||||||\n|BSM538|Strategic Leadership|7,5||||||\n|BSM840|International Business Strategy|7,5|➔|MBD‐621|Risk Management|6|12|\n|||||||||\n||**Stage 3**|||||||\n|BSM823|Capstone|30|➔|MBD‐631|Praxis‐/Forschungsphase|12|12|\n|||||||||\n||||➔|MBD‐632|Master-Arbeit|18|36|\n|||||||||\n||**3. Semester (Wintersemester), HsH**|||||||\n|||||||||\n|MBD‐613|Strategisches Innovationsmanagement|6||||||\n|MBD‐622|Mergers & Acquisitions|6||||||\n|MBD‐623|Führungskompetenz|6||||||"
+      ],
+      "zitate": [
+        "3. Semester (Wintersemester), HsH"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f4 › studium › internationales fakultaet iv › master doppelstudiengang 1",
+      "url": "https://f4.hs-hannover.de/studium/internationales-fakultaet-iv/master-doppelstudiengang-1",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Doppelmaster-Studiengänge > Doppelmaster-Studiengang MBD – MSc International Business Management Robert Gordon University (RGU)",
+      "snippets": [
+        "#  Doppelmaster-Studiengänge  \nMBD / MSc Int. Business Management, Robert Gordon University (RGU), Aberdeen, UK  \nMIN / MSc Information Sciences, Hiroshima City University (HCU), Japan\n\n## Doppelmaster-Studiengang MBD – MSc International Business Management Robert Gordon University (RGU)\nEs besteht die Möglichkeit, in Kooperation mit unserer schottischen Partneruniversität [Robert Gordon University in Aberdeen (RGU)](https://www.rgu.ac.uk/) einen Doppelmaster zu erlangen. Das Master-Studium verlängert sich hierbei nicht. Bei erfolgreichem Abschluss liegt dann neben dem Master of Science der Hochschule Hannover ein universitärer Master of International Business der RGU vor.\nFür Fragen zum Doppelmaster mit der Robert Gordon University können Sie sich gerne an Prof. Dr. Patricia Adam wenden.\n[Studienplan Double Degree mit der RGU](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2023_Internat._Dokumente/2023-11-16_HsH_Master_of_Business_Development_MBD_Studienplan_151123_.pdf)\nStudiengang Unternehmensentwicklung (MBD)\n\nStudiengang Unternehmensentwicklung (MBD)\n[RGU Hannover Flyer for Students](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Hannover_Uni_Flyer_for_students_final_2022_corr.pdf)\n[RGU Application-Notes 2022](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Application-Notes_2022-06.pdf)",
+        "#  Doppelmaster-Studiengänge  \nMBD / MSc Int. Business Management, Robert Gordon University (RGU), Aberdeen, UK  \nMIN / MSc Information Sciences, Hiroshima City University (HCU), Japan"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.28612,
+      "id": "74cc156e-df99-5e6d-8076-86c2044ff636",
+      "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/unternehmensentwicklung-mbd",
+      "title_anzeige": "Unternehmensentwicklung (MBD)",
+      "section_heading": "Bewerten Sie uns auf StudyCheck! > Fragen zum Double Degree",
+      "chunk_index": 55,
+      "text_vollstaendig": true,
+      "auszug": "Informationen und Formulare zu der Praxis- und Forschungsphase (Prüfungsordnung 2018) finden Sie [hier](https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-betriebswirtschaft/praxisphasen-bachelor-arbeiten-und-master-arbeiten/). Bitte beachten Sie, dass das Pflichtmodul Praxis-/F"
+    },
+    {
+      "rang": 2,
+      "score": 2.2439,
+      "id": "d7d4f07f-f130-5759-9561-10769195b219",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/MBD/2023-11-15_HsH_Master_of_Business_Development_MBD_Studienplan_151123_.pdf",
+      "title_anzeige": "f4 › BWL › MBD › 2023 11 15 HsH Master of Business Development MBD Studienplan 151123 — HSH- RGU Doppelmaster Studienplan",
+      "section_heading": "**HSH- RGU Doppelmaster Studienplan**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **HSH- RGU Doppelmaster Studienplan**  \n|**HsH Master of Business Development MBD**|**HsH Master of Business Development MBD**|||**RGU Master of International Business MIB**|**RGU Master of International Business MIB**|**RGU Master of International Business MIB**||\n|---|---|---|---|---|---|---|--"
+    },
+    {
+      "rang": 3,
+      "score": 2.19672,
+      "id": "17b45f1c-c321-559d-8b71-368f43d52622",
+      "source_url": "https://f4.hs-hannover.de/studium/internationales-fakultaet-iv/master-doppelstudiengang-1",
+      "title_anzeige": "f4 › studium › internationales fakultaet iv › master doppelstudiengang 1",
+      "section_heading": "Doppelmaster-Studiengänge > Doppelmaster-Studiengang MBD – MSc International Business Management Robert Gordon University (RGU)",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "#  Doppelmaster-Studiengänge  \nMBD / MSc Int. Business Management, Robert Gordon University (RGU), Aberdeen, UK  \nMIN / MSc Information Sciences, Hiroshima City University (HCU), Japan\n\n## Doppelmaster-Studiengang MBD – MSc International Business Management Robert Gordon University (RGU)\nEs besteht "
+    },
+    {
+      "rang": 4,
+      "score": 1.98286,
+      "id": "36902084-4c0c-5347-9a85-7c8830370a39",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Hannover_Uni_Flyer_for_students_final_2022_corr.pdf",
+      "title_anzeige": "f4 › BWL › Formulare Und Informationen › RGU Hannover Uni Flyer for students final 2022 corr — _COMPLETE YOUR DOUBLE DEGREE FROM HOCHSCHULE HANNOVER_",
+      "section_heading": "**ABOUT THE COURSE**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **ABOUT THE COURSE**  \nThe double degree starts only once a year in the winter term/ September, beginning at HsH, with the following term starting at RGU in January.  The 3rd term also at RGU covers mainly the thesis, the hand in of the thesis is usually in August.  \nHochschule Hannover Master of"
+    },
+    {
+      "rang": 5,
+      "score": 1.9311,
+      "id": "493a0171-281e-5da5-a12a-d703e7d5af93",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Application-Notes_2022-06.pdf",
+      "title_anzeige": "f4 › BWL › Formulare Und Informationen › RGU Application Notes 2022 06 — Double-Degree HsH and RGU: Admission Process – Notes for Applicants",
+      "section_heading": "**Summer Term (MIB study at RGU, second semester of double-degree programme)**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **Summer Term (MIB study at RGU, second semester of double-degree programme)**  \n- You start your second part of your studies with the RGU in Aberdeen around the 20th of January  \n- You successfully finish your 60 credits (including Capstone) at the RGU and receive a Transcript of Records (eTrans"
+    },
+    {
+      "rang": 6,
+      "score": 1.80932,
+      "id": "828d850e-3aa4-5b0c-8708-bdffab93bf0d",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Hannover_Uni_Flyer_for_students_final_2022_corr.pdf",
+      "title_anzeige": "f4 › BWL › Formulare Und Informationen › RGU Hannover Uni Flyer for students final 2022 corr — _COMPLETE YOUR DOUBLE DEGREE FROM HOCHSCHULE HANNOVER_",
+      "section_heading": "**ABOUT THE COURSE**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "When applying select September start date for the course, and write in the notes that you are through this partnership to begin in January with RGU.  \nRGU is famed for being an innovative, accessible, impactful and professionally minded university. RGU’s applied learning, industry-centric approach, "
+    },
+    {
+      "rang": 7,
+      "score": 1.77774,
+      "id": "4ca43940-bffc-5f68-ac32-16a5ea835a5e",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/RGU_Application-Notes_2022-06.pdf",
+      "title_anzeige": "f4 › BWL › Formulare Und Informationen › RGU Application Notes 2022 06 — Double-Degree HsH and RGU: Admission Process – Notes for Applicants",
+      "section_heading": "**Application Phase**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **Application Phase**  \n- You apply at the RGU for the winter term and state that you apply for the doubledegree with HsH Hannover  \n- You send an email to patricia.adam@hs-hannover.de to inform us about your doubledegree application at the RGU  \n-  If all the requirements are fulfilled you will "
+    },
+    {
+      "rang": 8,
+      "score": 1.65511,
+      "id": "e68caaae-da84-51fd-bcf5-009e3ae331dd",
+      "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/unternehmensentwicklung-mbd",
+      "title_anzeige": "Unternehmensentwicklung (MBD)",
+      "section_heading": "Bewerten Sie uns auf StudyCheck! > FAQ > Bewerten Sie uns auf StudyCheck! > Ist MBD das Richtige für mich?",
+      "chunk_index": 31,
+      "text_vollstaendig": true,
+      "auszug": "Die schottische [Universität Robert Gordon University in Aberdeen (RGU)](https://www.rgu.ac.uk/) und die Hochschule Hannover (HSH) ermöglichen es Studierenden, sowohl einen Master of International Business an der RGU als auch den Master of Business Development an der HSH zu erwerben. Für diesen Doub"
+    },
+    {
+      "rang": 9,
+      "score": 1.61078,
+      "id": "1d9d578b-0429-5afc-8e89-b266cc877a74",
+      "source_url": "https://f4.hs-hannover.de/studium/internationales-fakultaet-iv/master-doppelstudiengang-1",
+      "title_anzeige": "f4 › studium › internationales fakultaet iv › master doppelstudiengang 1",
+      "section_heading": "Doppelmaster-Studiengänge",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Doppelmaster-Studiengänge  \nMBD / MSc Int. Business Management, Robert Gordon University (RGU), Aberdeen, UK  \nMIN / MSc Information Sciences, Hiroshima City University (HCU), Japan"
+    },
+    {
+      "rang": 10,
+      "score": 1.38538,
+      "id": "362be796-edde-5537-8700-cf4a1ce33291",
+      "source_url": "https://f4.hs-hannover.de/internationales/internationale-studiengaenge",
+      "title_anzeige": "Internationale Studienprogramme",
+      "section_heading": "Internationale Studienprogramme > [Doppelmaster-Studiengänge](https://f4.hs-hannover.de/studium/internationales-fakultaet-iv/master-doppelstudiengang-1)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### [Doppelmaster-Studiengänge](https://f4.hs-hannover.de/studium/internationales-fakultaet-iv/master-doppelstudiengang-1)\nDoppelmaster Business Development | MBD – MSc International Business Management\nRobert Gordon University, UK  \nDoppelmaster Informatik | MIN\nHiroshima City University, Japan\n[ W"
+    },
+    {
+      "rang": 11,
+      "score": 1.21093,
+      "id": "e4906de5-3b72-580e-b8af-06b6cbb96c28",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/01-2014/03-Bes._Teil_IBS_vom_16.12.2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2014 › 03 Bes. Teil IBS vom 16.12.2013",
+      "section_heading": "**Fakultät IV - Wirtschaft und Informatik, Abteilung Betriebswirtschaft der Hochschule Hannover (HsH)** > **§ 11** > **Fakultät IV - Wirtschaft und Informatik, Abteilung Betriebswirtschaft der Hochschule Hannover (HsH)** > **Inkrafttreten**",
+      "chunk_index": 28,
+      "text_vollstaendig": false,
+      "auszug": "|IBS-422|2. AuslandsstudiensemesterSEAMK|PF|30|5|IBS-422-XX|Teilmodule gemäß Kooperationsvereinbarung|PF|||30|||\n|IBS-222|Global Economics|PF|6|1|IBS-222-01|Global Economics|PF|S|4|6|H,M,P,R|1|\n|IBS-237|StrategicInternational Management|PF|6|1|IBS-237-01|StrategicInternational Management|PF|S|4|6|H,"
+    },
+    {
+      "rang": 12,
+      "score": 1.18906,
+      "id": "3bca3586-e575-5560-b434-ca6aa4e9d579",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/06_Besonderer_Teil_der_Pruefungsordnung_fuer_IBS.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2010 › 06 Besonderer Teil der Pruefungsordnung fuer IBS — Besonderer Teil der Prüfungsordnung für den",
+      "section_heading": "**Bachelor-Studiengang International Business Studies (IBS) mit dem Abschluss Bachelor of Arts (BA) in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaft der Fachhochschule Hannover (FHH)** > **§ 8 Prüfungen**",
+      "chunk_index": 29,
+      "text_vollstaendig": false,
+      "auszug": "|||||||||||\n|IBS-269|Selected Topics of International Management|6|1|IBS-269-01|Selected Topics of International Management|H, K2, M, P, R|1|4|6|\n|||||||||||\n|IBS-270|Contemporary Issues of International Business|6|1|IBS-270-01|Contemporary Issues of International Business|H, K2, M, P, R|1|4|6|\n||||"
+    },
+    {
+      "rang": 13,
+      "score": 1.09209,
+      "id": "f5bb9eb6-362d-58d3-aa6c-83def11f7e46",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/05-2011/04-Pruefungsordnung_IBS.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2011 › 04 Pruefungsordnung IBS",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang International Business Studies (IBS) mit dem Abschluss Bachelor of Science in der Fakultät FS�è� Wirtschaft und Informatik der Fachhochschule Hannover (FHH)** > Anlage B2 Zweiter Studienabschnitt Bachelor *Pqrafbkd^kd International Business Studies (IBS)",
+      "chunk_index": 34,
+      "text_vollstaendig": false,
+      "auszug": "|**Spezifisches Wahlpflichtmodul zweiter Studienabschnitt bei Partnerhochschule SEAMK(6 Credits): **|||||||||||\n||||||||||||\n|IBS-252|Entrepreneurshipin a Global Context|WP|6|1|||H,K2,M,P,R|1||6|\n||||||IBS-252-01|Entrepreneurshipin a Global Context|||4||\n||||||||||||\n|IBS-237|Business Ethics|WP|6|1|"
+    },
+    {
+      "rang": 14,
+      "score": 1.05974,
+      "id": "91e76e1a-d254-5132-b858-c48a15530bf9",
+      "source_url": "https://f4.hs-hannover.de/internationales/partnerhochschulen/partnerhochschulen-abt-bwl-und-wi",
+      "title_anzeige": "Partnerhochschulen | Betriebswirtschaft und Wirtschaftsinformatik",
+      "section_heading": "Partnerhochschulen | Betriebswirtschaft und Wirtschaftsinformatik > Betriebswirtschaft > Partnerhochschulen | Betriebswirtschaft und Wirtschaftsinformatik",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "[Double bachelor’s degree International Business](https://www.seamk.fi/en/all-studies/double-degree-in-international-business-bachelor/)\n[Application Instructions](https://www.seamk.fi/en/study-with-us/how-to-apply/how-to-apply-exchange-students/ \"Initiates file download\")  \nGroßbritannien\n[Robert G"
+    },
+    {
+      "rang": 15,
+      "score": 1.05763,
+      "id": "87b319fb-a7a7-5647-9906-192c9dff0b3f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/07_IBS_AO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 07 IBS AO mit Anlagen 20182",
+      "section_heading": "**der Hochschule Hannover („PO 2014“)** > **Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - PO 2014**",
+      "chunk_index": 39,
+      "text_vollstaendig": false,
+      "auszug": "|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|IBS-421|1. Auslandsstudiensemester\nSEAMK|PF|30|5|IBS-421-XX|Teilmodule gemäß\nKooperationsvereinbarung|PF||1|5||30|\n|IBS-422|2. Auslandsstudiensemester\nSEAMK|PF|30|5|IBS-422-XX|Teilmodule gemäß\nKooperationsvereinbarung|PF||1|6||30|\n|IBS-222|Globa"
+    },
+    {
+      "rang": 16,
+      "score": 1.03443,
+      "id": "8ff8c3bd-f6b4-5287-adaf-60a2de5fa0e2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/07_IBS_AO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 07 IBS AO mit Anlagen 20182",
+      "section_heading": "**der Hochschule Hannover („PO 2014“)** > **Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - PO 2014**",
+      "chunk_index": 45,
+      "text_vollstaendig": false,
+      "auszug": "Management|WP|6|1|IBS-260-01|Selected Topics of\nInternational Management|PF|H, K2*, M,\nP, R|1|7|4|6|\n|IBS-276|Business Ethics|WP|6|1|IBS-276-01|\nBusiness Ethics|PF|H, M, P, R|1|7|4|6|\n|**Spezifische Wahlpflichtmodule Kategorie A zweiter Studienabschnitt bei Partnerhochschule RGU (6 Credits):**||||||"
+    },
+    {
+      "rang": 17,
+      "score": 0.96002,
+      "id": "455ce706-2fe9-5096-8a00-90c20fe4412d",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/IBS/IBS_Curriculum_RGU_PO_2018.pdf",
+      "title_anzeige": "f4 › BWL › IBS › IBS Curriculum RGU PO 2018",
+      "section_heading": "",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "First Internship Phase\n18\n**30**\nBS2116\nConsumer Behaviour\nBS2258\nBusiness Law\nBS2294\nBusiness Creation & Growth\nB2211\nBusiness Economics\n**4th Semester**\nInternship Semester\n**Total Credits (ECTS)**\n**Total Credits (ECTS)**\nLanguage: English\nStudy Semester at RGU\n**2**\n**Spring**|IBS-519-01\nInterna"
+    },
+    {
+      "rang": 18,
+      "score": 0.91665,
+      "id": "c2c4a376-d65c-5573-bebf-f29de5143c47",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/Partnerhochschulen_von_A_bis_Z_22042026.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › Partnerhochschulen von A bis Z 22042026 — Belgien",
+      "section_heading": "C > Volksrepublik China",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "Faculté d’Économie\nhttp://economie.edu.umontpellier.fr/\nUnterrichtssprache: Französisch; einzelne Kurse auch auf Englisch\nG G\nGriechenland\nBBA  University of Thessaly, Volos\nDepartment of Economics\nhttps://www.uth.gr/en\nUnterrichtssprache: Englisch\nGroßbritannien\nBBA  Robert Gordon University, Aberd"
+    },
+    {
+      "rang": 19,
+      "score": 0.90002,
+      "id": "cbf2be91-a805-5eed-9a59-1f7c8e69819f",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2026-03-10_Outgoing__Info-VA_BWL_WI.pdf",
+      "title_anzeige": "f4 › OFI › Internationales › 2026 03 10 Outgoing Info VA BWL WI — Persönlichkeit entfalten, Lebenslauf aufwerten",
+      "section_heading": "C > Volksrepublik China",
+      "chunk_index": 55,
+      "text_vollstaendig": false,
+      "auszug": "BBA  Université de Montpellier\nFaculté d’Économie\nhttp://economie.edu.umontpellier.fr/\nUnterrichtssprache: Französisch; einzelne Kurse auch auf Englisch\nG G\nGriechenland\nBBA  University of Thessaly, Volos\nDepartment of Economics\nhttps://www.uth.gr/en\nUnterrichtssprache: Englisch\nGroßbritannien\nBBA  "
+    },
+    {
+      "rang": 20,
+      "score": 0.88579,
+      "id": "abfec056-1f81-501b-9721-76da18a31dcf",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Pruefungen/Pruefungstermine_LBS-Sprint_SoSe_2026_Stand_23.01.2026_Bl.pdf",
+      "title_anzeige": "f5 › MGB MBG MMG › Pruefungen › Pruefungstermine LBS Sprint SoSe 2026 Stand 23.01.2026 Bl — Stand: 17.12.2025",
+      "section_heading": "**Prüfungstermine der Abteilung Pflege und Gesundheit im Sommersemester 2026** > Stand: 17.12.2025",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "|Prüfung(gilt für|||||\n|\nM, K, R, PR, VbP)|||||\n|Beginn\nBearbeitung\n(Bearbeitungszeit:\nmax. 6 Wochen)|24. Juli 2026|24. Juli 2026|05. Juni 2026|Siehe\nHomepage:\nZeitplan zur\nErstellung der\nMasterarbeit.|"
+    },
+    {
+      "rang": 21,
+      "score": 0.8827,
+      "id": "21955bc6-b5ab-5746-93cc-589171cda7a7",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 022 MH BSW PO 2026 Stand 16.03.2026 web",
+      "section_heading": "**3. Teilzeitstudium**",
+      "chunk_index": 22,
+      "text_vollstaendig": false,
+      "auszug": "- für das **1. Semester** sowie das Semester, in dem die **Bachelorarbeit** geschrieben wird.  \n- wenn Sie in einem Parallel- oder Doppelstudium eingeschrieben sind.  \n- wenn nur noch 15 oder weniger Credits zu studieren sind."
+    },
+    {
+      "rang": 22,
+      "score": 0.8579,
+      "id": "60602747-e0d8-5330-b7c8-6a11decb6f13",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/01-2014/03-Bes._Teil_IBS_vom_16.12.2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2014 › 03 Bes. Teil IBS vom 16.12.2013",
+      "section_heading": "**Fakultät IV - Wirtschaft und Informatik, Abteilung Betriebswirtschaft der Hochschule Hannover (HsH)** > **§ 11** > **Fakultät IV - Wirtschaft und Informatik, Abteilung Betriebswirtschaft der Hochschule Hannover (HsH)** > **Inkrafttreten**",
+      "chunk_index": 29,
+      "text_vollstaendig": false,
+      "auszug": "|IBS-432|2. Auslandsstudiensemester RGU|PF|30|5|IBS-432-XX|Teilmodule gemäß Kooperationsvereinbarung|PF|||30|||\n|IBS-222|Global Economics|PF|6|1|IBS-222-01|Global Economics|PF|S|4|6|H,K2,M,P,R|1|\n|IBS-282|InternationalCommercial Law|PF|6|1|IBS-282-01|InternationalCommercial Law|PF|S|4|6|H,K2,M,P,R|1"
+    },
+    {
+      "rang": 23,
+      "score": 0.78746,
+      "id": "6addce1b-e3ef-5f83-9194-712308e77b55",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2024_Internat._Dokumente/2026_Abt_I_Praesentation_Auslandsstudium.pdf",
+      "title_anzeige": "f4 › Internationales › 2024 Internat. Dokumente › 2026 Abt I Praesentation Auslandsstudium",
+      "section_heading": "C > Volksrepublik China",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "Seinäjoki University of Applied Sciences (SeAMK)\nUnterrichtssprache: Englisch, Finnisch\nBitte wenden Sie sich an das TIP|  \nPartnerhochschulen von A bis Z_31032026.doc    Seite: 1 | 8  \nBIN Tampere University of Applied Sciences (TAMK) MIN https://www.tuni.fi/en MDI Unterrichtssprache: Englisch, Fin"
+    },
+    {
+      "rang": 24,
+      "score": 0.76449,
+      "id": "9cef7693-71c8-58d5-903d-305b7d305f78",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/IBS/IBS_Curriculum_RGU_PO_2018.pdf",
+      "title_anzeige": "f4 › BWL › IBS › IBS Curriculum RGU PO 2018",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "|**Incomings HsH**\n**Outgoings HsH**|**Curriculum HsH / RGU**\nStudy Semester at HsH                                       Language:\nGerman\n**Autumn**\n**1st Semester**|**Curriculum HsH / RGU**\nStudy Semester at HsH                                       Language:\nGerman\n**Autumn**\n**1st Semester**|**C"
+    },
+    {
+      "rang": 25,
+      "score": 0.75988,
+      "id": "b0bc99ff-a3fd-5590-8a4a-3daec64c378c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/05-2011/04-Pruefungsordnung_IBS.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2011 › 04 Pruefungsordnung IBS",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang International Business Studies (IBS) mit dem Abschluss Bachelor of Science in der Fakultät FS�è� Wirtschaft und Informatik der Fachhochschule Hannover (FHH)** > Anlage B2 Zweiter Studienabschnitt Bachelor *Pqrafbkd^kd International Business Studies (IBS)",
+      "chunk_index": 38,
+      "text_vollstaendig": false,
+      "auszug": "|**Spezifisches Wahlpflichtmodul Kategorie B zweiter Studienabschnitt RGU(6 Credits): **|**Spezifisches Wahlpflichtmodul Kategorie B zweiter Studienabschnitt RGU(6 Credits): **|**Spezifisches Wahlpflichtmodul Kategorie B zweiter Studienabschnitt RGU(6 Credits): **|**Spezifisches Wahlpflichtmodul Kat"
+    },
+    {
+      "rang": 26,
+      "score": 0.75699,
+      "id": "f69402fc-59f9-53a6-ac8c-17352b2e0315",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+      "title_anzeige": "f1 › 99 Sonstiges › Internationales › Brochure Faculty I II 2026 — Hochschule Hannover",
+      "section_heading": "Courses in English for an exchange semester > Studies in German _degree programme or double degree programme_",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "We have double degree agreements with some of our partner universities. Please contact your home university for further information. As a double degree student you will enter into the last academic year in order to obtain our German degree.  \nBefore the semester will start all incoming students can "
+    },
+    {
+      "rang": 27,
+      "score": 0.73453,
+      "id": "115efe40-a3e9-5fd2-ae27-39b508949817",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "section_heading": "**Spezifische Pflicht- bzw. Wahlpflichtmodule erster Studienabschnitt in Abhängigkeit von der gewählten Partnerhochschule (je 6 Credits)**",
+      "chunk_index": 45,
+      "text_vollstaendig": false,
+      "auszug": "**Module**|**Spezifische Wahlpflichtmodule erster Studienabschnitt**\n**Module**|**Spezifische Wahlpflichtmodule erster Studienabschnitt**\n**Module**|**bei den Partnerhochschulen SEAMK, RGU und ITC (6 Credits), d.h. eines der beiden**|**bei den Partnerhochschulen SEAMK, RGU und ITC (6 Credits), d.h. "
+    },
+    {
+      "rang": 28,
+      "score": 0.72053,
+      "id": "94bf4db1-310e-5793-b01d-4eb9a37910a4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "section_heading": "**2. Studienabschnitt** > **Anlage B2**",
+      "chunk_index": 55,
+      "text_vollstaendig": false,
+      "auszug": "wirtschaftswissenschaftliche\nTeilmodule|PF||1|5||30|\n|IBS-544|2. Auslandsstudiensemester\nSEAMK|PF|30|5|IBS-544-01|Ausländische\nwirtschaftswissenschaftliche\nTeilmodule|PF||1|6||30|\n|**Spezifische Pflichtmodule der Auslandssemster bei der Partnerhochschule RGU (60 Credits)**|||||||||||||\n|IBS-545|1. A"
+    },
+    {
+      "rang": 29,
+      "score": 0.70466,
+      "id": "2fbb4bed-b000-5e27-ad77-d25153f4297b",
+      "source_url": "https://f4.hs-hannover.de/internationales/partnerhochschulen/partnerhochschulen-abt-bwl-und-wi",
+      "title_anzeige": "Partnerhochschulen | Betriebswirtschaft und Wirtschaftsinformatik",
+      "section_heading": "Partnerhochschulen | Betriebswirtschaft und Wirtschaftsinformatik > Betriebswirtschaft > Partnerhochschulen | Betriebswirtschaft und Wirtschaftsinformatik",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "EUROPA\n* * *  \nGroßbritannien\n[Robert Gordon University, Aberdeen](https://www.rgu.ac.uk/)\n[Academic Calendar 2025/26 | 2026/27](https://www.rgu.ac.uk/academic-calendar)\n[Information for Incoming Students](https://www.rgu.ac.uk/study/study-abroad/incoming-students)\n[Information for German Students]("
+    },
+    {
+      "rang": 30,
+      "score": 0.7042,
+      "id": "f8249250-7ffd-5348-b7f5-c6af3e0d6224",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_BA_Mdual.pdf",
+      "title_anzeige": "f2 › Ordnungen › xZulassungsordnungen › ZulO BA Mdual",
+      "section_heading": "**`Master-Studiengang:`**",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "## **`Master-Studiengang:`**  \nDas Studium beginnt einmal pro Jahr zum Sommersemester.  \nDie Zulassung zum Master-Studiengang setzt voraus, dass das Bachelor-Studium mindestens mit der Note „gut“ bewertet wurde. Da es sich ebenfalls um einen dualen Studiengang handelt, muss ein Vertrag mit einem Unt"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 4410,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.64,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 1.61,
+    "docs_laden_s": 0.07,
+    "quellen_s": 3.33,
+    "antwort_llm_s": 5.78,
+    "gesamt_s": 9.11
+  },
+  "auswahl_begruendung": "{\"selected\":[5,4,2,3]}"
+}

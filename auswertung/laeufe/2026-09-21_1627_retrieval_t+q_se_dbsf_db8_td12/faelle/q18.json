@@ -1,0 +1,1623 @@
+{
+  "fall": {
+    "id": "q18",
+    "case_type": "direct",
+    "question": "Wie viele Studierende studieren ungefähr an der Hochschule Hannover?",
+    "reference_answer": "Offizielle HsH-Seiten nennen unterschiedliche gerundete Angaben: Die Profilseite und die Seite Studierende nennen rund 9.000 Studierende; die allgemeine Über-uns-Seite nennt mehr als 10.000 Studierende. Eine Antwort ist gültig, wenn sie eine dieser offiziellen gerundeten HsH-Angaben korrekt wiedergibt und nicht als exakte Zahl ausgibt.",
+    "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/studierende",
+      "https://www.hs-hannover.de/ueber-uns",
+      "https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh",
+      "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf"
+    ],
+    "required_facts": [
+      "Die Antwort nennt eine offizielle gerundete HsH-Angabe zur Studierendenzahl."
+    ],
+    "optional_facts": [
+      "Die Profilseite nennt außerdem rund 1.300 Beschäftigte.",
+      "Wenn mehrere HsH-Seiten herangezogen werden, sollte die Antwort die unterschiedlichen offiziellen Rundungen einordnen."
+    ],
+    "forbidden_claims": [
+      "Eine exakte Studierendenzahl nennen, die die Quelle nicht belegt.",
+      "Eine nicht-HsH-Quelle für die Studierendenzahl verwenden."
+    ],
+    "answer_variants": [
+      {
+        "id": "profil_rund_9000",
+        "title": "Profilseite: rund 9.000 Studierende",
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+        "source_policy": "exact_gold_source",
+        "accepted_source_urls": [
+          "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/studierende"
+        ],
+        "required_facts": [
+          "Die HsH nennt rund 9.000 Studierende."
+        ],
+        "optional_facts": [
+          "Die HsH nennt außerdem rund 1.300 Beschäftigte."
+        ],
+        "forbidden_claims": [
+          "Die rund 9.000 als exakte Zahl darstellen."
+        ]
+      },
+      {
+        "id": "ueber_uns_mehr_als_10000",
+        "title": "Über-uns-Seite: mehr als 10.000 Studierende",
+        "source_url": "https://www.hs-hannover.de/ueber-uns",
+        "source_policy": "exact_gold_source",
+        "accepted_source_urls": [],
+        "required_facts": [
+          "Die HsH nennt mehr als 10.000 Studierende."
+        ],
+        "optional_facts": [
+          "Die Aussage steht auf der allgemeinen Über-uns-Seite."
+        ],
+        "forbidden_claims": [
+          "Mehr als 10.000 als exakte Zahl darstellen."
+        ]
+      }
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Mehrere offizielle HsH-Seiten nennen unterschiedliche gerundete Angaben. Deshalb sind rund 9.000 und mehr als 10.000 gültige HsH-belegte Antwortpfade, solange die Antwort die Angabe nicht als exakte Zahl ausgibt.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Geschichtsseite („rund 9.000“) und Imagepräsentation 2025 („≈ 9.000“) sind offizielle gerundete Angaben im Sinne des Vertrags. /ueber-uns (10.000) ist nicht im Korpus.",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "2e23b172-7e7c-5b98-836d-b40697a88a31",
+      "f6260182-58d4-5af0-b033-3a8065c820b5",
+      "5ab3c7cf-33d6-5ae0-8905-982d1909230d",
+      "2d0ae264-fd29-5335-83d0-64a704efde96",
+      "22f45b98-6147-505e-94c2-870228920790",
+      "ab852403-eb11-52ec-b143-f4ad975db114",
+      "10d34f27-6917-5130-b82c-35177ce2458f",
+      "a0c5bbd8-f887-541e-809f-0962b9193e0a",
+      "5f7f2e83-f1df-500c-954e-2b11817aaa72",
+      "f3f04061-674b-5225-80e0-acf05c15d6a3",
+      "6ecc4bb8-b865-5749-a220-052f778155aa",
+      "f6166b76-5625-5efc-a751-b15842a254c0",
+      "acb905c1-d780-5c60-8694-771f6fed2d6b",
+      "cbbe1a8f-e2c7-58f2-9260-fbe4bc019103",
+      "7a9e7234-f7c8-5855-9205-aa67a7337859",
+      "73778995-d703-5223-b738-f41f49da1de3",
+      "74f488eb-f68a-52ff-84dc-282a8ece1b8f",
+      "ad832661-ee37-59c6-bc48-e21152248209",
+      "43b6e507-4fe9-5835-9446-e39c724f7b2b",
+      "f741aa40-c9e8-5fed-b3c0-06e04e090e7b",
+      "ab8cba73-21d2-5e73-9069-c44bf4593e86",
+      "87438884-a52e-56b3-8313-1a9bfc27dccf",
+      "7999c3ec-03be-55eb-a220-878985fad951",
+      "0e8b9e7d-6986-5673-90a4-c58de24a029d",
+      "f97745fd-837f-5875-9aaf-7ff50f7f7987",
+      "6d16c5db-3e8f-55e7-b376-3fdb4b71b8a8",
+      "70e67a24-849e-5d41-adbd-1c009562ad0a",
+      "1327b431-8b5c-59d4-880d-dc7915fc0083",
+      "8f176d39-df99-5dc9-a92f-9de26369a51d",
+      "86a9928f-9d1f-542e-9496-e22c6d85f289",
+      "959499bf-7639-5d69-8e40-9b57bea96694",
+      "95b69898-d864-53e1-9de4-df90852812c2",
+      "78122f9b-0181-5757-ac2f-16ad8881c8cc",
+      "e6d0956c-b71c-5662-8846-5beaf662f5ca",
+      "13a04c03-9f52-5c60-98ae-cb9b292f0a7d",
+      "7539c003-eeb8-5408-99ef-4d5617adc37b",
+      "92d4c223-c508-538f-a2e9-5171a3edba57",
+      "75fe0ece-a5d0-549c-8116-6c952f4f3405",
+      "24d193bd-577f-55f1-a081-2d5e44c424ca",
+      "f2c6c5e3-f841-58b0-864d-fd7a3a413253",
+      "51fa5911-ac5c-5c05-b205-c7547e9c53ac",
+      "34bf6051-01f6-5b0a-8c8a-02610490d709",
+      "42b930fe-1a4a-55da-b5c3-f642886309f9",
+      "2a50d729-3d90-5923-9737-91a574cfd2f4",
+      "7e43a522-89ec-5e0c-8e91-9deecfc94db0",
+      "570b02e3-5e7a-5dc8-a89b-28429badae38",
+      "7ab0bb9c-97cf-5d26-ac9e-7330d0c067e9",
+      "6fab3738-0d39-5e00-af38-0343ab12a2d6",
+      "c3ed2b4f-aa6a-57b5-90f9-6a102bd4687e",
+      "ef8e71d0-d5df-5191-8252-bb0df1684d24",
+      "d75a5fe6-f4fe-5059-8b83-a2a968e8b48f",
+      "457f1b46-cc6b-5057-ad84-4cad5abcf29d",
+      "1a0a77d6-f158-500d-813e-745df71b6ae1",
+      "b52e7fe0-ec2a-5708-8478-23a514fa5754",
+      "d2028a87-14e2-5bd0-aed6-f09fa711e866",
+      "4563a649-5453-57f8-bb36-6992870646c6",
+      "3fe803e2-70e1-5287-9926-931949811363",
+      "16d1fe76-65d3-5070-ae1a-48abe6767658",
+      "c89d73ae-2eb4-51d8-b43e-edc1d6a46405",
+      "6c72b664-b79f-5f0a-869d-c941e1f33cb8",
+      "5b77b03e-02c7-5769-8c10-6208db68c9ab",
+      "fec32499-92a0-5deb-8d5c-a990f33da950",
+      "8ddc30e0-9620-5e0d-bf18-72f1b7c5f2f9",
+      "7da78c6f-1c42-5f48-b868-2888d580243b",
+      "b49c2ffe-7d1e-5875-94a4-1fe2f2017260",
+      "0e67d48a-8c00-5a54-beb7-72ae9bb57612",
+      "94ec8caf-b4e9-5544-bf59-3c558bc51fd9",
+      "f7c81c1c-9ee9-5c0f-b0b0-239255cba588",
+      "32379c28-7e2c-5eed-b422-423296183120",
+      "f28a8579-68f9-5004-871b-a7768b6002d9",
+      "eb52e3e8-9b70-58f4-bbca-286b6979e326",
+      "77fb1b37-cd42-5893-be77-3f824f04d7d1",
+      "36ff891a-2050-5e9f-b92b-1c553e3a37af",
+      "d16a3703-dfbe-5b4e-9afb-649f380a81e1",
+      "ad98b805-734c-5f89-9e12-1947f5fa6c06",
+      "31255f43-11e2-5aef-a47b-7e1f2748a994",
+      "dae87dd1-87df-53e0-b9c3-21f9652e1f35",
+      "ce11cd8c-700d-549f-8790-4aef26549632",
+      "05aa42db-cf65-5480-ad0b-7ee8bdfc4469",
+      "bd7e9b5a-b21b-53f2-b577-5d8591ed23e6",
+      "016ecc25-446c-5280-9a4d-ab12bf625d83",
+      "3d2ac400-57de-5653-800d-3f32abfb8909",
+      "16dfcc8f-fb9e-589c-a89d-b4c50c293671",
+      "4627410a-1e7b-5e41-a743-a9a937a0fb7d",
+      "fad6b60d-8193-50f8-9fce-2cf691b43aeb",
+      "ae1412eb-91c7-5e48-b477-e63a409cc7d9",
+      "43b79b61-8c33-5d01-b9eb-62e7fa0f1443",
+      "430b6a6c-cd8f-560f-8a21-8480bf64f984",
+      "e1c5011e-0412-574a-9033-c53b9e1ce00b",
+      "6c490071-59d5-5384-9df4-3edcac06769b",
+      "e069c591-0a20-5a5b-b165-8451b3b7b031",
+      "157c7fd8-5e68-5e64-a0e6-51362bcc301a",
+      "c7fd96ab-13eb-5d38-a9f7-08554a9ec367",
+      "6e522195-ffd7-507a-8737-31acc4119f2f",
+      "2b90300b-1ce2-5401-af45-0aade879f0d8",
+      "3b800fa7-c414-586d-aa84-04356086ed40",
+      "75e1fe21-1d76-58ad-9765-c7512fd18577",
+      "5c74e28a-b27d-565b-a94e-0c8e5aead034",
+      "293fb1fe-9c8b-5711-96d5-8d2646f5bf0e",
+      "1216687c-318a-5855-84c0-9101f2e54d09"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T16:28:46",
+  "dauer_s": 4.55,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Erstsemesterinformation 27.02.2026\n  ## Zahlen und Daten zur Hochschule:\n  ## Standorte\n  ## Fünf Bachelorstudiengänge\n  ## ▪ Mechatronik (MEC)\n  ## Konsekutive Masterstudiengänge der Fakultät\n  ## Veranstaltungstypen\n  ## Vorlesungszeiten\n  ## Mensazeiten\n  ## Starter-Kit\n  ## ▪ Taschenrechner (nicht programmierbar)\n  ## Rechtliche Informationen\n  ## 1. HsH-Emailadresse ist offizielle Post\n  ## 2. Umgang mit Materialien und Medien\n  ## Informationen zur Campuscard und Öffi-Ticket etc.\n  ## Materialien in Moodle Online-Kurse zu den Vorlesungen\n  ## Erreichbarkeit/Kommunikation von/mit Lehrenden ProfessorInnen, Lehrbeauftragte, MitarbeiterInnen\n  ## Wahl der Stundenpläne / Start-ING EIT MEC EWI\n  ## Vorlesungszeiten Seminargruppe Z1 Stdg. Elektrotechnik und Informationstechnik\n  ## Vorlesungszeiten Seminargruppe N1 Stdg. Nachhaltige Elektrische Energieversorgung (NEV)\n  ## Vorlesungszeiten Seminargruppe M1 Stdg. Mechatronik\n  ## Wahl eines Start-ING Kurses\n  ## Für das Modul Start-ING besteht Anwesenheitspflicht .\n  ## Vorlesungszeiten Seminargruppe R2 Stdg. Technisches Informationsdesign und Technische Redaktion\n  ## Orientierung im Gebäude Ricklinger Stadtweg 120\n  ## Orientierung im Gebäude Bismarckstraße\n  ## Informationen zu Arbeitssicherheit und Gesundheitsschutz\n  ## ▪ Versicherungsschutz bei Unfällen\n  ## ▪ Mutterschutz\n  ## ▪ Medizinische Notfälle, Erste-Hilfe\n  ## ▪ Räumung von Gebäuden im Gefahrfall\n  ## Versicherungsschutz bei Unfällen Wer und was ist versichert?\n  ## Versicherungsschutz bei Unfällen Was ist nicht versichert?\n  ## ▪ private Studienfahrten\n  ## ▪ private Aktivitäten auf dem Gelände der Hochschule\n  ## Versicherungsschutz bei Unfällen Informationen - LUKN\n  ## ➢ Weitere Informationen erhalten Sie im Internet\n  ## Versicherungsschutz bei Unfällen Unfallmeldung\n  ## Versicherungsschutz bei Unfällen Unfallmeldung - Unfallanzeige\n  ## ▪ Weitere Informationen erhalten Sie bei Ihren Ansprechpersonen in der Studierendenverwaltung, Dezernat III\n  ## Mutterschutz\n  ## ▪ Weitere Informationen erhalten Sie bei den Ansprechpersonen des Familienservice\n  ## Medizinische Notfälle – Erste Hilfe Erste-Hilfe-Plakate, Notfallplan/Notrufnummern in den Gebäuden der HsH\n  ## Meldung von Notfällen Notrufnummern, Notrufmeldung\n  ## Medizinische Notfälle\n  ## Feuer\n  ## Bei VoIP-Telefonen keine Vorwahl der „00“ !\n  ## Medizinische Notfälle – Erste Hilfe\n  ## Kennzeichnung, Standorte – Defibrillatoren, Erste Hilfe Material\n  ## Medizinische Notfälle – Erste Hilfe"
+    },
+    {
+      "nr": 2,
+      "titel": "Campus Day 2026: Über 1.000 Schülerinnen und Schüler erkunden die Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/campus-day-2026-ueber-1000-schuelerinnen-und-schueler-erkunden-die-hochschule-hannover",
+      "fakultaet": "",
+      "struktur": "# Campus Day 2026: Über 1.000 Schülerinnen und Schüler erkunden die Hochschule Hannover\n    ### Über 1.000 Schülerinnen und Schüler aus der Region strömten jüngst zum Campus Day der Hochschule Hannover (HsH). Bei mehr als 120 Veranstaltungen erlebten sie hautnah, welche vielfältigen Studienmöglichkeiten die HsH bietet. Das Interesse zeigt: Der Bedarf an Orientierung ist groß."
+    },
+    {
+      "nr": 3,
+      "titel": "karriere › portal › seiten › hochschule hannover 900000011 10057",
+      "url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html",
+      "fakultaet": "",
+      "struktur": "    ### Hochschule Hannover"
+    },
+    {
+      "nr": 4,
+      "titel": "www › Organisation › Personal › 1 2023 VOE Monitoring",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/1-2023_VOE_Monitoring.pdf",
+      "fakultaet": "",
+      "struktur": "  ## W2-Professur \"Digitale Prozess-Technologien im Produktdesign\"\n  ## - Kennziffer W2 1/2023 –\n  ## Über uns:"
+    },
+    {
+      "nr": 5,
+      "titel": "karriere › bewerbung › beschreibung 900000445 10057",
+      "url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000445-10057.html",
+      "fakultaet": "",
+      "struktur": "    ### Technischer Mitarbeiterin für die Betreuung der Prüfungsverwaltungssoftware HIS-EXA (m/w/d), PM 1062-2026"
+    },
+    {
+      "nr": 6,
+      "titel": "mint › 5 Über uns › Veröffentlichungen › Unternehmen Flyer — Synergien schaffen – Netzwerken – Zukunft gestalten",
+      "url": "https://mint.hs-hannover.de/fileadmin/5_%C3%9Cber_uns/Ver%C3%B6ffentlichungen/Unternehmen_Flyer.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Synergien schaffen – Netzwerken – Zukunft gestalten\n  ## Vorteile für Unternehmen\n  ## Ihre Ansprechpartnerinnen an der Hochschule Hannover\n  ## Zukunft MINT\n  ## Zentrum für Lehre und Beratung (ZLB) Career Center Firmenkooperationen\n  ## Fakultät I - Elektro- und Informationstechnik\n  ## Fakultät II - Maschinenbau und Bioverfahrenstechnik\n  ## Fakultät IV - Wirtschaft und Informatik\n  ## Hochschule Hannover Eine gute Partnerin für die Praxis\n  ## Über die Hochschule Hannover\n  ## Über unsere Studierenden\n  ## Möglichkeiten der Zusammenarbeit\n  ## Zukunft. Gestalten."
+    },
+    {
+      "nr": 7,
+      "titel": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "fakultaet": "",
+      "struktur": "  ## 01. Wir – die HsH\n  ## Daten & Fakten\n  ## HsH in Zahlen 2006 ─ 2016\n  ## HsH in Zahlen 2016 ─ 2023\n  ## Studierende nach Fakultäten\n  ## Organisation\n  ## Vision Statement des Präsidiums\n  ## Geschichte der HsH\n  ## Vorgängereinrichtungen\n  ## Geschichte der HsH\n  ## Gründung der Fachhochschule Hannover\n# Unsere Standorte\n  ## 02. Qualifizieren – Studium & Lehre\n  ## Studienangebot\n  ## Bachelor-Studiengänge\n  ## Duale Bachelor-Studiengänge\n  ## Ausbildungsbegleitende Bachelor-Studiengänge\n  ## Berufsbegleitende & berufsintegrierende\n  ## Bachelor-Studiengänge\n  ## Master-Studiengänge\n  ## Digitale Transformation\n  ## Duale Master-Studiengänge\n  ## Berufsbegleitende Master-Studiengänge\n  ## Weiterbildende Master-Studiengänge\n  ## HsH – Hier studiert Hannover\n  ## Vielfältig und praxisnah\n  ## Fakultät I\n  ## Elektro- und Informationstechnik\n  ## Basisdaten\n  ## Fakultät II\n  ## Maschinenbau und Bioverfahrenstechnik\n  ## Basisdaten\n  ## Fakultät III\n  ## Medien, Information & Design\n  ## Basisdaten\n  ## Fakultät IV\n  ## Wirtschaft & Informatik\n  ## Betriebswirtschaft\n  ## Basisdaten\n  ## Fakultät V\n  ## Diakonie, Gesundheit & Soziales\n  ## Basisdaten\n  ## HsH-Akademie\n  ## Zentrum für lebenslanges Lernen\n  ## HsH – International\n  ## NEXSTER\n  ## Lebendige Innovations- und Transferkultur Transfer in die Praxis als zentrales Element\n  ## innovercity\n  ## Wissenschaft trifft auf Gesellschaft und Wirtschaft\n  ## Unsere Absolventinnen"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Organisation › Strategische Hochschulentwicklung › HsH Diversity Audit Abschlussbericht",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+      "fakultaet": "",
+      "struktur": "# Diversity-Audit »Vielfalt gestalten« des Stifterverbandes für die deutsche Wissenschaft\n  ## Abschlussbericht der Hochschule Hannover\n  ## Inhalt\n  ## Links zu ergänzenden Dokumenten\n  ## 1. Leitbild der HsH\n  ## 2. Gutes Lehren und Lernen - Leitsätze der Hochschuldidaktik\n  ## 3. 9. Fortschreibung des Gleichstellungsplans\n  ## 4. Leitfaden zur geschlechtergerechten Sprache\n  ## Grunddaten zur Hochschule Hannover\n  ## Hochschule Hannover (HsH)\n  ## I. Diversitätsstrategie der Hochschule Hannover\n  ## 1. Unsere Vision\n  ## 2. Unser Leitbild\n  ## 3.  Instrument Zielvereinbarungen mit dem\n  ## Ministerium für Wissenschaft und Kultur\n  ## 4.  Instrument Gleichstellungsplan\n  ## 5. Konsolidierung und Strategieprozess\n  ## II. Veränderungen\n  ## 1. Zahlen und Daten\n  ## Zusammensetzung Studierende\n  ## 2. Projekte zur Unterstützung der Zielsetzung des Diversity-Audits\n  ## a) Schwerpunkt Lehre\n  ## ~~„QpLuS – Qualität pro Lehre und Studium“~~\n  ## ~~Gender MINT~~\n  ## ~~„same diference“ Koordination Gender & Diversity der Fakultät III~~\n  ## ~~Gender-Koordinierungsstelle an der Fakultät V~~\n  ## ~~Projekt „Werkzeugkasten für diversitätssensible Lehre (Toolkit Diversity)“~~\n  ## ~~Tutorienprogramm~~\n  ## ~~Schreibwerkstatt~~\n  ## ~~intoSTUDY – Studienvorbereitung für Gefüchtete~~\n  ## b) Schwerpunkt Beratung\n  ## ~~MyStudy~~\n  ## ~~STHAGE~~\n  ## ~~Weiterbildung zu Gender- und Diversitätskompetenz~~\n  ## ~~Raum der Stille~~\n  ## Übersicht Schwerpunkt Beratung\n  ## c) Schwerpunkt Gender\n  ## ~~Gender-Netz – LAGEN Beitritt~~\n  ## ~~Genderaspekte in der Forschung~~\n  ## ~~Leitfaden geschlechtergerechte Sprache~~\n  ## ~~AStA Queer Referat~~\n  ## d) Schwerpunkt Gesundheit\n  ## ~~SBV - Inklusionsvereinbarung~~\n  ## ~~Beschäftigtenbefragung~~\n  ## Übersicht Schwerpunkt Gesundheit\n  ## 3. Ergebnisse der Audit Arbeitsgruppen\n  ## ~~AG EduScrum: Neue Lehr- und Lernformen~~\n  ## ~~AG Diversität im Projektmanagement - Begleitung der Teamarbeit einer studentischen Projektgruppe~~\n  ## ~~AG Kommunikation: Eine Diversity-Vision für die HsH~~\n  ## ~~Prozessbegleitung bei der Entwicklung bedarfsgerechter Studiengänge (vorzeitig aufgelöst)~~"
+    },
+    {
+      "nr": 9,
+      "titel": "Unsere Geschichte",
+      "url": "https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh",
+      "fakultaet": "",
+      "struktur": "# Unsere Geschichte\n    ### Auf einen Blick\n  ## 50 Jahre - 50 Alumni\n  ## Der Hauptstandort Linden im Herzen Hannovers\n  ## Campus im Grünen am Standort Kleefeld\n  ## Die größte Fakultät am Standort Expo Plaza\n  ## Zukunftsweisend Studieren am Standort Ahlem"
+    },
+    {
+      "nr": 10,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Bilanz zum 31. Dezember 2017\n  ## Gewinn- und Verlustrechnung\n  ## für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2017\n  ## Anhang für das Geschäftsjahr 2017\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Kassenbestand, Guthaben bei Kreditinstituten\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2017\n  ## F. Organe\n  ## Präsidium\n  ## Senat\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2017\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2017\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2a/2b).\n  ## 4a).\n  ## 4b).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c).\n  ## 9).\n  ## 11a)."
+    },
+    {
+      "nr": 11,
+      "titel": "f5 › Studium › Internationales › HsH Fakultaet V en webseite — Hannover",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+      "fakultaet": "f5",
+      "struktur": "# Hochschule Hannover University of Applied Sciences and Arts\n  ## Hannover\n  ## Hannover\n  ## Hannover\n  ## Hannover\n  ## Travelling:\n  ## Hamburg\n  ## Hannover\n  ## Travel from Hannover Airport: HAJ\n  ## The Hochschule Hannover Key Data\n  ## Locations\n  ## Linden\n  ## Campus Linden\n  ## Locations Ahlem\n  ## Campus Ahlem\n  ## Locations Expo Plaza\n  ## Campus Expo Plaza\n  ## Locations\n  ## Bismarckstraße\n  ## Campus Bismarckstrasse\n  ## Locations Kleefeld\n  ## Campus Blumhardtstrasse\n  ## The Hochschule Hannover Students per Faculty\n  ## Faculty V – Diaconic Studies, Health Care and Social Work\n  ## Some facts:\n  ## Faculty V – Diaconic Studies, Health Care and Social Work\n  ## Degree courses Faculty V – Diaconic Studies, Health Care and Social Work\n  ## Bachelor Degree Courses\n  ## Bachelor Degree\n  ## Degree Courses Faculty V – Diaconic Studies, Health Care and Social Work\n  ## Master Degree Courses\n  ## Master Degree\n  ## Campus Kleefeld Faculty V – Diaconic Studies, Health Care and Social Work\n  ## International Office: Projects Study Preparation\n  ## Study Camp\n  ## Spring Welcome Weeks\n  ## International Office: Projects Study Preparation\n  ## Rich cultural program:\n  ##  Trip to Volkswagen Autostadt in Wolfsburg\n  ## Hochschule Hannover: leisure activities\n  ## Hochschule Hannover: leisure activities\n  ## Sport offers at the Hochschule Hannover:\n  ## International Office Hochschule Hannover\n  ## International Office\n  ## Consulting and support on following issues:\n  ## Email: hsh-incoming@hs-hannover.de\n  ## Contact persons Faculty V – Diaconic Studies, Health Care and Social Work\n  ## International Coordinator\n  ## Annette Plobner\n  ## Contact persons Faculty V – Diaconic Studies, Health Care and Social Work"
+    },
+    {
+      "nr": 12,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Jahresabschluss zum 31. Dezember 2019 und Lagebericht\n  ## BESTÄTIGUNGSVERMERK\n  ## Hochschule Hannover, Hannover\n  ## Bilanz zum 31. Dezember 2019\n  ## A k t i v a\n  ## Hochschule Hannover, Hannover\n  ## Gewinn- und Verlustrechnung für die Zeit vom 1. Januar bis 31. Dezember 2019\n  ## Anhang für das Geschäftsjahr 2019\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## Details zu den sonstigen periodenfremden Erträgen:\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## C. Abschlussprüferhonorar\n  ## D. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2019\n  ## Haftungsverhältnisse\n  ## E. Organe\n  ## Präsidium\n  ## Senat\n  ## Hochschulrat\n  ## Ergebnisverwendung\n  ## Nachtragsbericht\n  ## Hochschule Hannover, Hannover\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2019\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2019\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2b).\n  ## 4b).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c)."
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.45494,
+      "id": "46b6df78-7b23-54c3-9a84-c2b1ab1d9015",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > Zahlen und Daten zur Hochschule:",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Erstsemesterinformation 27.02.2026  \nDekan Prof. Dr.-Ing. Frank Freund  \n**Fakultät I – Elektro- und Informationstechnik** _Dekanat und Verwaltung der Fakultät_  \nDekan: Prof. Dr.-Ing. Frank Freund Studiendekan: Prof. Dr.-Ing. Jan Peter Blath : Organisation/Beratung/Prüfungsangelegenheiten Herr Li"
+    },
+    {
+      "rang": 2,
+      "score": 2.28014,
+      "id": "f3de42e2-876c-57e1-9c82-46fd119b5b18",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/campus-day-2026-ueber-1000-schuelerinnen-und-schueler-erkunden-die-hochschule-hannover",
+      "title_anzeige": "Campus Day 2026: Über 1.000 Schülerinnen und Schüler erkunden die Hochschule Hannover",
+      "section_heading": "Campus Day 2026: Über 1.000 Schülerinnen und Schüler erkunden die Hochschule Hannover > Über 1.000 Schülerinnen und Schüler aus der Region strömten jüngst zum Campus Day der Hochschule Hannover (HsH). Bei mehr als 120 Veranstaltungen erlebten sie hautnah, welche vielfältigen Studienmöglichkeiten die HsH bietet. Das Interesse zeigt: Der Bedarf an Orientierung ist groß.",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "Das PZM wurde 2016 mit dem Ziel gegründet, junge Menschen für Mathematik, Informatik, Naturwissenschaften und Technik zu begeistern (<https://mint.hs-hannover.de>). Gemeinsam mit der Studienberatung richtet das Projekthaus Zukunft MINT den Campus Day jährlich im Februar aus. „Hier können wir den jun"
+    },
+    {
+      "rang": 3,
+      "score": 2.09532,
+      "id": "8016a612-d26c-5974-90a7-c4990d93eeb0",
+      "source_url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html",
+      "title_anzeige": "karriere › portal › seiten › hochschule hannover 900000011 10057",
+      "section_heading": "Hochschule Hannover",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "### Hochschule Hannover\nDie HsH ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule der niedersächsischen Landeshauptstadt. Sie ist mit über 100 Partnerhochschulen international ausgerichtet und ermöglicht intensive Kooperationen in Lehre, Forschung und Verwaltung sow"
+    },
+    {
+      "rang": 4,
+      "score": 2.00466,
+      "id": "31821b9a-af7e-5c13-aae0-e03dae555a2b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/1-2023_VOE_Monitoring.pdf",
+      "title_anzeige": "www › Organisation › Personal › 1 2023 VOE Monitoring",
+      "section_heading": "**Über uns:**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Über uns:**  \nDie Hochschule Hannover ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule in der niedersächsischen Landeshauptstadt. Insgesamt sind an ihr über 1.000 Lehrende, wissenschaftliche, künstlerische und Verwaltungsmitarbeitende tätig. Wir sind ein verlä"
+    },
+    {
+      "rang": 5,
+      "score": 1.96205,
+      "id": "8b64820b-ce22-5a1d-914e-3242f23a2c5d",
+      "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000445-10057.html",
+      "title_anzeige": "karriere › bewerbung › beschreibung 900000445 10057",
+      "section_heading": "Technische*r Mitarbeiter*in für die Betreuung der Prüfungsverwaltungssoftware HIS-EXA (m/w/d), PM 1062-2026",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "**Über uns:**\nDie Hochschule Hannover ist mit ihren rund 9.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule in der niedersächsischen Landeshauptstadt. Insgesamt sind an ihr über 1.000 Lehrende, wissenschaftliche, künstlerische und Verwaltungsmitarbeitende tätig. Wir sind ein verlässlic"
+    },
+    {
+      "rang": 6,
+      "score": 1.70131,
+      "id": "ba470dd2-d66f-50fe-817a-0d35252a074e",
+      "source_url": "https://mint.hs-hannover.de/fileadmin/5_%C3%9Cber_uns/Ver%C3%B6ffentlichungen/Unternehmen_Flyer.pdf",
+      "title_anzeige": "mint › 5 Über uns › Veröffentlichungen › Unternehmen Flyer — Synergien schaffen – Netzwerken – Zukunft gestalten",
+      "section_heading": "Über die Hochschule Hannover > Über unsere Studierenden > Möglichkeiten der Zusammenarbeit",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## Über die Hochschule Hannover\n\n## Über unsere Studierenden\n## Möglichkeiten der Zusammenarbeit  \n- Rund 10.000 Studierende in fünf Fakultäten an mehreren Standorten in Hannover  \n- Breit aufgestelltes Fächerspektrum: Technik- und Wirtschaftswissenschaften, Sozialwesen, Medienund Kreativstudiengäng"
+    },
+    {
+      "rang": 7,
+      "score": 1.6779,
+      "id": "016ecc25-446c-5280-9a4d-ab12bf625d83",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Unsere Standorte** > **Basisdaten**",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "## **Basisdaten**  \nStandort Campus Linden u. Ahlem  \n- 12 Bachelor-Studiengänge  \n- 6 Master-Studiengänge  \n- Rund 1.500 Studierende  \n- 57 Professor*innen  \n© HsH/Lam Nguyen  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_"
+    },
+    {
+      "rang": 8,
+      "score": 1.66067,
+      "id": "c8dcfa46-8e49-5b95-85d0-8b04c4edfeb1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+      "title_anzeige": "www › Organisation › Strategische Hochschulentwicklung › HsH Diversity Audit Abschlussbericht",
+      "section_heading": "Diversity-Audit »Vielfalt gestalten« _des Stifterverbandes für die deutsche Wissenschaft_ > Grunddaten zur Hochschule Hannover > Diversity-Audit »Vielfalt gestalten« _des Stifterverbandes für die deutsche Wissenschaft_ > _Hochschule Hannover (HsH)_",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## Grunddaten zur Hochschule Hannover\n## _Hochschule Hannover (HsH)_  \n_University of Applied Sciences and Arts in staatlicher Trägerschaft 10.024 Studierende 916 Beschäftigte insgesamt davon 260 Professor*innen_  \nGut 10.000 Studierende und rund 900 Beschäftigte sind aktuell Teil der Hochschule Han"
+    },
+    {
+      "rang": 9,
+      "score": 1.65697,
+      "id": "7ab0bb9c-97cf-5d26-ac9e-7330d0c067e9",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh",
+      "title_anzeige": "Unsere Geschichte",
+      "section_heading": "Unsere Geschichte",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n# Unsere Geschichte\nForschung und Lehre verknüpft mit intensivem Praxisbezug sowie eine breit gefächerte Internationalität – diese Merkmale prägen die Hochschule Hannover (HsH) seit mehr als 50 Jahren. Mit ihren rund 9.000 Studierenden ist sie eine de"
+    },
+    {
+      "rang": 10,
+      "score": 1.59025,
+      "id": "9367d063-d67f-5fbc-8009-ab82456dabd5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "section_heading": "**Hochschule Hannover** > **Lagebericht für das Geschäftsjahr 2017** > **1. Rahmenbedingungen**",
+      "chunk_index": 74,
+      "text_vollstaendig": false,
+      "auszug": "Das Wachstum der letzten Jahre hat nach aktuellem Stand seinen Höhepunkt im Wintersemester 2015 / 2016 erreicht; zum Wintersemester 2017 / 2018 ging die Zahl der Studierenden minimal zurück und betrug zum Stichtag 9.862 Studierende (Vj. 9.871 Studierende). Der Anteil der Studierenden aus der Region "
+    },
+    {
+      "rang": 11,
+      "score": 1.57087,
+      "id": "534f5db4-b146-58c4-ae83-7655bb222ab5",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+      "title_anzeige": "f5 › Studium › Internationales › HsH Fakultaet V en webseite — Hannover",
+      "section_heading": "**Hochschule Hannover** _University of Applied Sciences and Arts_ > **The Hochschule Hannover** _Students per Faculty_",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **The Hochschule Hannover** _Students per Faculty_  \nFaculty I – Electrical Engineering and Information Technology  \nFaculty II – Mechanical and Bio Process Engineering Faculty III – Media, Information and Design Faculty IV – Business and Computer Science  \nFaculty V – Social Welfare and Diaconic"
+    },
+    {
+      "rang": 12,
+      "score": 1.55476,
+      "id": "ee1791d7-d959-5fc4-bcf0-c04f59a4469d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**Hochschule Hannover** > **Lagebericht für das Geschäftsjahr 2019** > **1. Rahmenbedingungen**",
+      "chunk_index": 80,
+      "text_vollstaendig": false,
+      "auszug": "Die Studierendenzahlen haben sich in den letzten Jahren stabilisiert. Zum Stichtag des Wintersemesters 2019 / 2020 lag die Zahl der Studierenden bei 9.897 (im Vergleich zu 10.024 Studierenden zum Stichtag des Wintersemesters 2018/2019 und 9.862 Studierende zum Stichtag des Wintersemesters 2017/2018)"
+    },
+    {
+      "rang": 13,
+      "score": 1.54954,
+      "id": "fec32499-92a0-5deb-8d5c-a990f33da950",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Studierende nach Fakultäten**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **Studierende nach Fakultäten**  \n**Fak. I Fak. II** ElektroMaschinenbau & Informations& Bioverfahrenstechnik technik  \n**Fak. III** Medien, Information & Design  \n**Fak. IV Fak. V** Wirtschaft Diakonie, & Informatik Gesundheit & Soziales  \nQuelle: Amtliche Statistik einschl. beurlaubte Studieren"
+    },
+    {
+      "rang": 14,
+      "score": 1.54048,
+      "id": "d3763890-8dcd-5172-93cf-6f1ed03edb6a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2018 — Hannover",
+      "section_heading": "**Hochschule Hannover** > **Lagebericht für das Geschäftsjahr 2018** > **1. Rahmenbedingungen**",
+      "chunk_index": 74,
+      "text_vollstaendig": false,
+      "auszug": "Die Studierendenzahlen haben sich in den letzten Jahren stabilisiert. Zum Stichtag des Wintersemesters 2018 / 2019 lag die Zahl der Studierenden bei 10.024 (im Vergleich zu 9.862 Studierenden zum Stichtag des Wintersemesters 2017/2018 und 9.871 Studierende zum Stichtag des Wintersemesters 2016/2017)"
+    },
+    {
+      "rang": 15,
+      "score": 1.45056,
+      "id": "da5e9c4b-1ff4-5157-a81d-51fa194b899a",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+      "title_anzeige": "f5 › Studium › Internationales › HsH Fakultaet V en webseite — Hannover",
+      "section_heading": "**Hochschule Hannover** _University of Applied Sciences and Arts_ > **The Hochschule Hannover** _Key Data_",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **The Hochschule Hannover** _Key Data_  \n- 5 faculties at different locations in Hannover  \n- 41 Bachelor degree courses  \n- 18 Master degree courses  \n- More than 9000 students  \n- 593 staff  \n- 269 professors  \n- roundabout 333 internal lecturers  \n- roundabout 515 external lecturers"
+    },
+    {
+      "rang": 16,
+      "score": 1.43996,
+      "id": "f6260182-58d4-5af0-b033-3a8065c820b5",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+      "title_anzeige": "Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert",
+      "section_heading": "Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert  \nWir sind Heimathochschule für rund 9.000 Studierende und Arbeitgeberin für rund 1.300 Beschäftigte in der niedersächsischen Landeshauptstadt.  \n[Hier studiert Hannover](https://www.hs-hannover.de/studium) in über 70 Studienang"
+    },
+    {
+      "rang": 17,
+      "score": 1.39583,
+      "id": "5927c453-f809-522d-86e8-ee11ac69e771",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2019_Archiv_Dokumente/16-04-2019-KeyFacts_HsH_FINAL.pdf",
+      "title_anzeige": "f4 › Internationales › 2019 Archiv Dokumente › 16 04 2019 KeyFacts HsH FINAL",
+      "section_heading": "Hochschule Hannover > Why HsH",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Hochschule Hannover\n## Why HsH  \n- » High quality degree courses, full- or part-time, including dual programs  \nTeaching and research, practical relevance, further education and internationality typically describe the standing of _Hochschule Hannover - University of Applied Sciences and Arts (HsH"
+    },
+    {
+      "rang": 18,
+      "score": 1.38129,
+      "id": "2bbe7956-3991-5b35-b055-962825ff3cf3",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw/angebote-fuer-studieninteressierte",
+      "title_anzeige": "Angebote für Studieninteressierte",
+      "section_heading": "Angebote für Studieninteressierte > [Studieren ohne Abitur](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/offene-hochschule/)",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "### [Studieren ohne Abitur](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/offene-hochschule/)\nRund 900 Studierende ohne Abitur sind derzeit an der Hochschule Hannover (HsH) immatrikuliert. Mit diesem hohen Anteil beruflich Qualifizierter belegt die HsH eine Spitzenpositio"
+    },
+    {
+      "rang": 19,
+      "score": 1.38066,
+      "id": "15871ec6-442f-5b45-9402-56a1fa9b7bd2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2016 — Hochschule Hannover",
+      "section_heading": "**Hochschule Hannover** > **Lagebericht für das Geschäftsjahr 2016** > **1. Rahmenbedingungen**",
+      "chunk_index": 83,
+      "text_vollstaendig": true,
+      "auszug": "Das Wachstum der letzten Jahre hat nach aktuellem Stand seinen Höhepunkt im Wintersemester 2015/2016 erreicht; zum Wintersemester 2016/2017 ging die Zahl der Studierenden minimal zurück und betrug zum Stichtag 9.871 Studierende (Vorjahr 9.900 Studierende). Der Anteil der Studierenden aus der Region "
+    },
+    {
+      "rang": 20,
+      "score": 1.37886,
+      "id": "dae7bdc2-54b2-546e-a1f2-8cb38d040c5c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/Ukraine-Krieg/Ukraine_EN.pdf",
+      "title_anzeige": "www › Internationales › Ukraine Krieg › Ukraine EN — Studying in Hannover",
+      "section_heading": "Studying in Hannover",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Studying in Hannover  \nHannover is a student city with over 40,000 students.  \nThere are various universities and universities of applied sciences in Hannover with a comprehensive range of degree programmes."
+    },
+    {
+      "rang": 21,
+      "score": 1.3662,
+      "id": "b23b9a3c-1b1c-5619-aacc-6fd05a40789d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/Ukraine-Krieg/Ukraine_DE.pdf",
+      "title_anzeige": "www › Internationales › Ukraine Krieg › Ukraine DE — Studieren in Hannover",
+      "section_heading": "Studieren in Hannover",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Studieren in Hannover  \nHannover ist eine Studierendenstadt mit über 40 000 Studierenden. Es gibt verschiedene Universitäten und Hochschulen in Hannover mit einem umfassenden Studienangebot:"
+    },
+    {
+      "rang": 22,
+      "score": 1.33649,
+      "id": "9937d67e-a7ab-5c9c-86fa-d20b7cdad368",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch PO2016",
+      "section_heading": "1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik > 1.1 Fakultäts- und Abteilungsstruktur",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## 1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik\n## 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover ist in drei Abteilungen organisiert: Betriebswirtschaft (BWL), Informatik (I) und Wirtschaftsinformatik (WI). Insgesamt st"
+    },
+    {
+      "rang": 23,
+      "score": 1.32258,
+      "id": "4745384d-f0ec-5789-876f-501298675a58",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2013 — Jahresabschluss zum 31. Dezember 2013 und Lagebericht",
+      "section_heading": "**Jahresabschluss zum 31. Dezember 2013 und Lagebericht** > 1.1 Hochschulstruktur",
+      "chunk_index": 52,
+      "text_vollstaendig": false,
+      "auszug": "Zum Wintersemester 2013/2014 verzeichnete sie erstmalig über 9.000 Studierende. Von den insgesamt 8.914 Studierenden kamen über 60 % aus der Region Hannover. Etwa die Hälfte von ihnen belegte Studiengänge der Fachrichtungen Maschinenbau und Bioverfahrenstechnik[1] und Medien, Information und Design["
+    },
+    {
+      "rang": 24,
+      "score": 1.32212,
+      "id": "8606d3ed-291e-5668-a606-816ef6af0b4e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "— 2 Kurzdarstellung der Hochschule",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## — 2 Kurzdarstellung der Hochschule  \nAls regional verankerte und international ausgerichtete Hochschule bietet die Hochschule Hannover (HsH) eine breit gefächerte Auswahl anwendungsorientierter Fachqualifikationen aus den Bereichen Informatik und Ingenieurwesen, Design und Medien sowie Wirtschaft"
+    },
+    {
+      "rang": 25,
+      "score": 1.29979,
+      "id": "fba77d17-0968-5fb4-91be-69655ae542bf",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+      "title_anzeige": "f3 › Studiengaenge › BMI › BMI Studienhandbuch",
+      "section_heading": "**Bachelor Medizinisches Informationsmanagement** Studien- und  Modulhandbuch > **Teil I.** > **Bachelor Medizinisches Informationsmanagement** Studien- und  Modulhandbuch > **Studienhandbuch** > **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **1.1 Fakultäts- und Abteilungsstruktur**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "Die Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design  \n- Information und Kommunikation  \nDie Fakultät III ist die größte Fakultät der Hochschule Hannover. Insgesamt studieren an dieser Fakultät zurzeit etwa 2000 Studierende in 14 Bac"
+    },
+    {
+      "rang": 26,
+      "score": 1.29347,
+      "id": "8922dac7-3622-5512-af05-0874818b21c2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Career_Center/Career_Center_Kooperationspartner_2023.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Career Center › Career Center Kooperationspartner 2023 — Firmenkontaktmesse",
+      "section_heading": "Das Career Center „Ihr Kontakt zum akademischen Nachwuchs“ > Über die Hochschule Hannover > Das Career Center „Ihr Kontakt zum akademischen Nachwuchs“ > **Kurzinfo:**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Über die Hochschule Hannover\n\n## **Kurzinfo:**  \n- 5 Fakultäten an 4 Standorten  \n- 47 Studiengänge mit Bachelor-Abschluss  \n- 22 weiterführende Studiengänge mit Master-Abschluss  \n- Zahlreiche duale und berufsbegleitende Modelle  \n- Rund 10000 Studierende"
+    },
+    {
+      "rang": 27,
+      "score": 1.28529,
+      "id": "fc56ea84-2e6d-504a-b686-c7bf8c84caab",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/berufungsmanagement-1/hannotalents",
+      "title_anzeige": "Herzlich Willkommen bei HannoTalents!",
+      "section_heading": "Aktuelle Stellenangebote > Arbeiten an der HsH",
+      "chunk_index": 42,
+      "text_vollstaendig": true,
+      "auszug": "## Arbeiten an der HsH\n![HsH](https://www.hs-hannover.de/fileadmin/_processed_/2/5/csm_image00017_8cd1690216.jpeg?rbiFocus=mobile)\n**_Wir qualifizieren für die Arbeitswelten von morgen!_**\nDie Hochschule Hannover ist mit ihren rund **8200 Studierenden** in **fünf Fakultäten** die **zweitgrößte Hochs"
+    },
+    {
+      "rang": 28,
+      "score": 1.26228,
+      "id": "0a257a8a-d440-5076-9a19-c62c648a80d1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2020 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**1.10 Personelle Entwicklung** > **1.10.1 Allgemein**",
+      "chunk_index": 119,
+      "text_vollstaendig": false,
+      "auszug": "## **1.10 Personelle Entwicklung**\n## **1.10.1 Allgemein**  \nDie Hochschule Hannover ist mit ihren rund 10.000 Studierenden in fünf Fakultäten die zweitgrößte Hochschule in der niedersächsischen Landeshauptstadt. Im Jahr 2020 waren im Durchschnitt an der Hochschule 818 (2019: 853) Lehrende, wissensc"
+    },
+    {
+      "rang": 29,
+      "score": 1.23812,
+      "id": "21f4a18a-3eb6-5c4f-ab25-7f65ac63a27f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "HsH – Hier studiert 34 Hannover. > Digitalisierung des Student Life Cycle",
+      "chunk_index": 114,
+      "text_vollstaendig": false,
+      "auszug": "sind etwa 900 Studierende ohne schulische HZB an der HsH immatrikuliert, die mit diesem hohen Anteil beruflich Qualifizierter eine Spitzenposition unter den staatlichen Hochschulen in Niedersachsen belegt."
+    },
+    {
+      "rang": 30,
+      "score": 1.22399,
+      "id": "17e08bf6-0199-5c7d-8972-6356685e3cc5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**Offene Hochschule**",
+      "chunk_index": 149,
+      "text_vollstaendig": false,
+      "auszug": "##  **Offene Hochschule**  \nBeruflich qualifizierte Menschen ohne klassische Hochschulzugangsberechtigung erhalten Unterstützung, um ihre fachlichen Kenntnisse, Fertigkeiten und Kompetenzen aus der Berufspraxis in hochschulische Bildungskarrieren zu überführen. Derzeit sind rund 819 Bachelor- und 88"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000429-10057.html",
+        "score": 0.82951
+      },
+      {
+        "rang": 2,
+        "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000445-10057.html",
+        "score": 0.81465
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_12-2024_Ausschreibungstext_Monitoring.pdf",
+        "score": 0.8126
+      },
+      {
+        "rang": 4,
+        "source_url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html",
+        "score": 0.81258
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_13-2024_Ausschreibungstext_Monitoring.pdf",
+        "score": 0.81251
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/1-2023_VOE_Monitoring.pdf",
+        "score": 0.81134
+      },
+      {
+        "rang": 7,
+        "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000421-10057.html",
+        "score": 0.80119
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_17-2025_Ausschreibung.pdf",
+        "score": 0.79174
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "score": 0.78749
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+        "score": 0.78206
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 0.77899
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f3.hs-hannover.de/forschung/forschungsprojekte",
+        "score": 0.77775
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh",
+        "score": 0.77506
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/Ukraine-Krieg/Ukraine_DE.pdf",
+        "score": 0.77254
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "score": 0.77212
+      },
+      {
+        "rang": 16,
+        "source_url": "https://mint.hs-hannover.de/fileadmin/5_%C3%9Cber_uns/Ver%C3%B6ffentlichungen/Unternehmen_Flyer.pdf",
+        "score": 0.76903
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 0.76479
+      },
+      {
+        "rang": 18,
+        "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000456-10057.html",
+        "score": 0.75864
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/W2_12-2025_Ausschreibungstext_VOE.pdf",
+        "score": 0.75675
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+        "score": 0.75638
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/Ukraine-Krieg/Ukraine_EN.pdf",
+        "score": 0.74121
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Career_Center/Career_Center_Kooperationspartner_2023.pdf",
+        "score": 0.7395
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Genderaspekte_in_der_Forschung/Evaluation_Gender_in_der_Forschung_an_der_HsH.pdf",
+        "score": 0.73384
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 0.72762
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+        "score": 0.72195
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 0.71934
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 0.71794
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 0.71546
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "score": 0.71419
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 0.71399
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+        "score": 0.71367
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+        "score": 0.71349
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 0.71211
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.71139
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 0.71048
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.70706
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+        "score": 0.70355
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/studierende",
+        "score": 0.70184
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+        "score": 0.6998
+      },
+      {
+        "rang": 40,
+        "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000451-10057.html",
+        "score": 0.69932
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "score": 0.69855
+      },
+      {
+        "rang": 42,
+        "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000424-10057.html",
+        "score": 0.69787
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 0.69321
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "score": 0.69153
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/berufungsmanagement-1/hannotalents",
+        "score": 0.69017
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/12-2016/01_GSP_Fortschreibung_8.pdf",
+        "score": 0.68831
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.68828
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 0.68668
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 0.68402
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "score": 0.68383
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 0.89409
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/1-2023_VOE_Monitoring.pdf",
+        "score": 0.89408
+      },
+      {
+        "rang": 3,
+        "source_url": "https://karriere.hs-hannover.de/bewerbung/beschreibung-900000445-10057.html",
+        "score": 0.87982
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 0.87627
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/campus-day-2026-ueber-1000-schuelerinnen-und-schueler-erkunden-die-hochschule-hannover",
+        "score": 0.87116
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+        "score": 0.86275
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2019_Archiv_Dokumente/16-04-2019-KeyFacts_HsH_FINAL.pdf",
+        "score": 0.85702
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2022.pdf",
+        "score": 0.8532
+      },
+      {
+        "rang": 9,
+        "source_url": "https://mint.hs-hannover.de/fileadmin/5_%C3%9Cber_uns/Ver%C3%B6ffentlichungen/Unternehmen_Flyer.pdf",
+        "score": 0.84227
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 0.83327
+      },
+      {
+        "rang": 11,
+        "source_url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html",
+        "score": 0.82651
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh",
+        "score": 0.82547
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+        "score": 0.82532
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+        "score": 0.82121
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/06-2003/Verkuendungsblatt_06_2003.pdf",
+        "score": 0.82074
+      },
+      {
+        "rang": 16,
+        "source_url": "https://mint.hs-hannover.de/ueber-uns",
+        "score": 0.81636
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/01-2005/Verkuendungsblatt_01_2005.pdf",
+        "score": 0.81346
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.81326
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+        "score": 0.81195
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+        "score": 0.81192
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 0.80501
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "score": 0.79766
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "score": 0.79578
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/02-2022/01_10_Fortschreibung_GSP_Senat.pdf",
+        "score": 0.79236
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/03-2025/hsh_verkuendungsblatt_nr_03_2025_opt.pdf",
+        "score": 0.79053
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 0.79034
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2021_Archiv_Dokumente/2021-02-17_Lopez__Erick.pdf",
+        "score": 0.78791
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/berufungsmanagement-1/hannotalents",
+        "score": 0.78695
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/HsH_Verkuendungsblatt_02_2022.pdf",
+        "score": 0.78217
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f2.hs-hannover.de/index.php",
+        "score": 0.7821
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.78202
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "score": 0.78092
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/KeGL/Modulbeschreibungen_und_Lehrmaterialien/Lehr-_und_Lernmaterialien_Modul_1_Einfuehrung.pdf",
+        "score": 0.78065
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "score": 0.77957
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 0.77913
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/02-2022/01_10_Fortschreibung_GSP_Senat.pdf",
+        "score": 0.7766
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2021_Archiv_Dokumente/2021-01-11_Salo__Aino.pdf",
+        "score": 0.77432
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/Ukraine-Krieg/Ukraine_EN.pdf",
+        "score": 0.77424
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/06-2003/Verkuendungsblatt_06_2003.pdf",
+        "score": 0.77119
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 0.76695
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 0.76694
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 0.76673
+      },
+      {
+        "rang": 43,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+        "score": 0.76271
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/02-2022/01_10_Fortschreibung_GSP_Senat.pdf",
+        "score": 0.76229
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/03-2025/02_GSP_11_mit_Anlagen.pdf",
+        "score": 0.76131
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/24-07-31_Teilzeitstudium_Verwaltungsinformatik_HS_Hannover.pdf",
+        "score": 0.7611
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2021_Archiv_Dokumente/2021-02-17_Fuhrmann__Emma.pdf",
+        "score": 0.76082
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/lehrende",
+        "score": 0.75849
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2021_Archiv_Dokumente/2021-03-23_USA_Ransick__Sara.pdf",
+        "score": 0.75806
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2021_Archiv_Dokumente/25_Ajou_Visiting-Exchange_Program_Fact_Sheet.pdf",
+        "score": 0.75783
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+        "score": 18.1646
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/unsere-austauschprogramme",
+        "score": 16.5036
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/05-MeldeRichtli.pdf",
+        "score": 15.74943
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f4.hs-hannover.de/internationales/studium-und-praktikum-im-ausland",
+        "score": 15.42008
+      },
+      {
+        "rang": 5,
+        "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+        "score": 15.112
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f5.hs-hannover.de/ueber-uns/gesundheitsfoerderung/weiterbildung-und-beratung",
+        "score": 15.05775
+      },
+      {
+        "rang": 7,
+        "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+        "score": 14.97497
+      },
+      {
+        "rang": 8,
+        "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/berufsorientierung/campus-day-berufsorientierungstage",
+        "score": 14.90643
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/das-studium/absolventinnenbefragung",
+        "score": 14.89606
+      },
+      {
+        "rang": 10,
+        "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+        "score": 14.70534
+      },
+      {
+        "rang": 11,
+        "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/berufsorientierung/campus-day-berufsorientierungstage",
+        "score": 14.55649
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen/50-jahre-hsh/henrike-alex",
+        "score": 14.46602
+      },
+      {
+        "rang": 13,
+        "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+        "score": 14.4192
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+        "score": 14.2608
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/studium/studieren-an-der-hsh/rund-ums-studium/stipendien/besten-foerder-programm",
+        "score": 14.25716
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 14.17271
+      },
+      {
+        "rang": 17,
+        "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/berufsorientierung/campus-day-berufsorientierungstage",
+        "score": 14.10113
+      },
+      {
+        "rang": 18,
+        "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+        "score": 13.9787
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/offene-hochschule",
+        "score": 13.75427
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Genderaspekte_in_der_Forschung/Evaluation_Gender_in_der_Forschung_an_der_HsH.pdf",
+        "score": 13.62403
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Bewerbung_und_Studieninteressierte/Studienvoraussetzungen_Fak_III_DM_Stand_12-2024_DE.pdf",
+        "score": 13.60849
+      },
+      {
+        "rang": 22,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+        "score": 13.58065
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BRS-Religionspaesagogik_und_Soziale_Arbeit/WiSe-25-26/BRS_Informationen_Homepage_Wintersemester_25-14.07.2025.pdf",
+        "score": 13.52465
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.code4comp.wp.hs-hannover.de/2016/05/04/gedaechtnis-spiel",
+        "score": 13.46988
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+        "score": 13.26698
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/studienprogramme/studymint",
+        "score": 13.26685
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/beratung-kontakt",
+        "score": 13.25558
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Bericht_Jugendarbeit_Seelze_2013.pdf",
+        "score": 13.18683
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/07-001.pdf",
+        "score": 13.18461
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BIM_Informationsmanagement_Studiengangsflyer_A5_2024005.pdf",
+        "score": 13.10828
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/grundstaendig-studierende-degree-seeking-students/waehrend-des-studiums",
+        "score": 12.92742
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil/wer-wir-sind/studierende",
+        "score": 12.897
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/grundstaendig-studierende-degree-seeking-students/waehrend-des-studiums",
+        "score": 12.85007
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+        "score": 12.82218
+      },
+      {
+        "rang": 35,
+        "source_url": "https://mint.hs-hannover.de/ueber-uns/wer-wir-sind-und-was-wir-tun",
+        "score": 12.7245
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._2.pdf",
+        "score": 12.70533
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/grundstaendig-studierende-degree-seeking-students",
+        "score": 12.70523
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Informationen_Erstsemester/BRS_Informationen_Homepage_Wintersemester_26_27_14.07.2026.pdf",
+        "score": 12.69185
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/grundstaendig-studierende-degree-seeking-students/waehrend-des-studiums",
+        "score": 12.68449
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+        "score": 12.66765
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Informationen_Erstsemester/BRS_Informationen_Homepage_Wintersemester_26_27_14.07.2026.pdf",
+        "score": 12.59924
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Simon__2023__Regierungskommission_Reform_Krankenhausfinanzierung.pdf",
+        "score": 12.57473
+      },
+      {
+        "rang": 43,
+        "source_url": "https://mint.hs-hannover.de/studieren/voraussetzungen-und-moeglichkeiten-fuer-ein-studium",
+        "score": 12.52825
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende",
+        "score": 12.49467
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/grundstaendig-studierende-degree-seeking-students/waehrend-des-studiums",
+        "score": 12.46638
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+        "score": 12.3811
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BSW-Soziale_Arbeit_grundstaendig/SoSe_2026/Erstsemesterinformationen_BSW_SoSe_2026.pdf",
+        "score": 12.3709
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/default-f409130567fc9a90924d3b1360dfcf95",
+        "score": 12.32351
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2026-03-10_Outgoing__Info-VA_BWL_WI.pdf",
+        "score": 12.19695
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Ralf_Hoburg__Die_Bahnhofsmission_-_Ein_sozialer_Ort_fuer_alle.pdf",
+        "score": 12.13913
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+        "score": 15.85532
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/05-MeldeRichtli.pdf",
+        "score": 15.82544
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/studienprogramme/studymint",
+        "score": 15.11669
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/offene-hochschule",
+        "score": 14.45746
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/unsere-austauschprogramme",
+        "score": 14.09088
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.code4comp.wp.hs-hannover.de/2015/11/18/grune-fahne-und-ende-baustein",
+        "score": 14.03837
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw/angebote-fuer-studieninteressierte",
+        "score": 13.76785
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 13.63537
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/aktuelles/forum-studie-ergebnisse-werden-vorgestellt",
+        "score": 13.58636
+      },
+      {
+        "rang": 10,
+        "source_url": "https://mint.hs-hannover.de/studieren/orientierungssemester-studymint",
+        "score": 13.56447
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20251014_Protokoll_37.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+        "score": 13.40692
+      },
+      {
+        "rang": 12,
+        "source_url": "https://mint.hs-hannover.de/studieren/orientierungssemester-studymint",
+        "score": 13.26664
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende",
+        "score": 13.07014
+      },
+      {
+        "rang": 14,
+        "source_url": "https://mint.hs-hannover.de/studieren/voraussetzungen-und-moeglichkeiten-fuer-ein-studium",
+        "score": 12.99696
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "score": 12.81888
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/studium/studieren-an-der-hsh/rund-ums-studium/stipendien/aktuelles",
+        "score": 12.73634
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/campus-day-2026-ueber-1000-schuelerinnen-und-schueler-erkunden-die-hochschule-hannover",
+        "score": 12.65965
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+        "score": 12.6562
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "score": 12.59699
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 12.59169
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 12.58737
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Simon__2008__Sechzehn_Jahre_Budgetdeckelung__verdi-Studie_.pdf",
+        "score": 12.4936
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f5.hs-hannover.de/ueber-uns/gesundheitsfoerderung/weiterbildung-und-beratung",
+        "score": 12.40628
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/studium/studieren-an-der-hsh/rund-ums-studium/stipendien/aktuelles",
+        "score": 12.39508
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/studium-und-pflegeverantwortung",
+        "score": 12.29917
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 12.27993
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Ralf_Hoburg__Die_Bahnhofsmission_-_Ein_sozialer_Ort_fuer_alle.pdf",
+        "score": 12.27487
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f4.hs-hannover.de/internationales/studium-und-praktikum-im-ausland",
+        "score": 12.26129
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/offene-hochschule",
+        "score": 12.22291
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw/bearatungsangebote/familie-und-gleichstellung",
+        "score": 12.22182
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._8.pdf",
+        "score": 12.21521
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2020.pdf",
+        "score": 12.18963
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Forschungen/Institute/IVEK/20190427_VEU_Fragen_und_Antworten.pdf",
+        "score": 12.13052
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/03-PO-Mechatronik.pdf",
+        "score": 12.11525
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f3.hs-hannover.de/studium/faqs-1",
+        "score": 12.10343
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f3.hs-hannover.de/studium/faqs-1",
+        "score": 12.0874
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/02-PO-Wirtschaftsingenieur_E-technik.pdf",
+        "score": 12.07415
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 12.06506
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 12.0475
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Simon_Mehmecke__2017__Nurse-to-Patient_Ratios.pdf",
+        "score": 12.03564
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+        "score": 11.97684
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/07-001.pdf",
+        "score": 11.96269
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BMI_20241101.pdf",
+        "score": 11.95487
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/KTD/5-Texteil_KTD_PO_2012_komplett4.pdf",
+        "score": 11.94198
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._4.pdf",
+        "score": 11.92067
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BMI_20241101.pdf",
+        "score": 11.88011
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/studium/studieren-an-der-hsh/rund-ums-studium/stipendien/aktuelles",
+        "score": 11.87964
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/07-001.pdf",
+        "score": 11.83682
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 11.83528
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/VEU/72017_03_PO-VEU_WS20166.pdf",
+        "score": 11.83528
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.28,
+    "kandidaten_s": 0.0,
+    "arme_s": 2.15,
+    "gesamt_s": 4.44
+  },
+  "auswahl_begruendung": ""
+}

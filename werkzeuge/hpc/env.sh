@@ -1,0 +1,10 @@
+export PROJEKT=/mnt/vast-kisski/projects/PROJEKTKONTO/users/NUTZERNAME
+export ARBEIT=$PROJEKT/hsh_scraper
+export PYTHON=$PROJEKT/venv_kisski/bin/python
+export V=$PROJEKT/venv_vllm/bin
+export FASTEMBED_CACHE_PATH=$ARBEIT/fastembed_cache
+export HF_HUB_CACHE=$PROJEKT/hf_cache
+export LD_LIBRARY_PATH=$PROJEKT/venv_kisski/lib:${LD_LIBRARY_PATH:-}
+export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK:-8}
+export MKL_NUM_THREADS=$OMP_NUM_THREADS
+cd $ARBEIT

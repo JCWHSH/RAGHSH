@@ -1,0 +1,520 @@
+{
+  "fall": {
+    "id": "q17",
+    "case_type": "direct",
+    "question": "Gibt es Informationen zur 15-CP-Überprüfung in der Fakultät I und ist dort ein freier Versuch beschrieben?",
+    "reference_answer": "Auf der Seite der Prüfungsverwaltung der Fakultät I ist Stephan Rittmüller als Ansprechpartner für allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung und Umbuchungen genannt. Die Seite beschreibt an dieser Stelle keine Freiversuchsregel und keine Details dazu, dass es wegen 15 CP einen freien Versuch gibt.",
+    "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+    "expected_behavior": "missing_detail_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die Quelle nennt 15 CP Überprüfung im Kontext der Prüfungsverwaltung der Fakultät I.",
+      "Stephan Rittmüller ist dort als Ansprechpartner genannt.",
+      "Die Quelle beschreibt keine Freiversuchsregel und keine Details zu einem freien Versuch wegen 15 CP."
+    ],
+    "optional_facts": [
+      "Die Quelle nennt auch allgemeine Fragen, Prüfungsanmeldungen, iCMS und Umbuchungen."
+    ],
+    "forbidden_claims": [
+      "Eine Freiversuchsregel aus der Quelle ableiten oder erfinden.",
+      "Konkrete Folgen der 15-CP-Überprüfung behaupten, die in der Quelle nicht stehen."
+    ],
+    "case_difficulty": "schwer",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Negativ-/Abgrenzungsfall: Nur die 15 CP Überprüfung und die Ansprechperson sind auf der Quelle belegt. Keine Details zu einem freien Versuch erfinden.",
+    "tags": [
+      "fehlendes-detail"
+    ],
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "15 CP",
+      "Stephan Rittmüller"
+    ],
+    "gold_im_korpus": true
+  },
+  "modell": "meta-llama-3.1-8b-instruct",
+  "zeitstempel": "2026-08-17T16:45:35",
+  "dauer_s": 4.87,
+  "fehler": null,
+  "antwort": "Ja, es gibt Informationen zur 15-CP-Überprüfung in der Fakultät I. In der Fakultätsverwaltung der Fakultät I ist unter dem Punkt \"Ansprechpersonen\" ein Mitarbeiter namens Stephan Rittmüller aufgeführt, der für die 15-CP-Überprüfung zuständig ist. Der Text lautet: \"15 CP Überprüfung, Umbuchungen\". \n\nZur Frage nach einem freien Versuch: In der Diplomprüfungsordnung für den Studiengang Wirtschaftsingenieurwesen an der Fachhochschule Hannover, Fachbereich Maschinenbau, ist in § 3 Abs. 6 eine Regelung zum Freiversuch enthalten. Danach können innerhalb eines Freiversuches bestandene Prüfungsleistungen angerechnet werden, sofern die Anrechnung nach den Vorschriften des Ersten oder Zweiten Teils nicht nur auf Antrag und innerhalb bestimmter Fristen erfolgt oder ein Antrag auf erneute Ablegung der Prüfungsleistungen nach Satz 7 nicht gestellt wird.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Inhalt:\n  ## § 9 Öffentlichkeit von mündlichen Prüfungen\n  ## § 15 Einstufungsprüfung\n  ## § 26 Kolloquium\n  ## Diplomurkunde\n  ## Prüfungsordnung\n  ## für die Abschlüsse Bachelor of Arts und Bachelor of Arts honors in den Studiengängen Journalistik und PR/ Öffentlichkeitsarbeit an der Fachhochschule Hannover\n  ## Erster Teil\n  ## Allgemeine Vorschriften\n  ## § 1 Zweck der Prüfungen\n  ## § 2 Hochschulgrad\n  ## § 4 Prüfungsausschuss\n  ## § 5 Prüfende und Beisitzerinnen oder Beisitzer\n  ## § 6 Anrechnung von Studienzeiten, Studien- und Prüfungsleistungen\n  ## § 7 Zulassung\n  ## § 8 Aufbau der Prüfungen, Arten der Prüfungs- und Studienleistungen\n  ## § 9 Öffentlichkeit von mündlichen Prüfungen\n  ## § 10 Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 11 Bewertung der Prüfungsleistung und Bildung der Fachnote\n  ## (4) 1Die Note lautet:\n  ## § 12 Wiederholung von Prüfungsleistungen, Freiversuch\n  ## § 13 Zeugnisse und Bescheinigungen\n  ## § 14 Zusatzprüfungen\n  ## § 15 Einstufungsprüfung\n  ## § 16 Ungültigkeit von Prüfungen\n  ## § 17 Einsicht in die Prüfungsakte\n  ## § 18 Hochschulöffentliche Bekanntmachungen des Prüfungsausschusses\n  ## § 19 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Bachelor-of-Arts-Prüfung\n  ## § 20 Art und Umfang\n  ## § 21 Zulassung zu der Bachelor-of-Arts-Abschlussarbeit\n  ## § 22 Bachelor-of-Arts-Abschlussarbeit\n  ## § 23 Wiederholung der Abschlussarbeit\n  ## § 24 Gesamtergebnis der Prüfung\n  ## Dritter Teil\n  ## Bachelor-of-Arts-honors-Prüfung\n  ## § 25 Art und Umfang\n  ## 1.) den Fachprüfungen,\n  ## § 26 Zulassung zur Thesis\n  ## § 27 Bachelor-of-Arts-honors-Abschlussarbeit\n  ## § 28 Kolloquium\n  ## § 29 Wiederholung der Thesis\n  ## § 30 Gesamtergebnis der Bachelor-of-Arts-honors-Prüfung\n  ## Vierter Teil\n  ## Schlussvorschriften\n  ## § 31 Übergangsvorschriften\n  ## § 32 Inkrafttreten\n  ## Bachelor of Arts-Urkunde/ Bachelor of Arts honors-Urkunde)"
+    },
+    {
+      "nr": 2,
+      "titel": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Inhalt:\n# Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)\n  ## (2) Die Immatrikulation setzt voraus, dass die Bewerberinnnen und Bewerber,\n  ## § 3 Widerruf der Immatrikulation\n  ## § 4 Versagung der Immatrikulation\n  ## § 6 Exmatrikulation aus besonderem Grund\n  ## Umstrukturierung des bisherigen Studiengangs Produkt-Design in die Studiengänge Produkt-Design sowie Mode- und Kostüm-Design\n  ## Fusion der Fachbereiche Architektur und Bauingenieurwesen der FHH\n  ## Diplompr ¨ufungsordnung f ¨ur den Studiengang Angewandte Informatik der Fachhochschule Hannover, Fachbereich Informatik\n  ## Erster Teil\n  ## Allgemeine Vorschriften\n  ## § 1 Zweck der Pr ¨ufungen\n  ## § 2 Hochschulgrad\n  ## § 3 Dauer und Gliederung des Studiums, Freiversuch\n  ## § 4 Pr ¨ufungsausschuss\n  ## § 5 Pr ¨ufende und Beisitzende\n  ## § 6 Anrechnung von Studienzeiten, Studien- und Pr ¨ufungsleistungen, Quereinsteiger\n  ## § 7 Zulassung\n  ## § 8 Aufbau der Pr ¨ufungen, Arten der Pr ¨ufungsleistungen, Semesterarbeiten\n  ## § 9 Offentlichkeit von m ¨undlichen Pr ¨ufungen[¨]\n  ## § 10 Vers¨aumnis, R ¨ucktritt, T¨auschung, Ordnungsverstoß\n  ## (5) Die Note lautet:\n  ## § 13 Zeugnisse und Bescheinigungen\n  ## § 14 Zusatzpr ¨ufungen\n  ## § 15 Einstufungspr ¨ufung\n  ## § 16 Ung ¨ultigkeit der Pr ¨ufung\n  ## § 17 Einsicht in die Pr ¨ufungsakte\n  ## § 18 Hochschul ¨offentliche Bekanntmachungen des Pr ¨ufungsausschusses\n  ## § 19 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Diplomvorpr ¨ufung\n  ## § 20 Art und Umfang\n  ## § 21 Zulassung\n  ## § 22 Gesamtergebnis der Pr ¨ufung\n  ## Dritter Teil Diplompr ¨ufung\n  ## § 24 Zulassung\n  ## § 23 Art und Umfang\n  ## § 25 Diplomarbeit\n  ## § 26 Kolloquium\n  ## entsprechend.\n  ## § 27 Wiederholung der Diplomarbeit\n  ## § 28 Gesamtergebnis der Pr ¨ufung\n  ## Vierter Teil\n  ## Schlussvorschriften\n  ## § 29 Ubergangsregelungen[¨]\n  ## § 30 Inkrafttreten\n  ## Anlage 1 (zu § 2)\n  ## Diplomurkunde\n  ## Diplom-Informatikerin/Diplom-Informatiker (Fachhochschule) abgek ¨urzt Dipl.-Inf. (FH),"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+      "fakultaet": "",
+      "struktur": "  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Geltungsbereich der Prüfungsordnung\n  ## § 3 Zweck der Prüfung und Hochschulgrad\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Zulassung zur Einstufungsprüfung\n  ## § 6 Durchführung der Einstufungsprüfung\n  ## § 7\n  ## Aufbau und Inhalt der Vorprüfung\n  ## § 8\n  ## Art und Umfang der Bachelor-Prüfung\n  ## § 9\n  ## Zulassung zum zweiten Studienabschnitt und zur Bachelor-Arbeit\n  ## § 10\n  ## Höchstdauer des zweiten Studienabschnitts\n  ## § 11 Prüfungsanmeldungen und Prüfungszeitpunkte\n  ## § 12\n  ## Arten und Aufteilungsmöglichkeiten von Prüfungsleistungen\n  ## § 13 Eidesstattliche Versicherungen\n  ## § 14 Anwesenheitspflichten\n  ## § 15\n  ## Prüfungsvorleistungen\n  ## § 16\n  ## Unbenotete Prüfungsleistungen\n  ## § 17\n  ## Wechsel von Pflicht- und Wahlpflichtmodulen\n  ## § 18\n  ## Verbesserungsversuche\n  ## § 19\n  ## Wiederholung nicht bestandener Prüfungen\n  ## § 20\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 21 Inkrafttreten\n  ## Bachelor-Studiengang Betriebswirtschaftslehre (BBI) - 6 Semester  - PO 2018 / Version 2024\n  ## K2[1] (90 [45-]minütige Klausur)\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch. Vorrangig ist jedoch stets diese Prüfungsordnung."
+    },
+    {
+      "nr": 4,
+      "titel": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "fakultaet": "",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Studiengang Mechatronik (BME) mit dem Abschluss Bachelor of Engineering an der Fakultät I – Elektro- und Informationstechnik der Fachhochschule Hannover (FHH)\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## §5\n  ## Technische Wahlpflichtfächer und  Wahlpflichtlabore\n  ## §6\n  ## Übergangsbestimmung\n  ## §7\n  ## Inkrafttreten\n  ## Anlage B2 zum Studiengang Mechatronik\n  ## Legende:"
+    },
+    {
+      "nr": 5,
+      "titel": "f4 › WI › Ordnungen › 05 VIF Studienhandbuch VIF PO 2025 ohne MHB 25 10 07",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Dekanat\n  ## Aufnahme von Erstsemestern\n  ## Lehrveranstaltungen\n  ## Prüfungsordnung\n  ## Prüfungsausschuss\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## IT-Team\n  ## Fachschaftsrat\n  ## 1.2 Kontaktdaten\n  ## 2. Bachelor-Studiengang Verwaltungsinformatik (VIF)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Berufsperspektiven\n  ## 2.3 Studienvoraussetzungen\n  ## 2.4 Studienbeginn und Studiengebühren\n  ## 2.5 Unterstützung im Studium (Stipendium)\n  ## 2.6 Regeln (Ordnungen) im Studium\n  ## 2.7 Aufbau des Studiums\n  ## 2.7.1 Grundsätzliches zum Aufbau des Studiums\n  ## 2.7.2 Übersicht über das Studium\n  ## 2.7.3 Aufbau des Studiums Fachrichtung Allgemeine Verwaltung\n  ## 2.7.4 Aufbau des Studiums Fachrichtung Polizei\n  ## 2.8 Soziale Kompetenz\n  ## 3. Modulhandbuch"
+    },
+    {
+      "nr": 6,
+      "titel": "f4 › WI › Ordnungen › 05 VIF Studien Modulhandbuch PO2020 240301",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Dekanat\n  ## Aufnahme von Erstsemestern\n  ## Lehrveranstaltungen\n  ## Prüfungsordnung\n  ## f4.hs-hannover.de/studium/bachelor-studiengaenge/verwaltungsinformatik-vif\n  ## Prüfungsausschuss\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## IT-Team\n  ## Fördergemeinschaft und Alumni-Vereinigung (FAWuI)\n  ## Fachschaftsrat\n  ## 1.2 Kontaktdaten\n  ## 2. Bachelor-Studiengang Verwaltungsinformatik (VIF)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Berufsperspektiven\n  ## 2.3 Studienvoraussetzungen\n  ## 2.4 Studienbeginn und Studiengebühren\n  ## 2.5 Unterstützung im Studium (Stipendium)\n  ## 2.6 Regeln (Ordnungen) im Studium\n  ## 2.7 Aufbau des Studiums\n  ## 2.7.1 Grundsätzliches zum Aufbau des Studiums\n  ## 2.7.2 Übersicht über das Studium\n  ## 2.7.3 Erster Studienabschnitt\n  ## 2.7.4 Zweiter Studienabschnitt mit Praxisphasen und Bachelorarbeit\n  ## 2.7.5 Studienablauf\n  ## 2.8 Soziale Kompetenz\n  ## Modulhandbuch für den Studiengang Bachelor Verwaltungsinformatik, PO-Version 20 SoSe\n  ## Inhaltsverzeichnis\n  ## 1. Studienabschnitt\n  ## Modul  VIF-101 Staatsrecht\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  VIF-101-01 Staatsrecht\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  VIF-102 Verwaltungshandeln\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  VIF-102-01 Verwaltungshandeln\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  VIF-105 Rechtsanwendung in der Verwaltung\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  VIF-105-01 Rechtsanwendung in der Verwaltung\n  ## Angestrebte Lernergebnisse\n  ## Inhalt"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 022 MH BSW PO 2026 Stand 16.03.2026 web",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Modulhandbuch des\n  ## Bachelorstudienganges\n  ## Soziale Arbeit\n  ## Inhaltsverzeichnis\n  ## I. Angaben zur Abteilung Soziale Arbeit\n  ## 1. Postanschrift\n  ## 2. Studiendekanat, Verwaltung\n  ## 5. Studienbezogene Auslandsaufenthalte\n  ## Fachberatung Auslandsstudium\n  ## International Faculty Office\n  ## 6. Stipendienbeauftragte der Fakultät V\n  ## 7. Studentische Studierendenberatung – Beratung von Studierenden für Studierende\n  ## 8. Internetinformationen zur Fakultät V und zum Studium\n  ## Lernplattform Moodle: https://moodle.hs-hannover.de\n  ## II. Allgemeine Informationen zum Studiengang Bachelor Soziale Arbeit (BSW)\n  ## 1. Modulaufbau\n  ## 1. Studienabschnitt\n  ## 2. Studienabschnitt\n  ## 2. Studienverlauf\n  ## 3. Teilzeitstudium\n  ## Modulübersichtstabelle – Teilmodul-/Modulverantwortliche (PO 2026)\n  ## Bachelorstudiengang Soziale Arbeit (BSW) – Studienverlaufsplan (für Studierende nach der PO 2026)\n  ## Modulübersicht mit Teilmodulen – 1. Studienabschnitt (1.‒3. Semester)\n  ## Modulübersicht mit Teilmodulen – 2. Studienabschnitt (4.‒6. Semester)\n  ## Möglicher Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen (für Studierende ab SoSe 2026)\n  ## Modulbeschreibungen für den Bachelorstudiengang Soziale Arbeit (BSW)\n  ## Modul 1 – Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## Modul 2 – Fachwissenschaftliche Grundlagen der Sozialen Arbeit\n  ## Modul 2 – Teilmodule\n  ## Modul 3 – Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## Modul 4 – Normative Grundlagen der Sozialen Arbeit I\n  ## BSW-104\n  ## Modul 4 – Teilmodule\n  ## Modul 5 – Zielgruppen und Lebensweisen I\n  ## Modul 5 – Teilmodule\n  ## Modul 6 – Handlungsfelder, Handlungskonzepte und Methoden I\n  ## Modul 22 – Grundlagen der Beratung\n  ## Modul 23 – Praktikum\n  ## Modul 7 – Gesellschaftliche Bedingungen Sozialer Arbeit II\n  ## Modul 8 – Normative Grundlagen der Sozialen Arbeit II\n  ## Modul 9 – Zielgruppen und Lebensweisen II\n  ## Modul 9 – Teilmodule\n  ## Modul 10 – Handlungsfelder, Handlungskonzepte und Methoden II\n  ## Modul 12 – Projekt\n  ## Hinweis:\n  ## Modul 13 – Wissenschaftskolloquium und Bachelorarbeit\n  ## Modul 14 – Allgemeine und Spezifische Handlungstheorien – Praxistransfer\n  ## BSW-214\n  ## Kompetenzziele:\n  ## Die Studierenden"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n# Ordnung über besondere Zugangsvoraussetzungen und die Zulassung für die Studiengänge Betriebswirtschaftslehre mit den Schwerpunkten „Financial Institutions (MBA-FIN)” und „Interregional Business (MBA-IRB)“ sowie Wirtschaftsinformatik mit dem Schwerpunkt „Interorganizational Business Computing (MBA-IBC)“ zum Master of Business Administration (MBA) am Fachbereich Wirtschaft der Fachhochschule Hannover\n# § 1 Studienbeginn\n  ## § 2 Zugangsvoraussetzungen\n  ## § 3 Zulassungsantrag, Bewerbungsfristen\n  ## § 4 Zulassungsausschuss, Zulassungsprüfung\n  ## § 5 Förmliche Feststellung der Zulassung\n  ## § 6\n  ## Zulassungs- und Ablehnungsbescheid\n  ## § 7 Nachrückverfahren, Ende des Zulassungsverfahren\n  ## § 8 Rechtsbehelf\n  ## § 9 Inkrafttreten\n  ## Gebührenordnung für die Studiengänge Betriebswirtschaftslehre mit den Schwerpunkten „Financial Institutions (MBA-FIN)” und „Interregional Business (MBA-IRB)“ sowie Wirtschaftsinformatik mit dem Schwerpunkt „Interorganizational Business Computing (MBA-IBC)“ zum Master of Business Administration (MBA) am Fachbereich Wirtschaft der Fachhochschule Hannover\n  ## § 1 Geltungsbereich\n  ## § 2 Höhe der Gebühr\n  ## § 3 Zahlung und Rückzahlung\n  ## § 4 Inkrafttreten\n  ## Masterprüfungsordnung (MPO) für die Studiengänge Betriebswirtschaftslehre mit den Schwerpunkten „Financial Institutions (MBA-FIN)” und „Interregional Business (MBA-IRB)“ sowie Wirtschaftsinformatik mit dem Schwerpunkt „Interorganizational Business Computing (MBA-IBC)“ zum Master of Business Administration (MBA) am Fachbereich Wirtschaft der Fachhochschule Hannover\n  ## Inhaltsverzeichnis\n  ## Allgemeiner Teil\n  ## § 1� Zweck der Masterprüfung\n  ## § 2� Mastergrad\n  ## § 3� Dauer und Gliederung des Studiums\n  ## § 4�\n  ## Prüfungsausschuss\n  ## § 5�\n  ## Prüferinnen und Prüfer, Beisitzerinnen und Beisitzer\n  ## § 6�\n  ## Anrechnung von Studienzeiten, Studien- und Prüfungsleistungen\n  ## § 7� Zulassung\n  ## § 8�\n  ## Aufbau der Prüfungen, Arten der Prüfungsleistungen\n  ## § 9�\n  ## Öffentlichkeit von mündlichen Prüfungen\n  ## § 10�\n  ## Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 11�\n  ## Bewertung der Prüfungsleistung und Bildung der Note\n  ## § 12� Wiederholung von Prüfungsleistungen\n  ## § 13� Zeugnisse und Bescheinigungen\n  ## § 14�\n  ## Zusatzprüfungen\n  ## § 15�\n  ## Einstufungsprüfung\n  ## § 16�\n  ## Ungültigkeit der Prüfung\n  ## § 17� Einsicht in die Prüfungsakte\n  ## § 18�\n  ## Einzelfallentscheidungen, Widerspruchsverfahren\n  ## § 19� Hochschulöffentliche Bekanntmachungen des Prüfungsausschusses"
+    },
+    {
+      "nr": 9,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "fakultaet": "f1",
+      "struktur": "# Prüfungsverwaltung der Fakultät I\n  ## Ansprechpersonen\n    ### Stephan Rittmüller\n  ## Sprechzeiten\n    ### Yvonne Scholz\n  ## Sprechzeiten\n    ### Oxana Schreiber\n  ## Sprechzeiten\n  ## Formulare/Prüfungsangelegenheiten"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 9,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf"
+    },
+    {
+      "nr": 1,
+      "titel": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prüfungsverwaltung der Fakultät I > Ansprechpersonen > Stephan Rittmüller",
+      "snippets": [
+        "## Ansprechpersonen  \n### Stephan Rittmüller\nAllgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\nRicklinger Stadtweg\n30459 Hannover\nGebäude 1A Raum 1A.013\n[ +49 511 9296-1204/-7913 ](tel:+49%20511%209296-1204/-7913 \"+49 511 9296-1204/-7913 anrufen\")\n[ F1-Pruefungsverwaltung(at)hs-hannover.de  ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"An F1-Pruefungsverwaltung\\(at\\)hs-hannover.de eine E-Mail schreiben\")"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Ordnungen/18-10-23-Nr._6.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/04_PO_IBS.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/hsh_verkuendungsvlatt_nr_10_2024.pdf"
+      ],
+      "abschnitt": "**§ 15** > **Prüfungsvorleistungen**",
+      "snippets": [
+        "## **§ 15**\n\n## **Prüfungsvorleistungen**  \n- (1) Alle Formen möglicher Prüfungsvorleistungen und mögliche Notenauswirkungen sind den Studierenden zu Vorlesungsbeginn bekannt zu geben.  \n- (2) Verpflichtende Prüfungsvorleistungen sind Voraussetzungen für die Zulassung zu einer Prüfung. Sie werden von den Prüfenden im Einvernehmen mit der Studiendekanin/dem Studiendekan festgelegt. Die Ergebnisse der Prüfungsvorleistungen finden keinen Eingang in die Bewertung der Prüfungsleistung."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Besondere_PO_2005.pdf"
+      ],
+      "abschnitt": "**§ 15 Einstufungsprüfung**",
+      "snippets": [
+        "## **§ 14 Zusatzprüfungen**  \n- (1) Die Studierenden können sich mit Genehmigung des Prüfungsausschusses in weiteren als den in den Anlagen 5, 6 (a bzw. b) und 7 (a bzw. b) vorgeschriebenen Pflicht- und Wahlpflichtfächern einer Prüfung unterziehen (Zusatzprüfungen).  \nPrüfO BA und BA hon. Journalistik und PR/Öffentlichkeitsarbeit (Genehmigte Fassung 12.08.2002)  \nNr. 5 vom 4.10.2002             Verkündungsblatt der Fachhochschule Hannover `38`  \n- (2) Das Ergebnis der Zusatzprüfungen wird auf Antrag in das Zeugnis aufgenommen, jedoch bei der Festsetzung der Gesamtnote nicht mit einbezogen.\n\n## **§ 15 Einstufungsprüfung**  \n- (1) Abweichend von den §§ 7 und 20 können Studierende zu den Fachprüfungen und den Abschlussarbeiten auch zugelassen werden, wenn sie in einer Einstufungsprüfung nachweisen, dass sie über Kenntnisse und Fähigkeiten verfügen, die dem jeweiligen Studienabschnitt des betreffenden Studienganges entsprechen.  \n- (2) Zur Einstufungsprüfung wird nur zugelassen, wer in einem Bewerbungsverfahren  \n- 1.) die Berechtigung zum Studium in dem entsprechenden Studiengang nachweist,  \n- 2.) eine abgeschlossene Berufsausbildung oder eine fünfjährige Berufstätigkeit in einem dem Studium in dem gewählten Studiengang förderlichen Beruf nachweist oder über entsprechende anderweitig erworbene praktische Erfahrungen verfügt und  \n- 3.) den Erwerb der für die Einstufungsprüfung erforderlichen Kenntnisse und Fähigkeiten glaubhaft macht.",
+        "Diplomprüfungsordnung Wirtschaftsingenieurwesen in der Fassung vom 2.10.2002  \nNr. 5 vom 4.10.2002             Verkündungsblatt der Fachhochschule Hannover `11`  \n(2) Das Ergebnis der Zusatzprüfungen wird auf Antrag in das Zeugnis aufgenommen, jedoch bei der Festsetzung der Gesamtnote nicht mit einbezogen.\n\n## § 15 Einstufungsprüfung  \n(1) Abweichend von den §§ 7, 21 und 24 kann zur Diplomvorprüfung, zu den Fachprüfungen der Diplomprüfung und zu der Diplomarbeit auch zugelassen werden, wer in einer Einstufungsprüfung nachweist, dass er über Kenntnisse und Fähigkeiten verfügt, die dem jeweiligen Studienabschnitt des betreffenden Studienganges entsprechen.  \n(2) Zur Einstufungsprüfung wird nur zugelassen, wer in einem Bewerbungsverfahren  \n1. die Berechtigung zum Studium in dem entsprechenden Studiengang nachweist,  \n2. eine abgeschlossene Berufsausbildung oder eine fünfjährige Berufstätigkeit in einem dem Studium in dem gewählten Studiengang förderlichen Beruf nachweist oder über entsprechende anderweitig erworbene praktische Erfahrungen verfügt und  \n3. den Erwerb der für die Einstufungsprüfung erforderlichen Kenntnisse und Fähigkeiten glaubhaft macht."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.16258,
+      "id": "599c1989-90f0-5913-b2bc-6ad9f1a2904f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "section_heading": "**§ 15 Einstufungsprüfung**",
+      "chunk_index": 144,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 14 Zusatzprüfungen**  \n- (1) Die Studierenden können sich mit Genehmigung des Prüfungsausschusses in weiteren als den in den Anlagen 5, 6 (a bzw. b) und 7 (a bzw. b) vorgeschriebenen Pflicht- und Wahlpflichtfächern einer Prüfung unterziehen (Zusatzprüfungen).  \nPrüfO BA und BA hon. Journalist"
+    },
+    {
+      "rang": 2,
+      "score": 1.07457,
+      "id": "e625553a-0ba0-5c37-8cfd-4d6f7bdf5dd6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "section_heading": "**Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)** > _§ 15 Einstufungspr ¨ufung_",
+      "chunk_index": 76,
+      "text_vollstaendig": true,
+      "auszug": "## _§ 14 Zusatzpr ¨ufungen_  \n(1) Die Studierenden k ¨onnen sich in weiteren als den im Zweiten Teil vorgeschriebenen F¨achern (Wahlf¨achern) einer Pr ¨ufung unterziehen (Zusatzpr ¨ufungen).  \n(2) Das Ergebnis der Zusatzpr ¨ufungen wird auf Antrag in das Zeugnis aufgenommen, jedoch bei der Festsetzu"
+    },
+    {
+      "rang": 3,
+      "score": 1.05454,
+      "id": "84017c8b-3f29-5ede-b398-2dd8923aacd8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "section_heading": "§ 15 Einstufungsprüfung",
+      "chunk_index": 44,
+      "text_vollstaendig": false,
+      "auszug": "Diplomprüfungsordnung Wirtschaftsingenieurwesen in der Fassung vom 2.10.2002  \nNr. 5 vom 4.10.2002             Verkündungsblatt der Fachhochschule Hannover `11`  \n(2) Das Ergebnis der Zusatzprüfungen wird auf Antrag in das Zeugnis aufgenommen, jedoch bei der Festsetzung der Gesamtnote nicht mit einb"
+    },
+    {
+      "rang": 4,
+      "score": 1.02969,
+      "id": "0b01670f-ad98-545f-a16f-8e1ac333dede",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2024 › 01 PO BBI",
+      "section_heading": "**§ 15** > **Prüfungsvorleistungen**",
+      "chunk_index": 26,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 15**\n\n## **Prüfungsvorleistungen**  \n- (1) Alle Formen möglicher Prüfungsvorleistungen und mögliche Notenauswirkungen sind den Studierenden zu Vorlesungsbeginn bekannt zu geben.  \n- (2) Verpflichtende Prüfungsvorleistungen sind Voraussetzungen für die Zulassung zu einer Prüfung. Sie werden vo"
+    },
+    {
+      "rang": 5,
+      "score": 0.98334,
+      "id": "5b533e01-3c84-5632-9e1a-133c85b20527",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "section_heading": "**Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)** > _§ 3 Dauer und Gliederung des Studiums, Freiversuch_",
+      "chunk_index": 32,
+      "text_vollstaendig": true,
+      "auszug": "(5) Erstmals nicht bestandene Pr ¨ufungsleistungen gelten als nicht unternommen, wenn sie sp¨atestens zu den regul¨aren in der Pr ¨ufungsordnung festgelegten Pr ¨ufungsterminen abgelegt werden (Freiversuch). Im Rahmen des Freiversuchs bestandene Pr ¨ufungsleistungen des Hauptstudiums k ¨onnen zur No"
+    },
+    {
+      "rang": 6,
+      "score": 0.93804,
+      "id": "87011de0-f2e7-5081-8a51-0d486eabf675",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "section_heading": "**`§7`** > **`Inkrafttreten`**",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "**Grundlagen 2**|**6**|**K90**|**6/7**|Fähigkeit zur Anwendung der wichtigsten\nBegriffe und Methoden zur Behandlung\nelektrischer und magnetischer Felder|Kenntnisse EGR1|  \n1. Änderung des Besonderen Teils der Prüfungsordnung für den Bachelor-Studiengang Mechatronik der Fakultät I – Elektro- und Info"
+    },
+    {
+      "rang": 7,
+      "score": 0.91493,
+      "id": "1583f152-9c90-5d38-8249-aa58cfe8ec3a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 VIF Studienhandbuch VIF PO 2025 ohne MHB 25 10 07",
+      "section_heading": "2.3 Studienvoraussetzungen",
+      "chunk_index": 33,
+      "text_vollstaendig": false,
+      "auszug": "Der Ablauf der Bewerbung um einen Studienplatz ist auf folgender Seite beschrieben: https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/  \nBei der Bewerbung auf einen Studienplatz sind Termine und spezielle Vorschriften wie die Zulassungsordnung zu beachten. Der Bewerbungss"
+    },
+    {
+      "rang": 8,
+      "score": 0.90597,
+      "id": "746f7695-e51a-5c22-a08f-30d4e15ad39a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 VIF Studien Modulhandbuch PO2020 240301",
+      "section_heading": "2.3 Studienvoraussetzungen",
+      "chunk_index": 35,
+      "text_vollstaendig": false,
+      "auszug": "Der Ablauf der Bewerbung um einen Studienplatz ist auf folgender Seite beschrieben: https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/  \nBei der Bewerbung auf einen Studienplatz sind Termine und spezielle Vorschriften wie die Zulassungsordnung zu beachten. Der Bewerbungss"
+    },
+    {
+      "rang": 9,
+      "score": 0.89124,
+      "id": "6304ef31-0114-57b2-a499-685d2a6b759d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 022 MH BSW PO 2026 Stand 16.03.2026 web",
+      "section_heading": "**Bachelorstudiengang Soziale Arbeit (BSW) – Studienverlaufsplan (für Studierende nach der PO 2026)**",
+      "chunk_index": 32,
+      "text_vollstaendig": false,
+      "auszug": "## **Bachelorstudiengang Soziale Arbeit (BSW) – Studienverlaufsplan (für Studierende nach der PO 2026)**  \n||Seme-\nster|||||||CP/SWS|**_M 15_**\n**_Fremdsprachen-_**\n**_kompetenzen,_**\n_freiwilliges_\n_zusätzliches_\n_Wahlmodul_\n_(5 CP, 4 SWS)_\n_PL: Klausur,_\n_Präsentation_|\n|---|---|---|---|---|---|--"
+    },
+    {
+      "rang": 10,
+      "score": 0.86115,
+      "id": "b35e7015-9a83-590a-80f5-b6ac1b7fe889",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "section_heading": "**§ 1 Studienbeginn** > _§_ **6 Anrechnung von Studienzeiten, Studienund Pr ¨ufungsleistungen, Quereinsteiger**",
+      "chunk_index": 148,
+      "text_vollstaendig": false,
+      "auszug": "(6) F ¨ur Studierende, die in ein h ¨oheres Semester zugelassen werden (Quereinsteiger), gilt eine Pr ¨ufung als Freiversuch, wenn sie den erstm ¨oglichen Pr ¨ufungstermin nach dem erstm ¨oglichen Besuch der Lehrveranstaltung wahrnehmen."
+    },
+    {
+      "rang": 11,
+      "score": 0.85317,
+      "id": "ddc89655-c478-56b2-91c7-634127490d2b",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/008-Modulhandbuch-BRS-PO-2018-2019-09-02-Online.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 008 Modulhandbuch BRS PO 2018 2019 09 02 Online — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "**Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS) – Studienverlaufsplan (für Studierende ab WiSe 2018/19)**",
+      "chunk_index": 43,
+      "text_vollstaendig": false,
+      "auszug": "**(15 CP, 2 SWS)**\nPL: Bachelorarbeit||||**M 14 Fachwissenschaftliche Perspektiven und professionelles**\n**(15 CP, 6 SWS)**\nPL: Mündliche Abschlussprüfung|||**Selbstverständnis**|30 CP\n8 SWS||\n||Damit die staatliche Anerkennung als Sozialarbeiter*in und die kirchliche Anerkennung als Diakon*in bzw. "
+    },
+    {
+      "rang": 12,
+      "score": 0.84134,
+      "id": "1bcd5fb3-8bb5-549b-958d-594a5f540439",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/023-MH-BSW-PO-2026-Stand-30.06.2026-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 023 MH BSW PO 2026 Stand 30.06.2026 web",
+      "section_heading": "**Bachelorstudiengang Soziale Arbeit (BSW) – Studienverlaufsplan (für Studierende nach der PO 2026)**",
+      "chunk_index": 32,
+      "text_vollstaendig": false,
+      "auszug": "## **Bachelorstudiengang Soziale Arbeit (BSW) – Studienverlaufsplan (für Studierende nach der PO 2026)**  \n||Seme-\nster|||||||CP/SWS|**_M 15_**\n**_Fremdsprachen-_**\n**_kompetenzen,_**\n_freiwilliges_\n_zusätzliches_\n_Wahlmodul_\n_(5 CP, 4 SWS)_\n_PL: Klausur,_\n_Präsentation_|\n|---|---|---|---|---|---|--"
+    },
+    {
+      "rang": 13,
+      "score": 0.83576,
+      "id": "0a303b4b-73d8-5ab9-bff4-ec53a7381a49",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I > Ansprechpersonen > Stephan Rittmüller",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Ansprechpersonen  \n### Stephan Rittmüller\nAllgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\nRicklinger Stadtweg\n30459 Hannover\nGebäude 1A Raum 1A.013\n[ +49 511 9296-1204/-7913 ](tel:+49%20511%209296-1204/-7913 \"+49 511 9296-1204/-7913 anrufen\")\n[ F1-Pruefungsverwaltung("
+    },
+    {
+      "rang": 14,
+      "score": 0.80829,
+      "id": "a79b199d-7d82-5fd9-9f38-f9f6153a22a0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/07-2003/Verkuendungsblatt_07_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2003 › Verkuendungsblatt 07 2003 — Verkündungsblatt",
+      "section_heading": "Aufbau der Prüfungen, Arten der Prüfungsleistungen",
+      "chunk_index": 54,
+      "text_vollstaendig": false,
+      "auszug": "(8) Eine experimentelle Arbeit umfasst die theoretische Vorbereitung, den Aufbau und die Durchführung eines Experiments sowie die schriftliche Darstellung der Arbeitsschritte, des Versuchsablaufs und der Ergebnisse des Experiments und deren kritische Würdigung. Absatz 5 Sätze 2 bis 4 gilt entspreche"
+    },
+    {
+      "rang": 15,
+      "score": 0.8064,
+      "id": "251de16c-6ff2-5d1c-be86-edfb9fdf1c13",
+      "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-informatik/kooperationsmoeglichkeiten-fuer-unternehmen-und-organisationen",
+      "title_anzeige": "Kooperationsmöglichkeiten für Unternehmen und Organisationen (Abt. Informatik)",
+      "section_heading": "Kooperationsmöglichkeiten für Unternehmen und Organisationen (Abt. Informatik) > Zum Ablauf von Abschlussarbeiten",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Zum Ablauf von Abschlussarbeiten\nFalls Sie in Ihrer Firma oder Organisation eine Aufgabenstellung haben, die von einem Studenten oder einer Studentin der Angewandten Informatik oder der Mediendesigninformatik als Bachelor- oder Master-Arbeit bearbeitet werden soll, können Sie jederzeit eine schri"
+    },
+    {
+      "rang": 16,
+      "score": 0.78588,
+      "id": "d9692742-3d56-553c-8a37-9b1392473dae",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/01-2008/Verkuendungsblatt_01-2008.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2008 › Verkuendungsblatt 01 2008 — Verkündungsblatt",
+      "section_heading": "**Allgemeine Vorschriften** > **(15) Ein Portfolio soll die selbst gesteuerten und eigenverantwortlichen Lernprozesse der Studierenden zur Erreichung der Kompetenzziele eines Moduls widerspiegeln. Die Qualität des Portfolios orientiert sich an der strukturierten, begründeten und reflektierten Auswahl**",
+      "chunk_index": 79,
+      "text_vollstaendig": false,
+      "auszug": "**Der Wahlpflichtteil enthält eine von der zu prüfenden Person bestimmte Auswahl an Materialien (z. B. Recherchen, Protokolle, Referate, Arbeitsentwürfe etc.), mit der die zu prüfende Person ihre Lernentwicklung im Blick auf die Kompetenzziele des Moduls dokumentiert**  \n(16) Die Aufgabe für die Prü"
+    },
+    {
+      "rang": 17,
+      "score": 0.78278,
+      "id": "e8694d45-df68-53cf-8534-394ca4d80b47",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/011-MH-BRS-PO-2021-31.08.2021-Online.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 011 MH BRS PO 2021 31.08.2021 Online — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS) – Studienverlaufsplan (für Studierende ab WiSe 2021/22)**",
+      "chunk_index": 45,
+      "text_vollstaendig": false,
+      "auszug": "**(15 CP, 2 SWS)**\nPL: Bachelorarbeit||||**M 14 Fachwissenschaftliche Perspektiven und professionelles**\n**(15 CP, 6 SWS)**\nPL: Mündliche Abschlussprüfung|||**Selbstverständnis**|30 CP\n8 SWS||\n||Damit die staatliche Anerkennung als Sozialarbeiter*in und die kirchliche Anerkennung als Diakon*in bzw. "
+    },
+    {
+      "rang": 18,
+      "score": 0.77703,
+      "id": "e43e717b-04f6-5f9b-9195-dcb8c9782aa4",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/012-MH-BSW-PO-2020-26.02.2021-Online.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 012 MH BSW PO 2020 26.02.2021 Online",
+      "section_heading": "**1. Studienabschnitt**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **1. Studienabschnitt**  \nM 01 – Einführung in Soziale Arbeit und Erstsemesterprojekt (15 CP)  \nM 02 – Fachwissenschaftliche Grundlagen der Sozialen Arbeit I (15 CP)  \nM 03 – Gesellschaftliche Bedingungen Sozialer Arbeit I (10 CP)  \nM 04 – Normative Grundlagen der Sozialen Arbeit I (15 CP)  \nM 05"
+    },
+    {
+      "rang": 19,
+      "score": 0.77703,
+      "id": "d1c8e100-c135-5bff-9fef-b5eabfc27e57",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/016-MH-BSW-PO-2021-SoSe-2023-Stand-22.03.2023-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 016 MH BSW PO 2021 SoSe 2023 Stand 22.03.2023 web",
+      "section_heading": "**1. Studienabschnitt**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **1. Studienabschnitt**  \nM 01 – Einführung in Soziale Arbeit und Erstsemesterprojekt (15 CP)  \n- M 02 – Fachwissenschaftliche Grundlagen der Sozialen Arbeit I (15 CP)  \nM 03 – Gesellschaftliche Bedingungen Sozialer Arbeit I (10 CP)  \nM 04 – Normative Grundlagen der Sozialen Arbeit I (15 CP)  \nM "
+    },
+    {
+      "rang": 20,
+      "score": 0.77588,
+      "id": "e5f94fa7-5c2d-5de8-a7db-cf1146d545a9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/01_Praktikumsordnung_Heilpaedagogik_-_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2013 › 01 Praktikumsordnung Heilpaedagogik 2013",
+      "section_heading": "**§ 15** > **Kolloquium**",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 15**\n## **Kolloquium**  \n(1) Am Prüfungsgespräch (Kolloquium) nehmen zwei Lehrende und die Prüfungskandidatin oder der Prüfungskandidat teil. Sie oder er ist berechtigt, eine prüfende Person (§ 10 Satz 3 SozHeilVO) vorzuschlagen.  \n(2) Die Prüfungskandidatin oder der Prüfungskandidat legt nac"
+    },
+    {
+      "rang": 21,
+      "score": 0.77512,
+      "id": "8ea3ebad-e0bc-5fa7-95cf-0e282e65c14a",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BIA_PO_2022_23.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BIA PO 2022 23 — _Modulhandbuch für den Bachelorstudiengang Innenarchitektur_",
+      "section_heading": "_**Lehrinhalte**_",
+      "chunk_index": 238,
+      "text_vollstaendig": false,
+      "auszug": "## _**Lehrinhalte**_  \nVermittlung und individuelle Vertiefung verschiedenster Inhalte und Fertigkeiten in einem Fach freier Wahl innerhalb des WahlfachAngebots, einem Angebot des Language-Centers oder auch eines Lehrangebotes außerhalb der Fakultät."
+    },
+    {
+      "rang": 22,
+      "score": 0.76392,
+      "id": "b118990f-7d63-5b3d-a268-70ff948fda5f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/02_Berufspraktikumsordnung_Soziale_Arbeit_-_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2013 › 02 Berufspraktikumsordnung Soziale Arbeit 2013",
+      "section_heading": "**§ 15** > **Kolloquium**",
+      "chunk_index": 26,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 15**\n## **Kolloquium**  \n(1) Am Prüfungsgespräch (Kolloquium) nehmen zwei Lehrende und die Prüfungskandidatin oder der Prüfungskandidat teil. Sie oder er ist berechtigt, eine prüfende Person(§ 10 Satz 3 VO) vorzuschlagen.  \n(2) Die Prüfungskandidatin oder der Prüfungskandidat legt nach Abspra"
+    },
+    {
+      "rang": 23,
+      "score": 0.763,
+      "id": "4d0883b7-abac-5911-aed7-ccaa75f3eb08",
+      "source_url": "https://f2.hs-hannover.de/forschung/labore/abt-maschinenbau/digitale-fabrik-und-produktentwicklung",
+      "title_anzeige": "Labor Digitale Fabrik und Produktentwicklung",
+      "section_heading": "Labor Digitale Fabrik und Produktentwicklung > Lehre",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Labor Digitale Fabrik und Produktentwicklung  \n## Lehre\nDie Lehre im Labor umfassen die Konstruktion und virtuelle Produktentwicklung und somit die ganzheitliche Produktentwicklung von der Auslegung der Bauteile, der Konstruktion (CAD), der Überprüfung (Simulation) bis zur Fertigung im Bereich Ma"
+    },
+    {
+      "rang": 24,
+      "score": 0.7623,
+      "id": "53fd68bb-bff0-594f-afaf-98cb49f6be07",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "section_heading": "**§ 1 Studienbeginn** > _§_ **8 Aufbau der Pr ¨ufungen, Arten der Pr ¨ufungsleistungen, Semesterarbeiten**",
+      "chunk_index": 154,
+      "text_vollstaendig": false,
+      "auszug": "5. Seminarleistung (Absatz 7),  \n6. Erstellung und Dokumentation von Rechnerprogrammen (Absatz 8),  \n7. experimentelle Arbeit (Absatz 9),  \n8. Klausur mit experimenteller Arbeit (Absatz 10).  \n9. m ¨undliche Pr ¨ufung mit experimenteller Arbeit (Absatz 11)  \n(2) Die Studierenden sollen auch bef¨ahig"
+    },
+    {
+      "rang": 25,
+      "score": 0.76073,
+      "id": "b7de4011-a845-5f49-b24d-5cd1fca85a5f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/012-MH-BSW-PO-2020-26.02.2021-Online.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 012 MH BSW PO 2020 26.02.2021 Online",
+      "section_heading": "**Bachelorstudiengang Soziale Arbeit (BSW) – Studienverlaufsplan (für Studierende ab SoSe 2021)**",
+      "chunk_index": 29,
+      "text_vollstaendig": false,
+      "auszug": "**_kompetenzen,_**\n_freiwilliges_\n_zusätzliches_\n_Wahlmodul_\n_(5 CP, 4 SWS)_\n_PL: Klausur,_\n_Präsentation_|\n||||||||||||\n||6|**M 13 Wissenschaftskolloquium und Bachelorarbeit**\n**(15 CP, 2 SWS)**\nPL: Bachelorarbeit||||**M 14 Fachwissenschaftliche Grundlagen der Sozialen Arbeit II**\n**(15 CP, 6 SWS)*"
+    },
+    {
+      "rang": 26,
+      "score": 0.75541,
+      "id": "6ad29e23-854b-50df-a7ff-0471ac1f44af",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/013-MH-BSW-PO-2021-01.09.2021-Online.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 013 MH BSW PO 2021 01.09.2021 Online",
+      "section_heading": "**Bachelorstudiengang Soziale Arbeit (BSW) – Studienverlaufsplan (für Studierende ab WiSe 2021/22)**",
+      "chunk_index": 28,
+      "text_vollstaendig": false,
+      "auszug": "**_kompetenzen,_**\n_freiwilliges_\n_zusätzliches_\n_Wahlmodul_\n_(5 CP, 4 SWS)_\n_PL: Klausur,_\n_Präsentation_|\n||||||||||||\n||6|**M 13 Wissenschaftskolloquium und Bachelorarbeit**\n**(15 CP, 2 SWS)**\nPL: Bachelorarbeit||||**M 14 Fachwissenschaftliche Grundlagen der Sozialen Arbeit II**\n**(15 CP, 6 SWS)*"
+    },
+    {
+      "rang": 27,
+      "score": 0.74895,
+      "id": "1bbbacb7-1604-5dfb-b09b-44240784b030",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 022 MH BSW PO 2026 Stand 16.03.2026 web",
+      "section_heading": "**1. Studienabschnitt**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **1. Studienabschnitt**  \nM 01 – Einführung in Soziale Arbeit und Erstsemesterprojekt (15 CP)  \n- M 02 – Fachwissenschaftliche Grundlagen der Sozialen Arbeit (15 CP)  \n- M 03 – Gesellschaftliche Bedingungen Sozialer Arbeit I (10 CP)  \n- M 04 – Normative Grundlagen der Sozialen Arbeit I (15 CP)  \n"
+    },
+    {
+      "rang": 28,
+      "score": 0.74895,
+      "id": "789889dd-ea9f-5a83-a498-b5c8129b825f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/023-MH-BSW-PO-2026-Stand-30.06.2026-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 023 MH BSW PO 2026 Stand 30.06.2026 web",
+      "section_heading": "**1. Studienabschnitt**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **1. Studienabschnitt**  \n- M 01 – Einführung in Soziale Arbeit und Erstsemesterprojekt (15 CP)  \n- M 02 – Fachwissenschaftliche Grundlagen der Sozialen Arbeit (15 CP)  \n- M 03 – Gesellschaftliche Bedingungen Sozialer Arbeit I (10 CP)  \n- M 04 – Normative Grundlagen der Sozialen Arbeit I (15 CP) "
+    },
+    {
+      "rang": 29,
+      "score": 0.7435,
+      "id": "e6f48a7c-1b89-582d-9093-f35d6493f930",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw",
+      "title_anzeige": "Soziale Arbeit - grundständig (BSW)",
+      "section_heading": "Kurzübersicht > Studienverlauf & -inhalt",
+      "chunk_index": 44,
+      "text_vollstaendig": false,
+      "auszug": "Ein erfolgreicher **Studienabschluss** erfordert **180 CP**(Credit Points) und setzt sich aus den folgenden Modulen (M) zusammen:\n* **1. Studienabschnitt (1. bis 3. Semester)**\nM 01 – Einführung in Soziale Arbeit und Erstsemesterprojekt (15 CP)\nM 02 – Fachwissenschaftliche Grundlagen der Sozialen Ar"
+    },
+    {
+      "rang": 30,
+      "score": 0.74221,
+      "id": "deb14dc3-2063-52be-bd16-189340743733",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/03-2018/06_PO-BPR_20172.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2018 › 06 PO BPR 20172 — Prüfungen",
+      "section_heading": "**mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design, Abteilung Information und Kommunikation der Hochschule Hannover** > **§ 7** > **mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design, Abteilung Information und Kommunikation der Hochschule Hannover** > **Inkrafttreten**",
+      "chunk_index": 19,
+      "text_vollstaendig": false,
+      "auszug": "**PF/WP**|**Arten der**\n**Prüfungsleistung**|**Gew. **|**Sem.**|**SWS**|**CrTM**||\n|BPR-230|Sprache und Kreativität|WP|18|18|BPR-230-01|Textsorten & Textanalyse|WP|BÜ, R, H, P|0,5|5|2|3||\n||||||BPR-230-02|Kommunikation mit Bild und Film|WP|||5|3|4||\n||||||BPR-230-03|Content(Strategien & Kanäle)|WP||"
+    }
+  ],
+  "token_budget": {
+    "verwendet": 72877,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.01,
+    "kandidaten_s": 0.02,
+    "llm_auswahl_s": 0.22,
+    "docs_laden_s": 0.28,
+    "quellen_s": 2.54,
+    "antwort_llm_s": 2.17,
+    "gesamt_s": 4.71
+  },
+  "auswahl_begruendung": "{\"selected\": [9, 3, 1, 8]}"
+}

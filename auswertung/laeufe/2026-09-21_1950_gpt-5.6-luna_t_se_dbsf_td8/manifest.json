@@ -1,0 +1,59 @@
+{
+  "lauf_id": "2026-09-21_1950_gpt-5.6-luna_t_se_dbsf_td8",
+  "gestartet": "2026-09-21T19:50:18",
+  "modus": "voll",
+  "modell": "openai/gpt-5.6-luna",
+  "experiment": {
+    "dense_arms": [
+      "text"
+    ],
+    "sparse_arms": [
+      "sparse_expanded"
+    ],
+    "fusion": "dbsf",
+    "top_docs": 8
+  },
+  "fallauswahl": "alle",
+  "fallzahl": 75,
+  "notiz": "V0 Volllauf Produktionswerte, Vertrag 529351a, Fakultaet aus Frage",
+  "pause_s": 2.0,
+  "premium": true,
+  "fallbasis": {
+    "hash": "529351aadf07d8df4e385f74d72309c6ebf7f8ad0546ea61eaabd64ef38a882f",
+    "hash_auswahl": "529351aadf07d8df4e385f74d72309c6ebf7f8ad0546ea61eaabd64ef38a882f",
+    "fallzahl": 75,
+    "stand": "2026-09-21T19:17:54"
+  },
+  "konfiguration": {
+    "DENSE_ARMS": [
+      "text"
+    ],
+    "SPARSE_ARMS": [
+      "sparse_expanded"
+    ],
+    "TOP_K": 8,
+    "CANDIDATE_LIMIT": 200,
+    "DEDUP_BUFFER": 4,
+    "MAX_PER_URL": 2,
+    "AUGMENT_TOP_N": 3,
+    "SPARSE_LANGUAGE": "german",
+    "COLLECTION_NAME": "hsh_knowledge",
+    "FUSION": "dbsf",
+    "RAG_CANDIDATE_K": 30,
+    "TOP_DOCS": 8,
+    "SELECT_N": 4,
+    "MAX_CONTEXT_TOKENS": 100000,
+    "points_count": 121134,
+    "git_commit": "1f2fccf",
+    "reranker_aktiv": false,
+    "keyword_boost": true,
+    "_wirksam": true
+  },
+  "laufzeit": {
+    "wall_clock_s": 771.4,
+    "gemessen_s": 622.7,
+    "geplante_pausen_s": 148.0,
+    "ungetrackt_s": 0.7,
+    "beendet": "2026-09-21T20:03:11"
+  }
+}

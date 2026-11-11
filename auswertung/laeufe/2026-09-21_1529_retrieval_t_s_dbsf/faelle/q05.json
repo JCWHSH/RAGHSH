@@ -1,0 +1,1506 @@
+{
+  "fall": {
+    "id": "q05",
+    "case_type": "direct",
+    "question": "Wo finde ich in der Fakultät I die Anmeldung für Studienprojekte?",
+    "reference_answer": "Die HsH belegt zwei passende Antwortpfade: Auf der Seite der Prüfungsverwaltung der Fakultät I steht im Bereich Formulare/Prüfungsangelegenheiten der Abschnitt Studienprojekte mit den Links Anmeldung Studienprojekt, Wichtige Hinweise zu Projekten bzw. Studienprojekten und Projektnummern. In den Wichtigen Hinweisen steht außerdem, dass das Projekt bzw. Studienprojekt vor Beginn im iCMS einzutragen ist und als Prüfer der allgemeine Prüfer F1 auszuwählen ist.",
+    "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf"
+    ],
+    "required_facts": [
+      "Die Anmeldung ist auf der Seite der Prüfungsverwaltung der Fakultät I zu finden.",
+      "Der relevante Bereich heißt Formulare/Prüfungsangelegenheiten.",
+      "Der Abschnitt heißt Studienprojekte.",
+      "Dort gibt es den Link Anmeldung Studienprojekt."
+    ],
+    "optional_facts": [
+      "Dort sind auch Hinweise zu Projekten bzw. Studienprojekten aufgeführt.",
+      "Dort sind auch Projektnummern aufgeführt."
+    ],
+    "forbidden_claims": [
+      "Die Anmeldung nur als allgemeine iCMS-Funktion ohne Projekt-/Studienprojektbezug beschreiben.",
+      "Projektangebote anderer Fakultäten als Antwort verwenden."
+    ],
+    "answer_variants": [
+      {
+        "id": "f1_pruefungsverwaltung_fundort",
+        "title": "Fundort auf der F1-Prüfungsverwaltungsseite",
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "source_policy": "exact_gold_source",
+        "accepted_source_urls": [],
+        "required_facts": [
+          "Die Anmeldung ist auf der Seite der Prüfungsverwaltung der Fakultät I zu finden.",
+          "Der relevante Bereich heißt Formulare/Prüfungsangelegenheiten.",
+          "Der Abschnitt heißt Studienprojekte.",
+          "Dort gibt es den Link Anmeldung Studienprojekt."
+        ],
+        "optional_facts": [
+          "Dort sind auch Hinweise zu Projekten bzw. Studienprojekten aufgeführt.",
+          "Dort sind auch Projektnummern aufgeführt."
+        ],
+        "forbidden_claims": [
+          "Projektangebote anderer Fakultäten als Antwort verwenden."
+        ]
+      },
+      {
+        "id": "icms_operatives_verfahren",
+        "title": "Operative Anmeldung des Studienprojekts in iCMS",
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+        "source_policy": "exact_gold_source",
+        "accepted_source_urls": [],
+        "required_facts": [
+          "Das Projekt bzw. Studienprojekt soll vor Beginn im iCMS eingetragen werden.",
+          "Für Projekte bzw. Studienprojekte der Fakultät I ist das Antragsformular mit dem darin enthaltenen Verfahren anzuwenden.",
+          "Im iCMS soll als Prüfer der allgemeine Prüfer F1 ausgewählt werden."
+        ],
+        "optional_facts": [
+          "Es gibt Ausnahmen für MEC, EWI und MAT mit Prüfer F2 oder Prüfer F4.",
+          "Der zweite Betreuende wird durch den Erstbetreuenden benannt und muss nicht im iCMS eingetragen werden."
+        ],
+        "forbidden_claims": [
+          "Die iCMS-Antwort nur als allgemeine Prüfungs- oder Veranstaltungsanmeldung ohne Studienprojektbezug darstellen.",
+          "Projektangebote anderer Fakultäten als Antwort verwenden."
+        ]
+      }
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Beide HsH-belegten Antwortpfade sind gültig: der Fundort auf der F1-Prüfungsverwaltungsseite oder das operative Verfahren aus dem PDF mit iCMS-Eintrag vor Beginn. Die Antwort darf das nicht mit allgemeinen Projektangeboten anderer Fakultäten verwechseln.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Studienprojekt",
+      [
+        "Prüfungsverwaltung",
+        "Anmeldung Studienprojekt",
+        "Prüfungsamt"
+      ]
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Die beiden PDFs, auf die die Goldseite verlinkt; wer sie zitiert, hat die Anmeldung gefunden.",
+    "gold_im_korpus": true
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T15:30:06",
+  "dauer_s": 3.96,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Wichtige Hinweise für Projekte bzw. Studienprojekte\n  ## Der 2. Betreuende wird durch den Erstbetreuenden benannt und muss nicht im iCMS eingetragen werden!\n  ## Anmeldungen sind ganzjährig möglich."
+    },
+    {
+      "nr": 2,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Fakultät I - Elektro- und Informationstechnik Hochschule Hannover\n  ## Studienprojekt\n  ## 1. Genaue Bezeichnung des Projektes:\n  ## 2. Prüfungsanmeldung\n  ## 3. Einverständnis der Betreuenden\n  ## 3. Bewertung"
+    },
+    {
+      "nr": 3,
+      "titel": "www › hsh akademie › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt",
+      "fakultaet": "",
+      "struktur": "# Schreibwerkstatt\n  ## Schreiben in Studium und Beruf\n  ## Willkommen!\n  ## Angebote und Maßnahmen\n  ## Feedback unserer Studierenden\n  ## Kontakt\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 4,
+      "titel": "f5 › BAJ › Studientagsprogramm › Studientagsprogramm Sommer 2026 — Berufsanerkennungsjahr Studientagsprogramm",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Soziale_Arbeit/BAJ/Studientagsprogramm/Studientagsprogramm_Sommer_2026.pdf",
+      "fakultaet": "f5",
+      "struktur": "# Berufsanerkennungsjahr Studientagsprogramm\n  ## Praktikumsbüro\n  ## Sachbearbeitung\n  ## Beauftragter der Landeskirche Hannovers für das Integrierte Berufsanerkennungsjahr\n  ## Gruppierung A und Gruppierung B (montags, dienstags. mittwochs oder freitags)\n  ## Auswärtige Personen im Berufsanerkennungsjahr\n  ## Integriertes Berufsanerkennungsjahr\n  ## Entnehmen Sie bitte die aktuellen Raumangaben den Monitoren.\n  ## I. ALLGEMEINE HINWEISE ZU DEN STUDIENTAGEN DES BERUFSANERKENNUNGSJAHRES (BAJ)\n  ## Zeitstruktur der Studientage\n  ## 9 bis 13 Uhr oder 14 bis 18 Uhr\n  ## II. HINWEISE ZUM INTEGRIERTEN BERUFSANERKENNUNGSJAHR (IBA), STUDIENGANG RELIGIONSPÄDAGOGIK UND SOZIALE ARBEIT Studientage an der Hochschule Hannover\n  ## Landeskirchliche Fortbildungsveranstaltungen\n  ## Im Rahmen des Integrierten Berufsanerkennungsjahres finden\n  ## Landeskirchliche Fortbildungstage\n  ## Start- und Infoveranstaltung nur für die Gruppe mit IBA-Beginn Februar/März 2026:\n  ## Grundlegende Informationen zum IBA Mittwoch, 11. Februar 2026, 10.00-15.30 Uhr\n  ## Kirchlicher Fortbildungstag nur für die Gruppe mit IBA-Beginn September/Oktober 2025:\n  ## Montag, 11.05.2026, 10.00-16.00 Uhr\n  ## IBA-Jahresfest in der Jugendkirche Hannover\n  ## Einsegnungsvorbereitungstagung Verden\n  ## für alle aktuellen Kolleg:innen im IBA:\n  ## Montag, 18.05.2026 bis Freitag, 22.05.2026\n  ## Für alle, die bisher noch keiner Studientagsgruppe angehören!\n  ## III.  STUDIENTAGSGRUPPENEINTEILUNG\n  ## Gruppierung   A\n  ## Gruppierung   B\n  ## Studientagsgruppen für die auswärtigen Personen im Berufsanerkennungsjahr\n  ## Studientagsgruppen vorzugsweise für Personen im Integrierten Berufsanerkennungsjahr\n  ## Kolloquium\n  ## IV. TERMINE UND PROGRAMM FÜR DIE HIESIGEN PERSONEN IM BERUFSANERKENNUNGSJAHR\n  ## – Studientagstermine GRUPPIERUNG     A\n  ## Sommerpause\n  ## ARBEITSGRUPPEN DER GRUPPIERUNG A\n  ## 10.04\n  ## 10.05\n  ## Dozent: Michael Schmitz, Dipl. Sozialpädagoge und Dipl. Sozialarbeiter; Master of social management, Leiter einer Autismus-Ambulanz in Hannover.\n  ## 10.06 Neue Wege gehen – Übergang vom Studium in die Berufspraxis\n  ## Dozentin: Kornelia Runge\n  ## 10.15  Zwischen Anspruch und Alltag - der Weg in die professionelle Praxis\n  ## 10.16 „Der Anfang ist die Hälfte des Ganzen“ (Aristoteles)\n  ## 10.20 „Ich als Sozialarbeiterin im Berufsanerkennungsjahr als Praktikantin“ - Reflexion des eigenen Handelns, die Selbstfürsorge und Grenzen im Berufsalltag.\n  ## 10.09 Studientage – Begleitung für einen gelingenden Einstieg in die Berufspraxis der Sozialen Arbeit\n  ## Prüfungsgespräch (Kolloquium) am Semesterende zur Erlangung der Staatlichen Anerkennung\n  ## Dozent : Matthias Sprecher, M.A.Social Work ,\n  ## 10.07 Der Studientag im Anerkennungsjahr – Raum für Reflexion und Beratung\n  ## Studientagstermine GRUPPIERUNG B\n  ## ARBEITSGRUPPEN DER GRUPPIERUNG B\n  ## 10.12 Fachliche Begleitung & Reflexion für einen gelingenden Einstieg in die Praxis\n  ## 10.01 Berufsanerkennungspraktikantin/Berufsanerkennungspraktikant und / oder professionell arbeitende Vollkraft?"
+    },
+    {
+      "nr": 5,
+      "titel": "f5 › Fakultaet V › Vorlaeufiges Studientagsprogramm Sommer 2026",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_V/Vorlaeufiges_Studientagsprogramm_Sommer_2026.pdf",
+      "fakultaet": "f5",
+      "struktur": "# Berufsanerkennungsjahr Studientagsprogramm\n  ## Praktikumsbüro\n  ## Sachbearbeitung\n  ## Beauftragter der Landeskirche Hannovers für das Integrierte Berufsanerkennungsjahr\n  ## Gruppierung A und Gruppierung B (montags, dienstags. mittwochs oder freitags)\n  ## Auswärtige Personen im Berufsanerkennungsjahr\n  ## Integriertes Berufsanerkennungsjahr\n  ## Entnehmen Sie bitte die aktuellen Raumangaben den Monitoren.\n  ## I. ALLGEMEINE HINWEISE ZU DEN STUDIENTAGEN DES BERUFSANERKENNUNGSJAHRES (BAJ)\n  ## Zeitstruktur der Studientage\n  ## 9 bis 13 Uhr oder 14 bis 18 Uhr\n  ## II. HINWEISE ZUM INTEGRIERTEN BERUFSANERKENNUNGSJAHR (IBA), STUDIENGANG RELIGIONSPÄDAGOGIK UND SOZIALE ARBEIT Studientage an der Hochschule Hannover\n  ## Landeskirchliche Fortbildungsveranstaltungen\n  ## Im Rahmen des Integrierten Berufsanerkennungsjahres finden\n  ## Landeskirchliche Fortbildungstage\n  ## Start- und Infoveranstaltung nur für die Gruppe mit IBA-Beginn Februar/März 2026:\n  ## Grundlegende Informationen zum IBA Mittwoch, 11. Februar 2026, 10.00-15.30 Uhr\n  ## Kirchlicher Fortbildungstag nur für die Gruppe mit IBA-Beginn September/Oktober 2025:\n  ## Montag, 11.05.2026, 10.00-16.00 Uhr\n  ## IBA-Jahresfest in der Jugendkirche Hannover\n  ## Einsegnungsvorbereitungstagung Verden\n  ## für alle aktuellen Kolleg:innen im IBA:\n  ## Montag, 18.05.2026 bis Freitag, 22.05.2026\n  ## Für alle, die bisher noch keiner Studientagsgruppe angehören!\n  ## III.  STUDIENTAGSGRUPPENEINTEILUNG\n  ## Gruppierung   A\n  ## Gruppierung\n  ## Kolloquium\n  ## IV. TERMINE UND PROGRAMM FÜR DIE HIESIGEN PERSONEN IM BERUFSANERKENNUNGSJAHR\n  ## – Studientagstermine GRUPPIERUNG     A\n  ## Sommerpause\n  ## ARBEITSGRUPPEN DER GRUPPIERUNG A\n  ## 10.04\n  ## 10.05\n  ## Dozent: Michael Schmitz, Dipl. Sozialpädagoge und Dipl. Sozialarbeiter; Master of social management, Leiter einer Autismus-Ambulanz in Hannover.\n  ## 10.06 Neue Wege gehen – Übergang vom Studium in die Berufspraxis\n  ## Dozentin: Kornelia Runge\n  ## 10.15  Zwischen Anspruch und Alltag - der Weg in die professionelle Praxis\n  ## 10.16 „Der Anfang ist die Hälfte des Ganzen“ (Aristoteles)\n  ## 10.20 „Ich als Sozialarbeiterin im Berufsanerkennungsjahr als Praktikantin“ - Reflexion des eigenen Handelns, die Selbstfürsorge und Grenzen im Berufsalltag.\n  ## 10.09 Studientage – Begleitung für einen gelingenden Einstieg in die Berufspraxis der Sozialen Arbeit\n  ## Prüfungsgespräch (Kolloquium) am Semesterende zur Erlangung der Staatlichen Anerkennung\n  ## Dozent : Matthias Sprecher, M.A.Social Work ,\n  ## 10.07 Der Studientag im Anerkennungsjahr – Raum für Reflexion und Beratung\n  ## Studientagstermine GRUPPIERUNG B\n  ## ARBEITSGRUPPEN DER GRUPPIERUNG B\n  ## 10.12 Fachliche Begleitung & Reflexion für einen gelingenden Einstieg in die Praxis\n  ## 10.01 Berufsanerkennungspraktikantin/Berufsanerkennungspraktikant und / oder professionell arbeitende Vollkraft?\n  ## 10.02 Auf dem Weg in die professionelle Rolle\n  ## 10.03 Arbeits- und Lernprozesse im Berufsleben"
+    },
+    {
+      "nr": 6,
+      "titel": "f5 › Studientagsprogramm › Alte Versionen › Studientagsprogramm Winter 2025 2026 — Berufsanerkennungsjahr Studientagsprogramm",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Soziale_Arbeit/BAJ/Studientagsprogramm/Alte_Versionen/Studientagsprogramm_Winter_2025_2026.pdf",
+      "fakultaet": "f5",
+      "struktur": "# Berufsanerkennungsjahr Studientagsprogramm\n  ## Praktikumsbüro\n  ## Sachbearbeitung\n  ## Beauftragter der Landeskirche Hannovers für das Integrierte Berufsanerkennungsjahr\n  ## Gruppierung A und Gruppierung B (montags, dienstags. mittwochs oder freitags)\n  ## Auswärtige Personen im Berufsanerkennungsjahr\n  ## Integriertes Berufsanerkennungsjahr\n  ## Entnehmen Sie bitte die aktuellen Raumangaben den Monitoren.\n  ## I. ALLGEMEINE HINWEISE ZU DEN STUDIENTAGEN DES BERUFSANERKENNUNGSJAHRES (BAJ)\n  ## Zeitstruktur der Studientage\n  ## 9 bis 13 Uhr oder 14 bis 18 Uhr\n  ## Landeskirchliche Fortbildungsveranstaltungen\n  ## 1. drei landeskirchliche Fortbildungstage,\n  ## Landeskirchliche Fortbildungstage\n  ## Start- und Infoveranstaltung nur für die Gruppe mit IBA-Beginn September/Oktober 2025:\n  ## Kirchlicher Fortbildungstag nur für die Gruppe mit IBA-Beginn Februar/März 2025:\n  ## - IBA Fest in der Jugendkirche Hannover\n  ## Einsegnungsvorbereitungstagung Verden für alle aktuellen Kolleg:innen im IBA:\n  ## Montag, 18.05.2026 bis Freitag, 22.05.2026\n  ## Robert Noll,\n  ## Für alle, die bisher noch keiner Studientagsgruppe angehören!\n  ## III.  STUDIENTAGSGRUPPENEINTEILUNG\n  ## Gruppierung   A\n  ## Studientagsgruppen für die auswärtigen Personen im Berufsanerkennungsjahr\n  ## Studientagsgruppen vorzugsweise für Personen im Integrierten Berufsanerkennungsjahr\n  ## Kolloquium\n  ## IV. TERMINE UND PROGRAMM FÜR DIE HIESIGEN PERSONEN IM BERUFSANERKENNUNGSJAHR\n  ## Studientagstermine GRUPPIERUNG     A –\n  ## Winterpause\n  ## ARBEITSGRUPPEN DER GRUPPIERUNG A\n  ## 10.04\n  ## 10.05\n  ## Dozent: Michael Schmitz, Dipl. Sozialpädagoge und Dipl. Sozialarbeiter; Master of social management, Leiter einer Autismus-Ambulanz in Hannover.\n  ## Neue Wege gehen …\n  ## 10.15\n  ## Sich mit der Arbeit identifizieren, die Arbeit aber auch ständig reflektieren...\n  ## „Der Anfang ist die Hälfte des Ganzen“ (Aristoteles)\n  ## Studientage – Begleitung für einen gelingenden Einstieg in die Berufspraxis der Sozialen Arbeit\n  ## Prüfungsgespräch (Kolloquium) am Semesterende zur Erlangung der Staatlichen Anerkennung\n  ## 10.07\n  ## Studientagstermine GRUPPIERUNG B\n  ## Winterpause\n  ## 10.12\n  ## Fachliche Begleitung & Reflexion für einen gelingenden Einstieg in die Praxis\n  ## 10.01\n  ## Berufsanerkennungspraktikantin/Berufsanerkennungspraktikant und / oder professionell arbeitende Vollkraft?\n  ## Auf dem Weg in die professionelle Rolle\n  ## 10.03\n  ## Arbeits- und Lernprozesse im Berufsleben\n  ## 10.17"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › Relpaed › Projektordnung › Projektordnung BSW BRS Stand 02 2015 — Projektverständnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_02_2015.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Projektordnung für den Bachelorstudiengang Soziale Arbeit (BSW) sowie für den Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS)\n  ## Projektverständnis\n  ## Arbeitsfelder\n  ## Projektgröße\n  ## Curriculare Organisation und Planung\n  ## Aufgabe der Lehrenden\n  ## Anforderungen an das Projektstudium\n  ## Projektwahl\n  ## Aufgaben der Modul- und Teilmodulverantwortlichen\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 8,
+      "titel": "f4 › WI › Informationen › 20 09 28 Hinweise 2. Studienabschnitt BIS",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/20-09-28-Hinweise_2._Studienabschnitt_BIS.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Hinweise zum zweiten Studienabschnitt im Bachelor-Studiengang Wirtschaftsinformatik (BIS)\n  ## I. Abschluss des ersten Studienabschnitts\n  ##  Prüfungsberechtigung im zweiten Studienabschnitt\n  ##  7-Semester-Frist für das Bestehen der Vorprüfung\n  ##  Nachweis eines ordnungsgemäßen Studienverlaufs für BAföG\n  ##  Vorprüfungszeugnis\n  ## II. Struktur des zweiten Studienabschnitts\n  ##  Individuelle Planung – Mehrsemesterplanung – Musterstudienplan:\n  ##  Wahl des Schwerpunktes\n  ##  Ergänzungsmodule\n  ##  Auslandssemester\n  ##  Gesamtnote der Bachelor-Prüfung\n  ## III. Praxisphase und Bachelor-Arbeit\n  ##  Praxisphase\n  ##  Bachelor-Arbeit"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.11882,
+      "id": "1c2e07ed-9edd-5187-96f5-07840d8b8b62",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "section_heading": "**Wichtige Hinweise für Projekte bzw. Studienprojekte**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Wichtige Hinweise für Projekte bzw. Studienprojekte**  \nFür alle Bachelor- und Masterstudiengänge der Fakultät I - Elektro- und Informationstechnik, gilt es, **ausschließlich** das Antragsformular für Projekte bzw. Studienprojekte mit dem im Formular enthaltenen Verfahren anzuwenden.  \nBitte tr"
+    },
+    {
+      "rang": 2,
+      "score": 1.65658,
+      "id": "7f4c9604-d503-5f44-95f8-6cddd861daa9",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "section_heading": "**Fakultät I - Elektro- und Informationstechnik Hochschule Hannover** > **Studienprojekt**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Fakultät I - Elektro- und Informationstechnik Hochschule Hannover**\n\n## **Studienprojekt**  \n**Name, Vorname: ___________________________________ Matr.Nr.: ____________________**  \n**E-Mail: ___________________________________________ Tel.-Nr.: _____________________**  \nHiermit beantrage ich di"
+    },
+    {
+      "rang": 3,
+      "score": 1.24658,
+      "id": "b98099b8-0e17-5d63-afee-e6d16bc6f7bb",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt",
+      "title_anzeige": "www › hsh akademie › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt",
+      "section_heading": "Schreibwerkstatt > Angebote und Maßnahmen",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Im Sommersemester 2026 findet die AG Abschlussarbeiten vom 03. März - 30. Juni dienstags von 10:00 - 11:30 Uhr in Raum 1J.0.25 im Studierendenzentrum statt. Weitere Informationen über die AG, eventuelle Terminänderungen oder -ausfälle finden Sie [hier](https://moodle.hs-hannover.de/course/view.php?i"
+    },
+    {
+      "rang": 4,
+      "score": 1.21536,
+      "id": "e8a8b57c-b0ac-5e0a-8a7a-4680cb76ff76",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Soziale_Arbeit/BAJ/Studientagsprogramm/Studientagsprogramm_Sommer_2026.pdf",
+      "title_anzeige": "f5 › BAJ › Studientagsprogramm › Studientagsprogramm Sommer 2026 — Berufsanerkennungsjahr Studientagsprogramm",
+      "section_heading": "**Berufsanerkennungsjahr Studientagsprogramm** > **Beauftragter der Landeskirche Hannovers für das Integrierte Berufsanerkennungsjahr**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "Die Anmeldung zu den Studientagen kann entweder bei Abgabe der Voranmeldung zum Berufsanerkennungsjahr, mit der Anmeldung auf der letzten Seite oder per Email (f5-praktikumsamt@hs-hannover.de) erfolgen. Alle Formulare zum Berufsanerkennungsjahr finden - - Sie auf der Seite der Hochschule Hannover(ht"
+    },
+    {
+      "rang": 5,
+      "score": 1.19802,
+      "id": "507488d0-878a-5115-a55d-21aa687b2cc4",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_V/Vorlaeufiges_Studientagsprogramm_Sommer_2026.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Vorlaeufiges Studientagsprogramm Sommer 2026",
+      "section_heading": "**Berufsanerkennungsjahr Studientagsprogramm** > **Beauftragter der Landeskirche Hannovers für das Integrierte Berufsanerkennungsjahr**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "Die Anmeldung zu den Studientagen kann entweder bei Abgabe der Voranmeldung zum Berufsanerkennungsjahr, mit der Anmeldung auf der letzten Seite oder per Email (f5-praktikumsamt@hs-hannover.de) erfolgen. Alle Formulare zum Berufsanerkennungsjahr finden Sie auf der Seite der Hochschule Hannover(https:"
+    },
+    {
+      "rang": 6,
+      "score": 1.18707,
+      "id": "0cd7d5a7-3a41-5d77-8cb3-be5e1c30f607",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Soziale_Arbeit/BAJ/Studientagsprogramm/Alte_Versionen/Studientagsprogramm_Winter_2025_2026.pdf",
+      "title_anzeige": "f5 › Studientagsprogramm › Alte Versionen › Studientagsprogramm Winter 2025 2026 — Berufsanerkennungsjahr Studientagsprogramm",
+      "section_heading": "**Berufsanerkennungsjahr Studientagsprogramm** > **Beauftragter der Landeskirche Hannovers für das Integrierte Berufsanerkennungsjahr**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "Die Anmeldung zu den Studientagen kann entweder bei Abgabe der Voranmeldung zum Berufsanerkennungsjahr, mit der Anmeldung auf der letzten Seite oder per Email (sandra-kathrin.bauer@hs-hannover.de) erfolgen. Alle Formulare zum Berufsanerkennungsjahr finden - - Sie auf der Seite der Hochschule Hannove"
+    },
+    {
+      "rang": 7,
+      "score": 1.15437,
+      "id": "2182eb23-c17f-58c5-9bbc-cc3cb026796b",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_02_2015.pdf",
+      "title_anzeige": "f5 › Relpaed › Projektordnung › Projektordnung BSW BRS Stand 02 2015 — Projektverständnis",
+      "section_heading": "**Projektwahl**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **Projektwahl**  \nDas Projektmodul muss von Studierenden im Semester vor dessen Ableistung angemeldet werden. Die jeweiligen Anmeldefristen stehen im Vorlesungsverzeichnis. Jede Studentin und jeder Student hat Anspruch auf einen Teilmodulplatz.  \nFür die Wahl eines Teilmoduls und eines Teilprojek"
+    },
+    {
+      "rang": 8,
+      "score": 1.11018,
+      "id": "daf76a11-8300-5a8c-9c37-fc3a0b38c6c1",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/20-09-28-Hinweise_2._Studienabschnitt_BIS.pdf",
+      "title_anzeige": "f4 › WI › Informationen › 20 09 28 Hinweise 2. Studienabschnitt BIS",
+      "section_heading": "**Praxisphase**",
+      "chunk_index": 21,
+      "text_vollstaendig": true,
+      "auszug": "_Sie finden das Formular auf den Webseiten der Fakultät unter Service – Formulare und Informationen – Abteilung Wirtschaftsinformatik – Formulare._  \nWenn Sie möchten, können Sie die Praxisphase in zwei zeitlich getrennten Teilen absolvieren. Das bedeutet, dass Sie den ersten Teil bereits zu einem f"
+    },
+    {
+      "rang": 9,
+      "score": 1.10381,
+      "id": "15501704-b4e0-5e0c-b74e-9186c83ef23f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_05_2011.pdf",
+      "title_anzeige": "f5 › Relpaed › Projektordnung › Projektordnung BSW BRS Stand 05 2011 — Projektgröße",
+      "section_heading": "**Projektwahl**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **Projektwahl**  \nJede Studentin und jeder Student hat Anspruch auf einen Teilmodulplatz. Die Verteilung der zur Verfügung stehenden Projektpraxisplätze wird in den Teilmodulen geregelt. Zur Information der Studierenden  \n- werden im Vorlesungsverzeichnis Teilmodulbeschreibungen mit deren Projekt"
+    },
+    {
+      "rang": 10,
+      "score": 1.04775,
+      "id": "56b47294-3a34-5418-a968-07f96881141b",
+      "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "title_anzeige": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "section_heading": "Anmeldung zur Veranstaltung (Fakultät V)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Anmeldung zur Veranstaltung (Fakultät V)\n1. Klicken Sie auf der Startseite im Bereich Quicklinks oben rechts auf _Veranstaltungen für Studiengänge_.  \nEs erscheint die folgende Ansicht:\n![Campusmanagement_Veranstaltungsmanagement](https://service.it.hs-hannover.de/media/images/Bild_4.width-800.p"
+    },
+    {
+      "rang": 11,
+      "score": 1.00505,
+      "id": "be4fb68a-b56d-5529-90b9-8372c096a4b8",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BSW PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 1536,
+      "text_vollstaendig": false,
+      "auszug": "**Bemerkung 1:**  \nAlle Termine finden in Präsenz statt.  \n## **Kommentar:**  \nUnterstützung bei Themenfindung, Strukturierung und Erarbeitung der Bachelorarbeit sowie Vorbereitung auf die mündliche Abschlussprüfung. Die Anmeldung erfolgt in iCMS im Sommersemester 2024. Wir bitten dringend um verbin"
+    },
+    {
+      "rang": 12,
+      "score": 1.00343,
+      "id": "1bd380ea-ebd5-5fb1-aeda-8370a4d03d04",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BSW PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**Bemerkung 1:** > **Kommentar:**",
+      "chunk_index": 1543,
+      "text_vollstaendig": false,
+      "auszug": "## **Bemerkung 1:**  \nAlle Termine finden in Präsenz statt.\n\n## **Kommentar:**  \nUnterstützung bei Themenfindung, Strukturierung und Erarbeitung der Bachelorarbeit sowie Vorbereitung auf die mündliche Abschlussprüfung. Die Anmeldung erfolgt in iCMS im Sommersemester 2024. Wir bitten dringend um verb"
+    },
+    {
+      "rang": 13,
+      "score": 1.00147,
+      "id": "bc18985a-b5d1-5a7c-b3e7-830229c9dcac",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I > Formulare/Prüfungsangelegenheiten > Prüfungsverwaltung der Fakultät I",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## Formulare/Prüfungsangelegenheiten\n##\n[ Prüfungsverwaltung ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"Prüfungsverwaltung\")\n[Prüfungsplan](https://f1-ppview.wp.hs-hannover.de/)\n[Prüfungsanmeldung](https://icms.hs-hannover.de/qisserver/rds?state=user&type=0)\n[Kra"
+    },
+    {
+      "rang": 14,
+      "score": 0.96692,
+      "id": "13f7639d-3a69-5ff8-9932-0a39a4e730c2",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Heft_S_Nr._1__Anmeldung_zu_den_Lehrveranstaltungen_aus_der_Sicht_der_Studierenden_Stand_Mai_2021.pdf",
+      "title_anzeige": "f5 › Relpaed › iCMS Moodle Anleitung Studierende › Heft S Nr. 1 Anmeldung zu den Lehrveranstaltungen aus der Sicht der Studierenden Stand Mai 2021 — Anmeldeverfahren zu Lehrveranstaltungen (LV) im iCMS",
+      "section_heading": "**Nachfolgend wird das Anmelde-/Abmeldeverfahren beschrieben**",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## **Nachfolgend wird das Anmelde-/Abmeldeverfahren beschrieben**  \n**Vorabanmeldungen**  \n **Sie sind hier:** Startseite Veranstaltungen Studiengangpläne **Vorabanmeldung Veranstaltungen**  \nHier finden Sie zum Zeitpunkt der Abfrage die aktuellen Vorabanmeldungen zu den Veranstaltungen: nach Studie"
+    },
+    {
+      "rang": 15,
+      "score": 0.92735,
+      "id": "ecb033c7-5788-5db3-a0ba-fef5c44868b9",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Heft_S_Nr._1__Anmeldung_zu_den_Lehrveranstaltungen_aus_der_Sicht_der_Studierenden_Stand_Mai_2021.pdf",
+      "title_anzeige": "f5 › Relpaed › iCMS Moodle Anleitung Studierende › Heft S Nr. 1 Anmeldung zu den Lehrveranstaltungen aus der Sicht der Studierenden Stand Mai 2021 — Anmeldeverfahren zu Lehrveranstaltungen (LV) im iCMS",
+      "section_heading": "**2.8.3 Anmeldung mit Warteliste**",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "## **2.8.3 Anmeldung mit Warteliste**  \nWenn Sie Ihre Wahl getroffen haben, klicken Sie bitte auf belegen/abmelden. Es öffnet sich ein Dialogfenster. Dort finden Sie alle Eckdaten zur ausgewählten Veranstaltung sowie die Informationen, um _welche Art der Anmeldung_ es sich handelt und ob _freie Plät"
+    },
+    {
+      "rang": 16,
+      "score": 0.91117,
+      "id": "5cd8cc71-eb4e-5ba7-a96f-f3c2d52dbb67",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/studienprogramme/studymint",
+      "title_anzeige": "Orientierungssemester StudyMINT",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nBitte richten Sie Ihre Bewerbung über das Bewerbnungsportal der Hochschule. Hier finden Sie Informationen zum Bewerbungszeitraum und den einzureiche"
+    },
+    {
+      "rang": 17,
+      "score": 0.91088,
+      "id": "245f3226-c432-5395-a23c-c810c896e0b2",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/iCMS-Anleitung/BSW-BRS-Einfuehrung_ins_Campusmanagement-klein.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › iCMS Anleitung › BSW BRS Einfuehrung ins Campusmanagement klein",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "- Infos zu und Bearbeitung von Kontaktdaten  \n- I-Bescheinigung  \n- Anmeldung zu einigen Prüfungen (z.B. Recht), Infos zu angemeldeten Prüfungen und Notenspiegel  \n- Stundenplan  \n- Infos zu LV zu denen ihr euch angemeldet habt  \n- Herunterladen von I-Bescheinigungen  \n- • Einsehen, ob Studiengebühr"
+    },
+    {
+      "rang": 18,
+      "score": 0.86837,
+      "id": "7eb8acc7-b01c-5f02-a9da-034ff277efea",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Formulare/23-03-31-Forschungs-Praxisphase_Laufzettel_MDT__2023-03_.pdf",
+      "title_anzeige": "f4 › WI › Formulare › 23 03 31 Forschungs Praxisphase Laufzettel MDT 2023 03 — Laufzettel Forschungs-/Praxisphase",
+      "section_heading": "Anmeldung zur Forschungs-/Praxisphase",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Anmeldung zur Forschungs-/Praxisphase  \n– vor Absolvieren der Forschungs-/Praxiszeit von studierender Person auszufüllen –  \nForschungs- oder Praxisstelle: Name Straße PLZ/Ort Ansprechperson Telefonnummer Dauer der Forschungs- oder Praxiszeit vom bis  \nName der betreuenden Hochschullehrperson"
+    },
+    {
+      "rang": 19,
+      "score": 0.86525,
+      "id": "31939cc2-a8c9-5ad1-8ded-16544d040b9d",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/Zertifikate/Medizinische_Informationsmanagement_Vertiefungen-11.pdf",
+      "title_anzeige": "f3 › BMI › Zertifikate › Medizinische Informationsmanagement Vertiefungen 11 — 1 Vorbemerkungen",
+      "section_heading": "**Bitte zur Beantragung des unten angegebenen Studienschwerpunktes ausfüllen:**",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## **Bitte zur Beantragung des unten angegebenen Studienschwerpunktes ausfüllen:**  \n||vom\nvom|vom\nvom|vom\nvom|vom\nvom|vom\nvom|||\n|---|---|---|---|---|---|---|---|\n||Studenten\nauszufüllen\nDozenten|||||||\n|Titel des Praktikums (der Praktika):\nTitel der Bachelor Arbeit:\nName des Projekts:||||||||\n||||"
+    },
+    {
+      "rang": 20,
+      "score": 0.83367,
+      "id": "61670328-a0db-5498-9c25-ff5d50222050",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Formulare/Pruefungsverwaltung/FAQ_2025.pdf",
+      "title_anzeige": "f2 › Formulare › Pruefungsverwaltung › FAQ 2025 — Wo finde ich die Anmeldung, Verträge und weitere Informationen?",
+      "section_heading": "**Fakultät II – Maschinenbau und Bioverfahrenstechnik** Abteilung Maschinenbau > **Fragen und Antworten zur Praxisphase** > **Wo finde ich die Anmeldung, Verträge und weitere Informationen?**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Fakultät II – Maschinenbau und Bioverfahrenstechnik** Abteilung Maschinenbau\n\n## **Fragen und Antworten zur Praxisphase**\n\n## **Wo finde ich die Anmeldung, Verträge und weitere Informationen?**  \n- Alle wichtigen Formulare und Vordrucke finden Sie auf unserer Internetseite unter https://f2.hs h"
+    },
+    {
+      "rang": 21,
+      "score": 0.82229,
+      "id": "30804727-b792-55eb-945f-04b6def4313a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-09-03-Pruefungsplan_Sep2020_WS2021.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 20 09 03 Pruefungsplan Sep2020 WS2021 — Pr¨ufungsplan der Abteilung Informatik f¨ur den September 2020",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **Anmerkungen:**  \n- **Notenverbesserungen** k¨onnen ab sofort nur noch ¨uber die Pr¨ufungsverwaltung der Abteilung Informatik beantragt bzw. angemeldet werden! Das n¨otige Formular daf¨ur finden Sie auf unseren Internetseiten unter Ihrem jeweiligen Studiengang.  \n- Die Pr¨ufungsanmeldung erfolgt"
+    },
+    {
+      "rang": 22,
+      "score": 0.81795,
+      "id": "6de4fe90-7613-51c5-bebe-a7f558de1ce8",
+      "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+      "title_anzeige": "mint › orientieren › waehrend der schulzeit › campus day berufsorientierungstage",
+      "section_heading": "",
+      "chunk_index": 21,
+      "text_vollstaendig": false,
+      "auszug": "**Die nächsten Berufsorientierungstage finden am 04.02. und 05.02.2027 statt. Aktuell ist noch keine Anmeldung für den Campus Day möglich!**\n**Die nächsten Berufsorientierungstage finden am 04.02. und 05.02.2027 statt. Aktuell ist noch keine Anmeldung für den Campus Day möglich!**\n**Die nächsten Ber"
+    },
+    {
+      "rang": 23,
+      "score": 0.80227,
+      "id": "c3eae6d4-8ce2-5ceb-a4d1-fb0ecff761cb",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie",
+      "title_anzeige": "Willkommen an der HsH-Akademie",
+      "section_heading": "Aktuelles > Häufig gestellte Fragen",
+      "chunk_index": 30,
+      "text_vollstaendig": true,
+      "auszug": "Inhouse-Schulungen sind meist individuell konzipierte Weiterbildungen, die i.d.R. vor Ort im Unternehmen stattfinden. An diesen Schulungen nehmen vorranging interne Mitarbeiter*innen statt, die sich in einem speziellen Themengebiet - fokussiert auf die Bedürfnisse des einzelnen Unternehmens - weiter"
+    },
+    {
+      "rang": 24,
+      "score": 0.79056,
+      "id": "11b9aadc-ba30-57bb-a2d2-fde210a9269c",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/NED/03_Besonderer_Teil_der_Pruefungsordnung_NED.pdf",
+      "title_anzeige": "f2 › Ordnungen › NED › 03 Besonderer Teil der Pruefungsordnung NED — Besonderer Teil der Prüfungsordnung",
+      "section_heading": "**§ 9 Inkrafttreten**",
+      "chunk_index": 24,
+      "text_vollstaendig": true,
+      "auszug": "**rechnung,**\n**Nutzungskosten**|**1**||||\n|**M-MW-**\n**07**|**Energie und**\n**Ökonomie**|||**1**|**M-MW-**||||**K120,**\n**M**|**1**|Energiemanagement, wirtschaftliche Beurteilung\nenergetischer Alternativen|\n||||||**06-03**|||||||\n||||||\n**und M-**\n**MW-07-**\n**02**|**M-MW-**\n**07-03**|**Energiemana"
+    },
+    {
+      "rang": 25,
+      "score": 0.78565,
+      "id": "d4809191-4741-5404-b8dd-3fbaafd2a588",
+      "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-informatik/kooperationsmoeglichkeiten-fuer-unternehmen-und-organisationen",
+      "title_anzeige": "Kooperationsmöglichkeiten für Unternehmen und Organisationen (Abt. Informatik)",
+      "section_heading": "Kooperationsmöglichkeiten für Unternehmen und Organisationen (Abt. Informatik) > Einleitung",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Einleitung\nAlle Maßnahmen sind in den normalen Studienablauf integriert und …\n* werden betreut von Professoren und Professorinnen der Abteilung Informatik;\n* werden themenabhängig in unterschiedlichem Umfang an der Hochschule oder im Unternehmen durchgeführt;\n* finden in der zweiten Studienphase "
+    },
+    {
+      "rang": 26,
+      "score": 0.78557,
+      "id": "0361bd8b-f34a-5b2e-9215-fdb8476bce3f",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 25 09 10 Studienhandbuch 2025 AbtlgInf StudyGuide CSDept 080925",
+      "section_heading": "**2.2 Studienaufbau**",
+      "chunk_index": 35,
+      "text_vollstaendig": true,
+      "auszug": "The _Central Registrar’s Office_ at the Hannover University for Applied Sciences and Arts is responsible for all questions involving enrolment, disenrolment and exemption from tuition fees.  \nOne feature of the study programs in the Department of Computer Science is the fact that the students are re"
+    },
+    {
+      "rang": 27,
+      "score": 0.77918,
+      "id": "e0106e3a-42d1-5027-961c-2e477d659bc8",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "section_heading": "**3. Vorlesungsverzeichnis**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **3. Vorlesungsverzeichnis**  \nDie Lehrveranstaltung ist in Absprache mit den Modul- bzw. Teilmodulverantwortlichen bis spätestens November für das kommende Sommersemester bzw. Mai für das kommende Wintersemester anzumelden. Mit den Modul- bzw. Teilmodulbeauftragten sprechen Sie die notwendigen D"
+    },
+    {
+      "rang": 28,
+      "score": 0.77803,
+      "id": "99d0c7a3-7b42-5eb4-805f-4d0ff2bb5694",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/21-03-12-Auslandsphase_Laufzettel_MDI_Teil_1_bis_3_032021.pdf",
+      "title_anzeige": "f4 › Informatik › Formulare › 21 03 12 Auslandsphase Laufzettel MDI Teil 1 bis 3 032021 — Bachelor-Studiengang Mediendesigninformatik (MDI)",
+      "section_heading": "**Abteilung Informatik** > Hinweise zur Anmeldung der Auslandsphase:",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **Abteilung Informatik**\n\n## Hinweise zur Anmeldung der Auslandsphase:  \n- Die Anmeldung zur Auslandsphase muss vor Beginn des Auslandsaufenthalts erfolgen.  \n- Füllen Sie bitte auf dem 1. Teil des Laufzettels den Kopf des Formulars aus sowie Teil A „Anmeldung zur Auslandsphase“.  \n- Legen Sie da"
+    },
+    {
+      "rang": 29,
+      "score": 0.77038,
+      "id": "3f603eb4-a4e9-569a-85c2-3cac2eb5dd82",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Niedersaechsische_Hochschulzulassungsverordnung.pdf",
+      "title_anzeige": "f2 › Studierendenverwaltung › Gesetze Ordnungen Richtlinien › Niedersaechsische Hochschulzulassungsverordnung",
+      "section_heading": "Z w e i t e r  T e i l > **Studienplatzvergabe in zulassungsbeschränkten grundständigen Studiengängen** > E r s t e r  A b s c h n i t t > **Dialogorientiertes Serviceverfahren** > § 4",
+      "chunk_index": 52,
+      "text_vollstaendig": true,
+      "auszug": "(1)[1] Für die Bewerbung um einen Studienplatz in einem Studiengang, der im DoSV koordiniert wird, muss sich die Bewerberin oder der Bewerber über das Webportal der Stiftung registrieren.[2] Für die Registrierung hat die Bewerberin oder der Bewerber folgende Daten anzugeben: Nachname, Vorname, Gebur"
+    },
+    {
+      "rang": 30,
+      "score": 0.7695,
+      "id": "b9a66987-5e03-5b4d-82ed-c4c4252913fb",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+      "title_anzeige": "f5 › Relpaed › iCMS Moodle Anleitung Studierende › Anleitung fuer Studierende zur Pruefungsanmeldung in iCMS — Anleitung zur Prüfungsanmeldung für Studierende im iCMS",
+      "section_heading": "Anleitung zur Prüfungsanmeldung für Studierende im iCMS",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "S e i t e 1 | 9  \nMelden Sie sich bitte in das System mit der Benutzerkennung und dem Passwort des Hochschul-Accounts unter dem folgenden Link an: https://icms.hs-hannover.de  \nNach dem Einloggen stehen Ihnen in Ihrer Rolle als Studierende zusätzliche Funktionen zur Verfügung. Im nächsten Schritt  w"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+        "score": 0.59134
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_02_2015.pdf",
+        "score": 0.54772
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_05_2011.pdf",
+        "score": 0.54031
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Formulare/23-03-31-Forschungs-Praxisphase_Laufzettel_MDT__2023-03_.pdf",
+        "score": 0.5058
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/Zertifikate/Medizinische_Informationsmanagement_Vertiefungen-11.pdf",
+        "score": 0.50535
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Soziale_Arbeit/BAJ/Studientagsprogramm/Studientagsprogramm_Sommer_2026.pdf",
+        "score": 0.49453
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-informatik/kooperationsmoeglichkeiten-fuer-unternehmen-und-organisationen",
+        "score": 0.49368
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+        "score": 0.49367
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+        "score": 0.49273
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/21-03-12-Auslandsphase_Laufzettel_MDI_Teil_1_bis_3_032021.pdf",
+        "score": 0.49256
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Niedersaechsische_Hochschulzulassungsverordnung.pdf",
+        "score": 0.49144
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_V/Vorlaeufiges_Studientagsprogramm_Sommer_2026.pdf",
+        "score": 0.49131
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Soziale_Arbeit/BAJ/Studientagsprogramm/Alte_Versionen/Studientagsprogramm_Winter_2025_2026.pdf",
+        "score": 0.49104
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/Informatik/2026-02-23_Stundenplan_SS_26.pdf",
+        "score": 0.48784
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+        "score": 0.48702
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+        "score": 0.48461
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+        "score": 0.4846
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/19-06-27-Antrag_Teilzeitstudium.pdf",
+        "score": 0.48432
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Formulare/23-03-31-Forschungs-Praxisphase_Laufzettel_MDT__2023-03_.pdf",
+        "score": 0.48379
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Niedersaechsische_Hochschulzulassungsverordnung.pdf",
+        "score": 0.48335
+      },
+      {
+        "rang": 21,
+        "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+        "score": 0.4818
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2018-klein.pdf",
+        "score": 0.48105
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+        "score": 0.4795
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+        "score": 0.47924
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2026/VV-BRS-PO-2021-SoSe-2026-klein.pdf",
+        "score": 0.47794
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+        "score": 0.47774
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-03-26-Pruefungsplan_SS26.pdf",
+        "score": 0.47766
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_02_2015.pdf",
+        "score": 0.47727
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-informatik/kooperationsmoeglichkeiten-fuer-unternehmen-und-organisationen",
+        "score": 0.4768
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/Hinweise_SchriflArb_20250314.pdf",
+        "score": 0.47591
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+        "score": 0.47547
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f4.hs-hannover.de/studium/plaene-und-termine/pruefungsplan/abteilung-informatik",
+        "score": 0.47359
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Graduiertenfoerderung/9._Antrag_auf_Registrierung_fuer_Promotionsstudierende.pdf",
+        "score": 0.47232
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/04-2018/01_DM-SG-Praxisphasenordnung_20172.pdf",
+        "score": 0.47226
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2026/VV-BRS-PO-2021-SoSe-2026-klein.pdf",
+        "score": 0.47204
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2021-klein.pdf",
+        "score": 0.47014
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/SoSe_2025/BSW_PO20201_KLEIN.pdf",
+        "score": 0.4699
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/12-2011/02-Richtlinie_zur_Foerderung_von_Vorhaben_zu_FuE.pdf",
+        "score": 0.46945
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+        "score": 0.46898
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/08-2024/Drittmittelrichtlinie.pdf",
+        "score": 0.46886
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2020-klein.pdf",
+        "score": 0.46821
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+        "score": 0.46674
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_05_2011.pdf",
+        "score": 0.46666
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2020-klein.pdf",
+        "score": 0.46611
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/Datenschutz-WIR-Stipendium.pdf",
+        "score": 0.46568
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/2025_10_Antrag_Abschlussarbeiten.pdf",
+        "score": 0.46548
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2018-klein.pdf",
+        "score": 0.46496
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/Antrag_Durchfuehrung_des_Studiensemesters_im_Ausland_Anerkennung_Praxisphase_Dez2025.pdf",
+        "score": 0.46442
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+        "score": 0.46417
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/21-03-12-Praxisphase_Laufzettel_MDI_Teil_1_bis_3_032021.pdf",
+        "score": 0.46417
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_05_2011.pdf",
+        "score": 0.68699
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 0.68448
+      },
+      {
+        "rang": 3,
+        "source_url": "https://itr.wp.hs-hannover.de/ueber-uns/projektseite",
+        "score": 0.67595
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge/sensor-und-automatisierungstechnik-esa",
+        "score": 0.65222
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge/elektrische-energiesysteme-und-elektromobilitaet-eee",
+        "score": 0.65222
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat",
+        "score": 0.65222
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+        "score": 0.6522
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+        "score": 0.64523
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/nachhaltige-elektrische-energieversorgung-nev",
+        "score": 0.64443
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/technisches-informationsdesign-und-technische-redaktion-itr",
+        "score": 0.64443
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+        "score": 0.64441
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi",
+        "score": 0.64438
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 0.64389
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/68_EAE_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 0.64034
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-02-21-Pruefungsplan_SS21_Maerz.pdf",
+        "score": 0.62655
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-06-15b-Pruefungsplan_SS20JuniJuli.pdf",
+        "score": 0.62651
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f3.hs-hannover.de",
+        "score": 0.62587
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.62517
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/010_MH-BRS-PO-2020-WiSe-2020-21-Stand-11.08.2020-Online.pdf",
+        "score": 0.62283
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+        "score": 0.61611
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-bim/informationsdesign",
+        "score": 0.61556
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f1.hs-hannover.de/teilzeitstudium",
+        "score": 0.61489
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+        "score": 0.61139
+      },
+      {
+        "rang": 24,
+        "source_url": "https://itr.wp.hs-hannover.de/ueber-uns/projektseite",
+        "score": 0.60693
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f1.hs-hannover.de/studium/studienstart",
+        "score": 0.60431
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BFO_Fotojournalismus_Studiengangsflyer_A5_202405.pdf",
+        "score": 0.603
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/druckwerkstatt-printshop",
+        "score": 0.6026
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/2026_04_28_Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+        "score": 0.59553
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+        "score": 0.59552
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+        "score": 0.5901
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Formulare/23-03-31-Forschungs-Praxisphase_Laufzettel_MDT__2023-03_.pdf",
+        "score": 0.58867
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/12-2011/02-Richtlinie_zur_Foerderung_von_Vorhaben_zu_FuE.pdf",
+        "score": 0.58838
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_02_2015.pdf",
+        "score": 0.5865
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-anlagen-smart-grids-und-hochspannungstechnik",
+        "score": 0.58593
+      },
+      {
+        "rang": 35,
+        "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+        "score": 0.58447
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 0.58422
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende",
+        "score": 0.58306
+      },
+      {
+        "rang": 38,
+        "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+        "score": 0.58131
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+        "score": 0.57853
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f3.hs-hannover.de/internationales/international-study-programmes",
+        "score": 0.57836
+      },
+      {
+        "rang": 41,
+        "source_url": "https://itr.wp.hs-hannover.de/ueber-uns/projektseite",
+        "score": 0.57742
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BME_Mediendesign_Studiengangsflyer_A5_2024005.pdf",
+        "score": 0.57659
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+        "score": 0.57459
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 0.57409
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs",
+        "score": 0.57395
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+        "score": 0.57258
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-erstsemester",
+        "score": 0.57049
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f3.hs-hannover.de/studium/master-studiengaenge/design-und-medien-mdm",
+        "score": 0.57044
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BMO_Modedesign_Studiengangsflyer_A5_2024005.pdf",
+        "score": 0.56983
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+        "score": 0.56845
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+        "score": 21.78019
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt",
+        "score": 17.82822
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 15.52326
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+        "score": 14.87809
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Heft_S_Nr._1__Anmeldung_zu_den_Lehrveranstaltungen_aus_der_Sicht_der_Studierenden_Stand_Mai_2021.pdf",
+        "score": 14.82625
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Formulare/Pruefungsverwaltung/FAQ_2025.pdf",
+        "score": 13.94527
+      },
+      {
+        "rang": 7,
+        "source_url": "https://mint.hs-hannover.de/orientieren/waehrend-der-schulzeit/campus-day-berufsorientierungstage",
+        "score": 13.7974
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie",
+        "score": 13.65002
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/NED/03_Besonderer_Teil_der_Pruefungsordnung_NED.pdf",
+        "score": 13.5399
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Projekte/Gesundheitsfoerderung/180709_ZwischenberichtGesundheitsfoerderungFakV_2.pdf",
+        "score": 13.32828
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/20-09-28-Hinweise_2._Studienabschnitt_BIS.pdf",
+        "score": 13.25525
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-02-20-WI-Pruefungsanmeldung_im_SoSe_2026.pdf",
+        "score": 13.17782
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+        "score": 13.10456
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_verk25.09.2023.pdf",
+        "score": 13.10061
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+        "score": 13.0756
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/Verk_2025_01_F_I__EIT_BTPO.pdf",
+        "score": 13.0756
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie",
+        "score": 12.91945
+      },
+      {
+        "rang": 18,
+        "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/berufsorientierung/campus-day-berufsorientierungstage",
+        "score": 12.90414
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Projektnummern.pdf",
+        "score": 12.86904
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Projektnummern.pdf",
+        "score": 12.86904
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/22-02-11_Hinweise_Empfehlungen_7_Sem._u._BA-Arbeit_Studierende.pdf",
+        "score": 12.83405
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/NEV/NEV_BPO_verkuendet_2025.pdf",
+        "score": 12.78389
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Projektnummern.pdf",
+        "score": 12.76211
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+        "score": 12.59994
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/hochschulinformationstage-an-der-hsh",
+        "score": 12.57096
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Projekte/Gesundheitsfoerderung/180709_ZwischenberichtGesundheitsfoerderungFakV_2.pdf",
+        "score": 12.55336
+      },
+      {
+        "rang": 27,
+        "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/berufsorientierung/campus-day-berufsorientierungstage",
+        "score": 12.51434
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/BPO_EWI_verkuendet_2025.pdf",
+        "score": 12.46007
+      },
+      {
+        "rang": 29,
+        "source_url": "https://mint.hs-hannover.de",
+        "score": 12.42963
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Projekte/Gesundheitsfoerderung/180709_ZwischenberichtGesundheitsfoerderungFakV_2.pdf",
+        "score": 12.39699
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+        "score": 12.37539
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+        "score": 12.27126
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium",
+        "score": 12.26933
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/iCMS-Anmeldezeiten/Fuer_SoSe_2025/Anmeldezeiten-iCMS-BSW-BRS-SBW-SoSe-25-11.11.2024.pdf",
+        "score": 12.10145
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Studiengaenge/BML/BML-LMV.pdf",
+        "score": 12.08904
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 12.04563
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-05-29-Hinweis_zur_Pruefungsanmeldung_im_SS_2020_Juni.pdf",
+        "score": 11.9705
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-lehre/news-1/verleihung-des-hsh-lehrpreis-1-1-1",
+        "score": 11.87236
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+        "score": 11.78964
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+        "score": 11.76237
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+        "score": 11.76237
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/schnupperstudium",
+        "score": 11.68794
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._5_final.pdf",
+        "score": 11.65439
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_V/MLP_LBS_Sprint_FR_Pflege_Pruefungsinformationen_16.10.2025_DS.pdf",
+        "score": 11.57826
+      },
+      {
+        "rang": 45,
+        "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/berufsorientierung/campus-day-berufsorientierungstage",
+        "score": 11.56652
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+        "score": 11.52128
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+        "score": 11.52128
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Brueckenkurs/2026-1_Brueckenkurs_Einladung.pdf",
+        "score": 11.47991
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/Pruefungsmerkblatt_CMO_13.2.26.pdf",
+        "score": 11.46076
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/Pruefungsmerkblatt_CMO_13.2.26.pdf",
+        "score": 11.32645
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+        "score": 23.26154
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt",
+        "score": 19.16014
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 17.79552
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+        "score": 17.18296
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/NED/03_Besonderer_Teil_der_Pruefungsordnung_NED.pdf",
+        "score": 15.61457
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+        "score": 15.25729
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+        "score": 14.74836
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/regelungstechnik-und-mechatronik",
+        "score": 14.71221
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Projekte/Gesundheitsfoerderung/180709_ZwischenberichtGesundheitsfoerderungFakV_2.pdf",
+        "score": 14.05296
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f4.hs-hannover.de/forschung/veroeffentlichungen/2010",
+        "score": 13.80778
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BPD_Produktdesign_Studiengangsflyer_A5_2024005.pdf",
+        "score": 13.65316
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Studiengaenge/BML/BML-LMV.pdf",
+        "score": 13.54515
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Projekte/Gesundheitsfoerderung/180709_ZwischenberichtGesundheitsfoerderungFakV_2.pdf",
+        "score": 13.3971
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Heft_S_Nr._1__Anmeldung_zu_den_Lehrveranstaltungen_aus_der_Sicht_der_Studierenden_Stand_Mai_2021.pdf",
+        "score": 13.38574
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-ATP.pdf",
+        "score": 13.21584
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EWI.pdf",
+        "score": 13.21584
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/07-2017/04_PO_BIM.pdf",
+        "score": 13.19422
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/Verk_2025_01_F_I__EIT_BTPO.pdf",
+        "score": 13.10986
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+        "score": 13.10986
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+        "score": 13.06711
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+        "score": 12.96183
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Projektnummern.pdf",
+        "score": 12.9566
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Projektnummern.pdf",
+        "score": 12.9566
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_verk25.09.2023.pdf",
+        "score": 12.95002
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Projektnummern.pdf",
+        "score": 12.86686
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/NEV/NEV_BPO_verkuendet_2025.pdf",
+        "score": 12.86613
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_NEV_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 12.70644
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Heft_S_Nr._1__Anmeldung_zu_den_Lehrveranstaltungen_aus_der_Sicht_der_Studierenden_Stand_Mai_2021.pdf",
+        "score": 12.64662
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+        "score": 12.5774
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+        "score": 12.5774
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/BPO_EWI_verkuendet_2025.pdf",
+        "score": 12.55535
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/produktdesign-bpd",
+        "score": 12.54199
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie",
+        "score": 12.45733
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Projekte/Gesundheitsfoerderung/180709_ZwischenberichtGesundheitsfoerderungFakV_2.pdf",
+        "score": 12.40448
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f5.hs-hannover.de/studium/internationales/wege-ins-ausland-outgoings/bewerbungsverfahren-1",
+        "score": 12.32228
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EWI_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 12.22758
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/09-2018/02_BIM_BT_PO_mit_Anlagen_20182.pdf",
+        "score": 12.19918
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_NEV_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 12.19136
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/iCMS-Anmeldezeiten/Fuer_SoSe_2025/Anmeldezeiten-iCMS-BSW-BRS-SBW-SoSe-25-11.11.2024.pdf",
+        "score": 12.0958
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 12.04264
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Qualifikationsziele_EAE.pdf",
+        "score": 11.99458
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 11.94865
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Formulare/Pruefungsverwaltung/FAQ_2025.pdf",
+        "score": 11.89025
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Qualifikationsziele_SEL.pdf",
+        "score": 11.84166
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Brueckenkurs/2026-1_Brueckenkurs_Einladung.pdf",
+        "score": 11.82123
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+        "score": 11.81291
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-ATP.pdf",
+        "score": 11.78792
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Heft_S_Nr._1__Anmeldung_zu_den_Lehrveranstaltungen_aus_der_Sicht_der_Studierenden_Stand_Mai_2021.pdf",
+        "score": 11.74996
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f5.hs-hannover.de/studium/internationales/wege-ins-ausland-outgoings/bewerbungsverfahren-1",
+        "score": 11.62146
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-02-21-Pruefungsplan_SS21_Maerz.pdf",
+        "score": 11.5991
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.83,
+    "kandidaten_s": 0.01,
+    "arme_s": 1.91,
+    "gesamt_s": 3.74
+  },
+  "auswahl_begruendung": ""
+}

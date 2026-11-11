@@ -1,0 +1,1615 @@
+{
+  "fall": {
+    "id": "q19",
+    "case_type": "direct",
+    "question": "Welche Wahlpflichtmöglichkeiten nennt die HsH im Bachelorstudiengang Maschinenbau?",
+    "reference_answer": "Im Studiengang Maschinenbau wählen Studierende nach den ersten drei Semestern einen von drei Studienschwerpunkten: Allgemeiner Maschinenbau, Intelligente Produktionssysteme oder Nachhaltige Werkstoffe, Produkte und Prozesse. Im Schwerpunkt Allgemeiner Maschinenbau werden individuelle Interessen durch vier Wahlpflichtmodule aus über 20 Wahlmöglichkeiten vertieft. In den Schwerpunkten Intelligente Produktionssysteme sowie Nachhaltige Werkstoffe, Produkte und Prozesse können jeweils in zwei Wahlpflichtmodulen und einem Projekt individuelle Schwerpunkte gesetzt werden.",
+    "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/F2_BA_MAB_BTPO_2025-07-15.pdf",
+      "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/09-2025/06_F2_BA_MAB_VB_EBU.pdf",
+      "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "https://f2.hs-hannover.de/studium/studierende/semesteruebersichten"
+    ],
+    "required_facts": [
+      "Nach den ersten drei Semestern wird einer von drei Studienschwerpunkten gewählt.",
+      "Die drei Studienschwerpunkte heißen Allgemeiner Maschinenbau, Intelligente Produktionssysteme sowie Nachhaltige Werkstoffe, Produkte und Prozesse.",
+      "Im Schwerpunkt Allgemeiner Maschinenbau gibt es vier Wahlpflichtmodule aus über 20 Wahlmöglichkeiten.",
+      "In den beiden anderen Schwerpunkten gibt es jeweils zwei Wahlpflichtmodule und ein Projekt."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [
+      "Konkrete Modulnamen erfinden, die die Quelle an dieser Stelle nicht nennt.",
+      "Nur allgemein auf Prüfungsordnungen verweisen, ohne die genannten Studienschwerpunkte zu beantworten."
+    ],
+    "case_difficulty": "schwer",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Die Antwort muss die drei Studienschwerpunkte korrekt berücksichtigen: Allgemeiner Maschinenbau mit vier Wahlpflichtmodulen aus über 20 Wahlmöglichkeiten; Intelligente Produktionssysteme mit zwei Wahlpflichtmodulen und einem Projekt; Nachhaltige Werkstoffe, Produkte und Prozesse ebenfalls mit zwei Wahlpflichtmodulen und einem Projekt. Keine konkreten Modulnamen erfinden, weil die Quelle an dieser Stelle keine konkreten Modulnamen nennt.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Allgemeiner Maschinenbau",
+      "Intelligente Produktionssysteme"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "BTPO 2025 (Verkündungsblatt 09/2025) und die zentrale Studienangebotsseite nennen alle drei Schwerpunkte. Die PO 2019 kennt nur zwei und ist für Einschreibungen ab WS 2025 abgelöst.",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "3f952ba7-f17d-5ed4-9d58-223fc5d3d9b3",
+      "7e669b5d-a63e-55ca-b5dd-7455fc847f14",
+      "d323090b-1c35-5c5b-b926-c72b1df0b15f",
+      "9943ba6f-81c9-5082-96e0-725106fd7aa6",
+      "fef1d8b9-572b-5346-93d2-d0c10c0f976f",
+      "e1588033-0fe3-5893-a6cf-24bfc09cd31d",
+      "3044fcef-7e7f-5556-8b85-de354fef3a22",
+      "0b40da29-fc49-57b1-bc68-060a293fe0ab",
+      "33d99549-c155-5791-a827-3909d1a15357",
+      "7cf5f9f5-18f2-541a-9c99-364cb0584b4a",
+      "4f92e41a-8bb2-5252-aafd-869defbbda81",
+      "b7e2323c-3473-56f9-901e-658f4f3b39c6",
+      "f64efec8-b5b4-559d-9713-a137feadef8c",
+      "3a82aeb6-9a87-5080-8c4b-fa720563f6f6",
+      "45105f3a-d934-5e91-9242-51736d2d6baf",
+      "ff6bca57-4b9b-54d4-82c8-792a1b903de9",
+      "b40e5ecd-8276-5f0a-b29a-fa03ab83a9ca",
+      "6d6653db-2f03-587a-8335-204ccba136d7",
+      "18dc5dc4-3bbe-5ea4-a8b9-ad39b77d2ad6",
+      "3c9e3578-086b-502a-b1c3-86f2d48060c9",
+      "26fe1355-4855-5e17-8f39-e160cced71f4",
+      "e9036365-6919-52e2-a241-03ab7ff1d781",
+      "2f832f90-6989-5c3d-b0cb-bdb45463683a",
+      "5244bb5a-d15b-590b-97a5-2e99de4464ff",
+      "afcf61a4-9f4b-5dbb-abf3-0a0b2b6deaae",
+      "2eb24703-7084-5956-be97-17e961a0a19d",
+      "3a404b90-ad2b-5518-aa2c-e5b3751669db",
+      "3a48844d-360f-563b-ab3d-4a2adcf3fab2",
+      "9ad4763d-7c71-5501-8e3c-f952d7cde02e",
+      "412d43bf-bec7-5d73-9ae5-37f09aa290c0",
+      "5184da1a-4d5b-549c-a6b5-28304b201b60",
+      "dacc33de-7c73-5a01-8089-e913e6a6ec61",
+      "fcc5f6e5-7e8e-5bc0-a6dc-4c20fc6225b7",
+      "51ae5063-f1ce-52fc-aec2-43a4a8350a09",
+      "dd68308c-7890-5ae1-b816-fc295fc38aa7",
+      "d6aa4337-87be-5b82-8f96-25d6b8e729d8",
+      "13bc5178-2055-5a6e-9388-c38224ce35c8",
+      "0e75b546-3532-5f0c-9c8d-12696a92d9ca",
+      "984aceec-9f95-528c-93f2-d89f73c570b0",
+      "d927c8bb-cb43-53e9-9886-68b4a924e617",
+      "9f8398c3-431a-5cf8-bec1-9a4b92ce9c0e",
+      "5d33f170-360a-53ec-bcb9-6be87541066d",
+      "930cc05d-5de6-5391-b382-964f1cd6b90d",
+      "af447aa9-b487-52b3-a8d0-1feef10b1954",
+      "29e49c29-d771-58cd-b9e9-b5278a5308dd",
+      "29229def-aad2-5b33-bca5-4f533d5d6f3e",
+      "b8500673-80ce-516f-801e-47561d5ccc15",
+      "da5aa9dc-8e35-574d-a552-d60895640e1d",
+      "f011f476-3f92-5045-a4f2-d650a213f937",
+      "ce4e4546-a27f-51b3-b7f3-b5bc0d8d2e32",
+      "40354df2-0264-518f-87b2-4b4b4d4839da",
+      "984f7e8e-ae7f-5ccc-ae6c-cacf9e798cd3",
+      "5e28ef54-0df9-5dbe-91bd-fa2e4ec7f044",
+      "261286e7-6114-57a7-b28a-d12c58a6ef3b",
+      "1ee3f587-13af-52ea-adba-d3578b8ad14a",
+      "f1a20cf2-75a4-58ae-bdd0-e1f28a7a91dd",
+      "f318b7d9-9124-551d-b290-25660d15ec6d",
+      "dacab1f1-e4b2-554a-8f43-a18c123b9d66",
+      "c23ecf11-3d97-5e36-b1a3-9ca16cbf579e",
+      "b7b51ad1-e8dd-523f-a864-9067c5e80b4d",
+      "4791ce10-9bd3-5298-a8db-c5d4bc893473",
+      "6b0bcd13-3b45-592f-ba7c-d11f2d985c26",
+      "8d91ab48-93ae-58fd-855f-085ddea65191",
+      "968b2c49-b7aa-59ff-97b0-9217bb392b63",
+      "dd5aa0a8-38e6-5fa5-8c9e-ffd360eaee80",
+      "d36b489b-1912-5c6f-affd-3604c5ebd2a8",
+      "0dc4bcea-8bd9-572d-b84b-377018cff3b2",
+      "600d1a14-e191-5d51-8e06-f7e6ac574208",
+      "34363b10-23e9-58f7-b486-4de3e72975b9",
+      "ca73b3b3-dbab-51b7-bf77-65a0cb3d2214",
+      "32cec630-2039-5f12-8244-67cebdae40d9",
+      "02e47908-2c74-5d57-970d-8dbc274c45c1",
+      "4aa0e1d8-eeb9-5525-b2fa-fd6c0c8ceb70",
+      "ec6a8684-abf2-5e8c-af55-b79cec25570c",
+      "5fde8560-02b2-50d2-b321-5eff5dec115e",
+      "22a84a03-2404-5c6a-aff8-c10210d29d4b",
+      "bf071083-3e12-5ef1-94b7-f347f51cbef6",
+      "362470b8-af8f-57ee-9c45-125b466de868",
+      "ad25eb6e-b80c-5219-b332-56fa2a8db3aa",
+      "cfee4aea-f74a-54da-987e-998dcd7c4d2b",
+      "1faca48d-2af1-5d4b-9522-b4fd55acebc4",
+      "3e66c7c2-b5d0-52f2-9a0f-4e9baf4df8dd",
+      "260fe66d-d1fc-5887-a2dc-6daad8c1d51a",
+      "03f850d1-3712-5abd-82f9-b9642eab74b1",
+      "2247a2a6-9663-56df-8ae1-da3d6875a288",
+      "cf9d3d2f-4c3f-5514-b679-54d8bafef455",
+      "a238a32d-d6e1-5749-a2f1-87bb3a09864b",
+      "bf968a32-bfbc-506a-bf41-bf6f2e900d4a",
+      "0ba7c28e-88d4-5e0c-b7bf-0face3c89a0e",
+      "e74f2598-0721-5802-97e8-47e637961071",
+      "cad099a2-7cee-5c37-9f60-b26fb8d39f72",
+      "6d76a83c-be80-5f5b-9e1f-e7440af2d21f",
+      "407086c0-150f-5a89-8670-fd39ff02a528",
+      "052850c1-bfea-52d1-9fd9-2de72304edc6",
+      "62636fb0-6a46-529e-80b2-66c6f57368fc",
+      "0deecfaf-5a2e-5af6-8f88-d45018d151c1",
+      "76721ed6-4d14-52fd-b13d-3dce35f8c38f",
+      "b3b42739-c7e5-57a7-9fa6-5486e30dec08",
+      "446cee81-58e5-5e20-9ff4-ed0bb144482c",
+      "fbc58f2e-9e95-5bf3-8b77-07582450d447",
+      "d0390dba-c6f7-5d65-ba0e-7b86bddb8390",
+      "0a60e8e1-3cb3-5b95-b2a4-f175c921df86",
+      "3bc9c2b1-4a8c-5b64-8f34-8ddb43e1e163",
+      "f9304fe1-f205-51c2-a958-8496b441f7c3",
+      "00f47d14-fe52-5895-bddd-93259381eb20",
+      "f14c2990-a3d9-52ab-9573-dc6d375d813d",
+      "39ea99ad-cde2-5ae3-be5d-aeaef86dbdeb",
+      "e3988412-30b2-5649-add3-7b36d7a5795c",
+      "3fc8a822-9dd4-5ee5-8f2d-e59e3621b3f2",
+      "7c5e3847-d5ea-5084-ac40-9c3e0f6bcad4",
+      "aa0732ee-9b5e-5b60-bfac-d49ebc43d8fb",
+      "326b5f2c-aea3-556f-a1ab-48dbe403d3c7",
+      "6a70a1cb-b0f8-5c8f-8703-3b32d229adcc",
+      "6a26ed37-248f-55f2-b34b-ae5aec07991d",
+      "c56c5446-1594-53b0-a044-2e92c29e068b",
+      "86d76abf-abd7-5afd-930c-6a37895e43f0",
+      "826edf9a-6084-511d-af64-0cdca3f5f4e4",
+      "6f38613a-cb7a-5b58-a3e4-9333d38e098d",
+      "bede20b3-77d0-5cbe-a173-199e0d01b158",
+      "11835b1a-8911-51a0-8c55-cc717169b755",
+      "d185d59b-4f7f-5629-89c8-364c92d37b1a",
+      "3f56a226-2499-5c34-a213-9bf0cb82e6e6",
+      "28b6da78-11ac-5464-bbb5-0c4f462d9eee",
+      "8039a3af-2b44-5225-9d4e-3de60170444a"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T16:28:50",
+  "dauer_s": 4.44,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f2 › Service › Ordnungen und Formulare und Merkblaetter › Anlage B1 B2 MAB V6 PDF",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen_und_Formulare_und_Merkblaetter/Anlage_B1_B2_MAB_V6_PDF.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Hinweise:\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:"
+    },
+    {
+      "nr": 2,
+      "titel": "f2 › xPOs › MAB nicht duale STGs › PO MAB 2019 Verkuendungsblatt Nr. 05.2019 vom 31.08.2019",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2019-Verkuendungsblatt_Nr._05.2019_vom_31.08.2019.pdf",
+      "fakultaet": "f2",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang „Maschinenbau (MAB)“ mit den Studienschwerpunkten „Allgemeiner Maschinenbau“ und „Produktionssysteme“ mit dem Abschluss „Bachelor of Engineering (B.Eng.)“ an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Vorprüfung und Zulassung\n  ## § 5\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 6\n  ## Prüfungsleistungen und Anerkennung\n  ## § 7\n  ## Übergangsbestimmung\n  ## § 8\n  ## Inkrafttreten\n  ## Bachelor Studiengang Allgemeiner Maschinenbau (MAB)\n  ## Hinweise:\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 08 2010 › Verkuendungsblatt 08 2010 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/Verkuendungsblatt_08-2010.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den dualen Bachelor-Studiengang Konstruktionstechnik mit dem Abschluss Bachelor of Engineering (B.Eng) in der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Fachhochschule Hannover\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Ausnahmeregelungen im Studienablauf\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Übergangsbestimmung\n  ## § 6 Inkrafttreten\n  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Bachelor-Studiengang Maschinenbau (MAB) mit den Studienschwerpunkten Allgemeiner Maschinenbau und Produktionssysteme mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Fachhochschule Hannover\n  ## § 1 Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Ausnahmeregelungen\n  ## § 6 Übergangsbestimmung\n  ## § 7 Inkrafttreten\n  ## Bachelor-Studiengang Maschinenbau (MAB)\n  ## Erster Studienabschnitt\n  ## Bachelor-Studiengang Maschinenbau (MAB)\n  ## Zweiter Studienabschnitt\n  ## Bachelor-Studiengang Maschinenbau (MAB)\n  ## Zweiter Studienabschnitt\n  ## Bachelor-Studiengang Maschinenbau (MAB)\n  ## Zweiter Studienabschnitt\n  ## Bachelor-Studiengang Maschinenbau (MAB)\n  ## Zweiter Studienabschnitt\n  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Bachelor-Studiengang Maschinenbau-Informatik (MBI) mit dem Abschluss Bachelor of Engineering (B. Eng.) in der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Fachhochschule Hannover.\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5\n  ## Ausnahmeregelungen\n  ## § 6 Übergangsbestimmung\n  ## § 7 Inkrafttreten\n  ## Bachelor-Studiengang Maschinenbau-Informatik (MBI) Erster Studienabschnitt\n  ## Anlage B 1\n  ## Bachelor-Studiengang Maschinenbau-Informatik (MBI) Zweiter Studienabschnitt\n  ## Anlage B 2\n  ## Bachelor-Studiengang Maschinenbau-Informatik (MBI) Zweiter Studienabschnitt\n  ## Anlage B 2\n  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den dualen Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering (B.Eng) in der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Fachhochschule Hannover\n  ## § 1 Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3 Ausnahmeregelungen im Studienablauf\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Übergangsbestimmung\n  ## § 6 Inkrafttreten"
+    },
+    {
+      "nr": 4,
+      "titel": "www › Verkuendungsblaetter › 09 2025 › hsh verkuendungsblatt nr 09 2025 — Ausgabe 09/2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/09-2025/hsh_verkuendungsblatt_nr_09_2025.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 09/2025\n  ## Inhalt:\n  ## Gebührenordnung für den Weiterbildungsstudiengang „Mittelständische Unternehmensführung in Entrepreneurship (MMU)“\n  ## an der Hochschule Hannover\n  ## § 1 Semesterbeitrag und Studiengebühren\n  ## § 2\n  ## Studiengebühren für das weiterbildende Studium\n  ## § 3\n  ## Gebühren für Wiederholungsprüfungen zur Notenverbesserung oder bei Versäumnis, Rücktritt, Krankheit oder Täuschung\n  ## § 4\n  ## Inkrafttreten und Geltungsdauer\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Vorprüfung und Zulassung\n  ## § 5 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 6 Prüfungsleistungen und Anerkennung\n  ## § 7 Teilzeitstudium\n  ## § 8 Übergangsbestimmung\n  ## § 9 Inkrafttreten\n  ## Bachelor-Studiengang Green Engineering – Energietechnik und Verfahrenstechnik (GEV) - 7 Semester\n  ## Hinweise:\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Ingenieurinformatik Maschinenbau (IIM)\n# mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät II - Maschinenbau und Bioverfahrenstechnik, Abteilung Maschinenbau der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Vorprüfung und Zulassung\n  ## § 5\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 6\n  ## Prüfungsleistungen und Anerkennung\n  ## § 7 Teilzeitstudium\n  ## § 8 Übergangsbestimmung\n  ## § 9 Inkrafttreten\n  ## Bachelor-Studiengang Ingenieurinformatik Maschinenbau (IIM) - 7 Semester\n  ## Hinweise:\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):"
+    },
+    {
+      "nr": 5,
+      "titel": "Bachelor-Studiengänge der Fakultät II",
+      "url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge",
+      "fakultaet": "f2",
+      "struktur": "# Bachelor-Studiengänge der Fakultät II\n    ### Das Wichtigste in Kürze\n  ## Study what’s next: Neue Studienangebote\n    ### Biotechnologie und Umwelttechnik (BIU)\n    ### Green Engineering – Energietechnik und Verfahrenstechnik (GEV)\n    ### Future Food Systems – Lebensmitteltechnologie und Verpackungstechnologie (LVT)\n    ### Maschinenbau (MAB)\n    ### Wirtschaftsingenieur/in Maschinenbau (WIM)\n  ## Duale Bachelor-Studiengänge\n  ## Nicht duale Bachelor-Studiengänge\n  ## Bewerbungsportal\n  ## Bewerbungen jeweils zum Sommer- und Wintersemester möglich!\n  ## Beratung & Kontakt"
+    },
+    {
+      "nr": 6,
+      "titel": "f2 › xPOs › MAB nicht duale STGs › PO MAB 2016 Verkuendungsblatt Nr. 09.2016 vom 31.08.2016",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Maschinenbau (MAB) mit den Studienschwerpunkten „Allgemeiner Maschinenbau“ und „Produktionssysteme“ mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II - Maschinenbau und Bioverfahrenstechnik, Abteilung Maschinenbau,\n  ## der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Vorprüfung\n  ## § 5\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 6\n  ## Ausnahmeregelungen\n  ## § 7\n  ## Studiensemester im Ausland\n  ## § 8\n  ## Prüfungen\n  ## § 9\n  ## Übergangsbestimmung\n  ## § 10\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › Relpaed › Modulhandbuch › 006 Modulhandbuch BRS PO 2018 2018 09 — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/006-Modulhandbuch-BRS-PO-2018-2018-09.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Modulhandbuch des\n# Bachelorstudienganges Religionspädagogik und Soziale Arbeit\n  ## Inhaltsverzeichnis\n  ## Angaben zur Abteilung Religionspädagogik und Diakonie\n  ## 1. Postanschrift\n  ## 2. Studiendekanat, Verwaltung\n  ## 3. Kollegium\n  ## 4. Prüfungsamt und Praktikumsbüro\n  ## 5. Studienfachberatung für eingeschriebene Studierende\n  ## 6. Fachberatung Auslandsstudium\n  ## 7. Internetinformationen zur Fakultät V und zum Studium\n  ## Allgemeine Informationen zum Studiengang\n  ## 1. Studienstruktur\n  ## Kernfach Religionspädagogik (60 CP):\n  ## Kernfach Soziale Arbeit (60 CP):\n  ## Äquivalenzbereich (120 CP):\n  ## Integriertes Berufsanerkennungsjahr (IBA)\n  ## Modulstruktur\n  ## 2. Lehr- und Lernformen\n  ## 3. Prüfungsformen\n  ## Modulübersichtstabelle – Teilmodul-/Modulverantwortliche\n  ## Modulbeschreibungen für den Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS)\n  ## Modul 01 – Modulbeschreibung: Einführung in das Studium und Erstsemesterprojekt\n  ## Modul-/Teilmodulverantwortliche/r:\n  ## Prüfungsleistung:\n  ## Modul 02 – Modulbeschreibung: Fachwissenschaftliche Grundlagen der Sozialen Arbeit\n  ## Modul-/Teilmodulverantwortliche/r:\n  ## Angestrebte Die Studierenden Lernergebnisse: -\n  ## Prüfungsleistung:\n  ## Modul 02 – Teilmodulbeschreibungen\n  ## Modul 03 – Modulbeschreibung: Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## Modul-/Teilmodul- Goll, Sigrun, Prof.in Dr. verantwortliche/r:\n  ## Modul 03 – Teilmodulbeschreibungen\n  ## Modul 04 – Modulbeschreibung: Normative Grundlagen der Sozialen Arbeit I\n  ## Modul 04 – Teilmodulbeschreibungen\n  ## Modul 05 – Modulbeschreibung: Zielgruppen und Lebensweisen I\n  ## Voraussetzungen\n  ## Modul 05 – Teilmodulbeschreibungen\n  ## Modul 06 – Modulbeschreibung: Handlungskonzepte und Methoden – Grundlagen\n  ## Modul 06 – Teilmodulbeschreibungen\n  ## Modul 07 – Modulbeschreibung: Gesellschaftliche Bedingungen Sozialer Arbeit II\n  ## Modul 07 – Teilmodulbeschreibungen\n  ## Modul 08 – Modulbeschreibung: Normative Grundlagen der Sozialen Arbeit II\n  ## Modul 08 – Teilmodulbeschreibungen\n  ## Modul 09 – Modulbeschreibung: Zielgruppen und Lebensweisen II\n  ## Modul 10 – Modulbeschreibung: Handlungskonzepte und Methoden – Vertiefung\n  ## Modul 10 – Teilmodulbeschreibungen\n  ## Modul 10 – Teilmodul 03: BRS-210-03 Gruppenarbeit II\n  ## Modul 10 – Teilmodul 04: BRS-210-04 Ästhetische Kommunikation und soziale Kulturarbeit\n  ## Modul 11 – Modulbeschreibung: Praktikum"
+    },
+    {
+      "nr": 8,
+      "titel": "f2 › Ordnungen › MAB › 5 MAB 2010",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/5_MAB_2010.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Bachelor-Studiengang Maschinenbau (MAB) mit den Studienschwerpunkten Allgemeiner Maschinenbau und Produktionssysteme mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Fachhochschule Hannover\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Ausnahmeregelungen\n  ## § 6 Übergangsbestimmung\n  ## § 7 Inkrafttreten\n  ## Erster Studienabschnitt\n  ## Zweiter Studienabschnitt\n  ## Zweiter Studienabschnitt\n  ## Zweiter Studienabschnitt\n  ## Zweiter Studienabschnitt"
+    },
+    {
+      "nr": 9,
+      "titel": "f2 › Ordnungen › MAB › 3 mab 2009 2",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/3_mab_2009_2.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r P r ü f u n g s o r d n u n g\n  ## § 1 Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5\n  ## Ausnahmeregelungen\n  ## § 6 Übergangsbestimmung\n  ## § 7 Inkrafttreten\n  ## Erster Studienabschnitt\n  ## Anlage B1\n  ## Zweiter Studienabschnitt: Pflichtmodule\n  ## Anlage B2\n  ## Zweiter Studienabschnitt: Wahlpflichtmodule Studienschwerpunkt Allgemeiner Maschinenbau (AM)\n  ## Vertiefungsmodule aus Liste zugelassener Module\n  ## Zweiter Studienabschnitt: Wahlpflichtmodule Studienschwerpunkt Fertigungsautomatisierung (FA)\n  ## Vertiefungsmodule aus Liste zugelassener Module"
+    },
+    {
+      "nr": 10,
+      "titel": "f2 › xPOs › MAB nicht duale STGs › PO WIM 2016 Verkuendungsblatt Nr. 09.2016 vom 31.08.2016",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-WIM-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n# für den Bachelor-Studiengang Wirtschaftsingenieur Maschinenbau (WIM) mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II - Maschinenbau und Bioverfahrenstechnik, Abteilung Maschinenbau, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## §\n  ## 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Vorprüfung\n  ## § 5\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 6\n  ## Ausnahmeregelungen\n  ## § 7\n  ## Studiensemester im Ausland\n  ## § 8\n  ## Prüfungen\n  ## § 9\n  ## Übergangsbestimmung\n  ## § 10\n  ## Inkrafttreten\n  ## Bachelor Studiengang Wirtschaftsingenieur Maschinenbau (WIM) Erster Studienabschnitt\n  ## Bachelor Studiengang Wirtschaftsingenieur Maschinenbau (WIM)\n  ## Zweiter Studienabschnitt\n  ## Abkürzungen:\n  ## Prüfungsarten\n  ## Prüfungsarten"
+    },
+    {
+      "nr": 11,
+      "titel": "www › Verkuendungsblatt › 08 2010 › 02 PO MAB — § 2 Dauer und Gliederung des Studiums",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/02_PO-MAB.pdf",
+      "fakultaet": "",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Bachelor-Studiengang Maschinenbau (MAB) mit den Studienschwerpunkten Allgemeiner Maschinenbau und Produktionssysteme mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Fachhochschule Hannover\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Ausnahmeregelungen\n  ## § 6 Übergangsbestimmung\n  ## § 7 Inkrafttreten\n  ## Bachelor-Studiengang Maschinenbau (MAB)\n  ## Erster Studienabschnitt\n  ## Bachelor-Studiengang Maschinenbau (MAB)\n  ## Zweiter Studienabschnitt\n  ## Bachelor-Studiengang Maschinenbau (MAB)\n  ## Zweiter Studienabschnitt\n  ## Bachelor-Studiengang Maschinenbau (MAB)\n  ## Zweiter Studienabschnitt\n  ## Bachelor-Studiengang Maschinenbau (MAB)\n  ## Zweiter Studienabschnitt"
+    },
+    {
+      "nr": 12,
+      "titel": "f2 › Abt M › Ordnungen › 2025 12 08 UEbergangsordnung V1.1",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/2025-12-08_UEbergangsordnung_V1.1.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Übergangsordnung für die nicht-dualen Bachelor-Studiengänge der Fakultät II - Abteilung Maschinenbau (M)\n  ## 1. Aufnahme des Lehrbetriebes nach der PO 2025\n  ## 2. Übergang und Anerkennung bei einem PO-Wechsel von PO 2019 zur PO 2025\n  ## Anlagen:\n  ## PO 2025\n  ## PO 2019\n  ## ÜO GEV-VT 2. Studienabschnitt\n  ## PO 2025\n  ## PO 2019\n  ## ÜO IIM 1. Studienabschnitt"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.99361,
+      "id": "0452eff2-a83d-521a-a425-750e5e49aa1f",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen_und_Formulare_und_Merkblaetter/Anlage_B1_B2_MAB_V6_PDF.pdf",
+      "title_anzeige": "f2 › Service › Ordnungen und Formulare und Merkblaetter › Anlage B1 B2 MAB V6 PDF",
+      "section_heading": "",
+      "chunk_index": 18,
+      "text_vollstaendig": false,
+      "auszug": "1|PF|K, H, M|1|5|2|2|\n||||||MAB-218-03|Nichtmetallische nachhaltige Werkstoffe\nLabor|PF|EA, H, B, P|1|5|1|2|\n|MAB-211|Robotik|PF|6|12|IIM-211-01|EinführungData Science|PF|K,H,P,M,Pf, EDR|1|5|2|2|\n||||||IIM-211-02|Industrierobotik|PF|||5|4|4|\n|MAB-214|Digitale Produktion|PF|6|12|MAB-214-01|Lean Produ"
+    },
+    {
+      "rang": 2,
+      "score": 1.84557,
+      "id": "d8763b48-7290-5ce4-a440-9002287d3721",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2019-Verkuendungsblatt_Nr._05.2019_vom_31.08.2019.pdf",
+      "title_anzeige": "f2 › xPOs › MAB nicht duale STGs › PO MAB 2019 Verkuendungsblatt Nr. 05.2019 vom 31.08.2019",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang „Maschinenbau (MAB)“ mit den Studienschwerpunkten „Allgemeiner Maschinenbau“ und „Produktionssysteme“ mit dem Abschluss „Bachelor of Engineering (B.Eng.)“ an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **§ 3** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang „Maschinenbau (MAB)“ mit den Studienschwerpunkten „Allgemeiner Maschinenbau“ und „Produktionssysteme“ mit dem Abschluss „Bachelor of Engineering (B.Eng.)“ an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Maschinenbau einschließlich der Bachelor-Prüfung 7 Semester (Regelstudienzeit).  \n- (2) Der Bachelor-Studiengang gliedert sich in  \n- (1) ein"
+    },
+    {
+      "rang": 3,
+      "score": 1.80167,
+      "id": "6d8e5d90-8dfb-5f31-b66b-3669cfbe14b1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/Verkuendungsblatt_08-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2010 › Verkuendungsblatt 08 2010 — Verkündungsblatt",
+      "section_heading": "**§ 2** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 29,
+      "text_vollstaendig": false,
+      "auszug": "## **B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Bachelor-Studiengang Maschinenbau (MAB) mit den Studienschwerpunkten Allgemeiner Maschinenbau und Produktionssysteme mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II – Maschinenbau und Bioverfahrenst"
+    },
+    {
+      "rang": 4,
+      "score": 1.51322,
+      "id": "c57a3f97-2a9a-5bb6-967d-303574b3fcdb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/09-2025/hsh_verkuendungsblatt_nr_09_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblaetter › 09 2025 › hsh verkuendungsblatt nr 09 2025 — Ausgabe 09/2025",
+      "section_heading": "**mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät II - Maschinenbau und Bioverfahrenstechnik, Abteilung Maschinenbau der Hochschule Hannover** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Maschinenbau (MAB) mit den Studienschwerpunkten „Allgemeiner Maschinenbau“, „Intelligente Produktionssysteme“ und** > **mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät II - Maschinenbau und Bioverfahrenstechnik, Abteilung Maschinenbau der Hochschule Hannover** > **„Nachhaltige Werkstoffe, Produkte und Prozesse“**",
+      "chunk_index": 79,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Maschinenbau (MAB) mit den Studienschwerpunkten „Allgemeiner Maschinenbau“, „Intelligente Produktionssysteme“ und**\n\n## **„Nachhaltige Werkstoffe, Produkte und Prozesse“**  \n**mit dem Abschluss Bachelor of Engineering (B.Eng.) an "
+    },
+    {
+      "rang": 5,
+      "score": 1.50019,
+      "id": "9b7aa5ec-d3e3-56f5-ace6-c61055edf956",
+      "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge",
+      "title_anzeige": "Bachelor-Studiengänge der Fakultät II",
+      "section_heading": "Bachelor-Studiengänge der Fakultät II > Study what’s next: Neue Studienangebote > [Maschinenbau (MAB)](https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab)",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "### [Maschinenbau (MAB)](https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab)\nMensch – Maschine – Zukunft: Sie wollen die Welt von morgen bauen und benötigen die notwendigen Skills dazu? Nach dem generalistischen Grundstudium können Sie sich weiter spezialisieren. Finden Sie Ih"
+    },
+    {
+      "rang": 6,
+      "score": 1.48534,
+      "id": "cabb2289-b158-52d6-9cd7-ce887fa2e094",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2019-Verkuendungsblatt_Nr._05.2019_vom_31.08.2019.pdf",
+      "title_anzeige": "f2 › xPOs › MAB nicht duale STGs › PO MAB 2019 Verkuendungsblatt Nr. 05.2019 vom 31.08.2019",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang „Maschinenbau (MAB)“ mit den Studienschwerpunkten „Allgemeiner Maschinenbau“ und „Produktionssysteme“ mit dem Abschluss „Bachelor of Engineering (B.Eng.)“ an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **Bachelor Studiengang Allgemeiner Maschinenbau (MAB)**",
+      "chunk_index": 26,
+      "text_vollstaendig": false,
+      "auszug": "|**2. Studienabschnitt - Wahlpflichtmodule Schwerpunkt Allgemeiner Maschinenbau (AM)**|**2. Studienabschnitt - Wahlpflichtmodule Schwerpunkt Allgemeiner Maschinenbau (AM)**|**2. Studienabschnitt - Wahlpflichtmodule Schwerpunkt Allgemeiner Maschinenbau (AM)**|**2. Studienabschnitt - Wahlpflichtmodule"
+    },
+    {
+      "rang": 7,
+      "score": 1.48436,
+      "id": "50139f5e-5220-5e20-b957-97917313aa9e",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+      "title_anzeige": "f2 › xPOs › MAB nicht duale STGs › PO MAB 2016 Verkuendungsblatt Nr. 09.2016 vom 31.08.2016",
+      "section_heading": "**§ 10** > **Inkrafttreten**",
+      "chunk_index": 26,
+      "text_vollstaendig": false,
+      "auszug": "V|P|1|2|H, K, M, P,\nR|1|\n|**2. Stud. Abschnitt / Pflichtmodule**\n**120**|||||||||||||  \nDezernat III / PO MAB / 15.07.2016  \nNr. 09/2016 vom 31.08.2016  \nVerkündungsblatt der Hochschule Hannover  \n|**Wahlpflichtmodule für Schwerpunkt Allgemeiner Maschinenbau(AM)**\n**Anlage B2**|**Wahlpflichtmodule f"
+    },
+    {
+      "rang": 8,
+      "score": 1.45559,
+      "id": "8a2eca4c-a2d9-5b33-9c91-5283afc2e887",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/006-Modulhandbuch-BRS-PO-2018-2018-09.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 006 Modulhandbuch BRS PO 2018 2018 09 — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **Modulstruktur**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **Modulstruktur**  \nDie 19 Module des Bachelorstudiengangs Religionspädagogik und Soziale Arbeit sind ausnahmslos Pflichtmodule. Sie umfassen jeweils 10 bzw. 15 Credits und sind in Teilmodule von mindestens 2,5 CP Umfang untergliedert. Die Module sehen in gewissem Umfang auf Teilmodulebene Wahlpf"
+    },
+    {
+      "rang": 9,
+      "score": 1.44197,
+      "id": "63b13b03-a911-5af1-ba46-6105c1b89e48",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/5_MAB_2010.pdf",
+      "title_anzeige": "f2 › Ordnungen › MAB › 5 MAB 2010",
+      "section_heading": "**§ 2 Dauer und Gliederung des Studiums**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 2 Dauer und Gliederung des Studiums**  \n(1)  Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Maschinenbau einschließlich der Bachelor-Prüfung 7 Semester (Regelstudienzeit).  \n- (2)  Das Bachelor-Studium gliedert sich in  \n- (1) einen 3-semest"
+    },
+    {
+      "rang": 10,
+      "score": 1.37064,
+      "id": "33b8fc4f-1e2c-5212-9083-8372bc9ba927",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/3_mab_2009_2.pdf",
+      "title_anzeige": "f2 › Ordnungen › MAB › 3 mab 2009 2",
+      "section_heading": "**§ 2** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 2**\n## **Dauer und Gliederung des Studiums**  \n(1)  Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Maschinenbau einschließlich der Bachelor-Prüfung 7 Semester (Regelstudienzeit).  \n- (2)  Das Bachelor-Studium gliedert sich in  \n- (1) einen 3"
+    },
+    {
+      "rang": 11,
+      "score": 1.33533,
+      "id": "0a6b95c1-8df0-5f90-88be-ed20f0939cd1",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-WIM-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+      "title_anzeige": "f2 › xPOs › MAB nicht duale STGs › PO WIM 2016 Verkuendungsblatt Nr. 09.2016 vom 31.08.2016",
+      "section_heading": "**für den Bachelor-Studiengang Wirtschaftsingenieur Maschinenbau (WIM) mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II - Maschinenbau und Bioverfahrenstechnik, Abteilung Maschinenbau, der Hochschule Hannover** > **Bachelor Studiengang Wirtschaftsingenieur Maschinenbau (WIM)** > **für den Bachelor-Studiengang Wirtschaftsingenieur Maschinenbau (WIM) mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II - Maschinenbau und Bioverfahrenstechnik, Abteilung Maschinenbau, der Hochschule Hannover** > **Zweiter Studienabschnitt**",
+      "chunk_index": 25,
+      "text_vollstaendig": false,
+      "auszug": "|**2. Stud. Abschnitt / Pflichtmodule**\n**120**|||||||||||||  \nDezernat III / PO WIM / 15.07.2016  \nNr. 09/2016 vom 31.08.2016  \nVerkündungsblatt der Hochschule Hannover  \n|**Wahlpflichtmodule**|**Wahlpflichtmodule**|**Wahlpflichtmodule**|**Wahlpflichtmodule**|**Wahlpflichtmodule**|**Anlage B2**|**A"
+    },
+    {
+      "rang": 12,
+      "score": 1.31438,
+      "id": "d09f240e-f9b3-54be-b4c8-167dba1fde44",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/02_PO-MAB.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2010 › 02 PO MAB — § 2 Dauer und Gliederung des Studiums",
+      "section_heading": "**§ 2 Dauer und Gliederung des Studiums**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 2 Dauer und Gliederung des Studiums**  \n(1)  Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Maschinenbau einschließlich der Bachelor-Prüfung 7 Semester (Regelstudienzeit).  \n- (2)  Das Bachelor-Studium gliedert sich in  \n- (1) einen 3-semest"
+    },
+    {
+      "rang": 13,
+      "score": 1.25877,
+      "id": "4db0ea24-1f18-5512-abbe-8801c99c2422",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/2025-12-08_UEbergangsordnung_V1.1.pdf",
+      "title_anzeige": "f2 › Abt M › Ordnungen › 2025 12 08 UEbergangsordnung V1.1",
+      "section_heading": "**ÜO IIM 1. Studienabschnitt**",
+      "chunk_index": 65,
+      "text_vollstaendig": true,
+      "auszug": "||||BBA-431-01|Personalmanagement||6|2|2|||BBA-431-01|Personalmanagement|6|2|2|\n||||BBA-431-02|Unternehmensführung||6|2|2|||BBA-431-02|Unternehmensführung|6|2|2|\n|WIM-296|Projekt im Maschinenbau|6|MAB-296-01|Projekt|B,P|6|1|6|||MAB-217-01|Projekt|6|1|7|\n|WIM-418|Wahlpflichtblock WIM-\nWirtschaft|6|WI"
+    },
+    {
+      "rang": 14,
+      "score": 1.25725,
+      "id": "b7ad61ab-b7b2-5512-bb72-2c2d95586484",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/04-2019/04_F_II_PO_MBI_2019.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2019 › 04 F II PO MBI 2019",
+      "section_heading": "**mit dem Abschluss „Bachelor of Engineering (B.Eng.)“ an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **§ 3** > **mit dem Abschluss „Bachelor of Engineering (B.Eng.)“ an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "Dezernat III / PO MBI / 01.07.2019  \nNr. 04/2019 vom 31.08.2019  \nVerkündungsblatt der Hochschule Hannover  \n- (3) Der Bachelor-Studiengang Maschinenbau-Informatik beinhaltet Pflicht-, Wahlpflicht- und Wahlmodule. Der Gesamtumfang der Pflicht- und Wahlpflichtmodule beträgt 210 Cr. Anlage B1 (Bachelo"
+    },
+    {
+      "rang": 15,
+      "score": 1.24256,
+      "id": "655badfc-8429-5e6e-849c-7349121744aa",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "section_heading": "**Anlage B2 zum Studiengang Mechatronik**",
+      "chunk_index": 33,
+      "text_vollstaendig": true,
+      "auszug": "|**E-H-49**|**Technische**\n**Wahlpflicht-**|**W**\n**P**|**8**|**8**|**E-H-49-01**|**Technische**\n**Wahlpflichtfächer**\n**oder Labore**|**2**|**K60,**\n**EA**|**1/4**|Siehe Katalog der technischen\nWahlpflichtfächer und Wahlpflichtlabore für\nden StudiengangMechatronik.||\n||**fächer**||||**E-H-49-02**|*"
+    },
+    {
+      "rang": 16,
+      "score": 1.23499,
+      "id": "e4f74dd4-7253-585b-a98a-d4504e8ff773",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/4_MAB.pdf",
+      "title_anzeige": "f2 › Ordnungen › MAB › 4 MAB",
+      "section_heading": "**B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Bachelor-Studiengang Maschinenbau (MAB) mit den Studienschwerpunkten Allgemeiner Maschinenbau und Fertigungsautomatisierung mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Fachhochschule Hannover** > **§ 2 Dauer und Gliederung des Studiums**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 2 Dauer und Gliederung des Studiums**  \n(1)  Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Maschinenbau einschließlich der Bachelor-Prüfung 7 Semester (Regelstudienzeit).  \n- (2)  Das Bachelor-Studium gliedert sich in  \n- (1) einen 3-semest"
+    },
+    {
+      "rang": 17,
+      "score": 1.23461,
+      "id": "944c79cc-be78-5d1d-a88d-a7596a7b6ba4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/01_MAB-2-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2010 › 01 MAB 2 2010",
+      "section_heading": "**B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Bachelor-Studiengang Maschinenbau (MAB) mit den Studienschwerpunkten Allgemeiner Maschinenbau und Fertigungsautomatisierung mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Fachhochschule Hannover** > **§ 2 Dauer und Gliederung des Studiums**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 2 Dauer und Gliederung des Studiums**  \n(1)  Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Maschinenbau einschließlich der Bachelor-Prüfung 7 Semester (Regelstudienzeit).  \n- (2)  Das Bachelor-Studium gliedert sich in  \n- (1) einen 3-semest"
+    },
+    {
+      "rang": 18,
+      "score": 1.22383,
+      "id": "4791ce10-9bd3-5298-a8db-c5d4bc893473",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/F2_BA_MAB_BTPO_2025-07-15.pdf",
+      "title_anzeige": "f2 › Ordnungen › MAB › F2 BA MAB BTPO 2025 07 15",
+      "section_heading": "**Bachelor-Studiengang Maschinenbau (MAB) - 7 Semester**",
+      "chunk_index": 50,
+      "text_vollstaendig": false,
+      "auszug": "Projektmanagement|PF|K, H, M|2|5|2|2|\n||||||MAB-268-03|Qualitäts- und\nUmweltmanagement|PF|K, H, M|2|5|2|2|\n|MAB-243|Mechanische\nVerfahrenstechnik und\nWertstoffrecycling|PF|6|12|GEV-243-01|Mechanische\nVerfahrenstechnik Labor|PF|EA, B, M|1|6|1|2|\n||||||GEV-243-02|Mechanische\nVerfahrenstechnik und\nWert"
+    },
+    {
+      "rang": 19,
+      "score": 1.19786,
+      "id": "e4099b3b-40b6-5ab4-9744-c86af5735ac6",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+      "title_anzeige": "f2 › xPOs › MAB nicht duale STGs › PO MAB 2016 Verkuendungsblatt Nr. 09.2016 vom 31.08.2016",
+      "section_heading": "**§ 10** > **Inkrafttreten**",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "Brennstoffzellen|V|WP|2|2|H, K, M|1|\n||||||VEU-250-02|Heizungstechnik und Kraft-Wär|\nV|WP|2|2|H,K,M|1|\n||||||||||||||  \nDezernat III / PO MAB / 15.07.2016  \nNr. 09/2016 vom 31.08.2016  \nVerkündungsblatt der Hochschule Hannover  \n|**Wahlpflichtmodule für Schwerpunkt Allgemeiner Maschinenbau(AM)**\n**A"
+    },
+    {
+      "rang": 20,
+      "score": 1.15874,
+      "id": "ec818e25-aa93-5421-90c6-04c27983b611",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Studiengaenge/GEV/Modulbeschreibung_Maschinenbau_nicht_dual_2025-09-19.pdf",
+      "title_anzeige": "f2 › Studiengaenge › GEV › Modulbeschreibung Maschinenbau nicht dual 2025 09 19",
+      "section_heading": "**Mod. Nr: 249**",
+      "chunk_index": 265,
+      "text_vollstaendig": false,
+      "auszug": "Eine Teilmodulwahl ist nicht zulässig.\nModul wählbar aus dem Wahlpflichtmodulkatalog GEV-VT.\nDer Wahlpflichtmodulkatalog wird rechtzeitig auf der Webseite der Fakultät veröffentlicht.\nEs müssen vollständige Module im Umfang von 6 ECTS-Punkten gewählt werden.\nEine Teilmodulwahl ist nicht zulässig.\nTe"
+    },
+    {
+      "rang": 21,
+      "score": 1.13825,
+      "id": "7cf5f9f5-18f2-541a-9c99-364cb0584b4a",
+      "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab",
+      "title_anzeige": "Maschinenbau (MAB)",
+      "section_heading": "Maschinenbau: Tradition trifft Digitalisierung und Nachhaltigkeit > Schwerpunkte: Maschinenbau > [Allgemeiner Maschinenbau](https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab/allgemeiner-maschinenbau-mab-am)",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "### [Allgemeiner Maschinenbau](https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab/allgemeiner-maschinenbau-mab-am)\nStudium am Campus Linden  \nNach den ersten 3. Grundlagensemestern vermittelt der Studienschwerpunkt „Allgemeiner Maschinenbau“ praxisnahes Anwendungswissen für Ko"
+    },
+    {
+      "rang": 22,
+      "score": 1.12354,
+      "id": "e9036365-6919-52e2-a241-03ab7ff1d781",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/F2_BA_MAB_BTPO_2025-07-15.pdf",
+      "title_anzeige": "f2 › Ordnungen › MAB › F2 BA MAB BTPO 2025 07 15",
+      "section_heading": "(2) Der Bachelor-Studiengang gliedert sich in",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "- (3) Der Bachelor-Studiengang Maschinenbau beinhaltet Pflicht-, Wahlpflicht- und Wahlmodule. Der Gesamtumfang der Pflicht- und Wahlpflichtmodule beträgt 210 Credits. Ein Credit entspricht einem Workload von 30 Stunden. Anlage B1 (Bachelor erster Studienabschnitt) und Anlage B2 (Bachelor zweiter Stu"
+    },
+    {
+      "rang": 23,
+      "score": 1.1068,
+      "id": "2c877124-6d07-5d8d-8328-bf406b0145a2",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › BPO MEC 12.2023",
+      "section_heading": "**§ 11** > **Inkrafttreten**",
+      "chunk_index": 33,
+      "text_vollstaendig": false,
+      "auszug": "||||||||||||||  \nDezernat 3 / PO MEC / 31.07.2023  \nNr. 12/2023 vom 15.09.2023 **Anlage 2 - PO 2023/24 - Anlage B1/B2 zur Prüfungsordnung Mechatronik**  \nVerkündungsblatt der Hochschule Hannover  \n|**2. Studienabschnitt - Ergänzungsmodule/Wahlpflichtmodule**|**2. Studienabschnitt - Ergänzungsmodule/"
+    },
+    {
+      "rang": 24,
+      "score": 1.10519,
+      "id": "13ae099a-81b7-5111-bbcd-d0b87272c142",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/2020_Uebergang-MAB-WS2016-WS2019-final-AM-2-Abschnitt.pdf",
+      "title_anzeige": "f2 › Ordnungen › MAB › 2020 Uebergang MAB WS2016 WS2019 final AM 2 Abschnitt — Anerkennungs- und Übergangsregelung Allgemeiner Maschinenbau (MAB)",
+      "section_heading": "**Anerkennungs- und Übergangsregelung Allgemeiner Maschinenbau (MAB)**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Wahlpflichtmodulen|PF||1|5|6|**=**|MAB-214|Vertiefung 2|MAB-214-01|Vertiefungsmodul wählbar aus den anliegenden\nWahlpflichtmodulen|||5*|6||1|\n|MAB-215|Vertiefung 3|PF|6|12|MAB-215-01|Vertiefungsmodul wählbar aus den anliegenden\nWahlpflichtmodulen|PF||1|5|6|**=**|MAB-215|Vertiefung 3|MAB-215-01|Verti"
+    },
+    {
+      "rang": 25,
+      "score": 1.09966,
+      "id": "cbff30fa-7cb1-5db6-aff6-1917c185bd90",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "section_heading": "**`§5`** > **`Technische Wahlpflichtfächer und  Wahlpflichtlabore`**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **`§5`**\n\n## **`Technische Wahlpflichtfächer und  Wahlpflichtlabore`**  \nDer Katalog der technischen Wahlpflichtfächer und Wahlpflichtlabore für den Studiengang Mechatronik wird semesterweise aktualisiert und veröffentlicht. Die Belegung eines nicht vorgesehenen Wahlpflichtfachs oder Wahlpflichtl"
+    },
+    {
+      "rang": 26,
+      "score": 1.09937,
+      "id": "30cbb07a-a71b-5a1d-838c-d2bbdd858eb4",
+      "source_url": "https://f2.hs-hannover.de/studium/studierende/gesetze-und-ordnungen",
+      "title_anzeige": "Gesetze & Ordnungen",
+      "section_heading": "Gesetze & Ordnungen > Besonderer Teil der Zulassungsordnungen > Gesetze & Ordnungen",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Besonderer Teil der Zulassungsordnungen\n##\n[ Bachelorstudiengänge ](https://f2.hs-hannover.de/studium/studierende/gesetze-und-ordnungen \"Bachelorstudiengänge\")\n[Abteilung Bioverfahrenstechnik](https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO"
+    },
+    {
+      "rang": 27,
+      "score": 1.08897,
+      "id": "bd54cefb-92fb-537d-bd20-7c33a18bfe56",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "HsH – Hier studiert 34 Hannover. > StudierendenPerspektive > HsH – Hier studiert 34 Hannover. > Qualitativ hochwertige Studienabschlüsse anbieten",
+      "chunk_index": 87,
+      "text_vollstaendig": false,
+      "auszug": "Bachelorstudiengänge und ein Masterstudiengang als eigenständige duale Studiengänge akkreditiert. Weitere Formate einer Ausbildung in Kooperation mit Praxispartner:innen sind duale Studienmodelle, die grundständige Studiengänge um eine Berufsausbildung erweitern, sowie berufsintegrierende und -begle"
+    },
+    {
+      "rang": 28,
+      "score": 1.07308,
+      "id": "1f8e1836-771f-5e61-a14e-96753599de41",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2004 › Verkuendungsblatt 03 2004 — Verkündungsblatt",
+      "section_heading": "**Ordnung über die Feststellung der Eignung und Zulassung für die Studiengänge Betriebswirtschaftslehre mit den Schwerpunkten „Financial Institutions (MBA-FIN)” und „Interregional Business (MBA-IRB)“ sowie Wirtschaftsinformatik mit dem Schwerpunkt „Interorganizational Business Computing (MBA-IBC)“ zum Master of Business Administration (MBA) am Fachbereich Wirtschaft der Fachhochschule Hannover** > **I.**",
+      "chunk_index": 125,
+      "text_vollstaendig": false,
+      "auszug": "|---|---|---|---|  \n|**11.** Technisches Wahlpflichtfach\n2\nK 1,0 o. ED o. R o. H o. E\n7. Sem.\nsiehe Wahlpflichtkatalog A\n**12.** Technisches Wahlpflichtfach\n2\nK 1,0 o. ED o. R o. H o. E\n7. Sem.\nsiehe Wahlpflichtkatalog A\n**13.** Nichttechnisches Wahlpflichtfach\n2\nK 1,0 o. ED o. R o. H o. E\n7. Sem.\ns"
+    },
+    {
+      "rang": 29,
+      "score": 1.06438,
+      "id": "2010941f-9cb3-546f-88d9-7327e1483246",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/04-2019/HsH_Verkuendungsblatt_04_2019.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2019 › HsH Verkuendungsblatt 04 2019 — Ausgabe 04/2019",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang „Maschinenbau (MAB)“ mit den Studienschwerpunkten „Allgemeiner Maschinenbau“ und „Produktionssysteme“ mit dem Abschluss „Bachelor of Engineering (B.Eng.)“ an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **§ 3** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang „Maschinenbau (MAB)“ mit den Studienschwerpunkten „Allgemeiner Maschinenbau“ und „Produktionssysteme“ mit dem Abschluss „Bachelor of Engineering (B.Eng.)“ an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 20,
+      "text_vollstaendig": false,
+      "auszug": "Dezernat III / PO MAB / 01.07.2019  \nNr. 04/2019 vom 31.08.2019  \nVerkündungsblatt der Hochschule Hannover  \n- (3) Der Bachelor-Studiengang Maschinenbau beinhaltet Pflicht-, Wahlpflicht- und Wahlmodule. Der Gesamtumfang der Pflicht- und Wahlpflichtmodule beträgt 210 Cr. Anlage B1 (Bachelor erster St"
+    },
+    {
+      "rang": 30,
+      "score": 1.05825,
+      "id": "583caf74-df7b-5938-94c9-c870622c885d",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch PO2016",
+      "section_heading": "Literatur",
+      "chunk_index": 412,
+      "text_vollstaendig": false,
+      "auszug": "## Literatur  \nKeine zusätzliche Literatur erforderlich; aktuelle Quellen zu Produktion und Logistik werden in der Lehrveranstaltung genannt.  \nStand: 09. Juni 2021  \nFakultät IV - Wirtschaft und Informatik, Bachelorstudiengang Wirtschaftsinformatik"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/04-2019/HsH_Verkuendungsblatt_04_2019.pdf",
+        "score": 0.67295
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2019-Verkuendungsblatt_Nr._05.2019_vom_31.08.2019.pdf",
+        "score": 0.67268
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/1_mab_2006.pdf",
+        "score": 0.66769
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/1wim_2006.pdf",
+        "score": 0.65911
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Steckbriefe.pdf",
+        "score": 0.63937
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2019-Verkuendungsblatt_Nr._05.2019_vom_31.08.2019.pdf",
+        "score": 0.63481
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/3wim_2009_2.pdf",
+        "score": 0.63264
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/4_MAB.pdf",
+        "score": 0.63243
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/3_mab_2009_2.pdf",
+        "score": 0.6324
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 0.62875
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/07-2003/Verkuendungsblatt_07_2003.pdf",
+        "score": 0.62795
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen/AEnderung_Bes_PO_MMV_22_12_2010.pdf",
+        "score": 0.62222
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/5_MAB_2010.pdf",
+        "score": 0.61941
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/4WIM3.pdf",
+        "score": 0.61838
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/04_WIM-2-2010.pdf",
+        "score": 0.61836
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen_und_Formulare_und_Merkblaetter/Anlage_B1_B2_MAB_V6_PDF.pdf",
+        "score": 0.61701
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 0.6163
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+        "score": 0.61433
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Steckbriefe.pdf",
+        "score": 0.61408
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/04-2019/04_F_II_PO_MBI_2019.pdf",
+        "score": 0.61149
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_TIM_BTPO_2006-02-28.pdf",
+        "score": 0.60886
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MED/med_2006.pdf",
+        "score": 0.60859
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MED/3MED_2010.pdf",
+        "score": 0.60674
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/4_MAB.pdf",
+        "score": 0.60469
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/1_mab_2006.pdf",
+        "score": 0.60467
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/Informatik/2026-02-23_Stundenplan_SS_26.pdf",
+        "score": 0.60408
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 0.60376
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 0.60376
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 0.60124
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/11_PEP_Text_30.09.10_komplett.pdf",
+        "score": 0.59897
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/05_PO-MED.pdf",
+        "score": 0.59887
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/1wim_2006.pdf",
+        "score": 0.59878
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/F2_BA_WIM_BTPO_2025-07-15.pdf",
+        "score": 0.59693
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/PTD/1pt_2006.pdf",
+        "score": 0.59407
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+        "score": 0.59392
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_IIM_BTPO_2020-05-04.pdf",
+        "score": 0.59377
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/06_F_II_PO_WIM_2019.pdf",
+        "score": 0.59243
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/09-2025/hsh_verkuendungsblatt_nr_09_2025.pdf",
+        "score": 0.59213
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-WIM-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 0.58892
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_MBI_BTPO_2010-11-26.pdf",
+        "score": 0.58753
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/04-2009/Verkuendungsblatt_04-2009.pdf",
+        "score": 0.58676
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 0.58312
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/F2_BA_MAB_BTPO_2025-07-15.pdf",
+        "score": 0.58236
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/IIM-WS2019-Modulhandbuch.pdf",
+        "score": 0.58198
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/2017_UEbergang-MAB-WS2010-WS2016-final-2-Abschnitt-AM.pdf",
+        "score": 0.58053
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+        "score": 0.58038
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_TIM_BTPO_2009-08-10.pdf",
+        "score": 0.57863
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/03-2012/11-PO_Bachelor_EIT.pdf",
+        "score": 0.57682
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen/Bes_Teil_PO_mmv.pdf",
+        "score": 0.57559
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/PEP/PEP.pdf",
+        "score": 0.57453
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/2025-12-08_UEbergangsordnung_V1.1.pdf",
+        "score": 0.76813
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/F2_BA_MAB_BTPO_2025-07-15.pdf",
+        "score": 0.75977
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen_und_Formulare_und_Merkblaetter/Anlage_B1_B2_MAB_V6_PDF.pdf",
+        "score": 0.7569
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/MAB-AM-WS2010-Modulhandbuch.pdf",
+        "score": 0.68557
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/02_PO-MAB.pdf",
+        "score": 0.67228
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 0.66704
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/4WIM3.pdf",
+        "score": 0.66669
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/Verkuendungsblatt_08-2010.pdf",
+        "score": 0.66547
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/5_MAB_2010.pdf",
+        "score": 0.66538
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Wahlpflichtmodule_WS26.pdf",
+        "score": 0.66236
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2019-Verkuendungsblatt_Nr._05.2019_vom_31.08.2019.pdf",
+        "score": 0.65857
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Studiengaenge/GEV/Modulbeschreibung_Maschinenbau_nicht_dual_2025-09-19.pdf",
+        "score": 0.65855
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2019-Verkuendungsblatt_Nr._05.2019_vom_31.08.2019.pdf",
+        "score": 0.65428
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-WIM-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 0.65399
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/2020_Uebergang-MAB-WS2016-WS2019-final-PS-2-Abschnitt.pdf",
+        "score": 0.6532
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/2020_Uebergang-MAB-WS2016-WS2019-final-AM-2-Abschnitt.pdf",
+        "score": 0.65223
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/03-2012/09-PO-Bachelor_ENT.pdf",
+        "score": 0.65128
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 0.65115
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/1wim_2006.pdf",
+        "score": 0.64867
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f2.hs-hannover.de/studium/master-studiengaenge/maschinenbau-entwicklung-med",
+        "score": 0.64702
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 0.6457
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab",
+        "score": 0.64302
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Studiengaenge/GEV/Modulbeschreibung_Maschinenbau_nicht_dual_2025-09-19.pdf",
+        "score": 0.64116
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+        "score": 0.64094
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+        "score": 0.64072
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 0.64003
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/04-2019/HsH_Verkuendungsblatt_04_2019.pdf",
+        "score": 0.63829
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab",
+        "score": 0.63468
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/03-2004/Verkuendungsblatt_03_2004.pdf",
+        "score": 0.63249
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WID/F2_dual_BA_WID_BTPO_2025-07-25.pdf",
+        "score": 0.63229
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/2020_Uebergang-MAB-WS2016-WS2019-final-AM-2-Abschnitt.pdf",
+        "score": 0.63137
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 0.62991
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf",
+        "score": 0.62683
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+        "score": 0.62436
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Studiengaenge/GEV/Modulbeschreibung_Maschinenbau_nicht_dual_2025-09-19.pdf",
+        "score": 0.62428
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+        "score": 0.62116
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/03-2005/Verkuendungsblatt_03_2005.pdf",
+        "score": 0.62052
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab/allgemeiner-maschinenbau-mab-am",
+        "score": 0.61924
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_BA_M_Teil_B.pdf",
+        "score": 0.61747
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/09-2025/hsh_verkuendungsblatt_nr_09_2025.pdf",
+        "score": 0.61735
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+        "score": 0.61443
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2019-Verkuendungsblatt_Nr._05.2019_vom_31.08.2019.pdf",
+        "score": 0.61389
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/09-2025/hsh_verkuendungsblatt_nr_09_2025.pdf",
+        "score": 0.60808
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/04_WIM-2-2010.pdf",
+        "score": 0.60792
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xSemesteruebersichten/IID-WS2022-Semesteruebersicht.pdf",
+        "score": 0.60721
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BVK_2016.pdf",
+        "score": 0.60633
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_TIM_BTPO_2009-08-10.pdf",
+        "score": 0.60616
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/03-2005/Verkuendungsblatt_03_2005.pdf",
+        "score": 0.60592
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/04-2019/03_F_II_PO_MAB_2019.pdf",
+        "score": 0.60368
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/1wim_2006.pdf",
+        "score": 0.6026
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 16.05944
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/006-Modulhandbuch-BRS-PO-2018-2018-09.pdf",
+        "score": 15.98055
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/gesetze-und-ordnungen",
+        "score": 15.8663
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 15.41138
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 14.05261
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungscluster/lebensmittelqualitaeten/news-lebensmittelqualitaeten/zum-schutz-der-umwelt-forschungsprojekt-zum-abbau-von-ss-laktamantibiotica-in-der-milch-erkrankter-kuehe",
+        "score": 13.24768
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Formulare/Pruefungsverwaltung/02_Finale_Praxisphasenordnung.pdf",
+        "score": 13.08068
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Formulare/Pruefungsverwaltung/02_Finale_Praxisphasenordnung.pdf",
+        "score": 13.00767
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 12.976
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/2025-12-08_UEbergangsordnung_V1.1.pdf",
+        "score": 12.52596
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IID/F2_dual_BA_IID_BTPO_2025-07-25.pdf",
+        "score": 12.51988
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 12.03096
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/F2_BA_MAB_BTPO_2025-07-15.pdf",
+        "score": 11.82475
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/gesetze-und-ordnungen",
+        "score": 11.51159
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Simon__2023__Regierungskommission_Reform_Krankenhausfinanzierung.pdf",
+        "score": 11.48075
+      },
+      {
+        "rang": 16,
+        "source_url": "https://mint.hs-hannover.de/studieren/mint-studiengaenge/maschinenbau-nachhaltige-werkstoffe-produkte-und-prozesse",
+        "score": 11.37169
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 11.21207
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/02-2008/Verkuendungsblatt_02-2008.pdf",
+        "score": 11.13921
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 11.09318
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/modulhandbuecher",
+        "score": 11.08845
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 11.08723
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/semesteruebersichten",
+        "score": 11.05139
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/Netzwerke_-_Romppel.pdf",
+        "score": 11.00273
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/semesteruebersichten",
+        "score": 10.99632
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_alle_BTPO_1Aenderung_2008-07-08.pdf",
+        "score": 10.90105
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/modulhandbuecher",
+        "score": 10.83575
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/06_F_II_PO_WIM_2019.pdf",
+        "score": 10.78074
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/6WIM_20125.pdf",
+        "score": 10.75377
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/Verkuendungsblatt-01_2012.pdf",
+        "score": 10.75377
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2016",
+        "score": 10.74636
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f3.hs-hannover.de/studium/ordnungen",
+        "score": 10.71195
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 10.67693
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/3_mab_2009_2.pdf",
+        "score": 10.65999
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_MBI_BTPO_2010-11-26.pdf",
+        "score": 10.65999
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/5WIM_20104.pdf",
+        "score": 10.65755
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/modulhandbuecher",
+        "score": 10.63184
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/gesetze-und-ordnungen",
+        "score": 10.62585
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/gesetze-und-ordnungen",
+        "score": 10.61501
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/03_PO-MBI.pdf",
+        "score": 10.61011
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/07-2023/hsh_verkuendungsblatt_nr_07_2023.pdf",
+        "score": 10.61011
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 10.58916
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/3wim_2009_2.pdf",
+        "score": 10.58288
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/01_MAB-2-2010.pdf",
+        "score": 10.58288
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/4_MAB.pdf",
+        "score": 10.58288
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 10.54086
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 10.5169
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-WIM-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 10.51654
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_MBI_BTPO_2016-08-31.pdf",
+        "score": 10.51654
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/4WIM3.pdf",
+        "score": 10.50701
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/04_WIM-2-2010.pdf",
+        "score": 10.50701
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/006-Modulhandbuch-BRS-PO-2018-2018-09.pdf",
+        "score": 20.20079
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/gesetze-und-ordnungen",
+        "score": 16.7781
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 16.67822
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+        "score": 16.38305
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/017-MH-BRS-PO-2026-WiSe-26-27-Stand-17.06.2026-web.pdf",
+        "score": 16.29325
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungscluster/lebensmittelqualitaeten/news-lebensmittelqualitaeten/zum-schutz-der-umwelt-forschungsprojekt-zum-abbau-von-ss-laktamantibiotica-in-der-milch-erkrankter-kuehe",
+        "score": 15.34427
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/Archiv/Modulhandbuch_MDI_20170206_1.pdf",
+        "score": 15.00248
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/Archiv/Modulhandbuch_BIN_20170206_1.pdf",
+        "score": 14.92848
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 14.77837
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 14.33581
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/F2_BA_MAB_BTPO_2025-07-15.pdf",
+        "score": 14.14572
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IID/F2_dual_BA_IID_BTPO_2025-07-25.pdf",
+        "score": 13.82474
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 13.51675
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium",
+        "score": 13.48467
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IID/F2_dual_BA_IID_BTPO_2025-07-25.pdf",
+        "score": 13.25498
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 13.07269
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2008/02-2008/Verkuendungsblatt_02-2008.pdf",
+        "score": 12.89933
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2019-Verkuendungsblatt_Nr._05.2019_vom_31.08.2019.pdf",
+        "score": 12.87134
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/forschungsdatenmanagement",
+        "score": 12.86333
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 12.82458
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/6WIM_20125.pdf",
+        "score": 12.8202
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/Verkuendungsblatt-01_2012.pdf",
+        "score": 12.8202
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/06_F_II_PO_WIM_2019.pdf",
+        "score": 12.76677
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/5WIM_20104.pdf",
+        "score": 12.75337
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-WIM-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 12.65444
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/03_PO-MBI.pdf",
+        "score": 12.62181
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Formulare/Pruefungsverwaltung/02_Finale_Praxisphasenordnung.pdf",
+        "score": 12.60494
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_IIM_BTPO_2020-05-04.pdf",
+        "score": 12.58935
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_TIM_BTPO_2009-08-10.pdf",
+        "score": 12.45575
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Formulare/Pruefungsverwaltung/02_Finale_Praxisphasenordnung.pdf",
+        "score": 12.43605
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/F2_BA_WIM_BTPO_2025-07-15.pdf",
+        "score": 12.42958
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_IIM_BTPO_2025-07-15.pdf",
+        "score": 12.42958
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_TIM_BTPO_2010-03-25.pdf",
+        "score": 12.40033
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_TIM_BTPO_2006-02-28.pdf",
+        "score": 12.38411
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xPOs/MAB_nicht_duale_STGs/PO-MAB-2016-Verkuendungsblatt_Nr._09.2016_vom_31.08.2016.pdf",
+        "score": 12.35924
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/2025-12-08_UEbergangsordnung_V1.1.pdf",
+        "score": 12.31738
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/04_WIM-2-2010.pdf",
+        "score": 12.18379
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/4WIM3.pdf",
+        "score": 12.18379
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/04-2019/04_F_II_PO_MBI_2019.pdf",
+        "score": 12.12217
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/Verkuendungsblatt_08-2010.pdf",
+        "score": 12.10464
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/5_MAB_2010.pdf",
+        "score": 12.10464
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WIM/3wim_2009_2.pdf",
+        "score": 12.09228
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/Netzwerke_-_Romppel.pdf",
+        "score": 12.08791
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge",
+        "score": 12.05796
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen",
+        "score": 11.90686
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/gesetze-und-ordnungen",
+        "score": 11.75042
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen/50-jahre-hsh",
+        "score": 11.62345
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 11.59702
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Offene_Hochschule/20240126_Z3_Tabelle_Anerkannte_Ausbildungen_Offene_Hochschule_HsH.pdf",
+        "score": 11.39677
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/gesetze-und-ordnungen",
+        "score": 11.31657
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.34,
+    "kandidaten_s": 0.0,
+    "arme_s": 1.99,
+    "gesamt_s": 4.34
+  },
+  "auswahl_begruendung": ""
+}

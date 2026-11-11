@@ -1,0 +1,533 @@
+{
+  "fall": {
+    "id": "g15",
+    "case_type": "direct",
+    "question": "Wo fand die Tagung über Nachhaltigkeit und Gesundheit an Hochschulen statt?",
+    "reference_answer": "Auf dem Hochschulsportcampus der Leibniz Universität Hannover.",
+    "source_url": "https://f5.hs-hannover.de/aktuelles/veranstaltungen/kooperative-fachtagung-nachhaltigkeit-trifft-gesundheit-verbindung-von-querschnittsthemen-an-hochschulen-am-30092025-am-hochschulsport-der-leibniz-universitaet-hannover",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Hochschulsport der Leibniz Universität Hannover"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ news_veranstaltung/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "be77790f-e986-559d-a356-141f101c91f9",
+      "cf1293f7-e316-5d82-a798-5f9366e830f5",
+      "20d2da0f-0726-5d3a-af0b-211400297a8b",
+      "7f926812-7f85-5491-845d-0c05514623c2",
+      "ba09aba5-23ef-5d90-9a49-9d37c2462ad3",
+      "57b3bb20-62fe-5c3f-96ca-74e07752f797",
+      "31fe74e3-bfee-5127-9a84-47e8afaaeb52",
+      "f532274b-22ff-51dc-9dfc-154f413f96e2",
+      "31fbbfa7-70a7-5a8e-81a0-56a5fd49315e",
+      "1f1f83ff-d2b5-5b85-8cac-224efdb25ce7",
+      "6ec2c14b-7e2e-55ba-93af-3a3894e2a3dc",
+      "b7cf22f0-76da-5726-b0a2-0bfe1b6bab4d",
+      "f7bd0755-e6a8-5f9c-b85d-e743b04b8318"
+    ],
+    "beleg_punkte": [
+      "be77790f-e986-559d-a356-141f101c91f9",
+      "cf1293f7-e316-5d82-a798-5f9366e830f5",
+      "7f926812-7f85-5491-845d-0c05514623c2",
+      "1f1f83ff-d2b5-5b85-8cac-224efdb25ce7",
+      "6ec2c14b-7e2e-55ba-93af-3a3894e2a3dc",
+      "b7cf22f0-76da-5726-b0a2-0bfe1b6bab4d",
+      "f7bd0755-e6a8-5f9c-b85d-e743b04b8318"
+    ],
+    "beleg_urls": [
+      "https://f5.hs-hannover.de/aktuelles/veranstaltungen/kooperative-fachtagung-nachhaltigkeit-trifft-gesundheit-verbindung-von-querschnittsthemen-an-hochschulen-am-30092025-am-hochschulsport-der-leibniz-universitaet-hannover"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:10:00",
+  "dauer_s": 6.33,
+  "fehler": null,
+  "antwort": "Die Tagung fand „am Hochschulsportcampus der Leibniz Universität Hannover\" [2] statt.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f5 › Aktuelles › Veranstaltung › Tagungsdokumentation Fachtagung Nachhaltigkeit trifft Gesundheit",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/Veranstaltung/2025/Tagungsdokumentation_Fachtagung_Nachhaltigkeit_trifft_Gesundheit.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Literaturverzeichnis\n  ## Videodokumentation zur Fachtagung\n  ## Kontakt:\n  ## Workshopphase 1\n  ## 02 Grußwort\n  ## Grußwort von Prof. Dr. Volker Epping Präsident der Leibniz Universität Hannover\n  ## Grußwort von Dr.in Sarah Windolph-Lübben Nachhaltigkeitsmanagerin der Techniker Krankenkasse\n  ## Keynote-Vorträge\n  ## Keynote von Lea Dohm (KLUG e. V.)\n  ## „Nachhaltigkeit als Kompass – Verantwortung für eine zukunftsfähige Gesellschaft“\n  ## Keynote von Prof.in Dr.in Sonia Lippke (HAW Hamburg)\n  ## „Gesundheit und Nachhaltigkeit im Kontext Hochschule: Welche Bedeutung hat Einsamkeit“\n  ## 04\n  ## Erste Workshopphase\n  ## Workshop 1\n  ## Aktiv für Mobilität und Gesundheit Dustin Rehder & Sandra Pape\n  ## Ergebnisse\n  ## Aktiv für Mobilität und Gesundheit Dustin Rehder & Sandra Pape\n  ## Welche Praxisbeispiele aus Hochschulen zu Mobilität, Gesundheit und Nachhaltigkeit kennen Sie?\n  ## Chancen:\n  ## Herausforderungen:\n  ## Verortung des Nachhaltigkeitsbüros\n  ## Workshop 2\n  ## Partizipative Forschung mit Studierenden zum Thema Nachhaltigkeit Prof.in Dr.in Maike Wagenaar, Prof.in Dr.in Simone van Kampen & Niklas Brähler-Dieling\n  ## Zentrale Ergebnisse des Workshops sind :\n  ## Ergebnisse\n  ## Zielgruppe\n  ## Gruppe 2\n  ## Ziele\n  ## Wissen\n  ## Was wir nicht wissen\n  ## Ideen/Themen\n  ## Gruppe 4\n  ## 1. Bedarfsanalyse:\n  ## 3. Gründe für Nicht-Nutzung der Angebote\n  ## 2. Studies leiden unter Stress/Erschöpfung/sind mental belastet\n  ## 4. Erstellen eines Meilensteinplans\n  ## Workshop 3\n  ## Verbundenheit als Co-Benefit für Nachhaltigkeit Prof.in Dr.in Sonia Lippke & Lia Gaida\n  ## Campus Gardening als gemeinschaftsfördernder Ansatz:\n  ## Beteiligung stärken und Zielgruppen erreichen:\n  ## Ergebnisse\n  ## Übergeordnete Fragestellung\n  ## Stellt euch vor, euer Campus Gardening kann neu aufgestellt werden. Welche Erfahrungen wollt ihr machen? Welche Maßnahmen haben sich bewährt? Was würdet ihr anders machen?\n  ## Gesund durch die Mittagspause\n  ## 05\n  ## Workshop 4\n  ## Als erste konkrete Schritte wurden identifiziert:\n  ## • Verantwortliche und engagierte Multiplikatorinnen finden\n  ## Ergebnisse"
+    },
+    {
+      "nr": 2,
+      "titel": "Kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“",
+      "url": "https://f5.hs-hannover.de/aktuelles/veranstaltungen/kooperative-fachtagung-nachhaltigkeit-trifft-gesundheit-verbindung-von-querschnittsthemen-an-hochschulen-am-30092025-am-hochschulsport-der-leibniz-universitaet-hannover",
+      "fakultaet": "f5",
+      "struktur": "# Kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“\n  ## 30.09.2025\n    ### Veranstal­tungs­ort\n  ## Dokumentation der kooperativen Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“\n  ## Bericht zur Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“\n  ## Ansprechpersonen\n    ### Projektleitung Netzwerk Gesunde Hochschulen Nord\n    ### Projektleitung MoNaKo"
+    },
+    {
+      "nr": 3,
+      "titel": "f5 › forschung › netzwerk gesunde hochschulen nord",
+      "url": "https://f5.hs-hannover.de/forschung/netzwerk-gesunde-hochschulen-nord",
+      "fakultaet": "f5",
+      "struktur": "  ## Aktuelle Netzwerkkonferenzen und Fachtagungen:\n  ## Link, Poster und QR-CODE zur Website des Netzwerks Gesunde Hochschulen Nord\n    ### Link zur Website des Netzwerks Gesunde Hochschulen Nord:\n    ### Poster zum Netzwerk Gesunde Hochschulen Nord:\n    ### QR-CODE zur Website des Netzwerks Gesunde Hochschulen Nord:\n  ## Entstehung des Netzwerks Gesunde Hochschulen Nord\n  ## Steuerungsgremium des Netzwerks Gesunde Hochschulen Nord\n  ## Ansprechpartner\n    ### Mitarbeiter\n    ### Projektleitung\n    ### Mitarbeiterin\n  ## Dass Projekt wird unterstützt durch:"
+    },
+    {
+      "nr": 4,
+      "titel": "f5 › Fakultaet V › Poster Netzwerk Gesunde Hochschulen Nord 2024",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Poster_Netzwerk_Gesunde_Hochschulen_Nord_2024_.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Netzwerkkonferenzen und Formate des „Netzwerks Gesunde Hochschulen Nord“\n  ## Steuerungsgremium des Netzwerkes\n  ## Koordinationsteam"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Organisation › Schwerbehindertenvertretung › HsH Inklusionspreis 2023 Dokumentation klein — HsH-Inklusionspreis – Warum machen wir das?",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Schwerbehindertenvertretung/HsH_Inklusionspreis_2023_Dokumentation_klein.pdf",
+      "fakultaet": "",
+      "struktur": "  ## HsH-Inklusionspreis – Warum machen wir das?\n  ## 17\n  ## Die Preisträgerinnen\n  ## Prof. Dr. Ulrich Schneider\n  ## Symposium Gesundheitskompetenz\n  ## MOXI – Mobilität für alle – digital & inklusiv\n  ## Ben Trutz und Anne Zadikian: Unterstützende Führung bei seelischer Erkrankung\n  ## Gabriele Strangfeld: Yoga für Brustkrebserkrankte\n  ## Katja Kläfker: Hilfe bei Diagnose Brustkrebs e.V.\n  ## Teilhabe am sozialen und kulturellen Leben durch den MOTION – DETEKTOR\n  ## Prof. Dr. Martin Grotjahn: Unterstützung eines Studierenden mit ADHS\n  ## Wiebke Müller und Z2-Team: Barrierearmes Lehren und Lernen an der HsH\n  ## Mehr Informationen:\n  ## Anna-Lena Weingarten: Mitarbeit bei den Special-Olympics\n  ## https://specialolympics.de\n  ## Nawid Reinermann: Botschafter für gelebte Inklusion an der HsH\n  ## Anna Chevalier: Onlineplattform Includein.Design\n  ## Inklusionsteam der HsH: Durchführung und Dokumentation des Inklusionstages 2022\n  ## DANKE"
+    },
+    {
+      "nr": 6,
+      "titel": "f5 › Projekte › Gesundheitsfoerderung › 180709 ZwischenberichtGesundheitsfoerderungFakV 2",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Projekte/Gesundheitsfoerderung/180709_ZwischenberichtGesundheitsfoerderungFakV_2.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Zwischenbericht\n  ## Inhaltsverzeichnis\n  ## Tabellenverzeichnis\n  ## Abbildungsverzeichnis\n  ## 1. Hintergrund und Vorstellung des Projektes\n  ## Hochschulweites Projekt zum betrieblichen Gesundheitsmanagement\n  ## 2. Ziele\n  ## 3. Organisation\n  ## 3.1 Koordinationsteam\n  ## Projektleitung\n  ## Wissenschaftliche Mitarbeiterinnen\n  ## 3.2 Steuerungsgruppe\n  ## Die Steuerungsgruppe …\n  ## 3.3 Gesundheitszirkel\n  ## 4. Auszug bisheriger Maßnahmen und Aktionen\n  ## 4.1. Mit dem Rad zur Arbeit / Bericht online veröffentlicht am 27.09.2017\n  ## 4.2. Wasserspender am Campus Kleefeld\n  ## 4.3. Obsttag für Studierende / Bericht online veröffentlicht am 14.11.2017\n  ## 4.4. Pausenexpress – aktives individuelles Rückentraining am Arbeitsplatz: individuell parat\n  ## 4.5. Aktive Bewegungsförderung in Lehrveranstaltungen\n  ## 4.6. Blitzwerkstätten für Studierende und Beschäftigte\n  ## Studierende\n  ## Wissenschaftliche Mitarbeiterinnen und Mitarbeiter\n  ## 4.7. Kooperative Master-Abschlussarbeiten\n  ## 5. Veranstaltungen und Tagungen\n  ## 5.1. Gastvortrag Dr. Claudia Pischke, BIPS Bremen\n  ## 5.2. Studentisches Gesundheitsmanagement / 23.11.2016 in Frankfurt am Main\n  ## 5.3. International Summer School / 22. - 26.05.2017 Universitat de les Illes Balears\n  ## 5.5. Armut und Gesundheit / 20. - 21.03.2018 in Berlin\n  ## 6. Auszüge aus der Öffentlichkeitsarbeit\n  ## 6.1. Projekt-Logo\n  ## 6.2. Website\n  ## 6.3. Poster\n  ## 6.4. Postkarte\n  ## 7. Nächste Arbeitsschritte\n  ## Literaturverzeichnis\n  ## Anhang\n  ## Bestandsaufnahme Angebote und Aktivitäten an der Hochschule Hannover\n  ## Ablauf\n  ## Hintergrund\n  ## Substanzkonsum von Studierenden\n  ## Hintergrund\n  ## Das Setting Hochschule\n  ## Hintergrund\n  ## • Acht Grundpfeiler einer Gesundheitsfördernden Hochschule :\n  ## Vorwissen zum Themenbereich\n  ## Gruppe 1:\n  ## Was fehlt an deutschen Hochschulen?\n  ## Hintergrund des Projekts\n  ## Hintergrund des Projekts"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › forschung › forschungsprojekt matchup",
+      "url": "https://f5.hs-hannover.de/forschung/forschungsprojekt-matchup",
+      "fakultaet": "f5",
+      "struktur": "  ## Projektziele\n  ## Bestandsaufnahme\n  ## Datenerhebungen\n  ## Lehr- und Lernkonzept\n  ## Laufzeit und Projekterweiterung\n  ## Ausblick\n  ## Ausgewählte Links und Materialien für Studierende\n  ## zum Thema Suchtmittel\n  ## zum Thema Stressbewältigung und Entspannung\n  ## Projektteam des Projektes \"MAtCHuP\"\n    ### Literatur\n  ## Ansprechpartner\n    ### Projektleitung\n    ### wiss. Mitarbeiterin\n    ### wiss. Mitarbeiter\n  ## Das Projekt wird unterstützt durch:"
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › Forschung › Projektsteckbriefe › GBS Steckbrief Netzwerk Gesunde Hochschulen Nord",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/Projektsteckbriefe/GBS_Steckbrief_Netzwerk_Gesunde_Hochschulen_Nord.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Netzwerk Gesunde Hochschulen Nord\n  ## Projektbeschreibung\n  ## Formate und Themen des Netzwerkes\n  ## Ziele des Netzwerks\n  ## Kooperationspartnerinnen"
+    },
+    {
+      "nr": 9,
+      "titel": "Nachhaltiges Netzwerk: Green Office bei HochNiNa-Jahrestagung an TU Clausthal",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/strategische-hochschulentwicklung/thematische-schwerpunkte/green-office/nachhaltiges-netzwerk-green-office-bei-hochnina-jahrestagung-an-tu-clausthal",
+      "fakultaet": "",
+      "struktur": "# Nachhaltiges Netzwerk: Green Office bei HochNiNa-Jahrestagung an TU Clausthal\n    ### Das alljährliche Vernetzungstreffen fördert den Austausch und die Zusammenarbeit Niedersächsischer Hochschulen bei der Erarbeitung einer nachhaltigen Hochschullandschaft."
+    },
+    {
+      "nr": 10,
+      "titel": "Gelungener Abschluss der Vorlesungen „Nachhaltigkeit“ und „Einführung in die Ingenieurwissenschaften“",
+      "url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-forschungszentrum-energie-mobilitaet-prozesse-fz-emp/aktuelles/gelungener-abschluss-der-vorlesungen-nachhaltigkeit-und-einfuehrung-in-die-ingenieurwissenschaften",
+      "fakultaet": "",
+      "struktur": "# Gelungener Abschluss der Vorlesungen „Nachhaltigkeit“ und „Einführung in die Ingenieurwissenschaften“\n    ### Studierende des 1. Semesters der Fakultät II präsentierten zum Abschluss der neuen Vorlesungen „Nachhaltigkeit“ und „Einführung in die Ingenieurwissenschaften“ ihre Projektarbeiten in einer Postersession – mit vielfältigen Themen rund um nachhaltige Technologien."
+    },
+    {
+      "nr": 11,
+      "titel": "Teilnahme an der Tagung für Klimaschutz in Kunst, Kultur und Verwaltung",
+      "url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-forschungszentrum-energie-mobilitaet-prozesse-fz-emp/aktuelles/default-cfb56632d3e54c2fcd77eaa2d0409f56",
+      "fakultaet": "",
+      "struktur": "# Teilnahme an der Tagung für Klimaschutz in Kunst, Kultur und Verwaltung\n    ### Teilnahme des FZ EMP mit dem Forschungsprojekt DiNaMo an der Tagung des Netzwerk Zero \\ NOW! \\ SIN am 10. und 11. Juni 2024 im Pavillon Hannover."
+    },
+    {
+      "nr": 12,
+      "titel": "Forschungsverbund Naht",
+      "url": "https://f5.hs-hannover.de/forschung/forschungsverbund-naht",
+      "fakultaet": "f5",
+      "struktur": "# Forschungsverbund Naht\n  ## Naht\n  ## Nachhaltiges Handeln in der pflegeberuflichen Bildung: Curriculare Integration von Planetary Health und digitaler Kompetenz\n  ## Der Ansatz\n  ## Ziele des Projektes\n  ## Warum ist das wichtig?\n  ## Kongresse und Publikationen\n  ## 13. und 14. Mai 2025: Arbeitstagung der NIB-Umsetzungsprojekte in Bonn\n  ## Projektleitung\n  ## Projektpartner\n  ## Projektmitarbeiter:innen\n  ## Regionale Kooperationspartner\n    ### Kontakt zu Naht:\n  ## Laufzeit\n  ## Ansprechpartnerinnen"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 2,
+      "titel": "Kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“",
+      "url": "https://f5.hs-hannover.de/aktuelles/veranstaltungen/kooperative-fachtagung-nachhaltigkeit-trifft-gesundheit-verbindung-von-querschnittsthemen-an-hochschulen-am-30092025-am-hochschulsport-der-leibniz-universitaet-hannover"
+    },
+    {
+      "nr": 1,
+      "titel": "f5 › Aktuelles › Veranstaltung › Tagungsdokumentation Fachtagung Nachhaltigkeit trifft Gesundheit",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/Veranstaltung/2025/Tagungsdokumentation_Fachtagung_Nachhaltigkeit_trifft_Gesundheit.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“",
+      "url": "https://f5.hs-hannover.de/aktuelles/veranstaltungen/kooperative-fachtagung-nachhaltigkeit-trifft-gesundheit-verbindung-von-querschnittsthemen-an-hochschulen-am-30092025-am-hochschulsport-der-leibniz-universitaet-hannover",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“ > Bericht zur Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“",
+      "snippets": [
+        "## Bericht zur Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“\nAm 30. September 2025 fand die kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“ am Hochschulsportcampus der Leibniz Universität Hannover statt. Wir freuen uns sehr, dass über 100 Interessierte aus Hochschulen, Wissenschaft, Verwaltung und Praxis teilgenommen haben und damit zu einem vielfältigen und lebendigen Austausch beigetragen haben.  \nDie kooperative Tagung wurde gemeinschaftlich von den an der Hochschule Hannover, Fakultät V, verorteten Projekten Netzwerk Gesunde Hochschulen Nord und Modellprojekt MoNaKo – Gesundheits- und Nachhaltigkeitskompetenzen von Studierenden, dem Hochschulsport Hannover, dem Arbeitskreis Gesundheitsfördernde Hochschulen (AGH), dem Kompetenzzentrum Gesundheitsfördernde Hochschulen (KGH) sowie dem Allgemeinen Deutschen Hochschulsportverband (adh) gestaltet."
+      ],
+      "zitate": [
+        "am Hochschulsportcampus der Leibniz Universität Hannover"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f5 › Aktuelles › Veranstaltung › Tagungsdokumentation Fachtagung Nachhaltigkeit trifft Gesundheit",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/Veranstaltung/2025/Tagungsdokumentation_Fachtagung_Nachhaltigkeit_trifft_Gesundheit.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "_**Videodokumentation zur Fachtagung**_",
+      "snippets": [
+        "## _**Videodokumentation zur Fachtagung**_  \n**Jetzt scannen und die Fachtagung erleben** Interviews Stimmen & Einblicke  \n**01 Vorwort**  \nAm 30. September 2025 fand die kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“ am Hochschulsportcampus der Leibniz Universität Hannover statt. Wir freuen uns sehr, dass über 100 Interessierte aus Hochschulen, Wissenschaft, Verwaltung und Praxis teilgenommen haben und damit zu einem vielfältigen und lebendigen Austausch beigetragen haben."
+      ],
+      "zitate": [
+        "am Hochschulsportcampus der Leibniz Universität Hannover"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.29877,
+      "id": "3e8357a0-d6cb-55b4-9b1f-c62d5515ac47",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/Veranstaltung/2025/Tagungsdokumentation_Fachtagung_Nachhaltigkeit_trifft_Gesundheit.pdf",
+      "title_anzeige": "f5 › Aktuelles › Veranstaltung › Tagungsdokumentation Fachtagung Nachhaltigkeit trifft Gesundheit",
+      "section_heading": "_**Videodokumentation zur Fachtagung**_",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Literaturverzeichnis**  \n01 Vorwort 4\n02 Grußwort 6\n03 Keynote-Vorträge 8\nKeynote von Lea Dohm (KLUG e. V.)\n9\n„Nachhaltigkeit als Kompass – Verantwortung für eine zukunftsfähige Gesellschaft“\nKeynote von Prof.in Dr.in Sonia Lippke (HAW Hamburg)\n10\n„Gesundheit und Nachhaltigkeit im Kontext Hochs"
+    },
+    {
+      "rang": 2,
+      "score": 3.15025,
+      "id": "af0ed3a5-1de4-5bbd-9c48-e85704915128",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/Veranstaltung/2025/Tagungsdokumentation_Fachtagung_Nachhaltigkeit_trifft_Gesundheit.pdf",
+      "title_anzeige": "f5 › Aktuelles › Veranstaltung › Tagungsdokumentation Fachtagung Nachhaltigkeit trifft Gesundheit",
+      "section_heading": "_**Videodokumentation zur Fachtagung**_",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## _**Videodokumentation zur Fachtagung**_  \n**Jetzt scannen und die Fachtagung erleben** Interviews Stimmen & Einblicke  \n**01 Vorwort**  \nAm 30. September 2025 fand die kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“ am Hochschulsportcam"
+    },
+    {
+      "rang": 3,
+      "score": 2.82267,
+      "id": "7f926812-7f85-5491-845d-0c05514623c2",
+      "source_url": "https://f5.hs-hannover.de/aktuelles/veranstaltungen/kooperative-fachtagung-nachhaltigkeit-trifft-gesundheit-verbindung-von-querschnittsthemen-an-hochschulen-am-30092025-am-hochschulsport-der-leibniz-universitaet-hannover",
+      "title_anzeige": "Kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“",
+      "section_heading": "Kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“ > Bericht zur Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Dokumentation der kooperativen Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“\nUnter dem folgenden Link finden Sie die Dokumentation der Fachtagung: [Link.](https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/Veranstaltung/2"
+    },
+    {
+      "rang": 4,
+      "score": 2.60038,
+      "id": "bcc364bc-6a48-591c-affa-d023acb2746a",
+      "source_url": "https://f5.hs-hannover.de/forschung/netzwerk-gesunde-hochschulen-nord",
+      "title_anzeige": "f5 › forschung › netzwerk gesunde hochschulen nord",
+      "section_heading": "Aktuelle Netzwerkkonferenzen und Fachtagungen:",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "* 30.09.2025: Kooperative **Fachtagung** „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“ am Hochschulsportcampus der LUH Hannover - Tagungswebsite unter diesem [Link](https://f5.hs-hannover.de/aktuelles/veranstaltungen/kooperative-fachtagung-nachhaltigkeit-triff"
+    },
+    {
+      "rang": 5,
+      "score": 2.48149,
+      "id": "ba09aba5-23ef-5d90-9a49-9d37c2462ad3",
+      "source_url": "https://f5.hs-hannover.de/aktuelles/veranstaltungen/kooperative-fachtagung-nachhaltigkeit-trifft-gesundheit-verbindung-von-querschnittsthemen-an-hochschulen-am-30092025-am-hochschulsport-der-leibniz-universitaet-hannover",
+      "title_anzeige": "Kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“",
+      "section_heading": "Kooperative Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“ > Bericht zur Fachtagung „Nachhaltigkeit trifft Gesundheit – Verbindung von Querschnittsthemen an Hochschulen“",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "Ein besonderer Dank gilt der Techniker Krankenkasse, die die Tagung sowohl konzeptionell als auch organisatorisch unterstützt und gefördert hat. Diese breite Kooperation zeigt, wie vielfältig und vernetzt die Themen Gesundheit und Nachhaltigkeit im Hochschulkontext bereits sind und wie wichtig das Z"
+    },
+    {
+      "rang": 6,
+      "score": 2.07218,
+      "id": "2fa8ec55-594f-587a-a2ba-4fcc5218799d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Poster_Netzwerk_Gesunde_Hochschulen_Nord_2024_.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Poster Netzwerk Gesunde Hochschulen Nord 2024",
+      "section_heading": "Netzwerkkonferenzen und Formate des „Netzwerks Gesunde Hochschulen Nord“",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Netzwerkkonferenzen und Formate des „Netzwerks Gesunde Hochschulen Nord“  \n- Netzwerkkonferenzen ▪ Ausrichtung: 3x jährlich an den offiziellen Mitgliedshochschulen  \n- ▪ bisherige Themen: Gesunde Führung und Organisationsentwicklung, Gesundheitskompetenzen, New Work, Mentale Gesundheit, Nachhalti"
+    },
+    {
+      "rang": 7,
+      "score": 1.98289,
+      "id": "3e843155-3ae3-5950-a400-c4536be34570",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Schwerbehindertenvertretung/HsH_Inklusionspreis_2023_Dokumentation_klein.pdf",
+      "title_anzeige": "www › Organisation › Schwerbehindertenvertretung › HsH Inklusionspreis 2023 Dokumentation klein — HsH-Inklusionspreis – Warum machen wir das?",
+      "section_heading": "Symposium Gesundheitskompetenz",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "In den unter der Leitung von Herrn Prof. Dr. Bonse-Rohmann aktuell laufenden Projekten „Nachhaltigkeit und Transferoptionen studentischer Gesundheitskompetenzen in berufliche Settings“ und „Netzwerk Gesunde Hochschulen – NORD“ steht unter anderem die Förderung der Gesundheitskompetenz im Fokus. Mit "
+    },
+    {
+      "rang": 8,
+      "score": 1.81044,
+      "id": "956919fe-1a5a-5013-a8c4-46caab17a4e3",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Projekte/Gesundheitsfoerderung/180709_ZwischenberichtGesundheitsfoerderungFakV_2.pdf",
+      "title_anzeige": "f5 › Projekte › Gesundheitsfoerderung › 180709 ZwischenberichtGesundheitsfoerderungFakV 2",
+      "section_heading": "**Gesundheitsfördernde Fakultät V** Campus Kleefeld > Gesundheit für den akademischen Mittelbau",
+      "chunk_index": 182,
+      "text_vollstaendig": true,
+      "auszug": "## Gesundheit für den akademischen Mittelbau  \n13.10.2017 - Andreas Keller  \nZeitverträge, Mehrarbeit und schwierige Work-Life-Balance sind Belastungsfaktoren für den akademischen Mittelbau. Das zeigt eine Studie im Auftrag der Max-Traeger-Stiftung, deren Ergebnisse auf einer Tagung vorgestellt und "
+    },
+    {
+      "rang": 9,
+      "score": 1.60616,
+      "id": "c01e967f-4d95-550d-afb2-0c3f13acb304",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Projekte/Gesundheitsfoerderung/180709_ZwischenberichtGesundheitsfoerderungFakV_2.pdf",
+      "title_anzeige": "f5 › Projekte › Gesundheitsfoerderung › 180709 ZwischenberichtGesundheitsfoerderungFakV 2",
+      "section_heading": "**Gesundheitsfördernde Fakultät V** Campus Kleefeld > **Programm** > **Gesundheitsfördernde Fakultät V** Campus Kleefeld > 10:00 Uhr **Anmeldung** > **Gesundheitsfördernde Fakultät V** Campus Kleefeld > 10:30 Uhr **Eröffnung der Tagung**",
+      "chunk_index": 195,
+      "text_vollstaendig": true,
+      "auszug": "## **Programm**\n\n## 10:00 Uhr **Anmeldung**\n\n## 10:30 Uhr **Eröffnung der Tagung**  \nProf.in Dr. Dörte Detert, Dekanin der Fakultät V, Projekt „Gesundheitsfördernde Fakultät – Campus Kleefeld“, Hochschule Hannover"
+    },
+    {
+      "rang": 10,
+      "score": 1.58289,
+      "id": "aa154dc5-be5a-5863-8b56-67f285f76cdc",
+      "source_url": "https://f5.hs-hannover.de/forschung/forschungsprojekt-matchup",
+      "title_anzeige": "f5 › forschung › forschungsprojekt matchup",
+      "section_heading": "Ausblick",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## Ausblick\nAm 15. Oktober 2021 fand die **Abschlusstagung des Projektes** im Rahmen des Wissenschafts- und Praxisbeirats (Expert:innen aus der Hochschullehre und aus dem Praxisfeldern) statt, in der die begonenne Erprobung der Lehranregungen aus dem entwickelten Lehr- und Lernkonzept thematisiert u"
+    },
+    {
+      "rang": 11,
+      "score": 1.47989,
+      "id": "bc6e4f1d-94d7-5d58-bd92-5633cb409c03",
+      "source_url": "https://f5.hs-hannover.de/forschung/netzwerk-gesunde-hochschulen-nord",
+      "title_anzeige": "f5 › forschung › netzwerk gesunde hochschulen nord",
+      "section_heading": "Entstehung des Netzwerks Gesunde Hochschulen Nord",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "* zukünftige Themen: Gesundheits-und Nachhaltigkeitskompetenzen Studierender, Vereinbarkeit von Familie, Beruf, Studium und Gesundheit\n* Schwerpunktthemen der 2. Förderphase (2024-2027): Gesundheit und Nachhaltigkeit sowie Gute gesunde Lehre\n* **Arbeitsgruppe „Gesunde Führung“**\n* Erarbeitung eines "
+    },
+    {
+      "rang": 12,
+      "score": 1.43385,
+      "id": "c495e025-1e47-5de2-a809-b90264654ff7",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/Projektsteckbriefe/GBS_Steckbrief_Netzwerk_Gesunde_Hochschulen_Nord.pdf",
+      "title_anzeige": "f5 › Forschung › Projektsteckbriefe › GBS Steckbrief Netzwerk Gesunde Hochschulen Nord",
+      "section_heading": "Formate und Themen des Netzwerkes",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Formate und Themen des Netzwerkes  \nNetzwerkkonferenzen  \n- Ausrichtung: 3x jährlich an den offiziellen Mitgliedshochschulen  \n- bisherige Themen: Gesunde Führung und Organisationsentwicklung, Gesundheitskompetenzen, New Work, Mentale Gesundheit, Nachhaltigkeit und Gesundheit, Vereinbarkeit von F"
+    },
+    {
+      "rang": 13,
+      "score": 1.37414,
+      "id": "852c92b1-f10f-586a-9dfa-3db375cc54f7",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/strategische-hochschulentwicklung/thematische-schwerpunkte/green-office/nachhaltiges-netzwerk-green-office-bei-hochnina-jahrestagung-an-tu-clausthal",
+      "title_anzeige": "Nachhaltiges Netzwerk: Green Office bei HochNiNa-Jahrestagung an TU Clausthal",
+      "section_heading": "Nachhaltiges Netzwerk: Green Office bei HochNiNa-Jahrestagung an TU Clausthal > Das alljährliche Vernetzungstreffen fördert den Austausch und die Zusammenarbeit Niedersächsischer Hochschulen bei der Erarbeitung einer nachhaltigen Hochschullandschaft.",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "13.05.2026\n# Nachhaltiges Netzwerk: Green Office bei HochNiNa-Jahrestagung an TU Clausthal  \n###  Das alljährliche Vernetzungstreffen fördert den Austausch und die Zusammenarbeit Niedersächsischer Hochschulen bei der Erarbeitung einer nachhaltigen Hochschullandschaft.\n![](https://www.hs-hannover.de/"
+    },
+    {
+      "rang": 14,
+      "score": 1.29945,
+      "id": "9f9674d8-dedd-58df-83d1-cea8d8fb93b4",
+      "source_url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-forschungszentrum-energie-mobilitaet-prozesse-fz-emp/aktuelles/gelungener-abschluss-der-vorlesungen-nachhaltigkeit-und-einfuehrung-in-die-ingenieurwissenschaften",
+      "title_anzeige": "Gelungener Abschluss der Vorlesungen „Nachhaltigkeit“ und „Einführung in die Ingenieurwissenschaften“",
+      "section_heading": "Gelungener Abschluss der Vorlesungen „Nachhaltigkeit“ und „Einführung in die Ingenieurwissenschaften“ > Studierende des 1. Semesters der Fakultät II präsentierten zum Abschluss der neuen Vorlesungen „Nachhaltigkeit“ und „Einführung in die Ingenieurwissenschaften“ ihre Projektarbeiten in einer Postersession – mit vielfältigen Themen rund um nachhaltige Technologien.",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "![](https://www.hs-hannover.de/fileadmin/_processed_/b/5/csm_Nachhaltigkeits-Veranstaltung_f1069a9ee1.jpg)\n© Schmuck\n[ Teilen ](https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-forschungszentrum-energie-mobilitaet-prozesse-fz-emp/aktuelles/gelungener-absch"
+    },
+    {
+      "rang": 15,
+      "score": 1.27618,
+      "id": "e1bd5094-9934-545c-a690-7fd02e53f5c0",
+      "source_url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-forschungszentrum-energie-mobilitaet-prozesse-fz-emp/aktuelles/default-cfb56632d3e54c2fcd77eaa2d0409f56",
+      "title_anzeige": "Teilnahme an der Tagung für Klimaschutz in Kunst, Kultur und Verwaltung",
+      "section_heading": "Teilnahme an der Tagung für Klimaschutz in Kunst, Kultur und Verwaltung > Teilnahme des FZ EMP mit dem Forschungsprojekt DiNaMo an der Tagung des Netzwerk Zero \\ NOW! \\ SIN am 10. und 11. Juni 2024 im Pavillon Hannover.",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "12.06.2024\n# Teilnahme an der Tagung für Klimaschutz in Kunst, Kultur und Verwaltung  \n###  Teilnahme des FZ EMP mit dem Forschungsprojekt DiNaMo an der Tagung des Netzwerk Zero \\ NOW! \\ SIN am 10. und 11. Juni 2024 im Pavillon Hannover.\n![](https://www.hs-hannover.de/fileadmin/_processed_/e/0/csm_D"
+    },
+    {
+      "rang": 16,
+      "score": 1.26475,
+      "id": "c632e0e9-5c6b-5e9f-8fbf-e2dff6c40e38",
+      "source_url": "https://f5.hs-hannover.de/forschung/forschungsverbund-naht",
+      "title_anzeige": "Forschungsverbund Naht",
+      "section_heading": "Forschungsverbund Naht > 13. und 14. Mai 2025: Arbeitstagung der NIB-Umsetzungsprojekte in Bonn",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## 13. und 14. Mai 2025: Arbeitstagung der NIB-Umsetzungsprojekte in Bonn\nAm 13. und 14. Mai 2025 fand die Arbeitstagung vom BIBB der Umsetzungsprojekte von Nachhaltig im Beruf (NIB) statt. Das Verbundprojekt Naht wurde durch Prof. Dr. Petra Wihofzsky (Hs Esslingen), Prof. Dr. Carolin Paul (HS Essli"
+    },
+    {
+      "rang": 17,
+      "score": 1.26089,
+      "id": "05097c7b-2a79-5472-9ef8-0e084ba35b99",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/Projektsteckbriefe/GBS_Steckbrief_MoNaKo.pdf",
+      "title_anzeige": "f5 › Forschung › Projektsteckbriefe › GBS Steckbrief MoNaKo — MoNaKo - Gesundheits- und Nachhaltigkeitskompetenzen von Studierenden",
+      "section_heading": "Zielgruppen",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Zielgruppen  \n- Berufsbegleitende und ausbildungsbegleitende Studierende der Hochschule Hannover, die sich auf Bildungswissenschaften oder Management für Gesundheits- und Pflegeberufe spezialisieren  \n- Alumni der Hochschule Hannover, die bereits in Gesundheits- und Pflegeberufen tätig sind und i"
+    },
+    {
+      "rang": 18,
+      "score": 1.21997,
+      "id": "aa716132-f51b-5674-9991-6bf377c031ec",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/strategische-hochschulentwicklung/thematische-schwerpunkte/green-office",
+      "title_anzeige": "www › strategische hochschulentwicklung › thematische schwerpunkte › green office",
+      "section_heading": "",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "* **Checkliste für nachhaltige Veranstaltungen:** Die [Checkliste](https://intranet.hs-hannover.de/w/images/8/8e/Checkliste_nachhaltiger_Veranstaltungen.pdf) versteht sich als Empfehlung, um bei der Organisation und Durchführung von Veranstaltungen Emissionen zu sparen. Sie trägt damit zum Ziel der "
+    },
+    {
+      "rang": 19,
+      "score": 1.21726,
+      "id": "b8ca4130-afdf-5d26-b59d-103ab40caf86",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/Matchup/MAtCHuP_Zwischenbericht_Mai_2018.pdf",
+      "title_anzeige": "f5 › Forschung › Matchup › MAtCHuP Zwischenbericht Mai 2018 — I. Zwischenbericht",
+      "section_heading": "_**Gesundheitsförderung/Gesundheitsmanagement und Hochschulen/Studierende:**_",
+      "chunk_index": 219,
+      "text_vollstaendig": false,
+      "auszug": "Meier, S., Stock, C., Krämer, A. (2003): Neue Wege der Gesundheitsförderung an Hochschulen - Evaluation eines Gesundheitszirkels für Studierende. In: Prävention, Band 26, Heft 2, S. 53.  \nOtt, C. (2006): Gesundheitsförderung an der Hochschule. Eine empirische Studie zum Gesundheitsverhalten von Mita"
+    },
+    {
+      "rang": 20,
+      "score": 1.17627,
+      "id": "dd86ef1f-dee4-5519-8b78-d7e0bd52c7e5",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005701",
+      "title_anzeige": "Prof. Dr. Gernot Gehrke",
+      "section_heading": "Prof. Dr. Gernot Gehrke",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "* Wege zur Analyse des Rundfunkwandels. Leistungsindikatoren und Funktionslogiken im „dualen“ Fernsehsystem, Opladen 1995 (gemeinsam mit Ralf Hohlfeld).  \n[ Vorträge & Präsentationen ](https://www.hs-hannover.de/service/personenfinder/person/1000005701 \"Vorträge & Präsentationen\")\n* Nachhaltigkeit a"
+    },
+    {
+      "rang": 21,
+      "score": 1.17627,
+      "id": "c4669e76-860c-5087-96d5-c9046fcb54e6",
+      "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000005701",
+      "title_anzeige": "Prof. Dr. Gernot Gehrke",
+      "section_heading": "Prof. Dr. Gernot Gehrke",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "* Wege zur Analyse des Rundfunkwandels. Leistungsindikatoren und Funktionslogiken im „dualen“ Fernsehsystem, Opladen 1995 (gemeinsam mit Ralf Hohlfeld).  \n[ Vorträge & Präsentationen ](https://f3.hs-hannover.de/service/personenfinder/person/1000005701 \"Vorträge & Präsentationen\")\n* Nachhaltigkeit al"
+    },
+    {
+      "rang": 22,
+      "score": 1.16388,
+      "id": "424fb877-2129-5210-9ffd-3ae30dcc0d75",
+      "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000049155",
+      "title_anzeige": "Prof. Dr. Simone Claar",
+      "section_heading": "Prof. Dr. Simone Claar > Veröffentlichungen und mehr...",
+      "chunk_index": 25,
+      "text_vollstaendig": true,
+      "auszug": "2024:\n* Naturverbrauch als Problem sozialer Ungleichheiten: Herausforderungen, Konflikte, anwendungsbezogene Perspektiven. Frankfurt University of Applied Science, November\n* Herausforderungen und Perspektiven sozial-ökologischer Transformation in der sozialen Arbeit, Hochschule Hannover, Juni\n* „St"
+    },
+    {
+      "rang": 23,
+      "score": 1.16287,
+      "id": "ec9acee2-e140-52a1-a214-003c2c508f00",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/Matchup/MAtCHuP_Zwischenbericht_Mai_2018.pdf",
+      "title_anzeige": "f5 › Forschung › Matchup › MAtCHuP Zwischenbericht Mai 2018 — I. Zwischenbericht",
+      "section_heading": "_**Gesundheitsförderung/Gesundheitsmanagement und Hochschulen/Studierende:**_",
+      "chunk_index": 220,
+      "text_vollstaendig": false,
+      "auszug": "Paulus, P., Stoltenberg, U. (Hrsg.) (2002): Agenda 21 und Universität – auch eine Frage der Gesundheit? Frankfurt a. Mainu: VAS – Verlag für akademische Schriften.  \nPelikan, J.M., Demmer, H., Hurrelmann, K. (Hrsg.) (1993): Gesundheitsförderung durch Organisationsentwicklung. Konzepte, Strategien un"
+    },
+    {
+      "rang": 24,
+      "score": 1.08139,
+      "id": "8a347dab-791d-549f-90c0-f7bb3fcb9b13",
+      "source_url": "https://f5.hs-hannover.de/studium/abteilung-pflege-gesundheit-1",
+      "title_anzeige": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "section_heading": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit > Projekte der Abteilung > Herzlich Willkommen in der Abteilung Pflege und Gesundheit > Laufende Projekte",
+      "chunk_index": 39,
+      "text_vollstaendig": true,
+      "auszug": "Mehr Informationen:\n<https://f5.hs-hannover.de/forschung/monako-gesundheits-und-nachhaltigkeitskompetenzen-von-studierenden>\n[ Netzwerk Gesunde Hochschulen Nord ](https://f5.hs-hannover.de/studium/abteilung-pflege-gesundheit-1 \"Netzwerk Gesunde Hochschulen Nord\")\nProjektleitung: Prof. Dr. Maike Wage"
+    },
+    {
+      "rang": 25,
+      "score": 1.07681,
+      "id": "8cab3adf-739c-55a2-932e-621d0adbd4d4",
+      "source_url": "https://f5.hs-hannover.de/studium/abteilung-pflege-gesundheit",
+      "title_anzeige": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "section_heading": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit > Projekte der Abteilung > Herzlich Willkommen in der Abteilung Pflege und Gesundheit > Laufende Projekte",
+      "chunk_index": 42,
+      "text_vollstaendig": false,
+      "auszug": "Mehr Informationen:\n<https://f5.hs-hannover.de/forschung/monako-gesundheits-und-nachhaltigkeitskompetenzen-von-studierenden>\n[ Netzwerk Gesunde Hochschulen Nord ](https://f5.hs-hannover.de/studium/abteilung-pflege-gesundheit \"Netzwerk Gesunde Hochschulen Nord\")\nProjektleitung: Prof. Dr. Maike Wagena"
+    },
+    {
+      "rang": 26,
+      "score": 1.06982,
+      "id": "8a96d5d4-a6ee-593c-a117-a88ac2fd2801",
+      "source_url": "https://www.hs-hannover.de/internationales/weltweit-vernetzt/internationale-projekte/international-practice-cooperation-for-global-change-i-prac",
+      "title_anzeige": "International Practice Cooperation for Global Change (I-PraC)",
+      "section_heading": "International Practice Cooperation for Global Change (I-PraC) > Teaching and Learning Events",
+      "chunk_index": 32,
+      "text_vollstaendig": true,
+      "auszug": "## Teaching and Learning Events\n[ Invitation: Teaching and Learning Sustainability 2023 ](https://www.hs-hannover.de/internationales/weltweit-vernetzt/internationale-projekte/international-practice-cooperation-for-global-change-i-prac \"Invitation: Teaching and Learning Sustainability 2023\")\n**Teachi"
+    },
+    {
+      "rang": 27,
+      "score": 1.05256,
+      "id": "96cbdc8f-da1f-5582-b5fd-d08a69b92611",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/LABi3/OPEN_WORKSPACE_Presentation_-_EN_klein.pdf",
+      "title_anzeige": "www › Internationales › LABi3 › OPEN WORKSPACE Presentation EN klein",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "OpenWork Space project day regarding sustainability at the Hanover University of Applied Sciences and Arts  \nIn cooperation with the German Academic Exchange Service  \n„Wheres the way to sustainability?“ On the 5th of February 2020, the Hanover University of Applied Sciences and Arts held an open wo"
+    },
+    {
+      "rang": 28,
+      "score": 0.98665,
+      "id": "664f2f9d-40af-5134-bd7f-9480603fe4c6",
+      "source_url": "https://f5.hs-hannover.de/forschung/monako-gesundheits-und-nachhaltigkeitskompetenzen-von-studierenden",
+      "title_anzeige": "MoNaKo - Gesundheits- und Nachhaltigkeitskompetenzen von Studierenden",
+      "section_heading": "MoNaKo - Gesundheits- und Nachhaltigkeitskompetenzen von Studierenden > Über das Projekt:",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Gesundheit und Nachhaltigkeit gehören zu den drängendsten Themen unserer Zeit. Klimawandel, Ressourcenknappheit und gesundheitliche Ungleichheiten machen deutlich, dass nachhaltige Ansätze und die Förderung der Gesundheitskompetenz der Bevölkerung essentiell sind. Die Herausforderung besteht darin, "
+    },
+    {
+      "rang": 29,
+      "score": 0.97201,
+      "id": "99001de0-0ad6-5fb7-8cd8-ea39ae789fa6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "HsH – Hier studiert Hochschulentwicklungsplan 2022–2026 47 Hannover. > Nachhaltigkeit:",
+      "chunk_index": 193,
+      "text_vollstaendig": false,
+      "auszug": "Das Thema Nachhaltigkeit spielt in allen Entwicklungsplanungen der Fakultäten in Lehre, Forschung und Transfer eine zunehmend bedeutende Rolle. Hierzu gehören die Integration der Nachhaltigkeitsperspektive in die bestehenden Lehrinhalte, das Angebot von gesonderten Modulen, Vertiefungen und Schwerpu"
+    },
+    {
+      "rang": 30,
+      "score": 0.95202,
+      "id": "a5fa5911-a752-52ec-8cb3-15105bcc297c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Hoschule_u._Praxis/Niedersaechsische_Vernetzungstreffen/Bundes-Hospiz-Anzeiger__Ausgabe_2_2021__S._14-15.pdf",
+      "title_anzeige": "f5 › Hoschule u. Praxis › Niedersaechsische Vernetzungstreffen › Bundes Hospiz Anzeiger Ausgabe 2 2021 S. 14 15 — Bundes-Hospiz-Anzeiger",
+      "section_heading": "Hochschule tri� Praxis –",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "Vor diesem Hintergrund fand am 22. Januar 2021 das 1. Niedersächsische Vernetzungstreffen „Perspektiven Sozialer Arbeit in Palliative Care“ an der Fakultät V – Diakonie, Gesundheit und Soziales – der Hochschule Hannover statt. Die digitale Veranstaltung wurde von 64 Teilnehmer*innen aus ganz Nieders"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 19889,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.6,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 3.5,
+    "docs_laden_s": 0.05,
+    "quellen_s": 5.16,
+    "antwort_llm_s": 1.0,
+    "gesamt_s": 6.15
+  },
+  "auswahl_begruendung": "{\"selected\":[2,1]}"
+}

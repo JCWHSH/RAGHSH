@@ -1,0 +1,545 @@
+{
+  "fall": {
+    "id": "g49",
+    "case_type": "direct",
+    "question": "Wie wirkt sich eine Geburt auf die Zahlung meines Stipendiums aus?",
+    "reference_answer": "Es wird analog zu den Schutzfristen des Mutterschutzgesetzes weitergezahlt.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/01_RahmenO_Stipendien_mit_AEnderungen_des_Senates.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Ein Stipendium wird bei Schwangerschaft und Geburt analog zu den Schutzfristen des Mutterschutzgesetzes weitergezahlt."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ ordnung/fakt. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "65df1115-6170-534b-85c9-33403cb8c60a",
+      "d4ddd2e4-4b9c-594a-b3ad-8a66acb25bf1",
+      "d7b4c7bf-df8b-5908-95d4-e106c49307e5",
+      "1d4195f9-81cd-5820-8580-642a6c78a2b2",
+      "39ff3834-4e64-55ae-bf7e-b1f39dc04720",
+      "33dbe3a0-5394-5073-a0f2-aee68111383c",
+      "1cb35e51-b78f-5d10-b1aa-1beb10ce9442",
+      "1c3c2fe8-0cdc-5831-a3d2-8e13895a306c",
+      "b56d687e-cd44-5f85-8328-37366d09e271",
+      "8f3bb3c5-1c99-59f9-a11c-3bc7a542930a",
+      "c9d166ad-0f03-56db-b29d-e040405aeb3e",
+      "47f6d7e4-2b9d-57fe-b84f-d78ec7e83f94",
+      "ff48b0e7-252f-5500-ba6b-f192f793c979",
+      "2a6d2ea0-6e4d-5bea-96ff-b3f8fe3ef4ef",
+      "c26a4298-9620-5013-acd4-c26f1c9beb42",
+      "e5b72a7d-3720-5b7c-9f86-82ece71503a8",
+      "fe64ad01-6eb8-5b09-9457-2cacf918b6b6",
+      "8d943d71-2867-583f-b355-58f668b402ca"
+    ],
+    "beleg_punkte": [
+      "ff48b0e7-252f-5500-ba6b-f192f793c979"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/01_RahmenO_Stipendien_mit_AEnderungen_des_Senates.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:03:02",
+  "dauer_s": 9.58,
+  "fehler": null,
+  "antwort": "Nach der hochschulweiten Rahmenordnung wird ein Stipendium bei Schwangerschaft und Geburt weitergezahlt: „Ein Stipendium wird bei Schwangerschaft und Geburt analog zu den Schutzfristen des Mutterschutzgesetzes weitergezahlt.\" [1] „In der Regel bleiben die Stipendienbedingungen bzw. die Stipendienlaufzeit unverändert.\" [1]\n\nFür das Deutschlandstipendium ist geregelt: „Bei Schwangerschaft wird das Stipendium während der vom Mutterschutzgesetz vorgegebenen Schutzfristen fortgezahlt.\" [2] Die Förderung wird daher grundsätzlich während der entsprechenden Schutzfristen fortgesetzt.\n\nDie Rahmenordnung gilt jedoch nur, „soweit in gesonderten hochschulweit geltenden Ordnungen oder Richtlinien keine anderweitigen Regelungen getroffen wurden.\" [1]",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Verkuendungsblatt › 06 2012 › 01 RahmenO Stipendien mit AEnderungen des Senates",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/01_RahmenO_Stipendien_mit_AEnderungen_des_Senates.pdf",
+      "fakultaet": "",
+      "struktur": "# Rahmenordnung der Hochschule Hannover zur Vergabe von Stipendien (Stipendienordnung)\n  ## I N H A L T :\n  ## Präambel\n  ## § 1 Geltungsbereich\n  ## § 2 Allgemeine Grundsätze\n  ## § 3 Auswahlgremien\n  ## § 4 Auswahlverfahren\n  ## § 5 Bekanntgabe der Auswahlentscheidung\n  ## § 6 Mitwirkungspflicht der Stipendiatin oder des Stipendiaten\n  ## § 7 Geheimhaltungspflicht\n  ## § 8 Unterbrechung der Förderung\n  ## § 9 Widerruf, Rücknahme der Entscheidung, vorzeitige Beendigung des Stipendiums\n  ## § 10 Rückerstattung der Förderungsleistung\n  ## § 11 Datenschutz\n  ## § 12 Überprüfung bestehender Ordnungen\n  ## § 13  Inkrafttreten und Veröffentlichung"
+    },
+    {
+      "nr": 2,
+      "titel": "www › Verkuendungsblatt › 08 2011 › 01 Richtlinie Deutschlandstipendium",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie zur Vergabe von Deutschlandstipendien an der Fachhochschule Hannover (FHH) ab dem Wintersemester 2011/2012\n  ## Präambel\n  ## §1 Zweck des Stipendiums\n  ## §2 Förderfähigkeit\n  ## §3 Art und Umfang der Förderung\n  ## §4\n  ## Bewerbungs- und Auswahlverfahren\n  ## § 5\n  ## Stipendienauswahlausschuss\n  ## § 6 Auswahlkriterien\n  ## §7 Bewilligung\n  ## § 8\n  ## Verlängerung der Förderungshöchstdauer; Beurlaubung\n  ## § 9 Beendigung\n  ## § 10 Widerruf\n  ## § 11 Mitwirkungspflichten\n  ## § 12 Veranstaltungsprogramm\n  ## § 13 Inkrafttreten\n  ## Fachhochschule Hannover\n  ## Anette Stahl - Koordinatorin für Studienförderung Bismarckstr. 2\n  ## Antrag auf Gewährung eines Deutschland-Stipendiums gemäß der „Richtlinie zur Vergabe von Stipendien nach § 3 Abs. 1 Nr. 8 NHG an der FHH“ zum WS 2011/12 und SS 2012\n  ## (  ) aufgrund der besonders guten Durchschnittsnote im Studium, die ich durch einen offiziellen Notenspiegel nachweise, den ich im Prüfungsamt erhalte und als Anlage beifüge\n  ## Das Deutschland-Stipendium wird als Leistungsstipendium an besonders gute Studierende vergeben. Für die Auswahl können folgende weitere Kriterien berücksichtigt werden:\n  ## ……………………………………………\n  ## ……..………………………………….."
+    },
+    {
+      "nr": 3,
+      "titel": "www › Stipendien › PDF Dateien › Richtlinie der HsH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/Richtlinie_der_HsH.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie zur Vergabe von Deutschlandstipendien an der Fachhochschule Hannover ab dem Wintersemester 2011/2012\n  ## Präambel\n  ## §1\n  ## Zweck des Stipendiums\n  ## §2\n  ## Förderfähigkeit\n  ## §3\n  ## Art und Umfang der Förderung\n  ## §4 Bewerbungs- und Auswahlverfahren\n  ## § 5 Stipendienauswahlausschuss\n  ## § 6 Auswahlkriterien\n  ## §7 Bewilligung\n  ## § 8\n  ## Verlängerung der Förderungshöchstdauer; Beurlaubung\n  ## § 10 Widerruf\n  ## § 11 Mitwirkungspflichten\n  ## § 12 Veranstaltungsprogramm\n  ## § 13 Inkrafttreten"
+    },
+    {
+      "nr": 4,
+      "titel": "www › Stipendien › Jahrbuecher Auszuege › JahrBuch 2023 Auszug",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/Jahrbuecher_Auszuege/JahrBuch_2023_Auszug.pdf",
+      "fakultaet": "",
+      "struktur": "  ## FAKULTÄT I\n  ## MEIN FÖRDERER VISCOM STIFTUNG\n  ## MEIN FÖRDERER KÖLNER GYMNASIAL- UND STIFTUNGSFONDS\n  ## MEIN FÖRDERER VISCOM STIFTUNG\n  ## FAKULTÄT II\n  ## YARASLAU KUSHNIAREVICH\n  ## MEIN FÖRDERER CHRISTIAN BÜRKERT STIFTUNG GGMBH\n  ## MEIN FÖRDERER\n  ## MEIN FÖRDERER TÜV NORD AG\n  ## LINDA-SOPHIE SCHOLZ\n  ## MEIN FÖRDERER CHRISTIAN BÜRKERT STIFTUNG GGMBH\n  ## MEIN FÖRDERER TÜV NORD AG\n  ## FAKULTÄT III\n  ## MEIN FÖRDERER NIEDERSÄCHSISCHE LOTTO-SPORTSTIFTUNG\n  ## MEIN FÖRDERER DR. ARTHUR PFUNGST-STIFTUNG\n  ## MEIN FÖRDERER TRINOVIS GMBH\n  ## MALTE WOHLFAHRT\n  ## MEIN FÖRDERER BÜRGERSTIFTUNG HANNOVER\n  ## MEIN FÖRDERER\n  ## FAKULTÄT IV\n  ## MEIN FÖRDERER FROBESE IT- AKADEMIE GMBH\n  ## MEIN FÖRDERER HEISE MEDIEN GMBH & CO. KG\n  ## NIKOLA KRETSCHMER\n  ## MEIN FÖRDERER\n  ## WAGNER GROUP GMBH\n  ## MEIN FÖRDERER\n  ## KKH KAUFMÄNNISCHE KRANKENKASSE\n  ## FAKULTÄT V\n  ## MEIN FÖRDERER NIEDERSÄCHSISCHE LOTTO-SPORTSTIFTUNG\n  ## MEIN FÖRDERER DIRK ROSSMANN GMBH\n  ## MEIN FÖRDERER EVANGELISCH-LUTHERISCHE LANDESKIRCHE HANNOVERS\n  ## MEIN FÖRDERER\n  ## HELENE UND GERHARD GISY STIFTUNG\n  ## MEIN FÖRDERER TÜV NORD AG\n  ## MEIN FÖRDERER\n  ## IMPRESSUM"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Servicezentrum Beratung › Familienservice › Schwangerschaftswegweiser Region Hannover deutsch — NOTIZEN",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Schwangerschaftswegweiser_Region-Hannover_deutsch.pdf",
+      "fakultaet": "",
+      "struktur": "  ## NOTIZEN\n  ## Fotos\n  ## SCHWANGERSCHAFTSWEGWEISER\n  ## GRUSSWORT\n  ## EINFÜHRUNG\n  ## INHALTSVERZEICHNIS\n  ## INHALTSVERZEICHNIS\n  ## GYNÄKOLOGISCHE PRAXEN\n  ## GESUNDHEIT\n  ## MUTTERPASS\n  ## ZEITPUNKT\n  ## GEBURTSKLINIKEN\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## GEBURTSKLINIKEN\n  ## HAUSHALTSHILFE\n  ## U-UNTERSUCHUNGEN\n  ## HEBAMMEN\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## GEBURTSVORBEREITUNG\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## GEBURTSHÄUSER\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## HAUSGEBURT\n  ## WOCHENBETTBETREUUNG\n  ## Nach der Geburt\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## RÜCKBILDUNGSGYMNASTIK\n  ## FAMILIENHEBAMMEN UND FAMILIEN-GESUNDHEITSKINDERKRANKENPFLEGERINNEN\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## FAMILIENHEBAMMEN UND FAMILIEN-GESUNDHEITSKINDERKRANKENPFLEGERINNEN\n  ## STILLBERATUNG\n  ## ZEITPUNKT\n  ## ADRESSEN/LINKS\n  ## PRÄNATALDIAGNOSTIK\n  ## ZEITPUNKT Während der Schwangerschaft\n  ## BERATUNG\n  ## SCHWANGEREN- UND SCHWANGERSCHAFTSKONFLIKTBERATUNG\n  ## ZEITPUNKT\n  ## FAMILIEN- UND ERZIEHUNGSBERATUNG\n  ## ZEITPUNKT\n  ## SCHREIAMBULANZ\n  ## FAMILIENSERVICEBÜRO"
+    },
+    {
+      "nr": 6,
+      "titel": "WIR-Stipendium der Hochschule Hannover wächst weiter: 155 Studierende erhalten Förderung",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/wir-stipendium-der-hochschule-hannover-waechst-weiter-155-studierende-erhalten-foerderung",
+      "fakultaet": "",
+      "struktur": "# WIR-Stipendium der Hochschule Hannover wächst weiter: 155 Studierende erhalten Förderung\n    ### Die Hochschule Hannover unterstützt seit 2011 Studierende mit dem WIR-Stipendium in ihrer akademischen und persönlichen Entwicklung. 2025 verzeichnet das Programm einen neuen Höchststand: 155 Studierende profitieren von finanzieller Förderung und einem starken Netzwerk."
+    },
+    {
+      "nr": 7,
+      "titel": "www › Servicezentrum Beratung › Familienservice › Infoblatt Mitteilung Schwangerschaft 10 2024 — Informationsblatt für schwangere/stillende Studentinnen",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Infoblatt_Mitteilung_Schwangerschaft_10_2024.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Informationsblatt für schwangere/stillende Studentinnen\n  ## I. Meldung der Schwangerschaft oder Stillzeit\n  ## II. Schutzbestimmungen:\n  ## III. Lehrveranstaltungen während der Schwangerschaft oder Stillzeit:\n  ## Servicezentrum Beratung – Familienservice\n  ## Wenn Sie Ihre Schwangerschaft/Stillzeit mitteilen möchten, gehen Sie wie folgt vor:\n  ## Ihr Familienservice"
+    },
+    {
+      "nr": 8,
+      "titel": "Semesterbeitrag und Rückmeldung",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+      "fakultaet": "",
+      "struktur": "# Semesterbeitrag und Rückmeldung\n  ## Der Semesterbeitrag...\n    ### Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt. Vielen Dank für Ihre Unterstützung.\n  ## Rückmeldung/ Semesterbeiträge\n  ## Sie benötigen Hilfe..."
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 1,
+      "titel": "www › Verkuendungsblatt › 06 2012 › 01 RahmenO Stipendien mit AEnderungen des Senates",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/01_RahmenO_Stipendien_mit_AEnderungen_des_Senates.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "www › Verkuendungsblatt › 08 2011 › 01 Richtlinie Deutschlandstipendium",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Stipendien › PDF Dateien › Richtlinie der HsH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/Richtlinie_der_HsH.pdf"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Servicezentrum Beratung › Familienservice › Infoblatt Mitteilung Schwangerschaft 10 2024 — Informationsblatt für schwangere/stillende Studentinnen",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Infoblatt_Mitteilung_Schwangerschaft_10_2024.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "www › Verkuendungsblatt › 06 2012 › 01 RahmenO Stipendien mit AEnderungen des Senates",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/01_RahmenO_Stipendien_mit_AEnderungen_des_Senates.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Rahmenordnung der Hochschule Hannover zur Vergabe von Stipendien (Stipendienordnung)** > **§ 8 Unterbrechung der Förderung**",
+      "snippets": [
+        "## **§ 8 Unterbrechung der Förderung**  \n- (1) Ein Stipendium wird bei Schwangerschaft und Geburt analog zu den Schutzfristen des Mutterschutzgesetzes weitergezahlt. In der Regel bleiben die Stipendienbedingungen bzw. die Stipendienlaufzeit unverändert.  \n- (2) Eine Unterbrechung des Studiums und eine damit verbundene Unterbrechung des Stipendienbezuges ist lediglich in besonderen Ausnahmefällen zulässig und besonders zu begründen und in jedem Einzelfall der fördernden Stelle sofort anzuzeigen.",
+        "## **§ 1 Geltungsbereich**  \nDiese Ordnung findet Anwendung auf die Vergabe von sämtlichen an der Hochschule Hannover zu vergebenen Stipendien, soweit in gesonderten hochschulweit geltenden Ordnungen oder Richtlinien keine anderweitigen Regelungen getroffen wurden. Sie dient dazu, die Vergabe von Stipendien nachvollziehbar und nach einem einheitlichen standarisierten Verfahren durchzuführen. Unter Berücksichtigung der in dieser Ordnung festgelegten Regelungen können die Fakultäten für die von Ihnen zu vergebenen Stipendien spezifische Stipendienordnungen beschließen. Für von der Hochschule zu vergebene Stipendien kann das Präsidium spezifische Richtlinien erlassen."
+      ],
+      "zitate": [
+        "Ein Stipendium wird bei Schwangerschaft und Geburt analog zu den Schutzfristen des Mutterschutzgesetzes weitergezahlt.",
+        "In der Regel bleiben die Stipendienbedingungen bzw. die Stipendienlaufzeit unverändert.",
+        "soweit in gesonderten hochschulweit geltenden Ordnungen oder Richtlinien keine anderweitigen Regelungen getroffen wurden."
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 08 2011 › 01 Richtlinie Deutschlandstipendium",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**§7 Bewilligung**",
+      "snippets": [
+        "- (5) Die Bewilligung erfolgt schriftlich unter dem Vorbehalt, dass für den Bewilligungszeitraum private und öffentliche Stipendienmittel zur Verfügung stehen.  \n- (6) Die Auszahlung des Stipendiums setzt voraus, dass der Stipendiat oder die Stipendiatin an der Fachhochschule Hannover immatrikuliert ist. Wechselt die Stipendiatin oder der Stipendiat während des Bewilligungszeitraums die Hochschule, wird das Stipendium entsprechend der bisherigen Bewilligung für das begonnene Semester fortgezahlt. Maßgeblich ist die Semesterdauer an der Fachhochschule Hannover. Die Bewerbung um ein erneutes Stipendium an der neuen Hochschule ist möglich.  \n- (7) Das Stipendium wird auch während der vorlesungsfreien Zeit und während eines fachrichtungsbezogenen Auslandsaufenthalts gezahlt.  \n- (8) Bei Schwangerschaft wird das Stipendium während der vom Mutterschutzgesetz vorgegebenen Schutzfristen fortgezahlt."
+      ],
+      "zitate": [
+        "Bei Schwangerschaft wird das Stipendium während der vom Mutterschutzgesetz vorgegebenen Schutzfristen fortgezahlt."
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Stipendien › PDF Dateien › Richtlinie der HsH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/Richtlinie_der_HsH.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf"
+      ],
+      "abschnitt": "**§ 8** > **Verlängerung der Förderungshöchstdauer; Beurlaubung**",
+      "snippets": [
+        "- (5) Die Bewilligung erfolgt schriftlich unter dem Vorbehalt, dass für den Bewilligungszeitraum private und öffentliche Stipendienmittel zur Verfügung stehen.  \n- (6) Die Auszahlung des Stipendiums setzt voraus, dass der Stipendiat oder die Stipendiatin an der Fachhochschule Hannover immatrikuliert ist. Wechselt die Stipendiatin oder der Stipendiat während des Bewilligungszeitraums die Hochschule, wird das Stipendium entsprechend der bisherigen Bewilligung für das begonnene Semester fortgezahlt. Maßgeblich ist die Semesterdauer an der Fachhochschule Hannover. Die Bewerbung um ein erneutes Stipendium an der neuen Hochschule ist möglich.  \n- (7) Das Stipendium wird auch während der vorlesungsfreien Zeit und während eines fachrichtungsbezogenen Auslandsaufenthalts gezahlt.  \n- (8) Bei Schwangerschaft wird das Stipendium während der vom Mutterschutzgesetz vorgegebenen Schutzfristen fortgezahlt."
+      ],
+      "zitate": [
+        "Bei Schwangerschaft wird das Stipendium während der vom Mutterschutzgesetz vorgegebenen Schutzfristen fortgezahlt."
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Servicezentrum Beratung › Familienservice › Infoblatt Mitteilung Schwangerschaft 10 2024 — Informationsblatt für schwangere/stillende Studentinnen",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Infoblatt_Mitteilung_Schwangerschaft_10_2024.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Servicezentrum Beratung – Familienservice > **Wenn Sie Ihre Schwangerschaft/Stillzeit mitteilen möchten, gehen Sie wie folgt vor:**",
+      "snippets": [
+        "Festsetzung der Mutterschutzfristen im Familienservice und Meldung an die Gewerbeaufsicht  \n- •Reichen Sie die von Ihnen und der Fakultät ausgefüllte \" _Mitteilung einer Schwangerschaft oder Stillzeit_ \" im Familienservice ein.  \n- •Der Familienservice berechnet die Mutterschutzfrist und stellt Ihnen eine entsprechende Bescheinigung aus.  \n- •Der Familienservice meldet Ihre Schwangerschaft/Stillzeit an das Staatliche Gewerbeaufsichtsamt. Ihre Daten werden nur auf Verlangen im Rahmen der gesetzlichen Vorgaben (§ 27 MuSchG) an das Staatliche Gewerbeaufsichtsamt weitergegeben.  \nNach der Geburt: Meldung des Entbindungstermins im Familienservice  \n- •Teilen Sie dem Familienservice nach der Geburt Ihres Kindes den Entbindungstermin mit.  \n- •Der Familienservice aktualisiert die Berechnung Ihrer Mutterschutzfrist.  \nWir wünschen Ihnen für diese besondere Zeit alles Gute und beraten Sie gern!"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.35784,
+      "id": "ff48b0e7-252f-5500-ba6b-f192f793c979",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/01_RahmenO_Stipendien_mit_AEnderungen_des_Senates.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2012 › 01 RahmenO Stipendien mit AEnderungen des Senates",
+      "section_heading": "**Rahmenordnung der Hochschule Hannover zur Vergabe von Stipendien (Stipendienordnung)** > **§ 8 Unterbrechung der Förderung**",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 7 Geheimhaltungspflicht**  \nSollte das Stipendium im Zusammenhang mit einer Tätigkeit an der Hochschule vergeben werden, sind die Stipendiatinnen und Stipendiaten im Rahmen dieser Tätigkeit zur Einhaltung der für Beschäftigte geltenden Geheimhaltungsvorschriften verpflichtet.  \nNr. 03/2012 vo"
+    },
+    {
+      "rang": 2,
+      "score": 1.99314,
+      "id": "b3ad162b-b8ef-5e7d-91cc-0f090286874d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2011 › 01 Richtlinie Deutschlandstipendium",
+      "section_heading": "**§7 Bewilligung**",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "- (5) Die Bewilligung erfolgt schriftlich unter dem Vorbehalt, dass für den Bewilligungszeitraum private und öffentliche Stipendienmittel zur Verfügung stehen.  \n- (6) Die Auszahlung des Stipendiums setzt voraus, dass der Stipendiat oder die Stipendiatin an der Fachhochschule Hannover immatrikuliert"
+    },
+    {
+      "rang": 3,
+      "score": 1.69182,
+      "id": "eb3a35b2-42d2-5e19-82fc-4b2794f1bb60",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/Richtlinie_der_HsH.pdf",
+      "title_anzeige": "www › Stipendien › PDF Dateien › Richtlinie der HsH",
+      "section_heading": "**§ 8** > **Verlängerung der Förderungshöchstdauer; Beurlaubung**",
+      "chunk_index": 20,
+      "text_vollstaendig": false,
+      "auszug": "- (3) Während der Zeit einer Beurlaubung vom Studium wird das Stipendium nicht gezahlt. Dies gilt nicht für eine Beurlaubung aufgrund eines Studienaufenthalts im Ausland. Bei Wiederaufnahme des Studiums im Anschluss an die Beurlaubung wird der Bewilligungszeitraum des Stipendiums auf Anzeige der Sti"
+    },
+    {
+      "rang": 4,
+      "score": 1.55975,
+      "id": "504ecf83-8fbd-58e6-861c-bede4676194b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/Jahrbuecher_Auszuege/JahrBuch_2023_Auszug.pdf",
+      "title_anzeige": "www › Stipendien › Jahrbuecher Auszuege › JahrBuch 2023 Auszug",
+      "section_heading": "_MEIN FÖRDERER_ > _WAGNER GROUP GMBH_",
+      "chunk_index": 107,
+      "text_vollstaendig": true,
+      "auszug": "_GRÖSSTES ERFOLGSERLEBNIS WÄHREND DES STUDIUMS Mein größtes Erfolgserlebnis des Studiums ist, dass ich jede Klausur im Erstversuch erfolgreich bestanden habe und mein Studium in der Regelstudienzeit absolviere. Das WIR-Stipendium hat mich dabei sehr unterstützt, da ich in diesem Jahr auf eine Nebent"
+    },
+    {
+      "rang": 5,
+      "score": 1.50972,
+      "id": "f8722525-2d7d-5653-81d9-37a25ba4964b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2011 › 01 Richtlinie Deutschlandstipendium",
+      "section_heading": "**§7 Bewilligung**",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "- (5) Die Bewilligung erfolgt schriftlich unter dem Vorbehalt, dass für den Bewilligungszeitraum private und öffentliche Stipendienmittel zur Verfügung stehen.  \n- (6) Die Auszahlung des Stipendiums setzt voraus, dass der Stipendiat oder die Stipendiatin an der Fachhochschule Hannover immatrikuliert"
+    },
+    {
+      "rang": 6,
+      "score": 1.47842,
+      "id": "937ecb99-1812-5f15-9d2e-dc694d0459cd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/Jahrbuecher_Auszuege/JahrBuch_2023_Auszug.pdf",
+      "title_anzeige": "www › Stipendien › Jahrbuecher Auszuege › JahrBuch 2023 Auszug",
+      "section_heading": "_MEIN FÖRDERER NIEDERSÄCHSISCHE LOTTO-SPORTSTIFTUNG_",
+      "chunk_index": 122,
+      "text_vollstaendig": true,
+      "auszug": "_PERSÖNLICHE REAKTION AUF DIE GEWÄHRUNG DES STIPENDIUMS Ich war überglücklich, als ich die Zusage für das Stipendium erhalten habe und ich bin außerordentlich dankbar für die finanzielle Unterstützung, die es mir ermöglicht, mich voll und ganz auf mein Studium zu konzentrieren._  \nFAKULTÄT V | JAHRE"
+    },
+    {
+      "rang": 7,
+      "score": 1.27252,
+      "id": "a0e6859e-04dc-5fb8-91e3-a44ffd547dff",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Schwangerschaftswegweiser_Region-Hannover_deutsch.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Schwangerschaftswegweiser Region Hannover deutsch — NOTIZEN",
+      "section_heading": "ASYLBEWERBERLEISTUNGSBEZUG (ASYLBLG)",
+      "chunk_index": 68,
+      "text_vollstaendig": true,
+      "auszug": "## ASYLBEWERBERLEISTUNGSBEZUG (ASYLBLG)  \nWenn Sie Leistungen nach dem Asylbewerberleistungsgesetz erhalten, kann Ihr Kind nach der Geburt ebenfalls Leistungen bekommen. Wenden Sie sich dazu an das zuständige Sozialamt!"
+    },
+    {
+      "rang": 8,
+      "score": 1.21365,
+      "id": "845d9fa6-28c7-561b-8574-34d75e758eea",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Schwangerschaftswegweiser_Region-Hannover_deutsch.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Schwangerschaftswegweiser Region Hannover deutsch — NOTIZEN",
+      "section_heading": "MUTTERSCHAFTSGELD",
+      "chunk_index": 60,
+      "text_vollstaendig": true,
+      "auszug": "## MUTTERSCHAFTSGELD  \nWenn Frauen berufstätig sind, brauchen sie rund um die Geburt einen besonderen Schutz. Das Mutterschaftsgeld sichert Ihr Einkommen, wenn Sie während Ihrer Schwangerschaft oder nach der Geburt Ihres Kindes nicht arbeiten dürfen. Dies gilt zum Beispiel während der Mutterschutzze"
+    },
+    {
+      "rang": 9,
+      "score": 1.19444,
+      "id": "1037b5d3-12ad-5a96-8d58-fd3c759df1aa",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/Richtlinie_der_HsH.pdf",
+      "title_anzeige": "www › Stipendien › PDF Dateien › Richtlinie der HsH",
+      "section_heading": "**§ 8** > **Verlängerung der Förderungshöchstdauer; Beurlaubung**",
+      "chunk_index": 19,
+      "text_vollstaendig": false,
+      "auszug": "- (3) Während der Zeit einer Beurlaubung vom Studium wird das Stipendium nicht gezahlt. Dies gilt nicht für eine Beurlaubung aufgrund eines Studienaufenthalts im Ausland. Bei Wiederaufnahme des Studiums im Anschluss an die Beurlaubung wird der Bewilligungszeitraum des Stipendiums auf Anzeige der Sti"
+    },
+    {
+      "rang": 10,
+      "score": 1.17834,
+      "id": "113c0e87-f9c9-5dd3-bc29-48c016227175",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/wir-stipendium-der-hochschule-hannover-waechst-weiter-155-studierende-erhalten-foerderung",
+      "title_anzeige": "WIR-Stipendium der Hochschule Hannover wächst weiter: 155 Studierende erhalten Förderung",
+      "section_heading": "WIR-Stipendium der Hochschule Hannover wächst weiter: 155 Studierende erhalten Förderung > Die Hochschule Hannover unterstützt seit 2011 Studierende mit dem WIR-Stipendium in ihrer akademischen und persönlichen Entwicklung. 2025 verzeichnet das Programm einen neuen Höchststand: 155 Studierende profitieren von finanzieller Förderung und einem starken Netzwerk.",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "„Das Stipendium ist eine große Unterstützung für mich. Ich konnte mich dadurch viel mehr auf das Studium konzentrieren sowie auf meinen Einsatz als Tutorin und mein Engagement für Menschen, die keine Stimme haben. Das erleichtert vieles, und ich bin dafür sehr dankbar“, erklärt Kimia, die besonders "
+    },
+    {
+      "rang": 11,
+      "score": 1.16374,
+      "id": "96b498ee-732f-5aba-ac86-914a47d1643d",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/wir-stipendium-der-hochschule-hannover-waechst-weiter-155-studierende-erhalten-foerderung",
+      "title_anzeige": "WIR-Stipendium der Hochschule Hannover wächst weiter: 155 Studierende erhalten Förderung",
+      "section_heading": "WIR-Stipendium der Hochschule Hannover wächst weiter: 155 Studierende erhalten Förderung > Die Hochschule Hannover unterstützt seit 2011 Studierende mit dem WIR-Stipendium in ihrer akademischen und persönlichen Entwicklung. 2025 verzeichnet das Programm einen neuen Höchststand: 155 Studierende profitieren von finanzieller Förderung und einem starken Netzwerk.",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "**„Seid offen dafür, dass sich diese Tür für euch öffnet“**\nWie wertvoll ein Stipendium sein kann, zeigt das Beispiel von Kimia Asa, Studentin der Sozialen Arbeit. Sie wird seit 2024 von der Helene und Gerhard GISY STIFTUNG gefördert. Die gebürtige Iranerin setzt sich mit außergewöhnlichem Engagemen"
+    },
+    {
+      "rang": 12,
+      "score": 1.09512,
+      "id": "61681c72-58f8-50d1-ba98-81116f895d0e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Infoblatt_Mitteilung_Schwangerschaft_10_2024.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Infoblatt Mitteilung Schwangerschaft 10 2024 — Informationsblatt für schwangere/stillende Studentinnen",
+      "section_heading": "Servicezentrum Beratung – Familienservice > **Wenn Sie Ihre Schwangerschaft/Stillzeit mitteilen möchten, gehen Sie wie folgt vor:**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "Festsetzung der Mutterschutzfristen im Familienservice und Meldung an die Gewerbeaufsicht  \n- •Reichen Sie die von Ihnen und der Fakultät ausgefüllte \" _Mitteilung einer Schwangerschaft oder Stillzeit_ \" im Familienservice ein.  \n- •Der Familienservice berechnet die Mutterschutzfrist und stellt Ihne"
+    },
+    {
+      "rang": 13,
+      "score": 1.03802,
+      "id": "edaff7f7-c033-5fd8-a772-74c2342d59e2",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+      "title_anzeige": "Semesterbeitrag und Rückmeldung",
+      "section_heading": "Semesterbeitrag und Rückmeldung > Der Semesterbeitrag... > Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt. Vielen Dank für Ihre Unterstützung. > Semesterbeitrag und Rückmeldung > Rückmeldung/ Semesterbeiträge > Semesterbeitrag und Rückmeldung",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "Gem. § 11 Abs. 2 Nr. 3, haben Studierende die Möglichkeit sich von der Zahlung des Verwaltungskostenbeitrages befreien zu lassen, wenn sie über ein Stipendium aus öffentlichen Mitteln verfügen.\nZur Befreiung vom Verwaltungskostenbeitrag bedarf es keiner formalen Antragstellung. Bitte senden Sie uns "
+    },
+    {
+      "rang": 14,
+      "score": 1.00798,
+      "id": "2a6d2ea0-6e4d-5bea-96ff-b3f8fe3ef4ef",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/01_RahmenO_Stipendien_mit_AEnderungen_des_Senates.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2012 › 01 RahmenO Stipendien mit AEnderungen des Senates",
+      "section_heading": "**Rahmenordnung der Hochschule Hannover zur Vergabe von Stipendien (Stipendienordnung)** > **§ 9 Widerruf, Rücknahme der Entscheidung, vorzeitige Beendigung des Stipendiums**",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 9 Widerruf, Rücknahme der Entscheidung, vorzeitige Beendigung des Stipendiums**  \n- (1) Die Bewilligung eines Stipendiums kann ganz oder teilweise auch rückwirkend zurückgenommen werden, wenn sie auf falschen Tatsachen beruhte, durch unzutreffende Angaben erlangt wurde oder wenn der Stipendia"
+    },
+    {
+      "rang": 15,
+      "score": 0.96204,
+      "id": "418dde32-8023-5bef-b91b-e3401c27a1eb",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/studieren-waehrend-der-schwangerschaft-und-mit-kind/meldung-einer-schwangerschaft-waehrend-des-studiums",
+      "title_anzeige": "www › familienservice › studieren waehrend der schwangerschaft und mit kind › meldung einer schwangerschaft waehrend des studiums",
+      "section_heading": "Meldung einer Schwangerschaft/Stillzeit während des Studiums",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "**3. Festsetzung der Mutterschutzfristen im Familienservice und Meldung an die Gewerbeaufsicht**\n* _Reichen Sie die von Ihnen und der Fakultät ausgefüllte \"Mitteilung einer Schwangerschaft oder Stillzeit \" im Familienservice ein._\n* _Der Familienservice berechnet die Mutterschutzfrist und stellt Ihn"
+    },
+    {
+      "rang": 16,
+      "score": 0.96098,
+      "id": "0e48ab38-a0d4-5614-8287-fbbaf06d470b",
+      "source_url": "https://www.hs-hannover.de/studium/studieren-an-der-hsh/rund-ums-studium/stipendien/aktuelles",
+      "title_anzeige": "www › rund ums studium › stipendien › aktuelles",
+      "section_heading": "[ Stipendienkultur an der HsH ](https://www.hs-hannover.de/studium/studieren-an-der-hsh/rund-ums-studium/stipendien/aktuelles/stipendien-news-1-4-7)",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "### [ Stipendienkultur an der HsH ](https://www.hs-hannover.de/studium/studieren-an-der-hsh/rund-ums-studium/stipendien/aktuelles/stipendien-news-1-4-7)\nInsgesamt 155 Studierende der HsH kommen im neuen Förderjahr in den Genuss eines WIR-Stipendiums und damit einer monatlichen Zahlung von 300 Euro. "
+    },
+    {
+      "rang": 17,
+      "score": 0.95029,
+      "id": "42d4543c-6d8d-5e2b-810f-7dd1fba51250",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/90_Duales_Studium/Flyer_duales_Studium-Flyer_fuer_Unternehmen_final.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 90 Duales Studium › Flyer duales Studium Flyer fuer Unternehmen final — weitere duale Studienmodelle",
+      "section_heading": "2) Studienstipendium",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## 2) Studienstipendium  \nAls Unternehmen zahlen Sie den Studierenden für die Dauer ihres Studiums ein monatliches Stipendium. Die letzten 6 Monate des Studiums sind die Studierenden i.d.R. für Praxisphase und Bachelorarbeit in Ihrem Unternehmen."
+    },
+    {
+      "rang": 18,
+      "score": 0.95013,
+      "id": "6b7aaef2-4be2-57ed-988c-dfa2781178e8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/Annahmeerklaerung-WIR-Stipendium2026.pdf",
+      "title_anzeige": "www › Stipendien › PDF Dateien › Annahmeerklaerung WIR Stipendium2026 — Allgemeine Hinweise",
+      "section_heading": "**WIR-Stipendium und Landesstipendium Niedersachsen  der Hochschule Hannover** > **TEILNAHME- UND EINWILLIGUNGSERKLÄRUNG**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "3. bei Widerruf dieser Einwilligung meine Daten - so diese im Falle der bereits erfolgten Gewährung eines Stipendiums zu Zwecken einer ordnungsgemäßen Abrechnung nicht mehr erforderlich sind - unverzüglich gelöscht und die eingereichten Unterlagen datenschutzgerecht vernichtet werden und das beantra"
+    },
+    {
+      "rang": 19,
+      "score": 0.92283,
+      "id": "cc46d297-98cb-5e78-b2eb-0d3c02af60fa",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+      "title_anzeige": "Semesterbeitrag und Rückmeldung",
+      "section_heading": "Semesterbeitrag und Rückmeldung > Der Semesterbeitrag... > Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt. Vielen Dank für Ihre Unterstützung. > Semesterbeitrag und Rückmeldung > Rückmeldung/ Semesterbeiträge > Semesterbeitrag und Rückmeldung",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "[Wo finde ich die Validierungsstationen?](https://service.it.hs-hannover.de/faqs/validierungsstation/)\nNach erfolgreicher Rückmeldung stehen Ihnen die aktuellen Immatrikulationsbescheinigungen unter Ihrem Hochschul-Account - [Campusmanagement – Online-Services für Studierende](https://campusmanageme"
+    },
+    {
+      "rang": 20,
+      "score": 0.90971,
+      "id": "b6d5c273-9bb4-504f-ae32-435b984f9358",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/HsH-WIR-Stipendium-FAQ.pdf",
+      "title_anzeige": "www › Stipendien › PDF Dateien › HsH WIR Stipendium FAQ",
+      "section_heading": "SONSTIGES",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## SONSTIGES  \nMuss das Stipendium nach dem Studium zurückgezahlt werden? _Nein._  \nIch bin BAföG-Empfänger * in. Wird das Stipendium darauf angerechnet? _Nein, das WIR- Stipendium wird einkommensunabhängig vergeben._  \nWer wird ausdrücklich zu einer Bewerbung aufgefordert? _Studierende aus nicht-ak"
+    },
+    {
+      "rang": 21,
+      "score": 0.8919,
+      "id": "0c5945ab-195c-5fdf-8f64-9461578a05db",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/KGS_Magazin_01_2025_FINAL_Web.pdf",
+      "title_anzeige": "www › Stipendien › PDF Dateien › KGS Magazin 01 2025 FINAL Web",
+      "section_heading": "„Eine Herzens angelegenheit“ > **5. Wie hat das Stipendium Ihr Studium und Ihre künstlerische Entwicklung beeinflusst?**",
+      "chunk_index": 85,
+      "text_vollstaendig": true,
+      "auszug": "## **5. Wie hat das Stipendium Ihr Studium und Ihre künstlerische Entwicklung beeinflusst?**  \nDie Unterstützung des KGS hat für mich bedeutet, dass ich mich ganz auf mein Studium konzentrieren und einen zweiten Bachelor mit pädagogischem Profil absolvieren konnte. So habe ich meine Fachkenntnisse v"
+    },
+    {
+      "rang": 22,
+      "score": 0.88867,
+      "id": "96628c17-6dfb-5cc5-b182-7bcbbf58cb34",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/Wege_an_die_HsH/Antragsformular_STIBET_Stipendien_2025.pdf",
+      "title_anzeige": "www › Internationales › Wege an die HsH › Antragsformular STIBET Stipendien 2025",
+      "section_heading": "**ART DES STIPENDIUMS /** _**SCHOLARSHIP TYPE**_",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **ART DES STIPENDIUMS /** _**SCHOLARSHIP TYPE**_  \n**Studienabschluss-Stipendium /** _**Graduation grant**_ (gilt nur für Studierende mit angestrebten Studienabschluss _/ applies to degree-seeking students only_ )  \n- gute Studienleistungen _/ good academic performance_  \n- Ihr erfolgreicher Stud"
+    },
+    {
+      "rang": 23,
+      "score": 0.8863,
+      "id": "3afeb2a2-fef6-53a7-ae91-ec134d3b4dd9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/05-RichtlnieHuWfinal.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2013 › 05 RichtlnieHuWfinal — §1 Grundsätze",
+      "section_heading": "**§ 5 Stipendienleistungen**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 5 Stipendienleistungen**  \nDie durch ein „Hin-und-Weg-Stipendium“ erbrachten Stipendienleistungen setzen sich zusammen aus  \n- einem Teilstipendium und/oder  \n- einer länderabhängigen Reisekostenpauschale und/oder  \n- länderabhängigen Tagessätzen (gilt nur für Wettbewerbsreisen)  \nDie Höhe de"
+    },
+    {
+      "rang": 24,
+      "score": 0.85586,
+      "id": "efd1f630-f36e-51ad-af1e-16fc3c2f60cd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/01-2015/02_Richtlinie_HuW_ab_2015_genehmigt.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2015 › 02 Richtlinie HuW ab 2015 genehmigt — Grundsätze",
+      "section_heading": "**Richtlinie der Hochschule Hannover zur Vergabe des „Hin-und-Weg-Stipendiums“ im Rahmen von studienbezogenen Auslandsaufenthalten** > **§ 5** > **Richtlinie der Hochschule Hannover zur Vergabe des „Hin-und-Weg-Stipendiums“ im Rahmen von studienbezogenen Auslandsaufenthalten** > **Stipendienleistungen**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "Studierende, die ihr Kind/ihre Kinder im Rahmen des Vorhabens mit ins Zielland nehmen, können Sondermittel als Pauschale erhalten. Die monatlichen Pauschalen betragen  \n- - 125 EUR bei einem Kind  \n- - 175 EUR bei zwei Kindern insgesamt  \n-  \n- 200 EUR bei drei und mehr Kindern insgesamt.  \nDiese zu"
+    },
+    {
+      "rang": 25,
+      "score": 0.82273,
+      "id": "b40bcd34-b227-5a1b-a8e1-e8d97bd771eb",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/studium-und-familienverantwortung",
+      "title_anzeige": "Studieren während der Schwangerschaft und mit Kind(ern)",
+      "section_heading": "Studieren während der Schwangerschaft und mit Kind(ern) > Schwangerschaft > Studieren während der Schwangerschaft und mit Kind(ern)",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "Bei speziellen Fragen zum Studium mit Kind unterstützt auch die **[Sozialberatung](https://www.studentenwerk-hannover.de/beratung/studieren-mit-kind)** des Studentenwerks Hannover sehr gut.\nAuch als Studierende haben Sie einen gewissen Anspruch auf finanzielle Unterstützung in der Schwangerschaft. S"
+    },
+    {
+      "rang": 26,
+      "score": 0.81977,
+      "id": "f61dfd10-7ba9-503a-852f-3f10986fd017",
+      "source_url": "https://www.hs-hannover.de/studium/studieren-an-der-hsh/rund-ums-studium/stipendien/aktuelles/stipendien-news-1-4-7",
+      "title_anzeige": "Stipendienkultur an der HsH",
+      "section_heading": "Stipendienkultur an der HsH > Insgesamt 155 Studierende der HsH kommen im neuen Förderjahr in den Genuss eines WIR-Stipendiums und damit einer monatlichen Zahlung von 300 Euro. Den zentralen Stipendienbeauftragten ist es gelungen, 279.000 Euro bei insgesamt 61 Förderern einzuwerben.",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "04.12.2025\n# Stipendienkultur an der HsH  \n###  Insgesamt 155 Studierende der HsH kommen im neuen Förderjahr in den Genuss eines WIR-Stipendiums und damit einer monatlichen Zahlung von 300 Euro. Den zentralen Stipendienbeauftragten ist es gelungen, 279.000 Euro bei insgesamt 61 Förderern einzuwerben"
+    },
+    {
+      "rang": 27,
+      "score": 0.8137,
+      "id": "d76a44ba-12f6-5a9a-8f88-0ad572b48302",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/studium-und-familienverantwortung",
+      "title_anzeige": "Studieren während der Schwangerschaft und mit Kind(ern)",
+      "section_heading": "Studieren während der Schwangerschaft und mit Kind(ern) > Finanzierung des Studiums > Studieren während der Schwangerschaft und mit Kind(ern)",
+      "chunk_index": 21,
+      "text_vollstaendig": true,
+      "auszug": "Weitere Informationen zum Kinderbetreuungszuschlag im Rahmen des BAföG erhalten Sie beim [Studentenwerk Hannover](https://www.studentenwerk-hannover.de/beratung/sozialberatung).\nEine Schwangerschaft sowie die Erziehung von Kindern während des Studiums ermöglichen eine Ausweitung der finanziellen För"
+    },
+    {
+      "rang": 28,
+      "score": 0.81177,
+      "id": "7dcbd886-b7ab-55e5-b7df-48d9660170b5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/01-2015/02_Richtlinie_HuW_ab_2015_genehmigt.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2015 › 02 Richtlinie HuW ab 2015 genehmigt — Grundsätze",
+      "section_heading": "**Richtlinie der Hochschule Hannover zur Vergabe des „Hin-und-Weg-Stipendiums“ im Rahmen von studienbezogenen Auslandsaufenthalten** > **§ 5** > **Richtlinie der Hochschule Hannover zur Vergabe des „Hin-und-Weg-Stipendiums“ im Rahmen von studienbezogenen Auslandsaufenthalten** > **Stipendienleistungen**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n## **Stipendienleistungen**  \nDie durch ein „Hin-und-Weg-Stipendium“ erbrachten Stipendienleistungen setzen sich zusammen aus  \n-  \n- einem Teilstipendium und/oder  \n- - einer länderabhängigen Reisekostenpauschale und/oder  \n- - länderabhängigen Tagessätzen (gilt nur für Wettbewerbsreisen"
+    },
+    {
+      "rang": 29,
+      "score": 0.80024,
+      "id": "b08473ed-6c47-5f25-a1d1-d399051e80de",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Simon__2023__Regierungskommission_Reform_Krankenhausfinanzierung.pdf",
+      "title_anzeige": "f5 › UEber uns › Personen › Simon 2023 Regierungskommission Reform Krankenhausfinanzierung",
+      "section_heading": "**Verteilung der Vorhaltebudgets auf die Krankenhausstandorte jedes Bundeslandes**",
+      "chunk_index": 391,
+      "text_vollstaendig": true,
+      "auszug": "Kostenträger möglich sein.[20] Würden aber nur die Krankenkassen zu solchen Zahlungen verpflichtet, hätten sie allein die Kosten der ‚Vorhaltefinanzierung‘ zu tragen.  \nDie Entlastung durch die Absenkung der aDRG-Fallpauschalen kämen jedoch allen Kostenträgern zugute, also auch der PKV. Das dürfte w"
+    },
+    {
+      "rang": 30,
+      "score": 0.78381,
+      "id": "3407166b-157b-5e26-acc6-19e789e28489",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 03 Spezifische Stipendienordnung der Fakultaet I abgestimmt 2 — § 1 Präambel",
+      "section_heading": "**§ 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "Die Anzahl und die Höhe der Stipendien werden jeweils vor der Ausschreibung von der Studienkommission festgelegt. Die Höhe beträgt bis zu 500 € pro Semester und erfolgt für einen Zeitraum von einem Semester."
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 17436,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.57,
+    "kandidaten_s": 0.0,
+    "llm_auswahl_s": 2.43,
+    "docs_laden_s": 0.08,
+    "quellen_s": 4.09,
+    "antwort_llm_s": 5.3,
+    "gesamt_s": 9.39
+  },
+  "auswahl_begruendung": "{\"selected\":[1,2,3,7]}"
+}

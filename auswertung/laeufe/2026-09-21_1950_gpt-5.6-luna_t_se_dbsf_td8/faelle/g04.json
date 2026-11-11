@@ -1,0 +1,643 @@
+{
+  "fall": {
+    "id": "g04",
+    "case_type": "direct",
+    "question": "Wo finde ich das Büro von Susanne Martini-Ohnesorg?",
+    "reference_answer": "In Raum 3D.1.10, Blumhardtstr. 2 in Hannover.",
+    "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000009785",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Raum: 3D.1.10"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ person_kontakt/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "7cd285ee-6322-5e72-bc97-d7b353fc3659",
+      "95c4ffcd-450e-53cb-9345-6d013935f63d",
+      "47cfed06-e6f9-592b-b38b-ea2de40aa299",
+      "9ebbbc3a-af04-53b4-8084-e88e752063d3",
+      "980ffbc4-60f8-5072-ac9b-656c049cd78b",
+      "8008b243-784b-5e40-a5b6-3469f2126692",
+      "d829306b-b150-5614-908f-74d78c24e962"
+    ],
+    "beleg_punkte": [
+      "95c4ffcd-450e-53cb-9345-6d013935f63d"
+    ],
+    "beleg_urls": [
+      "https://f5.hs-hannover.de/service/personenfinder/person/1000009785"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:55:23",
+  "dauer_s": 8.24,
+  "fehler": null,
+  "antwort": "Das Büro von Prof. Dr. Susanne Martini-Ohnesorg befindet sich in „Raum: 3D.1.10\" [1]. Die Adresse lautet „Blumhardtstr. 2, 30625 Hannover\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Prof. Dr. Susanne Martini-Ohnesorg",
+      "url": "https://f5.hs-hannover.de/service/personenfinder/person/1000009785",
+      "fakultaet": "f5",
+      "struktur": "# Prof. Dr. Susanne Martini-Ohnesorg\n    ### Kontakt\n  ## Denomination\n  ## Ökonomie im Gesundheitswesen und in der Sozialen Arbeit\n  ## Sprechstunden\n  ## Arbeitsschwerpunkte\n  ## Veröffentlichungen und mehr..."
+    },
+    {
+      "nr": 2,
+      "titel": "Gesamtprüfungsausschuss der Fakultät V",
+      "url": "https://f5.hs-hannover.de/ueber-uns/gremien/gesamtpruefungsausschuss",
+      "fakultaet": "f5",
+      "struktur": "# Gesamtprüfungsausschuss der Fakultät V\n  ## Mitglied\n    ### Vorsitz\n    ### Abtl. Religionspädagogik\n    ### Abtl. Pflege\n    ### Abtl. Heilpädagogik – Inklusive Bildung und Begleitung\n  ## stellvertretendes Mitglied\n    ### stellvertretender Vorsitz\n    ### Abtl. Pflege\n    ### Prüfungsamt\n  ## stud. Vertreter\n    ### Prüfungsamt"
+    },
+    {
+      "nr": 3,
+      "titel": "f5 › studium › studieninformationen › fachstudienberatung",
+      "url": "https://f5.hs-hannover.de/studium/studieninformationen/fachstudienberatung",
+      "fakultaet": "f5",
+      "struktur": "# Fachstudienberatung\n  ## Auf einen Blick\n  ## B.A. Heilpädagogik - Inklusive Bildung und Begleitung\n    ### Liebe Studieninteressierte,\n    ### Fachstudienberatung Heilpädagogik grundständig\n    ### Studiendekanin und Studiengangsleitung Heilpädagogik berufsbegleitend\n  ## B.A. Pflege - berufsbegleitend (BDP)\n    ### Fachstudienberatung\n  ## B.A. Religionspädagogik und Soziale Arbeit (BRS)\n    ### Fachstudienberatung intern (für eingeschriebene Studierende)\n    ### Fachstudienberatung extern (für Studieninteressierte und Gasthörende)\n  ## B.A. Soziale Arbeit - grundständig (BSW)\n    ### Fachstudienberatung zu allgemeinen Anliegen des Studiums\n    ### Fachstudienberatung für psychosoziale & persönliche Fragen\n    ### Beratung zum Verfahren zur staatlichen Anerkennung als Sozialarbeiterin auf der Grundlage einer im Ausland erworbenen Befähigung\n  ## Studentische Studienberatung der Sozialen Arbeit (für den BA Soziale Arbeit grundständig) - Beratung von Studierenden für Studierende\n  ## B.A. Soziale Arbeit - berufsbegleitend (SBW)\n    ### Fachstudienberatung\n  ## Master-Studiengänge\n    ### Fachstudienberatung Bildungswissenschaften für Pflege- und Gesundheitsberufe - berufsbegleitend (MGB/MBG)\n    ### Fachstudienberatung LBS-Sprint - berufliche Fachrichtung Pflege\n    ### Fachstudienberatung - Social Work - berufsbegleitend (MSW)\n    ### Fachstudienberatung Management für Pflege und Gesundheitsberufe - berufsbegleitend (MGB/MMG)\n    ### Fachstudienberatung - Social Work - berufsbegleitend (MSW)"
+    },
+    {
+      "nr": 4,
+      "titel": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "url": "https://f5.hs-hannover.de/studium/abteilung-pflege-gesundheit",
+      "fakultaet": "f5",
+      "struktur": "# Herzlich Willkommen in der Abteilung Pflege und Gesundheit\n  ## Was bedeutet es, in den Bereichen Pflege und Gesundheit zu studieren?\n  ## Studieren Sie bei uns!\n  ## Die Zukunft der Pflege gestalten - ein Eindruck von der Pro Care 2026\n  ## Bachelor-Studiengänge\n    ### Abteilungssekretariat\n    ### Studieninformation\n  ## Master-Studiengänge\n    ### Abteilungssekretariat\n    ### Studieninformation und -beratung\n    ### Abteilungssekretariat\n    ### Studiengangsberatung und -organisation\n  ## Lehrende der Abteilung Pflege & Gesundheit\n  ## Projekte der Abteilung\n  ## Laufende Projekte\n  ## Abgeschlossene Projekte"
+    },
+    {
+      "nr": 5,
+      "titel": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "url": "https://f5.hs-hannover.de/studium/abteilung-pflege-gesundheit-1",
+      "fakultaet": "f5",
+      "struktur": "# Herzlich Willkommen in der Abteilung Pflege und Gesundheit\n  ## Was bedeutet es, in den Bereichen Pflege und Gesundheit zu studieren?\n  ## Studieren Sie bei uns!\n  ## Bachelor-Studiengänge\n    ### Abteilungssekretariat\n    ### Studieninformation\n  ## Master-Studiengänge\n    ### Abteilungssekretariat\n    ### Studiengangsberatung und -organisation\n  ## Lehrende der Abteilung Pflege & Gesundheit\n  ## Projekte der Abteilung\n  ## Laufende Projekte\n  ## Abgeschlossene Projekte"
+    },
+    {
+      "nr": 6,
+      "titel": "Management für Pflege- und Gesundheitsberufe (MMG)",
+      "url": "https://f5.hs-hannover.de/studium/master-studiengaenge/management-fuer-pflege-und-gesundheitsberufe-mmg",
+      "fakultaet": "f5",
+      "struktur": "# Management für Pflege- und Gesundheitsberufe (MMG)\n  ## (berufsbegleitend)\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Veranstaltungen und Termine\n# Informationen zum Studium\n  ## Lehrveranstaltungen und Prüfungen\n    ### Sommersemester 2026\n    ### Wintersemester 2025/26\n    ### Prüfungen\n  ## Kontaktpersonen\n  ## Bewerbungs- & Zulassungsverfahren/Immatrikulation\n  ## Studieninhalte\n    ### Abteilungssekretariat\n    ### Studiendekanin\n    ### Studieninformation\n    ### Fachstudienberatung\n    ### Fachschaftsrat Pflege und Gesundheit\n  ## Prüfungsamt\n  ## Allgemeine Anfragen\n    ### Anfahrt\n  ## Internationale Partnerschaften"
+    },
+    {
+      "nr": 7,
+      "titel": "Lehrende der Fakultät V",
+      "url": "https://f5.hs-hannover.de/ueber-uns/personen/lehrende",
+      "fakultaet": "f5",
+      "struktur": "# Lehrende der Fakultät V\n    ### Lehrende von A - Z\n  ## A - D\n  ## E - L\n  ## M - R\n  ## S - Z\n  ## Lehrende im Ruhestand"
+    },
+    {
+      "nr": 8,
+      "titel": "Prof. Dr. Susanne König-Beller",
+      "url": "https://f3.hs-hannover.de/service/personenfinder/person/1000041121",
+      "fakultaet": "f3",
+      "struktur": "# Prof. Dr. Susanne König-Beller\n    ### Kontakt"
+    },
+    {
+      "nr": 9,
+      "titel": "f5 › Lehrveranstaltungen › WiSe 2025 › LV Uebersicht MA WS 2025 2026 Stand 25.08.2025 — Lehrveranstaltungen WS 2025/26",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Lehrveranstaltungen/WiSe_2025/LV-Uebersicht_MA_WS_2025_2026_Stand_25.08.2025.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Lehrveranstaltungen WS 2025/26\n  ## 1. Semester, MBG Jg. 6 und MMG Jg. 6 (PO-BT 2020) (20/20 Studierende)\n  ## Master-Studiengang Bildungswissenschaften und Management für Pflege- und Gesundheitsberufe\n  ## 3. Semester, MBG Jg. 5 und MMG Jg. 5 (PO-BT 2020) (19/15 Studierende)"
+    },
+    {
+      "nr": 10,
+      "titel": "f5 › Lehrveranstaltungen › SoSe 2026 › LV UEbersicht BA SoSe 2026 Stand 06.02.2025",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Lehrveranstaltungen/SoSe_2026/LV-UEbersicht_BA_SoSe_2026_Stand_06.02.2025.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Lehrveranstaltungen SoSe 2026\n  ## Bachelorstudiengang Pflege\n  ## 1. Vorsemester (Jg. 23) 42 Studierende\n  ## 3. Vorsemester (Jg. 22) 34 Studierende\n  ## 5. Vorsemester (Jg. 21) 24 Studierende\n  ## 5. Semester (Jg. 20)  60 Studierende\n  ## 7. Semester (Jg. 19) 56 Studierende"
+    },
+    {
+      "nr": 11,
+      "titel": "Digitalisierung im Gesundheitswesen: Grundlagen (Modul 1)",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/digitalisierung-im-gesundheitswesen-grundlagen-modul-1",
+      "fakultaet": "",
+      "struktur": "# Digitalisierung im Gesundheitswesen: Grundlagen (Modul 1)\n  ## Grundlagen und Informationssysteme verstehen und einordnen\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Digitalisierung im Gesundheitswesen - Auf einen Blick\n  ## Video zum Zertifikatsprogramm\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 12,
+      "titel": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › SBW klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-SoSe_2024/SBW-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Bachelor Soziale Arbeit - berufsbegleitend (SBW)\n  ## Modul   SBW-111  Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## 4SSBW11101 Einführung ins Studium (M 111 - 1. Semester)\n  ## Kommentar:\n  ## Samstags-Block zu der Einführung in die Profession Sozialer Arbeit:\n  ## 4SSBW11102 Armut und soziale Ungleichheit (M 111 - 1. Semester)\n  ## Kommentar:\n  ## Modul   SBW-112  Gesellschaftliche Bedingungen Sozialer Arbeit II\n  ## zugeordnet zu: Vorlesungsverzeichnis   SBW-112  Gesellschaftliche Bedingungen Sozialer Arbeit II\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-121  Soziale Arbeit als wissenschaftliche Disziplin und Profession I\n  ## Kommentar:\n  ## 4SSBW12102 Einführung ins wissenschaftliche Arbeiten - Gruppe B (M 121 - 1. Semester)\n  ## Kommentar:\n  ## Modul   SBW-122  Soziale Arbeit als wissenschaftliche Disziplin und Profession II\n  ## 4SSBW12201 Bezugswissenschaften Sozialer Arbeit (M 122 - 3. Semester)\n  ## Kommentar:\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-131  Rechtliche und ethische Grundlagen Sozialer Arbeit I\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Teilmodul     Recht I\n  ## Kommentar:\n  ## Literatur:\n  ## Teilmodul     Ethik I\n  ## Kommentar:\n  ## Kommentar:\n  ## Modul   SBW-151  Handlungskonzepte und Methoden Sozialer Arbeit I\n  ## Kommentar:\n  ## Literatur:\n  ## 4SSBW15102 Musik und (Pop-)Kultur als Medium des Empowerments in der Sozialen Arbeit (M 151 - 3. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## 4SSBW16101 Institution - Profession – Klient (161 - 1. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## 4SSBW16102 Finanzierung von sozialen Organisationen (M 161 - 3. Semester)\n  ## Kommentar:\n  ## 4SSBW16103 Sozialstaat (161 - 3. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-213  Gesellschaftliche Bedingungen Sozialer Arbeit III\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## Bemerkung 1:"
+    },
+    {
+      "nr": 13,
+      "titel": "f5 › MGB MBG MMG › Pruefungen › Final Pruefplan SoSe 26 07.04.2026",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Pruefungen/Final_Pruefplan_SoSe_26_07.04.2026.pdf",
+      "fakultaet": "f5",
+      "struktur": ""
+    },
+    {
+      "nr": 14,
+      "titel": "f5 › Soziale Arbeit berufsbgeleitend › Vorlesungsverzeichnis › SBW SoSe 2021 klein",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/SBW-SoSe-2021-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Bachelor Soziale Arbeit - berufsbegleitend (SBW)\n  ## Modul   SBW-111  Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## 1SBBS11101 Einführung ins Studium (111 - 1. Semester)\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## 1SBBS11102 Armut und soziale Ungleichheit (111 - 1. Semester)\n  ## Kommentar:\n  ## Modul   SBW-112  Gesellschaftliche Bedingungen Sozialer Arbeit II\n  ## 1SBBS112 Sozialpolitische Grundlagen Sozialer Arbeit (112 - 3. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## 1SBBS12101 Einführung in das wissenschaftliche Arbeiten - Gr. A (121 - 1. Semester)\n  ## Kommentar:\n  ## 1SBBS12102 Einführung in das wissenschaftliche Arbeiten - Gr. B (121 - 1. Semester)\n  ## Kommentar:\n  ## Modul   SBW-122  Soziale Arbeit als wissenschaftliche Disziplin und Profession II\n  ## 1SBBS12201 Bezugswissenschaften Sozialer Arbeit (122 - 3. Semester)\n  ## Kommentar:\n  ## 1SBBS12202 Die Geschichte Sozialer Arbeit (122 - 3. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## 1SBBS1311 Rechtliche Grundlagen der Sozialen Arbeit (131.1 - 1. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## 1SBBS1312 Einführung in die Ethik, oder: Pathfinder für die Suche nach dem guten Leben (131.2 - 1. Semester)\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-141  Handlungsfelder und AdressatInnen Sozialer Arbeit I\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Modul   SBW-151  Handlungskonzepte und Methoden Sozialer Arbeit I\n  ## 1SBBS15102 Multiperspektivische Fallarbeit (151 - 3. Semester)\n  ## Kommentar:\n  ## Lernziele:\n  ## Literatur:\n  ## Kommentar:\n  ## Modul   SBW-161  Institutionen und Organisationen Sozialer Arbeit I\n  ## 1SBBS16101 Institution - Profession - Klient (161 - 1. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## 1SBBS16102 Finanzierung von sozialen Organisationen (161 - 3. Semester)\n  ## Kommentar:\n  ## 1SBBS16103 Sozialstaat (161 - 3. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Bemerkung 1:\n  ## Kommentar:"
+    },
+    {
+      "nr": 15,
+      "titel": "f5 › Soziale Arbeit grundstaendig › BA Themenliste Soz. Arbeit › BA Themenliste gesamt",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/BA-Themenliste-_Soz._Arbeit/BA-Themenliste_gesamt.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Themenbereiche für BA-Abschlussarbeiten in der Abteilung Soziale Arbeit – alphabetische Ordnung Themen"
+    },
+    {
+      "nr": 16,
+      "titel": "f5 › Stundenplan SBW › SoSe 2026 › Stundenplan SoSe 2026 — SBW (BA Soziale Arbeit – berufsbegleitend) 1. Semester im SoSe 26",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Stundenplan_SBW/SoSe_2026/Stundenplan_SoSe_2026.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## SBW (BA Soziale Arbeit – berufsbegleitend) 1. Semester im SoSe 26\n  ## SBW (BA Soziale Arbeit – berufsbegleitend) 3. Semester im SoSe 2026\n  ## SBW (BA Soziale Arbeit – berufsbegleitend) 5. Semester im SoSe 2026\n  ## Termine im Sommersemester 2026\n  ## Studiengang B.A. Soziale Arbeit – berufsbegleitend (SBW)\n  ## Klausurtermine\n  ## Für Stundenplan im SoSe 2026 „Termine Informationsveranstaltungen“ entfernen."
+    },
+    {
+      "nr": 17,
+      "titel": "f5 › MGB MBG MMG › Mudulhandbuecher › Modulhandbuch MMG Stand 09.09.2024 — Master-Studiengang Management für Pflege- und Gesundheitsberufe",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Mudulhandbuecher/Modulhandbuch_MMG_Stand_09.09.2024.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Modulhandbuch\n# Master-Studiengang Management für Pflege- und Gesundheitsberufe\n  ## Inhaltsverzeichnis\n  ## Lehrveranstaltungsformen\n  ## Studienverlaufsplan\n  ## Beschreibung der Module\n  ## Pflichtmodule Management:\n  ## B1 Gestaltung von Organisationsstrukturen im Pflege- und Gesundheitsbereich\n  ## B4 Personalmanagement\n  ## B5 Qualitätsmanagement und Qualitätssicherung\n  ## B6 Projekte an Einrichtungen des Gesundheitswesens planen\n  ## Studiengangübergreifende Pflichtmodule\n  ## C1 Professionalisierung der Pflege- und Gesundheitsberufe\n  ## E Masterarbeit (inkl. Masterkolloquium)\n  ## Studiengangübergreifende Wahlpflichtmodule\n  ## D1a Epidemiologie und Gesundheit unter den Einflüssen der Digitalisierung\n  ## D2a Gesundheit und Gesundheitsförderung\n  ## D2b Zum Verhältnis von Wissen und Macht\n  ## D3b Patientenrechte und rechtliche Rahmenbedingungen im Pflege- und Gesundheitsbereich"
+    },
+    {
+      "nr": 18,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › SBW WiSe 23 24 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-23-24/SBW-WiSe-23-24-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Bachelor Soziale Arbeit - berufsbegleitend (SBW)\n  ## Modul   SBW-111  Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-112  Gesellschaftliche Bedingungen Sozialer Arbeit II\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-121  Soziale Arbeit als wissenschaftliche Disziplin und Profession I\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-122  Soziale Arbeit als wissenschaftliche Disziplin und Profession II\n  ## Modul   SBW-131  Rechtliche und ethische Grundlagen Sozialer Arbeit I\n  ## Kommentar:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Teilmodul     Ethik I\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## 3WSBW14102 Einführung in die Kinder- und Jugendhilfe (M 141 - 2.Semester)\n  ## Kommentar:\n  ## Kommentar:\n  ## Modul   SBW-213  Gesellschaftliche Bedingungen Sozialer Arbeit III\n  ## Modul   SBW-223  Soziale Arbeit als wissenschaftliche Disziplin und Profession III\n  ## 3WSBW22301 Wissenschaftskolloquium (M 223 - 6. Semester)\n  ## Kommentar:\n  ## 3WSBW22302 Theorien Sozialer Arbeit (Sozialarbeitswissenschaft) (M 223 - 6. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Kommentar:\n  ## Teilmodul     Recht II\n  ## Kommentar:\n  ## Teilmodul     Ethik II\n  ## Kommentar:\n  ## Modul   SBW-242  Handlungsfelder und AdressatInnen Sozialer Arbeit II\n  ## 3WSBW242 Menschen mit Abhängigkeitserkrankungen (M 242 - 4. Semester)\n  ## Kommentar:\n  ## Modul   SBW-252  Handlungskonzepte und Methoden Sozialer Arbeit II\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-262  Institutionen und Organisationen Sozialer Arbeit II\n  ## Kommentar:\n  ## Kommentar:\n  ## Bemerkung 1:\n  ## Kommentar:"
+    },
+    {
+      "nr": 19,
+      "titel": "www › Organisation › Personal › W2 16 2025 Ausschreibungstext VOE — W2-Professur: Management im Gesundheitswesen, W2 16/2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/W2_16-2025_Ausschreibungstext_VOE.pdf",
+      "fakultaet": "",
+      "struktur": "  ## W2-Professur: Management im Gesundheitswesen, W2 16/2025\n  ## W2-Professur\n  ## „Management im Gesundheitswesen“\n  ## - W2 16/2025 -\n  ## zu besetzen.\n  ## Wir erwarten von Ihnen:"
+    },
+    {
+      "nr": 20,
+      "titel": "f5 › Vorlesungsverzeichnis › WiSe 2022 23 › SBW WiSe 22 23 Stand 27.07.2022 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/WiSe-2022-23/SBW-WiSe-22-23-Stand-27.07.2022-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Bachelor Soziale Arbeit - berufsbegleitend (SBW)\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## 2WSBW14101 Einführung in die gesundheitsbezogene Soziale Arbeit (M 141 - 2.Semester)\n  ## Kommentar:\n  ## 2WSBW14102 Einführung in die Kinder- und Jugendhilfe (M 141 - 2.Semester)\n  ## Kommentar:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Kommentar:\n  ## Kommentar:\n  ## 2WSBW252 Sexualpädagogik und sexuelle Bildung (M 252 - 4.Semester)\n  ## Kommentar:\n  ## 2WSBW26202 Einführung Sozialwirtschaft (M 262 - 4.Semester)\n  ## Dozenten: Hoburg, Ralf\n  ## Kommentar:\n  ## Modul   SBW-111  Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## 2WSBW111 Soziologie (M 111 - 2. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## 2WSBW112 Judentum und jüdisches Leben in Deutschland (M 112 - 4. Semester)\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## 2WSBW121 Theorien Sozialer Arbeit (M 121 - 2. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-122  Soziale Arbeit als wissenschaftliche Disziplin und Profession II\n  ## Modul   SBW-131  Rechtliche und ethische Grundlagen Sozialer Arbeit I\n  ## 2WSBW131.1 Recht I: Rechtliche Grundlagen der Sozialen Arbeit, Teil 2 (M 131.1 - 2.Semester)\n  ## Kommentar:\n  ## 2WSBW131.2 Leib, Leiblichkeit, Embodiment (M 131.2 - 2. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Teilmodul     Recht I\n  ## Kommentar:\n  ## 2WSBW131.2 Leib, Leiblichkeit, Embodiment (M 131.2 - 2. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-141  Handlungsfelder und AdressatInnen Sozialer Arbeit I\n  ## 2WSBW14101 Einführung in die gesundheitsbezogene Soziale Arbeit (M 141 - 2.Semester)\n  ## Kommentar:\n  ## 2WSBW14102 Einführung in die Kinder- und Jugendhilfe (M 141 - 2.Semester)\n  ## Kommentar:\n  ## Modul   SBW-151  Handlungskonzepte und Methoden Sozialer Arbeit I\n  ## Kommentar:\n  ## Literatur:"
+    },
+    {
+      "nr": 21,
+      "titel": "www › hsh akademie › weiterbildungen a z › datenschutzmanagement",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/datenschutzmanagement",
+      "fakultaet": "",
+      "struktur": "# Datenschutzmanagement\n  ## Theorie, Praxis und Karriere im Datenschutz\n    ### In Kooperation mit:\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Datenschutzmanagement: Auf einen Blick\n  ## Videos zum Programm \"Datenschutzmanagement\": Lehrende stellen sich vor\n  ## Susanne Martini-Ohnesorg, Hochschule Hannover\n  ## Michael Wittland, Hochschule Hannover\n  ## Jörg Heidrich, heise Medien\n  ## Althammer & Kill als Kooperationspartner\n  ## Peter Merz, Hochschule Hannover\n  ## Johannes Endres, Althammer & Kill\n  ## Heise Medien als Kooperationspartner\n  ## Stimmen unserer Teilnehmenden\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 22,
+      "titel": "Digitalisierungsmanagement in der ambulanten Versorgung",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/digitalisierungsmanagement-in-der-ambulanten-versorgung",
+      "fakultaet": "",
+      "struktur": "# Digitalisierungsmanagement in der ambulanten Versorgung\n  ## Aus der Praxis für die Praxis\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Digitalisierungsmanagement in der ambulanten Versorgung: Auf einen Blick\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 23,
+      "titel": "f5 › Lehrveranstaltungen › SoSe 2026 › LV UEbersicht MA SoSe 2026 Stand 20.11.2025",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Lehrveranstaltungen/SoSe_2026/LV-UEbersicht_MA_SoSe_2026_Stand_20.11.2025.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Lehrveranstaltungen SoSe 2026\n  ## 2. Semester (MA Jg. 6)\n  ## 6. Semester (Jg. 4)"
+    },
+    {
+      "nr": 24,
+      "titel": "f5 › MGB MBG MMG › Pruefungen › Final Pruefplan SoSe 26 04.05.2026",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Pruefungen/Final_Pruefplan_SoSe_26_04.05.2026.pdf",
+      "fakultaet": "f5",
+      "struktur": ""
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 1,
+      "titel": "Prof. Dr. Susanne Martini-Ohnesorg",
+      "url": "https://f5.hs-hannover.de/service/personenfinder/person/1000009785"
+    },
+    {
+      "nr": 7,
+      "titel": "Lehrende der Fakultät V",
+      "url": "https://f5.hs-hannover.de/ueber-uns/personen/lehrende"
+    },
+    {
+      "nr": 2,
+      "titel": "Gesamtprüfungsausschuss der Fakultät V",
+      "url": "https://f5.hs-hannover.de/ueber-uns/gremien/gesamtpruefungsausschuss"
+    },
+    {
+      "nr": 21,
+      "titel": "www › hsh akademie › weiterbildungen a z › datenschutzmanagement",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/datenschutzmanagement"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Prof. Dr. Susanne Martini-Ohnesorg",
+      "url": "https://f5.hs-hannover.de/service/personenfinder/person/1000009785",
+      "crawl_date": "2026-08-06",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prof. Dr. Susanne Martini-Ohnesorg > Kontakt",
+      "snippets": [
+        "# Prof. Dr. Susanne Martini-Ohnesorg  \n###  Kontakt\n**Prof. Dr. Susanne Martini-Ohnesorg**\n_Professorin\nAbt. Pflege und Gesundheit (F5PG) _\nRaum: 3D.1.10\nBlumhardtstr. 2\n30625 Hannover\nsusanne.martini-ohnesorg(at)hs-hannover.de\n![Prof. Dr. Susanne Martini-Ohnesorg](data:image/jpg;base64,)"
+      ],
+      "zitate": [
+        "Raum: 3D.1.10"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Lehrende der Fakultät V",
+      "url": "https://f5.hs-hannover.de/ueber-uns/personen/lehrende",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Lehrende der Fakultät V > M - R",
+      "snippets": [
+        "## M - R\n**Prof. Dr. Susanne Martini-Ohnesorg**\n_Professorin, Pflege und Gesundheit (F5PG)_\nRaum: 3D.1.10\nBlumhardtstr. 2\n30625 Hannover\nsusanne.martini-ohnesorg(at)hs-hannover.de\n[ Profil ](https://f5.hs-hannover.de/service/personenfinder/person/1000009785 \"zum Profil von Prof. Dr. Susanne Martini-Ohnesorg\")\n**Prof. Dr. Ioanna Myrto Menhard**\n_Professorin, Soziale Arbeit (F5SA)_\nRaum: 3D.2.03\nBlumhardtstr. 2\n30625 Hannover\n[ +49 511 9296 8518 ](tel:+49%20511%209296%208518)\nioanna-myrto.menhard(at)hs-hannover.de\n[ Profil ](https://f5.hs-hannover.de/service/personenfinder/person/1000049207 \"zum Profil von Prof. Dr. Ioanna Myrto Menhard\")\n**Prof. Dr. Dorothee Meyer**\n_Professorin, Heilpädagogik (F5H)_\nRaum: 3C.2.08\nBlumhardtstr. 2\n30625 Hannover\ndorothee.meyer(at)hs-hannover.de\n[ Profil ](https://f5.hs-hannover.de/service/personenfinder/person/1000044532 \"zum Profil von Prof. Dr. Dorothee Meyer\")\n**Prof. Dr. Anke Neuber**\n_Professorin, Soziale Arbeit (F5SA)_\nRaum: 3B.1.02\nBlumhardtstr. 2"
+      ],
+      "zitate": [
+        "Raum: 3D.1.10"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Gesamtprüfungsausschuss der Fakultät V",
+      "url": "https://f5.hs-hannover.de/ueber-uns/gremien/gesamtpruefungsausschuss",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Gesamtprüfungsausschuss der Fakultät V > Mitglied > Abtl. Pflege",
+      "snippets": [
+        "### Abtl. Pflege\n**Prof. Dr. Susanne Martini-Ohnesorg**\n_Professorin, Pflege und Gesundheit (F5PG)_\nRaum: 3D.1.10\nBlumhardtstr. 2\n30625 Hannover\nsusanne.martini-ohnesorg(at)hs-hannover.de\n[ Profil ](https://f5.hs-hannover.de/service/personenfinder/person/1000009785 \"zum Profil von Prof. Dr. Susanne Martini-Ohnesorg\")"
+      ],
+      "zitate": [
+        "Raum: 3D.1.10"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › hsh akademie › weiterbildungen a z › datenschutzmanagement",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/datenschutzmanagement",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Kurzübersicht > Videos zum Programm \"Datenschutzmanagement\": Lehrende stellen sich vor > Kurzübersicht > Susanne Martini-Ohnesorg, Hochschule Hannover > Kurzübersicht > Michael Wittland, Hochschule Hannover > Kurzübersicht > Jörg Heidrich, heise Medien > Kurzübersicht > Althammer & Kill als Kooperationspartner",
+      "snippets": [
+        "In Zeiten der Digitalisierung besetzen betriebliche Datenschutzbeauftragte Schlüsselpositionen in Unternehmen. Sie beraten das Top-Management bei strategisch wichtigen Entscheidungen, überwachen sämtliche Datenflüsse und sorgen dafür, dass alle datenschutzrechtlichen Vorschriften eingehalten werden. Mit der Weiterbildung \"Datenschutzmanagement\" können Sie aber auch branchenübergreifend als Datenschutz-Consultant eingesetzt werden oder Ihre Expertise als selbständige*r Datenschutzbeauftragte*r auf dem sich stark wandelnden Arbeitsmarkt einbringen. Die Weiterbildung wird in Kooperation mit [Heise Academy](https://heise-academy.de/) und [Althammer & Kill](https://www.althammer-kill.de/) durchgeführt.\n**Welchen Weg Sie auch einschlagen: Fachkenntnisse, Tools und Methoden rund um den Datenschutz sind überall gefragt! Wir begleiten Sie gerne.**\nKontaktieren Sie uns:\nHochschule Hannover | HsH-Akademie\nJanine Gunzenheimer\nBlumhardtstr. 2, 30625 Hannover"
+      ],
+      "zitate": [
+        "Blumhardtstr. 2, 30625 Hannover"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.49472,
+      "id": "95c4ffcd-450e-53cb-9345-6d013935f63d",
+      "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000009785",
+      "title_anzeige": "Prof. Dr. Susanne Martini-Ohnesorg",
+      "section_heading": "Prof. Dr. Susanne Martini-Ohnesorg > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "[Zum Personenfinder](https://f5.hs-hannover.de/service/personenfinder \"Zum Personenfinder\")\n\n# Prof. Dr. Susanne Martini-Ohnesorg  \n###  Kontakt\n**Prof. Dr. Susanne Martini-Ohnesorg**\n_Professorin\nAbt. Pflege und Gesundheit (F5PG) _\nRaum: 3D.1.10\nBlumhardtstr. 2\n30625 Hannover\nsusanne.martini-ohneso"
+    },
+    {
+      "rang": 2,
+      "score": 2.47241,
+      "id": "2a26d10e-b986-52b2-9600-8c9258081b69",
+      "source_url": "https://f5.hs-hannover.de/ueber-uns/gremien/gesamtpruefungsausschuss",
+      "title_anzeige": "Gesamtprüfungsausschuss der Fakultät V",
+      "section_heading": "Gesamtprüfungsausschuss der Fakultät V > Mitglied > Abtl. Pflege",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Abtl. Religionspädagogik\n**Prof. Dr. Alexander Dietz**\n_Professor, Religionspädagogik und Diakonie (F5RD)_\nRaum: 3D.2.08\nBlumhardtstr. 2\n30625 Hannover\nalexander.dietz(at)hs-hannover.de\n[ Profil ](https://f5.hs-hannover.de/service/personenfinder/person/1000008419 \"zum Profil von Prof. Dr. Alexan"
+    },
+    {
+      "rang": 3,
+      "score": 2.40695,
+      "id": "cc535b24-8142-56bf-bfbc-bee0ff299a31",
+      "source_url": "https://f5.hs-hannover.de/studium/studieninformationen/fachstudienberatung",
+      "title_anzeige": "f5 › studium › studieninformationen › fachstudienberatung",
+      "section_heading": "Fachstudienberatung > Master-Studiengänge > Fachstudienberatung Management für Pflege und Gesundheitsberufe - berufsbegleitend (MGB/MMG)",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "### Fachstudienberatung - Social Work - berufsbegleitend (MSW)\n**Prof. Dr. Anja Reinecke-Terner**\n_Professorin, Soziale Arbeit (F5SA)_\nRaum: 3D.2.10\nBlumhardtstr. 2\n30625 Hannover\nanja.reinecke-terner(at)hs-hannover.de\n[ Profil ](https://f5.hs-hannover.de/service/personenfinder/person/1000026277 \"zu"
+    },
+    {
+      "rang": 4,
+      "score": 2.20077,
+      "id": "eab5f091-b835-58d6-97e1-17e9c81248ec",
+      "source_url": "https://f5.hs-hannover.de/studium/abteilung-pflege-gesundheit",
+      "title_anzeige": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "section_heading": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "chunk_index": 25,
+      "text_vollstaendig": false,
+      "auszug": "Prof.in Dr. rer. pol. Susanne Martini-Ohnesorg, Diplom-Ökonomin, Bankkauffrau, ist seit 2019 Professorin an der Hochschule Hannover in den Abteilungen Pflege und Gesundheit sowie Soziale Arbeit.\nIhre Schwerpunkte liegen in den Bereichen Management und Ökonomie im Gesundheitswesen sowie in der Sozial"
+    },
+    {
+      "rang": 5,
+      "score": 2.00646,
+      "id": "a613167c-3ebf-537a-a60f-70bfaf739663",
+      "source_url": "https://f5.hs-hannover.de/studium/abteilung-pflege-gesundheit-1",
+      "title_anzeige": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "section_heading": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "Prof.in Dr. rer. pol. Susanne Martini-Ohnesorg, Diplom-Ökonomin, Bankkauffrau, ist seit 2019 Professorin an der Hochschule Hannover in den Abteilungen Pflege und Gesundheit sowie Soziale Arbeit.\nIhre Schwerpunkte liegen in den Bereichen Management und Ökonomie im Gesundheitswesen sowie in der Sozial"
+    },
+    {
+      "rang": 6,
+      "score": 1.89557,
+      "id": "ea4de2ba-1c29-5d55-b779-374dedb6c9af",
+      "source_url": "https://f5.hs-hannover.de/studium/master-studiengaenge/management-fuer-pflege-und-gesundheitsberufe-mmg",
+      "title_anzeige": "Management für Pflege- und Gesundheitsberufe (MMG)",
+      "section_heading": "Informationen zum Studium > Studieninhalte > Fachstudienberatung",
+      "chunk_index": 22,
+      "text_vollstaendig": true,
+      "auszug": "### Fachstudienberatung\nProf. Dr. Susanne Martini-Ohnesorg\nBlumhardtstr. 2\n30625 Hannover\nGebäude: 3B Raum: 3D.1.10\n[ +49 511 9296 3144 ](tel:+49%20511%209296%203144 \"+49 511 9296 3144 anrufen\")\n[ susanne.martini-ohnesorg(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/master-studiengaenge/ma"
+    },
+    {
+      "rang": 7,
+      "score": 1.87547,
+      "id": "d2d6f8d8-8edd-5a61-bed7-4c170b34b74b",
+      "source_url": "https://f5.hs-hannover.de/studium/abteilung-pflege-gesundheit",
+      "title_anzeige": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "section_heading": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "chunk_index": 24,
+      "text_vollstaendig": false,
+      "auszug": "Arbeits- und Forschungsschwerpunkte:\nSie beschäftigt sich mit der Qualifizierung von Fachkräften in den Gesundheitsberufen, insbesondere in der Pflege und den Therapieberufen, mit einem besonderen Interesse an einer verbindenden Didaktik Gesundheit. Der aktuelle Forschungsschwerpunkt liegt auf der F"
+    },
+    {
+      "rang": 8,
+      "score": 1.32346,
+      "id": "845bc2c6-2e7e-5542-aa61-f017d7045902",
+      "source_url": "https://f5.hs-hannover.de/ueber-uns/personen/lehrende",
+      "title_anzeige": "Lehrende der Fakultät V",
+      "section_heading": "Lehrende der Fakultät V > M - R",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## M - R\n**Prof. Dr. Susanne Martini-Ohnesorg**\n_Professorin, Pflege und Gesundheit (F5PG)_\nRaum: 3D.1.10\nBlumhardtstr. 2\n30625 Hannover\nsusanne.martini-ohnesorg(at)hs-hannover.de\n[ Profil ](https://f5.hs-hannover.de/service/personenfinder/person/1000009785 \"zum Profil von Prof. Dr. Susanne Martini-"
+    },
+    {
+      "rang": 9,
+      "score": 1.12525,
+      "id": "980ffbc4-60f8-5072-ac9b-656c049cd78b",
+      "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000009785",
+      "title_anzeige": "Prof. Dr. Susanne Martini-Ohnesorg",
+      "section_heading": "Prof. Dr. Susanne Martini-Ohnesorg > Veröffentlichungen und mehr...",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Veröffentlichungen und mehr...\n[ Veröffentlichte Bücher ](https://f5.hs-hannover.de/service/personenfinder/person/1000009785 \"Veröffentlichte Bücher\")\nDoege, V., Martini, S. (2008):\n_Krankenhäuser auf dem Weg in den Wettbewerb – Der Implementierungsprozess der Diagnosis Related Groups_\nGabler Edi"
+    },
+    {
+      "rang": 10,
+      "score": 0.99259,
+      "id": "3c70d650-f659-5172-baf9-fd5d0935f902",
+      "source_url": "https://f3.hs-hannover.de/service/personenfinder/person/1000041121",
+      "title_anzeige": "Prof. Dr. Susanne König-Beller",
+      "section_heading": "Prof. Dr. Susanne König-Beller > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Prof. Dr. Susanne König-Beller  \n###  Kontakt\n**Prof. Dr. Susanne König-Beller**\n_Professorin\nAbt. Information und Kommunikation (F3IK) _\n[ +49 511 9296 8129 ](tel:+49%20511%209296%208129)\nRaum: 2C.3.29\nExpo Plaza 4\n30539 Hannover\nsusanne.koenig-beller(at)hs-hannover.de\n![Prof. Dr. Susanne König-B"
+    },
+    {
+      "rang": 11,
+      "score": 0.9433,
+      "id": "752fc26b-34b7-5eec-8310-4903e3be46dc",
+      "source_url": "https://f5.hs-hannover.de/aktuelles/veranstaltungen/oeffentliche-ringvorlesung-sose-2026-queer-feministische-denkbewegungen-widerspruechliche-verbindungen-mit-und-impulse-fuer-sozialer-arbeit-2",
+      "title_anzeige": "Öffentliche Ringvorlesung (SoSe 2026) Queer_Feministische (Denk)Bewegungen – widersprüchliche Verbindungen mit und Impulse für Soziale(r) Arbeit",
+      "section_heading": "Öffentliche Ringvorlesung (SoSe 2026) Queer_Feministische (Denk)Bewegungen – widersprüchliche Verbindungen mit und Impulse für Soziale(r) Arbeit > 18.05.2026",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "Prof. i. R. Dr. Susanne Maurer war von 2004 bis 2022 Professorin für Sozialpädagogik an der Universität Marburg. Sie war und ist engagiert in inner- wie außeruniversitären feministischen Kontexten und Zusammenhängen einer sich (selbst)kritisch verstehenden Sozialen Arbeit.\nInformationen zur Ringvorl"
+    },
+    {
+      "rang": 12,
+      "score": 0.90329,
+      "id": "31e1ec32-5572-575c-8968-585d9ab53f85",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Personal/W2_16-2025_Ausschreibungstext_VOE.pdf",
+      "title_anzeige": "www › Organisation › Personal › W2 16 2025 Ausschreibungstext VOE — W2-Professur: Management im Gesundheitswesen, W2 16/2025",
+      "section_heading": "Wir erwarten von Ihnen:",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "Im Übrigen ergeben sich die Einstellungsvoraussetzungen aus § 25 Niedersächsisches Hochschulgesetz (NHG). Einzelheiten sind einem Merkblatt zu entnehmen, das hier heruntergeladen werden kann.  \nFür inhaltliche Rückfragen steht Ihnen Frau Prof.in Dr. Susanne Martini-Ohnesorg gerne zur Verfügung (susa"
+    },
+    {
+      "rang": 13,
+      "score": 0.88476,
+      "id": "11883c38-4b1b-5f15-9a7e-04f48902224f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/SBW-SoSe-2021-klein.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit berufsbgeleitend › Vorlesungsverzeichnis › SBW SoSe 2021 klein",
+      "section_heading": "**1SBBS16102 Finanzierung von sozialen Organisationen (161 - 3. Semester)**",
+      "chunk_index": 55,
+      "text_vollstaendig": false,
+      "auszug": "## **1SBBS16102 Finanzierung von sozialen Organisationen (161 - 3. Semester)**  \nVeranstaltungs-Art: Seminar SWS: 3 | Credits: 3 S Mi 14:30 - 19:00 Martini-Ohnesorg, Susanne Termin: 02.06.2021 - 02.06.2021 **Bemerkung zum Termin:** findet online statt S Do 09:00 - 19:00 Martini-Ohnesorg, Susanne Ter"
+    },
+    {
+      "rang": 14,
+      "score": 0.88417,
+      "id": "35f79bda-ded1-56dc-b94f-74ea6376c137",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Stellenangebote_BAJ/2026/Ausschreibung_KGS__1_.pdf",
+      "title_anzeige": "f5 › Praktikumsamt › Stellenangebote BAJ › Ausschreibung KGS 1 — zum 1.8.2026",
+      "section_heading": "**Susanne Farkhar (staatl. anerk. Sozialpädagogin M.A.)** > **susanne.farkhar@kgs-pattensen.de**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## **Susanne Farkhar (staatl. anerk. Sozialpädagogin M.A.)**\n\n## **susanne.farkhar@kgs-pattensen.de**  \nMobil: 015753087083  \nWir freuen uns auf Ihre Bewerbung!"
+    },
+    {
+      "rang": 15,
+      "score": 0.87917,
+      "id": "b6845ee7-735f-5c0a-bca4-0c5f74be5826",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2021-22/SBW-WiSe-2021-22.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2021 22 › SBW WiSe 2021 22 — Inhaltsverzeichnis",
+      "section_heading": "**1WSBW262-01 Einführung in das Sozialmanagement - Change Management in Organisationen der Sozialen Arbeit (4. Semester)**",
+      "chunk_index": 88,
+      "text_vollstaendig": false,
+      "auszug": "## **1WSBW262-01 Einführung in das Sozialmanagement - Change Management in Organisationen der Sozialen Arbeit (4. Semester)**  \nVeranstaltungs-Art: Seminar SWS: 3 | Credits: 2,5 S Mo 09:00 - 19:00 Martini-Ohnesorg, Susanne **Bemerkung zum Termin:** findet online statt - BBB S Di 09:00 - 19:00 Martin"
+    },
+    {
+      "rang": 16,
+      "score": 0.87375,
+      "id": "8cddedcb-6d38-51d5-a1c6-b0536d9ec45c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MSW/Vorlesungsverzeichnis/VV-SoSe-2024/Master_Social_Work-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › Master Social Work klein",
+      "section_heading": "**Modul   MSW-305  Organisation und Gesellschaft (O)**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **Modul   MSW-305  Organisation und Gesellschaft (O)**  \nzugeordnet zu: Vorlesungsverzeichnis   MSW-305  Organisation und Gesellschaft (O)  \n**4SMSW-O-01 Change Management in Organisationen der Sozialen Arbeit (O)**  \nVeranstaltungs-Art: Seminar SWS: 2 | Credits: 4 S Fr 13:30 - 17:00 3E.0.07 Mart"
+    },
+    {
+      "rang": 17,
+      "score": 0.86276,
+      "id": "0cf9c64d-a7b0-5baf-b50f-48bc55ae76b9",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-SoSe_2024/SBW-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › SBW klein — Inhaltsverzeichnis",
+      "section_heading": "**4SSBW16102 Finanzierung von sozialen Organisationen (M 161 - 3. Semester)**",
+      "chunk_index": 57,
+      "text_vollstaendig": false,
+      "auszug": "## **4SSBW16102 Finanzierung von sozialen Organisationen (M 161 - 3. Semester)**  \nVeranstaltungs-Art: Seminar SWS: 3 | Credits: 3 S Mi 14:30 - 19:00 3E.1.22 Martini-Ohnesorg, Susanne Termin: 29.05.2024 - 29.05.2024 S Do 09:00 - 19:00 3E.1.22 Martini-Ohnesorg, Susanne Termin: 30.05.2024 - 30.05.2024"
+    },
+    {
+      "rang": 18,
+      "score": 0.85237,
+      "id": "ed1af9d6-6705-5afe-a364-31fc5a5daee7",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-SoSe-2023/SBW-SoSe-2023-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2023 › SBW SoSe 2023 klein — Inhaltsverzeichnis",
+      "section_heading": "**3SSBW16102 Finanzierung von sozialen Organisationen (M 161 - 3. Semester)**",
+      "chunk_index": 55,
+      "text_vollstaendig": false,
+      "auszug": "## **3SSBW16102 Finanzierung von sozialen Organisationen (M 161 - 3. Semester)**  \nVeranstaltungs-Art: Seminar SWS: 3 | Credits: 3 S Mi 14:30 - 19:00 3H.0.09 Martini-Ohnesorg, Susanne S Do 09:00 - 19:00 3H.0.09 Martini-Ohnesorg, Susanne S Fr 09:00 - 19:00 3H.0.09 Martini-Ohnesorg, Susanne  \nTermin: "
+    },
+    {
+      "rang": 19,
+      "score": 0.85237,
+      "id": "616fabbd-6287-5cbd-80ba-9d1a201a0c7b",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "section_heading": "**Obligatory: There will be a preparatory meeting - if you miss it, contact me!** > **3WBSA10502 Change Management in Organisationen der Sozialen Arbeit**",
+      "chunk_index": 1039,
+      "text_vollstaendig": false,
+      "auszug": "## **Obligatory: There will be a preparatory meeting - if you miss it, contact me!**\n\n## **3WBSA10502 Change Management in Organisationen der Sozialen Arbeit**  \nVeranstaltungs-Art: Seminar SWS: 2 | Credits: 2,5 S Do 09:00 - 17:00 3F.0.04 Martini-Ohnesorg, Susanne Termin: 11.01.2024 - 11.01.2024 S F"
+    },
+    {
+      "rang": 20,
+      "score": 0.85109,
+      "id": "3ef82b3f-ecc6-5f95-a8a4-8f4a7590ba92",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/WiSe-2022-23/SBW-WiSe-22-23-Stand-27.07.2022-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › WiSe 2022 23 › SBW WiSe 22 23 Stand 27.07.2022 klein — Inhaltsverzeichnis",
+      "section_heading": "**Modul   SBW-262  Institutionen und Organisationen Sozialer Arbeit II**",
+      "chunk_index": 104,
+      "text_vollstaendig": false,
+      "auszug": "## **Modul   SBW-262  Institutionen und Organisationen Sozialer Arbeit II**  \nzugeordnet zu: Vorlesungsverzeichnis   SBW-262  Institutionen und Organisationen Sozialer Arbeit II  \n**2WSBW26201 Einführung in das Sozialmanagement - Change Management in Organisationen der Sozialen Arbeit (M 262 - 4. Se"
+    },
+    {
+      "rang": 21,
+      "score": 0.85109,
+      "id": "cf45f508-24cd-5125-8180-518f94d3c484",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2024-25/SBW-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › SBW WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**Modul   SBW-262  Institutionen und Organisationen Sozialer Arbeit II**",
+      "chunk_index": 66,
+      "text_vollstaendig": false,
+      "auszug": "## **Modul   SBW-262  Institutionen und Organisationen Sozialer Arbeit II**  \nzugeordnet zu: Vorlesungsverzeichnis   SBW-262  Institutionen und Organisationen Sozialer Arbeit II  \n**4WSBW26201 Einführung in das Sozialmanagement - Change Management in Organisationen der Sozialen Arbeit (M 262 - 4. Se"
+    },
+    {
+      "rang": 22,
+      "score": 0.84479,
+      "id": "98fa329d-ad54-5010-9ef3-03f95e0d6ef1",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2020-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2020 klein — Inhaltsverzeichnis",
+      "section_heading": "**3WBSA10502 Change Management in Organisationen der Sozialen Arbeit**",
+      "chunk_index": 1132,
+      "text_vollstaendig": false,
+      "auszug": "## **3WBSA10502 Change Management in Organisationen der Sozialen Arbeit**  \nVeranstaltungs-Art: Seminar SWS: 2 | Credits: 2,5 S Do 09:00 - 17:00 3F.0.04 Martini-Ohnesorg, Susanne S Fr 09:00 - 17:00 3F.0.04 Martini-Ohnesorg, Susanne S Sa 09:00 - 17:00 3F.0.04 Martini-Ohnesorg, Susanne  \nTermin: 11.01"
+    },
+    {
+      "rang": 23,
+      "score": 0.8423,
+      "id": "2fc6737f-bd21-5429-ba18-666bcaf1fa02",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-23-24/SBW-WiSe-23-24-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › SBW WiSe 23 24 klein — Inhaltsverzeichnis",
+      "section_heading": "**Modul   SBW-262  Institutionen und Organisationen Sozialer Arbeit II**",
+      "chunk_index": 68,
+      "text_vollstaendig": false,
+      "auszug": "## **Modul   SBW-262  Institutionen und Organisationen Sozialer Arbeit II**  \nzugeordnet zu: Vorlesungsverzeichnis   SBW-262  Institutionen und Organisationen Sozialer Arbeit II  \n**3WSBW26201 Einführung in das Sozialmanagement - Change Management in Organisationen der Sozialen Arbeit (M 262 - 4. Se"
+    },
+    {
+      "rang": 24,
+      "score": 0.82915,
+      "id": "35742839-8d5a-5387-aab0-39c1acad3649",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Internationales/2023_Internat._Dokumente/2025_04_VIU_Factsheet_EN.pdf",
+      "title_anzeige": "f4 › Internationales › 2023 Internat. Dokumente › 2025 04 VIU Factsheet EN — Dates & Facts 2025",
+      "section_heading": "**ADDRESS IN EUROPE**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **ADDRESS IN EUROPE**  \n**VIU - International Student Office**  \nHuegelstr. 41 64283 Darmstadt Ph: +49 (0) 6151 9674 666 www.international-student-office.org  \n**CONTACT**  \nClaudia Damen · claudia.damen@viu.ca"
+    },
+    {
+      "rang": 25,
+      "score": 0.81237,
+      "id": "debb4600-2047-5ddc-8f65-1dca89ded4df",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MSW/Vorlesungsverzeichnis/16.4.26_Programm_aktualisert.pdf",
+      "title_anzeige": "f5 › MSW › Vorlesungsverzeichnis › 16.4.26 Programm aktualisert — Masterstudiengang Social Work",
+      "section_heading": "**Masterstudiengang Social Work**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "**SoSe2026**\n\n## **Masterstudiengang Social Work**  \nDas verbindliche Lehrangebot für das vierte Semester (Beginn: März 2026)  \n**Susanne Martini-Ohnesorg Modul O 2 SWS** 4 CP"
+    },
+    {
+      "rang": 26,
+      "score": 0.80036,
+      "id": "1e2dcba0-0710-590e-a986-47a1c1b70d31",
+      "source_url": "https://f5.hs-hannover.de/studium/abteilung-pflege-gesundheit-1",
+      "title_anzeige": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "section_heading": "Herzlich Willkommen in der Abteilung Pflege und Gesundheit",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "Prof.in Dr. rer. cur. Kirsten Kopke, Dipl.- Pflegewirtin (FH), Krankenschwester (1997), besetzt seit September 2021 die Professur Pflegewissenschaft mit dem Schwerpunkt erweiterte Pflegepraxis und Beratung.\nIhre Arbeits- und Forschungsschwerpunkte liegen in der Pflegewissenschaft im Speziellen in de"
+    },
+    {
+      "rang": 27,
+      "score": 0.79902,
+      "id": "ba5b8a71-dde2-5bef-8dee-4fc457c50013",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/BA-Themenliste-_Soz._Arbeit/BA-Themen-Liste-Lehrende_der_Sozialen_Arbeit_-_23.04.2024.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › BA Themenliste Soz. Arbeit › BA Themen Liste Lehrende der Sozialen Arbeit 23.04.2024",
+      "section_heading": "**Themenbereiche für BA-Abschlussarbeiten in der Abteilung Soziale Arbeit – alphabetische Ordnung Themen**",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "|Migration|Elizabeta Jonuz|\n|Mobbing im Schulkontext|Anja Reinecke-Terner|\n|Motivation|Andrea Schwanzer|\n|Mütter und Väter|Andreas Eickhorst|\n|||\n|**N**||\n|Nachhaltigkeit|Ralf Hoburg|\n|Non-Profit Organisationen (Strukturen, Führung, Kommunikation, Change-\nManagement)|Susanne Martini-\nOhnesorg|\n|Norm"
+    },
+    {
+      "rang": 28,
+      "score": 0.78302,
+      "id": "77611086-9b4c-5f64-8e4b-60d2ee3fab4c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+      "title_anzeige": "f5 › Studium › Internationales › HsH Fakultaet V en webseite — Hannover",
+      "section_heading": "**Hochschule Hannover** _University of Applied Sciences and Arts_ > **Tamara Arutyunyants**",
+      "chunk_index": 26,
+      "text_vollstaendig": true,
+      "auszug": "## **Tamara Arutyunyants**  \nBlumhardtstr. 2 30625 Hannover Building 3I, room 3I.1.10 Tel: +49 511 9296 3205 Email: tamara.arutyunyants@hs-hannover.de\n# **Experience it yourself!**\n\n# **We look forward to welcoming you in Hannover!**"
+    },
+    {
+      "rang": 29,
+      "score": 0.77462,
+      "id": "680446c5-2c56-5dbc-8aa8-5a3166d8c0e3",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/datenschutzmanagement",
+      "title_anzeige": "www › hsh akademie › weiterbildungen a z › datenschutzmanagement",
+      "section_heading": "Kurzübersicht > Videos zum Programm \"Datenschutzmanagement\": Lehrende stellen sich vor > Kurzübersicht > Susanne Martini-Ohnesorg, Hochschule Hannover > Kurzübersicht > Michael Wittland, Hochschule Hannover > Kurzübersicht > Jörg Heidrich, heise Medien > Kurzübersicht > Althammer & Kill als Kooperationspartner",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "## Videos zum Programm \"Datenschutzmanagement\": Lehrende stellen sich vor\n\n## Susanne Martini-Ohnesorg, Hochschule Hannover\n\n## Michael Wittland, Hochschule Hannover\n\n## Jörg Heidrich, heise Medien\n\n## Althammer & Kill als Kooperationspartner"
+    },
+    {
+      "rang": 30,
+      "score": 0.74431,
+      "id": "80426c4f-6b04-54ba-abe9-d1110bd35cea",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Lehrveranstaltungen/WiSe_2025/LV-Uebersicht_MA_WS_2025_2026_Stand_25.08.2025.pdf",
+      "title_anzeige": "f5 › Lehrveranstaltungen › WiSe 2025 › LV Uebersicht MA WS 2025 2026 Stand 25.08.2025 — Lehrveranstaltungen WS 2025/26",
+      "section_heading": "**Master-Studiengang Bildungswissenschaften und Management für Pflege- und Gesundheitsberufe** > **3. Semester, MBG Jg. 5 und MMG Jg. 5 (PO-BT 2020) (19/15 Studierende)**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "|B7 Projekte an Einrichtungen des Gesundheitswesens durchführen und auswerten\n(Martini-Ohnesorg)3 SWS||||\n|||(Martini-Ohnesorg)3 SWS||\n|B7.1|Martini-Ohnesorg/\nv. Kampen|Hochschulische Begleitveranstaltung|3/3|  \n**Stand:** 25.08.2025"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 14902,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.67,
+    "kandidaten_s": 0.03,
+    "llm_auswahl_s": 4.81,
+    "docs_laden_s": 0.09,
+    "quellen_s": 6.6,
+    "antwort_llm_s": 1.47,
+    "gesamt_s": 8.07
+  },
+  "auswahl_begruendung": "{\"selected\":[1,7,2,21]}"
+}

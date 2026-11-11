@@ -1,0 +1,541 @@
+{
+  "fall": {
+    "id": "g31",
+    "case_type": "direct",
+    "question": "Welche Lehrveranstaltung im zweiten Semester behandelt Sozialpsychiatrie?",
+    "reference_answer": "„Verstehen – Begleiten – Unterstützen“ im Modul 141, bei Christian Bremer.",
+    "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Stundenplan_SBW/WiSe_26_27/Stundenplan_Webversion_WiSe26.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "psychiatrie als Handlungsfeld Sozialer Arbeit|Christian Bremer"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ sonstiges/auswahl. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "738284f1-fbd3-5970-9033-bfbcc0d6d0e9",
+      "d7c81bed-06cb-53f1-8d62-72498258cad8",
+      "54b7602e-4852-580e-84f7-10aea3aee5ad",
+      "214ce924-d9de-558f-9929-02ea6529219a",
+      "2ce350e6-69b4-5675-8be0-67606c4705f8",
+      "5d81f755-b7cf-52bc-97e2-8d05d9c74a49"
+    ],
+    "beleg_punkte": [
+      "738284f1-fbd3-5970-9033-bfbcc0d6d0e9"
+    ],
+    "beleg_urls": [
+      "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Stundenplan_SBW/WiSe_26_27/Stundenplan_Webversion_WiSe26.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-22T08:30:50",
+  "dauer_s": 13.91,
+  "fehler": null,
+  "antwort": "Keine Lehrveranstaltung im zweiten Semester behandelt laut den vorliegenden Dokumenten Sozialpsychiatrie. Die entsprechende Veranstaltung ist „Queere Gesundheit - (k)ein Thema für die Sozialpsychiatrie\" [2] und gehört zum „Wahlpflichtmodul: M 243 Handlungsfelder und Adressat*innen Sozialer Arbeit III (6. Semester)\" [2].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f5 › Vorlesungsverzeichnis › VV SoSe 2026 › VV BRS PO 2021 SoSe 2026 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2026/VV-BRS-PO-2021-SoSe-2026-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2021\n  ## Modul   BRS-101  Einführung in das Studium und Erstsemesterprojekt\n  ## Modul   BRS-102  Fachwissenschaftliche Grundlagen der Sozialen Arbeit\n  ## Modul   BRS-103  Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## 6SBSA03101 Digitalisierung und KI im Sozialwesen\n  ## Kommentar:\n  ## Literatur:\n  ## 6SBSA03102 Designing Socio-Ecological Transformation in Social Work\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## 6SBSA03202 Gefährdete Demokratie - resiliente Demokratie\n  ## Kommentar:\n  ## Literatur:\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## 6SBSA03204 Intersektionalität und Soziale Arbeit\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## 6SBSA03101 Digitalisierung und KI im Sozialwesen\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Teilmodul     Materielle, kulturelle und soziale Ressourcen\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## 6SBSA03203 Rassismuskritische Migrationspädagogik und Aufgaben einer ambitionierten Sozialen Arbeit\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## 6SBSA03204 Intersektionalität und Soziale Arbeit\n  ## Kommentar:"
+    },
+    {
+      "nr": 2,
+      "titel": "f2 › Ordnungen › xSemesteruebersichten › MAB PS WS2016 Semesteruebersicht",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xSemesteruebersichten/MAB-PS-WS2016-Semesteruebersicht.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Semesterübersicht Produktionssysteme MAB-PS (PO ab WS2016)\n  ## Semester 7 (SoSem/WiSem)\n  ## Abkürzungen:"
+    },
+    {
+      "nr": 3,
+      "titel": "f4 › WI › Informationen › 22 02 11 Hinweise Empfehlungen 7 Sem. u. BA Arbeit Studierende",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/22-02-11_Hinweise_Empfehlungen_7_Sem._u._BA-Arbeit_Studierende.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Zweiter Studienabschnitt Verwaltungsinformatik: Hinweise und Empfehlungen für Studierende\n  ## Inhaltsverzeichnis\n  ## 1. Allgemeine Hinweise zum zweiten Studienabschnitt\n  ## 2. Allgemeine Hinweise für die Praxisphasen im 5. und 7. Semester\n  ## Folgende Ziele werden mit den Praxisphasen (vgl. § 2 der Praxisphasenordnung) verfolgt:\n  ## Zweiter Studienabschnitt Verwaltungsinformatik: Hinweise und Empfehlungen für Studierende\n  ## Zweiter Studienabschnitt Verwaltungsinformatik: Hinweise und Empfehlungen für Studierende\n  ## Zweiter Studienabschnitt Verwaltungsinformatik: Hinweise und Empfehlungen für Studierende\n  ## 4. Frequently asked questions"
+    },
+    {
+      "nr": 4,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BRS PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2020\n  ## Modul   BRS-101  Einführung in das Studium und Erstsemesterprojekt\n  ## 4WBRS01101 Einführung in das Studium\n  ## Kommentar:\n  ## Literatur:\n  ## 4WBRS01102 Einführung in kirchlich-diakonische Arbeitsfelder\n  ## Bemerkung 1:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## Kommentar:\n  ## 4WBRS01103 Einführung in die Religions- und Gemeindepädagogik\n  ## Kommentar:\n  ## Literatur:\n  ## 4WBRS01104 Einführung in die Diakoniewissenschaft - Teil 1: Geschichte und Theologie\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## Teilmodul     Projektorientiertes Lernen\n  ## 4WBRS01201 Stadtteilerkundung - Gruppe 1\n  ## Kommentar:\n  ## Pflichtveranstaltung im 1. Semester\n  ## 4WBRS01202 Stadtteilerkundung - Gruppe 2\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester\n  ## 4WBRS01203 Stadtteilerkundung - Gruppe 3\n  ## Kommentar:\n  ## Pflichtveranstaltung für 1. Semester\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester\n  ## 4WBRS01302 Präsentationstechniken\n  ## Bemerkung 1:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## Kommentar:\n  ## Modul   BRS-102  Fachwissenschaftliche Grundlagen der Sozialen Arbeit\n  ## Teilmodul     Geschichte und Theorien der Sozialen Arbeit\n  ## Kommentar:\n  ## Literatur:\n  ## 4WBSA02102 Theorien der Sozialen Arbeit - Gr. 2\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:"
+    },
+    {
+      "nr": 5,
+      "titel": "f5 › Vorlesungsverzeichnis › WiSe 2022 23 › SBW WiSe 22 23 Stand 27.07.2022 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/WiSe-2022-23/SBW-WiSe-22-23-Stand-27.07.2022-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Bachelor Soziale Arbeit - berufsbegleitend (SBW)\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## 2WSBW14101 Einführung in die gesundheitsbezogene Soziale Arbeit (M 141 - 2.Semester)\n  ## Kommentar:\n  ## 2WSBW14102 Einführung in die Kinder- und Jugendhilfe (M 141 - 2.Semester)\n  ## Kommentar:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Kommentar:\n  ## Kommentar:\n  ## 2WSBW252 Sexualpädagogik und sexuelle Bildung (M 252 - 4.Semester)\n  ## Kommentar:\n  ## 2WSBW26202 Einführung Sozialwirtschaft (M 262 - 4.Semester)\n  ## Dozenten: Hoburg, Ralf\n  ## Kommentar:\n  ## Modul   SBW-111  Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## 2WSBW111 Soziologie (M 111 - 2. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## 2WSBW112 Judentum und jüdisches Leben in Deutschland (M 112 - 4. Semester)\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## 2WSBW121 Theorien Sozialer Arbeit (M 121 - 2. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-122  Soziale Arbeit als wissenschaftliche Disziplin und Profession II\n  ## Modul   SBW-131  Rechtliche und ethische Grundlagen Sozialer Arbeit I\n  ## 2WSBW131.1 Recht I: Rechtliche Grundlagen der Sozialen Arbeit, Teil 2 (M 131.1 - 2.Semester)\n  ## Kommentar:\n  ## 2WSBW131.2 Leib, Leiblichkeit, Embodiment (M 131.2 - 2. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Teilmodul     Recht I\n  ## Kommentar:\n  ## 2WSBW131.2 Leib, Leiblichkeit, Embodiment (M 131.2 - 2. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-141  Handlungsfelder und AdressatInnen Sozialer Arbeit I\n  ## 2WSBW14101 Einführung in die gesundheitsbezogene Soziale Arbeit (M 141 - 2.Semester)\n  ## Kommentar:\n  ## 2WSBW14102 Einführung in die Kinder- und Jugendhilfe (M 141 - 2.Semester)\n  ## Kommentar:\n  ## Modul   SBW-151  Handlungskonzepte und Methoden Sozialer Arbeit I\n  ## Kommentar:\n  ## Literatur:"
+    },
+    {
+      "nr": 6,
+      "titel": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 014 MH BSW PO 2021 SoSe 2022 Stand 20.04.2022 web",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/014-MH-BSW-PO-2021-SoSe-2022-Stand-20.04.2022-web.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Modulhandbuch des\n  ## Bachelorstudienganges\n  ## Soziale Arbeit\n  ## Inhaltsverzeichnis\n  ## I. Angaben zur Abteilung Soziale Arbeit\n  ## 1. Postanschrift\n  ## 2. Studiendekanat, Verwaltung\n  ## 3. Prüfungsamt und Praktikumsbüro\n  ## 4. Studienbezogene Auslandsaufenthalte\n  ## International Faculty Office\n  ## 6. Studentische Studierendenberatung\n  ## 7. Internetinformationen zur Fakultät V und zum Studium\n  ## 8. Studierende – Hochschule – Diversität\n  ## II. Allgemeine Informationen zum Studiengang Bachelor Soziale Arbeit (BSW)\n  ## 1. Modulaufbau\n  ## 1. Studienabschnitt\n  ## 2. Studienabschnitt\n  ## 2. Studienverlauf\n  ## 3. Teilzeitstudium\n  ## Modulübersichtstabelle – Teilmodul-/Modulverantwortliche\n  ## Bachelorstudiengang Soziale Arbeit (BSW) – Studienverlaufsplan (für Studierende ab SoSe 2022)\n  ## Modulübersicht mit Teilmodulen – 1. Studienabschnitt (1.‒3. Semester)\n  ## Modulübersicht mit Teilmodulen – 2. Studienabschnitt (4.‒6. Semester)\n  ## Möglicher Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen (für Studierende ab SoSe 2022)\n  ## Modulbeschreibungen für den Bachelorstudiengang Soziale Arbeit (BSW)\n  ## Modul 01 – Modulbeschreibung: Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## Modul-/Teilmodulverantwortliche/r:\n  ## Angestrebte siehe Teilmodulbeschreibungen Lernergebnisse:\n  ## Modul 01 – Teilmodulbeschreibungen\n  ## Modul 02 – Modulbeschreibung: Fachwissenschaftliche Grundlagen der Sozialen Arbeit I\n  ## Modul 03 – Modulbeschreibung: Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## Modul 03 – Teilmodulbeschreibungen\n  ## Modul 04 – Modulbeschreibung: Normative Grundlagen der Sozialen Arbeit I\n  ## Modul 04 – Teilmodulbeschreibungen\n  ## Modul 04 – Teilmodul 05: BSW-104-05 Ethik I\n  ## Modul 05 – Modulbeschreibung: Zielgruppen und Lebensweisen I\n  ## Modul 06 – Modulbeschreibung: Handlungskonzepte und Methoden – Grundlagen\n  ## Modul 06 – Teilmodul 02: BSW-106-02 Beratung (Grundlagen)\n  ## Modul 06 – Teilmodul 05: BSW-106-05 Sozialwirtschaft (Grundlagen)\n  ## Modul 06 – Teilmodul 06: BSW-106-06 Gemeinwesen und Community Organizing (Grundlagen)\n  ## Modul 06 – Teilmodul 07: BSW-106-07 Methodisches Handeln in Erziehung und Bildung (Grundlagen)\n  ## Modul 07 – Modulbeschreibung: Gesellschaftliche Bedingungen Sozialer Arbeit II\n  ## Modul 08 – Modulbeschreibung: Normative Grundlagen der Sozialen Arbeit II\n  ## Modul 09 – Modulbeschreibung: Zielgruppen und Lebensweisen II\n  ## Modul 10 – Modulbeschreibung: Handlungskonzepte und Methoden – Vertiefung\n  ## Modul 10 – Teilmodulbeschreibungen\n  ## Modul 10 – Teilmodul 02: BSW-210-02 Beratung (Vertiefung)\n  ## Modul 11 – Modulbeschreibung: Praktikum\n  ## Modul 12 – Modulbeschreibung: Projekt\n  ## Modul 12 – Teilmodulbeschreibungen"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BSW PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Bachelor Soziale Arbeit (BSW) - PO 2020 & PO 2021\n  ## Modul   BSW-101  Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## Teilmodul     Einführung in das Studium\n  ## 4WBSA01101 Einführung in das Studium\n  ## Kommentar:\n  ## Teilmodul     Projektorientiertes Lernen\n  ## 4WBSA01201 Mentoringgruppe - Gr. 1\n  ## Kommentar:\n  ## 4WBSA01202 Mentoringgruppe - Gr. 2\n  ## Kommentar:\n  ## 4WBSA01203 Mentoringgruppe - Gr. 3\n  ## Kommentar:\n  ## 4WBSA01204 Mentoringgruppe - Gr. 4\n  ## Kommentar:\n  ## 4WBSA01205 Mentoringgruppe - Gr. 5\n  ## Kommentar:\n  ## 4WBSA01206 Mentoringgruppe - Gr. 6\n  ## Kommentar:\n  ## 4WBSA01207 Mentoringgruppe - Gr. 7\n  ## Kommentar:\n  ## 4WBSA01208 Mentoringgruppe - Gr. 8\n  ## Kommentar:\n  ## 4WBSA01209 Mentoringgruppe - Gr. 9\n  ## Kommentar:\n  ## 4WBSA01210 Mentoringgruppe - Gr. 10\n  ## Kommentar:\n  ## 4WBSA01212 Themenvergabe und Präsentation\n  ## 4WBSA01213 Auswertung und Abschlussvortrag\n  ## 4WBSA01301 Einführung wissenschaftl. Arbeiten - Gr. 1\n  ## Kommentar:\n  ## Kommentar:\n  ## 4WBSA01303 Einführung wissenschaftl. Arbeiten - Gr. 3\n  ## Kommentar:\n  ## Kommentar:\n  ## 4WBSA01305 Präsentationstechniken - Gr. 1\n  ## Kommentar:\n  ## 4WBSA01306 Präsentationstechniken - Gr. 2\n  ## Kommentar:\n  ## 4WBSA01306 Präsentationstechniken - Gr. 3\n  ## Kommentar:\n  ## 4WBSA01308 Präsentationstechniken - Gr. 4\n  ## Kommentar:\n  ## 4WBSA01309 Online-Recherche - Gr. 1\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt.\n  ## Kommentar:\n  ## 4WBSA01310 Online-Recherche - Gr. 2\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt."
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2018\n  ## Modul   BSW-101  Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## 3WBSA01101 Einführung in das Studium\n  ## Kommentar:\n  ## 3WBSA01201 Mentoringgruppe - Gr. 1\n  ## Kommentar:\n  ## 3WBSA01202 Mentoringgruppe - Gr. 2\n  ## Kommentar:\n  ## 3WBSA01203 Mentoringgruppe - Gr. 3\n  ## Kommentar:\n  ## 3WBSA01204 Mentoringgruppe - Gr. 4\n  ## Kommentar:\n  ## 3WBSA01205 Mentoringgruppe - Gr. 5\n  ## Kommentar:\n  ## 3WBSA01206 Mentoringgruppe - Gr. 6\n  ## Kommentar:\n  ## 3WBSA01207 Mentoringgruppe - Gr. 7\n  ## Kommentar:\n  ## 3WBSA01208 Mentoringgruppe - Gr. 8\n  ## Kommentar:\n  ## 3WBSA01209 Mentoringgruppe - Gr. 9\n  ## Kommentar:\n  ## 3WBSA01210 Mentoringgruppe - Gr. 10\n  ## Kommentar:\n  ## 3WBSA01211 Mentoringgruppe - Gr. 11\n  ## Kommentar:\n  ## 3WBSA01212 Themenvergabe und Präsentation\n  ## 3WBSA01213 Auswertung und Abschlussvortrag\n  ## 3WBSA01301 Einführung wissenschaftl. Arbeiten - Gr. 1\n  ## Kommentar:\n  ## Kommentar:\n  ## 3WBSA01303 Einführung wissenschaftl. Arbeiten - Gr. 3\n  ## Kommentar:\n  ## Kommentar:\n  ## 3WBSA01305 Präsentationstechniken - Gr. 1\n  ## Kommentar:\n  ## 3WBSA01306 Präsentationstechniken - Gr. 2\n  ## Kommentar:\n  ## 3WBSA01307 Präsentationstechniken - Gr. 3\n  ## Kommentar:\n  ## 3WBSA01308 Präsentationstechniken - Gr. 4\n  ## Kommentar:\n  ## 3WBSA01309 Online-Recherche - Gr. 1\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt.\n  ## Kommentar:\n  ## 3WBSA01310 Online-Recherche - Gr. 2\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt."
+    },
+    {
+      "nr": 9,
+      "titel": "f5 › Relpaed › Modulhandbuch › 007 Modulhandbuch BRS PO 2018 2019 03 — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/007-Modulhandbuch-BRS-PO-2018-2019-03.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Modulhandbuch des\n# Bachelorstudienganges Religionspädagogik und Soziale Arbeit\n  ## Inhaltsverzeichnis\n  ## Angaben zur Abteilung Religionspädagogik und Diakonie\n  ## 1. Postanschrift\n  ## 2. Studiendekanat, Verwaltung\n  ## 3. Kollegium\n  ## 4. Prüfungsamt und Praktikumsbüro\n  ## Praktikumsbüro:\n  ## 5. Studienfachberatung für eingeschriebene Studierende\n  ## 6. Studienbezogene Auslandsaufenthalte\n  ## International Faculty Office\n  ## 7. Internetinformationen zur Fakultät V und zum Studium\n  ## Allgemeine Informationen zum Studiengang\n  ## 1. Studienstruktur\n  ## Kernfach Religionspädagogik (60 CP):\n  ## Kernfach Soziale Arbeit (60 CP):\n  ## Äquivalenzbereich (120 CP):\n  ## Integriertes Berufsanerkennungsjahr (IBA)\n  ## Modulstruktur\n  ## 2. Lehr- und Lernformen\n  ## 3. Prüfungsformen\n  ## Modulübersichtstabelle – Teilmodul-/Modulverantwortliche\n  ## Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS) – Studienverlaufsplan (für Studierende ab WiSe 2018/19)\n  ## Modulübersicht mit Teilmodulen – 1. Studienabschnitt (1.‒3. Semester)\n  ## Modulübersicht mit Teilmodulen – 2. Studienabschnitt (4.‒8. Semester) – Teil 1\n  ## Modulübersicht mit Teilmodulen – 2. Studienabschnitt (4.‒8. Semester) – Teil 2\n  ## Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS) – Empfohlener Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen (für Studierende ab WiSe 2018/19)\n  ## Modulbeschreibungen für den Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS)\n  ## Modul 01 – Modulbeschreibung: Einführung in das Studium und Erstsemesterprojekt\n  ## Modul-/Teilmodulverantwortliche/r:\n  ## Prüfungsleistung:\n  ## Modul 02 – Modulbeschreibung: Fachwissenschaftliche Grundlagen der Sozialen Arbeit\n  ## Modul-/Teilmodulverantwortliche/r:\n  ## Angestrebte Die Studierenden Lernergebnisse: -\n  ## Prüfungsleistung:\n  ## Modul 02 – Teilmodulbeschreibungen\n  ## Modul 03 – Modulbeschreibung: Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## Modul-/Teilmodul- Goll, Sigrun, Prof.in Dr. verantwortliche/r:\n  ## Modul 03 – Teilmodulbeschreibungen\n  ## Modul 04 – Modulbeschreibung: Normative Grundlagen der Sozialen Arbeit I\n  ## Modul 04 – Teilmodulbeschreibungen\n  ## Modul 05 – Modulbeschreibung: Zielgruppen und Lebensweisen I\n  ## Voraussetzungen\n  ## Modul 05 – Teilmodulbeschreibungen\n  ## Modul 06 – Modulbeschreibung: Handlungskonzepte und Methoden – Grundlagen\n  ## Modul 06 – Teilmodulbeschreibungen\n  ## Modul 07 – Modulbeschreibung: Gesellschaftliche Bedingungen Sozialer Arbeit II\n  ## Modul 07 – Teilmodulbeschreibungen\n  ## Modul 08 – Modulbeschreibung: Normative Grundlagen der Sozialen Arbeit II"
+    },
+    {
+      "nr": 10,
+      "titel": "www › Verkuendungsblatt › 05 2015 › 2 Besonderer Teil der Pruefungsordnung BSW",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/05-2015/2_Besonderer_Teil_der_Pruefungsordnung_BSW.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n# für den Bachelor-Studiengang Soziale Arbeit (BSW) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 7\n  ## Inkrafttreten\n  ## Bachelor Studiengang Soziale Arbeit\n  ## Legende der Abkürzungen (Art, Form der Prüfungsleistung und Lehrveranstaltungen):"
+    },
+    {
+      "nr": 11,
+      "titel": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 023 MH BSW PO 2026 Stand 30.06.2026 web",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/023-MH-BSW-PO-2026-Stand-30.06.2026-web.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Modulhandbuch des\n  ## Bachelorstudienganges\n  ## Soziale Arbeit\n  ## Inhaltsverzeichnis\n  ## I. Angaben zur Abteilung Soziale Arbeit\n  ## 1. Postanschrift\n  ## 2. Studiendekanat, Verwaltung\n  ## 5. Studienbezogene Auslandsaufenthalte\n  ## Fachberatung Auslandsstudium\n  ## International Faculty Office\n  ## 6. Stipendienbeauftragte der Fakultät V\n  ## 7. Studentische Studierendenberatung – Beratung von Studierenden für Studierende\n  ## 8. Internetinformationen zur Fakultät V und zum Studium\n  ## Lernplattform Moodle: https://moodle.hs-hannover.de\n  ## II. Allgemeine Informationen zum Studiengang Bachelor Soziale Arbeit (BSW)\n  ## 1. Modulaufbau\n  ## 1. Studienabschnitt\n  ## 2. Studienabschnitt\n  ## 2. Studienverlauf\n  ## 3. Teilzeitstudium\n  ## Modulübersichtstabelle – Teilmodul-/Modulverantwortliche (PO 2026)\n  ## Bachelorstudiengang Soziale Arbeit (BSW) – Studienverlaufsplan (für Studierende nach der PO 2026)\n  ## Modulübersicht mit Teilmodulen – 1. Studienabschnitt (1.‒3. Semester)\n  ## Modulübersicht mit Teilmodulen – 2. Studienabschnitt (4.‒6. Semester)\n  ## Möglicher Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen (für Studierende ab SoSe 2026)\n  ## Modulbeschreibungen für den Bachelorstudiengang Soziale Arbeit (BSW)\n  ## Modul 1 – Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## Modul 2 – Fachwissenschaftliche Grundlagen der Sozialen Arbeit\n  ## Modul 2 – Teilmodule\n  ## Modul 3 – Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## Modul 3 – Teilmodulbeschreibungen\n  ## Modul 4 – Normative Grundlagen der Sozialen Arbeit I\n  ## Modul 4 – Teilmodule\n  ## Modul 5 – Zielgruppen und Lebensweisen I\n  ## Modul 5 – Teilmodule\n  ## Modul 6 – Handlungsfelder, Handlungskonzepte und Methoden I\n  ## Modul 6 – Teilmodule\n  ## Modul 22 – Grundlagen der Beratung\n  ## Modul 23 – Praktikum\n  ## Modul 7 – Gesellschaftliche Bedingungen Sozialer Arbeit II\n  ## Modul 7 – Teilmodule\n  ## Modul 8 – Normative Grundlagen der Sozialen Arbeit II\n  ## Modul 8 – Teilmodule\n  ## Modul 9 – Zielgruppen und Lebensweisen II\n  ## Modul 9 – Teilmodule\n  ## Modul 10 – Handlungsfelder, Handlungskonzepte und Methoden II\n  ## Modul 10 – Teilmodule\n  ## Modul 12 – Projekt\n  ## BSW-212\n  ## Kompetenzziele:"
+    },
+    {
+      "nr": 12,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › SBW WiSe 24 25 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2024-25/SBW-WiSe-24-25-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Bachelor Soziale Arbeit - berufsbegleitend (SBW)\n  ## 4WSBW111 Judentum und jüdisches Leben in Deutschland (M 111 - 2. Semester)\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-112  Gesellschaftliche Bedingungen Sozialer Arbeit II\n  ## Kommentar:\n  ## Modul   SBW-121  Soziale Arbeit als wissenschaftliche Disziplin und Profession I\n  ## Kommentar:\n  ## Modul   SBW-122  Soziale Arbeit als wissenschaftliche Disziplin und Profession II\n  ## Kommentar:\n  ## 4WSBW131.2 Was ist der Mensch? – Anthropologische Grundlagen der Sozialen Arbeit (M 131.2 - 2. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Teilmodul     Recht I\n  ## Kommentar:\n  ## Teilmodul     Ethik I\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## 4WSBW14102 Einführung in die Kinder- und Jugendhilfe (M 141 - 2.Semester)\n  ## Kommentar:\n  ## Kommentar:\n  ## Modul   SBW-223  Soziale Arbeit als wissenschaftliche Disziplin und Profession III\n  ## 4WSBW223 Wissenschaftskolloquium (M 223 - 6. Semester, Start im Juli 2024)\n  ## Kommentar:\n  ## 4WSBW22302 Theorien Sozialer Arbeit (Sozialarbeitswissenschaft) (M 223 - 6. Semester)\n  ## Kommentar:\n  ## Literatur:\n  ## Modul   SBW-232  Rechtliche und ethische Grundlagen Sozialer Arbeit II\n  ## Kommentar:\n  ## Literatur:\n  ## 4WSBW232.2 Professionsethik (M 232.2 - 4. Semester)\n  ## Kommentar:\n  ## Teilmodul     Recht II\n  ## Kommentar:\n  ## Literatur:\n  ## Teilmodul     Ethik II\n  ## Kommentar:\n  ## Modul   SBW-242  Handlungsfelder und AdressatInnen Sozialer Arbeit II\n  ## 4WSBW242 Menschen mit Abhängigkeitserkrankungen (M 242 - 4. Semester)\n  ## Kommentar:\n  ## 4WSBW252 Sexualpädagogik und sexuelle Bildung (M 252 - 4.Semester)\n  ## Kommentar:\n  ## Modul   SBW-262  Institutionen und Organisationen Sozialer Arbeit II\n  ## Kommentar:\n  ## 4WSBW26202 Einführung Sozialwirtschaft (M 262 - 4. Semester)\n  ## Kommentar:\n  ## Modul   SBW-243  Handlungsfelder und AdressatInnen Sozialer Arbeit III"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 5,
+      "titel": "f5 › Vorlesungsverzeichnis › WiSe 2022 23 › SBW WiSe 22 23 Stand 27.07.2022 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/WiSe-2022-23/SBW-WiSe-22-23-Stand-27.07.2022-klein.pdf"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BSW PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf"
+    },
+    {
+      "nr": 4,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BRS PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf"
+    },
+    {
+      "nr": 12,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › SBW WiSe 24 25 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2024-25/SBW-WiSe-24-25-klein.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f5 › Vorlesungsverzeichnis › WiSe 2022 23 › SBW WiSe 22 23 Stand 27.07.2022 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/WiSe-2022-23/SBW-WiSe-22-23-Stand-27.07.2022-klein.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/SBW-SoSe-2021-klein.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-23-24/SBW-WiSe-23-24-klein.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2024-25/SBW-WiSe-24-25-klein.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2021-22/SBW-WiSe-2021-22.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-SoSe-2023/SBW-SoSe-2023-klein.pdf"
+      ],
+      "abschnitt": "**Kommentar:**",
+      "snippets": [
+        "## **2WSBW243 Wahlpflichtmodul: M 243 Handlungsfelder und Adressat*innen Sozialer Arbeit III (6. Semester)**\nVeranstaltungs-Art: Seminar SWS: 4 | Credits: 3 S Mo 15:15 - 15:45 3E.1.22 von Denkowski, Cordula **Bemerkung zum Termin:** Vorgespräch - 1. Seminar: Vulnerabilität, Resilienz, Bewältigung S Mo 09:00 - 19:00 3E.0.51 von Denkowski, Cordula **Bemerkung zum Termin:** 1. Seminar: Vulnerabilität, Resilienz, Bewältigung S Di 09:00 - 19:00 3E.0.51 von Denkowski, Cordula **Bemerkung zum Termin:** 1. Seminar: Vulnerabilität, Resilienz, Bewältigung S Mi 09:00 - 13:30 3E.0.51 von Denkowski, Cordula **Bemerkung zum Termin:** 1. Seminar: Vulnerabilität, Resilienz, Bewältigung S Mi 14:30 - 19:00 3E.0.51 Rahimi, Sabrina Stender, Wolfram **Bemerkung zum Termin:** 2. Seminar: Rassismus und Rassismuskritik in der Sozialen Arbeit S Do 09:00 - 19:00 3E.0.51 Rahimi, Sabrina Stender, Wolfram **Bemerkung zum Termin:** 2. Seminar: Rassismus und Rassismuskritik in der Sozialen Arbeit S Fr 09:00 - 19:00 3E.0.51 Rahimi, Sabrina Stender, Wolfram **Bemerkung zum Termin:** 2. Seminar: Rassismus und Rassismuskritik"
+      ],
+      "zitate": [
+        "Wahlpflichtmodul: M 243 Handlungsfelder und Adressat*innen Sozialer Arbeit III (6. Semester)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › SBW WiSe 24 25 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2024-25/SBW-WiSe-24-25-klein.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/SBW-SoSe-2021-klein.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-SoSe_2024/SBW-klein.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2021-22/SBW-WiSe-2021-22.pdf"
+      ],
+      "abschnitt": "**1. Seminar: Queere Gesundheit - (k)ein Thema für die Sozialpsychiatrie** (Dozent: Christian Bremer)",
+      "snippets": [
+        "## **Modul   SBW-243  Handlungsfelder und AdressatInnen Sozialer Arbeit III**  \nzugeordnet zu: Vorlesungsverzeichnis   SBW-243  Handlungsfelder und AdressatInnen Sozialer Arbeit III  \n|**4WSBW243 Wahlpflichtmodul: M 243 Handlungsfelder und Adressat*innen Sozialer Arbeit III (6. Semester)**|**4WSBW243 Wahlpflichtmodul: M 243 Handlungsfelder und Adressat*innen Sozialer Arbeit III (6. Semester)**|**4WSBW243 Wahlpflichtmodul: M 243 Handlungsfelder und Adressat*innen Sozialer Arbeit III (6. Semester)**|\n|---|---|---|\n|Veranstaltungs-Art: Seminar|||\n|SWS: 4 ||Credits: 3||\n|S|Mo\n13:00 - 13:30\n3E.0.34\nvon Denkowski, Cordula|Termin: 02.09.2024 - 02.09.2024|\n||**Bemerkung zum Termin:**Vorgespräch - 2. Seminar: Handlungsfähigkeit und Bewältigung in Krisenzeiten: sozialarbeitswissenschaftliche Perspektiven||\n|S|Mo\n09:00 - 19:00\n3E.0.34\nBremer, Christian|Termin: 18.11.2024 - 18.11.2024|\n||**Bemerkung zum Termin:**1. Seminar: Queere Gesundheit - (k)ein Thema für die Sozialpsychiatrie||\n|S|Di"
+      ],
+      "zitate": [
+        "Queere Gesundheit - (k)ein Thema für die Sozialpsychiatrie",
+        "Wahlpflichtmodul: M 243 Handlungsfelder und Adressat*innen Sozialer Arbeit III (6. Semester)"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.7859,
+      "id": "e4f0a2ea-7dfb-551e-b1fb-63ed5213b189",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2026/VV-BRS-PO-2021-SoSe-2026-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2026 › VV BRS PO 2021 SoSe 2026 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 659,
+      "text_vollstaendig": false,
+      "auszug": "|SWS: 2 ||Credits:|||||\n|S|Do|09:00 - 11:00|3H.0.04|Bremer, Christian|Termin: 26.03.2026 - 26.03.2026|\n|S|Do|09:00 - 11:00|3H.0.04|Bremer, Christian|Termin: 09.04.2026 - 09.04.2026|\n|S|Do|09:00 - 11:00|3H.0.04|Bremer, Christian|Termin: 16.04.2026 - 16.04.2026|\n|S|Do|09:00 - 11:00|3H.0.09|Bremer, Chr"
+    },
+    {
+      "rang": 2,
+      "score": 1.92576,
+      "id": "87306580-f6d9-511d-b9f2-ea85a3428a2d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2026/VV-BRS-PO-2021-SoSe-2026-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2026 › VV BRS PO 2021 SoSe 2026 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 695,
+      "text_vollstaendig": false,
+      "auszug": "|---|---|---|---|---|---|\n|Veranstaltungs-Art: Seminar||||||\n|SWS: 2 ||Credits:|||||\n|S|Do|09:00 - 11:00|3H.0.04|Bremer, Christian|Termin: 26.03.2026 - 26.03.2026|\n|S|Do|09:00 - 11:00|3H.0.04|Bremer, Christian|Termin: 09.04.2026 - 09.04.2026|\n|S|Do|09:00 - 11:00|3H.0.04|Bremer, Christian|Termin: 16."
+    },
+    {
+      "rang": 3,
+      "score": 1.66673,
+      "id": "88bcff84-dd17-584c-9a6c-10f1d0029b02",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xSemesteruebersichten/MAB-PS-WS2016-Semesteruebersicht.pdf",
+      "title_anzeige": "f2 › Ordnungen › xSemesteruebersichten › MAB PS WS2016 Semesteruebersicht",
+      "section_heading": "**Semesterübersicht Produktionssysteme MAB-PS (PO ab WS2016)**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "_**Curricula-Datenbank / Fakultät II**_  \n_**Semesterübersicht MAB-PS (WS2016)**_\n\n## **Semesterübersicht Produktionssysteme MAB-PS (PO ab WS2016)**  \n|**Modul**||**Lehrveranstaltung**|**Lehrveranstaltung**|**Lehrveranstaltung**||||\n|---|---|---|---|---|---|---|---|\n|**M-Kürzel**|**Bezeichnung**|**T"
+    },
+    {
+      "rang": 4,
+      "score": 1.52468,
+      "id": "23622ac4-0a97-5c27-8444-4335a836925a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/22-02-11_Hinweise_Empfehlungen_7_Sem._u._BA-Arbeit_Studierende.pdf",
+      "title_anzeige": "f4 › WI › Informationen › 22 02 11 Hinweise Empfehlungen 7 Sem. u. BA Arbeit Studierende",
+      "section_heading": "Inhaltsverzeichnis > 1. Allgemeine Hinweise zum zweiten Studienabschnitt",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Die **Struktur des zweiten Studienabschnitts ergibt sich aus der Prüfungsordnung. Die Inhalte sind im Modulhandbuch beschrieben** . Der zweite Studienabschnitt umfasst 4 Semester (Semester 4-7). Im 4. Semester finden reguläre Lehrveranstaltungen statt. Im 5. Semester sind die erste Praxisphase und d"
+    },
+    {
+      "rang": 5,
+      "score": 1.47348,
+      "id": "0f71e868-b947-5e07-bd2d-e763147b3ed1",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BRS PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 992,
+      "text_vollstaendig": false,
+      "auszug": "## **Kommentar:**  \nInnerhalb der Lehrveranstaltung werden wir uns aus Perspektive der Critical Diversity Studies (CDS) mit der (psychischen) Gesundheit queerer Menschen auseinandersetzen. Inhalte der CDS werden wir mit Wissensbeständen aus den Gesundheitswissenschaften sowie psychologischen Konzept"
+    },
+    {
+      "rang": 6,
+      "score": 1.46195,
+      "id": "41c73734-4663-57e2-9636-9d873c3b8335",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/WiSe-2022-23/SBW-WiSe-22-23-Stand-27.07.2022-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › WiSe 2022 23 › SBW WiSe 22 23 Stand 27.07.2022 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 38,
+      "text_vollstaendig": false,
+      "auszug": "## **Kommentar:**  \nLehrveranstaltung für Studierende des **2. Semesters.**  \nDie Fachwissenschaft der Sozialen Arbeit, die sich als Profession und Disziplin definiert, lässt sich als eine sog. „Bezugswissenschaft” bezeichnen. Zu den konstitutiven Elementen des Wissenschafts- und Berufsverständnisse"
+    },
+    {
+      "rang": 7,
+      "score": 1.45882,
+      "id": "7509bad2-6d42-51a5-8787-d59b7c94e3ba",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/014-MH-BSW-PO-2021-SoSe-2022-Stand-20.04.2022-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 014 MH BSW PO 2021 SoSe 2022 Stand 20.04.2022 web",
+      "section_heading": "**Möglicher Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen** (für Studierende ab SoSe 2022)",
+      "chunk_index": 39,
+      "text_vollstaendig": false,
+      "auszug": "|**2. Semester**||||||\n|03|GesellschaftlicheBedingungenSozialer ArbeitI – TM 1„Theoretische Grundlagen“*|2,5*|2*|Impulsreferat oder\nSitzungsprotokoll|_Referat1 ggf. bereits im 2. Semester_\n_möglich_|\n|03|Gesellschaftliche Bedingungen Sozialer Arbeit I–TM 2 „Materielle, kulturelle und soziale Ressour"
+    },
+    {
+      "rang": 8,
+      "score": 1.4583,
+      "id": "ea4d367b-be4e-57d8-87ae-b84769eed80d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BSW PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 1063,
+      "text_vollstaendig": false,
+      "auszug": "## **Kommentar:**  \nInnerhalb der Lehrveranstaltung werden wir uns aus Perspektive der Critical Diversity Studies (CDS) mit der (psychischen) Gesundheit queerer Menschen auseinandersetzen. Inhalte der CDS werden wir mit Wissensbeständen aus den Gesundheitswissenschaften sowie psychologischen Konzept"
+    },
+    {
+      "rang": 9,
+      "score": 1.45809,
+      "id": "8d2e8af8-7333-5e15-be7c-c5beb6e61ec2",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "section_heading": "**3WBSA09104 Einführung in die Sozialpsychiatrie (M 9.1 & M 12.1)**",
+      "chunk_index": 905,
+      "text_vollstaendig": false,
+      "auszug": "## **3WBSA09104 Einführung in die Sozialpsychiatrie (M 9.1 & M 12.1)**  \nVeranstaltungs-Art: Seminar SWS: 2 | Credits: M 9.1: 2,5 CP, M 12.2: 1,25 CP S Fr 13:30 - 17:00 3E.1.21 Stucki, Simon Termin: 03.11.2023 - 03.11.2023 S Sa 09:00 - 17:00 3E.1.21 Stucki, Simon Termin: 04.11.2023 - 04.11.2023 S Fr"
+    },
+    {
+      "rang": 10,
+      "score": 1.45365,
+      "id": "a49146ed-9cb7-5467-aafe-fcd4002225f8",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/007-Modulhandbuch-BRS-PO-2018-2019-03.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 007 Modulhandbuch BRS PO 2018 2019 03 — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS) – Empfohlener Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen** (für Studierende ab WiSe 2018/19)",
+      "chunk_index": 56,
+      "text_vollstaendig": false,
+      "auszug": "|**Gesamt 1.Semester **||**32,5**|**28**|||\n|||||||\n|**2. Semester(SoSe)**||||||\n|3|Gesellschaftliche Bedingungen Sozialer Arbeit I–TM 1 „Theoretische Grundlagen“*|2,5*|2*|Impulsreferat oder\nSitzungsprotokoll|_1 PL (Referat) ggf. bereits im 2._\n_Semester möglich_|\n|3|Gesellschaftliche Bedingungen So"
+    },
+    {
+      "rang": 11,
+      "score": 1.36302,
+      "id": "a1926f42-2881-5071-ac72-6e57f5b3313e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/05-2015/2_Besonderer_Teil_der_Pruefungsordnung_BSW.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2015 › 2 Besonderer Teil der Pruefungsordnung BSW",
+      "section_heading": "**für den Bachelor-Studiengang Soziale Arbeit (BSW) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover** > **Bachelor Studiengang Soziale Arbeit**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "||||||BSW-106-03|Methoden und Verfahren Sozialer Arbeit|PF||4|5|||\n||||||BSW-106-04|Grundlagen der Wahrnehmungund Kommunikation|WP||4|5|||\n||||||BSW-106-05|Handlungstheoretische Grundlagen|WP||4|5|||\n|BSW-111|Praktikum|PF|10|0|BSW-111-01|Begleitetes Blockpraktikum|PF||2|10|B|0|\n|**90**\n**Gesamt / 1."
+    },
+    {
+      "rang": 12,
+      "score": 1.3363,
+      "id": "10caea2b-242d-5979-9e04-29a4f6964e7d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/023-MH-BSW-PO-2026-Stand-30.06.2026-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 023 MH BSW PO 2026 Stand 30.06.2026 web",
+      "section_heading": "**Modulübersicht mit Teilmodulen** – **2. Studienabschnitt (4.‒6. Semester)**",
+      "chunk_index": 43,
+      "text_vollstaendig": false,
+      "auszug": "## **Modulübersicht mit Teilmodulen** – **2. Studienabschnitt (4.‒6. Semester)**  \n|**Modulübe**|**rsicht mit Teilmodulen**–**2. Studienabschnitt (4.‒6. Se**|**rsicht mit Teilmodulen**–**2. Studienabschnitt (4.‒6. Se**|**rsicht mit Teilmodulen**–**2. Studienabschnitt (4.‒6. Se**|**mester)**|**mester"
+    },
+    {
+      "rang": 13,
+      "score": 1.32438,
+      "id": "d06f58af-e634-5925-97dd-864ab924ef33",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2024-25/SBW-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › SBW WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**1. Seminar: Queere Gesundheit - (k)ein Thema für die Sozialpsychiatrie** (Dozent: Christian Bremer)",
+      "chunk_index": 78,
+      "text_vollstaendig": false,
+      "auszug": "Ziel der Lehrveranstaltung ist es, Wissen über die Gesundheit queerer Menschen zu erlangen. Studierende sollen in der Lage sein das Handlungsfeld der Sozialpsychiatrie kritisch in den Blick zu nehmen und herausarbeiten können, inwieweit die Gesundheit queerer Menschen (k)ein Thema für die Sozialpsyc"
+    },
+    {
+      "rang": 14,
+      "score": 1.32226,
+      "id": "a34434f4-5568-5b01-8d6c-c37cce5fb005",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS SoSe 2025 PO 2020 klein",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 577,
+      "text_vollstaendig": false,
+      "auszug": "Am Ende des Semesters findet eine Vertiefung des Praxisfelds der Sozialpsychiatrie statt. Wir werden uns mit den institutionellen Strukturen auseinandersetzen und prüfen, wie diese Einfluss auf den Unterstützungsprozess von psychisch erkrankten Menschen haben."
+    },
+    {
+      "rang": 15,
+      "score": 1.32177,
+      "id": "a7e544dc-a118-5cec-85dd-70c80042099d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "section_heading": "**3WBSA09104 Einführung in die Sozialpsychiatrie (M 9.1 & M 12.1)**",
+      "chunk_index": 1267,
+      "text_vollstaendig": false,
+      "auszug": "## **3WBSA09104 Einführung in die Sozialpsychiatrie (M 9.1 & M 12.1)**  \nVeranstaltungs-Art: Seminar SWS: 2 | Credits: M 9.1: 2,5 CP, M 12.2: 1,25 CP S Fr 13:30 - 17:00 3E.1.21 Stucki, Simon S Sa 09:00 - 17:00 3E.1.21 Stucki, Simon S Fr 13:30 - 17:00 3E.1.21 Stucki, Simon S Sa 09:00 - 17:00 3E.1.21 "
+    },
+    {
+      "rang": 16,
+      "score": 1.30837,
+      "id": "88300950-8adb-523d-a901-5bd3cd1336cb",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/007-Modulhandbuch-BRS-PO-2018-2019-03.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 007 Modulhandbuch BRS PO 2018 2019 03 — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS) – Empfohlener Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen** (für Studierende ab WiSe 2018/19)",
+      "chunk_index": 57,
+      "text_vollstaendig": false,
+      "auszug": "und Bildung I“|2,5|2|1 SL||\n|6|Handlungskonzepte und Methoden–Grundlagen–TM 1, 3, 4, 5 oder 6 (Wahlpflicht)*|2,5*|2*|||\n|11|Praktikum(VorbereitungPraktikum,DurchführungPraktikum,Reflexion Praktikum)|7,5|1|||\n|15|Theologie I–TM 1 „Propädeutik und Hermeneutik“|2,5|2|||\n|15|TheologieI – TM 2„BiblischeT"
+    },
+    {
+      "rang": 17,
+      "score": 1.2939,
+      "id": "afc5654b-2b4a-5f35-b239-6fda031cb986",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xSemesteruebersichten/MAB-PS-WS2019-Semesteruebersicht.pdf",
+      "title_anzeige": "f2 › Ordnungen › xSemesteruebersichten › MAB PS WS2019 Semesteruebersicht",
+      "section_heading": "**Semesterübersicht Produktionssysteme MAB-PS (PO ab WS2019)**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Semesterübersicht Produktionssysteme MAB-PS (PO ab WS2019)**  \n|**Modul**||**Lehrveranstaltung**|**Lehrveranstaltung**|**Lehrveranstaltung**||||\n|---|---|---|---|---|---|---|---|\n|**M-Kürzel**|**Bezeichnung**|**TM-Kürzel**|**Bezeichnung**|**LVA**|**SWS**|**CP**|**Gew.**|\n|**Pfichtmodule**||||||"
+    },
+    {
+      "rang": 18,
+      "score": 1.24353,
+      "id": "dcca03a2-2794-5855-840d-26a32742ba3e",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2024-25/SBW-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › SBW WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**1. Seminar: Queere Gesundheit - (k)ein Thema für die Sozialpsychiatrie** (Dozent: Christian Bremer)",
+      "chunk_index": 77,
+      "text_vollstaendig": false,
+      "auszug": "## **1. Seminar: Queere Gesundheit - (k)ein Thema für die Sozialpsychiatrie** (Dozent: Christian Bremer)  \nInnerhalb der Lehrveranstaltung werden wir uns aus Perspektive der Critical Diversity Studies (CDS) mit der (psychischen) Gesundheit queerer Menschen auseinandersetzen. Inhalte der CDS werden w"
+    },
+    {
+      "rang": 19,
+      "score": 1.23913,
+      "id": "21dafac0-83e0-57d3-ba5e-ea6a010c93d2",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Lehrveranstaltungen/SoSe_2026/LV-UEbersicht_MLP_SoSe_2026_Stand_28.10.2025.pdf",
+      "title_anzeige": "f5 › Lehrveranstaltungen › SoSe 2026 › LV UEbersicht MLP SoSe 2026 Stand 28.10.2025",
+      "section_heading": "2. Semester, MLP Jg. 4",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## 2. Semester, MLP Jg. 4  \n|LV-Nr.|Dozentin/Dozent|Lehrveranstaltung (LV)|SWS|\n|---|---|---|---|\n|Pflichtmodule||||\n|LBS P1 Lernen und Lehren in derpflegeberuflichen Bildung (Spürk)||||\n|LBS P1b.1|Sachse|Selbstbestimmtes und kooperatives Lernen in der\nPflegebildung|1|\n|LBS P1b.2|Blank|Digital unter"
+    },
+    {
+      "rang": 20,
+      "score": 1.20261,
+      "id": "d83f00c2-59c6-567b-9b6d-e979c477a566",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Besonderer_Teil_Pruefungsordnung_BSW/Verkuendungsblatt_03_F_V__bsw_PO.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Besonderer Teil Pruefungsordnung BSW › Verkuendungsblatt 03 F V bsw PO",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelorstudiengang Soziale Arbeit (BSW) mit dem Abschluss Bachelor of Arts in der Fakultät V – Diakonie, Gesundheit und Soziales, Abteilung Soziale Arbeit der Hochschule Hannover (BTPO BSW 2026)** > **Bachelorstudiengang Soziale Arbeit (BSW) - 6 Semester (Version 20261)**",
+      "chunk_index": 27,
+      "text_vollstaendig": false,
+      "auszug": "|BSW-207|Gesellschaftliche Bedingungen\nSozialer Arbeit II|PF|10|10|BSW-207-01|Differenz und Dominanz im gesellschaftlichen Zusammenhang|PF|H, M, R|1|4|10|4./5.|\n||||||BSW-207-02|Demokratie und (Sozial-)Politik|PF|||4|||\n||||||BSW-207-03|Differenz und Dominanz im gesellschaftlichen Zusammenhang (1\nSL"
+    },
+    {
+      "rang": 21,
+      "score": 1.18717,
+      "id": "dd4d4e08-e537-5111-8d84-6341b0d1689d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Vorlesungsverzeichnis/VV-WiSe-2021-22/SBW-WiSe-2021-22.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2021 22 › SBW WiSe 2021 22 — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 20,
+      "text_vollstaendig": false,
+      "auszug": "## **Kommentar:**  \nLehrveranstaltung für Studierende des **2. Semesters.**  \nNachdem im vergangenen Sommersemester die Grundlagen der Rechtsordnung im Allgemeinen und des Strafrechts im Besonderen behandelt wurden, wird der Schwerpunkt dieser Veranstaltung auf den für die Soziale Arbeit relevanten "
+    },
+    {
+      "rang": 22,
+      "score": 1.18263,
+      "id": "11e32b7a-472a-5969-a54a-b5d0893f40f2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/08_Technischer_Vertrieb-2-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2010 › 08 Technischer Vertrieb 2 2010",
+      "section_heading": "Studiengang Technischer Vertrieb (dual) **Anlage B1 – Erster Studienabschnitt**",
+      "chunk_index": 24,
+      "text_vollstaendig": false,
+      "auszug": "Prüfungsleistungen gemäß § 7 Allgemeiner Teil der Prüfungsordnung  \nHinweis: Die Teilnahme an Lehrveranstaltungen kann begrenzt werden. Das Nähere regelt das Studienhandbuch.  \nAnlagen B1 und B2                                                                                                          "
+    },
+    {
+      "rang": 23,
+      "score": 1.17845,
+      "id": "b671eb47-2b1a-5dce-80dc-831f5d312a6f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/008-Modulhandbuch-BRS-PO-2018-2019-09-02-Online.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 008 Modulhandbuch BRS PO 2018 2019 09 02 Online — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "**Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS) – Empfohlener Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen** (für Studierende ab WiSe 2019/20)",
+      "chunk_index": 57,
+      "text_vollstaendig": false,
+      "auszug": "|**Gesamt 1.Semester **||**32,5**|**28**|||\n|||||||\n|**2.Semester (SoSe)**||||||\n|3|GesellschaftlicheBedingungenSozialer ArbeitI  – TM 1„Theoretische Grundlagen“*|2,5*|2*|Impulsreferat oder\nSitzungsprotokoll|_1 PL (Referat) ggf. bereits im 2._\n_Semester möglich_|\n|3|Gesellschaftliche Bedingungen Soz"
+    },
+    {
+      "rang": 24,
+      "score": 1.17543,
+      "id": "28b3e9a3-40c5-5731-9af3-068b1c45254b",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xSemesteruebersichten/WTD-WS2019-Semesteruebersicht.pdf",
+      "title_anzeige": "f2 › Ordnungen › xSemesteruebersichten › WTD WS2019 Semesteruebersicht",
+      "section_heading": "**Semesterübersicht Wirtschaftsing. (Technischer Vertrieb) WTD (dual, PO ab WS2019)**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "||||**Summen im Semester:**||**20**|**25**||\n|||||||||\n|**Semester**|**2 (SoSem)**|||||||\n|WTD-111|Mathematik 2 D|PTD-111-01|Mathematik 2 D|Vg|6|6|1|\n|WTD-115|Informatik|MAB-107-04|Angewandtes Programmieren - Grundlagen|Ü|1|2|0|\n|||MAB-112-03|Informatik-Labor|L|1|2|1|\n|WTD-123|Elektrotechnik|MAB-109"
+    },
+    {
+      "rang": 25,
+      "score": 1.16589,
+      "id": "dbb53cc3-c616-501c-9a9f-f2451fa37b1a",
+      "source_url": "https://f5.hs-hannover.de/studium/abteilung-soziale-arbeit-1",
+      "title_anzeige": "Herzlich Willkommen in der Abteilung Soziale Arbeit",
+      "section_heading": "Herzlich Willkommen in der Abteilung Soziale Arbeit > Hauptamtlich Lehrende der Sozialen Arbeit",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "Christian Bremer ist staatlich anerkannter Sozialarbeiter / -pädagoge und hat einen Masterabschluss in internationaler und interkultureller Sozialer Arbeit. Nach dem Studium war er in unterschiedlichen Praxisfeldern der gesundheitsbezogenen Sozialen Arbeit, wie dem Sozialpsychiatrischen Dienst, der "
+    },
+    {
+      "rang": 26,
+      "score": 1.14186,
+      "id": "868ddffa-433b-578b-8a43-079eb1b364af",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/023-MH-BSW-PO-2026-Stand-30.06.2026-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 023 MH BSW PO 2026 Stand 30.06.2026 web",
+      "section_heading": "**Möglicher Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen** (für Studierende ab SoSe 2026)",
+      "chunk_index": 50,
+      "text_vollstaendig": false,
+      "auszug": "Belegen Sie je 1 Veranstaltung pro Wahlpflichtteilmodul, insgesamt also 2 Veranstaltungen)*||5*|4*|2 SL (Übung, Impulsreferat,\nProtokoll oder Kurzreflexion, (je\neine SL in jedem der beiden\nbelegten Wahlpflichtbereiche)|_3 PL Berufspraktische Übung ggf._\n_bereits im 2. Semester möglich_|\n|M 22|Grundl"
+    },
+    {
+      "rang": 27,
+      "score": 1.14173,
+      "id": "3d09e7a7-a9e8-5a66-8f9d-faada7e81d45",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/022-MH-BSW-PO-2026-Stand-16.03.2026-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 022 MH BSW PO 2026 Stand 16.03.2026 web",
+      "section_heading": "**Möglicher Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen** (für Studierende ab SoSe 2026)",
+      "chunk_index": 50,
+      "text_vollstaendig": false,
+      "auszug": "Belegen Sie je 1 Veranstaltung pro Wahlpflichtteilmodul, insgesamt also 2 Veranstaltungen)*||5*|4*|2 SL (Übung, Impulsreferat,\nProtokoll oder Kurzreflexion, (je\neine SL in jedem der beiden\nbelegten Wahlpflichtbereiche)|_3 PL Berufspraktische Übung ggf._\n_bereits im 2. Semester möglich_|\n|M 22|Grundl"
+    },
+    {
+      "rang": 28,
+      "score": 1.12328,
+      "id": "5c9cfc79-c270-5932-a51b-cbcca8a7ac72",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xSemesteruebersichten/IIM-WS2019-Semesteruebersicht.pdf",
+      "title_anzeige": "f2 › Ordnungen › xSemesteruebersichten › IIM WS2019 Semesteruebersicht",
+      "section_heading": "**Semesterübersicht Ingenieurinformatik Maschinenbau IIM (PO ab WS2019)**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Semesterübersicht Ingenieurinformatik Maschinenbau IIM (PO ab WS2019)**  \n|**Modul**||**Lehrveranst**|**altung**|**altung**||||\n|---|---|---|---|---|---|---|---|\n|**M-Kürzel**|**Bezeichnung**|**TM-Kürzel**|**Bezeichnung**|**LVA**|**SWS**|**CP**|**Gew.**|\n|**Pfichtmodule**||||||||\n|**Semester**|"
+    },
+    {
+      "rang": 29,
+      "score": 1.10274,
+      "id": "7b090b51-b519-5174-a5e9-b7fd18c7ac65",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/008-Modulhandbuch-BRS-PO-2018-2019-09-02-Online.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 008 Modulhandbuch BRS PO 2018 2019 09 02 Online — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "**Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS) – Empfohlener Studienverlauf nach Semestern mit SWS-Belastung, Studien- und Prüfungsleistungen** (für Studierende ab WiSe 2019/20)",
+      "chunk_index": 58,
+      "text_vollstaendig": false,
+      "auszug": "BildungI“|2,5|2|1 SL||\n|6|Handlungskonzepte undMethoden –Grundlagen – TM 1, 3,4, 5 oder6 (Wahlpflicht)*|2,5*|2*|||\n|11|Praktikum(VorbereitungPraktikum,DurchführungPraktikum,Reflexion Praktikum)|7,5|1|||\n|15|TheologieI – TM 1„PropädeutikundHermeneutik“|2,5|2|||\n|15|TheologieI – TM 2„BiblischeTheologi"
+    },
+    {
+      "rang": 30,
+      "score": 1.09276,
+      "id": "e1d17ded-38c8-5f23-af8c-cd6e7ae73c5d",
+      "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000005682",
+      "title_anzeige": "Prof. Dr. Maike Wagenaar",
+      "section_heading": "Prof. Dr. Maike Wagenaar > Lehrgebiet",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Lehrgebiet\n* Gesundheitsbezogene Soziale Arbeit mit den Schwerpunkten Sozialpsychiatrie und Suchthilfe"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 45441,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.7,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 7.48,
+    "docs_laden_s": 0.65,
+    "quellen_s": 9.84,
+    "antwort_llm_s": 3.89,
+    "gesamt_s": 13.73
+  },
+  "auswahl_begruendung": "{\"selected\":[5,7,4,12]}"
+}

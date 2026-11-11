@@ -1,0 +1,1530 @@
+{
+  "fall": {
+    "id": "q02",
+    "case_type": "direct",
+    "question": "Ist der Bachelorstudiengang Mechatronik zulassungsfrei und welches Vorpraktikum wird verlangt?",
+    "reference_answer": "Der Bachelorstudiengang Mechatronik ist zulassungsfrei. Studienbewerber*innen müssen vor Aufnahme des Studiums ein Vorpraktikum von 6 Wochen oder eine fachbezogene Ausbildung nachweisen. Ist der Nachweis zum Immatrikulationsschluss nicht möglich, kann das Vorpraktikum bis zum Ende des 2. Semesters nachgeholt werden.",
+    "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge"
+    ],
+    "required_facts": [
+      "Mechatronik ist zulassungsfrei.",
+      "Es werden 6 Wochen Vorpraktikum oder eine fachbezogene Ausbildung verlangt.",
+      "Das Vorpraktikum kann bis zum Ende des 2. Semesters nachgeholt werden."
+    ],
+    "optional_facts": [
+      "Der Nachweis soll grundsätzlich vor Aufnahme des Studiums erfolgen."
+    ],
+    "forbidden_claims": [
+      "Einen Numerus clausus oder eine andere Zulassungsbeschränkung behaupten.",
+      "Eine andere Praktikumsdauer nennen."
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Wichtig sind Zulassungsfreiheit, 6 Wochen Vorpraktikum bzw. fachbezogene Ausbildung und die Nachholmöglichkeit bis Ende des 2. Semesters.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "zulassungsfrei",
+      "6 Wochen"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Zentrale Studienangebotsseite: Mechatronik zulassungsfrei, Vorpraktikum.",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "bb6c1b20-71a7-50e8-a81e-bf15a9825bde",
+      "3be1272b-154d-509a-8546-7a5ea3757b66",
+      "041c7708-134f-5e7d-a48d-663d56546cc6",
+      "42dabbe8-8a3f-5f45-841c-f2c7a8a3912b",
+      "77398a15-3259-5a06-b90c-6b504d51833a",
+      "a2b7e1db-08db-59e3-9e06-49c36e2859e0",
+      "848bdf79-09fa-5fe6-87e5-d2f9e3517329",
+      "67fbc2c4-539c-50d9-9a39-22fd680d91ea",
+      "97b2f132-e356-530d-81d5-9f53c52d0650",
+      "0e13032b-8610-5d21-ae2b-67d6bbf5da51",
+      "8bada32e-3f44-5b98-94fa-a1af40238cd9",
+      "e096decc-9eb6-5c1f-b1fc-ab4a0d1eda35",
+      "aebfab59-ab6c-578b-a997-e35d98617e76",
+      "ad35f28b-336d-5985-a486-7d0b45425374",
+      "d92b3f30-252b-5496-bead-81094bf7bf9e",
+      "53780e74-3e1e-5456-a89e-faba4b06a47d",
+      "de9b37fe-0aec-54ea-a48c-c72f9f513ec8",
+      "d6bc5ad9-9a7c-53d1-8154-fa42a66276c4",
+      "675a2057-3cda-5506-8e4a-7ccc7eb852e5",
+      "1967526c-ce80-5148-93b8-82fe02c0459d",
+      "15b2cc61-85bb-579b-a22f-b2358c409589",
+      "5f9e653c-7f22-57cc-af17-2d61b369673a",
+      "6591f371-c155-555a-ad35-a7bed0110102",
+      "600d1a14-e191-5d51-8e06-f7e6ac574208",
+      "34363b10-23e9-58f7-b486-4de3e72975b9",
+      "ca73b3b3-dbab-51b7-bf77-65a0cb3d2214",
+      "32cec630-2039-5f12-8244-67cebdae40d9",
+      "02e47908-2c74-5d57-970d-8dbc274c45c1",
+      "4aa0e1d8-eeb9-5525-b2fa-fd6c0c8ceb70",
+      "ec6a8684-abf2-5e8c-af55-b79cec25570c",
+      "5fde8560-02b2-50d2-b321-5eff5dec115e",
+      "22a84a03-2404-5c6a-aff8-c10210d29d4b",
+      "bf071083-3e12-5ef1-94b7-f347f51cbef6",
+      "362470b8-af8f-57ee-9c45-125b466de868",
+      "ad25eb6e-b80c-5219-b332-56fa2a8db3aa",
+      "cfee4aea-f74a-54da-987e-998dcd7c4d2b",
+      "1faca48d-2af1-5d4b-9522-b4fd55acebc4",
+      "3e66c7c2-b5d0-52f2-9a0f-4e9baf4df8dd",
+      "260fe66d-d1fc-5887-a2dc-6daad8c1d51a",
+      "03f850d1-3712-5abd-82f9-b9642eab74b1",
+      "2247a2a6-9663-56df-8ae1-da3d6875a288",
+      "cf9d3d2f-4c3f-5514-b679-54d8bafef455",
+      "a238a32d-d6e1-5749-a2f1-87bb3a09864b",
+      "bf968a32-bfbc-506a-bf41-bf6f2e900d4a",
+      "0ba7c28e-88d4-5e0c-b7bf-0face3c89a0e",
+      "e74f2598-0721-5802-97e8-47e637961071",
+      "cad099a2-7cee-5c37-9f60-b26fb8d39f72",
+      "6d76a83c-be80-5f5b-9e1f-e7440af2d21f",
+      "407086c0-150f-5a89-8670-fd39ff02a528",
+      "052850c1-bfea-52d1-9fd9-2de72304edc6",
+      "62636fb0-6a46-529e-80b2-66c6f57368fc",
+      "0deecfaf-5a2e-5af6-8f88-d45018d151c1",
+      "76721ed6-4d14-52fd-b13d-3dce35f8c38f",
+      "b3b42739-c7e5-57a7-9fa6-5486e30dec08",
+      "446cee81-58e5-5e20-9ff4-ed0bb144482c",
+      "fbc58f2e-9e95-5bf3-8b77-07582450d447",
+      "d0390dba-c6f7-5d65-ba0e-7b86bddb8390",
+      "0a60e8e1-3cb3-5b95-b2a4-f175c921df86",
+      "3bc9c2b1-4a8c-5b64-8f34-8ddb43e1e163",
+      "f9304fe1-f205-51c2-a958-8496b441f7c3",
+      "00f47d14-fe52-5895-bddd-93259381eb20",
+      "f14c2990-a3d9-52ab-9573-dc6d375d813d",
+      "39ea99ad-cde2-5ae3-be5d-aeaef86dbdeb",
+      "e3988412-30b2-5649-add3-7b36d7a5795c",
+      "3fc8a822-9dd4-5ee5-8f2d-e59e3621b3f2",
+      "7c5e3847-d5ea-5084-ac40-9c3e0f6bcad4",
+      "aa0732ee-9b5e-5b60-bfac-d49ebc43d8fb",
+      "326b5f2c-aea3-556f-a1ab-48dbe403d3c7",
+      "6a70a1cb-b0f8-5c8f-8703-3b32d229adcc"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T16:04:09",
+  "dauer_s": 4.67,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › studium › studienangebot › bachelor studiengaenge — Filter auswählen",
+      "url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "fakultaet": "",
+      "struktur": "# Bachelor-Studiengänge\n    ### Filter auswählen\n  ## Abteilung Religionspädagogik und Soziale Arbeit\n  ## Angewandte Informatik (BIN)\n  ## Angewandte Mathematik und Data Science (MAT)\n  ## Bank- und Versicherungswesen (BBI)\n  ## Betriebswirtschaftslehre (BBA)\n  ## Biotechnologie und Umwelttechnik (BIU)\n  ## Dual Studieren in der Elektro- und Informationstechnik\n  ## Elektrotechnik und Informationstechnik (EIT)\n  ## Future Food Systems (LVT)\n  ## Green Engineering – Energietechnik und Verfahrenstechnik (GEV)\n  ## Heilpädagogik - Inklusive Bildung und Begleitung - berufsbegleitend (HBI)\n  ## Heilpädagogik - Inklusive Bildung und Begleitung (BAH)\n  ## Informationsmanagement (BIM)\n  ## Informationsmanagement berufsbegleitend (BIB)\n  ## Ingenieurinformatik Maschinenbau (IIM)\n  ## Ingenieurinformatik Maschinenbau dual (IID)\n  ## Innenarchitektur (BIA)\n  ## Integrated Media & Communication (IMC) Dual\n  ## International Business Studies (IBS)\n  ## Journalistik (BJO)\n  ## Konstruktionstechnik dual (KTD)\n  ## Lebensmittelverpackungstechnologie (LMV)\n  ## Maschinenbau (MAB)\n  ## Mechatronik (MEC)\n  ## Mechatronik dual (MTD)"
+    },
+    {
+      "nr": 2,
+      "titel": "FAQ für Studierende und Studienbewerber*innen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "fakultaet": "",
+      "struktur": "# FAQ für Studierende und Studienbewerberinnen\n  ## Ihre Frage - unsere Antwort\n  ## Fragen vor dem Studium\n  ## Fragen vor der Bewerbung\n  ## Fragen nach der Bewerbung\n  ## Fragen zum Studienstart\n  ## Fragen zum Wechsel des Studiengangs oder der Hochschule\n  ## Fragen zur Unterbrechung des Studiums\n  ## Fragen zum Ende des Studiums\n  ## Allgemeine Fragen"
+    },
+    {
+      "nr": 3,
+      "titel": "Duale Studiengänge",
+      "url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+      "fakultaet": "",
+      "struktur": "# Duale Studiengänge\n    ### Filter auswählen\n  ## Dual Studieren in der Elektro- und Informationstechnik\n  ## Ingenieurinformatik Maschinenbau dual (IID)\n  ## Integrated Media & Communication (IMC) Dual\n  ## Konstruktionstechnik dual (KTD)\n  ## Maschinenbau - Produktionssysteme dual (MPD)\n  ## Mechatronik dual (MTD)\n  ## Produktionstechnik dual (PTD)\n  ## Wertschöpfungsmanagement im Maschinenbau dual (WMM)\n  ## Wirtschaftsingenieur/in (Technischer Vertrieb) dual (WTD)\n  ## Wirtschaftsingenieurwesen Maschinenbau dual (WID)"
+    },
+    {
+      "nr": 4,
+      "titel": "f1 › 10 Bachelorstdg › MEC › 20160518 BPO MEC verk",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Bestehen der Vor- und Bachelor-Prüfung\n  ## § 6\n  ## Endgültiges Nichtbestehen der Vor- und Bachelor-Prüfung\n  ## § 7\n  ## Wiederholung von Prüfungsleistungen\n  ## § 8\n  ## Bachelor-Arbeit\n  ## § 9\n  ## Teilzeitstudium\n  ## § 10\n  ## Internationale Studienoption\n  ## § 11\n  ## Übergangsbestimmungen\n  ## § 12\n  ## Inkrafttreten\n  ## 2. Änderung\n  ## 3. Änderung\n  ## Anlage B1: 1. Studienabschnitt Studiengang Mechatronik (MEC)\n  ## Anlage B2: 2. Studienabschnitt Studiengang Mechatronik (MEC)\n  ## Summe Credits 120\n  ## Anlage B2-plus: 2. Studienabschnitt Studiengang Mechatronik Internationale MEC-plus\n  ## Im Ausland zu erbringende Leistungen"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "fakultaet": "",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Studiengang Mechatronik (BME) mit dem Abschluss Bachelor of Engineering an der Fakultät I – Elektro- und Informationstechnik der Fachhochschule Hannover (FHH)\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## §5\n  ## Technische Wahlpflichtfächer und  Wahlpflichtlabore\n  ## §6\n  ## Übergangsbestimmung\n  ## §7\n  ## Inkrafttreten\n  ## Anlage B2 zum Studiengang Mechatronik\n  ## Legende:"
+    },
+    {
+      "nr": 6,
+      "titel": "Mechatronik dual (MTD)",
+      "url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/mechatronik-dual-mtd",
+      "fakultaet": "f2",
+      "struktur": "# Mechatronik dual (MTD)\n  ## Studieninhalte\n    ### Auf einen Blick\n# Kurzübersicht\n# Mechanik, Elektronik und Informatik: innovative Technologien um effiziente Lösungen zu entwickeln.\n  ## Ziele des Studienganges\n  ## Einsatzmöglichkeiten\n  ## Fachliche Inhalte & Themen\n  ## Weitere Informationen\n    ### Ansprechperson\n    ### Ansprechperson\n    ### Linksammlung\n    ### Downloads\n# Jetzt bewerben! Oder sind Sie noch unsicher?"
+    },
+    {
+      "nr": 7,
+      "titel": "f1 › 10 Bachelorstdg › MEC › FI BTPO BA MEC 15.05.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik (MEC) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I – Elektro- und Informationstechnik\n# der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Wiederholung von Prüfungsleistungen\n  ## § 6\n  ## Bachelor-Arbeit\n  ## § 7\n  ## Teilzeitstudium\n  ## § 8\n  ## Internationale Studienoption\n  ## § 9\n  ## Übergangsbestimmungen\n  ## § 10\n  ## Inkrafttreten\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Ergänzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 8,
+      "titel": "Mechatronik (MEC)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "fakultaet": "f1",
+      "struktur": "# Mechatronik (MEC)\n    ### Auf einen Blick\n# Kurzübersicht\n# Schnittstelle zwischen den Disziplinen\n  ## Studieninhalte\n  ## Optionen\n    ### Und so könnte es für Sie als Absolventin oder Absolvent des Bachelor-Studiengangs Mechatronik weitergehen:\n  ## Qualifikationsziele\n  ## Dokumente\n  ## Kontakt\n    ### Studiengangsleiter\n# Haben wir Ihr Interesse geweckt?"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 4.20811,
+      "id": "76721ed6-4d14-52fd-b13d-3dce35f8c38f",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "title_anzeige": "www › studium › studienangebot › bachelor studiengaenge — Filter auswählen",
+      "section_heading": "Bachelor-Studiengänge > Mechatronik (MEC)",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "## Maschinenbau (MAB)\n* **Abschluss** Bachelor of Engineering (B.Eng.)\n* **Studienbeginn** Sommer- und Wintersemester\n* **Studienform** Voll- und Teilzeit\n* **Zulassungsmodus** zulassungsfrei\n* **Regelstudienzeit** 7 Semester\n* **Bewerbungsschluss** 28. Februar oder 31. August eines Jahres\n* **Verti"
+    },
+    {
+      "rang": 2,
+      "score": 2.90773,
+      "id": "e860521f-a91a-58df-8f84-4e629ffcf867",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "title_anzeige": "FAQ für Studierende und Studienbewerber*innen",
+      "section_heading": "FAQ für Studierende und Studienbewerber*innen > Fragen vor der Bewerbung > FAQ für Studierende und Studienbewerber*innen",
+      "chunk_index": 25,
+      "text_vollstaendig": true,
+      "auszug": "Mit der **Bewerbung warten** , bis das Zeugnis vorliegt und die Abschlussnote eingetragen ist.\nAnschließend die Bewerbung mit**vollständigen Angaben** fristgerecht abschicken.\n[ Was ist beim Vorpraktikum zu beachten? ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq"
+    },
+    {
+      "rang": 3,
+      "score": 2.82951,
+      "id": "446cee81-58e5-5e20-9ff4-ed0bb144482c",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "title_anzeige": "www › studium › studienangebot › bachelor studiengaenge — Filter auswählen",
+      "section_heading": "Bachelor-Studiengänge > Mechatronik dual (MTD)",
+      "chunk_index": 31,
+      "text_vollstaendig": true,
+      "auszug": "[ Details zum Studiengang ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec)\n\n## Mechatronik dual (MTD)\n* **Abschluss** Bachelor of Engineering (B.Eng.)\n* **Studienbeginn** Wintersemester\n* **Studienform** dual\n* **Zulassungsmodus** zulassungsfrei"
+    },
+    {
+      "rang": 4,
+      "score": 2.80325,
+      "id": "decca4fd-c9d0-5b0b-8ff6-0355b3f87969",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+      "title_anzeige": "Duale Studiengänge",
+      "section_heading": "Duale Studiengänge > Mechatronik dual (MTD)",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## Mechatronik dual (MTD)\n* **Abschluss** Bachelor of Engineering (B.Eng.)\n* **Studienbeginn** Wintersemester\n* **Studienform** dual\n* **Zulassungsmodus** zulassungsfrei\n* **Interessensgebiet** MINT, Technik, Mechatronik, Maschinenbau, Informatik\n* **Regelstudienzeit** 7 (210 CP)\n* **Bewerbungsschlu"
+    },
+    {
+      "rang": 5,
+      "score": 2.74569,
+      "id": "7ca2d0aa-6dfb-5914-9791-de16a4f2529f",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › 20160518 BPO MEC verk",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **§ 3** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Mechatronik einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit).  \n- (2) Das Bachelor-Studium gliedert sich in einen erste"
+    },
+    {
+      "rang": 6,
+      "score": 2.67151,
+      "id": "1bc7ae9d-787f-5d72-949b-cd8e46063ae3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "section_heading": "**`§ 2`** > **`Dauer und Gliederung des Studiums`**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **`§ 2`**\n## **`Dauer und Gliederung des Studiums`**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Mechatronik einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit).  \n- (2) Das Bachelor-Studium gliedert sich in:  \n- (1"
+    },
+    {
+      "rang": 7,
+      "score": 2.64281,
+      "id": "1da35cc6-04b6-55a4-b19d-47bda48a38d1",
+      "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/mechatronik-dual-mtd",
+      "title_anzeige": "Mechatronik dual (MTD)",
+      "section_heading": "Kurzübersicht",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "# Kurzübersicht\n* **Abschluss**\nBachelor of Engineering (B.Eng.)\n* **Studienbeginn**\nWintersemester\n* **Studienform**\ndual\n* **Zulassungsmodus**\nzulassungsfrei\n* **Interessensgebiet**\nMINT, Technik, Mechatronik, Maschinenbau, Informatik\n* **Regelstudienzeit**\n7 (210 CP)\n* **Bewerbungsschluss**\n31. A"
+    },
+    {
+      "rang": 8,
+      "score": 2.63013,
+      "id": "c0dd3de2-2efc-50e7-a7a1-0864a8fe9218",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › FI BTPO BA MEC 15.05.2026",
+      "section_heading": "**der Hochschule Hannover** > **§ 3** > **der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Mechatronik einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit).  \n- (2) Das Bachelor-Studium gliedert sich in einen erste"
+    },
+    {
+      "rang": 9,
+      "score": 2.58448,
+      "id": "42dabbe8-8a3f-5f45-841c-f2c7a8a3912b",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "title_anzeige": "Mechatronik (MEC)",
+      "section_heading": "Kurzübersicht",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "# Kurzübersicht\n* **Abschluss**\nBachelor of Engineering (B.Eng.)\n* **Studienbeginn**\nSommer- und Wintersemester\n* **Fächergruppe**\nTechnik, MINT, Maschinenbau, Mathematik\n* **Studienform**\nVoll- und Teilzeit\n* **Zulassungsmodus**\nzulassungsfrei\n* **Interessensgebiet**\nElektrotechnik, Ingenieurwissen"
+    },
+    {
+      "rang": 10,
+      "score": 2.53638,
+      "id": "74c48e55-8e77-518a-b616-cbf03002a5aa",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+      "title_anzeige": "Benötigte Vorpraktika",
+      "section_heading": "Benötigte Vorpraktika > Anforderungen nach Fakultät: > Benötigte Vorpraktika",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "An der Fakultät II wird nur für die Studiengänge Maschinenbau, Verfahrenstechnik, Energietechnik- und Umwelttechnik, Ingenieurinformatik Maschinenbau sowie Wirtschaftsingenieur Maschinenbau ein Vorpraktikum vorausgesetzt. Das Vorpraktikum sollte bis zum Studienantritt absolviert sein, der Nachweis ü"
+    },
+    {
+      "rang": 11,
+      "score": 2.47699,
+      "id": "88c95aa4-d9cb-501d-94c3-d9b8fde368a5",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+      "title_anzeige": "Benötigte Vorpraktika",
+      "section_heading": "Benötigte Vorpraktika > Anforderungen nach Fakultät: > Benötigte Vorpraktika",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Anforderungen nach Fakultät:\n##\n[ Fakultät I - Elektro- und Informationstechnik ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum \"Fakultät I - Elektro- und Informationstechnik\")\nFür die Studiengänge Energietechnik und Informationst"
+    },
+    {
+      "rang": 12,
+      "score": 2.47282,
+      "id": "42866c90-c208-5a76-a703-237e01cba863",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/03-PO-Mechatronik.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2012 › 03 PO Mechatronik",
+      "section_heading": "**`Besonderer Teil der Prüfungsordnung für den Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover`** > **`§ 2`** > **`Besonderer Teil der Prüfungsordnung für den Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover`** > **`Dauer und Gliederung des Studiums`**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **`§ 2`**\n## **`Dauer und Gliederung des Studiums`**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Mechatronik einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit).  \n- (2) Das Bachelor-Studium gliedert sich in einen e"
+    },
+    {
+      "rang": 13,
+      "score": 2.37775,
+      "id": "a8c13343-2fa0-59d3-b0bf-5ce282ed3508",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Dual/Flyer_u._Informationsmaterial/Flyer_MTD_dual_Fakulta__tII_WEB.pdf",
+      "title_anzeige": "f2 › Dual › Flyer u. Informationsmaterial › Flyer MTD dual Fakulta tII WEB — Wozu qualifiziert das Studium?",
+      "section_heading": "Bachelorstudiengang Mechatronik (dual)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Bachelorstudiengang Mechatronik (dual)  \n- Leichtere Finanzierung des Studiums  \n- Frühzeitige Integration in den Betrieb  \n- Verknüpfung von Theorie und Praxis  \n- Optionales Masterstudium  \n- Direkter Berufseinstieg ohne Einarbeitung"
+    },
+    {
+      "rang": 14,
+      "score": 2.25936,
+      "id": "dbe80b4d-a4e0-58fe-934f-3e712d519986",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/02-MTD_PO_2019-Neu-20220701.pdf",
+      "title_anzeige": "f2 › Ordnungen › MTD › 02 MTD PO 2019 Neu 20220701",
+      "section_heading": "**mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **§ 3** > **mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für die dualen BachelorStudiengänge einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit). Im Falle der Ausbildungsintegration wird das Studium um ein J"
+    },
+    {
+      "rang": 15,
+      "score": 2.19606,
+      "id": "acc4e317-84db-5e2a-a5c6-055b85e9c162",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/5_MTD_2017_20220701.pdf",
+      "title_anzeige": "f2 › Ordnungen › MTD › 5 MTD 2017 20220701",
+      "section_heading": "**für den dualen Bachelor-Studiengang Mechatronik (MTD) mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II, Maschinenbau und Bioverfahrenstechnik, der Hochschule Hannover** > **§ 3** > **für den dualen Bachelor-Studiengang Mechatronik (MTD) mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II, Maschinenbau und Bioverfahrenstechnik, der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für die dualen Bachelorstudiengänge einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit). Im Falle der Ausbildungsintegration wird das Studium um ein J"
+    },
+    {
+      "rang": 16,
+      "score": 2.09959,
+      "id": "c510a74c-8aec-5c7e-bca1-403b1857a5dd",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+      "title_anzeige": "Informationen für Studieninteressierte",
+      "section_heading": "Informationen für Studieninteressierte > FAQs für Studieninteressierte",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "Die formale Voraussetzung für alle Master-Studiengänge an der Hochschule Hannover ist ein erstes abgeschlossenes Studium (Bachelor oder Diplom).\nDie weiteren Zulassungsvoraussetzungen werden von den Fakultäten definiert und können in den Zulassungsordnungen nachgelesen oder im Dekanat erfragt werden"
+    },
+    {
+      "rang": 17,
+      "score": 2.0237,
+      "id": "848bdf79-09fa-5fe6-87e5-d2f9e3517329",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "title_anzeige": "Mechatronik (MEC)",
+      "section_heading": "Schnittstelle zwischen den Disziplinen > Studieninhalte",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Studieninhalte\nDer Bachelorstudiengang Mechatronik umfasst 7 Semester und ist in zwei Studienabschnitte gegliedert.\nIm ersten Studienabschnitt (1.–3. Semester) erlernen Sie die grundlegenden mathematischen, natur- und ingenieurwissenschaftlichen Zusammenhänge, die für Behandeln und Lösen mechatro"
+    },
+    {
+      "rang": 18,
+      "score": 2.01995,
+      "id": "1447484c-faa8-5de5-8d4f-af146a3b6b83",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "title_anzeige": "Elektrotechnik und Informationstechnik (EIT)",
+      "section_heading": "Sie wollen nicht nur wissen, wie Dinge funktionieren ... > Dokumente > Sie wollen nicht nur wissen, wie Dinge funktionieren ...",
+      "chunk_index": 26,
+      "text_vollstaendig": true,
+      "auszug": "[Modulübersichten der alten PO (2011)](https://f1.hsh-intern.hs-hannover.de/service/studierende/moduluebersichten-der-alten-pos/index.html)\n[ Ordnungen ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1 \"Ordnungen\")\n*"
+    },
+    {
+      "rang": 19,
+      "score": 2.01664,
+      "id": "52e8d8cc-e0e9-56cf-8631-678cffc89fce",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi",
+      "title_anzeige": "Wirtschaftsingenieur Elektrotechnik (EWI)",
+      "section_heading": "Elektrotechnik mit wirtschaftlichen Zusammenhängen verbinden > Dokumente und Ordnungen > Elektrotechnik mit wirtschaftlichen Zusammenhängen verbinden",
+      "chunk_index": 25,
+      "text_vollstaendig": true,
+      "auszug": "[ Ordnungen ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi \"Ordnungen\")\n* [Vorpraktikumsordnung](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/Vorprak"
+    },
+    {
+      "rang": 20,
+      "score": 1.99261,
+      "id": "9b8add4c-4c5b-5879-8604-50f457b935d3",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "title_anzeige": "Elektrotechnik und Informationstechnik (EIT)",
+      "section_heading": "Kurzübersicht",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "# Kurzübersicht\n* **Abschluss**\nBachelor of Engineering (B.Eng.)\n* **Studienbeginn**\nSommer- und Wintersemester\n* **Fächergruppe**\nMINT, Technik\n* **Studienform**\nVoll- und Teilzeit\n* **Zulassungsmodus**\nzulassungsfrei\n* **Interessensgebiet**\nElektrotechnik, Ingenieurwissenschaft, Technik\n* **Regels"
+    },
+    {
+      "rang": 21,
+      "score": 1.94317,
+      "id": "6130ea47-bb16-5af2-95a8-4f7d3dc9cb12",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+      "title_anzeige": "www › servicezentrum beratung › studienberatung › faqs",
+      "section_heading": "",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "Fakultät II, die dualen Studiengänge\nKonstruktionstechnik\nMechatronik\nProduktionstechnik\nTechnischer Vertrieb  \nFakultät IV\nInternational Business Studies  \nFakultät V\nPflege (berufsintegrierender Studiengang)  \nFür Master-Studiengänge gibt es keine solche NC-Übersicht, da neben der Abschluss-Note d"
+    },
+    {
+      "rang": 22,
+      "score": 1.84589,
+      "id": "229207a2-52bc-540c-94aa-26bb28c500e1",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi",
+      "title_anzeige": "Wirtschaftsingenieur Elektrotechnik (EWI)",
+      "section_heading": "Kurzübersicht",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "# Kurzübersicht\n* **Abschluss**\nBachelor of Engineering (B.Eng.)\n* **Studienbeginn**\nSommer- und Wintersemester\n* **Fächergruppe**\nTechnik, MINT, Wirtschaft, Mathematik\n* **Studienform**\nVoll- und Teilzeit\n* **Zulassungsmodus**\nzulassungsfrei\n* **Interessensgebiet**\nElektrotechnik, Betriebswirtschaf"
+    },
+    {
+      "rang": 23,
+      "score": 1.8086,
+      "id": "27bb766f-8f97-51a7-942b-6951e31c7a7f",
+      "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/verfahrenstechnik-energietechnik-und-umwelttechnik-veu",
+      "title_anzeige": "Verfahrenstechnik, Energietechnik und Umwelttechnik (VEU)",
+      "section_heading": "Kurzübersicht",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "# Kurzübersicht\n* **Abschluss**\nBachelor of Engineering (B.Eng.)\n* **Fächergruppe**\nMathematik, Informatik, Biologie, Chemie, Physik, Technik, Maschinenbau, Wirtschaft\n* **Studienform**\nVollzeit\n* **Zulassungsmodus**\nzulassungsfrei\n* **Interessensgebiet**\nMINT, Maschinenbau, Energie, Umwelt, Lebensm"
+    },
+    {
+      "rang": 24,
+      "score": 1.78306,
+      "id": "84240cd5-2778-5f21-858e-8bc5b65581b0",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/besonderheiten-und-fristen",
+      "title_anzeige": "Besonderheiten und Fristen",
+      "section_heading": "Besonderheiten und Fristen > Auf dieser Seite finden Sie die allgemeine Informationen, Bewerbungsfristen und Besonderheiten der Fakultäten > Besonderheiten und Fristen",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "Für die Bachelorstudiengänge [Innenarchitektur](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/innenarchitektur-bia), [Produktdesign](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/produktdesign-bpd), [MODE: konzept. design. kommunikation.](https://f3.hs-hannover.de/studium/bache"
+    },
+    {
+      "rang": 25,
+      "score": 1.686,
+      "id": "e5bbf448-27ae-534e-afaa-ae9442d656ed",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+      "title_anzeige": "www › servicezentrum beratung › studienberatung › faqs",
+      "section_heading": "",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "Das Unternehmen oder die Einrichtung, wo Sie das Vorpraktikum absolvieren, muss aber weder ein Ausbildungs- noch ein Meisterbetrieb sein; auch auf die Größe kommt es nicht an. Das Praktikum muss nicht an einem Stück absolviert werden. Es kann auch geteilt und in verschiedenen Unternehmen/Einrichtung"
+    },
+    {
+      "rang": 26,
+      "score": 1.64352,
+      "id": "1c816df5-60d7-5190-9178-1868f67798ce",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/NC-Werte-HsHSoSe26final.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Studienberatung › NC Werte HsHSoSe26final",
+      "section_heading": "Numerus-Clausus-Übersicht zur Orientierung:",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Numerus-Clausus-Übersicht zur Orientierung:  \n**Fakultät I: Elektro- und Informationstechnik**  \n|Studiengang\n|Regelstudienzeit|NC - Sommersemester\n2026|NC - Wintersemester\n2025/26|\n|---|---|---|---|\n|Angewandte Mathematk\nund Data Science(MAT)|7 Semester|Keine Aufnahme|Zulassungsfrei|\n|Elektrotec"
+    },
+    {
+      "rang": 27,
+      "score": 1.61931,
+      "id": "f217d343-5c51-5bc0-932f-684b89263f7c",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/studiengaenge-a-z",
+      "title_anzeige": "Studienangebote A – Z",
+      "section_heading": "Studienangebote A – Z > Green Engineering – Energietechnik und Verfahrenstechnik (GEV)",
+      "chunk_index": 24,
+      "text_vollstaendig": true,
+      "auszug": "## Green Engineering – Energietechnik und Verfahrenstechnik (GEV)\n* **Abschluss** Bachelor of Engineering (B.Eng.)\n* **Studienbeginn** Sommer- und Wintersemester\n* **Studienform** Voll- und Teilzeit\n* **Zulassungsmodus** zulassungsfrei\n* **Interessensgebiet** Ingenieurwissenschaft, MINT, Energie, Um"
+    },
+    {
+      "rang": 28,
+      "score": 1.60567,
+      "id": "8613e76a-0dd0-515a-8193-4c684ede3048",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+      "title_anzeige": "Informationen für Studieninteressierte",
+      "section_heading": "Informationen für Studieninteressierte > FAQs für Studieninteressierte",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "Neben der [Hochschulzugangsberechtigung](https://www.studieren-in-niedersachsen.de/studienwahl/studienbewerbung/hochschulzugang.html \"Hochschulzugang\") und der Abschlussnote, können z.B. auch eine künstlerische Eignungsprüfung bzw. ein Portfolio, [ein Vorpraktikum](https://www.hs-hannover.de/ueber-u"
+    },
+    {
+      "rang": 29,
+      "score": 1.60531,
+      "id": "9a251a22-01da-55f4-8fc1-56c57843b256",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch MEC WS2023 V3 — Modulhandbuch für den Studiengang Mechatronik PO-Version WS2023",
+      "section_heading": "**Einleitung** > **Struktur des Studiengangs**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Einleitung**\n## **Struktur des Studiengangs**  \nDas Bachelor-Studium Mechatronik ist untergliedert in einen ersten Studienabschnitt mit einer Regelstudienzeit von drei Semestern und einen zweiten Studienabschnitt mit einer Regelstudienzeit von vier Semestern.  \nIn den ersten drei Semestern erle"
+    },
+    {
+      "rang": 30,
+      "score": 1.58379,
+      "id": "32cd8db6-1e19-5ca3-8f94-e48af3afd94e",
+      "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte/aufnahme-bewerbungs-und-auswahlverfahren",
+      "title_anzeige": "Aufnahme-, Bewerbungs- und Auswahlverfahren",
+      "section_heading": "Aufnahme-, Bewerbungs- und Auswahlverfahren > Übersicht aller Fristen und Informationen zur Bewerbung für einen Bachelorstudiengang",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "### Übersicht aller Fristen und Informationen zur Bewerbung für einen Bachelorstudiengang\n* * *\n| **Bachelor-Studiengänge**  | **Vorpraktikum**  | **Zugangsvoraussetzungen**  | **Bewerbung**  |\n| --- | --- | --- | --- |\n| **Innenarchitektur**  | sechswöchiges\nZugangspraktikum  | [Download](https://f"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 0.65461
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+        "score": 0.63711
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+        "score": 0.63195
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/12-2023/hsh_verkuendungsblatt_nr_12_2023.pdf",
+        "score": 0.63142
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+        "score": 0.63078
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/03-PO-Mechatronik.pdf",
+        "score": 0.62595
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+        "score": 0.62512
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+        "score": 0.62488
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Dual/Flyer_u._Informationsmaterial/Flyer_MTD_dual_Fakulta__tII_WEB.pdf",
+        "score": 0.60691
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 0.60429
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 0.6022
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 0.59732
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 0.59681
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 0.59648
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.59375
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+        "score": 0.593
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 0.59157
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/05_Texteil_MTD_PO_2012_mit_Anhang.pdf",
+        "score": 0.58935
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/2Mechatronik2.pdf",
+        "score": 0.58686
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/06_BA_Mechatronik-2-2010.pdf",
+        "score": 0.58686
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/02_MTD_ZZO_Stand_2022-02-07_Final.pdf",
+        "score": 0.58528
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf",
+        "score": 0.58462
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2022/02_MTD_ZZO_Stand_2022-02-07_Final.pdf",
+        "score": 0.58391
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 0.58381
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/04-2009/01-PO-BT-dual-AEnd1.pdf",
+        "score": 0.58342
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/5_MTD_2017_20220701.pdf",
+        "score": 0.58048
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 0.57933
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/1mt_2009.pdf",
+        "score": 0.57801
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 0.5773
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/4_Texteil_MTD_PO_2012_mit_Anhang4.pdf",
+        "score": 0.57561
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/HsH_Verkuendungsblatt_06_2012.pdf",
+        "score": 0.56858
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+        "score": 0.56709
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 0.56557
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/02-MTD_PO_2019-Neu-20220701.pdf",
+        "score": 0.56467
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/5_MTD_2017_20220701.pdf",
+        "score": 0.56465
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/1_mab_2006.pdf",
+        "score": 0.56419
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/F2_dual_BA_MTD_BTPO_2025-07-25.pdf",
+        "score": 0.56403
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/4_Texteil_MTD_PO_2012_mit_Anhang4.pdf",
+        "score": 0.5634
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+        "score": 0.56168
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Dual/Flyer_u._Informationsmaterial/Flyer_MTD_dual_Fakulta__tII_WEB.pdf",
+        "score": 0.56147
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 0.56086
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+        "score": 0.56037
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf",
+        "score": 0.55903
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/4_Texteil_MTD_PO_2012_mit_Anhang4.pdf",
+        "score": 0.55886
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/HsH_Verkuendungsblatt_05_2016.pdf",
+        "score": 0.55884
+      },
+      {
+        "rang": 46,
+        "source_url": "https://mint.hs-hannover.de/studieren/mint-studiengaenge/mechatronik",
+        "score": 0.55867
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/Verkuendungsblatt_08-2010.pdf",
+        "score": 0.55856
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+        "score": 0.55554
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+        "score": 0.55463
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/06-Gesamt_MTD_PO_2012.pdf",
+        "score": 0.55459
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 0.69328
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi",
+        "score": 0.68716
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+        "score": 0.67042
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+        "score": 0.66851
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+        "score": 0.66614
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+        "score": 0.66276
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/HsH_Verkuendungsblatt_05_2016.pdf",
+        "score": 0.65985
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+        "score": 0.65835
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 0.64905
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+        "score": 0.64891
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/01_F_I_Vorpraktikumsordnung_Version_2019_E_NEU.pdf",
+        "score": 0.64609
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+        "score": 0.64097
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2026/hsh_verkuendungsblatt_nr_04_2026.pdf",
+        "score": 0.6381
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+        "score": 0.63368
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/5_MTD_2017_20220701.pdf",
+        "score": 0.63286
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/Verkuendungsblatt-01_2012.pdf",
+        "score": 0.62911
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/integrierte-schaltungen-und-eingebettete-systeme",
+        "score": 0.62886
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+        "score": 0.62581
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/PO_BIB_2014.pdf",
+        "score": 0.62581
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/VEU/6PO_VEU_neu_20155.pdf",
+        "score": 0.62578
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/02-MTD_PO_2019-Neu-20220701.pdf",
+        "score": 0.62429
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/02-MTD_PO_2019-Neu-20220701.pdf",
+        "score": 0.6217
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 0.61925
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+        "score": 0.6187
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/04-2019/02_F_II_Vorpraktikumsordnung_Version_2019_M_NEU.pdf",
+        "score": 0.61821
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 0.61735
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/40_Akkreditierungsurkunden/10_Bachelorstdg/MEC/Hannover_H_Ba_Mechatronik_2021-06-18_EUR-ACE_Certificate.pdf",
+        "score": 0.61701
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f1.hs-hannover.de/service-1-2",
+        "score": 0.61639
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/5_MTD_2017_20220701.pdf",
+        "score": 0.61597
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/F2_dual_BA_MTD_BTPO_2025-07-25.pdf",
+        "score": 0.6153
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/HsH_Verkuendungsblatt_06_2012.pdf",
+        "score": 0.61502
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f5.hs-hannover.de/studium/studieninformationen/bewerbung",
+        "score": 0.61322
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_BA_M_Teil_B.pdf",
+        "score": 0.61154
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2026/hsh_verkuendungsblatt_nr_04_2026.pdf",
+        "score": 0.61086
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/mechatronik-dual-mtd",
+        "score": 0.61067
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf",
+        "score": 0.60956
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/1mt_2009.pdf",
+        "score": 0.60891
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/04-2019/02_F_II_Vorpraktikumsordnung_Version_2019_M_NEU.pdf",
+        "score": 0.60847
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+        "score": 0.60801
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/03-PO-Mechatronik.pdf",
+        "score": 0.60703
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+        "score": 0.60674
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/5_MTD_2017_20220701.pdf",
+        "score": 0.60647
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/02-MTD_PO_2019-Neu-20220701.pdf",
+        "score": 0.60534
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/HsH_Verkuendungsblatt_05_2016.pdf",
+        "score": 0.60335
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/mechatronik-dual-mtd",
+        "score": 0.60283
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Dual/Flyer_u._Informationsmaterial/Flyer_MTD_dual_Fakulta__tII_WEB.pdf",
+        "score": 0.60188
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/Verkuendungsblatt-01_2012.pdf",
+        "score": 0.60187
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/08-2010/04_PO-Mechatronik.pdf",
+        "score": 0.60036
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+        "score": 0.59957
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/14-2023/hsh_verkuendungsblatt_nr_14_2023.pdf",
+        "score": 0.59937
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 25.03924
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 23.83638
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 23.83638
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 23.46702
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+        "score": 23.1866
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/mechatronik-dual-mtd",
+        "score": 21.49593
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 21.02219
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/NC-Werte-HsHSoSe26final.pdf",
+        "score": 19.9075
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte/aufnahme-bewerbungs-und-auswahlverfahren",
+        "score": 19.14868
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/wirtschaftsingenieurin-technischer-vertrieb-dual-wtd",
+        "score": 18.74215
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 18.57119
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/nachhaltige-elektrische-energieversorgung-nev",
+        "score": 18.44567
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+        "score": 18.38627
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+        "score": 18.24638
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi",
+        "score": 18.19739
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 18.15965
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 18.05727
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 17.97674
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/studiengaenge-a-z",
+        "score": 17.97674
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/biotechnologie-und-umwelttechnik-biu",
+        "score": 17.92507
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/verfahrenstechnik-energietechnik-und-umwelttechnik-veu",
+        "score": 17.89696
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/ingenieurinformatik-maschinenbau-iim",
+        "score": 17.81792
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/green-engineering-energietechnik-und-verfahrenstechnik",
+        "score": 17.81792
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab",
+        "score": 17.81792
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+        "score": 17.74195
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/studiengaenge-a-z",
+        "score": 17.43339
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 17.43339
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/future-food-systems-lvt",
+        "score": 17.27939
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/produktionstechnik-dual-ptd",
+        "score": 17.17627
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/konstruktionstechnik-dual-ktd",
+        "score": 16.97368
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 16.97368
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 16.97368
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 16.97368
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 16.5825
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/medizinisches-informationsmanagement-bmi",
+        "score": 16.5825
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/studiengaenge-a-z",
+        "score": 16.3936
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 16.3936
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/wirtschaftsingenieurin-maschinenbau-wim",
+        "score": 16.30075
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/wirtschaftsingenieurwesen-maschinenbau-dual-wid",
+        "score": 16.20895
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 16.06953
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 15.93965
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/ingenieurinformatik-maschinenbau-dual-iid",
+        "score": 15.76504
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 15.67915
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/studiengaenge-a-z",
+        "score": 15.67915
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 15.5208
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 15.51017
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 15.51017
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 15.31289
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+        "score": 15.19184
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 15.02438
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 27.31677
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 26.12723
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+        "score": 25.32503
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 24.75563
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 24.261
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/mechatronik-dual-mtd",
+        "score": 24.18327
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+        "score": 23.42813
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/studiengaenge-a-z",
+        "score": 21.92843
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 21.55932
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 21.51263
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 20.37941
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/NC-Werte-HsHSoSe26final.pdf",
+        "score": 20.00588
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte/aufnahme-bewerbungs-und-auswahlverfahren",
+        "score": 19.42846
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 18.87544
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/verfahrenstechnik-energietechnik-und-umwelttechnik-veu",
+        "score": 18.67057
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/wirtschaftsingenieurin-technischer-vertrieb-dual-wtd",
+        "score": 18.55072
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+        "score": 18.43896
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/nachhaltige-elektrische-energieversorgung-nev",
+        "score": 18.32839
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 18.18321
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi",
+        "score": 18.15829
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 18.10748
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab",
+        "score": 17.84228
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+        "score": 17.78108
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/studiengaenge-a-z",
+        "score": 17.64865
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 17.64865
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/green-engineering-energietechnik-und-verfahrenstechnik",
+        "score": 17.58507
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/ingenieurinformatik-maschinenbau-iim",
+        "score": 17.52198
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 17.39719
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/bewerbung-mit-auslaendischen-bildungsnachweisen",
+        "score": 17.27581
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 17.18971
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/biotechnologie-und-umwelttechnik-biu",
+        "score": 17.1782
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+        "score": 17.07752
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+        "score": 17.04459
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/besonderheiten-und-fristen",
+        "score": 17.00778
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/future-food-systems-lvt",
+        "score": 16.92771
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 16.84583
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/produktionstechnik-dual-ptd",
+        "score": 16.68443
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/konstruktionstechnik-dual-ktd",
+        "score": 16.60488
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Dual/Flyer_u._Informationsmaterial/Flyer_MTD_dual_Fakulta__tII_WEB.pdf",
+        "score": 16.58673
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 16.37072
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 16.37072
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 16.29412
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/studium/bewerbung",
+        "score": 16.27623
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+        "score": 16.21824
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/studiengaenge-a-z",
+        "score": 16.21824
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/wirtschaftsingenieurwesen-maschinenbau-dual-wid",
+        "score": 16.14307
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/wirtschaftsingenieurin-maschinenbau-wim",
+        "score": 15.99479
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/medizinisches-informationsmanagement-bmi",
+        "score": 15.99479
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+        "score": 15.99479
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 15.99278
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.0,
+    "kandidaten_s": 0.0,
+    "arme_s": 2.57,
+    "gesamt_s": 4.57
+  },
+  "auswahl_begruendung": ""
+}

@@ -1,0 +1,551 @@
+{
+  "fall": {
+    "id": "g33",
+    "case_type": "direct",
+    "question": "Wo sitze ich in der Veranstaltung zur Sicherheit im Master Digitale Transformation?",
+    "reference_answer": "In Raum 1H.1.27.",
+    "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/WI/26-07-10-WiSe26-MDT.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "MDT-341<br>Cyber-Sicherheit<br>Hußmann       1H.1.27"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ sonstiges/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "12a4939b-2bdb-53bc-8c73-7a8e4d6d4832",
+      "fa6ed057-5437-5d90-ab9d-2e489b0f22ea"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:37:32",
+  "dauer_s": 7.75,
+  "fehler": null,
+  "antwort": "In der Veranstaltung **MDT-341 Cyber-Sicherheit** sitzt du in Raum „1H.1.19\" [1]. Sie findet mittwochs im Zeitblock „16.15\\nBlock 5\\n17.45\" [1] statt.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f4 › WI › Ordnungen › 05 Studien Modulhandbuch MDT 26 07 16",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Prüfungsordnung 2021\n  ## 1.1 Fakultäts- und Abteilungsstruktur\n  ## Dekanat\n  ## Erstsemester-Aufnahme\n  ## Lehrveranstaltungen\n  ## Prüfungsordnung\n  ## Prüfungsausschuss\n  ## Studienkommission\n  ## Auslandssemester\n  ## IT-Team\n  ## Fachschaftsrat\n  ## 1.2 Kontaktdaten\n  ## 2. Master-Studiengang Digitale Transformation (MDT)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Studienvoraussetzungen\n  ## 2.3 Studienaufnahme und Gebühren\n  ## 2.4 Aufbau des Studiums\n  ## 2.4.1 Grundsätzliches zum Aufbau des Studiums\n  ## 2.4.2 Übersicht über das Studium\n  ## 2.4.3 Module des Studiengangs\n  ## 2.4.4 Studienschwerpunkte\n  ## Schwerpunkt Digital Enterprise\n  ## Schwerpunkt Data Science\n  ## Wahlpflichtbereich Informationstechnologien\n  ## 2.4.5 Forschungs-/Praxisphase und Masterarbeit\n  ## Ansprechpartner\n  ## 3. Personenverzeichnis\n  ## 3.1 ProfessorInnen und Lehrkräfte für besondere Aufgaben der WI\n  ## 3.2 MitarbeiterInnen der Verwaltung\n  ## 4. Modulhandbuch\n  ## Digitale Transformation (MDT) – MODULHANDBUCH\n  ## Prüfungsformen\n  ## Modulhandbuch für den Studiengang Master Digitale Transformation, PO-Version 21 SoSe\n  ## Inhaltsverzeichnis\n  ## Pflichtmodule\n  ## Modul  MDT-301 Innovations- und Zukunftsmanagement\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-301-01 Innovations- und Zukunftsmanagement\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDT-302 Auswirkungen der Digitalisierung\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-302-01 Auswirkungen der Digitalisierung\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Literatur"
+    },
+    {
+      "nr": 2,
+      "titel": "f4 › WI › Ordnungen › 01 MDT PO2018 190410",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-MDT-PO2018-190410.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n# für den Master-Studiengang Digitale Transformation (MDT)\n# mit dem Abschluss Master of Science\n# in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Aufbau und Inhalt der Master-Prüfung\n  ## § 5\n  ## Zulassung zur Master-Arbeit\n  ## § 6\n  ## Forschungs-/Praxisphase\n  ## § 7\n  ## Prüfungen\n  ## § 8\n  ## Inkrafttreten\n  ## Master-Studiengang Digitale Transformation (MDT)  -  3 Semester\n  ## Anlage B3\n  ## Notwendige Leistungsnachweise (vgl. § 4):\n  ## Ein Credit entspricht einer Workload von 30 Stunden."
+    },
+    {
+      "nr": 3,
+      "titel": "f4 › WI › Ordnungen › 05 MDT Studien Modulhandbuch PO2021 240317",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Studien-Modulhandbuch-PO2021-240317.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Dekanat\n  ## Erstsemester-Aufnahme\n  ## Lehrveranstaltungen\n  ## Prüfungsordnung\n  ## Prüfungsausschuss\n  ## Studienkommission\n  ## Auslandssemester\n  ## IT-Team\n  ## 1.2 Kontaktdaten\n  ## 2. Master-Studiengang Digitale Transformation (MDT)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Studienvoraussetzungen\n  ## 2.3 Studienaufnahme und Gebühren\n  ## 2.4 Aufbau des Studiums\n  ## 2.4.1 Grundsätzliches zum Aufbau des Studiums\n  ## 2.4.2 Übersicht über das Studium\n  ## 2.4.3 Module des Studiengangs\n  ## 2.4.4 Studienschwerpunkte\n  ## Schwerpunkt Digital Enterprise\n  ## Schwerpunkt Data Science\n  ## Wahlpflichtbereich Informationstechnologien\n  ## 2.4.5 Forschungs-/Praxisphase und Masterarbeit\n  ## Ansprechpartner\n  ## 3. Personenverzeichnis\n  ## 3.1 ProfessorInnen und Lehrkräfte für besondere Aufgaben der WI\n  ## 3.2 MitarbeiterInnen der Verwaltung\n  ## MDT – MODULHANDBUCH\n  ## Modulhandbuch für den Studiengang Master Digitale Transformation, PO-Version 21 SoSe\n  ## Inhaltsverzeichnis\n  ## Pflichtmodule\n  ## Modul  MDT-301 Innovations- und Zukunftsmanagement\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-301-01 Innovations- und Zukunftsmanagement\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDT-302 Auswirkungen der Digitalisierung\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-302-01 Auswirkungen der Digitalisierung\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Literatur\n  ## Modul  MDT-303 Simulation ökonomischer Systeme\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-303-01 Simulation ökonomischer Systeme\n  ## Angestrebte Lernergebnisse\n  ## Inhalt"
+    },
+    {
+      "nr": 4,
+      "titel": "Digitale Transformation (MDT)",
+      "url": "https://f4.hs-hannover.de/studium/master-studiengaenge/digitale-transformation-mdt",
+      "fakultaet": "f4",
+      "struktur": "# Digitale Transformation (MDT)\n  ## Konsekutiver Masterstudiengang zu Bachelor Wirtschaftsinformatik\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Studienziele\n# Studienschwerpunkte\n  ## Zulassungsvoraussetzungen\n  ## Teilzeitstudium\n# Wollen Sie mehr erfahren?\n    ### Ordnungen - Dokumente\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Verkuendungsblatt › 01 2018 › HsH Verkuendungsblatt 01 2018 — Ausgabe 01/2018",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/01-2018/HsH_Verkuendungsblatt_01_2018.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 01/2018\n  ## Inhalt:\n# Besonderer Teil der Prüfungsordnung\n# für den Master-Studiengang Digitale Transformation (MDT)\n# mit dem Abschluss Master of Science\n# in der Fakultät IV – Wirtschaft und Informatik,\n# Abteilung Wirtschaftsinformatik, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Aufbau und Inhalt der Master-Prüfung\n  ## § 5\n  ## Zulassung zur Master-Arbeit\n  ## § 6\n  ## Forschungs-/Praxisphase\n  ## § 7\n  ## Prüfungen\n  ## § 8\n  ## Inkrafttreten\n  ## Master-Studiengang Digitale Transformation (MDT)  -  3 Semester\n  ## Anlage B3\n  ## Notwendige Leistungsnachweise (vgl. § 4):\n  ## Ein Credit entspricht einer Workload von 30 Stunden.\n# Ordnung für Praxis- und Forschungsphasen der Abteilung Betriebswirtschaft der Fakultät IV – Wirtschaft und Informatik –\n  ## der Hochschule Hannover\n  ## (Praxis- und Forschungsphasenordnung; PFO)\n  ## Amtliches Inhaltsverzeichnis\n  ## A. Allgemeiner Teil\n  ## § 1 Geltungsbereich\n  ## § 2 Begriffe\n  ## § 3 Phasenbestellte\n  ## § 4 Studiengangübergreifende Angelegenheiten\n  ## B. Besonderer Teil für die Bachelor-Studiengänge\n  ## § 5 Verortung der Praxisphasen\n  ## § 6 Ziele der Praxisphasen\n  ## § 7 Dauer der Praxisphasen\n  ## C. Besonderer Teil für den Master-Studiengang\n  ## § 8 Verortung der Praxisphase/Forschungsphase\n  ## § 9 Ziele der Praxisphase\n  ## § 10 Ziele der Forschungsphase\n  ## § 11 Dauer der Praxisphase/Forschungsphase\n  ## D. Gemeinsame Durchführungsvorschriften\n  ## § 12 Auswahl einer Einrichtung\n  ## § 13 Lernzielfestlegung\n  ## § 14 Vertragsschluss"
+    },
+    {
+      "nr": 6,
+      "titel": "HsH-Akademie auf der HANNOVER MESSE: Austausch zu Zukunftsthemen",
+      "url": "https://www.hs-hannover.de/hsh-akademie/aktuelles/hsh-akademie-auf-der-hannover-messe-austausch-zu-zukunftsthemen",
+      "fakultaet": "",
+      "struktur": "# HsH-Akademie auf der HANNOVER MESSE: Austausch zu Zukunftsthemen\n    ### Die HANNOVER MESSE läuft – und die HsH-Akademie ist mittendrin. Vorträge, Austauschformate und Einblicke in Weiterbildungsangebote setzen Impulse zu aktuellen Themen aus Wirtschaft und Politik.\n  ## Sie interessieren sich für weitere News aus der HsH-Akademie?"
+    },
+    {
+      "nr": 7,
+      "titel": "90 Minuten digitale Resilienz auf der Hannover Messe",
+      "url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-fuer-sensorik-und-automation-isa/90-minuten-digitale-resilienz-auf-der-hannover-messe",
+      "fakultaet": "",
+      "struktur": "# 90 Minuten digitale Resilienz auf der Hannover Messe\n    ### Einladung zum 2. Cybersecurity Breakfast am 21. April"
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2018\n  ## Modul   BSW-101  Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## 3WBSA01101 Einführung in das Studium\n  ## Kommentar:\n  ## 3WBSA01201 Mentoringgruppe - Gr. 1\n  ## Kommentar:\n  ## 3WBSA01202 Mentoringgruppe - Gr. 2\n  ## Kommentar:\n  ## 3WBSA01203 Mentoringgruppe - Gr. 3\n  ## Kommentar:\n  ## 3WBSA01204 Mentoringgruppe - Gr. 4\n  ## Kommentar:\n  ## 3WBSA01205 Mentoringgruppe - Gr. 5\n  ## Kommentar:\n  ## 3WBSA01206 Mentoringgruppe - Gr. 6\n  ## Kommentar:\n  ## 3WBSA01207 Mentoringgruppe - Gr. 7\n  ## Kommentar:\n  ## 3WBSA01208 Mentoringgruppe - Gr. 8\n  ## Kommentar:\n  ## 3WBSA01209 Mentoringgruppe - Gr. 9\n  ## Kommentar:\n  ## 3WBSA01210 Mentoringgruppe - Gr. 10\n  ## Kommentar:\n  ## 3WBSA01211 Mentoringgruppe - Gr. 11\n  ## Kommentar:\n  ## 3WBSA01212 Themenvergabe und Präsentation\n  ## 3WBSA01213 Auswertung und Abschlussvortrag\n  ## 3WBSA01301 Einführung wissenschaftl. Arbeiten - Gr. 1\n  ## Kommentar:\n  ## Kommentar:\n  ## 3WBSA01303 Einführung wissenschaftl. Arbeiten - Gr. 3\n  ## Kommentar:\n  ## Kommentar:\n  ## 3WBSA01305 Präsentationstechniken - Gr. 1\n  ## Kommentar:\n  ## 3WBSA01306 Präsentationstechniken - Gr. 2\n  ## Kommentar:\n  ## 3WBSA01307 Präsentationstechniken - Gr. 3\n  ## Kommentar:\n  ## 3WBSA01308 Präsentationstechniken - Gr. 4\n  ## Kommentar:\n  ## 3WBSA01309 Online-Recherche - Gr. 1\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt.\n  ## Kommentar:\n  ## 3WBSA01310 Online-Recherche - Gr. 2\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt."
+    },
+    {
+      "nr": 9,
+      "titel": "Fachstudienberatung der Abteilung WI",
+      "url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-wirtschaftsinformatik/studienberatung",
+      "fakultaet": "f4",
+      "struktur": "# Fachstudienberatung der Abteilung WI\n  ## Fachstudienberatung der Abteilung WI\n  ## Bachelor-Studiengang Wirtschaftsinformatik\n  ## Bachelor-Studiengang Verwaltungsinformatik\n  ## Master-Studiengang Digitale Transformation"
+    },
+    {
+      "nr": 10,
+      "titel": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "fakultaet": "",
+      "struktur": "  ## 01. Wir – die HsH\n  ## Daten & Fakten\n  ## HsH in Zahlen 2006 ─ 2016\n  ## HsH in Zahlen 2016 ─ 2023\n  ## Studierende nach Fakultäten\n  ## Organisation\n  ## Vision Statement des Präsidiums\n  ## Geschichte der HsH\n  ## Vorgängereinrichtungen\n  ## Geschichte der HsH\n  ## Gründung der Fachhochschule Hannover\n# Unsere Standorte\n  ## 02. Qualifizieren – Studium & Lehre\n  ## Studienangebot\n  ## Bachelor-Studiengänge\n  ## Duale Bachelor-Studiengänge\n  ## Ausbildungsbegleitende Bachelor-Studiengänge\n  ## Berufsbegleitende & berufsintegrierende\n  ## Bachelor-Studiengänge\n  ## Master-Studiengänge\n  ## Digitale Transformation\n  ## Duale Master-Studiengänge\n  ## Berufsbegleitende Master-Studiengänge\n  ## Weiterbildende Master-Studiengänge\n  ## HsH – Hier studiert Hannover\n  ## Vielfältig und praxisnah\n  ## Fakultät I\n  ## Elektro- und Informationstechnik\n  ## Basisdaten\n  ## Fakultät II\n  ## Maschinenbau und Bioverfahrenstechnik\n  ## Basisdaten\n  ## Fakultät III\n  ## Medien, Information & Design\n  ## Basisdaten\n  ## Fakultät IV\n  ## Wirtschaft & Informatik\n  ## Betriebswirtschaft\n  ## Basisdaten\n  ## Fakultät V\n  ## Diakonie, Gesundheit & Soziales\n  ## Basisdaten\n  ## HsH-Akademie\n  ## Zentrum für lebenslanges Lernen\n  ## HsH – International\n  ## NEXSTER\n  ## Lebendige Innovations- und Transferkultur Transfer in die Praxis als zentrales Element\n  ## innovercity\n  ## Wissenschaft trifft auf Gesellschaft und Wirtschaft\n  ## Unsere Absolventinnen"
+    },
+    {
+      "nr": 11,
+      "titel": "f4 › Stundenplan › WI › 26 01 19 SoSe26 MDT — Stundenplan Digitale Transformation – MDT Sommersemester 2026",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/WI/26-01-19-SoSe26-MDT.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Stundenplan Digitale Transformation – MDT Sommersemester 2026"
+    },
+    {
+      "nr": 12,
+      "titel": "f4 › WI › Ordnungen › 05 MDT Modulhandbuch PO2018 — Pflichtmodule",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Modulhandbuch-PO2018.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Modulhandbuch für den Studiengang Master Digitale Transformation, PO-Version 18 WiSe\n  ## Inhaltsverzeichnis\n  ## Abschluss Master\n  ## Pflichtmodule\n  ## Modul  MDT-301 Innovations- und Zukunftsmanagement\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-301-01 Innovations- und Zukunftsmanagement\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDT-302 Auswirkungen der Digitalisierung\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-302-01 Auswirkungen der Digitalisierung\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Literatur\n  ## Modul  MDT-303 Simulation ökonomischer Systeme\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-303-01 Simulation ökonomischer Systeme\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDT-304 Referenzmodelle und Standards\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-304-01 Referenzmodelle und Standards\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDT-305 Datenanalyse und Digitalisierung\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-305-01 Datenanalyse und Digitalisierung\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDT-306 Innovative Methoden des Projektmanagements\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDT-306-01 Innovative Methoden des Projektmanagements\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 11,
+      "titel": "f4 › Stundenplan › WI › 26 01 19 SoSe26 MDT — Stundenplan Digitale Transformation – MDT Sommersemester 2026",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/WI/26-01-19-SoSe26-MDT.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "f4 › WI › Ordnungen › 05 MDT Studien Modulhandbuch PO2021 240317",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Studien-Modulhandbuch-PO2021-240317.pdf"
+    },
+    {
+      "nr": 1,
+      "titel": "f4 › WI › Ordnungen › 05 Studien Modulhandbuch MDT 26 07 16",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf"
+    },
+    {
+      "nr": 9,
+      "titel": "Fachstudienberatung der Abteilung WI",
+      "url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-wirtschaftsinformatik/studienberatung"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f4 › Stundenplan › WI › 26 01 19 SoSe26 MDT — Stundenplan Digitale Transformation – MDT Sommersemester 2026",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/WI/26-01-19-SoSe26-MDT.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Stundenplan Digitale Transformation – MDT Sommersemester 2026",
+      "snippets": [
+        "## Stundenplan Digitale Transformation – MDT Sommersemester 2026  \n_Vorlesungszeit: Montag, den 02.März 2026 bis Freitag, den 19. Juni 2026 Prüfungszeit: Montag, den 22. Juni 2026 bis Freitag, den 10. Juli 2026_  \n|Uhrzeit|Montag|Dienstag|Mittwoch|Donnerstag|Freitag|\n|---|---|---|---|---|---|\n|08.15\nBlock 1\n09.45||MDT-306\nInnovative Methoden des\nProjektmanagements\nNeumann    online||||\n|10.15\nBlock 2\n11.45|Schwerpunkt Digitale\nUnternehmenstrans-\nformation\nMDT-332 Neue\nGeschäftsmodelle,\nProdukte und\nDienstleistungen\nSchulze         1H.1.35|||Schwerpunkt Data Science\nMDT-351 Big-Data-Technologien\nCan               1H.0.13||\n|12.30\nBlock 3\n14.00||||||\n|14.15\nBlock 4\n15.45|MDT-301 Innovations- und\nZukunftsmanagement\nAndreßen         1H1.19|||MDT-307\nKünstliche Intelligenz\nMüller         1H.0.13||\n|16.15\nBlock 5\n17.45|||Wahlbereich\nInformationstechnologien\nMDT-341\nCyber-Sicherheit\nHußmann       1H.1.19|||\n|18.00\nBlock 6\n19.30||||||  \nStand: 19.01.2026, Änderungen vorbehalten"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f4 › WI › Ordnungen › 05 MDT Studien Modulhandbuch PO2021 240317",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Studien-Modulhandbuch-PO2021-240317.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+        "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Modulhandbuch-PO2018.pdf"
+      ],
+      "abschnitt": "",
+      "snippets": [
+        "Abteilung Wirtschaftsinformatik  \nStudien- und Modulhandbuch Master-Studiengang Digitale Transformation (MDT)  \nPrüfungsordnung 2021  \nStand: März 2023  \n|1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik||\n|---|---|\n|1.1 Fakultäts- und Abteilungsstruktur|3|\n|1.2 Kontaktdaten|7|\n|2. Master-Studiengang Digitale Transformation (MDT)||\n|2.1 Ziel und Inhalt des Studiums|8|\n|2.2 Studienvoraussetzungen|9|\n|2.3 Studienaufnahme und Gebühren|10|\n|2.4 Aufbau des Studiums|10|\n|2.4.1 Grundsätzliches zum Aufbau des Studiums|10|\n|2.4.2 Übersicht über das Studium|12|\n|2.4.3 Module des Studiengangs|13|\n|2.4.4 Studienschwerpunkte|14|\n|2.4.5 Forschungs-/Praxisphase und Masterarbeit|15|\n|2.4.6 Internationale Angebote|15|\n|3. Personenverzeichnis||\n|3.1 Professor_Innen und Lehrkräfte für besondere Aufgaben|17|\n|3.2 Mitarbeiter_Innen der Verwaltung|17|\n|4. Modulhandbuch||\n|MDT - Modulhandbuch|18|\n\n|3. Personenverzeichnis||\n|3.1 Professor_Innen und Lehrkräfte für besondere Aufgaben|17|\n|3.2 Mitarbeiter_Innen der Verwaltung|17|\n|4. Modulhandbuch||\n|MDT - Modulhandbuch|18|  \nHerzlich willkommen an der Fakultät IV, Wirtschaft und Informatik Abteilung Wirtschaftsinformatik der Hochschule Hannover  \nSie haben sich für den Master-Studiengang „Digitale Transformation“ bei uns entschieden – darüber freuen wir uns.  \nAuf den folgenden Seiten möchten wir Ihnen die Fakultät, die Abteilung Wirtschaftsinformatik und den Studiengang „Digitale Transformation“ (MDT) vorstellen. Sie finden viele wichtige Informationen, die Ihnen die Orientierung erleichtern und die Struktur der Fakultät, der Abteilung und des Studiums erläutern sollen.",
+        "Der Master-Studiengang ist konsequtiv zum Bachelor-Studiengang Wirtschaftsinformatik und aktuell von der ACQUIN akkreditiert. Das gibt Ihnen die Sicherheit, dass Sie nach einem modernen, zukunftsorientierten Curriculum studieren, das Ihnen hervorragende Berufsaussichten bietet.  \nWie alle unsere Studiengänge zeichnet sich auch der Master-Studiengang Digitale Transformation durch einen starken Anwendungsbezug aus. Wir kooperieren auf vielfältige Art und Weise mit der regionalen und überregionalen Wirtschaft und stellen so sicher, dass unsere Absolventinnen und Absolventen beste Chancen am Arbeitsmarkt haben. Zugleich legen wir großen Wert auf ein wissenschaftlich fundiertes Studium, das Ihnen erlaubt, neue Herausforderungen strukturiert anzugehen.  \nWir wünschen Ihnen Erfolg und vor allem Freude in einem Studium, das Ihnen neue Horizonte eröffnen wird. Zögern Sie nicht, uns bei Problemen, die es in jedem Studium geben kann, direkt anzusprechen.  \nProf. Dr. Michael Bienert (Dekan)"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f4 › WI › Ordnungen › 05 Studien Modulhandbuch MDT 26 07 16",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+        "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Studien-Modulhandbuch-PO2021-240317.pdf",
+        "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Modulhandbuch-PO2018.pdf"
+      ],
+      "abschnitt": "Prüfungsordnung 2021",
+      "snippets": [
+        "## Prüfungsordnung 2021  \nStand: September 2024  \n|1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik||\n|---|---|\n|1.1 Fakultäts- und Abteilungsstruktur|3|\n|1.2 Kontaktdaten|7|\n|2. Master-Studiengang Digitale Transformation (MDT)||\n|2.1 Ziel und Inhalt des Studiums|8|\n|2.2 Studienvoraussetzungen|9|\n|2.3 Studienaufnahme und Gebühren|10|\n|2.4 Aufbau des Studiums|10|\n|2.4.1 Grundsätzliches zum Aufbau des Studiums|10|\n|2.4.2 Übersicht über das Studium|12|\n|2.4.3 Module des Studiengangs|13|\n|2.4.4 Studienschwerpunkte|14|\n|2.4.5 Forschungs-/Praxisphase und Masterarbeit|15|\n|2.4.6 Internationale Angebote|15|\n|3. Personenverzeichnis||\n|3.1 Professor_Innen und Lehrkräfte für besondere Aufgaben|17|\n|3.2 Mitarbeiter_Innen der Verwaltung|17|\n|4. Modulhandbuch||\n|MDT - Modulhandbuch|18|  \nHerzlich willkommen an der Fakultät IV, Wirtschaft und Informatik Abteilung Wirtschaftsinformatik der Hochschule Hannover\n\n|4. Modulhandbuch||\n|MDT - Modulhandbuch|18|  \nHerzlich willkommen an der Fakultät IV, Wirtschaft und Informatik Abteilung Wirtschaftsinformatik der Hochschule Hannover  \nSie haben sich für den Master-Studiengang „Digitale Transformation“ bei uns entschieden – darüber freuen wir uns.  \nAuf den folgenden Seiten möchten wir Ihnen die Fakultät, die Abteilung Wirtschaftsinformatik und den Studiengang „Digitale Transformation“ (MDT) vorstellen. Sie finden viele wichtige Informationen, die Ihnen die Orientierung erleichtern und die Struktur der Fakultät, der Abteilung und des Studiums erläutern sollen.  \nDer Master-Studiengang ist konsequtiv zum Bachelor-Studiengang Wirtschaftsinformatik und aktuell von der ACQUIN akkreditiert. Das gibt Ihnen die Sicherheit, dass Sie nach einem modernen, zukunftsorientierten Curriculum studieren, das Ihnen hervorragende Berufsaussichten bietet.",
+        "## Modul  MDT-341 Cyber-Sicherheit  \n> Modulniveau Vertiefungsmodul  \n> Pflicht / Wahlpflicht Wahlpflichtmodul  \n> Teilmodule MDT-341-01 Cyber-Sicherheit, Pflicht  \n> Verantwortliche(r) Merz, Peter, Prof. Dr.-Ing.  \n> Credits 6  \n> Präsenzstunden / Selbststudium 68 h / 112 h  \n> Moduldauer 1 Semester  \n> Voraussetzungen nach keine Prüfungsordnung  \n> Empfohlene Voraussetzungen keine  \n> Studien-/ Prüfungsleistungen auf Teilmodulebene  \nAngestrebte Lernergebnisse siehe Teilmodulebene  \nStand: 08. Juli 2024  \nFakultät IV - Wirtschaft und Informatik, Masterstudiengang Digitale Transformation"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Fachstudienberatung der Abteilung WI",
+      "url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-wirtschaftsinformatik/studienberatung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Fachstudienberatung der Abteilung WI > Master-Studiengang Digitale Transformation",
+      "snippets": [
+        "## Master-Studiengang Digitale Transformation\n**Prof. Dr.-Ing. Peter Merz**\n_Professor, Wirtschaftsinformatik (F4WI)_\nRaum: 1H.1.58\nRicklinger Stadtweg 120\n30459 Hannover\npeter.merz(at)hs-hannover.de\n[ Profil ](https://f4.hs-hannover.de/service/personenfinder/person/1000004910 \"zum Profil von Prof. Dr.-Ing. Peter Merz\")\n**Anja Miehe**\n_Mitarbeiterin, Wirtschaftsinformatik (F4WI)_\nRaum: 1H.1.59\nRicklinger Stadtweg 120\n30459 Hannover\n[ +49 511 9296 7013 ](tel:+49%20511%209296%207013)\nanja.miehe(at)hs-hannover.de\n[ Profil ](https://f4.hs-hannover.de/service/personenfinder/person/1000004129 \"zum Profil von Anja Miehe\")"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.65608,
+      "id": "6c12e244-6752-57ba-98e5-04a594408940",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 Studien Modulhandbuch MDT 26 07 16",
+      "section_heading": "Prüfungsordnung 2021",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## Prüfungsordnung 2021  \nStand: September 2024  \n|1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik||\n|---|---|\n|1.1 Fakultäts- und Abteilungsstruktur|3|\n|1.2 Kontaktdaten|7|\n|2. Master-Studiengang Digitale Transformation (MDT)||\n|2.1 Ziel und Inhalt des Studiums|8|\n|2.2 Studienvoraus"
+    },
+    {
+      "rang": 2,
+      "score": 2.12952,
+      "id": "277a9523-9097-5498-8e7a-7cbee75047b8",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-MDT-PO2018-190410.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 01 MDT PO2018 190410",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung** > **für den Master-Studiengang Digitale Transformation (MDT)** > **mit dem Abschluss Master of Science** > **in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil der Prüfungsordnung**\n\n# **für den Master-Studiengang Digitale Transformation (MDT)**\n\n# **mit dem Abschluss Master of Science**\n\n# **in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, der Hochschule Hannover**  \n## **§ 1**\n\n## **§ 2**\n\n## **Hochsch"
+    },
+    {
+      "rang": 3,
+      "score": 2.02983,
+      "id": "b0ccb9aa-af0d-5bfc-bef5-a802edad0679",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Studien-Modulhandbuch-PO2021-240317.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 MDT Studien Modulhandbuch PO2021 240317",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": false,
+      "auszug": "Abteilung Wirtschaftsinformatik  \nStudien- und Modulhandbuch Master-Studiengang Digitale Transformation (MDT)  \nPrüfungsordnung 2021  \nStand: März 2023  \n|1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik||\n|---|---|\n|1.1 Fakultäts- und Abteilungsstruktur|3|\n|1.2 Kontaktdaten|7|\n|2. Ma"
+    },
+    {
+      "rang": 4,
+      "score": 1.96649,
+      "id": "7ad17088-bcc1-5e8e-8da6-ab482b9fe9ac",
+      "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/digitale-transformation-mdt",
+      "title_anzeige": "Digitale Transformation (MDT)",
+      "section_heading": "Wollen Sie mehr erfahren?",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "#  Wollen Sie mehr erfahren?  \nIst Ihr Interesse geweckt? Details zum Aufbau des Studiums oder zum Zulassungsverfahren einschließlich der Zulassungsvoraussetzungen können auf den weiterführenden Seiten des Studiengangs abgerufen werden.  \n[ Bewerbungsverfahren ](https://f4.hs-hannover.de/studium/mas"
+    },
+    {
+      "rang": 5,
+      "score": 1.94428,
+      "id": "c64d6059-723d-5828-89ce-a0800ad4ddb6",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Studien-Modulhandbuch-PO2021-240317.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 MDT Studien Modulhandbuch PO2021 240317",
+      "section_heading": "",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "Der Master-Studiengang ist konsequtiv zum Bachelor-Studiengang Wirtschaftsinformatik und aktuell von der ACQUIN akkreditiert. Das gibt Ihnen die Sicherheit, dass Sie nach einem modernen, zukunftsorientierten Curriculum studieren, das Ihnen hervorragende Berufsaussichten bietet.  \nWie alle unsere Stu"
+    },
+    {
+      "rang": 6,
+      "score": 1.93796,
+      "id": "adb19273-5a29-575d-99e3-686e56aeee85",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/01-2018/HsH_Verkuendungsblatt_01_2018.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2018 › HsH Verkuendungsblatt 01 2018 — Ausgabe 01/2018",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung** > **für den Master-Studiengang Digitale Transformation (MDT)** > **mit dem Abschluss Master of Science** > **in der Fakultät IV – Wirtschaft und Informatik,**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung**\n\n# **für den Master-Studiengang Digitale Transformation (MDT)**\n\n# **mit dem Abschluss Master of Science**\n\n# **in der Fakultät IV – Wirtschaft und Informatik,**"
+    },
+    {
+      "rang": 7,
+      "score": 1.88304,
+      "id": "8cb6cad7-2bf0-51f0-a8a1-9c38d6ef5d8e",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/aktuelles/hsh-akademie-auf-der-hannover-messe-austausch-zu-zukunftsthemen",
+      "title_anzeige": "HsH-Akademie auf der HANNOVER MESSE: Austausch zu Zukunftsthemen",
+      "section_heading": "HsH-Akademie auf der HANNOVER MESSE: Austausch zu Zukunftsthemen > Die HANNOVER MESSE läuft – und die HsH-Akademie ist mittendrin. Vorträge, Austauschformate und Einblicke in Weiterbildungsangebote setzen Impulse zu aktuellen Themen aus Wirtschaft und Politik.",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "Parallel dazu kamen auf Einladung der HANNOVER MESSE gemeinsam mit der CISO Alliance e.V. Expertinnen und Experten aus Cybersecurity, Wirtschaft und Digitalisierung zum 2. „Cybersecurity Breakfast“ zusammen. In Kooperation mit Partnern wie der IHK Niedersachsen, Niedersachsen.next Digitalagentur und"
+    },
+    {
+      "rang": 8,
+      "score": 1.80256,
+      "id": "ffa364a8-160e-5de1-8405-800eb83e5f32",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 Studien Modulhandbuch MDT 26 07 16",
+      "section_heading": "Modul  MDT-341 Cyber-Sicherheit",
+      "chunk_index": 167,
+      "text_vollstaendig": false,
+      "auszug": "## Modul  MDT-341 Cyber-Sicherheit  \n> Modulniveau Vertiefungsmodul  \n> Pflicht / Wahlpflicht Wahlpflichtmodul  \n> Teilmodule MDT-341-01 Cyber-Sicherheit, Pflicht  \n> Verantwortliche(r) Merz, Peter, Prof. Dr.-Ing.  \n> Credits 6  \n> Präsenzstunden / Selbststudium 68 h / 112 h  \n> Moduldauer 1 Semeste"
+    },
+    {
+      "rang": 9,
+      "score": 1.78784,
+      "id": "88a05a7b-7756-5d30-8dd1-e7277e553090",
+      "source_url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-fuer-sensorik-und-automation-isa/90-minuten-digitale-resilienz-auf-der-hannover-messe",
+      "title_anzeige": "90 Minuten digitale Resilienz auf der Hannover Messe",
+      "section_heading": "90 Minuten digitale Resilienz auf der Hannover Messe > Einladung zum 2. Cybersecurity Breakfast am 21. April",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "Darum lohnt sich die Teilnahme:\n* Austausch mit ausgewählten Expertinnen und Experten aus Cybersecurity, Wirtschaft und Digitalisierung\n* Impulse zu digitaler Resilienz, aktuellen Bedrohungslagen und praxisnahen Sicherheitsstrategien\n* Persönliches Networking in exklusiver Runde auf der HANNOVER MES"
+    },
+    {
+      "rang": 10,
+      "score": 1.69153,
+      "id": "962e941e-c3ea-53b3-9e55-6e45e14fb12c",
+      "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/digitale-transformation-mdt",
+      "title_anzeige": "Digitale Transformation (MDT)",
+      "section_heading": "Digitale Transformation (MDT) > Konsekutiver Masterstudiengang zu Bachelor Wirtschaftsinformatik",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Digitale Transformation (MDT)  \n##  Konsekutiver Masterstudiengang zu Bachelor Wirtschaftsinformatik\nDie Informationstechnologie spielt für Unternehmen auch heute schon eine zentrale Rolle. Durch die digitale Transformation verändern sich die Technologie und die hieraus resultierenden Möglichkeit"
+    },
+    {
+      "rang": 11,
+      "score": 1.64955,
+      "id": "47a9fb35-7f26-55a0-9a47-34d27bdcfecd",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "section_heading": "**Bemerkung 1:**",
+      "chunk_index": 812,
+      "text_vollstaendig": false,
+      "auszug": "Die digitale Vorbesprechung ist terminiert für **Mittwoch, den 13.09.2023 um 19:00 Uhr über BigBlueButton** im Moodle-Online-Seminarraum https:// moodle.hs-hannover.de/course/view.php?id=23912. Das **Passwort** lautet: Sustainability. Das Blockseminar im November wird als Präsenveranstaltung durchge"
+    },
+    {
+      "rang": 12,
+      "score": 1.62071,
+      "id": "a27818a3-a293-534c-8a06-985a0e18046f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "section_heading": "**Bemerkung 1:**",
+      "chunk_index": 279,
+      "text_vollstaendig": false,
+      "auszug": "Die digitale Vorbesprechung ist terminiert für **Dienstag, den 12.09.2023 um 19:00 Uhr** über BigBlueButton im Moodle-Online-Seminarraum https://moodle.hs-hannover.de/course/view.php?id=23911. Das **Passwort** lautet: Prozesshaftigkeit. Das Blockseminar im November wird als Präsenzveranstaltung durc"
+    },
+    {
+      "rang": 13,
+      "score": 1.56602,
+      "id": "e86e9581-c215-58c5-86f9-1162be5451c1",
+      "source_url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-fuer-sensorik-und-automation-isa/90-minuten-digitale-resilienz-auf-der-hannover-messe",
+      "title_anzeige": "90 Minuten digitale Resilienz auf der Hannover Messe",
+      "section_heading": "90 Minuten digitale Resilienz auf der Hannover Messe > Einladung zum 2. Cybersecurity Breakfast am 21. April",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "**Wir freuen uns auf Ihre Teilnahme und erwarten Sie am 21.4. um 10 Uhr in der Lounge im Solution Lab Automatisierung & Digitalisierung (Halle 26, Stand E43). **\nNachfolgend, von Niedersachsen Digital, ein kleiner Videorückblick des letzten Frühstücks:\n[_https://niedersachsen.digital/rueckblick-auf-"
+    },
+    {
+      "rang": 14,
+      "score": 1.52497,
+      "id": "fe80ef9d-e365-5358-b44d-80a4ea463536",
+      "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-wirtschaftsinformatik/studienberatung",
+      "title_anzeige": "Fachstudienberatung der Abteilung WI",
+      "section_heading": "Fachstudienberatung der Abteilung WI > Master-Studiengang Digitale Transformation",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Master-Studiengang Digitale Transformation\n**Prof. Dr.-Ing. Peter Merz**\n_Professor, Wirtschaftsinformatik (F4WI)_\nRaum: 1H.1.58\nRicklinger Stadtweg 120\n30459 Hannover\npeter.merz(at)hs-hannover.de\n[ Profil ](https://f4.hs-hannover.de/service/personenfinder/person/1000004910 \"zum Profil von Prof. "
+    },
+    {
+      "rang": 15,
+      "score": 1.51445,
+      "id": "36ff891a-2050-5e9f-b92b-1c553e3a37af",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Unsere Standorte** > Digitale Transformation",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "## Digitale Transformation  \nElektrische Energiesysteme und Elektromobilität Fernsehjournalismus und Dokumentarfilm  \nGreen Engineering - Nachhaltige Energie- und Verfahrenstechnik für die Bioökonomie Kommunikationsmanagement LBS-Sprint – berufliche Fachrichtung Pflege Maschinenbau–Entwicklung Mediz"
+    },
+    {
+      "rang": 16,
+      "score": 1.49453,
+      "id": "da0232e2-7e5c-502a-b4b4-b0c52c66da7a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/WI/26-01-19-SoSe26-MDT.pdf",
+      "title_anzeige": "f4 › Stundenplan › WI › 26 01 19 SoSe26 MDT — Stundenplan Digitale Transformation – MDT Sommersemester 2026",
+      "section_heading": "Stundenplan Digitale Transformation – MDT Sommersemester 2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Stundenplan Digitale Transformation – MDT Sommersemester 2026  \n_Vorlesungszeit: Montag, den 02.März 2026 bis Freitag, den 19. Juni 2026 Prüfungszeit: Montag, den 22. Juni 2026 bis Freitag, den 10. Juli 2026_  \n|Uhrzeit|Montag|Dienstag|Mittwoch|Donnerstag|Freitag|\n|---|---|---|---|---|---|\n|08.15"
+    },
+    {
+      "rang": 17,
+      "score": 1.48803,
+      "id": "9158ee38-d060-5d61-89e3-7eeaaa8d86a4",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Modulhandbuch-PO2018.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 MDT Modulhandbuch PO2018 — Pflichtmodule",
+      "section_heading": "Teilmodul  MDT-341-01 Cyber-Sicherheit",
+      "chunk_index": 98,
+      "text_vollstaendig": false,
+      "auszug": "## Teilmodul  MDT-341-01 Cyber-Sicherheit  \n> Untertitel Herausforderungen für die Cyber-Sicherheit durch die Digitalisierung  \n> Verantwortliche(r) Merz, Peter, Prof. Dr.  \n> Sprache Deutsch  \n> Zuordnung zu Curricula MDT  \n> Veranstaltungsart, SWS Vorlesung mit Übung, 4 SWS  \n> Credits 6  \n> Präse"
+    },
+    {
+      "rang": 18,
+      "score": 1.4803,
+      "id": "88f0e6fe-dc8e-5445-9656-8eeacc3c9f84",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/master-studiengaenge",
+      "title_anzeige": "www › studium › studienangebot › master studiengaenge — Filter auswählen",
+      "section_heading": "Master-Studiengänge > Digitale Transformation (MDT)",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Digitale Transformation (MDT)\n* **Abschluss** Master of Science (M.Sc.)\n* **Studienbeginn** Sommer- und Wintersemester\n* **Fächergruppe** Wirtschaftsinformatik\n* **Studienform** Voll- und Teilzeit\n* **Zulassungsmodus** örtlich zulassungsbeschränkt\n* **Regelstudienzeit** 3 Semester\n* **Bewerbungss"
+    },
+    {
+      "rang": 19,
+      "score": 1.40776,
+      "id": "fb3248fd-99cd-509c-99ba-371add4962ba",
+      "source_url": "https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-fuer-sensorik-und-automation-isa/news",
+      "title_anzeige": "www › forschungseinrichtungen › institut fuer sensorik und automation isa › news",
+      "section_heading": "News > [ 90 Minuten digitale Resilienz auf der Hannover Messe ](https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-fuer-sensorik-und-automation-isa/90-minuten-digitale-resilienz-auf-der-hannover-messe)",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "### [ 90 Minuten digitale Resilienz auf der Hannover Messe ](https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-fuer-sensorik-und-automation-isa/90-minuten-digitale-resilienz-auf-der-hannover-messe)\nEinladung zum 2. Cybersecurity Breakfast am 21. April\n[Weit"
+    },
+    {
+      "rang": 20,
+      "score": 1.40589,
+      "id": "9e3649ca-c698-5918-a6e4-2bc9d939382e",
+      "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/digitale-transformation-mdt/aufbau-des-studiums",
+      "title_anzeige": "f4 › master studiengaenge › digitale transformation mdt › aufbau des studiums",
+      "section_heading": "Studiumaufbau > 1. und 2. Semester",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "* [Aufsteigend](https://f4.hs-hannover.de/studium/master-studiengaenge/digitale-transformation-mdt/aufbau-des-studiums)  \n| Modul  | Turnus  | SWS/ECTS  |\n| --- | --- | --- |\n|  Verteilte, intelligente Systeme   |  Jährlich im WiSe   |  4/6   |\n|  Cyber-Security   |  Jährlich im SoSe   |  4/6   |"
+    },
+    {
+      "rang": 21,
+      "score": 1.3578,
+      "id": "9befbe0f-53c2-52e6-a6ae-b5239131c295",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › BSW PO 2018 klein",
+      "section_heading": "**Bemerkung 1:**",
+      "chunk_index": 142,
+      "text_vollstaendig": false,
+      "auszug": "## **Bemerkung 1:**  \nDie Veranstaltung findet **online** statt. Voraussetzung für die Teilnahme am Onlineseminar ist ein funktionierendes Mikrofon und Bildschirmkamera.  \nEs wird einen kleinen Seminarraum am Campus geben, von dem Sie sich vor Ort hybrid einschalten können. Wenn der Raum verschlosse"
+    },
+    {
+      "rang": 22,
+      "score": 1.35336,
+      "id": "df7abfe0-6acc-5c15-84d5-78e7b17bfeb2",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-technik-und-it",
+      "title_anzeige": "Technik & IT",
+      "section_heading": "Technik & IT > Navigieren durch komplexe Welten?",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Technik & IT  \n## Navigieren durch komplexe Welten?\nDie **HsH-Akademie** begleitet Sie dabei! **Transformation im Bereich Technik und IT** – häufig eine große Unbekannte, manchmal sogar ein „schwarzes Loch“. Deswegen nehmen wir Sie an der HsH-Akademie in dieser Wissenswelt mit auf eine fasziniere"
+    },
+    {
+      "rang": 23,
+      "score": 1.3533,
+      "id": "9bed9472-925f-5268-8a71-5295796dc7e1",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-MDT-PO2021-210318.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 01 MDT PO2021 210318 — der Hochschule Hannover (MDT PO 2021)",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Master-Studiengang** > **„Digitale Transformation (MDT)“** > **mit dem Abschluss „Master of Science“ in der Fakultät IV – Wirtschaft und Informatik,** > **der Hochschule Hannover (MDT PO 2021)**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Master-Studiengang**  \n## **„Digitale Transformation (MDT)“**\n\n# **mit dem Abschluss „Master of Science“ in der Fakultät IV – Wirtschaft und Informatik,**  \n## **der Hochschule Hannover (MDT PO 2021)**"
+    },
+    {
+      "rang": 24,
+      "score": 1.32807,
+      "id": "d5db656c-a350-5f61-8165-4842490ef2bb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2004 › Verkuendungsblatt 02 2004 — Verkündungsblatt",
+      "section_heading": "**§ 1 Studienbeginn** > **Anlage 5** > **§ 1 Studienbeginn** > **Pr ¨ufungsleistungen des Masterstudiums**",
+      "chunk_index": 249,
+      "text_vollstaendig": false,
+      "auszug": "|---|---|---|---|---|---|---|---|\n|Verteilte\nund\nmobile\nSyste-\nme I|2|2|2|6||KX90|Gesch¨aftsmodelle, technische Infrastruktur, Softwarear-\nchitekturen, pervasive Computing, Entwicklung mobiler\nAnwendungnen, Zahlungssysteme, rechtliche Probleme|\n|Verteilte\nund\nmobile\nSyste-\nme II|2|2|2|6||KX90|Detail"
+    },
+    {
+      "rang": 25,
+      "score": 1.32371,
+      "id": "a43e4379-2f2d-5a28-8262-0c848569e401",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS SoSe 2025 PO 2020 klein",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur:**  \nLiteratur wird in der Vorlesung bekanntgegeben.  \n|**5SBSA03102 Die (digitale)**|**5SBSA03102 Die (digitale)**|**5SBSA03102 Die (digitale)**|**Transformation der Gesellschaft**|**Transformation der Gesellschaft**||\n|---|---|---|---|---|---|\n|Veranstaltungs-Art: Seminar||||||\n|SWS"
+    },
+    {
+      "rang": 26,
+      "score": 1.32182,
+      "id": "c83c6d0f-7e9a-521a-970d-00df846d7157",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BSW PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**4WBSA1401 Soziale Arbeit in der digitalen Transformation**",
+      "chunk_index": 1545,
+      "text_vollstaendig": false,
+      "auszug": "## **4WBSA1401 Soziale Arbeit in der digitalen Transformation**  \nVeranstaltungs-Art: Seminar SWS: 2 | Credits: 5 S Do 09:00 - 17:00 3E.0.51 Schiffhauer, Birte Termin: 19.09.2024 - 19.09.2024 S Fr 09:00 - 17:00 3E.0.51 Schiffhauer, Birte Termin: 20.09.2024 - 20.09.2024 S Sa 09:00 - 17:00 3E.0.51 Sch"
+    },
+    {
+      "rang": 27,
+      "score": 1.31608,
+      "id": "a5fc0243-8966-55f7-bf62-367b061ae37f",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-MDT-PO2021-210205.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 01 MDT PO2021 210205",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung** > **für den Master-Studiengang** > **„Digitale Transformation (MDT)“** > **mit dem Abschluss „Master of Science“ in der Fakultät IV – Wirtschaft und Informatik, der Hochschule Hannover**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil der Prüfungsordnung**\n\n## **für den Master-Studiengang**\n\n## **„Digitale Transformation (MDT)“**\n\n## **mit dem Abschluss „Master of Science“ in der Fakultät IV – Wirtschaft und Informatik, der Hochschule Hannover**"
+    },
+    {
+      "rang": 28,
+      "score": 1.30649,
+      "id": "f01277a7-83d3-5114-9c4f-bfaee80d72af",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/po_master_2009_besonderer_teil_aenderung_1_2012.pdf",
+      "title_anzeige": "f4 › Informatik › Ordnungen › po master 2009 besonderer teil aenderung 1 2012",
+      "section_heading": "**`Besonderer Teil der Prüfungsordnung für den Master-Studiengang „Angewandte Informatik“ (MIN) mit dem Abschluss Master of Science der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover`** > **`Vertiefungsrichtung ,,Sichere Informationssysteme“`**",
+      "chunk_index": 27,
+      "text_vollstaendig": true,
+      "auszug": "Sicherheit|3|2|2|6|MX|Ausgewählte aktuelle Themen aus dem Bereich der IT-Sicherheit, z.B. Trusted Computing,\nKryptographie, Entwicklung sicherer Software, Sicherheitsbewertung, -überprüfung und -\nmanagement, Bedrohungs- und Risikoanalysen, Penetrationstests.|\n|Spezialthema\nSoftwaretechnik|3|2|2|6|MX"
+    },
+    {
+      "rang": 29,
+      "score": 1.29578,
+      "id": "86812c3a-851c-5072-83d8-e75b20fe03f0",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Modulhandbuch-PO2018.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 MDT Modulhandbuch PO2018 — Pflichtmodule",
+      "section_heading": "Angestrebte Lernergebnisse",
+      "chunk_index": 97,
+      "text_vollstaendig": false,
+      "auszug": "## Angestrebte Lernergebnisse  \nDie Studierenden sind nach Abschluß des Moduls in der Lage, Gefahren bzw. Bedrohungen, die sich im Betrieb von intelligenten, verteilten Systemen ergeben, zu erkennen.  \nSie wissen, wie der IT-Sicherheitprozess (nach IT-Grundschutz oder ISO 2700x) für intelligente, ve"
+    },
+    {
+      "rang": 30,
+      "score": 1.28993,
+      "id": "481630a8-2d15-52eb-a1c8-0a86aa8ac057",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/69_SKI_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 69 SKI WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Modul EIT-515 / Security und nachhaltige Transformation**",
+      "chunk_index": 324,
+      "text_vollstaendig": false,
+      "auszug": "## **Modul EIT-515 / Security und nachhaltige Transformation**  \n**Untertitel** OT-Security **Modulniveau** Vertiefungsmodul, 6. Semester **Pflicht / Wahlpflicht** Wahlmodul **Teilmodule** EIT-515-01 / IT-Sicherheit in Produktionsanlagen, Pflicht EIT-515-02 / Nachhaltige digitale Transformation, Pfl"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 68199,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.64,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 2.87,
+    "docs_laden_s": 0.13,
+    "quellen_s": 4.64,
+    "antwort_llm_s": 2.9,
+    "gesamt_s": 7.54
+  },
+  "auswahl_begruendung": "{\"selected\":[11,3,1,9]}"
+}

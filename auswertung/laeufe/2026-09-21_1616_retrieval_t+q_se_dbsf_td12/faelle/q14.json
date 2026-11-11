@@ -1,0 +1,1751 @@
+{
+  "fall": {
+    "id": "q14",
+    "case_type": "direct",
+    "question": "Wie viele Bachelorstudiengänge bietet die Fakultät II der HsH an?",
+    "reference_answer": "Die Fakultät II bietet 11 praxisnahe Bachelor-Studiengänge in den Bereichen Maschinenbau und Bioverfahrenstechnik an. Die Regelstudienzeit von 7 Semestern beinhaltet ein Praxissemester sowie die Anfertigung der Bachelor-Arbeit. Das Angebot umfasst duale und nicht duale Studiengänge.",
+    "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf"
+    ],
+    "required_facts": [
+      "Die Fakultät II bietet 11 Bachelorstudiengänge an.",
+      "Die Studiengänge liegen in den Bereichen Maschinenbau und Bioverfahrenstechnik."
+    ],
+    "optional_facts": [
+      "Die Regelstudienzeit beträgt 7 Semester.",
+      "Das Studium beinhaltet ein Praxissemester und die Bachelor-Arbeit.",
+      "Es gibt duale und nicht duale Studiengänge."
+    ],
+    "forbidden_claims": [
+      "Eine andere Anzahl an Bachelorstudiengängen nennen.",
+      "Die Aussage auf eine andere Fakultät beziehen."
+    ],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Antwort muss die Zahl 11 nennen und sich eindeutig auf die Fakultät II beziehen. Zusätzlich dürfen 7 Semester, Praxissemester, Bachelor-Arbeit sowie duale/nicht duale Studiengänge genannt werden.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "11 Bachelor"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Hochschulentwicklungsplan 2022–26, Basisdaten Fakultät II: 11 Bachelor-Studiengänge.",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "d84f0dd7-ce2b-5b3b-b5b6-477fdb2eaab5",
+      "7d57ebff-2c59-5117-845a-57475e5d45e6",
+      "96b7da5d-8c7e-53e8-b275-5818cf8a0853",
+      "47b14cbf-b98e-5feb-9929-2c7f5ad2aa4a",
+      "5893a3a7-790d-5d2f-89b2-2ca4ed6a8211",
+      "7b0686a2-1c12-50f7-a107-a587a6864c3d",
+      "9381c25e-c254-596f-856e-7c893f9020c4",
+      "9b7aa5ec-d3e3-56f5-ace6-c61055edf956",
+      "8c80026e-9881-5f29-9c8f-3188a5d27113",
+      "77ad32ee-7b33-560d-9522-de51083aca31",
+      "9a8df54f-2920-550f-8cd5-ace242397ee9",
+      "3c85bbbe-4825-573e-b17c-79ff09de0b57",
+      "9f92a7af-759f-52c9-9201-c0f751acd284",
+      "c61d4d8a-5227-59e9-ab69-6bbbf46c49ce",
+      "6fd11ff9-5784-5bff-bf40-acef2697e6bd",
+      "acafd9f9-f4af-53d2-9542-ddc4bfcf0493",
+      "4c8529ea-a8e6-5e67-88a7-6bd873a84230",
+      "eb10ccd8-e6bf-573a-8743-0802a38533ae",
+      "7fd7c801-e853-590e-b4d1-47d1df4b9739",
+      "9d89ee63-2d63-58f0-9124-d62841a6f87f",
+      "1a230553-134c-5c18-800f-76c4a5a8dc91",
+      "bb421dc9-7bd4-5abc-8b4f-839efd037f0e",
+      "cd5043dc-b6ef-59a0-948b-dc1883189cb0",
+      "604f9ccf-75f0-5c6c-a6ab-742e799c3c8d",
+      "60ccedbf-062b-55f9-a333-066f15028f35",
+      "8295822b-1111-5acf-98ac-564548257272",
+      "b697d092-1ef7-5ee5-9db2-f456bd2e7767",
+      "dfd2d8fd-74be-5e1c-83e0-83778a17d7bc",
+      "4d9d1e9a-7ec0-5a29-bb1e-2dfcae2fe116",
+      "e68a90a1-d663-51f9-a637-c9fa4227173c",
+      "67521a74-517b-50cf-9b65-cde74dfe22e6",
+      "8606d3ed-291e-5668-a606-816ef6af0b4e",
+      "cb43288d-eebc-5f82-bc6c-231c74a76c5f",
+      "31dba0c5-d6b3-5432-9f4b-847444878757",
+      "24b4767d-80ff-5b6a-897b-06ff81fa7479",
+      "53ac5547-ea70-53aa-b798-d1211b651f41",
+      "023aef13-57a6-52c0-9305-6afccf4794c8",
+      "17ae0646-fff9-5e51-9fac-ec0abd342e26",
+      "814cec21-b934-5496-b22e-24ebdeb7e5ee",
+      "8c074b19-63e0-560b-87c0-a8550e4722a8",
+      "f117197a-35c8-5dde-aaec-89f582a92081",
+      "b22b2771-7c50-5007-832b-39ce35ad9289",
+      "877597f7-47b4-5fc9-898e-59a11938d579",
+      "26592021-7355-5cfd-bfce-1fa8d392dceb",
+      "4f3c0dfe-993e-5f27-ba7d-74f8e1660f00",
+      "8aac87f0-719c-5e8f-93a5-6f9d6ae1f8a5",
+      "2c098504-967e-58b2-8241-43d7533e50ea",
+      "1a332384-94cd-5d42-bab8-c578e681ec08",
+      "9cffae2d-168c-5ebe-9f6b-8e348cec0539",
+      "d9b9a9c1-14d3-519d-8ea7-5ec9fdfb641d",
+      "3e1be8fc-f296-589b-884e-1130376b6d63",
+      "27b8cd1c-0b40-5c7a-94f2-6459ff3a33bb",
+      "3c995938-11ec-59a6-926d-cd0f5d8567a7",
+      "a2e2acda-d1f9-5d69-8482-6e74173903c4",
+      "10991890-bcc1-5ebd-9611-a07ef9d58000",
+      "4aa748ea-71aa-5c25-be65-eab7e9f555ea",
+      "c88a438d-a447-5e07-a3d1-876337c2956b",
+      "26434a2f-1201-5e12-84bf-6993d0e30e0d",
+      "1940009f-08ec-5343-b9fa-1bfac5a8ad18",
+      "89a92634-d689-5694-acee-14efa15ff1bc",
+      "5dcf06cc-fe87-5c3f-939e-791a968ebaa4",
+      "b1beb704-f3a1-5490-8e3c-84306481c68c",
+      "8512a0c0-480a-5ff6-aa3c-0d5c93b63fd1",
+      "36b80284-5c53-5355-b085-cda41ee6cc8f",
+      "7014e0d0-ff4c-59e5-b8ff-4920051dd539",
+      "8d2f6ed3-73e6-5fb7-9edd-fb9d7a519445",
+      "5c9165ce-4f54-5388-8001-38cd5c5c785c",
+      "f0cbd723-944a-55c4-8f93-2d431818dfa4",
+      "c35b6303-ee3a-5ff9-a7a7-909a88ecab81",
+      "4e2ed81d-bac1-5e43-b978-ea6f4a7c2527",
+      "f06638fe-0957-5e14-84e9-484ab512abb0",
+      "eb0f7fd1-7abd-52af-b230-41689ed37d87",
+      "1de53e28-b245-53ec-84be-472cf840dd1c",
+      "8510c2f2-f1b7-5714-aea7-70603e09c14a",
+      "6cd8e601-848c-5d15-b5fd-e6ae277f3aac",
+      "412136f6-ed99-58f0-9356-16d5d4bc0e04",
+      "7198be73-d80b-56ba-b8d7-79daacbd71f1",
+      "b3b3dcf1-97cd-595a-8e0c-dcc5518755ed",
+      "6d05df1d-b44d-5856-945a-a26c0f0376db",
+      "1686c4e5-a7df-5097-b95d-e1e250c34e11",
+      "a77180f0-5508-559e-bbe5-51c8ce60ddb6",
+      "ea0ff94b-05ca-5f78-a890-87c9665cadd2",
+      "109c5004-d1eb-5380-863d-0d8496976cd2",
+      "20e2c3fd-1a8b-5c49-baca-20e4403629a7",
+      "d8fb1c02-d93d-5743-a9cc-06a67536f24c",
+      "e686b0f6-367f-586e-802b-7a55daf1048a",
+      "44570d99-1c4c-5c12-b255-36358428a966",
+      "c478198a-6b45-5bfa-b951-5a28c6024f98",
+      "a2b7f0a8-45f1-507f-80c6-73ddb8536919",
+      "42e8c3d6-cff9-5c1f-91eb-8515eedf045a",
+      "7bd592b2-32ee-5148-b622-86e9bc0e84c9",
+      "d2f733d5-d26d-535c-b434-20887417d896",
+      "bd80e01e-28fc-505b-8552-60fda52da722",
+      "04800d7d-8749-5038-8e3a-3e37e9e3611a",
+      "bbcf7f28-3e9d-5baf-92c0-509c5996cc7f",
+      "1d65d1a4-cdea-505d-ae6a-07c722e75b54",
+      "17611bc0-1197-5e8c-8c91-9c9ab4c8a6d4",
+      "daba39d6-7868-5d2a-b8ed-ed83b60d91ac",
+      "d34d4d22-054e-5c29-bfc1-2c89e877a076",
+      "d7319cb3-222d-5cf4-8dff-f7b9c84225db",
+      "d2ecc539-a88e-5985-b365-ee634ff68866",
+      "5dea43c8-e380-58d8-82e2-66d532a57d7c",
+      "45665b08-4573-55fb-9b03-c3c0f9072525",
+      "4db0d54f-90bc-56fa-8612-f25ce2830385",
+      "bd54cefb-92fb-537d-bd20-7c33a18bfe56",
+      "7f2cac4a-0511-5eef-9c49-3c6e16a9bb47",
+      "a1951e23-2545-5a6e-8eca-0e7c3469dada",
+      "0d8a116d-4ba6-5b42-8c51-735ce4e0f349",
+      "885f967b-42c0-5005-814e-36c6bec92241",
+      "f85f38e5-8bc2-5733-acfc-26bff29f61e2",
+      "d5315249-fe30-566a-8ad5-95bbb25cd59a",
+      "4d435204-9ecf-5808-9e47-79e629484d4d",
+      "890b7945-1546-58f6-9527-2a1cf6160073",
+      "87d12e18-93f1-5626-a6b3-7a3b3aca1be0",
+      "7cd24ad4-6689-5a9a-a617-91bd7e898288",
+      "5e4e6dd9-66e6-551a-9728-2ab3aa6924a1",
+      "349816c4-52e4-5def-9962-6a06dcf089a8",
+      "9cb4067c-3467-508d-ba9d-36152a378d91",
+      "7f9545b6-31bc-5d95-9d91-d16974f5fe52",
+      "2441af2b-baa6-54f4-bfab-eef79b4477bb",
+      "16edcd20-cfbb-5c09-a8d1-68a5c789df8a",
+      "5aee8215-0257-56b9-8ad7-e9db79129d07",
+      "6c6941b1-d9f5-522f-9684-15ff1fae05e3",
+      "64f3570c-e34f-5c2f-a809-68d913515230",
+      "4d66e8ef-2c3e-57db-98b4-bb37feadfa65",
+      "89587ab3-21de-5ee5-8fd7-a0f81156ecde",
+      "e98f67ae-f29d-5ebe-8b79-831f6c2d5622",
+      "8ab4ed1b-cb2b-5116-a244-a193b91a0e6d",
+      "e9120e25-1a96-5688-be19-b8b1582dcf3e",
+      "6fe01374-b6f9-5254-bd81-cf727d17e616",
+      "eb1ac998-158b-5d0b-b4aa-a7884618a48d",
+      "21f4a18a-3eb6-5c4f-ab25-7f65ac63a27f",
+      "2b47669d-297d-5749-a2a6-b9522f79ade0",
+      "57c94333-b8ba-5dd8-8b16-86c8b713553b",
+      "ad3d91fe-ca36-55a1-b049-21aa66390c1e",
+      "e2509afa-aefe-5aa5-9b12-518ce2145e34",
+      "b82963b8-87a4-5f3d-ab6e-7a709fa9ee34",
+      "aa80281e-7bbd-5586-b594-f19289ba8eea",
+      "3fae28d4-3941-585f-9f0b-dc07c4d13730",
+      "cca6db51-d478-5cfb-a054-48cd80762700",
+      "5f02febe-e585-5f46-b599-fc126e6cbfa8",
+      "c1448cff-cd17-50f7-9cf8-5e6fe8188072",
+      "5b938806-3bab-5ca0-9a96-0c008acded1b",
+      "d1740bf2-3fb9-5eab-865c-c70a2b9af931",
+      "eff39ca6-2cdc-5efe-880b-f297e1b9a05a",
+      "0a615c54-481f-50fa-ac22-6fabc7690225",
+      "0231864f-ac8c-5270-a7e3-c8ea20017ca6",
+      "d7abae8f-3a08-5e51-b74d-36b8fb4cd959",
+      "f3ec9472-cc11-5ddd-9781-d28749dfd57a",
+      "42208a89-b493-5350-8357-fce194084964",
+      "0a145301-4672-55b3-86c3-2b7681207a0d",
+      "64d7a87f-0246-511e-b386-4619d4d12abd",
+      "d8260cea-d4bd-51a2-baec-1b638243dda1",
+      "0166e875-304a-5a3d-bde1-ab2fa23f0a0f",
+      "5fbdf268-077e-58be-b5e0-ee45545f86ec",
+      "3dcfb88b-15af-562c-beaf-f4dc92d1a0f1",
+      "cd46b377-b0f6-5954-99cc-371031d1890a",
+      "06778ea3-313a-5f02-a870-d8861365d9b5",
+      "20b27ec6-e480-51f3-80d8-14a019e9c6d6",
+      "b7d9fab2-bb49-56ae-bb27-e4e1041c44fc",
+      "ec7cc693-9c81-5be9-8774-1299bef7a3df",
+      "7222fa71-bde8-55db-bdf4-bb12dba44136",
+      "b76fa0ef-3676-5273-b8d9-ba13bf7ea8ef",
+      "7310d01f-2ad8-535a-89c4-deca3cb794d3",
+      "a1beeb28-3b5e-5dd7-af83-987e502a559e",
+      "5407c7ed-bbf5-54d4-a6f0-fd97d4387600",
+      "38e5a10f-2e83-53e4-b031-302a85178ea5",
+      "23f81788-d91a-56c4-a27f-0f6412d54408",
+      "4cb5d0b6-0d7c-5b76-b4b4-beff6d187d1c",
+      "149fefac-12c6-5b7a-95d7-44fa36d213f9",
+      "da8351d0-cc48-5f0e-81db-49392140c206",
+      "fc9980cb-7a49-5e4b-87bc-4ecc4f0b52d1",
+      "959165f0-4ad1-53e0-9c57-1366157a8c73",
+      "4a9b4bf8-c74b-5111-9436-e4ecd6b304f1",
+      "31e784dc-422e-5284-bd16-8db59da3aa2a",
+      "b50d8431-e0a7-5399-9d95-807260b62cf0",
+      "82fab055-357d-58a6-8865-392ce3ae0d80",
+      "6fa8b8f9-0589-5497-a31b-d86af6676ead",
+      "240ce563-1408-532a-8c71-46d5b3149703",
+      "9fa48f1c-31b8-5d73-89a5-08a52bcfcddf",
+      "0bfc3bae-85ac-5b45-8c41-ae775a5f9f78",
+      "ddbd608d-12bd-5bfe-b519-7b22496906bc",
+      "3e650673-db1c-5dfb-9670-ca6e860eae69",
+      "a4ad4134-38a9-5fcf-b046-72129f94fa37",
+      "eb920987-86f0-5c0d-8c92-950d5209c9d7",
+      "48a782c3-1192-59a2-9f08-439fa7025790",
+      "7a5e90e4-4363-512c-98ed-a278191820bd",
+      "0bffcb9b-9d1a-5ba3-894d-9b5685dab455",
+      "707bddb7-5a4e-514f-96fe-41fa987d4a6b",
+      "4def42b3-bde8-56fc-bb22-ab56c55f80de",
+      "0ca4f619-1bb1-570f-80bb-2ae2c52b8cf8",
+      "9b6e45f6-e969-50fe-8029-73896c5862a1",
+      "126db3d6-76b2-5f8d-8ef2-d61a645f36b6",
+      "bdc067f1-1289-5578-a4cc-b712ff5d2309",
+      "32ae8976-ee88-5bfc-bc45-d0d3b8646917",
+      "30815a36-a421-5616-ab84-778d8c9f9310",
+      "755d7934-f7dc-5b7d-99bb-02f43e129614",
+      "f6453d95-b335-528f-9b40-2e2dc2549af3",
+      "0d3dfed1-b7d7-5cb6-a10a-35b0facb3172",
+      "84c700f4-f60c-547d-a11b-4dd2e6f67e28",
+      "481a64fc-0a83-50a3-a139-0d609c1234b8",
+      "93501f14-56c0-5d1d-85e6-faa2a8323b9a",
+      "39da6134-3398-578b-b2bd-7fe864cdcc4e",
+      "eaf4cbf1-cbd0-5f9e-8118-0316b73b2e72",
+      "6c21a138-c04b-5c68-9535-11908184e7f3",
+      "a92f1960-99dc-537b-b780-b86866985413",
+      "b1027ee3-f934-5535-a1f9-2d2137c15a89",
+      "9f3f422d-829d-5054-8312-3c2ad74b21b8",
+      "a9d8bfa9-1979-597d-937f-951ff6add0a3",
+      "99001de0-0ad6-5fb7-8cd8-ea39ae789fa6",
+      "8afc96ba-6a7b-5d09-ad1f-595683bc3313",
+      "575255fa-54a1-5b12-91b1-1ffb8b299ad1",
+      "0c0e8b75-6fed-583e-8558-aa24f901c6ff",
+      "7fab0cc1-c4fd-5886-a90a-7caeaceef676",
+      "274b132b-ad26-53ae-9bf5-999008675b3a",
+      "af16812e-f93c-5069-9b4d-4b814655b679",
+      "d4a53f16-12cc-5a62-a584-32fb0b47d23d",
+      "27afe269-2ec3-5526-952b-db13c91be767",
+      "037fd9f1-870b-527c-860f-dbc938a92bfe",
+      "a507218e-1b35-5656-8e22-bc318137d02d",
+      "6d304b5b-42b7-599b-b5d8-852f88b86b8d",
+      "2e494812-e8ca-5203-9251-2dfda96d1d35",
+      "8cc3df46-a394-5dc8-903a-2cc82c55cea1",
+      "8eced1e1-5e7f-5f9b-8208-ab26920bcddf",
+      "9a72e9d0-0e0d-5c1a-bedb-b829bb27062e",
+      "ff52d2d4-e151-5c68-b911-7085d01468d4",
+      "4850a8aa-e37c-59e2-bff9-44d7879af7c4",
+      "0b1e7057-06a5-56b8-9287-610bef3d3c63",
+      "e2b01a0b-e1e7-56f3-bb34-ba6c55727331",
+      "9d248137-9bae-55b0-8b15-2263fc17606d",
+      "0da5ad90-773a-5d01-b383-16cf0e92981b",
+      "6afd779c-3341-59aa-ba1f-d54502c11e6b",
+      "c1ad20c8-4f50-5243-acf9-a54684585e22",
+      "541c3365-8f23-5284-ab3e-f3902bc6fa7c",
+      "dff44792-2d79-59a9-b222-95873f0e28a4",
+      "2f182eee-f19c-53f5-a672-65adac60bda8",
+      "2a022c7b-8001-5086-a706-21d46662cd64",
+      "a107f469-72b8-5a71-9767-83c3653ab3f8",
+      "b26d420e-f1ef-5881-a35a-a5bfd8de9a05",
+      "21957b2c-6f01-57e4-bf65-6e206d7efa70",
+      "2ff4a2c8-15f7-5938-b1d1-2d3995320ac2",
+      "9ce498cc-1cbc-53ef-8323-0ef0562392e9",
+      "43c954e8-eef4-5728-92aa-5a98794ef944",
+      "87e95902-c2b4-5d49-962e-a4b00ebfd050",
+      "5e6688f2-7342-5d3e-b58b-19ed298e82cf",
+      "9cb0e246-f621-58b7-9307-3764f1825b6f",
+      "eadec570-8d61-5402-a9e9-99bba869c951",
+      "c24f0845-8340-5173-9859-95ca40d77043",
+      "ddd025b0-d181-592a-9fbe-3078cade7d6a",
+      "2f57a3aa-1837-5728-9ef9-39ba2d6c7b9f",
+      "d00fcd80-9968-5ee6-a617-c3b12b68ff24",
+      "338aa554-939b-5257-8f35-445174d19a5c",
+      "86f4ed7d-4e88-5f79-b888-7c66ec22facd",
+      "c48f615a-6bb8-5eb4-8da1-c711cc827344",
+      "fd696350-7b9c-5975-a3f1-2894d39e1b10",
+      "eb23f5b3-59e7-5b57-b34d-48542861cc54",
+      "59eb10a8-fe14-5a64-a0e6-3cd09bbadc26",
+      "8087a506-98c5-5de7-964e-473f9545d299",
+      "8ff34d4d-a05b-5e26-94f7-e4f661a6b222",
+      "b361b8e0-00ac-5a6d-aa59-ed9b040622f9",
+      "0c154f96-4df1-51d4-a731-87af1b8e2d4a",
+      "b84ab0b3-aec7-5d61-962f-aea6ccbd7694"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T16:17:06",
+  "dauer_s": 4.6,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Ingenieurskunst trifft Nachhaltigkeit",
+      "url": "https://f2.hs-hannover.de",
+      "fakultaet": "f2",
+      "struktur": "# Ingenieurskunst trifft Nachhaltigkeit\n  ## Herzlich willkommen an der Fakultät II, liebe Studierende!\n  ## Hier finden Sie alle relevanten Informationen für einen guten Start:\n  ## Freie Studienplätze - Bewerben Sie sich jetzt!\n  ## Study what’s next: Neue Studienangebote\n    ### Maschinenbau (MAB)\n    ### Green Engineering – Energietechnik und Verfahrenstechnik (GEV)\n    ### Future Food Systems - Lebensmitteltechnologie und Verpackungstechnologie (LVT)\n    ### Biotechnologie und Umwelttechnik (BIU)\n  ## Gute Gründe für ein Studium an der Hochschule Hannover\n  ## Wir stellen uns vor\n  ## Unser Studienangebot\n    ###  Veranstaltungsreihe zum gelingenden Studieren \n    ###  Das Creative Lab an der Expo Plaza \n    ###  Wissenschaftler der Sorbonne Université zu Gast an der Hochschule Hannover \n  ## Veranstaltungen und Termine\n# Social Media\n  ## Das zeichnet uns aus...\n# Haben wir Sie überzeugt? Dann bewerben Sie sich bei uns!"
+    },
+    {
+      "nr": 2,
+      "titel": "Ingenieurskunst trifft Nachhaltigkeit",
+      "url": "https://f2.hs-hannover.de/index.php",
+      "fakultaet": "f2",
+      "struktur": "# Ingenieurskunst trifft Nachhaltigkeit\n  ## Herzlich willkommen an der Fakultät II, liebe Studierende!\n  ## Hier finden Sie alle relevanten Informationen für einen guten Start:\n  ## Freie Studienplätze - Bewerben Sie sich jetzt!\n  ## Study what’s next: Neue Studienangebote\n    ### Maschinenbau (MAB)\n    ### Green Engineering – Energietechnik und Verfahrenstechnik (GEV)\n    ### Future Food Systems - Lebensmitteltechnologie und Verpackungstechnologie (LVT)\n    ### Biotechnologie und Umwelttechnik (BIU)\n    ### Externer Inhalt\n  ## Gute Gründe für ein Studium an der Hochschule Hannover\n  ## Wir stellen uns vor\n  ## Unser Studienangebot\n    ###  Veranstaltungsreihe zum gelingenden Studieren \n    ###  Das Creative Lab an der Expo Plaza \n    ###  Wissenschaftler der Sorbonne Université zu Gast an der Hochschule Hannover \n  ## Veranstaltungen und Termine\n# Social Media\n  ## Das zeichnet uns aus...\n# Haben wir Sie überzeugt? Dann bewerben Sie sich bei uns!"
+    },
+    {
+      "nr": 3,
+      "titel": "Bachelor-Studiengänge der Fakultät II",
+      "url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge",
+      "fakultaet": "f2",
+      "struktur": "# Bachelor-Studiengänge der Fakultät II\n    ### Das Wichtigste in Kürze\n  ## Study what’s next: Neue Studienangebote\n    ### Biotechnologie und Umwelttechnik (BIU)\n    ### Green Engineering – Energietechnik und Verfahrenstechnik (GEV)\n    ### Future Food Systems – Lebensmitteltechnologie und Verpackungstechnologie (LVT)\n    ### Maschinenbau (MAB)\n    ### Wirtschaftsingenieur/in Maschinenbau (WIM)\n  ## Duale Bachelor-Studiengänge\n  ## Nicht duale Bachelor-Studiengänge\n  ## Bewerbungsportal\n  ## Bewerbungen jeweils zum Sommer- und Wintersemester möglich!\n  ## Beratung & Kontakt"
+    },
+    {
+      "nr": 4,
+      "titel": "Kursangebot für Austauschstudierende",
+      "url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/kursangebot-fuer-austauschstudierende",
+      "fakultaet": "",
+      "struktur": "# Kursangebot für Austauschstudierende\n    ### Kursangebot der Fakultät I - Elektro- und Informationstechnik \n    ### Kursangebot der Fakultät II - Maschinenbau und Bioverfahrenstechnik\n    ### Kursangebot der Fakultät III - Medien, Information und Design\n    ### Kursangebot der Fakultät IV - Wirtschaft und Informatik\n    ### Kursangebot der Fakultät V - Diakonie, Gesundheit & Soziales"
+    },
+    {
+      "nr": 5,
+      "titel": "f2 › Studium › Sonstige › F2 Infobroschuere 220329 — Inhalt",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Inhalt\n  ## Achtzehn Studiengänge\n  ## BachelorStudiengänge\n  ## Ingenieurinformatik Maschinenbau (IIM)\n  ## Lebensmittelverpackungstechnologie (LMV)\n  ## Maschinenbau (MAB)\n  ## Milchwirtschaftliche Lebensmitteltechnologie (BML)\n  ## Technologie Nachwachsender Rohstoffe (TNR)\n  ## Verfahrenstechnik, Energietechnik und Umwelttechnik (VEU)\n  ## Wirtschaftsingenieur/in Maschinenbau (WIM)\n  ## Duale BachelorStudiengänge\n  ## STUDIENGÄNGE\n  ## Ingenieurinformatik Maschinenbau dual (IID)\n  ## Konstruktionstechnik dual (KTD)\n  ## Mechatronik dual (MTD)\n  ## Produktionstechnik dual (PTD)\n  ## Wirtschaftsingenieur/in dual (Technischer Vertrieb) (WTD)\n  ## Zulassungsvoraussetzungen in den Bachelor-Studiengängen\n  ## Vorpraktikum\n  ## MasterStudiengänge\n  ## Maschinenbau-Entwicklung (MED)\n  ## Milch- und Verpackungswirtschaft (MMV)\n  ## Nachwachsende Rohstoffe und Erneuerbare Energien (NREE)\n  ## Prozess Engineering und Produktionsmanagement (PEP)\n  ## Wertschöpfungsmanagement im Maschinenbau dual (WMM)\n  ## WeiterbildungsMaster-Studiengang\n  ## Prozessmanagement und Usability Engineering Industrie 4.0 (PUE) Weiterbildung\n  ## Zulassungsvoraussetzungen in den Master-Studiengängen\n  ## Kontakt\n  ## Studienberatung\n  ## Studienkosten\n  ## Hochschule Hannover\n  ## Kontakt\n  ## Hochschule Hannover\n  ## Hochschule Hannover\n  ## Hochschule Hannover"
+    },
+    {
+      "nr": 6,
+      "titel": "Master-Studiengänge der Fakultät II",
+      "url": "https://f2.hs-hannover.de/studium/master-studiengaenge",
+      "fakultaet": "f2",
+      "struktur": "# Master-Studiengänge der Fakultät II\n    ### Das Wichtigste in Kürze\n  ## Unsere Master-Studiengänge\n  ## Bewerbungsportal\n  ## Bewerbungen jeweils zum Sommer- und Wintersemester möglich!"
+    },
+    {
+      "nr": 7,
+      "titel": "f1 › 99 Sonstiges › Internationales › Brochure Faculty I II 2026 — Hochschule Hannover",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Content\n  ## Hochschule Hannover\n  ## Faculty I - Electrical Engineering and Information Technologyogy\n  ## Bachelor Degrees (B.Eng.)\n  ## Master Degrees (M.Eng.)\n  ## Faculty II - Mechanical Engineering and Bioprocess Engineering\n  ## Bachelor Degrees (B.Eng.)\n  ## Bachelor Dual-track:\n  ## Master Degree (M.Eng.)\n  ## Campus Map\n  ## Exchange Options for International Students\n  ## Courses in English for an exchange semester\n  ## Studies in German degree programme or double degree programme\n  ## General Information for International Students\n  ## Term dates (winter term)\n  ## Required application documents:\n  ## from 1[st] September to 28[th] February\n  ## Contact\n  ## Cobi King\n  ## Application Dates\n  ## Application\n  ## Housing\n  ## Contact\n  ## International Faculty Office\n  ## Viola Wedekind\n  ## International Coordinator\n  ## International Faculty Ofice Meike Marten\n  ## International Coordinators\n  ## Hannover City\n  ## <NEW TOWN HALL\n  ## Sights in Hannover\n  ## Eilenriede\n  ## Marktkirche\n  ## Maschsee\n  ## Hannover Zoo\n  ## Herrenhausen Royal Gardens\n  ## New Town Hall\n  ## Bars and Restaurants\n  ## Kröpcke\n  ## Tourism and Culture\n  ## Fairs\n  ## Volkswagen City"
+    },
+    {
+      "nr": 8,
+      "titel": "f1 › 10 Ordnungen › 60 Sonstige › Brochure Faculty I II 2023 3.11.23 neue Fotos Einzelseiten 6.11.23",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Brochure_Faculty_I_II_2023-3.11.23_neue_Fotos-Einzelseiten_6.11.23.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Content\n  ## Hochschule Hannover University of Applied Sciences and Arts Hanover\n# The Engineering Faculties\n  ## Faculty I - Electrical Engineering and Information Technologyogy\n  ## Faculty II - Mechanical Engineering and Bioprocess Engineering\n  ## Dual Study Courses in:\n  ## Campus Map\n  ## Studies in German – degree program or double degree program\n  ## Courses in English for an Exchange semester\n  ## General Information for International Students\n  ## Term dates (winter term)\n  ## Required application documents:\n  ## Contact\n  ## Cobi King\n  ## Application Dates\n  ## Nomination\n  ## Application\n  ## Housing\n  ## Contact\n  ## Faculty I\n  ## International Faculty Office\n  ## Viola Wedekind\n  ## International Coordinator\n  ## Faculty II - Department Mechanical Engineering\n  ## International Faculty Ofice\n  ## International Coordinators\n  ## Hanover City\n  ## Sights in Hanover\n  ## Eilenriede\n  ## Marktkirche\n  ## Maschsee\n  ## Hanover Zoo\n  ## Herrenhausen Royal Gardens\n  ## New Town Hall\n  ## Bars and Restaurants\n  ## Kröpcke\n  ## Tourism and Culture"
+    },
+    {
+      "nr": 9,
+      "titel": "Studieren an der Fakultät II",
+      "url": "https://f2.hs-hannover.de/studium",
+      "fakultaet": "f2",
+      "struktur": "# Studieren an der Fakultät II\n  ## Akademische Karriere an der HsH\n  ## Bachelor-Studiengänge\n  ## Master-Studiengänge"
+    },
+    {
+      "nr": 10,
+      "titel": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Impressum:\n  ## Inhalt\n  ## Vorwort des Präsidiums\n  ## — 1 Ausgangslage\n  ## — 2 Kurzdarstellung der Hochschule\n  ## Leitbild und Umstrukturierungen\n  ## — 2 Kurzdarstellung der Hochschule\n  ## — 3 Kurzdarstellung der Fakultäten\n  ## Elektround Informationstechnik Fakultät I\n  ## Elektro- und Informationstechnik\n  ## Highlights\n  ## Studierende der Fakultät I\n# Maschinenbau und Bioverfahrenstechnik Fakultät II\n  ## Maschinenbau und Bioverfahrenstechnik\n  ## Highlights\n  ## Studierende der Fakultät II\n  ## Studierende der Fakultät II\n# Medien, Information und Design\n  ## Medien, Information und Design\n  ## Highlights\n  ## →   Motion Cube\n# Wirtschaft und Informatik\n  ## Wirtschaft und Informatik\n  ## Basisdaten\n  ## Highlights\n  ## →   Lehre\n  ## →   Praxisnähe\n  ## →   Studienbedingungen\n  ## →   Internationalität\n# Diakonie, Gesundheit und Soziales Fakultät V\n  ## Diakonie, Gesundheit und Soziales\n  ## Highlights\n  ## →   Internationale Vernetzung\n  ## →   Regionale Kontakte\n  ## Studierende der Fakultät V nach Studiengang\n# HsH – Hier studiert 34 Hannover.\n  ## — 4 Strategische Ziele der Hochschulentwicklung\n  ## 4 — Strategische Ziele der Hochschulentwicklung\n  ## StudierendenPerspektive\n  ## TREIBENDE FAKTOREN HAW-spezifisch hochqualifiziertes Lehrpersonal Studiengangs(neu)entwicklung MASSNAHMEN MIT HÖCHSTER PRIORITÄT\n  ## StudierendenPerspektive\n  ## Qualitativ hochwertige Studienabschlüsse anbieten\n  ## Nachhaltigkeit in der Lehre\n  ## StudierendenPerspektive\n  ## Nachhaltigkeit meets Internationalisierung in Studium und Praxis\n  ## StudierendenPerspektive\n  ## Attraktivität für Bewerber:innen steigern\n  ## Frauen in MINT\n  ## StudierendenPerspektive\n  ## Digitalisierung des Student Life Cycle"
+    },
+    {
+      "nr": 11,
+      "titel": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "url": "https://f1.hs-hannover.de",
+      "fakultaet": "f1",
+      "struktur": "# Studieren an der Fakultät I - Elektro- und Informationstechnik\n# Freie Studienplätze - Bewerben Sie sich jetzt für das Wintersemester 2026/27 (Semesterbeginn: 01.09.2026) über das\n  ## Wir stellen uns vor\n    ### Das Wichtigste in Kürze\n  ## Das zeichnet uns aus ...\n# Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee:\n  ## Die Fakultät I in Zahlen\n  ## Events\n    ### StudiTalk: Was ich vor Studienbeginn gerne gewusst hätte\n    ### Brückenkurs Mathematik und Physik\n    ### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n# Neuigkeiten\n    ###  „Engineering Future“: Liminale Festival geht in die zweite Runde \n    ###  Signal Processing in Toulouse \n    ###  Vom Moor ins Labor: Ministerin Staudte besucht das Projekt I‑RoBi \n    ### Kontakt"
+    },
+    {
+      "nr": 12,
+      "titel": "Welcome to Faculty II",
+      "url": "https://f2.hs-hannover.de/internationales/information-for-incomings-wege-an-die-fakultaet-ii",
+      "fakultaet": "f2",
+      "struktur": "# Welcome to Faculty II\n  ## Faculty II - Mechanical Engineering and Bio Process Engineering\n  ## Fakultät II - Maschienenbau und Bioverfahrenstechnik\n  ## Themen vertiefen"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.23732,
+      "id": "068b99db-100a-5bac-8c5e-fda26d74e652",
+      "source_url": "https://f2.hs-hannover.de",
+      "title_anzeige": "Ingenieurskunst trifft Nachhaltigkeit",
+      "section_heading": "Social Media",
+      "chunk_index": 19,
+      "text_vollstaendig": false,
+      "auszug": "### [ Das Creative Lab an der Expo Plaza ](https://www.hs-hannover.de/ueber-uns/strategie/drifthsh-driver-of-future-transformation/kite-kompetenzzentrum-fuer-ki-transformation-und-empowerment/news/artikel-1-2-2)\nAm Standort Expo Plaza entsteht mit dem Creative Lab eine räumliche Verortung von KITE a"
+    },
+    {
+      "rang": 2,
+      "score": 3.17667,
+      "id": "2fca0606-eaec-5c87-94ab-9d20035d004b",
+      "source_url": "https://f2.hs-hannover.de/index.php",
+      "title_anzeige": "Ingenieurskunst trifft Nachhaltigkeit",
+      "section_heading": "Social Media",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## Das zeichnet uns aus...\n![4 junge Menschen auf einem Sofa](https://f2.hs-hannover.de/fileadmin/_processed_/9/1/csm_Imagebilder_HsH_-22_772927127c.jpg?rbiFocus=mobile)\n\n##\n[ ...in der Lehre ](https://f2.hs-hannover.de/index.php \"...in der Lehre\")\nDie Fakultät II - Maschinenbau und Bioverfahrenstec"
+    },
+    {
+      "rang": 3,
+      "score": 2.98747,
+      "id": "d84f0dd7-ce2b-5b3b-b5b6-477fdb2eaab5",
+      "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge",
+      "title_anzeige": "Bachelor-Studiengänge der Fakultät II",
+      "section_heading": "Bachelor-Studiengänge der Fakultät II",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n# Bachelor-Studiengänge der Fakultät II\nDie Fakultät II bietet 11 praxisnahe Bachelor-Studiengänge in den Bereichen [Maschinenbau](https://f2.hs-hannover.de/ueber-uns/maschinenbau) und [Bioverfahrenstechnik](https://f2.hs-hannover.de/ueber-uns/bioverfa"
+    },
+    {
+      "rang": 4,
+      "score": 2.46356,
+      "id": "4add1bb1-1014-591a-823c-1f7c209f0c8a",
+      "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/kursangebot-fuer-austauschstudierende",
+      "title_anzeige": "Kursangebot für Austauschstudierende",
+      "section_heading": "Kursangebot für Austauschstudierende > [Kursangebot der Fakultät II - Maschinenbau und Bioverfahrenstechnik](https://f2.hs-hannover.de/internationales/information-for-incomings-wege-an-die-fakultaet-ii)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### [Kursangebot der Fakultät II - Maschinenbau und Bioverfahrenstechnik](https://f2.hs-hannover.de/internationales/information-for-incomings-wege-an-die-fakultaet-ii)\nDie Fakultät II bietet Studiengänge des Maschinenbaus und der Bioverfahrenstechnik an: zum Beispiel Ingenieurinformatik, Konstruktio"
+    },
+    {
+      "rang": 5,
+      "score": 2.43965,
+      "id": "b3d21aae-bc55-5b3c-96ec-46b7c88c7144",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+      "title_anzeige": "f2 › Studium › Sonstige › F2 Infobroschuere 220329 — Inhalt",
+      "section_heading": "Hochschule Hannover",
+      "chunk_index": 36,
+      "text_vollstaendig": true,
+      "auszug": "In der Fakultät II werden über 2.000 Studierende von rund 60 Professorinnen und Professoren sowie zahlreichen Lehrbeauftragten und Lehrkräften für besondere Aufgaben betreut. Die Fakultät ist aus der früheren Ingenieurakademie entstanden, die ihren Ursprung in der Maschinenbauabteilung der „Handwerk"
+    },
+    {
+      "rang": 6,
+      "score": 2.39715,
+      "id": "27a95287-0722-5db3-8b9d-a792b8daeb89",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+      "title_anzeige": "f2 › Studium › Sonstige › F2 Infobroschuere 220329 — Inhalt",
+      "section_heading": "Achtzehn Studiengänge",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Achtzehn Studiengänge  \nDie Fakultät II – Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover bietet insgesamt zwölf Bachelor-Studiengänge und sechs Master-Studiengänge an. Fünf Bachelor-Studiengänge und ein Master-Studiengang werden als duales Studium angeboten, ein Master-Studiengang "
+    },
+    {
+      "rang": 7,
+      "score": 2.33469,
+      "id": "020a624f-c1ee-538a-81d6-b4e79964e71b",
+      "source_url": "https://f2.hs-hannover.de/studium/master-studiengaenge",
+      "title_anzeige": "Master-Studiengänge der Fakultät II",
+      "section_heading": "Master-Studiengänge der Fakultät II",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n# Master-Studiengänge der Fakultät II\nDie Fakultät II bietet 5 vertiefende Master-Studiengänge und 2 Master-Weiterbildungsstudiengänge in den Bereichen [Maschinenbau](https://f2.hs-hannover.de/ueber-uns/maschinenbau) und [Bioverfahrenstechnik](https://"
+    },
+    {
+      "rang": 8,
+      "score": 2.06053,
+      "id": "7b0b384d-2d09-5016-9ee2-a6cb5986cc42",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+      "title_anzeige": "f1 › 99 Sonstiges › Internationales › Brochure Faculty I II 2026 — Hochschule Hannover",
+      "section_heading": "Bachelor Degrees (B.Eng.)",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## Bachelor Degrees (B.Eng.)  \n- Computer Science in Mechanical  \n- Engineering (IIM)  \n- Industrial Engineering (WIM)  \nFaculty II offers a high quality engineering education to about 2000 HsH-students leading to a bachelor or a master degree. Generally, a bachelor programme takes 7 semesters to co"
+    },
+    {
+      "rang": 9,
+      "score": 1.98446,
+      "id": "f604051c-3d02-5b7e-9bce-d39cb7eb15b8",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Brochure_Faculty_I_II_2023-3.11.23_neue_Fotos-Einzelseiten_6.11.23.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 60 Sonstige › Brochure Faculty I II 2023 3.11.23 neue Fotos Einzelseiten 6.11.23",
+      "section_heading": "The Engineering Faculties > Faculty II - Mechanical Engineering and Bioprocess Engineering",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Faculty II - Mechanical Engineering and Bioprocess Engineering  \nOur faculty is divided into three departments. The departments of Mechanical Engineering and Dual-track Mechanical Engineering are located in the Linden Campus. The Department of Bioprocess Engineering is located in Ahlem.  \nDepartm"
+    },
+    {
+      "rang": 10,
+      "score": 1.90772,
+      "id": "d6b46b78-23e1-5d36-9f53-271d9ef1487d",
+      "source_url": "https://f2.hs-hannover.de/studium",
+      "title_anzeige": "Studieren an der Fakultät II",
+      "section_heading": "Studieren an der Fakultät II > Akademische Karriere an der HsH",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "Die Masterstudiengänge der Fakultät II sind auf eine Regelstudienzeit von 3 Semestern ausgelegt und werden mit dem akademischen Grad „Master of Engineering (M.Eng.)“ abgeschlossen.\nEinige Studiengänge werden zudem berufsbegleitend als duale Studiengänge angeboten. Bei diesen besteht gleichzeitig zum"
+    },
+    {
+      "rang": 11,
+      "score": 1.58376,
+      "id": "fb3855a2-7db5-507b-b5ac-589eb6a4a760",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+      "title_anzeige": "f1 › 99 Sonstiges › Internationales › Brochure Faculty I II 2026 — Hochschule Hannover",
+      "section_heading": "Content > Hochschule Hannover",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## Content\n## Hochschule Hannover  \nUniversity of Applied Sciences and Arts  \nHochschule Hannover Hannover University of Applied Sciences and Arts  \nFaculty I – Electrical Engineering and Information Technology  \nFaculty II – Mechanical Engineering and Bioprocess Engineering  \nCampus Map  \nExchange "
+    },
+    {
+      "rang": 12,
+      "score": 1.56615,
+      "id": "c705f5ec-af96-5220-a4d1-98054047b3e5",
+      "source_url": "https://f2.hs-hannover.de/studium",
+      "title_anzeige": "Studieren an der Fakultät II",
+      "section_heading": "Studieren an der Fakultät II > Akademische Karriere an der HsH",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Akademische Karriere an der HsH\nVoraussetzung für die Aufnahme eines Studiums an der Hochschule Hannover (HsH) ist eine „Hochschulzugangsberechtigung“. Detaillierte Informationen dazu finden Sie auf dieser Seite.\nDie Bachelorstudiengänge an der Fakultät II der HsH sind auf eine Regelstudienzeit v"
+    },
+    {
+      "rang": 13,
+      "score": 1.55365,
+      "id": "8606d3ed-291e-5668-a606-816ef6af0b4e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "— 2 Kurzdarstellung der Hochschule",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## — 2 Kurzdarstellung der Hochschule  \nAls regional verankerte und international ausgerichtete Hochschule bietet die Hochschule Hannover (HsH) eine breit gefächerte Auswahl anwendungsorientierter Fachqualifikationen aus den Bereichen Informatik und Ingenieurwesen, Design und Medien sowie Wirtschaft"
+    },
+    {
+      "rang": 14,
+      "score": 1.54668,
+      "id": "9ddcc249-8e75-56d7-8a86-4585c3d93a7b",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee: > Die Fakultät I in Zahlen",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## Die Fakultät I in Zahlen\nStudierende\nStudienplätze\nStudiengänge\nProfessorinnen und Professoren\nLehrbeauftragte\nMitarbeiterinnen und Mitarbeiter\n[ ![Bachelor-Studiengänge](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/30_Grafiken/10_Kacheln_f_Seitenwahl/b_std.jpg?rbiFocus=mobile) ](https://f"
+    },
+    {
+      "rang": 15,
+      "score": 1.40661,
+      "id": "cabdf2e0-2c66-5ddc-91fe-907604b054e8",
+      "source_url": "https://f2.hs-hannover.de/internationales/information-for-incomings-wege-an-die-fakultaet-ii",
+      "title_anzeige": "Welcome to Faculty II",
+      "section_heading": "Welcome to Faculty II > Welcome to Faculty II > Faculty II - Mechanical Engineering and Bio Process Engineering",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Welcome to Faculty II\n_ _\nScrollen für mehr Infos!\n## Faculty II - Mechanical Engineering and Bio Process Engineering\nThank you for your interest in our university, we would be happy to welcome you at our faculty. Each year during winter semester students from different countries study at Univers"
+    },
+    {
+      "rang": 16,
+      "score": 1.39973,
+      "id": "0da39c78-b072-5655-8151-2affc59c990c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/250630_Z3_Broschuere_Bachelor_Master_HsH.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Studienberatung › 250630 Z3 Broschuere Bachelor Master HsH — Studieren an der Hochschule Hannover",
+      "section_heading": "Überblick > ~~Das Bachelorstudium~~",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Überblick\n## ~~Das Bachelorstudium~~  \nDu bist auf der Suche nach einer neuen Herausforderung, um deine Zukunft zu gestalten? Du möchtest ein Bachelorstudium beginnen? Hier findest du alle Bachelorstudiengänge der Hochschule Hannover – in den Bereichen Ingenieurund Wirtschaftswissenschaften, Sozi"
+    },
+    {
+      "rang": 17,
+      "score": 1.38114,
+      "id": "f3de42e2-876c-57e1-9c82-46fd119b5b18",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/campus-day-2026-ueber-1000-schuelerinnen-und-schueler-erkunden-die-hochschule-hannover",
+      "title_anzeige": "Campus Day 2026: Über 1.000 Schülerinnen und Schüler erkunden die Hochschule Hannover",
+      "section_heading": "Campus Day 2026: Über 1.000 Schülerinnen und Schüler erkunden die Hochschule Hannover > Über 1.000 Schülerinnen und Schüler aus der Region strömten jüngst zum Campus Day der Hochschule Hannover (HsH). Bei mehr als 120 Veranstaltungen erlebten sie hautnah, welche vielfältigen Studienmöglichkeiten die HsH bietet. Das Interesse zeigt: Der Bedarf an Orientierung ist groß.",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "An der HsH studieren rund 9.000 Studierende in etwa 70 akkreditierten Studienangeboten an fünf Fakultäten. Damit ist sie die zweitgrößte Hochschule der Landeshauptstadt mit einem breitgefächerten Studienangebot in den Bereichen Ingenieur- und Wirtschaftswissenschaften, Sozialwesen sowie Informatik, "
+    },
+    {
+      "rang": 18,
+      "score": 1.27871,
+      "id": "1e161ae7-86bf-54ec-8ff9-fecc0b80e35d",
+      "source_url": "https://f2.hs-hannover.de/studium/studieninteressierte",
+      "title_anzeige": "Informationen für Studieninteressierte",
+      "section_heading": "Informationen für Studieninteressierte > Entdecken Sie die Zukunft mit uns",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Informationen für Studieninteressierte  \n## Entdecken Sie die Zukunft mit uns\nWir freuen uns, dass Sie sich für ein Studium an der Fakultät II der Hochschule Hannover interessieren.\nDie aktuelle **Fakultätsbroschüre** mit den Informationen zu unseren Studiengängen können Sie [hier als PDF-Datei]("
+    },
+    {
+      "rang": 19,
+      "score": 1.26185,
+      "id": "fd56a17a-17ba-5149-b0b0-b05b451f8b40",
+      "source_url": "https://f2.hs-hannover.de/ueber-uns/bioverfahrenstechnik",
+      "title_anzeige": "Fakultät II - Bioverfahrenstechnik - Ihre Möglichkeiten",
+      "section_heading": "Fakultät II - Bioverfahrenstechnik - Ihre Möglichkeiten > Bioverfahrenstechnik am Campus Ahlem > Bioverfahrenstechnische Studiengänge – Ingenieurkunst trifft Biologie und Nachhaltigkeit > Fakultät II - Bioverfahrenstechnik - Ihre Möglichkeiten > Bachelor-Studiengänge",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "### Bioverfahrenstechnische Studiengänge – Ingenieurkunst trifft Biologie und Nachhaltigkeit\n\n## Bachelor-Studiengänge\nStudienbeginn zum Sommer- und Wintersemester\n* * *\n[Future Food Systems - Lebensmitteltechnologie und Verpackungstechnologie (LVT)](https://f2.hs-hannover.de/studium/bachelor-studie"
+    },
+    {
+      "rang": 20,
+      "score": 1.2491,
+      "id": "499468c0-7a28-53e4-bf58-990ea4415dcd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2012 — Jahresabschluss zum 31. Dezember 2012 und Lagebericht",
+      "section_heading": "2.1 Studienangebot und Studiennachfrage",
+      "chunk_index": 61,
+      "text_vollstaendig": true,
+      "auszug": "## 2.1 Studienangebot und Studiennachfrage  \nIn 2011/12 hat die Hochschule im Rahmen der Studienangebotszielvereinbarung für das Studienjahr 2012 insgesamt vier neue Studiengänge, die durch Umstrukturierungen bestehender Studiengänge entstanden, eingerichtet: „Fotojournalismus und Dokumentarfotograf"
+    },
+    {
+      "rang": 21,
+      "score": 1.1504,
+      "id": "45545096-d105-5760-adca-1f53a0c42a31",
+      "source_url": "https://f2.hs-hannover.de/ueber-uns/maschinenbau",
+      "title_anzeige": "Studieren an der Fakultät II - Maschinenbau",
+      "section_heading": "Studieren an der Fakultät II - Maschinenbau",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Studieren an der Fakultät II - Maschinenbau\n_ _\nScrollen für mehr Infos!\n**Herzlich Willkommen an der Fakultät II Maschinenbau**\nSie können sich in der Abteilung Maschinenbau auf eine praxisnahe, fundierte naturwissenschaftliche und informationstechnische Ausbildung freuen, die Ihnen viele berufl"
+    },
+    {
+      "rang": 22,
+      "score": 1.13863,
+      "id": "8e1770a7-5bb9-5594-a914-41ba4d31bd03",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/1._Zulassungsordnung_dualen_Bachelor-Studiengang_Veranstaltungsmanagement_an_der_Fakultaet_III.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2013 › 1. Zulassungsordnung dualen Bachelor Studiengang Veranstaltungsmanagement an der Fakultaet III — Geltungsbereich",
+      "section_heading": "**Muster-Kooperationsvertrag über die Zusammenarbeit in dem dualen Bachelor-Studiengang Veranstaltungsmanagement (Studium im Praxisverbund mit integrierter Berufsausbildung)** > **§ 4** > **Muster-Kooperationsvertrag über die Zusammenarbeit in dem dualen Bachelor-Studiengang Veranstaltungsmanagement (Studium im Praxisverbund mit integrierter Berufsausbildung)** > **Gestaltung von Studium und Berufsausbildung**",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "Der zweite Studienabschnitt umfasst drei Semester einschließlich des siebten Semesters, in welchem die Bachelor-Arbeit geschrieben wird. Weitere Praxiseinheiten werden während der vorlesungsfreien Zeit zwischen den Semestern durchgeführt. Die Bachelor-Arbeit soll i.d.R. in der ausbildenden Firma ges"
+    },
+    {
+      "rang": 23,
+      "score": 1.12236,
+      "id": "fad6b60d-8193-50f8-9fce-2cf691b43aeb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Unsere Standorte** > Betriebswirtschaft > **Unsere Standorte** > **Basisdaten**",
+      "chunk_index": 27,
+      "text_vollstaendig": true,
+      "auszug": "## Betriebswirtschaft\n\n## **Basisdaten**  \nStandort Campus Linden  \n- 7 Bachelor-Studiengänge 4 Master-Studiengänge Rund 2.100 Studierende  \n- 57 Professor*innen  \n© HsH/Ulf Ostländer  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_"
+    },
+    {
+      "rang": 24,
+      "score": 1.11894,
+      "id": "bb0239e4-bd9a-5200-bcc6-b8dab7bacbb4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/11-2016/04_BPD_Stand_20160811.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2016 › 04 BPD Stand 20160811 — Design,",
+      "section_heading": "**Abteilung Design und Medien, der Hochschule Hannover** > **§ 6** > **Abteilung Design und Medien, der Hochschule Hannover** > **Inkrafttreten**",
+      "chunk_index": 15,
+      "text_vollstaendig": false,
+      "auszug": "PF|2\n2|3\n3|P/H/R/K/E|0,5\n0,5|3\n3|\n|||||||||||P/H/R/K/E|||\n|Σ=Cr /1. Stud. Abschnitt/Pflichtmodule(Wahlangebot)\n6\n6|||||||||||||\n|**Σ=Cr /1. Stud. Abschnitt Gesamt**\n**90**\n**90**|||||||||||||  \nDezernat III / PO BPD / 27.09.2016  \nNr. 11/2016 vom 15.11.2016  \nVerkündungsblatt der Hochschule Hannover"
+    },
+    {
+      "rang": 25,
+      "score": 1.10475,
+      "id": "9e46a773-0cde-5e46-8789-6fabc5a2f674",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/KeGL/Modulbeschreibungen_und_Lehrmaterialien/Lehr-_und_Lernmaterialien_Modul_1_Einfuehrung.pdf",
+      "title_anzeige": "f5 › KeGL › Modulbeschreibungen und Lehrmaterialien › Lehr und Lernmaterialien Modul 1 Einfuehrung",
+      "section_heading": "**2. Studienabschnitt**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **2. Studienabschnitt**  \n- 4 Semester = 2 Jahre  \n- 10 Module (davon 3 Module in einem der drei Wahlschwerpunktbereiche)  \nTeilvorhaben der Hochschule Hannover, Projektleitung: Prof. Dr. Michael Wittland  \n8"
+    },
+    {
+      "rang": 26,
+      "score": 1.09608,
+      "id": "f42195ac-4f11-53dd-a79b-aeb60b46365b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/09-BDP__BA_Pflege-verkuendung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2012 › 09 BDP BA Pflege verkuendung",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den dualen, berufsbegleitenden Teilzeit-Bachelor-Studiengang Pflege (BDP) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover** > **§ 3** > **Besonderer Teil der Prüfungsordnung für den dualen, berufsbegleitenden Teilzeit-Bachelor-Studiengang Pflege (BDP) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "Auf den **2. Studienabschnitt** entfallen die übrigen Pflicht- und Wahlpflichtmodule (Anlage B2).  \n> 1 Für die Ausbildung und die Veranstaltungen an der HsH (20 Credits in fünf Vorsemestern) werden 90 Credits anerkannt. Dies entspricht einer Studienzeit von drei Semestern eines Vollzeitstudiums, d."
+    },
+    {
+      "rang": 27,
+      "score": 1.08925,
+      "id": "a2c9a18f-9874-5f46-8a1b-bd6a5e006f53",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Studium an der Fakultät I Elektro- und Informationstechnik\n_ _\nScrollen für mehr Infos!\n[ ![Bachelorstudiengänge](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/30_Grafiken/10_Kacheln_f_Seitenwahl/b_std.jpg?rbiFocus=mobile) ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bach"
+    },
+    {
+      "rang": 28,
+      "score": 1.08132,
+      "id": "44f934ad-5d4f-5be4-b077-60662d20fab9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/Semesterbeitrag_WiSe_2026_27_Ende.pdf",
+      "title_anzeige": "www › Studierendenverwaltung › Antraege › Semesterbeitrag WiSe 2026 27 Ende — Semesterbeitrag Wintersemester 2026/27",
+      "section_heading": "**Fakultät II - Standort Ahlem** > **Studiengänge**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **Fakultät II - Standort Ahlem**\n\n## **Studiengänge**  \n- Bachelor Biotechnologie und Umwelttechnik  \n- Bachelor Future Food Systems  \n- Bachelor Lebensmittelverpackungstechnologie  \n- Bachelor Milchwirtschaftliche Lebensmitteltechnologie  \n- Bachelor Technologie Nachwachsender Rohstoffe  \n- Mast"
+    },
+    {
+      "rang": 29,
+      "score": 1.04818,
+      "id": "8922dac7-3622-5512-af05-0874818b21c2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Career_Center/Career_Center_Kooperationspartner_2023.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Career Center › Career Center Kooperationspartner 2023 — Firmenkontaktmesse",
+      "section_heading": "Das Career Center „Ihr Kontakt zum akademischen Nachwuchs“ > Über die Hochschule Hannover > Das Career Center „Ihr Kontakt zum akademischen Nachwuchs“ > **Kurzinfo:**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Über die Hochschule Hannover\n\n## **Kurzinfo:**  \n- 5 Fakultäten an 4 Standorten  \n- 47 Studiengänge mit Bachelor-Abschluss  \n- 22 weiterführende Studiengänge mit Master-Abschluss  \n- Zahlreiche duale und berufsbegleitende Modelle  \n- Rund 10000 Studierende"
+    },
+    {
+      "rang": 30,
+      "score": 1.03707,
+      "id": "f6cf5fff-c853-516d-9169-c947d6169864",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+      "title_anzeige": "www › servicezentrum beratung › studienberatung › faqs",
+      "section_heading": "[Fakultät V - Diakonie, Gesundheit und Soziales](https://f5.hs-hannover.de/)",
+      "chunk_index": 41,
+      "text_vollstaendig": true,
+      "auszug": "[ Was ist ein Zweitstudium? ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs \"Was ist ein Zweitstudium?\")\nVon einem Zweitstudium spricht man, wenn jemand ein Studium an einer deutschen Hochschule abgeschlossen hat und danach einen zweiten grundständige"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge",
+        "score": 0.72422
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/studium/master-studiengaenge",
+        "score": 0.64296
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/kursangebot-fuer-austauschstudierende",
+        "score": 0.63601
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.63459
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.63309
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/05-2009/02-BBI-PO_BT.pdf",
+        "score": 0.62028
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/04-2005/Verkuendungsblatt_04_2005.pdf",
+        "score": 0.60888
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/BSKE_-_Besonderer_Teil_der_Pruefungsordnung__ab_Studienjahrgang_2016_.pdf",
+        "score": 0.60505
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f2.hs-hannover.de/studium",
+        "score": 0.60472
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Brochure_Faculty_I_II_2023-3.11.23_neue_Fotos-Einzelseiten_6.11.23.pdf",
+        "score": 0.60036
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f2.hs-hannover.de",
+        "score": 0.59947
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f2.hs-hannover.de/index.php",
+        "score": 0.5929
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f2.hs-hannover.de/internationales/information-for-incomings-wege-an-die-fakultaet-ii",
+        "score": 0.58811
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/BSKE_-_Besonderer_Teil_der_Pruefungsordnung__ab_Studienjahrgang_2017_.pdf",
+        "score": 0.58719
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh",
+        "score": 0.5869
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.58685
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/11-2016/04_BPD_Stand_20160811.pdf",
+        "score": 0.5845
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IIM/F2_BA_IIM_BTPO_2025-07-15.pdf",
+        "score": 0.58442
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/05-2009/02-BBI-PO_BT.pdf",
+        "score": 0.5844
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/04_PO_IBS.pdf",
+        "score": 0.58188
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/09-BDP__BA_Pflege-verkuendung.pdf",
+        "score": 0.58013
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/04-2011/Gesamt-4___2011.pdf",
+        "score": 0.5785
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/05-2009/02-BBI-PO_BT.pdf",
+        "score": 0.57656
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/04-2011/Gesamt-4___2011.pdf",
+        "score": 0.57569
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f3.hs-hannover.de/studium",
+        "score": 0.57505
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/Modulhandbuch_HBI_2025-09-01.pdf",
+        "score": 0.57495
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WTD/2vt_2009_1_aenderung.pdf",
+        "score": 0.57297
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/04-2011/Gesamt-4___2011.pdf",
+        "score": 0.57225
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/22-02-11_Hinweise_Empfehlungen_7_Sem._u._BA-Arbeit_Studierende.pdf",
+        "score": 0.57168
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 0.57147
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/01-2007/01_PO-BWL-1AEend.pdf",
+        "score": 0.57033
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/03-2009/04-AEnd3-BT-BBA-BIS-_Verkbl-3-09.pdf",
+        "score": 0.56949
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/03-2009/04-AEnd3-BT-BBA-BIS-_Verkbl-3-09.pdf",
+        "score": 0.56783
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/02-2009/04-BT-PO_BBA_und_BIS-23-2-2009.pdf",
+        "score": 0.56724
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f2.hs-hannover.de/studium",
+        "score": 0.56719
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/03-2009/04-AEnd3-BT-BBA-BIS-_Verkbl-3-09.pdf",
+        "score": 0.56695
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/02-2009/04-BT-PO_BBA_und_BIS-23-2-2009.pdf",
+        "score": 0.56678
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/PTD/1pt_2006.pdf",
+        "score": 0.56666
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f4.hs-hannover.de/studium/bachelor-studiengaenge",
+        "score": 0.56628
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/KTD/12006_kt.pdf",
+        "score": 0.56605
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/03-2018/05_PO-BPD_20172.pdf",
+        "score": 0.56483
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/04-2011/03-Heilpaedagogik.pdf",
+        "score": 0.56294
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/Verkuendungsblatt_BA_VIF_PO_2026.pdf",
+        "score": 0.56201
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/01-2007/01_PO-BWL-1AEend.pdf",
+        "score": 0.56144
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/03-2009/04-AEnd3-BT-BBA-BIS-_Verkbl-3-09.pdf",
+        "score": 0.56112
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/03-2009/04-AEnd3-BT-BBA-BIS-_Verkbl-3-09.pdf",
+        "score": 0.56086
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/08_Technischer_Vertrieb-2-2010.pdf",
+        "score": 0.56071
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/05-2009/02-BBI-PO_BT.pdf",
+        "score": 0.56066
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/05-2009/02-BBI-PO_BT.pdf",
+        "score": 0.56059
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/06-2009/03-PO_BRD_BT_AEnd1-23-09_2009.pdf",
+        "score": 0.56006
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://f2.hs-hannover.de/studium",
+        "score": 0.83273
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/index.php",
+        "score": 0.8191
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f2.hs-hannover.de",
+        "score": 0.81908
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f2.hs-hannover.de/studium",
+        "score": 0.80361
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.80284
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+        "score": 0.80177
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge",
+        "score": 0.79961
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.791
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/kursangebot-fuer-austauschstudierende",
+        "score": 0.77283
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f2.hs-hannover.de/studium/master-studiengaenge",
+        "score": 0.75247
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/05-2009/02-BBI-PO_BT.pdf",
+        "score": 0.74049
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.73775
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Brochure_Faculty_I_II_2023-3.11.23_neue_Fotos-Einzelseiten_6.11.23.pdf",
+        "score": 0.72743
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge",
+        "score": 0.72129
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f2.hs-hannover.de/studium/studieninteressierte",
+        "score": 0.70617
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.7
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f2.hs-hannover.de/studium",
+        "score": 0.69639
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/Semesterbeitrag_WiSe_2026_27_Ende.pdf",
+        "score": 0.6958
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HsH_Studienkolleg_Fachbindung_Stand_Mai_2023.pdf",
+        "score": 0.67518
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Career_Center/Career_Center_Kooperationspartner_2023.pdf",
+        "score": 0.67497
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/Semesterbeitraege_WiSe_2026_27.pdf",
+        "score": 0.67381
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Offene_Hochschule/20240126_Z3_Tabelle_Anerkannte_Ausbildungen_Offene_Hochschule_HsH.pdf",
+        "score": 0.66917
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f2.hs-hannover.de/internationales/information-for-incomings-wege-an-die-fakultaet-ii",
+        "score": 0.6654
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Flyer_und_Info-Materialien/0._BA_Pflege_Info_06.11.2025_Zweiter_Studienabschnitt.pdf",
+        "score": 0.65252
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Besonderer_Teil_Pruefungsordnung_BRS/BT_PO_BRS_Stand_08_2015.pdf",
+        "score": 0.65167
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Besonderer_Teil_Pruefungsordnung_BRS/BT_PO_BRS_2021.pdf",
+        "score": 0.65134
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/10-2025/hsh_verkuendungsblatt_nr_10_2025.pdf",
+        "score": 0.65074
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/F2_dual_BA_MTD_BTPO_2025-07-25.pdf",
+        "score": 0.65073
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/1._Zulassungsordnung_dualen_Bachelor-Studiengang_Veranstaltungsmanagement_an_der_Fakultaet_III.pdf",
+        "score": 0.6504
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/08_Technischer_Vertrieb-2-2010.pdf",
+        "score": 0.6489
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/Verk_2025_01_F_I__EIT_BTPO.pdf",
+        "score": 0.6484
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/02-2014/02-Bes._Teil_BBI_Endversion_vom_09.12.13.pdf",
+        "score": 0.6418
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.63918
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/04_Genehmigung_EIT_2015-11-10_gesamt.pdf",
+        "score": 0.63625
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+        "score": 0.63561
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/maschinenbau",
+        "score": 0.63463
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Offene_Hochschule/20240126_Z3_Tabelle_Anerkannte_Ausbildungen_Offene_Hochschule_HsH.pdf",
+        "score": 0.63363
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/KeGL/Modulbeschreibungen_und_Lehrmaterialien/Lehr-_und_Lernmaterialien_Modul_1_Einfuehrung.pdf",
+        "score": 0.63286
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/IBS/IBS-Curriculum_-_ESIC_M_PO_2018.pdf",
+        "score": 0.63266
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/09-BDP__BA_Pflege-verkuendung.pdf",
+        "score": 0.6307
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+        "score": 0.62677
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/WTD/3Technischer_Vertrieb2.pdf",
+        "score": 0.62605
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+        "score": 0.62592
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 0.62483
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Besonderer_Teil_Pruefungsordnung_BRS/BT_PO_BRS-Stand-15.05.2026.pdf",
+        "score": 0.62394
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/5_MTD_2017_20220701.pdf",
+        "score": 0.62241
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/F2_BA_MAB_BTPO_2025-07-15.pdf",
+        "score": 0.62175
+      },
+      {
+        "rang": 48,
+        "source_url": "https://mint.hs-hannover.de/fileadmin/5_%C3%9Cber_uns/Ver%C3%B6ffentlichungen/StudyMINT_Flyer.pdf",
+        "score": 0.62125
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_15.05.2026.pdf",
+        "score": 0.62103
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/News/12.04.2021_Brosch_re_Dach_A5_Masterflyer__1_.pdf",
+        "score": 0.62081
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f2.hs-hannover.de",
+        "score": 18.42693
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/index.php",
+        "score": 18.16619
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge",
+        "score": 17.55176
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/maschinenbau",
+        "score": 17.53677
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f2.hs-hannover.de/studium",
+        "score": 16.54712
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-c/b-1",
+        "score": 16.54663
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-1-2",
+        "score": 16.48132
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-1",
+        "score": 16.48132
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-winter",
+        "score": 16.48132
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BJO_Journalistik_Studiengangsflyer_A5_202303.pdf",
+        "score": 16.33619
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/schuelerinnen-und-schulen",
+        "score": 16.10876
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+        "score": 15.72192
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2022.pdf",
+        "score": 15.47714
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 15.34707
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+        "score": 15.28451
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Informationen_Erstsemester/BRS_Informationen_Homepage_Wintersemester_26_27_14.07.2026.pdf",
+        "score": 15.24746
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium",
+        "score": 15.10966
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f3.hs-hannover.de",
+        "score": 14.95682
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/beratung-kontakt",
+        "score": 14.94479
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/aktuelles/hsh-akademie-auf-der-hannover-messe-austausch-zu-zukunftsthemen",
+        "score": 14.94052
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/grundstaendig-studierende-degree-seeking-students/waehrend-des-studiums",
+        "score": 14.85398
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+        "score": 14.82746
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BSW-Soziale_Arbeit_grundstaendig/SoSe_2026/Erstsemesterinformationen_BSW_SoSe_2026.pdf",
+        "score": 14.77099
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BRS-Religionspaesagogik_und_Soziale_Arbeit/WiSe-25-26/BRS_Informationen_Homepage_Wintersemester_25-14.07.2025.pdf",
+        "score": 14.77099
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 14.62831
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen/50-jahre-hsh/dr-ing-wilfried-paul-stiller",
+        "score": 14.38466
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 14.23142
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Leitlinie_Drittmittelforschung_und_Transfer.pdf",
+        "score": 14.18168
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+        "score": 14.1613
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 14.11391
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+        "score": 14.09877
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Genderaspekte_in_der_Forschung/Evaluation_Gender_in_der_Forschung_an_der_HsH.pdf",
+        "score": 14.08376
+      },
+      {
+        "rang": 33,
+        "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/berufsorientierung/besuch-des-labors-fuer-hochspannungstechnik",
+        "score": 13.96615
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20190326_Protokoll_21.Sitzung_Senatskommission_Studienqualita__tsmittel.pdf",
+        "score": 13.93615
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+        "score": 13.91275
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/journalistik-bjo",
+        "score": 13.76747
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/kooperationen",
+        "score": 13.75425
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 13.72474
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 13.6894
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 13.64307
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/anschrift-der-fakultaeten",
+        "score": 13.62852
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20221108_Protokoll_31.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+        "score": 13.60297
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Formulare/Pruefungsverwaltung/02_Finale_Praxisphasenordnung.pdf",
+        "score": 13.58991
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+        "score": 13.50586
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Formulare/Pruefungsverwaltung/02_Finale_Praxisphasenordnung.pdf",
+        "score": 13.49459
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+        "score": 13.43965
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/dezentrale-gleichstellung",
+        "score": 13.41314
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/public-relations-bpr",
+        "score": 13.3609
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Genderaspekte_in_der_Forschung/Evaluation_Gender_in_der_Forschung_an_der_HsH.pdf",
+        "score": 13.34545
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen/50-jahre-hsh/henrike-alex",
+        "score": 13.29841
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://f2.hs-hannover.de",
+        "score": 21.57846
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/index.php",
+        "score": 21.37388
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/IID/F2_dual_BA_IID_BTPO_2025-07-25.pdf",
+        "score": 18.69141
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f2.hs-hannover.de/studium",
+        "score": 18.13186
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 17.64662
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge",
+        "score": 17.63916
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 17.39036
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/bioverfahrenstechnik",
+        "score": 17.32201
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium",
+        "score": 17.26103
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+        "score": 17.09823
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 17.01489
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 16.49251
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 16.32084
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+        "score": 16.2421
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik__BAH_/11_F_V__BTPO_BAH.pdf",
+        "score": 16.18023
+      },
+      {
+        "rang": 16,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+        "score": 16.05496
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 16.0275
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+        "score": 15.99879
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Modulhandbuch-VIF-Polizei-25-10-27.pdf",
+        "score": 15.93975
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2018",
+        "score": 15.84635
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 15.79352
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Forschungen/Institute/IVEK/20190427_VEU_Fragen_und_Antworten.pdf",
+        "score": 15.75608
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 15.74591
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/maschinenbau",
+        "score": 15.65969
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Besonderer_Teil_Pruefungsordnung_BSW/Verkuendungsblatt_03_F_V__bsw_PO.pdf",
+        "score": 15.53135
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Brochure_Faculty_I_II_2023-3.11.23_neue_Fotos-Einzelseiten_6.11.23.pdf",
+        "score": 15.47227
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik__BAH_/04_F_V_BA_BAH_BTPO_VB_EBU.pdf",
+        "score": 15.47136
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Besonderer_Teil_Pruefungsordnung_BRS/BT_PO_BRS_Stand_22.05.2020.pdf",
+        "score": 15.41186
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Zulassungsordnung_SBW/SBW-Zulassungsordnunf-01-2021.pdf",
+        "score": 15.41186
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/04-2020/HsH_Verkuendungsblatt_04_2020.pdf",
+        "score": 15.41186
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 15.36037
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Besonderer_Teil_Pruefungsordnung_SBW/BTPO_Verkuendungsblatt_05_F_V_sbw_PO.pdf",
+        "score": 15.35284
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik__BAH_/11_F_V__BTPO_BAH.pdf",
+        "score": 15.2943
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 15.20549
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 15.18082
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 15.18082
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Studiengaenge/11_F_II_BV_EBU_Praxisphasenordnung_EBU.pdf",
+        "score": 15.16058
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/02-2019/02_IMC_Zugangs-und_Zulassungsordnung__2019_01_15.pdf",
+        "score": 15.13353
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+        "score": 15.1333
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/01-2021/HsH_Verkuendungsblatt_01_2021.pdf",
+        "score": 15.12146
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+        "score": 15.10243
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Transferstrategie_HsH.pdf",
+        "score": 15.06143
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2022.pdf",
+        "score": 15.01376
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 15.00001
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2012",
+        "score": 14.91131
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 14.91131
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/250630_Z3_Broschuere_Bachelor_Master_HsH.pdf",
+        "score": 14.89818
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 14.82372
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/schnupperstudium",
+        "score": 14.81545
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 14.81049
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.62,
+    "kandidaten_s": 0.0,
+    "arme_s": 1.82,
+    "gesamt_s": 4.45
+  },
+  "auswahl_begruendung": ""
+}

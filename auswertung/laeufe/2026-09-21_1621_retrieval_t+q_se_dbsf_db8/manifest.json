@@ -1,0 +1,61 @@
+{
+  "lauf_id": "2026-09-21_1621_retrieval_t+q_se_dbsf_db8",
+  "gestartet": "2026-09-21T16:21:41",
+  "modus": "retrieval",
+  "modell": "",
+  "experiment": {
+    "dense_arms": [
+      "text",
+      "questions"
+    ],
+    "sparse_arms": [
+      "sparse_expanded"
+    ],
+    "fusion": "dbsf",
+    "dedup_buffer": 8
+  },
+  "fallauswahl": "alle",
+  "fallzahl": 75,
+  "notiz": "Phase 3 Kandidatenstufe auf t+q_se/dbsf: --dedup-buffer 8",
+  "pause_s": 0.0,
+  "premium": false,
+  "fallbasis": {
+    "hash": "1b5cc7f12a8c16cb40e85ca3d16aabe0af6942efc56f9d60da98abb0dcdeec32",
+    "hash_auswahl": "1b5cc7f12a8c16cb40e85ca3d16aabe0af6942efc56f9d60da98abb0dcdeec32",
+    "fallzahl": 75,
+    "stand": "2026-09-21T15:34:08"
+  },
+  "konfiguration": {
+    "DENSE_ARMS": [
+      "text",
+      "questions"
+    ],
+    "SPARSE_ARMS": [
+      "sparse_expanded"
+    ],
+    "TOP_K": 8,
+    "CANDIDATE_LIMIT": 200,
+    "DEDUP_BUFFER": 8,
+    "MAX_PER_URL": 2,
+    "AUGMENT_TOP_N": 3,
+    "SPARSE_LANGUAGE": "german",
+    "COLLECTION_NAME": "hsh_knowledge",
+    "FUSION": "dbsf",
+    "RAG_CANDIDATE_K": 30,
+    "TOP_DOCS": 8,
+    "SELECT_N": 4,
+    "MAX_CONTEXT_TOKENS": 100000,
+    "points_count": 121134,
+    "git_commit": "15aed20",
+    "reranker_aktiv": false,
+    "keyword_boost": true,
+    "_wirksam": true
+  },
+  "laufzeit": {
+    "wall_clock_s": 341.2,
+    "gemessen_s": 340.7,
+    "geplante_pausen_s": 0.0,
+    "ungetrackt_s": 0.5,
+    "beendet": "2026-09-21T16:27:23"
+  }
+}

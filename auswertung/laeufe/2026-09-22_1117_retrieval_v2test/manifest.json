@@ -1,0 +1,55 @@
+{
+  "lauf_id": "2026-09-22_1117_retrieval_v2test",
+  "gestartet": "2026-09-22T11:17:40",
+  "modus": "retrieval",
+  "modell": "",
+  "experiment": {
+    "collection": "hsh_knowledge_v2test"
+  },
+  "mcp_url": "http://127.0.0.1:8765/mcp",
+  "fallauswahl": "alle",
+  "fallzahl": 75,
+  "notiz": "Chunking v2 Testindex: 108 Golddokumente neu (Tabellen, Kontextkopf), Rest alt — Obergrenze",
+  "pause_s": 0.0,
+  "premium": false,
+  "fallbasis": {
+    "hash": "84433707c0beb8f4175ffa913e695f7a2fbda0ed7f937d5081cf4cad5e2a4a62",
+    "hash_auswahl": "84433707c0beb8f4175ffa913e695f7a2fbda0ed7f937d5081cf4cad5e2a4a62",
+    "fallzahl": 75,
+    "stand": "2026-09-22T08:54:01"
+  },
+  "konfiguration": {
+    "DENSE_ARMS": [
+      "text",
+      "questions"
+    ],
+    "SPARSE_ARMS": [
+      "sparse_expanded"
+    ],
+    "TOP_K": 8,
+    "CANDIDATE_LIMIT": 200,
+    "DEDUP_BUFFER": 4,
+    "MAX_PER_URL": 2,
+    "AUGMENT_TOP_N": 3,
+    "SPARSE_LANGUAGE": "german",
+    "COLLECTION_NAME": "hsh_knowledge_v2test",
+    "FUSION": "dbsf",
+    "RAG_CANDIDATE_K": 30,
+    "TOP_DOCS": 12,
+    "SELECT_N": 4,
+    "MAX_CONTEXT_TOKENS": 100000,
+    "points_count": 121134,
+    "git_commit": "c9d6602",
+    "reranker_aktiv": false,
+    "FAKULTAET_FAKTOR": 2,
+    "keyword_boost": true,
+    "_wirksam": true
+  },
+  "laufzeit": {
+    "wall_clock_s": 329.9,
+    "gemessen_s": 329.3,
+    "geplante_pausen_s": 0.0,
+    "ungetrackt_s": 0.6,
+    "beendet": "2026-09-22T11:23:11"
+  }
+}

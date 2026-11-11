@@ -1,0 +1,529 @@
+{
+  "fall": {
+    "id": "g16",
+    "case_type": "direct",
+    "question": "Welche Weiterbildung bereitet mich auf Führungsaufgaben in Projekten vor?",
+    "reference_answer": "Die Projektmanagement-Lehrgänge der Hochschule Hannover.",
+    "source_url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/informationsabend-zu-projektmanagement-lehrgaengen-5",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Unsere Projektmanagement-Lehrgänge bereiten Sie optimal auf Ihre Führungsaufgaben vor."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ news_veranstaltung/auswahl. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "d32ee209-025c-5265-9618-e13c1ec4d406",
+      "1d261976-66cc-5064-9e57-631e04a3cd59",
+      "0dc88edc-1913-5011-b688-d62da8d8e19e"
+    ],
+    "beleg_punkte": [
+      "d32ee209-025c-5265-9618-e13c1ec4d406"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/informationsabend-zu-projektmanagement-lehrgaengen-5"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:57:15",
+  "dauer_s": 7.43,
+  "fehler": null,
+  "antwort": "Sowohl Level D als auch Level C/B bereiten auf Führungsaufgaben in Projekten vor:\n\n- Für Einsteiger*innen und Personen ohne formale Voraussetzungen: „Unsere Weiterbildung \"Projektmanagement Level D\" bereitet Sie optimal auf diese Führungsaufgaben vor.\" [3]\n- Für erfahrene Projektleiter*innen: „Unsere Weiterbildung \"Projektmanagement Level C/B\" bereitet Sie optimal auf diese Führungsaufgaben vor.\" [1]\n\nFür Level C sind mindestens drei Jahre, für Level B mindestens fünf Jahre einschlägige Erfahrung erforderlich: „Level C: Für die Teilnahme ist ein Nachweis von mindestens 3 Jahren Erfahrung [...] zu erbringen.“ [1]",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Projektmanagement Level C/B – Herbst",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-c/b-1",
+      "fakultaet": "",
+      "struktur": "# Projektmanagement Level C/B – Herbst\n  ## Wissen vertiefen als Certified (Senior) Project Manager\n    ### Informationsflyer zum Downloaden\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Projektmanagement Level C/B: Auf einen Blick\n    ### Die fünf Stufen des GPM Kompetenzmodells\n  ## Weitere Informationen\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 2,
+      "titel": "Projektmanagement Level D – Winter",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-winter",
+      "fakultaet": "",
+      "struktur": "# Projektmanagement Level D – Winter\n  ## Für ein gutes Fundament im Projektmanagement\n    ### Informationsflyer zum Downloaden\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Projektmanagement Level D: Auf einen Blick\n    ### Die fünf Stufen des GPM Kompetenzmodells\n  ## Weitere Informationen\n  ## Eine wertvolle Erfahrung\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 3,
+      "titel": "Projektmanagement Level D – Sommer",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-1",
+      "fakultaet": "",
+      "struktur": "# Projektmanagement Level D – Sommer\n  ## Für ein gutes Fundament im Projektmanagement\n    ### Informationsflyer zum Downloaden\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Projektmanagement Level D: Auf einen Blick\n    ### Die fünf Stufen des GPM Kompetenzmodells\n  ## Weitere Informationen\n  ## Eine wertvolle Erfahrung\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 4,
+      "titel": "Projektmanagement Level D – Herbst",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-1-2",
+      "fakultaet": "",
+      "struktur": "# Projektmanagement Level D – Herbst\n  ## Für ein gutes Fundament im Projektmanagement\n    ### Informationsflyer zum Downloaden\n  ## HsH-Akademie: Bringt mich weiter!\n# Kurzübersicht\n  ## Projektmanagement Level D: Auf einen Blick\n    ### Die fünf Stufen des GPM Kompetenzmodells\n  ## Weitere Informationen\n  ## Eine wertvolle Erfahrung\n  ## Häufig gestellte Fragen\n  ## Wie können wir Sie unterstützen?\n  ## Treten Sie gerne mit uns in Kontakt!\n    ### HsH-Akademie\n  ## Wir freuen uns auf Ihre Nachricht!"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Weiterbildung › Flyer › 2024 Infoflyer Weiterbildung NEU 2024 WEB Frau",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/2024_Infoflyer_Weiterbildung_NEU_2024_WEB_Frau.pdf",
+      "fakultaet": "",
+      "struktur": "  ## GPM Deutsche Gesellschaft für Projektmanagement e. V.\n  ## Es ist Zeit für Projektmanagement!\n  ## Wir begeistern Menschen für das Arbeiten in Projekten!\n  ## Die Stärken des GPM Kompetenzmodell® im Überblick:\n  ## Menschen machen Projekte\n  ## Unsere Einzel-Level des GPM Kompetenzmodell ®\n  ## GPM Basislevel – Der Grundstein. Für Einsteiger.\n  ## IPMA® Level D – Wissen wie‘s läuft. Für Aufsteiger.\n  ## IPMA® Level C – Die Manager im Projektmanagement.\n  ## IPMA® Level B – Kompetent für Komplexes. Für erfahrene Führungskräfte.\n  ## IPMA® Level A – Auf dem höchsten Level.\n  ## Hauptgeschäftsstelle Nürnberg\n  ## Hauptstadtrepräsentanz Berlin\n  ## gpm-ipma.de gpm-ipma.de/kompetenzmodell gpm-ipma.de/weiterbildungspartner\n  ## Autorisierter Trainingspartner der GPM"
+    },
+    {
+      "nr": 6,
+      "titel": "Informationsabend zu Weiterbildungen \"Projektmanagement-Lehrgänge",
+      "url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/informationsabend-zu-projektmanagement-lehrgaengen-5",
+      "fakultaet": "",
+      "struktur": "# Informationsabend zu Weiterbildungen \"Projektmanagement-Lehrgänge\"\n  ## 10.12.2026\n    ### Veranstal­tungs­ort"
+    },
+    {
+      "nr": 7,
+      "titel": "Informationsabend zu Weiterbildungen \"Projektmanagement-Lehrgänge",
+      "url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/informationsabend-zu-projektmanagement-lehrgaengen-1",
+      "fakultaet": "",
+      "struktur": "# Informationsabend zu Weiterbildungen \"Projektmanagement-Lehrgänge\"\n  ## 15.10.2026\n    ### Veranstal­tungs­ort"
+    },
+    {
+      "nr": 8,
+      "titel": "Informationsabend zur Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen",
+      "url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/infoabend-zur-weiterbildung-mitarbeiterorientierte-fuehrung-in-der-pflege-1",
+      "fakultaet": "",
+      "struktur": "# Informationsabend zur Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\"\n  ## 30.06.2026\n    ### Veranstal­tungs­ort"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 1,
+      "titel": "Projektmanagement Level C/B – Herbst",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-c/b-1"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Weiterbildung › Flyer › 2024 Infoflyer Weiterbildung NEU 2024 WEB Frau",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/2024_Infoflyer_Weiterbildung_NEU_2024_WEB_Frau.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "Projektmanagement Level D – Winter",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-winter"
+    },
+    {
+      "nr": 3,
+      "titel": "Projektmanagement Level D – Sommer",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-1"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Projektmanagement Level C/B – Herbst",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-c/b-1",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Projektmanagement Level C/B – Herbst > Wissen vertiefen als Certified (Senior) Project Manager",
+      "snippets": [
+        "#  Projektmanagement Level C/B – Herbst  \n## Wissen vertiefen als Certified (Senior) Project Manager\n**Das Managen stetig komplexer und diffiziler werdender Aufgaben erfordert ein professionelles, solides und strategisch ausgerichtetes Projektmanagement. Es ist eine unverzichtbare Methode geworden, Projekte jeglicher Art zu realisieren.**\nDie Menschen, die in Projekten arbeiten, sind in der Regel Expert*innen auf ihrem jeweiligen Fachgebiet. Es fehlt häufig jedoch an Wissen und Erfahrung, Projekte zu planen, die Arbeit in Projekten zu koordinieren, den Projektfortschritt zu kontrollieren, mit kulturellen Unterschieden und Konflikten umzugehen, Kommunikation und Information im Projekt sicherzustellen oder Termine, Kosten und Leistungen integriert zu steuern. Unsere Weiterbildung \"Projektmanagement Level C/B\" bereitet Sie optimal auf diese Führungsaufgaben vor."
+      ],
+      "zitate": [
+        "Unsere Weiterbildung",
+        "Unsere Weiterbildung"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Weiterbildung › Flyer › 2024 Infoflyer Weiterbildung NEU 2024 WEB Frau",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/2024_Infoflyer_Weiterbildung_NEU_2024_WEB_Frau.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Wir begeistern Menschen für das Arbeiten in Projekten!",
+      "snippets": [
+        "Mit einer GPM Weiterbildung® stärken Sie Ihre Kompetenzen, die Sie im Projektmanagement voranbringen – genau angepasst an Ihre aktuelle Projekterfahrung. Ganz gleich, ob Sie das erste Projekt noch vor sich haben oder bereits die Leitung hochkomplexer, strategischer Projekte, Programme oder Portfolios innehaben: Das GPM Kompetenzmodell® bietet durch das System aus 5 Level die richtige Weiterbildung für Sie.  \nGPM\nKOMPETENZMODELL\nBa\nA\ns\nl\ni\ne\ns\nv\ne\nL\nL\ne\nv\nB\nle\nle\nD\nv\ne\nL\nC leveL",
+        "## Wir begeistern Menschen für das Arbeiten in Projekten!  \nSeit über 40 Jahren fördert die GPM das Projektmanagement in der Gesellschaft, befähigt Menschen, ihre innovativen Ideen nachhaltig zu verwirklichen und unterstützt bei allen Fragen zum Projektmanagement. Wir bieten umfangreiche Initiativen und Angebote für Einzelpersonen, Hochschulen, Unternehmen, Ausbildungseinrichtungen, Politik und Verbände. Dazu gehört auch die Förderung junger Menschen sowie die Gleichstellung von Frauen im Projektmanagement.  \nDie GPM bietet unter der Marke GPM Weiterbildung® qualitativ hochwertige Lehrgänge in den Bereichen Projektmanagement (nach IPMA Standard), Trainer- und Beraterausbildung (nach IPMA Standard), Business Process Management, Changemanagement an."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Projektmanagement Level D – Winter",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-winter",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Projektmanagement Level D – Winter > Für ein gutes Fundament im Projektmanagement",
+      "snippets": [
+        "#  Projektmanagement Level D – Winter  \n## Für ein gutes Fundament im Projektmanagement\n**Das Managen stetig komplexer und diffiziler werdender Aufgaben erfordert ein professionelles, solides und strategisch ausgerichtetes Projektmanagement. Es ist eine unverzichtbare Methode geworden, Projekte jeglicher Art zu realisieren.**\nDie Menschen, die in Projekten arbeiten, sind in der Regel Expert*innen auf ihrem jeweiligen Fachgebiet. Es fehlt häufig jedoch an Wissen und Erfahrung, Projekte zu planen, die Arbeit in Projekten zu koordinieren, den Projektfortschritt zu kontrollieren, mit kulturellen Unterschieden und Konflikten umzugehen, Kommunikation und Information im Projekt sicherzustellen oder Termine, Kosten und Leistungen integriert zu steuern. Unsere Weiterbildung \"Projektmanagement Level D\" bereitet Sie optimal auf diese Führungsaufgaben vor.\n**Bauen Sie im Projektmanagement-Kurs Level D fundiertes Projektmanagementwissen auf und bringen Sie Ihr Projekt zum Erfolg!**\n* * *"
+      ],
+      "zitate": [
+        "Unsere Weiterbildung",
+        "Unsere Weiterbildung"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Projektmanagement Level D – Sommer",
+      "url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-1",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Projektmanagement Level D – Sommer > Für ein gutes Fundament im Projektmanagement",
+      "snippets": [
+        "#  Projektmanagement Level D – Sommer  \n## Für ein gutes Fundament im Projektmanagement\n**Das Managen stetig komplexer und diffiziler werdender Aufgaben erfordert ein professionelles, solides und strategisch ausgerichtetes Projektmanagement. Es ist eine unverzichtbare Methode geworden, Projekte jeglicher Art zu realisieren.**\nDie Menschen, die in Projekten arbeiten, sind in der Regel Expert*innen auf ihrem jeweiligen Fachgebiet. Es fehlt häufig jedoch an Wissen und Erfahrung, Projekte zu planen, die Arbeit in Projekten zu koordinieren, den Projektfortschritt zu kontrollieren, mit kulturellen Unterschieden und Konflikten umzugehen, Kommunikation und Information im Projekt sicherzustellen oder Termine, Kosten und Leistungen integriert zu steuern. Unsere Weiterbildung \"Projektmanagement Level D\" bereitet Sie optimal auf diese Führungsaufgaben vor.\n**Bauen Sie im Projektmanagement-Kurs Level D fundiertes Projektmanagementwissen auf und bringen Sie Ihr Projekt zum Erfolg!**\n* * *"
+      ],
+      "zitate": [
+        "Unsere Weiterbildung",
+        "Unsere Weiterbildung"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.77327,
+      "id": "b055dd50-9a15-5eca-a810-c4cf372ad5cf",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-c/b-1",
+      "title_anzeige": "Projektmanagement Level C/B – Herbst",
+      "section_heading": "Projektmanagement Level C/B – Herbst > Wissen vertiefen als Certified (Senior) Project Manager",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "![](https://www.hs-hannover.de/fileadmin/_processed_/8/0/csm_Projektmanagement_B_C_neom-HegvNcZXWTE-unsplash_342698b200.jpg?rbiFocus=mobile)\n\n#  Projektmanagement Level C/B – Herbst  \n## Wissen vertiefen als Certified (Senior) Project Manager\n**Das Managen stetig komplexer und diffiziler werdender A"
+    },
+    {
+      "rang": 2,
+      "score": 2.58154,
+      "id": "e2c0850d-3c9f-5d4e-8b37-b8979834a1fa",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-winter",
+      "title_anzeige": "Projektmanagement Level D – Winter",
+      "section_heading": "Projektmanagement Level D – Winter > Für ein gutes Fundament im Projektmanagement",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "![](https://www.hs-hannover.de/fileadmin/_processed_/8/0/csm_Projektmanagement_B_C_neom-HegvNcZXWTE-unsplash_342698b200.jpg?rbiFocus=mobile)\n\n#  Projektmanagement Level D – Winter  \n## Für ein gutes Fundament im Projektmanagement\n**Das Managen stetig komplexer und diffiziler werdender Aufgaben erfor"
+    },
+    {
+      "rang": 3,
+      "score": 2.35585,
+      "id": "806f491a-5c2c-522d-b61d-1d035eaaf744",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-1",
+      "title_anzeige": "Projektmanagement Level D – Sommer",
+      "section_heading": "Projektmanagement Level D – Sommer > Für ein gutes Fundament im Projektmanagement",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "![](https://www.hs-hannover.de/fileadmin/_processed_/8/0/csm_Projektmanagement_B_C_neom-HegvNcZXWTE-unsplash_342698b200.jpg?rbiFocus=mobile)\n\n#  Projektmanagement Level D – Sommer  \n## Für ein gutes Fundament im Projektmanagement\n**Das Managen stetig komplexer und diffiziler werdender Aufgaben erfor"
+    },
+    {
+      "rang": 4,
+      "score": 2.32748,
+      "id": "330aca41-6934-5737-ae72-9dba88a151f0",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-1-2",
+      "title_anzeige": "Projektmanagement Level D – Herbst",
+      "section_heading": "Projektmanagement Level D – Herbst > Für ein gutes Fundament im Projektmanagement",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Projektmanagement Level D – Herbst  \n## Für ein gutes Fundament im Projektmanagement\n**Das Managen stetig komplexer und diffiziler werdender Aufgaben erfordert ein professionelles, solides und strategisch ausgerichtetes Projektmanagement. Es ist eine unverzichtbare Methode geworden, Projekte jegl"
+    },
+    {
+      "rang": 5,
+      "score": 1.51469,
+      "id": "73331f42-8edd-5ca5-ba2d-f68aa797fb04",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/2024_Infoflyer_Weiterbildung_NEU_2024_WEB_Frau.pdf",
+      "title_anzeige": "www › Weiterbildung › Flyer › 2024 Infoflyer Weiterbildung NEU 2024 WEB Frau",
+      "section_heading": "Wir begeistern Menschen für das Arbeiten in Projekten!",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "Mit einer GPM Weiterbildung® stärken Sie Ihre Kompetenzen, die Sie im Projektmanagement voranbringen – genau angepasst an Ihre aktuelle Projekterfahrung. Ganz gleich, ob Sie das erste Projekt noch vor sich haben oder bereits die Leitung hochkomplexer, strategischer Projekte, Programme oder Portfolio"
+    },
+    {
+      "rang": 6,
+      "score": 1.44387,
+      "id": "d32ee209-025c-5265-9618-e13c1ec4d406",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/informationsabend-zu-projektmanagement-lehrgaengen-5",
+      "title_anzeige": "Informationsabend zu Weiterbildungen \"Projektmanagement-Lehrgänge",
+      "section_heading": "Informationsabend zu Weiterbildungen \"Projektmanagement-Lehrgänge\" > 10.12.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": false,
+      "auszug": "# Informationsabend zu Weiterbildungen \"Projektmanagement-Lehrgänge\"  \n##  10.12.2026\n18:00 Uhr - 20:00 Uhr\nDas Managen stetig komplexer und diffiziler werdender Aufgaben erfordert mehr denn je professionelles, solides und strategisch ausgerichtetes Projektmanagement als unverzichtbare Methode der R"
+    },
+    {
+      "rang": 7,
+      "score": 1.4296,
+      "id": "772ada49-f0cf-59c8-9bd0-e928a68354fd",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/informationsabend-zu-projektmanagement-lehrgaengen-1",
+      "title_anzeige": "Informationsabend zu Weiterbildungen \"Projektmanagement-Lehrgänge",
+      "section_heading": "Informationsabend zu Weiterbildungen \"Projektmanagement-Lehrgänge\" > 15.10.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Informationsabend zu Weiterbildungen \"Projektmanagement-Lehrgänge\"  \n##  15.10.2026\n18:00 Uhr - 20:00 Uhr\nDas Managen stetig komplexer und diffiziler werdender Aufgaben erfordert mehr denn je professionelles, solides und strategisch ausgerichtetes Projektmanagement als unverzichtbare Methode der R"
+    },
+    {
+      "rang": 8,
+      "score": 1.33459,
+      "id": "4de2422f-5c56-5b13-b214-7baccde2acf2",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/infoabend-zur-weiterbildung-mitarbeiterorientierte-fuehrung-in-der-pflege-1",
+      "title_anzeige": "Informationsabend zur Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen",
+      "section_heading": "Informationsabend zur Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\" > 30.06.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Informationsabend zur Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\"  \n##  30.06.2026\n18:00 Uhr\nDie berufsbegleitende Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\" richtet sich an Pflegekräfte oder Hebammen/Entbindungspfleger sow"
+    },
+    {
+      "rang": 9,
+      "score": 1.33184,
+      "id": "bbb41150-6fbe-5a8e-8589-6bc8e778279f",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/infoabend-zur-weiterbildung-mitarbeiterorientierte-fuehrung-in-der-pflege-im-oktober",
+      "title_anzeige": "Informationsabend zur Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen",
+      "section_heading": "Informationsabend zur Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\" > 13.08.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Informationsabend zur Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\"  \n##  13.08.2026\n18:00 Uhr\nDie berufsbegleitende Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\" richtet sich an Pflegekräfte oder Hebammen/Entbindungspfleger sow"
+    },
+    {
+      "rang": 10,
+      "score": 1.23988,
+      "id": "bf4a5bcd-6655-56de-8606-e8a43391a812",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/ProM_GPM_Weiterbildungsbroschuere_HSHannover_web.pdf",
+      "title_anzeige": "www › Weiterbildung › Flyer › ProM GPM Weiterbildungsbroschuere HSHannover web",
+      "section_heading": "**IPMA Level A.**",
+      "chunk_index": 50,
+      "text_vollstaendig": true,
+      "auszug": "## **IPMA Level A.**  \nIP MA® Level A –\nAuf d em höchsten Level.\nPersonen mit ein\nhochkomplexem Umfe\ntegischen Großprojekten, Füh\nPersonen, die bereits hochkomplexe\nLeadership-Fähigkeiten in Projekten.\nGPM\nKOMPETENZMODELL Director (IPMA® Level A) .\nLevel A  \nPersonen mit ein **em IPMA Level A sind b"
+    },
+    {
+      "rang": 11,
+      "score": 1.17994,
+      "id": "0e5f0f65-0127-5e16-81d7-f180be407abe",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/start-lehrgang-projektmanager/-in-level-d-26-2648",
+      "title_anzeige": "Start der Weiterbildung \"Projektmanager/-in Level D 26-2648",
+      "section_heading": "Start der Weiterbildung \"Projektmanager/-in Level D 26-2648\" > 10.09.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Start der Weiterbildung \"Projektmanager/-in Level D 26-2648\"  \n##  10.09.2026\nDetails in Beschreibung\nStarten Sie die Weiterbildung „Projektmanagement“ an der HsH-Akademie der Hochschule Hannover: Das Managen stetig komplexer und diffiziler werdender Aufgaben erfordert mehr denn je professionelles"
+    },
+    {
+      "rang": 12,
+      "score": 1.1277,
+      "id": "d8e8ac14-7067-58b1-8d60-b6371b6e1e47",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-c/b-1",
+      "title_anzeige": "Projektmanagement Level C/B – Herbst",
+      "section_heading": "Kurzübersicht > Die fünf Stufen des GPM Kompetenzmodells",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "### Die fünf Stufen des GPM Kompetenzmodells\n**Basiszertifikat im Projektmanagement (GPM)**\nDieser Grundlehrgang bereitet Interessierten den Weg in die Welt der Projekte. Sie lernen die Sprache des Projektmanagements sowie grundlegende PM-Methoden kennen.\n**IPMA®-Level D: Certified Project Managemen"
+    },
+    {
+      "rang": 13,
+      "score": 1.1277,
+      "id": "846c2481-cc1c-542f-b67b-4893bc2d9c02",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-winter",
+      "title_anzeige": "Projektmanagement Level D – Winter",
+      "section_heading": "Kurzübersicht > Die fünf Stufen des GPM Kompetenzmodells",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "### Die fünf Stufen des GPM Kompetenzmodells\n**Basiszertifikat im Projektmanagement (GPM)**\nDieser Grundlehrgang bereitet Interessierten den Weg in die Welt der Projekte. Sie lernen die Sprache des Projektmanagements sowie grundlegende PM-Methoden kennen.\n**IPMA®-Level D: Certified Project Managemen"
+    },
+    {
+      "rang": 14,
+      "score": 1.1277,
+      "id": "a299c9e3-6bb6-5a79-9bf6-439e835dab8c",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-1",
+      "title_anzeige": "Projektmanagement Level D – Sommer",
+      "section_heading": "Kurzübersicht > Die fünf Stufen des GPM Kompetenzmodells",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "### Die fünf Stufen des GPM Kompetenzmodells\n**Basiszertifikat im Projektmanagement (GPM)**\nDieser Grundlehrgang bereitet Interessierten den Weg in die Welt der Projekte. Sie lernen die Sprache des Projektmanagements sowie grundlegende PM-Methoden kennen.\n**IPMA®-Level D: Certified Project Managemen"
+    },
+    {
+      "rang": 15,
+      "score": 1.1277,
+      "id": "8536410e-040a-5c2d-a8c5-c0ebd010229f",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/projektmanagement-level-d-1-2",
+      "title_anzeige": "Projektmanagement Level D – Herbst",
+      "section_heading": "Kurzübersicht > Die fünf Stufen des GPM Kompetenzmodells",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "### Die fünf Stufen des GPM Kompetenzmodells\n**Basiszertifikat im Projektmanagement (GPM)**\nDieser Grundlehrgang bereitet Interessierten den Weg in die Welt der Projekte. Sie lernen die Sprache des Projektmanagements sowie grundlegende PM-Methoden kennen.\n**IPMA®-Level D: Certified Project Managemen"
+    },
+    {
+      "rang": 16,
+      "score": 1.10348,
+      "id": "ccde90f7-b73f-5bf4-8fbf-7cb6a1e4c13f",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungsangebot/projektmanagement",
+      "title_anzeige": "www › hsh akademie › weiterbildungsangebot › projektmanagement",
+      "section_heading": "Projektmanagement",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "##\n[ Die fünf Stufen des GPM Kompetenzmodells ](https://www.hs-hannover.de/hsh-akademie/weiterbildungsangebot/projektmanagement \"Die fünf Stufen des GPM Kompetenzmodells\")\n**Basiszertifikat im Projektmanagement (GPM)**\nDieser Grundlehrgang bereitet Interessierten den Weg in die Welt der Projekte. Si"
+    },
+    {
+      "rang": 17,
+      "score": 1.08237,
+      "id": "e22773bf-2ef2-5a87-b910-90224d77a1f1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/ProM_GPM_Weiterbildungsbroschuere_HSHannover_web.pdf",
+      "title_anzeige": "www › Weiterbildung › Flyer › ProM GPM Weiterbildungsbroschuere HSHannover web",
+      "section_heading": "**Projektmanagement bringt Klarheit** > **Schlüssel zum Projekterfolg**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **Projektmanagement bringt Klarheit**\n## **Schlüssel zum Projekterfolg**  \nProjektmanagement bringt Klarheit in diese teils undurchsichtige Welt. Denn **Projekte geben Orientierung** – und sind für viele Wirtschaftszweige unverzichtbar. So liegt etwa im Baugewerbe, nicht sehr überraschend, der An"
+    },
+    {
+      "rang": 18,
+      "score": 1.08111,
+      "id": "893afc01-a74d-5dd0-acb4-4a47bc2bbfa2",
+      "source_url": "https://f5.hs-hannover.de/forschung/forschungsprojekt-kegl",
+      "title_anzeige": "Das Forschungsprojekt KeGL",
+      "section_heading": "Das Forschungsprojekt KeGL > Die Module",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Die Module\nIm ersten Modul (Modul 1: Mitarbeiterorientierte Führung in der Pflege als Chance für die Zukunft: Individuum und Team) werden die Grundlagen für eine mitarbeiterorientierte Führung gelegt. Im zweiten Modul (Modul 2: Mitarbeiterorientierte Führung in der Pflege als Chance für die Zukun"
+    },
+    {
+      "rang": 19,
+      "score": 1.06565,
+      "id": "d7f96904-6503-5ec0-b51c-5aea3357d0b3",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/start-lehrgang-projektmanager/-in-level-d-26-2649",
+      "title_anzeige": "Start der Weiterbildung \"Projektmanager/-in Level D 26-2649",
+      "section_heading": "Start der Weiterbildung \"Projektmanager/-in Level D 26-2649\" > 05.11.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Start der Weiterbildung \"Projektmanager/-in Level D 26-2649\"  \n##  05.11.2026\n09:00 Uhr\nStarten Sie die Weiterbildung „Projektmanagement“ an der HsH-Akademie der Hochschule Hannover: Das Managen stetig komplexer und diffiziler werdender Aufgaben erfordert mehr denn je professionelles, solides und "
+    },
+    {
+      "rang": 20,
+      "score": 1.00467,
+      "id": "d2ba8d07-82a1-5823-ad83-28ba6ce494f1",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/start-lehrgang-projektmanager/-in-level-c/b-26-2651",
+      "title_anzeige": "Start der Weiterbildung \"Projektmanager/-in Level C/B 26-2651",
+      "section_heading": "Start der Weiterbildung \"Projektmanager/-in Level C/B 26-2651\" > 03.09.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Start der Weiterbildung \"Projektmanager/-in Level C/B 26-2651\"  \n##  03.09.2026\n09:00 Uhr\nStarten Sie die Weiterbildung „Projektmanagement“ an der HsH-Akademie der Hochschule Hannover: Das Managen stetig komplexer und diffiziler werdender Aufgaben erfordert mehr denn je professionelles, solides un"
+    },
+    {
+      "rang": 21,
+      "score": 1.00233,
+      "id": "fba21c36-d3a2-5e53-99ed-0669684c8272",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-management-und-innovation",
+      "title_anzeige": "Management & Innovation",
+      "section_heading": "Management & Innovation > Management & Innovation > Hürden überwinden – neue Blickwinkel entdecken",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Ob innerhalb eines berufsbegleitenden Studiums, während mehrmonatiger Zertifikatskurse oder in Tagesseminaren an der HsH-Akademie: Wählen Sie den Weg, der am besten für Sie passt. Entwickeln Sie sich und Ihre Führungskompetenzen gesundheitsorientiert und zielführend weiter, lernen Sie Strategien im "
+    },
+    {
+      "rang": 22,
+      "score": 0.98285,
+      "id": "d7fec3cc-e4a4-5fcb-acbb-65d7c0ecb23f",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/veranstaltungen/mitarbeiterorientierte-fuehrung-modul-2",
+      "title_anzeige": "Start der Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\" Modul 2: Mitarbeitende fördern und Zusammenarbeit gestalten",
+      "section_heading": "Start der Weiterbildung \"Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen\" Modul 2: Mitarbeitende fördern und Zusammenarbeit gestalten > Unser Angebot im Überblick",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Unser Angebot im Überblick\n* **Kursname:** Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen, Modul 2: Mitarbeitende fördern und Zusammenarbeit gestalten\n* **Zielgruppe:** Pflegekräfte oder Hebammen/Entbindungspfleger sowie Heilerziehungspfleger*innen und angrenzende Berufe im Bere"
+    },
+    {
+      "rang": 23,
+      "score": 0.85425,
+      "id": "9423a563-c403-5d5d-99cf-4dea10682bbb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Flyer/2024_Infoflyer_Weiterbildung_NEU_2024_WEB_Frau.pdf",
+      "title_anzeige": "www › Weiterbildung › Flyer › 2024 Infoflyer Weiterbildung NEU 2024 WEB Frau",
+      "section_heading": "Wir begeistern Menschen für das Arbeiten in Projekten!",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Wir begeistern Menschen für das Arbeiten in Projekten!  \nSeit über 40 Jahren fördert die GPM das Projektmanagement in der Gesellschaft, befähigt Menschen, ihre innovativen Ideen nachhaltig zu verwirklichen und unterstützt bei allen Fragen zum Projektmanagement. Wir bieten umfangreiche Initiativen"
+    },
+    {
+      "rang": 24,
+      "score": 0.8468,
+      "id": "e96becd0-10d5-5b20-8035-c54954eee4dc",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/Archiv/Modulverzeichnis_BIN_MIN_2013.pdf",
+      "title_anzeige": "f4 › Modulhandbuecher › Archiv › Modulverzeichnis BIN MIN 2013 — der Studiengänge",
+      "section_heading": "**Bachelorstudiengang Angewandte Informatik – Modulbeschreibungen** > **1. Gemeinsamer Block**",
+      "chunk_index": 97,
+      "text_vollstaendig": true,
+      "auszug": "des Projekt- und Qualitätsmanagement erlernen um auch als Leiter\neines Teams, das aus unterschiedlichen Disziplinen und Niveaus\nbestehen kann, arbeiten zu können.|\n|**Inhalt:**|Es werden grundlegende Organisationsformen und  Abläufe zur\nDurchführung  von Projekten vorgestellt. Dazu gehören u.a.\n•\nPr"
+    },
+    {
+      "rang": 25,
+      "score": 0.83378,
+      "id": "88736e7c-b7a6-5f73-9828-3707af670497",
+      "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/angewandte-informatik-min",
+      "title_anzeige": "Angewandte Informatik (MIN)",
+      "section_heading": "Kurzübersicht > Studienziele",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## Studienziele\nDer anwendungsorientierte Master-Studiengang \"Angewandte Informatik\" will seine Absolventinnen und Absolventen befähigen, wissenschaftliche Methoden und Erkenntnisse bei schwierigen und komplexen Problemstellungen sowohl in der Praxis als auch in der Forschung einzusetzen. Der Master"
+    },
+    {
+      "rang": 26,
+      "score": 0.81785,
+      "id": "20b0d69d-53f1-564a-bcd9-f2a36a4d93cd",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Mudulhandbuecher/Modulhandbuch_MMG_Stand_09.09.2024.pdf",
+      "title_anzeige": "f5 › MGB MBG MMG › Mudulhandbuecher › Modulhandbuch MMG Stand 09.09.2024 — Master-Studiengang Management für Pflege- und Gesundheitsberufe",
+      "section_heading": "**Master-Studiengang Management für Pflege- und Gesundheitsberufe** > **B6 Projekte an Einrichtungen des Gesundheitswesens planen**",
+      "chunk_index": 20,
+      "text_vollstaendig": false,
+      "auszug": "jeweils verantwortliche Führungsebene, die das Praxisprojekt genehmigen\nund mittragen muss, zielgenau ein und motivieren die direkt Projektbetei-\nligten. Sie sind in der Lage, den Diskurs über das Projekt in der Praxis zu\nsteuern und die Implikationen (Ressourcen, Zeitaufwand, Methoden, not-\nwendige"
+    },
+    {
+      "rang": 27,
+      "score": 0.78146,
+      "id": "2541a65c-a575-5ed4-bbc9-e1a85434ded5",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS SoSe 2025 PO 2020 klein",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 898,
+      "text_vollstaendig": false,
+      "auszug": "Im Seminar erarbeiten die Studierenden Grundlagen des Projektmanagements, lernen Projektphasen sowie Anforderungen an die Projektleitung kennen. Sie übertragen ihr Wissen auf ein Beispielprojekt, z.B. auf ihr Projekt aus Modul 12."
+    },
+    {
+      "rang": 28,
+      "score": 0.7684,
+      "id": "40919c07-958f-54cb-859b-236f4977ca30",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS SoSe 2025 PO 2020 klein",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 997,
+      "text_vollstaendig": false,
+      "auszug": "Es gilt den Überblick zu behalten, Lösungswege für Planung und Probleme zu finden, Verantwortung für Entscheidungen zu übernehmen, ggf. ein Team zu leiten, zu koordinieren und delegieren. Ein strukturiertes Vorgehen erleichtert die Projektplanung, Steuerung und Realisierung. Dabei helfen die Tools d"
+    },
+    {
+      "rang": 29,
+      "score": 0.75204,
+      "id": "5f7b24dd-1acc-5506-8fa4-ba57fba6eafb",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungsangebot/projektmanagement",
+      "title_anzeige": "www › hsh akademie › weiterbildungsangebot › projektmanagement",
+      "section_heading": "Projektmanagement",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "**IPMA®-Level C: Certified Project Manager**\n**IPMA®-Level B: Certified Senior Project Manager**\nDiese Aufbaulehrgänge behandeln weiterführende Themenfelder des Projektmanagements und vertiefen das methodische Wissen und Können. Einbezogen werden nun beispielsweise auch Vertragsthemen oder betriebsw"
+    },
+    {
+      "rang": 30,
+      "score": 0.74399,
+      "id": "de1e5e25-16f9-5ec8-b07c-56f97b7efa77",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/mitarbeiterorientierte-fuehrung-in-der-pflege-modul-1",
+      "title_anzeige": "Mitarbeiterorientierte Führung in Pflege- und Gesundheitsberufen: Modul 1",
+      "section_heading": "Kurzübersicht > Häufig gestellte Fragen > Kurzübersicht",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "[ Wer sollte an diesem Kurs teilnehmen?  ](https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/mitarbeiterorientierte-fuehrung-in-der-pflege-modul-1 \"Wer sollte an diesem Kurs teilnehmen?  \")\nDie Weiterbildung richtet sich an Pflegekräfte oder Hebammen/Entbindungspfleger sowie Heilerziehungs"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 23264,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.04,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 2.46,
+    "docs_laden_s": 0.08,
+    "quellen_s": 4.59,
+    "antwort_llm_s": 2.68,
+    "gesamt_s": 7.27
+  },
+  "auswahl_begruendung": "{\"selected\":[1,5,2,3]}"
+}

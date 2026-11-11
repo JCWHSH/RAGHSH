@@ -1,0 +1,40 @@
+{
+  "lauf_id": "2026-08-18_1021_gpt-5.6-luna",
+  "gestartet": "2026-08-18T10:21:53",
+  "modell": "openai/gpt-5.6-luna",
+  "fallauswahl": "q06",
+  "fallzahl": 1,
+  "notiz": "Vorprobe Premium",
+  "pause_s": 2.0,
+  "premium": true,
+  "konfiguration": {
+    "DENSE_ARMS": [
+      "text"
+    ],
+    "SPARSE_ARMS": [
+      "sparse_expanded"
+    ],
+    "TOP_K": 8,
+    "CANDIDATE_LIMIT": 200,
+    "DEDUP_BUFFER": 4,
+    "MAX_PER_URL": 2,
+    "USE_RERANKER": true,
+    "AUGMENT_TOP_N": 3,
+    "SPARSE_LANGUAGE": "german",
+    "COLLECTION_NAME": "hsh_knowledge",
+    "FUSION": "dbsf",
+    "RAG_CANDIDATE_K": 30,
+    "TOP_DOCS": 8,
+    "SELECT_N": 4,
+    "MAX_CONTEXT_TOKENS": 100000,
+    "points_count": 121134,
+    "git_commit": "b40e486"
+  },
+  "laufzeit": {
+    "wall_clock_s": 6.5,
+    "gemessen_s": 6.5,
+    "geplante_pausen_s": 0.0,
+    "ungetrackt_s": 0.0,
+    "beendet": "2026-08-18T10:22:00"
+  }
+}

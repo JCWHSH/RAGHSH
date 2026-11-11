@@ -1,0 +1,85 @@
+[
+  {
+    "id": "q19",
+    "case_type": "direct",
+    "question": "Welche Wahlpflichtmöglichkeiten nennt die HsH im Bachelorstudiengang Maschinenbau?",
+    "reference_answer": "Im Studiengang Maschinenbau wählen Studierende nach den ersten drei Semestern einen von drei Studienschwerpunkten: Allgemeiner Maschinenbau, Intelligente Produktionssysteme oder Nachhaltige Werkstoffe, Produkte und Prozesse. Im Schwerpunkt Allgemeiner Maschinenbau werden individuelle Interessen durch vier Wahlpflichtmodule aus über 20 Wahlmöglichkeiten vertieft. In den Schwerpunkten Intelligente Produktionssysteme sowie Nachhaltige Werkstoffe, Produkte und Prozesse können jeweils in zwei Wahlpflichtmodulen und einem Projekt individuelle Schwerpunkte gesetzt werden.",
+    "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/maschinenbau-mab",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MAB/F2_BA_MAB_BTPO_2025-07-15.pdf",
+      "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/09-2025/06_F2_BA_MAB_VB_EBU.pdf",
+      "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "https://f2.hs-hannover.de/studium/studierende/semesteruebersichten"
+    ],
+    "required_facts": [
+      "Nach den ersten drei Semestern wird einer von drei Studienschwerpunkten gewählt.",
+      "Die drei Studienschwerpunkte heißen Allgemeiner Maschinenbau, Intelligente Produktionssysteme sowie Nachhaltige Werkstoffe, Produkte und Prozesse.",
+      "Im Schwerpunkt Allgemeiner Maschinenbau gibt es vier Wahlpflichtmodule aus über 20 Wahlmöglichkeiten.",
+      "In den beiden anderen Schwerpunkten gibt es jeweils zwei Wahlpflichtmodule und ein Projekt."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [
+      "Konkrete Modulnamen erfinden, die die Quelle an dieser Stelle nicht nennt.",
+      "Nur allgemein auf Prüfungsordnungen verweisen, ohne die genannten Studienschwerpunkte zu beantworten."
+    ],
+    "case_difficulty": "schwer",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Die Antwort muss die drei Studienschwerpunkte korrekt berücksichtigen: Allgemeiner Maschinenbau mit vier Wahlpflichtmodulen aus über 20 Wahlmöglichkeiten; Intelligente Produktionssysteme mit zwei Wahlpflichtmodulen und einem Projekt; Nachhaltige Werkstoffe, Produkte und Prozesse ebenfalls mit zwei Wahlpflichtmodulen und einem Projekt. Keine konkreten Modulnamen erfinden, weil die Quelle an dieser Stelle keine konkreten Modulnamen nennt.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Allgemeiner Maschinenbau",
+      "Intelligente Produktionssysteme"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "BTPO 2025 (Verkündungsblatt 09/2025) und die zentrale Studienangebotsseite nennen alle drei Schwerpunkte. Die PO 2019 kennt nur zwei und ist für Einschreibungen ab WS 2025 abgelöst.",
+    "gold_im_korpus": true
+  },
+  {
+    "id": "g21",
+    "case_type": "direct",
+    "question": "In welchem Raum sitzt der Vorsitzende des Prüfungsausschusses Wirtschaftsinformatik?",
+    "reference_answer": "Prof. Dr. Bernd Obermöller sitzt in Raum 1H.1.15.",
+    "source_url": "https://f4.hs-hannover.de/ueber-uns/gremien/pruefungsausschuesse/pruefungsausschuss-wirtschaftsinformatik",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "**Prof. Dr. Bernd Obermöller** _Professor, Wirtschaftsinformatik (F4WI)_ Raum: 1H.1.15"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ verwaltung_service/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true
+  },
+  {
+    "id": "g30",
+    "case_type": "direct",
+    "question": "Welches Wahlpflichtmodul beschäftigt sich mit Drohnen?",
+    "reference_answer": "MAB-279 – Regelung, Steuerung und Betrieb von Multicoptern.",
+    "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Wahlpflichtmodule_WS26.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Betrieb von Multicoptern"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ sonstiges/auswahl. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true
+  }
+]

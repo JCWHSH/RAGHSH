@@ -1,0 +1,30 @@
+# System-Unit: /etc/systemd/system/hsh-webapp.service (User anpassen)
+[Unit]
+Description=HsH Chatbot Web App (Streamlit)
+After=network.target
+
+[Service]
+Type=simple
+User=christian
+WorkingDirectory=/home/christian/RAGHSH
+TimeoutStartSec=660
+# Der MCP-Server legt beim Start /tmp/hsh-mcp.ready an; bis zu 10 min darauf warten.
+ExecStartPre=/bin/bash -c '\
+  echo "Warte auf MCP-Server (max. 10 min)..."; \
+  for i in $(seq 1 60); do \
+    [ -f /tmp/hsh-mcp.ready ] && echo "MCP bereit." && exit 0; \
+    echo "  Versuch $i/60..."; sleep 10; \
+  done; echo "Timeout — starte Webapp trotzdem."; exit 0'
+ExecStart=/home/christian/RAGHSH/.venv/bin/streamlit run src/raghsh/web/app.py \
+    --server.port=8766 \
+    --server.headless=true \
+    --server.baseUrlPath=/hsh-app \
+    --server.enableCORS=false \
+    --server.enableXsrfProtection=false
+Restart=on-failure
+RestartSec=10s
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

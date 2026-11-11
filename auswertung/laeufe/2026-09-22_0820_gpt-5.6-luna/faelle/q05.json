@@ -1,0 +1,1682 @@
+{
+  "fall": {
+    "id": "q05",
+    "case_type": "direct",
+    "question": "Wo finde ich in der Fakultät I die Anmeldung für Studienprojekte?",
+    "reference_answer": "Die HsH belegt zwei passende Antwortpfade: Auf der Seite der Prüfungsverwaltung der Fakultät I steht im Bereich Formulare/Prüfungsangelegenheiten der Abschnitt Studienprojekte mit den Links Anmeldung Studienprojekt, Wichtige Hinweise zu Projekten bzw. Studienprojekten und Projektnummern. In den Wichtigen Hinweisen steht außerdem, dass das Projekt bzw. Studienprojekt vor Beginn im iCMS einzutragen ist und als Prüfer der allgemeine Prüfer F1 auszuwählen ist.",
+    "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf"
+    ],
+    "required_facts": [
+      "Die Anmeldung ist auf der Seite der Prüfungsverwaltung der Fakultät I zu finden.",
+      "Der relevante Bereich heißt Formulare/Prüfungsangelegenheiten.",
+      "Der Abschnitt heißt Studienprojekte.",
+      "Dort gibt es den Link Anmeldung Studienprojekt."
+    ],
+    "optional_facts": [
+      "Dort sind auch Hinweise zu Projekten bzw. Studienprojekten aufgeführt.",
+      "Dort sind auch Projektnummern aufgeführt."
+    ],
+    "forbidden_claims": [
+      "Die Anmeldung nur als allgemeine iCMS-Funktion ohne Projekt-/Studienprojektbezug beschreiben.",
+      "Projektangebote anderer Fakultäten als Antwort verwenden."
+    ],
+    "answer_variants": [
+      {
+        "id": "f1_pruefungsverwaltung_fundort",
+        "title": "Fundort auf der F1-Prüfungsverwaltungsseite",
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "source_policy": "exact_gold_source",
+        "accepted_source_urls": [],
+        "required_facts": [
+          "Die Anmeldung ist auf der Seite der Prüfungsverwaltung der Fakultät I zu finden.",
+          "Der relevante Bereich heißt Formulare/Prüfungsangelegenheiten.",
+          "Der Abschnitt heißt Studienprojekte.",
+          "Dort gibt es den Link Anmeldung Studienprojekt."
+        ],
+        "optional_facts": [
+          "Dort sind auch Hinweise zu Projekten bzw. Studienprojekten aufgeführt.",
+          "Dort sind auch Projektnummern aufgeführt."
+        ],
+        "forbidden_claims": [
+          "Projektangebote anderer Fakultäten als Antwort verwenden."
+        ]
+      },
+      {
+        "id": "icms_operatives_verfahren",
+        "title": "Operative Anmeldung des Studienprojekts in iCMS",
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+        "source_policy": "exact_gold_source",
+        "accepted_source_urls": [],
+        "required_facts": [
+          "Das Projekt bzw. Studienprojekt soll vor Beginn im iCMS eingetragen werden.",
+          "Für Projekte bzw. Studienprojekte der Fakultät I ist das Antragsformular mit dem darin enthaltenen Verfahren anzuwenden.",
+          "Im iCMS soll als Prüfer der allgemeine Prüfer F1 ausgewählt werden."
+        ],
+        "optional_facts": [
+          "Es gibt Ausnahmen für MEC, EWI und MAT mit Prüfer F2 oder Prüfer F4.",
+          "Der zweite Betreuende wird durch den Erstbetreuenden benannt und muss nicht im iCMS eingetragen werden."
+        ],
+        "forbidden_claims": [
+          "Die iCMS-Antwort nur als allgemeine Prüfungs- oder Veranstaltungsanmeldung ohne Studienprojektbezug darstellen.",
+          "Projektangebote anderer Fakultäten als Antwort verwenden."
+        ]
+      }
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Beide HsH-belegten Antwortpfade sind gültig: der Fundort auf der F1-Prüfungsverwaltungsseite oder das operative Verfahren aus dem PDF mit iCMS-Eintrag vor Beginn. Die Antwort darf das nicht mit allgemeinen Projektangeboten anderer Fakultäten verwechseln.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Studienprojekt",
+      [
+        "Prüfungsverwaltung",
+        "Anmeldung Studienprojekt",
+        "Prüfungsamt"
+      ]
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Die beiden PDFs, auf die die Goldseite verlinkt; wer sie zitiert, hat die Anmeldung gefunden.",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "c3b8e229-b113-5a10-ab23-fefe7f66d582",
+      "684cd2ba-c33b-5a9f-85e5-b72234102a7e",
+      "0a303b4b-73d8-5ab9-bff4-ec53a7381a49",
+      "a8644d0a-43d7-5c31-819f-b08887d0d522",
+      "9c87a546-ce03-5563-8478-c3abeb90fcfa",
+      "e3f3f300-618c-54e2-948a-6e8fdd43beb2",
+      "2665fb25-93fe-5ada-8824-416680f0c2b0",
+      "bc18985a-b5d1-5a7c-b3e7-830229c9dcac",
+      "f1c25ef1-83ea-5586-aac6-ef0b6e3b7e17",
+      "f8184645-66bb-5df1-b269-f8e8725294d3",
+      "3e2e9569-6258-5ef7-899d-c0ef86cf8a60",
+      "67e971eb-6abb-539e-a080-b89a42b045a5",
+      "7f4c9604-d503-5f44-95f8-6cddd861daa9",
+      "5f032f47-b1d2-5a0b-93d2-c095fcd2fbd1",
+      "eedb428b-8e0a-5cc4-a561-7c3ffa1f01cf",
+      "75a0bc0f-36ad-5929-8359-5c3ad76bfffd",
+      "dcb525f3-fb9f-5d34-b936-c4ae5ba6156d",
+      "1c2e07ed-9edd-5187-96f5-07840d8b8b62"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-22T08:21:38",
+  "dauer_s": 7.19,
+  "fehler": null,
+  "antwort": "Die Anmeldung für Studienprojekte der Fakultät I finden Sie auf der Seite der Prüfungsverwaltung unter „Formulare/Prüfungsangelegenheiten“: „Anmeldung Studienprojekt\" [2].\n\nDas Antragsformular ist außerdem direkt abrufbar: „Formular Studentenprojekt Anmeldung — Studienprojekt\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Wichtige Hinweise für Projekte bzw. Studienprojekte\n  ## Der 2. Betreuende wird durch den Erstbetreuenden benannt und muss nicht im iCMS eingetragen werden!\n  ## Anmeldungen sind ganzjährig möglich."
+    },
+    {
+      "nr": 2,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "fakultaet": "f1",
+      "struktur": "# Prüfungsverwaltung der Fakultät I\n  ## Ansprechpersonen\n    ### Stephan Rittmüller\n  ## Sprechzeiten\n    ### Yvonne Scholz\n  ## Sprechzeiten\n    ### Oxana Schreiber\n  ## Sprechzeiten\n  ## Formulare/Prüfungsangelegenheiten"
+    },
+    {
+      "nr": 3,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Fakultät I - Elektro- und Informationstechnik Hochschule Hannover\n  ## Studienprojekt\n  ## 1. Genaue Bezeichnung des Projektes:\n  ## 2. Prüfungsanmeldung\n  ## 3. Einverständnis der Betreuenden\n  ## 3. Bewertung"
+    },
+    {
+      "nr": 4,
+      "titel": "Fachgebiet Regelungstechnik und Mechatronik",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/regelungstechnik-und-mechatronik",
+      "fakultaet": "f1",
+      "struktur": "# Fachgebiet Regelungstechnik und Mechatronik\n  ## Das Fachgebiet Regelungstechnik und Mechatronik\n  ## Personen\n  ## Lehrveranstaltungen\n    ### Überblick:\n  ## Labore\n  ## Fachgebietsübergreifende Labore\n  ## Forschung und Entwicklung\n  ## Studienprojekte, Bachelor- und Masterarbeiten\n  ## Kontakt"
+    },
+    {
+      "nr": 5,
+      "titel": "Elektrische Energiesysteme und Elektromobilität (EEE)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge/elektrische-energiesysteme-und-elektromobilitaet-eee",
+      "fakultaet": "f1",
+      "struktur": "# Elektrische Energiesysteme und Elektromobilität (EEE)\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Studieninhalte\n  ## Vertiefungsrichtungen\n  ## Qualifikationsziele\n  ## Dokumente\n    ### Ältere Dokumente\n  ## Kontakt\n    ### Studiengangsleiter Vertiefungsrichtung Elektromobilität\n    ### Studiengangsleiter Vertiefungsrichtung Energieversorgung\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 6,
+      "titel": "Sensor- und Automatisierungstechnik (ESA)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge/sensor-und-automatisierungstechnik-esa",
+      "fakultaet": "f1",
+      "struktur": "# Sensor- und Automatisierungstechnik (ESA)\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Studieninhalte\n  ## Qualifikationsziele\n  ## Berufsperspektiven\n  ## Dokumente\n  ## Kontakt\n    ### Studiengangsleiter\n    ### Dekanat\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 7,
+      "titel": "Mechatronik (MEC)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "fakultaet": "f1",
+      "struktur": "# Mechatronik (MEC)\n    ### Auf einen Blick\n# Kurzübersicht\n# Schnittstelle zwischen den Disziplinen\n  ## Studieninhalte\n  ## Optionen\n    ### Und so könnte es für Sie als Absolventin oder Absolvent des Bachelor-Studiengangs Mechatronik weitergehen:\n  ## Qualifikationsziele\n  ## Dokumente\n  ## Kontakt\n    ### Studiengangsleiter\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 8,
+      "titel": "Angewandte Mathematik und Data Science (MAT)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat",
+      "fakultaet": "f1",
+      "struktur": "# Angewandte Mathematik und Data Science (MAT)\n    ### Flyer zum Studiengang Angewandte Mathematik und Data Science\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Was erwartet Sie?\n  ## Studieninhalte\n  ## Vertiefungsrichtungen\n  ## Studienablauf und Qualifikationsziele\n  ## Praxis erleben\n  ## Dokumente\n    ### Ältere Dokumente\n  ## Informationen für Studiengangswechsler\n    ### Beratung zum Studiengangswechsel\n  ## Kontakt\n    ### Studiengangsleiterin Vertiefungsrichtung Technomathematik\n    ### Studiengangsleiter Vertiefungsrichtung Wirtschaftsmathematik\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 9,
+      "titel": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT SFT",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Modulhandbuch für den Studiengang Elektrotechnik und Informationstechnik (EIT) / Vertiefung Systeme für Funk und Telekommunikation (SFT) PO-Version WS2018\n  ## Einleitung\n  ## Studieninhalte\n  ## Studieninhalte der Vertiefungsrichtung Systeme für Funk und Telekommunikation (SFT)\n  ## Internationale Studienoption\n  ## Individuell organisierter Auslandsaufenthalt\n  ## Teilzeitstudium\n  ## StudyFLEX\n  ## Legende der Prüfungsformen (laut allgemeiner Teil der PO)\n  ## Module des 1. Studienabschnitts\n  ## Modul EIT-101 Mathematik 1\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Teilmodul EIT-101-01 Mathematik 1\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-104 Physik 1\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Teilmodul EIT-104-01 Physik 1\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-107 Gleichstromtechnik\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Teilmodul EIT-107-01 Gleichstromtechnik\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul EIT-110 Programmiersprache C\n  ## Angestrebte Lernergebnisse\n  ## Die Studierenden\n  ## Teilmodul EIT-110-01 Programmiersprache C\n  ## Die Studierenden\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Teilmodul EIT-110-02 Rechnerübung C\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums"
+    },
+    {
+      "nr": 10,
+      "titel": "Elektrotechnik und Informationstechnik (EIT)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "fakultaet": "f1",
+      "struktur": "# Elektrotechnik und Informationstechnik (EIT)\n    ### Auf einen Blick\n# Kurzübersicht\n# Sie wollen nicht nur wissen, wie Dinge funktionieren ...\n  ## Studieninhalte\n  ## Vertiefungsrichtungen\n  ## Qualifikationsziele\n  ## Dokumente\n  ## Kontakt\n    ### Studiengangsleiter Vertiefungsrichtung ADT\n    ### Studiengangsleiter Vertiefungsrichtung SKI\n    ### Studiengangsleiter Vertiefungsrichtung EAE\n    ### Studiengangsleiter Vertiefungsrichtung SEL\n  ## Aus welchen Gründen haben Sie sich für ein EIT-Studium entschieden?\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 11,
+      "titel": "Nachhaltige Elektrische Energieversorgung (NEV)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/nachhaltige-elektrische-energieversorgung-nev",
+      "fakultaet": "f1",
+      "struktur": "# Nachhaltige Elektrische Energieversorgung (NEV)\n    ### Auf einen Blick\n# Kurzübersicht\n# Sie interessieren sich für die Zukunftsthemen Elektrotechnik, Nachhaltigkeit und elektrische Energieversorgung\n  ## Studieninhalte\n  ## Zukunftsaussichten\n  ## Qualifikationsziele\n  ## Dokumente\n  ## Kontakt\n    ### Studiengangsleiter - technische Fächer\n    ### Studiengangsleiter - nicht-technische Fächer\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 12,
+      "titel": "Technisches Informationsdesign und Technische Redaktion (ITR)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/technisches-informationsdesign-und-technische-redaktion-itr",
+      "fakultaet": "f1",
+      "struktur": "# Technisches Informationsdesign und Technische Redaktion (ITR)\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Was erwartet Sie?\n  ## Studieninhalte\n  ## Modulübersicht\n  ## Praxisprojekte\n  ## Reparieren statt wegwerfen! Das muss in eine Reparaturanleitung\n  ## beitrag Online\n  ## Wir haben nur eine Erde: Kritische Rohstoffe und Kreislaufwirtschaft\n  ## Anleitung zum Bier brauen\n  ## Interesse? Machen Sie ein Schnupperstudium!\n  ## Vollzeit oder Teilzeit – ITR macht’s möglich!\n  ## Dokumente\n  ## Kontakt\n    ### Studiengangsleiterin\n    ### Dekanat\n    ### Links\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 13,
+      "titel": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "fakultaet": "",
+      "struktur": "    ### Anmeldung am System\n    ### Prüfungsanmeldung\n    ### Anmeldung zur Veranstaltung (Fakultät V)"
+    },
+    {
+      "nr": 14,
+      "titel": "www › hsh akademie › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt",
+      "fakultaet": "",
+      "struktur": "# Schreibwerkstatt\n  ## Schreiben in Studium und Beruf\n  ## Willkommen!\n  ## Angebote und Maßnahmen\n  ## Feedback unserer Studierenden\n  ## Kontakt\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 15,
+      "titel": "itr › ueber uns › projektseite",
+      "url": "https://itr.wp.hs-hannover.de/ueber-uns/projektseite",
+      "fakultaet": "",
+      "struktur": "# Studienprojekte\n  ## 91 % der Alumni würden den Studiengang noch einmal wählen!\n  ## Mediengestaltung praktisch: Broschüren entwickeln\n  ## Reparieren statt wegwerfen! Das muss in eine Reparaturanleitung\n  ## ITR auf Schatzsuche!\n  ## Wir haben nur eine Erde: Kritische Rohstoffe und Kreislaufwirtschaft\n  ## Erklär’s mir schnell bewegt: Nutzerinnen helfen sich selbst – was können wir davon lernen?\n  ## beitrag online 2023 – Nur für Feinschmecker!\n  ## Unfallmeldung erfassen und visualisieren\n  ## beITRag online 2022\n  ## Kollaboratives Schreiben in Studium und Beruf\n  ## Anleitung zum Bier brauen\n  ## beITRag online (2021)\n  ## Schreiben im digitalen Nutzungskontext\n  ## Technisches Labor\n  ## beITRag Printmagazin – Zweite Ausgabe\n  ## Podcast\n  ## beITRag Printmagazin – Erste Ausgabe\n  ## Chatbot Dimitri\n  ## Neues Logo für ITR"
+    },
+    {
+      "nr": 16,
+      "titel": "www › servicezentrum beratung › studienberatung › hochschulinformationstage an der hsh",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/hochschulinformationstage-an-der-hsh",
+      "fakultaet": "",
+      "struktur": "# Hochschulinformationstage\n  ## Hochschulinformationstage 2026 in Hannover – Deine Chance, die Hochschule Hannover kennenzulernen!\n    ### Auf einen Blick\n  ## Unsere Programmpunkte in den Räumen der Leibniz Universität\n  ## HIT in Hannover\n  ## Hier geht's zur Anmeldung für die Veranstaltungen an der Leibniz Universität\n  ## Unsere Programmpunkte an der Expo Plaza\n  ## Unsere Design- und Medienstudiengänge stellen sich an der Expo Plaza am 15.& 16.09.2026 vor\n  ## Weitere Infos gibt die Studienberatung\n  ## Hier geht's zu den HIT an der HsH\n    ### Campus Expo Plaza\n    ### HIT an der Leibniz Universität\n    ### HIT online"
+    },
+    {
+      "nr": 17,
+      "titel": "Herzlich Willkommen an der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+      "fakultaet": "",
+      "struktur": "# Herzlich Willkommen an der Hochschule Hannover\n  ## Das Wichtigste zum Studienstart...\n    ### Auf einen Blick\n  ## Informationen aus den Fakultäten\n  ## Fakultät I - Elektro- und Informationstechnik:\n  ## Fakultät II - Maschinenbau und Bioverfahrenstechnik:\n  ## Fakultät III - Medien, Information und Design:\n  ## Fakultät IV - Wirtschaft und Informatik:\n  ## Fakultät V - Diakonie, Gesundheit und Soziales:\n  ## Wichtige Links\n  ## Weiterlesen\n  ## Termine & Fristen\n  ## Semesterbeitrag und Rückmeldung\n  ## Antragsformulare\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 18,
+      "titel": "www › Verkuendungsblatt › 12 2011 › 02 Richtlinie zur Foerderung von Vorhaben zu FuE",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/12-2011/02-Richtlinie_zur_Foerderung_von_Vorhaben_zu_FuE.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie zur Förderung von Vorhaben zur Forschung und Entwicklung (FuE)\n  ## § 1 Allgemeines\n  ## § 2 Ermäßigungen oder Befreiungen von der Lehrverpflichtung\n  ## § 3 Gewährung von Finanzmitteln zur Unterstützung von FuE-Vorhaben\n  ## § 4 Forschungskommission\n  ## § 5 Konsultation\n  ## § 6 Anträge auf Förderung von FuE-Vorhaben\n  ## § 7 Antragsform\n  ## § 8 Berichtspflicht\n  ## Antragsbezogene Forschung:\n  ## Auftragsbezogene Forschung:\n  ## § 9\n  ## Mittelrückführung bei erfolgreicher Verwertung von Forschungsergebnissen\n  ## § 10 Finanzierung von Lehraufträgen\n  ## § 11 Termine\n  ## § 12 Kriterien, nach denen die Forschungskommission Anträge auf Förderung von FuE Vorhaben gewichtet und bewertet\n  ## Kriterien für eher positive Einschätzungen von Anträgen an die Forschungskommission (in beliebiger Reihenfolge)\n  ## Antrags- und auftragsbezogene Forschung\n  ## Interne Projekte (ohne Zuwendungen Dritter)\n  ## Allgemeine Kriterien zur positiven Bewertung\n  ## Kriterien für eher negative Einschätzungen von FuE-Vorhaben (in beliebiger Reihenfolge)\n  ## Antrags- und auftragsbezogene Forschung\n  ## Interne Projekte (ohne Zuwendungen Dritter)\n  ## Allgemeine Kriterien zur negativen Bewertung\n  ## § 13 Inkrafttreten"
+    },
+    {
+      "nr": 19,
+      "titel": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang International Business Studies (IBS) mit dem Abschluss Bachelor of Science an der Fakultät IV - Wirtschaft und Informatik der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Geltungsbereich der Prüfungsordnung\n  ## § 3\n  ## Zweck der Prüfung und Hochschulgrad\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Art und Umfang der Bachelor-Prüfung\n  ## § 6\n  ## Zulassung zu den Prüfungen des ersten Studienabschnitts\n  ## (Bachelorvorprüfung)\n  ## § 7\n  ## Aufbau und Inhalt der Bachelorvorprüfung\n  ## § 8\n  ## Höchstdauer der Bachelorvorprüfung\n  ## § 9\n  ## Zulassung zum zweiten Studienabschnitt und zur Bachelor-Arbeit\n  ## § 10\n  ## Höchstdauer des zweiten Studienabschnitts\n  ## überschritten worden ist.\n  ## § 11\n  ## Studiensemester im Ausland\n  ## § 12\n  ## Prüfungsanmeldungen und Prüfungszeitpunkte\n  ## § 13\n  ## Arten und Aufteilungsmöglichkeiten von Prüfungsleistungen\n  ## § 14\n  ## Eidesstattliche Versicherungen\n  ## § 15\n  ## Anwesenheitspflichten\n  ## § 16\n  ## Prüfungsvorleistungen\n  ## § 17\n  ## Unbenotete Prüfungsleistungen\n  ## § 18\n  ## Wechsel von Wahlpflichtmodulen\n  ## § 19\n  ## Verbesserungsversuche\n  ## § 20\n  ## Wiederholung nicht bestandener Prüfungen\n  ## § 21\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 22\n  ## Prüfungsausschuss\n  ## § 23\n  ## Inkrafttreten\n  ## Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - Neufassung"
+    },
+    {
+      "nr": 20,
+      "titel": "www › servicezentrum lehre › moodle bbb infos fuer studierende › linksammlung fuer erstsemester studierende — Links zum Studienstart",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-lehre/moodle-bbb-infos-fuer-studierende/linksammlung-fuer-erstsemester-studierende",
+      "fakultaet": "",
+      "struktur": "  ## Links zum Studienstart\n    ### Weitere Infos"
+    },
+    {
+      "nr": 21,
+      "titel": "mint.hs-hannover.de",
+      "url": "https://mint.hs-hannover.de",
+      "fakultaet": "",
+      "struktur": "  ## MINT-Studiengänge\n  ## Angebote für Studieninteressierte\n  ## Instagram-Feed\n  ## Neuigkeiten im Überblick\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover\n  ## MINT-Studiengänge\n  ## MINT-Studiengänge\n  ## Angebote für Studieninteressierte\n  ## Instagram-Feed\n  ## Instagram-Feed\n  ## Neuigkeiten im Überblick\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover\n  ## MINT-Studiengänge\n  ## MINT-Studiengänge\n  ## MINT-Studiengänge\n  ## Angebote für Studieninteressierte\n  ## Instagram-Feed\n  ## Instagram-Feed\n  ## Instagram-Feed\n  ## Neuigkeiten im Überblick\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover"
+    },
+    {
+      "nr": 22,
+      "titel": "www › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt › kurse",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+      "fakultaet": "",
+      "struktur": "  ## Kurse\n  ## Kursanmeldung\n    ### Jetzt Neu!\n  ## Ferienkurse im Sommersemester 2026\n  ## Semesterkurse im Sommersemester 2026\n  ## Ferienkurse im Wintersemester 2025/26\n  ## Semesterkurse im Wintersemester 2025/26\n  ## Ferienkurse im Sommersemester 2025\n  ## Semesterkurse im Sommersemester 2025\n  ## Ferienkurse im Wintersemester 2024/25\n  ## Semesterkurse im Wintersemester 2024/25\n  ## Ferienkurse im Sommersemester 2024\n  ## Semesterkurse im Sommersemester 2024\n  ## Ferienkurse im Wintersemester 2023/24\n  ## Semesterkurse im Wintersemester 2023/24\n  ## Ferienkurse im Sommersemester 2023\n  ## Semesterkurse im Sommersemester 2023\n  ## Ferienkurse im Wintersemester 2022/23\n  ## Semesterkurse im Wintersemester 2022/23\n  ## Ferienkurse im Sommersemester 2022\n  ## Semesterkurse im Sommersemester 2022\n  ## Ferienkurse im Wintersemester 2021/22\n  ## Semesterkurse Wintersemester 2021/22\n  ## Ferienkurse im Sommersemester 2021\n  ## Semesterkurse Sommersemester 2021\n  ## Ferienkurse Wintersemester 2020/21\n  ## Semesterkurse Wintersemester 2020/21\n  ## Ferienkurse Sommersemester 2020\n  ## Semesterkurse Sommersemester 2020\n  ## Ferienkurse Wintersemester 2019/20\n  ## Semesterkurse Wintersemester 2019/20\n  ## Ferienkurse Sommersemester 2019"
+    },
+    {
+      "nr": 23,
+      "titel": "www › organisation › akademische angelegenheiten › studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende",
+      "fakultaet": "",
+      "struktur": "# Studierende\n  ## Alles rund ums Studium an der Hochschule Hannover an einem Ort:\n    ### Auf einen Blick\n  ## Themen vertiefen\n  ## Weiterlesen\n  ## Termine & Fristen\n  ## Semesterbeitrag und Rückmeldung\n  ## Antragsformulare\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 24,
+      "titel": "www › verkuendungsblatt › aeltere ausgaben › ausgaben 2013 — Ausgabe Nr. 10/2013 vom 20.12.2013",
+      "url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2013",
+      "fakultaet": "",
+      "struktur": "    ### Ausgabe Nr. 10/2013 vom 20.12.2013\n    ### Ausgabe Nr. 09/2013 vom 27.11.2013\n    ### Ausgabe Nr. 08/2013 vom 15.11.2013\n    ### Ausgabe Nr. 07/2013 vom 31.10.2013\n    ### Ausgabe Nr. 06/2013 vom 09.08.2013\n    ### Ausgabe Nr. 05/2013 vom 3.7.2013\n    ### Ausgabe Nr. 04/2013 vom 12.06.2013\n    ### Ausgabe Nr. 03/2013 vom 10.06.2013\n    ### Ausgabe Nr. 02/2013 vom 06.05.2013\n    ### Ausgabe Nr. 01/2013 vom 08.03.2013"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 3,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung"
+    },
+    {
+      "nr": 1,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Fakultät I - Elektro- und Informationstechnik Hochschule Hannover** > **Studienprojekt**",
+      "snippets": [
+        "## **Fakultät I - Elektro- und Informationstechnik Hochschule Hannover**\n\n## **Studienprojekt**  \n**Name, Vorname: ___________________________________ Matr.Nr.: ____________________**  \n**E-Mail: ___________________________________________ Tel.-Nr.: _____________________**  \nHiermit beantrage ich die Betreuung eines Studienprojektes gemäß gültiger Prüfungsordnung im Studiengang:  \nBachelor: `☐` EIT `☐` MEC `☐ MAT ☐` EWI     Master:    � ESA `☐` EEE  \nZeitraum des 5 Credits Projektes vom _____________bis _____________= ____ Wochen  \n(Der Zeitraum für ein 5 Credit Projekt beträgt max. 15 Wochen. Der Umfang beträgt 150 Stunden.)  \nZeitraum des 2,5 Credit  Projektes vom _____________bis _____________= ____ Wochen  \n(Der Zeitraum für ein 2,5 Credit Projekt beträgt max. 8 Wochen. Der Umfang beträgt 75 Stunden.)  \nIn Absprache mit den Betreuenden kann ein Projekt in Ausnahmefällen um max. 4 Wochen verlängert werden.\n\n## **1. Genaue Bezeichnung des Projektes:**  \n__________________________________________________________________  \n___________________________________________________________________",
+        "## **3. Einverständnis der Betreuenden**  \n(Hauptamtl. Lehrpersonen oder Wiss. Mitarbeiter der Fakultät I; EWI auch Fakultät IV, MEC auch Fakultät II, MAT auch Fakultät II oder IV. Wenn der 1. Betreuende nicht aus Fakultät I ist, muss der 2. Betreuende aus Fakultät I sein.)  \nWir übernehmen die Betreuung des Projektes. Die iCMS Anmeldebestätigung hat uns vorgelegen. Das Original dieses Antrages verbleibt bei dem 1. Betreuenden, der 2. Betreuende und der Antragsteller erhalten eine Kopie.  \n1. Betreuender: ______________________________________________________________  \nName, Datum und Unterschrift  \n2. Betreuender: ______________________________________________________________  \nName, Datum und Unterschrift"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prüfungsverwaltung der Fakultät I > Formulare/Prüfungsangelegenheiten > Prüfungsverwaltung der Fakultät I",
+      "snippets": [
+        "## Formulare/Prüfungsangelegenheiten\n##\n[ Prüfungsverwaltung ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"Prüfungsverwaltung\")\n[Prüfungsplan](https://f1-ppview.wp.hs-hannover.de/)\n[Prüfungsanmeldung](https://icms.hs-hannover.de/qisserver/rds?state=user&type=0)\n[Krankmeldung](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/06-23_Krankmeldung_F1.pdf)\n[ Studienprojekte ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"Studienprojekte\")\n[Anmeldung Studienprojekt](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf)\n[Wichtige Hinweise zu Projekten bzw. Studienprojekten](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf)\n[Projektnummern](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Projektnummern.pdf)"
+      ],
+      "zitate": [
+        "Anmeldung Studienprojekt"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Wichtige Hinweise für Projekte bzw. Studienprojekte**",
+      "snippets": [
+        "## **Wichtige Hinweise für Projekte bzw. Studienprojekte**  \nFür alle Bachelor- und Masterstudiengänge der Fakultät I - Elektro- und Informationstechnik, gilt es, **ausschließlich** das Antragsformular für Projekte bzw. Studienprojekte mit dem im Formular enthaltenen Verfahren anzuwenden.  \nBitte tragen Sie **vor Beginn** Ihr Projekt bzw. Studienprojekt im iCMS ein: https://icms.hs-hannover.de/qisserver/rds?state=user&type=0  \nAls Prüfer ist nur der allgemeine „Prüfer F1“ auszuwählen.  \n( **Ausnahmen** bei MEC auch „Prüfer F2“, bei EWI auch „Prüfer F4“, bei MAT auch „Prüfer F2“ und „Prüfer F4“)\n## **Der 2. Betreuende wird durch den Erstbetreuenden benannt und muss nicht im iCMS eingetragen werden!**\n\n## **Anmeldungen sind ganzjährig möglich.**"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 4.25802,
+      "id": "1c2e07ed-9edd-5187-96f5-07840d8b8b62",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "section_heading": "**Wichtige Hinweise für Projekte bzw. Studienprojekte**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Wichtige Hinweise für Projekte bzw. Studienprojekte**  \nFür alle Bachelor- und Masterstudiengänge der Fakultät I - Elektro- und Informationstechnik, gilt es, **ausschließlich** das Antragsformular für Projekte bzw. Studienprojekte mit dem im Formular enthaltenen Verfahren anzuwenden.  \nBitte tr"
+    },
+    {
+      "rang": 2,
+      "score": 3.32163,
+      "id": "bc18985a-b5d1-5a7c-b3e7-830229c9dcac",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I > Formulare/Prüfungsangelegenheiten > Prüfungsverwaltung der Fakultät I",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## Sprechzeiten\nMo.-Fr. nur telefonisch und per Email oder nach Vereinbarung\n\n## Formulare/Prüfungsangelegenheiten\n##\n[ Prüfungsverwaltung ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"Prüfungsverwaltung\")\n[Prüfungsplan](https://f1-ppview.wp.hs-hannover.de/)\n[Prüfun"
+    },
+    {
+      "rang": 3,
+      "score": 2.78224,
+      "id": "7f4c9604-d503-5f44-95f8-6cddd861daa9",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "section_heading": "**Fakultät I - Elektro- und Informationstechnik Hochschule Hannover** > **Studienprojekt**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Fakultät I - Elektro- und Informationstechnik Hochschule Hannover**\n\n## **Studienprojekt**  \n**Name, Vorname: ___________________________________ Matr.Nr.: ____________________**  \n**E-Mail: ___________________________________________ Tel.-Nr.: _____________________**  \nHiermit beantrage ich di"
+    },
+    {
+      "rang": 4,
+      "score": 2.23934,
+      "id": "69ecc339-5841-52eb-9428-c70885c21cf9",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/regelungstechnik-und-mechatronik",
+      "title_anzeige": "Fachgebiet Regelungstechnik und Mechatronik",
+      "section_heading": "Fachgebiet Regelungstechnik und Mechatronik > Studienprojekte, Bachelor- und Masterarbeiten",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## Studienprojekte, Bachelor- und Masterarbeiten\nIm Bereich der genannten Forschungs- und Entwicklungsschwerpunkte werden eine Vielzahl von Arbeiten angeboten. Sprechen Sie uns gerne an oder kommen Sie mit eigenen Themenvorschlägen!"
+    },
+    {
+      "rang": 5,
+      "score": 2.15797,
+      "id": "9d773f66-4cd1-543f-bf6f-fd6e3abfd714",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge/elektrische-energiesysteme-und-elektromobilitaet-eee",
+      "title_anzeige": "Elektrische Energiesysteme und Elektromobilität (EEE)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ... ](https://w"
+    },
+    {
+      "rang": 6,
+      "score": 2.15797,
+      "id": "ff2d4f3c-5b8f-57d6-9c91-b2a33bce751b",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge/sensor-und-automatisierungstechnik-esa",
+      "title_anzeige": "Sensor- und Automatisierungstechnik (ESA)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ... ](https://w"
+    },
+    {
+      "rang": 7,
+      "score": 2.06164,
+      "id": "6591f371-c155-555a-ad35-a7bed0110102",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "title_anzeige": "Mechatronik (MEC)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 22,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 8,
+      "score": 2.06143,
+      "id": "e86b3bf1-9e91-5a50-8b02-31e163b6b025",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat",
+      "title_anzeige": "Angewandte Mathematik und Data Science (MAT)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 32,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 9,
+      "score": 2.05247,
+      "id": "cb86165d-379c-52ef-8b48-56f779826821",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT SFT",
+      "section_heading": "**Teilmodul EIT-207-01 Studienprojekt**",
+      "chunk_index": 321,
+      "text_vollstaendig": false,
+      "auszug": "## **Teilmodul EIT-207-01 Studienprojekt**  \n|**Untertitel**||\n|---|---|\n|**Verantwortliche(r)**|Kutzner, Rüdiger, Prof. Dr.|\n|**Sprache**|Deutsch|\n|**Zuordnung zu Curricula**|ATP, EAN, EEV, ELK, EWI, INI, MAT, MEC, SFT|\n|**Veranstaltungsart, SWS**|Projekt, 0 SWS|\n|**Credits**|5.00|\n|**Präsenzstunde"
+    },
+    {
+      "rang": 10,
+      "score": 2.04168,
+      "id": "348bce65-1de0-5aa0-8c32-708a7f34d45a",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "title_anzeige": "Elektrotechnik und Informationstechnik (EIT)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 35,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 11,
+      "score": 2.04149,
+      "id": "b002dba5-6b3a-500a-a967-415754587d52",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/nachhaltige-elektrische-energieversorgung-nev",
+      "title_anzeige": "Nachhaltige Elektrische Energieversorgung (NEV)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 12,
+      "score": 2.04149,
+      "id": "e5ca1947-d0db-54f1-ac23-c46440e597b4",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/technisches-informationsdesign-und-technische-redaktion-itr",
+      "title_anzeige": "Technisches Informationsdesign und Technische Redaktion (ITR)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 27,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 13,
+      "score": 2.04135,
+      "id": "07552e8f-df54-589b-9044-89968ffd97ec",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi",
+      "title_anzeige": "Wirtschaftsingenieur Elektrotechnik (EWI)",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nFür detaillierte Informationen und für Ihre Bewerbung nutzen Sie bitte das Bewerbungsportal der Hochschule.  \n[ Zum Bewerbungsportal ](https://www.h"
+    },
+    {
+      "rang": 14,
+      "score": 1.99547,
+      "id": "271dc2f9-8ad7-5fa8-828a-b6b433819d19",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-ATP.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT ATP",
+      "section_heading": "**Teilmodul EIT-207-01 Studienprojekt**",
+      "chunk_index": 337,
+      "text_vollstaendig": false,
+      "auszug": "## **Teilmodul EIT-207-01 Studienprojekt**  \n**Untertitel Verantwortliche(r)** Kutzner, Rüdiger, Prof. Dr. **Sprache** Deutsch **Zuordnung zu Curricula** ATP, EAN, EEV, ELK, EWI, INI, MAT, MEC, SFT **Veranstaltungsart, SWS** Projekt, 0 SWS **Credits** 5.00 **Präsenzstunden / Selbststudium** 4 h / 14"
+    },
+    {
+      "rang": 15,
+      "score": 1.94575,
+      "id": "57319fae-a700-51ea-85eb-47baaa30faac",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik > Sprechen Sie sich aus.",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## Sprechen Sie sich aus.\nDas waren viele Informationen, die erstmal verdaut werden müssen. Sie haben Fragen oder Anregungen? Wenden Sie sich gern an uns!\n#### FAKULTÄT I – ELEKTRO- UND INFORMATIONSTECHNIK\nFür die Fakultät I Elektro- und Informationstechnik ist Ihre erste Anlaufstelle das [Dekanat]("
+    },
+    {
+      "rang": 16,
+      "score": 1.94527,
+      "id": "a4995ec1-605c-5ee7-9347-5a6c631740c9",
+      "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+      "title_anzeige": "f1 › semesterstart 1",
+      "section_heading": "Semesterstart",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Semesterstart\n_ _\nScrollen für mehr Infos!\nLiebe Studierende der Fakultät I,\nwir freuen uns sehr, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informationstechnik entschieden haben.  \nFür einen reibungslosen Start finden Sie hier alle wichtigen Informationen zum Semesterbeginn. "
+    },
+    {
+      "rang": 17,
+      "score": 1.90365,
+      "id": "75a0bc0f-36ad-5929-8359-5c3ad76bfffd",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "section_heading": "**3. Einverständnis der Betreuenden**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **3. Einverständnis der Betreuenden**  \n(Hauptamtl. Lehrpersonen oder Wiss. Mitarbeiter der Fakultät I; EWI auch Fakultät IV, MEC auch Fakultät II, MAT auch Fakultät II oder IV. Wenn der 1. Betreuende nicht aus Fakultät I ist, muss der 2. Betreuende aus Fakultät I sein.)  \nWir übernehmen die Betr"
+    },
+    {
+      "rang": 18,
+      "score": 1.88318,
+      "id": "eacef014-c414-5c28-a486-d5e979a37355",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch MEC WS2023 V3 — Modulhandbuch für den Studiengang Mechatronik PO-Version WS2023",
+      "section_heading": "**Teilmodul  EIT-207-02 / kleines Studienprojekt**",
+      "chunk_index": 325,
+      "text_vollstaendig": false,
+      "auszug": "## **Teilmodul  EIT-207-02 / kleines Studienprojekt**  \n**Untertitel Verantwortliche(r)** Freund, Frank, Professor **Sprache** Deutsch **Zuordnung zu Curricula** ATP, EAN, EEV, ELK, EWI, INI, MAT, MEC, SFT **Veranstaltungsart, SWS** Projekt, 0 SWS **Credits** 2.50 **Präsenzstunden / Selbststudium** "
+    },
+    {
+      "rang": 19,
+      "score": 1.87663,
+      "id": "adc683c2-ab9b-5d5a-9ee9-b110850c668f",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch MEC WS2023 V3 — Modulhandbuch für den Studiengang Mechatronik PO-Version WS2023",
+      "section_heading": "**Teilmodul  EIT-207-01 / großes Studienprojekt**",
+      "chunk_index": 319,
+      "text_vollstaendig": false,
+      "auszug": "## **Teilmodul  EIT-207-01 / großes Studienprojekt**  \n**Untertitel Verantwortliche(r)** Freund, Frank, Professor **Sprache** Deutsch **Zuordnung zu Curricula** ATP, EAN, EEV, ELK, EWI, INI, MAT, MEC, SFT **Veranstaltungsart, SWS** Projekt, 0 SWS **Credits** 5.00 **Präsenzstunden / Selbststudium** 4"
+    },
+    {
+      "rang": 20,
+      "score": 1.79189,
+      "id": "68df55eb-2ca5-523f-848d-71934eb7be8c",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EWI_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch EWI WS2025 Stand 15.04.2025 01 — Modulhandbuch Studiengang Wirtschaftsingenieur Elektrotechnik",
+      "section_heading": "**Modulhandbuch** Studiengang Wirtschaftsingenieur Elektrotechnik > **Modul EWI-570 / Studienprojekt**",
+      "chunk_index": 294,
+      "text_vollstaendig": false,
+      "auszug": "## **Modul EWI-570 / Studienprojekt**  \n**Untertitel Modulniveau** Vertiefungsmodul, 6. Semester **Pflicht / Wahlpflicht** Pflichtmodul **Verantwortliche(r)** Freund, Frank, Professor **Sprache** Deutsch **Zuordnung zu Curricula** ADT, EAE, EWI, NEV, SEL, SKI **Veranstaltungsart, SWS** Projekt, 0 SW"
+    },
+    {
+      "rang": 21,
+      "score": 1.78353,
+      "id": "a4ea5ddf-b0b8-599c-8535-d903afd35803",
+      "source_url": "https://f1.hs-hannover.de/teilzeitstudium",
+      "title_anzeige": "Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik > Weiterführende Informationen",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Weiterführende Informationen\nHier finden Sie den Link zur Studienberatung:\n<https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende>\nUnter diesem Link finden Sie den Antrag für das Teilzeitstudium:\n<https://www.hs-hannover.de/fileadmin/HsH/Hochschule_"
+    },
+    {
+      "rang": 22,
+      "score": 1.67311,
+      "id": "98fc0491-b001-5b5b-9647-b8a16c7a8087",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT SFT",
+      "section_heading": "**Literatur**",
+      "chunk_index": 514,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \n- Meinke; Gundlach: Taschenbuch der Hochfrequenztechnik, Berlin 1992  \n- * Herter; Lörcher: Nachrichtentechnik, München 2003  \n- Vorlesungsunterlagen Grundlagen der Hochfrequenz- und Mikrowellentechnik  \n- Laborunterlagen werden bei Anmeldung zum Labor bereitgestellt  \nStand 05.09"
+    },
+    {
+      "rang": 23,
+      "score": 1.59887,
+      "id": "ebf0d8e6-892e-556d-889d-599102d4dafb",
+      "source_url": "https://f1.hs-hannover.de/service-1-2",
+      "title_anzeige": "- Ordnungen - Module - Akkreditierungen -",
+      "section_heading": "- Ordnungen - Module - Akkreditierungen - > Auf dieser Seite sind für Studierende und Interessierte ausführliche Informationen zu Ordnungen, Modulen und Studienstrukturen aller Studiengänge der Fakultät I aufgelistet. > - Ordnungen - Module - Akkreditierungen - > Auf einen Blick",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Auf dieser Seite sind für Studierende und Interessierte ausführliche Informationen zu Ordnungen, Modulen und Studienstrukturen aller Studiengänge der Fakultät I aufgelistet.\n\n### Auf einen Blick\n* [ Ordnungen ](https://f1.hs-hannover.de/service-1-2#ordnungen)\n* [ Module ](https://f1.hs-hannover."
+    },
+    {
+      "rang": 24,
+      "score": 1.57494,
+      "id": "8dbc0ccc-3afc-5b85-8a0c-1ed0f4c0bdc7",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 67 ADT WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Vertiefung Automatisierung und nachhaltige, digitale Transformation: Pflichtmodule des 2. Studienabschnitts** > **Modul EIT-507 / Studienprojekt**",
+      "chunk_index": 306,
+      "text_vollstaendig": false,
+      "auszug": "## **Modul EIT-507 / Studienprojekt**  \n**Untertitel**  \n**Modulniveau** Vertiefungsmodul, 6. Semester **Pflicht / Wahlpflicht** Pflichtmodul **Verantwortliche(r)** Freund, Frank, Professor **Sprache** Deutsch **Zuordnung zu Curricula** ADT, EAE, EWI, NEV, SEL, SKI **Veranstaltungsart, SWS** Projekt"
+    },
+    {
+      "rang": 25,
+      "score": 1.56018,
+      "id": "a089190f-3145-57cb-90b1-7691c8b364d1",
+      "source_url": "https://f1.hs-hannover.de/forschung/forschungseinrichtungen",
+      "title_anzeige": "Forschungseinrichtigungen mit Beteiligung der Fakultät I",
+      "section_heading": "Forschungseinrichtigungen mit Beteiligung der Fakultät I",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Forschungseinrichtigungen mit Beteiligung der Fakultät I\n[ Institut für Sensorik und Automation (ISA) ](https://www.hs-hannover.de/forschung/forschungsaktivitaeten/forschungseinrichtungen/institut-fuer-sensorik-und-automation-isa) [ Forschungszentrum Energie-Mobilität-Prozesse (FZ EMP) ](https://"
+    },
+    {
+      "rang": 26,
+      "score": 1.47556,
+      "id": "2559f69d-11c7-5a74-9d3c-d02619835055",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 67 ADT WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Vertiefung Automatisierung und nachhaltige, digitale Transformation: Pflichtmodule des 2. Studienabschnitts** > **Literatur**",
+      "chunk_index": 244,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \n- Skript zur Vorlesung, sowie die dort angegebene Literatur  \n- Studentenskript zur Vorlesung: fh-h.dehshf1groupDOCSImiela  \nStand 13.05.2025  \n**Fakultät I - Elektro- und Informationstechnik Studiengang Elektrotechnik und Informationstechnik / Vertiefung Automatisierung und nachh"
+    },
+    {
+      "rang": 27,
+      "score": 1.41897,
+      "id": "ef6ccfab-b94f-5219-82fa-9b39382140df",
+      "source_url": "https://f1.hs-hannover.de/studium/studienstart",
+      "title_anzeige": "Mit Durchblick durchs Studium",
+      "section_heading": "Mit Durchblick durchs Studium > [Erstsemesterinformationen der Fakultät I ](https://f1.hs-hannover.de/semesterstart-1)",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### [Erstsemesterinformationen der Fakultät I ](https://f1.hs-hannover.de/semesterstart-1)\n[ Weiterlesen ](https://f1.hs-hannover.de/semesterstart-1)\n[ ![](https://f1.hs-hannover.de/fileadmin/_processed_/1/0/csm_hoersaal_180b33cd5d.jpg) ](https://www.hs-hannover.de/ueber-uns/organisation/akademische"
+    },
+    {
+      "rang": 28,
+      "score": 1.40159,
+      "id": "e906f3c2-a32a-5075-9566-5417f1aeb5a5",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EWI.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EWI",
+      "section_heading": "**Modul EWI-250 Studienprojekt**",
+      "chunk_index": 309,
+      "text_vollstaendig": false,
+      "auszug": "## **Modul EWI-250 Studienprojekt**  \n**Untertitel Modulniveau** Vertiefungsmodul, 6. Semester **Pflicht / Wahlpflicht** Pflichtmodul **Teilmodule** EIT-207-01 Studienprojekt, Pflicht **Verantwortliche(r)** Kutzner, Rüdiger, Prof. Dr. **Credits (1Cr = 30h)** 5.00 **Häufigkeit des Angebots** jedes Se"
+    },
+    {
+      "rang": 29,
+      "score": 1.39141,
+      "id": "5fc5269d-e9f3-5933-a6e2-257062db2093",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Projektnummern.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Projektnummern — EIT PO20112",
+      "section_heading": "**EWI PO20182**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **EWI PO20182**  \n416691 großes Studienprojekt 5 Credits 416692 kleines Studienprojekt 2,5 Credit"
+    },
+    {
+      "rang": 30,
+      "score": 1.32691,
+      "id": "684cd2ba-c33b-5a9f-85e5-b72234102a7e",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Prüfungsverwaltung der Fakultät I\n[ Ansprechpersonen ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung#ansprechpersonen) [ Formulare/Prüfungsangelegenheiten ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung#formulare)"
+    },
+    {
+      "rang": 31,
+      "score": 1.30053,
+      "id": "e408ceb9-9abb-54f7-b5f7-fa960758aa73",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/studienprogramme/studymint",
+      "title_anzeige": "Orientierungssemester StudyMINT",
+      "section_heading": "StudyMINT - das Orientierungssemester > Bewerbung > **[Zum Bewerbungsportal](https://campusmanagement.hs-hannover.de)**",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## Bewerbung  \n### **[Zum Bewerbungsportal](https://campusmanagement.hs-hannover.de)**\nIm Bewerbungsportal finden Sie im Bereich der Bachelor-Studiengänge das Orientierungssemester StudyMINT und werden anschließend durch die Bewerbung geleitet. Im Falle einer erfolgreichen Bewerbung werden Sie regul"
+    },
+    {
+      "rang": 32,
+      "score": 1.28539,
+      "id": "cd12f5d9-41c2-5f56-a78e-f0c16acc7dd0",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Flyer_MAT_Druckversion.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › Flyer MAT Druckversion",
+      "section_heading": "5. Wie bewerbe ich mich?",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## 5. Wie bewerbe ich mich?  \nDie mathematische Fächer werden dann aber schnell anwendungsorientiert und deutlich weniger abstrakt als an der Universität. Im Fokus stehen Simulationen, anwendungsorientierte Rechenverfahren und problemlösende Algorithmen.  \nSie können sich jedes Jahr jeweils bis zu 1"
+    },
+    {
+      "rang": 33,
+      "score": 1.27646,
+      "id": "27b95030-850c-580a-8632-3599661e1262",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-ATP.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT ATP",
+      "section_heading": "**Modul EIT-207 Studienprojekt**",
+      "chunk_index": 335,
+      "text_vollstaendig": false,
+      "auszug": "## **Modul EIT-207 Studienprojekt**  \n**Untertitel Modulniveau** Vertiefungsmodul, 6. Semester **Pflicht / Wahlpflicht** Pflichtmodul **Teilmodule** EIT-207-01 Studienprojekt, Pflicht **Verantwortliche(r)** Kutzner, Rüdiger, Prof. Dr. **Credits (1Cr = 30h)** 5.00 **Häufigkeit des Angebots** jedes Se"
+    },
+    {
+      "rang": 34,
+      "score": 1.27229,
+      "id": "0183e137-5a33-53e5-930d-5ef59016cc06",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik > Informationsbroschüre > [Informationsbroschüre der Fakultät I](https://typo3backend-live.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/30_Studiengaenge/HsH-Broschuere_Fak-1_Web.pdf)",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## Informationsbroschüre  \n### [Informationsbroschüre der Fakultät I](https://typo3backend-live.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/30_Studiengaenge/HsH-Broschuere_Fak-1_Web.pdf)\n[ ![Titelbild Broschüre](https://f1.hs-hannover.de/fileadmin/_processed_/f/a/csm_Titelbild_Broschuere_cc63"
+    },
+    {
+      "rang": 35,
+      "score": 1.27051,
+      "id": "09e6e1c2-c8a2-5878-8f23-7ded552d674b",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/20060612__Zul_Ordng__Bachelor_allg._Teil.pdf",
+      "title_anzeige": "f1 › 30 Zulassungsordnung › Bachelorstdg › 20060612 Zul Ordng Bachelor allg. Teil — § 1 Präambel",
+      "section_heading": "**Ordnung über die Zulassung zum Studium grundständiger, örtlich zulassungsbeschränkter Bachelor-Studiengänge der Fachhochschule Hannover (Bachelor-Zulassungsordnung, ZulO-BA) Allgemeiner Teil (ZulO-BA, Tl. A)** > **§ 3 Bewerbungsverfahren**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "Deutschen gleichgestellte Studieninteressierte (EU-Bürgerinnen und –Bürger) und ausländische Studieninteressierte, die Deutschen nicht gleichgestellt sind, bewerben sich zur Feststellung der Gleichwertigkeit ihrer Hochschulzugangsberechtigung und zur Feststellung ihrer Kenntnisse der deutschen Sprac"
+    },
+    {
+      "rang": 36,
+      "score": 1.2429,
+      "id": "4102b22e-a2b3-5117-ba76-9a8deeb85213",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Freie Studienplätze - Bewerben Sie sich jetzt für das Wintersemester 2026/27 (Semesterbeginn: 01.09.2026) über das > Wir stellen uns vor > Das Wichtigste in Kürze",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "### Das Wichtigste in Kürze\n[ Studiengänge Bewerbungsportal  ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung)\n[ Wichtiges zum Semesterstart ](https://f1.hs-hannover.de/studium/studienstart)\n[ F1-Quicklinks ](https://f1.hs-hannover.de/ser"
+    },
+    {
+      "rang": 37,
+      "score": 1.23751,
+      "id": "d2767146-d6d8-5120-9fc7-deacb041e55c",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Freie Studienplätze - Bewerben Sie sich jetzt für das Wintersemester 2026/27 (Semesterbeginn: 01.09.2026) über das > Wir stellen uns vor",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "![](https://f1.hs-hannover.de/fileadmin/_processed_/3/c/csm__RL83898_596b0bd211.jpg?rbiFocus=mobile)\nDie Fakultät I ist eine Organisationseinheit der Hochschule Hannover. Sie wurde zum Sommersemester 2007 aus dem Fachbereich Elektro‐ und Informationstechnik sowie dem Fachgebiet „Technische Redaktion"
+    },
+    {
+      "rang": 38,
+      "score": 1.23738,
+      "id": "5cd8cc71-eb4e-5ba7-a96f-f3c2d52dbb67",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/studienprogramme/studymint",
+      "title_anzeige": "Orientierungssemester StudyMINT",
+      "section_heading": "Haben wir Ihr Interesse geweckt?",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "#  Haben wir Ihr Interesse geweckt?  \nWir freuen uns, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informtaionstechnik interessieren.\nBitte richten Sie Ihre Bewerbung über das Bewerbnungsportal der Hochschule. Hier finden Sie Informationen zum Bewerbungszeitraum und den einzureiche"
+    },
+    {
+      "rang": 39,
+      "score": 1.22087,
+      "id": "71ed7b31-3d17-5f88-80f6-c6f6a999ddc9",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Projektnummern.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Projektnummern — EIT PO20112",
+      "section_heading": "**EIT PO20182**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **EIT PO20182**  \n410601 großes Studienprojekt 5 Credits 410602 kleines Studienprojekt 2,5 Credits"
+    },
+    {
+      "rang": 40,
+      "score": 1.18611,
+      "id": "d4c8bfac-27d2-5d79-95e4-74cfcf8c5a10",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/69_SKI_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 69 SKI WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Literatur**",
+      "chunk_index": 323,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \nLaborunterlagen unter https://moodle.hs-hannover.de/course/view.php?id=10017  \nStand 13.05.2025  \n**Fakultät I - Elektro- und Informationstechnik Studiengang Elektrotechnik und Informationstechnik / Vertiefung Systementwicklung und KI**"
+    },
+    {
+      "rang": 41,
+      "score": 1.16717,
+      "id": "45497e4c-c52e-5213-a463-6ec4b6370d35",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete",
+      "title_anzeige": "Fachgebiete der Fakultät I",
+      "section_heading": "Fachgebiete der Fakultät I",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "* [ Fächergruppe I ](https://f1.hs-hannover.de/ueber-uns/fachgebiete#faechergruppe-i)\n* [ Fächergruppe T ](https://f1.hs-hannover.de/ueber-uns/fachgebiete#faechergruppe-t)  \n![F1-Organigramm](https://f1.hs-hannover.de/fileadmin/_processed_/6/a/csm_Organigramm_Fakultaet_-_Maerz_2026_041951731a.png?rb"
+    },
+    {
+      "rang": 42,
+      "score": 1.16356,
+      "id": "0f3db2c9-f5c9-5eca-abb6-64fa60ebc6e5",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/verk_2025_05_F_I__ITR_BTPO.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › ITR › verk 2025 05 F I ITR BTPO",
+      "section_heading": "**§ 4** > **Studiensemester im Ausland**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Studiensemester im Ausland**  \nDie Fakultät I unterstützt den Erwerb von Credits durch Studiensemester im Ausland.  \nF 1 _ BTPO BA ITR                                                                                                                                                     "
+    },
+    {
+      "rang": 43,
+      "score": 1.16051,
+      "id": "9c19d0d1-0fa2-557a-8fd3-6333d93ab9c1",
+      "source_url": "https://f1.hs-hannover.de/service/f1-quicklinks",
+      "title_anzeige": "f1 › service › f1 quicklinks — F1-Quicklinks",
+      "section_heading": "F1-Quicklinks",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "##  F1-Quicklinks\n[ Anzeigesystem ](https://f1.wp.hs-hannover.de/meldungen/meldungen.php)\n[ Klausureinsichten & mündliche Prüfungen ](https://f1.hs-hannover.de/service/f1-quicklinks/klausureinsichten-muendliche-pruefungen)\n[ Laboranmeldungen ](https://f1.hs-hannover.de/service/f1-quicklinks/labor)\n["
+    },
+    {
+      "rang": 44,
+      "score": 1.12679,
+      "id": "e1b7eafe-e09c-54e0-9e0b-f2cce62b22f6",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-anlagen-smart-grids-und-hochspannungstechnik",
+      "title_anzeige": "Fachgebiet Elektrische Anlagen, Smart Grids und Hochspannungstechnik",
+      "section_heading": "Fachgebiet Elektrische Anlagen, Smart Grids und Hochspannungstechnik > Forschung und Entwicklung",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "## Forschung und Entwicklung\nDie Mitglieder des Fachgebietes sind in vielfältigen Forschungs- und Entwicklungsaktivitäten engagiert. Häufig werden die Arbeiten mit einem Kooperationspartner aus der Industrie durchgeführt. Unverzichtbar ist dabei die studentische Mitarbeit, z.B. in Form von Abschluss"
+    },
+    {
+      "rang": 45,
+      "score": 1.12181,
+      "id": "579ccf20-8b29-51b6-8cda-2f978b5b1bde",
+      "source_url": "https://f1.hs-hannover.de/teilzeitstudium",
+      "title_anzeige": "Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik  \n[Zurück](javascript:history.back\\(\\); \"Zurück\")\n![Teilzeit](https://f1.hs-hannover.de/fileadmin/_processed_/d/1/csm_Teilzeit_0cb88dd47f.jpg?rbiFocus=mobile)"
+    },
+    {
+      "rang": 46,
+      "score": 1.12136,
+      "id": "b1cba73c-c9ee-5489-8d8c-b146939b4012",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-ELK.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT ELK",
+      "section_heading": "**Literatur**",
+      "chunk_index": 499,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \n- Meinke; Gundlach: Taschenbuch der Hochfrequenztechnik, Berlin 1992  \n- * Herter; Lörcher: Nachrichtentechnik, München 2003  \n- Vorlesungsunterlagen Grundlagen der Hochfrequenz- und Mikrowellentechnik  \n- Laborunterlagen werden bei Anmeldung zum Labor bereitgestellt  \nStand 05.09"
+    },
+    {
+      "rang": 47,
+      "score": 1.10674,
+      "id": "c54a8e1a-5501-5c0e-8716-c9e841373595",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_die_Abschlussarbeit_und_das_Kolloquium.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer die Abschlussarbeit und das Kolloquium — Wichtige Hinweise für die Abschlussarbeit und das Kolloquium",
+      "section_heading": "**Wichtige Hinweise für die Abschlussarbeit und das Kolloquium**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Wichtige Hinweise für die Abschlussarbeit und das Kolloquium**  \nBitte melden Sie die **Abschlussarbeit** und das **Kolloquium** nicht im iCMS an. Beide Prüfungsleistungen **sind genehmigungspflichtig** . Der Eintrag im iCMS wird nach Prüfung des Zulassungsantrages zur Abschlussarbeit durch die"
+    },
+    {
+      "rang": 48,
+      "score": 1.09993,
+      "id": "ca57db5e-868e-5051-b377-1fb98e277da7",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "title_anzeige": "Elektrotechnik und Informationstechnik (EIT)",
+      "section_heading": "Sie wollen nicht nur wissen, wie Dinge funktionieren ...",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "* Systementwicklung und künstliche Intelligenz (SKI)  \nDie zugehörigen Pflichtmodule finden im 4. und 5. Semester statt und beinhalten Vorlesungen und Labore im Schwerpunkt der gewählten Vertiefung.\nIm 6. Fachsemester sind hauptsächlich Wahlpflichtveranstaltungen vorgesehen, die Ihnen als Studierend"
+    },
+    {
+      "rang": 49,
+      "score": 1.08511,
+      "id": "6f706e06-8c37-5fe9-bef4-1f0a3e33478c",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/60_Gleichstellung/Rechtsquellen_und_Dokumente/01_Grundordnung_der_HsH_7_Aenderung_Veroeffentlichung.pdf",
+      "title_anzeige": "f1 › 60 Gleichstellung › Rechtsquellen und Dokumente › 01 Grundordnung der HsH 7 Aenderung Veroeffentlichung",
+      "section_heading": "**§ 15a** > **Studierendeninitiative**",
+      "chunk_index": 34,
+      "text_vollstaendig": true,
+      "auszug": "Die Studierendeninitiative wird durch eine Unterschriftensammlung durchgeführt. Die  \nUnterschriftensammlung muss innerhalb eines Zeitraumes von drei Monaten nach der Anmeldung in Schriftform erfolgen und mit Ablauf der drei Monate beim Präsidium eingereicht werden. Berechtigt zur Teilnahme an der U"
+    },
+    {
+      "rang": 50,
+      "score": 1.08314,
+      "id": "03724501-f2b5-5e06-b3b1-f77f345fb725",
+      "source_url": "https://f1.hs-hannover.de/studium/internationales/information-for-incomings",
+      "title_anzeige": "Information for Incomings",
+      "section_heading": "Information for Incomings > Welcome to Faculty I – Electrical Engineering and Information Technology",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Information for Incomings  \n## Welcome to Faculty I – Electrical Engineering and Information Technology\nThank you for your interest in our university, we would be happy to welcome you at our faculty.\nEvery year, students from different countries study at University of Applied Sciences and Arts in"
+    },
+    {
+      "rang": 51,
+      "score": 1.07924,
+      "id": "35f6d8f3-cd29-5e6d-abcf-a23b40de7c4a",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Flyer_GOING_OUT_FI_A4_2023-neues_Bild.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › Flyer GOING OUT FI A4 2023 neues Bild — Studienmöglichkeiten",
+      "section_heading": "Partnerhochschulen der Fakultät I > GoING Out StudyING Abroad > Erasmus+ non-Erasmus+",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Partnerhochschulen der Fakultät I\n\n## GoING Out StudyING Abroad  \n## GoING Out StudyING Abroad\n## Erasmus+ non-Erasmus+  \n|Erasmus+|non-Erasmus+|non-Erasmus+|\n|---|---|---|\n||||\n|Óbuda Budapest, Ungarn\nhttp://erasmus.uni-obuda.hu/\nen/subject-list\nEnschede, Niederlande\n(nur für  den Studiengang EI"
+    },
+    {
+      "rang": 52,
+      "score": 1.06107,
+      "id": "e1418cc8-3a7f-5e43-bf98-3eec9d29d262",
+      "source_url": "https://f1.hs-hannover.de/studium/internationales/bewerbung",
+      "title_anzeige": "Schritt für Schritt ins Ausland",
+      "section_heading": "Schritt für Schritt ins Ausland > In acht Schritten ins Auslandsemester > Schritt für Schritt ins Ausland",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Schritt für Schritt ins Ausland  \n## In acht Schritten ins Auslandsemester\n##\n[ Schritt 1: Auswahl der Partnerhochschule ](https://f1.hs-hannover.de/studium/internationales/bewerbung \"Schritt 1: Auswahl der Partnerhochschule\")\nDie Fakultät I - Elektro- und Informationstechnik verfügt über eine Vi"
+    },
+    {
+      "rang": 53,
+      "score": 1.04683,
+      "id": "a9b844e6-9070-5d85-ace7-d73c83635916",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+      "title_anzeige": "f1 › 99 Sonstiges › Internationales › Engl. Lectures FI II WS 26 27",
+      "section_heading": "**COURSES / LEARNING AGREEMENT**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **COURSES / LEARNING AGREEMENT**  \nPlease send your Learning Agreement **with your course selection** via e-mail to the International Faculty Office **:** e-mail to viola.wedekind@hs-hannover.de for Faculty I - Electrical Engineering and to F2-International@hs-hannover.de for Faculty II - Mechani"
+    },
+    {
+      "rang": 54,
+      "score": 1.03217,
+      "id": "997ef2c5-9be2-5662-acd2-4d8de3206cc9",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/prozessinformatik-und-automatisierungstechnik",
+      "title_anzeige": "Fachgebiet Prozessinformatik und Automatisierungstechnik",
+      "section_heading": "Fachgebiet Prozessinformatik und Automatisierungstechnik > Forschung",
+      "chunk_index": 21,
+      "text_vollstaendig": true,
+      "auszug": "Ein weiterer Arbeitsschwerpunkt ist das Thema Energieeffizienz in Produktionsanlagen.\nNeben diesen Projekten der drittmittelfinanzierten Antragsforschung werden zusätzlich Forschungsprojekte im Rahmen von Forschungskooperationen und im Rahmen von Abschlussarbeiten bearbeitet. Eine Übersicht über die"
+    },
+    {
+      "rang": 55,
+      "score": 1.02943,
+      "id": "84f8dc91-7578-5f25-9753-9804f94b13d6",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Engl._Lectures-FI-II_WS_25-26.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 60 Sonstige › Engl. Lectures FI II WS 25 26",
+      "section_heading": "**COURSES / LEARNING AGREEMENT**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **COURSES / LEARNING AGREEMENT**  \n**Please send your Learning Agreement** with your course selection **via e-mail to the International Faculty Office** : e-mail to viola.wedekind@hs-hannover.de for Faculty I - Electrical Engineering and to meike.marten@hs-hannover.de for Faculty II - Mechanical "
+    },
+    {
+      "rang": 56,
+      "score": 1.00283,
+      "id": "77829467-e02c-518a-ab21-6f330755e5f5",
+      "source_url": "https://f1.hs-hannover.de/studium/internationales/information-for-incomings/application-process",
+      "title_anzeige": "Application Process",
+      "section_heading": "Application Process > **Application Process for students from partner universities - How to apply**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "####\n#### **Contact:**\n**HsH-Advisoy Service / Incoming Team**\nphone: +49 511 9296-7387\ne-mail: [hsh-incoming@hs-hannover.de](https://f1.hs-hannover.de/studium/internationales/information-for-incomings/application-process)\n**Faculty I - International Faculty Office**\nViola Wedekind\nphone: +49 511 92"
+    },
+    {
+      "rang": 57,
+      "score": 0.98693,
+      "id": "6104618c-59d2-576d-a02a-f78584a0c9ed",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge",
+      "title_anzeige": "f1 › studium › studiengaenge und programme › bachelor studiengaenge",
+      "section_heading": "Bachelorstudiengänge",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Bachelorstudiengänge  \nVon A wie Angewandte Mathematik bis W wie Wirtschaftsingenieur bietet die Fakultät I verschiedene Bachelorstudiengänge mit attraktiven Berufsbildern und hervorragenden Aussichten für den Berufseinstieg"
+    },
+    {
+      "rang": 58,
+      "score": 0.97984,
+      "id": "38971608-e681-51a0-8839-0a5cd45ebf12",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > **Materialien in Moodle** _Online-Kurse zu den Vorlesungen_",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## **Materialien in Moodle** _Online-Kurse zu den Vorlesungen_  \n-  \n- ➔ **https://moodle.hs hannover.de**  \n- ➔ **Einschreibeschlüssel:** Fak1 (gilt für alle Kurse bei Semesterstart)  \nHochschule Hannover _Dekan Prof. Dr.-Ing. Frank Freund_ Erstsemesterinformation _Dekan Prof. Dr.-Ing. Frank Freund"
+    },
+    {
+      "rang": 59,
+      "score": 0.96748,
+      "id": "46bb8517-3219-53d3-965b-9d4b0af68e3a",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/80_Lageplaene/Lageplan_Linden20170915.pdf",
+      "title_anzeige": "f1 › 10 Bilder › 80 Lageplaene › Lageplan Linden20170915",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Ricklinger Stadtweg 120, 30459 Hannover\nRaumnummernsystematik:  z.B.\nFakultäten I und II 1A.0.01\n1   Standort Linden\nA    Gebäudeteil\n0      Geschoss\n01  lfd. Nummer\nIT ServiceDesk\nAudi-\nmax\nHaupteingang\nAula\nDekanate\nFak I + II\nZLB-Studienberatung\nFakultäten I und II\nBibliothek\nFakultät IV Studiere"
+    },
+    {
+      "rang": 60,
+      "score": 0.96398,
+      "id": "22157282-cfff-5f71-a230-32d9b689f904",
+      "source_url": "https://f1.hs-hannover.de/studium/internationales/bewerbung",
+      "title_anzeige": "Schritt für Schritt ins Ausland",
+      "section_heading": "Schritt für Schritt ins Ausland > In acht Schritten ins Auslandsemester > Schritt für Schritt ins Ausland",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "[ Schritt 2: Kontaktaufnahme zum International Faculty Office oder dem International Coordinator  ](https://f1.hs-hannover.de/studium/internationales/bewerbung \"Schritt 2: Kontaktaufnahme zum International Faculty Office oder dem International Coordinator \")\nWenden Sie sich an den Internationalen Ko"
+    },
+    {
+      "rang": 61,
+      "score": 2.60459,
+      "id": "56b47294-3a34-5418-a968-07f96881141b",
+      "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "title_anzeige": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "section_heading": "Anmeldung zur Veranstaltung (Fakultät V)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Prüfungsanmeldung\n1. Klicken Sie auf der Startseite im Bereich \"_Quicklinks_ \" oben links auf _Prüfung und Studium_.  \n![Campusmanagement_Quicklinks](https://service.it.hs-hannover.de/media/images/Bild_2.width-800.png)\nEs erscheint die folgende Ansicht:\n![Campusmanagement_Prüfungsanmeldung](http"
+    },
+    {
+      "rang": 62,
+      "score": 2.46543,
+      "id": "b98099b8-0e17-5d63-afee-e6d16bc6f7bb",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt",
+      "title_anzeige": "www › hsh akademie › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt",
+      "section_heading": "Schreibwerkstatt > Angebote und Maßnahmen",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Im Sommersemester 2026 findet die AG Abschlussarbeiten vom 03. März - 30. Juni dienstags von 10:00 - 11:30 Uhr in Raum 1J.0.25 im Studierendenzentrum statt. Weitere Informationen über die AG, eventuelle Terminänderungen oder -ausfälle finden Sie [hier](https://moodle.hs-hannover.de/course/view.php?i"
+    },
+    {
+      "rang": 63,
+      "score": 2.01935,
+      "id": "b31d2fbf-82eb-5ad7-829f-c75cf044b94e",
+      "source_url": "https://itr.wp.hs-hannover.de/ueber-uns/projektseite",
+      "title_anzeige": "itr › ueber uns › projektseite",
+      "section_heading": "",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "![](https://itr.wp.hs-hannover.de/wp-content/uploads/2022/03/Logo_ITR_blau.svg)\nTechnisches Informationsdesign und Technische Redaktion [B. Sc.]\nZurück Zurück Zurück Zurück\n* [Start](https://itr.wp.hs-hannover.de/landing-page)\n* * *\n* [Studium](https://itr.wp.hs-hannover.de/ueber-uns/projektseite/)!"
+    },
+    {
+      "rang": 64,
+      "score": 1.79416,
+      "id": "7ebac456-d799-5bc3-a8c4-3856855a7d0c",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/hochschulinformationstage-an-der-hsh",
+      "title_anzeige": "www › servicezentrum beratung › studienberatung › hochschulinformationstage an der hsh",
+      "section_heading": "Hochschulinformationstage > Hier geht's zur Anmeldung für die Veranstaltungen an der Leibniz Universität",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## Hier geht's zur Anmeldung für die Veranstaltungen an der Leibniz Universität\nFür die Teilnahme an den Veranstaltungen an der Leibniz Universität ist eine Anmeldung erforderlich. Hier geht's zur [Anmeldung](https://www.hit.uni-hannover.de/hit-anmeldung/anmeldung).\nDie Veranstaltungen an der Leibni"
+    },
+    {
+      "rang": 65,
+      "score": 1.72481,
+      "id": "40738243-54e6-56ad-8569-98bfc63fc488",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+      "title_anzeige": "Herzlich Willkommen an der Hochschule Hannover",
+      "section_heading": "Herzlich Willkommen an der Hochschule Hannover > Informationen aus den Fakultäten > Herzlich Willkommen an der Hochschule Hannover > Fakultät I - Elektro- und Informationstechnik:",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Informationen aus den Fakultäten\n\n## Fakultät I - Elektro- und Informationstechnik:\n![](https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Bilder_Teaser/Fak.I.png?rbiFocus=mobile)\n* [Standorte & Öffnungszeiten](https://f1.hs-hannover.de/service/stando"
+    },
+    {
+      "rang": 66,
+      "score": 1.64238,
+      "id": "b3c2aeb3-e0a6-5fc1-bc7c-0cccdc65bf0f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/12-2011/02-Richtlinie_zur_Foerderung_von_Vorhaben_zu_FuE.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2011 › 02 Richtlinie zur Foerderung von Vorhaben zu FuE",
+      "section_heading": "**`§ 7 Antragsform`**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## **`§ 7 Antragsform`**  \nDas Antragssystem ist so strukturiert, dass nur vollständig eingepflegte Datensätze vom System freigegeben bzw. weiterbearbeitet werden. Die Dokumentation zur Benutzung des Antragssystems kann auf den Webseiten der Hochschule eingesehen werden. Voraussetzung für die Antrag"
+    },
+    {
+      "rang": 67,
+      "score": 1.60935,
+      "id": "e8531dcc-11c6-5851-a3c4-239bb5bfe50a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "section_heading": "**Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - Neufassung**",
+      "chunk_index": 41,
+      "text_vollstaendig": false,
+      "auszug": "**84**|||||||||||||\n|**Die Prüfungsanmeldung des 1. Semesters erfolgt  nach § 7 Abs. 2 durch die Prüfungsverwaltung**|||||||||||||  \nDezernat III / PO IBS / 02.07.2018  \nNr. 10/2018 vom 30.09.2018  \nVerkündungsblatt der Hochschule Hannover"
+    },
+    {
+      "rang": 68,
+      "score": 1.55223,
+      "id": "16cc01fe-08d2-5f9b-8290-d42823497e15",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-lehre/moodle-bbb-infos-fuer-studierende/linksammlung-fuer-erstsemester-studierende",
+      "title_anzeige": "www › servicezentrum lehre › moodle bbb infos fuer studierende › linksammlung fuer erstsemester studierende — Links zum Studienstart",
+      "section_heading": "Links zum Studienstart",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Links zum Studienstart\nWir haben euch eine kleine Linksammlung zusammengestellt, um euch den Start hoffentlich etwas zu erleichtern. Ihr findet hier die Links zu den Webseiten der einzelnen Fakultäten mit den Ersti-Informationen, Vorlesungszeiten der Hochschule und viele nützliche Links auf der I"
+    },
+    {
+      "rang": 69,
+      "score": 1.52952,
+      "id": "48569fa3-7cb9-58ae-a717-67b582018a55",
+      "source_url": "https://itr.wp.hs-hannover.de/ueber-uns/projektseite",
+      "title_anzeige": "itr › ueber uns › projektseite",
+      "section_heading": "Studienprojekte",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "##\n\n# Studienprojekte\nSortieren: Titel  Datum\n* ![](https://itr.wp.hs-hannover.de/wp-content/uploads/2025/06/Plakat-Header-scaled.jpg)"
+    },
+    {
+      "rang": 70,
+      "score": 1.50963,
+      "id": "c6764227-c907-53a8-9f38-e88220f7d7d6",
+      "source_url": "https://mint.hs-hannover.de",
+      "title_anzeige": "mint.hs-hannover.de",
+      "section_heading": "Instagram-Feed",
+      "chunk_index": 56,
+      "text_vollstaendig": false,
+      "auszug": "[![Unter dem Motto \"Abi in der Tasche? DANN MACH KLAR, wie's danach weitergeht!\" öffnen einige Fakultäten der Hochschule...](https://mint.hs-hannover.de/typo3temp/assets/_processed_/4/f/csm_18118650547469256_8adbb32a61.jpg)](https://www.instagram.com/p/DLXFLhooORP/ \"Unter dem Motto \"Abi in der Tasch"
+    },
+    {
+      "rang": 71,
+      "score": 1.49103,
+      "id": "a9c67a0e-60e7-5842-a77a-f7204d9e3031",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+      "title_anzeige": "www › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt › kurse",
+      "section_heading": "Semesterkurse im Wintersemester 2022/23",
+      "chunk_index": 309,
+      "text_vollstaendig": false,
+      "auszug": "**Anmeldung:** ab dem 06. September 2022 [hier ](https://sprachkurse.hs-hannover.de/?tags=Schreibwerkstatt,Semesterkurs)\n[ Fakultät IV: Bachelor-/Master-Schreibworkshop der Abt. Wirtschaftsinformatik  ](https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkst"
+    },
+    {
+      "rang": 72,
+      "score": 1.46691,
+      "id": "47d10cdf-b9b6-5348-a97a-dbd49301fcf1",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/kurse",
+      "title_anzeige": "www › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt › kurse",
+      "section_heading": "Semesterkurse im Sommersemester 2023",
+      "chunk_index": 258,
+      "text_vollstaendig": false,
+      "auszug": "**Anmeldung:** ab dem 07. Februar 2023 [hier](https://sprachkurse.hs-hannover.de/?tags=Schreibwerkstatt,Semesterkurs)\n[ Fakultät IV: Bachelor-/Master-Schreibworkshop der Abt. Wirtschaftsinformatik  ](https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt"
+    },
+    {
+      "rang": 73,
+      "score": 1.4572,
+      "id": "d0283504-d024-552b-b0ff-f632f1b6fbcc",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende",
+      "title_anzeige": "www › organisation › akademische angelegenheiten › studierende",
+      "section_heading": "Studierende > Antragsformulare",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "##  Antragsformulare\nAuf dieser Seite können Sie alle Anträge des Dezernats Akademische Angelegenheiten finden. Die meisten Anträge können Sie direkt online stellen, vereinzelt müssen diese noch per E-Mail gestellt werden, indem Sie die entsprechende PDF-Datei nutzen und uns ausgefüllt zusenden.\n![A"
+    },
+    {
+      "rang": 74,
+      "score": 1.41282,
+      "id": "8d6151e5-9547-503e-87af-3a1d9e30f8a8",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2013",
+      "title_anzeige": "www › verkuendungsblatt › aeltere ausgaben › ausgaben 2013 — Ausgabe Nr. 10/2013 vom 20.12.2013",
+      "section_heading": "Ausgabe Nr. 04/2013 vom 12.06.2013",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "[3. Spezifische Stipendienordnung der Fakultät I](https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf \"Initiates file download\")"
+    },
+    {
+      "rang": 75,
+      "score": 1.40854,
+      "id": "41d7f419-8f13-5a41-a854-4b9956f9df78",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/anschrift-der-fakultaeten",
+      "title_anzeige": "www › gebaeudemanagement › standorte › anschrift der fakultaeten — Anschriften der HsH",
+      "section_heading": "Zu den Fakultäten",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Zu den Fakultäten\n[Fakultät I](https://f1.hs-hannover.de/service/standorte-oeffnungszeiten \"Zur Fakultät I\")\n[Fakultät II](https://f2.hs-hannover.de/ueber-uns/standorte-oeffnungszeiten \"Zur Fakultät II\")\n[Fakultät III](https://f3.hs-hannover.de/ueber-uns/standort-oeffnungszeiten \"Zur Fakultät III"
+    },
+    {
+      "rang": 76,
+      "score": 1.3706,
+      "id": "04075377-cc22-5092-ac3b-a56daa46d27c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/Jahrbuecher_Auszuege/JahrBuch_2023_Auszug.pdf",
+      "title_anzeige": "www › Stipendien › Jahrbuecher Auszuege › JahrBuch 2023 Auszug",
+      "section_heading": "",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "_FAKULTÄT I – ELEKTRO- UND INFORMATIONSTECHNIK Laura Fischer _____________________________________________________________________________________ 11 Christoph Hagen _________________________________________________________________________________13 Ann-Katrin Hörner ________________________________"
+    },
+    {
+      "rang": 77,
+      "score": 1.36078,
+      "id": "2263599f-285a-5816-b65a-0f19edc0eb87",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Graduiertenfoerderung/9._Antrag_auf_Registrierung_fuer_Promotionsstudierende.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Graduiertenfoerderung › 9. Antrag auf Registrierung fuer Promotionsstudierende",
+      "section_heading": "**Antrag auf Registrierung**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **Antrag auf Registrierung**  \n**Im Rahmen des „Kooperativen Promotionsprogramm“**  \n**für Studierende der Universität:  ………………………………………………..…………..**  \n**zum Sommersemester 20….. zum Wintersemester 20…..**  \n**Wichtig!** Voraussichtliches Ende der Promotion:________________________ Eine Kopie der"
+    },
+    {
+      "rang": 78,
+      "score": 1.23016,
+      "id": "49eaa861-df21-5e8f-ad6d-b9d8821aa8e4",
+      "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "title_anzeige": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "section_heading": "Prüfungsanmeldung",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Prüfungsanmeldung\n1. Klicken Sie auf der Startseite im Bereich \"_Quicklinks_ \" oben links auf _Prüfung und Studium_.  \n![Campusmanagement_Quicklinks](https://service.it.hs-hannover.de/media/images/Bild_2.width-800.png)\nEs erscheint die folgende Ansicht:\n![Campusmanagement_Prüfungsanmeldung](http"
+    },
+    {
+      "rang": 79,
+      "score": 1.20308,
+      "id": "481e154a-ad75-558c-978b-8cd1c59d055f",
+      "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+      "title_anzeige": "itr › kontakt",
+      "section_heading": "Impressum",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "#\n# Impressum\n#####  Herausgeber\nHochschule Hannover Fakultät I – Elektro- und Informationstechnik Ricklinger Stadtweg 120 30459 Hannover Telefon: +49 511 9296-1201 E-Mail: f1-dekanat@hs-hannover.de\nDie Hochschule Hannover ist eine Körperschaft des öffentlichen Rechts. Die Fakultät I – Elektro- und "
+    },
+    {
+      "rang": 80,
+      "score": 1.19513,
+      "id": "bf79f5fe-4dfd-5cae-b47f-76d188cfb83f",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005464",
+      "title_anzeige": "Prof. Dr.-Ing. Günter Klawitter",
+      "section_heading": "Prof. Dr.-Ing. Günter Klawitter > Dekan > Prof. Dr.-Ing. Günter Klawitter > Lehrgebiete:",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Dekan\n#### [Dekan der Fakultät II - Maschinenbau und Bioverfahrenstechnik](https://f2.hs-hannover.de/ueber-uns/fakultaetsverwaltung/dekanat)\n\n## Lehrgebiete:\n* Konstruktion\n* Maschinenelemente\n* Produktionstechnik\n* Projektarbeiten, Bachelor- und Masterarbeiten nach Absprache\n## Sprechzeiten:\nOnl"
+    },
+    {
+      "rang": 81,
+      "score": 1.18871,
+      "id": "522b9c6c-7e98-5cb1-b9ec-46b281b8eb1e",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/schnupperstudium",
+      "title_anzeige": "www › servicezentrum beratung › studienberatung › schnupperstudium",
+      "section_heading": "",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "##\n[ Fakultät I - Elektrotechnik und Informationstechnik - Technisches Informationsdesign und Technische Redaktion ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/schnupperstudium \"Fakultät I - Elektrotechnik und Informationstechnik - Technisches Informati"
+    },
+    {
+      "rang": 82,
+      "score": 1.18303,
+      "id": "92becd3b-ecba-5fb3-a8d1-fb44b9b4f372",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/07-2016/05_Genehmigung_EWI_20102_gesamt.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2016 › 05 Genehmigung EWI 20102 gesamt",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Studiengang Wirtschaftsingenieur Elektrotechnik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **Projekt und Anwendungssemester**",
+      "chunk_index": 33,
+      "text_vollstaendig": false,
+      "auszug": "## **Projekt und Anwendungssemester**  \n|**Projekt und Anwendungssemester**||||||||||\n|---|---|---|---|---|---|---|---|---|---|\n|Projekt|EWI-250|6|5|1|Projekt|EIT-204-01|2,5|1|0|\n||||||Projekt|EIT-204-02|2,5|1|0|\n|Anwendungssemester|EWI-280|7|30|6|Praxisphase|EIT-206-01|15|0|0|\n||||||Bachelorarbeit|"
+    },
+    {
+      "rang": 83,
+      "score": 1.17679,
+      "id": "71132930-4ff3-533a-8e0a-cdf283ea8db3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+      "title_anzeige": "Übersicht der angebotenen Studiengänge",
+      "section_heading": "Übersicht der angebotenen Studiengänge > Wintersemester 2026/27 > Auf einen Blick",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "* [ Beratung und Kontakt ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester#beratung-und-kontakt)"
+    },
+    {
+      "rang": 84,
+      "score": 1.17049,
+      "id": "c9754163-567f-5105-8727-295576d27808",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/02-_PO_EWI_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2018 › 02 PO EWI",
+      "section_heading": "**§ 12 Inkrafttreten**",
+      "chunk_index": 49,
+      "text_vollstaendig": false,
+      "auszug": "|**Σ=Cr / 2. Stud. Abschnitt/WP Schwerpunkt**\n**27**|||||||||||||\n|**Gesamt / 1. und 2. Stud. Abschnitt**\n**175**|||||||||||||\n|**2. Studienabschnitt - Anwendungssemester**|||||||||||||\n|**M-Kürzel**|**Modul-Bezeichnung**|**ArtM**\n**PF/WP**|**CrM**|**Gew.**\n**M**|**TM-Kürzel**|**Teilmodul-Bezeichnun"
+    },
+    {
+      "rang": 85,
+      "score": 1.14001,
+      "id": "e6f1d223-de60-582a-a6f5-17a80de1dd0a",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium",
+      "title_anzeige": "Flyer und Infomaterial zum Studium",
+      "section_heading": "Flyer und Infomaterial zum Studium > Flyer und Broschüren nach Fakultäten",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## Flyer und Broschüren nach Fakultäten\n[ Fakultät I - Elektro und Informationstechnik ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium \"Fakultät I - Elektro und Informationstechnik\")\nHier finden Sie die Materialien der Faku"
+    },
+    {
+      "rang": 86,
+      "score": 1.13822,
+      "id": "76e05374-ee3f-5c69-b0fe-a41cd28be1ff",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/12-2011/02-Richtlinie_zur_Foerderung_von_Vorhaben_zu_FuE.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2011 › 02 Richtlinie zur Foerderung von Vorhaben zu FuE",
+      "section_heading": "**`§ 11 Termine`**",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "## **`§ 11 Termine`**  \nDie Anträge auf Förderung von FuE-Vorhaben müssen jeweils rechtzeitig vor Ende des vorangehenden Semesters der Forschungskommission vorliegen. Die Termine sind der 15. November für das folgende Sommersemester und der 15. Mai für das folgende Wintersemester."
+    },
+    {
+      "rang": 87,
+      "score": 1.13675,
+      "id": "35c32193-3a2f-5dcb-b95c-bd738779f5af",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2009 › 06 Richtlinie Studienpreise FakV",
+      "section_heading": "**III. Vergabeverfahren**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **III. Vergabeverfahren**  \n1.[1] Über die Vergabe eines Studienpreises wird aufgrund eines personenbezogenen schriftlichen Antrags entschieden.[2] Ein Antrag ist nur wirksam gestellt, wenn das Antragsformular gemäß dem Muster in der Anlage verwendet wird und die/der Vorgeschlagene schriftlich se"
+    },
+    {
+      "rang": 88,
+      "score": 1.11983,
+      "id": "923d3537-431f-5ac8-8fd9-3f505f2e09ed",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 03 Spezifische Stipendienordnung der Fakultaet I abgestimmt 2 — § 1 Präambel",
+      "section_heading": "**§ 2 Stipendien**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "Die Fakultät I unterstützt die Vergabe von „Hin- und Weg“ Stipendien. Diese werden nach Maßgabe der Richtlinie der Hochschule Hannover zur Vergabe von „Hin- und Weg“ Stipendien vergeben.  \nSpezifische Stipendienordnung der Fakultät I – Elektro- und Informationstechnik"
+    },
+    {
+      "rang": 89,
+      "score": 1.10748,
+      "id": "921358d2-1ff7-5ee6-aa0d-72b7cf19d730",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "section_heading": "**§ 2 Stipendien**",
+      "chunk_index": 90,
+      "text_vollstaendig": false,
+      "auszug": "Die Fakultät I unterstützt die Vergabe von „Hin- und Weg“ Stipendien. Diese werden nach Maßgabe der Richtlinie der Hochschule Hannover zur Vergabe von „Hin- und Weg“ Stipendien vergeben.  \nSpezifische Stipendienordnung der Fakultät I – Elektro- und Informationstechnik  \nVerkündungsblatt der Hochschu"
+    },
+    {
+      "rang": 90,
+      "score": 1.09384,
+      "id": "7fec6c46-8e51-5b2b-920b-04b7a2ba7276",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "section_heading": "**Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - Neufassung**",
+      "chunk_index": 40,
+      "text_vollstaendig": false,
+      "auszug": "|IBS-431|Personal und\nUnternehmensführung|PF|6|1|IBS-431-01|Personalmanagement|PF|H, K2*, M, P,\nR|\n1|3|2|6|\n||||||IBS-431-02|Unternehmensführung|PF||||2||\n||||||IBS-431-03|Arbeitsrecht|PF||||2||\n|IBS-432|Rechnungswesen|PF|6|1|IBS-432-01|Externes Rechnungswesen|PF|H, K2*, M, P,\nR|\n1|3|4|6|\n||||||IBS-"
+    },
+    {
+      "rang": 91,
+      "score": 1.07608,
+      "id": "2a95fadf-fc1f-529a-ae28-6bffaca68531",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-lehre/moodle-bbb-infos-fuer-studierende/linksammlung-fuer-erstsemester-studierende",
+      "title_anzeige": "www › servicezentrum lehre › moodle bbb infos fuer studierende › linksammlung fuer erstsemester studierende — Links zum Studienstart",
+      "section_heading": "Links zum Studienstart > Weitere Infos",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Fakultät 1: <https://f1.hs-hannover.de/studium/studienstart>\nFakultät 2: <https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen>\nFakultät 3: <https://f3.hs-hannover.de/studium/informationen-fuer-erstsemester>\nFakultät 4: <https://f4.hs-hannover.de/studium/erstsemesterinformation>\nF"
+    },
+    {
+      "rang": 92,
+      "score": 1.07569,
+      "id": "6939255b-a25c-5814-91c9-f4c2951295ba",
+      "source_url": "https://mint.hs-hannover.de",
+      "title_anzeige": "mint.hs-hannover.de",
+      "section_heading": "Instagram-Feed",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "Am Besten gleich einschreiben und mitmachen.  \n#mint #hannover #hochschule #study #future #mathe #it #naturwissenschaft #technik #zukunft #abschluss #berufsorientierung #whatsmint #mintset #wasnun #bachelor #praktikum #uni #university #schulstress #abitur #studymotivation #encouragemint #mintastic #"
+    },
+    {
+      "rang": 93,
+      "score": 1.06123,
+      "id": "3c834f31-b1d7-59e0-a9b9-1f739c6f136b",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-lehre/meldungen/foerderentscheidung-im-foerderprogramm-innovation-plus-ist-gefallen",
+      "title_anzeige": "Förderentscheidung im Förderprogramm Innovation Plus ist gefallen",
+      "section_heading": "Förderentscheidung im Förderprogramm Innovation Plus ist gefallen > Die Auswahlentscheidung im Förderprogramm Innovative Lehr- und Lernkonzepte ist getroffen. Es wurden insgesamt 139 Projekte eingereicht, darunter hat die Hochschule Hannover sechs Anträge zur Begutachtung vorgelegt. Vier Projekte der Hochschule Hannover wurden dem MWK zur Förderung vorgeschlagen.",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "- Beteiligung der hochschulinternen Expertinnen und Experten für die Sicherung und die Entwicklung der Qualität in Studium und Lehre (möglichst sowohl im Vorfeld als auch bei der Umsetzung)  \nVon den 139 eingereichten Projekten wurden 62 zur Förderung vorgeschlagen. Das MWK ist den Empfehlungen gefo"
+    },
+    {
+      "rang": 94,
+      "score": 1.04856,
+      "id": "978a9fb5-fa5b-53c1-8276-096f0fb2aba2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/07-2017/04_PO_BIM.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2017 › 04 PO BIM",
+      "section_heading": "**§ 7** > **Praxisphasen**",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7**\n\n## **Praxisphasen**  \n- (1) Die Praxisphasen sind Bestandteile der Module „Praxisphase I“ (BIM-204, 30 CR, unbenotet) und „Praxisphase II“ (BIM-206, 16 CR, unbenotet) im zweiten Studienabschnitt. Für die Anmeldung der Praxisphase I sind mindestens 30 CR aus dem ersten Studienabschnitt zu"
+    },
+    {
+      "rang": 95,
+      "score": 1.04374,
+      "id": "91e9a3a1-f162-5fd6-9f22-cb749b663299",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium",
+      "title_anzeige": "Flyer und Infomaterial zum Studium",
+      "section_heading": "Flyer und Infomaterial zum Studium > Unsere Flyer und Broschüren > [Fakultät I – Elektro- und Informationstechnik](https://f1.hs-hannover.de/)",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "### [Fakultät I – Elektro- und Informationstechnik](https://f1.hs-hannover.de/)\n[ Weiterlesen ](https://f1.hs-hannover.de/ \"F1\")\n[ ![](https://www.hs-hannover.de/fileadmin/_processed_/4/6/csm_Logo_F3_Teaser_3f422152f7.png) ](https://f3.hs-hannover.de/studium/fuer-bewerberinnen-und-studieninteressier"
+    },
+    {
+      "rang": 96,
+      "score": 1.03362,
+      "id": "bcd5c428-8f8c-55ca-9b0a-a167655a5b68",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+      "title_anzeige": "Herzlich Willkommen an der Hochschule Hannover",
+      "section_heading": "Herzlich Willkommen an der Hochschule Hannover > Das Wichtigste zum Studienstart... > Auf einen Blick",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Auf einen Blick\n* [ Informationen aus den Fakultäten ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen#informationen-aus-den-fakultaeten)\n* [ Wichtige Links ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angeleg"
+    },
+    {
+      "rang": 97,
+      "score": 1.00946,
+      "id": "e7f08d6a-4cc1-5f60-8935-0a598452f107",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/5._Go-Out-Ordnung-Fakultaet_II_20130722.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2013 › 5. Go Out Ordnung Fakultaet II 20130722 — Allgemeines",
+      "section_heading": "**Studien- oder Projektreisen**",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## **Studien- oder Projektreisen**  \n- Nachweis über die Teilnahme durch den Internationalen Koordinator der Fakultät  \n- detailliertes Programm oder eine Einladung der gastgebenden Einrichtung  \nIm Übrigen richtet sich das Verfahren nach der Stipendienordnung. Insbesondere werden die rechtlich erhe"
+    },
+    {
+      "rang": 98,
+      "score": 0.98522,
+      "id": "06e2bca2-f16d-5382-b3a8-350bcb42bbf9",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center/job-shadowing/informationen-fuer-studierende",
+      "title_anzeige": "Informationen für Studierende",
+      "section_heading": "Informationen für Studierende > Job Shadowing > Anmeldung & Leitfäden",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Anmeldung & Leitfäden  \n[ Anmeldung für Studierende ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center/job-shadowing/anmeldung-job-shadowing)\n[ Leitfaden für Studierende ](https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezent"
+    },
+    {
+      "rang": 99,
+      "score": 0.97973,
+      "id": "c6cc3db2-8243-57ca-b2a7-658d9c34240f",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/bewerbungsportal-fuer-hoehere-fachsemester-und-quereinsteigerinnen",
+      "title_anzeige": "Bewerbungsinformation für höhere Fachsemester und Quereinsteiger*innen",
+      "section_heading": "Bewerbungsinformation für höhere Fachsemester und Quereinsteiger*innen > Ansprechpersonen > Bewerbungsinformation für höhere Fachsemester und Quereinsteiger*innen",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "## Ansprechpersonen\n##\n[ Fakultät I Elektro- und Informationstechnik  ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/bewerbungsportal-fuer-hoehere-fachsemester-und-quereinsteigerinnen \"Fakultät I Elektro- und Informationstechnik \")\nProf"
+    },
+    {
+      "rang": 100,
+      "score": 0.97009,
+      "id": "b886a239-d197-546d-b112-fdb41695f40d",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+      "title_anzeige": "Informationen für Studieninteressierte",
+      "section_heading": "Informationen für Studieninteressierte > FAQs für Studieninteressierte",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "Dazu werden im ersten Schritt künstlerischen Arbeiten angefertigt und bis zum 15. März des Jahres direkt bei der Abteilung Design und Medien hochgeladen oder eingereicht.\nInformationen dazu finden Sie auf den Seiten des jeweiligen Studiengangs.  \n2. Vorpraktika\nUnter \"Brauche ich ein Vorpraktikum\" f"
+    },
+    {
+      "rang": 101,
+      "score": 0.96802,
+      "id": "1e2dc26b-545d-5172-99c5-8994c2a3f52e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/04-2018/01_DM-SG-Praxisphasenordnung_20172.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2018 › 01 DM SG Praxisphasenordnung 20172",
+      "section_heading": "Anmeldung",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## Anmeldung  \nüber die Praxisphase (Bachelor)\nWintersemester Sommersemester Jahr:\nName: Vorname\ngeb. am: Matr.Nr.:\nAnschrift:  Telefon:\nEmail:"
+    },
+    {
+      "rang": 102,
+      "score": 0.95769,
+      "id": "8510c2f2-f1b7-5714-aea7-70603e09c14a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "Wirtschaft und Informatik > Wirtschaft und Informatik",
+      "chunk_index": 56,
+      "text_vollstaendig": false,
+      "auszug": "Neben den bewährten eigenen Studiengängen (derzeit 7 Bachelor- und 5 Masterstudiengänge) ist die Fakultät in erheblichem Umfang an fakultätsübergreifenden Studiengängen beteiligt. So werden wesentliche Teile der Ausbildung von Wirtschaftsingenieuren und -ingenieurinnen aus den Fakultäten I und II in"
+    },
+    {
+      "rang": 103,
+      "score": 0.95729,
+      "id": "19f444fd-f194-5b65-a02a-179a7d837c01",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/04_PO_IBS.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › 04 PO IBS",
+      "section_heading": "**Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - PO 2018 / Version 2024**",
+      "chunk_index": 45,
+      "text_vollstaendig": false,
+      "auszug": "||||||IBS-431-03|Arbeitsrecht|PF||||2||\n|IBS-432|Rechnungswesen|PF|6|1|IBS-432-01|Externes Rechnungswesen|PF|H, K2*, M, P, R|1|3|4|6|\n||||||IBS-432-02|Internes Rechnungswesen|PF||||2||\n|IBS-433|Statistik 2|PF|6|1|IBS-433-01|Induktive Statistik|PF|H, K2*, M, P, Pf, R|1|3|4|6|\n||||||IBS-433-02|Softwar"
+    },
+    {
+      "rang": 104,
+      "score": 0.94333,
+      "id": "1406533f-1709-5f0c-a069-91d05eae76d3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/08-2024/Drittmittelrichtlinie.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2024 › Drittmittelrichtlinie",
+      "section_heading": "3 Projektanbahnung > 3.1 Kontaktadressen",
+      "chunk_index": 37,
+      "text_vollstaendig": false,
+      "auszug": "## 3 Projektanbahnung\n\n## 3.1 Kontaktadressen  \nVor der Beantragung öffentlicher Fördermittel oder bei einer geplanten Kooperation auf anderweitiger Vertragsbasis sollten Sie sich in jedem Fall frühzeitig mit der jeweiligen zuständigen Organisationseinheit abstimmen, um ein reibungsloses und fristge"
+    },
+    {
+      "rang": 105,
+      "score": 0.93393,
+      "id": "c3eae6d4-8ce2-5ceb-a4d1-fb0ecff761cb",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie",
+      "title_anzeige": "Willkommen an der HsH-Akademie",
+      "section_heading": "Aktuelles > Häufig gestellte Fragen",
+      "chunk_index": 30,
+      "text_vollstaendig": true,
+      "auszug": "Inhouse-Schulungen sind meist individuell konzipierte Weiterbildungen, die i.d.R. vor Ort im Unternehmen stattfinden. An diesen Schulungen nehmen vorranging interne Mitarbeiter*innen statt, die sich in einem speziellen Themengebiet - fokussiert auf die Bedürfnisse des einzelnen Unternehmens - weiter"
+    },
+    {
+      "rang": 106,
+      "score": 0.92302,
+      "id": "f6f977e7-b235-5626-aa54-5843edecb7f5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › 4 Stipendienordnung der Fakulta t I 2017 — Präambel",
+      "section_heading": "**§2** > **Stipendien**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **§2**\n## **Stipendien**  \nDie Fakultät I vergibt folgende Stipendien nach Maßgabe dieser Ordnung:  \n1. Stipendien für besonderes Engagement oder besondere Verdienste  \n2. Stipendien für einen herausragenden ersten Studienabschnitt in den Bachelorstudiengängen „Angewandte Mathematik“, „Technische"
+    },
+    {
+      "rang": 107,
+      "score": 0.9203,
+      "id": "4fec1269-eee2-5547-ab67-b8941ecf7171",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/Datenschutz-WIR-Stipendium.pdf",
+      "title_anzeige": "www › Stipendien › PDF Dateien › Datenschutz WIR Stipendium — Verantwortlich im datenschutzrechtlichen Sinne",
+      "section_heading": "**Bewerbung über das Anmeldeformular**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **Bewerbung über das Anmeldeformular**  \nUm an einer Auswahl zu den o.g. Stipendienprogrammen teilnehmen zu können, ist das jeweilige Anmeldeformular zu nutzen und die dort geforderten Angaben zu Ihrer Person vorzunehmen.  \nEine Weitergabe dieser Daten an Dritte erfolgt grundsätzlich nicht, sofer"
+    },
+    {
+      "rang": 108,
+      "score": 0.90527,
+      "id": "8de52514-45f5-539d-8f9d-734da70470e0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/08-2024/hsh_verkuendungsblatt_nr_08_2024_neu.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2024 › hsh verkuendungsblatt nr 08 2024 neu — Ausgabe 08/2024",
+      "section_heading": "**für die Bachelor- und Master- Studiengänge an der Hochschule Hannover (Muster-ATPO 2024)** > 3 Projektanbahnung > **für die Bachelor- und Master- Studiengänge an der Hochschule Hannover (Muster-ATPO 2024)** > 3.1 Kontaktadressen",
+      "chunk_index": 131,
+      "text_vollstaendig": false,
+      "auszug": "## 3 Projektanbahnung\n\n## 3.1 Kontaktadressen  \nVor der Beantragung öffentlicher Fördermittel oder bei einer geplanten Kooperation auf anderweitiger Vertragsbasis sollten Sie sich in jedem Fall frühzeitig mit der jeweiligen zuständigen Organisationseinheit abstimmen, um ein reibungsloses und fristge"
+    },
+    {
+      "rang": 109,
+      "score": 0.89522,
+      "id": "41f642c8-54e8-5024-9115-02eb927c7c37",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "section_heading": "**§ 2 Ausschreibung**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 2 Ausschreibung**  \n(1)[1] Die Studienpreise sind hochschulöffentlich auf den Internetseiten der Fakultät auszuschreiben.[2] Darüber hinaus kann die Ausschreibung einmalig durch E-Mail an alle Studierenden der Fakultät bekannt gemacht werden.  \n(2) Die Ausschreibung hat mindestens folgende An"
+    },
+    {
+      "rang": 110,
+      "score": 0.89377,
+      "id": "70e87563-4767-5544-8821-3056b1c2ef57",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/09-2018/02_BIM_BT_PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2018 › 02 BIM BT PO mit Anlagen 20182 — der Hochschule Hannover",
+      "section_heading": "**für den Bachelor-Studiengang Informationsmanagement (BIM) mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design** > **§ 7** > **für den Bachelor-Studiengang Informationsmanagement (BIM) mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design** > **Praxisphasen**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7**\n\n## **Praxisphasen**  \n- (1) Die Praxisphasen sind Bestandteile der Module „Praxisphase I“ (BIM-112, 30 CR, unbenotet) im ersten Studienabschnitt und „Praxisphase II“ (BIM-206, 16 CR, unbenotet) im zweiten Studienabschnitt. Für die Anmeldung der Praxisphase II ist die erfolgreich abgeleis"
+    },
+    {
+      "rang": 111,
+      "score": 0.87026,
+      "id": "61d4bf3a-4c26-5794-afae-ce110de4b30d",
+      "source_url": "https://karriere.hs-hannover.de/portal/seiten/professur-und-berufungsverfahren-900000008-10057.html",
+      "title_anzeige": "karriere › portal › seiten › professur und berufungsverfahren 900000008 10057",
+      "section_heading": "Professur und Berufungsverfahren",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "Die Projekt-Koordination liegt im Büro der Zentralen Gleichstellungsbeauftragten der Hochschule Hannover.\nWeitere Informationen finden Sie hier: <https://projekt-professur.de>  \nBei weiteren Fragen stehen Ihnen gerne zur Verfügung:\n**![Ansprechpartnerin bei Berufungsverfahren Frau Todt©Hochschule Ha"
+    },
+    {
+      "rang": 112,
+      "score": 0.85845,
+      "id": "fe8e2690-9916-5d86-a570-e8818140a02b",
+      "source_url": "https://itr.wp.hs-hannover.de/landing-page",
+      "title_anzeige": "itr › landing page",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Bewerbungsportal für das Wintersemester 26/27 ist ab sofort geöffnet![Jetzt Bewerben!](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/) ![](http://itr.wp.hs-hannover.de/wp-content/uploads/2022/07/CloseButton_abgerundet_icon_small-1.svg)\n!"
+    },
+    {
+      "rang": 113,
+      "score": 0.84996,
+      "id": "841b0a2c-2708-5d7a-9daf-f17ed410c108",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/11-2016/03_BME_Stand_20160811.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2016 › 03 BME Stand 20160811",
+      "section_heading": "**für den Bachelor-Studiengang Mediendesign (BME) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **§ 6** > **für den Bachelor-Studiengang Mediendesign (BME) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Inkrafttreten**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "**Sem.**|\n|BME-213|PraxisphasePortfolio|PF|6|CR*|BME-213-01|Portfolio|PF|1|6|Pf|1|5|\n|BME-214|PraxisphaseExtern|PF|18|0|BME-214-01|Extern|PF||18||0|5|\n|BME-215|PraxisphaseBericht|PF|6|CR*|BME-215-01|Dokumentation|PF|1|6|B|1|5|\n|BME-216|Bachelor Projekt Phase I|PF|10|CR*|BME-216-01|Konzeption / Proje"
+    },
+    {
+      "rang": 114,
+      "score": 0.84974,
+      "id": "1c35eb6d-9e7e-5b28-8a5f-4d54f7be861a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/01-2004/Verkuendungsblatt_01_2004.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2004 › Verkuendungsblatt 01 2004 — Amtliches Mitteilungsblatt der Fachhochschule Hannover (FHH)",
+      "section_heading": "**Deckblatt zu Antrag auf Förderung von FuE-Vorhaben / Semester ____________**",
+      "chunk_index": 42,
+      "text_vollstaendig": true,
+      "auszug": "## **Deckblatt zu Antrag auf Förderung von FuE-Vorhaben / Semester ____________**  \n|Name des Projekts||Neuantrag�\nFortsetzung �|\n|---|---|---|\n|Projektleiter / Fachbereich|||\n|Projektziel|||\n|Projektlaufzeit (von/bis, Gesamt)|||\n|Projektteilnehmer FHH|||\n|Kooperationspartner|||\n|Drittmittelgeber|||"
+    },
+    {
+      "rang": 115,
+      "score": 0.84796,
+      "id": "cfa39e1a-9fb7-51d7-aa04-bcb9d8a81f31",
+      "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/projektangebot-smart3",
+      "title_anzeige": "mint › fuer lehrkraefte › projektangebot smart3",
+      "section_heading": "Smart-Home: Modellhaus aufbauen und automatisieren",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "* Projektmaterial verbleibt in der Schule  \n**Eine Anmeldung ist nicht mehr möglich!**\n* * *\nDas Projekt wird vom Fachkräftebündnis Leine-Weser mit EU-Mitteln unterstützt.\n![Kofinanziert von der Europäischen Union. Europa für Niedersachsen.](https://mint.hs-hannover.de/fileadmin/4_F%C3%BCr_Lehrkr%C3"
+    },
+    {
+      "rang": 116,
+      "score": 0.84476,
+      "id": "a5402f13-559b-5c80-8d91-f7c1a38ab2f1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/08_Forschungscluster/Industrie_4.0/Schautafel_Annastift-HsH.pdf",
+      "title_anzeige": "www › 08 Forschungscluster › Industrie 4.0 › Schautafel Annastift HsH",
+      "section_heading": "Projektleitung",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Projektleitung  \nFakultät I – Elektro- und Informationstechnik Prof. Dr.-Ing. Michael Hötter Prof. Dr.-Ing. Robert Patzke Prof. Dr.-Ing. Jörg Wehmeier  \nSabine Seidel M.A.\n## Kooperationspartner"
+    },
+    {
+      "rang": 117,
+      "score": 0.83047,
+      "id": "08cc078c-3f63-5363-a728-90bad55d110c",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung",
+      "title_anzeige": "Online-Anträge und -Bewerbungen",
+      "section_heading": "Online-Anträge und -Bewerbungen > Für Studierende",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "Nach dem Login finden Sie die entsprechenden Funktionen wie gewohnt im Bereich **„Service“ → “Anträge”**.\nDie zugehörigen Bescheinigungen zu Ihren Anträgen werden im Campusmanagement unter:\n**„Bescheinigung/Bescheide“ → “Allgemein”**\nhinterlegt und sind dort abrufbar.\nEinige Anträge können noch **ni"
+    },
+    {
+      "rang": 118,
+      "score": 0.81335,
+      "id": "464b2dc4-01d6-55d9-a114-4f52521df5eb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › HsH Verkuendungsblatt 06 2017 20220701 — Verkündungsblatt",
+      "section_heading": "**§6** > **Stipendien für eine herausragende Vorleistung in den** > **Masterstudiengängen der Fakultät I**",
+      "chunk_index": 95,
+      "text_vollstaendig": false,
+      "auszug": "## **§6**\n\n## **Stipendien für eine herausragende Vorleistung in den**\n\n## **Masterstudiengängen der Fakultät I**  \nStipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.  \nAntragsberechtigt sind alle im ersten Semes"
+    },
+    {
+      "rang": 119,
+      "score": 0.81042,
+      "id": "da7abc6f-b95c-5e7b-9cc0-638cc87a879c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "section_heading": "**§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**",
+      "chunk_index": 98,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**  \nAntragsberechtigt sind alle im ersten Semester eines Masters"
+    },
+    {
+      "rang": 120,
+      "score": 0.80948,
+      "id": "eaec391d-c7a5-5ee6-95fc-9e0ca22a6eef",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "title_anzeige": "FAQ für Studierende und Studienbewerber*innen",
+      "section_heading": "FAQ für Studierende und Studienbewerber*innen > Fragen zum Studienstart > FAQ für Studierende und Studienbewerber*innen",
+      "chunk_index": 41,
+      "text_vollstaendig": true,
+      "auszug": "## Fragen zum Studienstart\n##\n[ Wo gibt es Informationen zum Studienstart? ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq \"Wo gibt es Informationen zum Studienstart?\")\nZentrale Infos zum Studienstart bündelt die Hochschule auf der Seite [**Erstsemesterinformation"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "f1",
+  "fakultaet_erkannt": "f1",
+  "token_budget": {
+    "verwendet": 3204,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 4.1,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 1.08,
+    "docs_laden_s": 0.04,
+    "quellen_s": 5.23,
+    "antwort_llm_s": 1.74,
+    "gesamt_s": 6.97
+  },
+  "auswahl_begruendung": "{\"selected\":[3,2,1]}"
+}

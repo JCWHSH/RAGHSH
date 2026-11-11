@@ -1,0 +1,17 @@
+# User-Unit: ~/.config/systemd/user/hsh-mcp.service — systemctl --user enable --now hsh-mcp
+# Pfade auf die eigene Installation anpassen; Laufzeitdaten per RAGHSH_VAR umlenkbar.
+[Unit]
+Description=HsH RAG MCP Server (Streamable HTTP, Port 8765)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/RAGHSH
+# Environment=RAGHSH_VAR=/srv/raghsh
+ExecStart=%h/RAGHSH/.venv/bin/python -m raghsh.server
+Restart=on-failure
+RestartSec=10
+TimeoutStartSec=120
+
+[Install]
+WantedBy=default.target

@@ -1,6 +1,38 @@
+# Geheimnisse
 .env
+.env.*
+openrouter_key.txt
+
+# Laufzeitdaten: Korpus, doc_index.db, qa_log.jsonl, Vektoren, Caches, Logs,
+# Qdrant-Speicher, private Unterlagen. Ort per RAGHSH_VAR umlenkbar.
+/var/
+
+# Python
 __pycache__/
 *.pyc
 .venv/
-qdrant_data/
-hsh_scraper/data/ingested/
+*.egg-info/
+
+# Erzeugnisse der Auswertung: aus manifest.json + faelle/ jederzeit neu
+# herstellbar. Die Rohdaten daneben bleiben versioniert, sie sind der Beleg.
+auswertung/laeufe/*/bericht.html
+auswertung/laeufe/*/bericht_*.html
+auswertung/laeufe/*/vergleich_gegen_*.html
+auswertung/laeufe/archiv/*/bericht.html
+auswertung/testindex/vektoren.parquet
+auswertung/testindex/enrichment_teil.parquet
+auswertung/testindex/hpc/hsh_korpus_*.tar.xz
+auswertung/testindex/vektoren_sources.txt
+auswertung/testindex/vektoren_fragen_sources.txt
+
+# Allgemein nie ins Repo
+*.log
+!auswertung/laeufe/**/lauf.log
+
+*.db
+*.db.bak*
+*.parquet
+
+# Erzeugnisse und interne Unterlagen
+RAGHSH_Vortrag.pptx
+AGENTEN_BETREUER_PROMPT.md

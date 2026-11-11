@@ -1,0 +1,616 @@
+{
+  "fall": {
+    "id": "g43",
+    "case_type": "direct",
+    "question": "Was muss ich vorlegen, wenn ich in Teilzeit studieren möchte?",
+    "reference_answer": "Einen schriftlichen Nachweis über Beruf, Familie oder eine vergleichbare Belastung.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/08_Besonderer_Teil_der_Pruefungsordnung_BRS.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Besonderer_Teil_Pruefungsordnung_BRS/BT_PO_BRS_Stand_07_2014.pdf"
+    ],
+    "required_facts": [
+      "Zusammen mit dem Antrag ist eine berufliche Tätigkeit, eine gleichwertige familiäre Belastung oder andere Belastung schriftlich darzulegen und nachzuweisen, dass das Studium nicht im vollen Umfang als Vollzeitstudium durchgeführt werden kann."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ ordnung/vorgehen. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "vertreter_von": {
+      "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Besonderer_Teil_Pruefungsordnung_BRS/BT_PO_BRS_Stand_07_2014.pdf": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/08_Besonderer_Teil_der_Pruefungsordnung_BRS.pdf"
+    },
+    "source_policy_original": "exact_gold_source",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "ae710e4c-88a8-5130-9588-b03756a3f1ea",
+      "7e627eef-7823-5f3f-9f72-79c0b77bc006",
+      "98e39bbf-acf1-554d-b71b-735912664a8c",
+      "a752df21-aff5-5d68-b4f1-03c4b6bf68ae",
+      "3445ce3b-7752-59c5-add2-ecedd08ddd95",
+      "9299dc0f-43b0-5ea8-bcfd-ebe006d2a6c1",
+      "78ab3c80-4332-5f7c-b8cc-7c8e309a1d6c",
+      "742aba17-a4dd-5486-82a6-425bd33c7b4d",
+      "afcb772c-22b5-5bf2-97d1-de2628f73bdb",
+      "87febd55-49df-5753-9382-dd1d2d8c4531",
+      "4250c14d-4849-5503-bbed-9fa059b07eea",
+      "efeca636-6409-58d1-8b99-52382072b17b",
+      "33ef0eef-16c9-58e9-884c-9b14d1984f9e",
+      "f3eeeb35-c66b-5653-ace7-2e3ebae2d2bc",
+      "15654a4e-6beb-5b4c-9cf3-1955a33deeff",
+      "b5b575ab-bf48-5862-8c37-6b49cd4bd395",
+      "49be0e6a-ad3e-5cad-a318-9a69b4989e2f",
+      "6e92b0b0-5adf-5804-b4d9-b8c2c1377790",
+      "bdb9c26b-1cfa-572d-bb60-281a9a06728f",
+      "6e6b0010-3eef-5f17-a085-20c09793d297",
+      "eae11d36-22d4-503e-a598-5f1b2458eedb",
+      "944ca981-9301-5056-9ab2-c2119fa349b9",
+      "397042e7-cde5-5deb-b8ac-6e49f8ba1bb3",
+      "6c4dc095-77cf-58df-adcd-ae099e9b4fb6",
+      "597f79e7-efb5-5439-9110-ee9824af3f81",
+      "d3b19746-dd4d-54f4-b08d-ab2e532d0072",
+      "4a3dc7b7-a102-5c78-b2ae-584bb8215ff7"
+    ],
+    "beleg_punkte": [
+      "4250c14d-4849-5503-bbed-9fa059b07eea"
+    ],
+    "beleg_urls": [
+      "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Besonderer_Teil_Pruefungsordnung_BRS/BT_PO_BRS_Stand_07_2014.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-22T08:33:14",
+  "dauer_s": 14.96,
+  "fehler": null,
+  "antwort": "Das hängt von der Fakultät ab:\n\n### Fakultät III – Design und Medien\n\nSie müssen vorlegen:\n\n- einen Antrag auf Teilzeitstudium: „Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen für ein Studienjahr bzw. zwei aufeinander folgende Teilzeitsemester nur beim Dekanat der Fakultät III, Abteilung Design und Medien einzureichen.\" [1]\n- eine individuelle Studienverlaufsplanung: „Dem Antrag auf ein Teilzeitstudium muss eine individuelle Studienverlaufsplanung für das Teilzeitstudium beigefügt bzw. spätestens bis zum Vorlesungsbeginn beim Immatrikulationsamt nachgereicht werden.\" [1]\n- die ausgefüllte und verbindliche „Teilzeit-Studienvereinbarung\": „In der Beratung planen Sie gemeinsam mit der/dem Studiengangskoordinator*in Ihren individuellen Teilzeit-Studienverlauf, der in dem Formblatt „TeilzeitStudienvereinbarung“ verbindlich festzuschreiben ist.\" [1]\n- eine Beratung mit der oder dem Studiengangskoordinator*in: „Eine individuelle Beratung zur Durchführung des Teilzeitstudiums durch die/den Studiengangskoordinator*in muss in Anspruch genommen werden.\" [1]\n\nDie Studienvereinbarung muss genehmigt werden: „Es wird bestätigt, dass der oben aufgeführte Teilzeit-Studienverlaufplan genehmigt ist.\" [1]\n\n### Fakultät IV – Informatik\n\nSie müssen vorlegen:\n\n- den Antrag auf Teilzeitstudium mit Angaben zum Zeitraum und zum Grund: „Ich beantrage ein Teilzeitstudium für das Wintersemester\" [2] sowie „Grund für das Teilzeitstudium\". [2]\n- die unterschriebene Erklärung zur Credit-Grenze: „Mir ist bekannt, dass ich während des Teilzeitstudienjahres höchstens 30 Credits erwerben darf.\" [2]\n- eine individuelle Studienverlaufsplanung beziehungsweise Teilzeit-Studienvereinbarung: „Dem Antrag auf ein Teilzeitstudium muss eine individuelle Studienverlaufsplanung für das Teilzeitstudium beigefügt bzw. spätestens bis zum Vorlesungsbeginn beim Immatrikulationsamt nachgereicht werden.\" [2]\n- eine Beratung durch die zuständige Teilzeitbeauftragte oder den zuständigen Teilzeitbeauftragten: „Eine individuelle Beratung zur Durchführung des Teilzeitstudiums durch die/den zuständige/n TeilzeitBeauftragte/n muss in Anspruch genommen werden.\" [2]\n\nDie Studienverlaufsplanung muss verbindlich festgeschrieben und genehmigt werden: „In der Beratung planen Sie gemeinsam mit der/dem zuständigen Teilzeit-Beauftragten für ein Studienjahr Ihren individuellen Teilzeit-Studienverlauf, der in dem Formblatt „Teilzeit-Studienvereinbarung“ verbindlich festzuschreiben ist.\" [2]\n\nEine allgemeine Vorgabe der in den Dokumenten genannten Bachelor-Studiengänge der Fakultät III lautet: „Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden.\" [3] Bei Fakultät III ist außerdem zu beachten: „Während der Bearbeitung der Bachelorarbeit ist ein Teilzeitstudium nicht möglich.\" [3]",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Verkuendungsblatt › 06 2022 › 01 BIA",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/01_BIA.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Innenarchitektur (BIA) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5 Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Innenarchitektur BIA - 8 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:"
+    },
+    {
+      "nr": 2,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › 2022 PO BMO",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BMO.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n# für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Modedesign BMO - 8 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 06 2022 › 5 bmo",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/5_bmo.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n# für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Modedesign BMO - 8 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden"
+    },
+    {
+      "nr": 4,
+      "titel": "www › Verkuendungsblatt › 06 2022 › 07 BPD",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/07_BPD.pdf",
+      "fakultaet": "",
+      "struktur": "  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Produktdesign BPD - 8 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:"
+    },
+    {
+      "nr": 5,
+      "titel": "f4 › Informatik › Ordnungen › po master 2009 besonderer teil aenderung 1 2012",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/po_master_2009_besonderer_teil_aenderung_1_2012.pdf",
+      "fakultaet": "f4",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Master-Studiengang „Angewandte Informatik“ (MIN) mit dem Abschluss Master of Science der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover\n  ## § 1 Geltungsbereich\n  ## § 2 Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Master-Prüfung, Master-Arbeit\n  ## § 5\n  ## Ausnahmeregelungen\n  ## § 6 Studiensemester im Ausland\n  ## § 7 Prüfungen\n  ## § 8 Pflichtstudienberatung\n  ## § 9 Teilzeitstudium\n  ## § 10 Übergangsregelungen\n  ## § 11 Inkrafttreten\n  ## Anlage B3 Prüfungsleistungen der Master-Prüfung „Angewandte Informatik“\n  ## Gewichtung:\n  ## Erläuterungen:\n  ## Gemeinsamer Block\n  ## Vertiefungsrichtung ,,Graphik und Visualisierung“\n  ## Vertiefungsrichtung ,,Sichere Informationssysteme“"
+    },
+    {
+      "nr": 6,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › 2022 PO BSKE",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BSKE.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Szenografie/Kostüm/Experimentelle Gestaltung (SKE) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III –\n  ## Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Szenografie, Kostüm, Experimentelle Gestaltung BSKE - 8 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:"
+    },
+    {
+      "nr": 7,
+      "titel": "f4 › Informatik › Formulare › 19 06 27 Antrag Teilzeitstudium",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/19-06-27-Antrag_Teilzeitstudium.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Antrag auf ein Teilzeitstudium\n  ## Teilzeit-Studienvereinbarung\n  ## Ort / Datum Unterschrift des/der Studierenden\n  ## Zur Beachtung\n  ## Leitfaden zur Beantragung eines Teilzeitstudiums\n  ## 1. Antrag\n  ## 2. Beratung\n  ## 3. Teilzeit-Studienvereinbarung"
+    },
+    {
+      "nr": 8,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › Studienvereinbarung teilzeitstudium abteilung dm — Teilzeit-Studienvereinbarung",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Studienvereinbarung_teilzeitstudium_abteilung_dm.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Teilzeit-Studienvereinbarung\n  ## Fakultät III, Abteilung Design und Medien, Studiengang:\n  ## Ort / Datum Unterschrift des/der Studierenden\n  ## Leitfaden zur Beantragung eines Teilzeitstudiums\n  ## Achtung: Eine BAföG-Förderung für ein Teilzeitstudium ist derzeit nicht möglich!\n  ## 1. Antrag\n  ## 2. Beratung\n  ## 3. Teilzeit-Studienvereinbarung"
+    },
+    {
+      "nr": 9,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › 2022 PO BPD",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BPD.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Produktdesign BPD - 8 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:"
+    },
+    {
+      "nr": 10,
+      "titel": "www › Verkuendungsblatt › 06 2022 › 03 bme",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/03_bme.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mediendesign (BME) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover\n  ## § 1 Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2 Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Mediendesign BME - 8 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:"
+    },
+    {
+      "nr": 11,
+      "titel": "www › Verkuendungsblatt › 06 2022 › hsh verkuendungsblatt 06 2022 — Ausgabe 06/2022",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/hsh_verkuendungsblatt_06_2022.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 06/2022\n  ## Besonderer Teil der Prüfungsordnung\n# für den Bachelor-Studiengang Innenarchitektur (BIA) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5 Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Innenarchitektur BIA - 8 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden\n# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mediendesign (BME) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover\n  ## § 1 Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2 Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Mediendesign BME - 8 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:\n  ## Besonderer Teil der Prüfungsordnung\n# für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6"
+    },
+    {
+      "nr": 12,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › 01 BTPO BMO VB EBU",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/01_BTPO_BMO_VB_EBU.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Übergangsregelung\n  ## § 8\n  ## Inkrafttreten\n  ## Bachelor-Studiengang MODE: konzept. design. kommunikation. (BMO) - 8 Semester\n  ## Hinweise:\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 8,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › Studienvereinbarung teilzeitstudium abteilung dm — Teilzeit-Studienvereinbarung",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Studienvereinbarung_teilzeitstudium_abteilung_dm.pdf"
+    },
+    {
+      "nr": 7,
+      "titel": "f4 › Informatik › Formulare › 19 06 27 Antrag Teilzeitstudium",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/19-06-27-Antrag_Teilzeitstudium.pdf"
+    },
+    {
+      "nr": 11,
+      "titel": "www › Verkuendungsblatt › 06 2022 › hsh verkuendungsblatt 06 2022 — Ausgabe 06/2022",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/hsh_verkuendungsblatt_06_2022.pdf"
+    },
+    {
+      "nr": 1,
+      "titel": "www › Verkuendungsblatt › 06 2022 › 01 BIA",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/01_BIA.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f3 › Fakultaet III › Ordnungen DM › Studienvereinbarung teilzeitstudium abteilung dm — Teilzeit-Studienvereinbarung",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Studienvereinbarung_teilzeitstudium_abteilung_dm.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "3. Teilzeit-Studienvereinbarung",
+      "snippets": [
+        "## 1. Antrag  \nDer Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen für ein Studienjahr bzw. zwei aufeinander folgende Teilzeitsemester nur beim Dekanat der Fakultät III, Abteilung Design und Medien einzureichen. Abweichend von den Rückmeldefristen können Studierende, die ihr Studium an der Fakultät III, Abteilung Design und Medien, der Hochschule Hannover erstmalig beginnen, den Antrag noch bis zur Einschreibung beim Immatrikulationsamt stellen.",
+        "## 3. Teilzeit-Studienvereinbarung  \nDem Antrag auf ein Teilzeitstudium muss eine individuelle Studienverlaufsplanung für das Teilzeitstudium beigefügt bzw. spätestens bis zum Vorlesungsbeginn beim Immatrikulationsamt nachgereicht werden. In der Beratung planen Sie gemeinsam mit der/dem  \nStudiengangskoordinator*in Ihren individuellen Teilzeit-Studienverlauf, der in dem Formblatt „TeilzeitStudienvereinbarung“ verbindlich festzuschreiben ist. Die/der Studiengangskoordinator*in stellt der/dem zuständigen Studiendekan/in, der Prüfungsverwaltung sowie dem Immatrikulationsamt jeweils eine Kopie der vereinbarten Teilzeit-Studienvereinbarung zur Kenntnisnahme und weiteren Bearbeitung zur Verfügung.",
+        "## **Teilzeit-Studienvereinbarung**  \nTeilzeitstudium ab  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . bis  . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . . . (Start Teilzeitstudium ab dem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Semester)  \nName des/der Studierenden:  \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \nMatrikel-Nr.:  \n. . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+      ],
+      "zitate": [
+        "Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen für ein Studienjahr bzw. zwei aufeinander folgende Teilzeitsemester nur beim Dekanat der Fakultät III, Abteilung Design und Medien einzureichen.",
+        "Dem Antrag auf ein Teilzeitstudium muss eine individuelle Studienverlaufsplanung für das Teilzeitstudium beigefügt bzw. spätestens bis zum Vorlesungsbeginn beim Immatrikulationsamt nachgereicht werden.",
+        "Teilzeit-Studienvereinbarung"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f4 › Informatik › Formulare › 19 06 27 Antrag Teilzeitstudium",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/19-06-27-Antrag_Teilzeitstudium.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**3. Teilzeit-Studienvereinbarung**",
+      "snippets": [
+        "## **Teilzeit-Studienvereinbarung**  \nTeilzeitstudium ab . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . bis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (Start Teilzeitstudium ab dem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .Semester)  \nName des/der Studierenden:  \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Matrikel-Nr.:  \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Fakultät IV, Abteilung Informatik, Studiengang:",
+        "## Ort / Datum Unterschrift des/der Studierenden  \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \nEs wird bestätigt, dass der oben aufgeführte Teilzeit-Studienverlaufplan genehmigt ist. Ort Name Teilzeit-Beauftragte/r bzw. Studiendekan/in . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Datum, Unterschrift Teilzeit-Beauftragte/r bzw. Studiendekan/in  \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Bitte Kopien des abgeschlossenen Teilzeitstudium-Learning Agreements weiterleiten an:",
+        "## **Antrag auf ein Teilzeitstudium**  \nIch beantrage ein Teilzeitstudium für das  \nWintersemester . . . . . . . . / . . . . . . . .  \n- Sommersemester . . . . . . . . . . . . . . . . . . . . . .  \nund Sommersemester . . . . . . . . . . . . . . . . oder und Wintersemester . . . . . . . . . . . / . . . . . . . . . . .  \nStudienanfänger (1. Semester)  \n- Erster Antrag  \nWiederholungsantrag  \nGrund für das Teilzeitstudium  \n- Betreuung Kinder/Pflege Angehöriger Berufstätigkeit Gremientätigkeit  \nBehinderung/Erkrankung  \n- Sonstiges: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \nMir ist bekannt, dass ich während des Teilzeitstudienjahres höchstens 30 Credits erwerben darf."
+      ],
+      "zitate": [
+        "Teilzeit-Studienvereinbarung",
+        "Es wird bestätigt, dass der oben aufgeführte Teilzeit-Studienverlaufplan genehmigt ist.",
+        "Ich beantrage ein Teilzeitstudium für das Wintersemester"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 06 2022 › hsh verkuendungsblatt 06 2022 — Ausgabe 06/2022",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/hsh_verkuendungsblatt_06_2022.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/01-2022/HsH-Verkuendungsblatt-01-2022.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/20181912_BPO_ITR_verk.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BFO.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BMO.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/03_BTPO_BPD_VB_EBU.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/03_F_III_PO_BIA_gueltig_ab_2026_.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BME.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/07_PO_F_III_gueltig_ab_2026_BVK.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/01_BTPO_BMO_VB_EBU.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BPD.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BVK.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BSKE.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_MDM.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_MDM_2014.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_BIA_2023_24.pdf"
+      ],
+      "abschnitt": "**für den Bachelor-Studiengang Innenarchitektur (BIA) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **§ 5 Teilzeitstudium**",
+      "snippets": [
+        "## **§ 5 Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen.  \n- (2) Dem Antrag auf ein Teilzeitstudium ist eine individuelle Studienverlaufsplanung (Formular „Teilzeit-Studienvereinbarung“) beizufügen. Diese Studienverlaufsplanung ist mit der Studiengangskoordinatorin/dem Studiengangskoordinator abzusprechen und von beiden zu unterzeichnen.",
+        "Dezernat III / PO BIA / 15.08.2022  \n- (6) Während der Bearbeitung der Bachelorarbeit ist ein Teilzeitstudium nicht möglich."
+      ],
+      "zitate": [
+        "Teilzeit-Studienvereinbarung",
+        "Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden.",
+        "Während der Bearbeitung der Bachelorarbeit ist ein Teilzeitstudium nicht möglich."
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 06 2022 › 01 BIA",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/01_BIA.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Innenarchitektur (BIA) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **§ 5 Teilzeitstudium**",
+      "snippets": [
+        "## **§ 5 Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen.  \n- (2) Dem Antrag auf ein Teilzeitstudium ist eine individuelle Studienverlaufsplanung (Formular „Teilzeit-Studienvereinbarung“) beizufügen. Diese Studienverlaufsplanung ist mit der Studiengangskoordinatorin/dem Studiengangskoordinator abzusprechen und von beiden zu unterzeichnen.",
+        "Dezernat III / PO BIA / 15.08.2022  \nNr. 06/2022 vom 01.10.2022  \nVerkündungsblatt der Hochschule Hannover  \n- (6) Während der Bearbeitung der Bachelorarbeit ist ein Teilzeitstudium nicht möglich."
+      ],
+      "zitate": [
+        "Teilzeit-Studienvereinbarung",
+        "Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden.",
+        "Während der Bearbeitung der Bachelorarbeit ist ein Teilzeitstudium nicht möglich."
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.18218,
+      "id": "3f9c7c8b-58ef-5095-8e09-2c65d09c0d2c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/01_BIA.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 01 BIA",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Innenarchitektur (BIA) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **§ 5 Teilzeitstudium**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "- (3) Das Studium umfasst Module des Pflicht-und Wahlpflichtbereiches. Der Gesamtumfang der Pflicht- und Wahlpflichtmodule beträgt 240 Credits (CR). Auf den ersten Studienabschnitt entfallen 90 Credits, auf den zweiten Studienabschnitt 150 Credits. Die Anlagen B1 (erster Studienabschnitt) und B2 (zw"
+    },
+    {
+      "rang": 2,
+      "score": 2.0746,
+      "id": "7a80df0a-8731-516a-b82f-6a6fcdf4b7a0",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BMO.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › 2022 PO BMO",
+      "section_heading": "**für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **§ 5** > **für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Teilzeitstudium**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "- (3) Das Studium umfasst Module des Pflicht-und Wahlpflichtbereiches. Der Gesamtumfang der Pflicht- und Wahlpflichtmodule beträgt 240 Credits (CR). Auf den ersten Studienabschnitt entfallen 90 Credits, auf den zweiten Studienabschnitt 150 Credits. Die Anlagen B1 (erster Studienabschnitt) und B2 (zw"
+    },
+    {
+      "rang": 3,
+      "score": 2.07432,
+      "id": "19709ca3-5348-5179-b8b2-86d80688b847",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/5_bmo.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 5 bmo",
+      "section_heading": "**für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **§ 5** > **für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Teilzeitstudium**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "- (3) Das Studium umfasst Module des Pflicht-und Wahlpflichtbereiches. Der Gesamtumfang der Pflicht- und Wahlpflichtmodule beträgt 240 Credits (CR). Auf den ersten Studienabschnitt entfallen 90 Credits, auf den zweiten Studienabschnitt 150 Credits. Die Anlagen B1 (erster Studienabschnitt) und B2 (zw"
+    },
+    {
+      "rang": 4,
+      "score": 2.07152,
+      "id": "7e33518b-2b32-5a81-a6b3-b6ada2da9558",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/07_BPD.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 07 BPD",
+      "section_heading": "**§ 5** > **Teilzeitstudium**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 5**\n## **Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen"
+    },
+    {
+      "rang": 5,
+      "score": 2.01897,
+      "id": "69c5bc13-5540-5c7f-8706-993570ee1bfb",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/po_master_2009_besonderer_teil_aenderung_1_2012.pdf",
+      "title_anzeige": "f4 › Informatik › Ordnungen › po master 2009 besonderer teil aenderung 1 2012",
+      "section_heading": "**`Besonderer Teil der Prüfungsordnung für den Master-Studiengang „Angewandte Informatik“ (MIN) mit dem Abschluss Master of Science der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover`** > **`§ 9 Teilzeitstudium`**",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "- (2) Dem Antrag auf ein Teilzeitstudium ist eine individuelle Studienverlaufsplanung (Formular „Teilzeit-Studienvereinbarung“) beizufügen oder dem Immatrikulationsamt spätestens bis zum Vorlesungsbeginn nachzureichen. Nach einer eingehenden Beratung durch die zuständige Abteilungsbeauftragte bzw. d"
+    },
+    {
+      "rang": 6,
+      "score": 1.91936,
+      "id": "0f68c0af-0614-552d-9886-b9437d61972e",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BSKE.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › 2022 PO BSKE",
+      "section_heading": "**§ 5** > **Teilzeitstudium**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n## **Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen"
+    },
+    {
+      "rang": 7,
+      "score": 1.91923,
+      "id": "6fd8845e-c842-556f-98fe-7d5c3a43299e",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/19-06-27-Antrag_Teilzeitstudium.pdf",
+      "title_anzeige": "f4 › Informatik › Formulare › 19 06 27 Antrag Teilzeitstudium",
+      "section_heading": "**3. Teilzeit-Studienvereinbarung**",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## **3. Teilzeit-Studienvereinbarung**  \nDem Antrag auf ein Teilzeitstudium muss eine individuelle Studienverlaufsplanung für das Teilzeitstudium beigefügt bzw. spätestens bis zum Vorlesungsbeginn beim Immatrikulationsamt nachgereicht werden: In der Beratung planen Sie gemeinsam mit der/dem zuständi"
+    },
+    {
+      "rang": 8,
+      "score": 1.9191,
+      "id": "645f748f-aa9f-5667-84f5-596a26b99168",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Studienvereinbarung_teilzeitstudium_abteilung_dm.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › Studienvereinbarung teilzeitstudium abteilung dm — Teilzeit-Studienvereinbarung",
+      "section_heading": "3. Teilzeit-Studienvereinbarung",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## 3. Teilzeit-Studienvereinbarung  \nDem Antrag auf ein Teilzeitstudium muss eine individuelle Studienverlaufsplanung für das Teilzeitstudium beigefügt bzw. spätestens bis zum Vorlesungsbeginn beim Immatrikulationsamt nachgereicht werden. In der Beratung planen Sie gemeinsam mit der/dem  \nStudiengan"
+    },
+    {
+      "rang": 9,
+      "score": 1.88872,
+      "id": "9572f7a2-235a-5a2c-9936-1852c9a0cb66",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BPD.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › 2022 PO BPD",
+      "section_heading": "**§ 5** > **Teilzeitstudium**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n## **Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen"
+    },
+    {
+      "rang": 10,
+      "score": 1.87651,
+      "id": "8091c64b-5eb9-5483-b54c-c67b668a03e5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/03_bme.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 03 bme",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mediendesign (BME) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **§ 5** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mediendesign (BME) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Teilzeitstudium**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 5**\n## **Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen"
+    },
+    {
+      "rang": 11,
+      "score": 1.83672,
+      "id": "5f208bdc-c1a5-59cc-9631-0b51f9a1094c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/hsh_verkuendungsblatt_06_2022.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › hsh verkuendungsblatt 06 2022 — Ausgabe 06/2022",
+      "section_heading": "**für den Bachelor-Studiengang Innenarchitektur (BIA) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **§ 5 Teilzeitstudium**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5 Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen.  \n- ("
+    },
+    {
+      "rang": 12,
+      "score": 1.76502,
+      "id": "c8fcf41c-feab-5a01-9bf5-32b4d1f5ca45",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/01_BTPO_BMO_VB_EBU.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › 01 BTPO BMO VB EBU",
+      "section_heading": "**§ 5** > **Teilzeitstudium**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 5**\n## **Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen"
+    },
+    {
+      "rang": 13,
+      "score": 1.75402,
+      "id": "57a76c39-955c-5af1-b445-fcb6c6f4285d",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/03_F_III_PO_BIA_gueltig_ab_2026_.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › 03 F III PO BIA gueltig ab 2026",
+      "section_heading": "**§ 5** > **Teilzeitstudium**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n## **Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen"
+    },
+    {
+      "rang": 14,
+      "score": 1.74211,
+      "id": "c9a2ec71-4a6b-5539-ba13-2186faa24b56",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Studienvereinbarung_teilzeitstudium_abteilung_dm.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › Studienvereinbarung teilzeitstudium abteilung dm — Teilzeit-Studienvereinbarung",
+      "section_heading": "**Leitfaden zur Beantragung eines Teilzeitstudiums**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **Leitfaden zur Beantragung eines Teilzeitstudiums**  \nSeit dem Sommersemester 2018 kann an der Fakultät III, Abteilung Design und Medien der Hochschule Hannover wahlweise auch in Teilzeit studiert werden.  \nDie Beantragung eines Teilzeitstudiums muss für zwei aufeinander folgende Semester bzw. e"
+    },
+    {
+      "rang": 15,
+      "score": 1.72612,
+      "id": "3810246a-f5a4-5c27-b000-347d3b26a97b",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Immatrikulationsordnung_der_Hochschule_vom_12.06.2013.pdf",
+      "title_anzeige": "f2 › Studierendenverwaltung › Gesetze Ordnungen Richtlinien › Immatrikulationsordnung der Hochschule vom 12.06.2013",
+      "section_heading": "**§ 10 Teilzeitstudium**",
+      "chunk_index": 29,
+      "text_vollstaendig": false,
+      "auszug": "- (2) Der Antrag ist bei der Fakultät bis zum Ende der Rückmeldefrist zu stellen und gilt für ein Semester. Zusammen mit dem Antrag ist eine berufliche Tätigkeit, eine gleichwertige familiäre Belastung oder andere Belastung schriftlich darzulegen und nachzuweisen, dass das Studium nicht im vollen Um"
+    },
+    {
+      "rang": 16,
+      "score": 1.71354,
+      "id": "ecc35f36-de83-5586-affd-84f503e0893c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/News/12.04.2021_Brosch_re_Dach_A5_Masterflyer__1_.pdf",
+      "title_anzeige": "f5 › Aktuelles › News › 12.04.2021 Brosch re Dach A5 Masterflyer 1 — Überblick",
+      "section_heading": "Masterstudiengänge an der Hochschule Hannover > • Teilzeit",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## • Teilzeit  \n- Alternative für alle, die neben den Beruf oder Betreuungsaufgaben studieren möchten  \n- Vollzeit in Präsenz an der Hochschule  \n- Kurze Studiendauer von i.d.R. zwei bis vier Semestern  \n- Berufsbegleitend oder berufsintegrierend möglich  \n- Längere Studiendauer, etwa doppelt so lan"
+    },
+    {
+      "rang": 17,
+      "score": 1.67283,
+      "id": "5c70cedc-9f34-5edb-b907-e1602ca7f68d",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+      "title_anzeige": "Für Studierende",
+      "section_heading": "Für Studierende > FAQ",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "[ Kann ich auch in Teilzeit studieren? ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende \"Kann ich auch in Teilzeit studieren?\")\nDas Land Niedersachsen eröffnet den Hochschulen mit § 19 Abs. 2 NHG die Möglichkeit, ein geregeltes Teilzeitstudium e"
+    },
+    {
+      "rang": 18,
+      "score": 1.63101,
+      "id": "9085dbd6-6805-5029-85a5-9676432b2e49",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik__BAH_/06_Besonderer_Teil_der_Pruefungsordnung_BAH.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik BAH › 06 Besonderer Teil der Pruefungsordnung BAH",
+      "section_heading": "**§ 4** > **Teilzeitstudium**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 4**\n## **Teilzeitstudium**  \n- (1)  Bei der Rückmeldung kann ein Teilzeitstudium für das folgende Semester beantragt werden. Der Antrag kann wiederholt gestellt werden. Während des Teilzeitstudiums können maximal 50 % der vorgegebenen Credits eines Vollzeitstudiums erworben werden. Teilzeitst"
+    },
+    {
+      "rang": 19,
+      "score": 1.61202,
+      "id": "0c748cd0-c873-5840-b578-83265df27279",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/5_Klaerung_der_Versicherungspflicht_von_Studenten_12_2012.pdf",
+      "title_anzeige": "f5 › Service › HiWi werden › 5 Klaerung der Versicherungspflicht von Studenten 12 2012",
+      "section_heading": "**Prüfung der Sozialversicherungspflicht** > Sehr geehrte",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "Wenn Sie ein sogenanntes **Teilzeitstudium** absolvieren, reicht die bloße Vorlage der Immatrikulationsbescheinigung zum Nachweis der Studenteneigenschaft im Sinne des Sozialversicherungsrechts nicht aus. In diesem Fall bitte ich Sie, unbedingt den konkreten **Umfang** des Studiums (z. B. 75 % des j"
+    },
+    {
+      "rang": 20,
+      "score": 1.6047,
+      "id": "1b87ad6b-930d-533d-a3df-5eadff0948a1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/15_BFO.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 15 BFO",
+      "section_heading": "**§ 5** > **Teilzeitstudium**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 5**\n## **Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen"
+    },
+    {
+      "rang": 21,
+      "score": 1.6047,
+      "id": "fb8eb768-b384-5b8d-aa36-be4e8924f99b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/09_BVK.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 09 BVK",
+      "section_heading": "**§ 5** > **Teilzeitstudium**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 5**\n## **Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen"
+    },
+    {
+      "rang": 22,
+      "score": 1.59854,
+      "id": "165e783f-9a7e-5af1-9d09-621ee6427a03",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/09-2018/01_BIB_BT_PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2018 › 01 BIB BT PO mit Anlagen 20182",
+      "section_heading": "**Informationsmanagement - berufsbegleitend (BIB) mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III - Medien, Information und Design der Hochschule Hannover** > **§ 9** > **Informationsmanagement - berufsbegleitend (BIB) mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III - Medien, Information und Design der Hochschule Hannover** > **Teilzeitstudium**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9**\n\n## **Teilzeitstudium**  \n- (1) Grundsätzlich können alle Studierenden auf Antrag für ein Teilzeitstudium zugelassen werden. Ein Teilzeitstudium muss für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureiche"
+    },
+    {
+      "rang": 23,
+      "score": 1.56845,
+      "id": "994ad583-1da6-51ad-a866-59522b41112b",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/19-08-31-12_F_IV_PO_MDI_2019.pdf",
+      "title_anzeige": "f4 › Informatik › Ordnungen › 19 08 31 12 F IV PO MDI 2019",
+      "section_heading": "**mit dem Abschluss „Bachelor of Science (B.Sc.)“ an der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover** > **§ 9** > **mit dem Abschluss „Bachelor of Science (B.Sc.)“ an der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover** > **Teilzeitstudium**",
+      "chunk_index": 20,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9**\n## **Teilzeitstudium**  \n- (1) Ein Teilzeitstudium gemäß § 10 der Immatrikulationsordnung der Hochschule Hannover ist in diesem Studiengang möglich.  \n- (2) Dem Antrag auf ein Teilzeitstudium ist eine individuelle Studienverlaufsplanung (Formular „Teilzeit-Studienvereinbarung“) beizufügen"
+    },
+    {
+      "rang": 24,
+      "score": 1.56538,
+      "id": "899c119c-a7d7-5345-9750-14d8ab9c388f",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/19-06-27-Antrag_Teilzeitstudium.pdf",
+      "title_anzeige": "f4 › Informatik › Formulare › 19 06 27 Antrag Teilzeitstudium",
+      "section_heading": "Ort / Datum Unterschrift des/der Studierenden",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Ort / Datum Unterschrift des/der Studierenden  \n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \nEs wird bestätigt, dass der oben aufgeführte Teil"
+    },
+    {
+      "rang": 25,
+      "score": 1.52045,
+      "id": "b0e652cf-bb4e-5adf-8543-93fc8b247b73",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/06-2009/02-PO_BSW_BT_AEnd1-23-09-2009-endg.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2009 › 02 PO BSW BT AEnd1 23 09 2009 endg",
+      "section_heading": "**§ 5 Teilzeitstudium**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5 Teilzeitstudium**  \n**In besonderen Fällen kann bei der Rückmeldung ein Teilzeitstudium für maximal ein Studienjahr beantragt werden. Während des Teilzeitstudiums können maximal 50 % der vorgegebenen Credits eines Vollzeitstudiums erworben werden.**  \n**Zusammen mit dem Antrag ist eine beso"
+    },
+    {
+      "rang": 26,
+      "score": 1.51855,
+      "id": "0cd5750f-d326-52b9-b04c-d38ba97ae109",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/10-2015/06_BA_MDI_BPO_20152_mit_Anlagen_B1_B3.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2015 › 06 BA MDI BPO 20152 mit Anlagen B1 B3 — Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung",
+      "section_heading": "**§ 9** > **Teilzeitstudium**",
+      "chunk_index": 15,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9**\n## **Teilzeitstudium**  \n- (1) Ein Teilzeitstudium gemäß § 10 der Immatrikulationsordnung der Hochschule Hannover ist in diesem Studiengang möglich.  \n- (2) Dem Antrag auf ein Teilzeitstudium ist eine individuelle Studienverlaufsplanung (Formular „Teilzeit-Studienvereinbarung“) beizufügen"
+    },
+    {
+      "rang": 27,
+      "score": 1.49535,
+      "id": "0775a919-891a-51b2-8162-720146165f06",
+      "source_url": "https://f1.hs-hannover.de/teilzeitstudium",
+      "title_anzeige": "Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik > Studienablauf",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Studienablauf\nStudierende, die ein Teilzeitstudium aufnehmen, studieren im normalen Studien- und Vorlesungsbetrieb. Sie erbringen nur die Hälfte der Prüfungen, die ein Vollzeitstudium verlangt. Mit dem Teilzeitstudium ist eine reguläre und transparente Verlängerung der Regelstudienzeit möglich.\nT"
+    },
+    {
+      "rang": 28,
+      "score": 1.48714,
+      "id": "87fc5a25-f3b6-5539-8b34-43000058d6c9",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Antrag-Teilstudium.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › Antrag Teilstudium",
+      "section_heading": "**Antrag auf ein Teilzeitstudium**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **Antrag auf ein Teilzeitstudium**  \nIch beantrage ein Teilzeitstudium für das  \n- Wintersemester ………/…….. und Sommersemester …………. □ Erster Antrag  \n- □ Studienanfänger*in □ Wiederholungsantrag  \n- Grund für das Teilzeitstudium (nur für statistische Zwecke) □ Betreuung Kinder/Pflege Angehöriger "
+    },
+    {
+      "rang": 29,
+      "score": 1.48133,
+      "id": "bb8d6c48-550a-5c1b-a88c-3250e1cb1f7f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/02_Neufassung_I-Ordnung-07_05_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 02 Neufassung I Ordnung 07 05 2013 — Immatrikulationsordnung der Hochschule Hannover (HsH)",
+      "section_heading": "**§ 10 Teilzeitstudium**",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "- (2) Der Antrag ist bei der Fakultät bis zum Ende der Rückmeldefrist zu stellen und gilt für ein Semester. Zusammen mit dem Antrag ist eine berufliche Tätigkeit, eine gleichwertige familiäre Belastung oder andere Belastung schriftlich darzulegen und nachzuweisen, dass das Studium nicht im vollen Um"
+    },
+    {
+      "rang": 30,
+      "score": 1.4769,
+      "id": "c23a2fcc-8084-5727-a84b-f361a4f2edd2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/05-2015/2_Besonderer_Teil_der_Pruefungsordnung_BSW.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2015 › 2 Besonderer Teil der Pruefungsordnung BSW",
+      "section_heading": "**für den Bachelor-Studiengang Soziale Arbeit (BSW) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover** > **§ 5** > **für den Bachelor-Studiengang Soziale Arbeit (BSW) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover** > **Teilzeitstudium**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n## **Teilzeitstudium**  \n- (1) Bei der Rückmeldung kann ein Teilzeitstudium für das folgende Semester beantragt werden. Der Antrag kann wiederholt gestellt werden. Während des Teilzeitstudiums können maximal 50 % der vorgegebenen Credits eines Vollzeitstudiums erworben werden, andernfalls"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 54902,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.69,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 5.33,
+    "docs_laden_s": 0.11,
+    "quellen_s": 7.14,
+    "antwort_llm_s": 7.52,
+    "gesamt_s": 14.66
+  },
+  "auswahl_begruendung": "{\"selected\":[8,7,11,1]}"
+}

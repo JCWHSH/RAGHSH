@@ -1,0 +1,83 @@
+{
+  "kennzahlen": {
+    "faelle_gesamt": 3,
+    "faelle_moeglich": 3,
+    "gold_in_kandidaten": 2,
+    "gold_in_quellen": 1,
+    "gold_kandidat_rang1": 0,
+    "median_rang_kandidat": 5.0,
+    "diagnosen": {
+      "antwort_unvollstaendig": 1,
+      "auswahl_fehler": 1,
+      "retrieval_fehler": 1
+    },
+    "fragmente": 1
+  },
+  "faelle": [
+    {
+      "id": "q06",
+      "herkunft": "chargy_beidawi",
+      "schwierigkeit": "mittel",
+      "fairness_risiko": "mittel",
+      "gold_im_korpus": true,
+      "rang_kandidat": 8,
+      "rang_quelle": 1,
+      "rang_chunk": 8,
+      "gold_in_kandidaten": true,
+      "gold_in_quellen": true,
+      "begriffe_quote": 0.0,
+      "begriffe_fehlend": [
+        "Stephan Rittmüller",
+        "F1-Pruefungsverwaltung"
+      ],
+      "verbotene": [],
+      "fragment_im_kontext": false,
+      "diagnose": "antwort_unvollstaendig",
+      "dauer_s": 7.86,
+      "frage": "An wen wende ich mich in der Fakultät I, wenn ich Probleme bei der Prüfungsanmeldung habe?"
+    },
+    {
+      "id": "q11",
+      "herkunft": "chargy_beidawi",
+      "schwierigkeit": "mittel",
+      "fairness_risiko": "niedrig",
+      "gold_im_korpus": true,
+      "rang_kandidat": 2,
+      "rang_quelle": null,
+      "rang_chunk": 2,
+      "gold_in_kandidaten": true,
+      "gold_in_quellen": false,
+      "begriffe_quote": 0.5,
+      "begriffe_fehlend": [
+        "iCMS"
+      ],
+      "verbotene": [],
+      "fragment_im_kontext": false,
+      "diagnose": "auswahl_fehler",
+      "dauer_s": 21.1,
+      "frage": "Wo verweist die Fakultät IV für Prüfungsanmeldung und Notenspiegel im Bereich Wirtschaftsinformatik?"
+    },
+    {
+      "id": "q19",
+      "herkunft": "chargy_beidawi",
+      "schwierigkeit": "schwer",
+      "fairness_risiko": "mittel",
+      "gold_im_korpus": true,
+      "rang_kandidat": null,
+      "rang_quelle": null,
+      "rang_chunk": null,
+      "gold_in_kandidaten": false,
+      "gold_in_quellen": false,
+      "begriffe_quote": 0.0,
+      "begriffe_fehlend": [
+        "Allgemeiner Maschinenbau",
+        "Intelligente Produktionssysteme"
+      ],
+      "verbotene": [],
+      "fragment_im_kontext": true,
+      "diagnose": "retrieval_fehler",
+      "dauer_s": 190.78,
+      "frage": "Welche Wahlpflichtmöglichkeiten nennt die HsH im Bachelorstudiengang Maschinenbau?"
+    }
+  ]
+}

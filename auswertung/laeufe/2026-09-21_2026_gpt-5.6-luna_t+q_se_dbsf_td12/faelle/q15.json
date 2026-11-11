@@ -1,0 +1,521 @@
+{
+  "fall": {
+    "id": "q15",
+    "case_type": "direct",
+    "question": "Welches Fachgebiet hat Prof. Dr.-Ing. Alexander Kreim an der HsH?",
+    "reference_answer": "Prof. Dr.-Ing. Alexander Kreim ist Professor in der Abteilung Elektro- und Informationstechnik (F1E). Sein Fachgebiet ist Elektrische Antriebe und Automatisierungstechnik (EIT-EAA). Sein Raum ist 1E.1.05 am Ricklinger Stadtweg 120 in Hannover.",
+    "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005806",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-antriebe-und-automatisierungstechnik"
+    ],
+    "required_facts": [
+      "Das Fachgebiet ist Elektrische Antriebe und Automatisierungstechnik.",
+      "Die Antwort bezieht sich auf Prof. Dr.-Ing. Alexander Kreim."
+    ],
+    "optional_facts": [
+      "Er ist Professor in der Abteilung Elektro- und Informationstechnik (F1E).",
+      "Der Raum ist 1E.1.05 am Ricklinger Stadtweg 120."
+    ],
+    "forbidden_claims": [
+      "Ein anderes Fachgebiet nennen.",
+      "Kontakt- oder Raumdaten erfinden."
+    ],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Die Antwort soll das Fachgebiet Elektrische Antriebe und Automatisierungstechnik nennen. Abteilung und Raum dürfen ergänzt werden, müssen aber zur Personenfinder-Quelle passen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Elektrische Antriebe und Automatisierungstechnik"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Fachgebietsseite nennt Kreim als Fachgebietsleiter.",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "8101ffad-45a2-5228-a738-94c4db9ed096",
+      "ee967e05-46ae-533e-9961-1ccf8de7b3a9",
+      "1f882749-1285-5dcd-a4fb-424ecda22a9c",
+      "2c620bb0-2bfe-5ef6-8240-37394822761b",
+      "5ea3fbc2-12dd-5977-9e6e-136f3d7b66a3",
+      "4a16bbbe-e2ee-58a3-b991-1199ab2dd435",
+      "00bd2cec-51ac-503d-b2f9-22ea10a47d8a",
+      "d1ee1c8b-3134-5fb7-bb9c-ebdaaa9babd1",
+      "7f88e1c0-f197-5039-8eac-f00bd2e9724d",
+      "57d17f37-ee4f-59df-a9f7-f0c941ec2de1",
+      "c4b9c32e-4ce1-5b11-b2a6-6eddb4c7bd16",
+      "b11b2e57-e327-5c6f-b4b0-b3f4665a03ff",
+      "cd609deb-db92-50f9-bdd9-cdb4321ec504",
+      "bcf0a281-2a83-535b-a147-08bda82a4384",
+      "39f7252b-58ec-598d-a476-b9c241a55a7d",
+      "b6e2690a-d57a-52dd-8f1d-6af7f0685961"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:30:06",
+  "dauer_s": 5.05,
+  "fehler": null,
+  "antwort": "Prof. Dr.-Ing. Alexander Kreims Fachgebiet ist „Elektrische Antriebe und Automatisierungstechnik (EIT-EAA)\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Prof. Dr.-Ing. Alexander Kreim",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000005806",
+      "fakultaet": "",
+      "struktur": "# Prof. Dr.-Ing. Alexander Kreim\n    ### Kontakt\n  ## Fachgebiet\n  ## Akademischer Werdegang\n  ## Ausgewählte aktuelle Publikationen"
+    },
+    {
+      "nr": 2,
+      "titel": "Elektrotechnik und Informationstechnik (EIT)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "fakultaet": "f1",
+      "struktur": "# Elektrotechnik und Informationstechnik (EIT)\n    ### Auf einen Blick\n# Kurzübersicht\n# Sie wollen nicht nur wissen, wie Dinge funktionieren ...\n  ## Studieninhalte\n  ## Vertiefungsrichtungen\n  ## Qualifikationsziele\n  ## Dokumente\n  ## Kontakt\n    ### Studiengangsleiter Vertiefungsrichtung ADT\n    ### Studiengangsleiter Vertiefungsrichtung SKI\n    ### Studiengangsleiter Vertiefungsrichtung EAE\n    ### Studiengangsleiter Vertiefungsrichtung SEL\n  ## Aus welchen Gründen haben Sie sich für ein EIT-Studium entschieden?\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 3,
+      "titel": "Fachgebiet Elektrische Antriebe und Automatisierungstechnik",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-antriebe-und-automatisierungstechnik",
+      "fakultaet": "f1",
+      "struktur": "# Fachgebiet Elektrische Antriebe und Automatisierungstechnik\n  ## Das Fachgebiet Elektrische Antriebe und Automatisierungstechnik\n  ## Personen\n  ## Lehrveranstaltungen\n    ### Überblick:\n  ## Labore\n  ## Forschung und Entwicklung\n  ## Kontakt"
+    },
+    {
+      "nr": 4,
+      "titel": "www › ISA › Steckbriefe › Steckbriefe ISA A3 V05 — Institut für Sensorik und Automation",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/03_Forschungsaktivitaeten/Forschungsinstitute/ISA/Steckbriefe/Steckbriefe_ISA_A3_V05.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Institut für Sensorik und Automation\n  ## Regelungstechnik Modellbildung und Simulation Automotive Control\n  ## Tätigkeit an der Hochschule Hannover\n  ## Beispielprojekte\n  ## Ladezustandsermittlung\n  ## Prof. Dr. Kai Homeyer\n  ## Mikroprozessortechnik Schaltungstechnik Automobilelektronik\n  ## Lichttechnik (insbesondere Solid State Lighting + Anwendungen)\n  ## Tätigkeit an der Hochschule Hannover\n  ## • Lehrgebiet:\n  ## Beispielprojekte\n  ## Tailored Light:\n  ## OptiLiMa:\n  ## Funksysteme Ortung RFID\n  ## Tätigkeit an der Hochschule Hannover\n  ## Beispielprojekte\n  ## Flexible Antennen\n  ## RF-Energy Harvesting\n  ## Grundlagen der Elektrotechnik Elektrische Messtechnik\n  ## Tätigkeit an der Hochschule Hannover\n  ## Beispielprojekte\n  ## EMSIN\n  ## TEM-Wellenleiter\n  ## Physik Werkstoffe der Elektrotechnik Energiespeichertechnologien\n  ## Tätigkeit an der Hochschule Hannover\n  ## Beispielprojekte\n  ## GHost\n  ## Industrial Ethernet (insb. PROFINET) Feldbustechnik (PROFIBUS-Richtlinien)\n  ## IT-Sicherheit in der Automatisierungstechnik Automatisierungstechnik (Fertigungs- & Prozessautomation) Energieeffizienz in der Automatisierungstechnik\n  ## Tätigkeit an der Hochschule Hannover\n  ## Beispielprojekte\n  ## IoTEnRG\n  ## Zukunftslabor Produktion\n  ## RFID Antennentechnik Energy Harvesting funkbasierte Ortung Hochfrequenz- und Mikrowellentechnik\n  ## Tätigkeit an der Hochschule Hannover\n  ## Vorstand ISA\n  ## Beispielprojekte\n  ## Funkbasierte Ortung\n  ## UTE2: Ultrahochfrequente Tiererkennung\n  ## Leistungselektronik Elektrische Antriebstechnik Photovoltaik-Systemtechnik\n  ## Tätigkeit an der Hochschule Hannover\n  ## Beispielprojekte\n  ## ISODyn: Dynamisches, modulares Prüfgerät für moderne Isolationssysteme in Elektromotoren\n  ## Digitaltechnik Embedded Systems Digitale Signalverarbeitung\n  ## Tätigkeit an der Hochschule Hannover\n  ## Beispielprojekte\n  ## SchabaTi\n  ## Integration von IoT und KI in praxisnahe Anwendungen Steuerungs- und Automatisierungstechnik\n  ## Tätigkeit an der Hochschule Hannover\n  ## Prof. Dr. Jens Christian Will"
+    },
+    {
+      "nr": 5,
+      "titel": "Fachgebiet Regelungstechnik und Mechatronik",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/regelungstechnik-und-mechatronik",
+      "fakultaet": "f1",
+      "struktur": "# Fachgebiet Regelungstechnik und Mechatronik\n  ## Das Fachgebiet Regelungstechnik und Mechatronik\n  ## Personen\n  ## Lehrveranstaltungen\n    ### Überblick:\n  ## Labore\n  ## Fachgebietsübergreifende Labore\n  ## Forschung und Entwicklung\n  ## Studienprojekte, Bachelor- und Masterarbeiten\n  ## Kontakt"
+    },
+    {
+      "nr": 6,
+      "titel": "Prof. Dr. Andreas Schmid",
+      "url": "https://f4.hs-hannover.de/service/personenfinder/person/1000026278",
+      "fakultaet": "f4",
+      "struktur": "# Prof. Dr. Andreas Schmid\n    ### Kontakt\n  ## Lehrgebiete\n  ## HSH-Gremien\n  ## eGovernment in Deutschland: eine unvermutete Erfolgsgeschichte (Prof. Dr. Andreas Schmid, 2024)"
+    },
+    {
+      "nr": 7,
+      "titel": "Prof. Dr.-Ing. Heiko Hepp",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000005107",
+      "fakultaet": "",
+      "struktur": "# Prof. Dr.-Ing. Heiko Hepp\n    ### Kontakt\n    ### Forschungsprojekte"
+    },
+    {
+      "nr": 8,
+      "titel": "Prof. Dr.-Ing. Kai Homeyer",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000004381",
+      "fakultaet": "",
+      "struktur": "# Prof. Dr.-Ing. Kai Homeyer\n    ### Kontakt\n    ### Forschungsprojekte\n  ## Fachgebiet\n  ## Lehrgebiete\n  ## Akademischer Werdegang\n  ## Forschungs- und Entwicklungsvorhaben\n  ## Ausgewählte aktuelle Publikationen"
+    },
+    {
+      "nr": 9,
+      "titel": "Prof. Dr.-Ing. Jörg Wehmeier",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000003423",
+      "fakultaet": "",
+      "struktur": "# Prof. Dr.-Ing. Jörg Wehmeier\n    ### Kontakt\n    ### Forschungsprojekte\n  ## Fachgebiet\n  ## Lehrgebiete\n  ## Akademischer Werdegang\n  ## Forschungs- und Entwicklungsvorhaben\n  ## Ausgewählte aktuelle Publikationen"
+    },
+    {
+      "nr": 10,
+      "titel": "Fachgebiet Elektrische Anlagen, Smart Grids und Hochspannungstechnik",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-anlagen-smart-grids-und-hochspannungstechnik",
+      "fakultaet": "f1",
+      "struktur": "# Fachgebiet Elektrische Anlagen, Smart Grids und Hochspannungstechnik\n  ## Fachgebiet Elektrische Anlagen, Smart Grids und Hochspannungstechnik\n  ## Personen\n  ## Lehrveranstaltungen\n    ### Überblick:\n  ## Labore\n  ## Forschung und Entwicklung\n  ## Kontakt\n    ### Teilgebiet Elektrische Anlagen und Smart Grids\n    ### Teilgebiet Hochspannungstechnik"
+    },
+    {
+      "nr": 11,
+      "titel": "Prof. Dr. Volker Krömker",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000002825",
+      "fakultaet": "",
+      "struktur": "# Prof. Dr. Volker Krömker\n    ### Kontakt\n    ### Forschungsprojekte"
+    },
+    {
+      "nr": 12,
+      "titel": "Prof. Dr.-Ing. Martin Kesting",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000023789",
+      "fakultaet": "",
+      "struktur": "# Prof. Dr.-Ing. Martin Kesting\n    ### Kontakt\n  ## Fachgebiet\n  ## Lehrgebiete\n  ## Akademischer Werdegang\n  ## Ausgewählte aktuelle Publikationen"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 1,
+      "titel": "Prof. Dr.-Ing. Alexander Kreim",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000005806"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Prof. Dr.-Ing. Alexander Kreim",
+      "url": "https://www.hs-hannover.de/service/personenfinder/person/1000005806",
+      "crawl_date": "2026-08-06",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prof. Dr.-Ing. Alexander Kreim > Kontakt",
+      "snippets": [
+        "## Fachgebiet\nElektrische Antriebe und Automatisierungstechnik (EIT-EAA)"
+      ],
+      "zitate": [
+        "Elektrische Antriebe und Automatisierungstechnik (EIT-EAA)"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 5.33535,
+      "id": "ee967e05-46ae-533e-9961-1ccf8de7b3a9",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005806",
+      "title_anzeige": "Prof. Dr.-Ing. Alexander Kreim",
+      "section_heading": "Prof. Dr.-Ing. Alexander Kreim > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "[Zum Personenfinder](https://www.hs-hannover.de/service/personenfinder \"Zum Personenfinder\")\n\n# Prof. Dr.-Ing. Alexander Kreim  \n###  Kontakt\n**Prof. Dr.-Ing. Alexander Kreim**\n_Professor\nAbt. Elektro- und Informationstechnik (F1E) _\nRaum: 1E.1.05\nRicklinger Stadtweg 120\n30459 Hannover\nalexander.kre"
+    },
+    {
+      "rang": 2,
+      "score": 3.15817,
+      "id": "349e9a6a-a84b-518d-9672-6b6d4648bf1a",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "title_anzeige": "Elektrotechnik und Informationstechnik (EIT)",
+      "section_heading": "Sie wollen nicht nur wissen, wie Dinge funktionieren ... > Kontakt > Studiengangsleiter Vertiefungsrichtung EAE",
+      "chunk_index": 32,
+      "text_vollstaendig": true,
+      "auszug": "### Studiengangsleiter Vertiefungsrichtung SKI\nProf. Dr. Matthias Moritz Fragner\nRicklinger Stadtweg 120\n30450 Hannover\n[ +49 511 9296-1608/-7769 ](tel:+49%20511%209296-1608/-7769 \"+49 511 9296-1608/-7769 anrufen\")\n[ moritz.fragner(at)hs-hannover.de  ](https://f1.hs-hannover.de/studium/studiengaenge"
+    },
+    {
+      "rang": 3,
+      "score": 3.05849,
+      "id": "b6e2690a-d57a-52dd-8f1d-6af7f0685961",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-antriebe-und-automatisierungstechnik",
+      "title_anzeige": "Fachgebiet Elektrische Antriebe und Automatisierungstechnik",
+      "section_heading": "Fachgebiet Elektrische Antriebe und Automatisierungstechnik > Kontakt",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## Forschung und Entwicklung\nDie Mitglieder des Fachgebietes sind in vielfältigen Forschungs- und Entwicklungsaktivitäten engagiert. Häufig werden die Arbeiten mit einem Kooperationspartner aus der Industrie durchgeführt. Unverzichtbar ist dabei die studentische Mitarbeit, z.B. in Form von Abschluss"
+    },
+    {
+      "rang": 4,
+      "score": 1.57948,
+      "id": "7109db12-79ea-5700-b8de-2c30f199af3b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/03_Forschungsaktivitaeten/Forschungsinstitute/ISA/Steckbriefe/Steckbriefe_ISA_A3_V05.pdf",
+      "title_anzeige": "www › ISA › Steckbriefe › Steckbriefe ISA A3 V05 — Institut für Sensorik und Automation",
+      "section_heading": "Prof. Dr. Kai Homeyer > Mikroprozessortechnik Schaltungstechnik Automobilelektronik > Lichttechnik (insbesondere Solid State Lighting + Anwendungen) > Tätigkeit an der Hochschule Hannover > • Lehrgebiet:",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Prof. Dr. Kai Homeyer\n\n## Mikroprozessortechnik Schaltungstechnik Automobilelektronik\n\n## Lichttechnik (insbesondere Solid State Lighting + Anwendungen)\n\n## Tätigkeit an der Hochschule Hannover\n\n## • Lehrgebiet:  \n- Mikroprozessor- und Schaltungstechnik (analog und digital), Eingebettete Systeme,"
+    },
+    {
+      "rang": 5,
+      "score": 1.55205,
+      "id": "6020ca95-2162-5082-855e-46aa6eb55fe4",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/regelungstechnik-und-mechatronik",
+      "title_anzeige": "Fachgebiet Regelungstechnik und Mechatronik",
+      "section_heading": "Fachgebiet Regelungstechnik und Mechatronik > Kontakt",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "## Kontakt\n**Prof. Dr.-Ing. Bernd Hans Schmidt**\n_Professor, Elektro- und Informationstechnik (F1E)_\nRaum: 1E.1.02\nRicklinger Stadtweg 120\n30459 Hannover\nbernd-hans.schmidt(at)hs-hannover.de\nProfil\n[ ![](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/10_Personen/99_Sonstige/Raumplan_R"
+    },
+    {
+      "rang": 6,
+      "score": 1.51674,
+      "id": "9b36b77a-09be-57eb-a7ef-e2e852ca5f50",
+      "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000026278",
+      "title_anzeige": "Prof. Dr. Andreas Schmid",
+      "section_heading": "Prof. Dr. Andreas Schmid > Lehrgebiete",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Lehrgebiete\nPublic Management, Controlling, (Öffentliches) Rechnungswesen, eGovernment, Digitale Transformation, Verwaltungshandeln, Verwaltungsorganisation und -steuerung\n[Veröffentlichungen](https://f4.hs-hannover.de/ueber-uns/personen/lehrende/abteilung-wirtschaftsinformatik/professorinnenprof"
+    },
+    {
+      "rang": 7,
+      "score": 1.51305,
+      "id": "481a5466-b45d-56fe-8cae-908c3551f667",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005107",
+      "title_anzeige": "Prof. Dr.-Ing. Heiko Hepp",
+      "section_heading": "Prof. Dr.-Ing. Heiko Hepp > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Prof. Dr.-Ing. Heiko Hepp  \n###  Kontakt\n**Prof. Dr.-Ing. Heiko Hepp**\n_Professor\nAbt. Elektro- und Informationstechnik (F1E) _\nRaum: 1E.1.01\nRicklinger Stadtweg 120\n30459 Hannover\nheiko.hepp(at)hs-hannover.de\n![Prof. Dr.-Ing. Heiko Hepp](data:image/jpg;base64,)"
+    },
+    {
+      "rang": 8,
+      "score": 1.47872,
+      "id": "6daf1384-45ce-55fc-8969-eb094d5a09fa",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000004381",
+      "title_anzeige": "Prof. Dr.-Ing. Kai Homeyer",
+      "section_heading": "Prof. Dr.-Ing. Kai Homeyer > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Prof. Dr.-Ing. Kai Homeyer  \n###  Kontakt\n**Prof. Dr.-Ing. Kai Homeyer**\n_Professor\nAbt. Elektro- und Informationstechnik (F1E) _\nRaum: 1B.0.03\nRicklinger Stadtweg 120\n30459 Hannover\nkai.homeyer(at)hs-hannover.de\n![Prof. Dr.-Ing. Kai Homeyer](data:image/jpg;base64,)"
+    },
+    {
+      "rang": 9,
+      "score": 1.47299,
+      "id": "4662e954-125c-51ae-b3e1-12aa5d12f984",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000003423",
+      "title_anzeige": "Prof. Dr.-Ing. Jörg Wehmeier",
+      "section_heading": "Prof. Dr.-Ing. Jörg Wehmeier > Akademischer Werdegang",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Akademischer Werdegang\nBerufung: Professor für Kommunikationstechnik und Bauelemente an der Fachhochschule Hannover, 2005\nPromotion, Thema: Stabstrom-Analyse zur Überwachung von Käfigläufermotoren, Universität Hannover, 1993\nDiplom, Universität Hannover, 1988"
+    },
+    {
+      "rang": 10,
+      "score": 1.44966,
+      "id": "5ea3fbc2-12dd-5977-9e6e-136f3d7b66a3",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000005806",
+      "title_anzeige": "Prof. Dr.-Ing. Alexander Kreim",
+      "section_heading": "Prof. Dr.-Ing. Alexander Kreim > Ausgewählte aktuelle Publikationen",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Ausgewählte aktuelle Publikationen\nKreim, A., Schäfer, U.: Bestimmung von\nUmmagnetisierungsverlusten in permanenterregten Hilfs-antrieben für Kraftfahrzeuge, Zeitschrift Elektrotechnik & Informationstechnik, 2015"
+    },
+    {
+      "rang": 11,
+      "score": 1.38808,
+      "id": "29a58eb1-ceac-545f-a7b7-9378474eb12c",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-anlagen-smart-grids-und-hochspannungstechnik",
+      "title_anzeige": "Fachgebiet Elektrische Anlagen, Smart Grids und Hochspannungstechnik",
+      "section_heading": "Fachgebiet Elektrische Anlagen, Smart Grids und Hochspannungstechnik > Personen > Fachgebiet Elektrische Anlagen, Smart Grids und Hochspannungstechnik",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Personen\n##\n[ Professoren ](https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-anlagen-smart-grids-und-hochspannungstechnik \"Professoren\")\nTeilgebiet Elektrische Anlagen und Smart Grids\n[Prof. Dr.-Ing. Andree Wenzel](https://www.hs-hannover.de/service/personenfinder/person/1000004952) (F"
+    },
+    {
+      "rang": 12,
+      "score": 1.37985,
+      "id": "0076efc5-51ad-509c-85f2-380f24255237",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000002825",
+      "title_anzeige": "Prof. Dr. Volker Krömker",
+      "section_heading": "Prof. Dr. Volker Krömker > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Prof. Dr. Volker Krömker  \n###  Kontakt\n**Prof. Dr. Volker Krömker**\n_Professor\nAbt. Bioverfahrenstechnik (F2BV) _\nRaum: 4B.1.32\nHeisterbergallee 10A\n30453 Hannover\nvolker.kroemker(at)hs-hannover.de"
+    },
+    {
+      "rang": 13,
+      "score": 1.37756,
+      "id": "ae7a2c0f-0a2c-52b7-8c0c-2f22b2ea03d8",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000023789",
+      "title_anzeige": "Prof. Dr.-Ing. Martin Kesting",
+      "section_heading": "Prof. Dr.-Ing. Martin Kesting > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Prof. Dr.-Ing. Martin Kesting  \n###  Kontakt\n**Prof. Dr.-Ing. Martin Kesting**\n_Professor\nAbt. Elektro- und Informationstechnik (F1E) _\nRaum: 1B.1.47\nRicklinger Stadtweg 120\n30459 Hannover\nmartin.kesting(at)hs-hannover.de\n![Prof. Dr.-Ing. Martin Kesting](data:image/jpg;base64,)"
+    },
+    {
+      "rang": 14,
+      "score": 1.34345,
+      "id": "acaf5de8-eb1d-5c08-ae7a-ef958a4c049b",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000033716",
+      "title_anzeige": "Prof. Dr. Pia Heins",
+      "section_heading": "Prof. Dr. Pia Heins > Akademischer Werdegang",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Akademischer Werdegang\n* Berufung: Professor für Datenbanken, Data Mining und Mathematik, Hochschule Hannover, 2020\n* Promotion: „Reconstruction Using Local Sparsity – A Novel Regularization Technique and an Asymptotic Analysis of Spatial Sparsity Priors“, Westfälische Wilhelms-Universität Münste"
+    },
+    {
+      "rang": 15,
+      "score": 1.29635,
+      "id": "abfbd0fc-ba99-59bb-8178-040f17064d0e",
+      "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000010065",
+      "title_anzeige": "Prof. Dr. Michael Kempe",
+      "section_heading": "Prof. Dr. Michael Kempe > Weiteres",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Weiteres\n* [Dozent HsH-Akademie](https://www.hs-hannover.de/hsh-akademie/dozierenden-uebersicht#c124572)\n* [Lehrbeauftragter Universität Hildesheim](https://www.uni-hildesheim.de/fb4/institute/bwl/betriebswirtschaft-und-operations-research/mitglieder/lehrbeauftragte/prof-dr-michael-kempe/ \"https:"
+    },
+    {
+      "rang": 16,
+      "score": 1.27692,
+      "id": "2309b98a-11f2-5adb-90ee-e526cc23d864",
+      "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000005781",
+      "title_anzeige": "Prof. Dr. Karin Lehmeier",
+      "section_heading": "Prof. Dr. Karin Lehmeier > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Prof. Dr. Karin Lehmeier  \n###  Kontakt\n**Prof. Dr. Karin Lehmeier**\n_Professorin\nAbt. Religionspädagogik und Diakonie (F5RD) _\nRaum: 3D.2.02\nBlumhardtstr. 2\n30625 Hannover\nkarin.lehmeier(at)hs-hannover.de\n![Prof. Dr. Karin Lehmeier](data:image/jpg;base64,)"
+    },
+    {
+      "rang": 17,
+      "score": 1.27405,
+      "id": "737a4683-29ed-5c41-a01d-e68342d1e485",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/masterstudiengang-mittelstaendische-unternehmensfuehrung-in-entrepreneurship-das-team",
+      "title_anzeige": "Das Team",
+      "section_heading": "Das Team > Prof. Dr. Michael Kempe",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Prof. Dr. Michael Kempe\nProf. Dr. Michael Kempe ist Professor für Quantitative Methoden und Marketing an der Hochschule Hannover, freiberuflicher Berater für klein- und mittelständische Unternehmen und Dozent für Digitales Marketing an der Universität Hildesheim. Nach seinem Studium des Wirtschaf"
+    },
+    {
+      "rang": 18,
+      "score": 1.26637,
+      "id": "29ae4a4a-f12e-530e-885d-e9d27e1a256f",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/ingenieurinformatik-und-angewandte-mathematik",
+      "title_anzeige": "Fachgebiet Ingenieurinformatik und angewandte Mathematik",
+      "section_heading": "Fachgebiet Ingenieurinformatik und angewandte Mathematik > Kontakt",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## Kontakt\n**Prof. Dr. Pia Heins**\n_Professorin, Elektro- und Informationstechnik (F1E)_\nRaum: 1B.0.29\nRicklinger Stadtweg 120\n30459 Hannover\npia.heins(at)hs-hannover.de\nProfil\n[ ![](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/10_Personen/99_Sonstige/Raumplan_Ricklingen.png?rbiFocu"
+    },
+    {
+      "rang": 19,
+      "score": 1.24592,
+      "id": "57c1870f-14f4-57ab-8f22-50927732f6d9",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen/50-jahre-hsh/thomas-humke",
+      "title_anzeige": "www › veranstaltungen › 50 jahre hsh › thomas humke",
+      "section_heading": "Thomas Humke",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Thomas Humke\nFür Zahlen hat sich Thomas Humke schon immer interessiert. Zuerst entschied er sich deshalb für eine Ausbildung zum Verwaltungsfachangestellten im mittleren Dienst. Doch war ihm sehr schnell klar, dass diese sehr rechtslastig war und er sich etwas anderes wünschte: „Ich benötige Entf"
+    },
+    {
+      "rang": 20,
+      "score": 1.23902,
+      "id": "0906740f-2462-5af8-877b-f92f564b821c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/03_Forschungsaktivitaeten/Forschungsinstitute/ISA/Steckbriefe/Steckbriefe_ISA_A3_V05.pdf",
+      "title_anzeige": "www › ISA › Steckbriefe › Steckbriefe ISA A3 V05 — Institut für Sensorik und Automation",
+      "section_heading": "Tätigkeit an der Hochschule Hannover",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "## Tätigkeit an der Hochschule Hannover  \n- Lehrgebiet: Prozessinformatik und Automatisierungstechnik  \n- Vertretene Fächer:  \n- Integrierte Automation  \n- Industrielle Bussysteme  \n- Prozessinterfacetechniken  \n- Labor für Prozessinformatik und Automatisierungstechnik  \n- Energieeffizientes Design "
+    },
+    {
+      "rang": 21,
+      "score": 1.23834,
+      "id": "6f6f2654-21a9-570d-b0de-51f44896086d",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000004982",
+      "title_anzeige": "Prof. Dr.-Ing. Tjark Lierse",
+      "section_heading": "Prof. Dr.-Ing. Tjark Lierse > Kurzlebenslauf",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## Kurzlebenslauf\nSeit 2010 Professor an der Hochschule Hannover, Fachgebiet Fertigungsverfahren und Fertigungsorganisation\n1998 - 2010 Industrietätigkeit in leitenden Funktionen\n1998 Promotion „Mechanische und thermische Wirkungen beim Schleifen keramischer Werkstoffe“\n1995 - 1998 Leiter der Abteil"
+    },
+    {
+      "rang": 22,
+      "score": 1.23542,
+      "id": "06cd88c0-b21f-5ca2-a253-df3397dc99ae",
+      "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000026278",
+      "title_anzeige": "Prof. Dr. Andreas Schmid",
+      "section_heading": "Prof. Dr. Andreas Schmid > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Prof. Dr. Andreas Schmid  \n###  Kontakt\n**Prof. Dr. Andreas Schmid**\n_Professor\nAbt. Wirtschaftsinformatik (F4WI) _\nRaum: 1H.2.02\nRicklinger Stadtweg 120\n30459 Hannover\nandreas.schmid(at)hs-hannover.de\n![Prof. Dr. Andreas Schmid](data:image/jpg;base64,)"
+    },
+    {
+      "rang": 23,
+      "score": 1.2317,
+      "id": "5e0c3c8b-8e8e-5397-a509-7ecc375fe1db",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs-1",
+      "title_anzeige": "Abteilung Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Kurzübersicht > Ansprechpersonen Studiengang > Studiendekanin",
+      "chunk_index": 69,
+      "text_vollstaendig": true,
+      "auszug": "### Studiendekanin\n**Prof. Dr. Karin Lehmeier**\n_Professorin, Religionspädagogik und Diakonie (F5RD)_\nRaum: 3D.2.02\nBlumhardtstr. 2\n30625 Hannover\nkarin.lehmeier(at)hs-hannover.de\n[ Profil ](https://f5.hs-hannover.de/service/personenfinder/person/1000005781 \"zum Profil von Prof. Dr. Karin Lehmeier\")"
+    },
+    {
+      "rang": 24,
+      "score": 1.23055,
+      "id": "7f88e1c0-f197-5039-8eac-f00bd2e9724d",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-antriebe-und-automatisierungstechnik",
+      "title_anzeige": "Fachgebiet Elektrische Antriebe und Automatisierungstechnik",
+      "section_heading": "Fachgebiet Elektrische Antriebe und Automatisierungstechnik > Personen > Fachgebiet Elektrische Antriebe und Automatisierungstechnik",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Personen\n##\n[ Professorinnen, Professoren und Lehrbeauftragte ](https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-antriebe-und-automatisierungstechnik \"Professorinnen, Professoren und Lehrbeauftragte\")\n[Prof. Dr.-Ing. Alexander Kreim](https://www.hs-hannover.de/service/personenfinder/pe"
+    },
+    {
+      "rang": 25,
+      "score": 1.21925,
+      "id": "8739777a-594c-5b7b-9cb8-8e65397275a8",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000003423",
+      "title_anzeige": "Prof. Dr.-Ing. Jörg Wehmeier",
+      "section_heading": "Prof. Dr.-Ing. Jörg Wehmeier > Fachgebiet > Prof. Dr.-Ing. Jörg Wehmeier > Lehrgebiete",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Fachgebiet\nKommunikationstechnik (EIT-KMT)\n\n## Lehrgebiete\nVoice over IP, Quality of Service, Entwurf, digitaler Schaltungen, Mikroprozessoren, Entwicklung von Hilfsmitteln für Menschen mit Einschränkungen"
+    },
+    {
+      "rang": 26,
+      "score": 1.20445,
+      "id": "cd2d31be-7639-5dc2-a1fe-817efaa316de",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000041500",
+      "title_anzeige": "Prof. Dr.-Ing. David Sebastian Stock",
+      "section_heading": "Prof. Dr.-Ing. David Sebastian Stock > Akademischer und beruflicher Werdegang",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Akademischer und beruflicher Werdegang\nSeit 2023 Professor an der Hochschule Hannover im Fachbereich Elektro- und Informationstechnik mit der Denomination \"Messtechnik mit dem Schwerpunkt Energietechnik und Grundlagen der BWL\"  \nSeit 2012 Leiter der Gruppe „Planung Übertragungsnetze“ am Fraunhofe"
+    },
+    {
+      "rang": 27,
+      "score": 1.18442,
+      "id": "d304ebc2-a3dd-5931-a2de-88c651344a27",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000023789",
+      "title_anzeige": "Prof. Dr.-Ing. Martin Kesting",
+      "section_heading": "Prof. Dr.-Ing. Martin Kesting > Akademischer Werdegang",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Akademischer Werdegang\nBerufung: Professor für Elektrische Messtechnik sowie Grundlagen der Regelungstechnik an der Hochschule Hannover, 2016\nProfessor für Elektro- und Energietechnik an der Hochschule Weserbergland 2011-2016\nWissenschaftlicher Mitarbeiter und Promotion zum Dr.-Ing am Institut fü"
+    },
+    {
+      "rang": 28,
+      "score": 1.16434,
+      "id": "d7cdf42c-f6e5-5590-8aac-10437167187b",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000003002",
+      "title_anzeige": "Prof. Dr.-Ing. Rüdiger Kutzner",
+      "section_heading": "Prof. Dr.-Ing. Rüdiger Kutzner > Fachgebiet > Prof. Dr.-Ing. Rüdiger Kutzner > Akademischer Werdegang",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Fachgebiet\nRegelungstechnik und Mechatronik (EIT-RTM)\n\n## Akademischer Werdegang\nBerufung an die Hochschule Hannover (2004)\nPromotion zum Dr.-Ing. an der Technischen Universität Braunschweig, Institut für Regelungstechnik (1997)\nStudium der Elektrotechnik an der Technischen Universität Braunschwe"
+    },
+    {
+      "rang": 29,
+      "score": 1.14777,
+      "id": "c6f5f2b9-efab-550d-b141-8aab5fcdce55",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen/50-jahre-hsh/stefan-tams",
+      "title_anzeige": "www › veranstaltungen › 50 jahre hsh › stefan tams",
+      "section_heading": "Prof. Dr. Stefan Tams",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Prof. Dr. Stefan Tams\nStefan Tams ist heute Professor der Wirtschaftsinformatik an der HEC Montréal University in Kanada. 2001-2006 studierte er an der Hochschule Hannover BWL und [Wirtschaftsinformatik](https://f4.hs-hannover.de/studium/bachelor-studiengaenge/wirtschaftsinformatik-bis \"Zum Studi"
+    },
+    {
+      "rang": 30,
+      "score": 1.14443,
+      "id": "17c766ba-59b5-5739-bf28-fa307f3d1636",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Beratungsangebote_SS26.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › Beratungsangebote SS26 — Studiendekan",
+      "section_heading": "**Beratungsangebote der Fakultät I Elektro- und Informationstechnik Sommersemester 2026** > **Dekan** > **Studiendekan**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "Prof. Dr. Freund Nach Vereinbarung über R.1A.1.13, Tel. 9296-1201 das Sekretariat frank.freund@hs-hannover.de f1-dekanatsbuero@hs-hannover.de Prof. Dr. Blath Nach Vereinbarung per E-Mail R. 1E.1.02, Tel. 9296-1239 jan.blath@hs-hannover.de **Vertiefungsrichtung** Nach Vereinbarung per E-Mail **Elektr"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 282,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.91,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 1.88,
+    "docs_laden_s": 0.02,
+    "quellen_s": 3.82,
+    "antwort_llm_s": 1.06,
+    "gesamt_s": 4.88
+  },
+  "auswahl_begruendung": "{\"selected\":[1]}"
+}

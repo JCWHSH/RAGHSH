@@ -1,0 +1,57 @@
+{
+  "lauf_id": "2026-09-21_1520_retrieval_t+q_se_rrf",
+  "gestartet": "2026-09-21T15:20:11",
+  "modus": "retrieval",
+  "modell": "",
+  "experiment": {
+    "dense_arms": [
+      "text",
+      "questions"
+    ],
+    "fusion": "rrf"
+  },
+  "fallauswahl": "g21,g30,q19",
+  "fallzahl": 3,
+  "notiz": "Plumbing-Test Experiment",
+  "pause_s": 0.0,
+  "premium": false,
+  "fallbasis": {
+    "hash": "adc76e82f310a2dd0eabdcd0e223a318c3642fe97aeecf460ba78359fa94c277",
+    "hash_auswahl": "84763768f621b2c0888f0bffe21be66a5f2502e0ce2d2ec8630749ad5d3c65ce",
+    "fallzahl": 3,
+    "stand": "2026-09-21T15:13:33"
+  },
+  "konfiguration": {
+    "DENSE_ARMS": [
+      "text",
+      "questions"
+    ],
+    "SPARSE_ARMS": [
+      "sparse_expanded"
+    ],
+    "TOP_K": 8,
+    "CANDIDATE_LIMIT": 200,
+    "DEDUP_BUFFER": 4,
+    "MAX_PER_URL": 2,
+    "AUGMENT_TOP_N": 3,
+    "SPARSE_LANGUAGE": "german",
+    "COLLECTION_NAME": "hsh_knowledge",
+    "FUSION": "rrf",
+    "RAG_CANDIDATE_K": 30,
+    "TOP_DOCS": 8,
+    "SELECT_N": 4,
+    "MAX_CONTEXT_TOKENS": 100000,
+    "points_count": 121134,
+    "git_commit": "2ea39a4",
+    "reranker_aktiv": false,
+    "keyword_boost": true,
+    "_wirksam": true
+  },
+  "laufzeit": {
+    "wall_clock_s": 10.3,
+    "gemessen_s": 10.3,
+    "geplante_pausen_s": 0.0,
+    "ungetrackt_s": 0.0,
+    "beendet": "2026-09-21T15:20:22"
+  }
+}

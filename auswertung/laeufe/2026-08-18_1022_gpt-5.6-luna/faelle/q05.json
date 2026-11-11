@@ -1,0 +1,544 @@
+{
+  "fall": {
+    "id": "q05",
+    "case_type": "direct",
+    "question": "Wo finde ich in der Fakultät I die Anmeldung für Studienprojekte?",
+    "reference_answer": "Die HsH belegt zwei passende Antwortpfade: Auf der Seite der Prüfungsverwaltung der Fakultät I steht im Bereich Formulare/Prüfungsangelegenheiten der Abschnitt Studienprojekte mit den Links Anmeldung Studienprojekt, Wichtige Hinweise zu Projekten bzw. Studienprojekten und Projektnummern. In den Wichtigen Hinweisen steht außerdem, dass das Projekt bzw. Studienprojekt vor Beginn im iCMS einzutragen ist und als Prüfer der allgemeine Prüfer F1 auszuwählen ist.",
+    "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die Anmeldung ist auf der Seite der Prüfungsverwaltung der Fakultät I zu finden.",
+      "Der relevante Bereich heißt Formulare/Prüfungsangelegenheiten.",
+      "Der Abschnitt heißt Studienprojekte.",
+      "Dort gibt es den Link Anmeldung Studienprojekt."
+    ],
+    "optional_facts": [
+      "Dort sind auch Hinweise zu Projekten bzw. Studienprojekten aufgeführt.",
+      "Dort sind auch Projektnummern aufgeführt."
+    ],
+    "forbidden_claims": [
+      "Die Anmeldung nur als allgemeine iCMS-Funktion ohne Projekt-/Studienprojektbezug beschreiben.",
+      "Projektangebote anderer Fakultäten als Antwort verwenden."
+    ],
+    "answer_variants": [
+      {
+        "id": "f1_pruefungsverwaltung_fundort",
+        "title": "Fundort auf der F1-Prüfungsverwaltungsseite",
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "source_policy": "exact_gold_source",
+        "accepted_source_urls": [],
+        "required_facts": [
+          "Die Anmeldung ist auf der Seite der Prüfungsverwaltung der Fakultät I zu finden.",
+          "Der relevante Bereich heißt Formulare/Prüfungsangelegenheiten.",
+          "Der Abschnitt heißt Studienprojekte.",
+          "Dort gibt es den Link Anmeldung Studienprojekt."
+        ],
+        "optional_facts": [
+          "Dort sind auch Hinweise zu Projekten bzw. Studienprojekten aufgeführt.",
+          "Dort sind auch Projektnummern aufgeführt."
+        ],
+        "forbidden_claims": [
+          "Projektangebote anderer Fakultäten als Antwort verwenden."
+        ]
+      },
+      {
+        "id": "icms_operatives_verfahren",
+        "title": "Operative Anmeldung des Studienprojekts in iCMS",
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+        "source_policy": "exact_gold_source",
+        "accepted_source_urls": [],
+        "required_facts": [
+          "Das Projekt bzw. Studienprojekt soll vor Beginn im iCMS eingetragen werden.",
+          "Für Projekte bzw. Studienprojekte der Fakultät I ist das Antragsformular mit dem darin enthaltenen Verfahren anzuwenden.",
+          "Im iCMS soll als Prüfer der allgemeine Prüfer F1 ausgewählt werden."
+        ],
+        "optional_facts": [
+          "Es gibt Ausnahmen für MEC, EWI und MAT mit Prüfer F2 oder Prüfer F4.",
+          "Der zweite Betreuende wird durch den Erstbetreuenden benannt und muss nicht im iCMS eingetragen werden."
+        ],
+        "forbidden_claims": [
+          "Die iCMS-Antwort nur als allgemeine Prüfungs- oder Veranstaltungsanmeldung ohne Studienprojektbezug darstellen.",
+          "Projektangebote anderer Fakultäten als Antwort verwenden."
+        ]
+      }
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Beide HsH-belegten Antwortpfade sind gültig: der Fundort auf der F1-Prüfungsverwaltungsseite oder das operative Verfahren aus dem PDF mit iCMS-Eintrag vor Beginn. Die Antwort darf das nicht mit allgemeinen Projektangeboten anderer Fakultäten verwechseln.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Studienprojekt",
+      "Prüfungsverwaltung"
+    ],
+    "gold_im_korpus": true
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-08-18T10:23:05",
+  "dauer_s": 5.56,
+  "fehler": null,
+  "antwort": "Die Anmeldung für Studienprojekte der Fakultät I finden Sie unter „Anmeldung Studienprojekt\" [2]. Das Formular trägt die Bezeichnung „Formular Studentenprojekt Anmeldung — Studienprojekt\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Wichtige Hinweise für Projekte bzw. Studienprojekte\n  ## Der 2. Betreuende wird durch den Erstbetreuenden benannt und muss nicht im iCMS eingetragen werden!\n  ## Anmeldungen sind ganzjährig möglich."
+    },
+    {
+      "nr": 2,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Fakultät I - Elektro- und Informationstechnik Hochschule Hannover\n  ## Studienprojekt\n  ## 1. Genaue Bezeichnung des Projektes:\n  ## 2. Prüfungsanmeldung\n  ## 3. Einverständnis der Betreuenden\n  ## 3. Bewertung"
+    },
+    {
+      "nr": 3,
+      "titel": "www › hsh akademie › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt",
+      "url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt",
+      "fakultaet": "",
+      "struktur": "# Schreibwerkstatt\n  ## Schreiben in Studium und Beruf\n  ## Willkommen!\n  ## Angebote und Maßnahmen\n  ## Feedback unserer Studierenden\n  ## Kontakt\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 4,
+      "titel": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "fakultaet": "",
+      "struktur": "    ### Anmeldung am System\n    ### Prüfungsanmeldung\n    ### Anmeldung zur Veranstaltung (Fakultät V)"
+    },
+    {
+      "nr": 5,
+      "titel": "f5 › Relpaed › Projektordnung › Projektordnung BSW BRS Stand 02 2015 — Projektverständnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_02_2015.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Projektordnung für den Bachelorstudiengang Soziale Arbeit (BSW) sowie für den Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS)\n  ## Projektverständnis\n  ## Arbeitsfelder\n  ## Projektgröße\n  ## Curriculare Organisation und Planung\n  ## Aufgabe der Lehrenden\n  ## Anforderungen an das Projektstudium\n  ## Projektwahl\n  ## Aufgaben der Modul- und Teilmodulverantwortlichen\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 6,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "fakultaet": "f1",
+      "struktur": "# Prüfungsverwaltung der Fakultät I\n  ## Ansprechpersonen\n    ### Stephan Rittmüller\n  ## Sprechzeiten\n    ### Yvonne Scholz\n  ## Sprechzeiten\n    ### Oxana Schreiber\n  ## Sprechzeiten\n  ## Formulare/Prüfungsangelegenheiten"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › Relpaed › Projektordnung › Projektordnung BSW BRS Stand 05 2011 — Projektgröße",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_05_2011.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Projektordnung für den Bachelorstudiengang Soziale Arbeit (BSW) sowie für den Bachelorstudiengang Religionspädagogik und Soziale Arbeit (BRS)\n  ## Projektverständnis\n  ## Arbeitsfelder\n  ## Projektgröße\n  ## Curriculare Organisation und Planung\n  ## Aufgabe der Lehrenden\n  ## Anforderungen an das Projektstudium\n  ## Projektwahl\n  ## Aufgaben der Modul- und Teilmodulverantwortlichen\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › Relpaed › iCMS Moodle Anleitung Studierende › Heft S Nr. 1 Anmeldung zu den Lehrveranstaltungen aus der Sicht der Studierenden Stand Mai 2021 — Anmeldeverfahren zu Lehrveranstaltungen (LV) im iCMS",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Heft_S_Nr._1__Anmeldung_zu_den_Lehrveranstaltungen_aus_der_Sicht_der_Studierenden_Stand_Mai_2021.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Begleitheft für Studierende (HeftS Nr. 1):\n  ## Anmeldeverfahren zu Lehrveranstaltungen (LV) im iCMS\n  ## Inhaltsverzeichnis\n  ## Abbildungsverzeichnis\n  ## Einstieg\n  ##  Sie sind hier: Startseite\n  ## Persönlicher Stundenplan\n  ##  Sie sind hier: Startseite\n  ## Meine Veranstaltungen\n  ##  Sie sind hier: Startseite  Menüpunkt Mein Studiengangplan\n  ## Veranstaltungen\n  ##  Sie sind hier: Startseite Veranstaltungen\n  ## Vorlesungsverzeichnis (modularisiert)\n  ## Wählen Sie ein Modul aus, das Sie belegen möchten:\n  ## Es folgt eine Bestätigung der Belegung der von Ihnen ausgewählten Veranstaltung:\n  ## Studiengangpläne\n  ##  Sie sind hier : Startseite Veranstaltungen Studiengangpläne\n  ## Studiengangpläne (Liste)\n  ## Veranstaltungen tagesaktuell\n  ## Ausfallende Veranstaltungen\n  ## Veranstaltungen sonstiger OEs\n  ## Nachfolgend wird das Anmelde-/Abmeldeverfahren beschrieben\n  ## 2.8.1 Freischaltung der Anmeldung\n  ## 2.8.2 Anmeldung starten\n  ## 2.8.3 Anmeldung mit Warteliste\n  ## 2.8.4 Mehrfachanmeldungen\n  ## 2.8.5 Anmeldung mit Gruppenprioritäten\n  ## 2.8.6 Wissenswertes über unterschiedliche Arten der Anmeldung\n  ## 7.  I nteressant für Sie zu wissen:\n  ## 8.  B ei der Anmeldung mit Gruppenprioritäten werden die Plätze erst nach\n  ## 2.8.7 Abmeldung von der Anmeldung mit Warteliste\n  ## 9.  D\n  ## 2.8.8 Abmeldung von der Anmeldung mit Gruppenprioritäten\n  ## 2.8.9 LVs mit Gender-/Diversitätsaspekten\n  ## Hier werden alle Veranstaltungen mit Gender- oder Diversitätsaspekten angezeigt.\n  ## Legende\n  ## Diverses\n  ## Ihr iCMS-Team"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 2,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf"
+    },
+    {
+      "nr": 6,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung"
+    },
+    {
+      "nr": 1,
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Fakultät I - Elektro- und Informationstechnik Hochschule Hannover** > **Studienprojekt**",
+      "snippets": [
+        "## **Fakultät I - Elektro- und Informationstechnik Hochschule Hannover**\n\n## **Studienprojekt**  \n**Name, Vorname: ___________________________________ Matr.Nr.: ____________________**  \n**E-Mail: ___________________________________________ Tel.-Nr.: _____________________**  \nHiermit beantrage ich die Betreuung eines Studienprojektes gemäß gültiger Prüfungsordnung im Studiengang:  \nBachelor: `☐` EIT `☐` MEC `☐ MAT ☐` EWI     Master:    � ESA `☐` EEE  \nZeitraum des 5 Credits Projektes vom _____________bis _____________= ____ Wochen  \n(Der Zeitraum für ein 5 Credit Projekt beträgt max. 15 Wochen. Der Umfang beträgt 150 Stunden.)  \nZeitraum des 2,5 Credit  Projektes vom _____________bis _____________= ____ Wochen  \n(Der Zeitraum für ein 2,5 Credit Projekt beträgt max. 8 Wochen. Der Umfang beträgt 75 Stunden.)  \nIn Absprache mit den Betreuenden kann ein Projekt in Ausnahmefällen um max. 4 Wochen verlängert werden.\n\n## **1. Genaue Bezeichnung des Projektes:**  \n__________________________________________________________________  \n___________________________________________________________________"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prüfungsverwaltung der Fakultät I > Formulare/Prüfungsangelegenheiten > Prüfungsverwaltung der Fakultät I",
+      "snippets": [
+        "## Formulare/Prüfungsangelegenheiten\n##\n[ Prüfungsverwaltung ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"Prüfungsverwaltung\")\n[Prüfungsplan](https://f1-ppview.wp.hs-hannover.de/)\n[Prüfungsanmeldung](https://icms.hs-hannover.de/qisserver/rds?state=user&type=0)\n[Krankmeldung](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/06-23_Krankmeldung_F1.pdf)\n[ Studienprojekte ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"Studienprojekte\")\n[Anmeldung Studienprojekt](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf)\n[Wichtige Hinweise zu Projekten bzw. Studienprojekten](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf)\n[Projektnummern](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Projektnummern.pdf)"
+      ],
+      "zitate": [
+        "Anmeldung Studienprojekt"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Wichtige Hinweise für Projekte bzw. Studienprojekte**",
+      "snippets": [
+        "## **Wichtige Hinweise für Projekte bzw. Studienprojekte**  \nFür alle Bachelor- und Masterstudiengänge der Fakultät I - Elektro- und Informationstechnik, gilt es, **ausschließlich** das Antragsformular für Projekte bzw. Studienprojekte mit dem im Formular enthaltenen Verfahren anzuwenden.  \nBitte tragen Sie **vor Beginn** Ihr Projekt bzw. Studienprojekt im iCMS ein: https://icms.hs-hannover.de/qisserver/rds?state=user&type=0  \nAls Prüfer ist nur der allgemeine „Prüfer F1“ auszuwählen.  \n( **Ausnahmen** bei MEC auch „Prüfer F2“, bei EWI auch „Prüfer F4“, bei MAT auch „Prüfer F2“ und „Prüfer F4“)\n## **Der 2. Betreuende wird durch den Erstbetreuenden benannt und muss nicht im iCMS eingetragen werden!**\n\n## **Anmeldungen sind ganzjährig möglich.**"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.14869,
+      "id": "1c2e07ed-9edd-5187-96f5-07840d8b8b62",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Wichtige_Hinweise_fuer_Projekte_bzw._Studienprojekte.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Wichtige Hinweise fuer Projekte bzw. Studienprojekte — Wichtige Hinweise für Projekte bzw. Studienprojekte",
+      "section_heading": "**Wichtige Hinweise für Projekte bzw. Studienprojekte**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Wichtige Hinweise für Projekte bzw. Studienprojekte**  \nFür alle Bachelor- und Masterstudiengänge der Fakultät I - Elektro- und Informationstechnik, gilt es, **ausschließlich** das Antragsformular für Projekte bzw. Studienprojekte mit dem im Formular enthaltenen Verfahren anzuwenden.  \nBitte tr"
+    },
+    {
+      "rang": 2,
+      "score": 1.81702,
+      "id": "7f4c9604-d503-5f44-95f8-6cddd861daa9",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/60_Pruefungsamt/Formular_Studentenprojekt_Anmeldung.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 60 Pruefungsamt › Formular Studentenprojekt Anmeldung — Studienprojekt",
+      "section_heading": "**Fakultät I - Elektro- und Informationstechnik Hochschule Hannover** > **Studienprojekt**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Fakultät I - Elektro- und Informationstechnik Hochschule Hannover**\n\n## **Studienprojekt**  \n**Name, Vorname: ___________________________________ Matr.Nr.: ____________________**  \n**E-Mail: ___________________________________________ Tel.-Nr.: _____________________**  \nHiermit beantrage ich di"
+    },
+    {
+      "rang": 3,
+      "score": 1.28957,
+      "id": "b98099b8-0e17-5d63-afee-e6d16bc6f7bb",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt",
+      "title_anzeige": "www › hsh akademie › wissenswelt sprachen und studienkompetenzen › schreibwerkstatt",
+      "section_heading": "Schreibwerkstatt > Angebote und Maßnahmen",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Im Sommersemester 2026 findet die AG Abschlussarbeiten vom 03. März - 30. Juni dienstags von 10:00 - 11:30 Uhr in Raum 1J.0.25 im Studierendenzentrum statt. Weitere Informationen über die AG, eventuelle Terminänderungen oder -ausfälle finden Sie [hier](https://moodle.hs-hannover.de/course/view.php?i"
+    },
+    {
+      "rang": 4,
+      "score": 1.18113,
+      "id": "56b47294-3a34-5418-a968-07f96881141b",
+      "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "title_anzeige": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "section_heading": "Anmeldung zur Veranstaltung (Fakultät V)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Anmeldung zur Veranstaltung (Fakultät V)\n1. Klicken Sie auf der Startseite im Bereich Quicklinks oben rechts auf _Veranstaltungen für Studiengänge_.  \nEs erscheint die folgende Ansicht:\n![Campusmanagement_Veranstaltungsmanagement](https://service.it.hs-hannover.de/media/images/Bild_4.width-800.p"
+    },
+    {
+      "rang": 5,
+      "score": 1.15437,
+      "id": "2182eb23-c17f-58c5-9bbc-cc3cb026796b",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_02_2015.pdf",
+      "title_anzeige": "f5 › Relpaed › Projektordnung › Projektordnung BSW BRS Stand 02 2015 — Projektverständnis",
+      "section_heading": "**Projektwahl**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **Projektwahl**  \nDas Projektmodul muss von Studierenden im Semester vor dessen Ableistung angemeldet werden. Die jeweiligen Anmeldefristen stehen im Vorlesungsverzeichnis. Jede Studentin und jeder Student hat Anspruch auf einen Teilmodulplatz.  \nFür die Wahl eines Teilmoduls und eines Teilprojek"
+    },
+    {
+      "rang": 6,
+      "score": 1.15411,
+      "id": "bc18985a-b5d1-5a7c-b3e7-830229c9dcac",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I > Formulare/Prüfungsangelegenheiten > Prüfungsverwaltung der Fakultät I",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## Formulare/Prüfungsangelegenheiten\n##\n[ Prüfungsverwaltung ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"Prüfungsverwaltung\")\n[Prüfungsplan](https://f1-ppview.wp.hs-hannover.de/)\n[Prüfungsanmeldung](https://icms.hs-hannover.de/qisserver/rds?state=user&type=0)\n[Kra"
+    },
+    {
+      "rang": 7,
+      "score": 1.10381,
+      "id": "15501704-b4e0-5e0c-b74e-9186c83ef23f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Projektordnung/Projektordnung_BSW_BRS_Stand_05_2011.pdf",
+      "title_anzeige": "f5 › Relpaed › Projektordnung › Projektordnung BSW BRS Stand 05 2011 — Projektgröße",
+      "section_heading": "**Projektwahl**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **Projektwahl**  \nJede Studentin und jeder Student hat Anspruch auf einen Teilmodulplatz. Die Verteilung der zur Verfügung stehenden Projektpraxisplätze wird in den Teilmodulen geregelt. Zur Information der Studierenden  \n- werden im Vorlesungsverzeichnis Teilmodulbeschreibungen mit deren Projekt"
+    },
+    {
+      "rang": 8,
+      "score": 1.08928,
+      "id": "1632ba22-8b54-5330-a86e-ec51ec39af99",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Heft_S_Nr._1__Anmeldung_zu_den_Lehrveranstaltungen_aus_der_Sicht_der_Studierenden_Stand_Mai_2021.pdf",
+      "title_anzeige": "f5 › Relpaed › iCMS Moodle Anleitung Studierende › Heft S Nr. 1 Anmeldung zu den Lehrveranstaltungen aus der Sicht der Studierenden Stand Mai 2021 — Anmeldeverfahren zu Lehrveranstaltungen (LV) im iCMS",
+      "section_heading": "9.  D",
+      "chunk_index": 31,
+      "text_vollstaendig": true,
+      "auszug": "## 9.  D  \nie (Vorab)Anmeldungen zu Veranstaltungen sehen Sie unter **Meine**  \n**Veranstaltungen** und, sobald das _**nächste**_ Semester beginnt, _**auch in Ihrem Stundenplan**_ .  \n**S e i t e 20 | 23**"
+    },
+    {
+      "rang": 9,
+      "score": 1.04845,
+      "id": "245f3226-c432-5395-a23c-c810c896e0b2",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/iCMS-Anleitung/BSW-BRS-Einfuehrung_ins_Campusmanagement-klein.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › iCMS Anleitung › BSW BRS Einfuehrung ins Campusmanagement klein",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "- Infos zu und Bearbeitung von Kontaktdaten  \n- I-Bescheinigung  \n- Anmeldung zu einigen Prüfungen (z.B. Recht), Infos zu angemeldeten Prüfungen und Notenspiegel  \n- Stundenplan  \n- Infos zu LV zu denen ihr euch angemeldet habt  \n- Herunterladen von I-Bescheinigungen  \n- • Einsehen, ob Studiengebühr"
+    },
+    {
+      "rang": 10,
+      "score": 0.93761,
+      "id": "11b9aadc-ba30-57bb-a2d2-fde210a9269c",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/NED/03_Besonderer_Teil_der_Pruefungsordnung_NED.pdf",
+      "title_anzeige": "f2 › Ordnungen › NED › 03 Besonderer Teil der Pruefungsordnung NED — Besonderer Teil der Prüfungsordnung",
+      "section_heading": "**§ 9 Inkrafttreten**",
+      "chunk_index": 24,
+      "text_vollstaendig": true,
+      "auszug": "**rechnung,**\n**Nutzungskosten**|**1**||||\n|**M-MW-**\n**07**|**Energie und**\n**Ökonomie**|||**1**|**M-MW-**||||**K120,**\n**M**|**1**|Energiemanagement, wirtschaftliche Beurteilung\nenergetischer Alternativen|\n||||||**06-03**|||||||\n||||||\n**und M-**\n**MW-07-**\n**02**|**M-MW-**\n**07-03**|**Energiemana"
+    },
+    {
+      "rang": 11,
+      "score": 0.90214,
+      "id": "98fc0491-b001-5b5b-9647-b8a16c7a8087",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT SFT",
+      "section_heading": "**Literatur**",
+      "chunk_index": 514,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \n- Meinke; Gundlach: Taschenbuch der Hochfrequenztechnik, Berlin 1992  \n- * Herter; Lörcher: Nachrichtentechnik, München 2003  \n- Vorlesungsunterlagen Grundlagen der Hochfrequenz- und Mikrowellentechnik  \n- Laborunterlagen werden bei Anmeldung zum Labor bereitgestellt  \nStand 05.09"
+    },
+    {
+      "rang": 12,
+      "score": 0.88935,
+      "id": "b9a66987-5e03-5b4d-82ed-c4c4252913fb",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+      "title_anzeige": "f5 › Relpaed › iCMS Moodle Anleitung Studierende › Anleitung fuer Studierende zur Pruefungsanmeldung in iCMS — Anleitung zur Prüfungsanmeldung für Studierende im iCMS",
+      "section_heading": "Anleitung zur Prüfungsanmeldung für Studierende im iCMS",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "S e i t e 1 | 9  \nMelden Sie sich bitte in das System mit der Benutzerkennung und dem Passwort des Hochschul-Accounts unter dem folgenden Link an: https://icms.hs-hannover.de  \nNach dem Einloggen stehen Ihnen in Ihrer Rolle als Studierende zusätzliche Funktionen zur Verfügung. Im nächsten Schritt  w"
+    },
+    {
+      "rang": 13,
+      "score": 0.88755,
+      "id": "31e0221b-be98-5229-a9ea-683fbf47364d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Heft_S_Nr._1__Anmeldung_zu_den_Lehrveranstaltungen_aus_der_Sicht_der_Studierenden_Stand_Mai_2021.pdf",
+      "title_anzeige": "f5 › Relpaed › iCMS Moodle Anleitung Studierende › Heft S Nr. 1 Anmeldung zu den Lehrveranstaltungen aus der Sicht der Studierenden Stand Mai 2021 — Anmeldeverfahren zu Lehrveranstaltungen (LV) im iCMS",
+      "section_heading": "Sie sind hier: Startseite > Meine Veranstaltungen",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "##  Sie sind hier: Startseite\n\n## Meine Veranstaltungen  \n**Meine Veranstaltungen** : hier erscheinen alle von Ihnen angemeldeten Veranstaltungen sowie Voranmeldungen.  \n1.  **V** on Interesse ist für Sie Folgendes:  \nWenn Sie _**Voranmeldungen**_ tätigen, werden diese in Ihrem **Persönlichen Stunde"
+    },
+    {
+      "rang": 14,
+      "score": 0.87091,
+      "id": "c2fc1ca0-1265-5699-b85a-1262afd5dad3",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Pruefungsverwaltung IK › 20240508 How to Pruefungsanmeldung — PRÜFUNGSANMELDUNG",
+      "section_heading": "**PRÜFUNGSANMELDUNG**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "Bis zu dem Modul navigie- **4** ren, in dem die Prüfungsanmeldung erfolgen soll. Durch Klick auf die Veranstaltung werden weitere Informationen zur Prüfung sowie der Link zur Anmeldung angezeigt.  \nIm nächsten Schritt die An- **5** meldung bestätigen, danach öffnet sich eine Zusammenfassung des Vorg"
+    },
+    {
+      "rang": 15,
+      "score": 0.86837,
+      "id": "7eb8acc7-b01c-5f02-a9da-034ff277efea",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Formulare/23-03-31-Forschungs-Praxisphase_Laufzettel_MDT__2023-03_.pdf",
+      "title_anzeige": "f4 › WI › Formulare › 23 03 31 Forschungs Praxisphase Laufzettel MDT 2023 03 — Laufzettel Forschungs-/Praxisphase",
+      "section_heading": "Anmeldung zur Forschungs-/Praxisphase",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Anmeldung zur Forschungs-/Praxisphase  \n– vor Absolvieren der Forschungs-/Praxiszeit von studierender Person auszufüllen –  \nForschungs- oder Praxisstelle: Name Straße PLZ/Ort Ansprechperson Telefonnummer Dauer der Forschungs- oder Praxiszeit vom bis  \nName der betreuenden Hochschullehrperson"
+    },
+    {
+      "rang": 16,
+      "score": 0.86525,
+      "id": "31939cc2-a8c9-5ad1-8ded-16544d040b9d",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/Zertifikate/Medizinische_Informationsmanagement_Vertiefungen-11.pdf",
+      "title_anzeige": "f3 › BMI › Zertifikate › Medizinische Informationsmanagement Vertiefungen 11 — 1 Vorbemerkungen",
+      "section_heading": "**Bitte zur Beantragung des unten angegebenen Studienschwerpunktes ausfüllen:**",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "## **Bitte zur Beantragung des unten angegebenen Studienschwerpunktes ausfüllen:**  \n||vom\nvom|vom\nvom|vom\nvom|vom\nvom|vom\nvom|||\n|---|---|---|---|---|---|---|---|\n||Studenten\nauszufüllen\nDozenten|||||||\n|Titel des Praktikums (der Praktika):\nTitel der Bachelor Arbeit:\nName des Projekts:||||||||\n||||"
+    },
+    {
+      "rang": 17,
+      "score": 0.85163,
+      "id": "6399db7e-2334-5c38-853f-46cbed922ca4",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT SFT",
+      "section_heading": "**Literatur**",
+      "chunk_index": 292,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur**  \n- Meinke; Gundlach: Taschenbuch der Hochfrequenztechnik, Berlin 1992  \n- Herter; Lörcher: Nachrichtentechnik, München 2003  \n- Vorlesungsunterlagen Grundlagen der Hochfrequenz- und Mikrowellentechnik  \n- Laborunterlagen werden bei Anmeldung zum Labor bereitgestellt  \nStand 05.09.2"
+    },
+    {
+      "rang": 18,
+      "score": 0.84804,
+      "id": "69ecc339-5841-52eb-9428-c70885c21cf9",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/regelungstechnik-und-mechatronik",
+      "title_anzeige": "Fachgebiet Regelungstechnik und Mechatronik",
+      "section_heading": "Fachgebiet Regelungstechnik und Mechatronik > Studienprojekte, Bachelor- und Masterarbeiten",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## Studienprojekte, Bachelor- und Masterarbeiten\nIm Bereich der genannten Forschungs- und Entwicklungsschwerpunkte werden eine Vielzahl von Arbeiten angeboten. Sprechen Sie uns gerne an oder kommen Sie mit eigenen Themenvorschlägen!"
+    },
+    {
+      "rang": 19,
+      "score": 0.82871,
+      "id": "4362c8e8-86aa-520f-bc64-055007e46d2f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Religionspaedagogik_und_Soziale_Arbeit/Voranmeldung_integriertes_BP_Formular2026.pdf",
+      "title_anzeige": "f5 › Formulare › Religionspaedagogik und Soziale Arbeit › Voranmeldung integriertes BP Formular2026",
+      "section_heading": "ANMELDUNG > zum Integrierten Berufsanerkennungsjahr (IBA) für Absolvent*innen der Hochschule Hannover",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## ANMELDUNG\n\n## zum Integrierten Berufsanerkennungsjahr (IBA) für Absolvent*innen der Hochschule Hannover  \nDiese Anmeldung bitte unbedingt 2 Monate vor Beginn des IBA‘s im Praktikumsamt der Fakultät V – Diakonie, Gesundheit und Soziales, Abteilung Religionspädagogik und Diakonie sowie  Soziale Arb"
+    },
+    {
+      "rang": 20,
+      "score": 0.79144,
+      "id": "e8a8b57c-b0ac-5e0a-8a7a-4680cb76ff76",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Soziale_Arbeit/BAJ/Studientagsprogramm/Studientagsprogramm_Sommer_2026.pdf",
+      "title_anzeige": "f5 › BAJ › Studientagsprogramm › Studientagsprogramm Sommer 2026 — Berufsanerkennungsjahr Studientagsprogramm",
+      "section_heading": "**Berufsanerkennungsjahr Studientagsprogramm** > **Beauftragter der Landeskirche Hannovers für das Integrierte Berufsanerkennungsjahr**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "Die Anmeldung zu den Studientagen kann entweder bei Abgabe der Voranmeldung zum Berufsanerkennungsjahr, mit der Anmeldung auf der letzten Seite oder per Email (f5-praktikumsamt@hs-hannover.de) erfolgen. Alle Formulare zum Berufsanerkennungsjahr finden - - Sie auf der Seite der Hochschule Hannover(ht"
+    },
+    {
+      "rang": 21,
+      "score": 0.78565,
+      "id": "d4809191-4741-5404-b8dd-3fbaafd2a588",
+      "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-informatik/kooperationsmoeglichkeiten-fuer-unternehmen-und-organisationen",
+      "title_anzeige": "Kooperationsmöglichkeiten für Unternehmen und Organisationen (Abt. Informatik)",
+      "section_heading": "Kooperationsmöglichkeiten für Unternehmen und Organisationen (Abt. Informatik) > Einleitung",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Einleitung\nAlle Maßnahmen sind in den normalen Studienablauf integriert und …\n* werden betreut von Professoren und Professorinnen der Abteilung Informatik;\n* werden themenabhängig in unterschiedlichem Umfang an der Hochschule oder im Unternehmen durchgeführt;\n* finden in der zweiten Studienphase "
+    },
+    {
+      "rang": 22,
+      "score": 0.78557,
+      "id": "0361bd8b-f34a-5b2e-9215-fdb8476bce3f",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 25 09 10 Studienhandbuch 2025 AbtlgInf StudyGuide CSDept 080925",
+      "section_heading": "**2.2 Studienaufbau**",
+      "chunk_index": 35,
+      "text_vollstaendig": true,
+      "auszug": "The _Central Registrar’s Office_ at the Hannover University for Applied Sciences and Arts is responsible for all questions involving enrolment, disenrolment and exemption from tuition fees.  \nOne feature of the study programs in the Department of Computer Science is the fact that the students are re"
+    },
+    {
+      "rang": 23,
+      "score": 0.7826,
+      "id": "dadb9fc0-2876-5cd3-8bd5-dc5639f399bb",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Projekte/Gesundheitsfoerderung/180709_ZwischenberichtGesundheitsfoerderungFakV_2.pdf",
+      "title_anzeige": "f5 › Projekte › Gesundheitsfoerderung › 180709 ZwischenberichtGesundheitsfoerderungFakV 2",
+      "section_heading": "4.7. Kooperative Master-Abschlussarbeiten",
+      "chunk_index": 44,
+      "text_vollstaendig": true,
+      "auszug": "## 4.7. Kooperative Master-Abschlussarbeiten  \nAn der Fakultät V der Hochschule Hannover wird großen Wert darauf gelegt, die im Studium theoretisch erlernten Inhalte möglichst praxisnah zu erproben und die Übertragung der Inhalte in die Praxis zu unterstützen. Daher wird häufig die Gelegenheit genut"
+    },
+    {
+      "rang": 24,
+      "score": 0.77918,
+      "id": "e0106e3a-42d1-5027-961c-2e477d659bc8",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "section_heading": "**3. Vorlesungsverzeichnis**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **3. Vorlesungsverzeichnis**  \nDie Lehrveranstaltung ist in Absprache mit den Modul- bzw. Teilmodulverantwortlichen bis spätestens November für das kommende Sommersemester bzw. Mai für das kommende Wintersemester anzumelden. Mit den Modul- bzw. Teilmodulbeauftragten sprechen Sie die notwendigen D"
+    },
+    {
+      "rang": 25,
+      "score": 0.77803,
+      "id": "99d0c7a3-7b42-5eb4-805f-4d0ff2bb5694",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/21-03-12-Auslandsphase_Laufzettel_MDI_Teil_1_bis_3_032021.pdf",
+      "title_anzeige": "f4 › Informatik › Formulare › 21 03 12 Auslandsphase Laufzettel MDI Teil 1 bis 3 032021 — Bachelor-Studiengang Mediendesigninformatik (MDI)",
+      "section_heading": "**Abteilung Informatik** > Hinweise zur Anmeldung der Auslandsphase:",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **Abteilung Informatik**\n\n## Hinweise zur Anmeldung der Auslandsphase:  \n- Die Anmeldung zur Auslandsphase muss vor Beginn des Auslandsaufenthalts erfolgen.  \n- Füllen Sie bitte auf dem 1. Teil des Laufzettels den Kopf des Formulars aus sowie Teil A „Anmeldung zur Auslandsphase“.  \n- Legen Sie da"
+    },
+    {
+      "rang": 26,
+      "score": 0.77038,
+      "id": "3f603eb4-a4e9-569a-85c2-3cac2eb5dd82",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Niedersaechsische_Hochschulzulassungsverordnung.pdf",
+      "title_anzeige": "f2 › Studierendenverwaltung › Gesetze Ordnungen Richtlinien › Niedersaechsische Hochschulzulassungsverordnung",
+      "section_heading": "Z w e i t e r  T e i l > **Studienplatzvergabe in zulassungsbeschränkten grundständigen Studiengängen** > E r s t e r  A b s c h n i t t > **Dialogorientiertes Serviceverfahren** > § 4",
+      "chunk_index": 52,
+      "text_vollstaendig": true,
+      "auszug": "(1)[1] Für die Bewerbung um einen Studienplatz in einem Studiengang, der im DoSV koordiniert wird, muss sich die Bewerberin oder der Bewerber über das Webportal der Stiftung registrieren.[2] Für die Registrierung hat die Bewerberin oder der Bewerber folgende Daten anzugeben: Nachname, Vorname, Gebur"
+    },
+    {
+      "rang": 27,
+      "score": 0.76952,
+      "id": "507488d0-878a-5115-a55d-21aa687b2cc4",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_V/Vorlaeufiges_Studientagsprogramm_Sommer_2026.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Vorlaeufiges Studientagsprogramm Sommer 2026",
+      "section_heading": "**Berufsanerkennungsjahr Studientagsprogramm** > **Beauftragter der Landeskirche Hannovers für das Integrierte Berufsanerkennungsjahr**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "Die Anmeldung zu den Studientagen kann entweder bei Abgabe der Voranmeldung zum Berufsanerkennungsjahr, mit der Anmeldung auf der letzten Seite oder per Email (f5-praktikumsamt@hs-hannover.de) erfolgen. Alle Formulare zum Berufsanerkennungsjahr finden Sie auf der Seite der Hochschule Hannover(https:"
+    },
+    {
+      "rang": 28,
+      "score": 0.76769,
+      "id": "0cd7d5a7-3a41-5d77-8cb3-be5e1c30f607",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Soziale_Arbeit/BAJ/Studientagsprogramm/Alte_Versionen/Studientagsprogramm_Winter_2025_2026.pdf",
+      "title_anzeige": "f5 › Studientagsprogramm › Alte Versionen › Studientagsprogramm Winter 2025 2026 — Berufsanerkennungsjahr Studientagsprogramm",
+      "section_heading": "**Berufsanerkennungsjahr Studientagsprogramm** > **Beauftragter der Landeskirche Hannovers für das Integrierte Berufsanerkennungsjahr**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "Die Anmeldung zu den Studientagen kann entweder bei Abgabe der Voranmeldung zum Berufsanerkennungsjahr, mit der Anmeldung auf der letzten Seite oder per Email (sandra-kathrin.bauer@hs-hannover.de) erfolgen. Alle Formulare zum Berufsanerkennungsjahr finden - - Sie auf der Seite der Hochschule Hannove"
+    },
+    {
+      "rang": 29,
+      "score": 0.75826,
+      "id": "6cb7c4b4-bf56-56fe-81a9-8654f58140c5",
+      "source_url": "https://f4.hs-hannover.de/forschung/veroeffentlichungen/2010",
+      "title_anzeige": "Veröffentlichungen der Fakultät IV",
+      "section_heading": "Veröffentlichungen der Fakultät IV > 2010",
+      "chunk_index": 18,
+      "text_vollstaendig": false,
+      "auszug": "Bolte, C., Köhler, S., Kock, S. (2010): Studienprojekt Stadtentwicklung Sarstedt, in: Buchholz, G. (Hrsg.), Arbeitspapier aus dem Fachbereich Wirtschaft der Fachhochschule Hannover, Hannover. [Link](https://f4.hs-hannover.de/fileadmin/media/doc/f4/Aktivitaeten/Veroeffentlichungen/2010/gb-10-03-15.pd"
+    },
+    {
+      "rang": 30,
+      "score": 0.74579,
+      "id": "6696c991-ae3e-5680-999b-9bce8b61d9b4",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/Informatik/2026-02-23_Stundenplan_SS_26.pdf",
+      "title_anzeige": "f4 › Stundenplan › Informatik › 2026 02 23 Stundenplan SS 26",
+      "section_heading": "**Für die sechsten Semester der Bachelor-Studiengangs Mediendesigninformatik:**",
+      "chunk_index": 22,
+      "text_vollstaendig": true,
+      "auszug": "Die Einteilung der MDI-Praxisprojekte aus beiden Fakultäten findet am Di. 10. März 2026 um 13:00 Uhr statt. Bitte seien Sie an dem Tag vor Ort oder lassen Sie sich notfalls vertreten. Die Beschreibung der angebotenen Projektthemen wird im entsprechenden Moodle-Kurs von den Lehrenden voraussichtlich "
+    }
+  ],
+  "token_budget": {
+    "verwendet": 3204,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.86,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 2.31,
+    "docs_laden_s": 0.05,
+    "quellen_s": 4.23,
+    "antwort_llm_s": 1.17,
+    "gesamt_s": 5.41
+  },
+  "auswahl_begruendung": "{\"selected\":[2,6,1]}"
+}

@@ -1,0 +1,530 @@
+{
+  "fall": {
+    "id": "g24",
+    "case_type": "direct",
+    "question": "Wie bekomme ich meine Forschungsergebnisse in die hochschuleigene Schriftenreihe?",
+    "reference_answer": "Mit einer Interessensbekundung an die Stabsabteilung Forschung, Entwicklung und Transfer.",
+    "source_url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/schriftenreihe-angewandte-forschung-fuer-die-welt-von-morgen",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "wenden Sie sich bitte mit einer Interessensbekundung an die Stabsabteilung Forschung, Entwicklung und Transfer"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ forschung/vorgehen. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "c88c1852-5ed9-57fb-8a84-5c2c15558043",
+      "1b2d1913-968f-5519-be83-5170fdbeefa9",
+      "4444e3d3-9dd7-5ac5-babe-c2e53517be9e"
+    ],
+    "beleg_punkte": [
+      "1b2d1913-968f-5519-be83-5170fdbeefa9"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/schriftenreihe-angewandte-forschung-fuer-die-welt-von-morgen"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:58:33",
+  "dauer_s": 8.33,
+  "fehler": null,
+  "antwort": "Wenn Sie an der HsH forschen, können Sie Ihre Ergebnisse in der Schriftenreihe veröffentlichen: „Seit 2019 bietet die Stabsabteilung Forschung, Entwicklung und Transfer in Zusammenarbeit mit der Bibliothek die Möglichkeit zur Publikation im HsH-Design.\" [1]\n\nDazu gehen Sie wie folgt vor:\n\n1. Senden Sie eine Interessensbekundung an die Stabsabteilung Forschung, Entwicklung und Transfer: „Um einen Band der Schriftenreihe „Angewandte Forschung für die Welt von morgen“ zu veröffentlichen, wenden Sie sich bitte mit einer Interessensbekundung an die Stabsabteilung Forschung, Entwicklung und Transfer.\" [1]\n2. Anschließend wird „das weitere Vorgehen besprochen, die finanziellen Mittel beantragt und die Publikation ins Layout gegeben.\" [1]\n3. Die Forschungsergebnisse werden „Open Access über das Portal SerWisS publiziert.\" [1]\n\nAnsprechperson ist „Team S3-FuE\" [1]. Die Kontaktadresse lautet „forschung(at)hs-hannover.de\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › bibliothek › services › publizieren an der hsh",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+      "fakultaet": "",
+      "struktur": "  ## Bitte beachten Sie die neue Affiliations- und Publikationsrichtlinie\n    ### Publizieren an der HsH\n  ## Open Access an der Hochschule Hannover\n  ## SerWisS - Server für Wissenschaftliche Schriften\n  ## HsH Applied Academics – Verlag der Hochschule Hannover\n    ### Kontakt\n  ## Forschungsdaten | GRO.data\n    ### Kontakt\n  ## Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"\n    ### Ansprechpersonen\n  ## OJS - Open Journal Systems\n  ## ORCID - Ihre persönliche Identifikation in Wissenschaft und Forschung\n  ## HsH-B!SON\n  ## Publikationsfonds\n  ## Kooperationen mit Verlagen"
+    },
+    {
+      "nr": 2,
+      "titel": "www › forschung › unterstuetzung und informationen fuer forschende › schriftenreihe angewandte forschung fuer die welt von morgen — Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/schriftenreihe-angewandte-forschung-fuer-die-welt-von-morgen",
+      "fakultaet": "",
+      "struktur": "# Schriftenreihe\n  ## Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"\n    ### Ansprechpersonen"
+    },
+    {
+      "nr": 3,
+      "titel": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Open Access Policy der Hochschule Hannover HsH — Präambel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Open-Access-Policy_der_Hochschule_Hannover__HsH_.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Open-Access-Policy der Hochschule Hannover (HsH)\n  ## Richtlinie der HsH\n  ## Präambel\n  ## 1 Freie Wahl der Publikationsmöglichkeiten\n  ## 2 Rahmenbedingungen\n  ## 3 Aufforderung zur OA-Publikation\n  ## 3.1 Publikation von Zeitschriftenartikeln\n  ## 3.2 Buchpublikationen\n  ## 3.2.1 HsH Applied Academics\n  ## 3.2.2 Externe Verlage\n  ## 3.3 Forschungsdatenpublikation\n  ## 4 Zweitveröffentlichungsrecht\n  ## 5 Publikationskosten (Zeitschriften, Bücher, Forschungsdaten)\n  ## 6 OA-Beauftragter\n  ## 7 Beratungsangebote zur OA-Publikation\n  ## 7.1 Zeitschriften- und Buchpublikationen\n  ## 7.2 Forschungsdatenpublikation"
+    },
+    {
+      "nr": 4,
+      "titel": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Leitlinien zur Transparenz in der Forschung — Präambel[1]",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Leitlinien_zur_Transparenz_in_der_Forschung.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Leitlinien zur Transparenz in der Forschung\n  ## Gemeinsame Position der Landeshochschulkonferenz Niedersachsen und des Niedersächsischen Ministeriums für Wissenschaft und Kultur\n  ## Präambel[1]\n  ## 1. Transparenz der Projektförderungen\n  ## 2. Transparenz der Projektergebnisse\n  ## 3. Transparenz in der Hochschule\n  ## 4. Transparenz durch Öffentlichkeit"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Verkuendungsblatt › 09 2023 › 01 vk 20230505 Entwurf Ordnung GWP final",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/09-2023/01_vk_20230505_Entwurf_Ordnung_GWP_final.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ordnung zur Sicherung guter wissenschaftlicher Praxis und zum Umgang mit wissenschaftlichem Fehlverhalten an der Hochschule Hannover\n  ## Präambel\n  ## Abschnitt I Prinzipien guter wissenschaftlicher Praxis\n  ## § 1 Reichweite dieser Ordnung\n  ## § 2 Einzelne Prinzipien guter wissenschaftlicher Praxis\n  ## § 3 Berufsethos der wissenschaftlich Tätigen\n  ## § 4 Organisationsverantwortung der Hochschulleitung\n  ## § 5 Verantwortung der Leiterinnen und Leiter von Arbeitseinheiten\n  ## § 6 Bewertung wissenschaftlicher Leistung\n  ## § 7 Phasenübergreifende Qualitätssicherung\n  ## § 8 Beteiligte, Verantwortlichkeiten, Rollen\n  ## § 9 Forschungsdesign\n  ## § 10 Rechtliche und ethische Rahmenbedingungen der Forschung\n  ## § 11 Nutzungsrechte\n  ## § 12 Methoden und Standards\n  ## § 13 Dokumentation und Archivierung\n  ## § 14 Herstellung von öffentlichem Zugang zu Forschungsergebnissen\n  ## § 15 Autorschaft\n  ## § 16 Publikationsorgane\n  ## § 17 Vertraulichkeit und Neutralität bei Begutachtungen und Beratungen\n  ## Abschnitt II Ombudswesen\n  ## § 18 Ombudspersonen\n  ## § 19 Ombudstätigkeit\n  ## Abschnitt III Verfahren im Umgang mit wissenschaftlichem Fehlverhalten\n  ## § 20 Allgemeine Prinzipien für den Umgang mit Verdachtsfällen wissenschaftlichen Fehlverhaltens\n  ## § 21 Tatbestände wissenschaftlichen Fehlverhaltens\n  ## § 22 Einleitung einer Untersuchung\n  ## § 23 Vorprüfung\n  ## § 24 Untersuchungskommission\n  ## § 25 Gang der förmlichen Untersuchung\n  ## § 26 Abschluss des Verfahrens\n  ## § 27 Mögliche Sanktionen und Maßnahmen\n  ## § 28 Übergangsvorschriften / Anwendung bei Verlassen der Hochschule Hannover\n  ## Abschnitt IV Schlussvorschriften\n  ## § 29 Inkrafttreten"
+    },
+    {
+      "nr": 6,
+      "titel": "Workshopreihe: „Hochschuleigene Flagge zum Internationalen Tag gegen Gewalt an Frauen“",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/sexualisierte-diskriminierung-und-gewalt/workshopreihe-hochschuleigene-flagge-zum-internationalen-tag-gegen-gewalt-an-frauen",
+      "fakultaet": "",
+      "struktur": "# Workshopreihe: „Hochschuleigene Flagge zum Internationalen Tag gegen Gewalt an Frauen“\n    ### Anmeldung für die Workshopreihe\n  ## Termine und Inhalte:"
+    },
+    {
+      "nr": 7,
+      "titel": "Forschungsstrategie, Richtlinien und Leitlinien",
+      "url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/forschungsstrategie-richtlinien-und-leitlinien",
+      "fakultaet": "",
+      "struktur": "# Forschungsstrategie, Richtlinien und Leitlinien\n  ## Forschungsstrategie der Hochschule Hannover\n  ## Transferstrategie der Hochschule Hannover (HsH)\n  ## Leitlinie zu Drittmittelforschung und forschungsbasiertem Wissens- und Technologietransfer der Hochschule Hannover\n  ## Leitlinie zu Forschungsinformationen an der Hochschule Hannover (HsH)\n  ## Leitlinie zum Umgang mit Forschungsdaten an der Hochschule Hannover (HsH)\n  ## Leitlinien zur Transparenz in der Forschung\n  ## Ordnung zur Sicherung guter wissenschaftlicher Praxis und zum Umgang mit wissenschaftlichem Fehlverhalten an der Hochschule Hannover\n  ## Open-Access-Policy der Hochschule Hannover (HsH)\n  ## Affiliations- und Publikationsrichtlinie der Hochschule Hannover"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 12 2011 › 02 Richtlinie zur Foerderung von Vorhaben zu FuE",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/12-2011/02-Richtlinie_zur_Foerderung_von_Vorhaben_zu_FuE.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie zur Förderung von Vorhaben zur Forschung und Entwicklung (FuE)\n  ## § 1 Allgemeines\n  ## § 2 Ermäßigungen oder Befreiungen von der Lehrverpflichtung\n  ## § 3 Gewährung von Finanzmitteln zur Unterstützung von FuE-Vorhaben\n  ## § 4 Forschungskommission\n  ## § 5 Konsultation\n  ## § 6 Anträge auf Förderung von FuE-Vorhaben\n  ## § 7 Antragsform\n  ## § 8 Berichtspflicht\n  ## Antragsbezogene Forschung:\n  ## Auftragsbezogene Forschung:\n  ## § 9\n  ## Mittelrückführung bei erfolgreicher Verwertung von Forschungsergebnissen\n  ## § 10 Finanzierung von Lehraufträgen\n  ## § 11 Termine\n  ## § 12 Kriterien, nach denen die Forschungskommission Anträge auf Förderung von FuE Vorhaben gewichtet und bewertet\n  ## Kriterien für eher positive Einschätzungen von Anträgen an die Forschungskommission (in beliebiger Reihenfolge)\n  ## Antrags- und auftragsbezogene Forschung\n  ## Interne Projekte (ohne Zuwendungen Dritter)\n  ## Allgemeine Kriterien zur positiven Bewertung\n  ## Kriterien für eher negative Einschätzungen von FuE-Vorhaben (in beliebiger Reihenfolge)\n  ## Antrags- und auftragsbezogene Forschung\n  ## Interne Projekte (ohne Zuwendungen Dritter)\n  ## Allgemeine Kriterien zur negativen Bewertung\n  ## § 13 Inkrafttreten"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 2,
+      "titel": "www › forschung › unterstuetzung und informationen fuer forschende › schriftenreihe angewandte forschung fuer die welt von morgen — Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/schriftenreihe-angewandte-forschung-fuer-die-welt-von-morgen"
+    },
+    {
+      "nr": 1,
+      "titel": "www › bibliothek › services › publizieren an der hsh",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh"
+    },
+    {
+      "nr": 3,
+      "titel": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Open Access Policy der Hochschule Hannover HsH — Präambel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Open-Access-Policy_der_Hochschule_Hannover__HsH_.pdf"
+    },
+    {
+      "nr": 7,
+      "titel": "Forschungsstrategie, Richtlinien und Leitlinien",
+      "url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/forschungsstrategie-richtlinien-und-leitlinien"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "www › forschung › unterstuetzung und informationen fuer forschende › schriftenreihe angewandte forschung fuer die welt von morgen — Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/schriftenreihe-angewandte-forschung-fuer-die-welt-von-morgen",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Schriftenreihe > Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "snippets": [
+        "Um einen Band der Schriftenreihe „[Angewandte Forschung für die Welt von morgen](https://serwiss.bib.hs-hannover.de/solrsearch/index/search/searchtype/series/id/12)“ zu veröffentlichen, wenden Sie sich bitte mit einer Interessensbekundung an die Stabsabteilung Forschung, Entwicklung und Transfer. Gemeinsam mit Ihnen wird das weitere Vorgehen besprochen, die finanziellen Mittel beantragt und die Publikation ins Layout gegeben. Wir freuen uns auf Ihre spannenden Forschungsergebnisse.",
+        "### Ansprechpersonen\nTeam S3-FuE\n[ forschung(at)hs-hannover.de  ](https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/schriftenreihe-angewandte-forschung-fuer-die-welt-von-morgen \"An forschung@hs-hannover.de eine E-Mail schreiben\")"
+      ],
+      "zitate": [
+        "das weitere Vorgehen besprochen, die finanziellen Mittel beantragt und die Publikation ins Layout gegeben.",
+        "Team S3-FuE",
+        "forschung(at)hs-hannover.de"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › bibliothek › services › publizieren an der hsh",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "snippets": [
+        "Um einen Band der Schriftenreihe „[Angewandte Forschung für die Welt von morgen](https://serwiss.bib.hs-hannover.de/solrsearch/index/search/searchtype/series/id/12)“ zu veröffentlichen, wenden Sie sich bitte mit einer Interessensbekundung an die Stabsabteilung Forschung, Entwicklung und Transfer. Gemeinsam mit Ihnen wird das weitere Vorgehen besprochen, die finanziellen Mittel beantragt und die Publikation ins Layout gegeben. Wir freuen uns auf Ihre spannenden Forschungsergebnisse.",
+        "### Ansprechpersonen\nTeam S3-FuE\n[ forschung(at)hs-hannover.de ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh \"An forschung@hs-hannover.de eine E-Mail schreiben\")"
+      ],
+      "zitate": [
+        "das weitere Vorgehen besprochen, die finanziellen Mittel beantragt und die Publikation ins Layout gegeben.",
+        "Team S3-FuE",
+        "forschung(at)hs-hannover.de"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Open Access Policy der Hochschule Hannover HsH — Präambel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Open-Access-Policy_der_Hochschule_Hannover__HsH_.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**3 Aufforderung zur OA-Publikation**",
+      "snippets": [
+        "## **3 Aufforderung zur OA-Publikation**  \nDie HsH fordert ihre Mitglieder und Angehörigen auf, ihre Forschungsergebnisse im OA zu veröffentlichen, um die Sichtbarkeit, die Zugänglichkeit und den Austausch wissenschaftlicher Erkenntnisse zu erhöhen. Dabei soll die Einhaltung von Qualitätssicherungsmaßnahmen gemäß guter wissenschaftlicher Praxis gewährleistet sein. **Die HsH fordert alle Mitglieder und Angehörigen der Hochschule auf, geeignete OA-Publikationsformate für die Veröffentlichung ihrer Forschungsergebnisse zu nutzen.**",
+        "## **3.2 Buchpublikationen**\n\n## **3.2.1 HsH Applied Academics**  \nDie Bibliothek der HsH ermöglicht im Rahmen ihrer personellen Möglichkeiten ihren Mitgliedern und Angehörigen die Veröffentlichung von Buchpublikationen (z. B. Monographien, Sammelbände und Qualifikationsschriften) über den hochschuleigenen OA-Verlag _HsH Applied Academics_ . Im Sinne der Zugänglichkeit, Verbreitung und Nachnutzbarkeit wissenschaftlicher Erkenntnisse entscheiden sich die Mitglieder und Angehörigen dabei für eine CreativeCommons-Lizenz und räumen dem Verlag ein einfaches Nutzungsrecht ein. Publikationen im hochschuleigenen OA-Verlag durchlaufen grundsätzlich einen inhaltlichen und technischformalen Qualitätssicherungsprozess."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Forschungsstrategie, Richtlinien und Leitlinien",
+      "url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/forschungsstrategie-richtlinien-und-leitlinien",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Forschungsstrategie, Richtlinien und Leitlinien > Affiliations- und Publikationsrichtlinie der Hochschule Hannover",
+      "snippets": [
+        "## Affiliations- und Publikationsrichtlinie der Hochschule Hannover\nUm sicherzustellen, dass Ihre Publikation an der HsH auch dieser Einrichtung zugeordnet wird, beachten Sie bitte die Affiliations- und Publikationsrichtlinie der Hochschule Hannover.\nDie vollständige Richtlinie finden Sie [hier](https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Affiliations-_und_Publikationsrichtlinie_der_Hochschule_Hannover.pdf)\n* * *"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.52361,
+      "id": "ab56d9b2-ca79-5876-962c-304559470bb3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+      "title_anzeige": "www › bibliothek › services › publizieren an der hsh",
+      "section_heading": "Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "### Kontakt\nDipl.-Chem. Sebastian Lehmann\nExpo Plaza 4\nRaum: 2C.0.15\n30539 Hannover\n[ +49 511 9296-7040 ](tel:+49%20511%209296-7040 \"+49 511 9296-7040 anrufen\")\n[ fdm(at)hs-hannover.de  ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh \"An fdm@hs-hannover"
+    },
+    {
+      "rang": 2,
+      "score": 2.31202,
+      "id": "1b2d1913-968f-5519-be83-5170fdbeefa9",
+      "source_url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/schriftenreihe-angewandte-forschung-fuer-die-welt-von-morgen",
+      "title_anzeige": "www › forschung › unterstuetzung und informationen fuer forschende › schriftenreihe angewandte forschung fuer die welt von morgen — Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "section_heading": "Schriftenreihe > Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# Schriftenreihe  \n##  Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"\nSie forschen an der HsH und möchten Ihre Ergebnisse kommunizieren? Seit 2019 bietet die Stabsabteilung [Forschung, Entwicklung und Transfer](https://www.hs-hannover.de/forschung \"Mehr zur Forschung an der HsH\") in Z"
+    },
+    {
+      "rang": 3,
+      "score": 2.24598,
+      "id": "c646556a-b3ea-516f-8aef-83aa19079cb5",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+      "title_anzeige": "www › bibliothek › services › publizieren an der hsh",
+      "section_heading": "Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "##  Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"\nSie forschen an der HsH und möchten Ihre Ergebnisse kommunizieren? Seit 2019 bietet die Stabsabteilung [Forschung, Entwicklung und Transfer](https://www.hs-hannover.de/forschung \"Mehr zur Forschung an der HsH\") in Zusammenarbeit mit d"
+    },
+    {
+      "rang": 4,
+      "score": 2.11647,
+      "id": "c88c1852-5ed9-57fb-8a84-5c2c15558043",
+      "source_url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/schriftenreihe-angewandte-forschung-fuer-die-welt-von-morgen",
+      "title_anzeige": "www › forschung › unterstuetzung und informationen fuer forschende › schriftenreihe angewandte forschung fuer die welt von morgen — Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "section_heading": "Schriftenreihe > Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Schriftenreihe  \n##  Schriftenreihe \"Angewandte Forschung für die Welt von morgen\"\nSie forschen an der HsH und möchten Ihre Ergebnisse kommunizieren? Seit 2019 bietet die Stabsabteilung [Forschung, Entwicklung und Transfer](https://www.hs-hannover.de/forschung \"Mehr zur Forschung an der HsH\") in Z"
+    },
+    {
+      "rang": 5,
+      "score": 1.61799,
+      "id": "588c971b-942f-5641-8233-1b543c2e7ecf",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Open-Access-Policy_der_Hochschule_Hannover__HsH_.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Open Access Policy der Hochschule Hannover HsH — Präambel",
+      "section_heading": "**3 Aufforderung zur OA-Publikation**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **3 Aufforderung zur OA-Publikation**  \nDie HsH fordert ihre Mitglieder und Angehörigen auf, ihre Forschungsergebnisse im OA zu veröffentlichen, um die Sichtbarkeit, die Zugänglichkeit und den Austausch wissenschaftlicher Erkenntnisse zu erhöhen. Dabei soll die Einhaltung von Qualitätssicherungsm"
+    },
+    {
+      "rang": 6,
+      "score": 1.46156,
+      "id": "3e2e0c33-bc6a-54f3-a001-1d165b2c81a5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Open-Access-Policy_der_Hochschule_Hannover__HsH_.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Open Access Policy der Hochschule Hannover HsH — Präambel",
+      "section_heading": "**3.2 Buchpublikationen** > **3.2.1 HsH Applied Academics**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **3.2 Buchpublikationen**\n\n## **3.2.1 HsH Applied Academics**  \nDie Bibliothek der HsH ermöglicht im Rahmen ihrer personellen Möglichkeiten ihren Mitgliedern und Angehörigen die Veröffentlichung von Buchpublikationen (z. B. Monographien, Sammelbände und Qualifikationsschriften) über den hochschul"
+    },
+    {
+      "rang": 7,
+      "score": 1.2934,
+      "id": "197718cc-484b-5095-8498-2cf19355d143",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Leitlinien_zur_Transparenz_in_der_Forschung.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Leitlinien zur Transparenz in der Forschung — Präambel[1]",
+      "section_heading": "_**2.**_ **Transparenz der Projektergebnisse**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "Die Hochschulen werden Open-Access-Strategien entwickeln, um den Zugang zu Forschungsergebnissen innerhalb der Wissenschaft wie für die Öffentlichkeit zu erleichtern.  \n> 3 z.B. Institut, Seminar; bei Fachhochschulen ggf. Fakultät 4 Sofern z.B. aus Gründen der Wettbewerbssituation vertraglich Vertra"
+    },
+    {
+      "rang": 8,
+      "score": 1.22448,
+      "id": "df2996a6-b0ec-55d6-818b-caa8434dff88",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/09-2023/01_vk_20230505_Entwurf_Ordnung_GWP_final.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2023 › 01 vk 20230505 Entwurf Ordnung GWP final",
+      "section_heading": "**§ 13 Dokumentation und Archivierung**",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 13 Dokumentation und Archivierung**  \n- (1) Wissenschaftlich Tätige dokumentieren alle für das Zustandekommen eines Forschungsergebnisses relevanten Informationen so nachvollziehbar, wie es im betroffenen Fachgebiet erforderlich und angemessen ist, um das Ergebnis überprüfen und bewerten zu k"
+    },
+    {
+      "rang": 9,
+      "score": 1.17044,
+      "id": "edb4b79a-9f0f-5055-8186-7c3bab0c9760",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Leitlinien_zur_Transparenz_in_der_Forschung.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Leitlinien zur Transparenz in der Forschung — Präambel[1]",
+      "section_heading": "_**2.**_ **Transparenz der Projektergebnisse**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## _**2.**_ **Transparenz der Projektergebnisse**  \nDie Hochschulen werden Ergebnisse von öffentlich geförderten Forschungsprojekten entsprechend der Praxis der DFG (GEPRIS) nach Abschluss als Kurzfassung über Internet der Öffentlichkeit zugänglich machen. Ergebnisse anderer Forschungsprojekte werde"
+    },
+    {
+      "rang": 10,
+      "score": 1.0335,
+      "id": "5586393e-a5a2-581c-8246-50571b65f0fb",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/sexualisierte-diskriminierung-und-gewalt/workshopreihe-hochschuleigene-flagge-zum-internationalen-tag-gegen-gewalt-an-frauen",
+      "title_anzeige": "Workshopreihe: „Hochschuleigene Flagge zum Internationalen Tag gegen Gewalt an Frauen“",
+      "section_heading": "Workshopreihe: „Hochschuleigene Flagge zum Internationalen Tag gegen Gewalt an Frauen“",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "**DAFÜR BRAUCHEN WIR DICH!**\nWir laden alle Mitarbeitende und Studierende ein, an unserem Workshop zur „Hochschuleigenen Flagge zum Internationalen Tag gegen Gewalt an Frauen“ an drei Workshoptagen teilzunehmen. Am Ende der Workshop-Reihe entscheidet eine Jury über eine finale Fassung unserer „Hochs"
+    },
+    {
+      "rang": 11,
+      "score": 0.92152,
+      "id": "8118701f-0711-5d2b-af8c-e2cb067b2ee7",
+      "source_url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende/forschungsstrategie-richtlinien-und-leitlinien",
+      "title_anzeige": "Forschungsstrategie, Richtlinien und Leitlinien",
+      "section_heading": "Forschungsstrategie, Richtlinien und Leitlinien > Affiliations- und Publikationsrichtlinie der Hochschule Hannover",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "## Affiliations- und Publikationsrichtlinie der Hochschule Hannover\nUm sicherzustellen, dass Ihre Publikation an der HsH auch dieser Einrichtung zugeordnet wird, beachten Sie bitte die Affiliations- und Publikationsrichtlinie der Hochschule Hannover.\nDie vollständige Richtlinie finden Sie [hier](htt"
+    },
+    {
+      "rang": 12,
+      "score": 0.91672,
+      "id": "e2beac15-0405-5fbc-ac1c-74f9b03c5154",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/12-2011/02-Richtlinie_zur_Foerderung_von_Vorhaben_zu_FuE.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2011 › 02 Richtlinie zur Foerderung von Vorhaben zu FuE",
+      "section_heading": "**`§ 9`** > **`Mittelrückführung bei erfolgreicher Verwertung von Forschungsergebnissen`**",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "## **`§ 9`**\n\n## **`Mittelrückführung bei erfolgreicher Verwertung von Forschungsergebnissen`**  \nBei der Verwertung von Forschungsergebnissen sind die Vorschriften des Arbeitnehmererfindungsgesetzes (ArbnErfG) zu beachten.  \nBei erfolgreicher Verwertung kann im Einzelfall eine weitergehende Vereinb"
+    },
+    {
+      "rang": 13,
+      "score": 0.89235,
+      "id": "46b97c1a-51e1-53e1-9b4d-e224c40361af",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/08-2021/01-S3-Richtlinien_gute_wissenschaftliche_Praxis_mit_Anpassung_aus_Praesidiumssitzung_2.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2021 › 01 S3 Richtlinien gute wissenschaftliche Praxis mit Anpassung aus Praesidiumssitzung 2",
+      "section_heading": "**Richtlinien zur Sicherung guter wissenschaftlicher Praxis und zum Umgang mit wissenschaftlichem Fehlverhalten an der Hochschule Hannover** > b) Spezielle Anforderungen",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "7. Grundsätzlich sind die mit öffentlichen Mitteln erzielten Forschungsergebnisse zu veröffentlichen, ebenso ist über falsifizierte Hypothesen oder Irrtümer öffentlich zu berichten. Dabei sind Redlichkeit in der Anerkennung und angemessenen Berücksichtigung der Beiträge von Vorgängerinnen und Vorgän"
+    },
+    {
+      "rang": 14,
+      "score": 0.84054,
+      "id": "ede877cb-5e84-5d7b-ae15-1ce1ad482a49",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/09-2023/01_vk_20230505_Entwurf_Ordnung_GWP_final.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2023 › 01 vk 20230505 Entwurf Ordnung GWP final",
+      "section_heading": "**§ 15 Autorschaft**",
+      "chunk_index": 28,
+      "text_vollstaendig": true,
+      "auszug": "- (5) Wissenschaftlich Tätige verständigen sich rechtzeitig – in der Regel spätestens bei Formulierung des Manuskripts – darüber, wer Autorin oder Autor der Forschungsergebnisse werden soll. Die Verständigung hat anhand nachvollziehbarer Kriterien und unter Berücksichtigung der Konventionen jedes Fa"
+    },
+    {
+      "rang": 15,
+      "score": 0.83538,
+      "id": "7446b1fc-b6cc-53e2-9587-fd2b6eaf6f38",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/Netzwerke_-_Romppel.pdf",
+      "title_anzeige": "f5 › Personen › Romppel › Netzwerke Romppel",
+      "section_heading": "7.1. ZUR DISKUSSION",
+      "chunk_index": 655,
+      "text_vollstaendig": true,
+      "auszug": "einer Verbindung von Forschung und Beratung bleibt ungenau, welche Eingriffe ins Feld erfolgen, zu welchem Zeitpunkt die ForscherInnen in die Rolle der Berater wechseln und ob dabei nicht die eigenen Forschungsergebnisse zum Untersuchungsgegenstand werden? Dann würde die eigene Tätigkeit untersucht,"
+    },
+    {
+      "rang": 16,
+      "score": 0.81915,
+      "id": "857d4dbb-0a30-5e82-a6c9-4171b470ecf5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Affiliations-_und_Publikationsrichtlinie_der_Hochschule_Hannover.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Affiliations und Publikationsrichtlinie der Hochschule Hannover — Vorwort",
+      "section_heading": "**5 Zugehörigkeit zu mehreren Institutionen**",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## **5 Zugehörigkeit zu mehreren Institutionen**  \nIm Falle der Zugehörigkeit zu mehreren Institutionen sind diese wie folgt anzugeben:  \n[Ihr Name][1, 2, 3]  \n- 1 Hochschule Hannover, [Fakultät, Institut oder OE], [Straßenname und Hausnummer],  \n[Postleitzahl] Hannover, Deutschland  \n2 [Institution"
+    },
+    {
+      "rang": 17,
+      "score": 0.80514,
+      "id": "f97b330e-48b4-5e99-a026-fd3bbcd30252",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/Hinweise_SchriflArb_20250314.pdf",
+      "title_anzeige": "f5 › Pflege › Pruefungen › Hinweise SchriflArb 20250314 — Stand: März 2025",
+      "section_heading": "**Hochschulschriften (Thesis, Dissertation, Habilitation, Forschungsberichte):**",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "## **Hochschulschriften (Thesis, Dissertation, Habilitation, Forschungsberichte):**  \nNachname, Vorname der verfassenden Person (Erscheinungsjahr): Sachtitel. Hochschulort. Fakultät oder Fachbereich. Bezeichnung für Art der Schrift. Datum der Abgabe.  \n> _Beispiel_ : Kopke, Kirsten (2010): Die Atems"
+    },
+    {
+      "rang": 18,
+      "score": 0.78642,
+      "id": "9ae88a56-9d68-5c30-9a65-e509005b6b3b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Affiliations-_und_Publikationsrichtlinie_der_Hochschule_Hannover.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Affiliations und Publikationsrichtlinie der Hochschule Hannover — Vorwort",
+      "section_heading": "**7 ORCID**",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## **7 ORCID**  \nDie publizierenden Mitglieder und Angehörigen der HsH werden aufgefordert, sich ein ORCiDProfil einzurichten, dieses für jede*n sichtbar zu machen und zu pflegen. Die Einrichtung eines ORCiD-Profils ist für die automatisierte Erfassung der Publikationen von Mitgliedern und Angehörig"
+    },
+    {
+      "rang": 19,
+      "score": 0.75624,
+      "id": "67ddadac-0aad-5af2-a0db-da9659b25f12",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Veranstaltungsmanagement/Call_for_Papers_-_EES_2026.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Veranstaltungsmanagement › Call for Papers EES 2026",
+      "section_heading": "**Einreichungsrichtlinien**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## **Einreichungsrichtlinien**  \n- Reichen Sie ein erweitertes Abstract von maximal 2.000 Wörtern bis zum **31. März 2026** bei **ees@hs-hannover.de** ein.  \n- Alle eingereichten Beiträge werden begutachtet (peer-review).  \n- Autoren akzeptierter Beiträge werden eingeladen, ihre Beiträge am **11. Ju"
+    },
+    {
+      "rang": 20,
+      "score": 0.74635,
+      "id": "7f0c0ce4-8e71-555f-8b6c-437802def52f",
+      "source_url": "https://f4.hs-hannover.de/service/personenfinder/person/1000002922",
+      "title_anzeige": "Prof. Dr. Patricia Adam",
+      "section_heading": "Prof. Dr. Patricia Adam > Weiteres",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Weiteres\n* Schriftenreihe [Management](https://serwiss.bib.hs-hannover.de/solrsearch/index/search/searchtype/series/id/11)\n* [ORCID](https://orcid.org/0000-0001-9335-4198)\n## Zur Person\n* <https://www.patricia-adam.com/person>"
+    },
+    {
+      "rang": 21,
+      "score": 0.74635,
+      "id": "bf5eb7ea-e45d-5fba-8960-ba2a8e0c16d5",
+      "source_url": "https://www.hs-hannover.de/service/personenfinder/person/1000002922",
+      "title_anzeige": "Prof. Dr. Patricia Adam",
+      "section_heading": "Prof. Dr. Patricia Adam > Weiteres",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Weiteres\n* Schriftenreihe [Management](https://serwiss.bib.hs-hannover.de/solrsearch/index/search/searchtype/series/id/11)\n* [ORCID](https://orcid.org/0000-0001-9335-4198)\n## Zur Person\n* <https://www.patricia-adam.com/person>"
+    },
+    {
+      "rang": 22,
+      "score": 0.74043,
+      "id": "c3615bb2-0df0-54a0-b9a8-dae6e6c963a5",
+      "source_url": "https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-forschende",
+      "title_anzeige": "Unterstützung und Informationen für Forschende an der HsH",
+      "section_heading": "Unterstützung und Informationen für Forschende an der HsH",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Unterstützung und Informationen für Forschende an der HsH  \n* * *\nHier finden Sie zu weiterführende Informationen zu Forschung, Entwicklung und Transfer zu folgenden Themenbereichen:\n**[Forschungsstrategie und Leitlinien](https://www.hs-hannover.de/forschung/unterstuetzung-und-informationen-fuer-"
+    },
+    {
+      "rang": 23,
+      "score": 0.7379,
+      "id": "3d46e48c-d318-5961-987f-ab803307159c",
+      "source_url": "https://testim.wp.hs-hannover.de/wp-content/uploads/2021/06/3.3-IIS-Informationseinrichtungen_u%CC%88berregionale-Literaturversorgung.pdf",
+      "title_anzeige": "testim › 3.3 IIS Informationseinrichtungen überregionale Literaturversorgung — Übersicht Informationseinrichtungen",
+      "section_heading": "**Überregionale Literaturversorgung** _Teilmodul „Informationsinfrastrukturen“_ > **7. Zeitschriftendatenbank (ZDB)**",
+      "chunk_index": 22,
+      "text_vollstaendig": true,
+      "auszug": "## **7. Zeitschriftendatenbank (ZDB)**  \n- wird in Kooperation von 3.700 deutschen und österreichischen Bibliotheken erstellt  \n- mehr als 1,9 Mio. Titelnachweise  \n- mehr als 17 Mio. Besitznachweise  \n- liefert Sucheinstiege für:  \n**Hinweis:** Nur Bestandsnachweis, keine Volltexte  \n- Zeitschrifte"
+    },
+    {
+      "rang": 24,
+      "score": 0.71322,
+      "id": "3878bdc5-b472-50e3-ac93-9862d25ace08",
+      "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000029661",
+      "title_anzeige": "Prof. Dr. Malte Pfeiffer",
+      "section_heading": "Prof. Dr. Malte Pfeiffer > Veröffentlichungen und mehr...",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "Pfeiffer, M. (2018) Dritte Räume. Zur Hybridität eines Theaters zwischen Wissenschaft und Kunst. In: Hinz, M./ Kranixfeld, M./ Köhler, N./ Scheurle, C. (Hrsg.): [Forschendes Theater in Sozialen Feldern](https://www.kopaed.de/kopaedshop/?pid=1087 \"Opens external link in current window\"), Schriftenrei"
+    },
+    {
+      "rang": 25,
+      "score": 0.71025,
+      "id": "41e37b1c-5b9c-51eb-a51d-9ead938fc05f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Info9.pdf",
+      "title_anzeige": "www › Bibliothek › Allgemeine Dateien › Info9",
+      "section_heading": "Wie funktioniert eine Veröffentlichung auf SerWisS?",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Wie funktioniert eine Veröffentlichung auf SerWisS?  \nAuf https://serwiss.bib.hs-hannover.de wählen Sie „Veröffentlichen“, um Ihre Publikation (möglichst im Format PDF/A, ohne Kennwortschutz!) hochzuladen. Wählen Sie den passenden Dokumententyp, tragen Sie Ihre Kontaktdaten ein und ergänzen Sie e"
+    },
+    {
+      "rang": 26,
+      "score": 0.69459,
+      "id": "8311d42c-3d03-57ca-bb1d-d835b5813337",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Forschungsstrategie_und_Leitlinien/Leitlinie_zum_Umgang_mit_Forschungsdaten_an_der_Hochschule_Hannover__HsH_.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Forschungsstrategie und Leitlinien › Leitlinie zum Umgang mit Forschungsdaten an der Hochschule Hannover HsH — Präambel",
+      "section_heading": "**Grundsätze**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "Stand: 16.10..2017  \n3. Die Forschungsdaten werden dabei bewusst und nachvollziehbar gesammelt und in ihrem Entstehungskontext beschrieben sowie gespeichert, um ihre wissenschaftliche Aussagekraft zu bewahren.  \n4. Die Forschenden der HsH werden ermutigt und unterstützt, Forschungsdaten der interess"
+    },
+    {
+      "rang": 27,
+      "score": 0.69418,
+      "id": "ba2c8d16-7a2d-5b29-ba2d-2fd2e0aa2791",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Flyer_NdsOPEN_HsH.pdf",
+      "title_anzeige": "www › Bibliothek › Allgemeine Dateien › Flyer NdsOPEN HsH — Kontakt",
+      "section_heading": "**Welche Publikationen werden gefördert?**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## **Welche Publikationen werden gefördert?**  \n- Publikationen, deren wissenschaftliche Qualität, bspw. durch Peer Review, nachgewiesen ist  \n- Artikel in Zeitschriften oder Sammelwerken, deren Beiträge vollständig und unmittelbar mit Veröffentlichung frei zugänglich sind  \n- Monografien (inkl. her"
+    },
+    {
+      "rang": 28,
+      "score": 0.68305,
+      "id": "40c6686c-adb3-5048-90ae-e35f60fbabad",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/04-2016/02_Richtlinie_Verfahren_Gewaehrung_Forschungssemester_und_Lehrdeputatsermaessigung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2016 › 02 Richtlinie Verfahren Gewaehrung Forschungssemester und Lehrdeputatsermaessigung — Voraussetzungen und das Verfahren bei der",
+      "section_heading": "**§ 3** > **Verfahren**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Verfahren**  \n- (1) Die Antragstellung erfolgt elektronisch über ein von der Stabsstelle Forschung und Entwicklung bereitgestelltes Verfahren und gliedert sich in folgende Schritte:  \n1. Die Antragstellerin oder der Antragsteller stellt unter Beachtung der „Leitlinie zur Qualitätssic"
+    },
+    {
+      "rang": 29,
+      "score": 0.67327,
+      "id": "28725134-dce3-5755-8285-8de037a015d7",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Genderaspekte_in_der_Forschung/Evaluation_Gender_in_der_Forschung_an_der_HsH.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Genderaspekte in der Forschung › Evaluation Gender in der Forschung an der HsH",
+      "section_heading": "Internetrecherche",
+      "chunk_index": 107,
+      "text_vollstaendig": false,
+      "auszug": "## Internetrecherche\nBei Interesse an Forschenden und/oder Forschungsprojekten an der HsH würde innerhalb der Hochschule wie von außen vermutlich als erstes versucht, über das Internet Informationen zu bekommen. Eine Suche über den Webauftritt der Hochschule Hannover wie auch über externe Suchmöglic"
+    },
+    {
+      "rang": 30,
+      "score": 0.66231,
+      "id": "4cb51dbe-c323-5439-97c8-f2d8e6fb40f4",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/sexualisierte-diskriminierung-und-gewalt",
+      "title_anzeige": "www › organisation › gleichstellung › sexualisierte diskriminierung und gewalt",
+      "section_heading": "Veranstaltungen zu SDG in der Hochschule:",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "Geschlechtsspezifische Gewalt ist eine große Hürde für die Geschlechtergerechtigkeit und eine Menschenrechtsverletzung. Wir als Hochschule haben hier die wichtige Aufgabe und Verpflichtung, präventiv gegen alle Formen dieser Gewalt tätig zu sein. **Daher wollen wir ein klares, pers****ö****nliches S"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 16402,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.97,
+    "kandidaten_s": 0.0,
+    "llm_auswahl_s": 3.29,
+    "docs_laden_s": 0.08,
+    "quellen_s": 5.35,
+    "antwort_llm_s": 2.79,
+    "gesamt_s": 8.14
+  },
+  "auswahl_begruendung": "{\"selected\":[2,1,3,7]}"
+}

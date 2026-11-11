@@ -1,0 +1,557 @@
+{
+  "fall": {
+    "id": "q09",
+    "case_type": "direct",
+    "question": "Wo befindet sich der IT-ServiceDesk der HsH am Campus Linden und wie erreiche ich ihn?",
+    "reference_answer": "Der IT-ServiceDesk der Hochschul-IT für Campus Linden und Kleefeld hat für alle Standorte Öffnungszeiten Montag bis Donnerstag zwischen 10 und 15 Uhr. Anfragen sollen bevorzugt per E-Mail an support-it@hs-hannover.de gestellt werden. Alternativ ist die Hotline Montag bis Donnerstag zwischen 10 und 15 Uhr unter der Durchwahl 4444 erreichbar. Der ServiceDesk Linden befindet sich in Gebäude 1B, Raum 1B.0.43.",
+    "source_url": "https://service.it.hs-hannover.de/de/willkommen/",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://service.it.hs-hannover.de/services/support",
+      "https://www.hs-hannover.de/ueber-uns/organisation/hochschul-it"
+    ],
+    "required_facts": [
+      "Der ServiceDesk Linden befindet sich in Gebäude 1B, Raum 1B.0.43.",
+      "Anfragen sollen bevorzugt per E-Mail an support-it@hs-hannover.de gestellt werden.",
+      "Die Hotline ist unter der Durchwahl 4444 erreichbar."
+    ],
+    "optional_facts": [
+      "Öffnungszeiten Montag bis Donnerstag zwischen 10 und 15 Uhr.",
+      "Die Öffnungszeiten gelten für alle Standorte."
+    ],
+    "forbidden_claims": [
+      "Einen anderen Raum am Campus Linden nennen.",
+      "Nicht belegte Öffnungstage ergänzen."
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Die Antwort soll Öffnungszeiten, E-Mail, Hotline und Standort Linden nennen. Persönliche Beratung darf ohne Termin erwähnt werden, wenn sie korrekt auf die Quelle bezogen ist.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "1B.0.43",
+      "support-it@hs-hannover.de",
+      "4444"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Beide Seiten sind gecrawlt und nennen Raum 1B.0.43, Durchwahl 4444 und support-it@. Die Startseite des IT-Portals (Gold) ist es nicht — der Fall war nie eine Korpuslücke.",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "02c0e955-1c6c-5551-b112-dbe57e2a9025",
+      "7fb808f2-2457-56ce-ac8b-4b63418d5f0b",
+      "9ef8d57a-dc9b-5b9e-98a7-ed158dcfafaf",
+      "75962611-7312-51fb-9e8b-bdb05abe2a61",
+      "755992ae-652d-5565-8dcd-0a8f94bf3643",
+      "a52b44ce-47d7-547a-8e23-1252640baad3"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:51:52",
+  "dauer_s": 8.87,
+  "fehler": null,
+  "antwort": "Der ITServiceDesk der HsH am Campus Linden befindet sich hier:\n\n- „Ricklinger Stadtweg 120\" [1]\n- „30459 Hannover\" [1]\n- „Gebäude 1B\" [1]\n- „Raum 1B.0.43\" [1]\n\nErreichbar ist der ITServiceDesk:\n\n- Öffnungszeiten: „Geöffnet von Montag bis Donnerstag zwischen 10 und 15 Uhr.\" [1]\n- Vor-Ort-Beratung: „Beratung auch ohne Termin möglich.\" [1]\n- Telefon: „+49 511 9296 - 4444\" [1]\n- E-Mail: „Support-it(at)hs-hannover.de\" [1]\n- Terminvereinbarung: „https://hs-h.de/it-support-termine\" [1]",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › 10 Bilder › 80 Lageplaene › Lageplan Linden20170915",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/80_Lageplaene/Lageplan_Linden20170915.pdf",
+      "fakultaet": "f1",
+      "struktur": ""
+    },
+    {
+      "nr": 2,
+      "titel": "f4 › OFI › IT Service › 26 02 19 IT Infoveranstaltung Erstsemester SS2025 — IT-Infoveranstaltung _für Studierende an der HsH Fakultät IV_",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf",
+      "fakultaet": "f4",
+      "struktur": "# IT-Infoveranstaltung für Studierende an der HsH Fakultät IV\n  ## Inhaltsverzeichnis\n  ## TOP 1: Vorstellung IT-Team\n  ## Lageplan Campus Linden\n  ## IT-Team\n  ## IT-Team\n  ## Gebäude 1H, 1. Etage\n  ## IT-Team\n  ## Abgrenzung Aufgaben, Kompetenzen, Verantwortung\n  ## IT-Team\n  ## Hochschul-IT\n  ## TOP 2: Räumlichkeiten\n  ## Labore (in Gebäude 1H)\n  ## L1: Computerlabor für betriebswirtschaftliche Anwendungen\n  ## Gebäude 1H - 1. Etage - Raum 1.29\n  ## L2: Computerlabor für Spezialanwendungen der Betriebswirtschaft\n  ## Gebäude 1H - 1. Etage - Raum 1.35\n  ## L3: Computerlabor für wirtschaftsinformatische Grundlagen\n  ## Gebäude 1H - Erdgeschoß - Raum 0.13\n  ## L4: Computerlabor für multimediale Anwendungen der Wirtschftsinformatik – VORLESUNGSFREI\n  ## Gebäude 1H - 1. Etage - Raum 1.23\n  ## L5: Computerlabor für Spezialanwendungen der Wirtschftsinformatik\n  ## Gebäude 1H - 1. Etage - Raum 1.38\n  ## Labore – Drucker, Headset\n  ## Gebäude, Labore – Öffnungszeiten | 1[st] Level-Supportzeiten\n  ## Seminarräume (im Gebäude 1H)\n  ## Aufzeichnungsmöglichkeit\n  ## Seminarräume (im Gebäude 1H)\n  ## Ausstattung variabel:\n  ## TOP 3: Account Aktivierung für das Hochschul Netzwerk (Master-, User-, SSO-, WLAN- und Microsoft Azure-Account)\n  ## Aktivierung Master-Account\n  ## Neuaktivierung / Erneutes Versenden der Aktivierungs-E-Mail\n  ## https://accounts.hs-hannover.de\n  ## Aktivierung Master-Account\n  ## Aktivierung Master-Account\n  ## Aktivierung Master-Account\n  ## Übersicht der Accounts (Zoom Account -> temporär, Adobe momentan nicht verfügbar)\n  ## SSO-Account\n  ## Master-Account\n  ## User-Account\n  ## Hilfe:\n  ## W-LAN/Internet (eduroam) auf privaten Geräten\n  ## E-Mail\n  ## Microsoft Office365\n  ## Hilfe:\n  ## Adobe-Account\n  ## E-Mail\n  ## NUR\n# TOP 4: HsH Netzwerk Arbeitsumgebung\n  ## Netzwerk Arbeitsumgebung"
+    },
+    {
+      "nr": 3,
+      "titel": "services › support — ITServiceDesk - Linden",
+      "url": "https://service.it.hs-hannover.de/services/support",
+      "fakultaet": "",
+      "struktur": "    ### ITServiceDesk - Linden\n    ### ITServiceDesk - Kleefeld"
+    },
+    {
+      "nr": 4,
+      "titel": "www › ueber uns › organisation › hochschul it",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/hochschul-it",
+      "fakultaet": "",
+      "struktur": "# Hochschul-IT\n  ## Hochschul-IT\n    ### ITServiceDesk - Linden\n    ### ITServiceDesk - Kleefeld"
+    },
+    {
+      "nr": 5,
+      "titel": "itr › landing page › studium",
+      "url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+      "fakultaet": "",
+      "struktur": "# Studieninhalte\n# Aufbau\n# Kurz erklärt\n# Fächerübersicht\n# In Vollzeit oder Teilzeit\n# Campus Linden\n# Computerräume und Labore\n# Dokumente"
+    },
+    {
+      "nr": 6,
+      "titel": "IT-Support für die Abteilungen BWL und WI",
+      "url": "https://f4.hs-hannover.de/service/it-serviceausstattungraeume/it-support",
+      "fakultaet": "f4",
+      "struktur": "# IT-Support für die Abteilungen BWL und WI\n# Probleme mit Ihrem:\n  ## Kontakt\n  ## Bearbeitungsstatus ihres Tickets:2\n  ## Sie finden uns:"
+    },
+    {
+      "nr": 7,
+      "titel": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+      "fakultaet": "",
+      "struktur": "  ## Campus Linden\n    ### Auf einen Blick\n    ### Besucheradresse\n    ### Postadresse\n  ## Anfahrtsbeschreibung\n    ### Externer Inhalt\n  ## Gebäudeplan"
+    },
+    {
+      "nr": 8,
+      "titel": "Studienberatung für Studierende und Studieninteressierte",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung",
+      "fakultaet": "",
+      "struktur": "# Studienberatung für Studierende und Studieninteressierte\n  ## Willkommen in der Zentralen Studienberatung\n  ## Beratungszeiten\n  ## Ihr Beratungsteam\n    ### Johanna Milena Wolf\n    ### Marlene Jeschke\n    ### Martin Schmidt\n    ###  Veranstaltungsreihe zum gelingenden Studieren \n    ###  StudiTalk: Neue Veranstaltungsreihe für Studieninteressierte \n    ###  CampusTalk - Frag dich schlau! \n    ### StudiTalk: Welches Studium passt zu mir?\n    ### StudiTalk: Was ich vor Studienbeginn gerne gewusst hätte\n    ### StudiTalk: Studieren in Hannover\n    ### Onlineworkshop für Studierende: \"Unterstützungsangebote an der HsH - ein Überblick\"\n  ## Feedbackbox\n  ## Möchten Sie etwas loswerden? Sie haben Diskriminierung erfahren?\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 9,
+      "titel": "f4 › OFI › IT Service › 26 02 19 IT en Infoveranstaltung Erstsemester SS2025 — IT Information Event _for Students at the University Faculty IV_",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-en-Infoveranstaltung_Erstsemester_SS2025.pdf",
+      "fakultaet": "f4",
+      "struktur": "# IT Information Event for Students at the University Faculty IV\n  ## Table of contents\n  ## TOP 1: Introduction IT-Team\n  ## Site plan Campus Linden\n  ## IT-Team\n  ## IT-Team service E-mail address:\n  ## f4-su ort-it hs-hannover.de pp @\n  ## TOP 2: Rooms (laboratories / seminar rooms)\n  ## Laboratories (in building 1H)\n  ## L1: Computer laboratory for business applications\n  ## Building 1H - 1st floor - room 1.29\n  ## L2: Computer laboratory for special applications in business administration\n  ## Building 1H - 1st floor - room 1.35\n  ## L3: Computer Laboratory for Business Informatics Basics\n  ## Building 1H – ground floor - room 0.13\n  ## L4: Computer Laboratory for Multimedia Applications in Business Informatics – LECTURE-FREE\n  ## Building 1H - 1st floor - room 1.23\n  ## L5: Computer laboratory for special applications in business informatics\n  ## Building 1H - 1st floor - room 1.38\n  ## Laboratories – Printer, Headset connector\n  ## Building, Laboratories - Opening hours | 1[st] Level-Support\n  ## Lecture period ( 01.03. - 10.07. and 01.09. - 31.01. )\n  ## Lecture-free time\n  ## Seminar rooms (in building 1H)\n  ## recording opportunity\n  ## Seminar rooms (in building 1H)\n  ## Variable equipment:\n  ## TOP 3: Account activation at the university network\n  ## Activation Master-Account\n  ## New activation / resending the activation e-mail\n  ## https://accounts.hs-hannover.de\n  ## Activation Master-Account\n  ## Activation Master-Account\n  ## Activation Master-Account\n  ## Summary Accounts\n  ## Master-Account\n  ## Create Personal-Account\n  ## SSO-Account\n  ## Create MS Azure / Office365-Account\n  ## Changing the passwords\n  ## User-Account\n  ## SSO-Account\n  ## VPN (2FA)\n  ## Academic Cloud\n  ## Student administration portal\n  ## Microsoft Azure-Account (2FA)\n  ## Microsoft Office365\n  ## Help:\n  ## Help:\n  ## TOP 4:"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 3,
+      "titel": "services › support — ITServiceDesk - Linden",
+      "url": "https://service.it.hs-hannover.de/services/support"
+    },
+    {
+      "nr": 6,
+      "titel": "IT-Support für die Abteilungen BWL und WI",
+      "url": "https://f4.hs-hannover.de/service/it-serviceausstattungraeume/it-support"
+    },
+    {
+      "nr": 2,
+      "titel": "f4 › OFI › IT Service › 26 02 19 IT Infoveranstaltung Erstsemester SS2025 — IT-Infoveranstaltung _für Studierende an der HsH Fakultät IV_",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf"
+    },
+    {
+      "nr": 7,
+      "titel": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "services › support — ITServiceDesk - Linden",
+      "url": "https://service.it.hs-hannover.de/services/support",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "ITServiceDesk - Linden",
+      "snippets": [
+        "### ITServiceDesk - Linden\nRicklinger Stadtweg 120\n30459 Hannover\nGebäude 1B\nRaum 1B.0.43  \nGeöffnet von Montag bis Donnerstag zwischen 10 und 15 Uhr.\nBeratung auch ohne Termin möglich.\n**Telefon:** +49 511 9296 - 4444\n**E-Mail:** Support-it(at)hs-hannover.de\n**Termin:** <https://hs-h.de/it-support-termine>"
+      ],
+      "zitate": [
+        "Ricklinger Stadtweg 120",
+        "30459 Hannover",
+        "Gebäude 1B",
+        "Raum 1B.0.43",
+        "Geöffnet von Montag bis Donnerstag zwischen 10 und 15 Uhr.",
+        "Beratung auch ohne Termin möglich.",
+        "+49 511 9296 - 4444",
+        "Support-it(at)hs-hannover.de",
+        "https://hs-h.de/it-support-termine"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "IT-Support für die Abteilungen BWL und WI",
+      "url": "https://f4.hs-hannover.de/service/it-serviceausstattungraeume/it-support",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Probleme mit Ihrem: > Sie finden uns:",
+      "snippets": [
+        "## Sie finden uns:\nauf dem**Campus Linden in 1H (Gebäude 14)**. Dort sind wir in den Räumen 1H.1.31 (234),1H.1.31a, 1H.1.34 (240), 1H.1.43 (243.1) und 1H.1.45 (243.2) persönlich für sie erreichbar.\n![](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Bilderpool/Lageplaene/Lageplan-IT-Support.jpg?rbiFocus=mobile)"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f4 › OFI › IT Service › 26 02 19 IT Infoveranstaltung Erstsemester SS2025 — IT-Infoveranstaltung _für Studierende an der HsH Fakultät IV_",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf",
+      "crawl_date": "2026-08-05",
+      "fremde_fundstellen": [],
+      "abschnitt": "**IT-Infoveranstaltung** _**für Studierende an der HsH Fakultät IV**_ > **Hochschul-IT**",
+      "snippets": [
+        "## **Lageplan Campus Linden**  \n**EG Hochschul IT Gebäude 1B Keller Hochhaus Gebäude 1A Validierungsstation Validierungsstation EC Aufwerter EC Aufwerter ITServiceDesk der H-IT (1B.0.43)**  \nValidierungsstation\nValidierung der Campuscard\n(Semeserbeitrag überwiesen)\nEC Aufwerter\nAufbuchung eines Geldbetrages auf die\nCampuscard per EC-Karte (Mensa)  \nMensa EG Fakultät IV Gebäude 1H vor Raum 1H.0.11\nBar Aufwerter (an Kasse) Validierungsstation\nEC Aufwerter EC Aufwerter"
+      ],
+      "zitate": [
+        "Gebäude 1B"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Campus Linden",
+      "snippets": [
+        "### Besucheradresse\nHochschule Hannover\nCampus Linden\nRicklinger Stadtweg 118/120\n30459 Hannover\n[ +49 511 9296-0 ](tel:+49%20511%209296-0 \"+49 511 9296-0 anrufen\")\n[ poststelle(at)hs-hannover.de  ](https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden \"An poststelle@hs-hannover.de eine E-Mail schreiben\")"
+      ],
+      "zitate": [
+        "30459 Hannover"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.2845,
+      "id": "46bb8517-3219-53d3-965b-9d4b0af68e3a",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/80_Lageplaene/Lageplan_Linden20170915.pdf",
+      "title_anzeige": "f1 › 10 Bilder › 80 Lageplaene › Lageplan Linden20170915",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Ricklinger Stadtweg 120, 30459 Hannover\nRaumnummernsystematik:  z.B.\nFakultäten I und II 1A.0.01\n1   Standort Linden\nA    Gebäudeteil\n0      Geschoss\n01  lfd. Nummer\nIT ServiceDesk\nAudi-\nmax\nHaupteingang\nAula\nDekanate\nFak I + II\nZLB-Studienberatung\nFakultäten I und II\nBibliothek\nFakultät IV Studiere"
+    },
+    {
+      "rang": 2,
+      "score": 2.1957,
+      "id": "59bfdd18-8f49-5619-8f21-6e8df90cc152",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf",
+      "title_anzeige": "f4 › OFI › IT Service › 26 02 19 IT Infoveranstaltung Erstsemester SS2025 — IT-Infoveranstaltung _für Studierende an der HsH Fakultät IV_",
+      "section_heading": "**IT-Infoveranstaltung** _**für Studierende an der HsH Fakultät IV**_ > **Hochschul-IT**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **IT-Team**\n\n## _Abgrenzung Aufgaben, Kompetenzen, Verantwortung_\n\n## **IT-Team**  \n- Komplette IT - Ausstattung der Fachbereiche BWL+WI  \n- Technik der Seminarräume und Labore in Gebäude 1H + Bismarkstraße (tw.)  \n- Druckerverwaltung  \n-  \n- Medienpool / Geräteausleihe / Software  \n-\n\n## **Hochs"
+    },
+    {
+      "rang": 3,
+      "score": 1.90744,
+      "id": "02c0e955-1c6c-5551-b112-dbe57e2a9025",
+      "source_url": "https://service.it.hs-hannover.de/services/support",
+      "title_anzeige": "services › support — ITServiceDesk - Linden",
+      "section_heading": "ITServiceDesk - Linden",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Wie kann ich den ITServiceDesk erreichen?\n\n### ITServiceDesk - Linden\nRicklinger Stadtweg 120\n30459 Hannover\nGebäude 1B\nRaum 1B.0.43  \nGeöffnet von Montag bis Donnerstag zwischen 10 und 15 Uhr.\nBeratung auch ohne Termin möglich.\n**Telefon:** +49 511 9296 - 4444\n**E-Mail:** Support-it(at)hs-hannover."
+    },
+    {
+      "rang": 4,
+      "score": 1.90067,
+      "id": "a52b44ce-47d7-547a-8e23-1252640baad3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/hochschul-it",
+      "title_anzeige": "www › ueber uns › organisation › hochschul it",
+      "section_heading": "Hochschul-IT > Hochschul-IT > ITServiceDesk - Kleefeld",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### ITServiceDesk - Kleefeld\nBlumhardtstr. 2\n30625 Hannover\nGebäude: 3C\nRaum 3C.1.02  \n[ +49 511 9296 3333 ](tel:%20+49%20511%209296%203333 \" +49 511 9296 3333 anrufen\")\n[ support-it(at)hs-hannover.de  ](https://www.hs-hannover.de/ueber-uns/organisation/hochschul-it \"An support-it@hs-hannover.de ein"
+    },
+    {
+      "rang": 5,
+      "score": 1.73842,
+      "id": "755992ae-652d-5565-8dcd-0a8f94bf3643",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/hochschul-it",
+      "title_anzeige": "www › ueber uns › organisation › hochschul it",
+      "section_heading": "Hochschul-IT > Hochschul-IT > ITServiceDesk - Linden",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### ITServiceDesk - Linden\nRicklinger Stadtweg 120\n30459 Hannover\nGebäude 1B\nRaum 1B.0.43  \n[ +49 511 9296 4444  ](tel:+49%20511%209296%204444%20 \"+49 511 9296 4444  anrufen\")\n[ support-it(at)hs-hannover.de  ](https://www.hs-hannover.de/ueber-uns/organisation/hochschul-it \"An support-it@hs-hannover."
+    },
+    {
+      "rang": 6,
+      "score": 1.6701,
+      "id": "9cacd2d0-8994-516a-b942-88dcc8fe2f16",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-Infoveranstaltung_Erstsemester_SS2025.pdf",
+      "title_anzeige": "f4 › OFI › IT Service › 26 02 19 IT Infoveranstaltung Erstsemester SS2025 — IT-Infoveranstaltung _für Studierende an der HsH Fakultät IV_",
+      "section_heading": "**IT-Infoveranstaltung** _**für Studierende an der HsH Fakultät IV**_ > **Lageplan Campus Linden**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **Lageplan Campus Linden**  \n**EG Hochschul IT Gebäude 1B Keller Hochhaus Gebäude 1A Validierungsstation Validierungsstation EC Aufwerter EC Aufwerter ITServiceDesk der H-IT (1B.0.43)**  \nValidierungsstation\nValidierung der Campuscard\n(Semeserbeitrag überwiesen)\nEC Aufwerter\nAufbuchung eines Geld"
+    },
+    {
+      "rang": 7,
+      "score": 1.57025,
+      "id": "a2c4d493-9cf1-567d-a941-6dac1071a5e2",
+      "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+      "title_anzeige": "itr › landing page › studium",
+      "section_heading": "In Vollzeit oder Teilzeit > Campus Linden",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "##\n# Campus Linden\nDen Campus Linden der Hochschule Hannover finden Sie am Ricklinger Stadtweg. Auf dem Campus haben die Fakultäten I, II und IV ihre Räume. Der Studiengang Technisches Informationsdesign und Technische Redaktion gehört zur Fakultät I Elektro- und Informationstechnik. Außerdem befind"
+    },
+    {
+      "rang": 8,
+      "score": 1.54788,
+      "id": "d8100868-98cf-5782-acab-a175519f3757",
+      "source_url": "https://f4.hs-hannover.de/service/it-serviceausstattungraeume/it-support",
+      "title_anzeige": "IT-Support für die Abteilungen BWL und WI",
+      "section_heading": "Probleme mit Ihrem: > Sie finden uns:",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Sie finden uns:\nauf dem**Campus Linden in 1H (Gebäude 14)**. Dort sind wir in den Räumen 1H.1.31 (234),1H.1.31a, 1H.1.34 (240), 1H.1.43 (243.1) und 1H.1.45 (243.2) persönlich für sie erreichbar.\n![](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Bilderpool/Lageplaene/Lageplan-IT-Suppo"
+    },
+    {
+      "rang": 9,
+      "score": 1.41754,
+      "id": "495aea49-cbd8-589f-a475-99a6fbb51c05",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+      "title_anzeige": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "section_heading": "Campus Linden",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Campus Linden\nAuf dem Campus der Hochschule Hannover am Ricklinger Stadtweg in Hannover-Linden finden Sie die Fakultät I – Elektro- und Informationstechnik, Teile der Fakultät II – Maschinenbau und Bioverfahrenstechnik, die Fakultät IV – Wirtschaf"
+    },
+    {
+      "rang": 10,
+      "score": 1.40565,
+      "id": "887c84cf-5376-5aff-99a5-66078875ce19",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden",
+      "title_anzeige": "www › standorte › standorte und anfahrt › standort linden — Campus Linden",
+      "section_heading": "Campus Linden > Besucheradresse",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Besucheradresse\nHochschule Hannover\nCampus Linden\nRicklinger Stadtweg 118/120\n30459 Hannover\n[ +49 511 9296-0 ](tel:+49%20511%209296-0 \"+49 511 9296-0 anrufen\")\n[ poststelle(at)hs-hannover.de  ](https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/"
+    },
+    {
+      "rang": 11,
+      "score": 1.40499,
+      "id": "15646f43-105e-50ff-9782-73375a7c7a65",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung",
+      "title_anzeige": "Studienberatung für Studierende und Studieninteressierte",
+      "section_heading": "Studienberatung für Studierende und Studieninteressierte > Beratungszeiten",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## Beratungszeiten\n**So erreichen Sie uns:**\nWir bieten unsere **offenen Sprechstunden vor Ort** im Studierendenzentrum (Gebäude 1J auf dem [Campus Linden](https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden/ \"Anfahrtsbeschreibung Camp"
+    },
+    {
+      "rang": 12,
+      "score": 1.39358,
+      "id": "78122f9b-0181-5757-ac2f-16ad8881c8cc",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+      "title_anzeige": "Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert",
+      "section_heading": "Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert > Fünf Standorte für Vielfalt",
+      "chunk_index": 32,
+      "text_vollstaendig": true,
+      "auszug": "## Fünf Standorte für Vielfalt\nDie unterschiedlichen Fakultäten und Einrichtungen der HsH sind auf fünf Standorte in Hannover verteilt, die sich im Laufe der Jahrzehnte aus der [Geschichte der HsH](https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh) entwickelt haben. Hau"
+    },
+    {
+      "rang": 13,
+      "score": 1.34063,
+      "id": "c66e6e74-69c9-5814-aa40-b2c6f39c9f26",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot",
+      "title_anzeige": "www › studium › studienangebot",
+      "section_heading": "Studienangebot > Info-Point am Campus Linden",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Info-Point am Campus Linden\nHier können Sie alle Ihre Fragen rund um das Studium, einen Studiengangswechsel, die Zulassung und Anträge persönlich stellen!\n**Öffnungszeiten:**\nMontag bis Donnerstag von 9–12 Uhr und 13–15 Uhr.\nFreitags keine persönliche Sprechstunde, jedoch telefonisch von 9–12 Uhr"
+    },
+    {
+      "rang": 14,
+      "score": 1.32442,
+      "id": "64eb5570-7dd3-5103-8d65-b171927fdd72",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+      "title_anzeige": "f3 › Studiengaenge › BMI › BMI Studienhandbuch",
+      "section_heading": "**1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **IT-Service-Desk**",
+      "chunk_index": 32,
+      "text_vollstaendig": false,
+      "auszug": "## **IT-Service-Desk**  \nCampus Ricklingen, Haus 2, Raum 23 0511 9296-1441 (Mo bis Do 9-12 und 13 – 16Uhr) `supportIT@hs-hannover.de http://www.hs-hannover.de/it/services/stud/itservicedesk/index.html`"
+    },
+    {
+      "rang": 15,
+      "score": 1.29014,
+      "id": "eaeedd2d-402f-5ed0-b848-9ca49b3093a7",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/campustalk-frag-dich-schlau",
+      "title_anzeige": "CampusTalk - Frag dich schlau!",
+      "section_heading": "CampusTalk - Frag dich schlau! > 04.06.2026 > Veranstaltungsort",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Veranstaltungsort\nHörsaal im Studierendenzentrum, Campus Linden\nStudienberatung\nRicklinger Stadtweg 120\n30459 Hannover\n1J.0.01  \n[ 0511 9296 -8054 oder -7972 ](tel:0511%209296%20-8054%20oder%20-7972 \"Call 0511 9296 -8054 oder -7972 anrufen\")\nberatung(at)hs-hannover.de\n[ Lageplan  ](https://www.h"
+    },
+    {
+      "rang": 16,
+      "score": 1.26282,
+      "id": "308434a0-bbab-5cb5-b476-05aed5ce8982",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_03_23_BBA_2StA.pdf",
+      "title_anzeige": "f4 › Stundenplan › BWL › 2026 03 23 BBA 2StA",
+      "section_heading": "**Stundenplan – Betriebswirtschaftslehre BBA 2. Studienabschnitt – Pflichtmodule und Schwerpunkte**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "- _*** Dieser Raum befindet sich im Altbau am Campus Linden im Gebäude „1A.Etage.Raumnummer“_  \n- _**** Dieser Raum befindet sich im Altbau am Campus Linden im Gebäude „1B.Etage.Raumnummer“_  \n- _***** Dieser Raum befindet sich im Studierendenzentrum am Campus Linden im Gebäude „1J.Etage.Raumnummer“"
+    },
+    {
+      "rang": 17,
+      "score": 1.2571,
+      "id": "4cd0681c-cb8b-5bdd-a523-c78622ad7cc8",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-nachhaltige-elektrische-energieversorgung-nev",
+      "title_anzeige": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV)",
+      "section_heading": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV) > 21.09.2026 > Veranstaltungsort",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "### Veranstaltungsort\nHochschule Hannover, Fakultät I – Elektro- und Informationstechnik, Campus Linden\nRicklinger Stadtweg 120\n30459 Hannover\nDeutschland\n1B.0.11  \n[ Lageplan  ](https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden/ \"La"
+    },
+    {
+      "rang": 18,
+      "score": 1.2456,
+      "id": "a5d585a1-8321-5ace-b982-409f3eb83e8c",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_03_23_BBA_2StA.pdf",
+      "title_anzeige": "f4 › Stundenplan › BWL › 2026 03 23 BBA 2StA",
+      "section_heading": "**Stundenplan – Betriebswirtschaftslehre BBA 2. Studienabschnitt – Ergänzungsmodule**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "- _** Dieser Raum befindet sich in der Bismarckstraße im Gebäude „5A.Etage.Raumnummer“_  \n- _*** Dieser Raum befindet sich im Altbau am Campus Linden im Gebäude „1A.Etage.Raumnummer“_  \n- _**** Dieser Raum befindet sich im Altbau am Campus Linden im Gebäude „1B.Etage.Raumnummer“_  \n- _***** Dieser R"
+    },
+    {
+      "rang": 19,
+      "score": 1.22974,
+      "id": "6664fca9-ceca-5e00-a1b1-dc2c195bfff7",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-lehre/digital-lehren-und-lernen/termine-z2/tag-der-lehre-und-lehrpreisverleihung-2026",
+      "title_anzeige": "Tag der Lehre und Lehrpreisverleihung 2026",
+      "section_heading": "Tag der Lehre und Lehrpreisverleihung 2026 > 10.06.2026 > Veranstaltungsort",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "### Veranstaltungsort\nCampus Linden | Studierendenzentrum\nServicezentrum Lehre\nRicklinger Stadtweg 120\n30459 Hannover\nTeam Servicezentrum Lehre  \n[ +49 511 - 9296 4646 ](tel:+49%20511%20-%209296%204646 \"Call +49 511 - 9296 4646 anrufen\")\nlehre(at)hs-hannover.de"
+    },
+    {
+      "rang": 20,
+      "score": 1.20856,
+      "id": "7ac78e83-19bb-5c4e-bba3-3a6eaa7e71cc",
+      "source_url": "https://f4.hs-hannover.de/studium/erstsemesterinformation/abteilung-betriebswirtschaft",
+      "title_anzeige": "Erstsemesterinformationen Abteilung Betriebswirtschaft",
+      "section_heading": "Erstsemesterinformationen Abteilung Betriebswirtschaft > IT-Informationen und Gebäudepläne",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## IT-Informationen und Gebäudepläne\nAuf der Seite [IT-Service/Ausstattung/Räume](https://f4.hs-hannover.de/service/it-serviceausstattungraeume) finden Sie alle wichtigen Informationen für einen gelungenen Studienstart u.a. den IT-Leitfaden für Studierende sowie Übersichten der PC-Labore und Seminar"
+    },
+    {
+      "rang": 21,
+      "score": 1.17219,
+      "id": "d75a5fe6-f4fe-5059-8b83-a2a968e8b48f",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh",
+      "title_anzeige": "Unsere Geschichte",
+      "section_heading": "Unsere Geschichte > Der Hauptstandort Linden im Herzen Hannovers",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "Die jüngste Fakultät der HsH hat Ende 1998 den damaligen Neubau Gebäude H auf dem Campus bezogen: Bereits zum Wintersemester 1993/94 wurden die Studiengänge Betriebswirtschaftslehre und Wirtschaftsinformatik der Fakultät IV – Wirtschaft und Informatik eingerichtet. Zum Wintersemester 1997/98 nahmen "
+    },
+    {
+      "rang": 22,
+      "score": 1.16653,
+      "id": "8332db84-1c25-57ff-9f6c-5eaad463936c",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_02_12_IBS.pdf",
+      "title_anzeige": "f4 › Stundenplan › BWL › 2026 02 12 IBS",
+      "section_heading": "**Stundenplan International Business Studies – IBS 2. Semester**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "- _**** Dieser Raum befindet sich im Altbau am Campus Linden im Gebäude „1B.Etage.Raumnummer“_  \nStand 12.03.2026, Änderungen vorbehalten  \n_***** Dieser Raum befindet sich im Studierendenzentrum am Campus Linden im Gebäude „1J.Etage.Raumnummer“_"
+    },
+    {
+      "rang": 23,
+      "score": 1.14099,
+      "id": "05aa42db-cf65-5480-ad0b-7ee8bdfc4469",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Unsere Standorte** > **Basisdaten**",
+      "chunk_index": 21,
+      "text_vollstaendig": true,
+      "auszug": "## **Basisdaten**  \nStandort Campus Linden  \n- 5 Bachelor-Studiengänge  \n- 2 Master-Studiengänge Rund 1.300 Studierende  \n- 44 Professor*innen  \n© HsH/Lam Nguyen  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_"
+    },
+    {
+      "rang": 24,
+      "score": 1.13443,
+      "id": "02ba7c63-4db6-5912-bb84-70c61e663a1a",
+      "source_url": "https://f2.hs-hannover.de/ueber-uns/maschinenbau",
+      "title_anzeige": "Studieren an der Fakultät II - Maschinenbau",
+      "section_heading": "Studieren an der Fakultät II - Maschinenbau",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Mit der Bibliothek, in der Mensa oder im Café, welches sich im Studierendenzentrum befindet – bei uns sind Sie sowohl geistig als auch kulinarisch bestens versorgt.\n![Campus Linden: Zu sehen ist die Bibliothek und das Gebäude der Fakultät I und II](https://f2.hs-hannover.de/fileadmin/_processed_/b/1"
+    },
+    {
+      "rang": 25,
+      "score": 1.12604,
+      "id": "8684b82c-ca49-5086-b5e2-d440b324c600",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_07_15_IBS.pdf",
+      "title_anzeige": "f4 › Stundenplan › BWL › 2026 07 15 IBS — Planmäßige Lehrveranstaltungen im 1. Semester",
+      "section_heading": "**Stundenplan International Business Studies – IBS: 1. Semester**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "19:45\nPieracks 0.21  \n_*  Dieser Raum befindet sich in der Bismarckstraße im Gebäude „5E.Etage.Raumnummer“_  \n_** Dieser Raum befindet sich in der Bismarckstraße im Gebäude „5A.Etage.Raumnummer“_  \n- _*** Dieser Raum befindet sich im Altbau am Campus Linden im Gebäude „1A.Etage.Raumnummer“_  \n_**** "
+    },
+    {
+      "rang": 26,
+      "score": 1.1237,
+      "id": "725ae530-ba89-5c91-8125-45d7c7acbec8",
+      "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+      "title_anzeige": "Standorte und Öffnungszeiten",
+      "section_heading": "Standorte und Öffnungszeiten > Standorte und Öffnungszeiten > Standorte und Öffnungszeiten > Campus Linden/Ricklinger Stadtweg",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Standorte und Öffnungszeiten\n\n## Campus Linden/Ricklinger Stadtweg  \nGebäude 1A - 1E\nHörsäle, Seminarräume, Labore und Büros\nBibliothek und Mensa\nRicklinger Stadtweg 120\n30459 Hannover\nÖffnungszeiten:\n|   |   | Vorlesungszeit   | Vorlesungsfreie Zeit  |\n| --- | --- | --- | --- |\n| Öffentlichkeit "
+    },
+    {
+      "rang": 27,
+      "score": 1.10972,
+      "id": "5ab15ee5-6fcc-51de-afd8-ae9688645e2b",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-en-Infoveranstaltung_Erstsemester_SS2025.pdf",
+      "title_anzeige": "f4 › OFI › IT Service › 26 02 19 IT en Infoveranstaltung Erstsemester SS2025 — IT Information Event _for Students at the University Faculty IV_",
+      "section_heading": "**University network working environment** > **Internet offers**",
+      "chunk_index": 51,
+      "text_vollstaendig": true,
+      "auszug": "## **Internet offers**  \n- Internet address of the Faculty IV: https://f4.hs-hannover.de  \n- Pages of the University - IT Information for new students, Software for students, Account, E-Mail, WLAN, Campus Card, FAQ, Moodle,...  \nhttps://www.hs-hannover.de/ueber-uns/organisation/hochschul-it/ https:/"
+    },
+    {
+      "rang": 28,
+      "score": 1.09881,
+      "id": "6b39a78f-6b22-50a2-b542-222ed057b1b6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2022.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2022 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**1 Rahmenbedingungen und Geschäftsverlauf** > **1.1 Hochschulstruktur**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogramme an. Auf der Expo Plaza sind die Fakultät III und neben dem Präsidium auch die meisten Einrichtungen der Hochschulv"
+    },
+    {
+      "rang": 29,
+      "score": 1.07238,
+      "id": "26e3a3d4-08b6-57c7-8f3b-1fb665439f30",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-en-Infoveranstaltung_Erstsemester_SS2025.pdf",
+      "title_anzeige": "f4 › OFI › IT Service › 26 02 19 IT en Infoveranstaltung Erstsemester SS2025 — IT Information Event _for Students at the University Faculty IV_",
+      "section_heading": "**IT Information Event** _**for Students at the University Faculty IV**_ > **Site plan Campus Linden**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **Site plan Campus Linden**  \nBasement Building 1A Ground floor H-IT Building 1B\nvalidation station validation station\nEC charging EC charging\nITServiceDesk H-IT (1B.0.43)\nvalidation station\nValidation of the student ID card  IT-Team\n(semester feetransferred)\nEC charging\nCharging of a sum of mone"
+    },
+    {
+      "rang": 30,
+      "score": 1.06641,
+      "id": "9c6dd735-6746-536f-b350-024133dc28e2",
+      "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+      "title_anzeige": "Standorte und Öffnungszeiten",
+      "section_heading": "Standorte und Öffnungszeiten > Wegbeschreibung > Standorte und Öffnungszeiten > Campus Linden/Ricklinger Stadtweg > Standorte und Öffnungszeiten",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Wegbeschreibung\n\n## Campus Linden/Ricklinger Stadtweg\n##\n[ Mit Bahn und Auto in Hannover ](https://f1.hs-hannover.de/service/standorte-oeffnungszeiten \"Mit Bahn und Auto in Hannover\")\nSie erreichen den Campus der Hochschule mit der Stadtbahn Linie 3 oder 7 Richtung \"Wettbergen\" sowie 17 Richtung "
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 8220,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.24,
+    "kandidaten_s": 0.02,
+    "llm_auswahl_s": 2.52,
+    "docs_laden_s": 0.07,
+    "quellen_s": 4.85,
+    "antwort_llm_s": 3.82,
+    "gesamt_s": 8.66
+  },
+  "auswahl_begruendung": "{\"selected\":[3,6,2,7]}"
+}

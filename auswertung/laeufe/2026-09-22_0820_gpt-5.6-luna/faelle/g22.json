@@ -1,0 +1,564 @@
+{
+  "fall": {
+    "id": "g22",
+    "case_type": "direct",
+    "question": "Was muss ich einreichen, wenn ich wegen einer langen Krankheit von den Langzeitstudiengebühren befreit werden will?",
+    "reference_answer": "Ein amtsärztliches Attest über Schwere der Erkrankung und Dauer der eingeschränkten Studierunfähigkeit.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/5._Antrag_auf_Erlass_Covid-Nachweis_01.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Als Nachweis ist beizufügen: ein amtsärztliches Attest über die Schwere der Erkrankung **und** die Dauer der eingeschränkten Studierunfähigkeit."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ verwaltung_service/vorgehen. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "b7818777-e653-5807-b14b-d65d88b1b44a",
+      "7ad0ff62-522e-5bee-80f6-9e01ae3c0bc2",
+      "e1b54063-0aa5-5a05-9d44-73210f0fa98e",
+      "2f4d0d05-225b-56ae-967f-3adf59f09fcb",
+      "2e9f7c49-b128-5cdf-9faa-65d3b8ceab68",
+      "78e1f2e4-e9d1-502a-bd12-eb0a74f0e72d",
+      "10097fc0-15bf-5ac5-95de-b8c4f2d1354e",
+      "3a1e1380-e999-5ec8-a7f3-e379c3207fa3",
+      "5425e6d3-818c-5312-9a7f-0c58995cc75b"
+    ],
+    "beleg_punkte": [
+      "7ad0ff62-522e-5bee-80f6-9e01ae3c0bc2"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/5._Antrag_auf_Erlass_Covid-Nachweis_01.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-22T08:29:06",
+  "dauer_s": 15.1,
+  "fehler": null,
+  "antwort": "Wenn sich Ihr Studium wegen einer **schweren Erkrankung** verlängert hat, müssen Sie Folgendes einreichen:\n\n- Den **Antrag auf Befreiung bzw. Erlass der Langzeitstudiengebühren**. Dieser wird „ab dem 02.03.2026 ausschließlich digital bearbeitet und kann nur noch online gestellt werden\" [2]. Der Antrag ist als „Antrag auf Befreiung von der Langzeitstudiengebühr (S) - Online-Antrag\" [3] im Campusmanagement verfügbar.\n- Als Nachweis grundsätzlich ein „amtsärztliches Attest\" [1]. Die Erkrankung muss dabei die Studierfähigkeit in nachvollziehbaren Zeiträumen so eingeschränkt haben, dass Sie „Ihrem Studium nicht mehr ordnungsgemäß nachgehen konnten\" [1].\n- Im Attest soll außerdem die „Anzahl der aus amtsärztlicher Sicht berücksichtigungsfähigen Erlasssemester angegeben werden\" [1].\n\nAusnahmsweise werden derzeit auch „fachärztliche (kein Hausarzt/Allgemeinmediziner) Bescheinigungen\" [1] akzeptiert. Der Antrag kann „längstens bis einen Monat nach Vorlesungsende des Semesters gestellt werden\" [4].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Termine & Fristen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/wichtige-termine-fristen",
+      "fakultaet": "",
+      "struktur": "# Termine & Fristen\n  ## Hier finden Sie wichtige Termine und Fristen rund um Ihr Studium an der Hochschule Hannover.\n  ## Semestertermine\n  ## Fristen\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 2,
+      "titel": "Semestertermine an der Hochschule Hannover",
+      "url": "https://f3.hs-hannover.de/studium/semestertermine",
+      "fakultaet": "f3",
+      "struktur": "# Semestertermine an der Hochschule Hannover\n    ### Schnellzugriff\n  ## Fristen\n  ## Semestertermine"
+    },
+    {
+      "nr": 3,
+      "titel": "www › akademische angelegenheiten › studierende › langzeitstudiengebuehren — Langzeitstudiengebühren",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/langzeitstudiengebuehren",
+      "fakultaet": "",
+      "struktur": "# Langzeitstudiengebühren\n  ## Informationen zur Langzeitstudiengebühr\n# Glossar\n  ## Ansprechpersonen"
+    },
+    {
+      "nr": 4,
+      "titel": "www › Studierendenverwaltung › Antraege › 5. Antrag auf Erlass Covid Nachweis 01 — Antrag auf Erlass der Gebühren und Entgelte gem. § 14 Abs. 2 NHG",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/5._Antrag_auf_Erlass_Covid-Nachweis_01.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Hochschule Hannover Akademische Angelegenheiten Ricklinger Stadtweg 120 30459 Hannover\n  ## Antrag auf Erlass der Gebühren und Entgelte gem. § 14 Abs. 2 NHG\n  ## Studienzeitverlängernde Auswirkungen einer Behinderung oder schweren Erkrankung.\n  ## Studienzeitverlängernde Folgen als Opfer einer Straftat.\n  ## Siehe hierzu auch die Erläuterungen auf der Rückseite!\n  ## - Ich versichere, dass die von mir gemachten Angaben einschließlich der diesem Antrag beige fügten Anlagen vollständig und richtig sind. Ohne Nachweise wird der Antrag nicht bearbeitet!\n  ## Erläuterungen zum Antrag auf Erlass der Gebühren und Entgelte\n  ## Dem Antrag auf Erlass der Gebühren und Entgelte nach § 13 NHG sind je nach Grund des beantragten Erlasses folgende Unterlagen beizufügen:\n  ## Studienzeitverlängernde Auswirkung einer Behinderung oder schweren Erkrankung\n  ## Hinweis:\n  ## Studienzeitverlängernde Folgen als Opfer einer Straftat"
+    },
+    {
+      "nr": 5,
+      "titel": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Vorwort\n  ## Inhaltsübersicht\n  ## Erster Teil Hochschulen in staatlicher Verantwortung\n  ## Erstes Kapitel\n  ## Allgemeine Bestimmungen\n  ## Erster Abschnitt\n  ## Grundlagen\n  ## Zweiter Abschnitt\n  ## Studium und Lehre\n  ## Dritter Abschnitt\n  ## Verwaltungskostenbeitrag; Studienguthaben; Gebühren und Entgelte\n  ## Vierter Abschnitt\n  ## Studienqualitätsmittel\n  ## Dritter Abschnitt\n  ## Organisation\n  ## Grundlagen\n  ## Zweiter Abschnitt\n  ## Erster Titel\n  ## Studierende\n  ## Drittes Kapitel\n  ## Hochschulen in Trägerschaft des Staates\n  ## Zweiter Titel\n  ## Wissenschaftliches und künstlerisches Personal\n  ## Viertes Kapitel\n  ## Hochschulen in Trägerschaft von rechtsfähigen Stiftungen des öffentlichen Rechts\n  ## Dritter Teil Studentenwerke\n  ## Vierter Teil Übergangs- und Schlussvorschriften\n  ## Fünftes Kapitel\n  ## Humanmedizinische Einrichtungen; Medizinische Fakultät der Universität Oldenburg\n  ## Anlage 1\n  ## Anlage 2\n  ## Zweiter Teil\n  ## Hochschulen in nichtstaatlicher Verantwortung\n  ## Erster Teil Hochschulen in staatlicher Verantwortung\n  ## Erstes Kapitel\n  ## § 1 Staatliche Verantwortung\n  ## § 2 Hochschulen\n  ## § 3 Aufgaben der Hochschulen\n  ## § 4 Zusammenwirken der Hochschulen\n  ## § 5 Evaluation von Forschung und Lehre\n  ## Zweiter Abschnitt\n  ## § 6 Studiengänge und ihre Akkreditierung; Regelstudienzeit; Studienberatung\n  ## § 7 Prüfungen und Leistungspunktsystem; staatliche Anerkennung\n  ## § 8 Inländische Grade\n  ## § 9 Promotion; Doktorandinnen und Doktoranden\n  ## § 9 a Habilitation\n  ## Dritter Abschnitt\n  ## § 10 Ausländische Grade, Titel und Bezeichnungen\n  ## Verwaltungskostenbeitrag; Studienguthaben; Gebühren und Entgelte\n  ## § 11 Verwaltungskostenbeitrag"
+    },
+    {
+      "nr": 6,
+      "titel": "f5 › MGB MBG MMG › Pruefungen › Info Masterarbeiten — I. Termin",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Pruefungen/Info_Masterarbeiten.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## MASTERARBEIT Wintersemester\n  ## I. Termin\n  ## II. Rückgabe des Themas, Fristverlängerung, Rücktritt, Erkrankung\n  ## III. Anweisung für die Anfertigung der Masterarbeit\n  ## - Die Masterarbeit ist in zwei gleichlautenden Exemplaren einzureichen und zwar in gebundener Form ( nicht Spiralheftung ).\n  ## Masterarbeit Semester xx\n  ## an der Hochschule Hannover, Fakultät V, Abteilung Pflege und Gesundheit\n  ## Erstprüfender: Zweitprüfender:\n  ## IV. Angabe von Quellen und Hilfsmitteln\n  ## V. Aushändigen der Masterarbeit\n  ## Eigenständigkeitserklärung nur für Abschlussarbeiten: Versicherung an Eides statt\n  ## Vorname Name, Matrikelnummer – Anlage zur Eigenständigkeitserklärung zu meiner (Prüfungsform, ggf. Titel der Arbeit): Dokumentation der Verwendung generativer KI- Systeme"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › Pflege › Pruefungen › Info BA Abschlussarbeiten allgemein — I. Termin",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/Info_BA_Abschlussarbeiten_allgemein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## BACHELORARBEIT\n  ## I. Termin\n  ## II. Rückgabe des Themas, Fristverlängerung, Rücktritt, Erkrankung\n  ## III. Anweisung für die Anfertigung der Bachelorarbeit\n  ## - Die Bachelorarbeit ist in zwei gleichlautenden Exemplaren einzureichen und zwar in gebundener Form ( nicht Spiralheftung ).\n  ## Name der Hochschule, Fakultät\n  ## Studiengang\n  ## Modul\n  ## Titel der schriftlichen Arbeit\n  ## Art der Prüfungsleistung\n  ## Vorname und Nachname der/des Verfasserin, Matrikelnummer\n  ## Semester\n  ## IV. Angabe von Quellen und Hilfsmitteln\n  ## V. Aushändigen der Bachelorarbeit\n  ## Eigenständigkeitserklärung nur für Abschlussarbeiten: Versicherung an Eides statt\n  ## Vorname Name, Matrikelnummer – Anlage zur Eigenständigkeitserklärung zu meiner (Prüfungsform, ggf. Titel der Arbeit): Dokumentation der Verwendung generativer KI- Systeme"
+    },
+    {
+      "nr": 8,
+      "titel": "Für Studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+      "fakultaet": "",
+      "struktur": "# Für Studierende\n  ## Veranstaltungsreihe für ein gelingendes Studium an der HsH\n  ## Kompetenzen und Tipps für dein Studium! Online. Freiwillig. Kostenfrei.\n  ## Termine im WS 2026/2027\n  ## FAQ\n    ### Studienberatung für Studierende\n    ### Weitere Beratungsangebote für Studierende mit denen wir zusammenarbeiten\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 9,
+      "titel": "f2 › Abt M › Gleichstellung FII › drittstaaten studierende mit behinderungen faq 2018",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/drittstaaten-studierende_mit_behinderungen-faq-2018.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Zur Autorin\n  ## Herausgeber\n  ## Gefördert vom\n  ## Umschlaggestaltung\n  ## Welche sozialrechtlichen Ansprüche haben Studierende mit Behinderungen und chronischen Krankheiten aus Drittstaaten?\n  ## Which social security rights claims do students from third countries with disabilities and chronic illnesses have?\n  ## Inhalt\n  ## Contents\n  ## Vorbemerkung\n  ## Internationale Studierende müssen vor Aufnahme eines Studiums in Deutschland verschiedene aufenthaltsrechtliche und sozialrechtliche Fragen klären. Die rechtliche Situation von Studierenden aus Drittstaaten (nicht EU, EWR, Schweiz), die zum Zweck des Studiums nach Deutschland kommen, folgt dabei spezifischen Regelungen.\n  ## Die vorliegende Kurzübersicht zu häufig gestellten Fragen bezieht sich nur auf Drittstaatsangehörige, die zum Zweck des Studiums nach Deutschland kommen (§ 16 AufenthG).\n  ## Aufenthaltsrechtliche Fragen\n  ## Darf das Visum oder die Aufenthaltserlaubnis zum Zweck des Studiums\n  ## abgelehnt werden, weil eine Behinderung vorliegt?\n  ## Welche Bedingungen müssen erfüllt werden, um ein Studienvisum zu erhalten?\n  ## Wenn eine Bedingung nicht erfüllt ist, gibt es dann trotzdem eine Möglichkeit, in Deutschland zu studieren?\n  ## Wann darf das Studienvisum abgelehnt werden?\n  ## Gibt es eine zeitliche Begrenzung für den Aufenthalt zu Studienzwecken?\n  ## Kann ich eine Arbeit aufnehmen oder eine Ausbildung machen, wenn die Anforderungen des Studiums zu hoch sind oder das Studium mir nicht gefällt?\n  ## Was passiert, wenn sich meine Krankheit verschlimmert und ich mein Studium aufgeben muss?\n  ## Wie geht es nach der erfolgreichen Beendigung meines Studiums weiter?\n  ## Kann ich in Deutschland Sozialleistungen zum Ausgleich behinderungsbedingter Nachteile in Anspruch nehmen?\n  ## Beratung\n  ## Wo kann ich mich über Leistungen zum Ausgleich behinderungsbedingter Nachteile beraten lassen?\n  ## Krankenversicherung, Gesundheits- und Pflegeleistungen\n  ## Welche Möglichkeiten der Krankenversicherung bestehen für mich in Deutschland?\n  ## 1. Die gesetzliche Pflichtversicherung\n  ## 2. Die Familienversicherung\n  ## 3. Pflichtversicherung als Arbeitnehmerin während des Studiums\n  ## 4. Freiwillige Versicherung in der GKV\n  ## 5. Sachleistungsaushilfe für Angehörige der Abkommensstaaten\n  ## 6. Privatversicherung\n  ## Welche Leistungen kann ich erhalten, wenn ich in der gesetzlichen studentischen Krankenversicherung versichert bin?\n  ## Auf welche Gesundheitsleistungen habe ich sonst noch Anspruch?\n  ## 1. Leistungen der gesetzlichen Unfallversicherung\n  ## 2. Leistungen nach dem Opferentschädigungsgesetz\n  ## Auf welche Pflegeleistungen habe ich Anspruch?\n  ## 1. Leistungen der Pflegeversicherung\n  ## 2. Hilfe zur Pflege\n  ## 3. Leistungen der Unfallversicherung und der Versorgungsämter\n  ## Teilhabeleistungen für Studierende mit Behinderung\n  ## Welche Unterstützungsleistungen für Studierende mit Behinderungen erbringen die Hochschulen?\n  ## Welche staatlichen Sozialleistungen zum Ausgleich behinderungsbedingter Nachteile kann ich während des Studiums in Anspruch nehmen?\n  ## 1. Unfallversicherung und Opferentschädigungsrecht\n  ## 2. Leistungen der Eingliederungshilfe\n  ## 3. Leistungen der Teilhabe am Arbeitsleben\n  ## Sicherung des Lebensunterhalts\n  ## Gibt es Leistungen zur Sicherung des Lebensunterhalts für Studierende mit einer Behinderung aus Drittstaaten?\n  ## Wann bestehen Ansprüche nach dem Bundesausbildungsförderungsgesetz (BAföG)?\n  ## In welchen Situationen können Studierende aus Drittstaaten Leistungen des Jobcenters in Anspruch nehmen?"
+    },
+    {
+      "nr": 10,
+      "titel": "Barrierefreie Hochschule",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/barrierefreie-hochschule",
+      "fakultaet": "",
+      "struktur": "# Barrierefreie Hochschule\n  ## Barrierefreie Hochschule Hannover\n    ### Downloads"
+    },
+    {
+      "nr": 11,
+      "titel": "Semesterbeitrag und Rückmeldung",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+      "fakultaet": "",
+      "struktur": "# Semesterbeitrag und Rückmeldung\n  ## Der Semesterbeitrag...\n    ### Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt. Vielen Dank für Ihre Unterstützung.\n  ## Rückmeldung/ Semesterbeiträge\n  ## Sie benötigen Hilfe..."
+    },
+    {
+      "nr": 12,
+      "titel": "Anträge für Studieninteressierte und Studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/antragsformulare",
+      "fakultaet": "",
+      "struktur": "# Anträge für Studieninteressierte und Studierende\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 4,
+      "titel": "www › Studierendenverwaltung › Antraege › 5. Antrag auf Erlass Covid Nachweis 01 — Antrag auf Erlass der Gebühren und Entgelte gem. § 14 Abs. 2 NHG",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/5._Antrag_auf_Erlass_Covid-Nachweis_01.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "www › akademische angelegenheiten › studierende › langzeitstudiengebuehren — Langzeitstudiengebühren",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/langzeitstudiengebuehren"
+    },
+    {
+      "nr": 12,
+      "titel": "Anträge für Studieninteressierte und Studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/antragsformulare"
+    },
+    {
+      "nr": 5,
+      "titel": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "www › Studierendenverwaltung › Antraege › 5. Antrag auf Erlass Covid Nachweis 01 — Antrag auf Erlass der Gebühren und Entgelte gem. § 14 Abs. 2 NHG",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/5._Antrag_auf_Erlass_Covid-Nachweis_01.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Erläuterungen zum Antrag auf Erlass der Gebühren und Entgelte**",
+      "snippets": [
+        "## **Studienzeitverlängernde Auswirkungen einer Behinderung oder schweren Erkrankung.**  \nAls Nachweis ist beizufügen: ein amtsärztliches Attest über die Schwere der Erkrankung **und** die Dauer der eingeschränkten Studierunfähigkeit.",
+        "## **Studienzeitverlängernde Auswirkung einer Behinderung oder schweren Erkrankung**  \nGem. § 14 Abs. 2 Nr. 1 NHG ist für die Gewährung eines Erlasses der Studiengebühr ein amtsärztliches Attest notwendig.  \nAusnahmsweise akzeptieren wir derzeit auch fachärztliche (kein Hausarzt/Allgemeinmediziner) Bescheinigungen unter nachfolgenden Bedingungen:  \n- In diesem Attest soll nachvollziehbar darlegt werden, für welche Zeiträume und aufgrund welcher Erkrankung und Gründe Ihre Studierfähigkeit so herabgesetzt war, dass Sie Ihrem Studium nicht mehr ordnungsgemäß nachgehen konnten. Abschließend soll die **Anzahl** der aus amtsärztlicher Sicht berücksichtigungsfähigen Erlasssemester angegeben werden."
+      ],
+      "zitate": [
+        "amtsärztliches Attest",
+        "Ihrem Studium nicht mehr ordnungsgemäß nachgehen konnten",
+        "fachärztliche (kein Hausarzt/Allgemeinmediziner) Bescheinigungen"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › akademische angelegenheiten › studierende › langzeitstudiengebuehren — Langzeitstudiengebühren",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/langzeitstudiengebuehren",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Langzeitstudiengebühren > Informationen zur Langzeitstudiengebühr",
+      "snippets": [
+        "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n# Langzeitstudiengebühren\nBei Aufnahme eines Studiums erhalten Studierende in Niedersachsen ein sogenanntes Studienguthaben, daher ist das Studium von Bachelor und konsekutivem Master* innerhalb der ausgewiesenen Regelstudienzeit gebührenfrei.\nWird die Regelstudienzeit überschritten, werden nach einer bestimmten Anzahl weiterer Semester in Niedersachsen Langzeitstudiengebühren in Höhe von 500,- € pro Semester erhoben. Die Regelstudienzeit unterscheidet sich je nach Abschlussart und manchmal auch nach Hochschulart (zum Beispiel haben die meisten Bachelor-Studiengänge eine Regelstudienzeit von 7 Semestern).\nDer **Antrag auf Befreiung der Langzeitgebühren gem. § 13 und § 14** wird ab dem 02.03.2026 ausschließlich digital bearbeitet und kann nur noch online gestellt werden."
+      ],
+      "zitate": [
+        "ab dem 02.03.2026 ausschließlich digital bearbeitet und kann nur noch online gestellt werden"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Anträge für Studieninteressierte und Studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/antragsformulare",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Anträge für Studieninteressierte und Studierende",
+      "snippets": [
+        "Bitte achten Sie dabei auf vollständige Unterlagen und die auf dem Antrag genannten Fristen.\n[ 1. Antrag auf Befreiung vom Deutschlandticket (S) - Online-Antrag ](https://campusmanagement.hs-hannover.de)\n[ 2. Antrag auf Befreiung von der Langzeitstudiengebühr (S) - Online-Antrag ](https://campusmanagement.hs-hannover.de)\n[ 3. Antrag auf Beurlaubung (S) - Online-Antrag ](https://campusmanagement.hs-hannover.de)\n[ 4. Antrag auf ein Teilzeitstudium (SI/S) - Antrag in Papierform ](https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/4.Antrag_auf_ein_Teilzeitstudium.pdf)\n[ 5. Antrag auf Erlass der Gebühren und Entgelte (S) - Online-Antrag ](https://campusmanagement.hs-hannover.de)\n[ 6. Geltendmachung der Rückerstattung von Gebühren und Beiträgen (S) - Online-Antrag ](https://campusmanagement.hs-hannover.de)\n[ 7. Antrag auf Exmatrikulation (S) - Online-Antrag ](https://campusmanagement.hs-hannover.de)"
+      ],
+      "zitate": [
+        "Antrag auf Befreiung von der Langzeitstudiengebühr (S) - Online-Antrag"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "§ 13 Langzeitstudiengebühren, sonstige Gebühren und Entgelte",
+      "snippets": [
+        "1.   bei studienzeitverlängernden Auswirkungen einer Behinderung oder schweren Erkrankung oder  \n2.   bei studienzeitverlängernden Folgen als Opfer einer Straftat.  \n3 Das Vorliegen der Voraussetzungen nach Satz 2 Nr. 1 ist durch eine amtsärztliche Bescheinigung nachzuweisen.[4] Ein Antrag nach Satz 1 kann längstens bis einen Monat nach Vorlesungsende des Semesters gestellt werden."
+      ],
+      "zitate": [
+        "längstens bis einen Monat nach Vorlesungsende des Semesters gestellt werden"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.25419,
+      "id": "a0d91d08-786b-5a34-bdef-23fa99d65dea",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/wichtige-termine-fristen",
+      "title_anzeige": "Termine & Fristen",
+      "section_heading": "Termine & Fristen > Fristen",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## Fristen\n[ Rückmeldung für das kommende Semester ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/wichtige-termine-fristen \"Rückmeldung für das kommende Semester\")\n* für das Sommersemester 01. Januar - 31. Januar eines jeden Jahres\n* für das Wintersemeste"
+    },
+    {
+      "rang": 2,
+      "score": 3.17246,
+      "id": "6973ba58-6416-5509-938b-34403cbfbe99",
+      "source_url": "https://f3.hs-hannover.de/studium/semestertermine",
+      "title_anzeige": "Semestertermine an der Hochschule Hannover",
+      "section_heading": "Semestertermine an der Hochschule Hannover > Fristen > Semestertermine an der Hochschule Hannover",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Schnellzugriff\n* [ Fristen ](https://f3.hs-hannover.de/studium/semestertermine#fristen)\n* [ Semestertermine ](https://f3.hs-hannover.de/studium/semestertermine#semestertermine)\n\n## Fristen\n##\n[ Antrag auf Befreiung der Langzeitstudiengebühren bis einschließlich  ](https://f3.hs-hannover.de/studi"
+    },
+    {
+      "rang": 3,
+      "score": 2.94988,
+      "id": "42300b8a-6129-5c69-8670-bd02c1a477b0",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/langzeitstudiengebuehren",
+      "title_anzeige": "www › akademische angelegenheiten › studierende › langzeitstudiengebuehren — Langzeitstudiengebühren",
+      "section_heading": "Langzeitstudiengebühren > Informationen zur Langzeitstudiengebühr",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "[ Regelungen beim Zweitstudium ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/langzeitstudiengebuehren \"Regelungen beim Zweitstudium\")\nAuch für ein Zweitstudium gelten die Regelungen zu den Langzeitstudiengebühren. Danach werden die bisher an Hochschulen "
+    },
+    {
+      "rang": 4,
+      "score": 2.65425,
+      "id": "d8ca9e32-d9e1-5ee8-b8c7-2969c120add9",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/langzeitstudiengebuehren",
+      "title_anzeige": "www › akademische angelegenheiten › studierende › langzeitstudiengebuehren — Langzeitstudiengebühren",
+      "section_heading": "Langzeitstudiengebühren > Informationen zur Langzeitstudiengebühr",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "Bei einem gleichzeitigen Studium mehrerer Studiengänge ist nach § 12 Absatz 2 Satz 4 NHG die Regelstudienzeit des Studienganges mit der höheren Regelstudienzeit maßgeblich.\n[ Kann ich von der Zahlung der Langzeitstudiengebühr befreit werden? ](https://www.hs-hannover.de/ueber-uns/organisation/akadem"
+    },
+    {
+      "rang": 5,
+      "score": 2.45931,
+      "id": "78e1f2e4-e9d1-502a-bd12-eb0a74f0e72d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/5._Antrag_auf_Erlass_Covid-Nachweis_01.pdf",
+      "title_anzeige": "www › Studierendenverwaltung › Antraege › 5. Antrag auf Erlass Covid Nachweis 01 — Antrag auf Erlass der Gebühren und Entgelte gem. § 14 Abs. 2 NHG",
+      "section_heading": "**Erläuterungen zum Antrag auf Erlass der Gebühren und Entgelte**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **Erläuterungen zum Antrag auf Erlass der Gebühren und Entgelte**  \nNach dem Niedersächsischen Hochschulgesetz (NHG) ist der Erlass der oben genannten Gebühren gem. § 14 Abs. 2 NHG möglich, wenn die Gebühreneinziehung zu einer unbilligen Härte führen würde.  \nEine unbillige Härte liegt hinsichtli"
+    },
+    {
+      "rang": 6,
+      "score": 2.32215,
+      "id": "18c0711a-3890-5499-b356-9eb5b9b3ce5f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "title_anzeige": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "section_heading": "§ 13 Langzeitstudiengebühren, sonstige Gebühren und Entgelte",
+      "chunk_index": 69,
+      "text_vollstaendig": true,
+      "auszug": "## § 13 Langzeitstudiengebühren, sonstige Gebühren und Entgelte  \n(1)[1] Verfügt eine Studierende oder ein Studierender nicht mehr über ein Studienguthaben, so erhebt die Hochschule in staatlicher Verantwortung für das Land von ihr oder ihm wegen der erhöhten Inanspruchnahme der staatlich finanziert"
+    },
+    {
+      "rang": 7,
+      "score": 2.13757,
+      "id": "4b29a758-23b6-5f64-99f4-e9955ea5f3c9",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Pruefungen/Info_Masterarbeiten.pdf",
+      "title_anzeige": "f5 › MGB MBG MMG › Pruefungen › Info Masterarbeiten — I. Termin",
+      "section_heading": "**II. Rückgabe des Themas, Fristverlängerung, Rücktritt, Erkrankung**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "Sollten Sie während der Bearbeitungszeit der Masterarbeit erkranken, muss **innerhalb von drei Tagen ein Attest oder das Formular „Ärztliches Attest über Prüfungsunfähigkeit“** (zu finden auf der Homepage unter dem Studiengang Soziale Arbeit grundständig, bei weiteren Informationen unter dem Punkt I"
+    },
+    {
+      "rang": 8,
+      "score": 2.10132,
+      "id": "6deeaf23-25d2-5acf-9d83-1bfcf21c7652",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/Info_BA_Abschlussarbeiten_allgemein.pdf",
+      "title_anzeige": "f5 › Pflege › Pruefungen › Info BA Abschlussarbeiten allgemein — I. Termin",
+      "section_heading": "**II. Rückgabe des Themas, Fristverlängerung, Rücktritt, Erkrankung**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "Sollten Sie während der Bearbeitungszeit der Bachelorarbeit erkranken, muss **innerhalb von drei Tagen ein Attest oder das Formular „Ärztliches Attest über Prüfungsunfähigkeit“** (zu finden auf der Homepage unter dem Studiengang Soziale Arbeit grundständig, bei weiteren Informationen unter dem Punkt"
+    },
+    {
+      "rang": 9,
+      "score": 2.05961,
+      "id": "2ffc548f-7cc6-5679-ae4f-be7287987766",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+      "title_anzeige": "Für Studierende",
+      "section_heading": "Für Studierende > FAQ",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "[ Ab wann muss ich Langzeitstudiengebühren zahlen? ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende \"Ab wann muss ich Langzeitstudiengebühren zahlen?\")\nLangzeitstudiengebühren fallen erst 6 Semester nach der Regelstudienzeit an. Es gibt aber auc"
+    },
+    {
+      "rang": 10,
+      "score": 2.00095,
+      "id": "adcc45b7-7a87-5ac1-9597-f91ee28ab2f6",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/drittstaaten-studierende_mit_behinderungen-faq-2018.pdf",
+      "title_anzeige": "f2 › Abt M › Gleichstellung FII › drittstaaten studierende mit behinderungen faq 2018",
+      "section_heading": "**Was passiert, wenn sich meine Krankheit verschlimmert und ich mein Studium aufgeben muss?**",
+      "chunk_index": 22,
+      "text_vollstaendig": false,
+      "auszug": "## **Was passiert, wenn sich meine Krankheit verschlimmert und ich mein Studium aufgeben muss?**  \nDer Aufenthalt kann auch beendet werden, wenn das Studium unverschuldet durch eine Krankheit oder Behinderung nicht mehr betrieben werden kann oder wenn der Lebensunterhalt nicht mehr gesichert ist."
+    },
+    {
+      "rang": 11,
+      "score": 1.85432,
+      "id": "10097fc0-15bf-5ac5-95de-b8c4f2d1354e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/5._Antrag_auf_Erlass_Covid-Nachweis_01.pdf",
+      "title_anzeige": "www › Studierendenverwaltung › Antraege › 5. Antrag auf Erlass Covid Nachweis 01 — Antrag auf Erlass der Gebühren und Entgelte gem. § 14 Abs. 2 NHG",
+      "section_heading": "**Dem Antrag auf Erlass der Gebühren und Entgelte nach § 13 NHG sind je nach Grund des beantragten Erlasses folgende Unterlagen beizufügen:** > **Studienzeitverlängernde Auswirkung einer Behinderung oder schweren Erkrankung**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## **Dem Antrag auf Erlass der Gebühren und Entgelte nach § 13 NHG sind je nach Grund des beantragten Erlasses folgende Unterlagen beizufügen:**\n\n## **Studienzeitverlängernde Auswirkung einer Behinderung oder schweren Erkrankung**  \nGem. § 14 Abs. 2 Nr. 1 NHG ist für die Gewährung eines Erlasses der"
+    },
+    {
+      "rang": 12,
+      "score": 1.84543,
+      "id": "8aa1acef-df2a-5992-8dd6-d3fc9ab4d47e",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "title_anzeige": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "section_heading": "§ 13 Langzeitstudiengebühren, sonstige Gebühren und Entgelte",
+      "chunk_index": 70,
+      "text_vollstaendig": true,
+      "auszug": "4.   eine in der Studien- oder Prüfungsordnung vorgesehene Studienzeit im Ausland absolviert,  \n5.   ein in der Studien- oder Prüfungsordnung vorgesehenes praktisches Studiensemester absolviert oder  \n6.   das Praktische Jahr nach § 1 Abs. 2 Satz 1 Nr. 1 der Approbationsordnung für Ärzte absolviert "
+    },
+    {
+      "rang": 13,
+      "score": 1.78022,
+      "id": "4f594415-f209-5f57-aad3-481a98e24039",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/drittstaaten-studierende_mit_behinderungen-faq-2018.pdf",
+      "title_anzeige": "f2 › Abt M › Gleichstellung FII › drittstaaten studierende mit behinderungen faq 2018",
+      "section_heading": "**What happens if my health condition worsens and I have to give up my studies?**",
+      "chunk_index": 84,
+      "text_vollstaendig": false,
+      "auszug": "## **What happens if my health condition worsens and I have to give up my studies?**  \nResidence may also be terminated if studying can no longer be continued through no fault of the student’s own but on account of illness or disablement, or if maintenance is no longer secured."
+    },
+    {
+      "rang": 14,
+      "score": 1.70298,
+      "id": "bb6a1835-b97d-560b-835b-21a1ddaf248e",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/barrierefreie-hochschule",
+      "title_anzeige": "Barrierefreie Hochschule",
+      "section_heading": "Barrierefreie Hochschule > Barrierefreie Hochschule Hannover > Downloads",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "[ Antrag auf Erlass der Langzeitstudiengebühr ](https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/5._Antrag_auf_Erlass_Covid-Nachweis_01.pdf)\n[ Inklusionsvereinbarung ](https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/S"
+    },
+    {
+      "rang": 15,
+      "score": 1.68148,
+      "id": "edaff7f7-c033-5fd8-a772-74c2342d59e2",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+      "title_anzeige": "Semesterbeitrag und Rückmeldung",
+      "section_heading": "Semesterbeitrag und Rückmeldung > Der Semesterbeitrag... > Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt. Vielen Dank für Ihre Unterstützung. > Semesterbeitrag und Rückmeldung > Rückmeldung/ Semesterbeiträge > Semesterbeitrag und Rückmeldung",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "Gem. § 11 Abs. 2 Nr. 3, haben Studierende die Möglichkeit sich von der Zahlung des Verwaltungskostenbeitrages befreien zu lassen, wenn sie über ein Stipendium aus öffentlichen Mitteln verfügen.\nZur Befreiung vom Verwaltungskostenbeitrag bedarf es keiner formalen Antragstellung. Bitte senden Sie uns "
+    },
+    {
+      "rang": 16,
+      "score": 1.63194,
+      "id": "9bcd3284-cca8-5d9b-8152-b01c8fe13855",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/antragsformulare",
+      "title_anzeige": "Anträge für Studieninteressierte und Studierende",
+      "section_heading": "Anträge für Studieninteressierte und Studierende",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Bitte achten Sie dabei auf vollständige Unterlagen und die auf dem Antrag genannten Fristen.\n[ 1. Antrag auf Befreiung vom Deutschlandticket (S) - Online-Antrag ](https://campusmanagement.hs-hannover.de)\n[ 2. Antrag auf Befreiung von der Langzeitstudiengebühr (S) - Online-Antrag ](https://campusmana"
+    },
+    {
+      "rang": 17,
+      "score": 1.60626,
+      "id": "27abb45c-1a6f-5c01-923f-56de166d259a",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/FAQ.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Studium › FAQ",
+      "section_heading": "**Krankheit:**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Krankheit:**  \n- Ich bin während der Bearbeitungszeit langfristig erkrankt. Eine Abgabe ist nicht möglich. - Sollten Sie länger als 28 Tage erkrankt sein, können Sie einen Antrag auf genehmigten Rücktritt oder Verlängerung aus triftigen Gründen stellen. Dazu senden Sie uns bitte einen Antrag in"
+    },
+    {
+      "rang": 18,
+      "score": 1.59827,
+      "id": "fdb20d20-fb1a-5686-8db9-241dba988ad0",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/FAQ_Pruefungen.pdf",
+      "title_anzeige": "f5 › Pflege › Pruefungen › FAQ Pruefungen",
+      "section_heading": "**Krankheit:**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "- Ich bin während der Bearbeitungszeit langfristig erkrankt. Eine Abgabe ist nicht möglich. - Sollten Sie länger als 28 Tage erkrankt sein, können Sie einen Antrag auf genehmigten Rücktritt oder Verlängerung aus triftigen Gründen stellen. Dazu senden Sie uns bitte einen Antrag in Briefform per Mail."
+    },
+    {
+      "rang": 19,
+      "score": 1.57299,
+      "id": "b1ebbf6f-48b4-56cb-b709-2ee9fa3b2b6a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/05_5.AEnderung-Immatrikulationsordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2010 › 05 5.AEnderung Immatrikulationsordnung — Immatrikulationsordnung der Fachhochschule Hannover (FHH)",
+      "section_heading": "**§ 9 Befreiung und Erstattung von Gebühren, Beiträgen und Entgelten**",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 9 Befreiung und Erstattung von Gebühren, Beiträgen und Entgelten**  \n(1) Beurlaubte Studierende werden mit Ausnahme des Beitrages für das Studentenwerk von allen Gebühren, Beiträgen und Entgelten befreit.  \n(2) Gebühren, Beiträge und Entgelte werden nur erstattet, wenn der oder die Studierend"
+    },
+    {
+      "rang": 20,
+      "score": 1.52384,
+      "id": "00ae8195-4c1e-5101-922f-b18bd113b75c",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/eu-studierende_mit_behinderungen-faq-2018.pdf",
+      "title_anzeige": "f2 › Abt M › Gleichstellung FII › eu studierende mit behinderungen faq 2018",
+      "section_heading": "**Was passiert, wenn sich meine Krankheit verschlimmert und ich mein Studium aufgeben muss?**",
+      "chunk_index": 19,
+      "text_vollstaendig": false,
+      "auszug": "## **Was passiert, wenn sich meine Krankheit verschlimmert und ich mein Studium aufgeben muss?**  \nDas Freizügigkeitsrecht kann auch verloren gehen, wenn das Studium unverschuldet durch eine Krankheit oder Behinderung nicht mehr betrieben werden kann und wenn der Lebensunterhalt nicht mehr gesichert"
+    },
+    {
+      "rang": 21,
+      "score": 1.50428,
+      "id": "66d4937d-7414-50bd-a414-9b6d00bf7878",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/kompetenzbereiche/gebuehren-und-beitragsmanagement",
+      "title_anzeige": "Gebühren- und Beitragsmanagement",
+      "section_heading": "Gebühren- und Beitragsmanagement > Das Team Gebühren- und Beitragsmanagement ist zuständig für:",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Gebühren- und Beitragsmanagement  \n## Das Team Gebühren- und Beitragsmanagement ist zuständig für:\n* Abrechnungswesen:\n* Einstufungsprüfungs- und Zugangsgebühr  \n* Gasthörergebühren  \n* GVH, DB, AStA  \n* Langzeitstudiengebühr  \n* Studentenwerk  \n* Verwaltungsgebühren  \n* Weiterbildungsmaster  \n* "
+    },
+    {
+      "rang": 22,
+      "score": 1.4977,
+      "id": "d28c3988-8156-5cde-9f70-57351c2ace7e",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/eu-studierende_mit_behinderungen-faq-2018.pdf",
+      "title_anzeige": "f2 › Abt M › Gleichstellung FII › eu studierende mit behinderungen faq 2018",
+      "section_heading": "**What happens if my illness worsens and I have to give up studying?**",
+      "chunk_index": 80,
+      "text_vollstaendig": false,
+      "auszug": "## **What happens if my illness worsens and I have to give up studying?**  \nAn individual may also lose the right to freedom of movement if studying can no longer be continued through no fault of one’s own but on account of illness or a disability and maintenance is no longer secured. Only when a pe"
+    },
+    {
+      "rang": 23,
+      "score": 1.42273,
+      "id": "fd9a1ab1-5764-5337-8944-a204abbef68e",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/FAQ.pdf",
+      "title_anzeige": "f5 › Fakultaet V › FAQ",
+      "section_heading": "**Krankheit:**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "- Ich bin während der Bearbeitungszeit langfristig erkrankt. Eine Abgabe ist nicht möglich. - Sollten Sie länger als 28 Tage erkrankt sein, können Sie einen Antrag auf genehmigten Rücktritt oder Verlängerung aus triftigen Gründen stellen. Dazu senden Sie uns bitte einen Antrag in Briefform per Mail."
+    },
+    {
+      "rang": 24,
+      "score": 1.40766,
+      "id": "947fd8ab-bc69-5b28-b339-dfefbebb486b",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 2025 08 25 InfobroschuereErstsemesterInformatik 2025 2026 0825 — IN DEN STUDIENGÄNGEN",
+      "section_heading": "_**In folgenden Fällen wird Krankheit als triftiger Grund für das Fernbleiben von einer Prüfung in der Abteilung Informatik als unverzüglich angezeigt angesehen:**_",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "## _**In folgenden Fällen wird Krankheit als triftiger Grund für das Fernbleiben von einer Prüfung in der Abteilung Informatik als unverzüglich angezeigt angesehen:**_  \n- _Dem Sekretariat liegt das Formular „Prüfungsunfähigkeitsbescheinigung“ innerhalb von drei Werktagen nach der Prüfung vor._  \n- "
+    },
+    {
+      "rang": 25,
+      "score": 1.36569,
+      "id": "b68ce971-53ab-5362-a2da-05e9b1496e65",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/servicebuero-beeintraechtigung-und-studium",
+      "title_anzeige": "Servicebüro Beeinträchtigung und Studium",
+      "section_heading": "ADHS Kompetenszentrum > Anträge, Richtlinien und Ordnungen",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "[ Antrag auf Erlass der Langzeitstudiengebühren ](https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/5._Antrag_auf_Erlass_Covid-Nachweis_01.pdf)\n[ Richtlinie für das Beschwerdeverfahren bei Diskriminierung an der Hochschule Hannover ](https://ww"
+    },
+    {
+      "rang": 26,
+      "score": 1.31961,
+      "id": "4d60b001-97e6-5ace-a28f-d45a249f311a",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Immatrikulationsordnung_der_Hochschule_vom_12.06.2013.pdf",
+      "title_anzeige": "f2 › Studierendenverwaltung › Gesetze Ordnungen Richtlinien › Immatrikulationsordnung der Hochschule vom 12.06.2013",
+      "section_heading": "**§ 7 Rückmeldung**",
+      "chunk_index": 22,
+      "text_vollstaendig": false,
+      "auszug": "- (3) Studierende sind bei Fristversäumnis unter Hinweis auf die Exmatrikulationsmöglichkeiten unter Beachtung des § 28 VwVfG zu mahnen,  es ist eine angemessene Nachfrist einzuräumen.  \n- (4) Anträge auf Erlass der Studienbeträge oder Langzeitgebühren gemäß § 14 Abs. 2 NHG sind bis spätestens einen"
+    },
+    {
+      "rang": 27,
+      "score": 1.31958,
+      "id": "21b4b94e-f69a-5869-a4f3-9e782701e6a0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "section_heading": "**§ 7 Rückmeldung**",
+      "chunk_index": 73,
+      "text_vollstaendig": false,
+      "auszug": "- (3) Studierende sind bei Fristversäumnis unter Hinweis auf die Exmatrikulationsmöglichkeiten unter Beachtung des § 28 VwVfG zu mahnen, es ist eine angemessene Nachfrist einzuräumen.  \n- (4) Anträge auf Erlass der Studienbeträge oder Langzeitgebühren gemäß § 14 Abs. 2 NHG sind bis spätestens einen "
+    },
+    {
+      "rang": 28,
+      "score": 1.28503,
+      "id": "25209746-45f4-555c-ac2a-37ccdc7b5fdb",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/BDP_ausbildung_Antrag_auf_Zulassung_zur_Modulpruefung_neu.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Studium › BDP ausbildung Antrag auf Zulassung zur Modulpruefung neu",
+      "section_heading": "Besondere Hinweise zu Hausarbeiten und Portfolios:",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## Besondere Hinweise zu Hausarbeiten und Portfolios:  \nDie Bearbeitungszeit beträgt 6 Wochen. Darüber hinaus kann der Abgabetermin wegen nachgewiesener Erkrankung oder eines anderen Hinderungsgrundes um höchstens 4 weitere Wochen hinausgeschoben werden. Ein entsprechend begründeter Antrag ist unver"
+    },
+    {
+      "rang": 29,
+      "score": 1.28446,
+      "id": "1c70a108-e466-54f9-87ef-ad565336e6f9",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Formulare/24-07-26_Infodokument_Teilzeitstudium.pdf",
+      "title_anzeige": "f4 › WI › Formulare › 24 07 26 Infodokument Teilzeitstudium",
+      "section_heading": "**Was ist sonst noch zu beachten?**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "- Die Langzeitstudiengebühren reduzieren sich beim Teilzeitstudium um die Hälfte.  \n- Die Zulassung zum Teilzeitstudium wird zurückgenommen, wenn mehr als die Hälfte der in der Prüfungsordnung für ein Vollzeitstudium vorgesehenen Credits (d.h. mehr als 30 Credits im Studienjahr) erworben werden. Die"
+    },
+    {
+      "rang": 30,
+      "score": 1.2657,
+      "id": "0fa11dcb-4322-54e1-98de-e7bd58836815",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/12-2011/02-Richtlinie_zur_Foerderung_von_Vorhaben_zu_FuE.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2011 › 02 Richtlinie zur Foerderung von Vorhaben zu FuE",
+      "section_heading": "**`§ 2 Ermäßigungen oder Befreiungen von der Lehrverpflichtung`**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **`§ 2 Ermäßigungen oder Befreiungen von der Lehrverpflichtung`**  \nErmäßigungen/Befreiungen von der Verordnung über die Lehrverpflichtung an Hochschulen (LV) werden jeweils für ein Semester gewährt. In besonderen Fällen können Ermäßigungen auch zur Vorbereitung von Forschungsanträgen bei Dritten"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 98641,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.84,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 3.24,
+    "docs_laden_s": 0.2,
+    "quellen_s": 5.29,
+    "antwort_llm_s": 9.49,
+    "gesamt_s": 14.78
+  },
+  "auswahl_begruendung": "{\"selected\":[4,3,12,5]}"
+}

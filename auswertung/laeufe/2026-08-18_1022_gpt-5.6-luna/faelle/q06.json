@@ -1,0 +1,470 @@
+{
+  "fall": {
+    "id": "q06",
+    "case_type": "direct",
+    "question": "An wen wende ich mich in der Fakultät I, wenn ich Probleme bei der Prüfungsanmeldung habe?",
+    "reference_answer": "Für allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung und Umbuchungen ist in der Prüfungsverwaltung der Fakultät I Stephan Rittmüller genannt. Die Adresse lautet F1-Pruefungsverwaltung(at)hs-hannover.de. Die Sprechzeiten sind Montag, Dienstag und Freitag nach Vereinbarung per E-Mail.",
+    "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Stephan Rittmüller ist die genannte Ansprechperson.",
+      "Der Kontext ist die Prüfungsverwaltung der Fakultät I.",
+      "Die Funktionsadresse lautet F1-Pruefungsverwaltung(at)hs-hannover.de."
+    ],
+    "optional_facts": [
+      "Die Zuständigkeit umfasst Prüfungsanmeldungen.",
+      "Die Quelle nennt auch iCMS, 15 CP Überprüfung und Umbuchungen.",
+      "Sprechzeiten sind Montag, Dienstag und Freitag nach Vereinbarung per E-Mail."
+    ],
+    "forbidden_claims": [
+      "Eine andere Ansprechperson als primäre zuständige Person nennen.",
+      "Nicht belegte feste Sprechzeiten oder persönliche Termine erfinden."
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Die Antwort soll Stephan Rittmüller, Prüfungsanmeldungen, die Funktionsadresse und die Sprechzeiten nennen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Stephan Rittmüller",
+      "F1-Pruefungsverwaltung"
+    ],
+    "gold_im_korpus": true
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-08-18T10:23:15",
+  "dauer_s": 7.5,
+  "fehler": null,
+  "antwort": "Bei Problemen mit der Prüfungsanmeldung wenden Sie sich in der Fakultät I an Stephan Rittmüller, zuständig für „Allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\" [1].\n\nSie erreichen ihn unter „+49 511 9296-1204/-7913\" [1] oder per E-Mail an „F1-Pruefungsverwaltung(at)hs-hannover.de\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f2 › Service › Pruefungsplan › Wichtige Info zur Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Wichtige Informationen zur Prüfungsanmeldung\n  ## Anmeldung von Prüfungen\n  ## Abmeldung von Prüfungen\n  ## Prüfungsunfähigkeit/Krankmeldungen/Atteste\n  ## Arbeitsunfähigkeitsbescheinigungen (die sogenannten „Gelben Scheine“) werden von der Hochschule Hannover nicht anerkannt!\n  ## Wichtige Informationen zur Prüfungsanmeldung"
+    },
+    {
+      "nr": 2,
+      "titel": "f2 › service › quicklinks abteilung bv › pruefungsplaene abt bv — Sommersemester 2026",
+      "url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-bv/pruefungsplaene-abt-bv",
+      "fakultaet": "f2",
+      "struktur": "  ## Sommersemester 2026\n  ## Hauptprüfungszeitraum Sommersemester 2026\n    ### Prüfungszeitraum vom 15.06. - 10.07.2026\n  ## Prüfungsanmeldungen"
+    },
+    {
+      "nr": 3,
+      "titel": "f3 › Fakultaet III › Pruefungsverwaltung IK › 20240508 How to Pruefungsanmeldung — PRÜFUNGSANMELDUNG",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## PRÜFUNGSANMELDUNG"
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › Pruefungsplan › WI › 26 04 29 Kurzanleitung Pruefungsan und abmeldung",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/26-04-29-Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Kurzanleitung\n  ## Campusmanagement\n  ## Prüfungsan- und -abmeldung\n  ## 1. Prüfungsanmeldung\n  ## Kurzanleitung Campusmanagement Prüfungsan- und -abmeldung\n  ## 2. Prüfungsabmeldung\n  ## ①\n  ## ②\n  ## Kurzanleitung Campusmanagement Prüfungsan- und -abmeldung\n  ## ④\n  ## 3. Bescheinigung über angemeldete Prüfungen\n  ## 4. Fehlerhafte Anmeldung?\n  ## Die Pflichtanmeldung"
+    },
+    {
+      "nr": 5,
+      "titel": "f4 › Pruefungsplan › WI › 260601 Kurzanleitung Pruefungsan und abmeldung ueberarbeitet — Prüfungsan- und -abmeldung",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Kurzanleitung\n  ## Campusmanagement\n  ## Prüfungsan- und -abmeldung\n  ## 1. Prüfungsanmeldung\n  ## Kurzanleitung Campusmanagement Prüfungsan- und -abmeldung\n  ## ③\n  ## ④\n  ## 2. Prüfungsab- und -ummeldung\n  ## ①\n  ## Kurzanleitung Campusmanagement Prüfungsan- und -abmeldung\n  ## ③\n  ## ④\n  ## ⚠\n  ## ⚠\n  ## 3. Bescheinigung über angemeldete Prüfungen\n  ## 4. Fehlerhafte Anmeldung?\n  ## Die Pflichtanmeldung"
+    },
+    {
+      "nr": 6,
+      "titel": "f4 › Informatik › Archiv › Hinweis zur Pruefungsanmeldung im WS 2019 2020 Januar",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/Hinweis_zur_Pruefungsanmeldung_im_WS_2019_2020_Januar.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Ein Hinweis zum Schluss: Beachten Sie bitte auch die Möglichkeit einer Zwangsanmeldung zu Zweitversuchen bzw. weiteren Versuchszählungen!\n  ## Zu welchen Prüfungen Sie konkret angemeldet sind, können Sie jederzeit über den iCMS-Link abrufen."
+    },
+    {
+      "nr": 7,
+      "titel": "f2 › Abt M › Sonstiges › Informationen Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung Sommersemester 2026.",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Wichtige Informationen zur Prüfungsanmeldung Sommersemester 2026.\n  ## 06.05.2026 – 20.05.2026\n  ## Anmeldung von Prüfungen:\n  ## Abmeldung von Prüfungen :\n  ## Notenverbesserungen:\n  ## Krankmeldung/Atteste:\n  ## Link für die Anmeldung:\n  ## Probleme bei der Anmeldung:"
+    },
+    {
+      "nr": 8,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "fakultaet": "f1",
+      "struktur": "# Prüfungsverwaltung der Fakultät I\n  ## Ansprechpersonen\n    ### Stephan Rittmüller\n  ## Sprechzeiten\n    ### Yvonne Scholz\n  ## Sprechzeiten\n    ### Oxana Schreiber\n  ## Sprechzeiten\n  ## Formulare/Prüfungsangelegenheiten"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 8,
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Prüfungsverwaltung der Fakultät I",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prüfungsverwaltung der Fakultät I > Ansprechpersonen > Stephan Rittmüller",
+      "snippets": [
+        "## Ansprechpersonen  \n### Stephan Rittmüller\nAllgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\nRicklinger Stadtweg\n30459 Hannover\nGebäude 1A Raum 1A.013\n[ +49 511 9296-1204/-7913 ](tel:+49%20511%209296-1204/-7913 \"+49 511 9296-1204/-7913 anrufen\")\n[ F1-Pruefungsverwaltung(at)hs-hannover.de  ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung \"An F1-Pruefungsverwaltung\\(at\\)hs-hannover.de eine E-Mail schreiben\")"
+      ],
+      "zitate": [
+        "Allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen",
+        "+49 511 9296-1204/-7913",
+        "F1-Pruefungsverwaltung(at)hs-hannover.de"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.61153,
+      "id": "688ec337-dac2-5c58-ad82-0a1efac0253e",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f2 › Service › Pruefungsplan › Wichtige Info zur Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung",
+      "section_heading": "**Wichtige Informationen zur Prüfungsanmeldung**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **Arbeitsunfähigkeitsbescheinigungen (die sogenannten „Gelben Scheine“) werden von der Hochschule Hannover nicht anerkannt!**  \nIm Krankheitsfall ist die Prüfung im nächsten Prüfungszeitraum zu schreiben.\n\n## **Wichtige Informationen zur Prüfungsanmeldung**  \nSollten Sie Probleme bei der An- bzw."
+    },
+    {
+      "rang": 2,
+      "score": 2.12604,
+      "id": "f1e1433e-7d2b-509d-a042-166a588dbe51",
+      "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-bv/pruefungsplaene-abt-bv",
+      "title_anzeige": "f2 › service › quicklinks abteilung bv › pruefungsplaene abt bv — Sommersemester 2026",
+      "section_heading": "Prüfungsanmeldungen",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Prüfungszeitraum vom 15.06. - 10.07.2026\n[ Prüfungsplan Sommersemester 2026 (Stand: 25.06.2026) - Änderungen vorbehalten! ](https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Pruefungsplan_SoSe_2026_Stand_25062026.pdf)\n[ Wichtige Informationen zur Prüfungsanmeldung"
+    },
+    {
+      "rang": 3,
+      "score": 1.92519,
+      "id": "9962338a-8414-5fd1-ae34-c8b37415f3ef",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Pruefungsverwaltung IK › 20240508 How to Pruefungsanmeldung — PRÜFUNGSANMELDUNG",
+      "section_heading": "**PRÜFUNGSANMELDUNG**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Bis zu dem Modul navigie- **4** ren, in dem die Prüfungsanmeldung erfolgen soll. Durch Klick auf die Veranstaltung werden weitere Informationen zur Prüfung sowie der Link zur Anmeldung angezeigt.  \nIm nächsten Schritt die An- **5** meldung bestätigen, danach öffnet sich eine Zusammenfassung des Vorg"
+    },
+    {
+      "rang": 4,
+      "score": 1.70859,
+      "id": "37422efd-9de3-5f44-8ecf-39c6c0f401ed",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/26-04-29-Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › WI › 26 04 29 Kurzanleitung Pruefungsan und abmeldung",
+      "section_heading": "Die Pflichtanmeldung",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## Die Pflichtanmeldung  \nBei Pflichtanmeldungen handelt es sich um Prüfungsanmeldungen, zu denen Sie gemäß Ihrer jeweiligen Prüfungsordnung verpflichtend angemeldet sein müssen.  \nDie Anmeldung erfolgt durch die Prüfungsverwaltung Ihrer Fakultät, eine selbstständige Abmeldung ist nicht möglich.  \nP"
+    },
+    {
+      "rang": 5,
+      "score": 1.69935,
+      "id": "45206b4f-58b3-574e-ba7d-daee87f314ef",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › WI › 260601 Kurzanleitung Pruefungsan und abmeldung ueberarbeitet — Prüfungsan- und -abmeldung",
+      "section_heading": "Die Pflichtanmeldung",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## Die Pflichtanmeldung  \nBei Pflichtanmeldungen handelt es sich um Prüfungsanmeldungen, zu denen Sie gemäß Ihrer jeweiligen Prüfungsordnung verpflichtend angemeldet sein müssen.  \nDie Anmeldung erfolgt durch die Prüfungsverwaltung Ihrer Fakultät, eine selbstständige Abmeldung ist nicht möglich.  \nP"
+    },
+    {
+      "rang": 6,
+      "score": 1.68245,
+      "id": "55708fcc-0e78-50fc-9773-7d0b9350b103",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/Hinweis_zur_Pruefungsanmeldung_im_WS_2019_2020_Januar.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › Hinweis zur Pruefungsanmeldung im WS 2019 2020 Januar",
+      "section_heading": "",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "**Weiterhin möchten wir darauf hinweisen, dass der Prüfungsausschuss der Abteilung Informatik beschlossen hat, keine nachträglichen Anmeldungen zuzulassen!** Beachten Sie also bitte den bereits erwähnten Anmeldezeitraum und melden Sie sich bei Problemen bitte auch innerhalb dieser Zeit bei uns! Dana"
+    },
+    {
+      "rang": 7,
+      "score": 1.67645,
+      "id": "af261cd9-0423-5205-ac87-5c09e2dafa80",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f2 › Abt M › Sonstiges › Informationen Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung Sommersemester 2026.",
+      "section_heading": "**Probleme bei der Anmeldung:**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **Probleme bei der Anmeldung:**  \nÜberprüfen Sie Ihre Anmeldung während der Anmeldezeit! Sollten Sie Probleme mit der Anmeldung von Prüfungen haben, wenden Sie sich bitte **umgehend** und **im Anmeldezeitraum per E-Mail** (von Ihrem Hochschul-Account) an katja.offermann@hshannover.de!  \n**Hinweis"
+    },
+    {
+      "rang": 8,
+      "score": 1.55499,
+      "id": "0a303b4b-73d8-5ab9-bff4-ec53a7381a49",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I > Ansprechpersonen > Stephan Rittmüller",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Ansprechpersonen  \n### Stephan Rittmüller\nAllgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\nRicklinger Stadtweg\n30459 Hannover\nGebäude 1A Raum 1A.013\n[ +49 511 9296-1204/-7913 ](tel:+49%20511%209296-1204/-7913 \"+49 511 9296-1204/-7913 anrufen\")\n[ F1-Pruefungsverwaltung("
+    },
+    {
+      "rang": 9,
+      "score": 1.50187,
+      "id": "ad655e6a-4209-5546-a29b-658b3028b847",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/2026_04_28_Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › BWL › 2026 04 28 Kurzanleitung Pruefungsan und abmeldung",
+      "section_heading": "**Die Pflichtanmeldung**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **Die Pflichtanmeldung**  \nBei Pflichtanmeldungen handelt es sich um Prüfungsanmeldungen, zu denen Sie gemäß Ihrer jeweiligen Prüfungsordnung verpflichtend angemeldet sein müssen.  \nDie Anmeldung erfolgt durch die Prüfungsverwaltung Ihrer Fakultät, eine selbstständige Abmeldung ist nicht möglich."
+    },
+    {
+      "rang": 10,
+      "score": 1.27468,
+      "id": "a9e69302-d9d5-51e3-9e28-726e1d159c18",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch PO2016",
+      "section_heading": "IT-Team",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "Sie finden das IT-Team in den Räumen 1H.1.31, 1H.1.43 oder 1H.1.45.  \nAls erster Ansprechpartner bei IT-Problemen steht Ihnen zunächst eine studentische Hilfskraft in Raum 1H.1.34 zur Verfügung, an die Sie sich bitte zunächst wenden. Nur wenn in Raum 1H.1.34 niemand ist, sollten Sie in einen der and"
+    },
+    {
+      "rang": 11,
+      "score": 1.24237,
+      "id": "e3b3e18b-adca-5f15-b08c-555d6c516baa",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 2025 08 25 InfobroschuereErstsemesterInformatik 2025 2026 0825 — IN DEN STUDIENGÄNGEN",
+      "section_heading": "**8.3 Anschrift und Rufnummer auf einen Blick**",
+      "chunk_index": 44,
+      "text_vollstaendig": true,
+      "auszug": "## **8.3 Anschrift und Rufnummer auf einen Blick**  \nHochschule Hannover Fakultät IV Abteilung Informatik Ricklinger Stadtweg 120 30459 Hannover E-Mail: f4-i-dekanat@hs-hannover.de  \nSekretariat und Prüfungsverwaltung (Raum 1H.2.16):  \nFrau Claudia Dzinblewski Telefon: (0511) 92 96 –1802 E-Mail: cla"
+    },
+    {
+      "rang": 12,
+      "score": 1.18185,
+      "id": "57319fae-a700-51ea-85eb-47baaa30faac",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik > Sprechen Sie sich aus.",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## Sprechen Sie sich aus.\nDas waren viele Informationen, die erstmal verdaut werden müssen. Sie haben Fragen oder Anregungen? Wenden Sie sich gern an uns!\n#### FAKULTÄT I – ELEKTRO- UND INFORMATIONSTECHNIK\nFür die Fakultät I Elektro- und Informationstechnik ist Ihre erste Anlaufstelle das [Dekanat]("
+    },
+    {
+      "rang": 13,
+      "score": 1.12158,
+      "id": "10c585af-d819-5808-bcbe-e6baf720517e",
+      "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-mmd/pruefungsplaene-abt-m-md",
+      "title_anzeige": "f2 › service › quicklinks abteilung mmd › pruefungsplaene abt m md — Prüfungen",
+      "section_heading": "Prüfungen",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n# Prüfungen\nDie Prüfungsanmeldungen werden jedes Semester zum angegebenen Zeitraum (siehe Zeitplan) über folgenden Link:<https://campusmanagement.hs-hannover.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces> selbständig durch die Studierenden "
+    },
+    {
+      "rang": 14,
+      "score": 1.11207,
+      "id": "9036256b-f8e1-577b-888e-e461597358e3",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/gleichstellung-und-diversitaet",
+      "title_anzeige": "Gleichstellung und Diversität",
+      "section_heading": "Gleichstellung und Diversität > Ihre Ansprechperson",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Ihre Ansprechperson\nDie dezentrale Gleichstellungsbeauftragte der Fakultät I steht Ihnen jederzeit als Ansprechperson zur Verfügung. Ob es um Fördermöglichkeiten, Stipendien oder Probleme im Studienalltag geht."
+    },
+    {
+      "rang": 15,
+      "score": 1.10363,
+      "id": "5f5d4f4d-140e-57ac-8513-f7b8b16dcf89",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/23-06-15_Pruefungsplan_SS23.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 23 06 15 Pruefungsplan SS23",
+      "section_heading": "**–** Die Aula (1A.001) befindet sich auf dem Campus Linden im Hauptgeb¨aude.",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **–** Die Aula (1A.001) befindet sich auf dem Campus Linden im Hauptgeb¨aude.  \n- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wenden Sie sich bitte an die/den Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterb"
+    },
+    {
+      "rang": 16,
+      "score": 1.0894,
+      "id": "947f4bea-e094-517a-85d6-a6ac09f7ecc4",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-06-01-Pruefungsplan_SS21-2021-06-01.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 21 06 01 Pruefungsplan SS21 2021 06 01 — Pr¨ufungsplan der Abteilung Informatik f¨ur den Juni/Juli 2021",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "- Falls Sie sich zu einer Pr¨ufung nicht anmelden k¨onnen (Fach ist nicht auffindbar oder o.¨a.), schreiben Sie bitte rechtzeitig eine Email an Frau Dzinblewski oder Frau Nold.  \n- Wir planen zwar keine Anderungen,[¨] aber vergewissern Sie sich bitte kurz vor den Pr¨ufungen anhand der aktuellen Vers"
+    },
+    {
+      "rang": 17,
+      "score": 1.08672,
+      "id": "33ac4561-652e-53ba-b560-7ac9a93bd0cc",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/2025-02-05_Pruefungsplan_SS25.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 2025 02 05 Pruefungsplan SS25 — Pr¨ufungsplan der Abteilung Informatik f¨ur den M¨arz 2025",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "- Die **Pr¨ufungsanmeldung ist m¨oglich vom 10.2. bis zum 21.2.2025** . Nach diesem Datum k¨onnen **keine** Pr¨ufungen mehr angemeldet werden, auch nicht ausnahmsweise.  \n- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wend"
+    },
+    {
+      "rang": 18,
+      "score": 1.07694,
+      "id": "2c2f2db9-e082-5364-b3b3-6a95b8a1dc69",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+      "title_anzeige": "f5 › Relpaed › iCMS Moodle Anleitung Studierende › Anleitung fuer Studierende zur Pruefungsanmeldung in iCMS — Anleitung zur Prüfungsanmeldung für Studierende im iCMS",
+      "section_heading": "Abmeldung von Prüfungen:",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Abmeldung von Prüfungen:  \nAuf die gleiche Weise lassen sich bereits angemeldete Prüfungen wieder abmelden, soweit die Frist noch nicht abgelaufen ist. Hier ist die rot dargestellte Option „Prüfungsanmeldung stornieren“ zu wählen.  \nS e i t e 5 | 9  \nAnschließend ist wieder eine Bestätigung – wie"
+    },
+    {
+      "rang": 19,
+      "score": 1.06733,
+      "id": "cd84c0dd-7d77-5420-9959-2b695858ed19",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-05-29-Hinweis_zur_Pruefungsanmeldung_im_SS_2020_Juni.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 20 05 29 Hinweis zur Pruefungsanmeldung im SS 2020 Juni",
+      "section_heading": "",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "**Weiterhin möchten wir darauf hinweisen, dass der Prüfungsausschuss der Abteilung Informatik beschlossen hat, keine nachträglichen Anmeldungen zuzulassen!** Beachten Sie also bitte den bereits erwähnten Anmeldezeitraum und melden Sie sich bei Problemen bitte auch innerhalb dieser Zeit bei uns! Dana"
+    },
+    {
+      "rang": 20,
+      "score": 1.0569,
+      "id": "d2932cc4-3e90-5b18-95c0-5542fd5e0407",
+      "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+      "title_anzeige": "itr › kontakt",
+      "section_heading": "Kontakt",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "#\n\n# Kontakt\n#####  ITR Studium\nFür alle Fragen rund ums Studium Technisches Informationsdesign und Technische Redaktion.\nProf. Dr. Britta Görs  \n+49 511 9296 8534\nbritta.goers@hs-hannover.de\n#####  Dekanatsbüro\nFür alle Fragen rund um die Fakultät I Elektro- und Informationstechnik.\nHochschule Hann"
+    },
+    {
+      "rang": 21,
+      "score": 1.04673,
+      "id": "2b0dacc8-6656-56ed-ab20-3d12552d0602",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-09-03-Pruefungsplan_Sep2020_WS2021.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 20 09 03 Pruefungsplan Sep2020 WS2021 — Pr¨ufungsplan der Abteilung Informatik f¨ur den September 2020",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "- Falls Sie sich zu einer Pr¨ufung nicht anmelden k¨onnen (Fach ist nicht auffindbar oder o.¨a.), schreiben Sie bitte rechtzeitig eine Email an Frau Dzinblewski oder Frau Nold.  \n- Wir planen zwar keine Anderungen,[¨] aber vergewissern Sie sich bitte kurz vor den Pr¨ufungen anhand der aktuellen Vers"
+    },
+    {
+      "rang": 22,
+      "score": 1.01522,
+      "id": "fa05b444-9950-52de-bc53-f90ebb5ec93a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-02-21-Pruefungsplan_SS21_Maerz.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 21 02 21 Pruefungsplan SS21 Maerz — Pr¨ufungsplan der Abteilung Informatik f¨ur den Februar/M¨arz 2021",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "- Die Aula (1A.001)befindet sich auf dem Campus Linden im Hauptgeb¨aude.  \n- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wenden Sie sich bitte an die/den Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k"
+    },
+    {
+      "rang": 23,
+      "score": 0.96182,
+      "id": "e8531dcc-11c6-5851-a3c4-239bb5bfe50a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "section_heading": "**Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - Neufassung**",
+      "chunk_index": 41,
+      "text_vollstaendig": false,
+      "auszug": "**84**|||||||||||||\n|**Die Prüfungsanmeldung des 1. Semesters erfolgt  nach § 7 Abs. 2 durch die Prüfungsverwaltung**|||||||||||||  \nDezernat III / PO IBS / 02.07.2018  \nNr. 10/2018 vom 30.09.2018  \nVerkündungsblatt der Hochschule Hannover"
+    },
+    {
+      "rang": 24,
+      "score": 0.95519,
+      "id": "2e1d1f0d-40cf-5505-9473-a7ce0ae4247f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/021-MH-BSW-PO-2021-WiSe_2025-26-Stand-16.03.2025-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 021 MH BSW PO 2021 WiSe 2025 26 Stand 16.03.2025 web",
+      "section_heading": "**2. Studiendekanat, Verwaltung**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **2. Studiendekanat, Verwaltung**  \nStudiendekan: Prof.in Dr. Anke Neuber Tel.: 0511 9296 3190 E-Mail: anke.neuber@hs-hannover.de Büro: 3B.1.02 StudiendekanatsBianca Hofmann assistenz: Tel.: 0511 9296 7689 E-Mail: bianca.hofmann@hs-hannover.de Büro: 3C.1.10 Marie-Claire Jovanovic Tel.: 0511 9296 "
+    },
+    {
+      "rang": 25,
+      "score": 0.91964,
+      "id": "fd008b26-9285-5ff5-8a2f-495e512d2749",
+      "source_url": "https://f3.hs-hannover.de/studium/pruefungsangelegenheiten",
+      "title_anzeige": "Prüfungsangelegenheiten der Fakultät III",
+      "section_heading": "Prüfungsangelegenheiten der Fakultät III",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Prüfungsangelegenheiten der Fakultät III\nHier finden Sie Informationen rund um Prüfungsangelegenheiten. Falls Sie weiterführende Fragen haben, wenden Sie sich bitte an unsere Kolleg*innen aus der Prüfungsverwaltung."
+    },
+    {
+      "rang": 26,
+      "score": 0.88913,
+      "id": "bcf817b3-32aa-566c-8865-3d1a1b72180c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Stud_-_Ansprechpersonen_Gefaehrungsbeurteilung.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Stud Ansprechpersonen Gefaehrungsbeurteilung — FAKULTÄT I",
+      "section_heading": "**Ansprechpersonen für die Gefährdungsbeurteilung während der Schwangerschaft oder Stillzeit** > **FAKULTÄT I**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Ansprechpersonen für die Gefährdungsbeurteilung während der Schwangerschaft oder Stillzeit**\n\n## **FAKULTÄT I**  \nKeine feste Ansprechperson  \nBitte direkt an den **Familienservice** unter _familienservice@hs-hannover.de_ wenden"
+    },
+    {
+      "rang": 27,
+      "score": 0.88344,
+      "id": "dc30aeb4-b7b2-5da2-b88f-fb8749b4cb14",
+      "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+      "title_anzeige": "service › faqs › akademische angelegenheiten › campusmanagemtsystem fur studierende",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Wie kann ich mich im Campusmanagement für eine Prüfung anmelden?"
+    },
+    {
+      "rang": 28,
+      "score": 0.86566,
+      "id": "872a1104-7c01-5dab-821b-f2a12d4b8b26",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f2 › Abt M › Sonstiges › Informationen Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung Sommersemester 2026.",
+      "section_heading": "**Anmeldung von Prüfungen:**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Anmeldung von Prüfungen:**  \nSollten Sie in einem 7. Fachsemester oder höher sein, melden Sie bitte unbedingt ALLE noch offenen Prüfungen des 1. Studienabschnitts an.  \n**Nicht bestandene Prüfungen müssen spätestens nach 13 Monaten** (§11(3) ATPO) **wiederholt werden. Auch in diesem Fall ist ei"
+    },
+    {
+      "rang": 29,
+      "score": 0.85816,
+      "id": "ef680367-3f50-5281-8569-98872e9c36ec",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-06-23-Pruefungsplan_SS26.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › Informatik › 2026 06 23 Pruefungsplan SS26",
+      "section_heading": "**Allgemeine Anmerkungen:**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "- **Bitte denken Sie daran f¨ur alle Lehrveranstaltungen, die Sie in diesem Semester belegt haben, eine Pr¨ufung anzumelden.** Pr¨ufungen m¨ussen nicht nur f¨ur Vorlesungen angemeldet werden, sondern **auch f¨ur Seminare und Projekte** . Gleiches gilt f¨ur Pr¨ufungen, die MDI-Studierende in der **Fa"
+    },
+    {
+      "rang": 30,
+      "score": 0.84765,
+      "id": "dfd60415-510b-5ed0-91c3-b71c111886aa",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-03-26-Pruefungsplan_SS26.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › Informatik › 2026 03 26 Pruefungsplan SS26",
+      "section_heading": "**Allgemeine Anmerkungen:**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wenden Sie sich bitte an die/den Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k¨onnen auch dann gepr¨uft werden, wenn sie nicht explizit im Pr¨ufungsplan "
+    }
+  ],
+  "token_budget": {
+    "verwendet": 2079,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.17,
+    "kandidaten_s": 0.0,
+    "llm_auswahl_s": 2.85,
+    "docs_laden_s": 0.02,
+    "quellen_s": 5.04,
+    "antwort_llm_s": 2.31,
+    "gesamt_s": 7.34
+  },
+  "auswahl_begruendung": "{\"selected\":[8]}"
+}

@@ -1,0 +1,579 @@
+{
+  "fall": {
+    "id": "g46",
+    "case_type": "direct",
+    "question": "Wohin schicke ich den Antrag auf einen Lehrauftrag?",
+    "reference_answer": "Digital an das Dezernat 1, mit dem gültigen Formular.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraege_2024.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Anträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen Formularen/Dateien digital an das Dezernat 1 zu senden."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ ordnung/vorgehen. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "9d8a8bfd-4eca-58fa-b401-d113257e5212",
+      "fe713fd6-b12f-5357-91f3-fc10758e24c7",
+      "0821c4b5-692e-5e91-89ea-409f65312a87",
+      "9680dfdb-fd04-5d21-8e9a-e9b518717921",
+      "bef9f0b4-33ed-53c4-8a12-73ab94dfd907",
+      "5acbc8a0-14c7-5b98-811d-dc5eb6117759",
+      "0f531954-fb74-5cbe-a404-cc53aad634b3",
+      "d50bf39b-5571-55bc-8f3d-49593319db47",
+      "de3e5d8e-8808-5cb5-8cc4-d71daa34acbd",
+      "18edac76-c705-56a2-aff5-e4b831479fcb",
+      "9087e0b3-7f12-50fe-b0b2-e1af9dc16c94",
+      "e50bb374-e14a-5430-82a7-d7ec2a8a54e4",
+      "aed559d3-d052-5686-8f3c-cca8db76fb62",
+      "c1abe730-1d2d-52bb-b494-67afc681f315",
+      "4ddca0d0-8548-5f19-80f9-21c83d94aabf",
+      "c00469a8-22c6-58d2-bf51-5023a9a7f08c",
+      "60d5b04f-c835-53f3-8212-02ac535c5f85",
+      "c829b289-8083-57ef-aa40-bccae9fdc0b4"
+    ],
+    "beleg_punkte": [
+      "c00469a8-22c6-58d2-bf51-5023a9a7f08c"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/hsh_verkuendungsvlatt_nr_10_2024.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:15:42",
+  "dauer_s": 7.18,
+  "fehler": null,
+  "antwort": "Den Antrag auf einen Lehrauftrag schicken Sie digital an das Dezernat 1: „Anträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen Formularen/Dateien digital an das Dezernat 1 zu senden.\" [1]\n\nFür die Fakultät V erfolgt die Personalanmeldung über das zuständige Sekretariat: „Diese muss bis spätestens 6 Wochen vor Semesterbeginn über das Sekretariat [...] erfolgen.\" [2]",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 07.03.2025 — Sehr geehrte Lehrbeauftragte,",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_07.03.2025.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## An alle Lehrbeauftragten der Abteilung Religionspädagogik und Diakonie sowie der Abteilung Soziale Arbeit\n  ## Wichtige Informationen\n  ## Sehr geehrte Lehrbeauftragte,\n  ## Informationen für Lehrbeauftragte in den Abteilungen Soziale Arbeit sowie Religionspädagogik und Diakonie\n  ## I. Personal- und Lehrangelegenheiten\n  ## 1. Planung des Lehrangebotes\n  ## Sekretariat Abteilung Soziale Arbeit\n  ## Sekretariat Abteilung Religionspädagogik und Diakonie\n  ## 3. Vorlesungsverzeichnis\n  ## 4. Vorlesungszeiten des Sommersemesters 2025 und des Wintersemesters 2025/26\n  ## Vorlesungszeiten Sommersemester 2025\n  ## BA Soziale Arbeit grundständig und BA Religionspädagogik und Soziale Arbeit:\n  ## Vorlesungszeiten Wintersemester 2025/26\n  ## BA Soziale Arbeit grundständig und BA Religionspädagogik und Soziale Arbeit:\n  ## BA Soziale Arbeit berufsbegleitend:\n  ## 5. Modulhandbuch\n  ## 6. iCMS (Integriertes Campus Management System) – Teilnehmendenliste Veranstaltung Über das integrierte Campus Management System (iCMS) (https://icms.hs-\n  ## Veranstaltungsbeginn per Mail über iCMS zu kontaktieren , um eine höhere\n  ## 7. Veranstaltungen mit zu geringer Teilnehmendenzahl\n  ## Studiendekanin der Abteilung Soziale Arbeit:\n  ## Studiendekanin der Abteilung Religionspädagogik und Diakonie:\n  ## 8. Terminausfall Lehrveranstaltung\n  ## 9. Honorarabrechnung\n  ## 10. Reisekosten\n  ## Voraussetzungen Reisekosten\n  ## Reiskostenabrechnung\n  ## Eingereicht werden muss gesammelt und vollständig:\n  ## Tagegeld\n  ## Übernachtung\n  ## 11. Richtlinie zu Lehraufträgen\n  ## 12. Gastvorträge\n  ## Wenn Sie im aktuellen Semester bereits Lehrbeauftragter an der Hochschule Hannover sind, ist es nicht möglich , selbst für einen Gastvortrag in diesem Semester beauftragt zu werden.\n  ## 13. Aktive Teilnahme von Studierenden\n  ## 14. Prüfungsberechtigung\n  ## 15. Prüfungen und Leitfäden zu Prüfungsleistungen\n  ## Weitere Informationen zu Prüfungsmodalitäten sowie Leitfäden zu einzelnen\n  ## II. Räume, Exkursionen, Material und Service\n  ## 16. Zugang zu Seminarräumen (CampusCard), Raumbuchung und -ausstattung CampusCard:\n  ## Raumbuchung:\n  ## Medienzentrum:\n  ## Zugang zu Gebäuden:\n  ## 17. Exkursionen\n  ## 18. Lehrmaterial\n  ## 19. Kopie-/Druckaufträge von Lehrmaterial\n  ## Kopierzentrum:\n  ## 20. Nutzung der Bibliotheken der Hochschule Hannover\n  ## Wie melde ich mich für die Nutzung der (Teil-)Bibliotheken der Hochschule Hannover an?\n  ## Wie kann ich auf von der Bibliothek angebotene E-Books und elektronische Zeitschriften zugreifen?\n  ## Wie komme ich ins Hochschulnetz, wenn ich mich nicht auf dem Campus der Hochschule Hannover befinde?\n  ## FAQs der Bibliothek finden Sie hier."
+    },
+    {
+      "nr": 2,
+      "titel": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## An alle Lehrbeauftragten der Abteilung Religionspädagogik und Diakonie sowie der Abteilung Soziale Arbeit\n  ## Wichtige Informationen\n  ## Sehr geehrte Lehrbeauftragte,\n  ## Informationen für Lehrbeauftragte in den Abteilungen Soziale Arbeit sowie Religionspädagogik und Diakonie\n  ## I. Personal- und Lehrangelegenheiten\n  ## 1. Planung des Lehrangebotes\n  ## Sekretariat Abteilung Soziale Arbeit\n  ## Sekretariat Abteilung Religionspädagogik und Diakonie\n  ## 3. Vorlesungsverzeichnis\n  ## 4. Vorlesungszeiten des Sommersemesters 2026 und des Wintersemesters 2026/27\n  ## Vorlesungszeiten Sommersemester 2026:\n  ## BA Soziale Arbeit grundständig und BA Religionspädagogik und Soziale Arbeit:\n  ## BA Soziale Arbeit berufsbegleitend:\n  ## Vorlesungszeiten Wintersemester 2026/27\n  ## BA Soziale Arbeit grundständig und BA Religionspädagogik und Soziale Arbeit:\n  ## Kontinuierliche Vorlesungszeit:\n  ## BA Soziale Arbeit berufsbegleitend:\n  ## 5. Modulhandbuch\n  ## 6. iCMS (Integriertes Campus Management System) – Teilnehmendenliste Veranstaltung Über das integrierte Campus Management System (iCMS) (https://icms.hs-\n  ## 7. Veranstaltungen mit zu geringer Teilnehmendenzahl\n  ## Studiendekanin der Abteilung Soziale Arbeit:\n  ## Studiendekanin der Abteilung Religionspädagogik und Diakonie:\n  ## 8. Terminausfall Lehrveranstaltung\n  ## 9. Honorarabrechnung\n  ## 10. Reisekosten\n  ## Voraussetzungen Reisekosten\n  ## Reiskostenabrechnung\n  ## Eingereicht werden muss gesammelt und vollständig:\n  ## Tagegeld\n  ## Übernachtung\n  ## Darüberhinausgehende Rechnungsbeträge bedürfen einer schriftlichen Begründung.\n  ## 11. Richtlinie zu Lehraufträgen\n  ## 12. Gastvorträge\n  ## 13. Aktive Teilnahme von Studierenden\n  ## 14. Prüfungsberechtigung\n  ## 15. Prüfungen und Leitfäden zu Prüfungsleistungen\n  ## II. Räume, Exkursionen, Material und Service\n  ## 16. Zugang zu Seminarräumen, Raumbuchung und -ausstattung CampusCard:\n  ## Raumbuchung:\n  ## Medienzentrum:\n  ## Zugang zu Gebäuden:\n  ## 17. Flexbüro\n  ## Hygiene\n  ## Datenschutz & Sicherheit\n  ## 18. Exkursionen\n  ## 19. Lehrmaterial\n  ## 20. Kopie-/Druckaufträge von Lehrmaterial\n  ## Kopierzentrum:\n  ## 21. Nutzung der Bibliotheken der Hochschule Hannover\n  ## Wie melde ich mich für die Nutzung der (Teil-)Bibliotheken der Hochschule Hannover an?"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 10 2024 › hsh verkuendungsvlatt nr 10 2024 — Ausgabe 10/2024",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/hsh_verkuendungsvlatt_nr_10_2024.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 10/2024\n  ## Inhalt:\n  ## Grundordnung der\n  ## Hochschule Hannover\n  ## § 1 Rechtsstellung, Regelungsbefugnis, Sitz\n  ## § 2\n  ## Aufgaben und Selbstverständnis\n  ## § 3 Organe und Organisationseinheiten\n  ## § 4 Präsidium\n  ## § 5 Hochschulrat\n  ## § 6 Senat\n  ## § 8 Fakultätsrat\n  ## § 9 Institute\n  ## § 10 Wissenschaftliche Weiterbildung\n  ## § 11\n  ## Wissenschaftliche Einrichtungen und Kooperationen\n  ## § 12\n  ## Kommissionen, Ausschüsse und weitere beratende Gremien\n  ## § 13 Ständige Kommissionen des Senats\n  ## § 14 Studienqualitätskommission\n  ## § 15 Mitglieder und Angehörige\n  ## § 16\n  ## Allgemeine Grundsätze der Mitwirkung\n  ## § 17 Studierendeninitiative\n  ## § 18\n  ## Rechtsstellung der Mitglieder von Gremien\n  ## § 19 Beschlüsse\n  ## § 20 Öffentlichkeit\n  ## § 21 Gleichstellung\n  ## § 22\n  ## Beauftragter für Studierende mit Behinderung und chronischen Erkrankungen\n  ## § 23 Berufung von Professorinnen\n  ## § 24 Bestellung von Honorarprofessorinnen\n  ## § 25\n  ## Ernennung von Ehrensenatorinnen\n  ## § 26\n  ## Veröffentlichung und Bekanntmachung\n  ## § 27 Änderung der Grundordnung\n  ## §28 Inkrafttreten\n  ## 1. Änderung:\n  ## 2. Änderung\n  ## 3. Änderung\n  ## 4. Änderung\n  ## 5. Änderung\n  ## 6. Änderung\n  ## 7. Änderung\n  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Betriebswirtschaftslehre (BBA) mit dem Abschluss Bachelor of Science an der Fakultät IV - Wirtschaft und Informatik – der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung"
+    },
+    {
+      "nr": 4,
+      "titel": "www › Verkuendungsblatt › 05 2025 › hsh verkunedungsblatt nr 05 2025 — Ausgabe 05/2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/hsh_verkunedungsblatt_nr_05_2025.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 05/2025\n  ## Inhalt:\n  ## Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen\n  ## § 2 Rechtsverhältnis von Lehrbeauftragten\n  ## § 3 Erteilung von Lehraufträgen an Mitglieder der Hochschule\n  ## § 4 Erteilung der Lehraufträge\n  ## § 5 Widerruf von Lehraufträgen\n  ## § 6 Vergütung der Lehraufträge\n  ## § 7 Vergütungssätze für Lehraufträge\n  ## § 8 Zahlungs- und Abrechnungsverfahren\n  ## § 9 Erstattung von Auslagen (Reisekosten)\n  ## § 10 Antragstellung\n  ## § 11 Gastvorträge\n  ## § 12 Übergangsregelung und Inkrafttreten"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Verkuendungsblatt › 07 2017 › 01 Richtlinie Lehrauftraege AEnd 30 06 2017 — Allgemeines",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/07-2017/01_Richtlinie_Lehrauftraege_AEnd_30_06_2017.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie zur Erteilung und Vergütung\n  ## von\n  ## Lehraufträgen und Gastvorträgen\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Rechtsverhältnis der Lehrbeauftragten\n  ## § 3\n  ## Persönliche Voraussetzung für die Erteilung von Lehraufträgen\n  ## § 4\n  ## Erteilung von Lehraufträgen an Hochschulmitglieder\n  ## § 5\n  ## Erteilung der Lehraufträge\n  ## § 6\n  ## Verlängerung von Lehraufträgen\n  ## § 7\n  ## Widerruf von Lehraufträgen\n  ## § 8\n  ## Vergütung der Lehraufträge\n  ## § 9\n  ## Höhe der Vergütung\n  ## § 10\n  ## Zahlungs- und Abrechnungsverfahren\n  ## § 11\n  ## Erstattung von Auslagen (Reisekosten)\n  ## §12\n  ## Antragstellung\n  ## § 13\n  ## Gastvorträge\n  ## § 14\n  ## Schlussbemerkungen\n  ## § 15\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 6,
+      "titel": "www › Verkuendungsblatt › 05 2014 › 11 Richtlinie zur Erteilung und Verguetung von Lehrauftraegen und Gastvortraegen Endversion — Allgemeines",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/11_Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraegen_Endversion.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie zur Erteilung und Vergütung von Lehraufträgen und\n  ## Gastvorträgen\n  ## an der Hochschule Hannover\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Rechtsverhältnis der Lehrbeauftragten\n  ## § 3\n  ## Voraussetzung für die Erteilung von Lehraufträgen\n  ## § 4\n  ## Erteilung von Lehraufträgen an Hochschulmitglieder\n  ## § 5\n  ## Erteilung der Lehraufträge\n  ## § 6\n  ## Verlängerung von Lehraufträgen\n  ## § 7\n  ## Widerruf von Lehraufträgen\n  ## § 8\n  ## Vergütung der Lehraufträge\n  ## § 9\n  ## Höhe der Vergütung\n  ## § 10\n  ## Zahlungs- und Abrechnungsverfahren\n  ## § 11\n  ## Erstattung von Auslagen (Reisekosten)\n  ## §12\n  ## Antragstellung\n  ## § 13\n  ## Gastvorträge\n  ## § 14\n  ## Schlussbemerkungen\n  ## § 15\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Verkuendungsblatt › 04 2021 › 01 Richtlinie Erteilung Verguetung Lehrauftraegen und Gastvortraegen 2021",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/01_Richtlinie_Erteilung_Verguetung_Lehrauftraegen_und_Gastvortraegen_2021.pdf",
+      "fakultaet": "",
+      "struktur": "# Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Rechtsverhältnis von Lehrbeauftragten\n  ## § 3\n  ## Erteilung von Lehraufträgen an Mitglieder der Hochschule\n  ## § 4\n  ## Erteilung der Lehraufträge\n  ## § 5\n  ## Widerruf von Lehraufträgen\n  ## § 6\n  ## Vergütung der Lehraufträge\n  ## § 7\n  ## Vergütungssätze für Lehraufträge\n  ## § 8\n  ## Zahlungs- und Abrechnungsverfahren\n  ## § 9\n  ## Erstattung von Auslagen (Reisekosten)\n  ## §10\n  ## Antragstellung\n  ## § 11\n  ## Gastvorträge\n  ## § 12\n  ## Übergangsregelung und Inkrafttreten"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 05 2025 › 01 Richtlinie zur Erteilung und Verguetung von Lehrauftraegen und Gastvortraege 2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/01_Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraege_2025.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen\n  ## § 1 Allgemeines\n  ## § 2 Rechtsverhältnis von Lehrbeauftragten\n  ## § 3 Erteilung von Lehraufträgen an Mitglieder der Hochschule\n  ## § 4 Erteilung der Lehraufträge\n  ## § 5 Widerruf von Lehraufträgen\n  ## § 6 Vergütung der Lehraufträge\n  ## § 7 Vergütungssätze für Lehraufträge\n  ## § 8 Zahlungs- und Abrechnungsverfahren\n  ## § 9 Erstattung von Auslagen (Reisekosten)\n  ## § 10 Antragstellung\n  ## § 11 Gastvorträge\n  ## § 12 Übergangsregelung und Inkrafttreten"
+    },
+    {
+      "nr": 9,
+      "titel": "f4 › Stundenplan › Informatik › 2026 02 23 Stundenplan SS 26",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/Informatik/2026-02-23_Stundenplan_SS_26.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Kommentare zum Stundenplan für das Sommersemester 2026\n  ## Für die Zweitsemester des Bachelor-Studiengangs Angewandte Informatik:\n  ## Für die Zweitsemester des Bachelor-Studiengangs Mediendesigninformatik:\n  ## Für die Viertsemester des Bachelor – Studiengangs Angewandte Informatik:\n  ## Bachelor-Studiengang Mediendesigninformatik, viertes Semester:\n  ## Für die sechsten Semester der Bachelor-Studiengangs Angewandte Informatik:\n  ## Für die sechsten Semester der Bachelor-Studiengangs Mediendesigninformatik:\n  ## Hochschule Hannover Stundenplan Sommersemester 2026 Fakultät IV / Abteilung Informatik\n  ## Hochschule Hannover Stundenplan Sommersemester 2026 Fakultät IV / Abteilung Informatik\n  ## Hochschule Hannover Stundenplan Sommersemester 2026 Fakultät IV / Abteilung Informatik\n  ## Hochschule Hannover Stundenplan Sommersemester 2026 Fakultät IV / Abteilung Informatik\n  ## Hochschule Hannover Stundenplan Sommersemester 2026 Fakultät IV / Abteilung Informatik\n  ## Hochschule Hannover Stundenplan Sommersemester 2026 Fakultät IV / Abteilung Informatik\n  ## Hochschule Hannover Stundenplan Sommersemester 2026 Fakultät IV / Abteilung Informatik\n  ## Hochschule Hannover Stundenplan Sommersemester 2026 Fakultät IV / Abteilung Informatik"
+    },
+    {
+      "nr": 10,
+      "titel": "f5 › Fakultaet V › MLP LBS Sprint FR Pflege Pruefungsinformationen 16.10.2025 DS — Prüfungsinformationen",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_V/MLP_LBS_Sprint_FR_Pflege_Pruefungsinformationen_16.10.2025_DS.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Prüfungsinformationen\n  ## Inhaltsverzeichnis\n  ## Vorwort zu geltenden Regelwerken\n  ## Prüfungsleistungen im Allgemeinen\n  ## Sinn- und Zweck von Prüfungsleistungen\n  ## Leistungspunkte\n  ## Anmeldung zu Prüfungen (inkl. Abgabe von Prüfungsleistungen)\n  ## Rücktritt von der Anmeldung\n  ## Krankheitsbedingte Prüfungsunfähigkeit\n  ## Nichtbestehen und Wiederholung von Prüfungen\n  ## Prüfungsformen\n  ## Veranstaltungsbegleitende Prüfungen (VbP)\n  ## Formularwesen\n  ## Meilenstein Masterarbeit\n  ## Auflistung der Studien- und Prüfungsleistungen im Master Lehramt Pflege (MLP)\n  ## Mastermodul\n  ## Auflagenmodule / Pflichtmodule gemäß ZZO\n  ## Ansprechpartner:innen"
+    },
+    {
+      "nr": 11,
+      "titel": "www › Verkuendungsblatt › 07 2016 › 03 Richtlinie Lehrauftraege 06 06 2016 — Allgemeines",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/07-2016/03_Richtlinie_Lehrauftraege_06_06_2016.pdf",
+      "fakultaet": "",
+      "struktur": "# Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Rechtsverhältnis der Lehrbeauftragten\n  ## § 3\n  ## Voraussetzung für die Erteilung von Lehraufträgen\n  ## § 4\n  ## Erteilung von Lehraufträgen an Hochschulmitglieder\n  ## § 5\n  ## Erteilung der Lehraufträge\n  ## § 6\n  ## Verlängerung von Lehraufträgen\n  ## § 7\n  ## Widerruf von Lehraufträgen\n  ## § 8\n  ## Vergütung der Lehraufträge\n  ## § 9\n  ## Höhe der Vergütung\n  ## § 10\n  ## Zahlungs- und Abrechnungsverfahren\n  ## § 11\n  ## Erstattung von Auslagen (Reisekosten)\n  ## §12\n  ## Antragstellung\n  ## § 13\n  ## Gastvorträge\n  ## § 14\n  ## Schlussbemerkungen\n  ## § 15\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 12,
+      "titel": "www › Verkuendungsblatt › 02 2018 › 02 Richtlinie Lehrauftraege 12.02.2018 — Allgemeines",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/02-2018/02_Richtlinie_Lehrauftraege_12.02.2018.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie zur Erteilung und Vergütung\n  ## von\n  ## Lehraufträgen und Gastvorträgen\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Rechtsverhältnis der Lehrbeauftragten\n  ## § 3\n  ## Persönliche Voraussetzung für die Erteilung von Lehraufträgen\n  ## § 4\n  ## Erteilung von Lehraufträgen an Hochschulmitglieder\n  ## § 5\n  ## Erteilung der Lehraufträge\n  ## § 6\n  ## Verlängerung von Lehraufträgen\n  ## § 7\n  ## Widerruf von Lehraufträgen\n  ## § 8\n  ## Vergütung der Lehraufträge\n  ## § 9\n  ## Höhe der Vergütung\n  ## § 10\n  ## Zahlungs- und Abrechnungsverfahren\n  ## § 11\n  ## Erstattung von Auslagen (Reisekosten)\n  ## §12\n  ## Antragstellung\n  ## § 13\n  ## Gastvorträge\n  ## § 14\n  ## Schlussbemerkungen\n  ## § 15\n  ## Inkrafttreten"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 05 2025 › 01 Richtlinie zur Erteilung und Verguetung von Lehrauftraegen und Gastvortraege 2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/01_Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraege_2025.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf"
+    },
+    {
+      "nr": 4,
+      "titel": "www › Verkuendungsblatt › 05 2025 › hsh verkunedungsblatt nr 05 2025 — Ausgabe 05/2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/hsh_verkunedungsblatt_nr_05_2025.pdf"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Verkuendungsblatt › 04 2021 › 01 Richtlinie Erteilung Verguetung Lehrauftraegen und Gastvortraegen 2021",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/01_Richtlinie_Erteilung_Verguetung_Lehrauftraegen_und_Gastvortraegen_2021.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "www › Verkuendungsblatt › 05 2025 › 01 Richtlinie zur Erteilung und Verguetung von Lehrauftraegen und Gastvortraege 2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/01_Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraege_2025.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_07.03.2025.pdf"
+      ],
+      "abschnitt": "**§ 10 Antragstellung**",
+      "snippets": [
+        "## **§ 10 Antragstellung**  \nAnträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen Formularen/Dateien digital an das Dezernat 1 zu senden. Um eine Erteilung bis zum Vorlesungsbeginn zu gewährleisten, sind ausschließlich vollständige Antragslisten rechtzeitig im Dezernat 1 einzureichen.  \n___________________________________________________________________________________________ Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen                                                         S e i t e **3** | 4  \nNr. 05/2025 vom 15.04.2025                   Verkündungsblatt der Hochschule Hannover"
+      ],
+      "zitate": [
+        "Anträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen Formularen/Dateien digital an das Dezernat 1 zu senden."
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**§ 10** > **Antragstellung**",
+      "snippets": [
+        "## **Antragstellung**  \nAnträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen Formularen/Dateien digital an das Dezernat 1 zu senden. Um eine Erteilung bis zum Vorlesungsbeginn zu gewährleisten, sind ausschließlich vollständige Antragslisten rechtzeitig im Dezernat 1 einzureichen."
+      ],
+      "zitate": [
+        "Anträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen Formularen/Dateien digital an das Dezernat 1 zu senden."
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 05 2025 › hsh verkunedungsblatt nr 05 2025 — Ausgabe 05/2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/hsh_verkunedungsblatt_nr_05_2025.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/01-2022/HsH-Verkuendungsblatt-01-2022.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/01_Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraege_2025.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_07.03.2025.pdf"
+      ],
+      "abschnitt": "**§ 10 Antragstellung**",
+      "snippets": [
+        "## **§ 10 Antragstellung**  \nAnträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen Formularen/Dateien digital an das Dezernat 1 zu senden. Um eine Erteilung bis zum Vorlesungsbeginn zu gewährleisten, sind ausschließlich vollständige Antragslisten rechtzeitig im Dezernat 1 einzureichen.  \nNr. 05/2025 vom 15.04.2025  \nVerkündungsblatt der Hochschule Hannover Seite 6 von 6"
+      ],
+      "zitate": [
+        "Anträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen Formularen/Dateien digital an das Dezernat 1 zu senden."
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 04 2021 › 01 Richtlinie Erteilung Verguetung Lehrauftraegen und Gastvortraegen 2021",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/01_Richtlinie_Erteilung_Verguetung_Lehrauftraegen_und_Gastvortraegen_2021.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/F_I_PO_MEC_2021.pdf"
+      ],
+      "abschnitt": "**Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen** > **§10** > **Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen** > **Antragstellung**",
+      "snippets": [
+        "## **§10**\n\n## **Antragstellung**  \nAnträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen und vom Dezernat 1 zur Verfügung gestellten Formularen/Dateien digital an das Dezernat 1 zu senden. Damit die rechtzeitige Erteilung bis zum Vorlesungsbeginn gewährleistet werden kann, sind Anträge vollständig spätestens vier Wochen vor Vorlesungsbeginn im Dezernat 1 einzureichen.",
+        "## **§ 1**\n## **Allgemeines**  \nDie Vergabe von Lehraufträgen erfolgt gem. § 34 Niedersächsisches Hochschulgesetz (NHG) und auf Basis der Empfehlungen zur Qualitätssicherung von Lehraufträgen „Gemeinsame Position der Landeshochschulkonferenz und des Niedersächsischen Ministeriums für Wissenschaft und Kultur vom 27.02.2017“. Einen Lehrauftrag kann erhalten, wer über die für die Lehrtätigkeit erforderliche fachliche Qualifikation verfügt und pädagogische Eignung besitzt. Die pädagogische Eignung ist in der Regel durch Erfahrungen in der Lehre oder Ausbildung nachzuweisen. Die fachliche Eignung wird durch die Fakultät bzw. Organisationseinheit festgestellt. Die pädagogisch-didaktische und persönliche Eignung wird in der Regel durch die Modulverantwortlichen festgestellt.  \nZu den Aufgaben von Lehrbeauftragten gehören neben der Durchführung von Lehrveranstaltungen alle damit verbundenen Tätigkeiten,"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.31724,
+      "id": "367e8a96-076a-51d9-a7e9-bea5c8c36f0c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_07.03.2025.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 07.03.2025 — Sehr geehrte Lehrbeauftragte,",
+      "section_heading": "**§10 Antragstellung**",
+      "chunk_index": 106,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9 Erstattung von Auslagen (Reisekosten)**  \nFahrtkosten und Aufwendungen für Unterkunft können gemäß der niedersächsischen Reisekostenverordnung erstattet werden. Die Entscheidung über die Zusage der Reisekosten obliegt der jeweiligen Fakultät oder Organisationseinheit. Die Erstattung wird im"
+    },
+    {
+      "rang": 2,
+      "score": 3.31331,
+      "id": "f2144ba9-2743-5886-9ef5-f1a5591e93e4",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "section_heading": "**§ 10** > **Antragstellung**",
+      "chunk_index": 114,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 9**\n\n## **Erstattung von Auslagen (Reisekosten)**  \nFahrtkosten und Aufwendungen für Unterkunft können gemäß der niedersächsischen Reisekostenverordnung erstattet werden. Die Entscheidung über die Zusage der Reisekosten obliegt der jeweiligen Fakultät oder Organisationseinheit. Die Erstattung"
+    },
+    {
+      "rang": 3,
+      "score": 3.17826,
+      "id": "c00469a8-22c6-58d2-bf51-5023a9a7f08c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/hsh_verkuendungsvlatt_nr_10_2024.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › hsh verkuendungsvlatt nr 10 2024 — Ausgabe 10/2024",
+      "section_heading": "**§ 10 Antragstellung**",
+      "chunk_index": 254,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Vergütungssätze für Lehraufträge**  \nLehrbeauftragte der Hochschule Hannover erhalten grundsätzlich eine Vergütung von 40,00 Euro pro geleistete Einzelstunde. In begründeten Ausnahmefällen kann diese Vergütung auf bis zu 70,00 Euro pro Einzelstunde erhöht werden. Über die Erhöhung der Vergü"
+    },
+    {
+      "rang": 4,
+      "score": 3.1735,
+      "id": "b8a57998-6b7e-5f11-a539-0ea8af164394",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/hsh_verkunedungsblatt_nr_05_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2025 › hsh verkunedungsblatt nr 05 2025 — Ausgabe 05/2025",
+      "section_heading": "**§ 10 Antragstellung**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 10 Antragstellung**  \nAnträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen Formularen/Dateien digital an das Dezernat 1 zu senden. Um eine Erteilung bis zum Vorlesungsbeginn zu gewährleisten, sind ausschließlich vollständige Antragslisten rechtzeitig im Dezernat 1 einzureiche"
+    },
+    {
+      "rang": 5,
+      "score": 2.9898,
+      "id": "aa4ee687-6ff9-51d5-b76f-6fd579bf877f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/07-2017/01_Richtlinie_Lehrauftraege_AEnd_30_06_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2017 › 01 Richtlinie Lehrauftraege AEnd 30 06 2017 — Allgemeines",
+      "section_heading": "**§12** > **Antragstellung**",
+      "chunk_index": 20,
+      "text_vollstaendig": false,
+      "auszug": "## **§12**\n## **Antragstellung**  \nFür die Antragstellung soll im Interesse einer reibungslosen schnellstmöglichen Bearbeitung die jeweils aktuelle Fassung des dafür vorgesehenen Vordrucks „Antrag auf Erteilung eines Lehrauftrages“ verwendet werden. Der Vordruck sowie in diesem Zusammenhang ebenfall"
+    },
+    {
+      "rang": 6,
+      "score": 2.85509,
+      "id": "92ef0680-12cc-5cb1-947b-6874202c1d56",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/11_Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraegen_Endversion.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2014 › 11 Richtlinie zur Erteilung und Verguetung von Lehrauftraegen und Gastvortraegen Endversion — Allgemeines",
+      "section_heading": "**§12** > **Antragstellung**",
+      "chunk_index": 18,
+      "text_vollstaendig": false,
+      "auszug": "## **§12**\n## **Antragstellung**  \nFür die Antragstellung soll im Interesse einer reibungslosen schnellstmöglichen Bearbeitung die jeweils aktuelle Fassung des dafür vorgesehenen Vordrucks „ Antrag auf Erteilung eines Lehrauftrages“ verwendet werden. Der Vordruck sowie in diesem Zusammenhang ebenfal"
+    },
+    {
+      "rang": 7,
+      "score": 2.7197,
+      "id": "1937245a-456f-52d7-b676-96a4f5877ef0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/01_Richtlinie_Erteilung_Verguetung_Lehrauftraegen_und_Gastvortraegen_2021.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2021 › 01 Richtlinie Erteilung Verguetung Lehrauftraegen und Gastvortraegen 2021",
+      "section_heading": "**Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen** > **§10** > **Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen** > **Antragstellung**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **§10**\n\n## **Antragstellung**  \nAnträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen und vom Dezernat 1 zur Verfügung gestellten Formularen/Dateien digital an das Dezernat 1 zu senden. Damit die rechtzeitige Erteilung bis zum Vorlesungsbeginn gewährleistet werden kann, sind Antr"
+    },
+    {
+      "rang": 8,
+      "score": 2.66436,
+      "id": "c8034197-d85b-5494-be8d-a6dc78d2cd66",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/01_Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraege_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2025 › 01 Richtlinie zur Erteilung und Verguetung von Lehrauftraegen und Gastvortraege 2025",
+      "section_heading": "**§ 10 Antragstellung**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 10 Antragstellung**  \nAnträge auf Erteilung von Lehraufträgen sind mit den jeweils gültigen Formularen/Dateien digital an das Dezernat 1 zu senden. Um eine Erteilung bis zum Vorlesungsbeginn zu gewährleisten, sind ausschließlich vollständige Antragslisten rechtzeitig im Dezernat 1 einzureiche"
+    },
+    {
+      "rang": 9,
+      "score": 2.40185,
+      "id": "1f7f7b9b-897c-5b46-9421-844d1bd550fb",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "section_heading": "**Informationen für Lehrbeauftragte in den Abteilungen Soziale Arbeit sowie Religionspädagogik und Diakonie** > **I. Personal- und Lehrangelegenheiten** > **1. Planung des Lehrangebotes**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Bitte beachten Sie, dass Sie ihren Lehrauftrag nur dann durchführen dürfen, wenn Ihnen ein **offizielles Erteilungsschreiben von Dezernat 1** – Personal und Recht vorliegt. Falls Sie bis zum Semesterbeginn noch keine Bestätigung zur Erteilung des Lehrauftrages von Dezernat 1 erhalten haben, melden S"
+    },
+    {
+      "rang": 10,
+      "score": 2.30646,
+      "id": "0d0e28d0-61e9-5fc2-9ba3-02d768f0ba85",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_07.03.2025.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 07.03.2025 — Sehr geehrte Lehrbeauftragte,",
+      "section_heading": "**Informationen für Lehrbeauftragte in den Abteilungen Soziale Arbeit sowie Religionspädagogik und Diakonie** > **I. Personal- und Lehrangelegenheiten** > **1. Planung des Lehrangebotes**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "Bitte beachten Sie, dass Sie ihren Lehrauftrag nur dann durchführen dürfen, wenn Ihnen ein **offizielles Erteilungsschreiben von Dezernat 1** – Personal und Recht vorliegt. Falls Sie bis zum Semesterbeginn noch keine Bestätigung zur Erteilung des Lehrauftrages von Dezernat 1 erhalten haben, melden S"
+    },
+    {
+      "rang": 11,
+      "score": 1.87666,
+      "id": "a593dfdd-a3ed-52ef-b9f1-1b6ef67111b4",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/Informatik/2026-02-23_Stundenplan_SS_26.pdf",
+      "title_anzeige": "f4 › Stundenplan › Informatik › 2026 02 23 Stundenplan SS 26",
+      "section_heading": "**Für die Viertsemester des Bachelor – Studiengangs Angewandte Informatik:**",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "Antrag_Studierende_ergaenzende_Faecher_aus_anderen_Einrichtungen_der_HS.pdf.  \nFüllen Sie diesen Antrag aus und schicken ihn unterschrieben an die Vorsitzende bzw. den Vorsitzenden des Prüfungsausschusses Informatik."
+    },
+    {
+      "rang": 12,
+      "score": 1.79057,
+      "id": "84a1363c-647e-5ca7-b9ab-d1a139fc8683",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_V/MLP_LBS_Sprint_FR_Pflege_Pruefungsinformationen_16.10.2025_DS.pdf",
+      "title_anzeige": "f5 › Fakultaet V › MLP LBS Sprint FR Pflege Pruefungsinformationen 16.10.2025 DS — Prüfungsinformationen",
+      "section_heading": "Anmeldung zu Prüfungen (inkl. Abgabe von Prüfungsleistungen)",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "Sprechen sie bitte die anzumeldenden Prüfungen vorher mit der/ dem Prüfenden ab, danach füllen sie den Antrag aus, schicken ihn bitte per Mail an das Prüfungsamt und setzen die/ den Prüfenden in cc. (Hinweis: Das Formular ist so erstellt, dass es nicht ausgedruckt werden muss und ohne Unterschrift g"
+    },
+    {
+      "rang": 13,
+      "score": 1.76507,
+      "id": "cabde184-8299-51d4-a912-4b5b123fa7c5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/11_Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraegen_Endversion.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2014 › 11 Richtlinie zur Erteilung und Verguetung von Lehrauftraegen und Gastvortraegen Endversion — Allgemeines",
+      "section_heading": "**§ 3** > **Voraussetzung für die Erteilung von Lehraufträgen**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n\n## **Voraussetzung für die Erteilung von Lehraufträgen**  \nEinen Lehrauftrag kann erhalten, wer über die für die Lehrtätigkeit erforderliche fachliche Qualifikation verfügt und pädagogische Eignung besitzt; diese ist in der Regel durch Erfahrungen in der Lehre oder Ausbildung nachzuweise"
+    },
+    {
+      "rang": 14,
+      "score": 1.75974,
+      "id": "36cee225-8405-59bd-a2db-87c8a7247839",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/01_Richtlinie_Erteilung_Verguetung_Lehrauftraegen_und_Gastvortraegen_2021.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2021 › 01 Richtlinie Erteilung Verguetung Lehrauftraegen und Gastvortraegen 2021",
+      "section_heading": "**Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen** > **§ 1** > **Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen** > **Allgemeines**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 1**\n## **Allgemeines**  \nDie Vergabe von Lehraufträgen erfolgt gem. § 34 Niedersächsisches Hochschulgesetz (NHG) und auf Basis der Empfehlungen zur Qualitätssicherung von Lehraufträgen „Gemeinsame Position der Landeshochschulkonferenz und des Niedersächsischen Ministeriums für Wissenschaft un"
+    },
+    {
+      "rang": 15,
+      "score": 1.71086,
+      "id": "52149b7d-1969-544e-b54e-4a5896aa1ab7",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/07-2017/01_Richtlinie_Lehrauftraege_AEnd_30_06_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2017 › 01 Richtlinie Lehrauftraege AEnd 30 06 2017 — Allgemeines",
+      "section_heading": "**§ 3** > **Persönliche Voraussetzung für die Erteilung von Lehraufträgen**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n\n## **Persönliche Voraussetzung für die Erteilung von Lehraufträgen**  \nEinen Lehrauftrag kann erhalten, wer über die für die Lehrtätigkeit erforderliche fachliche Qualifikation verfügt und pädagogische Eignung besitzt; diese ist in der Regel durch Erfahrungen in der Lehre oder Ausbildung"
+    },
+    {
+      "rang": 16,
+      "score": 1.64659,
+      "id": "2cdc94ca-f773-5c06-9a04-a4193f7af4c5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/07-2016/03_Richtlinie_Lehrauftraege_06_06_2016.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2016 › 03 Richtlinie Lehrauftraege 06 06 2016 — Allgemeines",
+      "section_heading": "**Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen** > **§ 3** > **Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen** > **Voraussetzung für die Erteilung von Lehraufträgen**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n\n## **Voraussetzung für die Erteilung von Lehraufträgen**  \nEinen Lehrauftrag kann erhalten, wer über die für die Lehrtätigkeit erforderliche fachliche Qualifikation verfügt und pädagogische Eignung besitzt; diese ist in der Regel durch Erfahrungen in der Lehre oder Ausbildung nachzuweise"
+    },
+    {
+      "rang": 17,
+      "score": 1.63217,
+      "id": "66cc45e5-20ed-5f15-aa70-c732f8548e95",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/07-2016/03_Richtlinie_Lehrauftraege_06_06_2016.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2016 › 03 Richtlinie Lehrauftraege 06 06 2016 — Allgemeines",
+      "section_heading": "**Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen** > **§ 10** > **Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen** > **Zahlungs- und Abrechnungsverfahren**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "Die Lehrauftragsvergütung ist grundsätzlich in einer Summe zum Schluss des Semesters auszuzahlen. Lehrbeauftragte, denen ein Lehrauftrag mindestens für die Dauer eines Semesters erteilt wird, können auf Antrag Abschläge auf die zu erwartende Vergütung erhalten. Dem Antrag ist stattzugeben, wenn wege"
+    },
+    {
+      "rang": 18,
+      "score": 1.60823,
+      "id": "fe713fd6-b12f-5357-91f3-fc10758e24c7",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/01_Richtlinie_zur_Erteilung_und_Verguetung_von_Lehrauftraegen_und_Gastvortraege_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2025 › 01 Richtlinie zur Erteilung und Verguetung von Lehrauftraegen und Gastvortraege 2025",
+      "section_heading": "Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen > **§ 1 Allgemeines**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen\n## **§ 1 Allgemeines**  \nDie Vergabe von Lehraufträgen erfolgt gemäß § 34 Niedersächsisches Hochschulgesetz (NHG) und auf Grundlage der „Gemeinsamen Position der Landeshochschulkonferenz und des Niedersächsischen Ministeri"
+    },
+    {
+      "rang": 19,
+      "score": 1.60184,
+      "id": "5619e6b2-8065-5ade-85ca-a88c0e23614c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/05-2025/hsh_verkunedungsblatt_nr_05_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2025 › hsh verkunedungsblatt nr 05 2025 — Ausgabe 05/2025",
+      "section_heading": "Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## Richtlinie zur Erteilung und Vergütung von Lehraufträgen und Gastvorträgen  \n**§ 1 Allgemeines** Die Vergabe von Lehraufträgen erfolgt gemäß § 34 Niedersächsisches Hochschulgesetz (NHG) und auf Grundlage der „Gemeinsamen Position der Landeshochschulkonferenz und des Niedersächsischen Ministeriums"
+    },
+    {
+      "rang": 20,
+      "score": 1.5594,
+      "id": "a34ddb63-5225-5a82-ba27-dc0bf2ef1d94",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/02-2018/02_Richtlinie_Lehrauftraege_12.02.2018.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2018 › 02 Richtlinie Lehrauftraege 12.02.2018 — Allgemeines",
+      "section_heading": "**Richtlinie zur Erteilung und Vergütung** > **von** > **Lehraufträgen und Gastvorträgen** > **§ 1** > **Allgemeines**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Richtlinie zur Erteilung und Vergütung**\n\n## **von**\n\n## **Lehraufträgen und Gastvorträgen**\n\n## **§ 1**\n## **Allgemeines**  \nGemäß § 34 Abs. 1 des Niedersächsischen Hochschulgesetzes (NHG) kann das Präsidium auf Antrag der Fakultät und der Leitungen der zentralen Einrichtungen befristete Lehra"
+    },
+    {
+      "rang": 21,
+      "score": 1.53065,
+      "id": "95c1f74d-6493-5e8b-8641-b720243b9d58",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "title_anzeige": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "section_heading": "§ 34 Lehrbeauftragte",
+      "chunk_index": 172,
+      "text_vollstaendig": true,
+      "auszug": "## § 34 Lehrbeauftragte  \n(1)[1] Das Präsidium kann auf Antrag der Fakultät befristete Lehraufträge erteilen. 2 Lehrbeauftragte nehmen die ihnen übertragenen Lehraufgaben selbständig wahr.  \n(2)[1] Lehraufträge werden in einem öffentlich-rechtlichen Rechtsverhältnis wahrgenommen.[2] Die §§ 33, 37, 4"
+    },
+    {
+      "rang": 22,
+      "score": 1.48451,
+      "id": "740f6d90-b7ca-5067-9520-1822158961a5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/Protokoll_33.Sitzung_Senatskommission_Studienqualitaetsmittel_vom_17.10.2023.pdf",
+      "title_anzeige": "www › Finanzmanagement › Studienqualitaetsmittel › Protokoll 33.Sitzung Senatskommission Studienqualitaetsmittel vom 17.10.2023",
+      "section_heading": "**TOP 7: Interne Beratung und Beschlussfassung zu den Anträgen**",
+      "chunk_index": 44,
+      "text_vollstaendig": false,
+      "auszug": "## **TOP 7: Interne Beratung und Beschlussfassung zu den Anträgen**  \nHerr Frischmann gibt die unter TOP 5 vorgestellten Anträge zur Diskussion und Abstimmung frei. Die Abhandlung der Anträge erfolgt in der unter TOP 2 beschlossenen Reihenfolge.  \n- 5.9 Z3 (Herr Trutz), Finanzierung von Lehraufträge"
+    },
+    {
+      "rang": 23,
+      "score": 1.43745,
+      "id": "b45aa4b2-7b1c-5f3a-8ca4-6c2c6a3aaf5f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/08-2015/01_Richtlinie_Lehrauftraege_AEnderungen_15_06_2015.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2015 › 01 Richtlinie Lehrauftraege AEnderungen 15 06 2015 — Allgemeines",
+      "section_heading": "**§12** > **Antragstellung**",
+      "chunk_index": 21,
+      "text_vollstaendig": false,
+      "auszug": "Sofern einzelne Anträge bis zu diesem Zeitpunkt nur unvollständig übersandt werden können, werden die jeweiligen Antragsteller dazu aufgefordert, diese zunächst zu vervollständigen und danach unverzüglich nachzureichen.  \nBei Überprüfung der Lehrauftragsanträge orientiert sich die Bewilligung über d"
+    },
+    {
+      "rang": 24,
+      "score": 1.40192,
+      "id": "2bd88fbc-62b9-5d52-ae82-c8b11e1972a9",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/LBS_Antrag_auf_Zulassung_zur_Modulpruefung.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Studium › LBS Antrag auf Zulassung zur Modulpruefung — Antrag auf Zulassung zur Modulprüfung",
+      "section_heading": "Datum > Per Mail senden",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## Datum\n\n## Per Mail senden  \nDen ausgefüllten Antrag bitte per E-Mail im PDF-Format an das Prüfungsamt senden und den*die Prüfer*in in der E-Mail ins cc setzen, dadurch entfällt die Unterschrift der*des Prüfenden.  \n- Es ist bekannt, dass Hausarbeiten / Portfolios / Praktikumsu. Projektberichte pe"
+    },
+    {
+      "rang": 25,
+      "score": 1.39279,
+      "id": "00109d48-9be6-534b-a4bf-e67e7395ede5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/08-2015/01_Richtlinie_Lehrauftraege_AEnderungen_15_06_2015.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2015 › 01 Richtlinie Lehrauftraege AEnderungen 15 06 2015 — Allgemeines",
+      "section_heading": "**§ 4** > **Erteilung von Lehraufträgen an Hochschulmitglieder**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n## **Erteilung von Lehraufträgen an Hochschulmitglieder**  \nGemäß § 34 Abs. 3 NHG können Mitglieder der Hochschule nach § 16 Abs. 2 Satz 4 Nrn. 1 und 2 NHG Lehraufträge an der eigenen Hochschule nur bei Lehrangeboten des Weiterbildungsstudiums erhalten.  \nDie Möglichkeiten, wissenschaftli"
+    },
+    {
+      "rang": 26,
+      "score": 1.36875,
+      "id": "80c743d0-f280-52b8-8e74-e8bcb4c99818",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/BMG_Antrag_auf_Zulassung_zur_Modulpruefung.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Studium › BMG Antrag auf Zulassung zur Modulpruefung — Antrag auf Zulassung zur Modulprüfung",
+      "section_heading": "Datum > Per Mail senden",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## Datum\n\n## Per Mail senden  \nDen ausgefüllten Antrag bitte per E-Mail im PDF-Format an das Prüfungsamt senden und den*die Prüfer*in in der E-Mail ins cc setzen, dadurch entfällt die Unterschrift der*des Prüfenden.  \n- Es ist bekannt, dass Hausarbeiten / Portfolios / Praktikumsu. Projektberichte pe"
+    },
+    {
+      "rang": 27,
+      "score": 1.3619,
+      "id": "a56567f8-e1ea-5ed5-bd68-ed1c8b7bbdc7",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "title_anzeige": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "section_heading": "§ 34 Lehrbeauftragte",
+      "chunk_index": 173,
+      "text_vollstaendig": true,
+      "auszug": "(3)[1] Mitglieder der Hochschule nach § 16 Abs. 2 Satz 4 Nrn. 1 und 2 können Lehraufträge an der eigenen Hochschule nur bei Lehrangeboten des Weiterbildungsstudiums und in berufsbegleitenden Studiengängen erhalten.[2] Die Möglichkeiten, wissenschaftlichen Mitarbeiterinnen und Mitarbeitern nach § 31 "
+    },
+    {
+      "rang": 28,
+      "score": 1.35583,
+      "id": "e9c25358-21e7-565b-a23a-5fa45d1ed240",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/2023_06_14_antrag_po_wechsel_23.pdf",
+      "title_anzeige": "f4 › Informatik › Formulare › 2023 06 14 antrag po wechsel 23 — Antrag auf Wechsel nach PO 2023",
+      "section_heading": "**Bachelor-Studiengang Mediendesigninformatik an der Hochschule Hannover** > **Antrag auf Wechsel nach PO 2023**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "Bitte geben Sie den Antrag unterschrieben in unserem Sekretariat (Frau Dzinblewski) ab.  \nDer Antrag muss spätestens bei der Anmeldung zu den Prüfungen im Sekretariat vorliegen, um bei den nachfolgenden Prüfungen berücksichtigt werden zu können."
+    },
+    {
+      "rang": 29,
+      "score": 1.35002,
+      "id": "947ecf36-0fc6-546f-aa8b-349b74275c5a",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Pruefungen_BRS/BRS_Antrag_auf_Zulassung_zur_Modulpruefung-17.03.2026.pdf",
+      "title_anzeige": "f5 › Relpaed › Pruefungen BRS › BRS Antrag auf Zulassung zur Modulpruefung 17.03.2026 — Antrag auf Zulassung zur Modulprüfung",
+      "section_heading": "Datum > Per Mail senden",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Datum\n\n## Per Mail senden  \nDen ausgefüllten Antrag bitte per E-Mail im PDF-Format an das Prüfungsamt senden und den*die Prüfer*in in der E-Mail ins cc setzen, dadurch entfällt die Unterschrift der*des Prüfenden.  \n> - Es ist bekannt, dass Hausarbeiten / Portfolios / Praktikumsu. Projektberichte "
+    },
+    {
+      "rang": 30,
+      "score": 1.34033,
+      "id": "ec1fd09d-788e-5567-b0f3-7fbe23e3e07e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/Protokoll_33.Sitzung_Senatskommission_Studienqualitaetsmittel_vom_17.10.2023.pdf",
+      "title_anzeige": "www › Finanzmanagement › Studienqualitaetsmittel › Protokoll 33.Sitzung Senatskommission Studienqualitaetsmittel vom 17.10.2023",
+      "section_heading": "**TOP 5: Anträge an die Kommission (Anlage 2)**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **TOP 5: Anträge an die Kommission (Anlage 2)**  \nDie Antragsteller*innen werden einzeln in der unter TOP 2 beschlossenen Reihenfolge in den Sitzungssaal gebeten. Es darf dabei davon ausgegangen werden, dass die Anträge von den Kommissionsmitgliedern gelesen wurden.  \n- 5.9 Z3 (Herr Trutz), Finan"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 36220,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.57,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 3.45,
+    "docs_laden_s": 0.1,
+    "quellen_s": 5.13,
+    "antwort_llm_s": 1.87,
+    "gesamt_s": 6.99
+  },
+  "auswahl_begruendung": "{\"selected\":[8,2,4,7]}"
+}

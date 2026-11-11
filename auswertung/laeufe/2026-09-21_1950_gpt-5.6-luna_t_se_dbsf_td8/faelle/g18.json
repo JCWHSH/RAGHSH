@@ -1,0 +1,472 @@
+{
+  "fall": {
+    "id": "g18",
+    "case_type": "direct",
+    "question": "An wen wende ich mich, wenn mein Fach im Anmeldesystem nicht auftaucht?",
+    "reference_answer": "Rechtzeitig per E-Mail an Frau Dzinblewski.",
+    "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/2026-02-04-Pruefungsplan_SS26.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "schreiben Sie bitte rechtzeitig eine Email an Frau Dzinblewski"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ verwaltung_service/vorgehen. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "804a2a15-5cd0-55a1-a18b-602c8ba94485",
+      "94ea5292-e5f4-52c8-a78c-3df49924b6b1",
+      "6be44ec3-7d75-5c8d-8484-9c794197106e",
+      "19ce86ea-0baf-5396-876f-399318ae4f1d",
+      "9761da94-6b0c-51e5-a06d-dfdd6fca8424"
+    ],
+    "beleg_punkte": [
+      "9761da94-6b0c-51e5-a06d-dfdd6fca8424"
+    ],
+    "beleg_urls": [
+      "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/2026-02-04-Pruefungsplan_SS26.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:57:34",
+  "dauer_s": 6.22,
+  "fehler": null,
+  "antwort": "Bei Problemen mit der Prüfungsanmeldung wenden Sie sich an das „BV-Dekanatsbüro (Frau Kockemüller / Frau Hoppenworth)\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › servicezentrum beratung › career center › veranstaltungsangebot",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center/veranstaltungsangebot",
+      "fakultaet": "",
+      "struktur": "# Veranstaltungsangebot\n    ### Summer School: Prokrastination und Zeitmanagement (Präsenz)\n    ### Summer School: Moderationskompetenzen für den Beruf (Präsenz)\n    ### Teilnahmebedingungen\n    ### Anmeldeformular\n    ### Feedback"
+    },
+    {
+      "nr": 2,
+      "titel": "f2 › Service › Pruefungsplan › Wichtige Info zur Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Wichtige Informationen zur Prüfungsanmeldung\n  ## Anmeldung von Prüfungen\n  ## Abmeldung von Prüfungen\n  ## Prüfungsunfähigkeit/Krankmeldungen/Atteste\n  ## Arbeitsunfähigkeitsbescheinigungen (die sogenannten „Gelben Scheine“) werden von der Hochschule Hannover nicht anerkannt!\n  ## Wichtige Informationen zur Prüfungsanmeldung"
+    },
+    {
+      "nr": 3,
+      "titel": "f4 › Informatik › Archiv › 2025 02 05 Pruefungsplan SS25 — Pr¨ufungsplan der Abteilung Informatik f¨ur den M¨arz 2025",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/2025-02-05_Pruefungsplan_SS25.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Pr¨ufungsplan der Abteilung Informatik f¨ur den M¨arz 2025\n  ## Anmerkungen:"
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › Informatik › Archiv › 19 09 18 Pruefungsplan WS1920 Sep2019 — Pr¨ufungsplan der Abteilung Informatik f¨ur den September 2019",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/19-09-18-Pruefungsplan_WS1920_Sep2019.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Pr¨ufungsplan der Abteilung Informatik f¨ur den September 2019\n  ## Anmerkungen:"
+    },
+    {
+      "nr": 5,
+      "titel": "f4 › Informatik › Archiv › 20 02 10 Pruefungsplan SS20Maerz — Pr¨ufungsplan der Abteilung Informatik f¨ur den M¨arz 2020",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-02-10-Pruefungsplan_SS20Maerz.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Pr¨ufungsplan der Abteilung Informatik f¨ur den M¨arz 2020\n  ## Anmerkungen:"
+    },
+    {
+      "nr": 6,
+      "titel": "f4 › Informatik › Archiv › 20 01 16 Pruefungsplan WS1920 Jan2020 — Pr¨ufungsplan der Abteilung Informatik f¨ur den Januar 2020",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-01-16-Pruefungsplan_WS1920_Jan2020.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Pr¨ufungsplan der Abteilung Informatik f¨ur den Januar 2020\n  ## Anmerkungen:"
+    },
+    {
+      "nr": 7,
+      "titel": "Unternehmensentwicklung (MBD)",
+      "url": "https://f4.hs-hannover.de/studium/master-studiengaenge/unternehmensentwicklung-mbd",
+      "fakultaet": "f4",
+      "struktur": "# Unternehmensentwicklung (MBD)\n  ## Business Development\n    ### Auf einen Blick\n# Kurzübersicht\n# Wandel als Erfolgsrezept\n  ## Pflichtmodule\n  ## Wahlpflichtmodule\n# Warum MBD an der HsH?\n# Bewerten Sie uns auf StudyCheck!\n  ## Veranstaltungen\n  ## FAQ\n  ## Ist MBD das Richtige für mich?\n  ## Fragen zum Zulassungs- und Bewerbungverfahren\n  ## Fragen zu Studienverlauf und Organisation\n  ## Fragen zum Double Degree\n  ## Kontakt\n    ### Studiengangsleiterin\n    ### Studiengangsassistentin\n    ### Social-Web\n  ## Veranstaltungen der Fakultät"
+    },
+    {
+      "nr": 8,
+      "titel": "f4 › Informatik › Archiv › 20 09 03 Pruefungsplan Sep2020 WS2021 — Pr¨ufungsplan der Abteilung Informatik f¨ur den September 2020",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-09-03-Pruefungsplan_Sep2020_WS2021.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Pr¨ufungsplan der Abteilung Informatik f¨ur den September 2020\n  ## Anmerkungen:"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 2,
+      "titel": "f2 › Service › Pruefungsplan › Wichtige Info zur Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f2 › Service › Pruefungsplan › Wichtige Info zur Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Wichtige Informationen zur Prüfungsanmeldung**",
+      "snippets": [
+        "## **Wichtige Informationen zur Prüfungsanmeldung**  \nSollten Sie Probleme bei der An- bzw. Abmeldung von Prüfungen haben, wenden Sie sich bitte an das BV-Dekanatsbüro (Frau Kockemüller / Frau Hoppenworth).  \nAlles Gute und viel Erfolg!"
+      ],
+      "zitate": [
+        "BV-Dekanatsbüro (Frau Kockemüller / Frau Hoppenworth)"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.54179,
+      "id": "8b0dc195-89ab-5b58-9b12-b4e11e153142",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center/veranstaltungsangebot",
+      "title_anzeige": "www › servicezentrum beratung › career center › veranstaltungsangebot",
+      "section_heading": "Veranstaltungsangebot",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "#  Veranstaltungsangebot\nAngeboten werden **Seminare und Workshops** zur **Erweiterung überfachlicher Kompetenzen****für** den **Beruf und** für das **Studium**. Aktuelle **Ausschreibungen für Veranstaltungen** erhalten Studierende **über** ihre **E-Mail-Adresse der Hochschule**. Bitte ruft diese E-"
+    },
+    {
+      "rang": 2,
+      "score": 1.41568,
+      "id": "688ec337-dac2-5c58-ad82-0a1efac0253e",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f2 › Service › Pruefungsplan › Wichtige Info zur Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung",
+      "section_heading": "**Wichtige Informationen zur Prüfungsanmeldung**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **Arbeitsunfähigkeitsbescheinigungen (die sogenannten „Gelben Scheine“) werden von der Hochschule Hannover nicht anerkannt!**  \nIm Krankheitsfall ist die Prüfung im nächsten Prüfungszeitraum zu schreiben.\n\n## **Wichtige Informationen zur Prüfungsanmeldung**  \nSollten Sie Probleme bei der An- bzw."
+    },
+    {
+      "rang": 3,
+      "score": 1.3701,
+      "id": "33ac4561-652e-53ba-b560-7ac9a93bd0cc",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/2025-02-05_Pruefungsplan_SS25.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 2025 02 05 Pruefungsplan SS25 — Pr¨ufungsplan der Abteilung Informatik f¨ur den M¨arz 2025",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **Anmerkungen:**  \n- **¨Anderung zu letztem Plan:** Die Pr¨ufungen zu MIN-STR (Garmann) finden nach Vereinbarung statt.  \n- **Notenverbesserungen** k¨onnen ausschließlich ¨uber die Pr¨ufungsverwaltung der Abteilung Informatik beantragt bzw. angemeldet werden! Das n¨otige Formular daf¨ur finden Si"
+    },
+    {
+      "rang": 4,
+      "score": 1.34417,
+      "id": "20b0ffe9-fd61-5f95-9724-d24249243390",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/19-09-18-Pruefungsplan_WS1920_Sep2019.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 19 09 18 Pruefungsplan WS1920 Sep2019 — Pr¨ufungsplan der Abteilung Informatik f¨ur den September 2019",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "- Pr¨ufungen, die nicht im Plan auftauchen, finden in der Regel m¨undlich statt, f¨ur einen Termin wenden Sie sich bitte an die/den jeweiligen Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k¨onnen auch dann gepr¨uft werden, wenn sie nicht explizit im Pr¨ufungsplan aufgef¨uhrt wer"
+    },
+    {
+      "rang": 5,
+      "score": 1.32332,
+      "id": "03fb4b9c-8fe8-5736-b7b9-2f3789c83ee6",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-02-10-Pruefungsplan_SS20Maerz.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 20 02 10 Pruefungsplan SS20Maerz — Pr¨ufungsplan der Abteilung Informatik f¨ur den M¨arz 2020",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "- Pr¨ufungen, die nicht im Plan auftauchen, finden in der Regel m¨undlich statt, f¨ur einen Termin wenden Sie sich bitte an die/den jeweiligen Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k¨onnen auch dann gepr¨uft werden, wenn sie nicht explizit im Pr¨ufungsplan aufgef¨uhrt wer"
+    },
+    {
+      "rang": 6,
+      "score": 1.3189,
+      "id": "a5215a18-ed2f-5cf9-bafa-f7947521bb6e",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-01-16-Pruefungsplan_WS1920_Jan2020.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 20 01 16 Pruefungsplan WS1920 Jan2020 — Pr¨ufungsplan der Abteilung Informatik f¨ur den Januar 2020",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "- Pr¨ufungen, die nicht im Plan auftauchen, finden in der Regel m¨undlich statt, f¨ur einen Termin wenden Sie sich bitte an die/den jeweiligen Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k¨onnen auch dann gepr¨uft werden, wenn sie nicht explizit im Pr¨ufungsplan aufgef¨uhrt wer"
+    },
+    {
+      "rang": 7,
+      "score": 1.2905,
+      "id": "34236a92-aa9d-515d-ab00-b39ece2cb6b5",
+      "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/unternehmensentwicklung-mbd",
+      "title_anzeige": "Unternehmensentwicklung (MBD)",
+      "section_heading": "Bewerten Sie uns auf StudyCheck! > Fragen zum Zulassungs- und Bewerbungverfahren",
+      "chunk_index": 43,
+      "text_vollstaendig": true,
+      "auszug": "Um für den Master-Studiengang Unternehmensentwicklung zugangsberechtigt zu sein, benötigen Sie einen Bachelor-, Diplom- oder gleichwertigen Abschluss im Fach Betriebswirtschaftslehre (oder einem einschlägigen Studium) im Umfang von 210 ECTS. Wenn Sie Ihren Abschluss nicht in Deutschland erworben hab"
+    },
+    {
+      "rang": 8,
+      "score": 1.23611,
+      "id": "b0150f6d-6140-52af-91c9-7a7a55a925f7",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-09-03-Pruefungsplan_Sep2020_WS2021.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 20 09 03 Pruefungsplan Sep2020 WS2021 — Pr¨ufungsplan der Abteilung Informatik f¨ur den September 2020",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "- Die Aula (1A.001)befindet sich auf dem Campus Linden im Hauptgeb¨aude.  \n- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wenden Sie sich bitte an die/den Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k"
+    },
+    {
+      "rang": 9,
+      "score": 1.21274,
+      "id": "a81b6f7b-15c4-5f57-bf76-61a7290ea849",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-06-23-Pruefungsplan_SS26.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › Informatik › 2026 06 23 Pruefungsplan SS26",
+      "section_heading": "**Allgemeine Anmerkungen:**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "- Die Aula (1A.001) befindet sich auf dem Campus Linden im Hauptgeb¨aude.  \n- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wenden Sie sich bitte an die/den Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich "
+    },
+    {
+      "rang": 10,
+      "score": 1.2089,
+      "id": "f20b0d84-db7b-5eb2-90e9-690a5bdc7639",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/03_Forschungsaktivitaeten/Forschungsinstitute/ISA/Steckbriefe/Steckbriefe_ISA_A3_V05.pdf",
+      "title_anzeige": "www › ISA › Steckbriefe › Steckbriefe ISA A3 V05 — Institut für Sensorik und Automation",
+      "section_heading": "Integration von IoT und KI in praxisnahe Anwendungen Steuerungs- und Automatisierungstechnik > Tätigkeit an der Hochschule Hannover",
+      "chunk_index": 25,
+      "text_vollstaendig": true,
+      "auszug": "## Integration von IoT und KI in praxisnahe Anwendungen Steuerungs- und Automatisierungstechnik\n\n## Tätigkeit an der Hochschule Hannover  \n- Lehrgebiet Prozessinformatik und Automatisierungstechnik  \n- Vertretene Fächer:  \n- Grundlagen der C-Programmierung  \n- Automatisierungstechnik  \n- Steuerungst"
+    },
+    {
+      "rang": 11,
+      "score": 1.20022,
+      "id": "dfd60415-510b-5ed0-91c3-b71c111886aa",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-03-26-Pruefungsplan_SS26.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › Informatik › 2026 03 26 Pruefungsplan SS26",
+      "section_heading": "**Allgemeine Anmerkungen:**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wenden Sie sich bitte an die/den Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k¨onnen auch dann gepr¨uft werden, wenn sie nicht explizit im Pr¨ufungsplan "
+    },
+    {
+      "rang": 12,
+      "score": 1.18688,
+      "id": "1e12e13c-cb78-5585-93a3-24842cf3b1fd",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/FAQ_Pruefungen.pdf",
+      "title_anzeige": "f5 › Pflege › Pruefungen › FAQ Pruefungen",
+      "section_heading": "**Krankheit:**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "**Studienleistungen:**  \n- Ich habe meine Studienleistung bestanden. Diese ist aber noch nicht eingetragen. Woran liegt das?  \n- Da Studienleistungen nicht angemeldet werden, sind wir auf die Auskunft der Dozenten angewiesen. Sobald die Studienleistung erfolgte, gibt uns der*die Dozent*in die Info w"
+    },
+    {
+      "rang": 13,
+      "score": 1.18682,
+      "id": "ebb44c87-ae62-5246-9dce-1c504c00f017",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/FAQ.pdf",
+      "title_anzeige": "f5 › Fakultaet V › FAQ",
+      "section_heading": "**Krankheit:**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "**Studienleistungen:**  \n- Ich habe meine Studienleistung bestanden. Diese ist aber noch nicht eingetragen. Woran liegt das?  \n- Da Studienleistungen nicht angemeldet werden, sind wir auf die Auskunft der Dozenten angewiesen. Sobald die Studienleistung erfolgte, gibt uns der*die Dozent*in die Info w"
+    },
+    {
+      "rang": 14,
+      "score": 1.11128,
+      "id": "872a1104-7c01-5dab-821b-f2a12d4b8b26",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f2 › Abt M › Sonstiges › Informationen Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung Sommersemester 2026.",
+      "section_heading": "**Anmeldung von Prüfungen:**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Anmeldung von Prüfungen:**  \nSollten Sie in einem 7. Fachsemester oder höher sein, melden Sie bitte unbedingt ALLE noch offenen Prüfungen des 1. Studienabschnitts an.  \n**Nicht bestandene Prüfungen müssen spätestens nach 13 Monaten** (§11(3) ATPO) **wiederholt werden. Auch in diesem Fall ist ei"
+    },
+    {
+      "rang": 15,
+      "score": 1.08656,
+      "id": "fa05b444-9950-52de-bc53-f90ebb5ec93a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-02-21-Pruefungsplan_SS21_Maerz.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 21 02 21 Pruefungsplan SS21 Maerz — Pr¨ufungsplan der Abteilung Informatik f¨ur den Februar/M¨arz 2021",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "- Die Aula (1A.001)befindet sich auf dem Campus Linden im Hauptgeb¨aude.  \n- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wenden Sie sich bitte an die/den Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k"
+    },
+    {
+      "rang": 16,
+      "score": 1.04786,
+      "id": "b3477785-ee70-54d1-9609-52631517f6d5",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/FAQ.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Studium › FAQ",
+      "section_heading": "**Studienleistungen:**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **Studienleistungen:**  \n- Ich habe meine Studienleistung bestanden. Diese ist aber noch nicht eingetragen. Woran liegt das?  \n- Da Studienleistungen nicht angemeldet werden, sind wir auf die Auskunft der Dozenten angewiesen. Sobald die Studienleistung erfolgte, gibt uns der / die Dozentin die In"
+    },
+    {
+      "rang": 17,
+      "score": 0.96878,
+      "id": "37422efd-9de3-5f44-8ecf-39c6c0f401ed",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/26-04-29-Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › WI › 26 04 29 Kurzanleitung Pruefungsan und abmeldung",
+      "section_heading": "Die Pflichtanmeldung",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## Die Pflichtanmeldung  \nBei Pflichtanmeldungen handelt es sich um Prüfungsanmeldungen, zu denen Sie gemäß Ihrer jeweiligen Prüfungsordnung verpflichtend angemeldet sein müssen.  \nDie Anmeldung erfolgt durch die Prüfungsverwaltung Ihrer Fakultät, eine selbstständige Abmeldung ist nicht möglich.  \nP"
+    },
+    {
+      "rang": 18,
+      "score": 0.95562,
+      "id": "45206b4f-58b3-574e-ba7d-daee87f314ef",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › WI › 260601 Kurzanleitung Pruefungsan und abmeldung ueberarbeitet — Prüfungsan- und -abmeldung",
+      "section_heading": "Die Pflichtanmeldung",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## Die Pflichtanmeldung  \nBei Pflichtanmeldungen handelt es sich um Prüfungsanmeldungen, zu denen Sie gemäß Ihrer jeweiligen Prüfungsordnung verpflichtend angemeldet sein müssen.  \nDie Anmeldung erfolgt durch die Prüfungsverwaltung Ihrer Fakultät, eine selbstständige Abmeldung ist nicht möglich.  \nP"
+    },
+    {
+      "rang": 19,
+      "score": 0.94509,
+      "id": "9962338a-8414-5fd1-ae34-c8b37415f3ef",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Pruefungsverwaltung IK › 20240508 How to Pruefungsanmeldung — PRÜFUNGSANMELDUNG",
+      "section_heading": "**PRÜFUNGSANMELDUNG**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Über _**PDF-Druck**_ lässt sich die Übersicht aller bisher angemeldeten Prüfungen abspeichern.  \n**Hinweis:** Wir empfehlen die Prüfungsanmeldung frühzeitig durchzuführen, falls  technische Probleme auftreten sollten. Bei Fragen wenden Sie sich bitte an f3-ik-dekanat@hs-hannover.de."
+    },
+    {
+      "rang": 20,
+      "score": 0.94181,
+      "id": "92799975-f08a-5598-a6bc-039e23536a63",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/FAQ_Pruefungen.pdf",
+      "title_anzeige": "f5 › Pflege › Pruefungen › FAQ Pruefungen",
+      "section_heading": "**Praktikum:**",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## **Praktikum:**  \n- Ich habe Fragen zum Ablauf des Praktikums. An wen kann ich mich wenden? - Für das Praktikum sind die Kolleg*innen im Praktikumsamt zuständig. Den Kontakt finden Sie auf der Website.  \n- Mein Praktikumsmodul 11 ist nicht abgeschlossen. Woran liegt das?  \n- Um das Modul abzuschli"
+    },
+    {
+      "rang": 21,
+      "score": 0.93833,
+      "id": "6ddf39ca-aee4-5cf9-9c69-f5ee3af367ad",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MSW/Modulhandbuch_MSW/Modulhandbuch-MSW-PO-2027.pdf",
+      "title_anzeige": "f5 › MSW › Modulhandbuch MSW › Modulhandbuch MSW PO 2027 — Berufsbegleitenden Masterstudiengang",
+      "section_heading": "**Promotionsberatung** > **Ralf Hoburg**",
+      "chunk_index": 68,
+      "text_vollstaendig": false,
+      "auszug": "## **Promotionsberatung**\n\n## **Ralf Hoburg**  \nPromovieren im Fach Soziale Arbeit als Absolvent und Absolventin einer Fachhochschule ist mittlerweile erleichtert worden. Die europaweite Einführung der Zweistufigkeit für Universitäten und Hochschulen bietet den Fachhochschulen eine wissenschaftliche"
+    },
+    {
+      "rang": 22,
+      "score": 0.92156,
+      "id": "faff359c-dace-50b4-b710-f1ecf3c51eff",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/Informatik/2026-02-23_Stundenplan_SS_26.pdf",
+      "title_anzeige": "f4 › Stundenplan › Informatik › 2026 02 23 Stundenplan SS 26",
+      "section_heading": "**Für die Viertsemester des Bachelor – Studiengangs Angewandte Informatik:**",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "Ebenfalls verweisen wir auf die Angebote des Language Center (https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-undstudienkompetenzen/sprachkurse) (Kurse ab Englisch IV sowie generell andere Sprachen ) sowie der Schreibwerkstatt (https://www.hs-hannover.de/hshakademie/wissenswelt-sprachen"
+    },
+    {
+      "rang": 23,
+      "score": 0.91083,
+      "id": "af261cd9-0423-5205-ac87-5c09e2dafa80",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f2 › Abt M › Sonstiges › Informationen Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung Sommersemester 2026.",
+      "section_heading": "**Probleme bei der Anmeldung:**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **Probleme bei der Anmeldung:**  \nÜberprüfen Sie Ihre Anmeldung während der Anmeldezeit! Sollten Sie Probleme mit der Anmeldung von Prüfungen haben, wenden Sie sich bitte **umgehend** und **im Anmeldezeitraum per E-Mail** (von Ihrem Hochschul-Account) an katja.offermann@hshannover.de!  \n**Hinweis"
+    },
+    {
+      "rang": 24,
+      "score": 0.90695,
+      "id": "ad655e6a-4209-5546-a29b-658b3028b847",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/2026_04_28_Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › BWL › 2026 04 28 Kurzanleitung Pruefungsan und abmeldung",
+      "section_heading": "**Die Pflichtanmeldung**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **Die Pflichtanmeldung**  \nBei Pflichtanmeldungen handelt es sich um Prüfungsanmeldungen, zu denen Sie gemäß Ihrer jeweiligen Prüfungsordnung verpflichtend angemeldet sein müssen.  \nDie Anmeldung erfolgt durch die Prüfungsverwaltung Ihrer Fakultät, eine selbstständige Abmeldung ist nicht möglich."
+    },
+    {
+      "rang": 25,
+      "score": 0.86437,
+      "id": "8ae67e62-c6a7-5ef2-9bd2-bbce535f26ec",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/20-02-19-Anmeldung_Wiederholung_bestandene_Pruefung_alle_Studiengaenge_Informatik_aeltere_POs.pdf",
+      "title_anzeige": "f4 › Informatik › Formulare › 20 02 19 Anmeldung Wiederholung bestandene Pruefung alle Studiengaenge Informatik aeltere POs — Wiederholung einer bestandenen Prüfungsleistung",
+      "section_heading": "**Anmeldung* zur Prüfung**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Ich möchte mich zur Wiederholungsprüfung für folgende Prüfungsleistung anmelden:  \nBezeichnung:  \nim folgenden Semester:  \nIch befinde mich im Fachsemester  \nDatum                                                          Unterschrift Studierende(r)  \n*Bitte geben Sie die Anmeldung in der Prüfungsver"
+    },
+    {
+      "rang": 26,
+      "score": 0.86278,
+      "id": "55708fcc-0e78-50fc-9773-7d0b9350b103",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/Hinweis_zur_Pruefungsanmeldung_im_WS_2019_2020_Januar.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › Hinweis zur Pruefungsanmeldung im WS 2019 2020 Januar",
+      "section_heading": "",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "**Weiterhin möchten wir darauf hinweisen, dass der Prüfungsausschuss der Abteilung Informatik beschlossen hat, keine nachträglichen Anmeldungen zuzulassen!** Beachten Sie also bitte den bereits erwähnten Anmeldezeitraum und melden Sie sich bei Problemen bitte auch innerhalb dieser Zeit bei uns! Dana"
+    },
+    {
+      "rang": 27,
+      "score": 0.86147,
+      "id": "64b9c0aa-8ec9-55ba-ae6f-12d888dbb2ae",
+      "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/unternehmensentwicklung-mbd",
+      "title_anzeige": "Unternehmensentwicklung (MBD)",
+      "section_heading": "Bewerten Sie uns auf StudyCheck! > Fragen zum Zulassungs- und Bewerbungverfahren",
+      "chunk_index": 49,
+      "text_vollstaendig": true,
+      "auszug": "Am Ende des ersten Semesters werden Studierende exmatrikuliert, sollten die nachzureichenden Unterlagen nicht bei der Studierendenverwaltung eingereicht worden sein. Sollten weitere Verzögerungen absehbar sein, ist unbedingt eine persönliche Kontaktaufnahme mit der Studierendenverwaltung notwendig. "
+    },
+    {
+      "rang": 28,
+      "score": 0.84402,
+      "id": "7eb8acc7-b01c-5f02-a9da-034ff277efea",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Formulare/23-03-31-Forschungs-Praxisphase_Laufzettel_MDT__2023-03_.pdf",
+      "title_anzeige": "f4 › WI › Formulare › 23 03 31 Forschungs Praxisphase Laufzettel MDT 2023 03 — Laufzettel Forschungs-/Praxisphase",
+      "section_heading": "Anmeldung zur Forschungs-/Praxisphase",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Anmeldung zur Forschungs-/Praxisphase  \n– vor Absolvieren der Forschungs-/Praxiszeit von studierender Person auszufüllen –  \nForschungs- oder Praxisstelle: Name Straße PLZ/Ort Ansprechperson Telefonnummer Dauer der Forschungs- oder Praxiszeit vom bis  \nName der betreuenden Hochschullehrperson"
+    },
+    {
+      "rang": 29,
+      "score": 0.8438,
+      "id": "d19a20bc-71a3-5fe6-82d8-9b53faf3fea7",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/23-02-14_Pruefungsplan_SS23_V2.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 23 02 14 Pruefungsplan SS23 V2",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "- Als Klausur angek¨undigte Pr¨ufungen finden nur dann als Klausur statt, falls sich gen¨ugend Pr¨ufungsinteressierte finden. Andernfalls finden die Pr¨ufungen als m¨undliche Pr¨ufung statt.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k¨onnen auch dann gepr¨uft werden, wenn sie nicht expli"
+    },
+    {
+      "rang": 30,
+      "score": 0.82769,
+      "id": "be69c88f-6c64-5726-a37a-13bde60fde57",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-06-23-Pruefungsplan_SS26.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › Informatik › 2026 06 23 Pruefungsplan SS26",
+      "section_heading": "**Allgemeine Anmerkungen:**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "- Falls Sie sich zu einer Pr¨ufung nicht anmelden k¨onnen (Fach ist nicht auffindbar oder o.¨a.), schreiben Sie bitte rechtzeitig eine Email an Frau Dzinblewski.  \n- Wir planen zwar keine Anderungen,[¨] aber vergewissern Sie sich bitte kurz vor den Pr¨ufungen anhand der aktuellen Version im Web, das"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 830,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.69,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 2.56,
+    "docs_laden_s": 0.02,
+    "quellen_s": 4.27,
+    "antwort_llm_s": 1.79,
+    "gesamt_s": 6.06
+  },
+  "auswahl_begruendung": "{\"selected\":[2]}"
+}

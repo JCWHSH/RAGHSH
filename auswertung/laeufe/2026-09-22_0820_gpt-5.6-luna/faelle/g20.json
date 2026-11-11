@@ -1,0 +1,554 @@
+{
+  "fall": {
+    "id": "g20",
+    "case_type": "direct",
+    "question": "An welchem Standort arbeitet die Finanzabteilung der Hochschule?",
+    "reference_answer": "An der Expo Plaza 4 in 30539 Hannover.",
+    "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "D4 - Finanzmanagement Expo Plaza 4 30539 Hannover"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ verwaltung_service/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "47310636-10c6-579e-a6e8-7c6b9d0b659d",
+      "95709699-5aa3-5c91-bab8-76f88164aac5",
+      "9d2a9fc7-0540-5c39-8ba3-f57e81195b38",
+      "d04d9a5d-8451-5dd0-9e84-e59eba46c712",
+      "b5c2094d-9a1c-57e1-8dee-55bc54af876d",
+      "5f15d870-fc91-580c-b972-cd8d960e77af"
+    ],
+    "beleg_punkte": [
+      "47310636-10c6-579e-a6e8-7c6b9d0b659d"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-22T08:28:40",
+  "dauer_s": 5.76,
+  "fehler": null,
+  "antwort": "Die Finanzabteilung („D4 - Finanzmanagement\") ist unter „Expo Plaza 4, 30539 Hannover\" erreichbar [1]. Damit befindet sie sich am „Campus Expo Plaza\" [2].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2016 — Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Bilanz zum 31. Dezember 2016\n  ## Gewinn- und Verlustrechnung für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2016\n  ## Anhang für das Geschäftsjahr 2016\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A . Umsatzerlöse\n  ## B . Sonstige betriebliche Erträge\n  ## C. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2016\n  ## F. Organe\n  ## Präsidium\n  ## Senat\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2016\n  ## Erläuterungen zum SOLL-IST Vergleich 2016 bei Abweichungen > 20%\n  ## Position 1a):\n  ## Position 1b):\n  ## Position 1c):\n  ## Position 2a):\n  ## Position 4a):\n  ## Position 4b):\n  ## Position 4c):\n  ## Position 5):\n  ## Position 7c):\n  ## Position 10):\n  ## Position 11a/11b):"
+    },
+    {
+      "nr": 2,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2015 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Bilanz zum 31. Dezember 2015\n  ## Gewinn- und Verlustrechnung für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2015\n  ## Anhang für das Geschäftsjahr 2015\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A . Sonstige betriebliche Erträge\n  ## B. Sonstige betriebliche Aufwendungen\n  ## C. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2015\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2015\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2015\n  ## Erläuterungen zum Soll-Ist-Vergleich\n  ## 1.b)\n  ## 2.\n  ## 4.a)\n  ## 4.b)\n  ## 5.\n  ## 7.c)\n  ## 8.\n  ## 9.b)\n  ## 10.\n  ## 11.a) / 11.b)\n  ## 11.d)\n  ## 11.e)\n  ## 11.g)\n  ## 13."
+    },
+    {
+      "nr": 3,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2018 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Inhaltsverzeichnis\n  ## Bilanz zum 31. Dezember 2018\n  ## Gewinn- und Verlustrechnung für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2018\n  ## Anhang für das Geschäftsjahr 2018\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionszuschüsse\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## Sonstige Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## Details zu den sonstigen periodenfremden Erträgen:\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2018\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2018\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2018\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2a).\n  ## 4a).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c).\n  ## 8a).\n  ## 9a).\n  ## 11a).\n  ## 11c).\n  ## 13).\n  ## 15)."
+    },
+    {
+      "nr": 4,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Bilanz zum 31. Dezember 2017\n  ## Gewinn- und Verlustrechnung\n  ## für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2017\n  ## Anhang für das Geschäftsjahr 2017\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Kassenbestand, Guthaben bei Kreditinstituten\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2017\n  ## F. Organe\n  ## Präsidium\n  ## Senat\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2017\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2017\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2a/2b).\n  ## 4a).\n  ## 4b).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c).\n  ## 9).\n  ## 11a)."
+    },
+    {
+      "nr": 5,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Jahresabschluss zum 31. Dezember 2019 und Lagebericht\n  ## BESTÄTIGUNGSVERMERK\n  ## Hochschule Hannover, Hannover\n  ## Bilanz zum 31. Dezember 2019\n  ## A k t i v a\n  ## Hochschule Hannover, Hannover\n  ## Gewinn- und Verlustrechnung für die Zeit vom 1. Januar bis 31. Dezember 2019\n  ## Anhang für das Geschäftsjahr 2019\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## Details zu den sonstigen periodenfremden Erträgen:\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## C. Abschlussprüferhonorar\n  ## D. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2019\n  ## Haftungsverhältnisse\n  ## E. Organe\n  ## Präsidium\n  ## Senat\n  ## Hochschulrat\n  ## Ergebnisverwendung\n  ## Nachtragsbericht\n  ## Hochschule Hannover, Hannover\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2019\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2019\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2b).\n  ## 4b).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c)."
+    },
+    {
+      "nr": 6,
+      "titel": "www › standorte › standorte und anfahrt › standort expo plaza — Campus Expo Plaza",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-expo-plaza",
+      "fakultaet": "",
+      "struktur": "  ## Campus Expo Plaza\n    ### Auf einen Blick\n    ### Besucheradresse\n    ### Postadresse\n  ## Besetzungszeiten der Pförtnerloge\n  ## Anfahrtsbeschreibung\n    ### Externer Inhalt"
+    },
+    {
+      "nr": 7,
+      "titel": "www › gebaeudemanagement › standorte › standorte und anfahrt",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt",
+      "fakultaet": "",
+      "struktur": "  ## Standorte und Anfahrt\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2013 — Jahresabschluss zum 31. Dezember 2013 und Lagebericht",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+      "fakultaet": "",
+      "struktur": "# Jahresabschluss zum 31. Dezember 2013 und Lagebericht\n  ## Hochschule␣Hannover,␣Hannover\n  ## Bilanz␣zum␣31.␣Dezember␣2013\n  ## A k t i v a\n  ## Hochschule␣Hannover,␣Hannover\n  ## Gewinn-␣und␣Verlustrechnung␣für␣die␣Zeit␣ vom␣1. Januar␣bis␣31. Dezember␣2013\n  ## Anhang für das Geschäftsjahr 2013\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## B. Sonstige betriebliche Aufwendungen\n  ## C. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2013\n  ## Hochschule␣Hannover,␣Hannover\n  ## Entwicklung␣des␣Anlagevermögens␣(Bruttodarstellung)\n  ## Hochschule Hannover\n  ## Lagebericht für das Geschäftsjahr 2013\n  ## 1. Rahmenbedingungen\n  ## 1.1 Hochschulstruktur\n  ## 1.2 Regionale Vernetzung\n  ## 1.3 Hochschulentwicklungsplanung\n  ## 1.4 Zukunftsvertrag und Zielvereinbarung\n  ## 1.5 Hochschulpakt 2020\n  ## 2. Geschäftsverlauf\n  ## 2.1 Studienangebot und Studiennachfrage\n  ## 2.2. Entwicklung der Forschungsaktivitäten\n  ## 2.3. Entwicklung der Zuweisungen und Zuschüsse des Landes Nieder-\n  ## sachsen     sowie    der Zuschüsse Dritter und Aufträge Dritter\n  ## 2.4. Entwicklung der technischen Ausstattung\n  ## 2.5. Personelle Entwicklung\n  ## 2.6 Qualitätssicherung\n  ## 2.7  Weiterbildung  - Offene Hochschule\n  ## 2.8 Gleichstellung\n  ## 2.9 Entwicklung der baulichen Anlagen und Bauvorhaben\n  ## Baumaßnahmen"
+    },
+    {
+      "nr": 9,
+      "titel": "karriere › portal › seiten › hochschule hannover 900000011 10057",
+      "url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html",
+      "fakultaet": "",
+      "struktur": "    ### Hochschule Hannover"
+    },
+    {
+      "nr": 10,
+      "titel": "www › ueber uns › organisation › finanzmanagement — Kontakt",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement",
+      "fakultaet": "",
+      "struktur": "  ## D4 - Finanzmanagement\n  ## Kontakt\n  ## Bankverbindung/Geschäftskonto der Hochschule Hannover\n  ## Steuernummer\n  ## Elektronische Rechnungslegung\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 11,
+      "titel": "www › organisation › gebaeudemanagement › standorte",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte",
+      "fakultaet": "",
+      "struktur": "  ## Standorte\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 12,
+      "titel": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ordnung der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung)\n  ## § 1 Allgemeines\n  ## § 2 Ausschreibung\n  ## § 3 Höhe der Studienpreise; Bewilligungszeitraum\n  ## § 4 Antrag\n  ## § 5 Vergabeverfahren\n  ## § 6 Vergabekommission\n  ## § 7 Vergabekriterien\n  ## § 8 Datenschutz\n  ## § 9 Inkrafttreten\n  ## Antrag auf Gewährung eines Studienpreises der Fakultät Diakonie, Gesundheit und Soziales\n  ## (   ) wegen besonderer Leistungen\n  ## (   ) wegen einem besonderen Engagement im Studium oder eines besonderen hochschulpolitischen, gesellschaftlichen oder sozialen Engagements."
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 10,
+      "titel": "www › ueber uns › organisation › finanzmanagement — Kontakt",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement"
+    },
+    {
+      "nr": 6,
+      "titel": "www › standorte › standorte und anfahrt › standort expo plaza — Campus Expo Plaza",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-expo-plaza"
+    },
+    {
+      "nr": 7,
+      "titel": "www › gebaeudemanagement › standorte › standorte und anfahrt",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt"
+    },
+    {
+      "nr": 11,
+      "titel": "www › organisation › gebaeudemanagement › standorte",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "www › ueber uns › organisation › finanzmanagement — Kontakt",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "D4 - Finanzmanagement > Kontakt",
+      "snippets": [
+        "## D4 - Finanzmanagement\n## Kontakt\nHochschule Hannover\nUniversity of Applied Sciences and Arts\nD4 - Finanzmanagement\nExpo Plaza 4\n30539 Hannover\nLeitung: Marcel Winter\n[marcel.winter(at)hs-hannover.de](https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement)  \nFür Anfragen betreffend den Bereich Dritt- und Sondermittel:\n[D4-Drittmittel(at)hs-hannover.de](https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement)\nFür Anfragen betreffend den Bereich Haushalt, Finanzcontrolling und Reisekosten:\n[D4-Haushalt(at)hs-hannover.de](https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement)\nFür Anfragen betreffend den Bereich Rechnungswesen:\n[D4-Rechnungswesen(at)hs-hannover.de](https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement)\nFür Anfragen, die sich nicht den o. g. Bereichen zuordnen lassen:\n[D4-Meldung(at)hs-hannover.de](https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement)"
+      ],
+      "zitate": [
+        "D4 - Finanzmanagement"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › standorte › standorte und anfahrt › standort expo plaza — Campus Expo Plaza",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-expo-plaza",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Campus Expo Plaza",
+      "snippets": [
+        "##  Campus Expo Plaza\nDie Hochschule ist am Standort Expo Plaza unter den Hausnummern 2, 3, 4, 12 und an der Lissabonner Allee 1 zu finden. Hier sind die Fakultät III – Medien, Information und Design sowie das Präsidium und Teile der Hochschulverwaltung untergebracht."
+      ],
+      "zitate": [
+        "Campus Expo Plaza"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › gebaeudemanagement › standorte › standorte und anfahrt",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Standorte und Anfahrt",
+      "snippets": [
+        "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Standorte und Anfahrt\nDie fünf Fakultäten der Hochschule Hannover verteilen sich auf mehrere Standorte innerhalb der niedersächschen Landeshauptstadt. Über den zentralen Campus am Ricklinger Stadtweg in Linden hinaus, auf dem drei Fakultäten angesiedelt sind, gibt es den Campus auf der Expo Plaza mit der Fakultät III. Des Weiteren gehören die Standorte Hannover-Kleefeld mit der Fakultät V, Hannover-Ahlem mit Teilen der Fakultät II und der Standort Bismarckstraße zur Hochschule Hannover."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › organisation › gebaeudemanagement › standorte",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Standorte",
+      "snippets": [
+        "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Standorte\nDie fünf Fakultäten der Hochschule Hannover verteilen sich auf mehrere Standorte innerhalb der niedersächschen Landeshauptstadt. Über den zentralen Campus am Ricklinger Stadtweg in Linden hinaus, auf dem drei Fakultäten angesiedelt sind, gibt es den Campus auf der Expo Plaza mit der Fakultät III. Des Weiteren gehören die Standorte Hannover-Kleefeld mit der Fakultät V, Hannover-Ahlem mit Teilen der Fakultät II und der Standort Bismarckstraße zur Hochschule Hannover."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.14973,
+      "id": "e547dae0-7848-581b-af74-35ea3a22040c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2016 — Hochschule Hannover",
+      "section_heading": "Der Finanzmittelfonds (= Bestand an Zahlungsmitteln und Zahlungsmitteläquivalenten) der Hochschule beträgt zum 31.12.2016, 55.736.651 EUR (Vorjahr 61.139.626 EUR). > Kapitalflussrechnung per 31.12.2016",
+      "chunk_index": 150,
+      "text_vollstaendig": true,
+      "auszug": "||||||\n|14.|=|Zahlungswirksame Veränderungen des Finanzmittelfonds(Summe der|-5.402.975,51|-5.919.858,81|\n|||Zeilen 8. und 13.)|||\n||||||\n|15.|+|Finanzmittelfonds am Anfangder Periode|61.139.626,39|67.059.485,20|\n||||||\n|16.|=|Finanzmittelfonds am Ende der Periode(Summe aus 14. und 15.)|55.736.650,8"
+    },
+    {
+      "rang": 2,
+      "score": 2.08038,
+      "id": "c6874484-b27d-5b74-bbe2-2a99500f6157",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2015 — Hannover",
+      "section_heading": "**Kapitalflussrechnung zum 31.12.2015**",
+      "chunk_index": 143,
+      "text_vollstaendig": false,
+      "auszug": "-926.344,98\n330.654,02\n8.972,03\n-395,57\n2.052.730,74\n-516.403,31\n-19.984.172,82\n-2.060.394,77\n2.277.690,85\n9.284.734,27\n8.000,17\n2.134,99\n-7.837.607,63\n-6.558.148,40\n-367.942,20\n-554.461,20\n0,00\n-5.000,00\n-8.197.549,66\n-7.115.474,61\n-5.919.858,81\n2.169.259,66\n67.059.485,20\n64.890.225,54\n61.139.626,3"
+    },
+    {
+      "rang": 3,
+      "score": 2.02045,
+      "id": "c525fa7d-6a27-56d8-865b-e8e2036e3906",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2018 — Hannover",
+      "section_heading": "**1.1. Hochschulstruktur**",
+      "chunk_index": 77,
+      "text_vollstaendig": false,
+      "auszug": "2404255/40018814  \nschaftlich fundiert für die Arbeitswelten von morgen zu qualifizieren, indem ihre Lehrenden notwendiges Fach- und Methodenwissen auf Basis gesicherter wissenschaftlicher Erkenntnisse vermitteln und Hilfe bei der Erlangung sozialer Kompetenz leisten.\n\n## **1.1. Hochschulstruktur** "
+    },
+    {
+      "rang": 4,
+      "score": 2.0171,
+      "id": "a6ccf6dc-1ab8-5f71-858f-2ea7f6f2f8f6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2016 — Hochschule Hannover",
+      "section_heading": "**1.1 Hochschulstruktur**",
+      "chunk_index": 85,
+      "text_vollstaendig": true,
+      "auszug": "## **1.1 Hochschulstruktur**  \nDie fünf Fakultäten der Hochschule sind an fünf Standorten in Hannover untergebracht: Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogram"
+    },
+    {
+      "rang": 5,
+      "score": 1.95656,
+      "id": "f81ff7b8-5fb1-5ac5-bb6a-003a0ebd45cf",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "section_heading": "**1.1 Hochschulstruktur**",
+      "chunk_index": 76,
+      "text_vollstaendig": false,
+      "auszug": "## **1.1 Hochschulstruktur**  \nDie fünf Fakultäten der Hochschule sind an fünf Standorten in Hannover untergebracht: Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogram"
+    },
+    {
+      "rang": 6,
+      "score": 1.82227,
+      "id": "0cb85221-da9e-547c-82d9-ebab643afa7e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**3.3. Finanzlage**",
+      "chunk_index": 173,
+      "text_vollstaendig": false,
+      "auszug": "Die Finanzlage der Hochschule Hannover ist als stabil zu bezeichnen. Die Hochschule Hannover war im Geschäftsjahr 2019 jederzeit in der Lage, allen finanziellen Verpflichtungen uneingeschränkt nachzukommen. Das Finanzmanagement ist darauf ausgerichtet, Verbindlichkeiten stets innerhalb der vereinbar"
+    },
+    {
+      "rang": 7,
+      "score": 1.80367,
+      "id": "0b7c5c0c-0eba-5d8a-87f3-fd466297e12c",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-expo-plaza",
+      "title_anzeige": "www › standorte › standorte und anfahrt › standort expo plaza — Campus Expo Plaza",
+      "section_heading": "Campus Expo Plaza",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Campus Expo Plaza\nDie Hochschule ist am Standort Expo Plaza unter den Hausnummern 2, 3, 4, 12 und an der Lissabonner Allee 1 zu finden. Hier sind die Fakultät III – Medien, Information und Design sowie das Präsidium und Teile der Hochschulverwaltu"
+    },
+    {
+      "rang": 8,
+      "score": 1.78878,
+      "id": "65933799-5a89-5f78-996b-df1bfac1d557",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt",
+      "title_anzeige": "www › gebaeudemanagement › standorte › standorte und anfahrt",
+      "section_heading": "Standorte und Anfahrt",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Standorte und Anfahrt\nDie fünf Fakultäten der Hochschule Hannover verteilen sich auf mehrere Standorte innerhalb der niedersächschen Landeshauptstadt. Über den zentralen Campus am Ricklinger Stadtweg in Linden hinaus, auf dem drei Fakultäten anges"
+    },
+    {
+      "rang": 9,
+      "score": 1.78217,
+      "id": "aba26e43-a005-58cd-a52c-37e8399b0dc3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**1.1. Hochschulstruktur**",
+      "chunk_index": 83,
+      "text_vollstaendig": false,
+      "auszug": "## **1.1. Hochschulstruktur**  \nDie fünf Fakultäten der Hochschule Hannover sind an fünf Standorten in Hannover untergebracht: Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Stud"
+    },
+    {
+      "rang": 10,
+      "score": 1.59133,
+      "id": "bdeb4b9b-51ff-5e7f-95c7-d1a9d8c53c97",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2013 — Jahresabschluss zum 31. Dezember 2013 und Lagebericht",
+      "section_heading": "**Jahresabschluss zum 31. Dezember 2013 und Lagebericht** > Vermögenslage",
+      "chunk_index": 110,
+      "text_vollstaendig": false,
+      "auszug": "Vermögensgegenstände\nFlüssige Mittel\n|2013\n2012\nVeränderung|\n|---|---|\n||632.223 €\n485.010 €\n147.213  €\n3.090.358 €\n2.477.290 €\n613.068 €\n64.890.226 €\n52.955.109 €\n11.935.117 €|  \nDie wirtschaftliche Lage der Hochschule ist nach wie vor  positiv zu bewerten. Zuführungen und Zuschüsse des Landes, sow"
+    },
+    {
+      "rang": 11,
+      "score": 1.53801,
+      "id": "a3b9920c-7e9d-5ce9-b859-eef4ae26a39e",
+      "source_url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html",
+      "title_anzeige": "karriere › portal › seiten › hochschule hannover 900000011 10057",
+      "section_heading": "Hochschule Hannover",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "Die fünf Fakultäten der Hochschule verteilen sich auf mehrere Standorte innerhalb Hannovers. Der Hauptcampus liegt im Stadtteil Linden am Ricklinger Stadtweg – hier sind neben dem Studierendenservice drei Fakultäten angesiedelt. Daneben gibt es den Campus auf der Expo Plaza sowie die Standorte Hanno"
+    },
+    {
+      "rang": 12,
+      "score": 1.53677,
+      "id": "95709699-5aa3-5c91-bab8-76f88164aac5",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement",
+      "title_anzeige": "www › ueber uns › organisation › finanzmanagement — Kontakt",
+      "section_heading": "D4 - Finanzmanagement > Kontakt",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "Für Anfragen, die sich nicht den o. g. Bereichen zuordnen lassen:\n[D4-Meldung(at)hs-hannover.de](https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement)\nBei Fragen zu Semesterbeiträgen wenden Sie sich bitte an das [Dezernat für Akademische Angelegenheiten](https://www.hs-hannover.de/uebe"
+    },
+    {
+      "rang": 13,
+      "score": 1.53393,
+      "id": "3ae17394-633c-540b-882b-6a10bb439433",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte",
+      "title_anzeige": "www › organisation › gebaeudemanagement › standorte",
+      "section_heading": "Standorte",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Standorte\nDie fünf Fakultäten der Hochschule Hannover verteilen sich auf mehrere Standorte innerhalb der niedersächschen Landeshauptstadt. Über den zentralen Campus am Ricklinger Stadtweg in Linden hinaus, auf dem drei Fakultäten angesiedelt sind,"
+    },
+    {
+      "rang": 14,
+      "score": 1.52142,
+      "id": "9d2a9fc7-0540-5c39-8ba3-f57e81195b38",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/finanzmanagement",
+      "title_anzeige": "www › ueber uns › organisation › finanzmanagement — Kontakt",
+      "section_heading": "Bankverbindung/Geschäftskonto der Hochschule Hannover",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Bankverbindung/Geschäftskonto der Hochschule Hannover\nKto-Nr.: 106 020 084\nBLZ: 250 500 00\nSWIFT/BIC: NOLADE2HXXX\nIBAN: DE13 2505 0000 0106 0200 84\nBitte nutzen Sie die Bankverbindung **nicht** für die Überweisung von Semesterbeiträgen.\nHierfür steht Ihnen das [Dezernat für Akademische Angelegenh"
+    },
+    {
+      "rang": 15,
+      "score": 1.49938,
+      "id": "10abda45-0b77-55ec-93f5-c21ab8446a5f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "section_heading": "**§ 9 Inkrafttreten**",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "Straße  \n………..…… Kontoinhaber/in  \n………..…… PLZ, Ort ………..…… Telefon  \nGeldinstitut  \nBankleitzahl Kontonummer  \nHochschule Hannover Fakultät Diakonie, Gesundheit, Soziales Studienkommission Blumhardtstraße 2 30625 Hannover"
+    },
+    {
+      "rang": 16,
+      "score": 1.44185,
+      "id": "e30b45be-ac1b-522b-840a-5793879178b0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "section_heading": "Kapitalflussrechnung per 31.12.2017",
+      "chunk_index": 147,
+      "text_vollstaendig": false,
+      "auszug": "Die Finanzlage der Hochschule ist dennoch als stabil zu bezeichnen. Die Hochschule ist jederzeit in der Lage, allen finanziellen Verpflichtungen uneingeschränkt nachzukommen. Das Finanzmanagement ist darauf ausgerichtet, Verbindlichkeiten  \n**KEIN ORIGINAL**  \nstets innerhalb der vereinbarten Zahlun"
+    },
+    {
+      "rang": 17,
+      "score": 1.36238,
+      "id": "26e3a3d4-08b6-57c7-8f3b-1fb665439f30",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/IT-Service/26-02-19-IT-en-Infoveranstaltung_Erstsemester_SS2025.pdf",
+      "title_anzeige": "f4 › OFI › IT Service › 26 02 19 IT en Infoveranstaltung Erstsemester SS2025 — IT Information Event _for Students at the University Faculty IV_",
+      "section_heading": "**IT Information Event** _**for Students at the University Faculty IV**_ > **Site plan Campus Linden**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **Site plan Campus Linden**  \nBasement Building 1A Ground floor H-IT Building 1B\nvalidation station validation station\nEC charging EC charging\nITServiceDesk H-IT (1B.0.43)\nvalidation station\nValidation of the student ID card  IT-Team\n(semester feetransferred)\nEC charging\nCharging of a sum of mone"
+    },
+    {
+      "rang": 18,
+      "score": 1.32832,
+      "id": "f6a07961-055f-5839-92e2-274f0aaf060a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2013 — Jahresabschluss zum 31. Dezember 2013 und Lagebericht",
+      "section_heading": "**Jahresabschluss zum 31. Dezember 2013 und Lagebericht** > 3. Wirtschaftliche Lage der Hochschule",
+      "chunk_index": 95,
+      "text_vollstaendig": false,
+      "auszug": "## 3. Wirtschaftliche Lage der Hochschule  \nDie Einnahmen aus Zuschüssen und Zuführungen des Landes Niedersachsen, anderer Zuschussgeber und aus Studienbeiträgen, sowie Umsatzerlösen und sonstigen betrieblichen Erträgen bilden die Grundlage der wirtschaftlichen Tätigkeit der Hochschule.  \n22.004321-"
+    },
+    {
+      "rang": 19,
+      "score": 1.31024,
+      "id": "f75aee49-7ecf-5766-87b2-a2f64bcdcb6c",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/zentrale-anschrift",
+      "title_anzeige": "www › gebaeudemanagement › standorte › zentrale anschrift",
+      "section_heading": "Zentrale Anschrift",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Zentrale Anschrift\nDie zentrale Anschrift der Hochschule Hannover richtet sich nach dem Standort des Verwaltungsgebäudes.\nHochschule Hannover\nExpo Plaza 4\n30539 Hannover  \nPostfach 72 11 54\n30531 Hannover\n[ +49 511 9296-0 ](tel:+49%20511%209296-0 "
+    },
+    {
+      "rang": 20,
+      "score": 1.30536,
+      "id": "26a4b006-bde1-52b5-965e-67f8dc1bbe68",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2020 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "1. Rahmenbedingungen und Geschäftsverlauf > **1.1 Hochschulstruktur**",
+      "chunk_index": 82,
+      "text_vollstaendig": false,
+      "auszug": "Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogramme an. Auf der Expo Plaza sind die Fakultät III und neben dem Präsidium auch die meisten Einrichtungen der Hochschulv"
+    },
+    {
+      "rang": 21,
+      "score": 1.30438,
+      "id": "5023417f-a3c5-5b7c-b76c-a7349f3b8daf",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2012 — Jahresabschluss zum 31. Dezember 2012 und Lagebericht",
+      "section_heading": "3. Wirtschaftliche Lage der Hochschule",
+      "chunk_index": 89,
+      "text_vollstaendig": true,
+      "auszug": "## 3. Wirtschaftliche Lage der Hochschule  \nDie Einnahmen aus Zuschüssen und Zuführungen des Landes Niedersachsen, anderer Zuschussgeber und aus Studienbeiträgen sowie Umsatzerlösen und sonstigen betrieblichen Erträgen bilden die Grundlage der wirtschaftlichen Tätigkeit der Hochschule."
+    },
+    {
+      "rang": 22,
+      "score": 1.28886,
+      "id": "6b39a78f-6b22-50a2-b542-222ed057b1b6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2022.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2022 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**1 Rahmenbedingungen und Geschäftsverlauf** > **1.1 Hochschulstruktur**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogramme an. Auf der Expo Plaza sind die Fakultät III und neben dem Präsidium auch die meisten Einrichtungen der Hochschulv"
+    },
+    {
+      "rang": 23,
+      "score": 1.25209,
+      "id": "74023e1a-475c-53bf-9afe-17a267b7c818",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/08-2024/hsh_verkuendungsblatt_nr_08_2024_neu.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2024 › hsh verkuendungsblatt nr 08 2024 neu — Ausgabe 08/2024",
+      "section_heading": "**für die Bachelor- und Master- Studiengänge an der Hochschule Hannover (Muster-ATPO 2024)** > 4.5 Projektcontrolling > **für die Bachelor- und Master- Studiengänge an der Hochschule Hannover (Muster-ATPO 2024)** > 4.5.1 Beteiligung der Finanzabteilung",
+      "chunk_index": 153,
+      "text_vollstaendig": false,
+      "auszug": "## 4.5 Projektcontrolling\n## 4.5.1 Beteiligung der Finanzabteilung  \nDie Dritt- und Sondermittel werden von der Hochschule vereinnahmt und unterliegen den jeweiligen Bewirtschaftungsbestimmungen. Die Verwaltung dieser Mittel im Sinne dieser Richtlinie erfolgt durch das D4 Finanzmanagement, Team Drit"
+    },
+    {
+      "rang": 24,
+      "score": 1.25209,
+      "id": "4507b72b-5444-5d2f-8514-714a96d98caa",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/08-2024/Drittmittelrichtlinie.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2024 › Drittmittelrichtlinie",
+      "section_heading": "4.5 Projektcontrolling > 4.5.1 Beteiligung der Finanzabteilung",
+      "chunk_index": 59,
+      "text_vollstaendig": false,
+      "auszug": "## 4.5 Projektcontrolling\n## 4.5.1 Beteiligung der Finanzabteilung  \nDie Dritt- und Sondermittel werden von der Hochschule vereinnahmt und unterliegen den jeweiligen Bewirtschaftungsbestimmungen. Die Verwaltung dieser Mittel im Sinne dieser Richtlinie erfolgt durch das D4 Finanzmanagement, Team Drit"
+    },
+    {
+      "rang": 25,
+      "score": 1.2403,
+      "id": "86d66da0-4fb4-55f8-91f6-dafa28b93181",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2015 — Hannover",
+      "section_heading": "**1.1 Hochschulstruktur**",
+      "chunk_index": 76,
+      "text_vollstaendig": false,
+      "auszug": "Die fünf Fakultäten sind an fünf Standorten in Hannover untergebracht: In HannoverLinden (Ricklinger Stadtweg) befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogramme an. Auf der Expo Plaza"
+    },
+    {
+      "rang": 26,
+      "score": 1.24029,
+      "id": "7cdc2f37-b31f-58b8-b2f3-b629c028d559",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2014 — Hochschule Hannover Hannover",
+      "section_heading": "**1.1 Hochschulstruktur**",
+      "chunk_index": 67,
+      "text_vollstaendig": false,
+      "auszug": "Die fünf Fakultäten sind an fünf Standorten in Hannover untergebracht: In HannoverLinden (Ricklinger Stadtweg) befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogramme an. Auf der Expo Plaza"
+    },
+    {
+      "rang": 27,
+      "score": 1.23797,
+      "id": "0d0ccd69-0fa8-5419-852d-1b30e7de2d62",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2012 — Jahresabschluss zum 31. Dezember 2012 und Lagebericht",
+      "section_heading": "Vermögenslage",
+      "chunk_index": 102,
+      "text_vollstaendig": true,
+      "auszug": "## Vermögenslage  \nDas Anlagevermögen der Hochschule schließt im Berichtsjahr mit einem Wert von EUR 24.086.513 (Vorjahr EUR 23.267.689).  \nWesentlich ist hier die Veränderung für geleistete Anzahlungen und Anlagen im Bau:  \n- Investitionen für datenverarbeitende Infrastruktur und Labormodernisierun"
+    },
+    {
+      "rang": 28,
+      "score": 1.23213,
+      "id": "128c393c-c89d-5d10-b531-02102930ac2c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_07.03.2025.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 07.03.2025 — Sehr geehrte Lehrbeauftragte,",
+      "section_heading": "**Übernachtung**",
+      "chunk_index": 34,
+      "text_vollstaendig": false,
+      "auszug": "- Öffentliche Verkehrsmittel verkehren nicht zeitgerecht  \n- Der Geschäftsort ist nur mit Pkw zu erreichen  \n- Durch die Nutzung des privaten Pkw kann eine Übernachtung vermieden werden  \n- Mitnahme weiterer Personen  \nDie **Finanzabteilung wünscht** bei der Abrechnung von Wegstrecken einen **Fahrka"
+    },
+    {
+      "rang": 29,
+      "score": 1.222,
+      "id": "767c150a-7c67-5a3a-86e3-b7596ee9bc9c",
+      "source_url": "https://f1.hs-hannover.de/service/standorte-oeffnungszeiten",
+      "title_anzeige": "Standorte und Öffnungszeiten",
+      "section_heading": "Standorte und Öffnungszeiten > Auf einen Blick",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Standorte und Öffnungszeiten  \n### Auf einen Blick\n* [ Standorte und Öffnungszeiten ](https://f1.hs-hannover.de/service/standorte-oeffnungszeiten#standorte-und-oeffnungszeiten)\n* [ Wegbeschreibung ](https://f1.hs-hannover.de/service/standorte-oeffnungszeiten#wegbeschreibung)\n* [ Gebäudepläne ](ht"
+    },
+    {
+      "rang": 30,
+      "score": 1.21611,
+      "id": "a660a0b5-b20a-5f22-ac26-bffa43c5bbbf",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2020 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "Kapitalflussrechnung per 31.12.2020",
+      "chunk_index": 167,
+      "text_vollstaendig": false,
+      "auszug": "Finanzmanagement ist darauf ausgerichtet, Verbindlichkeiten stets innerhalb der vereinbarten Zahlungsziele zu begleichen und Forderungen innerhalb der Zahlungsziele zu vereinnahmen.  \nEs besteht erheblicher zusätzlicher Mittelbedarf aufgrund zurückgestellter Baumaßnahmen, die z.B. zur Umsetzung der "
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 2858,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.64,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 1.04,
+    "docs_laden_s": 0.07,
+    "quellen_s": 2.76,
+    "antwort_llm_s": 2.85,
+    "gesamt_s": 5.61
+  },
+  "auswahl_begruendung": "{\"selected\":[10,6,7,11]}"
+}

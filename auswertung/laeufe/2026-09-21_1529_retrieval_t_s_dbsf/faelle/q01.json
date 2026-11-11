@@ -1,0 +1,1456 @@
+{
+  "fall": {
+    "id": "q01",
+    "case_type": "direct",
+    "question": "Welche konsekutiven Masterstudiengänge bietet die Fakultät I der Hochschule Hannover an?",
+    "reference_answer": "Die Fakultät I bietet zwei konsekutive, drei-semestrige Masterstudiengänge an: Sensor- und Automatisierungstechnik (ESA) sowie Elektrische Energiesysteme und Elektromobilität (EEE).",
+    "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf"
+    ],
+    "required_facts": [
+      "Sensor- und Automatisierungstechnik (ESA)",
+      "Elektrische Energiesysteme und Elektromobilität (EEE)"
+    ],
+    "optional_facts": [
+      "Die Masterstudiengänge sind konsekutiv.",
+      "Die Masterstudiengänge dauern drei Semester."
+    ],
+    "forbidden_claims": [
+      "Weitere Masterstudiengänge der Fakultät I als konsekutive Master hinzufügen."
+    ],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Die Antwort sollte genau die zwei Masterstudiengänge ESA und EEE nennen und keine weiteren Masterstudiengänge hinzufügen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Sensor- und Automatisierungstechnik",
+      "Elektrische Energiesysteme"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Erstsemesterinformation der Fakultät I nennt beide konsekutiven Master (ESA, EEE, je 3 Semester).",
+    "gold_im_korpus": true
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T15:29:49",
+  "dauer_s": 3.64,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › studium › studiengaenge und programme › master studiengaenge",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge",
+      "fakultaet": "f1",
+      "struktur": "# Masterstudiengänge\n  ## Wissenschaftlich fundiertes Masterstudium"
+    },
+    {
+      "nr": 2,
+      "titel": "FAQ für Studierende und Studienbewerber*innen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "fakultaet": "",
+      "struktur": "# FAQ für Studierende und Studienbewerberinnen\n  ## Ihre Frage - unsere Antwort\n  ## Fragen vor dem Studium\n  ## Fragen vor der Bewerbung\n  ## Fragen nach der Bewerbung\n  ## Fragen zum Studienstart\n  ## Fragen zum Wechsel des Studiengangs oder der Hochschule\n  ## Fragen zur Unterbrechung des Studiums\n  ## Fragen zum Ende des Studiums\n  ## Allgemeine Fragen"
+    },
+    {
+      "nr": 3,
+      "titel": "Übersicht der angebotenen Studiengänge",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+      "fakultaet": "",
+      "struktur": "# Übersicht der angebotenen Studiengänge\n  ## Wintersemester 2026/27\n    ### Auf einen Blick\n  ## Bachelor's degree programmes\n  ## Bachelorstudiengänge\n  ## Masterstudiengänge\n  ## Bewerbungsportal\n  ## Beratung und Kontakt"
+    },
+    {
+      "nr": 4,
+      "titel": "www › Verkuendungsblatt › 05 2014 › HsH Verkuendungsblatt 05 2014 — Ausgabe 05/2014",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/HsH_Verkuendungsblatt_05_2014.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 05/2014\n  ## Grundordnung der\n  ## Hochschule Hannover\n  ## Präambel\n  ## § 1\n  ## Rechtsstellung, Sitz\n  ## § 2 Ziele und Aufgaben\n  ## § 3\n  ## Organisation der Hochschule\n  ## § 4\n  ## Organe der Hochschulen\n  ## § 5\n  ## Institute\n  ## § 6\n  ## Präsidium\n  ## § 7\n  ## Senat\n  ## § 8\n  ## Hochschulrat\n  ## § 9\n  ## Bildung und Zusammensetzung von\n  ## Kommissionen mit besonderen Aufgaben\n  ## Und weiteren beratenden Gremien\n  ## § 10\n  ## Studienqualitätskommission\n  ## § 11\n  ## Dekanat\n  ## § 12\n  ## Fakultätsrat\n  ## § 13\n  ## Wissenschaftliche Einrichtungen und Kooperationen\n  ## § 14\n  ## Mitglieder und Angehörige\n  ## § 15\n  ## Allgemeine Grundsätze der Mitwirkung\n  ## § 16\n  ## Rechtsstellung der Mitglieder von Gremien\n  ## § 17\n  ## Beschlüsse\n  ## § 18\n  ## Öffentlichkeit\n  ## § 19\n  ## Gleichstellungsbeauftragte\n  ## § 20\n  ## Bestellung von Honorarprofessorinnen und Honorarprofessoren\n  ## § 21\n  ## Ernennung von Ehrensenatorinnen und Ehrensenatoren\n  ## § 22\n  ## Berufung von Professorinnen und Professoren"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Impressum:\n  ## Inhalt\n  ## Vorwort des Präsidiums\n  ## — 1 Ausgangslage\n  ## — 2 Kurzdarstellung der Hochschule\n  ## Leitbild und Umstrukturierungen\n  ## — 2 Kurzdarstellung der Hochschule\n  ## — 3 Kurzdarstellung der Fakultäten\n  ## Elektround Informationstechnik Fakultät I\n  ## Elektro- und Informationstechnik\n  ## Highlights\n  ## Studierende der Fakultät I\n# Maschinenbau und Bioverfahrenstechnik Fakultät II\n  ## Maschinenbau und Bioverfahrenstechnik\n  ## Highlights\n  ## Studierende der Fakultät II\n  ## Studierende der Fakultät II\n# Medien, Information und Design\n  ## Medien, Information und Design\n  ## Highlights\n  ## →   Motion Cube\n# Wirtschaft und Informatik\n  ## Wirtschaft und Informatik\n  ## Basisdaten\n  ## Highlights\n  ## →   Lehre\n  ## →   Praxisnähe\n  ## →   Studienbedingungen\n  ## →   Internationalität\n# Diakonie, Gesundheit und Soziales Fakultät V\n  ## Diakonie, Gesundheit und Soziales\n  ## Highlights\n  ## →   Internationale Vernetzung\n  ## →   Regionale Kontakte\n  ## Studierende der Fakultät V nach Studiengang\n# HsH – Hier studiert 34 Hannover.\n  ## — 4 Strategische Ziele der Hochschulentwicklung\n  ## 4 — Strategische Ziele der Hochschulentwicklung\n  ## StudierendenPerspektive\n  ## TREIBENDE FAKTOREN HAW-spezifisch hochqualifiziertes Lehrpersonal Studiengangs(neu)entwicklung MASSNAHMEN MIT HÖCHSTER PRIORITÄT\n  ## StudierendenPerspektive\n  ## Qualitativ hochwertige Studienabschlüsse anbieten\n  ## Nachhaltigkeit in der Lehre\n  ## StudierendenPerspektive\n  ## Nachhaltigkeit meets Internationalisierung in Studium und Praxis\n  ## StudierendenPerspektive\n  ## Attraktivität für Bewerber:innen steigern\n  ## Frauen in MINT\n  ## StudierendenPerspektive\n  ## Digitalisierung des Student Life Cycle"
+    },
+    {
+      "nr": 6,
+      "titel": "Für Studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+      "fakultaet": "",
+      "struktur": "# Für Studierende\n  ## Veranstaltungsreihe für ein gelingendes Studium an der HsH\n  ## Kompetenzen und Tipps für dein Studium! Online. Freiwillig. Kostenfrei.\n  ## Termine im WS 2026/2027\n  ## FAQ\n    ### Studienberatung für Studierende\n    ### Weitere Beratungsangebote für Studierende mit denen wir zusammenarbeiten\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 7,
+      "titel": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Erstsemesterinformation 27.02.2026\n  ## Zahlen und Daten zur Hochschule:\n  ## Standorte\n  ## Fünf Bachelorstudiengänge\n  ## ▪ Mechatronik (MEC)\n  ## Konsekutive Masterstudiengänge der Fakultät\n  ## Veranstaltungstypen\n  ## Vorlesungszeiten\n  ## Mensazeiten\n  ## Starter-Kit\n  ## ▪ Taschenrechner (nicht programmierbar)\n  ## Rechtliche Informationen\n  ## 1. HsH-Emailadresse ist offizielle Post\n  ## 2. Umgang mit Materialien und Medien\n  ## Informationen zur Campuscard und Öffi-Ticket etc.\n  ## Materialien in Moodle Online-Kurse zu den Vorlesungen\n  ## Erreichbarkeit/Kommunikation von/mit Lehrenden ProfessorInnen, Lehrbeauftragte, MitarbeiterInnen\n  ## Wahl der Stundenpläne / Start-ING EIT MEC EWI\n  ## Vorlesungszeiten Seminargruppe Z1 Stdg. Elektrotechnik und Informationstechnik\n  ## Vorlesungszeiten Seminargruppe N1 Stdg. Nachhaltige Elektrische Energieversorgung (NEV)\n  ## Vorlesungszeiten Seminargruppe M1 Stdg. Mechatronik\n  ## Wahl eines Start-ING Kurses\n  ## Für das Modul Start-ING besteht Anwesenheitspflicht .\n  ## Vorlesungszeiten Seminargruppe R2 Stdg. Technisches Informationsdesign und Technische Redaktion\n  ## Orientierung im Gebäude Ricklinger Stadtweg 120\n  ## Orientierung im Gebäude Bismarckstraße\n  ## Informationen zu Arbeitssicherheit und Gesundheitsschutz\n  ## ▪ Versicherungsschutz bei Unfällen\n  ## ▪ Mutterschutz\n  ## ▪ Medizinische Notfälle, Erste-Hilfe\n  ## ▪ Räumung von Gebäuden im Gefahrfall\n  ## Versicherungsschutz bei Unfällen Wer und was ist versichert?\n  ## Versicherungsschutz bei Unfällen Was ist nicht versichert?\n  ## ▪ private Studienfahrten\n  ## ▪ private Aktivitäten auf dem Gelände der Hochschule\n  ## Versicherungsschutz bei Unfällen Informationen - LUKN\n  ## ➢ Weitere Informationen erhalten Sie im Internet\n  ## Versicherungsschutz bei Unfällen Unfallmeldung\n  ## Versicherungsschutz bei Unfällen Unfallmeldung - Unfallanzeige\n  ## ▪ Weitere Informationen erhalten Sie bei Ihren Ansprechpersonen in der Studierendenverwaltung, Dezernat III\n  ## Mutterschutz\n  ## ▪ Weitere Informationen erhalten Sie bei den Ansprechpersonen des Familienservice\n  ## Medizinische Notfälle – Erste Hilfe Erste-Hilfe-Plakate, Notfallplan/Notrufnummern in den Gebäuden der HsH\n  ## Meldung von Notfällen Notrufnummern, Notrufmeldung\n  ## Medizinische Notfälle\n  ## Feuer\n  ## Bei VoIP-Telefonen keine Vorwahl der „00“ !\n  ## Medizinische Notfälle – Erste Hilfe\n  ## Kennzeichnung, Standorte – Defibrillatoren, Erste Hilfe Material\n  ## Medizinische Notfälle – Erste Hilfe"
+    },
+    {
+      "nr": 8,
+      "titel": "Dual Studieren in der Elektro- und Informationstechnik",
+      "url": "https://f1.hs-hannover.de/studium/elektrotechnik-und-informationstechnik-dual",
+      "fakultaet": "f1",
+      "struktur": "# Dual Studieren in der Elektro- und Informationstechnik\n  ## Bachelor Studiengänge der Fakultät I im dualen Studienkonzept\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Konzept\n# Vorteile des Studiums im Praxisverbund\n  ## Die Vorteile im Überblick\n    ### Ansprechperson\n# Partnerunternehmen\n    ### AVACON AG Oldenburg\n    ### AVACON AG\n    ### Bilfinger GreyLogix GmbH\n    ### DB InfraGO AG\n    ### Drewsen Spezialpapiere\n    ### Enercity Stadtwerke Hannover AG\n    ### ILFA Industrieelektronik und Leiterplattenfertigung aller Art GmbH\n    ### Lenze SE\n    ### Miele & Cie. KG / Segment Professional Wäschetechnik\n    ### Minda Industrieanlagen GmbH\n    ### onoff AG\n    ### PLANUNGSGRUPPE VA GmbH - Beratende Ingenieure VBI\n    ### Schott AG\n    ### Siemens AG Professional Education\n    ### Syserso Networks GmbH\n    ### TenneT Lehrte\n    ### Troester GmbH & Co. KG\n    ### TÜV NORD Systems GmbH & Co.Kg\n    ### T&B electronic GmbH\n    ### Überlandwerk Leinetal GmbH\n    ### üstra Hannoversche Verkehrsbetriebe AG\n    ### Volkswagen Nutzfahrzeuge\n    ### Westfalen Weser Netz GmbH\n    ### Zentrale Polizeidirektion Niedersachsen"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.60572,
+      "id": "875f2f7d-031b-5320-8813-dc5a0fa3a6bb",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge",
+      "title_anzeige": "f1 › studium › studiengaenge und programme › master studiengaenge",
+      "section_heading": "Masterstudiengänge > Wissenschaftlich fundiertes Masterstudium",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "#  Masterstudiengänge  \nKonsekutives wissenschaftliches Studium\n\n## Wissenschaftlich fundiertes Masterstudium\nDie Fakultät I bietet zwei konsekutive, drei-semestrige Masterstudiengänge an. Vorraussetzung ist hierfür der überdurchschnittliche Abschluss in einem siebensemestrigen Bachelorstudiengang d"
+    },
+    {
+      "rang": 2,
+      "score": 1.55943,
+      "id": "900bf6ce-1e9b-5df3-beb1-257cc3e644cf",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "title_anzeige": "FAQ für Studierende und Studienbewerber*innen",
+      "section_heading": "FAQ für Studierende und Studienbewerber*innen > Fragen vor dem Studium > FAQ für Studierende und Studienbewerber*innen",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "* Angewandte Mathematik\n* Elektrotechnik und Informationstechnik\n* Mechatronik\n* Technisches Informationsdesign und Technische Redaktion\n* Wirtschaftsingenieur Elektrotechnik  \n_Bachelor-Studiengänge_\n* Fotojournalismus und Dokumentarfotografie\n* Informationsmanagement\n* Informationsmanagement (beru"
+    },
+    {
+      "rang": 3,
+      "score": 1.47513,
+      "id": "9b142de2-2d52-588e-891b-6e688ca569d3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+      "title_anzeige": "Übersicht der angebotenen Studiengänge",
+      "section_heading": "Übersicht der angebotenen Studiengänge > Masterstudiengänge",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "|  Wirtschaftsingenieurwesen Maschinenbau   |   |   |  Fak. II   |   |  Bachelor of Engineering   |   |  Hochschule Hannover   |   |  WiSe & SoSe   |   |  8 wöchiges Praktikum bis zum Vorlesungsende des 4. Semesters   |   |   |\n|  Wirtschaftsingenieurwesen Maschinenbau (dual)   |   |   |  Fak. II   "
+    },
+    {
+      "rang": 4,
+      "score": 1.37758,
+      "id": "e1bbd714-7fac-580b-89d4-c42468a4cd57",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/HsH_Verkuendungsblatt_05_2014.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2014 › HsH Verkuendungsblatt 05 2014 — Ausgabe 05/2014",
+      "section_heading": "**Ausgabe 05/2014**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "||Masterstudiengang „Mittelständische Unternehmensführung MBA in||\n||Entrepreneurship“ der Fakultät IV – Wirtschaft und Informatik der||\n||Hochschule Hannover||\n|5.|Besonderer Teil der Prüfungsordnung  für den konsekutiven Master-|27|\n||Studiengang Fernsehjournalismus (MTV) mit dem Abschluss Master|"
+    },
+    {
+      "rang": 5,
+      "score": 1.37116,
+      "id": "8606d3ed-291e-5668-a606-816ef6af0b4e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "— 2 Kurzdarstellung der Hochschule",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## — 2 Kurzdarstellung der Hochschule  \nAls regional verankerte und international ausgerichtete Hochschule bietet die Hochschule Hannover (HsH) eine breit gefächerte Auswahl anwendungsorientierter Fachqualifikationen aus den Bereichen Informatik und Ingenieurwesen, Design und Medien sowie Wirtschaft"
+    },
+    {
+      "rang": 6,
+      "score": 1.3607,
+      "id": "8436c1e5-521f-5fc4-a468-6a910fd41af6",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+      "title_anzeige": "Für Studierende",
+      "section_heading": "Für Studierende > FAQ",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "Fakultät V (Studiengänge: Soziale Arbeit und Religionspädagogik und Soziale Arbeit).\nFür weitere Fragen kontaktiere bitte die jeweilige Fakultät.\nauf ein Teilzeitstudium.\n[ Wie kann ich meinen Master machen? ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/"
+    },
+    {
+      "rang": 7,
+      "score": 1.31926,
+      "id": "7c1e828d-614e-57ce-ba1b-d44fb9e3e7fe",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > **Konsekutive Masterstudiengänge der Fakultät**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **Konsekutive Masterstudiengänge der Fakultät**  \nAufbaustudium nach dem Bachelor ➔ 3 Semester: Master  \n▪ Sensor- und Automatisierungstechnik (ESA) _32 Anfängerplätze/Jahr_ ▪ Konsekutivstudiengang für alle drei Ingenieursstudiengänge (EIT, MEC, EWI)  \n▪ Elektrische Energiesysteme und Elektromobi"
+    },
+    {
+      "rang": 8,
+      "score": 1.24471,
+      "id": "3c9c0052-7db9-52d6-98fe-4b292d1e328a",
+      "source_url": "https://f1.hs-hannover.de/studium/elektrotechnik-und-informationstechnik-dual",
+      "title_anzeige": "Dual Studieren in der Elektro- und Informationstechnik",
+      "section_heading": "Dual Studieren in der Elektro- und Informationstechnik > Bachelor Studiengänge der Fakultät I im dualen Studienkonzept",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "##  Bachelor Studiengänge der Fakultät I im dualen Studienkonzept\nDie Fakultät I Elektro- und Informationstechnik der Hochschule Hannover bietet in Kooperation mit verschiedenen Firmen und Berufsschulen seit vielen Jahren ein erfolgreiches duales Studienkonzept an. Das Studienmodell im Praxisverbund"
+    },
+    {
+      "rang": 9,
+      "score": 1.18815,
+      "id": "d9b9a9c1-14d3-519d-8ea7-5ec9fdfb641d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "Elektro- und Informationstechnik",
+      "chunk_index": 32,
+      "text_vollstaendig": false,
+      "auszug": "## Elektro- und Informationstechnik  \nDie Fakultät I wurde zum Sommersemester 2007 aus dem Fachbereich Elektro- und Informationstechnik sowie dem Fachgebiet „Technische Redaktion“ der Hochschule Hannover gebildet.  \nDie Fakultät repräsentiert mit ihren 12 Fachgebieten wichtige Schlüsseltechnologien "
+    },
+    {
+      "rang": 10,
+      "score": 1.14148,
+      "id": "9ddcc249-8e75-56d7-8a86-4585c3d93a7b",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee: > Die Fakultät I in Zahlen",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## Die Fakultät I in Zahlen\nStudierende\nStudienplätze\nStudiengänge\nProfessorinnen und Professoren\nLehrbeauftragte\nMitarbeiterinnen und Mitarbeiter\n[ ![Bachelor-Studiengänge](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/30_Grafiken/10_Kacheln_f_Seitenwahl/b_std.jpg?rbiFocus=mobile) ](https://f"
+    },
+    {
+      "rang": 11,
+      "score": 1.13725,
+      "id": "9d48b391-b698-5c00-a86a-3405ce67ed79",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 43,
+      "text_vollstaendig": false,
+      "auszug": "|||||\nder Hochschule  Hannover||\n|2021|4|15.07.2021|IV|Ordnung über die Zulassung und den Zugang zum Studium im Bachelor-Studiengang „Verwaltungsinformatik (VIF)“an der Fakultät IV–Wirtschaft und Informatik der Hochschule Hannover|IV|\n|2021|3|15.06.2021|III|Ordnung über den Zugang und die Zulassung "
+    },
+    {
+      "rang": 12,
+      "score": 1.13095,
+      "id": "f2242d21-d8af-50e3-84e0-60b0463b28bc",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+      "title_anzeige": "Übersicht der angebotenen Studiengänge",
+      "section_heading": "Übersicht der angebotenen Studiengänge > Bachelorstudiengänge",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "##  Bachelorstudiengänge\nSortierung:\nAufsteigend\n* [Absteigend](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester)\n* [Aufsteigend](https://www.hs-hannover.de/ueber-uns/organisation"
+    },
+    {
+      "rang": 13,
+      "score": 1.11078,
+      "id": "b2bdacfe-d963-5f30-a0aa-d400f5526632",
+      "source_url": "https://f4.hs-hannover.de/ueber-uns/abteilungen/abteilung-betriebswirtschaft",
+      "title_anzeige": "BWL studieren an der HsH: praxisnah und innovativ - Deine Karriere startet hier!",
+      "section_heading": "BWL studieren an der HsH: praxisnah und innovativ - Deine Karriere startet hier! > Bachelor-Studiengänge",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "Bank- und Versicherungswesen (BBI) berufsbegleitend\nAls staatliche Hochschule der Landeshauptstadt Hannover bietet die Hochschule Hannover im Fachgebiet Betriebswirtschaftslehre (BWL) ein breites Fächerangebot in Bachelor- und Masterstudiengängen. Die Studienprogramme sind praxisorientiert, internat"
+    },
+    {
+      "rang": 14,
+      "score": 1.07528,
+      "id": "1f6a903b-89c5-5d99-b273-50eb7014cb9c",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 25 09 10 Studienhandbuch 2025 AbtlgInf StudyGuide CSDept 080925",
+      "section_heading": "**2. Angaben zum Studium** > **2.1 Fakultäts- und Abteilungsstruktur**",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "## **2. Angaben zum Studium**\n## **2.1 Fakultäts- und Abteilungsstruktur**  \nDie Fakultät IV der Hochschule Hannover umfasst die Abteilung Betriebswirtschaft (BWL), die Abteilung Informatik (I) und die Abteilung Wirtschaftsinformatik (WI). Speziell die Abteilung Informatik bietet drei Studiengänge m"
+    },
+    {
+      "rang": 15,
+      "score": 1.03684,
+      "id": "d2767146-d6d8-5120-9fc7-deacb041e55c",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Freie Studienplätze - Bewerben Sie sich jetzt für das Wintersemester 2026/27 (Semesterbeginn: 01.09.2026) über das > Wir stellen uns vor",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "![](https://f1.hs-hannover.de/fileadmin/_processed_/3/c/csm__RL83898_596b0bd211.jpg?rbiFocus=mobile)\nDie Fakultät I ist eine Organisationseinheit der Hochschule Hannover. Sie wurde zum Sommersemester 2007 aus dem Fachbereich Elektro‐ und Informationstechnik sowie dem Fachgebiet „Technische Redaktion"
+    },
+    {
+      "rang": 16,
+      "score": 1.03476,
+      "id": "499468c0-7a28-53e4-bf58-990ea4415dcd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2012 — Jahresabschluss zum 31. Dezember 2012 und Lagebericht",
+      "section_heading": "2.1 Studienangebot und Studiennachfrage",
+      "chunk_index": 61,
+      "text_vollstaendig": true,
+      "auszug": "## 2.1 Studienangebot und Studiennachfrage  \nIn 2011/12 hat die Hochschule im Rahmen der Studienangebotszielvereinbarung für das Studienjahr 2012 insgesamt vier neue Studiengänge, die durch Umstrukturierungen bestehender Studiengänge entstanden, eingerichtet: „Fotojournalismus und Dokumentarfotograf"
+    },
+    {
+      "rang": 17,
+      "score": 1.03421,
+      "id": "75ddd290-db9d-52b0-8edd-f8b1a1a99a52",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/News/12.04.2021_Brosch_re_Dach_A5_Masterflyer__1_.pdf",
+      "title_anzeige": "f5 › Aktuelles › News › 12.04.2021 Brosch re Dach A5 Masterflyer 1 — Überblick",
+      "section_heading": "Masterstudiengänge an der Hochschule Hannover > Überblick",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Masterstudiengänge an der Hochschule Hannover  \n## Überblick  \nSie wollen Ihr Fachwissen verbessern und Ihre Karrieremöglichkeiten weiter aufbauen? Dann bietet ein Masterstudium an der Hochschule Hannover eine gute Chance für Sie.  \nEin Master kann Sie beispielsweise auf eine wissenschaftliche Kar"
+    },
+    {
+      "rang": 18,
+      "score": 0.99431,
+      "id": "c7771515-69c0-51a8-a068-343ab00059d4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2013 — Jahresabschluss zum 31. Dezember 2013 und Lagebericht",
+      "section_heading": "**Jahresabschluss zum 31. Dezember 2013 und Lagebericht** > 1.1 Hochschulstruktur",
+      "chunk_index": 53,
+      "text_vollstaendig": false,
+      "auszug": "- 3 Fakultät IV: Wirtschaft und Informatik  \n- 4 Fakultät I: Elektro- und Informationstechnik  \n- 5 Fakultät V: Diakonie, Gesundheit und Soziales  \n22.004321-1409047␣  \n3␣  \nHochschule Hannover  \nAlle Fakultäten verfolgen gemeinsam das Ziel, ihre Absolventinnen und Absolventen darin zu stärken, fach"
+    },
+    {
+      "rang": 19,
+      "score": 0.93519,
+      "id": "82c86ff7-eee4-5508-8af4-06c9124f2121",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+      "title_anzeige": "www › servicezentrum beratung › studienberatung › faqs",
+      "section_heading": "[Fakultät V - Diakonie, Gesundheit und Soziales](https://f5.hs-hannover.de/)",
+      "chunk_index": 28,
+      "text_vollstaendig": true,
+      "auszug": "[ Wie kann ich meinen Master machen? ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs \"Wie kann ich meinen Master machen?\")\nDie HsH bietet eine Vielzahl von Master-Studiengängen an. Dabei ist zwischen den konsekutiven Masterstudiengängen (den auf den B"
+    },
+    {
+      "rang": 20,
+      "score": 0.93345,
+      "id": "7d5f9184-5cdf-5417-8f8b-296a0e401eec",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2026/hsh_verkuendungsblatt_nr_04_2026.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2026 › hsh verkuendungsblatt nr 04 2026 — Ausgabe 04/2026",
+      "section_heading": "**Inhalt:**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "|7.|Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang|57|\n||Wirtschaftsinformatik (BIS) mit dem Abschluss Bachelor of Science an der||\n||Fakultät IV – Wirtschaft und Informatik, der Hochschule Hannover (BIS PO 2018)||\n|8.|Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengan"
+    },
+    {
+      "rang": 21,
+      "score": 0.90619,
+      "id": "b27b4195-6894-5be7-ad6e-b31c5ffa6fc3",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 VIF Studien Modulhandbuch PO2020 240301",
+      "section_heading": "",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "1  Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik  \n1.  Allgemeines zur Fakultät IV und zur Abteilung Wirtschaftsinformatik  \n- 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover ist in drei Abteilungen organisiert: Betriebswirts"
+    },
+    {
+      "rang": 22,
+      "score": 0.90103,
+      "id": "596f347d-20ba-55cd-b21a-1b1fed0bd976",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-berufsbegleitend-sbw",
+      "title_anzeige": "Soziale Arbeit - berufsbegleitend (SBW)",
+      "section_heading": "Kurzübersicht > Informationen für Studieninteressierte > Kurzübersicht",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "[ Weiterbildungsmöglichkeiten ](https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-berufsbegleitend-sbw \"Weiterbildungsmöglichkeiten\")\nNach erfolgreichem Abschluss des Studiums erhalten Sie den akademischen Grad _Bachelor of Arts (B.A.)_. Dies ermöglicht Ihnen den Zugang zu vers"
+    },
+    {
+      "rang": 23,
+      "score": 0.88996,
+      "id": "8a9c3e6c-66b8-5f2a-bc3d-2502c669a776",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BJO_Journalistik_Studiengangsflyer_A5_202303.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Studiengangsflyer › BJO Journalistik Studiengangsflyer A5 202303 — Worum geht es?",
+      "section_heading": "Studienberatung",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## Studienberatung  \nDie Studienberatung der Hochschule Hannover berät alle Studierenden und Studieninteressierten. Sie informiert über Studienangebote, Studieninhalte sowie über Aufbau und Struktur eines Studiums. Darüber hinaus erfolgt die Beratung zu allen Fragen und Problemen, die in engerem ode"
+    },
+    {
+      "rang": 24,
+      "score": 0.87432,
+      "id": "b6834060-8f94-5531-af2c-da62614ab58f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 71,
+      "text_vollstaendig": false,
+      "auszug": "Hochschule Hannover|II|\n|2018|8|15.08.2018|II|Ordnung über den Zugang und die Zulassung für den konsekutiven Masterstudiengang Milch-und Verpackungswirtschaft (MMV) an der Fakultät II–Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover|II|\n|2018|8|15.08.2018|IV|Ordnung über den Zugang und "
+    },
+    {
+      "rang": 25,
+      "score": 0.8626,
+      "id": "32bf715b-1274-5d79-a6ea-914897905a7b",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 Studien Modulhandbuch MDT 26 07 16",
+      "section_heading": "1.1 Fakultäts- und Abteilungsstruktur",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover ist in drei Abteilungen organisiert: Betriebswirtschaft (BWL), Informatik (I) und Wirtschaftsinformatik (WI). Insgesamt studieren zurzeit ca. 2110 Studierende (davon 950 in der Abt. Betrieb"
+    },
+    {
+      "rang": 26,
+      "score": 0.86022,
+      "id": "80f79fea-1911-5814-a052-a6507ea2a6b4",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch BIS PO 2018 25 10 07",
+      "section_heading": "1.1 Fakultäts- und Abteilungsstruktur",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover ist in drei Abteilungen organisiert: Betriebswirtschaft (BWL), Informatik (I) und Wirtschaftsinformatik (WI). Insgesamt studieren zurzeit ca. 2110 Studierende (davon 950 in der Abt. Betrieb"
+    },
+    {
+      "rang": 27,
+      "score": 0.84383,
+      "id": "94e67c12-4893-5c3a-bb7e-90cba6f78464",
+      "source_url": "https://f4.hs-hannover.de/studium/bachelor-studiengaenge",
+      "title_anzeige": "f4 › studium › bachelor studiengaenge — Bachelor-Studiengänge der Fakultät IV",
+      "section_heading": "Bachelor-Studiengänge der Fakultät IV",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "##  Bachelor-Studiengänge der Fakultät IV\n[ International Business Studies (IBS) ](https://f4.hs-hannover.de/studium/bachelor-studiengaenge/international-business-studies-ibs)\n[ Betriebswirtschaftslehre (BBA) ](https://f4.hs-hannover.de/studium/bachelor-studiengaenge/betriebswirtschaftslehre-bba)\n[ "
+    },
+    {
+      "rang": 28,
+      "score": 0.83698,
+      "id": "201eea3f-3e19-57fe-bc21-d31225903fc8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/HsH_Verkuendungsblatt_05_2020.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2020 › HsH Verkuendungsblatt 05 2020 — Ausgabe 05/2020",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven dualen Masterstudiengang „Wertschöpfungsmanagement im Maschinenbau (WMM)“ der Fakultät II – Maschinenbau und Bioverfahrenstechnik** > **der Hochschule Hannover**",
+      "chunk_index": 31,
+      "text_vollstaendig": false,
+      "auszug": "## **Ordnung über den Zugang und die Zulassung für den konsekutiven dualen Masterstudiengang „Wertschöpfungsmanagement im Maschinenbau (WMM)“ der Fakultät II – Maschinenbau und Bioverfahrenstechnik**\n\n## **der Hochschule Hannover**"
+    },
+    {
+      "rang": 29,
+      "score": 0.83698,
+      "id": "4d1c288a-2a87-5731-8c59-cbe3e06f9a55",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_MMI_2017.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › ZulO MMI 2017",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven Masterstudiengang Medizinisches Informationsmanagement (MMI) an der Fakultät III Medien, Information und Design der Hochschule Hannover**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **Ordnung über den Zugang und die Zulassung für den konsekutiven Masterstudiengang Medizinisches Informationsmanagement (MMI) an der Fakultät III Medien, Information und Design der Hochschule Hannover**"
+    },
+    {
+      "rang": 30,
+      "score": 0.83698,
+      "id": "55f90ebd-6946-595e-818f-83caa5eb7f17",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/08-2018/01_ZO_MMV_20181_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2018 › 01 ZO MMV 20181",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven Masterstudiengang Milch- und Verpackungswirtschaft (MMV) an der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover (HsH)**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Ordnung über den Zugang und die Zulassung für den konsekutiven Masterstudiengang Milch- und Verpackungswirtschaft (MMV) an der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover (HsH)**"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+        "score": 0.72445
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.67507
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+        "score": 0.67351
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+        "score": 0.66527
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.65959
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf",
+        "score": 0.6338
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+        "score": 0.63345
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f1.hs-hannover.de/studium/elektrotechnik-und-informationstechnik-dual",
+        "score": 0.63117
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f4.hs-hannover.de/studium/bachelor-studiengaenge",
+        "score": 0.63102
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+        "score": 0.62632
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 0.62519
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/HsH_Verkuendungsblatt_05_2014.pdf",
+        "score": 0.62436
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/250630_Z3_Broschuere_Bachelor_Master_HsH.pdf",
+        "score": 0.62345
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 0.62245
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EWI_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 0.62003
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+        "score": 0.61949
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f5.hs-hannover.de",
+        "score": 0.61481
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HsH_Studienkolleg_Fachbindung_Stand_Mai_2023.pdf",
+        "score": 0.61456
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f3.hs-hannover.de/studium/ordnungen",
+        "score": 0.61439
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+        "score": 0.61402
+      },
+      {
+        "rang": 21,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/250630_Z3_Broschuere_Bachelor_Master_HsH.pdf",
+        "score": 0.61111
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.60691
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Dokumente/Ordnungen_Mumba/4._Modulhandbuch_MU-MBA_Stand_2024.pdf",
+        "score": 0.60535
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete",
+        "score": 0.60218
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+        "score": 0.60115
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f1.hs-hannover.de/service-1-2",
+        "score": 0.60014
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Studien-Modulhandbuch-PO2021-240317.pdf",
+        "score": 0.59995
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+        "score": 0.59875
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/04-2019/HsH_Verkuendungsblatt_04_2019.pdf",
+        "score": 0.59857
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 0.59836
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f2.hs-hannover.de/studium/master-studiengaenge",
+        "score": 0.59805
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 0.59794
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f4.hs-hannover.de",
+        "score": 0.59707
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+        "score": 0.59632
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/HsH_Verkuendungsblatt_10_2018.pdf",
+        "score": 0.5962
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xSemesteruebersichten/MBI-WS2016-Semesteruebersicht.pdf",
+        "score": 0.59553
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+        "score": 0.59373
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+        "score": 0.59324
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/abteilungen/abteilung-betriebswirtschaft",
+        "score": 0.59313
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+        "score": 0.59233
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+        "score": 0.59186
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/20-02-19-BIN_Antrag_Wechsel_PO_20192.pdf",
+        "score": 0.59138
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/09-2018/01_BIB_BT_PO_mit_Anlagen_20182.pdf",
+        "score": 0.59107
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Studien-Modulhandbuch-PO2021-240317.pdf",
+        "score": 0.59095
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 0.59086
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+        "score": 0.5905
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/F2_dual_BA_MTD_BTPO_2025-07-25.pdf",
+        "score": 0.59049
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/News/12.04.2021_Brosch_re_Dach_A5_Masterflyer__1_.pdf",
+        "score": 0.58956
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Studiengaenge/12_F_II_BV_BIU_BTPO_BA.pdf",
+        "score": 0.58869
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+        "score": 0.58868
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/heilpaedagogik-inklusive-bildung-und-begleitung-bah",
+        "score": 0.79544
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 0.79517
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge",
+        "score": 0.76624
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Brochure_Faculty_I_II_2023-3.11.23_neue_Fotos-Einzelseiten_6.11.23.pdf",
+        "score": 0.76543
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f1.hs-hannover.de/studium/internationales/information-for-incomings",
+        "score": 0.75951
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+        "score": 0.75481
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/01-ATPO_2015_mit_Anlagen_A1-A3.pdf",
+        "score": 0.73961
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/Pruefungsordnung_HP_allg_Teil_01-ATPO_2015_mit_Anlagen_A1-A3.pdf",
+        "score": 0.73961
+      },
+      {
+        "rang": 9,
+        "source_url": "http://itr.wp.hs-hannover.de/wp-content/uploads/2022/03/Allgemeiner_Teil_der_PO_2015.pdf",
+        "score": 0.73959
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/ATPO_2015.pdf",
+        "score": 0.73959
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Career_Center/Career_Center_Kooperationspartner_2023.pdf",
+        "score": 0.7342
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/03-2005/Verkuendungsblatt_03_2005.pdf",
+        "score": 0.72865
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f3.hs-hannover.de/studium/master-studiengaenge/kommunikationsmanagement-mko",
+        "score": 0.72659
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2004/02-2004/Verkuendungsblatt_02_2004.pdf",
+        "score": 0.71442
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+        "score": 0.71321
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen/01_F2_BV_BTPO_MA_MLV.pdf",
+        "score": 0.713
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Offene_Hochschule/20240126_Z3_Tabelle_Anerkannte_Ausbildungen_Offene_Hochschule_HsH.pdf",
+        "score": 0.71103
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+        "score": 0.71038
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.70735
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Offene_Hochschule/20240126_Z3_Tabelle_Anerkannte_Ausbildungen_Offene_Hochschule_HsH.pdf",
+        "score": 0.70698
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 0.70629
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/Ukraine-Krieg/Ukraine_EN.pdf",
+        "score": 0.70438
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Besondere_PO_2005.pdf",
+        "score": 0.70304
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/internationales/weltweit-vernetzt/internationale-projekte/labi3/incomings",
+        "score": 0.70051
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de",
+        "score": 0.69532
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f4.hs-hannover.de/internationales/internationale-studiengaenge",
+        "score": 0.69297
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/technologie-nachwachsender-rohstoffe-tnr",
+        "score": 0.69024
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 0.68986
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/HsH_Fakultaet_V_en_webseite.pdf",
+        "score": 0.68906
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+        "score": 0.68587
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/04-2007/Verkuendungsblatt_04_2007.pdf",
+        "score": 0.68464
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f4.hs-hannover.de/ueber-uns/abteilungen/abteilung-informatik",
+        "score": 0.68407
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+        "score": 0.68344
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/News/12.04.2021_Brosch_re_Dach_A5_Masterflyer__1_.pdf",
+        "score": 0.68065
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 0.67954
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/KeGL/Modulbeschreibungen_und_Lehrmaterialien/Lehr-_und_Lernmaterialien_Modul_1_Einfuehrung.pdf",
+        "score": 0.6789
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 0.67752
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/250630_Z3_Broschuere_Bachelor_Master_HsH.pdf",
+        "score": 0.67567
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh",
+        "score": 0.67137
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/05_PO_IMC_2021.pdf",
+        "score": 0.66685
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/HsH_Verkuendungsblatt_04_2021.pdf",
+        "score": 0.6668
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/PO_BTPO_BIN_2017.pdf",
+        "score": 0.66556
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+        "score": 0.66279
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+        "score": 0.66278
+      },
+      {
+        "rang": 45,
+        "source_url": "https://mint.hs-hannover.de/studieren",
+        "score": 0.66237
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Studium/Sonstige/F2-Infobroschuere_220329.pdf",
+        "score": 0.66074
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de",
+        "score": 0.65812
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Offene_Hochschule/20240126_Z3_Tabelle_Anerkannte_Ausbildungen_Offene_Hochschule_HsH.pdf",
+        "score": 0.65787
+      },
+      {
+        "rang": 49,
+        "source_url": "https://karriere.hs-hannover.de/portal/seiten/hochschule-hannover-900000011-10057.html",
+        "score": 0.65676
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/studium/studienangebot/master-studiengaenge",
+        "score": 0.6563
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge",
+        "score": 26.42322
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+        "score": 25.4659
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 24.23233
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+        "score": 24.21411
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 24.21361
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 24.13679
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-berufsbegleitend-sbw",
+        "score": 23.64649
+      },
+      {
+        "rang": 8,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 23.20278
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/08-2018/01_ZO_MMV_20181_.pdf",
+        "score": 22.58245
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_MMI_2017.pdf",
+        "score": 22.58245
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/HsH_Verkuendungsblatt_05_2020.pdf",
+        "score": 22.58245
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_MA_MMV.pdf",
+        "score": 22.58245
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_WMM_15.07.2020.pdf",
+        "score": 22.42516
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MSW/Ordnungen_MSW/Zulassungordnung_MSW_Stand_02-2017.pdf",
+        "score": 22.42516
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/02_ZZO_MIN_2021.pdf",
+        "score": 22.27004
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f2.hs-hannover.de",
+        "score": 22.24777
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f2.hs-hannover.de/index.php",
+        "score": 21.89126
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen/15_F2_BV_ZuO_MA_MLV_VB_EBU.pdf",
+        "score": 21.67044
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen/01_F2_BV_BTPO_MA_MLV.pdf",
+        "score": 21.38259
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/10-2025/15_F2_BV_ZuO_MA_MLV_VB_EBU.pdf",
+        "score": 21.30736
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_MDM_2014.pdf",
+        "score": 21.24151
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/03-2017/04_PO-MDM_Anlage_B1_B2_20161221.pdf",
+        "score": 21.10229
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/10-2025/hsh_verkuendungsblatt_nr_10_2025.pdf",
+        "score": 20.94213
+      },
+      {
+        "rang": 24,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 20.86427
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+        "score": 20.77816
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 20.67676
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f3.hs-hannover.de/studium/faqs-1",
+        "score": 20.6011
+      },
+      {
+        "rang": 28,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/06-2026/hsh_verkuendungsblatt_nr_06_2026.pdf",
+        "score": 20.57311
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2026/19_MA_MEP.pdf",
+        "score": 20.56316
+      },
+      {
+        "rang": 30,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/08_Forschungscluster/Industrie_4.0/Schautafel_Annastift-HsH.pdf",
+        "score": 20.54119
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 20.29664
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+        "score": 20.22822
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/HsH_Verkuendungsblatt_10_2018.pdf",
+        "score": 20.19501
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+        "score": 20.13945
+      },
+      {
+        "rang": 35,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/08-2018/HsH_Verkuendungsblatt_08_2018.pdf",
+        "score": 20.13576
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+        "score": 19.94612
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+        "score": 19.88926
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2026/hsh_verkuendungsblatt_nr_04_2026.pdf",
+        "score": 19.81247
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/Infomaterial/BMI_Praesentation_HIT_2024_Print.pdf",
+        "score": 19.80881
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/HsH_Verkuendungsblatt_05_2020.pdf",
+        "score": 19.59774
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 19.52099
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/langzeitstudiengebuehren",
+        "score": 19.18523
+      },
+      {
+        "rang": 43,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 19.16346
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 18.93321
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 18.72746
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 18.70631
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f3.hs-hannover.de/studium/master-studiengaenge/kommunikationsmanagement-mko",
+        "score": 18.47944
+      },
+      {
+        "rang": 48,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2018",
+        "score": 18.43424
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/HsH_Verkuendungsblatt_05_2014.pdf",
+        "score": 18.29244
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 18.27098
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/05_Besonderer_Teil_der_Pruefungsordnung_MTV.pdf",
+        "score": 29.35346
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge",
+        "score": 29.04487
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+        "score": 28.90799
+      },
+      {
+        "rang": 4,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+        "score": 27.94322
+      },
+      {
+        "rang": 5,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/10-2025/hsh_verkuendungsblatt_nr_10_2025.pdf",
+        "score": 27.33374
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/03-2017/04_PO-MDM_Anlage_B1_B2_20161221.pdf",
+        "score": 26.98472
+      },
+      {
+        "rang": 7,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+        "score": 26.81095
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f1.hs-hannover.de",
+        "score": 26.76217
+      },
+      {
+        "rang": 9,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 26.7162
+      },
+      {
+        "rang": 10,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+        "score": 26.49278
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/01-2021/HsH_Verkuendungsblatt_01_2021.pdf",
+        "score": 26.43302
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+        "score": 25.93359
+      },
+      {
+        "rang": 13,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/05_Besonderer_Teil_der_Pruefungsordnung_fuer_MDM.pdf",
+        "score": 25.9017
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-berufsbegleitend-sbw",
+        "score": 25.80814
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Pruefungsordnungen/03_Besonderer_Teil_der_Pruefungsordnung_MGB.pdf",
+        "score": 25.25666
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/02_ZZO_MIN_2021.pdf",
+        "score": 24.47332
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+        "score": 24.2872
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 24.17174
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 24.13048
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2026/19_MA_MEP.pdf",
+        "score": 24.03938
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_MED_100524.pdf",
+        "score": 24.01019
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 23.94837
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2018",
+        "score": 23.86452
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_MDM_2014.pdf",
+        "score": 23.81631
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/10-2025/15_F2_BV_ZuO_MA_MLV_VB_EBU.pdf",
+        "score": 23.72181
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Ordnungen/15_F2_BV_ZuO_MA_MLV_VB_EBU.pdf",
+        "score": 23.57639
+      },
+      {
+        "rang": 27,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 23.56667
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f2.hs-hannover.de",
+        "score": 23.52895
+      },
+      {
+        "rang": 29,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/02-2020/HsH_Verkuendungsblatt_02_2020.pdf",
+        "score": 23.34881
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f2.hs-hannover.de/index.php",
+        "score": 23.27563
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+        "score": 23.10496
+      },
+      {
+        "rang": 32,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/08-2018/01_ZO_MMV_20181_.pdf",
+        "score": 23.08081
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 23.03074
+      },
+      {
+        "rang": 34,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 23.0142
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_MMI_2017.pdf",
+        "score": 22.86623
+      },
+      {
+        "rang": 36,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/08-2018/HsH_Verkuendungsblatt_08_2018.pdf",
+        "score": 22.84242
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f3.hs-hannover.de/studium/master-studiengaenge/kommunikationsmanagement-mko",
+        "score": 22.83291
+      },
+      {
+        "rang": 38,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/03-2026/hsh_verkuendungsblatt_nr_03_2026.pdf",
+        "score": 22.66244
+      },
+      {
+        "rang": 39,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/HsH_Verkuendungsblatt_05_2020.pdf",
+        "score": 22.63293
+      },
+      {
+        "rang": 40,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/04_ZulO_MTV.pdf",
+        "score": 22.63293
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/02-2012/Verkuendungsblatt_02_2012.pdf",
+        "score": 22.61552
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/01-2021/01_ZO_MDM_2021.pdf",
+        "score": 22.41503
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_MA_MMV.pdf",
+        "score": 22.30772
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 22.27818
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/HsH_Verkuendungsblatt_05_2020.pdf",
+        "score": 22.09629
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f3.hs-hannover.de/studium/faqs-1",
+        "score": 21.95401
+      },
+      {
+        "rang": 47,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/05-2020/HsH_Verkuendungsblatt_05_2020.pdf",
+        "score": 21.90911
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Ordnungen/18-10-01-02._ZO_MBD_20181.pdf",
+        "score": 21.88902
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/03-2020/HsH_Verkuendungsblatt_03_2020.pdf",
+        "score": 21.88853
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+        "score": 21.8388
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.75,
+    "kandidaten_s": 0.01,
+    "arme_s": 1.75,
+    "gesamt_s": 3.5
+  },
+  "auswahl_begruendung": ""
+}

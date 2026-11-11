@@ -1,0 +1,522 @@
+{
+  "fall": {
+    "id": "q16",
+    "case_type": "direct",
+    "question": "Wie viele Bachelor- und Masterstudiengänge gibt es an der Fakultät III der HsH?",
+    "reference_answer": "Die Fakultät III ist die Fakultät für Medien, Information und Design. Sie nennt 15 Bachelorstudiengänge in den Bereichen Design und Medien sowie Information und Kommunikation. Außerdem nennt sie 4 Master-Studiengänge in diesen Bereichen.",
+    "source_url": "https://f3.hs-hannover.de/",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Fakultät III nennt 15 Bachelorstudiengänge.",
+      "Fakultät III nennt 4 Masterstudiengänge."
+    ],
+    "optional_facts": [
+      "Fakultät III ist Medien, Information und Design.",
+      "Die Studiengänge liegen in den Bereichen Design und Medien sowie Information und Kommunikation."
+    ],
+    "forbidden_claims": [
+      "Die Zahlen einer anderen Fakultät verwenden.",
+      "Bachelor- und Masterzahlen vertauschen."
+    ],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Antwort soll Fakultät III nicht mit Fakultät I oder II verwechseln. Erwartet werden 15 Bachelorstudiengänge und 4 Master-Studiengänge gemäß Startseite der Fakultät III.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "15 Bachelor",
+      "4 Master"
+    ],
+    "gold_im_korpus": true
+  },
+  "modell": "meta-llama-3.1-8b-instruct",
+  "zeitstempel": "2026-08-17T16:39:26",
+  "dauer_s": 7.15,
+  "fehler": null,
+  "antwort": "14 Bachelor- und 5 Masterstudiengänge",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Aufnahme-, Bewerbungs- und Auswahlverfahren",
+      "url": "https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte/aufnahme-bewerbungs-und-auswahlverfahren",
+      "fakultaet": "f3",
+      "struktur": "# Aufnahme-, Bewerbungs- und Auswahlverfahren\n    ### Studiengänge aus der Abteilung Design und Medien\n    ### Studiengänge aus der Abteilung Information und Kommunikation\n    ### Übersicht aller Fristen und Informationen zur Bewerbung für einen Bachelorstudiengang\n    ### Übersicht aller Fristen und Informationen zur Bewerbung für einen Masterstudiengang"
+    },
+    {
+      "nr": 2,
+      "titel": "f3 › Studiengaenge › BMI › BMI Studienhandbuch",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+      "fakultaet": "f3",
+      "struktur": "# Bachelor Medizinisches Informationsmanagement Studien- und  Modulhandbuch\n  ## Inhaltsverzeichnis\n  ## Vorwort\n  ## Teil I.\n  ## Studienhandbuch\n# 1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation\n  ## 1.1 Fakultäts- und Abteilungsstruktur\n  ## 1.2 Kleines Hochschullexikon\n  ## Dekanat\n  ## Erstsemester-Aufnahme\n  ## Lehrveranstaltungen\n  ## Moodle\n  ## iCMS\n  ## SWS\n  ## Credits, ECTS\n  ## Prüfungsordnung\n  ## Prüfungskommission\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## Auslandssemester\n  ## Studienpreise\n  ## 1.3 Kontaktdaten\n  ## Anschrift\n  ## Besucheradresse\n  ## E-Mail\n  ## Fax\n  ## Dekan der Fakultät III\n  ## Studiengangskoordinator\n  ## stv. Vorsitzender des Prüfungsausschusses\n  ## Auslandsbeauftragte\n  ## Studiengangsassistent\n  ## Prüfungsverwaltung\n  ## IT-Service-Desk\n  ## IT-Team der Abteilung IK\n  ## 1.4 Personenverzeichnis\n  ## 2 Bachelor-Studiengang Medizinisches Informationsmanagement (BMI)\n  ## 2.1 Studienvoraussetzung\n  ## 2.2 Studienaufnahme und Gebühren\n  ## 2.3 Ziel des Studiums\n  ## 2.4 Aufbau des Studiums\n  ## 2.4.1 Grundsätzliches zum Aufbau\n  ## 2.4.2 Pflicht, Wahlpflicht- und Wahlmodule\n  ## 2.4.3 Praxisphasen\n  ## 2.5 Prüfungsordnung\n  ## 2.6 Modulhandbuch\n  ## 2.6.1 Modulprüfungen\n  ## Teil II.\n  ## Modulbeschreibungen\n  ## 3 Erster Studienabschnitt\n  ## 3.1"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Impressum:\n  ## Inhalt\n  ## Vorwort des Präsidiums\n  ## — 1 Ausgangslage\n  ## — 2 Kurzdarstellung der Hochschule\n  ## Leitbild und Umstrukturierungen\n  ## — 2 Kurzdarstellung der Hochschule\n  ## — 3 Kurzdarstellung der Fakultäten\n  ## Elektround Informationstechnik Fakultät I\n  ## Elektro- und Informationstechnik\n  ## Highlights\n  ## Studierende der Fakultät I\n# Maschinenbau und Bioverfahrenstechnik Fakultät II\n  ## Maschinenbau und Bioverfahrenstechnik\n  ## Highlights\n  ## Studierende der Fakultät II\n  ## Studierende der Fakultät II\n# Medien, Information und Design\n  ## Medien, Information und Design\n  ## Highlights\n  ## →   Motion Cube\n# Wirtschaft und Informatik\n  ## Wirtschaft und Informatik\n  ## Basisdaten\n  ## Highlights\n  ## →   Lehre\n  ## →   Praxisnähe\n  ## →   Studienbedingungen\n  ## →   Internationalität\n# Diakonie, Gesundheit und Soziales Fakultät V\n  ## Diakonie, Gesundheit und Soziales\n  ## Highlights\n  ## →   Internationale Vernetzung\n  ## →   Regionale Kontakte\n  ## Studierende der Fakultät V nach Studiengang\n# HsH – Hier studiert 34 Hannover.\n  ## — 4 Strategische Ziele der Hochschulentwicklung\n  ## 4 — Strategische Ziele der Hochschulentwicklung\n  ## StudierendenPerspektive\n  ## TREIBENDE FAKTOREN HAW-spezifisch hochqualifiziertes Lehrpersonal Studiengangs(neu)entwicklung MASSNAHMEN MIT HÖCHSTER PRIORITÄT\n  ## StudierendenPerspektive\n  ## Qualitativ hochwertige Studienabschlüsse anbieten\n  ## Nachhaltigkeit in der Lehre\n  ## StudierendenPerspektive\n  ## Nachhaltigkeit meets Internationalisierung in Studium und Praxis\n  ## StudierendenPerspektive\n  ## Attraktivität für Bewerber:innen steigern\n  ## Frauen in MINT\n  ## StudierendenPerspektive\n  ## Digitalisierung des Student Life Cycle"
+    },
+    {
+      "nr": 4,
+      "titel": "Studium an der Fakultät III",
+      "url": "https://f3.hs-hannover.de/studium",
+      "fakultaet": "f3",
+      "struktur": "# Studium an der Fakultät III\n    ### Bachelor-Studiengänge\n    ### Master-Studiengänge\n  ## Weitere Informationen\n    ### Informationen für Bewerberinnen und Studieninteressierte\n    ### Informationen für Erstsemester \n    ### Internationales\n    ### Werkstätten / Labore / Studios\n    ### Abschlussarbeiten"
+    },
+    {
+      "nr": 5,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIB 2017",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Studienhandbuch\n  ## Inhaltsverzeichnis\n  ## Vorwort\n  ## Teil I.\n  ## Studienhandbuch\n  ## 1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation\n  ## 1.1 Fakultäts- und Abteilungsstruktur\n  ## 1.2 Kleines Hochschullexikon\n  ## Dekanat\n  ## Erstsemester-Aufnahme\n  ## Lehrveranstaltungen\n  ## Moodle\n  ## iCMS\n  ## SWS\n  ## Credits, ECTS\n  ## Prüfungsordnung\n  ## Prüfungskommission\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## 1.3 Kontaktdaten\n  ## Anschrift\n  ## Besucheradresse\n  ## E-Mail\n  ## Fax\n  ## Dekan der Fakultät III\n  ## Studiendekanin der Abteilung Information und Kommunikation\n  ## Studiengangskoordinatorin\n  ## Praktikumsbeauftragte\n  ## stv. Vorsitzender des Prüfungsausschusses\n  ## Auslandsbeauftragte\n  ## Studiengangsassistent\n  ## Prüfungsverwaltung\n  ## IT-Service-Desk\n  ## IT-Team der Abteilung IK\n  ## 1.4 Personenverzeichnis\n  ## 2 Bachelor-Studiengang Informationsmanagement -berufsbegleitend- (BIB)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Studienvoraussetzung\n  ## 2.3 Studienaufnahme und Gebühren\n  ## 2.4 Aufbau des Studiums\n  ## 2.4.1 Grundsätzliches zum Aufbau\n  ## 2.4.2 Praxisphasen\n  ## 2.5 Prüfungsordnung\n  ## 2.6 Modulhandbuch\n  ## Teil II.\n  ## Modulbeschreibungen\n  ## 3 Erster Studienabschnitt\n  ## BIB-101 Grundlagen des Informationsmanagements\n  ## Qualifikationsziele\n  ## Lehrinhalte (Informationsstrukturen)"
+    },
+    {
+      "nr": 6,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM 2020",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2020.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Vorwort\n  ## Teil I.\n  ## Studienhandbuch\n  ## 1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation\n  ## 1.1 Fakultäts- und Abteilungsstruktur\n  ## 1.2 Kleines Hochschullexikon\n  ## Dekanat\n  ## Erstsemester-Aufnahme\n  ## Lehrveranstaltungen\n  ## Moodle\n  ## iCMS\n  ## SWS\n  ## Credits, ECTS\n  ## Prüfungsordnung\n  ## Prüfungskommission\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## Auslandssemester\n  ## 1.3 Kontaktdaten\n  ## Anschrift\n  ## Besucheradresse\n  ## E-Mail\n  ## Fax\n  ## Dekan der Fakultät III\n  ## Studiendekanin der Abteilung Information und Kommunikation\n  ## Studiengangskoordinator\n  ## Praktikumsbeauftragte\n  ## stv. Vorsitzender des Prüfungsausschusses\n  ## IT-Service-Desk\n  ## IT-Team der Abteilung IK\n  ## 1.4 Personenverzeichnis\n  ## 2 Bachelor-Studiengang Informationsmanagement (BIM)\n  ## 2.1 Studienvoraussetzung\n  ## 2.2 Studienaufnahme und Gebühren\n  ## 2.3 Ziel und Inhalt des Studiums\n  ## 2.4 Aufbau des Studiums\n  ## 2.4.1 Grundsätzliches zum Aufbau\n  ## 2.4.2 Pflicht, Wahlpflicht- und Wahlmodule\n  ## 2.4.3 Kompetenzfelder\n  ## 2. Bachelor-Studiengang Informationsmanagement (BIM)\n  ## Kombinationen, die aktiv unterstützt werden, da sie zu am Arbeitsmarkt nachgefragten Berufsprofilen führen, sind:\n  ## Die Kombinationen, die nicht aktiv unterstützt werden, sind:\n  ## 2.4.4 Praxisphasen\n  ## 2.5 Prüfungsordnung\n  ## 2.6 Modulhandbuch\n  ## 2.6.1 Modulabhängigkeiten\n  ## 2.6.2 Modulprüfungen\n  ## Teil II.\n  ## Modulbeschreibungen"
+    },
+    {
+      "nr": 7,
+      "titel": "Für Studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+      "fakultaet": "",
+      "struktur": "# Für Studierende\n  ## Veranstaltungsreihe für ein gelingendes Studium an der HsH\n  ## Kompetenzen und Tipps für dein Studium! Online. Freiwillig. Kostenfrei.\n  ## Termine im WS 2026/2027\n  ## FAQ\n    ### Studienberatung für Studierende\n    ### Weitere Beratungsangebote für Studierende mit denen wir zusammenarbeiten\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2013 — Jahresabschluss zum 31. Dezember 2013 und Lagebericht",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+      "fakultaet": "",
+      "struktur": "# Jahresabschluss zum 31. Dezember 2013 und Lagebericht\n  ## Hochschule␣Hannover,␣Hannover\n  ## Bilanz␣zum␣31.␣Dezember␣2013\n  ## A k t i v a\n  ## Hochschule␣Hannover,␣Hannover\n  ## Gewinn-␣und␣Verlustrechnung␣für␣die␣Zeit␣ vom␣1. Januar␣bis␣31. Dezember␣2013\n  ## Anhang für das Geschäftsjahr 2013\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## B. Sonstige betriebliche Aufwendungen\n  ## C. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2013\n  ## Hochschule␣Hannover,␣Hannover\n  ## Entwicklung␣des␣Anlagevermögens␣(Bruttodarstellung)\n  ## Hochschule Hannover\n  ## Lagebericht für das Geschäftsjahr 2013\n  ## 1. Rahmenbedingungen\n  ## 1.1 Hochschulstruktur\n  ## 1.2 Regionale Vernetzung\n  ## 1.3 Hochschulentwicklungsplanung\n  ## 1.4 Zukunftsvertrag und Zielvereinbarung\n  ## 1.5 Hochschulpakt 2020\n  ## 2. Geschäftsverlauf\n  ## 2.1 Studienangebot und Studiennachfrage\n  ## 2.2. Entwicklung der Forschungsaktivitäten\n  ## 2.3. Entwicklung der Zuweisungen und Zuschüsse des Landes Nieder-\n  ## sachsen     sowie    der Zuschüsse Dritter und Aufträge Dritter\n  ## 2.4. Entwicklung der technischen Ausstattung\n  ## 2.5. Personelle Entwicklung\n  ## 2.6 Qualitätssicherung\n  ## 2.7  Weiterbildung  - Offene Hochschule\n  ## 2.8 Gleichstellung\n  ## 2.9 Entwicklung der baulichen Anlagen und Bauvorhaben\n  ## Baumaßnahmen"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 4,
+      "titel": "Studium an der Fakultät III",
+      "url": "https://f3.hs-hannover.de/studium"
+    },
+    {
+      "nr": 2,
+      "titel": "f3 › Studiengaenge › BMI › BMI Studienhandbuch",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf"
+    },
+    {
+      "nr": 6,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM 2020",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2020.pdf"
+    },
+    {
+      "nr": 5,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIB 2017",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Studium an der Fakultät III",
+      "url": "https://f3.hs-hannover.de/studium",
+      "crawl_date": "2026-08-11",
+      "fremde_fundstellen": [],
+      "abschnitt": "Studium an der Fakultät III > [Master-Studiengänge](https://f3.hs-hannover.de/studium/master-studiengaenge)",
+      "snippets": [
+        "### [Master-Studiengänge](https://f3.hs-hannover.de/studium/master-studiengaenge)\nEs gibt an unserer Fakultät 4 Masterstudiengänge in den Bereichen 'Design und Medien' und 'Information und Kommunikation'.\n[ Weiterlesen ](https://f3.hs-hannover.de/studium/master-studiengaenge)",
+        "### [Bachelor-Studiengänge](https://f3.hs-hannover.de/studium/bachelor-studiengaenge)\nEs gibt an unserer Fakultät 14 Bachelorstudiengänge in den Bereichen 'Design und Medien' und 'Information und Kommunikation'.\n[ Weiterlesen ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge)\n[ ![](https://f3.hs-hannover.de/fileadmin/_processed_/8/8/csm_2-Imagefotos_BMI_Medizinisches_Informationsmanagement_1656x1104_35a4c676d1.jpg) © Kristina Kaysen ](https://f3.hs-hannover.de/studium/master-studiengaenge)"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f3 › Studiengaenge › BMI › BMI Studienhandbuch",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Bachelor Medizinisches Informationsmanagement** Studien- und  Modulhandbuch > **Teil I.** > **Bachelor Medizinisches Informationsmanagement** Studien- und  Modulhandbuch > **Studienhandbuch** > **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **1.1 Fakultäts- und Abteilungsstruktur**",
+      "snippets": [
+        "## **Teil I.**\n\n## **Studienhandbuch**\n# **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation**  \n## **1.1 Fakultäts- und Abteilungsstruktur**  \nDie Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design  \n- Information und Kommunikation\n\nDie Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design  \n- Information und Kommunikation  \nDie Fakultät III ist die größte Fakultät der Hochschule Hannover. Insgesamt studieren an dieser Fakultät zurzeit etwa 2000 Studierende in 14 Bachelor und 5 Masterstudiengängen. In Lehre und Forschung arbeiten etwa 71 Professorinnen und Professoren und 19 Lehrkräfe sowie 16 Wissenschafliche Mitarbeiter. Sie werden dabei unterstützt von 64 Mitarbeiterinnen und Mitarbeiter in Technik und Verwaltung. Etwa 20 % der Lehre wird von Lehrbeaufragten übernommen, die die Lehre als Nebentätigkeit zu einem Hauptberuf ausüben und so sicherstellen, dass die Lehre immer an der aktuellen Berufspraxis orientiert ist. Schließlich hat die Fakultät Kooperationsverträge mit mehreren Universitäten, die es etwa 16 Doktorandinnen und Doktoranden ermöglichen an der Fakultät eine Doktorarbeit zu schreiben.\n\nDer Studiengang Bachelor Medizinisches Informationsmanagement (BMI) gehört zu einem Cluster von vier informationswissenschaflichen Studiengängen, die die Abteilung Information und Kommunikation anbietet. Neben BMI sind das der Bachelor Informationsmanagement Berufsbegleitend (BIB), der Bachelor Informationsmanagement (BIM) und der Masterstudiengang Medizinisches Informationsmanagement (MMI)."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM 2020",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2020.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf"
+      ],
+      "abschnitt": "**Teil I.** > **Studienhandbuch** > **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **1.1 Fakultäts- und Abteilungsstruktur**",
+      "snippets": [
+        "## **Teil I.**\n\n## **Studienhandbuch**\n\n## **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation**\n## **1.1 Fakultäts- und Abteilungsstruktur**  \nDie Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design  \n- Information und Kommunikation  \nDie Fakultät III ist die größte Fakultät der Hochschule Hannover. Insgesamt studieren an dieser Fakultät zurzeit etwa 2000 Studierende in 14 Bachelor und 5 Masterstudiengängen. In Lehre und Forschung arbeiten etwa 71 Professorinnen und Professoren und 19 Lehrkräfe sowie 16 Wissenschafliche Mitarbeiter. Sie werden dabei unterstützt von 64 Mitarbeiterinnen und Mitarbeiter in Technik und Verwaltung. Etwa 20 % der Lehre wird von Lehrbeaufragten übernommen, die die Lehre als Nebentätigkeit zu einem Hauptberuf ausüben und so sicherstellen, dass die Lehre immer an der aktuellen Berufspraxis orientiert ist. Schließlich hat die Fakultät Kooperationsverträge mit mehreren Universitäten, die es etwa 16 Doktorandinnen und Doktoranden ermöglichen an der Fakultät eine Doktorarbeit zu schreiben."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIB 2017",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf"
+      ],
+      "abschnitt": "**Teil I.** > **Studienhandbuch** > **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **1.1 Fakultäts- und Abteilungsstruktur**",
+      "snippets": [
+        "## **Teil I.**\n\n## **Studienhandbuch**\n\n## **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation**\n## **1.1 Fakultäts- und Abteilungsstruktur**  \nDie Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design und  \n- Information und Kommunikation  \nInsgesamt studieren an der Fakultät III zurzeit etwa 2000 Studierende in 14 Bachelor und 5 Masterstudiengängen. Die Fakultät III ist damit die größte Fakultät der Hochschule Hannover. In Lehre und Forschung arbeiten etwa 71 Professorinnen und Professoren und 19 Lehrkräfe sowie 16 Wissenschafliche Mitarbeiter. Sie werden dabei unterstützt von 64 Mitarbeiterinnen und Mitarbeiter in Technik und Verwaltung. Etwa 20% der Lehre wird übernommen von Lehrbeaufragten, die die Lehre als Nebentätigkeit zu einem Hauptberuf ausüben und so sicherstellen, dass die Lehre immer an der aktuellen Berufspraxis orientiert ist."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.4193,
+      "id": "efa516c2-92df-5534-adf9-dc7d162f87b1",
+      "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte/aufnahme-bewerbungs-und-auswahlverfahren",
+      "title_anzeige": "Aufnahme-, Bewerbungs- und Auswahlverfahren",
+      "section_heading": "Aufnahme-, Bewerbungs- und Auswahlverfahren",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "![](https://f3.hs-hannover.de/fileadmin/_processed_/3/6/csm_Aufnahmepruefung2_021a5ce8ea.jpg?rbiFocus=mobile)\n\n#  Aufnahme-, Bewerbungs- und Auswahlverfahren\nAn der Fakultät III gibt es 15 Bachelor- und vier Masterstudiengänge. Auf dieser Seite finden Sie Informationen, wie Sie sich bewerben können."
+    },
+    {
+      "rang": 2,
+      "score": 2.20649,
+      "id": "fba77d17-0968-5fb4-91be-69655ae542bf",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+      "title_anzeige": "f3 › Studiengaenge › BMI › BMI Studienhandbuch",
+      "section_heading": "**Bachelor Medizinisches Informationsmanagement** Studien- und  Modulhandbuch > **Teil I.** > **Bachelor Medizinisches Informationsmanagement** Studien- und  Modulhandbuch > **Studienhandbuch** > **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **1.1 Fakultäts- und Abteilungsstruktur**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **Teil I.**\n\n## **Studienhandbuch**\n# **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation**  \n## **1.1 Fakultäts- und Abteilungsstruktur**  \nDie Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design  \n- Informatio"
+    },
+    {
+      "rang": 3,
+      "score": 2.17994,
+      "id": "36b80284-5c53-5355-b085-cda41ee6cc8f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "Medien, Information und Design > Medien, Information und Design",
+      "chunk_index": 46,
+      "text_vollstaendig": false,
+      "auszug": "# Medien, Information und Design  \nFakultät III  \n**Hochschulentwicklungsplan 2022–2026**  \nVorworFakultä **t** III\n\n## Medien, Information und Design  \nDie Fakultät III zeichnet sich durch ihr breites Spektrum an angebotenen Studiengängen aus. In den vier Lehreinheiten in zwei Abteilungen werden St"
+    },
+    {
+      "rang": 4,
+      "score": 1.92702,
+      "id": "2588726e-79f1-54bc-953c-fd4c8d280482",
+      "source_url": "https://f3.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät III",
+      "section_heading": "Studium an der Fakultät III > [Master-Studiengänge](https://f3.hs-hannover.de/studium/master-studiengaenge)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### [Master-Studiengänge](https://f3.hs-hannover.de/studium/master-studiengaenge)\nEs gibt an unserer Fakultät 4 Masterstudiengänge in den Bereichen 'Design und Medien' und 'Information und Kommunikation'.\n[ Weiterlesen ](https://f3.hs-hannover.de/studium/master-studiengaenge)"
+    },
+    {
+      "rang": 5,
+      "score": 1.66377,
+      "id": "45bc3134-97a3-5146-b25d-716e590bea37",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIB 2017",
+      "section_heading": "**Teil I.** > **Studienhandbuch** > **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **1.1 Fakultäts- und Abteilungsstruktur**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **Teil I.**\n\n## **Studienhandbuch**\n\n## **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation**\n## **1.1 Fakultäts- und Abteilungsstruktur**  \nDie Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design und  \n- Inform"
+    },
+    {
+      "rang": 6,
+      "score": 1.58375,
+      "id": "0d0c90ae-1688-59de-b5f8-340b6c8586af",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2020.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM 2020",
+      "section_heading": "**Teil I.** > **Studienhandbuch** > **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **1.1 Fakultäts- und Abteilungsstruktur**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **Teil I.**\n\n## **Studienhandbuch**\n\n## **1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation**\n## **1.1 Fakultäts- und Abteilungsstruktur**  \nDie Fakultät III – Design und Medien der Hochschule Hannover ist in zwei Abteilungen organisiert:  \n- Medien und Design  \n- Informatio"
+    },
+    {
+      "rang": 7,
+      "score": 1.26623,
+      "id": "8436c1e5-521f-5fc4-a468-6a910fd41af6",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+      "title_anzeige": "Für Studierende",
+      "section_heading": "Für Studierende > FAQ",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "Fakultät V (Studiengänge: Soziale Arbeit und Religionspädagogik und Soziale Arbeit).\nFür weitere Fragen kontaktiere bitte die jeweilige Fakultät.\nauf ein Teilzeitstudium.\n[ Wie kann ich meinen Master machen? ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/"
+    },
+    {
+      "rang": 8,
+      "score": 1.24088,
+      "id": "85e06d5d-ab82-5bd9-9978-341f649e22b8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2013 — Jahresabschluss zum 31. Dezember 2013 und Lagebericht",
+      "section_heading": "**Jahresabschluss zum 31. Dezember 2013 und Lagebericht** > 2.1 Studienangebot und Studiennachfrage",
+      "chunk_index": 66,
+      "text_vollstaendig": false,
+      "auszug": "## 2.1 Studienangebot und Studiennachfrage  \nDie Hochschule hat einen neuen weiterbildenden Masterstudiengang „Mittelständische Unternehmensführung“ eingerichtet. Damit bietet sie zum Wintersemester 2012/13 insgesamt 37 Bachelorstudiengänge und 16 Masterstudiengänge an. Die Hochschule Hannover hat i"
+    },
+    {
+      "rang": 9,
+      "score": 1.23437,
+      "id": "10d97788-a94d-56ee-9809-857c8a1657d4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "|2025|7|23.06.2025|V|Allgemeiner Teil der Prüfungsordnung für die Bachelor-und Masterstudiengänge der Fakultät V Diakonie, Gesundheit und Soziales, der Hochschule Hannover (ATPO Fakultät V 2025)|V|\n|2025|7|23.06.2025|V|Änderung: §1 aller Besonderen Teile der Prüfungsordnungen der Fakultät V|V|  \n## "
+    },
+    {
+      "rang": 10,
+      "score": 1.2283,
+      "id": "6b552695-52f5-5a88-bcf6-370439615be6",
+      "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte",
+      "title_anzeige": "Informationen für Studieninteressierte",
+      "section_heading": "Informationen für Studieninteressierte > Bei uns dreht sich alles um Kreativität, Innovation und die spannende Welt der Medien, Information und Design. > [Aufnahme-, Bewerbungs- und Auswahlverfahren](https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte/aufnahme-bewerbungs-und-auswahlverfahren)",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "### [Aufnahme-, Bewerbungs- und Auswahlverfahren](https://f3.hs-hannover.de/studium/informationen-fuer-studieninteressierte/aufnahme-bewerbungs-und-auswahlverfahren)\nIn der Fakultät III gibt es 15 Bachelor- und 4 Master-Studiengänge aus der Abteilung Design und Medien sowie der Abteilung Information"
+    },
+    {
+      "rang": 11,
+      "score": 1.16635,
+      "id": "1fcbb9d3-2c03-58e8-97dc-c5be65e5da14",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+      "title_anzeige": "Informationen für Studieninteressierte",
+      "section_heading": "Informationen für Studieninteressierte > FAQs für Studieninteressierte",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "An der HsH gibt es zulassungsfreie und zulassungsbeschränkte Studiengänge. Zulassungsfrei sind an der HsH alle Bachelor Studiengänge der Fakultäten I und II sowie Informationsmanagement und Medizinisches Informationsmanagement der Fakultät III. Auch die dualen Studiengänge der Fakultäten I und II si"
+    },
+    {
+      "rang": 12,
+      "score": 1.14093,
+      "id": "28497b35-1e5a-568e-b6d9-753bb58ccb3f",
+      "source_url": "https://f3.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät III",
+      "section_heading": "Studium an der Fakultät III > [Bachelor-Studiengänge](https://f3.hs-hannover.de/studium/bachelor-studiengaenge)",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### [Bachelor-Studiengänge](https://f3.hs-hannover.de/studium/bachelor-studiengaenge)\nEs gibt an unserer Fakultät 14 Bachelorstudiengänge in den Bereichen 'Design und Medien' und 'Information und Kommunikation'.\n[ Weiterlesen ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge)\n[ ![](https://"
+    },
+    {
+      "rang": 13,
+      "score": 1.12344,
+      "id": "268af435-f61a-5fed-90d0-0f5a1efbbfc3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium",
+      "title_anzeige": "Flyer und Infomaterial zum Studium",
+      "section_heading": "Flyer und Infomaterial zum Studium > Flyer und Broschüren nach Fakultäten",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "Hier finden Sie die Informationsmaterialien der Fakultät III - Medien, Information und Design\n* [Bachelorstudiengänge der Fakultät III](https://f3.hs-hannover.de/studium/bachelor-studiengaenge)\n* [Masterstudiengänge der Fakultät III](https://f3.hs-hannover.de/studium/master-studiengaenge)\n* [Gesamtü"
+    },
+    {
+      "rang": 14,
+      "score": 1.07593,
+      "id": "260a99fa-8471-5f04-a4b0-7897402a4972",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium",
+      "title_anzeige": "Flyer und Infomaterial zum Studium",
+      "section_heading": "Flyer und Infomaterial zum Studium > Unsere Flyer und Broschüren > [Fakultät III – Medien, Information und Design](https://f3.hs-hannover.de/studium/fuer-bewerberinnen-und-studieninteressierte/studiengangsflyer)",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "### [Fakultät III – Medien, Information und Design](https://f3.hs-hannover.de/studium/fuer-bewerberinnen-und-studieninteressierte/studiengangsflyer)\n[ Weiterlesen ](https://f3.hs-hannover.de/studium/fuer-bewerberinnen-und-studieninteressierte/studiengangsflyer \"Studiengangsflyer\")\n[ ![](https://www."
+    },
+    {
+      "rang": 15,
+      "score": 1.02577,
+      "id": "2efe1f8b-0a54-5f19-a54e-dce3617ae899",
+      "source_url": "https://f3.hs-hannover.de/internationales/incomings",
+      "title_anzeige": "Exchange Students | Incomings",
+      "section_heading": "Exchange Students | Incomings",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Exchange Students | Incomings\nThank you for your interest in our faculty, we would be happy to welcome you at the Expo Plaza Campus. Faculty III – Media, Information and Design is one of five faculties at the University of Applied Sciences and Arts. The Faculty III is divided into the two departm"
+    },
+    {
+      "rang": 16,
+      "score": 0.9824,
+      "id": "c705f5ec-af96-5220-a4d1-98054047b3e5",
+      "source_url": "https://f2.hs-hannover.de/studium",
+      "title_anzeige": "Studieren an der Fakultät II",
+      "section_heading": "Studieren an der Fakultät II > Akademische Karriere an der HsH",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Akademische Karriere an der HsH\nVoraussetzung für die Aufnahme eines Studiums an der Hochschule Hannover (HsH) ist eine „Hochschulzugangsberechtigung“. Detaillierte Informationen dazu finden Sie auf dieser Seite.\nDie Bachelorstudiengänge an der Fakultät II der HsH sind auf eine Regelstudienzeit v"
+    },
+    {
+      "rang": 17,
+      "score": 0.97514,
+      "id": "5e96ba2b-8b87-51a3-9e15-7e8143351d99",
+      "source_url": "https://f3.hs-hannover.de/studium/fuer-bewerberinnen-und-studieninteressierte/studiengangsflyer",
+      "title_anzeige": "Flyer der Studiengänge der Fakultät III",
+      "section_heading": "Flyer der Studiengänge der Fakultät III > Flyer der Studiengänge der Fakultät III > Download der Studiengangflyer",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Flyer der Studiengänge der Fakultät III\n* * *\n### Download der Studiengangflyer\n(Klick für den Download)\n[Informationsmanagement (BIM)](https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BIM_Informationsmanagement_Studiengangsflyer_A5_2024005.pdf)\n[Informations"
+    },
+    {
+      "rang": 18,
+      "score": 0.96276,
+      "id": "7ed05bca-4284-57ac-82d5-2ee36bbc4bfe",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2018",
+      "title_anzeige": "www › verkuendungsblatt › aeltere ausgaben › ausgaben 2018 — Ausgabe Nr. 12/2018 vom 19.12.2018",
+      "section_heading": "Ausgabe Nr. 07/2018 vom 31.07.2018",
+      "chunk_index": 21,
+      "text_vollstaendig": true,
+      "auszug": "[Ordnung über die Einstellung des Master-Studiengangs Technische Redaktion an der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover (HsH) (Auslaufordnung)](https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/07-20"
+    },
+    {
+      "rang": 19,
+      "score": 0.96172,
+      "id": "0b8bb8db-9d71-5157-a23f-2ef0f3aa22c9",
+      "source_url": "https://f3.hs-hannover.de/internationales/partnerhochschulen",
+      "title_anzeige": "f3 › internationales › partnerhochschulen",
+      "section_heading": "Partnerhochschulen",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Partnerhochschulen\nIm Folgenden finden Sie eine Übersicht der Partnerhochschulen der Fakultät III – den Studiengängen zugeordnet und nach Ländern sortiert.\nBewerbungen an einer Partnerhochschule können nur nach erfolgreichem Durchlaufen des zentralen HsH-Auswahlverfahrens erfolgen.\nInformationen "
+    },
+    {
+      "rang": 20,
+      "score": 0.95893,
+      "id": "6b077b4d-be64-5bd3-add0-dcf9d94e7d34",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/06_Unterstuetzung_und_Informationen/Genderaspekte_in_der_Forschung/Evaluation_Gender_in_der_Forschung_an_der_HsH.pdf",
+      "title_anzeige": "www › 06 Unterstuetzung und Informationen › Genderaspekte in der Forschung › Evaluation Gender in der Forschung an der HsH",
+      "section_heading": "_Über die Hochschule Hannover_",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## _Über die Hochschule Hannover_\nZunächst einige Fakten zur Hochschule Hannover, die die Evaluationsergebnisse besser einordnen lassen. Mit rund 10.000 Studierenden zählt die HsH zu den großen staatlichen Fachhochschulen in Niedersachsen. Verteilt auf fünf Fakultäten an fünf Standorten, werden Stud"
+    },
+    {
+      "rang": 21,
+      "score": 0.94921,
+      "id": "43b79b61-8c33-5d01-b9eb-62e7fa0f1443",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Unsere Standorte** > **Basisdaten**",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "## **Basisdaten**  \n- Standort Kleefeld  \n- 7 Bachelor-Studiengänge  \n- 5 Master-Studiengänge  \n- Rund 1.500 Studierende  \n- 33 Professor*innen  \n© HsH/Ulf Ostländer  \n**Zahlen – Daten – Fakten** _der Hochschule Hannover_"
+    },
+    {
+      "rang": 22,
+      "score": 0.94181,
+      "id": "aad4c335-483a-5c4f-bd80-2b27511a2a14",
+      "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/kursangebot-fuer-austauschstudierende",
+      "title_anzeige": "Kursangebot für Austauschstudierende",
+      "section_heading": "Kursangebot für Austauschstudierende > [Kursangebot der Fakultät III - Medien, Information und Design](https://f3.hs-hannover.de/)",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "### [Kursangebot der Fakultät III - Medien, Information und Design](https://f3.hs-hannover.de/)\nDie Fakultät III bietet Studiengänge wie Fotojournalismus und Dokumentarfotografie,\n(Medizinisches) Informationsmanagement, Innenarchitektur, Integrated Media & Communication, Journalistik, Mediendesign, "
+    },
+    {
+      "rang": 23,
+      "score": 0.94078,
+      "id": "cf1e238a-e73e-5091-8f85-baa651423c8e",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/News/12.04.2021_Brosch_re_Dach_A5_Masterflyer__1_.pdf",
+      "title_anzeige": "f5 › Aktuelles › News › 12.04.2021 Brosch re Dach A5 Masterflyer 1 — Überblick",
+      "section_heading": "Masterstudiengänge an der Hochschule Hannover > Masterstudiengänge im Überblick > Masterstudiengänge an der Hochschule Hannover > Fakultät III – Medien, Information und Design",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## Masterstudiengänge im Überblick\n\n## Fakultät III – Medien, Information und Design  \n|Studiengang|Abschluss|Studien-\nform|Studien-\ndauer|Bewebungs-\nfristen|Semesterbeginn|\n|---|---|---|---|---|---|\n|Medizinisches\nInformations-\nmanagement (MMI)|Master of\nScience\n(M.Sc.)|Vollzeit|3 Semester|15. Janu"
+    },
+    {
+      "rang": 24,
+      "score": 0.93035,
+      "id": "499468c0-7a28-53e4-bf58-990ea4415dcd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2012 — Jahresabschluss zum 31. Dezember 2012 und Lagebericht",
+      "section_heading": "2.1 Studienangebot und Studiennachfrage",
+      "chunk_index": 61,
+      "text_vollstaendig": true,
+      "auszug": "## 2.1 Studienangebot und Studiennachfrage  \nIn 2011/12 hat die Hochschule im Rahmen der Studienangebotszielvereinbarung für das Studienjahr 2012 insgesamt vier neue Studiengänge, die durch Umstrukturierungen bestehender Studiengänge entstanden, eingerichtet: „Fotojournalismus und Dokumentarfotograf"
+    },
+    {
+      "rang": 25,
+      "score": 0.91985,
+      "id": "4181d825-df0b-5505-a4bd-061a67fcea81",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover|II|\n|2025|7|23.06.2025|HsH|Richtlinie zu Aufwendungen für Repräsentation|HsH|\n|2025|7|23.06.2025|HsH|Besonderer Teil der Prüfungsordnung für den weiterbildenden Master-Studiengang „Intelligente Produktion“(InPro) mit dem Abschluss Master "
+    },
+    {
+      "rang": 26,
+      "score": 0.90388,
+      "id": "f6c85fd0-089d-5b7d-ad88-5059c51d1685",
+      "source_url": "https://f3.hs-hannover.de/internationales/kooperationen/intern-moeglichkeiten-internationalisierung-1",
+      "title_anzeige": "Internationalisation - For Partners and Guests",
+      "section_heading": "Internationalisation - For Partners and Guests",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "##\n[ Breites Fächerangebot ](https://f3.hs-hannover.de/internationales/kooperationen/intern-moeglichkeiten-internationalisierung-1 \"Breites Fächerangebot\")\nDie Fakultät III – Medien, Information und Design bietet 15 Bachelor- und 4 Masterstudiengänge aus den Bereichen Design, Medien, Information und"
+    },
+    {
+      "rang": 27,
+      "score": 0.88603,
+      "id": "1a0a77d6-f158-500d-813e-745df71b6ae1",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil/daten-und-fakten/geschichte-der-hsh",
+      "title_anzeige": "Unsere Geschichte",
+      "section_heading": "Unsere Geschichte > Campus im Grünen am Standort Kleefeld",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Die heutige Fakultät V der HsH bietet sieben Bachelor-Studiengänge und fünf Master-Studiengänge an, darunter den bundesweit einmaligen Studiengang Therapeutische Arbeit mit Kindern und Jugendlichen. Alle Studiengänge sind gekennzeichnet durch Interdisziplinarität und eine intensive Theorie-Praxis-Ve"
+    },
+    {
+      "rang": 28,
+      "score": 0.88405,
+      "id": "33d36c0b-9098-5344-95d2-04034fb6b10e",
+      "source_url": "https://f3.hs-hannover.de/forschung/projekt/213",
+      "title_anzeige": "Forschung an der Fakultät III",
+      "section_heading": "Forschung an der Fakultät III > Forschung und Lehre verbinden > [Institute und Forschungsgruppen](https://f3.hs-hannover.de/forschung/institute)",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "### [Institute und Forschungsgruppen](https://f3.hs-hannover.de/forschung/institute)\nDie Fakultät III der HsH ist an mehreren Instituten und Forschungsgruppen beteiligt, darunter das Institut Data|H sowie das USE-LESS Zentrum und das Filminstitut.  \nEntdecken Sie die praxisnahe Forschung unserer Ins"
+    },
+    {
+      "rang": 29,
+      "score": 0.88336,
+      "id": "b55f1c22-0392-56b8-a3fd-c5cb429c00ee",
+      "source_url": "https://f3.hs-hannover.de",
+      "title_anzeige": "create what's next.",
+      "section_heading": "create what's next. > Die Fakultät III ist die größte Fakultät der Hochschule Hannover und bietet viele der stark nachgefragten Studiengänge an.",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Die Fakultät III ist die größte Fakultät der Hochschule Hannover und bietet viele der stark nachgefragten Studiengänge an.\nSie sind neugierig, kreativ, kommunikativ, wollen »was mit Medien« zu tun haben und Ihre Umgebung sowie Informationen gestalten? Dann sind Sie bei uns genau richtig!\nDie Abs"
+    },
+    {
+      "rang": 30,
+      "score": 0.87149,
+      "id": "096fd152-5b5d-52e5-86e8-460322d595ca",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+      "title_anzeige": "www › ueber uns › organe und gremien › verkuendungsblatt",
+      "section_heading": "Ausgabe Nr. 05/2026 vom 30.06.2026",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "[Besonderer Teil der Prüfungsordnung für den Bachelorstudiengang Heilpädagogik – Inklusive Bildung und Begleitung (BAH) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover (BTPO BAH 2025)](https://www.hs-hannover.de/fileadmin/HsH/Hochschul"
+    }
+  ],
+  "token_budget": {
+    "verwendet": 87232,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.06,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 0.27,
+    "docs_laden_s": 0.28,
+    "quellen_s": 2.62,
+    "antwort_llm_s": 4.38,
+    "gesamt_s": 6.99
+  },
+  "auswahl_begruendung": "{\"selected\": [4, 2, 6, 5]}"
+}

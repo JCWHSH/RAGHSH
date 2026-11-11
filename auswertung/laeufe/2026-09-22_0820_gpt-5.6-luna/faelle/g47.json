@@ -1,0 +1,571 @@
+{
+  "fall": {
+    "id": "g47",
+    "case_type": "direct",
+    "question": "Welches Einzelfach aus dem Abiturzeugnis wird bei der Platzvergabe für den Bachelor MAT berücksichtigt?",
+    "reference_answer": "Mathematik, mit einem Gewicht von 40 Prozent.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/02-2021/03_ZO_Angewandte_Mathematik_und_Data_Science.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/ZulO_Angewandte_Mathematik_und_Data_Science_verkuendet.pdf"
+    ],
+    "required_facts": [
+      "wird die Note des Einzelfachs Mathematik (40% Gewicht) herangezogen"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ ordnung/auswahl. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "vertreter_von": {
+      "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/ZulO_Angewandte_Mathematik_und_Data_Science_verkuendet.pdf": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/02-2021/03_ZO_Angewandte_Mathematik_und_Data_Science.pdf"
+    },
+    "source_policy_original": "exact_gold_source",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "8eb17b84-1eb0-5031-8719-2fe09717a42f",
+      "4dc37443-d118-5c44-a9b0-f69f15ba1773",
+      "353d51c2-d863-53e6-9d7a-07f0861cd62a",
+      "80c887d2-c065-5329-8050-417116b9c4e8",
+      "5a89fd6d-c5d6-5243-9a3d-3e6b4e0d6bf8",
+      "727a91f6-7107-5893-8204-328d2a8c133d",
+      "d3410c8b-0dbd-5d29-b42c-995c5bb86381"
+    ],
+    "beleg_punkte": [
+      "5a89fd6d-c5d6-5243-9a3d-3e6b4e0d6bf8"
+    ],
+    "beleg_urls": [
+      "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/ZulO_Angewandte_Mathematik_und_Data_Science_verkuendet.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-22T08:33:58",
+  "dauer_s": 9.94,
+  "fehler": null,
+  "antwort": "Bei der Platzvergabe für den Bachelor-Studiengang MAT wird das Einzelfach „Mathematik\" [1] berücksichtigt. Dabei wird die „aktuellste, in der Hochschulzugangsberechtigung ausgewiesene Note verwendet\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › 30 Zulassungsordnung › Bachelorstdg › ZulO Angewandte Mathematik und Data Science verkuendet — der Hochschule Hannover",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/ZulO_Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Ordnung über die Zulassung\n# zum Studium im Bachelor-Studiengang\n# „Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik\n  ## der Hochschule Hannover\n  ## - Besonderer Teil –\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Auswahlverfahren\n  ## § 3\n  ## Besondere Auswahlverfahren\n  ## § 4\n  ## Zulassung und Immatrikulation\n  ## § 5\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 2,
+      "titel": "f1 › 10 Bachelorstdg › MAT › BPO MAT 15.05.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_15.05.2026.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Besonderer Teil der Prüfungsordnung\n# für den Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) mit dem Abschluss Bachelor of Science (B.Sc.) in der Fakultät I – Elektro- und Informationstechnik\n# der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Wiederholung von Prüfungsleistungen\n  ## § 6\n  ## Bachelor-Arbeit\n  ## § 7\n  ## Teilzeitstudium\n  ## § 8\n  ## Übergangsbestimmungen\n  ## § 9\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) - 7 Semester\n  ## PO-Version WiSe 2026\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 02 2021 › HsH Verkuendungsblatt 02 2021 — Ausgabe 02/2021",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/02-2021/HsH_Verkuendungsblatt_02_2021.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 02/2021\n  ## Dienstvereinbarung\n  ## über die Einführung von mobiler Arbeit\n  ## Präambel\n  ## § 1 Geltungsbereich\n  ## § 2 Verantwortliche Stelle\n  ## § 3 Beantragung / Umfang\n  ## § 4 Voraussetzung für die Teilnahme an der mobilen Arbeit\n  ## § 5 Arbeitszeit / Arbeitsdokumentation\n  ## § 6 Konfliktlösung, Arbeitszeitausschuss\n  ## § 7 Bereitstellung von Arbeitsmaterial\n  ## § 8 Unfall- und Arbeitsschutz\n  ## § 9 Datenschutz und Datensicherheit\n  ## § 10 Haftung\n  ## Dienstvereinbarung\n  ## über die Regelung der Arbeitszeit des wissenschaftlichen Personals\n  ## Präambel\n  ## § 1 Geltungsbereich\n  ## § 2 Verantwortliche Stelle\n  ## § 3 Übergang zwischen den Arbeitszeitmodellen\n  ## § 4 Arbeitsschutzbestimmungen\n  ## § 5 Arbeitszeitrahmen\n  ## § 6 Aufzeichnungspflicht\n  ## § 7 Orte zur Erbringung der Arbeitsleistung\n  ## § 8 Arbeitszeit\n  ## § 9 Mehrarbeits-/Überstunden\n  ## § 10 Konfliktlösung, Arbeitszeitausschuss\n# Ordnung über die Zulassung\n# zum Studium im Bachelor-Studiengang\n# „Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik\n  ## der Hochschule Hannover\n  ## - Besonderer Teil –\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Auswahlverfahren\n  ## § 3\n  ## Besondere Auswahlverfahren\n  ## § 4\n  ## Zulassung und Immatrikulation\n  ## § 5\n  ## Inkrafttreten\n# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang\n  ## “Angewandte Mathematik und Data Science (MAT)“\n# mit dem Abschluss „Bachelor of Science“\n# in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover (MAT PO 2021)\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2"
+    },
+    {
+      "nr": 4,
+      "titel": "f1 › 10 Bachelorstdg › MAT › 20181912 BPO MAT verk",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/20181912_BPO_MAT_verk.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n  ## für den Bachelor-Studiengang Angewandte Mathematik (MAT) mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Bestehen der Vor- und Bachelor-Prüfung\n  ## § 6\n  ## Endgültiges Nichtbestehen der Vor- und Bachelor-Prüfung\n  ## § 7\n  ## Wiederholung von Prüfungsleistungen\n  ## § 8\n  ## Bachelor-Arbeit\n  ## § 9\n  ## Teilzeitstudium\n  ## § 10\n  ## Inkrafttreten\n  ## Hinweise: Ein Credit entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weiter Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 5,
+      "titel": "f1 › 10 Bachelorstdg › MAT › BPO 2021 Angewandte Mathematik und Data Science verkuendet",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_2021-Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Besonderer Teil der Prüfungsordnung\n# für den Bachelor-Studiengang\n  ## “Angewandte Mathematik und Data Science (MAT)“\n# mit dem Abschluss „Bachelor of Science“\n# in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover (MAT PO 2021)\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Bestehen der Vor- und Bachelor-Prüfung\n  ## § 6\n  ## Endgültiges Nichtbestehen der Vor- und Bachelor-Prüfung\n  ## § 7\n  ## Wiederholung von Prüfungsleistungen\n  ## § 8\n  ## Bachelor-Arbeit\n  ## § 9\n  ## Teilzeitstudium\n  ## § 10\n  ## Übergangsbestimmungen\n  ## § 11\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) - 7 Semester\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 6,
+      "titel": "www › Verkuendungsblatt › 02 2007 › 03 MLV",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/02-2007/03_MLV.pdf",
+      "fakultaet": "",
+      "struktur": "# Ordnung über die Zulassung zum Studium in den Bachelor-Studiengängen der Fakultät II- Maschinenbau und Bioverfahrenstechnik, Abteilung Bioverfahrenstechnik, der Fachhochschule Hannover Besonderer Teil (ZulO-BA, Tl. B)\n  ## vom 26.2.2006 (Verk.-Bl. Nr. 6/2006) in der Fassung der 1. Änderung vom 4. 4.2007\n  ## § 1 Geltungsbereich\n  ## § 2 Auswahlverfahren\n  ## § 3 Besondere Auswahlverfahren\n  ## I. Gewichtete Einzelfachnoten\n  ## II. Berufsausbildung\n  ## § 5 Inkrafttreten"
+    },
+    {
+      "nr": 7,
+      "titel": "f2 › Ordnungen › xZulassungsordnungen › ZulO BA BV Teil B",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_BA_BV_Teil_B.pdf",
+      "fakultaet": "f2",
+      "struktur": "# Ordnung über die Zulassung zum Studium in den Bachelor-Studiengängen der Fakultät II- Maschinenbau und Bioverfahrenstechnik, Abteilung Bioverfahrenstechnik, der Fachhochschule Hannover Besonderer Teil (ZulO-BA, Tl. B)\n  ## vom 26.2.2006 (Verk.-Bl. Nr. 6/2006) in der Fassung der 1. Änderung vom 4. 4.2007\n  ## § 1 Geltungsbereich\n  ## § 2 Auswahlverfahren\n  ## § 3 Besondere Auswahlverfahren\n  ## I. Gewichtete Einzelfachnoten\n  ## II. Berufsausbildung\n  ## § 5 Inkrafttreten"
+    },
+    {
+      "nr": 8,
+      "titel": "f2 › Ordnungen › xZulassungsordnungen › ZulO BA M Teil B",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_BA_M_Teil_B.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Ordnung über die Zulassung zum Studium in den Bachelor-Studiengängen Maschinenbau (MAB), Technische Datenverarbeitung im Maschinenbau (TIM), Verfahrens-, Energie- und Umwelttechnik(VEU) und Wirtschaftsingenieur Maschinenbau (WIM) des Fachbereichs Maschinenbau der Fachhochschule Hannover Besonderer Teil (ZulO-BA, Tl. B)\n  ## § 1 Geltungsbereich\n  ## § 2 Auswahlverfahren der Hochschule\n  ## § 3\n  ## Besonderes Auswahlverfahren\n  ## § 4 Zulassung und Immatrikulation\n  ## § 5 Inkrafttreten"
+    },
+    {
+      "nr": 9,
+      "titel": "f1 › 10 Bachelorstdg › MAT › BPO MAT verk25.09.2023",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_verk25.09.2023.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für den Studiengang Angewandte Mathematik und Data Science (MAT) mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Bestehen der Vor- und Bachelor-Prüfung\n  ## § 6\n  ## Endgültiges Nichtbestehen der Vor- und Bachelor-Prüfung\n  ## § 7\n  ## Wiederholung von Prüfungsleistungen\n  ## § 8\n  ## Bachelor-Arbeit\n  ## § 9\n  ## Teilzeitstudium\n  ## § 10\n  ## Übergangsbestimmungen\n  ## § 11\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) - 7 Semester\n  ## PO WiSe 2021\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 10,
+      "titel": "f1 › 30 Zulassungsordnung › Bachelorstdg › 20150601 Zulassungsordnung MAT",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/20150601_Zulassungsordnung_MAT.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Ordnung über die Zulassung zum Studium im Bachelor-Studiengang Angewandte Mathematik an der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover Besonderer Teil\n# (ZulO-BA, Tl. B)\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Auswahlverfahren\n  ## § 3\n  ## Besondere Auswahlverfahren\n  ## § 4\n  ## Zulassung und Immatrikulation\n  ## § 5\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 11,
+      "titel": "www › Verkuendungsblatt › 03 2016 › 02 PO MAT 2015 11 10",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/03-2016/02_PO_MAT_2015-11-10.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n# für den Bachelor-Studiengang Angewandte Mathematik mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Bestehen der Vor- und Bachelor-Prüfung\n  ## § 6\n  ## Endgültiges Nichtbestehen der Vor- und Bachelor-Prüfung\n  ## § 7\n  ## Wiederholung von Prüfungsleistungen\n  ## § 8\n  ## Bachelor-Arbeit\n  ## § 9\n  ## Teilzeitstudium\n  ## § 10\n  ## Inkrafttreten\n  ## Studiengang Bachelor Angewandte Mathematik  (MAT)\n  ## Legende der Abkürzungen (Art, Form der Prüfungsleistung und Lehrveranstaltungen):"
+    },
+    {
+      "nr": 12,
+      "titel": "Angewandte Mathematik und Data Science (MAT)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat",
+      "fakultaet": "f1",
+      "struktur": "# Angewandte Mathematik und Data Science (MAT)\n    ### Flyer zum Studiengang Angewandte Mathematik und Data Science\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Was erwartet Sie?\n  ## Studieninhalte\n  ## Vertiefungsrichtungen\n  ## Studienablauf und Qualifikationsziele\n  ## Praxis erleben\n  ## Dokumente\n    ### Ältere Dokumente\n  ## Informationen für Studiengangswechsler\n    ### Beratung zum Studiengangswechsel\n  ## Kontakt\n    ### Studiengangsleiterin Vertiefungsrichtung Technomathematik\n    ### Studiengangsleiter Vertiefungsrichtung Wirtschaftsmathematik\n# Haben wir Ihr Interesse geweckt?"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 1,
+      "titel": "f1 › 30 Zulassungsordnung › Bachelorstdg › ZulO Angewandte Mathematik und Data Science verkuendet — der Hochschule Hannover",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/ZulO_Angewandte_Mathematik_und_Data_Science_verkuendet.pdf"
+    },
+    {
+      "nr": 10,
+      "titel": "f1 › 30 Zulassungsordnung › Bachelorstdg › 20150601 Zulassungsordnung MAT",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/20150601_Zulassungsordnung_MAT.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 02 2021 › HsH Verkuendungsblatt 02 2021 — Ausgabe 02/2021",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/02-2021/HsH_Verkuendungsblatt_02_2021.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f1 › 30 Zulassungsordnung › Bachelorstdg › ZulO Angewandte Mathematik und Data Science verkuendet — der Hochschule Hannover",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/ZulO_Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_2021-Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/20150601_Zulassungsordnung_MAT.pdf"
+      ],
+      "abschnitt": "**„Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik** > **§ 3** > **„Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik** > **Besondere Auswahlverfahren**",
+      "snippets": [
+        "# **„Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik**  \n## **der Hochschule Hannover**",
+        "## **Besondere Auswahlverfahren**  \n- (1) Neben der Gesamtnote des Zeugnisses der Hochschulzugangsberechtigung (60% Gewicht) wird die Note des Einzelfachs Mathematik (40% Gewicht) herangezogen.  \n- (2) Für die Note des Fachs Mathematik wird die aktuellste, in der Hochschulzugangsberechtigung ausgewiesene Note verwendet. Ist keine Note im Fach Mathematik ausgewiesen, so wird das Fach mit 4,0 (ausreichend) bewertet. Bei den Berechnungen zur gewichteten Gesamtnote wird nach zwei Nachkommastellen abgeschnitten.  \nDez.3 / ZO BA MAT / 08.03.2021  \nNr. 02/2021 vom 31.03.2021  \nVerkündungsblatt der Hochschule Hannover"
+      ],
+      "zitate": [
+        "Mathematik",
+        "aktuellste, in der Hochschulzugangsberechtigung ausgewiesene Note verwendet"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f1 › 30 Zulassungsordnung › Bachelorstdg › 20150601 Zulassungsordnung MAT",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/20150601_Zulassungsordnung_MAT.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**(ZulO-BA, Tl. B)** > **§ 3** > **(ZulO-BA, Tl. B)** > **Besondere Auswahlverfahren**",
+      "snippets": [
+        "## **Ordnung über die Zulassung zum Studium im Bachelor-Studiengang Angewandte Mathematik an der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover Besonderer Teil**",
+        "## **Besondere Auswahlverfahren**  \n- (1) Neben der Gesamtnote des Zeugnisses der Hochschulzugangsberechtigung (60% Gewicht) wird die Note des Einzelfachs Mathematik (40% Gewicht) herangezogen.  \n- (2) Für die Note des Fachs Mathematik wird die aktuellste, in der Hochschulzugangsberechtigung ausgewiesene Note verwendet. Ist keine Note im Fach Mathematik ausgewiesen, so wird das Fach mit 4,0 (ausreichend) bewertet. Bei den Berechnungen zur gewichteten Gesamtnote wird nach zwei Nachkommastellen abgeschnitten.  \nNr. 07/2015 vom 01.06.2015  \nVerkündungsblatt der Hochschule Hannover"
+      ],
+      "zitate": [
+        "Mathematik",
+        "aktuellste, in der Hochschulzugangsberechtigung ausgewiesene Note verwendet"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 02 2021 › HsH Verkuendungsblatt 02 2021 — Ausgabe 02/2021",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/02-2021/HsH_Verkuendungsblatt_02_2021.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/01-2022/HsH-Verkuendungsblatt-01-2022.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/02-2021/01_210128_DV_mobile_Arbeit_unterschrieben.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/09-2017/04_Dienstvereinbarung_nach_78_NPersVG_fuer_den_Einsatz_mobiler_Arbeit.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/02-2021/02_210128_DV_Arbeitszeit_WiMi_unterschrieben.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/10-2017/01_20171128_Dienstvereinbarung_Arbeitszeit_WiMA_Verkuendungsblatt.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/ZulO_Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/20150601_Zulassungsordnung_MAT.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/04_Genehmigung_EIT_2015-11-10_gesamt.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/20181912_BPO_MAT_verk.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_2021-Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Besonderer_Teil_Pruefungsordnung_SBW/SBW-PO_2021-Soziale_Arbeit.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/20181912_BPO_ITR_verk.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik__BAH_/06_Besonderer_Teil_der_Pruefungsordnung_BAH.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Besonderer_Teil_Pruefungsordnung_SBW/BT_PO_SBW_Anlage_Stand_01-2017.pdf"
+      ],
+      "abschnitt": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **“Angewandte Mathematik und Data Science (MAT)“** > **mit dem Abschluss „Bachelor of Science“** > **in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover (MAT PO 2021)** > **§ 1**",
+      "snippets": [
+        "## **Ausgabe 02/2021**  \n**Hannover, den 31.03.2021**  \nHerausgeber: Redaktion:  \nDer Präsident der Hochschule Hannover Harald Bietendüwel, Ricklinger Stadtweg 118/120, 30459 Hannover Tel.: 0511 9296-8478,  \nE-Mail: Harald.Bietenduewel@hs-hannover.de https://www.hs-hannover.de/verkuendungsblatt  \n|**Inhalt:**||||\n|---|---|---|---|\n||||Seite|\n||1.|Dienstvereinbarung nach § 78 NPersVG über die Einführung von mobiler|3|\n|||Arbeit zwischen dem Präsidenten und dem Personalrat der Hochschule||\n|||Hannover||\n||2.|Dienstvereinbarung nach § 78 NPersVG über die Regelung der|8|\n|||Arbeitszeit des wissenschaftlichen Personals zwischen dem Präsidenten||\n|||und dem Personalrat der Hochschule Hannover||\n||3.|Ordnung über die Zulassung zum Studium im Bachelor-Studiengang|14|\n|||„Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I -||\n|||Elektro- und Informationstechnik der Hochschule Hannover||\n|||- Besonderer Teil –||",
+        "## **Besondere Auswahlverfahren**  \n- (1) Neben der Gesamtnote des Zeugnisses der Hochschulzugangsberechtigung (60% Gewicht) wird die Note des Einzelfachs Mathematik (40% Gewicht) herangezogen.  \n- (2) Für die Note des Fachs Mathematik wird die aktuellste, in der Hochschulzugangsberechtigung ausgewiesene Note verwendet. Ist keine Note im Fach Mathematik ausgewiesen, so wird das Fach mit 4,0 (ausreichend) bewertet. Bei den Berechnungen zur gewichteten Gesamtnote wird nach zwei Nachkommastellen abgeschnitten.  \nDez.3 / ZO BA MAT / 08.03.2021  \nNr. 02/2021 vom 31.03.2021  \nVerkündungsblatt der Hochschule Hannover"
+      ],
+      "zitate": [
+        "Mathematik",
+        "aktuellste, in der Hochschulzugangsberechtigung ausgewiesene Note verwendet"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.50717,
+      "id": "5a89fd6d-c5d6-5243-9a3d-3e6b4e0d6bf8",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/ZulO_Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+      "title_anzeige": "f1 › 30 Zulassungsordnung › Bachelorstdg › ZulO Angewandte Mathematik und Data Science verkuendet — der Hochschule Hannover",
+      "section_heading": "**„Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik** > **§ 3** > **„Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik** > **Besondere Auswahlverfahren**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 2**\n\n## **Auswahlverfahren**  \n- (1) Die nach Vergabe der Studienplätze gemäß Quotierung nach§ 22 NHZVO noch zu vergebenden Studienplätze werden zu 90 % nach dem besonderen Auswahlverfahren der Hochschule und zu 10 % nach Wartezeit vergeben.  \n- (2) Die nach Auswahlverfahren zu vergebenen Stu"
+    },
+    {
+      "rang": 2,
+      "score": 2.78763,
+      "id": "a27cc3e2-fa92-5128-ade6-4bd43ca8abc2",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_15.05.2026.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › BPO MAT 15.05.2026",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung** > **für den Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) mit dem Abschluss Bachelor of Science (B.Sc.) in der Fakultät I – Elektro- und Informationstechnik**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "Nr. 04/2026 vom 15.05.2026  \nVerkündungsblatt der Hochschule Hannover\n\n# **Besonderer Teil der Prüfungsordnung**\n\n# **für den Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) mit dem Abschluss Bachelor of Science (B.Sc.) in der Fakultät I – Elektro- und Informationstechnik**\n\n## **§"
+    },
+    {
+      "rang": 3,
+      "score": 2.64801,
+      "id": "a050881d-c588-561b-8a40-cb3c65c06cce",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/02-2021/HsH_Verkuendungsblatt_02_2021.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2021 › HsH Verkuendungsblatt 02 2021 — Ausgabe 02/2021",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **“Angewandte Mathematik und Data Science (MAT)“** > **mit dem Abschluss „Bachelor of Science“** > **in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover (MAT PO 2021)** > **§ 1**",
+      "chunk_index": 44,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5**\n\n## **Inkrafttreten**  \nDiese Ordnung tritt nach Genehmigung durch das Präsidium am Tage ihrer Veröffentlichung im Verkündungsblatt der Hochschule Hannover in Kraft.  \n*****  \nNeufassung: Beschluss Fakultätsrat: 08.12.2020 Genehmigung Präsidium: 04.03.2021 Verkündungsblatt Nr. 02/2021 vom"
+    },
+    {
+      "rang": 4,
+      "score": 2.47076,
+      "id": "be9d6a1f-f2d6-51cd-adaf-10bd9f1ba219",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/20181912_BPO_MAT_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › 20181912 BPO MAT verk",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung** > **für den Bachelor-Studiengang Angewandte Mathematik (MAT) mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil der Prüfungsordnung**\n\n## **für den Bachelor-Studiengang Angewandte Mathematik (MAT) mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**"
+    },
+    {
+      "rang": 5,
+      "score": 2.33195,
+      "id": "39c55690-27c1-5bbb-b524-2e45d9dfcf0c",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_2021-Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › BPO 2021 Angewandte Mathematik und Data Science verkuendet",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung** > **für den Bachelor-Studiengang** > **“Angewandte Mathematik und Data Science (MAT)“** > **mit dem Abschluss „Bachelor of Science“** > **in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover (MAT PO 2021)** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung**\n\n# **für den Bachelor-Studiengang**  \n## **“Angewandte Mathematik und Data Science (MAT)“**\n\n# **mit dem Abschluss „Bachelor of Science“**\n\n# **in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover (MAT PO 2021)**  \n## **§ 1**"
+    },
+    {
+      "rang": 6,
+      "score": 2.3128,
+      "id": "c77389be-9920-55ec-82f6-4e3090f5f918",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/02-2007/03_MLV.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2007 › 03 MLV",
+      "section_heading": "**Ordnung über die Zulassung zum Studium in den Bachelor-Studiengängen der Fakultät II- Maschinenbau und Bioverfahrenstechnik, Abteilung Bioverfahrenstechnik, der Fachhochschule Hannover Besonderer Teil (ZulO-BA, Tl. B)** > **I. Gewichtete Einzelfachnoten**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **I. Gewichtete Einzelfachnoten**  \nDie Noten der Einzelfächer Mathematik (8% Gewichtung) und der maximal zwei am besten benoteten Fächer (jeweils 8% Gewichtung) werden zur Gesamtbewertung der Eignung herangezogen und in Punktzahlen überführt."
+    },
+    {
+      "rang": 7,
+      "score": 2.25711,
+      "id": "4dc37443-d118-5c44-a9b0-f69f15ba1773",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/ZulO_Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+      "title_anzeige": "f1 › 30 Zulassungsordnung › Bachelorstdg › ZulO Angewandte Mathematik und Data Science verkuendet — der Hochschule Hannover",
+      "section_heading": "**Ordnung über die Zulassung** > **zum Studium im Bachelor-Studiengang** > **„Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik** > **der Hochschule Hannover**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Ordnung über die Zulassung**\n\n# **zum Studium im Bachelor-Studiengang**\n\n# **„Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik**  \n## **der Hochschule Hannover**"
+    },
+    {
+      "rang": 8,
+      "score": 2.25558,
+      "id": "f2c2d4f6-f139-5294-92dc-74e5684ff7c1",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_BA_BV_Teil_B.pdf",
+      "title_anzeige": "f2 › Ordnungen › xZulassungsordnungen › ZulO BA BV Teil B",
+      "section_heading": "**Ordnung über die Zulassung zum Studium in den Bachelor-Studiengängen der Fakultät II- Maschinenbau und Bioverfahrenstechnik, Abteilung Bioverfahrenstechnik, der Fachhochschule Hannover Besonderer Teil (ZulO-BA, Tl. B)** > **I. Gewichtete Einzelfachnoten**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **I. Gewichtete Einzelfachnoten**  \nDie Noten der Einzelfächer Mathematik (8% Gewichtung) und der maximal zwei am besten benoteten Fächer (jeweils 8% Gewichtung) werden zur Gesamtbewertung der Eignung herangezogen und in Punktzahlen überführt."
+    },
+    {
+      "rang": 9,
+      "score": 2.15906,
+      "id": "1ce1255e-52d9-58db-928a-2967308316ec",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_BA_M_Teil_B.pdf",
+      "title_anzeige": "f2 › Ordnungen › xZulassungsordnungen › ZulO BA M Teil B",
+      "section_heading": "**§ 3** > **Besonderes Auswahlverfahren**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 3**\n## **Besonderes Auswahlverfahren**  \n(1) Beim besonderen Auswahlverfahren werden neben der Gesamtnote der Hochschulzugangsberechtigung (60 % Gewicht) die Noten der Einzelfächer  \n- **Mathematik** (15 % Gewicht),  \n- **Physik** (15 % Gewicht) und  \n- **Deutsch** (10 % Gewicht)  \nzur Gesamt"
+    },
+    {
+      "rang": 10,
+      "score": 2.14022,
+      "id": "ee880676-1719-58d1-a9e6-e2d8a7b6aa36",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_verk25.09.2023.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › BPO MAT verk25.09.2023",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Studiengang Angewandte Mathematik und Data Science (MAT) mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil der Prüfungsordnung für den Studiengang Angewandte Mathematik und Data Science (MAT) mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**"
+    },
+    {
+      "rang": 11,
+      "score": 2.03251,
+      "id": "56947386-9ad0-540d-b4bb-f61b566f6b1e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/02-2021/HsH_Verkuendungsblatt_02_2021.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2021 › HsH Verkuendungsblatt 02 2021 — Ausgabe 02/2021",
+      "section_heading": "**Ordnung über die Zulassung** > **zum Studium im Bachelor-Studiengang** > **„Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik** > **der Hochschule Hannover**",
+      "chunk_index": 38,
+      "text_vollstaendig": false,
+      "auszug": "# **Ordnung über die Zulassung**\n\n# **zum Studium im Bachelor-Studiengang**\n\n# **„Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik**  \n## **der Hochschule Hannover**"
+    },
+    {
+      "rang": 12,
+      "score": 2.02972,
+      "id": "8d9e9df0-d6e4-540b-8e2e-20f6a42b38ce",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/20150601_Zulassungsordnung_MAT.pdf",
+      "title_anzeige": "f1 › 30 Zulassungsordnung › Bachelorstdg › 20150601 Zulassungsordnung MAT",
+      "section_heading": "**(ZulO-BA, Tl. B)** > **§ 3** > **(ZulO-BA, Tl. B)** > **Besondere Auswahlverfahren**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 3**\n\n## **Besondere Auswahlverfahren**  \n- (1) Neben der Gesamtnote des Zeugnisses der Hochschulzugangsberechtigung (60% Gewicht) wird die Note des Einzelfachs Mathematik (40% Gewicht) herangezogen.  \n- (2) Für die Note des Fachs Mathematik wird die aktuellste, in der Hochschulzugangsberechti"
+    },
+    {
+      "rang": 13,
+      "score": 1.92383,
+      "id": "9899074d-5a23-5a0a-8418-01da3faa099a",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_verk25.09.2023.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › BPO MAT verk25.09.2023",
+      "section_heading": "**Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) - 7 Semester** > **PO WiSe 2021**",
+      "chunk_index": 36,
+      "text_vollstaendig": false,
+      "auszug": "**90**|||||||||||||  \nDezernat 3 / PO MAT / 31.07.2023  \nNr. 12/2023 vom 15.09.2023  \nVerkündungsblatt der Hochschule Hannover  \n|**Gesamt / 2. Stud. Abschnitt**|**120**|\n|---|---|\n|**Σ=Cr /Bachelor-Abschluss***|**210**|  \nDezernat 3 / PO MAT / 31.07.2023  \nNr. 12/2023 vom 15.09.2023  \nVerkündungsbl"
+    },
+    {
+      "rang": 14,
+      "score": 1.77066,
+      "id": "23546413-d380-500f-a132-07941d2eeb87",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/03-2016/02_PO_MAT_2015-11-10.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2016 › 02 PO MAT 2015 11 10",
+      "section_heading": "**für den Bachelor-Studiengang Angewandte Mathematik mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **Studiengang Bachelor Angewandte Mathematik  (MAT)**",
+      "chunk_index": 15,
+      "text_vollstaendig": false,
+      "auszug": "|**Pflichtmodule übergreifend**||||||||||\n|**M-Kürzel**|**Modul-Bezeichnung**|**CPM **|**Gew.M **|**TM-Kürzel**|**Teilmodul-Bezeichnung**|**LVA **|**SWS**|**CP**|**Gew.**|\n|MAT-101|Analysis 1|5|0|MAT-101-01|Analysis1||4|5|1|\n|MAT-104|Lineare Algebra 1|5|0|MAT-104-01|Lineare Algebra 1||4|5|1|\n|MAT-10"
+    },
+    {
+      "rang": 15,
+      "score": 1.62857,
+      "id": "69ceea39-ba2a-5bbd-ac27-5ff6a949e20d",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat",
+      "title_anzeige": "Angewandte Mathematik und Data Science (MAT)",
+      "section_heading": "Angewandte Mathematik und Data Science (MAT) > Auf einen Blick",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Auf einen Blick\n* [ Was erwartet Sie? ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat#was-erwartet-sie)\n* [ Studieninhalte ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/ange"
+    },
+    {
+      "rang": 16,
+      "score": 1.51006,
+      "id": "e1de94e7-7dd9-509e-b3b6-16939f50f3c4",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_15.05.2026.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › BPO MAT 15.05.2026",
+      "section_heading": "**der Hochschule Hannover** > **Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) - 7 Semester** > **der Hochschule Hannover** > **PO-Version WiSe 2026**",
+      "chunk_index": 33,
+      "text_vollstaendig": false,
+      "auszug": "|**M-Kürzel **|**Modul-Bezeichnung**|**ArtM**\n**PF/WP**|**CrM**|**Gew.M **|**TM-Kürzel**|**Teilmodul-Bezeichnung**|**ArtTM**\n**PF/WP**|**Arten der**\n**Prüfungsleistung**|**Gew.TM **|**Sem. **|**SWS **|**CrTM**|\n|MAT-536|Produktion und Logistik|PF|6|1|MAT-536-01|Produktion und Logistik|PF|K90,K120,M,"
+    },
+    {
+      "rang": 17,
+      "score": 1.49845,
+      "id": "ab1e789f-58fb-5766-b676-da1eb4983834",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/03-2016/HsH_Verkuendungsblatt_03_2016.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2016 › HsH Verkuendungsblatt 03 2016 — Ausgabe 03/2016",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Angewandte Mathematik mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **Studiengang Bachelor Angewandte Mathematik  (MAT)**",
+      "chunk_index": 62,
+      "text_vollstaendig": false,
+      "auszug": "|MAT-120|Externes und internes Rechnungswesen|5|0|BIS-101-03|Buchführung||2|5|1|\n|||||BIS-119-01|Internes Rechnungswesen||2|||\n|**Σ=Cr /1. Stud. Abschnitt/Pflichtmodule**||**85**||||||||  \nDezernat III / PO MAT / 08.02.2016  \nNr. 03/2016 vom 15.03.2016  \nVerkündungsblatt der Hochschule Hannover  \n20"
+    },
+    {
+      "rang": 18,
+      "score": 1.4739,
+      "id": "28e23138-3af3-570a-bb1b-f1d95264678c",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_2021-Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › BPO 2021 Angewandte Mathematik und Data Science verkuendet",
+      "section_heading": "**in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover (MAT PO 2021)** > **Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) - 7 Semester**",
+      "chunk_index": 15,
+      "text_vollstaendig": false,
+      "auszug": "## **Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) - 7 Semester**  \n|**1. Studienabschnitt**|**1. Studienabschnitt**|**1. Studienabschnitt**|||||||**Anlage B1**|**Anlage B1**|**Anlage B1**|**Anlage B1**|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|**1. Studienabschnitt"
+    },
+    {
+      "rang": 19,
+      "score": 1.45303,
+      "id": "2c7fd8bd-3ec4-5b44-ab64-d5123943f9ce",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/03-2016/02_PO_MAT_2015-11-10.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2016 › 02 PO MAT 2015 11 10",
+      "section_heading": "**für den Bachelor-Studiengang Angewandte Mathematik mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **Studiengang Bachelor Angewandte Mathematik  (MAT)**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "|MAT-120|Externes und internes Rechnungswesen|5|0|BIS-101-03|Buchführung||2|5|1|\n|||||BIS-119-01|Internes Rechnungswesen||2|||\n|**Σ=Cr /1. Stud. Abschnitt/Pflichtmodule**||**85**||||||||  \nDezernat III / PO MAT / 08.02.2016  \nNr. 02/2016 vom 15.03.2016  \nVerkündungsblatt der Hochschule Hannover  \n|*"
+    },
+    {
+      "rang": 20,
+      "score": 1.44152,
+      "id": "ec6a8684-abf2-5e8c-af55-b79cec25570c",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "title_anzeige": "www › studium › studienangebot › bachelor studiengaenge — Filter auswählen",
+      "section_heading": "Bachelor-Studiengänge > Angewandte Mathematik und Data Science (MAT)",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Angewandte Mathematik und Data Science (MAT)\n* **Abschluss** Bachelor of Science (B.Sc.)\n* **Studienbeginn** Wintersemester\n* **Fächergruppe** Mathematik, Wirtschaftsmathematik, MINT, Technik\n* **Studienform** Voll- und Teilzeit\n* **Zulassungsmodus** zulassungsfrei\n* **Interessensgebiet** Mathema"
+    },
+    {
+      "rang": 21,
+      "score": 1.41656,
+      "id": "ddb326a3-09a7-5572-8aae-94271c0460cb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2026/hsh_verkuendungsblatt_nr_04_2026.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2026 › hsh verkuendungsblatt nr 04 2026 — Ausgabe 04/2026",
+      "section_heading": "**Inhalt:**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **Inhalt:**  \n|||**Seite**|\n|---|---|---|\n|1.|Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang|3|\n||Angewandte Mathematik und Data Science (MAT) mit dem Abschluss Bachelor of||\n||Science (B.Sc.) in der Fakultät I – Elektro- und Informationstechnik der||\n||Hochschule Hannover||\n|2."
+    },
+    {
+      "rang": 22,
+      "score": 1.4049,
+      "id": "6997b53a-7a97-58c9-a6d9-555f5bdfef94",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2026/01_F_I_BTPO_BA_MAT.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2026 › 01 F I BTPO BA MAT — Inkrafttreten",
+      "section_heading": "**der Hochschule Hannover** > **Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) - 7 Semester** > **der Hochschule Hannover** > **PO-Version WiSe 2026**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) - 7 Semester**\n## **PO-Version WiSe 2026**  \n|**1. Studienabschnitt**|**1. Studienabschnitt**|**1. Studienabschnitt**|**1. Studienabschnitt**|**1. Studienabschnitt**|||||**Anlage B1**|**Anlage B1**|**Anlage B1**|**Anlage B1**|\n|-"
+    },
+    {
+      "rang": 23,
+      "score": 1.34929,
+      "id": "7021b6e1-1eba-59d5-9d6b-dc2ab1437582",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_BIM_2006.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › ZulO BIM 2006",
+      "section_heading": "**Ordnung über die Zulassung zum Studium im Bachelor-Studiengang Informationsmanagement (BIM) des Fachbereichs Informations- und Kommunikationswesen der Fachhochschule Hannover** > **§ 3 Besondere Auswahlverfahren**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 3 Besondere Auswahlverfahren**  \n(1) Im besonderen Auswahlverfahren wird eine gewichtete Gesamtnote gebildet, die sich zusammensetzt aus:  \n- der Durchschnittsnote der Hochschulzugangsberechtigung mit dem Gewichtungsfaktor 0,75  \n- der Note des Einzelfaches **Deutsch** mit dem Gewichtungsfakt"
+    },
+    {
+      "rang": 24,
+      "score": 1.29294,
+      "id": "74105a9c-f822-5417-84c4-2ef634653048",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+      "title_anzeige": "www › ueber uns › organe und gremien › verkuendungsblatt",
+      "section_heading": "Ausgabe Nr. 02/2021 vom 31.03.2021",
+      "chunk_index": 112,
+      "text_vollstaendig": true,
+      "auszug": "[Ordnung über die Zulassung zum Studium im Bachelor-Studiengang „Angewandte Mathematik und Data Science (MAT)“ an der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover - Besonderer Teil –](https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gre"
+    },
+    {
+      "rang": 25,
+      "score": 1.29126,
+      "id": "b67dfe2e-d095-55d4-8c5a-3c33f1701165",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/20181912_BPO_MAT_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › 20181912 BPO MAT verk",
+      "section_heading": "**§ 10** > **Inkrafttreten**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "||||||MAT-118-02|Produktion und Logistik - Grundlagen|||2|2|||\n|MAT-103|Analysis 3|PF|5|0|MAT-103-01|Analysis 3|PF|K90,M,R,Pf|3|4|5|1|\n|MAT-106|Numerische Mathematik 1|PF|5|0|MAT-106-01|Numerische Mathematik 1|PF|K90,M,R,Pf|3|4|5|1|\n|MAT-109|Wahrscheinlichkeitstheorie und\nStatistik 2|PF|5|0|MAT-109-"
+    },
+    {
+      "rang": 26,
+      "score": 1.28093,
+      "id": "34797ad9-d416-5b74-94ed-6735470c5a74",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+      "title_anzeige": "www › ueber uns › organe und gremien › verkuendungsblatt",
+      "section_heading": "Ausgabe Nr. 12/2023 vom 15.09.2023",
+      "chunk_index": 69,
+      "text_vollstaendig": true,
+      "auszug": "[Besonderer Teil der Prüfungsordnung für den Studiengang Angewandte Mathematik und Data Science (MAT) mit dem Abschluss Bachelor of Science in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover](https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organ"
+    },
+    {
+      "rang": 27,
+      "score": 1.27233,
+      "id": "a2d30570-286e-5c20-b2bf-a63c88b03318",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat",
+      "title_anzeige": "Angewandte Mathematik und Data Science (MAT)",
+      "section_heading": "Angewandte Mathematik und Data Science (MAT) > Auf einen Blick",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "* [ Praxis erleben ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat#praxismat)\n* [ Dokumente ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-"
+    },
+    {
+      "rang": 28,
+      "score": 1.26621,
+      "id": "0c2d79a4-c7b1-5858-b356-5796ac7744b4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/02-2017/03_ZO__BIV_2016-08-09.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2017 › 03 ZO BIV 2016 08 09 — Geltungsbereich",
+      "section_heading": "**Ordnung über die Zulassung und den Zugang zum Studium im BachelorStudiengang Verwaltungsinformatik (VIF) der Fakultät IV der Hochschule Hannover Besonderer Teil (ZulO-BA,Tl.B)** > **§ 4** > **Ordnung über die Zulassung und den Zugang zum Studium im BachelorStudiengang Verwaltungsinformatik (VIF) der Fakultät IV der Hochschule Hannover Besonderer Teil (ZulO-BA,Tl.B)** > **Besonderes Auswahlverfahren**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Besonderes Auswahlverfahren**  \n- (1) Im besonderen Auswahlverfahren wird gegebenenfalls eine gewichtete Gesamtnote gebildet, die sich zusammensetzt aus:  \n- der Durchschnittsnote der Hochschulzugangsberechtigung mit dem Gewichtungsfaktor 0,6  \n- die Noten für Deutsch und Mathematik"
+    },
+    {
+      "rang": 29,
+      "score": 1.23082,
+      "id": "235da2e6-c9fd-5767-932d-93039b708373",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/ZulO_BPR_20222.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › ZulO BPR 20222",
+      "section_heading": "**im Bachelor-Studiengang Public Relations (BPR) der Fakultät III – Medien, Information und Design an der Hochschule Hannover (HsH) - Besonderer Teil (ZulO-BA, Tl. B)** > **§ 2** > **im Bachelor-Studiengang Public Relations (BPR) der Fakultät III – Medien, Information und Design an der Hochschule Hannover (HsH) - Besonderer Teil (ZulO-BA, Tl. B)** > **Zulassung**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "- - der Note des Einzelfaches Deutsch mit dem Gewichtungsfaktor 0,3 - der Note des Einzelfaches Englisch mit dem Gewichtungsfaktor 0,19  \nFür die Noten der Fächer wird die aktuellste, der in der Hochschulzugangsberechtigung ausgewiesenen Note verwendet. Ist keine Note in dem entsprechenden Fach ausg"
+    },
+    {
+      "rang": 30,
+      "score": 1.16559,
+      "id": "2c510409-530f-52ba-ad95-83efa27b8514",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2026/01_F_I_BTPO_BA_MAT.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2026 › 01 F I BTPO BA MAT — Inkrafttreten",
+      "section_heading": "**der Hochschule Hannover** > **Bachelor-Studiengang Angewandte Mathematik und Data Science (MAT) - 7 Semester** > **der Hochschule Hannover** > **PO-Version WiSe 2026**",
+      "chunk_index": 25,
+      "text_vollstaendig": false,
+      "auszug": "||||||EIT-512-02|Labor Robotertechnik|PF|EA, B, P|1|6|2|2,5|\n|MAB-122|Technische Mechanik 3|WP|5|1|MAB-122-01|Dynamik|PF|K90,M,H|1|6|4|5|\n|MAB-210|Schwingungslehre und Maschinendynamik|WP|5|1|MAB-210-01|Schwingungslehre und Maschinendynamik|PF|K90,M,H|1|6|4|5|\n|NEV-414|Thermodynamik|WP|5|1|NEV-414-0"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 24538,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.74,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 5.43,
+    "docs_laden_s": 0.08,
+    "quellen_s": 7.26,
+    "antwort_llm_s": 2.52,
+    "gesamt_s": 9.78
+  },
+  "auswahl_begruendung": "{\"selected\":[1,10,3]}"
+}

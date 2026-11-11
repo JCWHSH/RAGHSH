@@ -1,0 +1,643 @@
+{
+  "fall": {
+    "id": "g39",
+    "case_type": "direct",
+    "question": "Wie viele Seiten darf meine Abschlussarbeit im Studiengang Design und Medien haben?",
+    "reference_answer": "30 bis 90 Seiten, ohne Anhang.",
+    "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_MDM_PO_2022_23.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_MDM.pdf",
+      "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/13_MDM.pdf"
+    ],
+    "required_facts": [
+      "**MAA** (Master-Arbeit) 30 bis 90 Seiten (ohne Anhang)"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ modulhandbuch/fakt. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Die Prüfungsordnung MDM 2022 (und ihre Verkündungsblatt-Kopie) enthält dieselbe Tabelle „MAA (Master-Arbeit) 30 bis 90 Seiten“ wie das Modulhandbuch.",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "fe2d34b6-01dd-5e46-bdc8-a0362310f475",
+      "852b22e8-740a-513a-84a6-6669c494a474",
+      "0361b872-4927-518e-86c9-6b1ac1a9eb1c",
+      "e9c7c0d4-b041-5628-9a84-706b71101ac9",
+      "133b85e5-a522-5952-92d7-aa76b623e892",
+      "96ce773e-1f58-512c-86b9-856f2f97ca57",
+      "75f9e600-862f-5727-8b0a-7e8eb6389b42",
+      "6c6d8cbc-a241-58f9-951f-c19d3f7390dc",
+      "ebbc2e17-18e5-5b67-b7f0-b8bde61d7790",
+      "2b882698-1375-5adf-91d1-eeecc417ad7e",
+      "12927aea-20f4-5465-8e6f-c045a37df6db",
+      "b0c53c40-5837-5361-b69a-b50b4cc0613e",
+      "91593070-6711-5c44-9570-9fb9b045a017",
+      "69e988d2-6578-5eb1-9a38-ea4ec3a346db",
+      "ab257555-c9df-5c29-bd1f-eb58f7dbbf25",
+      "99e5350a-d008-5de5-8511-b10b0f0c7611",
+      "cf178264-5b43-5e6c-91d4-cbfe984d78c7",
+      "b64c8a75-8ea7-553d-b461-c1bfd616a4bb",
+      "f566bb91-babb-5863-83a9-b5b5a94e19b6",
+      "802339dc-764b-58b6-9545-e47fb85d58a5",
+      "ac943222-6f0d-5a5d-803f-e2fd380ea21d",
+      "ab7e8b3d-9f0f-5f6f-a78c-841a0a9aa5dd",
+      "ae6ed923-667b-58a4-a124-2054bc8a99b0",
+      "3e3a2cd1-a8d9-596e-a0b7-cf1ebc483dbe",
+      "94bb3056-097b-5502-85d7-29b2b16c6b00",
+      "5461ef95-f90b-5e7f-8f71-ec0e41bac416",
+      "de3558f8-fc75-57a8-b48e-8acf68902c65",
+      "0e399e7d-5479-5a98-83da-1620f3cfd9a2",
+      "49eb3ebd-c58f-5799-9f30-7effa0cc5059",
+      "8c04d166-7650-5b6a-a9ec-423a17b53f96",
+      "4c4a39c1-4a77-5ace-b73d-8b0140ee8db6",
+      "3a954146-b394-5934-85d2-61caa636ae0b",
+      "a1043236-14f9-588d-9eba-72262eba4322",
+      "0551c18c-9c6e-5f30-8137-269285e4be5b",
+      "9d745903-c62e-5577-ad93-03274b294c34",
+      "5de02ad1-7066-549b-93be-ed7b02a1edf3",
+      "6072e980-c6eb-50b4-9b89-40c9d3b96f83",
+      "71a546a9-9099-5066-a80a-b23aa7b7ede3",
+      "5b5d6d1f-6f34-5ea8-bb89-a6f3a4952630",
+      "ebf3ffa4-3739-5d11-b7df-1941e9e39287",
+      "365805ed-99c6-5c76-b8ea-02401fcd4c3f",
+      "63a09fcc-a60a-54c7-8c90-fe81d9c7a426",
+      "bb010aed-eb26-5f04-ac08-c1def0c9d004",
+      "53f59ecb-a959-5573-a445-90aca85b8164",
+      "f831daea-9def-54fa-af73-8a6ece6d7853",
+      "b7b9c4b5-3fe5-5522-ba63-1a31c4149469",
+      "543dff86-47bf-5a73-92b4-35eff43984e2",
+      "a316b5ad-f368-5632-8ce5-f963f954c5bf",
+      "05540c3a-8e5b-5da5-9c5c-be2b045ca205",
+      "e4fd0633-e883-5fa4-a49a-000525ea423f",
+      "7298539a-b09b-5d78-ac57-ac7684406594",
+      "ecc6944f-6844-5615-9933-436bb1d5bb87",
+      "b680419b-918f-5d1b-b8f9-88a58449c69b",
+      "fa17f2be-a135-5f59-bf8f-9676c58d31e5",
+      "6f615718-00db-5abb-bead-786f7a2d6e78",
+      "f0b2b2af-3127-5120-9e0d-ed28847d32e2",
+      "a59fc191-c1e8-50a8-9ac1-35a929b2e1bf",
+      "d8d72471-7a8e-5122-a45c-4e2b00339364",
+      "75d68fbf-6381-571d-bb16-15db63972718",
+      "1ac3def5-8545-5c1c-bc74-f21f3bbbc7e5",
+      "1d298761-0f8a-524c-bc72-d664c848eba1",
+      "90781636-234a-5c9c-822c-1e4ef32773e1",
+      "c9379108-abca-506e-9b1e-3f92184a0789",
+      "6371f2bb-211e-5b18-a378-81947a013a2f",
+      "8ee97305-eaca-5503-9d8f-d27e159e468c",
+      "91cf9004-2d88-51f0-b554-bf0be4936def",
+      "a5ee4223-c1ae-575d-ac08-e07ddd4fe780",
+      "2751a0e8-185d-5076-9951-0e70bd1dd6f3",
+      "5dfbb37e-1f81-50ec-b48b-3f00205b2bd6",
+      "06861453-64ce-5229-8760-32e30504b949",
+      "eba9ec82-ece5-58f9-8875-ac42573927be",
+      "7bd7f455-a44a-5944-9112-e8083d54dd67",
+      "712a527e-9c8f-5e64-ac93-a0b6743a42f7",
+      "2d628402-7fc3-5a77-bf95-cd2b961962fd",
+      "0f79961b-01e0-5d4d-848b-f8139aab5da1",
+      "1b412c5d-a398-50e3-b3f9-df0ccfeedf86",
+      "5cec26b3-c45c-59e6-b9c8-9a33fcc99bd5",
+      "24fc45aa-30a2-5d73-9280-7903a7d4dab1",
+      "ab5b69da-1761-50d6-92d0-11edbf102780",
+      "21799d52-c703-525b-ab44-a737ce395f85",
+      "453da11b-6efa-5d68-8719-9eff424a2f2f",
+      "e2334235-f04a-5727-a520-2e09a8e9d83e",
+      "b3a58696-0ca7-5d74-b0f1-9849ce6b8146",
+      "309363d0-c86e-50bf-bb41-4d81f47e4304",
+      "5b250b42-98be-52e7-ae8f-52e025ce223a",
+      "cae78db9-510e-53c2-9dcf-d4823eb79572",
+      "5d2e2a0f-5e43-58b8-8927-6a46ceac39f5",
+      "e4843773-efa4-5269-bd4a-aed2e86a77de",
+      "3d451a31-21af-5423-acfd-07e91b55ef09",
+      "11ef0eb0-e9a7-5bc9-84f6-85ad5efcd902",
+      "7b7d9adf-bb50-5370-abe7-9d8540bc21d0",
+      "20f48844-e12e-5a61-b52e-ba039e5bd5e2",
+      "1de8fb29-5281-58e7-91a6-e355ad0ac46b",
+      "42ce78b1-7926-5f7d-8101-3b1577dd6ea9",
+      "b7c8a1eb-c6c2-516e-a88b-dc898670495d",
+      "d170c918-5d21-5046-a738-5b93d4f137d8",
+      "6c1f097a-95a9-5bd9-8a2b-dae9a92bc5e7",
+      "ddba85eb-a8f9-5794-ba2c-78a3ad066dff"
+    ],
+    "beleg_punkte": [
+      "ebbc2e17-18e5-5b67-b7f0-b8bde61d7790",
+      "2d628402-7fc3-5a77-bf95-cd2b961962fd",
+      "6c1f097a-95a9-5bd9-8a2b-dae9a92bc5e7"
+    ],
+    "beleg_urls": [
+      "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BFO_2022_23.pdf",
+      "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_MDM.pdf",
+      "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/13_MDM.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:01:13",
+  "dauer_s": 7.51,
+  "fehler": null,
+  "antwort": "Im konsekutiven Master-Studiengang Design und Medien (MDM) darf die Master-Arbeit „30 bis 90 Seiten (ohne Anhang)\" umfassen [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f4 › WI › Informationen › 26 03 09 Leitlinie Abschlussarbeiten WI 2025 2026 03 06 — Leitlinie zu Abschlussarbeiten und anderen schriftli-",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-03-09-Leitlinie_Abschlussarbeiten_WI_2025__2026-03-06_.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Leitlinie zu Abschlussarbeiten und anderen schriftli-\n  ## Stand: März 2026\n  ## Bestandteile einer Abschlussarbeit\n  ## Titelblatt\n  ## Titel einer Abschlussarbeit\n  ## Gliederung einer Abschlussarbeit\n  ## Umfang einer Abschlussarbeit\n  ## Abgabe einer Abschlussarbeit\n  ## stellen:\n  ## Form und Layout einer Abschlussarbeit\n  ## Nachweis zum Einsatz von Werkzeugen\n  ## Nachweis von Quellen\n  ## Kurzfassung / Abstract\n  ## Abbildungs-/Tabellenverzeichnis\n  ## Gruppenarbeit\n  ## Sperrvermerk\n  ## Übersicht verwendeter Hilfsmittel\n  ## Erklärung zur ordnungsgemäßen Erstellung\n  ## Erklärung zur ordnungsgemäßen Erstellung / Statutory Declaration\n  ## Literaturempfehlungen\n  ## Detaillierte Informationen zur Erstellung wissenschaftlicher Arbeiten sind enthalten in:"
+    },
+    {
+      "nr": 2,
+      "titel": "f4 › BWL › Formulare Und Informationen › 2026 05 06 Leitlinien Abschlussarbeiten BWL — Leitlinien für die Abschlussarbeiten",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/2026_05_06_Leitlinien_Abschlussarbeiten_BWL.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Leitlinien für die Abschlussarbeiten\n  ## Inhaltsverzeichnis\n  ## 1 Abschlussarbeiten\n  ## 2 Verpflichtende Bestandteile\n  ## 2.1 Umfang und Form\n  ## 2.2 Formatierung\n  ## 2.3 Geschlechtergerechte Sprache\n  ## 2.4 Sperrvermerk\n  ## 2.5 Abbildungen/Tabellen\n  ## 2.6 Kurzfassung/Abstract\n  ## 2.7 Nachweis von Quellen\n  ## 2.8 Abgabe über die Academic Cloud\n  ## 2.9 Eidesstattliche Versicherung\n  ## 3 Organisatorisches\n  ## 4 Besonderheiten von Gruppenarbeiten\n  ## Allgemeinverfügung zu Instrumenten der künstlichen Intelligenz\n  ## Allgemeinverfügung zu Instrumenten der künstlichen Intelligenz\n  ## Muster: Sperrvermerk/Confidentiality Note\n  ## Muster: Eidesstattliche Versicherung/Statutory declaration\n  ## Muster: Eidesstattliche Versicherung (Gruppen)/Statutory declaration (groups)\n  ## <Titel>\n  ## …\n  ## <Title>\n  ## …\n  ## HINWEIS:"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 06 2022 › 13 MDM",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/13_MDM.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung\n# für den konsekutiven Master- Studiengang Design und Medien (MDM) mit dem Abschluss Master of Arts (M.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## §4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Art und Umfang der Master-Prüfung\n  ## § 6\n  ## Öffentlichkeit von mündlichen Prüfungsleistungen\n  ## § 7\n  ## Zulassung zur Master-Arbeit\n  ## § 8\n  ## Inkrafttreten\n  ## Master-Studiengang Desing und Medien MDM - 2 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:"
+    },
+    {
+      "nr": 4,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › 2022 PO MDM",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_MDM.pdf",
+      "fakultaet": "f3",
+      "struktur": "# Besonderer Teil der Prüfungsordnung\n# für den konsekutiven Master- Studiengang Design und Medien (MDM) mit dem Abschluss Master of Arts (M.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## §4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Art und Umfang der Master-Prüfung\n  ## § 6\n  ## Öffentlichkeit von mündlichen Prüfungsleistungen\n  ## § 7\n  ## Zulassung zur Master-Arbeit\n  ## § 8\n  ## Inkrafttreten\n  ## Master-Studiengang Desing und Medien MDM - 2 Semester\n  ## Hinweise\n  ## Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Verkuendungsblaetter › 12 2025 › hsh verkuendungsblatt nr 12 2025 — Ausgabe 12/2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/12-2025/hsh_verkuendungsblatt_nr_12_2025.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 12/2025\n  ## Inhalt:\n  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang MODE: konzept. design. kommunikation. (BMO) mit dem Abschluss Bachelor of Arts (B.A.)\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Übergangsregelung\n  ## § 8\n  ## Inkrafttreten\n  ## Bachelor-Studiengang MODE: konzept. design. kommunikation. (BMO) - 8 Semester\n  ## Hinweise:\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Teilzeitstudium\n  ## § 6\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 7\n  ## Übergangsregelung\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Produktdesign (BPD) - 8 Semester\n  ## Hinweise:\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 6,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BVK PO 2022 23 — _Modulhandbuch für den Bachelorstudiengang Visuelle Kommunikation_",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BVK_PO_2022_23.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Modulhandbuch für den Bachelorstudiengang Visuelle Kommunikation\n  ## BA Visuelle Kommunikation\n  ## Studienverlaufsplan\n  ## Bachelor-Studiengang Visuelle Kommunikation BVK - 8 Semester\n  ## 1. Studienabschnitt - Wahlpflichtmodule\n  ## Hinweise\n  ## BA Visuelle Kommunikation BVK-131 Theorie (Grundlagen) I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer\n  ## Häufigkeit des Angebots\n  ## Art, Gewichtung\n  ## ECTS-Punkte\n  ## Workload\n  ## Qualifikationsziele\n  ## Voraussetzungen\n  ## Verwendbarkeit\n  ## Prüfungsformen\n  ## Lehr- und Lernmethoden\n  ## Modulverantwortlicher\n  ## Lehrinhalte\n  ## BA Visuelle Kommunikation BVK-131 Theorie (Grundlagen) I\n  ## Lehrveranstaltungen\n  ## Gewichtung\n  ## Lehr- und Lernmethoden\n  ## Prüfungsformen\n  ## BA Visuelle Kommunikation BVK-121 Techniken und Methoden I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer\n  ## Häufigkeit des Angebots\n  ## Qualifikationsziele\n  ## Art, Gewichtung\n  ## ECTS-Punkte\n  ## Workload\n  ## Voraussetzungen\n  ## Verwendbarkeit\n  ## Prüfungsformen\n  ## Lehrinhalte\n  ## Lehr- und Lernmethoden\n  ## Modulverantwortlicher\n  ## BA Visuelle Kommunikation BVK-121 Techniken und Methoden I\n  ## Lehrveranstaltungen\n  ## Gewichtung\n  ## Lehr- und Lernmethoden\n  ## Prüfungsformen\n  ## BA Visuelle Kommunikation BVK-122 Qualifikation I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Weiterbildung › Ordnungen Mumba › 4. Modulhandbuch MU MBA Stand 2024 — Mittelständische Unternehmensführung in Entrepreneurship (MBA)",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Dokumente/Ordnungen_Mumba/4._Modulhandbuch_MU-MBA_Stand_2024.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Modulhandbuch\n  ## Mittelständische Unternehmensführung in Entrepreneurship (MBA)\n  ## Hochschule Hannover\n  ## University of Applied Sciences and Arts\n  ## Fachhochschule für die Wirtschaft Hannover\n  ## Inhalt\n  ## Präambel\n  ## Einführung in das Unternehmertum\n  ## 1. Grundidee/zentrale Fragestellung\n  ## 2. Lernziele/Kompetenzen\n  ## Inhalte\n  ## 3. Didaktik\n  ## 4. Prüfungsform\n  ## 5. Literatur\n  ## Unternehmerisches Denken und Handeln 1\n  ## 1. Grundidee/zentrale Fragestellung\n  ## 2. Lernziele/Kompetenzen\n  ## 3. Inhalte\n  ## 4. Didaktik\n  ## 5. Prüfungsform\n  ## 6. Literatur\n  ## Wissenschaftliche Methoden\n  ## 1. Grundidee/zentrale Fragestellung\n  ## 2. Lernziele/Kompetenzen\n  ## 3. Inhalte\n  ## 4. Didaktik\n  ## 5. Prüfungsform\n  ## 6. Literatur\n  ## Marketing und Vertrieb\n  ## 1. Grundidee/zentrale Fragestellung\n  ## 2. Lernziele/Kompetenzen\n  ## 3. Inhalte\n  ## 4. Didaktik\n  ## 5. Prüfungsform\n  ## 6. Literatur\n  ## Strategie und Innovation\n  ## 1. Grundidee/zentrale Fragestellungen\n  ## 2. Lernziele/Kompetenzen\n  ## 3. Inhalte\n  ## 4. Didaktik\n  ## 5. Prüfungsform\n  ## 6. Literatur\n  ## Gründungs-, Kauf- und Nachfolgemanagement\n  ## 1. Grundidee/zentrale Fragestellung\n  ## 2. Lernziele/Kompetenzen\n  ## 3. Inhalte\n  ## 4. Didaktik\n  ## 5. Prüfungsform\n  ## 6. Literatur\n  ## Unternehmerisches Denken und Handeln 2"
+    },
+    {
+      "nr": 8,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BME PO 2022 23 — _Modulhandbuch für den Bachelorstudiengang Mediendesign_",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BME_PO_2022_23.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Modulhandbuch für den Bachelorstudiengang Mediendesign\n  ## BA Mediendesign Studienverlaufsplan\n  ## 1. Semester 2. Semester 3. Semester\n  ## 4. Semester 5. Semester 6. Semester 7. Semester 8. Semester\n  ## Bachelor-Studiengang Mediendesign BME - 8 Semester\n  ## BA Mediendesign BME-121 Entwurfstechniken I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer\n  ## Häufigkeit des Angebots\n  ## Qualifikationsziele\n  ## Art, Gewichtung\n  ## ECTS-Punkte\n  ## Workload\n  ## Voraussetzungen\n  ## Verwendbarkeit\n  ## Lehrinhalte\n  ## Prüfungsformen\n  ## Lehr- und Lernmethoden\n  ## Modulverantwortlicher\n  ## BA Mediendesign BME-121 Entwurfstechniken I\n  ## Lehrveranstaltungen\n  ## Gewichtung\n  ## Lehr- und Lernmethoden\n  ## Prüfungsformen\n  ## BA Mediendesign BME-133 Fachtheorie I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer\n  ## Häufigkeit des Angebots\n  ## Art, Gewichtung\n  ## ECTS-Punkte\n  ## Workload\n  ## Qualifikationsziele\n  ## Voraussetzungen\n  ## Verwendbarkeit\n  ## Prüfungsformen\n  ## Lehr- und Lernmethoden\n  ## Modulverantwortlicher\n  ## Lehrinhalte\n  ## BA Mediendesign BME-133 Fachtheorie I\n  ## Lehrveranstaltungen\n  ## Gewichtung\n  ## Lehr- und Lernmethoden\n  ## Prüfungsformen\n  ## BA Mediendesign BME-122 Qualifikation I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer\n  ## Häufigkeit des Angebots"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 06 2022 › 13 MDM",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/13_MDM.pdf"
+    },
+    {
+      "nr": 4,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › 2022 PO MDM",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_MDM.pdf"
+    },
+    {
+      "nr": 5,
+      "titel": "www › Verkuendungsblaetter › 12 2025 › hsh verkuendungsblatt nr 12 2025 — Ausgabe 12/2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/12-2025/hsh_verkuendungsblatt_nr_12_2025.pdf"
+    },
+    {
+      "nr": 8,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BME PO 2022 23 — _Modulhandbuch für den Bachelorstudiengang Mediendesign_",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BME_PO_2022_23.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "www › Verkuendungsblatt › 06 2022 › 13 MDM",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/13_MDM.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**für den konsekutiven Master- Studiengang Design und Medien (MDM) mit dem Abschluss Master of Arts (M.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:**",
+      "snippets": [
+        "## **Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:**\n**B** (Bericht)                                            5 bis 20 Seiten **BAA** (Bachelor-Arbeit )                       20 bis 50 Seiten (ohne Anhang) **BÜ** (Berufspraktische Übung)            Semesterbegleitend im Rahmen des für das Modul ausgewiesenen Selbststudiums **E** (Entwurf)                                           1 bis 3 gestalterische Entwürfe **EA** (Experimentelle Arbeit)                 1 bis 3 Arbeiten **H** (Hausarbeit)                                     8 bis 25 Seiten **K** (Klausur)                                           60 bis 90 Minuten **KO** (Kolloquium)                                  15 bis 20 Minuten **M** (Mündliche Prüfung)                       20 bis 45 Minuten **MAA** (Master-Arbeit)                            30 bis 90 Seiten (ohne Anhang) **P** (Präsentation)                                  15 bis 45 Minuten inkl. Rückfragen/Diskussion **PA** (Projektarbeit)                                20 bis 30 Seiten inkl. Illustrationen/Tabellen"
+      ],
+      "zitate": [
+        "30 bis 90 Seiten (ohne Anhang)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f3 › Fakultaet III › Ordnungen DM › 2022 PO MDM",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_MDM.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BFO.pdf",
+        "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/20181912_BPO_ITR_verk.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BMO.pdf"
+      ],
+      "abschnitt": "**für den konsekutiven Master- Studiengang Design und Medien (MDM) mit dem Abschluss Master of Arts (M.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:**",
+      "snippets": [
+        "## **Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:**\n**B** (Bericht)                                            5 bis 20 Seiten **BAA** (Bachelor-Arbeit )                       20 bis 50 Seiten (ohne Anhang) **BÜ** (Berufspraktische Übung)            Semesterbegleitend im Rahmen des für das Modul ausgewiesenen Selbststudiums **E** (Entwurf)                                           1 bis 3 gestalterische Entwürfe **EA** (Experimentelle Arbeit)                 1 bis 3 Arbeiten **H** (Hausarbeit)                                     8 bis 25 Seiten **K** (Klausur)                                           60 bis 90 Minuten **KO** (Kolloquium)                                  15 bis 20 Minuten **M** (Mündliche Prüfung)                       20 bis 45 Minuten **MAA** (Master-Arbeit)                            30 bis 90 Seiten (ohne Anhang) **P** (Präsentation)                                  15 bis 45 Minuten inkl. Rückfragen/Diskussion **PA** (Projektarbeit)                                20 bis 30 Seiten inkl. Illustrationen/Tabellen"
+      ],
+      "zitate": [
+        "30 bis 90 Seiten (ohne Anhang)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Verkuendungsblaetter › 12 2025 › hsh verkuendungsblatt nr 12 2025 — Ausgabe 12/2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/12-2025/hsh_verkuendungsblatt_nr_12_2025.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/01-2022/HsH-Verkuendungsblatt-01-2022.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/01_BTPO_BMO_VB_EBU.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/03_BTPO_BPD_VB_EBU.pdf"
+      ],
+      "abschnitt": "**Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:**",
+      "snippets": [
+        "## **Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:**  \n**B** (Bericht) 5 bis 20 Seiten  \n**BAA** (Bachelor-Arbeit ) 20 bis 50 Seiten (ohne Anhang) **BÜ** (Berufspraktische Übung) Semesterbegleitend im Rahmen des für das Modul ausgewiesenen  \n**E** (Entwurf) 1 bis 3 gestalterische Entwürfe **EA** (Experimentelle Arbeit) 1 bis 3 Arbeiten  \n**H** (Hausarbeit) 8 bis 25 Seiten  \n**K** (Klausur) 60 bis 90 Minuten  \n**M** (Mündliche Prüfung) 20 bis 45 Minuten **MAA** (Master-Arbeit) 30 bis 90 Seiten (ohne Anhang) **Pf** (Portfolio) Pflichtteil: 5 bis 20 Seiten; Wahlpflichtteil: max. fünf Dokumente, Auswahl nach eigenem Ermessen  \n**P** (Präsentation) 15 bis 45 Minuten inkl. Rückfragen/Diskussion  \n**PA** (Projektarbeit) 20 bis 30 Seiten inkl. Illustrationen/Tabellen **PB** (Praxisbericht) 10 bis 15 Seiten  \n**R** (Referat) 10 bis 20 Minuten plus Rückfragen/Diskussion; Ausarbeitung 5 bis 10 Seiten  \n**KO** (Kolloquium) 15 bis 20 Minuten"
+      ],
+      "zitate": [
+        "30 bis 90 Seiten (ohne Anhang)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BME PO 2022 23 — _Modulhandbuch für den Bachelorstudiengang Mediendesign_",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BME_PO_2022_23.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BIA_PO_2022_23.pdf",
+        "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BFO_2022_23.pdf"
+      ],
+      "abschnitt": "**Bachelor-Studiengang Mediendesign BME - 8 Semester**",
+      "snippets": [
+        "B** (Bericht) 5 bis 20 Seiten **BAA** (Bachelor-Arbeit ) 20 bis 50 Seiten (ohne Anhang) **BÜ** (Berufspraktische Übung) Semesterbegleitend im Rahmen des für das Modul ausgewiesenen Selbststudiums **E** (Entwurf) 1 bis 3 gestalterische Entwürfe **EA** (Experimentelle Arbeit) 1 bis 3 Arbeiten **H** (Hausarbeit) 8 bis 25 Seiten **K** (Klausur) 60 bis 90 Minuten **KO** (Kolloquium) 15 bis 20 Minuten **M** (Mündliche Prüfung) 20 bis 45 Minuten **MAA** (Master-Arbeit) 30 bis 90 Seiten (ohne Anhang) **P** (Präsentation) 15 bis 45 Minuten inkl. Rückfragen/Diskussion **PA** (Projektarbeit) 20 bis 30 Seiten inkl. Illustrationen/Tabellen **PB** (Praxisbericht) 10 bis 15 Seiten **Pf** (Portfolio) Pflichtteil: 5 bis 20 Seiten; Wahlpflichtteil: max. fünf Dokumente, Auswahl nach eigenem Ermessen **R** (Referat) 10 bis 20 Minuten plus Rückfragen/Diskussion; Ausarbeitung 5 bis 10 Seiten"
+      ],
+      "zitate": [
+        "30 bis 90 Seiten (ohne Anhang)"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.90288,
+      "id": "7134c152-cb3a-5f34-8238-f81a797214bd",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-03-09-Leitlinie_Abschlussarbeiten_WI_2025__2026-03-06_.pdf",
+      "title_anzeige": "f4 › WI › Informationen › 26 03 09 Leitlinie Abschlussarbeiten WI 2025 2026 03 06 — Leitlinie zu Abschlussarbeiten und anderen schriftli-",
+      "section_heading": "**Umfang einer Abschlussarbeit**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **Gliederung einer Abschlussarbeit**  \nDer Text einer Arbeit ist in Kapitel zu gliedern. Die Kapitel werden arabisch nummeriert (1, 2, 3, …). Abschnitte innerhalb von Kapiteln werden dezimal gekennzeichnet (1.1, 1.2, ... 2.1, 2.2.1 …). Die Anzahl der Gliederungsstufen sollte 3 nicht übersteigen. "
+    },
+    {
+      "rang": 2,
+      "score": 1.66546,
+      "id": "ac6db9e0-f861-5369-903c-1472d2b11c69",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/2026_05_06_Leitlinien_Abschlussarbeiten_BWL.pdf",
+      "title_anzeige": "f4 › BWL › Formulare Und Informationen › 2026 05 06 Leitlinien Abschlussarbeiten BWL — Leitlinien für die Abschlussarbeiten",
+      "section_heading": "2.1 Umfang und Form",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Die Erstprüferin bzw. der Erstprüfer einer Bachelor- bzw. einer Master-Arbeit kann Abweichungen von dieser Formvorschrift zulassen – mit Ausnahme der Eidesstattlichen Versicherung - sowie weitere Konkretisierungen vornehmen. Die Zustimmung des Erstprüfenden zur formalen und inhaltlichen Gestaltung d"
+    },
+    {
+      "rang": 3,
+      "score": 1.54446,
+      "id": "6c1f097a-95a9-5bd9-8a2b-dae9a92bc5e7",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/13_MDM.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 13 MDM",
+      "section_heading": "**für den konsekutiven Master- Studiengang Design und Medien (MDM) mit dem Abschluss Master of Arts (M.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:**",
+      "chunk_index": 21,
+      "text_vollstaendig": true,
+      "auszug": "## **Abkürzungen:**  \n**Art[M]** (Art eines Moduls PF/WP) **WP** (Wahlpflichtfach) **LP[M]** (ECTS-Leistungspunkte eines Moduls) **W** (Wahlfach) **Gew.[M]** (Gewichtung eines Moduls zur Gesamtnote) **SWS** (Semesterwochenstunden) **Art[LV]** (Art einer Lehrveranstaltung PF/WP) **Sem.** (Empfohlende"
+    },
+    {
+      "rang": 4,
+      "score": 1.54427,
+      "id": "2d628402-7fc3-5a77-bf95-cd2b961962fd",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_MDM.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › 2022 PO MDM",
+      "section_heading": "**für den konsekutiven Master- Studiengang Design und Medien (MDM) mit dem Abschluss Master of Arts (M.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:**",
+      "chunk_index": 21,
+      "text_vollstaendig": false,
+      "auszug": "## **Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:**\n**B** (Bericht)                                            5 bis 20 Seiten **BAA** (Bachelor-Arbeit )                       20 bis 50 Seiten (ohne Anhang) **BÜ** (Berufspraktische Übung)            Semesterbegleitend im Rahmen des für d"
+    },
+    {
+      "rang": 5,
+      "score": 1.33942,
+      "id": "e06ba5ff-c74b-5fee-96bd-5cfda513b5b1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/12-2025/hsh_verkuendungsblatt_nr_12_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblaetter › 12 2025 › hsh verkuendungsblatt nr 12 2025 — Ausgabe 12/2025",
+      "section_heading": "**Arten der Prüfungsleistungen, Prüfungsumfang und -dauer:**",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "**R** (Referat) 10 bis 20 Minuten plus Rückfragen/Diskussion; Ausarbeitung 5 bis 10 Seiten  \n**KO** (Kolloquium) 15 bis 20 Minuten  \n**Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch.**  \nF III _ BTPO BA BMO  \nNr.12/2025 vom 15.09.2025  \nVerkündungsblatt der Hochschule Hann"
+    },
+    {
+      "rang": 6,
+      "score": 1.11989,
+      "id": "7596705a-8bc2-56f6-a196-2774f14eceab",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BVK_PO_2022_23.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BVK PO 2022 23 — _Modulhandbuch für den Bachelorstudiengang Visuelle Kommunikation_",
+      "section_heading": "**Hinweise**",
+      "chunk_index": 18,
+      "text_vollstaendig": false,
+      "auszug": "(Bericht) 5 bis 20 Seiten **BAA** (Bachelor-Arbeit ) 20 bis 50 Seiten (ohne Anhang) **BÜ** (Berufspraktische Übung) Semesterbegleitend im Rahmen des für das Modul ausgewiesenen Selbststudiums **E** (Entwurf) 1 bis 3 gestalterische Entwürfe **EA** (Experimentelle Arbeit) 1 bis 3 Arbeiten **H** (Hausa"
+    },
+    {
+      "rang": 7,
+      "score": 1.07031,
+      "id": "88c34490-6700-54c7-81cb-77ac938866c7",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Dokumente/Ordnungen_Mumba/4._Modulhandbuch_MU-MBA_Stand_2024.pdf",
+      "title_anzeige": "www › Weiterbildung › Ordnungen Mumba › 4. Modulhandbuch MU MBA Stand 2024 — Mittelständische Unternehmensführung in Entrepreneurship (MBA)",
+      "section_heading": "**1. Grundidee/Zentrale Fragestellung**",
+      "chunk_index": 108,
+      "text_vollstaendig": true,
+      "auszug": "## **1. Grundidee/Zentrale Fragestellung**  \nDie Abschlussarbeit muss sich mit einer komplexen Problemstellung aus dem Themengebiet des Mittelstandmanagements oder des Unternehmertums befassen (Umfang ca. 50 - 70 Seiten). Sie soll an die im Masterstudium behandelten Inhalte anknüpfen und möglichst e"
+    },
+    {
+      "rang": 8,
+      "score": 1.06728,
+      "id": "d69f1f2a-e3dd-56e7-a5e0-5cd89a52d249",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BME_PO_2022_23.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BME PO 2022 23 — _Modulhandbuch für den Bachelorstudiengang Mediendesign_",
+      "section_heading": "**Bachelor-Studiengang Mediendesign BME - 8 Semester**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "B** (Bericht) 5 bis 20 Seiten **BAA** (Bachelor-Arbeit ) 20 bis 50 Seiten (ohne Anhang) **BÜ** (Berufspraktische Übung) Semesterbegleitend im Rahmen des für das Modul ausgewiesenen Selbststudiums **E** (Entwurf) 1 bis 3 gestalterische Entwürfe **EA** (Experimentelle Arbeit) 1 bis 3 Arbeiten **H** (H"
+    },
+    {
+      "rang": 9,
+      "score": 1.02997,
+      "id": "7903e4ba-b752-5a19-a7eb-d4a266d4435d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/02-2012/Verkuendungsblatt_02_2012.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2012 › Verkuendungsblatt 02 2012 — Verkündungsblatt",
+      "section_heading": "Verkündungsblatt",
+      "chunk_index": 0,
+      "text_vollstaendig": false,
+      "auszug": "## Verkündungsblatt  \nAmtliches Mitteilungsblatt der Hochschule Hannover  \n|**`Hannover, den 29.2.2012`**\n**`Ausgabe`**|**`Hannover, den 29.2.2012`**\n**`Ausgabe`**|**`2/2012`**|\n|---|---|---|\n|**`Inhalt:`**||Seite|\n|1.|1. Änderung der Ordnung über den Zugang und die Zulassung für den|2|\n||konsekutiv"
+    },
+    {
+      "rang": 10,
+      "score": 1.00351,
+      "id": "5a9fd2bb-b5f3-5fad-b4ca-dac7898c9038",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/07_BPD.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 07 BPD",
+      "section_heading": "**Abkürzungen:**",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "**E** (Entwurf)                                           1 bis 3 gestalterische Entwürfe  \n**EA** (Experimentelle Arbeit)                  1 bis 3 Arbeiten  \n**H** (Hausarbeit)                                      8 bis 25 Seiten  \n**K** (Klausur)                                           60 bis 90"
+    },
+    {
+      "rang": 11,
+      "score": 1.00351,
+      "id": "d5189247-8613-56a0-9dcb-10234a854507",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BME.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › 2022 PO BME — § 1 Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mediendesign (BME) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Abkürzungen:**",
+      "chunk_index": 23,
+      "text_vollstaendig": false,
+      "auszug": "**E** (Entwurf)                                           1 bis 3 gestalterische Entwürfe  \n**EA** (Experimentelle Arbeit)                  1 bis 3 Arbeiten  \n**H** (Hausarbeit)                                      8 bis 25 Seiten  \n**K** (Klausur)                                           60 bis 90"
+    },
+    {
+      "rang": 12,
+      "score": 1.00351,
+      "id": "7b809fff-606d-52ba-95ce-5d162d7e3d7d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/03_bme.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 03 bme",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mediendesign (BME) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Abkürzungen:**",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "**E** (Entwurf)                                           1 bis 3 gestalterische Entwürfe  \n**EA** (Experimentelle Arbeit)                  1 bis 3 Arbeiten  \n**H** (Hausarbeit)                                      8 bis 25 Seiten  \n**K** (Klausur)                                           60 bis 90"
+    },
+    {
+      "rang": 13,
+      "score": 0.98549,
+      "id": "e7bcb3e9-59bf-576c-9058-e9fc8701e960",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/01-2021/01_ZO_MDM_2021.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2021 › 01 ZO MDM 2021 — der Hochschule Hannover",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang** > **„Design und Medien (MDM)“** > **an der Fakultät III – Medien, Information und Design** > **der Hochschule Hannover**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang**\n\n# **„Design und Medien (MDM)“**\n\n# **an der Fakultät III – Medien, Information und Design**  \n## **der Hochschule Hannover**"
+    },
+    {
+      "rang": 14,
+      "score": 0.95193,
+      "id": "0c2d1c33-572d-5a6d-858c-e259facebf08",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BMO.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › 2022 PO BMO",
+      "section_heading": "**für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Hinweise** > **für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden**",
+      "chunk_index": 25,
+      "text_vollstaendig": false,
+      "auszug": "**E** (Entwurf)                                               1 bis 3 gestalterische Entwürfe **EA** (Experimentelle Arbeit)                    1 bis 3 Arbeiten **H** (Hausarbeit)                                         8 bis 25 Seiten **K** (Klausur)                                               60"
+    },
+    {
+      "rang": 15,
+      "score": 0.95157,
+      "id": "07a29a31-1256-56bc-9303-137149df3e17",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/5_bmo.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 5 bmo",
+      "section_heading": "**für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Hinweise** > **für den Bachelor-Studiengang Modedesign (BMO) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden**",
+      "chunk_index": 25,
+      "text_vollstaendig": true,
+      "auszug": "**E** (Entwurf)                                               1 bis 3 gestalterische Entwürfe **EA** (Experimentelle Arbeit)                    1 bis 3 Arbeiten **H** (Hausarbeit)                                         8 bis 25 Seiten **K** (Klausur)                                               60"
+    },
+    {
+      "rang": 16,
+      "score": 0.94809,
+      "id": "8f265c8a-5cae-5fa0-83e3-ea10de0cb69c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/06-2003/Verkuendungsblatt_06_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2003 › Verkuendungsblatt 06 2003 — Verkündungsblatt",
+      "section_heading": "**Organisationssatzung der Studierendenschaft der Fachhochschule Hannover** > **Erläuterungen:**",
+      "chunk_index": 90,
+      "text_vollstaendig": false,
+      "auszug": "|Wahlpflichtfächer||||||\n|Künstlerisches Arbeiten|PR|Wahl lt. Angebot des|3|1||\n|||Fachbereichs Bildende Kunst||||\n|Diplomarbeit|E / PR|Entwurf / Kolloquium|||8|  \n1. Änderung der DPO für die Studiengänge des Fachbereichs Design und Medien  \nSeite 40  \nNr. 6 vom 4.8.2003  \nVerkündungsblatt der FHH  "
+    },
+    {
+      "rang": 17,
+      "score": 0.92682,
+      "id": "a5be8846-2d48-54c6-aa11-dbb469e6cb33",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/05_Besonderer_Teil_der_Pruefungsordnung_fuer_MDM.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2010 › 05 Besonderer Teil der Pruefungsordnung fuer MDM",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den konsekutiven Master-Studiengang ,,Design und Medien“ (MDM) an der Fakultät III – Medien, Information und Design, Abteilung Design und Medien der Fachhochschule Hannover** > **§5** > **Besonderer Teil der Prüfungsordnung für den konsekutiven Master-Studiengang ,,Design und Medien“ (MDM) an der Fakultät III – Medien, Information und Design, Abteilung Design und Medien der Fachhochschule Hannover** > **Inkrafttreten**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "Verkündungsblatt der FHH\nSeite|Nr.6/2010 vom 5.10.2010\nVerkündungsblatt der FHH\nSeite|Nr.6/2010 vom 5.10.2010\nVerkündungsblatt der FHH\nSeite|Nr.6/2010 vom 5.10.2010\nVerkündungsblatt der FHH\nSeite|Nr.6/2010 vom 5.10.2010\nVerkündungsblatt der FHH\nSeite|Nr.6/2010 vom 5.10.2010\nVerkündungsblatt der FHH\n"
+    },
+    {
+      "rang": 18,
+      "score": 0.92104,
+      "id": "a0f96384-d39f-5dea-bb0e-653cc994e258",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/03-2012/Verkuendungsblatt_03_2012.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2012 › Verkuendungsblatt 03 2012 — Verkündungsblatt",
+      "section_heading": "Verkündungsblatt",
+      "chunk_index": 0,
+      "text_vollstaendig": false,
+      "auszug": "## Verkündungsblatt  \nAmtliches Mitteilungsblatt der Hochschule Hannover  \n|**`Hannover, den 3.4.2012`**\n**`Ausgabe 3/2012`**|**`Hannover, den 3.4.2012`**\n**`Ausgabe 3/2012`**|**`Hannover, den 3.4.2012`**\n**`Ausgabe 3/2012`**|\n|---|---|---|\n|**`Inhalt:`**||Seite|\n|1.|1. Änderung der Ordnung über den"
+    },
+    {
+      "rang": 19,
+      "score": 0.91029,
+      "id": "87ebd82f-fa85-5b5b-a3dc-965546233875",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/05_Besonderer_Teil_der_Pruefungsordnung_fuer_MDM.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2010 › 05 Besonderer Teil der Pruefungsordnung fuer MDM",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den konsekutiven Master-Studiengang ,,Design und Medien“ (MDM) an der Fakultät III – Medien, Information und Design, Abteilung Design und Medien der Fachhochschule Hannover** > **§2** > **Besonderer Teil der Prüfungsordnung für den konsekutiven Master-Studiengang ,,Design und Medien“ (MDM) an der Fakultät III – Medien, Information und Design, Abteilung Design und Medien der Fachhochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **§2**\n\n## **Dauer und Gliederung des Studiums**  \n(1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den Master-Studiengang „Design und Medien\" einschließlich der Master-Arbeit zwei Semester (Regelstudienzeit).  \n(2) Anlage B3 stellt die Module, Prüfungsanforderungen,"
+    },
+    {
+      "rang": 20,
+      "score": 0.90818,
+      "id": "3179334c-a683-5e67-919b-9d5402bb71ee",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/02-2012/01-Zulassungsordnung_MDM.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2012 › 01 Zulassungsordnung MDM",
+      "section_heading": "**`Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang Design und Medien (MDM) an der Fakultät III – Medien, Information und Design der Hochschule Hannover`**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **`Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang Design und Medien (MDM) an der Fakultät III – Medien, Information und Design der Hochschule Hannover`**  \nveröffentlicht im Verkündungsblatt Nr. 7/2011 vom 23.8.2011, 1. Änderung veröffentlich im Verkündungsblatt "
+    },
+    {
+      "rang": 21,
+      "score": 0.9072,
+      "id": "c8098b79-9854-56b9-98b1-6d425a7d6b76",
+      "source_url": "https://f3.hs-hannover.de/studium/master-studiengaenge/design-und-medien-mdm",
+      "title_anzeige": "Design und Medien (MDM)",
+      "section_heading": "Das Studium",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "Die Master-Thesis ist eine Abschlussarbeit, die in der Regel eine interdisziplinäre Aufgabenstellung beinhaltet, ein konkretes Realisierungsziel verfolgt oder einen forschenden Ansatz mitbringt. Es können konkrete Produktentwicklungen für Wirtschaft, Wissenschaft oder Forschung bearbeitet und innova"
+    },
+    {
+      "rang": 22,
+      "score": 0.90377,
+      "id": "c7895c6c-9e89-5348-9a01-0e0ed9600022",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/01_BIA.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 01 BIA",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Innenarchitektur (BIA) mit dem Abschluss Bachelor of Arts (B.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **Abkürzungen:**",
+      "chunk_index": 25,
+      "text_vollstaendig": true,
+      "auszug": "**E** (Entwurf)                                           1 bis 3 gestalterische Entwürfe  \n**EA** (Experimentelle Arbeit)                  1 bis 3 Arbeiten  \n**H** (Hausarbeit)                                      8 bis 25 Seiten  \n**K** (Klausur)                                           60 bis 90"
+    },
+    {
+      "rang": 23,
+      "score": 0.899,
+      "id": "6d2a6a7f-8a40-5c96-bfb2-129318f33353",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/06-2003/Verkuendungsblatt_06_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2003 › Verkuendungsblatt 06 2003 — Verkündungsblatt",
+      "section_heading": "**Organisationssatzung der Studierendenschaft der Fachhochschule Hannover** > Diplomarbeit",
+      "chunk_index": 138,
+      "text_vollstaendig": false,
+      "auszug": "## Diplomarbeit  \nIn der Diplomarbeit soll die Diplomandin oder der Diplomand nachweisen, dass er oder sie umfassende Fachkenntnisse und Fähigkeiten erworben hat, um eigenständig eine komplexe Problemstellung aus dem Bereich der gewählten Fachrichtung des Produkt-Design unter Berücksichtigung vielfä"
+    },
+    {
+      "rang": 24,
+      "score": 0.89362,
+      "id": "519385a8-d9b1-5f6e-ae23-4a8ac2e0d66b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/04_Besonderer_Teil_der_Pruefungsordnung_fuer_BA-FIII.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2010 › 04 Besonderer Teil der Pruefungsordnung fuer BA FIII",
+      "section_heading": "**Anlage B 2** - Studiengang: BA Innenarchitektur, Abteilung Design und Medien, Bachelor of Arts (BIA)",
+      "chunk_index": 71,
+      "text_vollstaendig": false,
+      "auszug": "Bachelorof Arts (BME)|**Anlage B 2**- Studiengang: BA Mediendesign Abteilung Design und Medien,\nBachelorof Arts (BME)|**Anlage B 2**- Studiengang: BA Mediendesign Abteilung Design und Medien,\nBachelorof Arts (BME)|**Anlage B 2**- Studiengang: BA Mediendesign Abteilung Design und Medien,\nBachelorof A"
+    },
+    {
+      "rang": 25,
+      "score": 0.88952,
+      "id": "33d20185-3ac7-5729-99a4-0b075b623f59",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/09_BVK.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › 09 BVK",
+      "section_heading": "**Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden**",
+      "chunk_index": 27,
+      "text_vollstaendig": true,
+      "auszug": "**E** (Entwurf)                                           1 bis 3 gestalterische Entwürfe **EA** (Experimentelle Arbeit)                  1 bis 3 Arbeiten **H** (Hausarbeit)                                      8 bis 25 Seiten **K** (Klausur)                                           60 bis 90 Minut"
+    },
+    {
+      "rang": 26,
+      "score": 0.88941,
+      "id": "eafef26d-21eb-516c-8a4e-ec13c935160e",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/2022_PO_BVK.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › 2022 PO BVK — Ziel des Studiums und Zweck der Abschlussprüfung",
+      "section_heading": "**Ein ECTS-Leistungspunkt entspricht einem Workload von 30 Stunden**",
+      "chunk_index": 27,
+      "text_vollstaendig": false,
+      "auszug": "**E** (Entwurf)                                           1 bis 3 gestalterische Entwürfe **EA** (Experimentelle Arbeit)                  1 bis 3 Arbeiten **H** (Hausarbeit)                                      8 bis 25 Seiten **K** (Klausur)                                           60 bis 90 Minut"
+    },
+    {
+      "rang": 27,
+      "score": 0.8707,
+      "id": "3185d5b8-40b3-5537-92cf-82384e7e917b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/06-2022/hsh_verkuendungsblatt_06_2022.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2022 › hsh verkuendungsblatt 06 2022 — Ausgabe 06/2022",
+      "section_heading": "**Ausgabe 06/2022**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "||in der Fakultät III – Medien, Information und Design, Abteilung Design und||\n||Medien, der Hochschule Hannover||\n|6.|Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang|33|\n||Szenografie/Kostüm/Experimentelle Gestaltung (SKE) mit dem Abschluss||\n||Bachelor of Arts (B.A.) in der Fakult"
+    },
+    {
+      "rang": 28,
+      "score": 0.85805,
+      "id": "84c3fa84-9359-521c-aeaa-13e6ef02a101",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/04_Besonderer_Teil_der_Pruefungsordnung_fuer_BA-FIII.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2010 › 04 Besonderer Teil der Pruefungsordnung fuer BA FIII",
+      "section_heading": "**Anlage B 2** - Studiengang: BA Innenarchitektur, Abteilung Design und Medien, Bachelor of Arts (BIA)",
+      "chunk_index": 70,
+      "text_vollstaendig": false,
+      "auszug": "Bachelorof Arts (BME)|**Anlage B 2**- Studiengang: BA Mediendesign Abteilung Design und Medien,\nBachelorof Arts (BME)|**Anlage B 2**- Studiengang: BA Mediendesign Abteilung Design und Medien,\nBachelorof Arts (BME)|**Anlage B 2**- Studiengang: BA Mediendesign Abteilung Design und Medien,\nBachelorof A"
+    },
+    {
+      "rang": 29,
+      "score": 0.85434,
+      "id": "02c837cb-8d36-5b1a-bcaa-a3c59c11d00f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/07-2011/Gesamt-7-2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2011 › Gesamt 7 2011 — Verkündungsblatt",
+      "section_heading": "Verkündungsblatt",
+      "chunk_index": 0,
+      "text_vollstaendig": false,
+      "auszug": "## Verkündungsblatt  \nAmtliches Mitteilungsblatt der Fachhochschule Hannover (FHH)  \n|**Hannover, den 23.8.2011**\n**Ausgabe 7/2011**|**Hannover, den 23.8.2011**\n**Ausgabe 7/2011**|**Hannover, den 23.8.2011**\n**Ausgabe 7/2011**|\n|---|---|---|\n|**Inhalt:**||Seite|\n|1.|1. Änderung der Ordnung über den "
+    },
+    {
+      "rang": 30,
+      "score": 0.85005,
+      "id": "5d2ae7b0-b4d2-5340-9c5a-578ced3a413f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/06-2011/02-Ordnung_ueber_die_Einstellung_der_Diplom-Studiengaenge_Fakultaet_III.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2011 › 02 Ordnung ueber die Einstellung der Diplom Studiengaenge Fakultaet III",
+      "section_heading": "**§ 1 Gegenstand und Geltungsbereich**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "(2) Einschreibungen bzw. Zulassungen in das erste oder in höhere Fachsemester in die in § 1 Abs. 1 genannten Diplom-Studiengänge werden seit dem Wintersemester 2005/06 nicht mehr vorgenommen.  \nOrdnung über die Einstellung von Studiengängen mit dem Abschlussziel Diplom (FH) an der Fakultät III – Med"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 49044,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.62,
+    "kandidaten_s": 0.0,
+    "llm_auswahl_s": 2.43,
+    "docs_laden_s": 0.14,
+    "quellen_s": 4.19,
+    "antwort_llm_s": 3.17,
+    "gesamt_s": 7.36
+  },
+  "auswahl_begruendung": "{\"selected\":[3,4,5,8]}"
+}

@@ -1,0 +1,1470 @@
+{
+  "fall": {
+    "id": "q06",
+    "case_type": "direct",
+    "question": "An wen wende ich mich in der Fakultät I, wenn ich Probleme bei der Prüfungsanmeldung habe?",
+    "reference_answer": "Für allgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung und Umbuchungen ist in der Prüfungsverwaltung der Fakultät I Stephan Rittmüller genannt. Die Adresse lautet F1-Pruefungsverwaltung(at)hs-hannover.de. Die Sprechzeiten sind Montag, Dienstag und Freitag nach Vereinbarung per E-Mail.",
+    "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Stephan Rittmüller ist die genannte Ansprechperson.",
+      "Der Kontext ist die Prüfungsverwaltung der Fakultät I.",
+      "Die Funktionsadresse lautet F1-Pruefungsverwaltung(at)hs-hannover.de."
+    ],
+    "optional_facts": [
+      "Die Zuständigkeit umfasst Prüfungsanmeldungen.",
+      "Die Quelle nennt auch iCMS, 15 CP Überprüfung und Umbuchungen.",
+      "Sprechzeiten sind Montag, Dienstag und Freitag nach Vereinbarung per E-Mail."
+    ],
+    "forbidden_claims": [
+      "Eine andere Ansprechperson als primäre zuständige Person nennen.",
+      "Nicht belegte feste Sprechzeiten oder persönliche Termine erfinden."
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Die Antwort soll Stephan Rittmüller, Prüfungsanmeldungen, die Funktionsadresse und die Sprechzeiten nennen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Stephan Rittmüller",
+      "F1-Pruefungsverwaltung"
+    ],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "c3b8e229-b113-5a10-ab23-fefe7f66d582",
+      "684cd2ba-c33b-5a9f-85e5-b72234102a7e",
+      "0a303b4b-73d8-5ab9-bff4-ec53a7381a49",
+      "a8644d0a-43d7-5c31-819f-b08887d0d522",
+      "9c87a546-ce03-5563-8478-c3abeb90fcfa",
+      "e3f3f300-618c-54e2-948a-6e8fdd43beb2",
+      "2665fb25-93fe-5ada-8824-416680f0c2b0",
+      "bc18985a-b5d1-5a7c-b3e7-830229c9dcac",
+      "f1c25ef1-83ea-5586-aac6-ef0b6e3b7e17",
+      "f8184645-66bb-5df1-b269-f8e8725294d3",
+      "3e2e9569-6258-5ef7-899d-c0ef86cf8a60",
+      "67e971eb-6abb-539e-a080-b89a42b045a5"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T16:33:44",
+  "dauer_s": 5.56,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f2 › Service › Pruefungsplan › Wichtige Info zur Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Wichtige Informationen zur Prüfungsanmeldung\n  ## Anmeldung von Prüfungen\n  ## Abmeldung von Prüfungen\n  ## Prüfungsunfähigkeit/Krankmeldungen/Atteste\n  ## Arbeitsunfähigkeitsbescheinigungen (die sogenannten „Gelben Scheine“) werden von der Hochschule Hannover nicht anerkannt!\n  ## Wichtige Informationen zur Prüfungsanmeldung"
+    },
+    {
+      "nr": 2,
+      "titel": "f2 › service › quicklinks abteilung bv › pruefungsplaene abt bv — Sommersemester 2026",
+      "url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-bv/pruefungsplaene-abt-bv",
+      "fakultaet": "f2",
+      "struktur": "  ## Sommersemester 2026\n  ## Hauptprüfungszeitraum Sommersemester 2026\n    ### Prüfungszeitraum vom 15.06. - 10.07.2026\n  ## Prüfungsanmeldungen"
+    },
+    {
+      "nr": 3,
+      "titel": "f3 › Fakultaet III › Pruefungsverwaltung IK › 20240508 How to Pruefungsanmeldung — PRÜFUNGSANMELDUNG",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## PRÜFUNGSANMELDUNG"
+    },
+    {
+      "nr": 4,
+      "titel": "f2 › Abt M › Sonstiges › Informationen Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung Sommersemester 2026.",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Wichtige Informationen zur Prüfungsanmeldung Sommersemester 2026.\n  ## 06.05.2026 – 20.05.2026\n  ## Anmeldung von Prüfungen:\n  ## Abmeldung von Prüfungen :\n  ## Notenverbesserungen:\n  ## Krankmeldung/Atteste:\n  ## Link für die Anmeldung:\n  ## Probleme bei der Anmeldung:"
+    },
+    {
+      "nr": 5,
+      "titel": "f4 › Informatik › Archiv › Hinweis zur Pruefungsanmeldung im WS 2019 2020 Januar",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/Hinweis_zur_Pruefungsanmeldung_im_WS_2019_2020_Januar.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Ein Hinweis zum Schluss: Beachten Sie bitte auch die Möglichkeit einer Zwangsanmeldung zu Zweitversuchen bzw. weiteren Versuchszählungen!\n  ## Zu welchen Prüfungen Sie konkret angemeldet sind, können Sie jederzeit über den iCMS-Link abrufen."
+    },
+    {
+      "nr": 6,
+      "titel": "f4 › Pruefungsplan › WI › 26 04 29 Kurzanleitung Pruefungsan und abmeldung",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/26-04-29-Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Kurzanleitung\n  ## Campusmanagement\n  ## Prüfungsan- und -abmeldung\n  ## 1. Prüfungsanmeldung\n  ## Kurzanleitung Campusmanagement Prüfungsan- und -abmeldung\n  ## 2. Prüfungsabmeldung\n  ## ①\n  ## ②\n  ## Kurzanleitung Campusmanagement Prüfungsan- und -abmeldung\n  ## ④\n  ## 3. Bescheinigung über angemeldete Prüfungen\n  ## 4. Fehlerhafte Anmeldung?\n  ## Die Pflichtanmeldung"
+    },
+    {
+      "nr": 7,
+      "titel": "f4 › Pruefungsplan › WI › 260601 Kurzanleitung Pruefungsan und abmeldung ueberarbeitet — Prüfungsan- und -abmeldung",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Kurzanleitung\n  ## Campusmanagement\n  ## Prüfungsan- und -abmeldung\n  ## 1. Prüfungsanmeldung\n  ## Kurzanleitung Campusmanagement Prüfungsan- und -abmeldung\n  ## ③\n  ## ④\n  ## 2. Prüfungsab- und -ummeldung\n  ## ①\n  ## Kurzanleitung Campusmanagement Prüfungsan- und -abmeldung\n  ## ③\n  ## ④\n  ## ⚠\n  ## ⚠\n  ## 3. Bescheinigung über angemeldete Prüfungen\n  ## 4. Fehlerhafte Anmeldung?\n  ## Die Pflichtanmeldung"
+    },
+    {
+      "nr": 8,
+      "titel": "f2 › service › quicklinks abteilung mmd › pruefungsplaene abt m md — Prüfungen",
+      "url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-mmd/pruefungsplaene-abt-m-md",
+      "fakultaet": "f2",
+      "struktur": "# Prüfungen\n  ## Sommersemester 2026\n    ### Prüfungszeitraum vom 15.06. - 10.07.2026"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.98547,
+      "id": "688ec337-dac2-5c58-ad82-0a1efac0253e",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f2 › Service › Pruefungsplan › Wichtige Info zur Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung",
+      "section_heading": "**Wichtige Informationen zur Prüfungsanmeldung**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **Arbeitsunfähigkeitsbescheinigungen (die sogenannten „Gelben Scheine“) werden von der Hochschule Hannover nicht anerkannt!**  \nIm Krankheitsfall ist die Prüfung im nächsten Prüfungszeitraum zu schreiben.\n\n## **Wichtige Informationen zur Prüfungsanmeldung**  \nSollten Sie Probleme bei der An- bzw."
+    },
+    {
+      "rang": 2,
+      "score": 2.99445,
+      "id": "f1e1433e-7d2b-509d-a042-166a588dbe51",
+      "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-bv/pruefungsplaene-abt-bv",
+      "title_anzeige": "f2 › service › quicklinks abteilung bv › pruefungsplaene abt bv — Sommersemester 2026",
+      "section_heading": "Prüfungsanmeldungen",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### Prüfungszeitraum vom 15.06. - 10.07.2026\n[ Prüfungsplan Sommersemester 2026 (Stand: 25.06.2026) - Änderungen vorbehalten! ](https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Pruefungsplan_SoSe_2026_Stand_25062026.pdf)\n[ Wichtige Informationen zur Prüfungsanmeldung"
+    },
+    {
+      "rang": 3,
+      "score": 2.54012,
+      "id": "9962338a-8414-5fd1-ae34-c8b37415f3ef",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Pruefungsverwaltung IK › 20240508 How to Pruefungsanmeldung — PRÜFUNGSANMELDUNG",
+      "section_heading": "**PRÜFUNGSANMELDUNG**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Bis zu dem Modul navigie- **4** ren, in dem die Prüfungsanmeldung erfolgen soll. Durch Klick auf die Veranstaltung werden weitere Informationen zur Prüfung sowie der Link zur Anmeldung angezeigt.  \nIm nächsten Schritt die An- **5** meldung bestätigen, danach öffnet sich eine Zusammenfassung des Vorg"
+    },
+    {
+      "rang": 4,
+      "score": 2.3902,
+      "id": "af261cd9-0423-5205-ac87-5c09e2dafa80",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+      "title_anzeige": "f2 › Abt M › Sonstiges › Informationen Pruefungsanmeldung — Wichtige Informationen zur Prüfungsanmeldung Sommersemester 2026.",
+      "section_heading": "**Probleme bei der Anmeldung:**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **Probleme bei der Anmeldung:**  \nÜberprüfen Sie Ihre Anmeldung während der Anmeldezeit! Sollten Sie Probleme mit der Anmeldung von Prüfungen haben, wenden Sie sich bitte **umgehend** und **im Anmeldezeitraum per E-Mail** (von Ihrem Hochschul-Account) an katja.offermann@hshannover.de!  \n**Hinweis"
+    },
+    {
+      "rang": 5,
+      "score": 2.27534,
+      "id": "55708fcc-0e78-50fc-9773-7d0b9350b103",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/Hinweis_zur_Pruefungsanmeldung_im_WS_2019_2020_Januar.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › Hinweis zur Pruefungsanmeldung im WS 2019 2020 Januar",
+      "section_heading": "",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "**Weiterhin möchten wir darauf hinweisen, dass der Prüfungsausschuss der Abteilung Informatik beschlossen hat, keine nachträglichen Anmeldungen zuzulassen!** Beachten Sie also bitte den bereits erwähnten Anmeldezeitraum und melden Sie sich bei Problemen bitte auch innerhalb dieser Zeit bei uns! Dana"
+    },
+    {
+      "rang": 6,
+      "score": 2.1966,
+      "id": "37422efd-9de3-5f44-8ecf-39c6c0f401ed",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/26-04-29-Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › WI › 26 04 29 Kurzanleitung Pruefungsan und abmeldung",
+      "section_heading": "Die Pflichtanmeldung",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## Die Pflichtanmeldung  \nBei Pflichtanmeldungen handelt es sich um Prüfungsanmeldungen, zu denen Sie gemäß Ihrer jeweiligen Prüfungsordnung verpflichtend angemeldet sein müssen.  \nDie Anmeldung erfolgt durch die Prüfungsverwaltung Ihrer Fakultät, eine selbstständige Abmeldung ist nicht möglich.  \nP"
+    },
+    {
+      "rang": 7,
+      "score": 2.18737,
+      "id": "45206b4f-58b3-574e-ba7d-daee87f314ef",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › WI › 260601 Kurzanleitung Pruefungsan und abmeldung ueberarbeitet — Prüfungsan- und -abmeldung",
+      "section_heading": "Die Pflichtanmeldung",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## Die Pflichtanmeldung  \nBei Pflichtanmeldungen handelt es sich um Prüfungsanmeldungen, zu denen Sie gemäß Ihrer jeweiligen Prüfungsordnung verpflichtend angemeldet sein müssen.  \nDie Anmeldung erfolgt durch die Prüfungsverwaltung Ihrer Fakultät, eine selbstständige Abmeldung ist nicht möglich.  \nP"
+    },
+    {
+      "rang": 8,
+      "score": 2.0248,
+      "id": "10c585af-d819-5808-bcbe-e6baf720517e",
+      "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-mmd/pruefungsplaene-abt-m-md",
+      "title_anzeige": "f2 › service › quicklinks abteilung mmd › pruefungsplaene abt m md — Prüfungen",
+      "section_heading": "Prüfungen",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n# Prüfungen\nDie Prüfungsanmeldungen werden jedes Semester zum angegebenen Zeitraum (siehe Zeitplan) über folgenden Link:<https://campusmanagement.hs-hannover.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces> selbständig durch die Studierenden "
+    },
+    {
+      "rang": 9,
+      "score": 2.0072,
+      "id": "57319fae-a700-51ea-85eb-47baaa30faac",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik > Sprechen Sie sich aus.",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## Sprechen Sie sich aus.\nDas waren viele Informationen, die erstmal verdaut werden müssen. Sie haben Fragen oder Anregungen? Wenden Sie sich gern an uns!\n#### FAKULTÄT I – ELEKTRO- UND INFORMATIONSTECHNIK\nFür die Fakultät I Elektro- und Informationstechnik ist Ihre erste Anlaufstelle das [Dekanat]("
+    },
+    {
+      "rang": 10,
+      "score": 2.0056,
+      "id": "947f4bea-e094-517a-85d6-a6ac09f7ecc4",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-06-01-Pruefungsplan_SS21-2021-06-01.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 21 06 01 Pruefungsplan SS21 2021 06 01 — Pr¨ufungsplan der Abteilung Informatik f¨ur den Juni/Juli 2021",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "- Falls Sie sich zu einer Pr¨ufung nicht anmelden k¨onnen (Fach ist nicht auffindbar oder o.¨a.), schreiben Sie bitte rechtzeitig eine Email an Frau Dzinblewski oder Frau Nold.  \n- Wir planen zwar keine Anderungen,[¨] aber vergewissern Sie sich bitte kurz vor den Pr¨ufungen anhand der aktuellen Vers"
+    },
+    {
+      "rang": 11,
+      "score": 1.98852,
+      "id": "ad655e6a-4209-5546-a29b-658b3028b847",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/2026_04_28_Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › BWL › 2026 04 28 Kurzanleitung Pruefungsan und abmeldung",
+      "section_heading": "**Die Pflichtanmeldung**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **Die Pflichtanmeldung**  \nBei Pflichtanmeldungen handelt es sich um Prüfungsanmeldungen, zu denen Sie gemäß Ihrer jeweiligen Prüfungsordnung verpflichtend angemeldet sein müssen.  \nDie Anmeldung erfolgt durch die Prüfungsverwaltung Ihrer Fakultät, eine selbstständige Abmeldung ist nicht möglich."
+    },
+    {
+      "rang": 12,
+      "score": 1.96283,
+      "id": "2b0dacc8-6656-56ed-ab20-3d12552d0602",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-09-03-Pruefungsplan_Sep2020_WS2021.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 20 09 03 Pruefungsplan Sep2020 WS2021 — Pr¨ufungsplan der Abteilung Informatik f¨ur den September 2020",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "- Falls Sie sich zu einer Pr¨ufung nicht anmelden k¨onnen (Fach ist nicht auffindbar oder o.¨a.), schreiben Sie bitte rechtzeitig eine Email an Frau Dzinblewski oder Frau Nold.  \n- Wir planen zwar keine Anderungen,[¨] aber vergewissern Sie sich bitte kurz vor den Pr¨ufungen anhand der aktuellen Vers"
+    },
+    {
+      "rang": 13,
+      "score": 1.87533,
+      "id": "e3b3e18b-adca-5f15-b08c-555d6c516baa",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 2025 08 25 InfobroschuereErstsemesterInformatik 2025 2026 0825 — IN DEN STUDIENGÄNGEN",
+      "section_heading": "**8.3 Anschrift und Rufnummer auf einen Blick**",
+      "chunk_index": 44,
+      "text_vollstaendig": true,
+      "auszug": "## **8.3 Anschrift und Rufnummer auf einen Blick**  \nHochschule Hannover Fakultät IV Abteilung Informatik Ricklinger Stadtweg 120 30459 Hannover E-Mail: f4-i-dekanat@hs-hannover.de  \nSekretariat und Prüfungsverwaltung (Raum 1H.2.16):  \nFrau Claudia Dzinblewski Telefon: (0511) 92 96 –1802 E-Mail: cla"
+    },
+    {
+      "rang": 14,
+      "score": 1.73117,
+      "id": "e8531dcc-11c6-5851-a3c4-239bb5bfe50a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "section_heading": "**Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - Neufassung**",
+      "chunk_index": 41,
+      "text_vollstaendig": false,
+      "auszug": "**84**|||||||||||||\n|**Die Prüfungsanmeldung des 1. Semesters erfolgt  nach § 7 Abs. 2 durch die Prüfungsverwaltung**|||||||||||||  \nDezernat III / PO IBS / 02.07.2018  \nNr. 10/2018 vom 30.09.2018  \nVerkündungsblatt der Hochschule Hannover"
+    },
+    {
+      "rang": 15,
+      "score": 1.62654,
+      "id": "5f5d4f4d-140e-57ac-8513-f7b8b16dcf89",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/23-06-15_Pruefungsplan_SS23.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 23 06 15 Pruefungsplan SS23",
+      "section_heading": "**–** Die Aula (1A.001) befindet sich auf dem Campus Linden im Hauptgeb¨aude.",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **–** Die Aula (1A.001) befindet sich auf dem Campus Linden im Hauptgeb¨aude.  \n- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wenden Sie sich bitte an die/den Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterb"
+    },
+    {
+      "rang": 16,
+      "score": 1.61446,
+      "id": "fd008b26-9285-5ff5-8a2f-495e512d2749",
+      "source_url": "https://f3.hs-hannover.de/studium/pruefungsangelegenheiten",
+      "title_anzeige": "Prüfungsangelegenheiten der Fakultät III",
+      "section_heading": "Prüfungsangelegenheiten der Fakultät III",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Prüfungsangelegenheiten der Fakultät III\nHier finden Sie Informationen rund um Prüfungsangelegenheiten. Falls Sie weiterführende Fragen haben, wenden Sie sich bitte an unsere Kolleg*innen aus der Prüfungsverwaltung."
+    },
+    {
+      "rang": 17,
+      "score": 1.59459,
+      "id": "fa05b444-9950-52de-bc53-f90ebb5ec93a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-02-21-Pruefungsplan_SS21_Maerz.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 21 02 21 Pruefungsplan SS21 Maerz — Pr¨ufungsplan der Abteilung Informatik f¨ur den Februar/M¨arz 2021",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "- Die Aula (1A.001)befindet sich auf dem Campus Linden im Hauptgeb¨aude.  \n- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wenden Sie sich bitte an die/den Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k"
+    },
+    {
+      "rang": 18,
+      "score": 1.56647,
+      "id": "2c2f2db9-e082-5364-b3b3-6a95b8a1dc69",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+      "title_anzeige": "f5 › Relpaed › iCMS Moodle Anleitung Studierende › Anleitung fuer Studierende zur Pruefungsanmeldung in iCMS — Anleitung zur Prüfungsanmeldung für Studierende im iCMS",
+      "section_heading": "Abmeldung von Prüfungen:",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Abmeldung von Prüfungen:  \nAuf die gleiche Weise lassen sich bereits angemeldete Prüfungen wieder abmelden, soweit die Frist noch nicht abgelaufen ist. Hier ist die rot dargestellte Option „Prüfungsanmeldung stornieren“ zu wählen.  \nS e i t e 5 | 9  \nAnschließend ist wieder eine Bestätigung – wie"
+    },
+    {
+      "rang": 19,
+      "score": 1.56236,
+      "id": "684cd2ba-c33b-5a9f-85e5-b72234102a7e",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Prüfungsverwaltung der Fakultät I\n[ Ansprechpersonen ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung#ansprechpersonen) [ Formulare/Prüfungsangelegenheiten ](https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung#formulare)"
+    },
+    {
+      "rang": 20,
+      "score": 1.55499,
+      "id": "0a303b4b-73d8-5ab9-bff4-ec53a7381a49",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+      "title_anzeige": "Prüfungsverwaltung der Fakultät I",
+      "section_heading": "Prüfungsverwaltung der Fakultät I > Ansprechpersonen > Stephan Rittmüller",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Ansprechpersonen  \n### Stephan Rittmüller\nAllgemeine Fragen, Prüfungsanmeldungen, iCMS, 15 CP Überprüfung, Umbuchungen\nRicklinger Stadtweg\n30459 Hannover\nGebäude 1A Raum 1A.013\n[ +49 511 9296-1204/-7913 ](tel:+49%20511%209296-1204/-7913 \"+49 511 9296-1204/-7913 anrufen\")\n[ F1-Pruefungsverwaltung("
+    },
+    {
+      "rang": 21,
+      "score": 1.52303,
+      "id": "e7a2fee1-f408-5524-a4b4-6e5bc8038cab",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 25 09 10 Studienhandbuch 2025 AbtlgInf StudyGuide CSDept 080925",
+      "section_heading": "Assistant to the dean of studies:",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## Assistant to the dean of studies:  \nMs. Claudia Dzinblewski, Tel. 0511/9296-1802 E-mail: F4-I-Dekanat@hs-hannover.de , claudia.dzinblewski@hs-hannover.de  \nExaminations  \nProf. Dr. Frauke Sprengel, Tel. 0511/9296-1812 E-mail: frauke.sprengel@hs-hannover.de  \nFaculty Administration: Ms. Anna Bühle"
+    },
+    {
+      "rang": 22,
+      "score": 1.42386,
+      "id": "2e1d1f0d-40cf-5505-9473-a7ce0ae4247f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/021-MH-BSW-PO-2021-WiSe_2025-26-Stand-16.03.2025-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 021 MH BSW PO 2021 WiSe 2025 26 Stand 16.03.2025 web",
+      "section_heading": "**2. Studiendekanat, Verwaltung**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **2. Studiendekanat, Verwaltung**  \nStudiendekan: Prof.in Dr. Anke Neuber Tel.: 0511 9296 3190 E-Mail: anke.neuber@hs-hannover.de Büro: 3B.1.02 StudiendekanatsBianca Hofmann assistenz: Tel.: 0511 9296 7689 E-Mail: bianca.hofmann@hs-hannover.de Büro: 3C.1.10 Marie-Claire Jovanovic Tel.: 0511 9296 "
+    },
+    {
+      "rang": 23,
+      "score": 1.32578,
+      "id": "89512a46-de33-5ad4-9097-c49064143be7",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch BIS PO 2018 25 10 07",
+      "section_heading": "IT-Team",
+      "chunk_index": 15,
+      "text_vollstaendig": false,
+      "auszug": "|||Mitarbeiter- und Dozentenarbeitsplätze|\n|•|Jörg Rutzen:|Internet, Öffentlichkeitsarbeit, Multimedia, Medienpoolgeräte und Seminarräume|  \nSie finden das IT-Team in den Räumen 1H.1.31, 1H.1.31a, 1H.1.36, 1H.1.43 und 1H.1.45. Bei IT-Problemen wenden Sie sich bitte zunächst an die studentische Hilfs"
+    },
+    {
+      "rang": 24,
+      "score": 1.32366,
+      "id": "be69c88f-6c64-5726-a37a-13bde60fde57",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-06-23-Pruefungsplan_SS26.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › Informatik › 2026 06 23 Pruefungsplan SS26",
+      "section_heading": "**Allgemeine Anmerkungen:**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "- Falls Sie sich zu einer Pr¨ufung nicht anmelden k¨onnen (Fach ist nicht auffindbar oder o.¨a.), schreiben Sie bitte rechtzeitig eine Email an Frau Dzinblewski.  \n- Wir planen zwar keine Anderungen,[¨] aber vergewissern Sie sich bitte kurz vor den Pr¨ufungen anhand der aktuellen Version im Web, das"
+    },
+    {
+      "rang": 25,
+      "score": 1.32204,
+      "id": "481e154a-ad75-558c-978b-8cd1c59d055f",
+      "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+      "title_anzeige": "itr › kontakt",
+      "section_heading": "Impressum",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "#\n# Impressum\n#####  Herausgeber\nHochschule Hannover Fakultät I – Elektro- und Informationstechnik Ricklinger Stadtweg 120 30459 Hannover Telefon: +49 511 9296-1201 E-Mail: f1-dekanat@hs-hannover.de\nDie Hochschule Hannover ist eine Körperschaft des öffentlichen Rechts. Die Fakultät I – Elektro- und "
+    },
+    {
+      "rang": 26,
+      "score": 1.31899,
+      "id": "15692b96-d11b-5215-a212-1666de3b8a69",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+      "title_anzeige": "f5 › Relpaed › iCMS Moodle Anleitung Studierende › Anleitung fuer Studierende zur Pruefungsanmeldung in iCMS — Anleitung zur Prüfungsanmeldung für Studierende im iCMS",
+      "section_heading": "Anleitung zur Prüfungsanmeldung für Studierende im iCMS",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "- sich über organisatorische Änderungen zu vorgemerkten Lehrveranstaltungen informieren lassen,  \n- nach Lehrenden suchen, um z.B. auf Kontaktdaten zuzugreifen.  \nÜber weitere Funktionen, die im Laufe des Projektes dazukommen, werden Sie gesondert informiert.  \nIn dieser Anleitung wird lediglich die"
+    },
+    {
+      "rang": 27,
+      "score": 1.31769,
+      "id": "feb275d1-b11f-5e7b-9d4d-cff70e11a3ef",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/2026_Antrag_auf_Zulassung_zur_Einstufungspruefung.pdf",
+      "title_anzeige": "f5 › Pflege › Pruefungen › 2026 Antrag auf Zulassung zur Einstufungspruefung — 3. Hochschulzugangsberechtigung",
+      "section_heading": "**___________________________________________________________________________________________________________________________Ort, Datum Unterschrift**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **___________________________________________________________________________________________________________________________Ort, Datum Unterschrift**  \nFür evtl. Rückfragen steht Ihnen Frau Gleißner, Prüfungsamt der Fakultät V der Hochschule Hannover, unter der E-Mail-Adresse sarah.gleissner@hs-"
+    },
+    {
+      "rang": 28,
+      "score": 1.30901,
+      "id": "553f6a83-fec1-5e10-b668-625ec6656ff0",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-02-21-Pruefungsplan_SS21_Maerz.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 21 02 21 Pruefungsplan SS21 Maerz — Pr¨ufungsplan der Abteilung Informatik f¨ur den Februar/M¨arz 2021",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "- Falls Sie sich zu einer Pr¨ufung nicht anmelden k¨onnen (Fach ist nicht auffindbar o.¨a.), schreiben Sie bitte rechtzeitig eine Email an F4-I-Dekanat@hs-hannover.de.  \n- Wir planen zwar keine Anderungen,[¨] aber vergewissern Sie sich bitte kurz vor den Pr¨ufungen anhand der aktuellen Version im We"
+    },
+    {
+      "rang": 29,
+      "score": 1.30575,
+      "id": "dfd60415-510b-5ed0-91c3-b71c111886aa",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-03-26-Pruefungsplan_SS26.pdf",
+      "title_anzeige": "f4 › Pruefungsplan › Informatik › 2026 03 26 Pruefungsplan SS26",
+      "section_heading": "**Allgemeine Anmerkungen:**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "- Pr¨ufungen, die Sie in diesem Plan nicht finden k¨onnen, werden außerhalb des Pr¨ufungszeitraums durchgef¨uhrt. Bei Fragen wenden Sie sich bitte an die/den Pr¨ufenden.  \n- Wahlpflichtf¨acher im Bachelor- und Masterbereich k¨onnen auch dann gepr¨uft werden, wenn sie nicht explizit im Pr¨ufungsplan "
+    },
+    {
+      "rang": 30,
+      "score": 1.30032,
+      "id": "ff0f68f2-d55e-5cb2-9971-1aef9a64fb22",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/22-06-02-Pruefungsplan_SS22_JuniJuli22.pdf",
+      "title_anzeige": "f4 › Informatik › Archiv › 22 06 02 Pruefungsplan SS22 JuniJuli22",
+      "section_heading": "**Anmerkungen:**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "- Falls Sie sich zu einer Pr¨ufung nicht anmelden k¨onnen (Fach ist nicht auffindbar oder o.¨a.), schreiben Sie bitte rechtzeitig eine Email an Frau Dzinblewski.  \n- Wir planen zwar keine Anderungen,[¨] aber vergewissern Sie sich bitte kurz vor den Pr¨ufungen anhand der aktuellen Version im Web, das"
+    }
+  ],
+  "arme": {
+    "text": [
+      {
+        "rang": 1,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+        "score": 0.61684
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+        "score": 0.61545
+      },
+      {
+        "rang": 3,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+        "score": 0.58187
+      },
+      {
+        "rang": 4,
+        "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+        "score": 0.56775
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+        "score": 0.56455
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/26-04-29-Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+        "score": 0.5645
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/Hinweis_zur_Pruefungsanmeldung_im_WS_2019_2020_Januar.pdf",
+        "score": 0.56321
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-06-23-Pruefungsplan_SS26.pdf",
+        "score": 0.5632
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-bv/pruefungsplaene-abt-bv",
+        "score": 0.56291
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf",
+        "score": 0.56283
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+        "score": 0.55997
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/Hinweis_zur_Pruefungsanmeldung_im_SS_2019_Juni.pdf",
+        "score": 0.55992
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 0.55796
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-03-26-Pruefungsplan_SS26.pdf",
+        "score": 0.55574
+      },
+      {
+        "rang": 15,
+        "source_url": "https://service.it.hs-hannover.de/de/faqs/akademische-angelegenheiten/campusmanagemtsystem-fur-studierende",
+        "score": 0.5533
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+        "score": 0.54979
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-06-01-Pruefungsplan_SS21-2021-06-01.pdf",
+        "score": 0.54817
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Formulare/20-02-19-Anmeldung_Wiederholung_bestandene_Pruefung_alle_Studiengaenge_Informatik_aeltere_POs.pdf",
+        "score": 0.54776
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/FAQ_Pruefungen.pdf",
+        "score": 0.54277
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/FAQ.pdf",
+        "score": 0.54277
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+        "score": 0.54259
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+        "score": 0.53894
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-05-29-Hinweis_zur_Pruefungsanmeldung_im_SS_2020_Juni.pdf",
+        "score": 0.53573
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/Pruefungsmerkblatt_CMO_13.2.26.pdf",
+        "score": 0.5343
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-02-21-Pruefungsplan_SS21_Maerz.pdf",
+        "score": 0.53356
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/FAQ.pdf",
+        "score": 0.53296
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/22-02-22_Pruefungsplan_SS22.pdf",
+        "score": 0.53213
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+        "score": 0.53076
+      },
+      {
+        "rang": 29,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+        "score": 0.52962
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+        "score": 0.52958
+      },
+      {
+        "rang": 31,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_1-2024_Ausschreibungstext_Monitoring.pdf",
+        "score": 0.52949
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-12-22-Pruefungsplan_WS2122_Jan22.pdf",
+        "score": 0.52916
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/2026_04_28_Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+        "score": 0.52902
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+        "score": 0.52885
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 0.52879
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 0.52853
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+        "score": 0.52787
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-10-07-Pruefungsplan_Jan2021_WS2021.pdf",
+        "score": 0.5268
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/2025-04-02_Pruefungsplan_SS25.pdf",
+        "score": 0.52649
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+        "score": 0.52562
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+        "score": 0.52554
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 0.52532
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/23-02-14_Pruefungsplan_SS23_V2.pdf",
+        "score": 0.52437
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+        "score": 0.52285
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/PO_BBA.pdf",
+        "score": 0.52132
+      },
+      {
+        "rang": 46,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/04_PO_IBS.pdf",
+        "score": 0.5213
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 0.52016
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+        "score": 0.51893
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Studien-Modulhandbuch-PO2021-240317.pdf",
+        "score": 0.51847
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-02-21-Pruefungsplan_SS21_Maerz.pdf",
+        "score": 0.51781
+      }
+    ],
+    "questions": [
+      {
+        "rang": 1,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+        "score": 0.84675
+      },
+      {
+        "rang": 2,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/beurlaubung",
+        "score": 0.73472
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/015-MH-BRS-PO-2021-WiSe-24-25-Stand-13.08.2024-web.pdf",
+        "score": 0.73188
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-06-01-Pruefungsplan_SS21-2021-06-01.pdf",
+        "score": 0.71881
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-09-03-Pruefungsplan_Sep2020_WS2021.pdf",
+        "score": 0.71878
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 0.71834
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-06-23-Pruefungsplan_SS26.pdf",
+        "score": 0.7181
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-mmd/pruefungsplaene-abt-m-md",
+        "score": 0.71518
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/22-06-02-Pruefungsplan_SS22_JuniJuli22.pdf",
+        "score": 0.71007
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/pflege-bdp/pflege-ausbildungsbegleitend",
+        "score": 0.70631
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-bv/pruefungsplaene-abt-bv",
+        "score": 0.70545
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs",
+        "score": 0.70473
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f5.hs-hannover.de/studium/master-studiengaenge/management-fuer-pflege-und-gesundheitsberufe-mmg",
+        "score": 0.69752
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f5.hs-hannover.de/studium/master-studiengaenge/erweiterte-pflegepraxis-advanced-nursing-practice-anp/-community-health-nursing-chn-mep",
+        "score": 0.69398
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 0.69342
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/pflege-bdp/pflege-berufsbegleitend",
+        "score": 0.69234
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f5.hs-hannover.de/studium/master-studiengaenge/bildungswissenschaften-fuer-pflege-und-gesundheitsberufe-mbg",
+        "score": 0.6901
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+        "score": 0.68581
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+        "score": 0.67776
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf",
+        "score": 0.6745
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f2.hs-hannover.de/ueber-uns/fakultaetsverwaltung",
+        "score": 0.67441
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/020-MH-BSW-PO-2021-SoSe_2025-Stand-09.01.2025-web.pdf",
+        "score": 0.67306
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/2026_Antrag_auf_Zulassung_zur_Einstufungspruefung.pdf",
+        "score": 0.66862
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs-1",
+        "score": 0.66772
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+        "score": 0.66318
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Sonstiges/Informationen_Pruefungsanmeldung.pdf",
+        "score": 0.66222
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf",
+        "score": 0.66199
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f3.hs-hannover.de/studium/pruefungsangelegenheiten",
+        "score": 0.65693
+      },
+      {
+        "rang": 29,
+        "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+        "score": 0.65647
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+        "score": 0.64985
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+        "score": 0.63964
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/2026_04_28_Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+        "score": 0.63928
+      },
+      {
+        "rang": 33,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/info-point",
+        "score": 0.63768
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf",
+        "score": 0.63654
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Veranstaltungsmanagement/BVM_RiggingPoint_13_20210910_web.pdf",
+        "score": 0.63525
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f2.hs-hannover.de/studium/studierende/checkliste-zum-studienbeginn",
+        "score": 0.63524
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/2025-04-02_Pruefungsplan_SS25.pdf",
+        "score": 0.63491
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-02-21-Pruefungsplan_SS21_Maerz.pdf",
+        "score": 0.63474
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+        "score": 0.6346
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/Hinweis_zur_Pruefungsanmeldung_im_WS_2019_2020_Januar.pdf",
+        "score": 0.62844
+      },
+      {
+        "rang": 41,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Berufungsmanagement/W2_10-2024_Monitoring_Ausschreibungstext.pdf",
+        "score": 0.62659
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f5.hs-hannover.de/studium/abteilung-heilpaedogogik-1",
+        "score": 0.62644
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f5.hs-hannover.de/studium/abteilung-heilpaedogogik",
+        "score": 0.62644
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+        "score": 0.62474
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-06-23-Pruefungsplan_SS26.pdf",
+        "score": 0.62471
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-02-21-Pruefungsplan_SS21_Maerz.pdf",
+        "score": 0.62466
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f3.hs-hannover.de/ueber-uns/dekanat-und-dekanatsverwaltung",
+        "score": 0.62397
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Veranstaltungsmanagement/BVM_RiggingPoint_13_20210910_web.pdf",
+        "score": 0.62336
+      },
+      {
+        "rang": 49,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/22-02-22_Pruefungsplan_SS22.pdf",
+        "score": 0.61802
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/POM_Vorlagen/Genehm.verfahren-Vorlage-Fakultaet_2016.pdf",
+        "score": 0.61658
+      }
+    ],
+    "sparse": [
+      {
+        "rang": 1,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+        "score": 23.32947
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/2026_04_28_Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+        "score": 22.37751
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/26-04-29-Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+        "score": 22.37751
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf",
+        "score": 22.37751
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+        "score": 21.97107
+      },
+      {
+        "rang": 6,
+        "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-bv/pruefungsplaene-abt-bv",
+        "score": 21.35242
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-mmd/pruefungsplaene-abt-m-md",
+        "score": 18.49245
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 18.17425
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/FAQ.pdf",
+        "score": 16.97321
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/FAQ_Pruefungen.pdf",
+        "score": 16.97321
+      },
+      {
+        "rang": 11,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/beratung",
+        "score": 16.94031
+      },
+      {
+        "rang": 12,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/heilpaedagogik-inklusive-bildung-und-begleitung-berufsintegrierend-hbi",
+        "score": 16.82416
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/unternehmensentwicklung-mbd",
+        "score": 16.59657
+      },
+      {
+        "rang": 14,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/default-aff3760e674ff03e9e67e238bc6f59e8",
+        "score": 16.48507
+      },
+      {
+        "rang": 15,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/heilpaedagogik-inklusive-bildung-und-begleitung-bah",
+        "score": 16.37506
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/FAQ.pdf",
+        "score": 16.29684
+      },
+      {
+        "rang": 17,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20170328_Protokoll_12.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+        "score": 15.67317
+      },
+      {
+        "rang": 18,
+        "source_url": "https://f4.hs-hannover.de/internationales/haeufig-gestellte-fragen-faq",
+        "score": 15.49606
+      },
+      {
+        "rang": 19,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/studium-mit-handicap",
+        "score": 15.22672
+      },
+      {
+        "rang": 20,
+        "source_url": "https://www.hs-hannover.de/hsh-akademie/weiterbildungen-a-z/herausforderung-oder-ueberforderung-wirksam-fuehren-mit-konzepten-der-transaktionsanalyse",
+        "score": 15.09387
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/Schutzkonzepte_in_der_Schule_partizipativ.pdf",
+        "score": 15.09387
+      },
+      {
+        "rang": 22,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+        "score": 15.06785
+      },
+      {
+        "rang": 23,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/FAQ.pdf",
+        "score": 15.00159
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Pruefungen/FAQ_Pruefungen.pdf",
+        "score": 15.00159
+      },
+      {
+        "rang": 25,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Stud_-_Ansprechpersonen_Gefaehrungsbeurteilung.pdf",
+        "score": 14.57877
+      },
+      {
+        "rang": 26,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EV_WS2021.pdf",
+        "score": 14.49681
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EM_WS2021.pdf",
+        "score": 14.49681
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-02-20-WI-Pruefungsanmeldung_im_SoSe_2026.pdf",
+        "score": 14.4822
+      },
+      {
+        "rang": 29,
+        "source_url": "http://imc.f3.hs-hannover.de/PDF/IMC_Broschuere.pdf",
+        "score": 13.97623
+      },
+      {
+        "rang": 30,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Beratungsangebote/Mental_Health_First_Aid/Mental_Health_First_Aid.pdf",
+        "score": 13.81881
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw/bearatungsangebote/psychosoziale-beratung",
+        "score": 13.81881
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/Schutzkonzepte_in_der_Schule_partizipativ.pdf",
+        "score": 13.58922
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/gleichstellung-und-diversitaet",
+        "score": 13.47263
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+        "score": 13.28582
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EV_WS2021.pdf",
+        "score": 13.28343
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/20100325_Textinhalt_A4_NBA_Evaluation.pdf",
+        "score": 13.03985
+      },
+      {
+        "rang": 37,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+        "score": 12.94405
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/MAB-AM-WS2019-Modulhandbuch.pdf",
+        "score": 12.69886
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Qualifikationsziele_ADT.pdf",
+        "score": 12.69177
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+        "score": 12.5662
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Anleitung_fuer_Studierende_zur_Pruefungsanmeldung_in_iCMS.pdf",
+        "score": 12.54001
+      },
+      {
+        "rang": 42,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 12.53418
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+        "score": 12.50626
+      },
+      {
+        "rang": 44,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/IIM-WS2019-Modulhandbuch.pdf",
+        "score": 12.36567
+      },
+      {
+        "rang": 45,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung",
+        "score": 12.22517
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Fak_I_Broschuere_Outgoings-_2022_Endversion.pdf",
+        "score": 12.19949
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EV_WS2021.pdf",
+        "score": 12.18966
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EM_WS2021.pdf",
+        "score": 12.18966
+      },
+      {
+        "rang": 49,
+        "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+        "score": 12.13157
+      },
+      {
+        "rang": 50,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung",
+        "score": 12.06999
+      }
+    ],
+    "sparse_expanded": [
+      {
+        "rang": 1,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_BV/Service/Pruefungsplan/Wichtige_Info_zur_Pruefungsanmeldung.pdf",
+        "score": 31.92891
+      },
+      {
+        "rang": 2,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Pruefungsverwaltung_IK/20240508_How_to_Pruefungsanmeldung.pdf",
+        "score": 28.65348
+      },
+      {
+        "rang": 3,
+        "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-bv/pruefungsplaene-abt-bv",
+        "score": 28.53732
+      },
+      {
+        "rang": 4,
+        "source_url": "https://f2.hs-hannover.de/service/quicklinks-abteilung-mmd/pruefungsplaene-abt-m-md",
+        "score": 25.9494
+      },
+      {
+        "rang": 5,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/gleichstellung-und-diversitaet",
+        "score": 25.78306
+      },
+      {
+        "rang": 6,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Stud_-_Ansprechpersonen_Gefaehrungsbeurteilung.pdf",
+        "score": 21.88193
+      },
+      {
+        "rang": 7,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/2026-03-26-Pruefungsplan_SS26.pdf",
+        "score": 21.15616
+      },
+      {
+        "rang": 8,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf",
+        "score": 21.07883
+      },
+      {
+        "rang": 9,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/26-04-29-Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+        "score": 21.07883
+      },
+      {
+        "rang": 10,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/BWL/2026_04_28_Kurzanleitung_Pruefungsan-_und_-abmeldung.pdf",
+        "score": 20.90816
+      },
+      {
+        "rang": 11,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/Hinweis_zur_Pruefungsanmeldung_im_WS_2019_2020_Januar.pdf",
+        "score": 20.74615
+      },
+      {
+        "rang": 12,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/11-2024/01_PO_BBI.pdf",
+        "score": 19.37399
+      },
+      {
+        "rang": 13,
+        "source_url": "https://f1.hs-hannover.de/studium",
+        "score": 19.37163
+      },
+      {
+        "rang": 14,
+        "source_url": "https://f1.hs-hannover.de/ueber-uns/fakultaetsverwaltung/pruefungsverwaltung",
+        "score": 19.02617
+      },
+      {
+        "rang": 15,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung",
+        "score": 18.83007
+      },
+      {
+        "rang": 16,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/20-09-03-Pruefungsplan_Sep2020_WS2021.pdf",
+        "score": 18.76155
+      },
+      {
+        "rang": 17,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-06-01-Pruefungsplan_SS21-2021-06-01.pdf",
+        "score": 18.76155
+      },
+      {
+        "rang": 18,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/online-antraege-und-bewerbung",
+        "score": 18.61831
+      },
+      {
+        "rang": 19,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2020.pdf",
+        "score": 18.196
+      },
+      {
+        "rang": 20,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Studiengaenge/BMI/BMI_Studienhandbuch.pdf",
+        "score": 18.11216
+      },
+      {
+        "rang": 21,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIB_2017.pdf",
+        "score": 18.02914
+      },
+      {
+        "rang": 22,
+        "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+        "score": 18.02914
+      },
+      {
+        "rang": 23,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Schwangerschaftswegweiser_Region-Hannover_deutsch.pdf",
+        "score": 17.54725
+      },
+      {
+        "rang": 24,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Fak_I_Broschuere_Outgoings-_2022_Endversion.pdf",
+        "score": 17.50461
+      },
+      {
+        "rang": 25,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/21-09-08-Pruefungsplan_WS2122.pdf",
+        "score": 17.46906
+      },
+      {
+        "rang": 26,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+        "score": 17.46125
+      },
+      {
+        "rang": 27,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+        "score": 17.45043
+      },
+      {
+        "rang": 28,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+        "score": 17.44655
+      },
+      {
+        "rang": 29,
+        "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+        "score": 17.37027
+      },
+      {
+        "rang": 30,
+        "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+        "score": 17.32777
+      },
+      {
+        "rang": 31,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/20100325_Textinhalt_A4_NBA_Evaluation.pdf",
+        "score": 17.23577
+      },
+      {
+        "rang": 32,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/ZulO_BA_Mdual.pdf",
+        "score": 17.22963
+      },
+      {
+        "rang": 33,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EM_WS2021.pdf",
+        "score": 17.19707
+      },
+      {
+        "rang": 34,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/2025-02-05_Pruefungsplan_SS25.pdf",
+        "score": 17.07056
+      },
+      {
+        "rang": 35,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+        "score": 16.97682
+      },
+      {
+        "rang": 36,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/67_ADT_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 16.89821
+      },
+      {
+        "rang": 37,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+        "score": 16.84156
+      },
+      {
+        "rang": 38,
+        "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Internationales/Engl._Lectures-FI-II_WS_26-27.pdf",
+        "score": 16.84156
+      },
+      {
+        "rang": 39,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/Informatik/Archiv/23-06-15_Pruefungsplan_SS23.pdf",
+        "score": 16.69565
+      },
+      {
+        "rang": 40,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_EEE_EV_WS2021.pdf",
+        "score": 16.53415
+      },
+      {
+        "rang": 41,
+        "source_url": "https://f3.hs-hannover.de/studium/pruefungsangelegenheiten",
+        "score": 16.49094
+      },
+      {
+        "rang": 42,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Soziale_OEffnung/Soziale_OEffnung_Dokumente/Offene_Hochschule/Flyer_FHH-TALENT-PROGRAMM_alle_Fakultaeten.pdf",
+        "score": 16.48172
+      },
+      {
+        "rang": 43,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/MBD/2022-01-04-01_Informationen_zu_Praxis-und_Forschungsphasen.pdf",
+        "score": 16.45247
+      },
+      {
+        "rang": 44,
+        "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/11-2015/01_Beschaffungsrichtlinie_20151001.pdf",
+        "score": 16.44247
+      },
+      {
+        "rang": 45,
+        "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+        "score": 16.3129
+      },
+      {
+        "rang": 46,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+        "score": 16.22362
+      },
+      {
+        "rang": 47,
+        "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/iCMS-Moodle-Anleitung-Studierende/Heft_S_Nr._1__Anmeldung_zu_den_Lehrveranstaltungen_aus_der_Sicht_der_Studierenden_Stand_Mai_2021.pdf",
+        "score": 16.07436
+      },
+      {
+        "rang": 48,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/68_EAE_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 15.96475
+      },
+      {
+        "rang": 49,
+        "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/informationen-fuer-gefluechtete",
+        "score": 15.84989
+      },
+      {
+        "rang": 50,
+        "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/69_SKI_WS2025_Stand_15.04.2025_01.pdf",
+        "score": 15.72452
+      }
+    ]
+  },
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 2.54,
+    "kandidaten_s": 0.0,
+    "arme_s": 2.86,
+    "gesamt_s": 5.41
+  },
+  "auswahl_begruendung": ""
+}

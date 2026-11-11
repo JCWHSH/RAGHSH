@@ -1,0 +1,512 @@
+{
+  "fall": {
+    "id": "g17",
+    "case_type": "direct",
+    "question": "Wohin bringe ich mein Kind zur Notbetreuung, wenn in Niedersachsen gerade Ferien sind?",
+    "reference_answer": "Ins CompanyKids Back-up in der Großen Düwelstraße 16-18 in der Südstadt.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Soziale_Oeffnung/Soziale_OEffnung_Dokumente/Familienservice/FlyerNEU_BU_Hannover__003_.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Während der niedersächsischen Ferienzeiten: CompanyKids Back-up, Große Düwelstraße 16-18, 30171 Hannover"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ verwaltung_service/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "8d768593-71a8-57ec-9d43-f4e34b4b56c3",
+      "11a51292-73b6-543c-8fd7-07e9cde13362",
+      "36943489-c4a1-5601-872d-9bd82620d2e8",
+      "6e920663-4d4d-5616-b9c0-6c2e6c5b9b8e",
+      "69663ff0-eab4-5980-b385-ccfc91a5ea7f",
+      "511a49c2-4e63-5242-ab8f-e9144b565b5c",
+      "f07e6b8f-8d5f-5d45-b1e5-2b239a32d6e0",
+      "76b84cf4-ada9-5b0f-b388-3f1456738d6c",
+      "e46b8862-0987-5497-b366-6d8fc6780518",
+      "cd7fc06c-8665-5343-a9d0-33868609c80d"
+    ],
+    "beleg_punkte": [
+      "f07e6b8f-8d5f-5d45-b1e5-2b239a32d6e0"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Soziale_Oeffnung/Soziale_OEffnung_Dokumente/Familienservice/FlyerNEU_BU_Hannover__003_.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:57:25",
+  "dauer_s": 8.15,
+  "fehler": null,
+  "antwort": "Während der niedersächsischen Ferien bringen Sie Ihr Kind zur „CompanyKids Back-up, Große Düwelstraße 16-18, 30171 Hannover (Südstadt, Stadtbahnhaltestelle Braunschweiger Platz, Bushaltestelle Lutherstraße)\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Servicezentrum Beratung › Familienservice › Hilfen fuer Familien mit beh. chron",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Hilfen_fuer_Familien_mit_beh.__chron.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Hilfen für Familien mit behinderten, und\n  ## 1. Was leistet die Pflegeversicherung?\n  ## Allgemeine Informationen\n  ## Hilfen für Familien mit behinderten, chronischund schwerstkranken sowie pflegebedürftigen Kindern und Jugendlichen in Niedersachsen\n  ## Vorwort\n  ## Einleitung\n  ## Rechtliche Grundlagen\n  ## 1. Was leistet die Pflegeversicherung?\n  ## Wann sind Kinder oder Jugendliche pflege bedürftig?\n  ## Wie wird Pflegebedürftigkeit bei Kindern ermittelt?\n  ## Was ist zu tun, um die Feststellung des tatsächlichen Pflegebedarfes zu erleichtern?\n  ## Welche Leistungen gewährt die Pflegeversicherung?\n  ## 2. Was leistet die gesetzliche Krankenversicherung?\n  ## 3. Leistungen für Menschen, die behindert und von\n  ## Behinderung bedroht sind\n  ## Versorgungsangebote in Niedersachsen\n  ## 1. Beratung und Begleitung\n  ## a.  Pflegeberatung nach § 7a SGB XI\n  ## b.  (Senioren- und) Pflegestützpunkte Niedersachsen\n  ## c.  Pflegekurse und -trainings\n  ## e. Interdisziplinäre Beratungs- und Früherkennungsteams/Frühförderstellen\n  ## f.  Frühe Hilfen\n  ## d. Sozialpädiatrische Zentren\n  ## g.  Kinder- und Jugendpsychiatrische Dienste\n  ## h. Angebote der psychosozialen Betreuung für Angehörige\n  ## i. Sonstige Beratungsangebote\n  ## b. Sozialmedizinische Nachsorge\n  ## 2. Häusliche Versorgung\n  ## a. Kinderkrankenpflegedienste\n  ## c. Angebote zur Unterstützung im Alltag\n  ## g. Fachärztinnen und -ärzte für Kinder- und Jugendmedizin\n  ## d. Familienentlastende Dienste\n  ## e. Mobile Therapie\n  ## h. Fachärztinnen und -ärzte für Kinder- und Jugendpsychiatrie und -psychotherapie\n  ## f. Frühförderung und Entwicklungsberatung\n  ## 3. Häusliche Pflege bei Verhinderung einer Pflegeperson\n  ## 4. Kurzzeitpflege und vorübergehende Betreuung\n  ## a. Solitäre Einrichtungen der Kurzzeitpflege\n  ## b. Andere Kurzzeitpflegeangebote\n  ## 5. Versorgung in Dauerpflegeeinrichtungen\n  ## a.  Einrichtungen der Intensivpflege\n  ## b. Einrichtungen für schwerst-/mehrfachbehinderte Kinder\n  ## 6. Versorgung im Krankenhaus\n  ## a. Krankenhäuser mit Fachabteilungen für Kinderchirurgie, Kinderheilkunde bzw. Geburtshilfe\n  ## c. Kinder- und jugendpsychiatrische Institutsambulanzen (KJPIA)\n  ## 7. Medizinische Vorsorge, Rehabilitation, Kur und Erholung\n  ## 8. Versorgung bei begrenzter Lebenserwartung\n  ## b. Kliniken für Kinder- und Jugendpsychiatrie und Psychotherapie\n  ## a. Ambulante Kinder- und Jugendhospizdienste\n  ## b.  Stationäre Kinder- und Jugendhospize"
+    },
+    {
+      "nr": 2,
+      "titel": "www › servicezentrum beratung › familienservice › kinderbetreuung",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/kinderbetreuung",
+      "fakultaet": "",
+      "struktur": "# Kinderbetreuung"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Soziale OEffnung Dokumente › Familienservice › FlyerNEU BU Hannover 003 — ein angebot ihres arbeitgebers",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Soziale_Oeffnung/Soziale_OEffnung_Dokumente/Familienservice/FlyerNEU_BU_Hannover__003_.pdf",
+      "fakultaet": "",
+      "struktur": "  ## ein angebot ihres arbeitgebers\n  ## lernen sie uns kennen!\n  ## vernetzt, lokal erfahren\n  ## back-up -einrichtungen\n  ## wann springt das back-up ein?\n  ## betre ~~u~~ ungszeiten\n  ## betreuungsort\n  ## Außerhalb der niedersächsischen Ferienzeiten:\n  ## buch ~~un~~ g\n  ## 0511 700200-0\n  ## mitzubringen sind"
+    },
+    {
+      "nr": 4,
+      "titel": "f5 › Personen › Romppel › erfolgsgeschichten — Erfolgsgeschichten der Gemeinwesenarbeit",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/erfolgsgeschichten.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Erfolgsgeschichten der Gemeinwesenarbeit\n  ## Vorwort\n  ## Einleitung\n  ## Sozialarbeiter und Sozialarbeiterinnen schildern\n  ## Wir sammeln Erfolgsgeschichten, welche fällt Dir da ein?\n  ## Netzwerke für den Alltag sind entstanden\n  ## So haben wir die Arbeit zum Laufen gebracht\n  ## Wie kann man das Projekt bezeichnen?\n  ## Ohne fachliche Unterstützung geht es nicht\n  ## Wir müssen gucken, was die mitbringen\n  ## Hat sich das dann irgendwann normalisiert?\n  ## Wie war das mit Teamarbeit?\n  ## ...so ein bisschen heimatlos\n  ## Wodurch blieb das Interesse erhalten oder »das Feuer am Brennen«?\n  ## Die Frauen sind im Stadtteil aktiv geworden\n  ## Ein großes Ziel ist, dass sich das insgesamt im Stadtteil stärker entwickelt\n  ## Erfolge sieht man manchmal erst Jahre später\n  ## Erfolg ist, wenn wir einen guten Ruf haben\n  ## Zeit haben und Spielräume\n  ## Zur Situation der Jugendlichen\n  ## Spielraum muss man haben\n  ## »Dass sie die Jahre ohne strafrechtliche Konsequenzen durchstehen«\n  ## Vertrauen wird uns entgegengebracht\n  ## Vernetzung ist essentiell wichtig bei unserer Arbeit\n  ## Unsere Arbeit läuft sehr stark über Vorbildwirkung\n  ## Da haben wir Freiheit, da redet uns niemand was drein\n  ## Das ist ein ewiger Prozess\n  ## Erhaltung des Status quo ist auch spannend\n  ## Und manches machen wir nicht in der Arbeitszeit\n  ## Erfolge sieht man manchmal erst Jahre später\n  ## Und Vandalismus ist weitaus weniger geworden\n  ## Es ging um Integration und das Zusammenleben\n  ## Es gibt Probleme zwischen Alteingesessenen und Neuen\n  ## stalten wollen«.\n  ## Die Gespräche an den Haustüren\n  ## Dann kam das Ganze ins Rollen\n  ## Die haben sich dann gegrüßt\n  ## Die Leute fühlen sich immer noch verantwortlich\n  ## Nach einem Jahr hat auch das Übergangswohnheim einen direkten Zugang bekommen\n  ## Umsonst einkaufen – das geht doch gar nicht?\n  ## Wie ist die Projektidee entstanden?\n  ## Ihr habt einen Eckladen gefunden, an einer Straßenkreuzung, an jeder Ecke ist ein Geschäft\n  ## Was ist daran das Besondere?\n  ## Welche Wirkungen waren am Anfang festzustellen?\n  ## Gab es Entwicklungsphasen des Projektes?\n  ## Und nach der Planungsphase ...\n  ## War das die Gründergeneration, die das mit aufgebaut hat?\n  ## Zu Beginn stand ein anderes Verhältnis zum Geben und Nehmen im Vordergrund\n  ## Die Leute denken eher kurzfristig\n  ## Was hält das Interesse am Umsonstladen aufrecht?"
+    },
+    {
+      "nr": 5,
+      "titel": "f5 › Hoschule u. Praxis › Niedersaechsische Vernetzungstreffen › Korrektur OEffentliche Online Ringvorlesung Was ist gutes Sterben",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Hoschule_u._Praxis/Niedersaechsische_Vernetzungstreffen/Korrektur_OEffentliche_Online-Ringvorlesung_Was_ist_gutes_Sterben.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Sommersemester 2024: Termine, Themen, Referierende\n  ## 04.04.2024: Der Tod als guter Coach für’s Leben?\n  ## 11.04.2024: Wann benötigen Patient:innen Palliativversorgung und wie werden sie erkannt? PD Dr. Kambiz Afshar, Medizinische Hochschule Hannover, Institut für Allgemeinmedizin und Palliativmedizin\n  ## 18.04.2024: Loslassen – Sterbekonstruktionen im Ehrenamt\n  ## Dr. Melanie Pierburg, Universität Hildesheim, Institut für Sozialwissenschaften\n  ## 25.04.2024: Wird der Tod verfügbar? Reflexionen zur Suizidbeihilfe und Suizidprävention\n  ## Prof. Dr. Verena Begemann, Hochschule Hannover, Fakultät Diakonie, Gesundheit und Soziales\n  ## 02.05.2024: Gesundheitliche Vorausplanung für die letzte Lebensphase\n  ## Sabine Schulz, Koordinatorin GVP-Projekt des Hospiz- und Palliativverbandes Niedersachsen\n  ## 16.05.2024: Implementierung von Hospiz- und Palliativkultur in stationären Alten- und Pflegeeinrichtungen Sindy Müller Koch, Senioren- und Pflegezentrum, Wittenberg\n  ## PRÄSENZ 23.05.2024: Hospiz- und Palliativversorgung zu Hause und im stationären Hospiz Amely Schönthaler und Anja Bohlen-Bruchmann, Hospiz Luise, Hannover Ort: Aula auf dem Campus Kleefeld, Blumhardtstr. 2, 30625 Hannover\n  ## 06.06.2024: Die Rechte des Kindes und der Tod – Janusz Korczaks Pädagogik der Achtung in der Kinderhospizarbeit\n  ## Prof. Dr. Agnieszka Maluga, Hochschule Koblenz\n  ## 13.06.2024: „Und wenn Sie (dann) gestorben sind, ...\". Sterben, Tod und Trauer in der Soziologie\n  ## Prof. Dr. Madlen Preuß, Osfalia Hochschule, Wolfenbüttel\n  ## 20.06.2024 : „Weil du dich zuhause immer noch am wohlsten fühlst“ – (Ambulante) Versorgung lebensverkürzt erkrankter Kinder und Jugendlicher in Niedersachsen\n  ## PRÄSENZ 27.06.2024: Vernetzung in der Hospizarbeit und Palliativversorgung für Niedersach-\n  ## sen\n  ## Struktur der Veranstaltungen\n  ## Kontakte"
+    },
+    {
+      "nr": 6,
+      "titel": "Gedächtnisspiel (Fortsetzung)",
+      "url": "https://www.code4comp.wp.hs-hannover.de/2016/05/11/gedaechtnis-spiel-fortsetzung",
+      "fakultaet": "",
+      "struktur": "# Gedächtnisspiel (Fortsetzung)\n    ### Vorbereitung des Gedächtnis-Spiels\n    ### Durchführung\n    ### Testen\n    ### Feedback kommunizieren\n    ### Abschluss und Ausblick\n    ### Ideen für die Folgewochen"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › Stellenausschreibungen › BAJ › LHH Folder Praktika Studierende Web — ~~Fachberatung trägerübergreifende Angelegenheiten und Programme~~",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/Stellenausschreibungen/BAJ/LHH_Folder_Praktika_Studierende_Web.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## ~~Fachberatung trägerübergreifende Angelegenheiten und Programme~~\n  ## Weitere Praktika sind möglich in den Bereichen:\n  ## ~~Jugend- und Familienberatung~~\n  ## ~~Familienmanagement~~\n  ## Weitere Informationen zu unserem\n  ## LANDESHAUPTSTADT HANNOVER DER OBERBÜRGERMEISTER\n  ## Redaktion\n  ## Praktika für Studierende der Sozialen Arbeit\n  ## Unser Fachbereich Jugend und Familie bietet vielseitige Einsatzmöglichkeiten in den Bereichen:\n  ## ~~Kommunaler Sozialdienst~~\n  ## Bezirkssozialarbeit in den Stadtteilen Hannovers\n  ## Pflegekinderdienst\n  ## Clearingstelle\n  ## ▻ Bereitschaftspflege\n  ## Schulsozialarbeit\n  ## Jugend- und Konflikthilfe im Strafverfahren\n  ## Unbegleitete minderjährige Flüchtlinge\n  ## ~~Offene Kinder- und Jugendarbeit~~\n  ## Jugendzentren\n  ## Jugendschutz/Straßensozialarbeit\n  ## Fußball-Fan-Projekt\n  ## Jugend Ferien-Service\n  ## Haus der Jugend\n  ## Kooperation mit Ganztagsgrundschulen\n  ## ~~Heimverbund~~\n  ## ~~Familien-Service-Büro~~"
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › Praktikumsamt › Stellenangebote BAJ › 20251209 Stellenausschreibung Anerkennungspraktikant362 — Externe Stellenausschreibung",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Stellenangebote_BAJ/2026/20251209_Stellenausschreibung_Anerkennungspraktikant362.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Externe Stellenausschreibung\n  ## eine Sozialarbeiterin / einen Sozialarbeiter bzw. eine Sozialpädagogin / einen Sozialpädagogen (m/w/d) im Berufsanerkennungsjahr\n  ## Das Aufgabengebiet umfasst folgende Schwerpunkte:\n  ## Folgende Voraussetzungen bringen Sie mit:\n  ## 31. Januar 2026."
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 3,
+      "titel": "www › Soziale OEffnung Dokumente › Familienservice › FlyerNEU BU Hannover 003 — ein angebot ihres arbeitgebers",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Soziale_Oeffnung/Soziale_OEffnung_Dokumente/Familienservice/FlyerNEU_BU_Hannover__003_.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "www › servicezentrum beratung › familienservice › kinderbetreuung",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/kinderbetreuung"
+    },
+    {
+      "nr": 1,
+      "titel": "www › Servicezentrum Beratung › Familienservice › Hilfen fuer Familien mit beh. chron",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Hilfen_fuer_Familien_mit_beh.__chron.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "www › Soziale OEffnung Dokumente › Familienservice › FlyerNEU BU Hannover 003 — ein angebot ihres arbeitgebers",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Soziale_Oeffnung/Soziale_OEffnung_Dokumente/Familienservice/FlyerNEU_BU_Hannover__003_.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "wann springt das back-up ein?",
+      "snippets": [
+        "## Außerhalb der niedersächsischen Ferienzeiten:  \nLeibniz-Kids Back-up, Herrenhäuser Straße 2, 30419 Hannover (Herrenhausen, Stadtbahnhaltestelle „Herrenhäuser Gärten“, Linien 4 und 5) Sie finden uns gleich rechts (Ecke Burgweg/Herrenhäuser Str.)  \nWährend der niedersächsischen Ferienzeiten: CompanyKids Back-up, Große Düwelstraße 16-18, 30171 Hannover (Südstadt, Stadtbahnhaltestelle Braunschweiger Platz, Bushaltestelle Lutherstraße)"
+      ],
+      "zitate": [
+        "CompanyKids Back-up, Große Düwelstraße 16-18, 30171 Hannover (Südstadt, Stadtbahnhaltestelle Braunschweiger Platz, Bushaltestelle Lutherstraße)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › servicezentrum beratung › familienservice › kinderbetreuung",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/kinderbetreuung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Kinderbetreuung",
+      "snippets": [
+        "##\n[ Back-up- und Notfallbetreuung durch pme ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/kinderbetreuung \"Back-up- und Notfallbetreuung durch pme\")\nDie**Back-up- und Notfallbetreuung** ist ein Angebot der Hochschule Hannover in Kooperation mit dem **pme familienservice Hannover**. Diese Betreuung soll Betreuungsnotfälle, KiTa-Streiks oder den plötzlichen Ausfall der regulären Betreuung abdecken, sodass Eltern ihren beruflichen oder studientechnischen Verpflichtungen nachkommen können.\nAuch für die Betreuung während Wochenendveranstaltungen, etc. kann die Back-up-Betreuung genutzt werden.\n\nAuch für die Betreuung während Wochenendveranstaltungen, etc. kann die Back-up-Betreuung genutzt werden.\nIn der flexiblen Back-up-Einrichtung werden **Kinder im Alter von acht Wochen bis einschließlich zwölf Jahren** von qualifizierten pädagogischen Fachkräften betreut. Die dafür entstehenden Kosten übernimmt die Hochschule Hannover. (Hinweis: Die Kosten werden nach Inanspruchnahme der Betreuungsmaßnahme als geldwerter Vorteil dem Einkommen zugerechnet und sind dem persönlichen Einkommenssteuersatz unterworfen.)\nPro Kind und Familie stehen max. 5 Betreuungstage pro Jahr zur Verfügung.  \nDie Betreuung findet in der Back-up-Einrichtung \"Leibniz-Kids\" des pme Familienservice in Hannover Herrenhausen (Herrenhäuser Straße 2) statt. In den Ferien teilweise auch bei den \"company Kids\" in der Großen Düwelstraße. Vorab können Eltern und Kinder sehr gern schonmal schnuppern, rufen sie hierfür bei pme Hannover an: 0511-7002000.\nVoraussetzungen zur Nutzung:"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › Servicezentrum Beratung › Familienservice › Hilfen fuer Familien mit beh. chron",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Hilfen_fuer_Familien_mit_beh.__chron.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "i. Sonstige Beratungsangebote",
+      "snippets": [
+        "## h. Angebote der psychosozialen Betreuung für Angehörige  \nIn.die.Freude.über.ein.Kind.mischen.sich.im.Falle.einer.Erkrankung.oder.Behinderung.auch.Unsicherheit,.Sorgen.und.Ängste.der.Pflegenden.und.der.Angehörigen..Damit.Familien.ihre.Lebenssituation. besser.bewältigen.sowie.Kraft.und.emotionale.Stärke.schöpfen.können,.ist.die.Selbstfürsorge.eine. wichtige.Voraussetzung..Niedersachsenweit.gibt.es.zahlreiche.Anlaufstellen,.bei.denen.psychosozialer.Beistand.und.Rat.eingeholt.werden.können.\n\n## i. Sonstige Beratungsangebote  \nNeben.den.bereits.aufgeführten.Beratungsangeboten.gibt.es.in.Niedersachsen.eine.Reihe.weiterer.Beratungsstellen,.die.Eltern.und.Angehörigen.von.pflegebedürftigen.und.behinderten.Kindern. sowie.Jugendlichen.unterstützend.zur.Seite.stehen.  \n- ...Eine.Auflistung.mit.Adressen.finden.Sie.auf.der.Homepage.des.des.Niedersächsischen.. Ministeriums.für.Soziales,.Gesundheit.und.Gleichstellung.unter. _http://tinyurl.com/glnn66s_ .  \nIn.Niedersachsen.gibt.es.derweil.einige.ambulante.Krankenpflegedienste,.die.auf.die.Versorgung. von.Kindern.und.Jugendlichen.spezialisiert.sind..Sollte.sich.in.der.Umgebung.kein.Kinderkrankenpflegedienst.befinden,.wenden.Sie.sich.an.einen.wohnortnahen.ambulanten.Pflegedienst..",
+        "Behinderungen.(z..B..spezielle.Wohnheime.oder.Wohngruppen),.\nin.denen.der.gesamte.Lebensbedarf.des.behinderten.Menschen.\ndurch.den.Einrichtungsträger.sichergestellt.wird.  \nAnmerkungen/Notizen  \nVersorgungsangebote.in.Niedersachsen\n\n## Versorgungsangebote in Niedersachsen\n## 1. Beratung und Begleitung  \nFür.Familien.mit..behinderten,.chronisch-.und.schwerstkranken.Kindern.oder.Jugendlichen.er.geben. sich.vielfältige.Anforderungen.–.und.damit.verbunden.zahlreiche.Fragen..Wie.geht.es.weiter?.Was. gibt.es.für.Angebote.in.Wohnortnähe?.Wer.berät.zu.finanziellen.Unterstützungsmöglichkeiten. und.rechtlichen.Rahmenbedingungen?.Bei.wem.bekommen.wir.Hilfe?.Eltern.und.Angehörige.wie. auch.die.Kinder.und.Jugendlichen.selbst.benötigen.bei.der.Bewältigung.dieser.Situation.Beratung,. .Begleitung.und.Unterstützung.  \nDamit.es.gar.nicht.erst.soweit.kommt,.gibt.es.in.der.niedersächsischen.Versorgungslandschaft. .verschiedenartige.präventiv.angelegte.Angebote,.die.beispielsweise.von.werdenden.Eltern.in. .Anspruch.genommen.werden.können..Denn.je.früher.bei..Kindern.bzw...Jugendlichen.Krankheiten.oder.Behinderungen.erkannt.werden,.desto.eher.können.sie.behandelt.oder.gezielte.Hilfen. .eingeleitet.werden..\n\nNachstehend.findet.sich.eine.Auswahl.von.Hilfs-.und.Beratungsangeboten,.die.unter.anderem.als. erste.Anlaufstelle.zur.Hilfe.und.Orientierung.dienen.können."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.65133,
+      "id": "40d527bc-c3bb-590a-aa55-041dde547cac",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Hilfen_fuer_Familien_mit_beh.__chron.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Hilfen fuer Familien mit beh. chron",
+      "section_heading": "i. Sonstige Beratungsangebote",
+      "chunk_index": 56,
+      "text_vollstaendig": true,
+      "auszug": "## h. Angebote der psychosozialen Betreuung für Angehörige  \nIn.die.Freude.über.ein.Kind.mischen.sich.im.Falle.einer.Erkrankung.oder.Behinderung.auch.Unsicherheit,.Sorgen.und.Ängste.der.Pflegenden.und.der.Angehörigen..Damit.Familien.ihre.Lebenssituation. besser.bewältigen.sowie.Kraft.und.emotionale."
+    },
+    {
+      "rang": 2,
+      "score": 1.62701,
+      "id": "864a0f51-3c0a-5fb0-b2a6-6b07348a865f",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/kinderbetreuung",
+      "title_anzeige": "www › servicezentrum beratung › familienservice › kinderbetreuung",
+      "section_heading": "Kinderbetreuung",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "##\n[ Back-up- und Notfallbetreuung durch pme ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/kinderbetreuung \"Back-up- und Notfallbetreuung durch pme\")\nDie**Back-up- und Notfallbetreuung** ist ein Angebot der Hochschule Hannover in Kooperation mit dem **pm"
+    },
+    {
+      "rang": 3,
+      "score": 1.6077,
+      "id": "65c52b2c-8bcc-5211-855c-fd369d18d6df",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Hilfen_fuer_Familien_mit_beh.__chron.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Hilfen fuer Familien mit beh. chron",
+      "section_heading": "Versorgungsangebote in Niedersachsen > 1. Beratung und Begleitung",
+      "chunk_index": 42,
+      "text_vollstaendig": true,
+      "auszug": "Behinderungen.(z..B..spezielle.Wohnheime.oder.Wohngruppen),.\nin.denen.der.gesamte.Lebensbedarf.des.behinderten.Menschen.\ndurch.den.Einrichtungsträger.sichergestellt.wird.  \nAnmerkungen/Notizen  \nVersorgungsangebote.in.Niedersachsen\n\n## Versorgungsangebote in Niedersachsen\n## 1. Beratung und Begleitu"
+    },
+    {
+      "rang": 4,
+      "score": 1.58135,
+      "id": "69663ff0-eab4-5980-b385-ccfc91a5ea7f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Soziale_Oeffnung/Soziale_OEffnung_Dokumente/Familienservice/FlyerNEU_BU_Hannover__003_.pdf",
+      "title_anzeige": "www › Soziale OEffnung Dokumente › Familienservice › FlyerNEU BU Hannover 003 — ein angebot ihres arbeitgebers",
+      "section_heading": "wann springt das back-up ein?",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## wann springt das back-up ein?  \nUnsere Back-up-Einrichtungen bieten kurzfristige und flexible Betreuung für Stunden, Tage, Wochen, Wochenenden und auch nachts – also rund um die Uhr – für Kinder von 0 bis 12 Jahren.  \n_mein motto: die beste betreuung für kinder – so spontan und flexibel wie mögli"
+    },
+    {
+      "rang": 5,
+      "score": 1.45463,
+      "id": "99c2b7ac-3f1b-52aa-9a4f-6273c04cdcfe",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/erfolgsgeschichten.pdf",
+      "title_anzeige": "f5 › Personen › Romppel › erfolgsgeschichten — Erfolgsgeschichten der Gemeinwesenarbeit",
+      "section_heading": "**Es gibt viele kleine Erfolgsgeschichten zu erzählen**",
+      "chunk_index": 147,
+      "text_vollstaendig": true,
+      "auszug": "Freunde und Spielkameraden. Wir haben aber beobachtet, dass viele der Kinder in den Ferien häufig relativ alleingelassen sind und oft einfach rumhängen und dass da eine Anregung durchaus nicht schadet. Und dann letztes Jahr im Sommer, da lief das erste Mal eine offene Ferienmaßnahme, ein offenes Ang"
+    },
+    {
+      "rang": 6,
+      "score": 1.36734,
+      "id": "5d517ba7-de71-541b-bd6d-cf05696e43c4",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Hoschule_u._Praxis/Niedersaechsische_Vernetzungstreffen/Korrektur_OEffentliche_Online-Ringvorlesung_Was_ist_gutes_Sterben.pdf",
+      "title_anzeige": "f5 › Hoschule u. Praxis › Niedersaechsische Vernetzungstreffen › Korrektur OEffentliche Online Ringvorlesung Was ist gutes Sterben",
+      "section_heading": "**20.06.2024** : **„Weil du dich zuhause immer noch am wohlsten fühlst“ – (Ambulante) Versorgung lebensverkürzt erkrankter Kinder und Jugendlicher in Niedersachsen**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## **20.06.2024** : **„Weil du dich zuhause immer noch am wohlsten fühlst“ – (Ambulante) Versorgung lebensverkürzt erkrankter Kinder und Jugendlicher in Niedersachsen**  \nBrigitte Sudmann und Anke Schneider – Kinder- und Jugendhospizdienst, ASB Hannover Rebecca Toenne – Netzwerk für die Versorgung s"
+    },
+    {
+      "rang": 7,
+      "score": 1.34748,
+      "id": "481b035c-f066-5868-bbd1-7bc2a0cc98fb",
+      "source_url": "https://www.code4comp.wp.hs-hannover.de/2016/05/11/gedaechtnis-spiel-fortsetzung",
+      "title_anzeige": "Gedächtnisspiel (Fortsetzung)",
+      "section_heading": "Gedächtnisspiel (Fortsetzung) > Ideen für die Folgewochen",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "### Ideen für die Folgewochen\nBis zu den Ferien verbleiben uns danach noch 3 bis 4 Stunden. Der Lehrer und ich diskutieren die Optionen. Ein freies Projekt, in dem die Kinder eine selbst erdachte Geschichte schriftlich skizzieren und dann umsetzen, ist eine Möglichkeit. Viele Kinder wären jedoch nac"
+    },
+    {
+      "rang": 8,
+      "score": 1.24981,
+      "id": "65a13228-004e-51bc-8251-24c28d5b7e8d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Aktuelles/Stellenausschreibungen/BAJ/LHH_Folder_Praktika_Studierende_Web.pdf",
+      "title_anzeige": "f5 › Stellenausschreibungen › BAJ › LHH Folder Praktika Studierende Web — ~~Fachberatung trägerübergreifende Angelegenheiten und Programme~~",
+      "section_heading": "Jugend Ferien-Service",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "## Jugend Ferien-Service  \n▻ Ferien-, Freizeit- und Bildungsangebote für Kinder und Jugendliche  \n▻ Aus- und Fortbildung junger Menschen zu Jugendleiter*innen"
+    },
+    {
+      "rang": 9,
+      "score": 1.16148,
+      "id": "5be9ae41-8df9-52a3-9d74-e5afaba8d83a",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Stellenangebote_BAJ/2026/20251209_Stellenausschreibung_Anerkennungspraktikant362.pdf",
+      "title_anzeige": "f5 › Praktikumsamt › Stellenangebote BAJ › 20251209 Stellenausschreibung Anerkennungspraktikant362 — Externe Stellenausschreibung",
+      "section_heading": "**eine Sozialarbeiterin / einen Sozialarbeiter bzw. eine Sozialpädagogin / einen Sozialpädagogen (m/w/d) im Berufsanerkennungsjahr**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **eine Sozialarbeiterin / einen Sozialarbeiter bzw. eine Sozialpädagogin / einen Sozialpädagogen (m/w/d) im Berufsanerkennungsjahr**  \nin Vollzeit oder Teilzeit.  \nDas Amt für Jugendpflege bietet zahlreiche Freizeit-, Ferien- und Betreuungsangebote für Kinder und Jugendliche aus Barsinghausen. Di"
+    },
+    {
+      "rang": 10,
+      "score": 1.14681,
+      "id": "67dd2513-2936-5031-a5c2-805849325cdb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Fluxx_Folder_2503_Web-1.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Fluxx Folder 2503 Web 1 — LANDESHAUPTSTADT HANNOVER DER OBERBÜRGERMEISTER",
+      "section_heading": "**Fluxx** –Notfallbetreuung für Kinder und Angehörige",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "Wedemark  \nNeustadt am Rübenberge  \nGarbsen  \nWunstorf  \n**Unsere Fluxx-Mitarbeiter*innen bringen langjährige Berufserfahrung im Umgang mit Kindern und älteren Menschen mit.**  \nSeelze  \nSie können die Fluxx-Notfallbetreuung in Anspruch nehmen, wenn …  \nBarsinghausen  \nGehrden  \n····················"
+    },
+    {
+      "rang": 11,
+      "score": 1.11127,
+      "id": "bf7c99cf-da5e-533a-a6b7-066f320c1f56",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/studium-und-pflegeverantwortung",
+      "title_anzeige": "Studium und Pflegeverantwortung",
+      "section_heading": "Studium und Pflegeverantwortung > Unterstützung für pflegende Eltern > Studium und Pflegeverantwortung",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "[Webseite](https://www.ms.niedersachsen.de/startseite/hilfen_familien_mit_behinderten_und_schwerstkranken_kindern/hilfen-fuer-familien-mit-behinderten-chronisch--und-schwerstkranken-sowie-pflegebeduerftigen-kindern-und-jugendlichen-148473.html) des Niedersächsischen Ministeriums für Soziales, Arbeit"
+    },
+    {
+      "rang": 12,
+      "score": 1.05541,
+      "id": "3b2e32e0-298f-586d-9d4f-e2d2ba83d0ad",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Schwangerschaftswegweiser_Region-Hannover_deutsch.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Schwangerschaftswegweiser Region Hannover deutsch — NOTIZEN",
+      "section_heading": "ZEITPUNKT > KINDERGELD",
+      "chunk_index": 61,
+      "text_vollstaendig": true,
+      "auszug": "## ZEITPUNKT\n\n## KINDERGELD  \nKindergeld bekommen alle Eltern mindestens bis zum 18. Lebensjahr ihres Kindes. Die Höhe des Kindergeldes richtet sich nach der Anzahl der Kinder.  \nZEITPUNKT Innerhalb der ersten 6 Monate nach der Geburt  \nADRESSEN/LINKS Familienkasse Niedersachsen-Bremen Vahrenwalder "
+    },
+    {
+      "rang": 13,
+      "score": 1.03359,
+      "id": "71708d87-9474-53aa-9401-db8062232f8d",
+      "source_url": "https://f5.hs-hannover.de/ueber-uns/personen/lehrende/prof-dr-joachim-romppel",
+      "title_anzeige": "f5 › personen › lehrende › prof dr joachim romppel — Prof. Dr. Joachim Romppel",
+      "section_heading": "Veröffentlichungen und mehr...",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "**2008-2009** Evaluation: Soziale Strukturierung eines Stadtteilplatzes durch Platzbetreuer in Hannover-Ricklingen (Stadtbezirk und Interessengemeinschaft Ricklingen)\n**2007-2009** Zwischenevaluation des Bund-Länder-Programms „Soziale Stadt“ in Niedersachsen (in Kooperation mit dem Niedersächsischen"
+    },
+    {
+      "rang": 14,
+      "score": 1.01468,
+      "id": "edc208dd-47b0-5b06-b905-2b258cebb454",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/erfolgsgeschichten.pdf",
+      "title_anzeige": "f5 › Personen › Romppel › erfolgsgeschichten — Erfolgsgeschichten der Gemeinwesenarbeit",
+      "section_heading": "**Es gibt viele kleine Erfolgsgeschichten zu erzählen**",
+      "chunk_index": 146,
+      "text_vollstaendig": true,
+      "auszug": "Eine weitere Erfolgsgeschichte. Es gibt in jeder Stadt, so auch in Würzburg, Ferienangebote für die Kinder, für die man sie im Allgemeinen vorher anmelden muss und dann die Kinder gut aufgehoben, betreut und versorgt weiß. Das kostet dann auch Geld. Wir haben gemerkt, dass es für viele der Zuwandere"
+    },
+    {
+      "rang": 15,
+      "score": 0.97002,
+      "id": "b6ed4c54-5fe6-50ae-b698-259cb7c2a6cb",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2026/VV-BRS-PO-2021-SoSe-2026-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2026 › VV BRS PO 2021 SoSe 2026 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 1556,
+      "text_vollstaendig": false,
+      "auszug": "Als Lehrende der Sozialen Arbeit möchten wir mit diesem Seminar einen Raum öffnen für Diskussionen zur Thematik. Dabei geht es nicht nur um die Frage, was in der Praxis zu tun wäre, sondern gerade auch um die Frage, welche Mitverantwortungen der wissenschaftliche Diskurs sowie die eigene Wissensprod"
+    },
+    {
+      "rang": 16,
+      "score": 0.95167,
+      "id": "123831a7-1c23-58d5-a361-3d001319da30",
+      "source_url": "https://mint.hs-hannover.de/orientieren/nach-der-schulzeit",
+      "title_anzeige": "mint › orientieren › nach der schulzeit",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": false,
+      "auszug": "**Juhuu, Du hast Dein Zeugnis in der Tasche. Nun kann es losgehen und wir sind dabei an Deiner Seite. Oder suchst Du nach der Ausbildung nach etwas Neuem? Oder möchtest Du aus dem Beruf heraus etwas Neues beginnen?**\nSo oder so: Dir stehen viele Wege offen und Du kannst nach Herzenslust entscheiden,"
+    },
+    {
+      "rang": 17,
+      "score": 0.93467,
+      "id": "f07e6b8f-8d5f-5d45-b1e5-2b239a32d6e0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Soziale_Oeffnung/Soziale_OEffnung_Dokumente/Familienservice/FlyerNEU_BU_Hannover__003_.pdf",
+      "title_anzeige": "www › Soziale OEffnung Dokumente › Familienservice › FlyerNEU BU Hannover 003 — ein angebot ihres arbeitgebers",
+      "section_heading": "betreuungsort > Außerhalb der niedersächsischen Ferienzeiten:",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## betreuungsort\n\n## Außerhalb der niedersächsischen Ferienzeiten:  \nLeibniz-Kids Back-up, Herrenhäuser Straße 2, 30419 Hannover (Herrenhausen, Stadtbahnhaltestelle „Herrenhäuser Gärten“, Linien 4 und 5) Sie finden uns gleich rechts (Ecke Burgweg/Herrenhäuser Str.)  \nWährend der niedersächsischen Fe"
+    },
+    {
+      "rang": 18,
+      "score": 0.91262,
+      "id": "f26e2443-858a-5b64-91b3-170f4d9bf376",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/veranstaltungen",
+      "title_anzeige": "www › servicezentrum beratung › familienservice › veranstaltungen",
+      "section_heading": "Veranstaltungen",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "**“Kinder essen anders?”** , Referentin: Katharina Schäfer (Verbraucherzentrale Niedersachsen), Carl von Ossietzky Universität Oldenburg\nDas Angebot von Lebensmitteln, die scheinbar besonders für Kinder produziert und beworben werden, wächst. Das Marketing ist ausgefuchst und erreicht sowohl Kinder "
+    },
+    {
+      "rang": 19,
+      "score": 0.90926,
+      "id": "c9822f7e-6d66-5278-969d-1e5817dbe82a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/LHH_FSB_Int_Flyer_210902.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › LHH FSB Int Flyer 210902",
+      "section_heading": "Wie bekomme ich einen Integrationsplatz für mein Kind?",
+      "chunk_index": 49,
+      "text_vollstaendig": true,
+      "auszug": "Die Vermittlung der integrativen Betreuungsplätze erfolgt bei Bedarf durch den Fachbereich Jugend und Familie (Anschrift und weitere Kontaktdaten auf Seite 3 im Einleitungstext). Dort werden Ihnen ggf. Kindertagesstätten mit freien integrativen Betreuungsplätzen genannt. Im Anschluss nehmen Sie bitt"
+    },
+    {
+      "rang": 20,
+      "score": 0.89626,
+      "id": "e903d111-7c86-53eb-a5a4-3df64e93682e",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/geschaeftsstelle-praesidium/service-fuer-presse-und-medien/pressemitteilungen/meilenstein-fuer-das-tumo-mint-zentrum-neue-gesellschaft-bringt-bildungsprojekt-voran",
+      "title_anzeige": "Meilenstein für das TUMO+MINT Zentrum: Neue Gesellschaft bringt Bildungsprojekt voran",
+      "section_heading": "Meilenstein für das TUMO+MINT Zentrum: Neue Gesellschaft bringt Bildungsprojekt voran > Die TUMO + MINT Hannover gGmbH ist gegründet. Damit ist der entscheidende nächste Schritt für das geplante Bildungszentrum in Hannovers Innenstadt getan: Das Zentrum nimmt Gestalt an – strukturell, organisatorisch und baulich.",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "11.05.2026\n# Meilenstein für das TUMO+MINT Zentrum: Neue Gesellschaft bringt Bildungsprojekt voran  \n###  Die TUMO + MINT Hannover gGmbH ist gegründet. Damit ist der entscheidende nächste Schritt für das geplante Bildungszentrum in Hannovers Innenstadt getan: Das Zentrum nimmt Gestalt an – strukture"
+    },
+    {
+      "rang": 21,
+      "score": 0.89574,
+      "id": "20a45e71-96cc-5997-966d-ac58b8cc29c2",
+      "source_url": "https://mint.hs-hannover.de/orientieren/nach-der-schulzeit",
+      "title_anzeige": "mint › orientieren › nach der schulzeit",
+      "section_heading": "",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "![junge Frauen löten eine Schaltung, Seitenprotrait](https://mint.hs-hannover.de/fileadmin/_processed_/e/1/csm_Workshop_S002_2016-09-12_0002_7d9ad3d3b2.jpg) Kunst kommt von Können. Bei uns im Zukunftslabor lernst Du viele Fertigkeiten, die Du im MINT-Studium brauchen kannst.\n**Juhuu, Du hast Dein Ze"
+    },
+    {
+      "rang": 22,
+      "score": 0.87489,
+      "id": "98402a67-2035-5ed1-9129-d00fb30ad5d7",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Veranstaltungsmanagement/BVM_RiggingPoint_13_20210910_web.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Veranstaltungsmanagement › BVM RiggingPoint 13 20210910 web",
+      "section_heading": "INSPIRATION UND INNOVATION Die Praxisprojekte aus Sicht der Projektgeber und Lehrbeauftragten",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "Annabel Stegmann ist im Netzwerk für die Versorgung schwerkranker Kinder und Jugendlicher e.V. zuständig für die Kommunikation. Der Verein füllt Versorgungslücken bei den betroffenen Familien. Dazu gehören GeschwisterkinderFreizeiten, Trauerbegleitung oder häusliche Versorgung. Der Verein ist dafür "
+    },
+    {
+      "rang": 23,
+      "score": 0.85793,
+      "id": "59898ecf-2d7f-527e-a7ba-f9bf6513375b",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-Freiwillige_LV-SoSe-2025-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS Freiwillige LV SoSe 2025 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 24,
+      "text_vollstaendig": true,
+      "auszug": "**Hinweis für Eltern:** Kinder können zum Seminar mitgebracht werden. Eine Spielekiste mit verschiedenen Materialen steht zur Verfügung, so dass Kinder eigenständig beschäftigen können.  \n**5SSON33 Niedersächsisches Vernetzungstreffen zur hospizlich-palliativen Sozialarbeit und Fachtag Landesstützpu"
+    },
+    {
+      "rang": 24,
+      "score": 0.84575,
+      "id": "91a76071-c0d0-5626-b8a9-c1be2f71ab0b",
+      "source_url": "https://www.code4comp.wp.hs-hannover.de/2016/01/13/wiederholungsbausteine-und-warten",
+      "title_anzeige": "Wiederholungsbausteine und Warten",
+      "section_heading": "Wiederholungsbausteine und Warten > Aufgabe",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "### Aufgabe\nDie Kinder erhalten folgende Aufgabe: programmiert die Szene von hier vorne nach. Dann ergänzt außerdem noch zwei Fahrräder und ein weiteres Auto. Ein Fahrrad und ein Auto sollen von links nach rechts fahren, das andere Fahrrad und das andere Auto von rechts nach links. Die Fahrräder sol"
+    },
+    {
+      "rang": 25,
+      "score": 0.84102,
+      "id": "20e06a69-2a15-568b-a439-07cdb32a4a77",
+      "source_url": "https://www.code4comp.wp.hs-hannover.de/2016/02/03/nachrichten",
+      "title_anzeige": "www › nachrichten",
+      "section_heading": "Nachrichten > Arbeitsphase",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "Wir helfen individuell. Die Kinder gehen sehr unterschiedlich vor. Einige probieren wild irgendwelche Nachrichtenfarben aus, bis es dann irgendwann zufällig passt. Andere betreiben systematische Fehleranalyse und beobachten, bis wohin das Programm noch korrekt läuft und ab wann es schief geht.\nDie K"
+    },
+    {
+      "rang": 26,
+      "score": 0.83305,
+      "id": "2382946b-75c7-5ca8-9906-5229d3c05cf8",
+      "source_url": "https://mediathek.f3.hs-hannover.de/abschlussprojekte/fernsehjournalismus",
+      "title_anzeige": "TV Journalismus",
+      "section_heading": "TV Journalismus > Fernsehjournalismus",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "Erdbeben im Mund\nJonas stottert. Im Schwimmbad ein Eis bestellen, mit seinen Freunden telefonieren und in der Klasse vor seinen Mitschülern zu sprechen - das sind für ihn große Herausforderungen. Um sein Sprechen zu verbessern, nimmt er an einer Stotter-Therapie in Dießen am Ammersee teil. Dort lern"
+    },
+    {
+      "rang": 27,
+      "score": 0.82432,
+      "id": "d9fcbe48-0d44-51ae-baa6-79f6f3395ea8",
+      "source_url": "https://www.code4comp.wp.hs-hannover.de/2016/06/08/meine-geschichte",
+      "title_anzeige": "Meine Geschichte",
+      "section_heading": "Meine Geschichte > Ausblick",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "### Ausblick\nIn der [nächsten Stunde](https://www.code4comp.wp.hs-hannover.de/2016/06/15/meine-geschichte-fortsetzung/), die die letzte dieses Pilotprojekts sein wird, wollen wir viele der Geschichten allen Kindern präsentieren. Außerdem soll Gelegenheit bestehen, zurück zu schauen, wie die Kinder d"
+    },
+    {
+      "rang": 28,
+      "score": 0.81396,
+      "id": "3ee2f79b-987f-5130-9170-b7e921aaf742",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Schwangerschaftswegweiser_Region-Hannover_deutsch.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Schwangerschaftswegweiser Region Hannover deutsch — NOTIZEN",
+      "section_heading": "ZEITPUNKT > GEBURTSKLINIKEN",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## ZEITPUNKT\n\n## GEBURTSKLINIKEN  \nIm Verlauf der Schwangerschaft sollten Sie sich in Rücksprache mit der gynäkologischen Praxis Gedanken machen, wo Sie Ihr Kind zur Welt bringen möchten. Die meisten Schwangeren gebären in einem Krankenhaus. In der Region Hannover gibt es sieben Geburtskliniken. Ein"
+    },
+    {
+      "rang": 29,
+      "score": 0.80998,
+      "id": "abcdcd2a-cac8-5ebb-b522-6d0dadaa9ad9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/Fluxx_Brosch_Familie_Web_201001.pdf_ohne_Personal-1.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › Fluxx Brosch Familie Web 201001.pdf ohne Personal 1",
+      "section_heading": "Fluxx betreut im Notfall",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## Fluxx betreut im Notfall  \nInnerhalb von ca. 1 ½ Stunden kann die Notfallbetreuung für Ihr Kind oder Ihre/Ihren Angehörige*n beginnen …  \n- ···························································································································  \n- in Ihrem Haushalt oder dem de"
+    },
+    {
+      "rang": 30,
+      "score": 0.79309,
+      "id": "b34a4e91-9aa9-57c6-8a03-4d9953f68e49",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Ralf_Hoburg__Altera_-_Erfahrungen_mit_dem_Anderen.pdf",
+      "title_anzeige": "f5 › UEber uns › Personen › Ralf Hoburg Altera Erfahrungen mit dem Anderen — Abschlußbericht",
+      "section_heading": "Motivlage 3: Spiritualität erfahren",
+      "chunk_index": 42,
+      "text_vollstaendig": true,
+      "auszug": "_„Gerade die Schicksale von Kindern, die ja oft bestimmt werden von den Elternhäusern und Umfeldern... das liegt mir schon sehr am Herzen. Und es war für mich sehr interessant wie professionelle Arbeit mit diesen Kindern stattfindet und gerade auch unter dem Signet der kirchlichen Einrichtung, die j"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 29902,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.74,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 2.61,
+    "docs_laden_s": 0.09,
+    "quellen_s": 4.44,
+    "antwort_llm_s": 3.53,
+    "gesamt_s": 7.97
+  },
+  "auswahl_begruendung": "{\"selected\":[3, 2, 1]}"
+}

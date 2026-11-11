@@ -1,0 +1,38 @@
+2026-09-21 15:20:12 INFO    lauf: Lauf 2026-09-21_1520_retrieval_t+q_se_rrf
+2026-09-21 15:20:12 INFO    lauf: Modell : — (nur Retrieval, kein LLM)
+2026-09-21 15:20:12 INFO    lauf: Arme   : ['text'] / ['sparse_expanded']  Fusion: dbsf
+2026-09-21 15:20:12 INFO    lauf: Punkte : 121134
+2026-09-21 15:20:12 INFO    lauf: Vertrag: adc76e8 (3 Fälle)
+2026-09-21 15:20:12 INFO    lauf: Experiment: {"dense_arms": ["text", "questions"], "fusion": "rrf"}
+2026-09-21 15:20:12 INFO    lauf: Fälle  : 3 offen von 3
+2026-09-21 15:20:12 INFO    httpx: HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-09-21 15:20:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:12 INFO    mcp.client.streamable_http: Received session ID: 60c78bd9fef840358b1ae9eaa905fec8
+2026-09-21 15:20:12 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 15:20:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 15:20:12 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:12 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:15 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:15 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:15 INFO    lauf: [ 1/3] ✓    3.3s  q19  Welche Wahlpflichtmöglichkeiten nennt die HsH im Bachelors
+2026-09-21 15:20:15 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:15 INFO    mcp.client.streamable_http: Received session ID: 483308aa91de488da1832d89dbaa4c03
+2026-09-21 15:20:15 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 15:20:15 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 15:20:15 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:15 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:19 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:19 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:19 INFO    lauf: [ 2/3] ✓    3.7s  g21  In welchem Raum sitzt der Vorsitzende des Prüfungsausschus
+2026-09-21 15:20:19 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:19 INFO    mcp.client.streamable_http: Received session ID: 084ba0dc64b54f7eb47529b4089462a0
+2026-09-21 15:20:19 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-21 15:20:19 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-21 15:20:19 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:19 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:22 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:22 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-21 15:20:22 INFO    lauf: [ 3/3] ✓    3.2s  g30  Welches Wahlpflichtmodul beschäftigt sich mit Drohnen?
+2026-09-21 15:20:22 INFO    lauf: Fertig in 0.2 min (Arbeit 0.2 · Pausen 0.0 · ungetrackt 0.0)
+2026-09-21 15:20:22 INFO    lauf: Rohdaten: /home/christian/RAGHSH/hsh_scraper/eval_gold/laeufe/2026-09-21_1520_retrieval_t+q_se_rrf
+2026-09-21 15:20:22 INFO    lauf: Auswertung: python eval_gold/auswertung.py 2026-09-21_1520_retrieval_t+q_se_rrf

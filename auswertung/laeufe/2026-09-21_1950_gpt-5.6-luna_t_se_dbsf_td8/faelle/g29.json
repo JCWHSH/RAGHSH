@@ -1,0 +1,556 @@
+{
+  "fall": {
+    "id": "g29",
+    "case_type": "direct",
+    "question": "In welchem Bachelor lerne ich sowohl Programmieren als auch Gestalten?",
+    "reference_answer": "Im Bachelor Mediendesigninformatik (B.Sc.).",
+    "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/Qualifikationsziele_MDI_20160211.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://mint.hs-hannover.de/studieren/mint-studiengaenge/mediendesigninformatik",
+      "https://mint.hs-hannover.de/ausbilden/ausbildungs-praktikumsboerse"
+    ],
+    "required_facts": [
+      "die Vorbereitung der Studierenden auf eine qualifizierte berufspraktische Tätigkeit an der Schnittstelle zwischen Informatik und Mediendesign"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ sonstiges/auswahl. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "MINT-Seite Mediendesigninformatik: „2/3 Informatik + 1/3 Mediendesign … viel Programmieren … Concept Design“ — beantwortet „Programmieren und Gestalten“ ebenso wie das Qualifikationsziele-PDF von 2016.",
+    "vertreter_von": {
+      "https://mint.hs-hannover.de/ausbilden/ausbildungs-praktikumsboerse": "https://mint.hs-hannover.de/studieren/mint-studiengaenge/mediendesigninformatik"
+    },
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "92ba7a14-0dcb-572b-af78-b0c2e08c4b24",
+      "6d10ce50-d740-5939-aaee-5d5dad0e1825",
+      "3a418fc5-37c8-5068-abd6-c622f279fe2b",
+      "73b2a219-bf1c-5b35-8d3c-821c87fb84c4",
+      "d42d3946-db74-553b-87d7-f03a0a3b8db8",
+      "baa30096-2386-52df-b638-6cf0504ea2c4",
+      "2c7ed8d6-e716-5b98-aa91-87a4a208827b",
+      "996755fc-a62f-5979-99d8-8c8a78afe60d",
+      "2beb67a2-dd16-533c-a9f2-2ecbeec3c924",
+      "003621fe-0898-5be4-a4e0-d55b42909fe6",
+      "3e3bba81-8cdd-5934-beeb-cf1b85d40b39",
+      "c1ad3cdb-f77a-53fc-9f32-c736ca6ddd13",
+      "800c4e0f-4417-5c9c-8aea-d26507148e05",
+      "7d456651-b926-5f61-8c66-4e4986d6b2dd",
+      "632f417c-4bb5-543a-b170-a4fb8b4707a4",
+      "868e2480-2a00-5121-85c1-14a2fe4e6aec",
+      "5866cb25-82b0-5a9c-8f74-78d2956c964b",
+      "c9f9f422-dae0-59c6-8dcb-3a44fd29b569",
+      "236ab651-07c4-51c6-96aa-ac49ee097c64",
+      "f6037940-5a3b-5033-8749-26b955a08cff",
+      "ceab932e-a78b-56ac-8a8b-30c0c167a7c9",
+      "d142bd4e-2a98-594b-84b5-dfa36654007a",
+      "7ce4c6a6-79a5-5315-8cb2-75525f791f78"
+    ],
+    "beleg_punkte": [
+      "baa30096-2386-52df-b638-6cf0504ea2c4"
+    ],
+    "beleg_urls": [
+      "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/Qualifikationsziele_MDI_20160211.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:59:30",
+  "dauer_s": 6.39,
+  "fehler": null,
+  "antwort": "Im Bachelor-Studiengang **Mediendesigninformatik (MDI)** lernen Sie beides: „2/3 Informatik + 1/3 Mediendesign\" [2]. Der Studiengang verbindet „Design und Informatik\" [3] und vermittelt „technische Kompetenzen der Informatik mit den gestalterischen Grundlagen des Mediendesigns\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM ab WiSe 26 27 — Studiengang B.A. Informationsmanagement",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Modulhandbuch\n  ## Studiengang B.A. Informationsmanagement\n  ## Vorwort\n  ## Modulübersicht\n  ## BIM-111 Grundlagen Informationsmanagement\n  ## BIM-112 Informationsorganisation und -recherche\n  ## BIM-113 Grundlagen der Informatik\n  ## BIM-114 Einführung in die Programmierung\n  ## BIM-115 Methodenkompetenz\n  ## BIM-116 Informationskompetenz I\n  ## Lehrinhalte\n  ## BIM-121 Webtechnologie\n  ## BIM-122 Empirische Sozialforschung\n  ## BIM-123 Datenmanagement\n  ## BIM-124 Formalerschließung I\n  ## BIM-125 Informationsdesign\n  ## Lehrinhalte\n  ## BIM-126 Programmierung und Datenmanagement\n  ## BIM-131 Informationssysteme und Fachinformation\n  ## BIM-132 Datenschutzrecht und Urheberrecht\n  ## Lehrinhalte\n  ## Datenschutzrecht\n  ## Urheberrecht\n  ## Lehrmethoden\n  ## BIM-133 Kommunikation\n  ## BIM-134 Praxis der Erschließung\n  ## BIM-135 Wissensrepräsentation\n  ## Qualifikationsziele\n  ## Lehrinhalte\n  ## BIM-136 Web Science\n  ## BIM-141 Praxisphase I\n  ## Qualifikationsziele\n  ## Lehrinhalte\n  ## BIM-251 Projekt- und Wissensmanagement\n  ## BIM-252 Aktuelle Fragen im Informationsmanagement\n  ## BIM-253 Formalerschließung II\n  ## BIM-254 Interaktive Medien\n  ## BIM-255 Informationsermittlung und -evaluation\n  ## BIM-256 Information Retrieval\n  ## Lehrinhalte\n  ## BIM-257 Digitale Bibliothek\n  ## BIM-258 Open Data & Infrastrukturen\n  ## BIM-261 Informationsmarkt und Management von Informationseinrichtungen\n  ## BIM-262 Softwareentwicklung und Datenbanken\n  ## BIM-263 Informationsgeschichte und Informationsethik\n  ## BIM-265 Internationalisierung\n  ## BIM-266 Informationskompetenz II\n  ## BIM-267 Text- und Datamining\n  ## BIM-271 Praxisphase II\n  ## BIM-272 Abschlussarbeit"
+    },
+    {
+      "nr": 2,
+      "titel": "f4 › Informatik › Broschueren › 25 09 10 Studienhandbuch 2025 AbtlgInf StudyGuide CSDept 080925",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Welcome to Faculty IV – Department of Computer Science, University of Applied Sciences and Arts Hannover\n  ## Gliederung / Structure\n  ## I. FAKULTÄTSANGABEN ABTEILUNG INFORMATIK (I)\n  ## 1. Angaben zum Dekanat und zur Studienverwaltung\n  ## 1.1 Dekan/in, Studiendekan/in, Verwaltung\n  ## I. FACULTY INFORMATION FOR THE DEPARTMENT OF COMPUTER SCIENCE (I)\n  ## 1. Information on the Dean’s Office and Studies Administration\n  ## 1.1 Dean, Dean of Studies, Administration\n  ## Dean:\n  ## Dean of studies:\n  ## Assistant to the dean of studies:\n  ## 1.2 Anschrift und Öffnungszeiten\n  ## Öffnungszeiten Sekretariat (Raum 1H.2.16, Gebäude 1H) Abteilung Informatik:\n  ## 1.3 Fachberatung\n  ## 1.2 Address and Opening Hours\n  ## Office opening hours (Room 1H.2.16, building 1H) Department of computer science\n  ## 1.3 Student Advisory Services\n  ## Studies and practical training abroad:\n  ## Academic records:\n  ## 2. Angaben zum Studium\n  ## 2.1 Fakultäts- und Abteilungsstruktur\n  ## 2. Information on the study programs\n  ## 2.1 Faculty and Department Structure\n  ## 2.2 Studienaufbau\n  ## 2.2 Study structure\n  ## 2.3 Internationale Angebote\n  ## 2.3 International offers\n  ## 2.4 Forschung\n  ## 2.4 Research\n  ## II. ANGABEN JE STUDIENGANG IN DER FAKULTÄT IV ABTEILUNG INFORMATIK\n  ## 1. Bachelor-Studiengang Angewandte Informatik (BIN)\n  ## 1.1 Ziel und Inhalt des Studiums\n  ## 1.2 Studienvoraussetzung\n  ## II. INFORMATION ON EACH STUDY PROGRAM IN FACULTY IV – DEPARTMENT OF COMPUTER SCIENCE\n  ## 1. Bachelor Study Program in Computer Science (BIN)\n  ## 1.1 Goal and Contents of the Study Program\n  ## 1.2 Study Prerequisites\n  ## 1.3 Studienaufnahme und Gebühren\n  ## 1.4 Struktur des Studiums\n  ## 1.5 Praxisprojekte\n  ## 1.3 Study Admission and Fees\n  ## 1.4 Study Program Structure\n  ## 1.5 Practical projects\n  ## 1.6 Studienplan\n  ## 1.6 Study plan\n  ## 2. Bachelor-Studiengang Mediendesigninformatik (MDI)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Studienvoraussetzung\n  ## 2. Bachelor study program in Media Design Computing (MDI)\n  ## 2.1 Goal and Contents of the Study Program"
+    },
+    {
+      "nr": 3,
+      "titel": "mint › studieren › mint studiengaenge › mediendesigninformatik",
+      "url": "https://mint.hs-hannover.de/studieren/mint-studiengaenge/mediendesigninformatik",
+      "fakultaet": "",
+      "struktur": "  ## Studienziel\n  ## Berufsfelder\n  ## Studienziel\n  ## Berufsfelder\n  ## Studienziel\n  ## Berufsfelder\n  ## Neuigkeiten im Überblick\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover\n    ### 4. Newsletter 2026 vom Zukunftshaus MINT\n    ### 3. Newsletter 2026 vom Zukunftshaus MINT\n    ### 2. Newsletter 2026 vom Projekthaus Zunkunft MINT\n    ### Kostenfreier Besuch der Ausstellung des Regionalwettbewerbs Jugend forscht/Jugend forscht junior 2026 in Hannover"
+    },
+    {
+      "nr": 4,
+      "titel": "itr › landing page › studium",
+      "url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+      "fakultaet": "",
+      "struktur": "# Studieninhalte\n# Aufbau\n# Kurz erklärt\n# Fächerübersicht\n# In Vollzeit oder Teilzeit\n# Campus Linden\n# Computerräume und Labore\n# Dokumente"
+    },
+    {
+      "nr": 5,
+      "titel": "Study what's next. Studieren an der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/studium",
+      "fakultaet": "",
+      "struktur": "# Study what's next. Studieren an der Hochschule Hannover\n  ## Ihre Zukunft: Ausgewählte Studiengänge\n    ### Mediendesigninformatik (MDI)\n    ### Elektrotechnik und Informationstechnik (EIT)\n    ### Maschinenbau (MAB)\n    ### Unternehmensentwicklung (MBD)\n    ### Wirtschaftsingenieur/in Maschinenbau (WIM)\n    ### Nachhaltige Elektrische Energieversorgung (NEV)\n    ### Wirtschaftsinformatik (BIS)\n    ### Biotechnologie und Umwelttechnik (BIU)\n    ### Angewandte Informatik (BIN)\n    ### Green Engineering – Energietechnik und Verfahrenstechnik (GEV)\n    ### Verwaltungsinformatik (VIF)\n    ### Future Food Systems - Lebensmitteltechnologie und Verpackungstechnologie (LVT)\n    ### Betriebswirtschaftslehre (BBA)\n  ## HsH – Hier studiert Hannover\n# Hannover: Grüne Großstadt mit Flair und vielseitigen Freizeitangeboten #hannoverliebt\n  ## Gute Gründe für ein Studium an der HsH\n  ## Entdecken Sie die Vielfalt des Studierens an der HsH, denn hier...\n# Erleben Sie die Flexibilität des Studiums an der HsH\n  ## Studieren – auch ohne Abitur!\n  ## Erkunden Sie vielfältige Studienoptionen an der Hochschule Hannover, auch ohne Abitur.\n# Fragen zum Studium? Wir haben die Antworten!\n  ## Erfolgsgeschichten\n  ## Studierende an der HsH schließen erfolgreich ihr Studium ab und starten vielfältige Karrierewege.\n    ### Dr. Bennet Luck\n    ### Saskia Reis\n    ### Laurenz Wuttke\n    ### Anna-Lena Sting & Jasmin Friedrichs\n    ### Jorsina Lukaj\n  ## Beratung und Kontakt"
+    },
+    {
+      "nr": 6,
+      "titel": "f3 › Fakultaet III › Ordnungen DM › BSKE Besonderer Teil der Pruefungsordnung ab Studienjahrgang 2016",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/BSKE_-_Besonderer_Teil_der_Pruefungsordnung__ab_Studienjahrgang_2016_.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Ziel des Studiums und Zweck der Abschlussprüfung\n  ## § 4\n  ## Dauer und Gliederung des Studiums\n  ## § 5\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 6\n  ## Inkrafttreten\n  ## Legende der Abkürzungen (Art, Form der Prüfungsleistung und Lehrveranstaltungen):"
+    },
+    {
+      "nr": 7,
+      "titel": "Visuelle Kommunikation (BVK)",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/visuelle-kommunikation-bvk",
+      "fakultaet": "f3",
+      "struktur": "# Visuelle Kommunikation (BVK)\n  ## Creative Technologies, 3D und Extended Reality, Motion Design, Graﬁkdesign, Illustration\n    ### Auf einen Blick\n# Kurzübersicht\n# Das Studium\n# Bewerbung\n  ## Studium\n  ## Praxiserfahrungen\n  ## Weitere Informationen\n    ### Ansprechperson\n    ### Dekanatsverwaltung DM\n    ### Links\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 8,
+      "titel": "Szenografie – Kostüm – Experimentelle Gestaltung (SKE)",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/szenografie-kostuem-experimentelle-gestaltung-ske",
+      "fakultaet": "f3",
+      "struktur": "# Szenografie – Kostüm – Experimentelle Gestaltung (SKE)\n  ## Mit allen Sinnen\n    ### Auf einen Blick\n# Kurzübersicht\n# Das Studium\n    ### »Mit allen Sinnen: Studierende werden für szenische sowie für experimentell-künstlerische Berufsfelder ausgebildet.«\n    ### »Der Studiengang Szenografie, Kostüm und Experimentelle Gestaltung greift aktuelle Tendenzen in Kultur und Gesellschaft auf, reflektiert sie in künstlerisch-gestalterischer Form und schafft so die Voraussetzungen, um neben den bewährten neue kreative Arbeits- und Berufsfelder zu entwickeln.«\n# Bewerbung\n  ## Weitere Informationen\n    ### Szenografie\n    ### Kostüm\n    ### Experimentelle Gestaltung\n    ### Links\n    ### Links\n    ### Links\n  ## Themen vertiefen"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 2,
+      "titel": "f4 › Informatik › Broschueren › 25 09 10 Studienhandbuch 2025 AbtlgInf StudyGuide CSDept 080925",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "mint › studieren › mint studiengaenge › mediendesigninformatik",
+      "url": "https://mint.hs-hannover.de/studieren/mint-studiengaenge/mediendesigninformatik"
+    },
+    {
+      "nr": 5,
+      "titel": "Study what's next. Studieren an der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/studium"
+    },
+    {
+      "nr": 1,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM ab WiSe 26 27 — Studiengang B.A. Informationsmanagement",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f4 › Informatik › Broschueren › 25 09 10 Studienhandbuch 2025 AbtlgInf StudyGuide CSDept 080925",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**2. Bachelor-Studiengang Mediendesigninformatik (MDI)** > **2.1 Ziel und Inhalt des Studiums**",
+      "snippets": [
+        "Derzeit gibt es aber kaum eigenständige Studiengänge, die sowohl technische wie auch gestalterische Kompetenzen vermitteln: (Medien-)Designer/innen fehlen die technischen Kenntnisse, um die Grenzen und Möglichkeiten des technisch Machbaren zu bewerten und um ihre kreativen Ideen umzusetzen. Informatiker/innen besitzen nicht genügend gestalterische Fähigkeiten, um mediale Inhalte zu produzieren und in Softwaresysteme mit attraktiver und ansprechender Benutzerschnittstelle zu integrieren.  \nDer interdisziplinäre Bachelor-Studiengang Mediendesigninformatik setzt hier an: Er soll technische Kompetenzen der Informatik mit den gestalterischen Grundlagen des Mediendesigns"
+      ],
+      "zitate": [
+        "technische Kompetenzen der Informatik mit den gestalterischen Grundlagen des Mediendesigns"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "mint › studieren › mint studiengaenge › mediendesigninformatik",
+      "url": "https://mint.hs-hannover.de/studieren/mint-studiengaenge/mediendesigninformatik",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://mint.hs-hannover.de/ausbilden/ausbildungs-praktikumsboerse"
+      ],
+      "abschnitt": "Berufsfelder",
+      "snippets": [
+        "## Studienziel\n2/3 Informatik + 1/3 Mediendesign im Einzelnen: viel Programmieren, Datenbanksysteme, Mathematik, Statistik, Concept Design, Algorithmen und Datenstrukturen, mobile Computing, Projektdesign, Englisch, Computergraphik etc.\nAuch das ist Programmieren: Scratch ist eine der weltweit bekanntesten Programmiersprachen, mit denen auch Kinder schon ihre eigenen Apps programmieren. Scratch beweist: Mit der richtigen Grafik und Darstellung können alle Zugang zum Programmieren bekommen, was mit klassischen Programmierem schon schwieriger wäre. Mediendesigninformatik knüpft hier an. Du lernst grafische Oberflächen für Apps und Anwendungen zu kreieren, damit jede und jeder auch komplizierte Programme ohne viel Vorkenntnisse nutzen kann. Du baust die Oberfläche für die digitale Welt. Je mehr die Digitalisierung unsere Welt durchdringt umso wichtiger wird die sogenannte „Usability“."
+      ],
+      "zitate": [
+        "2/3 Informatik + 1/3 Mediendesign"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Study what's next. Studieren an der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/studium",
+      "crawl_date": "2026-08-11",
+      "fremde_fundstellen": [],
+      "abschnitt": "Study what's next. Studieren an der Hochschule Hannover > Ihre Zukunft: Ausgewählte Studiengänge > [Mediendesigninformatik (MDI)](https://f4.hs-hannover.de/studium/bachelor-studiengaenge/mediendesigninformatik-mdi)",
+      "snippets": [
+        "### [Mediendesigninformatik (MDI)](https://f4.hs-hannover.de/studium/bachelor-studiengaenge/mediendesigninformatik-mdi)\nGestalten Sie die digitale Zukunft mit dem Besten aus zwei Welten: Design und Informatik – ergänzt durch Know-how in der Medienproduktion. Lernen Sie, Ideen sowohl kreativ als auch technisch umzusetzen – von interaktiven Anwendungen über Animation bis hin zu Webdesign und User Experience. Profitieren Sie von einem innovativen Studienumfeld, in dem Gestaltung und Programmierung Hand in Hand gehen.\n[ Weiterlesen ](https://f4.hs-hannover.de/studium/bachelor-studiengaenge/mediendesigninformatik-mdi)  \n[ ![](https://www.hs-hannover.de/fileadmin/_processed_/7/b/csm_Motive_Teaser_Slider_EIT_V2_f15b387456.jpg) ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1)"
+      ],
+      "zitate": [
+        "Design und Informatik"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM ab WiSe 26 27 — Studiengang B.A. Informationsmanagement",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**BIM-254 Interaktive Medien**",
+      "snippets": [
+        "## **BIM-254 Interaktive Medien**  \n|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|\n|---|---|---|---|---|---|---|\n|**Semester**|**Häufigkeit**|**Dauer**|**Art**|**ECTS-**\n**Punkte**|**Studentische**\n**Arbeitsbelastung**||\n|5|1x jährlich|1 Semester|Wahl-\npflicht|5|150 Std., davon\n68 Std. Präsenzstudium,\n82 Std. Selbststudium||\n|**Voraussetzungen für die**\n**Teilnahme**||**Prüfungsform**|**Lehr- und**\n**Lernmethoden**||**Modulverantwortliche(r)**||\n|Keine||**Pf**, H, EDR,\nK2,M|Seminar||Prof. Dr. Monika Steinberg||\n|**Qualifikationsziele**|||||||\n|Die Studierenden sind nach Abschluss des Moduls in der Lage:\n•\nselbständig und in Teams erweiterte, interaktive Inhalte mittels gängiger Technologien und\nWerkzeuge zu entwickeln sowie diese kontextspezifisch zu veröffentlichen,\n•\n\n•\nselbständig und in Teams erweiterte, interaktive Inhalte mittels gängiger Technologien und\nWerkzeuge zu entwickeln sowie diese kontextspezifisch zu veröffentlichen,\n•\nkomplexe interaktive Medienangebote einzuordnen, zu konzipieren und implementieren,\n•\nInteraktion sowohl physisch als auch digital (phygital) im Raum zu gestalten.\nDie Studierenden erlangen ein erweitertes Verständnis für die Bedeutung und die Einsatzbereiche von\nInteraktion in interaktiven, physisch-digitalen Medienangeboten, erwerben erweiterte praktische Fähigkeiten\nund konzipieren eigene interaktive Angebote und Systeme (z.B. mit Hilfe von Sensorik oder Internet-Of-\nThings-Methodiken).\nDie Studierenden schärfen überfachlich ihr Verständnis für Mensch-Medien-Interaktion. Präsentationsfähigkeit,\nkonzeptionelles Denken und Arbeiten, Designverständnis, selbstgesteuertes Lernen. Der Umgang mit\nProgrammier- und Konzeptwerkzeugen wird gefördert (Kreativität, Lösungsfähigkeit, Digital Literacy, Digital\nLearning).|||||||"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.36999,
+      "id": "3762bda9-cae7-500e-85a0-2cc65bbd6537",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM ab WiSe 26 27 — Studiengang B.A. Informationsmanagement",
+      "section_heading": "**BIM-254 Interaktive Medien**",
+      "chunk_index": 86,
+      "text_vollstaendig": true,
+      "auszug": "## **BIM-254 Interaktive Medien**  \n|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|**BIM-254 Interaktive Medien**|\n|---|---|---|---|---|---|---|\n|**Semester**|*"
+    },
+    {
+      "rang": 2,
+      "score": 1.34282,
+      "id": "49d646e7-8d91-5d82-97ba-27a429acaa97",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 25 09 10 Studienhandbuch 2025 AbtlgInf StudyGuide CSDept 080925",
+      "section_heading": "**2. Bachelor-Studiengang Mediendesigninformatik (MDI)** > **2.1 Ziel und Inhalt des Studiums**",
+      "chunk_index": 94,
+      "text_vollstaendig": true,
+      "auszug": "## **2. Bachelor-Studiengang Mediendesigninformatik (MDI)**\n## **2.1 Ziel und Inhalt des Studiums**  \nDie Informationstechnologie durchdringt immer stärker unseren Alltag und ist allgegenwärtig: auch technikferne Anwender sollen spielerisch und selbstverständlich mit Softwaresystemen umgehen können."
+    },
+    {
+      "rang": 3,
+      "score": 1.32904,
+      "id": "56432137-4d3f-5a49-bf72-5922f49eb03d",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 25 09 10 Studienhandbuch 2025 AbtlgInf StudyGuide CSDept 080925",
+      "section_heading": "**2. Bachelor study program in Media Design Computing (MDI)** > **2.1 Goal and Contents of the Study Program**",
+      "chunk_index": 99,
+      "text_vollstaendig": true,
+      "auszug": "## **2. Bachelor study program in Media Design Computing (MDI)**\n## **2.1 Goal and Contents of the Study Program**  \nInformation technology increasingly permeates our everyday lives and is omnipresent: Even technophobic users should be able to handle software systems playfully and naturally. To achi"
+    },
+    {
+      "rang": 4,
+      "score": 1.32517,
+      "id": "800c4e0f-4417-5c9c-8aea-d26507148e05",
+      "source_url": "https://mint.hs-hannover.de/studieren/mint-studiengaenge/mediendesigninformatik",
+      "title_anzeige": "mint › studieren › mint studiengaenge › mediendesigninformatik",
+      "section_heading": "Berufsfelder",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## Berufsfelder\nGlänzende Aussichten. Mit dem Fortschreiten der Digitalisierung hin zu VR (Virtual Reality) und AR (Augmented Reality) für weite Teile auch von Lernumgebungen, Gebrauchsanweisungen, Spielen uvam. wirst genau Du gebraucht, wenn Du sowohl programmieren als auch designen kannst.\nInteres"
+    },
+    {
+      "rang": 5,
+      "score": 1.21206,
+      "id": "ca946610-7f9d-506d-aafc-751818871553",
+      "source_url": "https://itr.wp.hs-hannover.de/landing-page/studium",
+      "title_anzeige": "itr › landing page › studium",
+      "section_heading": "Fächerübersicht",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "#####  Darstellung von Technik\nSie lernen die Terminologie der Technik kennen, sodass Sie in der Lage sind Technik mit den richtigen Fachwörtern verständlich zu erklären. In diesem Modul befassen Sie sich außerdem mit der Konzeption von Diagrammen, Schemata und Fließbildern.\n#####  Programmieren\nSie"
+    },
+    {
+      "rang": 6,
+      "score": 1.16786,
+      "id": "53c89890-2476-5690-bf95-8367a2ea5c63",
+      "source_url": "https://www.hs-hannover.de/studium",
+      "title_anzeige": "Study what's next. Studieren an der Hochschule Hannover",
+      "section_heading": "Study what's next. Studieren an der Hochschule Hannover > Ihre Zukunft: Ausgewählte Studiengänge > [Mediendesigninformatik (MDI)](https://f4.hs-hannover.de/studium/bachelor-studiengaenge/mediendesigninformatik-mdi)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### [Mediendesigninformatik (MDI)](https://f4.hs-hannover.de/studium/bachelor-studiengaenge/mediendesigninformatik-mdi)\nGestalten Sie die digitale Zukunft mit dem Besten aus zwei Welten: Design und Informatik – ergänzt durch Know-how in der Medienproduktion. Lernen Sie, Ideen sowohl kreativ als auch"
+    },
+    {
+      "rang": 7,
+      "score": 1.08244,
+      "id": "d3bd6496-3ad2-582b-aa55-3423ca30344a",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/BSKE_-_Besonderer_Teil_der_Pruefungsordnung__ab_Studienjahrgang_2016_.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › BSKE Besonderer Teil der Pruefungsordnung ab Studienjahrgang 2016",
+      "section_heading": "**§ 6** > **Inkrafttreten**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "|**Bachelor- Studiengang Szenografie/Kostüm/Experimentelle Gestaltung (SKE)**|**Bachelor- Studiengang Szenografie/Kostüm/Experimentelle Gestaltung (SKE)**|**Bachelor- Studiengang Szenografie/Kostüm/Experimentelle Gestaltung (SKE)**|**Bachelor- Studiengang Szenografie/Kostüm/Experimentelle Gestaltung"
+    },
+    {
+      "rang": 8,
+      "score": 1.06088,
+      "id": "3e3bba81-8cdd-5934-beeb-cf1b85d40b39",
+      "source_url": "https://mint.hs-hannover.de/studieren/mint-studiengaenge/mediendesigninformatik",
+      "title_anzeige": "mint › studieren › mint studiengaenge › mediendesigninformatik",
+      "section_heading": "Studienziel",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## Studienziel\n2/3 Informatik + 1/3 Mediendesign im Einzelnen: viel Programmieren, Datenbanksysteme, Mathematik, Statistik, Concept Design, Algorithmen und Datenstrukturen, mobile Computing, Projektdesign, Englisch, Computergraphik etc.\nAuch das ist Programmieren: Scratch ist eine der weltweit bekan"
+    },
+    {
+      "rang": 9,
+      "score": 1.02621,
+      "id": "0d55b93a-63ba-5be8-875f-89d9993d52d7",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/visuelle-kommunikation-bvk",
+      "title_anzeige": "Visuelle Kommunikation (BVK)",
+      "section_heading": "Bewerbung > Studium",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "## Studium\nDie Nähe zwischen Theorie und Praxis steht bei uns im Vordergrund, wobei das Bachelorstudium in zwei Abschnitte unterteilt ist. In den ersten drei Semestern lernst du theoretische und gestalterische Kompetenzen. Um die gestellten Kommunikationsaufgaben lösen zu können, lernen unsere Studi"
+    },
+    {
+      "rang": 10,
+      "score": 0.97764,
+      "id": "062d22eb-a672-54ed-a1a9-5ba099deed14",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/szenografie-kostuem-experimentelle-gestaltung-ske",
+      "title_anzeige": "Szenografie – Kostüm – Experimentelle Gestaltung (SKE)",
+      "section_heading": "Das Studium",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "#  Das Studium  \n##\n[ Worum geht es? ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/szenografie-kostuem-experimentelle-gestaltung-ske \"Worum geht es?\")\nBei dem Studiengang handelt es sich um ein künstlerisch-angewandtes Studium, das in den ersten beiden Semestern übergreifende gestalteri"
+    },
+    {
+      "rang": 11,
+      "score": 0.9469,
+      "id": "3d798b56-9da8-565e-957d-89d36d779414",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat",
+      "title_anzeige": "Angewandte Mathematik und Data Science (MAT)",
+      "section_heading": "Kurzübersicht > Studienablauf und Qualifikationsziele > Kurzübersicht",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "Sie erwerben ein grundlegendes Verständnis für das erhebliche Änderungspotential, das mathematische und IT-gestützte Problemlösungsmethoden im Zuge der Digitalisierung für die zukünftige Gestaltung wichtiger Produktions- und Entscheidungsprozesse aufweist. Sie werden dadurch insgesamt ermutigt ihr F"
+    },
+    {
+      "rang": 12,
+      "score": 0.90371,
+      "id": "0481fbba-068e-5c22-bb2e-ca0593e6e57d",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BVK_PO_2022_23.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BVK PO 2022 23 — _Modulhandbuch für den Bachelorstudiengang Visuelle Kommunikation_",
+      "section_heading": "_**BA Visuelle Kommunikation**_ Software: Vertiefende Software-Kenntnisse des _**BVK-222 Qualifikation IV (WP)**_ Grafikdesign.",
+      "chunk_index": 221,
+      "text_vollstaendig": false,
+      "auszug": "## _**BA Visuelle Kommunikation**_ Software: Vertiefende Software-Kenntnisse des _**BVK-222 Qualifikation IV (WP)**_ Grafikdesign.  \nAnwendung aktueller  \nSoftware, digitale Satz, Bild- und  \nVektorbearbeitung,  \nOptimierung des digitalen Workflow.  \n_**Hochschule Hannover**_"
+    },
+    {
+      "rang": 13,
+      "score": 0.88694,
+      "id": "e3988412-30b2-5649-add3-7b36d7a5795c",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "title_anzeige": "www › studium › studienangebot › bachelor studiengaenge — Filter auswählen",
+      "section_heading": "Bachelor-Studiengänge > Mechatronik dual (MTD)",
+      "chunk_index": 40,
+      "text_vollstaendig": true,
+      "auszug": "|  [ **Innenarchitektur (BIA)** ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/innenarchitektur-bia)  | Bachelor of Arts (B.A.)  |  [ Schnellansicht ](https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge)  |  [ Zum Studiengang ](https://f3.hs-hannover.de/studium/bache"
+    },
+    {
+      "rang": 14,
+      "score": 0.83773,
+      "id": "051e60e1-7074-5a69-aa27-7c6f3d11e801",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/11-2016/04_BPD_Stand_20160811.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2016 › 04 BPD Stand 20160811 — Design,",
+      "section_heading": "**Abteilung Design und Medien, der Hochschule Hannover** > **§ 6** > **Abteilung Design und Medien, der Hochschule Hannover** > **Inkrafttreten**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|**Erster Studienabschnitt**\n**Anlage B1**|||||||||||||\n|**Pflichtmodule_1. Studienabschnitt**|||||||||||||\n|**M-Kürzel**|**Modul-Bezeichnung**|**ArtM**|**CRM**|**Gew.M **|**TM-Kürzel**|**Teilmodul-Bezeichnung**|**Art**|**SWS**|**CR**|**Prüfungsf"
+    },
+    {
+      "rang": 15,
+      "score": 0.82333,
+      "id": "45b0899a-33bc-51c8-b279-5d05cdebe50f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BRS PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 1576,
+      "text_vollstaendig": false,
+      "auszug": "## **Kommentar:**  \nTZI ist die Kunst, sich selbst und eine Gruppe zu leiten. Dazu gehört sowohl das methodische Repertoire als auch die Auseinandersetzung mit eigenem Leitungs- und Gruppenverhalten. Dabei beschränkt sich die TZI nicht auf ein Anwendungsfeld, sondern ist prinzipiell offen für die Ge"
+    },
+    {
+      "rang": 16,
+      "score": 0.81573,
+      "id": "4e54228b-74f4-5db4-8643-28b0565b1bc7",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/szenografie-kostuem-experimentelle-gestaltung-ske",
+      "title_anzeige": "Szenografie – Kostüm – Experimentelle Gestaltung (SKE)",
+      "section_heading": "Das Studium",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "Der Studienschwerpunkt Kostüm bildet Kostümbildner*innen für alle Sparten des Literatur-, Musik- und Tanztheaters sowie für Film und Fernsehen aus. Der Studienschwerpunkt Experimentelle Gestaltung bildet freie Gestalter*innen für unterschiedliche künstlerisch-angewandte Berufsfelder aus, beispielswe"
+    },
+    {
+      "rang": 17,
+      "score": 0.80796,
+      "id": "a67f3c4f-751d-581b-8d59-e3a50ba02515",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/05_PO_IMC_2021.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › 05 PO IMC 2021",
+      "section_heading": "**der Hochschule Hannover (PO IMC 2021)** > **§ 3** > **der Hochschule Hannover (PO IMC 2021)** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den dualen Bachelor-Studiengang einschließlich der Bachelor-Prüfung acht Semester (Regelstudienzeit).  \n- (2) Das Bachelor-Studium gliedert sich in  \n- einen **viers"
+    },
+    {
+      "rang": 18,
+      "score": 0.80193,
+      "id": "962e941e-c3ea-53b3-9e55-6e45e14fb12c",
+      "source_url": "https://f4.hs-hannover.de/studium/master-studiengaenge/digitale-transformation-mdt",
+      "title_anzeige": "Digitale Transformation (MDT)",
+      "section_heading": "Digitale Transformation (MDT) > Konsekutiver Masterstudiengang zu Bachelor Wirtschaftsinformatik",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Digitale Transformation (MDT)  \n##  Konsekutiver Masterstudiengang zu Bachelor Wirtschaftsinformatik\nDie Informationstechnologie spielt für Unternehmen auch heute schon eine zentrale Rolle. Durch die digitale Transformation verändern sich die Technologie und die hieraus resultierenden Möglichkeit"
+    },
+    {
+      "rang": 19,
+      "score": 0.80178,
+      "id": "f04878e6-678d-5ccd-8073-536328e63147",
+      "source_url": "https://www.code4comp.wp.hs-hannover.de/2015/11/05/die-erste-stunde",
+      "title_anzeige": "Die erste \"Stunde",
+      "section_heading": "Die erste \"Stunde\" > Einstieg",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Der Lehrer fragt in den Sitzkreis hinein: Was ist eigentlich “Programmieren”? Antworten\nlauten: “Einen Computer einschalten” oder “ein Programm schreiben”. Der Lehrer erklärt: Programmieren ist das, was ich ich mit Euch jeden Tag mache. Was mache ich mit Euch? Antwort: “Uns sagen, was wir lernen sol"
+    },
+    {
+      "rang": 20,
+      "score": 0.78825,
+      "id": "26d9ad91-34e6-50a3-85ab-2404c0152c21",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/11-2016/01_PO-BIA_20160811.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2016 › 01 PO BIA 20160811",
+      "section_heading": "**Abteilung Design und Medien, der Hochschule Hannover** > **§ 6** > **Abteilung Design und Medien, der Hochschule Hannover** > **Inkrafttreten**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|**Erster Studienabschnitt**\n**Anlage B1**|||||||||||||\n|**Pflichtmodule_1. Studienabschnitt**|||||||||||||\n|**M-Kürzel**|**Modul-Bezeichnung**|**ArtM**|**CRM**|**Gew.M* **|**TM-Kürzel**|**Teilmodul-Bezeichnung**|**Art**|**SWS**|**CR**|**Prüfungs"
+    },
+    {
+      "rang": 21,
+      "score": 0.78638,
+      "id": "9f8e1f38-26fc-521c-b79a-027ff3d8f481",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BRS PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 1526,
+      "text_vollstaendig": false,
+      "auszug": "## **Kommentar:**  \nIn diesem Seminar werden wir praktisch mit dem Werkstoff Ton arbeiten. Wir werden uns dem Material spielerisch nähern und Materialerfahrungen zulassen. Durch die Hinführung zum prozessorientierten Arbeiten können bisherige Denkmuster beim Gestalten hinterfragt werden. Wir werden "
+    },
+    {
+      "rang": 22,
+      "score": 0.78387,
+      "id": "95c68017-30ca-5554-8207-3dfa3f62125f",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/PO_besonderer_Teil_2010.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › PO besonderer Teil 2010",
+      "section_heading": "**§ 11 Inkrafttreten**",
+      "chunk_index": 122,
+      "text_vollstaendig": false,
+      "auszug": "Entwurf, Praxis|\n|0||1|1|0|0|0|1|0|0|0|1|1|\n|E/P/H/\nR/K90|E/P/H/\nR/K90|H|E/ R|E/ R|E/ R|E/P|E/ R|E/P|E/P|E/P|E|E|\n|2|2|3|2|2|2|2|2|2|2|2|3|4|\n|S/Ü/V/P|S/Ü/V/P|S|Ü|Ü|Ü|Ü|Ü|Ü|Ü|Ü|S|Ü|\n|3|3|4|2|2|2|2|2|2|2|2|4|4|\n|BUE-103-01|BUE-103-02|BVK-104-01|BVK-105-01|BVK-105-02|BVK-105-03|BVK-105-04|BVK-106-01|B"
+    },
+    {
+      "rang": 23,
+      "score": 0.78147,
+      "id": "ae9e2596-b87c-5f52-b51b-89438bce1447",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_IK/09_F_III_PO_IMC_2019.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen IK › 09 F III PO IMC 2019",
+      "section_heading": "**§ 3** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den dualen Bachelor-Studiengang einschließlich der Bachelor-Prüfung acht Semester (Regelstudienzeit).  \n- (2) Das Bachelor-Studium gliedert sich in  \n- einen **viers"
+    },
+    {
+      "rang": 24,
+      "score": 0.77964,
+      "id": "66a1e54d-c322-58b0-be39-1ef7136fdbe9",
+      "source_url": "https://www.code4comp.wp.hs-hannover.de/2016/04/20/dalli-klick-und-suchbild",
+      "title_anzeige": "Dalli-Klick und Suchbild",
+      "section_heading": "Dalli-Klick und Suchbild > Einleitung",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "### Einleitung\nIn der neunzehnten Stunde, die wir von vorneherein als Doppelstunde konzipieren, wollen wir die Klasse in zwei Gruppen aufteilen. Eine Gruppe soll das Spiel Dalli-Klick programmieren, die andere Gruppe soll ein Suchbild, auf dem Fehler versteckt sind, programmieren. Beide Programme be"
+    },
+    {
+      "rang": 25,
+      "score": 0.77867,
+      "id": "35821040-0bc2-51a7-a023-83cdf2e593f3",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 1021,
+      "text_vollstaendig": false,
+      "auszug": "## **Kommentar:**  \nIn diesem Seminar werden wir praktisch mit dem Werkstoff Ton arbeiten. Wir werden uns dem Material spielerisch nähern und Materialerfahrungen zulassen. Durch die Hinführung zum prozessorientierten Arbeiten können bisherige Denkmuster beim Gestalten hinterfragt werden. Wir werden "
+    },
+    {
+      "rang": 26,
+      "score": 0.77328,
+      "id": "8a0f3f2e-997f-5ff7-8a03-498390d62535",
+      "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/und-viel-mehr",
+      "title_anzeige": "mint › fuer lehrkraefte › und viel mehr",
+      "section_heading": "Smart-Fashion-AG",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "##  Smart-Fashion-AG\nDas AG-Angebot richtet sich an Schüler*innen ab dem 8. Jahrgang, die sowohl an Informatik und Elektrotechnik Interesse haben, aber auch Geschick und Freude an textilem Gestalten und Mode. Unsere Nähprojekt können wir in der Schwierigkeit anpassen, z.B. für jüngere Schüler*innen "
+    },
+    {
+      "rang": 27,
+      "score": 0.76186,
+      "id": "635293c5-96ec-52d3-a517-73fe095df729",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "title_anzeige": "FAQ für Studierende und Studienbewerber*innen",
+      "section_heading": "FAQ für Studierende und Studienbewerber*innen > Fragen vor der Bewerbung > FAQ für Studierende und Studienbewerber*innen",
+      "chunk_index": 34,
+      "text_vollstaendig": true,
+      "auszug": "* [Innenarchitektur (BA)](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/innenarchitektur-bia/)\n* [Mediendesign (BA)](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/mediendesign-bme/ \"Opens external link in current window\")\n* [Modedesign (BA)](https://f3.hs-hannover.de/studium/ba"
+    },
+    {
+      "rang": 28,
+      "score": 0.75634,
+      "id": "5da9e17b-35a1-54e4-981c-c0c3492943e2",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Besondere_PO_2009.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › Besondere PO 2009",
+      "section_heading": "",
+      "chunk_index": 200,
+      "text_vollstaendig": false,
+      "auszug": "im Studienverlauf\nV\n2\nDM-UE-02\nGestaltungsgrundlagen 2\nP\n6\n6\n1,5 keine\nDM-UE-02-01\nFarbe II\n1\nP\n1\nVertiefende Erfahrungen in der\nAnwendung von Farbe und ihrer\nWirkung. Erwerb von Kenntnissen über\nFarbtheorien und Farbsysteme\nÜ\n1\nDM-UE-02-02\nMaterial II\n1\nP\n1\nVertiefende Erfahrungen in der\nHandhabung"
+    },
+    {
+      "rang": 29,
+      "score": 0.75414,
+      "id": "a7e66c3d-00b1-5bdc-a0e3-0798640b7c0f",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/visuelle-kommunikation-bvk",
+      "title_anzeige": "Visuelle Kommunikation (BVK)",
+      "section_heading": "Das Studium",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "[ Was werde ich lernen? ](https://f3.hs-hannover.de/studium/bachelor-studiengaenge/visuelle-kommunikation-bvk \"Was werde ich lernen?\")\nDie Studierenden werden auf eine sich fortlaufend verändernde Design-, Kultur- und Medienbranche vorbereitet. Sie werden befähigt, mit umfassend gestalterischer Komp"
+    },
+    {
+      "rang": 30,
+      "score": 0.73798,
+      "id": "1c04865a-74f3-51d6-a7e9-1135783b46c5",
+      "source_url": "https://mint.hs-hannover.de/fileadmin/5_%C3%9Cber_uns/Ver%C3%B6ffentlichungen/LeLa_2016.pdf",
+      "title_anzeige": "mint › 5 Über uns › Veröffentlichungen › LeLa 2016 — Programmierung mit dem humanoiden Roboter NAO",
+      "section_heading": "**Der humanoide Roboter NAO**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **Der humanoide Roboter NAO**  \nDer humanoide Roboter NAO lässt sich mithilfe einer grafischen Oberfläche programmieren. Darüber hinaus kann die Programmiersprache Python genutzt werden. Somit können sowohl Programmieranfänger als auch programmiererfahrene Schülerinnen und Schüler mit dem NAO arb"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 83092,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.63,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 1.98,
+    "docs_laden_s": 0.17,
+    "quellen_s": 3.79,
+    "antwort_llm_s": 2.36,
+    "gesamt_s": 6.15
+  },
+  "auswahl_begruendung": "{\"selected\":[2,3,5,1]}"
+}

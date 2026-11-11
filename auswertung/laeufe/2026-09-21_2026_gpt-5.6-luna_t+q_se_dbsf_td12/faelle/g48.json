@@ -1,0 +1,1643 @@
+{
+  "fall": {
+    "id": "g48",
+    "case_type": "direct",
+    "question": "Nach welchem Kriterium wird ein Studienpreis der Fakultät V vergeben, wenn meine Noten nicht herausragend sind?",
+    "reference_answer": "Nach besonderem Engagement – die Hälfte der Preise geht an diese Gruppe.",
+    "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die Studienpreise werden je zur Hälfte nach Leistung (Abs. 2) oder einem besonderen Engagement (Abs. 3 bis 6) vergeben."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ ordnung/auswahl. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "b8dd3185-4fba-5493-95f5-d3577259611a",
+      "b0292be2-617d-5253-b822-dbbd0c3ba307",
+      "41f642c8-54e8-5024-9115-02eb927c7c37",
+      "db88ee30-cfee-55ac-b75f-4bf591dd2db0",
+      "f678a85d-bbe8-5fa5-abf2-d968b0d8d0e0",
+      "3d3dc266-2093-56fd-87fa-a20128a0938e",
+      "61f4aefc-95e2-5a4c-82f7-7e50bbe705c7",
+      "9ebf5dae-065b-5145-acaf-77748d640d15",
+      "43e72931-0e41-58d9-ad5e-a162e3da530f",
+      "bc4c485e-d253-5556-8c42-42c1a7002989",
+      "199fac7b-74a6-596c-8d3a-3ee16b519a6c",
+      "6ad6ac66-7952-5d33-9add-c9baeb8ed4f2",
+      "8c669a07-d2df-50f9-9dcb-423450f8b213",
+      "10abda45-0b77-55ec-93f5-c21ab8446a5f",
+      "ceecf81f-5a96-5f96-b66c-abf7aa864051",
+      "3ea5b265-bcaa-5b8f-a221-93f37f7f784b",
+      "cb993929-35ea-521f-a591-dd33600924a5"
+    ],
+    "beleg_punkte": [
+      "9ebf5dae-065b-5145-acaf-77748d640d15"
+    ],
+    "beleg_urls": [
+      "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:40:14",
+  "dauer_s": 11.05,
+  "fehler": null,
+  "antwort": "Wenn Ihre Noten nicht herausragend sind, kann ein Studienpreis der Fakultät V aufgrund eines besonderen Engagements vergeben werden. Die Studienpreise werden „je zur Hälfte nach Leistung (Abs. 2) oder einem besonderen Engagement (Abs. 3 bis 6) vergeben\" [1].\n\nAls Kriterien nennt die Ordnung:\n\n- besonderes Engagement im Studium durch „besondere Studienleistungen oder die engagierte und reflektierte Teilnahme an oder der Gestaltung von Lehrveranstaltungen, Praktika oder Projekten\" [1];\n- besonderes hochschulpolitisches Engagement durch „eine mindestens ein Semester dauernde aktive Mitarbeit in der Selbstverwaltung\" [1];\n- besonderes gesellschaftliches Engagement durch „eine sachlich und zeitlich erhebliche gegenwärtige ehrenamtliche Tätigkeit\" [1];\n- besonderes soziales Engagement durch „einen überdurchschnittlichen gegenwärtigen ehrenamtlichen Einsatz für unterstützungsbedürftige Personen\" [1].\n\nDer Antrag muss anhand der Vergabekriterien begründet werden; „Nachweise sind beizufügen\" [1]. Für Engagement im Studium ist „ein Gutachten einer/eines hauptamtlich Lehrenden der Fakultät beizufügen\" [1]. Die Regelung betrifft ausdrücklich die Fakultät V – Diakonie, Gesundheit und Soziales.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f5 › Relpaed › Allgemeine Teil Pruefungsordnung BRS › Allgemeiner Teil PO BRS Stand 11 2011",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Allgemeine_Teil_Pruefungsordnung_BRS/Allgemeiner_Teil_PO_BRS_Stand_11_2011.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Allgemeiner Teil der Prüfungsordnung für die Bachelorund Master-Studiengänge an der Hochschule Hannover %Kbrc^pprkd&\n  ## Erster Teil Allgemeine Vorschriften\n  ## § 1 Geltungsbereich\n  ## § 2 Zweck der Prüfungen\n  ## § 3 Prüfungsausschuss\n  ## § 4 Prüfende und Beisitzerinnen oder Beisitzer\n  ## § 5 Anerkennung von Leistungen und Kompetenzen\n  ## § 6 Zulassung zu Prüfungen\n  ## § 7 Aufbau der Prüfungen, Arten der Prüfungsleistungen\n  ## § 8 Öffentlichkeit von mündlichen Prüfungen\n  ## § 9 Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 10 Bewertung der Prüfungsleistung und Bildung der Modulnote\n  ## (4) Die Note lautet:\n  ## § 11 Wiederholung von Prüfungsleistungen\n  ## § 12 Zeugnisse und Bescheinigungen\n  ## § 13 Zusatzmodule\n  ## § 14 Ungültigkeit der Prüfung\n  ## § 15 Einsicht in Prüfungsergebnisse und die Prüfungsakte\n  ## § 16 Hochschulöffentliche Bekanntmachungen des Prüfungsausschusses\n  ## § 17 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil Vorprüfung\n  ## § 18 Art und Umfang\n  ## § 19 Gesamtergebnis der Vorprüfung\n  ## Dritter Teil Bachelor- und Master-Prüfung\n  ## § 20 Art und Umfang\n  ## § 21 Bachelor- bzw. Master-Arbeit\n  ## § 22 Kolloquium; mündliche Abschlussprüfung\n  ## § 23 Wiederholung der Bachelor- bzw. Master-Arbeit\n  ## § 24 Gesamtergebnis der Prüfung\n  ## Vierter Teil Schlussvorschriften\n  ## § 25 Übergangsvorschriften\n  ## § 26 Inkrafttreten\n  ## Bachelor-Urkunde/Master-Urkunde\n  ## Zeugnis über die Vorprüfung\n  ## A n l a g e  A3\n  ## Zeugnis über die Bachelor-Prüfung / Master-Prüfung\n  ## Diploma Supplement\n  ## 1. ANGABEN ZUM INHABER/ZUR INHABERIN DER QUALIFIKATION\n  ## 2. ANGABEN ZUR QUALIFIKATION\n  ## 2.5 Im Unterricht / in der Prüfung verwendete Sprache(n)\n  ## 3. ANGABEN ZUR EBENE DER QUALIFIKATION\n  ## 3.1 Ebene der Qualifikation\n  ## 3.2 Dauer des Studiums (Regelstudienzeit)\n  ## 4. ANGABEN ZUM INHALT UND ZU DEN ERZIELTEN ERGEBNISSEN\n  ## 4.1 Studienform\n  ## 4.2 Anforderungen des Studiengangs/Qualifikationsprofil des Absolventen/der Absolventin\n  ## 4.5 Gesamtnote\n  ## 5. ANGABEN ZUM STATUS DER QUALIFIKATION\n  ## 5.1 Zugang zu weiterführenden Studien\n  ## 5.2 Beruflicher Status"
+    },
+    {
+      "nr": 2,
+      "titel": "f5 › Studieninformationen › Ordnungen › Zulassungsordnung HBI 2025 04 16 Lesefassung",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Studieninformationen/Ordnungen/Zulassungsordnung_HBI_2025-04-16__Lesefassung_.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Besonderer Teil der Ordnung über den Zugang und die Zulassung\n  ## Fakultät V Diakonie, Gesundheit und Soziales\n  ## der Hochschule Hannover\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## § 3\n  ## Auswahlverfahren\n  ## § 4\n  ## Besonderes Auswahlverfahren\n  ## Zulassung und Immatrikulation\n  ## § 6\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 3,
+      "titel": "f5 › UEber uns › Personen › Promotionsfoerderung an Fachhochschulen Recherche zu moeglichen Foerdermassnahmen",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Promotionsfoerderung_an_Fachhochschulen_-_Recherche_zu_moeglichen_Foerdermassnahmen.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Promotionsförderung an Fachhochschulen Recherche zu möglichen Fördermaßnahmen\n  ## Zusammenfassung und Bewertung\n  ## Anhang:\n  ## Nachwuchsförderung\n  ## Quellen:"
+    },
+    {
+      "nr": 4,
+      "titel": "Bewerbung und Zulassungsvoraussetzungen",
+      "url": "https://f5.hs-hannover.de/studium/studieninformationen/bewerbung",
+      "fakultaet": "f5",
+      "struktur": "# Bewerbung und Zulassungsvoraussetzungen\n  ## Bachelor-Studiengänge\n  ## Master-Studiengänge"
+    },
+    {
+      "nr": 5,
+      "titel": "f5 › Bachelor › Heilpaedagogik berufsintegrierend HBI › Pruefungsordnung HP allg Teil 01 ATPO 2015 mit Anlagen A1 A3",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/Pruefungsordnung_HP_allg_Teil_01-ATPO_2015_mit_Anlagen_A1-A3.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Allgemeiner Teil der Prüfungsordnung für die Bachelor- und MasterStudiengänge an der Hochschule Hannover (ATPO 2015)\n  ## Erster Teil Allgemeine Vorschriften\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zweck der Prüfungen\n  ## § 3\n  ## Prüfungsausschuss\n  ## § 4\n  ## Prüfende und Beisitzende\n  ## § 5\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 6\n  ## Zulassung zu Prüfungen\n  ## § 7\n  ## Aufbau der Prüfungen, Arten der Prüfungsleistungen\n  ## § 8\n  ## Öffentlichkeit von mündlichen Prüfungen\n  ## § 9\n  ## Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 10\n  ## Bewertung der Prüfungsleistung und Bildung der Modulnote\n  ## § 11\n  ## Wiederholung von Prüfungsleistungen\n  ## § 12\n  ## Zeugnisse und Bescheinigungen\n  ## § 13\n  ## Zusatzmodule\n  ## § 14\n  ## Ungültigkeit der Prüfung\n  ## § 15\n  ## Einsicht in Prüfungsergebnisse und die Prüfungsakte\n  ## § 16\n  ## § 17\n  ## Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Vorprüfung\n  ## § 18\n  ## Art und Umfang\n  ## § 19\n  ## Gesamtergebnis der Vorprüfung\n  ## Dritter Teil Bachelor- und Master-Prüfung\n  ## § 20\n  ## Art und Umfang\n  ## § 21\n  ## Bachelor- bzw. Master-Arbeit\n  ## § 22\n  ## Kolloquium; mündliche Abschlussprüfung\n  ## § 23\n  ## Wiederholung der Bachelor- bzw. Master-Arbeit"
+    },
+    {
+      "nr": 6,
+      "titel": "f5 › Fakultaet V › Modulhandbuch HBI Stand 23.08.2023",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Modulhandbuch_HBI_Stand_23.08.2023.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Modulhandbuch\n  ## Modulhandbuch\n  ## Inhaltsverzeichnis\n  ## Zweiter Studienabschnitt\n  ## Modulübersichtstabelle\n  ## Zweiter Studienabschnitt – Präsenzstudium (4.- 8. Semester)\n  ## Modulkatalog\n  ## Ordnung über den Zugang und die Zulassung\n  ## Fakultät V Diakonie, Gesundheit und Soziales\n  ## der Hochschule Hannover\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## § 3\n  ## Auswahlverfahren\n  ## § 4\n  ## Besonderes Auswahlverfahren\n  ## Zulassung und Immatrikulation\n  ## § 6\n  ## Inkrafttreten\n  ## Bachelor-Studiengang Heilpädagogik berufsintegrierend (HBI) – 8. Semester\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende  der Abkürzungen  (Art, Form der Prüfungsleistung und Lehrveranstaltungen):\n  ## Arten der Prüfungsleistungen:"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › MGB MBG MMG › Zulassungsordnung › HsH Verkuendungsblatt 03 2020 ZO MBG",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Zulassungsordnung/HsH_Verkuendungsblatt_03_2020_ZO_MBG.pdf",
+      "fakultaet": "f5",
+      "struktur": "# Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Master-Studiengang\n  ## „Bildungswissenschaften für Pflege- und\n  ## Gesundheitsberufe in Teilzeit (MBG)“\n  ## an der Fakultät V – Diakonie, Gesundheit und Soziales\n  ## der Hochschule Hannover\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## oder\n  ## § 3\n  ## Studienbeginn und Bewerbungsfrist\n  ## § 4\n  ## Zulassungsverfahren\n  ## § 5\n  ## Auswahlkommission für den Masterstudiengang MGB\n  ## § 6\n  ## Bescheiderteilung, Nachrückverfahren, Abschluss der Verfahren\n  ## § 7\n  ## Zulassung für höhere Fachsemester\n  ## § 8\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Vorwort\n  ## Inhaltsübersicht\n  ## Erster Teil Hochschulen in staatlicher Verantwortung\n  ## Erstes Kapitel\n  ## Allgemeine Bestimmungen\n  ## Erster Abschnitt\n  ## Grundlagen\n  ## Zweiter Abschnitt\n  ## Studium und Lehre\n  ## Dritter Abschnitt\n  ## Verwaltungskostenbeitrag; Studienguthaben; Gebühren und Entgelte\n  ## Vierter Abschnitt\n  ## Studienqualitätsmittel\n  ## Dritter Abschnitt\n  ## Organisation\n  ## Grundlagen\n  ## Zweiter Abschnitt\n  ## Erster Titel\n  ## Studierende\n  ## Drittes Kapitel\n  ## Hochschulen in Trägerschaft des Staates\n  ## Zweiter Titel\n  ## Wissenschaftliches und künstlerisches Personal\n  ## Viertes Kapitel\n  ## Hochschulen in Trägerschaft von rechtsfähigen Stiftungen des öffentlichen Rechts\n  ## Dritter Teil Studentenwerke\n  ## Vierter Teil Übergangs- und Schlussvorschriften\n  ## Fünftes Kapitel\n  ## Humanmedizinische Einrichtungen; Medizinische Fakultät der Universität Oldenburg\n  ## Anlage 1\n  ## Anlage 2\n  ## Zweiter Teil\n  ## Hochschulen in nichtstaatlicher Verantwortung\n  ## Erster Teil Hochschulen in staatlicher Verantwortung\n  ## Erstes Kapitel\n  ## § 1 Staatliche Verantwortung\n  ## § 2 Hochschulen\n  ## § 3 Aufgaben der Hochschulen\n  ## § 4 Zusammenwirken der Hochschulen\n  ## § 5 Evaluation von Forschung und Lehre\n  ## Zweiter Abschnitt\n  ## § 6 Studiengänge und ihre Akkreditierung; Regelstudienzeit; Studienberatung\n  ## § 7 Prüfungen und Leistungspunktsystem; staatliche Anerkennung\n  ## § 8 Inländische Grade\n  ## § 9 Promotion; Doktorandinnen und Doktoranden\n  ## § 9 a Habilitation\n  ## Dritter Abschnitt\n  ## § 10 Ausländische Grade, Titel und Bezeichnungen\n  ## Verwaltungskostenbeitrag; Studienguthaben; Gebühren und Entgelte\n  ## § 11 Verwaltungskostenbeitrag"
+    },
+    {
+      "nr": 9,
+      "titel": "f5 › Bachelor › Heilpaedagogik berufsintegrierend HBI › 05 FV ATPO 2025 mit Anhang VB",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/05_FV_ATPO_2025_mit_Anhang_VB.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Allgemeiner Teil der Prüfungsordnung für die Bachelor- und Masterstudiengänge der Fakultät V Diakonie, Gesundheit und Soziales der Hochschule Hannover (ATPO Fakultät V 2025)\n  ## Erster Teil Allgemeine Vorschriften\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zweck der Prüfungen\n  ## § 3\n  ## Prüfungsausschuss\n  ## § 4\n  ## Prüfende und Beisitzende\n  ## § 5\n  ## Anerkennung von Leistungen und Kompetenzen\n  ## § 6\n  ## Zulassung zu Prüfungen\n  ## § 7\n  ## Aufbau der Prüfungen, Arten der Prüfungsleistungen\n  ## § 8\n  ## Öffentlichkeit von mündlichen Prüfungen\n  ## § 9\n  ## Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 10\n  ## Bewertung der Prüfungsleistung und Bildung der Modulnote\n  ## sehr gut\n  ## bei einem Durchschnitt über 1,5 bis 2,5: gut bei einem Durchschnitt über 2,5 bis 3,5: befriedigend\n  ## § 11\n  ## Wiederholung von Prüfungsleistungen\n  ## § 12\n  ## Zeugnisse, Bescheide und Bescheinigungen\n  ## § 13\n  ## § 14\n  ## Rücknahme von Prüfungsergebnissen\n  ## § 15\n  ## Einsicht in Prüfungsergebnisse und die Prüfungsakte\n  ## § 16\n  ## § 17\n  ## Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Vorprüfung\n  ## § 18\n  ## Art und Umfang\n  ## § 19\n  ## Gesamtergebnis der Vorprüfung\n  ## Dritter Teil\n  ## Bachelor- und Masterprüfung\n  ## § 20\n  ## Art und Umfang\n  ## § 21\n  ## Bachelor- bzw. Masterarbeit\n  ## § 22\n  ## Kolloquium; mündliche Abschlussprüfung"
+    },
+    {
+      "nr": 10,
+      "titel": "f5 › UEber uns › Gremien › Geschaeftsordnung Studienkommission Genehmigt 26 05 2011 mit neuem Logo — § 1 Zusammensetzung",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gremien/Geschaeftsordnung_Studienkommission_Genehmigt_26_05_2011_mit_neuem_Logo.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Geschäftsordnung der Studienkommission der Fakultät V der Fachhochschule Hannover\n  ## § 1 Zusammensetzung\n  ## § 2 Vorsitz\n  ## § 3 Einberufung, Leitung\n  ## § 4 Einberufungsfrist\n  ## § 5 Eröffnung der Sitzung\n  ## § 6 Protokoll\n  ## § 7 Beschlussfähigkeit\n  ## § 8 Beschlüsse\n  ## § 9 Öffentlichkeit\n  ## § 10 Ergänzende Anwendung\n  ## § 11 Inkrafttreten"
+    },
+    {
+      "nr": 11,
+      "titel": "f5 › Pflege › Zulassungsordnung › Zulassungsordnung BA Pflege Verkuendungsblatt 4 2008 — § 1 Geltungsbereich",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Zulassungsordnung/Zulassungsordnung_BA_Pflege_Verkuendungsblatt_4-2008.pdf",
+      "fakultaet": "f5",
+      "struktur": "# Ordnung über die Zulassung zum Studium im berufsbegleitenden Bachelor-Studiengang Pflege (1. und 2. Studienabschnitt ) der Fakultät V Diakonie, Gesundheit und Soziales der Fachhochschule Hannover Besonderer Teil ( ZulO-BA, Tl.B)\n  ## § 1 Geltungsbereich\n  ## § 2 Zugangsvoraussetzungen, Zulassungskommission und Aufnahmeverfahren für den 1.Studienabschnitt\n  ## § 3 Zugangsvoraussetzungen für den 2. Studienabschnitt\n  ## § 4 Aufnahmeverfahren für den 2. Studienabschnitt\n  ## § 5 Geltungsbereich und Bewerbungsstichtag für die Einstufungsprüfung\n  ## § 6 Auswahlverfahren für Bewerberinnen und Bewerber, die sich einer Einstufungsprüfung für den 2. Studienabschnitt unterziehen\n  ## § 7 Auswahlverfahren für den 2. Studienabschnitt\n  ## § 8 Besonderes Auswahlverfahren für den 2. Studienabschnitt\n  ## § 9 Zulassung und Immatrikulation\n  ## § 10 Inkrafttreten"
+    },
+    {
+      "nr": 12,
+      "titel": "f5 › Soziale Arbeit berufsbgeleitend › Zulassungsordnung SBW › SBW Zulassungsordnunf 01 2021",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Zulassungsordnung_SBW/SBW-Zulassungsordnunf-01-2021.pdf",
+      "fakultaet": "f5",
+      "struktur": "# Ordnung über den Zugang und die Zulassung zum Studium im berufsbegleitenden Bachelorstudiengang\n# „Soziale Arbeit (SWB)“\n# der Fakultät V Diakonie, Gesundheit und Soziales\n# der Hochschule Hannover Besonderer Teil (ZulO-BA, Tl.B)\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## § 3\n  ## Auswahlverfahren\n  ## § 4\n  ## Besonderes Auswahlverfahren\n  ## § 5\n  ## Zulassung und Immatrikulation\n  ## § 6\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 13,
+      "titel": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ordnung der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung)\n  ## § 1 Allgemeines\n  ## § 2 Ausschreibung\n  ## § 3 Höhe der Studienpreise; Bewilligungszeitraum\n  ## § 4 Antrag\n  ## § 5 Vergabeverfahren\n  ## § 6 Vergabekommission\n  ## § 7 Vergabekriterien\n  ## § 8 Datenschutz\n  ## § 9 Inkrafttreten\n  ## Antrag auf Gewährung eines Studienpreises der Fakultät Diakonie, Gesundheit und Soziales\n  ## (   ) wegen besonderer Leistungen\n  ## (   ) wegen einem besonderen Engagement im Studium oder eines besonderen hochschulpolitischen, gesellschaftlichen oder sozialen Engagements."
+    },
+    {
+      "nr": 14,
+      "titel": "www › Verkuendungsblatt › 01 2009 › 06 Richtlinie Studienpreise FakV",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie der Fakultät Diakonie, Gesundheit und Soziales für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 13.01.2009\n  ## I. Allgemeines\n  ## II. Höhe und Dauer der Studienpreise\n  ## III. Vergabeverfahren\n  ## IV. Vergabekriterien\n  ## V. Inkrafttreten"
+    },
+    {
+      "nr": 15,
+      "titel": "www › verkuendungsblatt › aeltere ausgaben › ausgaben 2009 — Ausgabe Nr. 6/2009 vom18.12.2009",
+      "url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2009",
+      "fakultaet": "",
+      "struktur": "    ### Ausgabe Nr. 6/2009 vom18.12.2009\n    ### Ausgabe Nr. 5/2009 vom 17.8.2009\n    ### Ausgabe Nr. 4/2009 vom 10.8.2009\n    ### Ausgabe Nr. 3/2009 vom 23.6.2009\n    ### Ausgabe Nr. 2/2009 vom 2.3.2009\n    ### Ausgabe Nr. 1/2009 vom 23.2.2009"
+    },
+    {
+      "nr": 16,
+      "titel": "www › Verkuendungsblatt › 04 2013 › 03 Spezifische Stipendienordnung der Fakultaet I abgestimmt 2 — § 1 Präambel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Spezifische Stipendienordnung der Fakultät I – Elektro- und Informationstechnik\n  ## § 1 Präambel\n  ## § 2 Stipendien\n  ## §3 Verfahren\n  ## § 4 Stipendien für besonderes Engagement und besondere Verdienste\n  ## § 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“\n  ## § 6 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang„Elektrotechnik und Informationstechnik“, „Mechatronik“ und „Wirtschaftsingenieur Elektrotechnik“\n  ## § 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.\n  ## § 8 Verfügbarkeit der Mittel\n  ## § 9 Erforderliche Unterlagen für die Auszahlungen durch Dezernat IV HaushaltFinanzen- Controlling\n  ## § 10 Inkrafttreten"
+    },
+    {
+      "nr": 17,
+      "titel": "www › Verkuendungsblatt › 06 2017 › 4 Stipendienordnung der Fakulta t I 2017 — Präambel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Spezifische Stipendienordnung\n  ## der Fakultät I – Elektro- und Informationstechnik\n  ## §1\n  ## Präambel\n  ## §2\n  ## Stipendien\n  ## §3\n  ## Verfahren\n  ## Stipendien für besonderes Engagement und besondere Verdienste\n  ## §5\n  ## Stipendien für einen herausragenden ersten Studienabschnitt in den Bachelorstudiengängen „Angewandte Mathematik“, „Technische Redaktion“, „Elektrotechnik und Informationstechnik“, „Mechatronik“ und „Wirtschaftsingenieur Elektrotechnik“\n  ## Stipendien für eine herausragende Vorleistung in den\n  ## Masterstudiengängen der Fakultät I\n  ## §7\n  ## Verfügbarkeit der Mittel\n  ## §8\n  ## Erforderliche Unterlagen für die Auszahlungen\n  ## §9\n  ## Inkrafttreten"
+    },
+    {
+      "nr": 18,
+      "titel": "www › Verkuendungsblatt › 09 2011 › 01 Richtlinie Studienpreise F III — I. Allgemeines",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+      "fakultaet": "",
+      "struktur": "# Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011\n  ## I. Allgemeines\n  ## II. Höhe und Dauer der Studienpreise\n  ## III. Vergabeverfahren\n  ## IV. Vergabekriterien\n  ## V. Inkrafttreten"
+    },
+    {
+      "nr": 19,
+      "titel": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Grundordnung der Hochschule Hannover\n  ## Präambel\n  ## § 1\n  ## Rechtsstellung, Sitz\n  ## § 2\n  ## Ziele und Aufgaben\n  ## § 3\n  ## Organisation der Hochschule\n  ## § 4\n  ## Organe der Hochschulen\n  ## § 5\n  ## Institute\n  ## § 6\n  ## Präsidium\n  ## § 7\n  ## Senat\n  ## § 8\n  ## Hochschulrat\n  ## § 9\n  ## Bildung und Zusammensetzung von Kommissionen mit besonderen Aufgaben\n  ## und weiteren beratenden Gremien\n  ## § 10 Dekanat\n  ## § 11\n  ## Fakultätsrat\n  ## § 12\n  ## Wissenschaftliche Einrichtungen und Kooperationen\n  ## § 13\n  ## Mitglieder und Angehörige\n  ## § 14\n  ## Allgemeine Grundsätze der Mitwirkung\n  ## § 15\n  ## Rechtsstellung der Mitglieder von Gremien\n  ## § 16\n  ## Beschlüsse\n  ## § 17\n  ## Öffentlichkeit\n  ## § 18\n  ## Gleichstellungsbeauftragte\n  ## § 19\n  ## Bestellung von Honorarprofessorinnen und Honorarprofessoren\n  ## § 20\n  ## Ernennung von Ehrensenatorinnen und Ehrensenatoren\n  ## § 21\n  ## Berufung von Professorinnen und Professoren\n  ## § 22\n  ## Veröffentlichungen und Bekanntmachungen\n  ## § 23\n  ## Änderung der Grundordnung\n  ## § 24"
+    },
+    {
+      "nr": 20,
+      "titel": "www › Verkuendungsblatt › 09 2011 › Gesamt 9 2011 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/Gesamt-9-2011.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n# Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011\n  ## I. Allgemeines\n  ## II. Höhe und Dauer der Studienpreise\n  ## III. Vergabeverfahren\n  ## IV. Vergabekriterien\n  ## V. Inkrafttreten\n  ## Ordnung über die Höhe der Vergütung für Lehraufträge und Gastvorträge an der Fachhochschule Hannover (FHH) (LaufVO)\n  ## Präambel\n  ## §1 Vergütung für Lehraufträge\n  ## § 2 Vergütung für Gastvorträge\n  ## § 3 Inkrafttreten"
+    },
+    {
+      "nr": 21,
+      "titel": "www › Verkuendungsblatt › 06 2017 › HsH Verkuendungsblatt 06 2017 20220701 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Hannover, den 05.07.2017\n  ## Inhalt:\n  ## Dienstvereinbarung\n  ## nach § 78 NPersVG zu den\n  ## Grundsätzen der Dienstpostenbewertung\n  ## § 1 Geltungsbereich\n  ## § 2 Grundsatz\n  ## § 3 Bewertungskommission\n  ## § 4 Dienstpostenbeschreibungen\n  ## § 5 Bewertung\n  ## Hochschule Hannover\n  ## Erläuterungsbogen zur Dienstpostenbewertung für Beamtinnen und Beamte\n  ## 4.1 : Grad der Verantwortung - Alternative für Stellen mit Ausführungsverantwortung -\n  ## Ergebnis: BGr. #NV LBO Ni\n  ## HVP\n  ## Dezernat I\n  ## Dienstpostentabelle:\n  ## Ordnung für die Bibliothek der Hochschule Hannover (Bibliotheksordnung HsH – BiblO HsH)\n  ## 1 Organisation der Bibliothek\n  ## 1.1 Zentralbibliothek\n  ## 1.2 Teilbibliotheken\n  ## 2 Aufgabe\n  ## 3\n  ## Leitung\n  ## 4\n  ## Bibliothekskommission\n  ## 5 Erwerbung\n  ## 5.1 Allgemeines\n  ## 5.2 Grundsätze\n  ## 6\n  ## Entbehrlich gewordene Bestände\n  ## 7\n  ## Katalogisierung\n  ## 8\n  ## Benutzung\n  ## 9\n  ## Inkrafttreten\n  ## Benutzungsordnung für die Bibliothek der Hochschule Hannover\n  ## Inhaltsübersicht\n  ## 1 Allgemeines\n  ## Allgemeine Benutzungsbestimmungen\n  ## 5 Fernleihe\n  ## 6 Sonstige Bestimmungen\n  ## 1 Allgemeines\n  ## 1.1 Geltungsbereich\n  ## 1.2 Aufgaben der Bibliothek\n  ## 2 Allgemeine Benutzungsbestimmungen\n  ## 2.1 Rechtsnatur des Benutzungsverhältnisses\n  ## 2.2 Zulassung zur Benutzung"
+    },
+    {
+      "nr": 22,
+      "titel": "www › Verkuendungsblatt › 01 2009 › Verkuendungsblatt 01 2009 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/Verkuendungsblatt_01-2009.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n# Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Master-Studiengang Social Work (MSW) an der Fachhochschule Hannover (FHH)\n  ## § 1 Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## § 3 Studienbeginn und Bewerbungsfrist\n  ## § 4 Zulassungsverfahren\n  ## § 5\n  ## Auswahlkommission\n  ## § 6 Bescheiderteilung, Nachrückverfahren, Abschluss der Verfahren\n  ## § 7 Zulassung für höhere Fachsemester\n  ## § 8 In-Kraft-Treten\n  ## Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Master-Studiengang Management für Pflege- und Gesundheitsberufe (MGB) an der Fachhochschule Hannover (FHH)\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zugangsvoraussetzungen\n  ## § 3\n  ## Studienbeginn und Bewerbungsfrist\n  ## § 4\n  ## Zulassungsverfahren\n  ## § 5\n  ## Auswahlkommission\n  ## § 6\n  ## Bescheiderteilung, Nachrückverfahren, Abschluss der Verfahren\n  ## § 7\n  ## Zulassung für höhere Fachsemester\n  ## § 8 In-Kraft-Treten\n  ## Ordnung über den Zugang und die Zulassung für den konsekutiven Dualen Master-Studiengang Wertschöpfungsmanagement im Maschinenbau (WMM) der Fakultät II der Fachhochschule Hannover\n  ## § 1 Geltungsbereich\n  ## § 2 Zugangsvoraussetzungen\n  ## § 3 Studienbeginn und Bewerbungsfrist\n  ## § 4\n  ## Zulassungsverfahren\n  ## § 5\n  ## Auswahlkommissionen für den Master-Studiengang WMM\n  ## § 6\n  ## Bescheiderteilung, Nachrückverfahren, Abschluss der Verfahren\n  ## § 7 In-Kraft-Treten\n  ## Anlage I (ZulO WMM): Rangliste zur Bewertung der Eignung zum Dualen Master-Studiengang „Wertschöpfungsmanagement im Maschinenbau“\n  ## Bewertungsstufen (1 = eher schwache Eignung … 4 = sehr gute Eignung)\n  ## Abschlussnote\n  ## Praxiserfahrung\n# Besonderer Teil der Prüfungsordnung für den konsekutiven berufsbegleitenden Teilzeit-Master-Studiengang Social Work (MSW) mit dem Abschluss Master of Arts (M.A.) an der Fakultät V, Diakonie, Gesundheit und Soziales der Fachhochschule Hannover\n  ## § 1 Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3 Master-Prüfung, Master-Arbeit\n  ## § 4 Ausnahmeregelungen\n  ## § 5 Inkrafttreten"
+    },
+    {
+      "nr": 23,
+      "titel": "www › Verkuendungsblatt › 05 2013 › HsH Verkuendungsblatt 05 2013 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Spezifische Stipendienordnung \"Schneller Studieren\" der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover\n  ## § 1 Bezugnahme auf die Rahmenordnung\n  ## § 2 Stipendium „Schneller Studieren“\n# Ordnung der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover zur Vergabe von „Go Out“-Zuschüssen im Rahmen von studienbezogenen Auslandsaufenthalten\n  ## § 1 Allgemeines\n  ## § 2 Förderfähige Vorhaben\n  ## 2. Praktika\n  ## 3. Fachkurse\n  ## 4. Studien- oder Projektreisen\n  ## § 3 Verfahren\n  ## 1. Studiensemester\n  ## 2. Praktika\n  ## – Praktikumsvertrag\n  ## 3. Fachkurse\n  ## 4. Studien- oder Projektreisen\n  ## § 4 Auswahlentscheidung\n  ## § 5 Auszahlung\n  ## § 6 Nachweise über Durchführung\n  ## 1. Studiensemester\n  ## 2. Praktika\n  ## 3. Fachkurse\n  ## 4. Studien- oder Projektreisen\n  ## § 7\n  ## Bereitstellung der Mittel\n  ## § 8 Übergangsregelung\n  ## § 9 Inkrafttreten\n  ## Ordnung der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung)\n  ## § 1 Allgemeines\n  ## § 2 Ausschreibung\n  ## § 3 Höhe der Studienpreise; Bewilligungszeitraum\n  ## § 4 Antrag\n  ## § 5 Vergabeverfahren\n  ## § 6 Vergabekommission\n  ## § 7 Vergabekriterien\n  ## § 8 Datenschutz\n  ## § 9 Inkrafttreten\n  ## Antrag auf Gewährung eines Studienpreises der Fakultät Diakonie, Gesundheit und Soziales\n  ## (   ) wegen besonderer Leistungen\n  ## (   ) wegen einem besonderen Engagement im Studium oder eines besonderen hochschulpolitischen, gesellschaftlichen oder sozialen Engagements.\n  ## Besonderer Teil der Prüfungsordnung für den Master-Studiengang „Angewandte Informatik“ (MIN) mit dem Abschluss Master of Science der Fakultät IV – Wirtschaft und Informatik, Abteilung Informatik der Hochschule Hannover\n  ## § 1 Geltungsbereich\n  ## § 2 Hochschulgrad\n  ## § 3 Dauer und Gliederung des Studiums\n  ## § 4 Master-Prüfung, Master-Arbeit\n  ## § 5 Ausnahmeregelungen\n  ## § 6 Studiensemester im Ausland\n  ## § 7 Prüfungen\n  ## § 8 Pflichtstudienberatung\n  ## § 9 Teilzeitstudium"
+    },
+    {
+      "nr": 24,
+      "titel": "www › Verkuendungsblatt › 11 2011 › 01 Richtlinie Landesstipendium Niedersachsen 2011 — `RICHTLINIE`",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/11-2011/01-Richtlinie_Landesstipendium_Niedersachsen_2011.pdf",
+      "fakultaet": "",
+      "struktur": "  ## RICHTLINIE\n  ## ZUR VERGABE VON STIPENDIEN\n  ## VOM 4.8.2011\n  ## I N H A L T :\n  ## Präambel\n  ## § 1\n  ## Quotierung und Vergabekriterien; Höhe und Art der Stipendien\n  ## § 2 Ausschreibungs- und Antragsverfahren\n  ## § 3 Vergabeverfahren\n  ## § 4 Rücknahme/Widerruf der Bewilligung und Rückforderung\n  ## § 5 Datenschutz\n  ## § 6 In-Kraft-Treten"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 13,
+      "titel": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf"
+    },
+    {
+      "nr": 23,
+      "titel": "www › Verkuendungsblatt › 05 2013 › HsH Verkuendungsblatt 05 2013 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf"
+    },
+    {
+      "nr": 14,
+      "titel": "www › Verkuendungsblatt › 01 2009 › 06 Richtlinie Studienpreise FakV",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**§ 7 Vergabekriterien**",
+      "snippets": [
+        "## **§ 7 Vergabekriterien**  \n(1)[1] Die Studienpreise werden je zur Hälfte nach Leistung (Abs. 2) oder einem besonderen Engagement (Abs. 3 bis 6) vergeben.[2] Liegt in einer Gruppe keine ausreichende Zahl von Anträgen vor, werden die überzähligen Studienpreise an Bewerberinnen oder Bewerber der anderen Gruppe vergeben.[3] Die Verteilung der Studienpreise auf die einzelnen Abteilungen der Fakultät erfolgt proportional zur Zahl der zum Zeitpunkt der Entscheidung der Vergabekommission jeweils eingeschriebenen Studierenden.[4] Satz 2 gilt entsprechend.[5] Einen Studienpreis erhält nicht, wer in dem Zeitraum des Semesters, für das der Studienpreis beantragt wird, ein WIR/Deutschlandstipendium erhält.",
+        "(2)[1] Studienpreise wegen besonderer Leistung werden aufgrund der in den bis zur Antragstellung absolvierten Prüfungen erzielten Durchschnittsnote vergeben.[2] Bei der Ermittlung der Durchschnittsnote findet eine Gewichtung nicht statt.[3] Noten, die vor der Antragstellung für eine frühere Zuerkennung eines Studienpreises wegen besonderer Leistungen erzielt wurden, können bei einer späteren Beantragung nicht erneut berücksichtigt werden.  \n> 1. Änderung der Ordnung der Fakultät V - Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung) Seite 2 von 4  \nVerkündungsblatt der HsH  \nNr. 5/2013 vom 3.7.2013  \n(3) Ein besonderes Engagement im Studium wird durch besondere Studienleistungen oder die engagierte und reflektierte Teilnahme an oder der Gestaltung von Lehrveranstaltungen, Praktika oder Projekten angezeigt. Absatz 2 Satz 3 gilt entsprechend.",
+        "(4)[1] Ein besonderes hochschulpolitisches Engagement liegt in der Regel bei einer mindestens ein Semester dauernden aktiven Mitarbeit in der Selbstverwaltung, insbesondere in einem Organ oder sonstigem Gremium der Studierendenschaft oder der Hochschule vor.[2] Zeiten der Mitarbeit die vor der Antragstellung für eine frühere Zuerkennung eines Studienpreises wegen eines besonderen hochschulpolitischen Engagements zurückgelegt wurden, können bei einer späteren Beantragung nicht erneut berücksichtigt werden.  \n(5) Ein besonderes gesellschaftliches Engagement wird in der Regel durch eine sachlich und zeitlich erhebliche gegenwärtige ehrenamtliche Tätigkeit in politischen, gewerkschaftlichen, kirchlichen, kulturellen oder der Bildung dienenden Einrichtungen, Organisationen und Initiativen innerhalb und außerhalb der Hochschule angezeigt."
+      ],
+      "zitate": [
+        "je zur Hälfte nach Leistung (Abs. 2) oder einem besonderen Engagement (Abs. 3 bis 6) vergeben",
+        "besondere Studienleistungen oder die engagierte und reflektierte Teilnahme an oder der Gestaltung von Lehrveranstaltungen, Praktika oder Projekten",
+        "eine sachlich und zeitlich erhebliche gegenwärtige ehrenamtliche Tätigkeit"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 05 2013 › HsH Verkuendungsblatt 05 2013 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/F4/Ordnungen/01_Spezifische_Stipendenordnung__Schneller_Studieren__der_F_IV.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/02__Ordnung_der_Fakultaet_IV_zur_Vergabe_von____Go_out___-Zuschuessen_im_Rahmen_von_studienbezogenen_Auslandsaufenthalten.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/02-Ordnung_der_Fakultaet_I_zur_Vergabe_von_Go_Out.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+        "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/MIN_Besonder_Teil_2013.pdf",
+        "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/BIN_Besonderer_Teil_2013.pdf",
+        "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Ordnungen/19-08-31-13_F_IV_PO_MIN_20192.pdf"
+      ],
+      "abschnitt": "**Ordnung der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover zur Vergabe von „Go Out“-Zuschüssen im Rahmen von studienbezogenen Auslandsaufenthalten** > **Ordnung der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung)**",
+      "snippets": [
+        "## **§ 7 Vergabekriterien**  \n(1)[1] Die Studienpreise werden je zur Hälfte nach Leistung (Abs. 2) oder einem besonderen Engagement (Abs. 3 bis 6) vergeben.[2] Liegt in einer Gruppe keine ausreichende Zahl von Anträgen vor, werden die überzähligen Studienpreise an Bewerberinnen oder Bewerber der anderen Gruppe vergeben.[3] Die Verteilung der Studienpreise auf die einzelnen Abteilungen der Fakultät erfolgt proportional zur Zahl der zum Zeitpunkt der Entscheidung der Vergabekommission jeweils eingeschriebenen Studierenden.[4] Satz 2 gilt entsprechend.[5] Einen Studienpreis erhält nicht, wer in dem Zeitraum des Semesters, für das der Studienpreis beantragt wird, ein WIR/Deutschlandstipendium erhält.",
+        "(2)[1] Studienpreise wegen besonderer Leistung werden aufgrund der in den bis zur Antragstellung absolvierten Prüfungen erzielten Durchschnittsnote vergeben.[2] Bei der Ermittlung der Durchschnittsnote findet eine Gewichtung nicht statt.[3] Noten, die vor der Antragstellung für eine frühere Zuerkennung eines Studienpreises wegen besonderer Leistungen erzielt wurden, können bei einer späteren Beantragung nicht erneut berücksichtigt werden.  \n> 1. Änderung der Ordnung der Fakultät V - Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung) Seite 2 von 4  \nVerkündungsblatt der HsH  \nNr. 5/2013 vom 3.7.2013  \n(3) Ein besonderes Engagement im Studium wird durch besondere Studienleistungen oder die engagierte und reflektierte Teilnahme an oder der Gestaltung von Lehrveranstaltungen, Praktika oder Projekten angezeigt. Absatz 2 Satz 3 gilt entsprechend.",
+        "(4)[1] Ein besonderes hochschulpolitisches Engagement liegt in der Regel bei einer mindestens ein Semester dauernden aktiven Mitarbeit in der Selbstverwaltung, insbesondere in einem Organ oder sonstigem Gremium der Studierendenschaft oder der Hochschule vor.[2] Zeiten der Mitarbeit die vor der Antragstellung für eine frühere Zuerkennung eines Studienpreises wegen eines besonderen hochschulpolitischen Engagements zurückgelegt wurden, können bei einer späteren Beantragung nicht erneut berücksichtigt werden.  \n(5) Ein besonderes gesellschaftliches Engagement wird in der Regel durch eine sachlich und zeitlich erhebliche gegenwärtige ehrenamtliche Tätigkeit in politischen, gewerkschaftlichen, kirchlichen, kulturellen oder der Bildung dienenden Einrichtungen, Organisationen und Initiativen innerhalb und außerhalb der Hochschule angezeigt."
+      ],
+      "zitate": [
+        "je zur Hälfte nach Leistung (Abs. 2) oder einem besonderen Engagement (Abs. 3 bis 6) vergeben",
+        "besondere Studienleistungen oder die engagierte und reflektierte Teilnahme an oder der Gestaltung von Lehrveranstaltungen, Praktika oder Projekten",
+        "eine sachlich und zeitlich erhebliche gegenwärtige ehrenamtliche Tätigkeit"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 01 2009 › 06 Richtlinie Studienpreise FakV",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**IV. Vergabekriterien**",
+      "snippets": [
+        "2Studienpreise wegen besonderer Leistung werden aufgrund der in den bis zur Antragstellung absolvierten Prüfungen erzielten Durchschnittsnote oder aufgrund besonderer Prüfungsvorleistungen oder der engagierten und reflektierten Teilnahme an oder der Gestaltung von Lehrveranstaltungen, Praktika oder Projekten vergeben.[3] Ein besonderes hochschulpolitisches Engagement liegt in der Regel bei einer mindestens zwei Semester dauernden aktiven Mitarbeit in der Selbstverwaltung, insbesondere in einem Organ oder sonstigem Gremium der Studierendenschaft oder der Hochschule vor.[4] Ein besonderes gesellschaftliches Engagement wird in der Regel durch eine sachlich und zeitlich erhebliche gegenwärtige ehrenamtliche Tätigkeit in politischen, gewerkschaftlichen, kirchlichen, kulturellen oder der Bildung dienenden Einrichtungen, Organisationen und Initiativen innerhalb und außerhalb der Hochschule angezeigt.[5] Ein besonderes soziales Engagement zeigt sich in einem überdurchschnittlichen",
+        "## **III. Vergabeverfahren**  \n1.[1] Über die Vergabe eines Studienpreises wird aufgrund eines personenbezogenen schriftlichen Antrags entschieden.[2] Ein Antrag ist nur wirksam gestellt, wenn das Antragsformular gemäß dem Muster in der Anlage verwendet wird und die/der Vorgeschlagene schriftlich sein Einverständnis erklärt hat.[3] Antragsberechtigt ist jedes Mitglied der Fakultät.  \n2. Der Antrag ist bis zum 15. Dezember für das darauf folgende Sommersemester und bis zum 15. Mai für das darauf folgende Wintersemester bei der Studienkommission einzureichen.  \n3.[1] Der Antrag ist unter Zugrundelegung der Vergabekriterien nach Abschnitt IV. zu begründen; Nachweise sind beizufügen.[2] Soweit er bei Studierenden in der Regelstudienzeit nicht mit der erzielten Durchschnittsnote (Nr. IV. 4. Satz 2 und 3) begründet wird, ist ihm ein Gutachten einer/eines hauptamtlich Lehrenden der Fakultät beizufügen."
+      ],
+      "zitate": [
+        "eine sachlich und zeitlich erhebliche gegenwärtige ehrenamtliche Tätigkeit",
+        "Nachweise sind beizufügen",
+        "ein Gutachten einer/eines hauptamtlich Lehrenden der Fakultät beizufügen"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.62251,
+      "id": "901a66b7-d7be-5324-a943-0468d5b39cec",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Allgemeine_Teil_Pruefungsordnung_BRS/Allgemeiner_Teil_PO_BRS_Stand_11_2011.pdf",
+      "title_anzeige": "f5 › Relpaed › Allgemeine Teil Pruefungsordnung BRS › Allgemeiner Teil PO BRS Stand 11 2011",
+      "section_heading": "(4) Die Note lautet:",
+      "chunk_index": 43,
+      "text_vollstaendig": false,
+      "auszug": "(6) Bei der Bildung der Note nach Abs. 4 wird nur die erste Dezimalstelle hinter dem Komma berücksichtigt; alle weiteren Stellen werden ohne Rundung gestrichen.  \n(7) Die Besonderen Teile können vorsehen, dass eine Prüfungsleistung unbenotet als „bestanden“ oder „nicht bestanden“ bewertet wird. Wird"
+    },
+    {
+      "rang": 2,
+      "score": 2.40925,
+      "id": "ef14b4a4-a093-52f7-9a55-cd0b724bf7fa",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Studieninformationen/Ordnungen/Zulassungsordnung_HBI_2025-04-16__Lesefassung_.pdf",
+      "title_anzeige": "f5 › Studieninformationen › Ordnungen › Zulassungsordnung HBI 2025 04 16 Lesefassung",
+      "section_heading": "**§ 4** > **Besonderes Auswahlverfahren**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n\n## **Auswahlverfahren**  \n(1) Die nach Vergabe der Studienplätze gem. Quotierung (§ 22 NHZVO) noch zu vergebenden Studienplätze werden zu 10 % nach Wartezeit und zu 90 % nach dem besonderen Auswahlverfahren der Hochschule gemäß § 4 vergeben.  \n(2) Es werden jeweils Ranglisten gebildet. B"
+    },
+    {
+      "rang": 3,
+      "score": 2.35083,
+      "id": "3d1aaa6a-6401-5817-a492-81ddaa3a6c3f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Promotionsfoerderung_an_Fachhochschulen_-_Recherche_zu_moeglichen_Foerdermassnahmen.pdf",
+      "title_anzeige": "f5 › UEber uns › Personen › Promotionsfoerderung an Fachhochschulen Recherche zu moeglichen Foerdermassnahmen",
+      "section_heading": "**______________________________________________________________** > **Promotionsförderung an Fachhochschulen** Recherche zu möglichen Fördermaßnahmen",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "- Selbstorganisation der Promovierenden  \n1 2 Die Begriffe sind erfahrungsgestützt zur Unterscheidung des Beratungs- bzw. Betreuungsumfangs gewählt und nicht allgemein anerkannt.  \n> 3 Der Begriff ist bundesweit anerkannt, findet sich in Hochschulgesetzen und Verordnungen wieder, Grundlage ist stets"
+    },
+    {
+      "rang": 4,
+      "score": 2.31429,
+      "id": "e7854492-9039-5d04-87e6-48ab41eba2b8",
+      "source_url": "https://f5.hs-hannover.de/studium/studieninformationen/bewerbung",
+      "title_anzeige": "Bewerbung und Zulassungsvoraussetzungen",
+      "section_heading": "Bewerbung und Zulassungsvoraussetzungen > Master-Studiengänge > Bewerbung und Zulassungsvoraussetzungen",
+      "chunk_index": 46,
+      "text_vollstaendig": true,
+      "auszug": "**Zulassungsverfahren**\nBei der Vergabe der Studienplätze werden folgende Kriterien berücksichtigt:\n(1) Erfüllen mehr Bewerberinnen und Bewerber die Zugangsvoraussetzungen als Studienplätze zur\nVerfügung stehen, werden die Studienplätze zu 90 % nach dem Ergebnis eines eignungsbezogenen\nhochschuleige"
+    },
+    {
+      "rang": 5,
+      "score": 2.28008,
+      "id": "4f199c98-6d39-5be6-94a4-7163a0b9ff3f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/Pruefungsordnung_HP_allg_Teil_01-ATPO_2015_mit_Anlagen_A1-A3.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik berufsintegrierend HBI › Pruefungsordnung HP allg Teil 01 ATPO 2015 mit Anlagen A1 A3",
+      "section_heading": "**§ 10** > **Bewertung der Prüfungsleistung und Bildung der Modulnote**",
+      "chunk_index": 47,
+      "text_vollstaendig": false,
+      "auszug": "- (9) Bei einer Gesamtnote von 1,0 bis 1,2 wird im Bachelor- bzw. Master-Zeugnis der Zusatz „mit Auszeichnung“ vergeben.  \n- (10) Die Gesamtnote ist durch eine ECTS-Note, die neben der absoluten eine relative Bewertung der Note abbildet, zu ergänzen. Die ECTS-Note setzt die individuelle Leistung ein"
+    },
+    {
+      "rang": 6,
+      "score": 2.25613,
+      "id": "bd405581-d570-5e97-b5b8-42d1b0df1c11",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Modulhandbuch_HBI_Stand_23.08.2023.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Modulhandbuch HBI Stand 23.08.2023",
+      "section_heading": "**§ 4** > **Besonderes Auswahlverfahren**",
+      "chunk_index": 41,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 4**\n## **Besonderes Auswahlverfahren**  \n- (1) Im besonderen Auswahlverfahren der Hochschule werden 50 % der hiernach zu vergebenden Studienplätze nach der Durchschnittsnote der Hochschulzugangsberechtigung vergeben (HZB- Quote) und 50 % nach einer Verfahrensnote gemäß Absatz 2 und 3.  \n- (2)"
+    },
+    {
+      "rang": 7,
+      "score": 2.25469,
+      "id": "a4a2c294-446e-5cf0-a1e4-068bae485105",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Zulassungsordnung/HsH_Verkuendungsblatt_03_2020_ZO_MBG.pdf",
+      "title_anzeige": "f5 › MGB MBG MMG › Zulassungsordnung › HsH Verkuendungsblatt 03 2020 ZO MBG",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Master-Studiengang** > **§ 4** > **Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Master-Studiengang** > **Zulassungsverfahren**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 4**\n## **Zulassungsverfahren**  \n- (1) Erfüllen mehr Bewerberinnen und Bewerber die Zugangsvoraussetzungen als Studienplätze zur Verfügung stehen, werden die Studienplätze zu 90 % nach dem Ergebnis eines eignungsbezogenen hochschuleigenen Auswahlverfahrens und im Übrigen nach einem hochschule"
+    },
+    {
+      "rang": 8,
+      "score": 2.08385,
+      "id": "0bf0c706-3651-5d27-a48f-d0eb92f365e9",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "title_anzeige": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "section_heading": "§ 8 > Studienplatzvergabe nach Artikel 10 Abs. 1 Nr. 3 des Staatsvertrages",
+      "chunk_index": 390,
+      "text_vollstaendig": true,
+      "auszug": "## § 8\n\n## Studienplatzvergabe nach Artikel 10 Abs. 1 Nr. 3 des Staatsvertrages  \n(1)[1] Für die Auswahlentscheidung der Hochschule innerhalb der Quote nach Artikel 10 Abs. 1 Nr. 3 des Staatsvertrages gelten die Auswahlkriterien des § 5 Abs. 2 Satz 1 Nr. 2  \nmit der Maßgabe, dass der Durchschnittsno"
+    },
+    {
+      "rang": 9,
+      "score": 2.00593,
+      "id": "6fa2da78-dfa4-5235-b2fe-54d1496afe2f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "title_anzeige": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "section_heading": "§ 5 Auswahlverfahren; Festlegung besonderer Quoten",
+      "chunk_index": 379,
+      "text_vollstaendig": true,
+      "auszug": "- b)  die besondere Eignung der Bewerberinnen und Bewerber für den gewählten Studiengang.  \n2 Mindestens 50 vom Hundert der nach Abzug der Vorabquoten verbleibenden Studienplätze sind nach Satz 1 Nr. 2 zu vergeben; dabei muss der Durchschnittsnote überwiegende Bedeutung für die Auswahlentscheidung z"
+    },
+    {
+      "rang": 10,
+      "score": 1.99104,
+      "id": "066c0ea3-b261-5ff7-8792-88164da9c158",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/05_FV_ATPO_2025_mit_Anhang_VB.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik berufsintegrierend HBI › 05 FV ATPO 2025 mit Anhang VB",
+      "section_heading": "**sehr gut** > bei einem Durchschnitt über 1,5 bis 2,5: **gut** bei einem Durchschnitt über 2,5 bis 3,5: **befriedigend**",
+      "chunk_index": 41,
+      "text_vollstaendig": true,
+      "auszug": "- (9) Bei einer Gesamtnote von 1,0 bis 1,2 wird im Bachelor- bzw. Masterzeugnis der Zusatz „mit Auszeichnung“ vergeben.  \n- (10) Die Gesamtnote ist im Diploma Supplement durch eine ECTS-Note oder eine Notenverteilungsskala zu ergänzen. Dadurch wird die individuelle Leistung eines oder einer Studiere"
+    },
+    {
+      "rang": 11,
+      "score": 1.91156,
+      "id": "a762f204-90a3-5cc9-835f-b86cd3029cc5",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gremien/Geschaeftsordnung_Studienkommission_Genehmigt_26_05_2011_mit_neuem_Logo.pdf",
+      "title_anzeige": "f5 › UEber uns › Gremien › Geschaeftsordnung Studienkommission Genehmigt 26 05 2011 mit neuem Logo — § 1 Zusammensetzung",
+      "section_heading": "**Geschäftsordnung der Studienkommission der Fakultät V der Fachhochschule Hannover** > **§ 1 Zusammensetzung**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Geschäftsordnung der Studienkommission der Fakultät V der Fachhochschule Hannover**\n\n## **§ 1 Zusammensetzung**  \nDie Studienkommission setzt sich aus vier Lehrenden und vier Studierenden der Fakultät V sowie dem oder der Vorsitzenden zusammen. Die Abteilungen sollen gleichmäßig vertreten sein."
+    },
+    {
+      "rang": 12,
+      "score": 1.8854,
+      "id": "5982c229-2afb-5fb1-a38c-df46270140ff",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Zulassungsordnung/Zulassungsordnung_BA_Pflege_Verkuendungsblatt_4-2008.pdf",
+      "title_anzeige": "f5 › Pflege › Zulassungsordnung › Zulassungsordnung BA Pflege Verkuendungsblatt 4 2008 — § 1 Geltungsbereich",
+      "section_heading": "**Ordnung über die Zulassung zum Studium im berufsbegleitenden Bachelor-Studiengang Pflege (1. und 2. Studienabschnitt ) der Fakultät V Diakonie, Gesundheit und Soziales der Fachhochschule Hannover Besonderer Teil ( ZulO-BA, Tl.B)** > **§ 8 Besonderes Auswahlverfahren für den 2. Studienabschnitt**",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 8 Besonderes Auswahlverfahren für den 2. Studienabschnitt**  \n(1) Die verbleibenden 90% der Studienplätze werden wie folgt vergeben:  \n1.Maximal 80% der verbleibenden Studienplätze werden an Bewerberinnen und Bewerber vergeben, die während ihrer Ausbildung im erforderlichen Umfang an den fach"
+    },
+    {
+      "rang": 13,
+      "score": 1.86249,
+      "id": "bab8052c-8888-5764-8d99-3925baa75c69",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Zulassungsordnung_SBW/SBW-Zulassungsordnunf-01-2021.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit berufsbgeleitend › Zulassungsordnung SBW › SBW Zulassungsordnunf 01 2021",
+      "section_heading": "**der Hochschule Hannover Besonderer Teil (ZulO-BA, Tl.B)** > **§ 4** > **der Hochschule Hannover Besonderer Teil (ZulO-BA, Tl.B)** > **Besonderes Auswahlverfahren**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "- b) einem fachspezifischen Eignungstest der Bewerberinnen und Bewerber (§ 5 Abs. 7 NHZG) mit dem Gewichtungsfaktor 49%.  \nIn diesem sollen die Bewerberinnen und Bewerber auf der Grundlage vorgegebener Fragestellungen ihre fachspezifische Eignung zum berufsbegleitenden Studium der Sozialen Arbeit da"
+    },
+    {
+      "rang": 14,
+      "score": 1.83753,
+      "id": "cec47f12-1dbf-563e-9411-a5d741f75fd7",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw/bearatungsangebote/finanzierung-und-foerderung-des-studiums",
+      "title_anzeige": "f5 › soziale arbeit grundstaendig bsw › bearatungsangebote › finanzierung und foerderung des studiums — Finanzierung und Förderung des Studiums",
+      "section_heading": "Finanzierung und Förderung des Studiums",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "Eine **Übersicht von Stipendienangeboten** von staatlichen, kommunalen, gewerkschaftlichen und privaten Einrichtungen und politischen Parteien finden Sie beim Studentenwerk Hannover [unter diesem Link](https://www.studentenwerk-hannover.de/stipendien \"https://www.studentenwerk-hannover.de/stipendien"
+    },
+    {
+      "rang": 15,
+      "score": 1.81934,
+      "id": "6547c34e-117b-5f42-899b-0f820295951f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Zulassungsordnung/HsH_Verkuendungsblatt_03_2020_ZO_MBG.pdf",
+      "title_anzeige": "f5 › MGB MBG MMG › Zulassungsordnung › HsH Verkuendungsblatt 03 2020 ZO MBG",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Master-Studiengang** > **an der Fakultät V – Diakonie, Gesundheit und Soziales** > **Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Master-Studiengang** > **der Hochschule Hannover** > **Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Master-Studiengang** > **§ 1** > **Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Master-Studiengang** > **Geltungsbereich**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **an der Fakultät V – Diakonie, Gesundheit und Soziales**\n\n## **der Hochschule Hannover**\n\n## **§ 1**\n\n## **Geltungsbereich**  \n- (1) Diese Ordnung regelt den Zugang und die Zulassung zum konsekutiven berufsbegleitenden Master-Studiengang Bildungswissenschaften für Pflege- und Gesundheitsberufe i"
+    },
+    {
+      "rang": 16,
+      "score": 1.80636,
+      "id": "1a179f3e-bc1e-57bf-aa40-f4b5645ebef5",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Zulassungsordnung/Zulassungsordnung_BRS_6-2010.pdf",
+      "title_anzeige": "f5 › Relpaed › Zulassungsordnung › Zulassungsordnung BRS 6 2010 — Besonderer Teil ( ZulO-BA, Tl.B)",
+      "section_heading": "**Ordnung über die Zulassung zum Studium im Bachelor-Studiengang Religionspädagogik und Soziale Arbeit der Fakultät V Diakonie, Gesundheit und Soziales der Fachhochschule Hannover** > **§ 2** > **Ordnung über die Zulassung zum Studium im Bachelor-Studiengang Religionspädagogik und Soziale Arbeit der Fakultät V Diakonie, Gesundheit und Soziales der Fachhochschule Hannover** > **Auswahlverfahren**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 2**\n\n## **Auswahlverfahren**  \n(1) Die nach Vergabe der Studienplätze gem. Quotierung (§ 4 Hochschul-Vergabeverordnung) und Bevorzugte Auswahl (§ 6 Hochschul-Vergabeverordnung) noch zu vergebenden Studienplätze werden zu 10% nach Wartezeit und zu 90% nach dem besonderen Auswahlverfahren der H"
+    },
+    {
+      "rang": 17,
+      "score": 1.78709,
+      "id": "9f19e800-8f81-5758-b008-7c468bb8b173",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Zulassungsordnung/HsH_Verkuendungsblatt_03_2020_ZO_MMG.pdf",
+      "title_anzeige": "f5 › MGB MBG MMG › Zulassungsordnung › HsH Verkuendungsblatt 03 2020 ZO MMG",
+      "section_heading": "**§ 4** > **Zulassungsverfahren**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "- Note 2,9 – 3,3 = 1 Punkt  \n- Note 3,4 – 4,0 = 0 Punkte  \n- b) Bei einem vorangegangenen Studienabschluss mit einem Schwerpunkt im Pflege- und Gesundheitsmanagement: 1 Punkt  \n- (4) Die Auswahlentscheidung unter zusätzlicher Berücksichtigung einer Wartezeit erfolgt nach den Auswahlkriterien gemäß §"
+    },
+    {
+      "rang": 18,
+      "score": 1.70257,
+      "id": "0a20c195-1248-5524-b50a-71026f613158",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Zulassungsordnung_SBW/SWB-Zulassungsordnung.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit berufsbgeleitend › Zulassungsordnung SBW › SWB Zulassungsordnung",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung zum Studium im berufsbegleitenden Bachelorstudiengang Soziale Arbeit (SWB) der Fakultät V Diakonie, Gesundheit und Soziales der Hochschule Hannover Besonderer Teil ( ZulO-BA, Tl.B)** > **§ 4** > **Ordnung über den Zugang und die Zulassung zum Studium im berufsbegleitenden Bachelorstudiengang Soziale Arbeit (SWB) der Fakultät V Diakonie, Gesundheit und Soziales der Hochschule Hannover Besonderer Teil ( ZulO-BA, Tl.B)** > **Besonderes Auswahlverfahren**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n## **Besonderes Auswahlverfahren**  \nIm besonderen Auswahlverfahren wird eine gewichtete Gesamtnote gebildet, die sich zusammensetzt aus:  \n- a) der Durchschnittsnote der Hochschulzugangsberechtigung (HZB) mit dem Gewichtungsfaktor 51 %.  \n- b) einem strukturierten Motivationsschreiben de"
+    },
+    {
+      "rang": 19,
+      "score": 1.65367,
+      "id": "8a8239d7-1f98-5ac9-9aa0-734a133fd8ba",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Zulassungsordnung/Zulassungsordnung_BRS_6-2010.pdf",
+      "title_anzeige": "f5 › Relpaed › Zulassungsordnung › Zulassungsordnung BRS 6 2010 — Besonderer Teil ( ZulO-BA, Tl.B)",
+      "section_heading": "**Ordnung über die Zulassung zum Studium im Bachelor-Studiengang Religionspädagogik und Soziale Arbeit der Fakultät V Diakonie, Gesundheit und Soziales der Fachhochschule Hannover** > **§ 3** > **Ordnung über die Zulassung zum Studium im Bachelor-Studiengang Religionspädagogik und Soziale Arbeit der Fakultät V Diakonie, Gesundheit und Soziales der Fachhochschule Hannover** > **Besonderes Auswahlverfahren**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 3**\n## **Besonderes Auswahlverfahren**  \n(1) Im besonderen Auswahlverfahren wird eine gewichtete Gesamtnote gebildet, die sich zusammensetzt aus: der Durchschnittsnote der Hochschulzugangsberechtigung (HZB) mit dem Gewichtungsfaktor 51% und der besonderer Eignung für den Studiengang mit dem G"
+    },
+    {
+      "rang": 20,
+      "score": 1.58582,
+      "id": "6656c262-75e8-5678-9a1d-7d333cbf3efa",
+      "source_url": "https://f5.hs-hannover.de/studium/internationales/wege-ins-ausland-outgoings/foerderprogramme",
+      "title_anzeige": "Förderprogramme und Stipendien",
+      "section_heading": "Förderprogramme und Stipendien > „Go-Out“-Zuschuss der Fakultät V",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## „Go-Out“-Zuschuss der Fakultät V\n* [Go-Out Antragsformular Mobilitätszuschuss Fakultät V](https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/Antragsformular_Mobilitaetszuschuss-Fakultaet_V-1.pdf)  \nDie Fakultät V vergibt zur Erhöhung der Mobilität und der An"
+    },
+    {
+      "rang": 21,
+      "score": 1.5641,
+      "id": "ab4286eb-d353-560f-a484-f97ea3c0f2f5",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/020-MH-BSW-PO-2021-SoSe_2025-Stand-09.01.2025-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 020 MH BSW PO 2021 SoSe 2025 Stand 09.01.2025 web",
+      "section_heading": "**9. Studierende – Hochschule – Diversität**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **9. Studierende – Hochschule – Diversität**  \nWas ist Diversität? Was hat Diversität mit uns selbst und mit den Studien- und Arbeitsbedingungen an der Fakultät V zu tun? Warum ist es so wichtig, sich mit Diversität auseinanderzusetzen? Wie kann Diversität gestaltet werden?  \nUm den Prozess einer"
+    },
+    {
+      "rang": 22,
+      "score": 1.56403,
+      "id": "a9abf3ce-b634-5222-8c96-fcb3bf07e9fc",
+      "source_url": "https://f5.hs-hannover.de/studium/internationales/wege-ins-ausland-outgoings/foerderprogramme-1",
+      "title_anzeige": "Förderprogramme und Stipendien",
+      "section_heading": "Förderprogramme und Stipendien > „Go-Out“-Zuschuss der Fakultät V",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## „Go-Out“-Zuschuss der Fakultät V\n* [Go-Out Antragsformular Mobilitätszuschuss Fakultät V](https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/Antragsformular_Mobilitaetszuschuss-Fakultaet_V-1.pdf)  \nDie Fakultät V vergibt zur Erhöhung der Mobilität und der An"
+    },
+    {
+      "rang": 23,
+      "score": 1.54073,
+      "id": "ee8d4a16-6991-5f47-9147-0c25ef089659",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/Pruefungsordnung_HP_allg_Teil_01-ATPO_2015_mit_Anlagen_A1-A3.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik berufsintegrierend HBI › Pruefungsordnung HP allg Teil 01 ATPO 2015 mit Anlagen A1 A3",
+      "section_heading": "**8.6    Benotungsskala**",
+      "chunk_index": 104,
+      "text_vollstaendig": false,
+      "auszug": "## **8.6    Benotungsskala**  \nDie deutsche Benotungsskala umfasst üblicherweise 5 Grade (mit zahlenmäßigen Entsprechungen; es können auch Zwischennoten vergeben   werden):   „Sehr   gut“   (1),   „Gut“   (2),   „Befriedigend“  (3), „Ausreichend“ (4), „Nicht ausreichend“ (5). Zum Bestehen ist mindes"
+    },
+    {
+      "rang": 24,
+      "score": 1.53024,
+      "id": "d8ada732-80ca-538b-b5db-980c0525ad1e",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Zulassungsordnung_SBW/SWB-Zulassungsordnung.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit berufsbgeleitend › Zulassungsordnung SBW › SWB Zulassungsordnung",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung zum Studium im berufsbegleitenden Bachelorstudiengang Soziale Arbeit (SWB) der Fakultät V Diakonie, Gesundheit und Soziales der Hochschule Hannover Besonderer Teil ( ZulO-BA, Tl.B)** > **§ 4** > **Ordnung über den Zugang und die Zulassung zum Studium im berufsbegleitenden Bachelorstudiengang Soziale Arbeit (SWB) der Fakultät V Diakonie, Gesundheit und Soziales der Hochschule Hannover Besonderer Teil ( ZulO-BA, Tl.B)** > **Besonderes Auswahlverfahren**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "- b) einem strukturierten Motivationsschreiben der Bewerberinnen und Bewerber (§ 11 Abs. 3 Nr. 2 Hochschul-Vergabeverordnung) mit dem Gewichtungsfaktor 49%.  \nIn diesem sollen die Bewerberinnen und Bewerber auf der Grundlage vorgegebener Fragestellungen ihre Motivation zum berufsbegleitenden Studium"
+    },
+    {
+      "rang": 25,
+      "score": 1.52146,
+      "id": "1e505920-92c6-57ca-90b9-d4a5ae3f6f59",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Pflege/Zulassungsordnung/Zulassungsordnung_BA_Pflege_Verkuendungsblatt_4-2008.pdf",
+      "title_anzeige": "f5 › Pflege › Zulassungsordnung › Zulassungsordnung BA Pflege Verkuendungsblatt 4 2008 — § 1 Geltungsbereich",
+      "section_heading": "**Ordnung über die Zulassung zum Studium im berufsbegleitenden Bachelor-Studiengang Pflege (1. und 2. Studienabschnitt ) der Fakultät V Diakonie, Gesundheit und Soziales der Fachhochschule Hannover Besonderer Teil ( ZulO-BA, Tl.B)** > **§ 7 Auswahlverfahren für den 2. Studienabschnitt**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 7 Auswahlverfahren für den 2. Studienabschnitt**  \n(1) Die nach Vergabe der Studienplätze gem. Quotierung ( § 4 Hochschul-Vergabeverordnung ) und Bevorzugte Auswahl ( § 6 Hochschul – Vergabeverordnung ) noch zu vergebenden Studienplätze werden zu 10% nach Wartezeit und zu 90% nach dem besonde"
+    },
+    {
+      "rang": 26,
+      "score": 1.4977,
+      "id": "b01a9e95-811b-5152-a101-0198218157c9",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/ERASMUS-Infoveranstaltung.pdf",
+      "title_anzeige": "f5 › Studium › Internationales › ERASMUS Infoveranstaltung — Auslandsaufenthalte",
+      "section_heading": "**Go Abroad Opportunities Fakultät V der Hochschule Hannover** > **Auslandsstudium** > **Go Abroad Opportunities Fakultät V der Hochschule Hannover** > **Kriterien zur Vergabe der Studienplätze im Ausland**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **Auslandsstudium**\n\n## **Kriterien zur Vergabe der Studienplätze im Ausland**  \n- ✓ Studienleistungen  \n- ✓ Extracurriculares Engagement/Tätigkeiten (bevorzugt, nicht notwendig)  \n- ✓ Sinnhaftigkeit des geplanten Aufenthalts in Bezug zum bisherigen Studium  \n- ✓ Nachgewiesene Sprachkenntnisse zu"
+    },
+    {
+      "rang": 27,
+      "score": 1.3391,
+      "id": "d3a9e92e-b3a3-5409-9f82-b3ccbdcc44cc",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_berufsbgeleitend/Zulassungsordnung_SBW/SBW-Zulassungsordnunf-01-2021.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit berufsbgeleitend › Zulassungsordnung SBW › SBW Zulassungsordnunf 01 2021",
+      "section_heading": "**der Hochschule Hannover Besonderer Teil (ZulO-BA, Tl.B)** > **§ 3** > **der Hochschule Hannover Besonderer Teil (ZulO-BA, Tl.B)** > **Auswahlverfahren**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 3**\n\n## **Auswahlverfahren**  \n- (1) Die nach Vergabe der Studienplätze gem. Quotierung (§§ 22 NHZVO) noch zu vergebenden Studienplätze werden zu 10 % nach Wartezeit und zu 90 % nach dem besonderen Auswahlverfahren der Hochschule vergeben. Bei diesem Auswahlverfahren werden 50 % der noch zu v"
+    },
+    {
+      "rang": 28,
+      "score": 1.27926,
+      "id": "28bfe431-dfc1-5bfe-bb19-d545caad9f40",
+      "source_url": "https://f5.hs-hannover.de/studium/internationales/exchange-students/guidelines-for-exchange-students-1",
+      "title_anzeige": "Leitfaden für Austauschstudierende",
+      "section_heading": "Leitfaden für Austauschstudierende > Beratung > Leitfaden für Austauschstudierende > Fakultät V",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## Beratung\n\n##  Fakultät V\nFragen im Zusammenhang mit:\n* Zulassungsvoraussetzungen\n* Studienaufbau\n* Studiengänge\n* Learning Agreement\n* Praktika\n* Sonstige organisatorische Fragen  \n[ Kontakt Fakultät V ](https://f5.hs-hannover.de/studium/internationales/kontakt-contact-1)"
+    },
+    {
+      "rang": 29,
+      "score": 1.27628,
+      "id": "5b51f16a-0605-5668-9693-ff69c00b9df4",
+      "source_url": "https://f5.hs-hannover.de/studium/studieninformationen/bewerbung",
+      "title_anzeige": "Bewerbung und Zulassungsvoraussetzungen",
+      "section_heading": "Bewerbung und Zulassungsvoraussetzungen > Master-Studiengänge > Bewerbung und Zulassungsvoraussetzungen",
+      "chunk_index": 35,
+      "text_vollstaendig": true,
+      "auszug": "(2) Die Auswahlentscheidung nach dem eignungsbezogenen hochschuleigenen Auswahlverfahren\nwird wie folgt getroffen: Für die Abschluss- bzw. Durchschnittsnote nach § 3 Abs.3‚ Buchstabe\na) und weitere Kriterien werden für die Bewerberinnen und Bewerber Punkte vergeben.\nAus den so ermittelten Punktzahle"
+    },
+    {
+      "rang": 30,
+      "score": 1.20577,
+      "id": "b62a2819-139e-5f33-948c-89e3a497e630",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Promotionsfoerderung_an_Fachhochschulen_-_Recherche_zu_moeglichen_Foerdermassnahmen.pdf",
+      "title_anzeige": "f5 › UEber uns › Personen › Promotionsfoerderung an Fachhochschulen Recherche zu moeglichen Foerdermassnahmen",
+      "section_heading": "**______________________________________________________________** > **Promotionsförderung an Fachhochschulen** Recherche zu möglichen Fördermaßnahmen",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "- Fachhochschule D. hat mit zwei weiteren Fachhochschulen und zwei Universitäten ein **Graduiertenprogramm** zu einem sozialen Thema für 8 Promovierende konzipiert. Es werden das Thema und die Hochschulen (Lehrenden) gefördert. Die Förderung der AbsolventInnen der jeweiligen FH nur durch ein zusätzl"
+    },
+    {
+      "rang": 31,
+      "score": 1.19661,
+      "id": "c3323041-fb9e-5047-a4c6-db98064bf4b1",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "section_heading": "**Notensystem bei Prüfungsleistungen:**",
+      "chunk_index": 83,
+      "text_vollstaendig": true,
+      "auszug": "## **Notensystem bei Prüfungsleistungen:**  \nIm Allgemeinen Teil der Prüfungsordnung für die Bachelorund MasterStudiengänge an der Hochschule Hannover (ATPO 2015, S. 9) sind folgende Bewertungskriterien aufgeführt:"
+    },
+    {
+      "rang": 32,
+      "score": 1.16595,
+      "id": "8ea804ae-0100-57d8-afbb-3e401467f42c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/06_F_V_BA_HBI_BTPO_VB_EBU.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik berufsintegrierend HBI › 06 F V BA HBI BTPO VB EBU",
+      "section_heading": "**Heilpädagogik – Inklusive Bildung und Begleitung (HBI) mit dem Abschluss Bachelor of Arts in der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover (BTPO HBI 2025)** > **§ 4** > **Heilpädagogik – Inklusive Bildung und Begleitung (HBI) mit dem Abschluss Bachelor of Arts in der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover (BTPO HBI 2025)** > **Familiengerechte Hochschule**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Familiengerechte Hochschule**  \nDie Hochschule ist familiengerecht und gestaltet ihre Studien- und Prüfungsbedingungen familienfreundlich. Der Nachteilsausgleich für Studierende mit Beeinträchtigungen nach § 17 Absatz 18 des ATPO Fakultät V ist davon unberührt."
+    },
+    {
+      "rang": 33,
+      "score": 1.15573,
+      "id": "938f6a25-776d-54f5-bbb1-3d6052f393b9",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/05_FV_ATPO_2025_mit_Anhang_VB.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik berufsintegrierend HBI › 05 FV ATPO 2025 mit Anhang VB",
+      "section_heading": "**§ 4** > **Prüfende und Beisitzende**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "- (3) Studierende können für die Abnahme von Prüfungen Prüfende vorschlagen. Der Vorschlag begründet keinen Anspruch.  \n- (4) Soweit sich aus dem besonderen Teil nichts Abweichendes ergibt, werden Prüfungsleistungen von einer fachkundigen prüfenden Person bewertet. Ausgenommen hiervon sind die folge"
+    },
+    {
+      "rang": 34,
+      "score": 1.15044,
+      "id": "60d5b04f-c835-53f3-8212-02ac535c5f85",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "section_heading": "**§ 11 Gastvorträge**",
+      "chunk_index": 115,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 11 Gastvorträge**  \nGastvorträge sind auf eine einmalige Vortragstätigkeit beschränkt und können an Personen vergeben werden, die nicht beruflich an der Hochschule Hannover tätig sind. Zur Erteilung von Gastvorträgen sind die Leitungen der Fakultäten und der zentralen Einrichtungen ermächtigt"
+    },
+    {
+      "rang": 35,
+      "score": 1.14369,
+      "id": "158ac439-5fae-5010-8d98-3c44d18fcad7",
+      "source_url": "https://f5.hs-hannover.de/studium/studieninformationen/ordnungen",
+      "title_anzeige": "Ordnungen der Bachelor- und Master-Studiengänge der Fakultät V",
+      "section_heading": "Ordnungen der Bachelor- und Master-Studiengänge der Fakultät V",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n# Ordnungen der Bachelor- und Master-Studiengänge der Fakultät V\n![](https://f5.hs-hannover.de/fileadmin/_processed_/f/8/csm_Ordnungen_46c595f447.jpg?rbiFocus=mobile)\nIm Folgenden finden Sie die Ordnungen der Bachelor- und Master-Studiengänge (z. B. Z"
+    },
+    {
+      "rang": 36,
+      "score": 1.14002,
+      "id": "ef819b0c-1e98-5ef3-976d-4aae1b45c856",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Studieninformationen/Ordnungen/Zulassungsordnung_HBI_2025-04-16__Lesefassung_.pdf",
+      "title_anzeige": "f5 › Studieninformationen › Ordnungen › Zulassungsordnung HBI 2025 04 16 Lesefassung",
+      "section_heading": "**§ 3** > **Auswahlverfahren**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n\n## **Auswahlverfahren**  \n(1) Die nach Vergabe der Studienplätze gem. Quotierung (§ 22 NHZVO) noch zu vergebenden Studienplätze werden zu 10 % nach Wartezeit und zu 90 % nach dem besonderen Auswahlverfahren der Hochschule gemäß § 4 vergeben.  \n(2) Es werden jeweils Ranglisten gebildet. B"
+    },
+    {
+      "rang": 37,
+      "score": 1.12604,
+      "id": "df7ab6c5-7c82-5037-993e-8842921dc02b",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BSW-Soziale_Arbeit_grundstaendig/SoSe_2026/Erstsemesterinformationen_BSW_SoSe_2026.pdf",
+      "title_anzeige": "f5 › BSW Soziale Arbeit grundstaendig › SoSe 2026 › Erstsemesterinformationen BSW SoSe 2026",
+      "section_heading": "**(Beratungs-)Angebote vor Ort**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **(Beratungs-)Angebote vor Ort**  \nDie Fakultät V bietet eigene, fakultätsspezifische (Beratungs-)Angebote für Studierende und Studieninteressierte an. Für Studieninteressierte können unter anderem Formate wie der Campus Day, das Schnupperstudium oder Gasthörerschaften interessant sein. Studieren"
+    },
+    {
+      "rang": 38,
+      "score": 1.12045,
+      "id": "db07b420-baa6-5dbc-bbf4-790c0328c365",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Modulhandbuch_HBI_Stand_23.08.2023.pdf",
+      "title_anzeige": "f5 › Fakultaet V › Modulhandbuch HBI Stand 23.08.2023",
+      "section_heading": "**§ 3** > **Auswahlverfahren**",
+      "chunk_index": 40,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 3**\n\n## **Auswahlverfahren**  \n- (1) Die nach Vergabe der Studienplätze gem. Quotierung (§ 22 NHZVO) noch zu vergebenden Stu dienplätze werden zu 10 % nach Wartezeit und zu 90 % nach dem besonderen Auswahlverfahren der Hochschule gemäß § 4 vergeben.  \n- (2) Es werden jeweils Ranglisten gebild"
+    },
+    {
+      "rang": 39,
+      "score": 1.10605,
+      "id": "1bffb7a6-f8d5-5c96-9669-60d02c1e6235",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik__BAH_/02_Zulassungsordnung_Heilpaedagogik_BAH_2023_integr._VP.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik BAH › 02 Zulassungsordnung Heilpaedagogik BAH 2023 integr. VP",
+      "section_heading": "**Besonderer Teil der Ordnung über die Zulassung und den Zugang zum Studium im Bachelor-Studiengang Heilpädagogik-inklusive Bildung und Begleitung (BAH) der Fakultät V Diakonie, Gesundheit und Soziales an der Hochschule Hannover** > **§ 2** > **Besonderer Teil der Ordnung über die Zulassung und den Zugang zum Studium im Bachelor-Studiengang Heilpädagogik-inklusive Bildung und Begleitung (BAH) der Fakultät V Diakonie, Gesundheit und Soziales an der Hochschule Hannover** > **Auswahlverfahren**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 2**\n\n## **Auswahlverfahren**  \n- (1) Die nach Vergabe der Studienplätze gem. Quotierung (§ 4 Hochschul-Vergabeverordnung) und Bevorzugte Auswahl (§ 6 Hochschul – Vergabeverordnung) noch zu vergebenden **Studienplätze werden zu 10% nach Wartezeit und zu 90% nach dem besonderen Auswahlverfahren"
+    },
+    {
+      "rang": 40,
+      "score": 1.1054,
+      "id": "b9771b9f-a5d9-5310-891c-386be9f0eacb",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw/bearatungsangebote/familie-und-gleichstellung",
+      "title_anzeige": "f5 › soziale arbeit grundstaendig bsw › bearatungsangebote › familie und gleichstellung",
+      "section_heading": "Familie und Gleichstellung",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Peerberatung durch Studierende in Kooperation mit der Antidiskriminierungsstelle (ADS) als Unterstützung im Umgang mit Diskriminierung oder strukturellen Problemen.\n**Kontakt:** GB-A-Team@hs-hannover.de\n[Weitere Informationen zum A-Team](https://www.hs-hannover.de/ueber-uns/organisation/gleichstellu"
+    },
+    {
+      "rang": 41,
+      "score": 1.08738,
+      "id": "0b6eeeed-9975-5579-a87e-881b14896817",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik__BAH_/Zulassungsordnung_Heilpaedagogik_neu_BAH.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik BAH › Zulassungsordnung Heilpaedagogik neu BAH",
+      "section_heading": "**Ordnung über die Zulassung zum Studium im Bachelor-Studiengang Heilpädagogik der Fakultät V Diakonie, Gesundheit und Soziales der Hochschule Hannover Besonderer Teil ( ZulO-BA, Tl.B)** > **§ 2 Auswahlverfahren**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 2 Auswahlverfahren**  \n(1) Die nach Vergabe der Studienplätze gem. Quotierung (§ 4 Hochschul-Vergabeverordnung) und Bevorzugte Auswahl (§ 6 Hochschul – Vergabeverordnung) noch zu vergebenden **Studienplätze werden zu 10% nach Wartezeit und zu 90% nach dem besonderen Auswahlverfahren** der Hoc"
+    },
+    {
+      "rang": 42,
+      "score": 1.07956,
+      "id": "a6b8cd97-63fd-5c1c-a097-963be8b702da",
+      "source_url": "https://f5.hs-hannover.de/ueber-uns/gleichstellungsbuero",
+      "title_anzeige": "Dezentrale Gleichstellung der Fakultät V",
+      "section_heading": "Dezentrale Gleichstellung der Fakultät V > Herzlich Willkommen...",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Herzlich Willkommen...\n... im Bereich dezentrale Gleichstellung der Fakultät V - Diakonie, Gesundheit und Soziales. Hier finden sich einige Informationen rund um das Thema dezentrale Gleichstellung an der Fakultät V. Das aktuelle Team Gleichstellung der Fakultät V besteht aus einer hauptamtlich L"
+    },
+    {
+      "rang": 43,
+      "score": 1.05241,
+      "id": "bad2264c-3f7d-5a1a-9c5d-9c483c89be04",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Zulassungsordnung/Zulassungsordnung_Master_Verkuendungsblatt_18_11_10.pdf",
+      "title_anzeige": "f5 › MGB MBG MMG › Zulassungsordnung › Zulassungsordnung Master Verkuendungsblatt 18 11 10",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Teilzeit-Master-Studiengang Bildungswissenschaften und Management für Pflege- und Gesundheitsberufe an der Fachhochschule Hannover (FHH)** > **§ 4 Zulassungsverfahren**",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "b) Innerhalb der Wahlschwerpunkte wird folgendermaßen gewichtet:  \nNach der Abschlussnote des ersten einschlägigen Studienabschlusses oder in den Fällen des § 2 Abs. 3 der Durchschnittsnote  \n- Note 1,0 – 1,5 = 5 Punkte - Note 1,6 – 2,0 = 4 Punkte - Note 2,1 – 2,5 = 3 Punkte - Note 2,6 – 2,8 = 2 Pun"
+    },
+    {
+      "rang": 44,
+      "score": 1.04712,
+      "id": "895bb169-db38-52b5-b58a-5c5a24136ec8",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik_berufsintegrierend__HBI_/09_F_V_PO_HBI.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik berufsintegrierend HBI › 09 F V PO HBI",
+      "section_heading": "**§ 7 Vorprüfung**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Vorprüfung**  \n- (1) Die Zulassung zur Vorprüfung regelt § 6 ATPO Fakultät V.  \n- (2) Werden im Rahmen der Anerkennungen von Studien- und Prüfungsleistungen gemäß § 5 ATPO Fakultät V alle Prüfungsleistungen des ersten Studienabschnittes vom Prüfungsausschuss anerkannt, so gilt die Vorprüfun"
+    },
+    {
+      "rang": 45,
+      "score": 1.01234,
+      "id": "6c5e7695-f760-5bd3-9a7b-408b27c2fcd0",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Zulassungsordnung/Zulassungsordnung_Master_Verkuendungsblatt_18_11_10.pdf",
+      "title_anzeige": "f5 › MGB MBG MMG › Zulassungsordnung › Zulassungsordnung Master Verkuendungsblatt 18 11 10",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven berufsbegleitenden Teilzeit-Master-Studiengang Bildungswissenschaften und Management für Pflege- und Gesundheitsberufe an der Fachhochschule Hannover (FHH)** > Nach der Wartezeit",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## Nach der Wartezeit  \n- Bewerberinnen und Bewerber, die trotz erfüllter Zugangsvoraussetzungen zum beabsichtigten Studienbeginn noch nicht berücksichtigt werden konnten, erhalten bei fristgerechter Aufrechterhaltung ihrer Bewerbung 1 Punkt für jeden Bewerbungstermin.  \n(3) Anhand der Kriterien nac"
+    },
+    {
+      "rang": 46,
+      "score": 0.99397,
+      "id": "19c20dda-bb55-574b-85ba-1257363177fe",
+      "source_url": "https://f5.hs-hannover.de/ueber-uns/personen",
+      "title_anzeige": "Personen an der Fakultät V",
+      "section_heading": "Personen an der Fakultät V > im Überlick",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "##  \n### im Überlick\n[Lehrende](https://f5.hs-hannover.de/ueber-uns/personen/lehrende)\n[wiss. Mitarbeitende](https://f5.hs-hannover.de/ueber-uns/personen/wiss-mitarbeitende)\n[Fakultätsmitarbeitende](https://f5.hs-hannover.de/ueber-uns/personen/fakultaetsmitarbeitende)\n[Beauftragte der Fakultät](http"
+    },
+    {
+      "rang": 47,
+      "score": 0.98738,
+      "id": "0ee7ad82-afb2-580c-91b0-c60d6024c447",
+      "source_url": "https://f5.hs-hannover.de/studium/internationales/wege-ins-ausland-outgoings/partnerhochschulen-1",
+      "title_anzeige": "Partnerhochschulen der Fakultät V",
+      "section_heading": "Partnerhochschulen der Fakultät V",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Partnerhochschulen der Fakultät V\n![](https://f5.hs-hannover.de/fileadmin/_processed_/a/d/csm_Partnerhochschulen_Karte_ee2c413165.jpg?rbiFocus=mobile)\nDie Fakultät V kooperiert mit 19 europäischen und außereuropäischen Universitäten und Hochschulen."
+    },
+    {
+      "rang": 48,
+      "score": 0.98525,
+      "id": "300bbbaf-32e7-5005-89af-f7d8895e5892",
+      "source_url": "https://f5.hs-hannover.de/ueber-uns/gremien/studienkommission",
+      "title_anzeige": "f5 › ueber uns › gremien › studienkommission",
+      "section_heading": "Studienkommission > auf einen Blick",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "Die Studienkommission erarbeitet Vorschläge für alle Ordnungen, die den Studienbetrieb regeln, insbesondere für die Studien- und Prüfungsordnungen sowie für die Weiterentwicklung des Studienangebotes.\n[Geschäftsordnung für die Studienkommission](https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bi"
+    },
+    {
+      "rang": 49,
+      "score": 0.96323,
+      "id": "007cc432-678a-58af-9e42-705bf737b6d2",
+      "source_url": "https://f5.hs-hannover.de/studium/internationales/wege-ins-ausland-outgoings/bewerbungsverfahren-1",
+      "title_anzeige": "Vorbereitung und Bewerbung",
+      "section_heading": "Vorbereitung und Bewerbung > Praktikum im Ausland > Vorbereitung und Bewerbung",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "[ Anmeldung und Anerkennung an der Fakultät V ](https://f5.hs-hannover.de/studium/internationales/wege-ins-ausland-outgoings/bewerbungsverfahren-1 \"Anmeldung und Anerkennung an der Fakultät V\")\nWenden Sie sich an das Praktikumsbüro der Fakultät V und teilen Sie Ihr Interesse mit. Im Praktikumsbüro k"
+    },
+    {
+      "rang": 50,
+      "score": 0.95253,
+      "id": "5f90bdce-d0b9-5948-9a5b-3ffbcf6b8720",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Allgemeine_Teil_Pruefungsordnung_BRS/Allgemeiner_Teil_PO_BRS_Stand_11_2011.pdf",
+      "title_anzeige": "f5 › Relpaed › Allgemeine Teil Pruefungsordnung BRS › Allgemeiner Teil PO BRS Stand 11 2011",
+      "section_heading": "**§ 11 Wiederholung von Prüfungsleistungen**",
+      "chunk_index": 46,
+      "text_vollstaendig": false,
+      "auszug": "von vier Wochen nach der zweiten Wiederholungsprüfung, von zwei Prüfenden abgenommen; § 7 Abs. 4 gilt entsprechend. Die oder der Prüfende setzt die Note der Prüfungsleistung unter angemessener Berücksichtigung der schriftlichen Leistung und des Ergebnisses der mündlichen Ergänzungsprüfung fest; als "
+    },
+    {
+      "rang": 51,
+      "score": 0.94971,
+      "id": "e68f6066-5f59-5f9c-9593-9acd0ad6fad5",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/SBW-Soziale-Arbeit-berufsbegleitend/Erstsemesterinformationen_SBW_SoSe_2026_Version_3.pdf",
+      "title_anzeige": "f5 › Erstsemesterinformationen › SBW Soziale Arbeit berufsbegleitend › Erstsemesterinformationen SBW SoSe 2026 Version 3",
+      "section_heading": "**(Beratungs-)Angebote vor Ort**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **(Beratungs-)Angebote vor Ort**  \nDie Fakultät V bietet eigene, fakultätsspezifische (Beratungs-)Angebote für Studierende und Studieninteressierte an. Für Studieninteressierte können unter anderem Formate wie der Campus Day, das Schnupperstudium oder Gasthörerschaften interessant sein. Studieren"
+    },
+    {
+      "rang": 52,
+      "score": 0.94751,
+      "id": "79a48198-7617-5985-a328-eb89c9643e2b",
+      "source_url": "https://f5.hs-hannover.de/ueber-uns/standort-oeffnungszeiten",
+      "title_anzeige": "f5 › ueber uns › standort oeffnungszeiten — So finden Sie zu uns",
+      "section_heading": "So finden Sie zu uns > Kontakt",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Kontakt\nHochschule Hannover - Fakultät V\nBlumhardtstr. 2\n30625 Hannover  \nPostanschrift:\nPostfach 690363\n30612 Hannover\n[ Tel.: 0511/9296-3100 ](tel:Tel.:%200511/9296-3100 \"Tel.: 0511/9296-3100 anrufen\")"
+    },
+    {
+      "rang": 53,
+      "score": 0.94599,
+      "id": "681cd2d9-3b59-52e7-b4ab-d34784a0fd17",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/KeGL/Wissenschaftliche_Beitraege/Handreichung_Regeln_zur_Anschlussfaehigkeit.pdf",
+      "title_anzeige": "f5 › KeGL › Wissenschaftliche Beitraege › Handreichung Regeln zur Anschlussfaehigkeit",
+      "section_heading": "**4 Anerkennung und Anrechnung**",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "Die beruflich, in der beruflichen Bildung oder Weiterbildung oder einer anderen auf Dauer angelegten Tätigkeit erworbenen Kompetenzen werden im Umfang von bis zu 50 % der für ein Zertifikatsprogramm zu vergebenden Leistungspunkte auf ein Zertifikatsprogramm der Vertragsparteien angerechnet, wenn kei"
+    },
+    {
+      "rang": 54,
+      "score": 0.94293,
+      "id": "ca9b3af9-4131-5fe4-9434-ef2dc57f388e",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Internationales/ERASMUS-Infoveranstaltung.pdf",
+      "title_anzeige": "f5 › Studium › Internationales › ERASMUS Infoveranstaltung — Auslandsaufenthalte",
+      "section_heading": "**Go Abroad Opportunities Fakultät V der Hochschule Hannover** > **Auslandsaufenthalte**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# **Go Abroad Opportunities Fakultät V der Hochschule Hannover**  \n## **Auslandsaufenthalte**  \n- ❖ Auslandssemester  \n- ❖ Auslandsjahr  \n- ❖ Auslandspraktikum  \n- ❖ Sommer- / Winterschule  \n- ❖ Auslandsexkursionen  \nSeite 2"
+    },
+    {
+      "rang": 55,
+      "score": 0.94224,
+      "id": "c5cc9849-fa28-573f-b7b9-d03415ca2dff",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Microsoft_Word.pdf",
+      "title_anzeige": "f5 › Praktikumsamt › Formulare › Microsoft Word",
+      "section_heading": "**Bescheinigung über das Blockpraktikum** > **zur Vorlage bei der Praktikumsverwaltung des Bachelorstudiengangs Soziale Arbeit an der Hochschule Hannover – Fakultät V**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "für die Praktikumsstelle:  \nDatum  \nDienststempel und Unterschrift  \nBitte diese Bescheinigung senden an: Hochschule Hannover – Fakultät V Abteilung Soziale Arbeit z. Hd. Frau Langer  \nBlumhardtstr. 2, 30625 Hannover"
+    },
+    {
+      "rang": 56,
+      "score": 0.93105,
+      "id": "32a2a7b0-6ece-505d-bc4d-07785e364039",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/016-MH-BRS-PO-2021-WiSe-25-26-Stand-14.07.2025-web.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 016 MH BRS PO 2021 WiSe 25 26 Stand 14.07.2025 web — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **10. Dezentrale Gleichstellung der Fakultät V** > Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **Ansprechpartner*innen:**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **10. Dezentrale Gleichstellung der Fakultät V**\n\n## **Ansprechpartner*innen:**  \n- **Gleichstellungsbeauftragte:** Prof.in Dr. Maike Wagenaar  \n- **Stellvertretende Gleichstellungsbeauftragte:** Christin Feder  \n**Mail:** gleichstellung-f5@hs-hannover.de **Büro:** 3E.0.31, Beratungs- und Telefon"
+    },
+    {
+      "rang": 57,
+      "score": 0.93105,
+      "id": "ebf627a2-f8b3-5a67-9497-8046c5ddbc10",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/021-MH-BSW-PO-2021-WiSe_2025-26-Stand-16.03.2025-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 021 MH BSW PO 2021 WiSe 2025 26 Stand 16.03.2025 web",
+      "section_heading": "**9. Dezentrale Gleichstellung der Fakultät V** > **Ansprechpartner*innen:**",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "## **9. Dezentrale Gleichstellung der Fakultät V**\n\n## **Ansprechpartner*innen:**  \n- **Gleichstellungsbeauftragte:** Prof.in Dr. Maike Wagenaar  \n- **Stellvertretende Gleichstellungsbeauftragte:** Christin Feder  \n**Mail:** gleichstellung-f5@hs-hannover.de **Büro:** 3E.0.31, Beratungs- und Telefont"
+    },
+    {
+      "rang": 58,
+      "score": 0.90947,
+      "id": "71c13492-744e-5c66-9884-92d075eacd78",
+      "source_url": "https://f5.hs-hannover.de/service/personenfinder/person/1000005778",
+      "title_anzeige": "Prof. Dr. Frank Austermann",
+      "section_heading": "Prof. Dr. Frank Austermann > Besondere Aufgaben",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Besondere Aufgaben\n* Studiendekan der Abteilung „Religionspädagogik und Diakonie“\n* Vorsitzender der Studienkommission an der Hochschule Hannover,Fakultät V\n* Beauftragter der Fakultät V für Andachten"
+    },
+    {
+      "rang": 59,
+      "score": 0.903,
+      "id": "7a396581-6160-59d1-89e4-4f5563699889",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MSW/Ordnungen_MSW/Zulassungordnung_MSW_Stand_02-2017.pdf",
+      "title_anzeige": "f5 › MSW › Ordnungen MSW › Zulassungordnung MSW Stand 02 2017",
+      "section_heading": "**§ 4** > **Zulassungsverfahren**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n## **Zulassungsverfahren**  \n- (1) Die Auswahlentscheidung wird wie folgt getroffen: für die Abschluss- bzw. Durchschnittsnote nach § 3 Abs. 2 Buchstabe a) und weitere zu berücksichtigende Kriterien werden für die Bewerberinnen und Bewerber Punkte vergeben. Aus den so ermittelten Punktzah"
+    },
+    {
+      "rang": 60,
+      "score": 0.90294,
+      "id": "063740cf-e06f-5e48-9dd5-e1e69e2f63cf",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Master/MGB__MBG__MMG/Zulassungsordnung/HsH_Verkuendungsblatt_03_2020_ZO_MMG.pdf",
+      "title_anzeige": "f5 › MGB MBG MMG › Zulassungsordnung › HsH Verkuendungsblatt 03 2020 ZO MMG",
+      "section_heading": "**§ 1** > **Geltungsbereich**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 1**\n\n## **Geltungsbereich**  \n- (1) Diese Ordnung regelt den Zugang und die Zulassung zum konsekutiven berufsbegleitenden Master-Studiengang Management für Pflege- und Gesundheitsberufe in Teilzeit (MMG) an der Fakultät V – Diakonie, Gesundheit und Soziales in der Abteilung Pflege und Gesundh"
+    },
+    {
+      "rang": 61,
+      "score": 3.1313,
+      "id": "43e72931-0e41-58d9-ad5e-a162e3da530f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "section_heading": "**§ 7 Vergabekriterien**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 7 Vergabekriterien**  \n(1)[1] Die Studienpreise werden je zur Hälfte nach Leistung (Abs. 2) oder einem besonderen Engagement (Abs. 3 bis 6) vergeben.[2] Liegt in einer Gruppe keine ausreichende Zahl von Anträgen vor, werden die überzähligen Studienpreise an Bewerberinnen oder Bewerber der and"
+    },
+    {
+      "rang": 62,
+      "score": 2.90207,
+      "id": "02a70e1c-3e83-587c-bc15-a1384aeb400b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2009 › 06 Richtlinie Studienpreise FakV",
+      "section_heading": "**IV. Vergabekriterien**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "6.[1] Der Fakultätsrat entscheidet im Januar bzw. Juni eines Jahres über die Vergabe.[2] Der Dekan/die Dekanin informiert die designierten Studienpreisträgerinnen und Studienpreisträger und zeigt dem Präsidium die beschlossenen Studienpreise an, nachdem die Bedachten die Annahme der Studienpreise er"
+    },
+    {
+      "rang": 63,
+      "score": 2.87474,
+      "id": "baf9f1a2-3772-5ca2-b54a-1521d7de1e62",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2009",
+      "title_anzeige": "www › verkuendungsblatt › aeltere ausgaben › ausgaben 2009 — Ausgabe Nr. 6/2009 vom18.12.2009",
+      "section_heading": "Ausgabe Nr. 1/2009 vom 23.2.2009",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "[Ordnung über den Zugang und die Zulassung für den konsekutiven dualen Master-Studiengang Wertschöpfungsmanagement im Maschinenbau an der Fakultät II](https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/03-WMM-ZulO_.pdf)\n[Bes"
+    },
+    {
+      "rang": 64,
+      "score": 2.79106,
+      "id": "9ebf5dae-065b-5145-acaf-77748d640d15",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/03_1.AEnderung_derOrdnung_der_Fakultaet_V_fuer_die_Vergabe_von_Studienpreisen.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2013 › 03 1.AEnderung derOrdnung der Fakultaet V fuer die Vergabe von Studienpreisen",
+      "section_heading": "**§ 7 Vergabekriterien**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 7 Vergabekriterien**  \n(1)[1] Die Studienpreise werden je zur Hälfte nach Leistung (Abs. 2) oder einem besonderen Engagement (Abs. 3 bis 6) vergeben.[2] Liegt in einer Gruppe keine ausreichende Zahl von Anträgen vor, werden die überzähligen Studienpreise an Bewerberinnen oder Bewerber der and"
+    },
+    {
+      "rang": 65,
+      "score": 2.77314,
+      "id": "8e3104e8-707a-5555-bd96-bbbdbdd5b47a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/06-Richtlinie_Studienpreise-FakV.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2009 › 06 Richtlinie Studienpreise FakV",
+      "section_heading": "**IV. Vergabekriterien**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "3.[1] Die Studienpreise an ausländische Studierende werden aufgrund der in den bis zur Antragstellung absolvierten Prüfungen erzielten Durchschnittsnote, bei Erstsemestern aufgrund der Note der Hochschulzugangsberechtigung vergeben.[2] In beiden Fällen ist als Vergleichsgruppe nur die der ausländisc"
+    },
+    {
+      "rang": 66,
+      "score": 2.34195,
+      "id": "797f1429-95ab-5d6e-ac3b-24a095d9c695",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 03 Spezifische Stipendienordnung der Fakultaet I abgestimmt 2 — § 1 Präambel",
+      "section_heading": "**§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**  \nAntragsberechtigt sind alle im ersten Semester eines Masters"
+    },
+    {
+      "rang": 67,
+      "score": 2.33728,
+      "id": "da1a55d9-e1e9-54d8-a933-7716a7cf80ce",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › 4 Stipendienordnung der Fakulta t I 2017 — Präambel",
+      "section_heading": "**Stipendien für eine herausragende Vorleistung in den** > **Masterstudiengängen der Fakultät I**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **Stipendien für eine herausragende Vorleistung in den**\n\n## **Masterstudiengängen der Fakultät I**  \nStipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.  \nAntragsberechtigt sind alle im ersten Semester eines M"
+    },
+    {
+      "rang": 68,
+      "score": 2.21384,
+      "id": "2ca678fd-e45d-537b-9626-1be9cb45ca0f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2011 › 01 Richtlinie Studienpreise F III — I. Allgemeines",
+      "section_heading": "**Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011** > **IV. Vergabekriterien**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **IV. Vergabekriterien**  \n1. Die Studienpreise werden aus Studienbeiträgen finanziert. Vergeben werden die Studienpreise bei den Bachelor-Studiengängen im 2. Semester (für das 2. und 3. Semester) und im 5. Semester (für das 5. und 6. Semester).  \n2. Die Studienpreise bei den konsekutiven Master-"
+    },
+    {
+      "rang": 69,
+      "score": 2.19412,
+      "id": "da7abc6f-b95c-5e7b-9cc0-638cc87a879c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "section_heading": "**§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**",
+      "chunk_index": 98,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**  \nAntragsberechtigt sind alle im ersten Semester eines Masters"
+    },
+    {
+      "rang": 70,
+      "score": 2.16955,
+      "id": "ce639e99-ae4d-5cc8-a3fe-3c113f498490",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/Gesamt-9-2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2011 › Gesamt 9 2011 — Verkündungsblatt",
+      "section_heading": "**Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011** > **I. Allgemeines**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011**  \n## **I. Allgemeines**  \nDie Fakultät III – Medien, Information und Design – Abteilung"
+    },
+    {
+      "rang": 71,
+      "score": 2.12567,
+      "id": "c34d4912-65b5-5883-b829-e151ad024114",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/01-Richtlinie_Studienpreise_F_III.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2011 › 01 Richtlinie Studienpreise F III — I. Allgemeines",
+      "section_heading": "**Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011** > **IV. Vergabekriterien**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "4. Die Studienpreise werden nach Leistung einerseits und nach besonderem hochschulpolitischem, gesellschaftlichem oder sozialem Engagement andererseits vergeben. Ein besonderes hochschulpolitisches Engagement liegt in der Regel bei einer mindestens zwei Semester dauernden aktiven Mitarbeit in der Se"
+    },
+    {
+      "rang": 72,
+      "score": 2.08083,
+      "id": "464b2dc4-01d6-55d9-a114-4f52521df5eb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › HsH Verkuendungsblatt 06 2017 20220701 — Verkündungsblatt",
+      "section_heading": "**§6** > **Stipendien für eine herausragende Vorleistung in den** > **Masterstudiengängen der Fakultät I**",
+      "chunk_index": 95,
+      "text_vollstaendig": false,
+      "auszug": "## **§6**\n\n## **Stipendien für eine herausragende Vorleistung in den**\n\n## **Masterstudiengängen der Fakultät I**  \nStipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.  \nAntragsberechtigt sind alle im ersten Semes"
+    },
+    {
+      "rang": 73,
+      "score": 2.00304,
+      "id": "7713bcba-bd67-5d18-9d98-813c478dd203",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/01-2009/Verkuendungsblatt_01-2009.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2009 › Verkuendungsblatt 01 2009 — Verkündungsblatt",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den konsekutiven berufsbegleitenden Teilzeit-Master-Studiengang Social Work (MSW) mit dem Abschluss Master of Arts (M.A.) an der Fakultät V, Diakonie, Gesundheit und Soziales der Fachhochschule Hannover** > **Richtlinie der Fakultät Diakonie, Gesundheit und Soziales für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 13.01.2009** > **Besonderer Teil der Prüfungsordnung für den konsekutiven berufsbegleitenden Teilzeit-Master-Studiengang Social Work (MSW) mit dem Abschluss Master of Arts (M.A.) an der Fakultät V, Diakonie, Gesundheit und Soziales der Fachhochschule Hannover** > **I. Allgemeines**",
+      "chunk_index": 71,
+      "text_vollstaendig": false,
+      "auszug": "## **Richtlinie der Fakultät Diakonie, Gesundheit und Soziales für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 13.01.2009**\n\n## **I. Allgemeines**  \nDie Fakultät Diakonie, Gesundheit und Soziales entscheidet nach Maßgabe der „Rahmenordnung der Fachhochschule Hannover (FHH) zur Verga"
+    },
+    {
+      "rang": 74,
+      "score": 1.91791,
+      "id": "5462e4b9-5657-533b-8bc0-403f897d9117",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › 4 Stipendienordnung der Fakulta t I 2017 — Präambel",
+      "section_heading": "**§5** > **Stipendien für einen herausragenden ersten Studienabschnitt in den Bachelorstudiengängen „Angewandte Mathematik“, „Technische Redaktion“, „Elektrotechnik und Informationstechnik“, „Mechatronik“ und „Wirtschaftsingenieur Elektrotechnik“**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§5**\n## **Stipendien für einen herausragenden ersten Studienabschnitt in den Bachelorstudiengängen „Angewandte Mathematik“, „Technische Redaktion“, „Elektrotechnik und Informationstechnik“, „Mechatronik“ und „Wirtschaftsingenieur Elektrotechnik“**  \nStipendien für einen herausragenden ersten St"
+    },
+    {
+      "rang": 75,
+      "score": 1.90418,
+      "id": "5a438d8e-0302-5230-bff5-1ba4a63edc6e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2013 › HsH Verkuendungsblatt 05 2013 — Verkündungsblatt",
+      "section_heading": "**Ordnung der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover zur Vergabe von „Go Out“-Zuschüssen im Rahmen von studienbezogenen Auslandsaufenthalten** > **Ordnung der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung)**",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "## **Ordnung der Fakultät V – Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnung)**  \nVeröffentlicht im Verkündungsblatt Nr. 1/2009 vom 23.2.2009, 1. Änderung veröffentlicht im Verkündungsblatt Nr. Nr. 5/2013 vom 3.7.2013."
+    },
+    {
+      "rang": 76,
+      "score": 1.79254,
+      "id": "5d0cff9c-59fc-51f7-b054-1a997f9284b1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 03 Spezifische Stipendienordnung der Fakultaet I abgestimmt 2 — § 1 Präambel",
+      "section_heading": "**§ 2 Stipendien**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 2 Stipendien**  \nDie Fakultät I vergibt folgende Stipendien nach Maßgabe dieser Ordnung:  \n1. Stipendien für besonderes Engagement oder besondere Verdienste  \n2. Stipendien für einen herausragenden ersten Studienabschnitt in dem Bachelorstudiengang „Technische Redaktion“  \n3. Stipendien für e"
+    },
+    {
+      "rang": 77,
+      "score": 1.61723,
+      "id": "0d5db5a5-8fd8-5385-bbee-49d96ef885bf",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/11-2011/01-Richtlinie_Landesstipendium_Niedersachsen_2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2011 › 01 Richtlinie Landesstipendium Niedersachsen 2011 — `RICHTLINIE`",
+      "section_heading": "**`§ 1`** > **`Quotierung und Vergabekriterien; Höhe und Art der Stipendien`**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **`§ 1`**\n## **`Quotierung und Vergabekriterien; Höhe und Art der Stipendien`**  \n- (1) Von den für Stipendien zur Verfügung stehenden Mitteln werden, soweit genügend Anträge vorliegen, in der Regel  \n1.  95 % an Studierende in grundständigen Studiengängen oder in konsekutiven MasterStudiengängen"
+    },
+    {
+      "rang": 78,
+      "score": 1.59429,
+      "id": "cf3fa044-760f-5fd1-ab53-c10719fbf591",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2013",
+      "title_anzeige": "www › verkuendungsblatt › aeltere ausgaben › ausgaben 2013 — Ausgabe Nr. 10/2013 vom 20.12.2013",
+      "section_heading": "Ausgabe Nr. 05/2013 vom 3.7.2013",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "[Ordnung der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover zur Vergabe von „Go Out“-Zuschüssen im Rahmen von studienbezogenen Auslandsaufenthalten](https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/02__Ord"
+    },
+    {
+      "rang": 79,
+      "score": 1.55724,
+      "id": "66f863e2-7a95-5ddc-a548-8687a65c07fd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/05-2007/9-StipendienRahmenO.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2007 › 9 StipendienRahmenO",
+      "section_heading": "**2 Förderkriterien**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **2 Förderkriterien**  \nDie Studienkommissionen in den Fakultäten entwickeln Kriterien für die Förderung von Studierenden der Abteilung bzw. Fakultät; der Fakultätsrat beschließt diese Kriterien und zeigt sie dem Präsidium an. In der Regel basieren diese Kriterien auf besonderen Leistungen bzw. h"
+    },
+    {
+      "rang": 80,
+      "score": 1.52694,
+      "id": "636da60f-5062-5d4b-8653-0bee949462eb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2011 › 01 Richtlinie Deutschlandstipendium",
+      "section_heading": "**Antrag auf Gewährung eines Deutschland-Stipendiums gemäß der „Richtlinie zur Vergabe von Stipendien nach § 3 Abs. 1 Nr. 8 NHG an der FHH“ zum WS 2011/12 und SS 2012**",
+      "chunk_index": 27,
+      "text_vollstaendig": true,
+      "auszug": "## **Antrag auf Gewährung eines Deutschland-Stipendiums gemäß der „Richtlinie zur Vergabe von Stipendien nach § 3 Abs. 1 Nr. 8 NHG an der FHH“ zum WS 2011/12 und SS 2012**  \nIch beantrage die Gewährung eines Stipendiums in Höhe von 300 ! pro Monat  \n**(  ) als Erstsemester aufgrund meiner besonders "
+    },
+    {
+      "rang": 81,
+      "score": 1.49878,
+      "id": "9832d7ce-93e7-5dcb-813e-1e011ec6f95d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/14-2015/01_ZOIMC_Stand_20150914.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 14 2015 › 01 ZOIMC Stand 20150914",
+      "section_heading": "**§ 4 Auswahlverfahren**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4 Auswahlverfahren**  \n- (1) 50 vom Hundert der Studienplätze, die im hochschuleigenen Auswahlverfahren vergeben werden, werden allein anhand der Note der Hochschulzugangsberechtigung vergeben.  \n- (2) Die weiteren 50 vom Hundert der Studienplätze, die im hochschuleigenen Auswahlverfahren ver"
+    },
+    {
+      "rang": 82,
+      "score": 1.46054,
+      "id": "f48470d5-5e8f-54e3-bd5f-0d2232d1b215",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/02_Stipendienordnung_III_20160321.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2016 › 02 Stipendienordnung III 20160321 — Allgemeines",
+      "section_heading": "**§ 4** > **Vergabekriterien**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "- (5)  Die Stipendien werden nach (1) Leistung (berechnet nach dem Notendurchschnitt) einerseits und nach (2a) besonderem hochschulpolitischem, (2b) gesellschaftlichem oder (2c) sozialem Engagement andererseits vergeben. Ein besonderes hochschulpolitisches Engagement liegt in der Regel bei einer min"
+    },
+    {
+      "rang": 83,
+      "score": 1.44441,
+      "id": "093d507e-153d-5654-9043-b20d3dfd7463",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2019/02-2019/02_IMC_Zugangs-und_Zulassungsordnung__2019_01_15.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2019 › 02 IMC Zugangs und Zulassungsordnung 2019 01 15",
+      "section_heading": "**§ 4** > **Auswahlverfahren**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Auswahlverfahren**  \n- (1) 50 vom Hundert der Studienplätze, die im hochschuleigenen Auswahlverfahren vergeben werden, werden allein anhand der Note der Hochschulzugangsberechtigung vergeben.  \n- (2) Die weiteren 50 vom Hundert der Studienplätze, die im hochschuleigenen Auswahlverfa"
+    },
+    {
+      "rang": 84,
+      "score": 1.37297,
+      "id": "b1478fe5-09b8-52fa-a2ef-1775e221028b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/02-Ordnung_der_Fakultaet_I_zur_Vergabe_von_Go_Out.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2013 › 02 Ordnung der Fakultaet I zur Vergabe von Go Out — § 1 Allgemeines",
+      "section_heading": "**§ 4 Auswahlentscheidung**",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 4 Auswahlentscheidung**  \nLiegen die unter § 3 benannten Belege im Zeitpunkt der Auswahlentscheidung noch nicht vor, so erfolgt die Vergabe unter Vorbehalt. Der entsprechende Vorbehalt wird den Stipendiaten mit der Auswahlentscheidung mitgeteilt.  \nDie Vergabe erfolgt nach folgenden Kriterien"
+    },
+    {
+      "rang": 85,
+      "score": 1.33722,
+      "id": "133f8de3-d363-5e1f-a334-2bb7e89df0fa",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "section_heading": "**§ 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“**",
+      "chunk_index": 94,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“**  \nStipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang  \n„Technische Redaktion“ werden aufgrund besonderer Leistungen im ersten Studienabschnitt vergeben"
+    },
+    {
+      "rang": 86,
+      "score": 1.33589,
+      "id": "4e5f8f84-4b10-549b-84aa-2e3bb5dd1e98",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/03-Entwurf_Go-Out_Fak__III_-13-05-13redaktionellgeaendert270513.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2013 › 03 Entwurf Go Out Fak III 13 05 13redaktionellgeaendert270513",
+      "section_heading": "**§ 4 Auswahlentscheidung**",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4 Auswahlentscheidung**  \nLiegen die unter § 3 benannten Belege im Zeitpunkt der Auswahlentscheidung noch nicht vor, so erfolgt die Vergabe unter Vorbehalt. Der entsprechende Vorbehalt wird den Stipendiaten mit der Auswahlentscheidung mitgeteilt.  \nDie Vergabe erfolgt nach folgenden Kriterien"
+    },
+    {
+      "rang": 87,
+      "score": 1.31408,
+      "id": "100325ea-b94d-5d86-8df3-1b6abb19bb37",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/1._Zulassungsordnung_dualen_Bachelor-Studiengang_Veranstaltungsmanagement_an_der_Fakultaet_III.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2013 › 1. Zulassungsordnung dualen Bachelor Studiengang Veranstaltungsmanagement an der Fakultaet III — Geltungsbereich",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung zum Studium im dualen Bachelor-Studiengang Veranstaltungsmanagement an der Fakultät III der Hochschule Hannover** > **§ 5** > **Ordnung über den Zugang und die Zulassung zum Studium im dualen Bachelor-Studiengang Veranstaltungsmanagement an der Fakultät III der Hochschule Hannover** > **Zulassungsverfahren**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "- (4) Erfüllen mehr Bewerberinnen und Bewerber die Zugangsvoraussetzungen als Studienplätze zur Verfügung stehen, werden die Studienplätze nach dem Ergebnis der Durchschnittsnote der Hochschulzugangsberechtigung vergeben. Bei gleicher Note entscheidet das Los."
+    },
+    {
+      "rang": 88,
+      "score": 1.27542,
+      "id": "19476756-10d0-520f-85b1-b8a8deabbef0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/04-Stipendienordnung_III.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2013 › 04 Stipendienordnung III — § 1 Allgemeines",
+      "section_heading": "**§ 4 Vergabekriterien**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "- (1) Leistung (berechnet nach dem Notendurchschnitt) einerseits und nach (2a) besonderem hochschulpolitischem, (2b) gesellschaftlichem oder (2c) sozialem Engagement andererseits vergeben.  \n- Ein besonderes hochschulpolitisches Engagement liegt in der Regel bei einer mindestens zwei Semester dauern"
+    },
+    {
+      "rang": 89,
+      "score": 1.25768,
+      "id": "70ef0533-0b97-5089-aece-d91f8ca09e0e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/05-2018/03_Richtlinie_HuW_ab_2019_AEnd.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2018 › 03 Richtlinie HuW ab 2019 AEnd — Grundsätze",
+      "section_heading": "**„Hin-und-weg- Stipendiums“** > **(3) Auswahlkriterien**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **(3) Auswahlkriterien**  \nDie Auswahl erfolgt anhand der Kriterien, die für die Vergabe eines PROMOS-Stipendiums des DAAD maßgeblich sind. Diese sind insbesondere die bisherige Studienleistung, die Sinnhaftigkeit des geplanten Aufenthalts in Bezug zum bisherigen Studium sowie bestehende Sprachke"
+    },
+    {
+      "rang": 90,
+      "score": 1.23836,
+      "id": "8f73d6d2-7fc0-59fb-af3d-b9814cc02491",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/5._Go-Out-Ordnung-Fakultaet_II_20130722.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2013 › 5. Go Out Ordnung Fakultaet II 20130722 — Allgemeines",
+      "section_heading": "**§ 4** > **Auswahlentscheidung**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 4**\n\n## **Auswahlentscheidung**  \nDie Vergabe erfolgt nach folgenden Kriterien:  \n- (1) Studiensemester, Praktika, Fachkurse und Studien- und Projektreisen werden gleichrangig gefördert.  \n- (2) Für Studiensemester, Praktika, Fachkurse ist die jeweilige Durchschnittsnote des Vorsemesters maßg"
+    },
+    {
+      "rang": 91,
+      "score": 1.23762,
+      "id": "39ff3834-4e64-55ae-bf7e-b1f39dc04720",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/01_RahmenO_Stipendien_mit_AEnderungen_des_Senates.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2012 › 01 RahmenO Stipendien mit AEnderungen des Senates",
+      "section_heading": "**Rahmenordnung der Hochschule Hannover zur Vergabe von Stipendien (Stipendienordnung)** > **§ 1 Geltungsbereich**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 1 Geltungsbereich**  \nDiese Ordnung findet Anwendung auf die Vergabe von sämtlichen an der Hochschule Hannover zu vergebenen Stipendien, soweit in gesonderten hochschulweit geltenden Ordnungen oder Richtlinien keine anderweitigen Regelungen getroffen wurden. Sie dient dazu, die Vergabe von St"
+    },
+    {
+      "rang": 92,
+      "score": 1.211,
+      "id": "f9a221c5-0f0d-5236-9ab2-9ef70bc6e0f8",
+      "source_url": "https://www.hs-hannover.de/studium/studieren-an-der-hsh/rund-ums-studium/stipendien/landesstipendium-niedersachsen",
+      "title_anzeige": "Landesstipendium Niedersachsen",
+      "section_heading": "Landesstipendium Niedersachsen",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Daneben können auch soziale Gründe, z.B. eine angespannte finanzielle Situation kinderreicher Familien sowie herausragendes ehrenamtliches Engagement, berücksichtigt werden.\nEs ist keine Doppelförderung zulässig (WIR-Stipendium und Landesstipendium Niedersachsen oder andere Stipendien, die aus öffen"
+    },
+    {
+      "rang": 93,
+      "score": 1.19664,
+      "id": "776f00ff-71a8-5718-a87b-745b66100cfb",
+      "source_url": "https://www.hs-hannover.de/studium/studieren-an-der-hsh/rund-ums-studium/stipendien/aktuelles",
+      "title_anzeige": "www › rund ums studium › stipendien › aktuelles",
+      "section_heading": "[ FAWuI-Studierendenpreis 2025 vergeben ](https://f4.hs-hannover.de/aktuelles/news/7456)",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "### [ FAWuI-Studierendenpreis 2025 vergeben ](https://f4.hs-hannover.de/aktuelles/news/7456)\nDer mit 500 € dotierte Studierendenpreis der Fördergemeinschaft und Alumni-Vereinigung der Fakultät IV – Wirtschaft und Informatik – FAWuI e.V. wurde für das Jahr 2025 an Frau Wiebke Schal vergeben.\n[Weiterl"
+    },
+    {
+      "rang": 94,
+      "score": 1.16899,
+      "id": "11f6bb78-9659-58a3-b348-08e45eb97279",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/11-2011/01-Richtlinie_Landesstipendium_Niedersachsen_2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2011 › 01 Richtlinie Landesstipendium Niedersachsen 2011 — `RICHTLINIE`",
+      "section_heading": "**`§ 1`** > **`Quotierung und Vergabekriterien; Höhe und Art der Stipendien`**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Im begründeten Einzelfall kann die Vergabekommission (§ 3) von den in Nummern 1 und 2 festgelegten Quotierungen abweichen.  \n- (2) Die Stipendien werden aufgrund von besonderen Leistungen oder herausgehobener Befähigungen vergeben, welche in erster Linie anhand einer von der Bewerberin oder dem Bewe"
+    },
+    {
+      "rang": 95,
+      "score": 1.16376,
+      "id": "55e8dc1c-840f-5fec-a93f-af7ce1159b55",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/05-RichtlnieHuWfinal.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2013 › 05 RichtlnieHuWfinal — §1 Grundsätze",
+      "section_heading": "**(4) Berechnung der Stipendienhöhe**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## **(4) Berechnung der Stipendienhöhe**  \nDie Berechnung der Stipendienhöhe erfolgt entsprechend der Verfahrensweise bei PROMOS-Stipendien des DAAD durch die Multiplikation der beantragten Fördersumme mit dem Anteil der erreichten Punkte. In jedem Fall müssen jedoch 50% der Punkte erreicht werden. "
+    },
+    {
+      "rang": 96,
+      "score": 1.15435,
+      "id": "c2f7a1c2-51af-53a1-a403-61f8979b316b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/08-2011/01-Richtlinie-Deutschlandstipendium.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 08 2011 › 01 Richtlinie Deutschlandstipendium",
+      "section_heading": "**(  ) aufgrund der besonders guten Durchschnittsnote im Studium, die ich durch einen offiziellen Notenspiegel nachweise, den ich im Prüfungsamt erhalte und als Anlage beifüge**",
+      "chunk_index": 28,
+      "text_vollstaendig": true,
+      "auszug": "## **(  ) aufgrund der besonders guten Durchschnittsnote im Studium, die ich durch einen offiziellen Notenspiegel nachweise, den ich im Prüfungsamt erhalte und als Anlage beifüge**  \nDieses Kriterium gilt nur für Studierende in der Regelstudienzeit. Stichtag für die Ausstellung des Notenspiegels ode"
+    },
+    {
+      "rang": 97,
+      "score": 1.12217,
+      "id": "e140af95-2425-5e58-87b5-b74196472441",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20210518_Protokoll_28.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "title_anzeige": "www › Finanzmanagement › Studienqualitaetsmittel › 20210518 Protokoll 28.Sitzung Senatskommission Studienqualitaetsmittel",
+      "section_heading": "6.2 Fak. II (Herr Stahl), Akquise zur Stipendieneinwerbung, 0,5 E11, unbefristet, ab 01.09.2021, 37.683,50 EUR (Anlage 4)",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "Studierenden gefördert, sondern vor allem „Hürdenläufer“ sowie Studierende in Gremientätigkeiten. Als Notendurchschnitt werde ein Schnitt von 2,5 – 2,8 oder besser verlangt. Die Einwerbung von Stipendienmitteln gestaltet sich als sehr zeitintensiv."
+    },
+    {
+      "rang": 98,
+      "score": 1.10781,
+      "id": "a278b8ab-5235-52f3-b9e8-fc71313c6a4a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/HsH_Verkuendungsblatt_05_2016.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2016 › HsH Verkuendungsblatt 05 2016 — Ausgabe 05/2016",
+      "section_heading": "**für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **§ 3** > **für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **Vergabeverfahren**",
+      "chunk_index": 42,
+      "text_vollstaendig": false,
+      "auszug": "- (5)  Die eingereichten Anträge werden dem Dekanat vorgelegt. Es prüft die Anträge anhand  \nNr. 05/2016 vom 18.05.2016  \nVerkündungsblatt der Hochschule Hannover  \n16 von 17  \nder Vergabekriterien und unterbreitet der Studienkommission eine Beschlussvorlage, in der die geeigneten Kandidatinnen und "
+    },
+    {
+      "rang": 99,
+      "score": 1.09176,
+      "id": "3775c970-a85e-5513-a1bf-e92a4f380c92",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/09-2011/Gesamt-9-2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2011 › Gesamt 9 2011 — Verkündungsblatt",
+      "section_heading": "**Richtlinie der Fakultät III – Medien, Information und Design (Abt. Information und Kommunikation) der Fachhochschule Hannover (FHH) für die Vergabe von Studienpreisen (Studienpreis-Richtlinie) vom 19.4.2011** > **V. Inkrafttreten**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "## **V. Inkrafttreten**  \nDiese Richtlinie tritt am Tage nach Ihrer Veröffentlichung im Verkündungsblatt der Fachhochschule Hannover in Kraft.  \nDiese Richtlinie findet erstmals auf die Vergabe der Studienpreise für das Wintersemester 2011 / 2012 Anwendung.  \n*****  \nBeschluss Studienkommission, Fak"
+    },
+    {
+      "rang": 100,
+      "score": 1.07554,
+      "id": "a050b436-6475-51f7-9041-3a8106bc1d87",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/03-2021/01_ZZO_IMC_2021.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2021 › 01 ZZO IMC 2021",
+      "section_heading": "**§ 4** > **Auswahlverfahren**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Auswahlverfahren**  \n- (1) 50 vom Hundert der Studienplätze, die im hochschuleigenen Auswahlverfahren vergeben werden, werden allein anhand der Note der Hochschulzugangsberechtigung vergeben.  \n- (2) Die weiteren 50 vom Hundert der Studienplätze, die im hochschuleigenen Auswahlverfa"
+    },
+    {
+      "rang": 101,
+      "score": 1.07308,
+      "id": "00ff526f-3593-50a6-8210-276f4e10aa52",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/03-2013/04-Stipendienordnung_III.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2013 › 04 Stipendienordnung III — § 1 Allgemeines",
+      "section_heading": "**§ 3. Vergabeverfahren**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "5. Die eingereichten Anträge werden dem Dekanat vorgelegt. Es prüft die Anträge anhand der Vergabekriterien und unterbreitet der Studienkommission eine Beschlussvorlage, in der die geeigneten Kandidatinnen und Kandidaten ausgewählt worden sind.  \n6. Die Studienkommission prüft diese Beschlussvorlage"
+    },
+    {
+      "rang": 102,
+      "score": 1.06557,
+      "id": "4a994701-c77d-5756-b125-692bbd458462",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/02_Stipendienordnung_III_20160321.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2016 › 02 Stipendienordnung III 20160321 — Allgemeines",
+      "section_heading": "**§ 3** > **Vergabeverfahren**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "- (5) Die eingereichten Anträge werden dem Dekanat vorgelegt. Es prüft die Anträge anhand der Vergabekriterien und unterbreitet der Studienkommission eine Beschlussvorlage, in der die geeigneten Kandidatinnen und Kandidaten ausgewählt worden sind.  \n- (6)  Die Studienkommission prüft diese Beschluss"
+    },
+    {
+      "rang": 103,
+      "score": 1.0447,
+      "id": "626e6b97-8021-541e-9866-5a9b2745ff14",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/12-2011/02-Richtlinie_zur_Foerderung_von_Vorhaben_zu_FuE.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2011 › 02 Richtlinie zur Foerderung von Vorhaben zu FuE",
+      "section_heading": "**`Allgemeine Kriterien zur positiven Bewertung`**",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "## **`Allgemeine Kriterien zur positiven Bewertung`**  \n- Das Vorhaben erwirtschaftet einen nennenswerten Drittmittelanteil.  \n- Das Vorhaben/der Antrag an die Forschungskommission ist fächerübergreifend (interdisziplinär) angelegt.  \n- Das Vorhaben schafft und sichert in überwiegendem Maße Arbeitsp"
+    },
+    {
+      "rang": 104,
+      "score": 1.04025,
+      "id": "8bf6fac6-b8f5-5f2b-8dcd-c7d30e0825d8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/05-2013/HsH_Verkuendungsblatt_05_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2013 › HsH Verkuendungsblatt 05 2013 — Verkündungsblatt",
+      "section_heading": "**Ordnung der Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover zur Vergabe von „Go Out“-Zuschüssen im Rahmen von studienbezogenen Auslandsaufenthalten** > **(   ) wegen einem besonderen Engagement im Studium oder eines besonderen hochschulpolitischen, gesellschaftlichen oder sozialen Engagements.**",
+      "chunk_index": 46,
+      "text_vollstaendig": false,
+      "auszug": "Im Zeitraum des Semesters, auf das sich dieser Antrag bezieht, erhalte ich kein WIR/Deutschland-stipendium.  \n……..………  \nOrt, Datum Unterschrift  \n1. Änderung der Ordnung der Fakultät V - Diakonie, Gesundheit und Soziales der Hochschule Hannover für die Vergabe von Studienpreisen (Studienpreis-Ordnun"
+    },
+    {
+      "rang": 105,
+      "score": 1.00418,
+      "id": "5a992dcb-3440-59a1-8117-4c567ccc2707",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/01-2015/02_Richtlinie_HuW_ab_2015_genehmigt.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2015 › 02 Richtlinie HuW ab 2015 genehmigt — Grundsätze",
+      "section_heading": "**Richtlinie der Hochschule Hannover zur Vergabe des „Hin-und-Weg-Stipendiums“ im Rahmen von studienbezogenen Auslandsaufenthalten** > **(3) Auswahlkriterien**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "Anhand der Einzelkriterien werden Punkte vergeben und anhand dieser Punkte eine Rangliste der Bewerbungen erstellt. In jedem Fall müssen jedoch 50% der Punkte erreicht werden. Eine Abweichung davon ist nur im Einvernehmen zwischen ZSW – International Office und der entsprechenden Fakultät möglich. D"
+    },
+    {
+      "rang": 106,
+      "score": 1.00307,
+      "id": "b638b123-8d79-586c-8c46-bbb4f7fe1e36",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/4._Go-Out-Ordnung-Fakultaet_V_20130528.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2013 › 4. Go Out Ordnung Fakultaet V 20130528 — Allgemeines",
+      "section_heading": "**§ 4** > **Auswahlentscheidung**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Auswahlentscheidung**  \nLiegen die unter § 3 benannten Belege im Zeitpunkt der Auswahlentscheidung noch nicht vor, so erfolgt die Vergabe unter Vorbehalt. Der entsprechende Vorbehalt wird den Stipendiaten mit der Auswahlentscheidung mitgeteilt.  \nDie Vergabe erfolgt nach folgenden K"
+    },
+    {
+      "rang": 107,
+      "score": 0.99852,
+      "id": "97400238-6a19-5987-b9db-e232b788653b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/05-2015/1_Entwurf_Richtlinie_Leistungsbezuege_Stand_01_04_2015.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2015 › 1 Entwurf Richtlinie Leistungsbezuege Stand 01 04 2015 — Regelungsgegenstand",
+      "section_heading": "**a) für besondere Leistungen in der Lehre**",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "## **a) für besondere Leistungen in der Lehre**  \n- Ergebnisse der Lehrevaluation einschl. studentischer Lehrveranstaltungskritik,  \n- Lehrtätigkeiten, die über die Lehrverpflichtung hinaus geleistet werden oder auf diese nicht angerechnet werden,  \n- überdurchschnittliche Prüfungsbelastung,  \n- bes"
+    },
+    {
+      "rang": 108,
+      "score": 0.99399,
+      "id": "238a2b75-3832-5c34-b38b-1b9c3548c6a6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/05-2017/02_Richtlinie_Leistungsbezuege_10_04_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2017 › 02 Richtlinie Leistungsbezuege 10 04 2017 — Regelungsgegenstand",
+      "section_heading": "**Richtlinie der Hochschule Hannover über das Verfahren und die Vergabe von Leistungsbezügen** > **a. für besondere Leistungen in der Lehre**",
+      "chunk_index": 11,
+      "text_vollstaendig": false,
+      "auszug": "## **a. für besondere Leistungen in der Lehre**  \n- Ergebnisse der Lehrevaluation einschl. studentischer Lehrveranstaltungskritik,  \n- Lehrtätigkeiten, die über die Lehrverpflichtung  hinaus geleistet werden oder auf diese nicht angerechnet werden,  \n- überdurchschnittliche Prüfungsbelastung, besond"
+    },
+    {
+      "rang": 109,
+      "score": 0.97724,
+      "id": "a68fc590-ad7b-53cc-8f80-a73df173a35b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/05-2007/9-StipendienRahmenO.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2007 › 9 StipendienRahmenO",
+      "section_heading": "**3 Procedere**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **3 Procedere**  \nDie Auswahl und Förderung geeigneter Stipendiatinnen und Stipendiaten obliegt den Fakultäten. Vorschlagsrecht hat jedes Mitglied der Fakultät. Die Studienkommission benennt dem Fakultätsrat geeignete Kandidatinnen bzw. Kandidaten nach Prioritäten, sie schlägt Höhe und Dauer des "
+    },
+    {
+      "rang": 110,
+      "score": 0.97099,
+      "id": "1e67439e-5541-58f8-a375-29a7c573818f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/07-2011/02-Master-DM.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2011 › 02 Master DM",
+      "section_heading": "**`Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang Design und Medien (MDM) an der Fakultät III – Medien, Information und Design der Fachhochschule Hannover (FHH)`** > sowie",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "- (3) Abweichend von Absatz 2 wird von der besonderen Eignung ausgegangen, wenn der Studienabschluss zum Bewerbungszeitpunkt zwar noch nicht vorliegt, aber bereits 90% der insgesamt erforderlichen Leistungen erfolgreich erbracht wurden und die aus den Prüfungsleistungen ermittelte Durchschnittsnote "
+    },
+    {
+      "rang": 111,
+      "score": 0.96488,
+      "id": "6f9229b7-b03b-5b74-a61a-5562cd1f50cc",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2015/05-2015/1_Entwurf_Richtlinie_Leistungsbezuege_Stand_01_04_2015.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2015 › 1 Entwurf Richtlinie Leistungsbezuege Stand 01 04 2015 — Regelungsgegenstand",
+      "section_heading": "**b) für besondere Leistungen in der Forschung**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **b) für besondere Leistungen in der Forschung**  \n- Ergebnisse von Forschungsevaluationen, Auszeichnungen, Preise, anerkannte Publikationen, Drittmitteleinwerbungen  \n- Aufbau und Leitung von Forschungsschwerpunkten, Instituten, Sonderforschungsbereichen, wissenschaftlichen Arbeitsgruppen,  \n- E"
+    },
+    {
+      "rang": 112,
+      "score": 0.96132,
+      "id": "88f079c5-8439-55bd-9fdf-23b7fbc531ed",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Studium/Rund_ums_Studium/Stipendien/PDF-Dateien/HsH-WIR-Stipendium-FAQ.pdf",
+      "title_anzeige": "www › Stipendien › PDF Dateien › HsH WIR Stipendium FAQ",
+      "section_heading": "AUSWAHLKRITERIEN",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## AUSWAHLKRITERIEN  \nNach welchen Kriterien wird gefördert? _Es handelt sich um ein Leistungsstipendium. Reine Sozialstipendien werden nicht vergeben. Persönliches Engagement und besondere soziale und persönliche Umstände werden aber bei der Auswahl berücksichtigt._  \nWas ist unter einem Engagement"
+    },
+    {
+      "rang": 113,
+      "score": 0.94913,
+      "id": "6f607280-bd43-5a4a-8b4a-8b556cda12e9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/05-2009/04-PO-AT-AEnd3-_22-6-2009l.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2009 › 04 PO AT AEnd3 22 6 2009l — A l l g e m e i n e r  T e i l",
+      "section_heading": "**A l l g e m e i n e r  T e i l** > **§ 10** > **A l l g e m e i n e r  T e i l** > **Bewertung der Prüfungsleistung und Bildung der Modulnote**",
+      "chunk_index": 42,
+      "text_vollstaendig": false,
+      "auszug": "(7) Wenn die Modulprüfung bestanden ist, werden die für das Modul festgelegten Credits gutgeschrieben.  \n(8) Bei einer Gesamtnote von 1,0 bis 1,2 wird im Bachelor- bzw. Masterzeugnis der Zusatz „mit Auszeichnung“ vergeben.  \n(9) Die Gesamtnote ist durch eine ECTS-Note, die neben der absoluten eine r"
+    },
+    {
+      "rang": 114,
+      "score": 0.93627,
+      "id": "d1c7e8af-afb1-5e51-8658-f151b8f5659f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Soziale_OEffnung/Soziale_OEffnung_Dokumente/Offene_Hochschule/Flyer_FHH-TALENT-PROGRAMM_alle_Fakultaeten.pdf",
+      "title_anzeige": "www › Soziale OEffnung Dokumente › Offene Hochschule › Flyer FHH TALENT PROGRAMM alle Fakultaeten — Fakultäten  I - V",
+      "section_heading": "**Wir fangen heute an:**",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## **Wir fangen heute an:**  \nBei der Stipendienvergabe sollen mehrere Kriterien eine Rolle spielen.  \nGenerell werden gute bis sehr gute Kandidaten gesucht. Bewertet werden nicht nur die bisher erbrachten Noten. Genauso wichtig sind die soziale Kompetenz und das außer-curriculare Engagement der Bew"
+    },
+    {
+      "rang": 115,
+      "score": 0.9333,
+      "id": "2deb53b4-5e4f-5051-a464-224fe437f4a6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/02-2017/03_ZO__BIV_2016-08-09.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2017 › 03 ZO BIV 2016 08 09 — Geltungsbereich",
+      "section_heading": "**Ordnung über die Zulassung und den Zugang zum Studium im BachelorStudiengang Verwaltungsinformatik (VIF) der Fakultät IV der Hochschule Hannover Besonderer Teil (ZulO-BA,Tl.B)** > **§ 3** > **Ordnung über die Zulassung und den Zugang zum Studium im BachelorStudiengang Verwaltungsinformatik (VIF) der Fakultät IV der Hochschule Hannover Besonderer Teil (ZulO-BA,Tl.B)** > **Auswahlverfahren**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n\n## **Auswahlverfahren**  \n- (1) Die Hochschule führt nach Erfüllung der Quotierung nach der Hochschulvergabeverordnung für den Bachelor-Studiengang Verwaltungsinformatik (VIF) ein Auswahlverfahren durch, wenn mehr Bewerbungen vorliegen als Studienplätze zur Verfügung stehen.  \n- (2) 10% "
+    },
+    {
+      "rang": 116,
+      "score": 0.91371,
+      "id": "68f09331-0b79-5cfc-8e90-82190a8c1eff",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/04-2011/06-Zulassungsordnung_Heilpaedagogik.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2011 › 06 Zulassungsordnung Heilpaedagogik",
+      "section_heading": "**`Ordnung über die Zulassung zum Studium im berufsintegrierenden BachelorStudiengang Heilpädagogik der Fakultät V – Diakonie, Gesundheit und Soziales der Fachhochschule Hannover (FHH) Besonderer Teil ( ZulO-BA, Tl.B)`** > **`§ 7`** > **`Ordnung über die Zulassung zum Studium im berufsintegrierenden BachelorStudiengang Heilpädagogik der Fakultät V – Diakonie, Gesundheit und Soziales der Fachhochschule Hannover (FHH) Besonderer Teil ( ZulO-BA, Tl.B)`** > **`Besonderes Auswahlverfahren`**",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## **`§ 7`**\n## **`Besonderes Auswahlverfahren`**  \n(1) Im besonderen Auswahlverfahren wird eine gewichtete Gesamtnote gebildet, die sich zusammensetzt aus:  \n– der Durchschnittsnote der Hochschulzugangsberechtigung ( HZB ) mit dem Gewichtungsfaktor 60%  \n– die Durchschnittsnote der Einstufungsprüfu"
+    },
+    {
+      "rang": 117,
+      "score": 0.91368,
+      "id": "0facbd0d-58a8-5d96-bca6-a8a6418369cd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/04-2011/Gesamt-4___2011.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2011 › Gesamt 4 2011",
+      "section_heading": "**`Ordnung über die Zulassung zum Studium im berufsintegrierenden BachelorStudiengang Heilpädagogik der Fakultät V – Diakonie, Gesundheit und Soziales der Fachhochschule Hannover (FHH) Besonderer Teil ( ZulO-BA, Tl.B)`** > **`§ 7`** > **`Ordnung über die Zulassung zum Studium im berufsintegrierenden BachelorStudiengang Heilpädagogik der Fakultät V – Diakonie, Gesundheit und Soziales der Fachhochschule Hannover (FHH) Besonderer Teil ( ZulO-BA, Tl.B)`** > **`Besonderes Auswahlverfahren`**",
+      "chunk_index": 220,
+      "text_vollstaendig": false,
+      "auszug": "## **`§ 7`**\n## **`Besonderes Auswahlverfahren`**  \n(1) Im besonderen Auswahlverfahren wird eine gewichtete Gesamtnote gebildet, die sich zusammensetzt aus:  \n– der Durchschnittsnote der Hochschulzugangsberechtigung ( HZB ) mit dem Gewichtungsfaktor 60%  \n– die Durchschnittsnote der Einstufungsprüfu"
+    },
+    {
+      "rang": 118,
+      "score": 0.91232,
+      "id": "d8925644-41a1-561b-a8fc-3903b63b4d3d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/01-2013/04_AEnderung_Master_PEP_ZulO_Oktober_12-27-6-2006.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2013 › 04 AEnderung Master PEP ZulO Oktober 12 27 6 2006",
+      "section_heading": "**§ 4** > **Zulassungsverfahren**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "(2) Die Auswahlentscheidung wird wie folgt getroffen: Anhand der Abschluss- bzw. Durchschnittsnote nach § 2 Abs. 2 und 3 wird eine Rangliste gebildet. Besteht nach der Note zwischen einzelnen Bewerbern Ranggleichheit, so bestimmt sich die Rangfolge auf der Liste nach einem Auswahlgespräch. 75 % der "
+    },
+    {
+      "rang": 119,
+      "score": 0.91017,
+      "id": "da313603-62a3-5b51-9883-f0c34f154d98",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/02-2012/01-Zulassungsordnung_MDM.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2012 › 01 Zulassungsordnung MDM",
+      "section_heading": "**`Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang Design und Medien (MDM) an der Fakultät III – Medien, Information und Design der Hochschule Hannover`** > **`§ 2 Zugangsvoraussetzungen`**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "- (4) Abweichend vom Abs. 2 ist die besondere Eignung auch gegeben, wenn das vorangegangene Studium mit der Note 2,6 bis 3,0 abgeschlossen wurde bzw. eine entsprechende Durchschnittsnote nach Abs. 3 vorliegt und individuelle Leistungen gem. Abs. 1 c) nachgewiesen werden. Auf Grundlage der in Abs. 1 "
+    },
+    {
+      "rang": 120,
+      "score": 0.90546,
+      "id": "6a9f3060-17cf-594d-9cf2-315b7ae04ff1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/06-2013/3._1._AEnderng_Zulassungsordnung_MUMBA.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2013 › 3. 1. AEnderng Zulassungsordnung MUMBA",
+      "section_heading": "**1. Änderung der Ordnung über den Zugang und die Zulassung für den weiterbildenden berufsbegleitenden MasterStudiengang „Mittelständische Unternehmensführung MBA in Entrepreneurship“ der Hochschule Hannover in Kooperation mit der Fachhochschule für die Wirtschaft, Hannover** > **§ 4** > **1. Änderung der Ordnung über den Zugang und die Zulassung für den weiterbildenden berufsbegleitenden MasterStudiengang „Mittelständische Unternehmensführung MBA in Entrepreneurship“ der Hochschule Hannover in Kooperation mit der Fachhochschule für die Wirtschaft, Hannover** > **Zulassungsverfahren**",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "- (bis zu 0,2, dabei steht 0,1 für stringent / 0,2 für sehr stringent)  \n- Voraussichtliche Studierbarkeit (fachliche und persönliche Rahmenbedingungen) (bis zu 0,2, jeweils 0,1 bei sehr guten fachlichen/ persönlichen Rahmenbedingungen)  \n- - Gesamteindruck der Bewerbungsunterlagen  \n- (bis zu 0,1, "
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "f5",
+  "fakultaet_erkannt": "f5",
+  "token_budget": {
+    "verwendet": 33589,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 4.25,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 2.93,
+    "docs_laden_s": 0.1,
+    "quellen_s": 7.29,
+    "antwort_llm_s": 3.54,
+    "gesamt_s": 10.84
+  },
+  "auswahl_begruendung": "{\"selected\":[13,23,14]}"
+}

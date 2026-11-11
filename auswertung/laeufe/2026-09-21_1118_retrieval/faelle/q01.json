@@ -1,0 +1,445 @@
+{
+  "fall": {
+    "id": "q01",
+    "case_type": "direct",
+    "question": "Welche konsekutiven Masterstudiengänge bietet die Fakultät I der Hochschule Hannover an?",
+    "reference_answer": "Die Fakultät I bietet zwei konsekutive, drei-semestrige Masterstudiengänge an: Sensor- und Automatisierungstechnik (ESA) sowie Elektrische Energiesysteme und Elektromobilität (EEE).",
+    "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf"
+    ],
+    "required_facts": [
+      "Sensor- und Automatisierungstechnik (ESA)",
+      "Elektrische Energiesysteme und Elektromobilität (EEE)"
+    ],
+    "optional_facts": [
+      "Die Masterstudiengänge sind konsekutiv.",
+      "Die Masterstudiengänge dauern drei Semester."
+    ],
+    "forbidden_claims": [
+      "Weitere Masterstudiengänge der Fakultät I als konsekutive Master hinzufügen."
+    ],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Die Antwort sollte genau die zwei Masterstudiengänge ESA und EEE nennen und keine weiteren Masterstudiengänge hinzufügen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Sensor- und Automatisierungstechnik",
+      "Elektrische Energiesysteme"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Erstsemesterinformation der Fakultät I nennt beide konsekutiven Master (ESA, EEE, je 3 Semester).",
+    "gold_im_korpus": true
+  },
+  "modell": "",
+  "zeitstempel": "2026-09-21T11:18:34",
+  "dauer_s": 11.43,
+  "fehler": null,
+  "antwort": "",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Erstsemesterinformation 27.02.2026\n  ## Zahlen und Daten zur Hochschule:\n  ## Standorte\n  ## Fünf Bachelorstudiengänge\n  ## ▪ Mechatronik (MEC)\n  ## Konsekutive Masterstudiengänge der Fakultät\n  ## Veranstaltungstypen\n  ## Vorlesungszeiten\n  ## Mensazeiten\n  ## Starter-Kit\n  ## ▪ Taschenrechner (nicht programmierbar)\n  ## Rechtliche Informationen\n  ## 1. HsH-Emailadresse ist offizielle Post\n  ## 2. Umgang mit Materialien und Medien\n  ## Informationen zur Campuscard und Öffi-Ticket etc.\n  ## Materialien in Moodle Online-Kurse zu den Vorlesungen\n  ## Erreichbarkeit/Kommunikation von/mit Lehrenden ProfessorInnen, Lehrbeauftragte, MitarbeiterInnen\n  ## Wahl der Stundenpläne / Start-ING EIT MEC EWI\n  ## Vorlesungszeiten Seminargruppe Z1 Stdg. Elektrotechnik und Informationstechnik\n  ## Vorlesungszeiten Seminargruppe N1 Stdg. Nachhaltige Elektrische Energieversorgung (NEV)\n  ## Vorlesungszeiten Seminargruppe M1 Stdg. Mechatronik\n  ## Wahl eines Start-ING Kurses\n  ## Für das Modul Start-ING besteht Anwesenheitspflicht .\n  ## Vorlesungszeiten Seminargruppe R2 Stdg. Technisches Informationsdesign und Technische Redaktion\n  ## Orientierung im Gebäude Ricklinger Stadtweg 120\n  ## Orientierung im Gebäude Bismarckstraße\n  ## Informationen zu Arbeitssicherheit und Gesundheitsschutz\n  ## ▪ Versicherungsschutz bei Unfällen\n  ## ▪ Mutterschutz\n  ## ▪ Medizinische Notfälle, Erste-Hilfe\n  ## ▪ Räumung von Gebäuden im Gefahrfall\n  ## Versicherungsschutz bei Unfällen Wer und was ist versichert?\n  ## Versicherungsschutz bei Unfällen Was ist nicht versichert?\n  ## ▪ private Studienfahrten\n  ## ▪ private Aktivitäten auf dem Gelände der Hochschule\n  ## Versicherungsschutz bei Unfällen Informationen - LUKN\n  ## ➢ Weitere Informationen erhalten Sie im Internet\n  ## Versicherungsschutz bei Unfällen Unfallmeldung\n  ## Versicherungsschutz bei Unfällen Unfallmeldung - Unfallanzeige\n  ## ▪ Weitere Informationen erhalten Sie bei Ihren Ansprechpersonen in der Studierendenverwaltung, Dezernat III\n  ## Mutterschutz\n  ## ▪ Weitere Informationen erhalten Sie bei den Ansprechpersonen des Familienservice\n  ## Medizinische Notfälle – Erste Hilfe Erste-Hilfe-Plakate, Notfallplan/Notrufnummern in den Gebäuden der HsH\n  ## Meldung von Notfällen Notrufnummern, Notrufmeldung\n  ## Medizinische Notfälle\n  ## Feuer\n  ## Bei VoIP-Telefonen keine Vorwahl der „00“ !\n  ## Medizinische Notfälle – Erste Hilfe\n  ## Kennzeichnung, Standorte – Defibrillatoren, Erste Hilfe Material\n  ## Medizinische Notfälle – Erste Hilfe"
+    },
+    {
+      "nr": 2,
+      "titel": "f1 › studium › studiengaenge und programme › master studiengaenge",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge",
+      "fakultaet": "f1",
+      "struktur": "# Masterstudiengänge\n  ## Wissenschaftlich fundiertes Masterstudium"
+    },
+    {
+      "nr": 3,
+      "titel": "FAQ für Studierende und Studienbewerber*innen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "fakultaet": "",
+      "struktur": "# FAQ für Studierende und Studienbewerberinnen\n  ## Ihre Frage - unsere Antwort\n  ## Fragen vor dem Studium\n  ## Fragen vor der Bewerbung\n  ## Fragen nach der Bewerbung\n  ## Fragen zum Studienstart\n  ## Fragen zum Wechsel des Studiengangs oder der Hochschule\n  ## Fragen zur Unterbrechung des Studiums\n  ## Fragen zum Ende des Studiums\n  ## Allgemeine Fragen"
+    },
+    {
+      "nr": 4,
+      "titel": "Übersicht der angebotenen Studiengänge",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+      "fakultaet": "",
+      "struktur": "# Übersicht der angebotenen Studiengänge\n  ## Wintersemester 2026/27\n    ### Auf einen Blick\n  ## Bachelor's degree programmes\n  ## Bachelorstudiengänge\n  ## Masterstudiengänge\n  ## Bewerbungsportal\n  ## Beratung und Kontakt"
+    },
+    {
+      "nr": 5,
+      "titel": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "url": "https://f1.hs-hannover.de",
+      "fakultaet": "f1",
+      "struktur": "# Studieren an der Fakultät I - Elektro- und Informationstechnik\n# Freie Studienplätze - Bewerben Sie sich jetzt für das Wintersemester 2026/27 (Semesterbeginn: 01.09.2026) über das\n  ## Wir stellen uns vor\n    ### Das Wichtigste in Kürze\n  ## Das zeichnet uns aus ...\n# Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee:\n  ## Die Fakultät I in Zahlen\n  ## Events\n    ### StudiTalk: Was ich vor Studienbeginn gerne gewusst hätte\n    ### Brückenkurs Mathematik und Physik\n    ### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n# Neuigkeiten\n    ###  „Engineering Future“: Liminale Festival geht in die zweite Runde \n    ###  Signal Processing in Toulouse \n    ###  Vom Moor ins Labor: Ministerin Staudte besucht das Projekt I‑RoBi \n    ### Kontakt"
+    },
+    {
+      "nr": 6,
+      "titel": "www › Verkuendungsblatt › 05 2014 › HsH Verkuendungsblatt 05 2014 — Ausgabe 05/2014",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/HsH_Verkuendungsblatt_05_2014.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 05/2014\n  ## Grundordnung der\n  ## Hochschule Hannover\n  ## Präambel\n  ## § 1\n  ## Rechtsstellung, Sitz\n  ## § 2 Ziele und Aufgaben\n  ## § 3\n  ## Organisation der Hochschule\n  ## § 4\n  ## Organe der Hochschulen\n  ## § 5\n  ## Institute\n  ## § 6\n  ## Präsidium\n  ## § 7\n  ## Senat\n  ## § 8\n  ## Hochschulrat\n  ## § 9\n  ## Bildung und Zusammensetzung von\n  ## Kommissionen mit besonderen Aufgaben\n  ## Und weiteren beratenden Gremien\n  ## § 10\n  ## Studienqualitätskommission\n  ## § 11\n  ## Dekanat\n  ## § 12\n  ## Fakultätsrat\n  ## § 13\n  ## Wissenschaftliche Einrichtungen und Kooperationen\n  ## § 14\n  ## Mitglieder und Angehörige\n  ## § 15\n  ## Allgemeine Grundsätze der Mitwirkung\n  ## § 16\n  ## Rechtsstellung der Mitglieder von Gremien\n  ## § 17\n  ## Beschlüsse\n  ## § 18\n  ## Öffentlichkeit\n  ## § 19\n  ## Gleichstellungsbeauftragte\n  ## § 20\n  ## Bestellung von Honorarprofessorinnen und Honorarprofessoren\n  ## § 21\n  ## Ernennung von Ehrensenatorinnen und Ehrensenatoren\n  ## § 22\n  ## Berufung von Professorinnen und Professoren"
+    },
+    {
+      "nr": 7,
+      "titel": "Für Studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+      "fakultaet": "",
+      "struktur": "# Für Studierende\n  ## Veranstaltungsreihe für ein gelingendes Studium an der HsH\n  ## Kompetenzen und Tipps für dein Studium! Online. Freiwillig. Kostenfrei.\n  ## Termine im WS 2026/2027\n  ## FAQ\n    ### Studienberatung für Studierende\n    ### Weitere Beratungsangebote für Studierende mit denen wir zusammenarbeiten\n  ## Themen vertiefen"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998\n  ## Übersicht der Verkündungsblätter seit 1998"
+    }
+  ],
+  "ausgewaehlte_docs": [],
+  "quellen": [],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.61248,
+      "id": "7c1e828d-614e-57ce-ba1b-d44fb9e3e7fe",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > **Konsekutive Masterstudiengänge der Fakultät**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## ▪ Mechatronik (MEC)  \n_7 semestriger Ingenieursstudiengang – 88 Anfängerplätze/Jahr_  \n▪ – Wirtschaftsingenieur Elektrotechnik (EWI) mit drei Vertiefungsrichtungen _7 semestriger Ingenieursstudiengang – 72 Anfängerplätze/Jahr_  \n▪ Technisches Informationsdesign und Technische Redaktion (ITR) _7 s"
+    },
+    {
+      "rang": 2,
+      "score": 1.52899,
+      "id": "875f2f7d-031b-5320-8813-dc5a0fa3a6bb",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge",
+      "title_anzeige": "f1 › studium › studiengaenge und programme › master studiengaenge",
+      "section_heading": "Masterstudiengänge > Wissenschaftlich fundiertes Masterstudium",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "#  Masterstudiengänge  \nKonsekutives wissenschaftliches Studium\n\n## Wissenschaftlich fundiertes Masterstudium\nDie Fakultät I bietet zwei konsekutive, drei-semestrige Masterstudiengänge an. Vorraussetzung ist hierfür der überdurchschnittliche Abschluss in einem siebensemestrigen Bachelorstudiengang d"
+    },
+    {
+      "rang": 3,
+      "score": 1.47937,
+      "id": "900bf6ce-1e9b-5df3-beb1-257cc3e644cf",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "title_anzeige": "FAQ für Studierende und Studienbewerber*innen",
+      "section_heading": "FAQ für Studierende und Studienbewerber*innen > Fragen vor dem Studium > FAQ für Studierende und Studienbewerber*innen",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "* Angewandte Mathematik\n* Elektrotechnik und Informationstechnik\n* Mechatronik\n* Technisches Informationsdesign und Technische Redaktion\n* Wirtschaftsingenieur Elektrotechnik  \n_Bachelor-Studiengänge_\n* Fotojournalismus und Dokumentarfotografie\n* Informationsmanagement\n* Informationsmanagement (beru"
+    },
+    {
+      "rang": 4,
+      "score": 1.47513,
+      "id": "9b142de2-2d52-588e-891b-6e688ca569d3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+      "title_anzeige": "Übersicht der angebotenen Studiengänge",
+      "section_heading": "Übersicht der angebotenen Studiengänge > Masterstudiengänge",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "## Masterstudiengänge\nSortierung:\nAufsteigend\n* [Absteigend](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester)\n* [Aufsteigend](https://www.hs-hannover.de/ueber-uns/organisation/ak"
+    },
+    {
+      "rang": 5,
+      "score": 1.35197,
+      "id": "d2767146-d6d8-5120-9fc7-deacb041e55c",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Freie Studienplätze - Bewerben Sie sich jetzt für das Wintersemester 2026/27 (Semesterbeginn: 01.09.2026) über das > Wir stellen uns vor",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "![](https://f1.hs-hannover.de/fileadmin/_processed_/3/c/csm__RL83898_596b0bd211.jpg?rbiFocus=mobile)\nDie Fakultät I ist eine Organisationseinheit der Hochschule Hannover. Sie wurde zum Sommersemester 2007 aus dem Fachbereich Elektro‐ und Informationstechnik sowie dem Fachgebiet „Technische Redaktion"
+    },
+    {
+      "rang": 6,
+      "score": 1.33941,
+      "id": "e1bbd714-7fac-580b-89d4-c42468a4cd57",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/HsH_Verkuendungsblatt_05_2014.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2014 › HsH Verkuendungsblatt 05 2014 — Ausgabe 05/2014",
+      "section_heading": "**Ausgabe 05/2014**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "||Masterstudiengang „Mittelständische Unternehmensführung MBA in||\n||Entrepreneurship“ der Fakultät IV – Wirtschaft und Informatik der||\n||Hochschule Hannover||\n|5.|Besonderer Teil der Prüfungsordnung  für den konsekutiven Master-|27|\n||Studiengang Fernsehjournalismus (MTV) mit dem Abschluss Master|"
+    },
+    {
+      "rang": 7,
+      "score": 1.28323,
+      "id": "8436c1e5-521f-5fc4-a468-6a910fd41af6",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studierende",
+      "title_anzeige": "Für Studierende",
+      "section_heading": "Für Studierende > FAQ",
+      "chunk_index": 19,
+      "text_vollstaendig": true,
+      "auszug": "Fakultät V (Studiengänge: Soziale Arbeit und Religionspädagogik und Soziale Arbeit).\nFür weitere Fragen kontaktiere bitte die jeweilige Fakultät.\nauf ein Teilzeitstudium.\n[ Wie kann ich meinen Master machen? ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/"
+    },
+    {
+      "rang": 8,
+      "score": 1.2532,
+      "id": "9d48b391-b698-5c00-a86a-3405ce67ed79",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 43,
+      "text_vollstaendig": false,
+      "auszug": "|||||\nder Hochschule  Hannover||\n|2021|4|15.07.2021|IV|Ordnung über die Zulassung und den Zugang zum Studium im Bachelor-Studiengang „Verwaltungsinformatik (VIF)“an der Fakultät IV–Wirtschaft und Informatik der Hochschule Hannover|IV|\n|2021|3|15.06.2021|III|Ordnung über den Zugang und die Zulassung "
+    },
+    {
+      "rang": 9,
+      "score": 1.18457,
+      "id": "3c9c0052-7db9-52d6-98fe-4b292d1e328a",
+      "source_url": "https://f1.hs-hannover.de/studium/elektrotechnik-und-informationstechnik-dual",
+      "title_anzeige": "Dual Studieren in der Elektro- und Informationstechnik",
+      "section_heading": "Dual Studieren in der Elektro- und Informationstechnik > Bachelor Studiengänge der Fakultät I im dualen Studienkonzept",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "##  Bachelor Studiengänge der Fakultät I im dualen Studienkonzept\nDie Fakultät I Elektro- und Informationstechnik der Hochschule Hannover bietet in Kooperation mit verschiedenen Firmen und Berufsschulen seit vielen Jahren ein erfolgreiches duales Studienkonzept an. Das Studienmodell im Praxisverbund"
+    },
+    {
+      "rang": 10,
+      "score": 1.17999,
+      "id": "8606d3ed-291e-5668-a606-816ef6af0b4e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "— 2 Kurzdarstellung der Hochschule",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## — 2 Kurzdarstellung der Hochschule  \nAls regional verankerte und international ausgerichtete Hochschule bietet die Hochschule Hannover (HsH) eine breit gefächerte Auswahl anwendungsorientierter Fachqualifikationen aus den Bereichen Informatik und Ingenieurwesen, Design und Medien sowie Wirtschaft"
+    },
+    {
+      "rang": 11,
+      "score": 1.15288,
+      "id": "d9b9a9c1-14d3-519d-8ea7-5ec9fdfb641d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "Elektro- und Informationstechnik",
+      "chunk_index": 32,
+      "text_vollstaendig": false,
+      "auszug": "## Elektro- und Informationstechnik  \nDie Fakultät I wurde zum Sommersemester 2007 aus dem Fachbereich Elektro- und Informationstechnik sowie dem Fachgebiet „Technische Redaktion“ der Hochschule Hannover gebildet.  \nDie Fakultät repräsentiert mit ihren 12 Fachgebieten wichtige Schlüsseltechnologien "
+    },
+    {
+      "rang": 12,
+      "score": 1.14148,
+      "id": "9ddcc249-8e75-56d7-8a86-4585c3d93a7b",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee: > Die Fakultät I in Zahlen",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## Die Fakultät I in Zahlen\nStudierende\nStudienplätze\nStudiengänge\nProfessorinnen und Professoren\nLehrbeauftragte\nMitarbeiterinnen und Mitarbeiter\n[ ![Bachelor-Studiengänge](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/30_Grafiken/10_Kacheln_f_Seitenwahl/b_std.jpg?rbiFocus=mobile) ](https://f"
+    },
+    {
+      "rang": 13,
+      "score": 1.13095,
+      "id": "f2242d21-d8af-50e3-84e0-60b0463b28bc",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester",
+      "title_anzeige": "Übersicht der angebotenen Studiengänge",
+      "section_heading": "Übersicht der angebotenen Studiengänge > Bachelorstudiengänge",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "##  Bachelorstudiengänge\nSortierung:\nAufsteigend\n* [Absteigend](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung/uebersicht-der-angebotenen-studiengaenge-erstes-fachsemester)\n* [Aufsteigend](https://www.hs-hannover.de/ueber-uns/organisation"
+    },
+    {
+      "rang": 14,
+      "score": 1.07528,
+      "id": "1f6a903b-89c5-5d99-b273-50eb7014cb9c",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/25-09-10_Studienhandbuch_2025_AbtlgInf_StudyGuide_CSDept_080925.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 25 09 10 Studienhandbuch 2025 AbtlgInf StudyGuide CSDept 080925",
+      "section_heading": "**2. Angaben zum Studium** > **2.1 Fakultäts- und Abteilungsstruktur**",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "## **2. Angaben zum Studium**\n## **2.1 Fakultäts- und Abteilungsstruktur**  \nDie Fakultät IV der Hochschule Hannover umfasst die Abteilung Betriebswirtschaft (BWL), die Abteilung Informatik (I) und die Abteilung Wirtschaftsinformatik (WI). Speziell die Abteilung Informatik bietet drei Studiengänge m"
+    },
+    {
+      "rang": 15,
+      "score": 1.00779,
+      "id": "ee313fc3-1d58-5739-a972-34f8273f18af",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2014/05-2014/05_Besonderer_Teil_der_Pruefungsordnung_MTV.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2014 › 05 Besonderer Teil der Pruefungsordnung MTV — mit dem Abschluss Master of Arts (M.A.)",
+      "section_heading": "**Besonderer Teil** > **der Prüfungsordnung  für den konsekutiven Master-Studiengang** > **Fernsehjournalismus (MTV)** > **mit dem Abschluss Master of Arts (M.A.)**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil**\n\n# **der Prüfungsordnung  für den konsekutiven Master-Studiengang**  \n## **Fernsehjournalismus (MTV)**\n\n# **mit dem Abschluss Master of Arts (M.A.)**  \n**der Fakultät III – Medien, Information und Design der Hochschule Hannover**"
+    },
+    {
+      "rang": 16,
+      "score": 0.98419,
+      "id": "8bada32e-3f44-5b98-94fa-a1af40238cd9",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "title_anzeige": "Mechatronik (MEC)",
+      "section_heading": "Schnittstelle zwischen den Disziplinen > Optionen > Und so könnte es für Sie als Absolventin oder Absolvent des Bachelor-Studiengangs Mechatronik weitergehen: > Schnittstelle zwischen den Disziplinen",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "### Und so könnte es für Sie als Absolventin oder Absolvent des Bachelor-Studiengangs Mechatronik weitergehen:\n\n##\n[ Fortsetzung des Studiums an der Fakultät I - Elektro- und Informationstechnik ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec \"F"
+    },
+    {
+      "rang": 17,
+      "score": 0.96928,
+      "id": "499468c0-7a28-53e4-bf58-990ea4415dcd",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2012.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2012 — Jahresabschluss zum 31. Dezember 2012 und Lagebericht",
+      "section_heading": "2.1 Studienangebot und Studiennachfrage",
+      "chunk_index": 61,
+      "text_vollstaendig": true,
+      "auszug": "## 2.1 Studienangebot und Studiennachfrage  \nIn 2011/12 hat die Hochschule im Rahmen der Studienangebotszielvereinbarung für das Studienjahr 2012 insgesamt vier neue Studiengänge, die durch Umstrukturierungen bestehender Studiengänge entstanden, eingerichtet: „Fotojournalismus und Dokumentarfotograf"
+    },
+    {
+      "rang": 18,
+      "score": 0.95081,
+      "id": "7d5f9184-5cdf-5417-8f8b-296a0e401eec",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/04-2026/hsh_verkuendungsblatt_nr_04_2026.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2026 › hsh verkuendungsblatt nr 04 2026 — Ausgabe 04/2026",
+      "section_heading": "**Inhalt:**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "|7.|Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang|57|\n||Wirtschaftsinformatik (BIS) mit dem Abschluss Bachelor of Science an der||\n||Fakultät IV – Wirtschaft und Informatik, der Hochschule Hannover (BIS PO 2018)||\n|8.|Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengan"
+    },
+    {
+      "rang": 19,
+      "score": 0.90078,
+      "id": "b0e42c00-4f12-5a95-a125-433a52969c79",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/10-2025/hsh_verkuendungsblatt_nr_10_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblaetter › 10 2025 › hsh verkuendungsblatt nr 10 2025 — Ausgabe 10/2025",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den konsekutiven MasterStudiengang Future Food Systems – Lebensmitteltechnologie und Verpackungstechnologie (MLV)** > **Arten der Prüfungsleistungen:**",
+      "chunk_index": 201,
+      "text_vollstaendig": false,
+      "auszug": "Nr. 10/2025 vom 25.07.2025                               Verkündungsblatt der Hochschule Hannover                                                                            Seite 54 von 59  \n**Ordnung über den Zugang und die Zulassung für den konsekutiven MasterStudiengang Future Food Systems – Lebe"
+    },
+    {
+      "rang": 20,
+      "score": 0.88229,
+      "id": "41a92848-568f-53d1-8c7f-e25f8a845098",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/03-2017/04_PO-MDM_Anlage_B1_B2_20161221.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 03 2017 › 04 PO MDM Anlage B1 B2 20161221",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den konsekutiven MasterStudiengang Design und Medien (MDM)** > **mit dem Abschluss Master of Arts (M.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den konsekutiven MasterStudiengang Design und Medien (MDM)**\n\n# **mit dem Abschluss Master of Arts (M.A.) in der Fakultät III – Medien, Information und Design, Abteilung Design und Medien, der Hochschule Hannover**  \n## **§ 1**"
+    },
+    {
+      "rang": 21,
+      "score": 0.87308,
+      "id": "82c86ff7-eee4-5508-8af4-06c9124f2121",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs",
+      "title_anzeige": "www › servicezentrum beratung › studienberatung › faqs",
+      "section_heading": "[Fakultät V - Diakonie, Gesundheit und Soziales](https://f5.hs-hannover.de/)",
+      "chunk_index": 28,
+      "text_vollstaendig": true,
+      "auszug": "[ Wie kann ich meinen Master machen? ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/faqs \"Wie kann ich meinen Master machen?\")\nDie HsH bietet eine Vielzahl von Master-Studiengängen an. Dabei ist zwischen den konsekutiven Masterstudiengängen (den auf den B"
+    },
+    {
+      "rang": 22,
+      "score": 0.87111,
+      "id": "2588726e-79f1-54bc-953c-fd4c8d280482",
+      "source_url": "https://f3.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät III",
+      "section_heading": "Studium an der Fakultät III > [Master-Studiengänge](https://f3.hs-hannover.de/studium/master-studiengaenge)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### [Master-Studiengänge](https://f3.hs-hannover.de/studium/master-studiengaenge)\nEs gibt an unserer Fakultät 4 Masterstudiengänge in den Bereichen 'Design und Medien' und 'Information und Kommunikation'.\n[ Weiterlesen ](https://f3.hs-hannover.de/studium/master-studiengaenge)"
+    },
+    {
+      "rang": 23,
+      "score": 0.86806,
+      "id": "9319c20a-6eb7-512f-bfa7-c76ce715ea34",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 141,
+      "text_vollstaendig": false,
+      "auszug": "dem Abschluss Bachelor of Engineering an der Fakultät I–Elektro-und Informationstechnik der Hochschule Hannover|I|\n|2012|3|03.04.2012|I|1. Änderung des Besonderen Teils der Prüfungsordnung für den Studiengang Elektrotechnik und Informationstechnik mit dem Abschluss Bachelor of Engineering an der Fak"
+    },
+    {
+      "rang": 24,
+      "score": 0.8626,
+      "id": "32bf715b-1274-5d79-a6ea-914897905a7b",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-Studien-Modulhandbuch-MDT-26-07-16.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 Studien Modulhandbuch MDT 26 07 16",
+      "section_heading": "1.1 Fakultäts- und Abteilungsstruktur",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover ist in drei Abteilungen organisiert: Betriebswirtschaft (BWL), Informatik (I) und Wirtschaftsinformatik (WI). Insgesamt studieren zurzeit ca. 2110 Studierende (davon 950 in der Abt. Betrieb"
+    },
+    {
+      "rang": 25,
+      "score": 0.86022,
+      "id": "80f79fea-1911-5814-a052-a6507ea2a6b4",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch BIS PO 2018 25 10 07",
+      "section_heading": "1.1 Fakultäts- und Abteilungsstruktur",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover ist in drei Abteilungen organisiert: Betriebswirtschaft (BWL), Informatik (I) und Wirtschaftsinformatik (WI). Insgesamt studieren zurzeit ca. 2110 Studierende (davon 950 in der Abt. Betrieb"
+    },
+    {
+      "rang": 26,
+      "score": 0.85659,
+      "id": "66a3f53f-d9f3-5964-9669-b470d70b34fa",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Forschung/KeGL/Modulbeschreibungen_und_Lehrmaterialien/Lehr-_und_Lernmaterialien_Modul_1_Einfuehrung.pdf",
+      "title_anzeige": "f5 › KeGL › Modulbeschreibungen und Lehrmaterialien › Lehr und Lernmaterialien Modul 1 Einfuehrung",
+      "section_heading": "**Masterstudiengänge:**",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "## **Masterstudiengänge:**  \n- Social Work  \n- Bildungswissenschaften und Management für Pflege‐ und Gesundheitsberufe  \n- Therapeutische Arbeit mit Kindern und Jugendlichen  \n> Teilvorhaben der Hochschule Hannover, Projektleitung: Prof. Dr. Michael Wittland **6**"
+    },
+    {
+      "rang": 27,
+      "score": 0.85306,
+      "id": "c37fc443-d588-5774-921a-5bd73b798a5b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/01-2021/HsH_Verkuendungsblatt_01_2021.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2021 › HsH Verkuendungsblatt 01 2021 — Ausgabe 01/2021",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang** > **„Design und Medien (MDM)“** > **an der Fakultät III – Medien, Information und Design der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "# **Ordnung über den Zugang und die Zulassung für den konsekutiven Master-Studiengang**\n\n# **„Design und Medien (MDM)“**\n\n# **an der Fakultät III – Medien, Information und Design der Hochschule Hannover**  \n## **§ 1**"
+    },
+    {
+      "rang": 28,
+      "score": 0.84383,
+      "id": "94e67c12-4893-5c3a-bb7e-90cba6f78464",
+      "source_url": "https://f4.hs-hannover.de/studium/bachelor-studiengaenge",
+      "title_anzeige": "f4 › studium › bachelor studiengaenge — Bachelor-Studiengänge der Fakultät IV",
+      "section_heading": "Bachelor-Studiengänge der Fakultät IV",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "##  Bachelor-Studiengänge der Fakultät IV\n[ International Business Studies (IBS) ](https://f4.hs-hannover.de/studium/bachelor-studiengaenge/international-business-studies-ibs)\n[ Betriebswirtschaftslehre (BBA) ](https://f4.hs-hannover.de/studium/bachelor-studiengaenge/betriebswirtschaftslehre-bba)\n[ "
+    },
+    {
+      "rang": 29,
+      "score": 0.84178,
+      "id": "8a9c3e6c-66b8-5f2a-bc3d-2502c669a776",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BJO_Journalistik_Studiengangsflyer_A5_202303.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Studiengangsflyer › BJO Journalistik Studiengangsflyer A5 202303 — Worum geht es?",
+      "section_heading": "Studienberatung",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## Studienberatung  \nDie Studienberatung der Hochschule Hannover berät alle Studierenden und Studieninteressierten. Sie informiert über Studienangebote, Studieninhalte sowie über Aufbau und Struktur eines Studiums. Darüber hinaus erfolgt die Beratung zu allen Fragen und Problemen, die in engerem ode"
+    },
+    {
+      "rang": 30,
+      "score": 0.82491,
+      "id": "091605d8-6b59-54b4-a44c-4e4e9383920a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/05_Besonderer_Teil_der_Pruefungsordnung_fuer_MDM.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2010 › 05 Besonderer Teil der Pruefungsordnung fuer MDM",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den konsekutiven Master-Studiengang ,,Design und Medien“ (MDM) an der Fakultät III – Medien, Information und Design, Abteilung Design und Medien der Fachhochschule Hannover** > **§1**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Verkündungsblatt der FHH  \nNr.6/2010 vom 5.10.2010\n\n# **Besonderer Teil der Prüfungsordnung für den konsekutiven Master-Studiengang ,,Design und Medien“ (MDM) an der Fakultät III – Medien, Information und Design, Abteilung Design und Medien der Fachhochschule Hannover**  \n## **§1**"
+    }
+  ],
+  "token_budget": {
+    "verwendet": 0,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 8.78,
+    "kandidaten_s": 0.02,
+    "gesamt_s": 8.8
+  },
+  "auswahl_begruendung": ""
+}

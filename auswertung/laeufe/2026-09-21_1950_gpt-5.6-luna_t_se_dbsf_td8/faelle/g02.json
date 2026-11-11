@@ -1,0 +1,526 @@
+{
+  "fall": {
+    "id": "g02",
+    "case_type": "direct",
+    "question": "In welchem Raum sitzt die Sachbearbeiterin des Praktikumsamts?",
+    "reference_answer": "In Raum 3C.0.02 in der Blumhardtstr. 2.",
+    "source_url": "https://f5.hs-hannover.de/studium/praktikumsamt",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "**Raum:** 3C.0.02"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ studiengang/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "06f48aa5-5c18-5da3-908b-648c4ccd662c",
+      "6790029e-13c9-5660-bef3-f347dc0d793a",
+      "d9c05f7c-ca1d-5ae5-8deb-d225bf9f44ae",
+      "566a7de8-d847-5844-bef3-cd430a6cae21",
+      "5751383e-9396-54dc-bced-65ae7dc2f246"
+    ],
+    "beleg_punkte": [
+      "5751383e-9396-54dc-bced-65ae7dc2f246"
+    ],
+    "beleg_urls": [
+      "https://f5.hs-hannover.de/studium/praktikumsamt"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:55:05",
+  "dauer_s": 6.81,
+  "fehler": null,
+  "antwort": "Die Sachbearbeiterin des Praktikumsamts sitzt in „Raum: 3C.0.02\" [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Religionspädagogik und Soziale Arbeit (BRS)",
+      "url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs",
+      "fakultaet": "f5",
+      "struktur": "# Religionspädagogik und Soziale Arbeit (BRS)\n    ### Wann geht es los?\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Zielgruppe des Studiengangs\n  ## Youtube-Kanal der Fakultät V\n    ### Externer Inhalt\n  ## Diakonin / Gemeindepädagogin werden\n    ### Externer Inhalt\n  ## Termine und aktuelle Informationen\n  ## Informationen für Studieninteressierte & Studierende\n    ### Beratungsangebote für Studierende & Studieninteressierte \n    ### Bewerbung\n    ### Erstsemesterinformation\n    ### Zulassungsordnung/Prüfungsordnung\n    ### Semesterbeitrag & Rückmeldung\n    ### Wege ins Ausland\n    ### Ästhetische Werkstätten & Soziale Kulturarbeit\n    ### Lehr- und Lernwerkstatt\n    ### Alumni-Netzwerk Soziale Arbeit\n  ## Studienverlauf & -inhalt\n  ## Praxisbezug und Praktika\n  ## Radioandachten von Studierenden\n    ### Praktikum (M 11 (PO 2020/21) / M 23 (PO 2026))\n    ### Integriertes Berufsanerkennungsjahr (IBA)\n  ## Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & IBA)\n    ### Beauftragter für Praktika & Praxiskontakte\n    ### Beauftragter für Praktika & Praxiskontakte\n    ### Sachbearbeitung Praktikumsamt\n  ## Hauptamtlich Lehrende der Abteilung Religionspädagogik und Diakonie\n  ## Ansprechpersonen Studiengang\n  ## Bewerbung & Immatrikulation\n    ### Studiendekanin\n    ### Sekretariat\n    ### Fachstudienberatung intern (eingeschriebene Studierende)\n    ### Fachstudienberatung extern (Studieninteressierte und Gasthörende)\n    ### Studiendekanatsassistenz\n    ### Prüfungsamt\n  ## Beratung durch Mitarbeitende der Evangelisch-lutherischen Landeskirche Hannovers für den Studiengang\n  ## Weitere Informationen\n  ## Anfahrt zum Campus Kleefeld"
+    },
+    {
+      "nr": 2,
+      "titel": "f5 › studium › praktikumsamt",
+      "url": "https://f5.hs-hannover.de/studium/praktikumsamt",
+      "fakultaet": "f5",
+      "struktur": "# Praktikumsamt\n  ## Inhalt\n  ## Mitarbeiter:innen im Praktikumsamt\n    ### Beauftragter für Praktika und Praxiskontakte\n    ### Beauftragter für Praktika und Praxiskontakte\n    ### Sachbearbeiterin"
+    },
+    {
+      "nr": 3,
+      "titel": "Abteilung Religionspädagogik und Soziale Arbeit",
+      "url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs-1",
+      "fakultaet": "f5",
+      "struktur": "# Abteilung Religionspädagogik und Soziale Arbeit\n    ### Wann geht es los?\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Zielgruppe des Studiengangs\n  ## Diakonin / Gemeindepädagogin werden\n    ### Externer Inhalt\n  ## Termine und aktuelle Informationen\n  ## Informationen Studieninteressierte & Studierende\n    ### Beratungsangebote für Studierende & Studieninteressierte \n    ### Ästhetische Werkstätten & Soziale Kulturarbeit\n    ### Lehr- und Lernwerkstatt\n    ### Bewerbung\n    ### Alumni-Netzwerk Soziale Arbeit\n    ### Semesterbeiträge\n    ### Erstsemesterinformation\n    ### Zulassungsordnung/Prüfungsordnung\n    ### Wege ins Ausland\n  ## Studienverlauf & -inhalt\n  ## Praxisbezug und Praktika\n    ### Praktikum (Modul 11)\n    ### Integriertes Berufsanerkennungsjahr (IBA)\n  ## Ansprechpersonen Praktikumsamt (Modul 11 & IBA)\n    ### Beauftragter für Praktika & Praxiskontakte\n    ### Beauftragter für Praktika & Praxiskontakte\n    ### Sachbearbeitung Praktikumsamt\n  ## Hauptamtlich Lehrende der Abteilung Religionspädagogik und Diakonie\n  ## Ansprechpersonen Studiengang\n    ### Bewerbung & Immatrikulation\n    ### Studiendekanin\n    ### Fachstudienberatung\n    ### Sekretariat\n    ### Studiendekanatsassistenz\n    ### Prüfungsamt\n  ## Weitere Informationen\n  ## Anfahrt zum Campus Kleefeld"
+    },
+    {
+      "nr": 4,
+      "titel": "Informationen zum Berufsanerkennungsjahr (BAJ)",
+      "url": "https://f5.hs-hannover.de/studium/praktikumsamt/soziale-arbeit-und-soziale-arbeit-berufsbegleitend/informationen-zum-berufsanerkennungsjahr-baj",
+      "fakultaet": "f5",
+      "struktur": "# Informationen zum Berufsanerkennungsjahr (BAJ)\n  ## Berufsanerkennungsjahr (BAJ)\n    ### Formulare\n    ### Rechtsgrundlagen\n    ### Studientagsprogramm (PDF)\n    ### Infomaterial\n  ## Mitarbeiter:innen im Praktikumsamt\n    ### Beauftragter für Praktika und Praxiskontakte\n    ### Beauftragter für Praktika und Praxiskontakte\n    ### Sachbearbeiterin"
+    },
+    {
+      "nr": 5,
+      "titel": "f5 › ueber uns › personen › fakultaetsmitarbeitende — Fakultätsmitarbeitende",
+      "url": "https://f5.hs-hannover.de/ueber-uns/personen/fakultaetsmitarbeitende",
+      "fakultaet": "f5",
+      "struktur": "# Fakultätsmitarbeitende\n    ### im Überblick\n  ## Dekanatsassistenz\n    ### Ines Köhler (aktuell abwesend)\n    ### Tobias Sprenger\n  ## Dekanatsbüro\n  ## Fakultätsreferentin\n  ## Abteilungssekretariat\n    ### Soziale Arbeit\n    ### Heilpädagogik, Pflege und Gesundheit, Religionspädagogik und Diakonie\n  ## Allgemeine Anfragen\n  ## Studiengangskoordination\n  ## Prüfungsamt\n  ## Sprechzeiten (telefonisch & vor Ort)\n  ## Sprechzeiten (telefonisch & vor Ort)\n  ## Praktikumsamt\n  ## Poststelle\n  ## technische Unterstützung\n  ## International Faculty Office\n  ## Institut für angewandte Gesundheits-, Bildungs- und Sozialforschung (GBS)\n    ### Koordination\n    ### Sekretariat"
+    },
+    {
+      "nr": 6,
+      "titel": "Soziale Arbeit - grundständig (BSW)",
+      "url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw",
+      "fakultaet": "f5",
+      "struktur": "# Soziale Arbeit - grundständig (BSW)\n    ### Wann geht es los?\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Gute Gründe für ein Studium an der Hochschule Hannover\n  ## Termine und aktuelle Informationen\n  ## Informationen für Studieninteressierte & Studierende\n    ### Beratungsangebote für Studierende & Studieninteressierte \n    ### Bewerbung\n    ### Erstsemesterinformation\n    ### Semesterbeitrag & Rückmeldung\n    ### Zulassungsordnung / Prüfungsordnung\n    ### Alumni-Netzwerk Soziale Arbeit\n  ## Teilzeitstudium\n  ## Studienverlauf & -inhalt\n    ### Profilstudium Soziale Kulturarbeit & Gemeinwesenarbeit\n    ### Ästhetische Werkstätten und Soziale Kulturarbeit \n    ### Lehr- und Lernwerkstatt\n    ### Wege ins Ausland\n  ## Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & BAJ)\n    ### Beauftragter für Praktika & Praxiskontakte\n    ### Beauftragter für Praktika & Praxiskontakte\n    ### Sachbearbeitung Praktikumsamt\n    ### Praktikum (M 11 (PO 2020/21) / M 23 (PO 2026))\n    ### Berufsanerkennungsjahr (BAJ)\n  ## Ansprechpersonen Studieninhalte\n  ## Bewerbung & Immatrikulation\n    ### Studiendekanin & Fachstudienberatung\n    ### Sekretariat\n    ### Studiendekanatsassistenz\n    ### Prüfungsamt\n    ### Studentische Studienberatung der Sozialen Arbeit - Beratung von Studierenden für Studierende\n  ## Weitere Informationen\n  ## Anfahrt"
+    },
+    {
+      "nr": 7,
+      "titel": "f5 › Alumni Netzwerk Soziale Arbeit › Alumni Newsletter › Alumni Newsletter Nr. 7 final — _Liebe Leserinnen,_",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._7_final.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Alumni-Newsletter\n  ## Informationen aus der Abteilung Soziale Arbeit\n  ## Ausgabe 7 | Januar 2024\n  ## Editorial\n  ## Liebe Leserinnen,\n  ## Interview mit Maike Wagenaar\n  ## Alumni-Newsletter\n  ## Informationen aus der Abteilung Soziale Arbeit\n  ## Ausgabe 7 | Januar 2024\n  ## Interview mit Maren Beuse\n  ## Alumni-Newsletter\n  ## Informationen aus der Abteilung Soziale Arbeit\n  ## Praxis trifft Wissenschaft\n  ## Alumni-Newsletter\n  ## Informationen aus der Abteilung Soziale Arbeit\n  ## Ausgabe 7 | Januar 2024\n  ## Bildungs- und Erinnerungsräume in Berlin erfahren\n  ## Positionspapier gegen Rechtsextremismus\n  ## Antje Schürmann\n  ## Öffentliche Online-\n  ## Ringvorlesung: “Was ist gutes Sterben?”\n  ## Veranstaltungshinweise\n  ## Haftungsbeschränkung:\n  ## IMPRESSUM"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 10 2013 › 02 Berufspraktikumsordnung Soziale Arbeit 2013",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/02_Berufspraktikumsordnung_Soziale_Arbeit_-_2013.pdf",
+      "fakultaet": "",
+      "struktur": "  ## § 1\n  ## Ziel des Berufspraktikums\n  ## § 2\n  ## Beginn und Dauer\n  ## § 3\n  ## Teilzeit\n  ## § 4\n  ## Auslandspraktikum\n  ## § 5\n  ## Anrechnung von Berufstätigkeit\n  ## § 6\n  ## Ausbildungsstellen und Praxisanleitung\n  ## § 7\n  ## Ausbildungsvertrag und Ausbildungsplan\n  ## § 8\n  ## Begleitende Lehrveranstaltungen (Studientage)\n  ## § 9\n  ## Organisatorische Strukturen des Studientages\n  ## § 10\n  ## Aufgabe der Studientagsdozenten/-dozentinnen\n  ## § 11\n  ## Auswärtige Berufspraktikantinnen und Berufspraktikanten\n  ## § 12\n  ## Praktikumsbeurteilungen\n  ## § 13\n  ## Praxisbericht\n  ## § 14\n  ## Zulassung zum Kolloquium\n  ## § 15\n  ## Kolloquium\n  ## § 16\n  ## Praktikumsausschuss\n  ## § 17\n  ## Aufgaben der/des Praktikumsbeauftragten und des Praktikumsamtes\n  ## § 18\n  ## Persönlicher Geltungsbereich\n  ## § 19\n  ## Inkrafttreten"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 2,
+      "titel": "f5 › studium › praktikumsamt",
+      "url": "https://f5.hs-hannover.de/studium/praktikumsamt"
+    },
+    {
+      "nr": 4,
+      "titel": "Informationen zum Berufsanerkennungsjahr (BAJ)",
+      "url": "https://f5.hs-hannover.de/studium/praktikumsamt/soziale-arbeit-und-soziale-arbeit-berufsbegleitend/informationen-zum-berufsanerkennungsjahr-baj"
+    },
+    {
+      "nr": 6,
+      "titel": "Soziale Arbeit - grundständig (BSW)",
+      "url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw"
+    },
+    {
+      "nr": 1,
+      "titel": "Religionspädagogik und Soziale Arbeit (BRS)",
+      "url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f5 › studium › praktikumsamt",
+      "url": "https://f5.hs-hannover.de/studium/praktikumsamt",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Praktikumsamt > Mitarbeiter:innen im Praktikumsamt > Sachbearbeiterin",
+      "snippets": [
+        "**Richard Kaiser**\nAnsprechperson Praktikum M 11 und M5 sowie praktische Studienzeit (BAH/HBI)\n**Sprechzeiten:** nach Vereinbarung per E-Mail\n**Raum:** 3C.0.01\nBlumhardtstr. 2\n30625 Hannover\n[ F5-praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/praktikumsamt \"An F5-praktikumsamt@hs-hannover.de eine E-Mail schreiben\")\n\n### Sachbearbeiterin\n**Sandra-Kathrin Bauer**\nSprechzeiten (telefonisch):\nDi.,Do.: 09:00 - 13:00 Uhr\n**Raum:** 3C.0.02\nBlumhardtstr. 2\n30625 Hannover\n[ +49 511 9296 3176 ](tel:+49%20511%209296%203176 \"+49 511 9296 3176 anrufen\")\n[ F5-Praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/praktikumsamt \"An F5-Praktikumsamt@hs-hannover.de eine E-Mail schreiben\")",
+        "## Mitarbeiter:innen im Praktikumsamt  \n### Beauftragter für Praktika und Praxiskontakte\n**Jasper Kurz**\nAnsprechperson Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\nBeauftragter für Praktika und Praxiskontakte\n**Sprechzeiten (Mittwoch/Donnerstag):** nach Vereinbarung über Buchungsportal\n[_**Buchen Sie einen Termin bei mir**_](https://outlook.office.com/bookwithme/user/975ee4c80bc2475ab751f9f20a14a247@hs-hannover.de?anonymous&ismsaljsauthenabled&ep=pcard) (Büro, Teams, Telefon)\n**Raum:** 3C.0.01\nCampus Kleefeld\n[ F5-Praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/praktikumsamt \"An F5-Praktikumsamt@hs-hannover.de eine E-Mail schreiben\")  \n### Beauftragter für Praktika und Praxiskontakte\n**Richard Kaiser**\nAnsprechperson Praktikum M 11 und M5 sowie praktische Studienzeit (BAH/HBI)\n**Sprechzeiten:** nach Vereinbarung per E-Mail\n**Raum:** 3C.0.01\nBlumhardtstr. 2\n30625 Hannover"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Informationen zum Berufsanerkennungsjahr (BAJ)",
+      "url": "https://f5.hs-hannover.de/studium/praktikumsamt/soziale-arbeit-und-soziale-arbeit-berufsbegleitend/informationen-zum-berufsanerkennungsjahr-baj",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Informationen zum Berufsanerkennungsjahr (BAJ) > Mitarbeiter:innen im Praktikumsamt > Sachbearbeiterin",
+      "snippets": [
+        "### Sachbearbeiterin\n**Sandra-Kathrin Bauer**\nSprechzeiten (telefonisch):\nDi.,Do.: 09:00 - 13:00 Uhr\n**Raum:** 3C.0.02\nBlumhardtstr. 2\n30625 Hannover\n[ +49 511 9296 3176 ](tel:+49%20511%209296%203176 \"+49 511 9296 3176 anrufen\")\n[ F5-Praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/praktikumsamt/soziale-arbeit-und-soziale-arbeit-berufsbegleitend/informationen-zum-berufsanerkennungsjahr-baj \"An F5-Praktikumsamt@hs-hannover.de eine E-Mail schreiben\")",
+        "## Mitarbeiter:innen im Praktikumsamt  \n### Beauftragter für Praktika und Praxiskontakte\n**Jasper Kurz**\nAnsprechperson Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\nBeauftragter für Praktika und Praxiskontakte\n**Sprechzeiten (Mittwoch/Donnerstag):** nach Vereinbarung über Buchungsportal\n[_**Buchen Sie einen Termin bei mir**_](https://outlook.office.com/bookwithme/user/975ee4c80bc2475ab751f9f20a14a247@hs-hannover.de?anonymous&ismsaljsauthenabled&ep=pcard) (Büro, Teams, Telefon)\n**Raum:** 3C.0.01\nCampus Kleefeld\n[ F5-Praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/praktikumsamt/soziale-arbeit-und-soziale-arbeit-berufsbegleitend/informationen-zum-berufsanerkennungsjahr-baj \"An F5-Praktikumsamt@hs-hannover.de eine E-Mail schreiben\")  \n### Beauftragter für Praktika und Praxiskontakte\n**Richard Kaiser**\nAnsprechperson Praktikum M 11 und M5 sowie praktische Studienzeit (BAH/HBI)\n**Sprechzeiten:** nach Vereinbarung per E-Mail\n**Raum:** 3C.0.01"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Soziale Arbeit - grundständig (BSW)",
+      "url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Kurzübersicht > Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & BAJ) > Sachbearbeitung Praktikumsamt",
+      "snippets": [
+        "### Sachbearbeitung Praktikumsamt\n**Sandra-Kathrin Bauer**\n**Sprechzeiten:** Di. und Do. 09:00–13:00 Uhr\n**Raum:** 3C.0.02\n[Webseite des Praktikumsamts](https://f5.hs-hannover.de/studium/praktikumsamt)\n[ +49 511 9296 8178 ](tel:+49%20511%209296%208178 \"+49 511 9296 8178 anrufen\")\n[ f5-praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw \"An f5-praktikumsamt@hs-hannover.de eine E-Mail schreiben\")\n[ Teilen ](https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw \"Teilen\")\n[ ![](https://f5.hs-hannover.de/fileadmin/_processed_/8/b/csm_Imagebilder_HsH_-44_2a2e0df414.jpg) ](https://f5.hs-hannover.de/studium/praktikumsamt/soziale-arbeit-und-soziale-arbeit-berufsbegleitend/informationen-zum-blockpraktikum-modul11)",
+        "## Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & BAJ)  \n### Beauftragter für Praktika & Praxiskontakte\n**Richard Kaiser**\nAnsprechperson Praktikum M 11 (PO 2020/21) / M 23 (PO 2026) und Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\n**Sprechzeiten:** nur nach Vereinbarung per E-Mail\n**Raum:** 3C.0.01\n[Webseite des Praktikumsamts](https://f5.hs-hannover.de/studium/praktikumsamt)\n[ +49 511 9296 7885 ](tel:+49%20511%209296%207885 \"+49 511 9296 7885 anrufen\")\n[ f5-praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw \"An f5-praktikumsamt@hs-hannover.de eine E-Mail schreiben\")  \n### Beauftragter für Praktika & Praxiskontakte\n**Jasper Kurz**\nAnsprechperson: Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\n**Sprechzeiten:** Dienstag - Donnerstag: nach Vereinbarung\n**Raum:** 3C.0.01\nBlumhardtstr. 2\n30625 Hannover"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Religionspädagogik und Soziale Arbeit (BRS)",
+      "url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Kurzübersicht > Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & IBA) > Sachbearbeitung Praktikumsamt",
+      "snippets": [
+        "###  Sachbearbeitung Praktikumsamt\n**Sandra-Kathrin Bauer**\n**Sprechzeiten:** Di., und Do. 09:00–13:00 Uhr\nRaum: 3C.0.02\n[Webseite des Praktikumsamts](https://f5.hs-hannover.de/studium/praktikumsamt)\n[ +49 511 9296 8178 ](tel:+49%20511%209296%208178 \"+49 511 9296 8178 anrufen\")\n[ f5-praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs \"An f5-praktikumsamt@hs-hannover.de eine E-Mail schreiben\")"
+      ],
+      "zitate": [
+        "Raum: 3C.0.02"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.20996,
+      "id": "3a2feee3-5eff-587e-9e91-cd56ee1d218e",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs",
+      "title_anzeige": "Religionspädagogik und Soziale Arbeit (BRS)",
+      "section_heading": "Kurzübersicht > Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & IBA) > Sachbearbeitung Praktikumsamt",
+      "chunk_index": 61,
+      "text_vollstaendig": false,
+      "auszug": "**Sprechzeiten:** nur nach Vereinbarung per E-Mail\n**Raum:** 3C.0.01\n[Webseite des Praktikumsamts](https://f5.hs-hannover.de/studium/praktikumsamt)\n[ +49 511 9296 7142 ](tel:+49%20511%209296%207142 \"+49 511 9296 7142 anrufen\")\n[ f5-praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium"
+    },
+    {
+      "rang": 2,
+      "score": 2.06753,
+      "id": "5751383e-9396-54dc-bced-65ae7dc2f246",
+      "source_url": "https://f5.hs-hannover.de/studium/praktikumsamt",
+      "title_anzeige": "f5 › studium › praktikumsamt",
+      "section_heading": "Praktikumsamt > Mitarbeiter:innen im Praktikumsamt > Sachbearbeiterin",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "**Richard Kaiser**\nAnsprechperson Praktikum M 11 und M5 sowie praktische Studienzeit (BAH/HBI)\n**Sprechzeiten:** nach Vereinbarung per E-Mail\n**Raum:** 3C.0.01\nBlumhardtstr. 2\n30625 Hannover\n[ F5-praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/praktikumsamt \"An F5-praktikumsamt@"
+    },
+    {
+      "rang": 3,
+      "score": 1.99365,
+      "id": "db0e6cfe-34a9-5d88-b32d-bc2c69c5eff3",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs-1",
+      "title_anzeige": "Abteilung Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Kurzübersicht > Ansprechpersonen Praktikumsamt (Modul 11 & IBA) > Sachbearbeitung Praktikumsamt",
+      "chunk_index": 54,
+      "text_vollstaendig": true,
+      "auszug": "**Sprechzeiten:** nur nach Vereinbarung per E-Mail\n**Raum:** 3C.0.01\n[ +49 511 9296 3177 ](tel:+49%20511%209296%203177 \"+49 511 9296 3177 anrufen\")\n[ f5-praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs-1 \"An f5-pra"
+    },
+    {
+      "rang": 4,
+      "score": 1.90399,
+      "id": "848b91d7-2a0c-59c5-b82f-a8bde16c9d7b",
+      "source_url": "https://f5.hs-hannover.de/studium/praktikumsamt/soziale-arbeit-und-soziale-arbeit-berufsbegleitend/informationen-zum-berufsanerkennungsjahr-baj",
+      "title_anzeige": "Informationen zum Berufsanerkennungsjahr (BAJ)",
+      "section_heading": "Informationen zum Berufsanerkennungsjahr (BAJ) > Mitarbeiter:innen im Praktikumsamt > Sachbearbeiterin",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "### Sachbearbeiterin\n**Sandra-Kathrin Bauer**\nSprechzeiten (telefonisch):\nDi.,Do.: 09:00 - 13:00 Uhr\n**Raum:** 3C.0.02\nBlumhardtstr. 2\n30625 Hannover\n[ +49 511 9296 3176 ](tel:+49%20511%209296%203176 \"+49 511 9296 3176 anrufen\")\n[ F5-Praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studi"
+    },
+    {
+      "rang": 5,
+      "score": 1.66876,
+      "id": "b59205c9-8f96-518b-b68e-b78a174c9bd5",
+      "source_url": "https://f5.hs-hannover.de/ueber-uns/personen/fakultaetsmitarbeitende",
+      "title_anzeige": "f5 › ueber uns › personen › fakultaetsmitarbeitende — Fakultätsmitarbeitende",
+      "section_heading": "Fakultätsmitarbeitende > Praktikumsamt",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "**Praktikumsamt**\n**Sandra-Kathrin Bauer**\nRaum: 3C.0.02\n[ 0511 9296 3176 ](tel:%200511%209296%203176 \" 0511 9296 3176 anrufen\")\n[ sandra-kathrin.bauer(at)hs-hannover.de  ](https://f5.hs-hannover.de/ueber-uns/personen/fakultaetsmitarbeitende \"An sandra-kathrin.bauer@hs-hannover.de eine E-Mail schrei"
+    },
+    {
+      "rang": 6,
+      "score": 1.65683,
+      "id": "d9c05f7c-ca1d-5ae5-8deb-d225bf9f44ae",
+      "source_url": "https://f5.hs-hannover.de/studium/praktikumsamt",
+      "title_anzeige": "f5 › studium › praktikumsamt",
+      "section_heading": "Praktikumsamt > Mitarbeiter:innen im Praktikumsamt > Beauftragter für Praktika und Praxiskontakte",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Mitarbeiter:innen im Praktikumsamt  \n### Beauftragter für Praktika und Praxiskontakte\n**Jasper Kurz**\nAnsprechperson Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\nBeauftragter für Praktika und Praxiskontakte\n**Sprechzeiten (Mittwoch/Donnerstag):** nach Vereinbarung über B"
+    },
+    {
+      "rang": 7,
+      "score": 1.62888,
+      "id": "4fcdc4a9-5a49-5f4f-b8e5-862c94f7916c",
+      "source_url": "https://f5.hs-hannover.de/studium/praktikumsamt/soziale-arbeit-und-soziale-arbeit-berufsbegleitend/informationen-zum-berufsanerkennungsjahr-baj",
+      "title_anzeige": "Informationen zum Berufsanerkennungsjahr (BAJ)",
+      "section_heading": "Informationen zum Berufsanerkennungsjahr (BAJ) > Mitarbeiter:innen im Praktikumsamt > Beauftragter für Praktika und Praxiskontakte",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## Mitarbeiter:innen im Praktikumsamt  \n### Beauftragter für Praktika und Praxiskontakte\n**Jasper Kurz**\nAnsprechperson Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\nBeauftragter für Praktika und Praxiskontakte\n**Sprechzeiten (Mittwoch/Donnerstag):** nach Vereinbarung über B"
+    },
+    {
+      "rang": 8,
+      "score": 1.52349,
+      "id": "bf0d18b6-30da-51fe-a51e-3099055dafca",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw",
+      "title_anzeige": "Soziale Arbeit - grundständig (BSW)",
+      "section_heading": "Kurzübersicht > Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & BAJ) > Sachbearbeitung Praktikumsamt",
+      "chunk_index": 54,
+      "text_vollstaendig": false,
+      "auszug": "### Sachbearbeitung Praktikumsamt\n**Sandra-Kathrin Bauer**\n**Sprechzeiten:** Di. und Do. 09:00–13:00 Uhr\n**Raum:** 3C.0.02\n[Webseite des Praktikumsamts](https://f5.hs-hannover.de/studium/praktikumsamt)\n[ +49 511 9296 8178 ](tel:+49%20511%209296%208178 \"+49 511 9296 8178 anrufen\")\n[ f5-praktikumsamt("
+    },
+    {
+      "rang": 9,
+      "score": 1.49886,
+      "id": "b3c1483c-6335-5e45-a9db-0eaad24e3e07",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._7_final.pdf",
+      "title_anzeige": "f5 › Alumni Netzwerk Soziale Arbeit › Alumni Newsletter › Alumni Newsletter Nr. 7 final — _Liebe Leserinnen,_",
+      "section_heading": "Interview mit Maren Beuse",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## Interview mit Maren Beuse  \nVor zehn Jahren kam _Maren Beuse_ als Leitung des Praktikumsamtes an die Fakultät V. Im März 2024 verlässt sie die Fakultät und beginnt einen neuen beruflichen Lebensabschnitt. Aus diesem Anlass hat Ralf Hoburg ein Interview mit ihr geführt.  \n_RH: Das Praktikumsamt an"
+    },
+    {
+      "rang": 10,
+      "score": 1.48664,
+      "id": "90c63ed8-c2bc-5e2f-85fc-42a3b2dc9e12",
+      "source_url": "https://f5.hs-hannover.de/ueber-uns/personen/fakultaetsmitarbeitende",
+      "title_anzeige": "f5 › ueber uns › personen › fakultaetsmitarbeitende — Fakultätsmitarbeitende",
+      "section_heading": "Fakultätsmitarbeitende > Praktikumsamt",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## Praktikumsamt\n#### Leitung Praktikumsamt Soziale Arbeit & Religionspädagogik\n**Jasper Kurz**\n**Sprechzeiten (Mittwoch/Donnerstag):** nach Vereinbarung über Buchungsportal\n[_**Buchen Sie einen Termin bei mir**_](https://outlook.office.com/bookwithme/user/975ee4c80bc2475ab751f9f20a14a247@hs-hannove"
+    },
+    {
+      "rang": 11,
+      "score": 1.37426,
+      "id": "89a6fdab-5a56-5902-aa27-0a9e24e8c91e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/02_Berufspraktikumsordnung_Soziale_Arbeit_-_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2013 › 02 Berufspraktikumsordnung Soziale Arbeit 2013",
+      "section_heading": "**§ 17** > **Aufgaben der/des Praktikumsbeauftragten und des Praktikumsamtes**",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 17**\n## **Aufgaben der/des Praktikumsbeauftragten und des Praktikumsamtes**  \nDie Hochschule benennt eine Praktikumsbeauftragte oder einen Praktikumsbeauftragten und hält ein Praktikumsamt vor. Die oder der Praktikumsbeauftragte sowie das Praktikumsamt kooperieren mit den Ausbildungsstellen, "
+    },
+    {
+      "rang": 12,
+      "score": 1.373,
+      "id": "3ba640ce-9863-5359-98c4-088e8d67f3b6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/10-2013/01_Praktikumsordnung_Heilpaedagogik_-_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2013 › 01 Praktikumsordnung Heilpaedagogik 2013",
+      "section_heading": "**§ 16** > **Aufgaben der/des Praktikumsbeauftragten und des Praktikumsamtes**",
+      "chunk_index": 22,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 16**\n## **Aufgaben der/des Praktikumsbeauftragten und des Praktikumsamtes**  \nDie Hochschule benennt eine Praktikumsbeauftragte oder einen Praktikumsbeauftragten und hält ein Praktikumsamt vor. Die oder der Praktikumsbeauftragte sowie das Praktikumsamt kooperieren mit den Ausbildungsstellen, "
+    },
+    {
+      "rang": 13,
+      "score": 1.36619,
+      "id": "ec6abdc3-c8ed-5aae-bb8a-ec557c066d01",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw",
+      "title_anzeige": "Soziale Arbeit - grundständig (BSW)",
+      "section_heading": "Kurzübersicht > Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & BAJ) > Beauftragter für Praktika & Praxiskontakte",
+      "chunk_index": 52,
+      "text_vollstaendig": false,
+      "auszug": "## Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & BAJ)  \n### Beauftragter für Praktika & Praxiskontakte\n**Richard Kaiser**\nAnsprechperson Praktikum M 11 (PO 2020/21) / M 23 (PO 2026) und Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\n**Sprechzeiten:** nu"
+    },
+    {
+      "rang": 14,
+      "score": 1.34087,
+      "id": "07140a45-beb2-534f-94e7-e73c53ebd4c2",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Ordnungen/Soziale_Arbeit/09_Final_Ordnung_ueber_das_Berufsanerkennungsjahr_BAJ_Soziale_Arbeit.pdf",
+      "title_anzeige": "f5 › Ordnungen › Soziale Arbeit › 09 Final Ordnung ueber das Berufsanerkennungsjahr BAJ Soziale Arbeit",
+      "section_heading": "**§ 17** > **Aufgaben der/des Praktikumsbeauftragten und des Praktikumsamtes**",
+      "chunk_index": 33,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 17**\n## **Aufgaben der/des Praktikumsbeauftragten und des Praktikumsamtes**  \nDie Hochschule benennt eine Praktikumsbeauftragte oder einen Praktikumsbeauftragten und hält ein Praktikumsamt vor. Die oder der Praktikumsbeauftragte sowie das Praktikumsamt kooperieren mit den Ausbildungsstellen, "
+    },
+    {
+      "rang": 15,
+      "score": 1.31828,
+      "id": "5e8b878d-f0ca-551d-b189-4a39db188045",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik__BAH_/180731_OrdnungPraktischeStudienzeitHeilpaedagogik_BAH.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik BAH › 180731 OrdnungPraktischeStudienzeitHeilpaedagogik BAH",
+      "section_heading": "**§ 15** > **Aufgaben der/des Praktikumsbeauftragten und des Praktikumsamtes**",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 15**\n## **Aufgaben der/des Praktikumsbeauftragten und des Praktikumsamtes**  \nDie Hochschule benennt eine Praktikumsbeauftragte oder einen Praktikumsbeauftragten und hält ein Praktikumsamt vor. Die oder der Praktikumsbeauftragte sowie das Praktikumsamt kooperieren mit den Ausbildungsstellen, "
+    },
+    {
+      "rang": 16,
+      "score": 1.3158,
+      "id": "eed2c590-c1ef-5e26-b45c-f81b714da98d",
+      "source_url": "https://f5.hs-hannover.de/studium/abteilung-soziale-arbeit",
+      "title_anzeige": "Herzlich Willkommen in der Abteilung Soziale Arbeit",
+      "section_heading": "Herzlich Willkommen in der Abteilung Soziale Arbeit > Das sind wir! > Praktikumsbeauftragter",
+      "chunk_index": 18,
+      "text_vollstaendig": false,
+      "auszug": "### Praktikumsbeauftragter\n**Jasper Kurz, M.A.**\nAnsprechperson: Praktikum M 11 und Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\nRaum: 3C.0.01\nBlumhardtstr. 2\n30625 Hannover\n[ +49 511 9296 3177 ](tel:+49%20511%209296%203177 \"+49 511 9296 3177 anrufen\")\n[ f5-praktikumsamt(at"
+    },
+    {
+      "rang": 17,
+      "score": 1.30226,
+      "id": "9183362c-6776-50c3-b15d-abf34bfdc9ef",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/012_MH-BRS-PO-2021-SoSe-2022-Stand-09.03.2022.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 012 MH BRS PO 2021 SoSe 2022 Stand 09.03.2022 — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **4. Prüfungsamt und Praktikumsbüro** > Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **Praktikumsamt:**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **4. Prüfungsamt und Praktikumsbüro**\n## **Praktikumsamt:**  \nJessica Bank: Tel.: 0511 9296 3120 E-Mail: jessica.bank@hs-hannover.de Sprechzeiten:  telefonische Erreichbarkeit ‒ Di. und Do., 09:00-13:00 Uhr Büro: 3C.0.04 Sarah Gleißner: Tel.: 0511 9296 3186 (Vertretung) E-Mail: sarah.gleissner@hs"
+    },
+    {
+      "rang": 18,
+      "score": 1.29868,
+      "id": "86880c7e-9b7c-5dc9-a572-69e8e09962f5",
+      "source_url": "https://f5.hs-hannover.de/studium/praktikumsamt/religionspaedagogik-und-soziale-arbeit/informationen-zum-blockpraktikum-modul11",
+      "title_anzeige": "Informationen zum Blockpraktikum im Modul 11",
+      "section_heading": "Informationen zum Blockpraktikum im Modul 11 > Blockpraktikum im Modul 11 > Informationen zum Praktikumsmodul",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "**Sprechstunde**\nnach Vereinbarung per E-Mail\n**Richard Kaiser**\nAnsprechperson Praktikum M 11 und Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\nBeauftragter für Praktika und Praxiskontakte\n**Sprechzeiten:** nach Vereinbarung per E-Mail\n**Raum:** 3C.0.01\nBlumhardtstr. 2\n3062"
+    },
+    {
+      "rang": 19,
+      "score": 1.29556,
+      "id": "b4f907fe-6500-53b0-b99a-3cbefd01c325",
+      "source_url": "https://f5.hs-hannover.de/studium/abteilung-soziale-arbeit-1",
+      "title_anzeige": "Herzlich Willkommen in der Abteilung Soziale Arbeit",
+      "section_heading": "Herzlich Willkommen in der Abteilung Soziale Arbeit > Das sind wir! > Praktikumsbeauftragte/r",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "### Praktikumsbeauftragte/r\n**Jasper Kurz**\nAnsprechperson Praktikum M 11 und Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\nBeauftragter für Praktika und Praxiskontakte\n**Sprechzeiten (Mittwoch/Donnerstag):** nach Vereinbarung über Buchungsportal\n[_**Buchen Sie einen Termin "
+    },
+    {
+      "rang": 20,
+      "score": 1.26046,
+      "id": "38a46349-ef54-53ff-b7be-1dbff152bb39",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/010_MH-BRS-PO-2020-WiSe-2020-21-Stand-11.08.2020-Online.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 010 MH BRS PO 2020 WiSe 2020 21 Stand 11.08.2020 Online — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **4. Prüfungsamt und Praktikumsbüro** > Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **Praktikumsamt:**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **4. Prüfungsamt und Praktikumsbüro**\n## **Praktikumsamt:**  \nAngelika Grabitz: Tel.: 0511 9296 3214 E-Mail:  angelika.grabitz@hs-hannover.de Sprechzeiten:  Mo. bis Do., 09:00 bis 14:00 Uhr, Fr., 09:00 bis 11:00 Uhr, Haus 3C.0.02 Jessica Bank: Tel.: 0511 9296 3120 E-Mail:  jessica.bank@hs-hannove"
+    },
+    {
+      "rang": 21,
+      "score": 1.26018,
+      "id": "46ff6d49-814c-544c-8c53-e0214929b923",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs",
+      "title_anzeige": "Religionspädagogik und Soziale Arbeit (BRS)",
+      "section_heading": "Kurzübersicht > Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & IBA) > Beauftragter für Praktika & Praxiskontakte",
+      "chunk_index": 60,
+      "text_vollstaendig": false,
+      "auszug": "**Sprechzeiten:** nur nach Vereinbarung per E-Mail\n**Raum:** 3C.0.01\n[Webseite des Praktikumsamts](https://f5.hs-hannover.de/studium/praktikumsamt)\n[ +49 511 9296 7142 ](tel:+49%20511%209296%207142 \"+49 511 9296 7142 anrufen\")\n[ f5-praktikumsamt(at)hs-hannover.de  ](https://f5.hs-hannover.de/studium"
+    },
+    {
+      "rang": 22,
+      "score": 1.25136,
+      "id": "00cb3606-5868-5663-bbe9-37212e97e99c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/011-MH-BRS-PO-2021-31.08.2021-Online.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 011 MH BRS PO 2021 31.08.2021 Online — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **4. Prüfungsamt und Praktikumsbüro** > Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **Praktikumsamt:**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **4. Prüfungsamt und Praktikumsbüro**\n## **Praktikumsamt:**  \nJessica Bank: Tel.: 0511 9296 3120 E-Mail: jessica.bank@hs-hannover.de Sprechzeiten:  telefonische Erreichbarkeit ‒ Di. und Do., 09:00-13:00 Uhr Büro: 3C.0.04 Sarah Gleißner: Tel.: 0511 9296 3186 (Vertretung) E-Mail: sarah.gleissner@hs"
+    },
+    {
+      "rang": 23,
+      "score": 1.24047,
+      "id": "fd80bbda-2377-5382-99bf-9a779e302ba7",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/016-MH-BRS-PO-2021-WiSe-25-26-Stand-14.07.2025-web.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 016 MH BRS PO 2021 WiSe 25 26 Stand 14.07.2025 web — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **5. Praktikumsamt**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **5. Praktikumsamt**  \nLeitung Praktikumsamt: Richard Kaiser & Jasper Kurz Tel.: 0511 9296 3177 E-Mail: f5-praktikumsamt@hs-hannover.de Sprechzeiten:  nur nach Vereinbarung per E-Mail Büro: 3C.0.01  \nRichard Kaiser und Jasper Kurz sind bei Fragen zum Praktikum M 11 und zum Integrierten Berufsaner"
+    },
+    {
+      "rang": 24,
+      "score": 1.23762,
+      "id": "f7d7ea78-e385-546b-b821-bf3c347a6135",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs-1",
+      "title_anzeige": "Abteilung Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Kurzübersicht > Ansprechpersonen Praktikumsamt (Modul 11 & IBA) > Beauftragter für Praktika & Praxiskontakte",
+      "chunk_index": 52,
+      "text_vollstaendig": true,
+      "auszug": "## Ansprechpersonen Praktikumsamt (Modul 11 & IBA)  \n### Beauftragter für Praktika & Praxiskontakte\n**Richard Kaiser**\nAnsprechperson Praktikum M 11 und Berufsanerkennungsjahr (BAJ)/Integriertes Berufsanerkennungsjahr (IBA)\n**Sprechzeiten:** nur nach Vereinbarung per E-Mail\n**Raum:** 3C.0.01\n[ +49 5"
+    },
+    {
+      "rang": 25,
+      "score": 1.21417,
+      "id": "a5b5e5b5-db76-52ec-8960-8d12a3db0c21",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/021-MH-BSW-PO-2021-WiSe_2025-26-Stand-16.03.2025-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 021 MH BSW PO 2021 WiSe 2025 26 Stand 16.03.2025 web",
+      "section_heading": "**4. Praktikumsamt:**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **4. Praktikumsamt:**  \nLeitung Praktikumsamt: Richard Kaiser & Jasper Kurz Tel.: 0511 9296 3177 E-Mail: f5-praktikumsamt@hs-hannover.de Sprechzeiten:  nur nach Vereinbarung per E-Mail Büro: 3C.0.01  \nRichard Kaiser und Jasper Kurz sind bei Fragen zum Praktikum M 11 und zum Berufsanerkennungsjahr"
+    },
+    {
+      "rang": 26,
+      "score": 1.19814,
+      "id": "5b194902-5699-53f4-8bb4-57dee6b6cb11",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Praktikumsamt/Formulare/Soziale_Arbeit/BAJ/Studientagsprogramm/Alte_Versionen/Studientagsprogramm_Winter_2025_2026.pdf",
+      "title_anzeige": "f5 › Studientagsprogramm › Alte Versionen › Studientagsprogramm Winter 2025 2026 — Berufsanerkennungsjahr Studientagsprogramm",
+      "section_heading": "**Berufsanerkennungsjahr Studientagsprogramm** > **Praktikumsbüro**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Praktikumsbüro**  \nBlumhardtstr. 2, 30625 Hannover Tel.  0511 9296-3176 / 3177  \n**Leitung** : **Richard Kaiser & Jasper Kurz** Beauftragter für Praktika und Praxiskontakte Haus 3C Raum 0.01 Tel. 0511 9296–3177 E-Mail: f5-praktikumsamt@hs-hannover.de  \n**Sprechzeiten:  nach Vereinbarung  & Dien"
+    },
+    {
+      "rang": 27,
+      "score": 1.19168,
+      "id": "a60ffa1b-9912-52f2-89f9-3ae7089481b0",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Modulhandbuch_BSW/014-MH-BSW-PO-2021-SoSe-2022-Stand-20.04.2022-web.pdf",
+      "title_anzeige": "f5 › Soziale Arbeit grundstaendig › Modulhandbuch BSW › 014 MH BSW PO 2021 SoSe 2022 Stand 20.04.2022 web",
+      "section_heading": "**3. Prüfungsamt und Praktikumsbüro**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **3. Prüfungsamt und Praktikumsbüro**  \n|**Praktikumsamt:**||\n|---|---|\n|Jessica Bank:|Tel.:\n0511 9296 3120|\n||E-Mail:\njessica.bank@hs-hannover.de|\n||Sprechzeiten:  telefonische Erreichbarkeit ‒ Di. und Do., 09:00-13:00 Uhr|\n||Büro:\n3C.0.04|\n|Sarah Gleißner:|Tel.:\n0511 9296 3186|\n|(Vertretung)|E-"
+    },
+    {
+      "rang": 28,
+      "score": 1.18454,
+      "id": "792cfa05-5281-5669-8c23-8109a3e21f0d",
+      "source_url": "https://f5.hs-hannover.de/studium/praktikumsamt/religionspaedagogik-und-soziale-arbeit/informationen-zum-integrierten-berufsanerkennungsjahr-iba",
+      "title_anzeige": "Informationen zum Integrierten Berufsanerkennungsjahr (IBA)",
+      "section_heading": "Informationen zum Integrierten Berufsanerkennungsjahr (IBA) > Formulare > Ordnungen",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "* * *\n**Jasper Kurz**\nBeauftragter für Praktika und Praxiskontakte\n**Sprechzeiten (Mittwoch/Donnerstag):** nach Vereinbarung über Buchungsportal\n[_**Buchen Sie einen Termin bei mir**_](https://outlook.office.com/bookwithme/user/975ee4c80bc2475ab751f9f20a14a247@hs-hannover.de?anonymous&ismsaljsauthen"
+    },
+    {
+      "rang": 29,
+      "score": 1.18024,
+      "id": "1c94decf-f488-5664-82e1-93e0ebea918b",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Heilpaedagogik__BAH_/Modulhandbuch_BAH_2025-09-01.pdf",
+      "title_anzeige": "f5 › Bachelor › Heilpaedagogik BAH › Modulhandbuch BAH 2025 09 01 — (BAH)",
+      "section_heading": "**Praktikumsamt:**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## **Praktikumsamt:**  \nLeitung Richard Kaiser Praktikumsamt: Tel.: 0511 9296 3177 Sprechzeiten: nach Vereinbarung Büro: 3C.0.01  \nRichard Kaiser ist bei Fragen zum Praktikum ansprechbar. Weitere Informationen hierzu sind der Webseite des Praktikumsamts zu entnehmen: https://f5.hshannover.de/studium"
+    },
+    {
+      "rang": 30,
+      "score": 1.17685,
+      "id": "3e8066e8-1579-5312-98e0-50aac19c2493",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Modulhandbuch/010_MH-BRS-PO-2020-WiSe-2020-21-Stand-11.08.2020-Online.pdf",
+      "title_anzeige": "f5 › Relpaed › Modulhandbuch › 010 MH BRS PO 2020 WiSe 2020 21 Stand 11.08.2020 Online — Bachelorstudienganges Religionspädagogik und Soziale Arbeit",
+      "section_heading": "Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **4. Prüfungsamt und Praktikumsbüro** > Bachelorstudienganges Religionspädagogik und Soziale Arbeit > **Praktikumsamt:**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **Praktikumsamt:**  \nMaren Beuse:  \nTel. 0511 9296 3177 E-Mail:  maren.beuse@hs-hannover.de Sprechzeiten:  Di. 12:30‒13:30 Uhr, Do. 12:00‒13:30 Uhr, sowie nach Vereinbarung, Haus 3C.0.01  \nFrau Beuse ist bei Fragen zum Praktikum M 11 und zum Integrierten Berufsanerkennungsjahr (IBA) ansprechbar. "
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 52887,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.71,
+    "kandidaten_s": 0.0,
+    "llm_auswahl_s": 3.51,
+    "docs_laden_s": 0.1,
+    "quellen_s": 5.33,
+    "antwort_llm_s": 1.3,
+    "gesamt_s": 6.63
+  },
+  "auswahl_begruendung": "{\"selected\":[2,4,6,1]}"
+}

@@ -1,0 +1,1712 @@
+{
+  "fall": {
+    "id": "g35",
+    "case_type": "direct",
+    "question": "Wo werden die neuen Bachelor-Studierenden der Fakultät I willkommen geheißen?",
+    "reference_answer": "Im Audimax, Raum 1A.1.02 auf dem Campus Linden.",
+    "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "findet am **Freitag, 18.09.2026 um 09:00 Uhr im Audimax (Raum 1A.1.02, Campus Linden)** statt"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ sonstiges/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "951d1ca5-7769-5c83-949e-29d0263e455c",
+      "a4995ec1-605c-5ee7-9347-5a6c631740c9",
+      "ae495ec9-5f6b-5dbb-918e-743818d17b61",
+      "28ac1526-b5c3-5fdd-90e1-f8fe8052fec2",
+      "820b83d9-8a41-5742-8a41-c4fa423407be",
+      "893ea81b-ca5e-54c5-beb7-d0c6b661cb5b",
+      "d47f828e-731b-5ee6-850d-1cb7d46c8640",
+      "760d3953-fb1f-5237-a075-058b4f33c780",
+      "f9b771bf-2f8d-56fa-8179-16e4dfb8d7ec",
+      "8683520f-f3b0-521d-a72f-64751f573fbd",
+      "25f82cac-4dd5-5fd8-803e-0c764fa8f962"
+    ],
+    "beleg_punkte": [
+      "820b83d9-8a41-5742-8a41-c4fa423407be"
+    ],
+    "beleg_urls": [
+      "https://f1.hs-hannover.de/semesterstart-1"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:37:53",
+  "dauer_s": 9.92,
+  "fehler": null,
+  "antwort": "Die neuen Bachelor-Studierenden der Fakultät I werden „im Audimax (Raum 1A.1.02, Campus Linden)\" [1] willkommen geheißen.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f1 › semesterstart 1",
+      "url": "https://f1.hs-hannover.de/semesterstart-1",
+      "fakultaet": "f1",
+      "struktur": "# Semesterstart\n    ### Auf einen Blick\n  ## Brückenkurs\n  ## Begrüßungen\n  ## Vorlesungsbeginn/-hinweise\n  ## Informationsveranstaltungen\n  ## Linksammlung"
+    },
+    {
+      "nr": 2,
+      "titel": "Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters",
+      "fakultaet": "f1",
+      "struktur": "# Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n  ## 18.09.2026\n    ### Veranstal­tungs­ort"
+    },
+    {
+      "nr": 3,
+      "titel": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "url": "https://f1.hs-hannover.de",
+      "fakultaet": "f1",
+      "struktur": "# Studieren an der Fakultät I - Elektro- und Informationstechnik\n# Freie Studienplätze - Bewerben Sie sich jetzt für das Wintersemester 2026/27 (Semesterbeginn: 01.09.2026) über das\n  ## Wir stellen uns vor\n    ### Das Wichtigste in Kürze\n  ## Das zeichnet uns aus ...\n# Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee:\n  ## Die Fakultät I in Zahlen\n  ## Events\n    ### StudiTalk: Was ich vor Studienbeginn gerne gewusst hätte\n    ### Brückenkurs Mathematik und Physik\n    ### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n# Neuigkeiten\n    ###  „Engineering Future“: Liminale Festival geht in die zweite Runde \n    ###  Signal Processing in Toulouse \n    ###  Vom Moor ins Labor: Ministerin Staudte besucht das Projekt I‑RoBi \n    ### Kontakt"
+    },
+    {
+      "nr": 4,
+      "titel": "f1 › aktuelles › veranstaltungen",
+      "url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen",
+      "fakultaet": "f1",
+      "struktur": "# Veranstaltungen\n    ### 3. Open Door Event im KITE Creative Lab Expo, August 2026\n    ### StudiTalk: Welches Studium passt zu mir?\n    ### StudiTalk: Was ich vor Studienbeginn gerne gewusst hätte\n    ### Brückenkurs Mathematik und Physik\n    ### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n    ### Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV)\n    ### Zusätzliche Erstsemesterbegrüßung des Studiengangs StudyMINT\n    ### Zusätzliche Erstsemesterbegrüßung des Studiengangs Technisches Informationsdesign und Technische Redaktion (ITR)\n    ### Zusätzliche Erstsemesterbegrüßung des Studiengangs Angewandte Mathematik und Data Science (MAT)\n    ### Begrüßung aller Master-Studierenden des 1. Fachsemesters\n    ### Informationsveranstaltung für Studierende zu Auslandsstudienmöglichkeiten\n    ### StudiTalk: Studieren in Hannover\n    ### Onlineworkshop für Studierende: \"Unterstützungsangebote an der HsH - ein Überblick\"\n    ### Informationsveranstaltung zum Masterstudiengang Elektrische Energiesysteme und Elektromobilität (EEE)\n    ### Onlineworkshop für Studierende: \"Zeitmanagement - strukturiert durchs Studium\"\n    ### Informationsveranstaltung für Studierende zur Wahl der Vertiefungsrichtung im 2. Studienabschnitt\n    ### StudiTalk: Zwischen Vorlesung, Nebenjob und Freizeit\n    ### Informationsveranstaltung des Masterstudiengangs Sensor- und Automatisierungstechnik (ESA)\n    ### Onlineworkshop für Studierende \"Psychisch fit studieren\"\n    ### Onlineworkshop für Studierende: \"Prokrastination? Was kann ich tun?\"\n    ### Onlineworkshop für Studierende: \"Stressmanagement - Gelassenheit im Hochschulalltag\"\n    ### StudiTalk: Wie fühlt sich Studieren wirklich an?\n    ### Onlineworkshop für Studierende: \"Studienzweifel?\""
+    },
+    {
+      "nr": 5,
+      "titel": "Mit Durchblick durchs Studium",
+      "url": "https://f1.hs-hannover.de/studium/studienstart",
+      "fakultaet": "f1",
+      "struktur": "# Mit Durchblick durchs Studium\n    ### Erstsemesterinformationen der Fakultät I \n    ### Allgemeine Erstsemesterinformationen der Hochschule Hannover\n    ### E-Learning & IT-Services für Studienanfängerinnen"
+    },
+    {
+      "nr": 6,
+      "titel": "Information for Incomings",
+      "url": "https://f1.hs-hannover.de/studium/internationales/information-for-incomings",
+      "fakultaet": "f1",
+      "struktur": "# Information for Incomings\n  ## Welcome to Faculty I – Electrical Engineering and Information Technology\n    ### Further Informations\n  ## Study offer\n    ### Contact"
+    },
+    {
+      "nr": 7,
+      "titel": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "url": "https://f1.hs-hannover.de/studium",
+      "fakultaet": "f1",
+      "struktur": "# Studium an der Fakultät I Elektro- und Informationstechnik\n    ### Zusätzliche Infos\n  ## Leben in Hannover\n  ## Sprechen Sie sich aus.\n  ## Ihr Weg zu uns:\n    ### Routenplaner\n    ### Externer Inhalt\n  ## Informationsbroschüre\n    ### Informationsbroschüre der Fakultät I"
+    },
+    {
+      "nr": 8,
+      "titel": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Technisches Informationsdesign und Technische Redaktion (ITR)",
+      "url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-technisches-informationsdesign-und-technische-redaktion-itr",
+      "fakultaet": "f1",
+      "struktur": "# Zusätzliche Erstsemesterbegrüßung des Studiengangs Technisches Informationsdesign und Technische Redaktion (ITR)\n  ## 21.09.2026\n    ### Veranstal­tungs­ort"
+    },
+    {
+      "nr": 9,
+      "titel": "- Ordnungen - Module - Akkreditierungen -",
+      "url": "https://f1.hs-hannover.de/service-1-2",
+      "fakultaet": "f1",
+      "struktur": "# - Ordnungen - Module - Akkreditierungen -\n    ### Auf dieser Seite sind für Studierende und Interessierte ausführliche Informationen zu Ordnungen, Modulen und Studienstrukturen aller Studiengänge der Fakultät I aufgelistet.\n    ### Auf einen Blick\n  ## Ordnungen\n  ## Module\n  ## Akkreditierungen"
+    },
+    {
+      "nr": 10,
+      "titel": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV)",
+      "url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-nachhaltige-elektrische-energieversorgung-nev",
+      "fakultaet": "f1",
+      "struktur": "# Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV)\n  ## 21.09.2026\n    ### Veranstal­tungs­ort"
+    },
+    {
+      "nr": 11,
+      "titel": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Angewandte Mathematik und Data Science (MAT)",
+      "url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-angewandte-mathematik-und-data-science-mat",
+      "fakultaet": "f1",
+      "struktur": "# Zusätzliche Erstsemesterbegrüßung des Studiengangs Angewandte Mathematik und Data Science (MAT)\n  ## 21.09.2026\n    ### Veranstal­tungs­ort"
+    },
+    {
+      "nr": 12,
+      "titel": "Dual Studieren in der Elektro- und Informationstechnik",
+      "url": "https://f1.hs-hannover.de/studium/elektrotechnik-und-informationstechnik-dual",
+      "fakultaet": "f1",
+      "struktur": "# Dual Studieren in der Elektro- und Informationstechnik\n  ## Bachelor Studiengänge der Fakultät I im dualen Studienkonzept\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Konzept\n# Vorteile des Studiums im Praxisverbund\n  ## Die Vorteile im Überblick\n    ### Ansprechperson\n# Partnerunternehmen\n    ### AVACON AG Oldenburg\n    ### AVACON AG\n    ### Bilfinger GreyLogix GmbH\n    ### DB InfraGO AG\n    ### Drewsen Spezialpapiere\n    ### Enercity Stadtwerke Hannover AG\n    ### ILFA Industrieelektronik und Leiterplattenfertigung aller Art GmbH\n    ### Lenze SE\n    ### Miele & Cie. KG / Segment Professional Wäschetechnik\n    ### Minda Industrieanlagen GmbH\n    ### onoff AG\n    ### PLANUNGSGRUPPE VA GmbH - Beratende Ingenieure VBI\n    ### Schott AG\n    ### Siemens AG Professional Education\n    ### Syserso Networks GmbH\n    ### TenneT Lehrte\n    ### Troester GmbH & Co. KG\n    ### TÜV NORD Systems GmbH & Co.Kg\n    ### T&B electronic GmbH\n    ### Überlandwerk Leinetal GmbH\n    ### üstra Hannoversche Verkehrsbetriebe AG\n    ### Volkswagen Nutzfahrzeuge\n    ### Westfalen Weser Netz GmbH\n    ### Zentrale Polizeidirektion Niedersachsen"
+    },
+    {
+      "nr": 13,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2020 — BESTÄTIGUNGSVERMERK",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Jahresabschluss zum 31. Dezember 2020 und Lagebericht\n  ## BESTÄTIGUNGSVERMERK\n  ## Hochschule Hannover, Hannover\n  ## Bilanz zum 31. Dezember 2020\n  ## A k t i v a\n  ## Hochschule Hannover, Hannover\n  ## Gewinn- und Verlustrechnung für die Zeit vom 1. Januar bis 31. Dezember 2020\n  ## Anhang für das Geschäftsjahr 2020\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## Immaterielle Vermögensgegenstände\n  ## Sachanlagen\n  ## Finanzanlagen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## Folgende Maßnahmen wurden umgesetzt:\n  ## Die verbliebenen Rücklagen sind insbesondere für folgende Maßnahmen vorgesehen:\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## Sonstige Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Erträge\n  ## Umsatzerlöse\n  ## Sonstige betriebliche Erträge\n  ## Sonstige betriebliche Erträge\n  ## B. Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Sonstige Angaben\n  ## A. Haftungsverhältnisse und Sonstige finanzielle Verpflichtungen\n  ## B. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## C. Abschlussprüferhonorar\n  ## D. Geschäfte mit nahestehenden Personen\n  ## E. Beteiligungen\n  ## F. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2020\n  ## G. Organe\n  ## Präsidium\n  ## Senat\n  ## Hochschulrat\n  ## H. Ergebnisverwendung\n  ## I. Nachtragsbericht\n  ## K. Soll-Ist-Vergleich\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20 %"
+    },
+    {
+      "nr": 14,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2015 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Bilanz zum 31. Dezember 2015\n  ## Gewinn- und Verlustrechnung für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2015\n  ## Anhang für das Geschäftsjahr 2015\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A . Sonstige betriebliche Erträge\n  ## B. Sonstige betriebliche Aufwendungen\n  ## C. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2015\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2015\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2015\n  ## Erläuterungen zum Soll-Ist-Vergleich\n  ## 1.b)\n  ## 2.\n  ## 4.a)\n  ## 4.b)\n  ## 5.\n  ## 7.c)\n  ## 8.\n  ## 9.b)\n  ## 10.\n  ## 11.a) / 11.b)\n  ## 11.d)\n  ## 11.e)\n  ## 11.g)\n  ## 13."
+    },
+    {
+      "nr": 15,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2014 — Hochschule Hannover Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover Hannover\n  ## Bilanz zum 31. Dezember 2014\n  ## Gewinn- und Verlustrechnung für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2014\n  ## Hochschule Hannover\n  ## Anhang für das Geschäftsjahr 2014\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A . Sonstige betriebliche Erträge\n  ## B. Sonstige betriebliche Aufwendungen\n  ## C. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2014\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2014\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2014\n  ## Erläuterungen zum Soll-Ist-Vergleich\n  ## Hochschule Hannover\n  ## Lagebericht für das Geschäftsjahr 2014\n  ## 1. Rahmenbedingungen\n  ## Präsident von Helden:\n  ## Hauptberuflicher Vizepräsident Schumacher:\n  ## Vizepräsidentin für Lehre, Studium und Qualität Schlünz:\n  ## Vizepräsidentin für Soziale Öffnung, Weiterbildung und Internationales\n  ## Dieball:\n  ## 1.1 Hochschulstruktur\n  ## 1.2 Regionale Vernetzung\n  ## 1.3 Hochschulentwicklungsplanung\n  ## 1.4 Zielvereinbarung\n  ## 1.5 Hochschulpakt und Fachhochschulentwicklungsprogramm\n  ## 2. Geschäftsverlauf\n  ## 2.1 Studienangebot und Studiennachfrage"
+    },
+    {
+      "nr": 16,
+      "titel": "itr › landing page › news",
+      "url": "https://itr.wp.hs-hannover.de/landing-page/news",
+      "fakultaet": "",
+      "struktur": "# News"
+    },
+    {
+      "nr": 17,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Bilanz zum 31. Dezember 2017\n  ## Gewinn- und Verlustrechnung\n  ## für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2017\n  ## Anhang für das Geschäftsjahr 2017\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Kassenbestand, Guthaben bei Kreditinstituten\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2017\n  ## F. Organe\n  ## Präsidium\n  ## Senat\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2017\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2017\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2a/2b).\n  ## 4a).\n  ## 4b).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c).\n  ## 9).\n  ## 11a)."
+    },
+    {
+      "nr": 18,
+      "titel": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Impressum:\n  ## Inhalt\n  ## Vorwort des Präsidiums\n  ## — 1 Ausgangslage\n  ## — 2 Kurzdarstellung der Hochschule\n  ## Leitbild und Umstrukturierungen\n  ## — 2 Kurzdarstellung der Hochschule\n  ## — 3 Kurzdarstellung der Fakultäten\n  ## Elektround Informationstechnik Fakultät I\n  ## Elektro- und Informationstechnik\n  ## Highlights\n  ## Studierende der Fakultät I\n# Maschinenbau und Bioverfahrenstechnik Fakultät II\n  ## Maschinenbau und Bioverfahrenstechnik\n  ## Highlights\n  ## Studierende der Fakultät II\n  ## Studierende der Fakultät II\n# Medien, Information und Design\n  ## Medien, Information und Design\n  ## Highlights\n  ## →   Motion Cube\n# Wirtschaft und Informatik\n  ## Wirtschaft und Informatik\n  ## Basisdaten\n  ## Highlights\n  ## →   Lehre\n  ## →   Praxisnähe\n  ## →   Studienbedingungen\n  ## →   Internationalität\n# Diakonie, Gesundheit und Soziales Fakultät V\n  ## Diakonie, Gesundheit und Soziales\n  ## Highlights\n  ## →   Internationale Vernetzung\n  ## →   Regionale Kontakte\n  ## Studierende der Fakultät V nach Studiengang\n# HsH – Hier studiert 34 Hannover.\n  ## — 4 Strategische Ziele der Hochschulentwicklung\n  ## 4 — Strategische Ziele der Hochschulentwicklung\n  ## StudierendenPerspektive\n  ## TREIBENDE FAKTOREN HAW-spezifisch hochqualifiziertes Lehrpersonal Studiengangs(neu)entwicklung MASSNAHMEN MIT HÖCHSTER PRIORITÄT\n  ## StudierendenPerspektive\n  ## Qualitativ hochwertige Studienabschlüsse anbieten\n  ## Nachhaltigkeit in der Lehre\n  ## StudierendenPerspektive\n  ## Nachhaltigkeit meets Internationalisierung in Studium und Praxis\n  ## StudierendenPerspektive\n  ## Attraktivität für Bewerber:innen steigern\n  ## Frauen in MINT\n  ## StudierendenPerspektive\n  ## Digitalisierung des Student Life Cycle"
+    },
+    {
+      "nr": 19,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2018 — Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Inhaltsverzeichnis\n  ## Bilanz zum 31. Dezember 2018\n  ## Gewinn- und Verlustrechnung für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2018\n  ## Anhang für das Geschäftsjahr 2018\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionszuschüsse\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## Sonstige Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## Details zu den sonstigen periodenfremden Erträgen:\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2018\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2018\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2018\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2a).\n  ## 4a).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c).\n  ## 8a).\n  ## 9a).\n  ## 11a).\n  ## 11c).\n  ## 13).\n  ## 15)."
+    },
+    {
+      "nr": 20,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Jahresabschluss zum 31. Dezember 2019 und Lagebericht\n  ## BESTÄTIGUNGSVERMERK\n  ## Hochschule Hannover, Hannover\n  ## Bilanz zum 31. Dezember 2019\n  ## A k t i v a\n  ## Hochschule Hannover, Hannover\n  ## Gewinn- und Verlustrechnung für die Zeit vom 1. Januar bis 31. Dezember 2019\n  ## Anhang für das Geschäftsjahr 2019\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A. Sonstige betriebliche Erträge\n  ## Details zu den sonstigen periodenfremden Erträgen:\n  ## B. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## C. Abschlussprüferhonorar\n  ## D. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2019\n  ## Haftungsverhältnisse\n  ## E. Organe\n  ## Präsidium\n  ## Senat\n  ## Hochschulrat\n  ## Ergebnisverwendung\n  ## Nachtragsbericht\n  ## Hochschule Hannover, Hannover\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2019\n  ## Soll-Ist Vergleich für das Geschäftsjahr 2019\n  ## Erläuterungen zum Soll-Ist-Vergleich > 20%\n  ## 1b).\n  ## 2b).\n  ## 4b).\n  ## 4c).\n  ## 5).\n  ## 7b).\n  ## 7c)."
+    },
+    {
+      "nr": 21,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2016 — Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+      "fakultaet": "",
+      "struktur": "  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## PKF FASSELT SCHLAGE\n  ## Hochschule Hannover\n  ## Hannover\n  ## Bilanz zum 31. Dezember 2016\n  ## Gewinn- und Verlustrechnung für das Geschäftsjahr vom 1. Januar bis 31. Dezember 2016\n  ## Anhang für das Geschäftsjahr 2016\n  ## 1. Allgemeine Angaben\n  ## 2. Angaben zur Bilanz\n  ## A. Anlagevermögen\n  ## B. Umlaufvermögen\n  ## Vorräte\n  ## Forderungen und sonstige Vermögensgegenstände\n  ## Guthaben Kreditinstitute und Kassenbestände\n  ## C. Rechnungsabgrenzungsposten\n  ## D. Eigenkapital\n  ## E. Sonderposten\n  ## Sonderposten für Investitionen\n  ## Sonderposten für Studienbeiträge\n  ## F. Rückstellungen\n  ## G. Verbindlichkeiten\n  ## 3. Erläuterungen zur Gewinn- und Verlustrechnung\n  ## A . Umsatzerlöse\n  ## B . Sonstige betriebliche Erträge\n  ## C. Sonstige betriebliche Aufwendungen\n  ## D. Zinsen und ähnliche Aufwendungen\n  ## 4. Ergänzende Angaben\n  ## A. Sonstige finanzielle Verpflichtungen\n  ## B. Ergebnisverwendung\n  ## C. Anzahl der Beschäftigten im Jahresdurchschnitt\n  ## D. Abschlussprüferhonorar\n  ## E. Darstellung der wirtschaftlichen und nicht wirtschaftlichen Tätigkeit 2016\n  ## F. Organe\n  ## Präsidium\n  ## Senat\n  ## Entwicklung des Anlagevermögens im Geschäftsjahr 2016\n  ## Erläuterungen zum SOLL-IST Vergleich 2016 bei Abweichungen > 20%\n  ## Position 1a):\n  ## Position 1b):\n  ## Position 1c):\n  ## Position 2a):\n  ## Position 4a):\n  ## Position 4b):\n  ## Position 4c):\n  ## Position 5):\n  ## Position 7c):\n  ## Position 10):\n  ## Position 11a/11b):"
+    },
+    {
+      "nr": 22,
+      "titel": "www › Verkuendungsblatt › 02 2022 › 01 10 Fortschreibung GSP Senat",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/02-2022/01_10_Fortschreibung_GSP_Senat.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Zehnte Fortschreibung des Gleichstellungsplans der HsH\n  ## Inhaltsverzeichnis\n  ## Rechtliche Grundlagen\n  ## III. Das niedersächsische Gleichberechtigungsgesetz (NGG)\n  ## § 3 Abs. 3 (Satz 2) und 4 Begriffsbestimmungen\n  ## § 3 Abs. 3 NHG\n  ## § 21 Personal Abs. 3 Satz 2\n  ## § 41 Senat Abs. 2 Satz 1\n  ## § 42 Abs. 2 S. 1 und 2 NHG\n  ## § 15 Gleichstellungsplan\n  ## IV. Niedersächsisches Personalvertretungsgesetz (NPersVG)\n  ## § 67 Mitbestimmung bei organisatorischen Maßnahmen\n  ## Erläuterung der Handlungsfelder\n  ## Ziel des Gleichstellungsplans\n  ## 1. Organisations- und Führungskultur\n  ## Beispiele für mögliche Ansatzpunkte:\n  ## 2. Nachwuchsförderung und Personalentwicklung\n  ## Beispiele für mögliche Ansatzpunkte:\n  ## 3. Berufungs- und Auswahlverfahren\n  ## 4. Studium, Lehre und Forschung\n  ## a) Studium und Lehre\n  ## b) Forschung\n  ## 5. Vereinbarkeit von Studium und Beruf mit Familienaufgaben\n  ## Beispiele für mögliche Ansatzpunkte:\n  ## Quellen\n  ## Beispiele für mögliche Ansatzpunkte:\n  ## Verfahren und Zeitplan zur Erstellung des Plans\n  ## Erstellung der Pläne\n  ## Datenerhebung\n  ## Verbindlichkeit von Zielen und Maßnahmen\n  ## 1. Bestandsaufnahme/Umsetzungskontrolle\n  ## Beschlussfassung\n  ## Aufforderung zur Erstellung und Abgabe der Pläne\n  ## 2. Ursachen/Situationsanalyse und Fluktuationsuntersuchung\n  ## 3. Formulierung der Ziele (Zielzahlen in %)\n  ## 4. Festlegung verbindlicher Maßnahmen\n  ## HsH – übergreifend\n  ## 1 Bestandsaufnahme und Bericht auf Grundlage der aktuellen Zahlen in den verschiedenen Bereichen Umsetzungskontrolle in Bezug auf die gesteckten Ziele und die durchgeführten Maßnahmen\n  ## 2 Ursachen/Situationsanalyse Freiwerdende Stellen, Fluktuationsabschätzung\n  ## 3 Formulierung der angestrebten Ziele für die jeweiligen Anteile von Frauen und Männern in den verschiedenen Status- bzw. Berufsgruppen in %.\n  ## 4 Festlegung verbindlicher Maßnahmen für den Zeitraum 2021 - 23\n  ## Fakultät I\n  ## Elektro- und Informationstechnik\n  ## 1 Bestandsaufnahme und Bericht auf Grundlage der aktuellen Zahlen in den verschiedenen Bereichen\n  ## 2 Ursachen/Situationsanalyse\n  ## 4 Festlegung verbindlicher Maßnahmen für den Zeitraum 2021 - 23\n  ## Fakultät II Maschinenbau und Bioverfahrenstechnik\n  ## 2 Ursachen/Situationsanalyse Freiwerdende Stellen, Fluktuationsabschätzung\n  ## 4 Festlegung verbindlicher Maßnahmen für den Zeitraum 2021 - 23\n  ## Fakultät III"
+    },
+    {
+      "nr": 23,
+      "titel": "Herzlich Willkommen an der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+      "fakultaet": "",
+      "struktur": "# Herzlich Willkommen an der Hochschule Hannover\n  ## Das Wichtigste zum Studienstart...\n    ### Auf einen Blick\n  ## Informationen aus den Fakultäten\n  ## Fakultät I - Elektro- und Informationstechnik:\n  ## Fakultät II - Maschinenbau und Bioverfahrenstechnik:\n  ## Fakultät III - Medien, Information und Design:\n  ## Fakultät IV - Wirtschaft und Informatik:\n  ## Fakultät V - Diakonie, Gesundheit und Soziales:\n  ## Wichtige Links\n  ## Weiterlesen\n  ## Termine & Fristen\n  ## Semesterbeitrag und Rückmeldung\n  ## Antragsformulare\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 24,
+      "titel": "www › Finanzmanagement › Jahresabschluss › HsH JA 2022 — BESTÄTIGUNGSVERMERK",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2022.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Jahresabschluss zum 31. Dezember 2022 und Lagebericht\n  ## BESTÄTIGUNGSVERMERK\n  ## Hochschule Hannover, Hannover\n  ## Bilanz zum 31. Dezember 2022\n  ## A k t i v a\n  ## Hochschule Hannover, Hannover\n  ## Gewinn- und Verlustrechnung für die Zeit vom 1. Januar bis 31. Dezember 2022\n  ## Hochschule Hannover Lagebericht für das Geschäftsjahr 2022\n  ## 1 Rahmenbedingungen und Geschäftsverlauf\n  ## 1.1 Hochschulstruktur\n  ## 1.2 Geschäftsverlauf\n  ## 1.3 Konsolidierungsprojekt\n  ## 1.4 Studienangebot und Studiennachfrage\n  ## 1.4.1 Entwicklung Lehrangebot\n  ## In 2021 waren noch die folgenden Studiengänge Spitzenreiter:\n  ## 1.4.2 Entwicklung Studierendenzahlen\n  ## 1.4.3 Entwicklung der Absolventinnenzahlen\n  ## 1.5 Hochschulentwicklungsplan\n  ## 1.6 Hochschulpakt und Zukunftsvertrag Studium und Lehre stärken\n  ## 1.7 Entwicklung der Forschungsaktivitäten\n  ## 1.8 Entwicklung der Zuweisungen und Zuschüsse des Landes Niedersachsen sowie der Zuschüsse Dritter und Aufträge Dritter\n  ## 1.9 Personelle Entwicklung\n  ## 1.9.1 Allgemein\n  ## 1.9.2 Entwicklung der Planstellen und VZÄ\n  ## 1.10 Entwicklungen der baulichen Anlagen und Bauvorhaben\n  ## 1.10.1 Baumaßnahmen\n  ## 1.10.2 Bauunterhaltung\n  ## 1.10.3 Bewirtschaftung\n  ## 1.11 Arbeitsschutz\n  ## 1.12 Entwicklung der (informations-)technischen Ausstattung\n  ## 1.13 Gleichstellung\n  ## 2 Wirtschaftliche Lage\n  ## 2.1 Ertragslage\n  ## 2.1.1 Erträge\n  ## 2.1.2 Aufwendungen\n  ## 2.1.3 Jahresergebnis und Rücklagen\n  ## 2.2 Finanzlage\n  ## Die Kapitalflussrechnung per 31.12.2022 ergibt folgendes Bild:\n  ## 2.3 Vermögenslage\n  ## 3 Chancen- und Risikobericht\n  ## 3.1 Finanzwirtschaft\n  ## 3.2 Personal\n  ## 3.3 Recht\n  ## 3.4 Gebäudemanagement\n  ## 3.5 Informationstechnologie\n  ## 4 Prognosebericht\n  ## Bestätigungsvermerk des unabhängigen Abschlussprüfers\n  ## Prüfungsurteile\n  ## Grundlage für die Prüfungsurteile\n  ## Verantwortung der gesetzlichen Vertreter für den Jahresabschluss und den Lagebericht"
+    },
+    {
+      "nr": 25,
+      "titel": "www › Verkuendungsblaetter › 07 2025 › hsh verkuendungsblatt nr 07 2025 — Ausgabe 07/2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/07-2025/hsh_verkuendungsblatt_nr_07_2025.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ausgabe 07/2025\n  ## Inhalt:\n  ## Richtlinie zu Aufwendungen für Repräsentation\n  ## - gilt unabhängig von der Finanzierungsquelle -\n  ## Präambel\n  ## 1. Begriffserläuterungen / Bewirtungskosten\n  ## 2. Angemessener Rahmen\n  ## 3. Mögliche Kostenübernahme\n  ## 4. Keine Kostenübernahme\n  ## 5. Kostenübernahme unter bestimmten Bedingungen\n  ## 5.1 Akademische Abschlussfeiern\n  ## 5.2 Nachrufe und Kranzspenden\n  ## 5.3 Veranstaltungen\n  ## 5.4 Geräte\n  ## 6. Kostenübernahme in besonderen Fällen\n  ## 7. Finanzierung von Repräsentationsaufwendungen, Bewirtungskosten und Betriebsausgaben\n  ## 8. Abrechnungsmodalitäten/ Ablauf der Zahlung\n  ## 8.1 Nachrufe und Kranzspenden\n  ## 8.2 Veranstaltungen\n  ## 8.3 Geräte\n  ## 8.4 Weiteres\n  ## 9. Sonstige Hinweise\n  ## 10. Inkrafttreten\n# Besonderer Teil der Prüfungsordnung für den weiterbildenden Master-Studiengang „Intelligente Produktion“ (InPro) mit dem Abschluss Master of Engineering (M.Eng) an der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Geltungsbereich der Prüfungsordnung und Übergangsregelung\n  ## § 3\n  ## Zweck der Prüfung und Hochschulgrad\n  ## §4\n  ## Dauer und Gliederung des Studiums\n  ## §5\n  ## Master-Prüfung und Master-Arbeit\n  ## § 6\n  ## Anrechnung von Studienzeiten, Studien- und Prüfungsleistungen\n  ## §7\n  ## Inkrafttreten\n  ## Änderung:\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## Allgemeiner Teil der Prüfungsordnung für die Bachelor- und Master- Studiengänge an der Fakultät IV Wirtschaft und Informatik an der Hochschule Hannover (ATPO-FIV 2025)\n  ## Erster Teil Allgemeine Vorschriften\n  ## § 1\n  ## Geltungsbereich\n  ## § 2\n  ## Zweck der Prüfungen\n  ## § 3\n  ## Prüfungsausschuss"
+    },
+    {
+      "nr": 26,
+      "titel": "www › Verkuendungsblatt › 06 2009 › 02 PO BSW BT AEnd1 23 09 2009 endg",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/06-2009/02-PO_BSW_BT_AEnd1-23-09-2009-endg.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Soziale Arbeit (BSW) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Fachhochschule Hannover\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Teilzeitstudium\n  ## § 6\n  ## Ausnahmeregelungen\n  ## § 7 Übergangsbestimmungen\n  ## § 8 Inkrafttreten\n  ## Bachelor-Studiengang Soziale Arbeit\n  ## Informationen zu den Anlagen B1 und B2\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2\n  ## Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3\n  ## Anlage B 1 / 2 Wahlweise Erster oder Zweiter Studienabschnitt gem.§ 2 Absatz 3"
+    },
+    {
+      "nr": 27,
+      "titel": "www › Verkuendungsblatt › 02 2010 › 06 BA Mechatronik 2 2010",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/02-2010/06_BA_Mechatronik-2-2010.pdf",
+      "fakultaet": "",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den dualen Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering (B.Eng) in der Fakultät II – Maschinenbau und Bioverfahrenstechnik der Fachhochschule Hannover\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3\n  ## Ausnahmeregelungen im Studienablauf\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Inkrafttreten\n  ## Studiengang Mechatronik (dual) Anlage B1 – Erster Studienabschnitt\n  ## Studiengang Mechatronik (dual) Anlage B1 – Erster Studienabschnitt"
+    },
+    {
+      "nr": 28,
+      "titel": "www › Verkuendungsblatt › 03 2012 › 11 PO Bachelor EIT",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/03-2012/11-PO_Bachelor_EIT.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Studiengang Informationstechnik (EIT) mit den Vertiefungsrichtungen Datenverarbeitung, Prozessinformatik/Automatisierungstechnik und Ingenieurinformatik\n# mit dem Abschluss Bachelor of Engineering an der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## §5\n  ## Ausnahmeregelungen\n  ## § 6 Inkrafttreten\n  ## Anlage B1 - Vertiefungsrichtung Datenverarbeitung\n  ## Anlage B2 - Vertiefungsrichtung Datenverarbeitung\n  ## Anlage B1 – Vertiefungsrichtung Prozessinformatik/Automatisierungstechnik\n  ## Anlage B2 – Vertiefungsrichtung Prozessinformatik/Automatisierungstechnik\n  ## Anlage B1 Vertiefungsrichtung Ingenieurinformatik\n  ## Anlage B2 Vertiefungsrichtung Ingenieurinformatik\n  ## Katalog der Wahlpflichtfächer"
+    },
+    {
+      "nr": 29,
+      "titel": "Fachgebiet Elektrische Antriebe und Automatisierungstechnik",
+      "url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete/elektrische-antriebe-und-automatisierungstechnik",
+      "fakultaet": "f1",
+      "struktur": "# Fachgebiet Elektrische Antriebe und Automatisierungstechnik\n  ## Das Fachgebiet Elektrische Antriebe und Automatisierungstechnik\n  ## Personen\n  ## Lehrveranstaltungen\n    ### Überblick:\n  ## Labore\n  ## Forschung und Entwicklung\n  ## Kontakt"
+    },
+    {
+      "nr": 30,
+      "titel": "www › Verkuendungsblatt › 03 2005 › Verkuendungsblatt 03 2005 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2005/03-2005/Verkuendungsblatt_03_2005.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Ordnung über besondere Zugangsvoraussetzungen und die Zulassung für den Master-Studiengang Sensor- und Automatisierungstechnik (ESA) am Fachbereich Elektro- und Informationstechnik der Fachhochschule Hannover\n  ## § 1\n  ## Zweck der Ordnung\n  ## § 2\n  ## Voraussetzungen für Zulassungen\n  ## § 3 Zulassungsantrag\n  ## § 4 Auswahlverfahren\n  ## relevante Praxiserfahrungen und Zusatzqualifikationen.\n  ## § 5 Bescheidung, Nachrückverfahren, Rechtsbehelf\n  ## § 6 Inkrafttreten\n  ## Ordnung über den Nachweis einer praktischen Ausbildung für ein Studium im Fachbereich Elektro- und Informationstechnik an der Fachhochschule Hannover\n  ## § 1\n  ## § 2\n  ## § 3\n  ## § 4\n# Ordnung für die Praxisphase(n) im Fachbereich Elektro- und Informationstechnik der Fachhochschule Hannover (Praxisphasenordnung; PraO)\n  ## § 1 Geltungsbereich\n  ## § 2 Ziele der Praxisphase(n)\n  ## § 3 Grundlegende Bestimmungen\n  ## § 4 Ausbildungsinhalte und Durchführung der Praxisphasen\n  ## § 5 Beauftragte\n  ## § 6 Praktikantenamt der Fachhochschule Hannover\n  ## § 7\n  ## Zulassung zu der/den Praxisphase(n) und Betreuung\n  ## § 8 Anerkennung der Praxisphase(n)\n  ## § 9 Vertrag über die Praxisphase(n)\n  ## § 10\n  ## Auswahl der Praxisstellen\n  ## § 11\n  ## Inkrafttreten\n  ## TÄTIGKEITSNACHWEIS\n  ## RAHMENAUSBILDUNGSPLAN\n  ## Praxisphase(n) im Fachbereich Elektro- und Informationstechnik\n  ## Ausbildungsziel:\n  ## Ausbildungsinhalt:\n  ## Ausbildungszeit :\n  ## Vertrag über die Praxisphase(n)\n  ## (bitte Zutreffendes ankreuzen)\n  ## � zusammenhängende Praxisphase � in zwei Teile geteilte Praxisphasen\n  ## § 1\n  ## Allgemeines\n  ## § 2\n  ## Pflichten der Vertragspartner\n  ## § 3\n  ## Kostenerstattungs- und Aufwandsentschädigung\n  ## § 4\n  ## Ausbildungsbetreuer/in\n  ## § 5\n  ## Urlaub"
+    },
+    {
+      "nr": 31,
+      "titel": "www › Verkuendungsblatt › 04 2011 › Gesamt 4 2011",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2011/04-2011/Gesamt-4___2011.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS) mit dem Abschluss Bachelor of Science in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik der Fachhochschule Hannover (FHH)\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung des Bachelor-Studiengangs\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5 Ausnahmeregelungen\n  ## § 6 Studiensemester im Ausland\n  ## § 7 Prüfungen\n  ## § 8 Übergangsregelungen\n  ## § 9 Inkrafttreten\n  ## Abt. Wirtschaftsinformatik\n  ## Abt. Wirtschaftsinformatik\n  ## Erster Studienabschnitt Bachelor Wirtschaftsinformatik (BIS)\n  ## Anlage B1\n  ## Notwendige Leistungsnachweise im 1. Studienabschnitt BIS:\n  ## Legende für Art der Prüfungsleistung\n  ## Abt. Wirtschaftsinformatik\n  ## Abt. Wirtschaftsinformatik\n  ## Abt. Wirtschaftsinformatik\n  ## Zweiter Studienabschnitt Bachelor Wirtschaftsinformatik (BIS)\n  ## Notwendige Leistungsnachweise im 2. Studienabschnitt BIS:\n  ## Legende für Art der Prüfungsleistung\n  ## Besonderer Teil der Prüfungsordnung für den berufsintegrierenden Bachelor-Studiengang Heilpädagogik (BHP) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Fachhochschule Hannover (FHH)\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Zugangsprüfung zweiter Studienabschnitt\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5\n  ## Ausnahmeregelungen\n  ## § 6 Inkrafttreten\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Bachelorstudiengang berufsintegrierend\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt"
+    },
+    {
+      "nr": 32,
+      "titel": "www › Verkuendungsblatt › 03 2010 › 01 PO Besonderer Teil BA Heilpaedagogik berufsintegrierend",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/03-2010/01_PO_Besonderer_Teil_BA_Heilpaedagogik_berufsintegrierend.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den berufsintegrierenden Bachelor-Studiengang Heilpädagogik (BHP) mit dem Abschluss Bachelor of Arts an der Fakultät V – Diakonie, Gesundheit und Soziales der Fachhochschule Hannover\n  ## § 1\n  ## Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 5\n  ## Zugangsprüfung zweiter Studienabschnitt\n  ## §6\n  ## Ausnahmeregelungen\n  ## § 7\n  ## Inkrafttreten\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Erster Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt Bachelor-Studiengang berufsintegrierend\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 1 Zweiter Studienabschnitt\n  ## Anlage B 2 Zweiter Studienabschnitt\n  ## Bachelor- bzw. Master-Studiengang\n  ## Anlage B 2 Zweiter Studienabschnitt"
+    },
+    {
+      "nr": 33,
+      "titel": "www › Verkuendungsblatt › 06 2012 › 02 Fakultaet I Praxisphasenordnung",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/02_Fakultaet_I_Praxisphasenordnung.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Ordnung für die Praxisphase(n) In der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover (Praxisphasenordnung; PraO)\n  ## § 1 Geltungsbereich\n  ## § 2 Ziele der Praxisphase(n)\n  ## § 3 Grundlegende Bestimmungen\n  ## § 4 Ausbildungsinhalte und Durchführung der Praxisphasen\n  ## § 5 Zulassung zu der/den Praxisphase(n) und Betreuung\n  ## § 6 Anerkennung der Praxisphase(n)\n  ## § 7 Vertrag über die Praxisphase(n)\n  ## § 8 Auswahl der Praxisstellen\n  ## § 9\n  ## Übergangsregelung\n  ## § 10 Inkrafttreten\n  ## Vertrag über eine Praxisphase\n  ## § 1\n  ## Allgemeines\n  ## Pflichten der Vertragspartner\n  ## § 3\n  ## Kostenerstattungs- und Aufwandsentschädigung\n  ## § 4\n  ## Ausbildungsbetreuer/in\n  ## § 5\n  ## Urlaub\n  ## § 6\n  ## Versicherungsschutz\n  ## § 7\n  ## Auflösung des Vertrages\n  ## § 8\n  ## Vertragsausfertigungen\n  ## § 9\n  ## Sonstige Vereinbarungen"
+    },
+    {
+      "nr": 34,
+      "titel": "www › Verkuendungsblatt › 06 2010 › 01 Besonderer Teil der Pruefungsordnung BIM — § 2 Dauer und Gliederung des Studiums",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/06-2010/01_Besonderer_Teil_der_Pruefungsordnung_BIM.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Besonderer Teil der Prüfungsordnung\n  ## für den Studiengang Informationsmanagement (BIM) mit dem Abschluss Bachelor of Arts (B.A.) der Fakultät III – Medien, Information und Design, der Abteilung Information und Kommunikation an der Fachhochschule Hannover ,\n  ## § 1 Hochschulgrad\n  ## § 2 Dauer und Gliederung des Studiums\n  ## § 3 Vorprüfung\n  ## § 4 Bachelor-Prüfung, Bachelor-Arbeit\n  ## §5 Praxisphasen\n  ## §6 Studiensemester und Mehrfachgraduierung im Ausland\n  ## §7\n  ## Anrechnung von Studienleistungen\n  ## §8 Ausnahmeregelungen\n  ## §9 Inkrafttreten\n  ## 1. Studienabschnitt (1. / 2. / 3. Semester) BIM\n  ## 2. Studienabschnitt (4. bis 7. Semester) BIM Pflichtmodule"
+    },
+    {
+      "nr": 35,
+      "titel": "www › Verkuendungsblatt › 05 2002 › Verkuendungsblatt 05 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/05-2002/Verkuendungsblatt_05_2002.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Inhalt:\n  ## § 9 Öffentlichkeit von mündlichen Prüfungen\n  ## § 15 Einstufungsprüfung\n  ## § 26 Kolloquium\n  ## Diplomurkunde\n  ## Prüfungsordnung\n  ## für die Abschlüsse Bachelor of Arts und Bachelor of Arts honors in den Studiengängen Journalistik und PR/ Öffentlichkeitsarbeit an der Fachhochschule Hannover\n  ## Erster Teil\n  ## Allgemeine Vorschriften\n  ## § 1 Zweck der Prüfungen\n  ## § 2 Hochschulgrad\n  ## § 4 Prüfungsausschuss\n  ## § 5 Prüfende und Beisitzerinnen oder Beisitzer\n  ## § 6 Anrechnung von Studienzeiten, Studien- und Prüfungsleistungen\n  ## § 7 Zulassung\n  ## § 8 Aufbau der Prüfungen, Arten der Prüfungs- und Studienleistungen\n  ## § 9 Öffentlichkeit von mündlichen Prüfungen\n  ## § 10 Versäumnis, Rücktritt, Täuschung, Ordnungsverstoß\n  ## § 11 Bewertung der Prüfungsleistung und Bildung der Fachnote\n  ## (4) 1Die Note lautet:\n  ## § 12 Wiederholung von Prüfungsleistungen, Freiversuch\n  ## § 13 Zeugnisse und Bescheinigungen\n  ## § 14 Zusatzprüfungen\n  ## § 15 Einstufungsprüfung\n  ## § 16 Ungültigkeit von Prüfungen\n  ## § 17 Einsicht in die Prüfungsakte\n  ## § 18 Hochschulöffentliche Bekanntmachungen des Prüfungsausschusses\n  ## § 19 Einzelfallentscheidungen, Widerspruchsverfahren\n  ## Zweiter Teil\n  ## Bachelor-of-Arts-Prüfung\n  ## § 20 Art und Umfang\n  ## § 21 Zulassung zu der Bachelor-of-Arts-Abschlussarbeit\n  ## § 22 Bachelor-of-Arts-Abschlussarbeit\n  ## § 23 Wiederholung der Abschlussarbeit\n  ## § 24 Gesamtergebnis der Prüfung\n  ## Dritter Teil\n  ## Bachelor-of-Arts-honors-Prüfung\n  ## § 25 Art und Umfang\n  ## 1.) den Fachprüfungen,\n  ## § 26 Zulassung zur Thesis\n  ## § 27 Bachelor-of-Arts-honors-Abschlussarbeit\n  ## § 28 Kolloquium\n  ## § 29 Wiederholung der Thesis\n  ## § 30 Gesamtergebnis der Bachelor-of-Arts-honors-Prüfung\n  ## Vierter Teil\n  ## Schlussvorschriften\n  ## § 31 Übergangsvorschriften\n  ## § 32 Inkrafttreten\n  ## Bachelor of Arts-Urkunde/ Bachelor of Arts honors-Urkunde)"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 2,
+      "titel": "Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters"
+    },
+    {
+      "nr": 1,
+      "titel": "f1 › semesterstart 1",
+      "url": "https://f1.hs-hannover.de/semesterstart-1"
+    },
+    {
+      "nr": 5,
+      "titel": "Mit Durchblick durchs Studium",
+      "url": "https://f1.hs-hannover.de/studium/studienstart"
+    },
+    {
+      "nr": 23,
+      "titel": "Herzlich Willkommen an der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters > 18.09.2026",
+      "snippets": [
+        "# Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters  \n##  18.09.2026\n09:00 Uhr\nDie Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters (inkl. ITR) findet am Freitag, 18.09.2026 um 09:00 Uhr im Audimax (Raum 1A.1.02, Campus Linden) durch den Dekan Prof. Dr. Frank Freund statt.\nIm Anschluss lädt die Erstsemesterinitiative der Fachschaft nach einer kurzen Vorstellung zu einem Rundgang durch die Hochschule und einem gemeinsamen Kennenlernen ein.\n[ Teilen ](https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters \"Teilen\")"
+      ],
+      "zitate": [
+        "im Audimax (Raum 1A.1.02, Campus Linden)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f1 › semesterstart 1",
+      "url": "https://f1.hs-hannover.de/semesterstart-1",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Semesterstart",
+      "snippets": [
+        "## Begrüßungen\n##\n[ Erstsemesterbegrüßung aller Bachelor-Studiengänge ](https://f1.hs-hannover.de/semesterstart-1 \"Erstsemesterbegrüßung aller Bachelor-Studiengänge\")\nDie Begrüßung durch den Dekan Prof. Dr. Frank Freund findet am **Freitag, 18.09.2026 um 09:00 Uhr im Audimax (Raum 1A.1.02, Campus Linden)** statt.\nIm Anschluss lädt die Erstsemesterinitiative der Fachschaft nach einer kurzen Vorstellung zu einem Rundgang durch die Hochschule und einem gemeinsamen Kennenlernen ein.\n[ Zusätzliche Erstsemesterbegrüßung der NEV-Studierenden ](https://f1.hs-hannover.de/semesterstart-1 \"Zusätzliche Erstsemesterbegrüßung der NEV-Studierenden\")\nDie **zusätzliche** **Begrüßung** der Studierenden im Studiengang Nachhaltige Elektrische Energieversorgung (NEV) findet am **Montag, 21.09.2026 um 08:45 Uhr im Raum 1B.0.11** statt.****\n[ Zusätzliche Erstsemesterbegrüßung der MAT-Studierenden ](https://f1.hs-hannover.de/semesterstart-1 \"Zusätzliche Erstsemesterbegrüßung der MAT-Studierenden\")"
+      ],
+      "zitate": [
+        "im Audimax (Raum 1A.1.02, Campus Linden)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Mit Durchblick durchs Studium",
+      "url": "https://f1.hs-hannover.de/studium/studienstart",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Mit Durchblick durchs Studium > [Erstsemesterinformationen der Fakultät I ](https://f1.hs-hannover.de/semesterstart-1)",
+      "snippets": [
+        "### [Erstsemesterinformationen der Fakultät I ](https://f1.hs-hannover.de/semesterstart-1)\n[ Weiterlesen ](https://f1.hs-hannover.de/semesterstart-1)\n[ ![](https://f1.hs-hannover.de/fileadmin/_processed_/1/0/csm_hoersaal_180b33cd5d.jpg) ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen)",
+        "### [Allgemeine Erstsemesterinformationen der Hochschule Hannover](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen)\n[ Weiterlesen ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen)\n[ ![](https://f1.hs-hannover.de/fileadmin/_processed_/8/f/csm__RL83767k_fe10864e27.jpg) ](https://service.it.hs-hannover.de/de/willkommen/#id_Hilfe%20bei%20Fragen%20im%20Zusammenhang%20mit%20Ihrem%20Studium8)"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "Herzlich Willkommen an der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Herzlich Willkommen an der Hochschule Hannover > Informationen aus den Fakultäten > Herzlich Willkommen an der Hochschule Hannover > Fakultät I - Elektro- und Informationstechnik:",
+      "snippets": [
+        "## Informationen aus den Fakultäten\n\n## Fakultät I - Elektro- und Informationstechnik:\n![](https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Bilder_Teaser/Fak.I.png?rbiFocus=mobile)\n* [Standorte & Öffnungszeiten](https://f1.hs-hannover.de/service/standorte-oeffnungszeiten)\n* [Brückenkurse](https://f1.hs-hannover.de/brueckenkurse/)\n* [Informationen zum Studienstart](https://f1.hs-hannover.de/semesterstart-1)\n* [Aktuelles](https://f1.hs-hannover.de/aktuelles)",
+        "## Das Wichtigste zum Studienstart...\nSie haben sich für einen Studiengang der Hochschule Hannover entschieden und wurden zum Studium zugelassen.\nZur ersten Orientierung bieten wir Ihnen auf dieser Seite Informationen, die für Sie zu Beginn Ihres Studiums besonders wichtig sind.\nAm besten schauen Sie sich die folgenden Seiten erst einmal in Ruhe an und notieren sich alle für Sie wichtigen Termine und Hinweise.\n**Bitte beachten Sie, dass Ihr Studium evtl. mit einer Einführungsveranstaltung oder einem Brückenkurs zu einem anderen Zeitpunkt beginnt.**\nInformieren Sie sich daher unbedingt direkt auf der Website Ihrer zukünftigen Fakultät. Die Verlinkungen zu den einzelnen Websiten finden Sie weiter unten auf dieser Seite."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.99501,
+      "id": "a4995ec1-605c-5ee7-9347-5a6c631740c9",
+      "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+      "title_anzeige": "f1 › semesterstart 1",
+      "section_heading": "Semesterstart",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "![](https://f1.hs-hannover.de/fileadmin/_processed_/6/f/csm_MK_EIT_Lerngruppe_01_ddedaf826c.jpg?rbiFocus=mobile)\n\n#  Semesterstart\n_ _\nScrollen für mehr Infos!\nLiebe Studierende der Fakultät I,\nwir freuen uns sehr, dass Sie sich für ein Studium an der Fakultät I - Elektro- und Informationstechnik en"
+    },
+    {
+      "rang": 2,
+      "score": 2.31563,
+      "id": "7e7040e9-7aac-5557-b8e4-58b8b90cc7af",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters",
+      "title_anzeige": "Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "section_heading": "Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters > 18.09.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters  \n##  18.09.2026\n09:00 Uhr\nDie Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters (inkl. ITR) findet am Freitag, 18.09.2026 um 09:00 Uhr im Audimax (Raum 1A.1.02, Campus Linden) durch den Dekan Prof. Dr. Frank Freund statt.\nIm Ansc"
+    },
+    {
+      "rang": 3,
+      "score": 2.23085,
+      "id": "9ddcc249-8e75-56d7-8a86-4585c3d93a7b",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee: > Die Fakultät I in Zahlen",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "#  Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee:\n[ Studiengänge ](https://f1.hs-hannover.de/studium) [ Bewerbungsportal ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/bewerbung \"Bewerbungsportal HsH\")\n\n## Die Fakultät I in Zahlen\nStudier"
+    },
+    {
+      "rang": 4,
+      "score": 2.16983,
+      "id": "aa891a4f-0dc9-5143-8f29-c13a6ea4f01e",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen",
+      "title_anzeige": "f1 › aktuelles › veranstaltungen",
+      "section_heading": "Veranstaltungen > Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n| [Zur Veranstaltung](https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters)  |\n|  21.09.2026  08:45 Uhr"
+    },
+    {
+      "rang": 5,
+      "score": 2.09215,
+      "id": "ef6ccfab-b94f-5219-82fa-9b39382140df",
+      "source_url": "https://f1.hs-hannover.de/studium/studienstart",
+      "title_anzeige": "Mit Durchblick durchs Studium",
+      "section_heading": "Mit Durchblick durchs Studium > [Erstsemesterinformationen der Fakultät I ](https://f1.hs-hannover.de/semesterstart-1)",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### [Erstsemesterinformationen der Fakultät I ](https://f1.hs-hannover.de/semesterstart-1)\n[ Weiterlesen ](https://f1.hs-hannover.de/semesterstart-1)\n[ ![](https://f1.hs-hannover.de/fileadmin/_processed_/1/0/csm_hoersaal_180b33cd5d.jpg) ](https://www.hs-hannover.de/ueber-uns/organisation/akademische"
+    },
+    {
+      "rang": 6,
+      "score": 2.01696,
+      "id": "da03bd16-14a7-55c7-9370-62d940bcd9bd",
+      "source_url": "https://f1.hs-hannover.de",
+      "title_anzeige": "Studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Wo stehen Sie in fünf Jahren? Wir hätten da eine Idee: > Events > Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n[Zur Veranstaltung](https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters)\n[Mehr Veranstaltungen](https://f1.hs-hannover.de/aktuelles/veranstaltungen)"
+    },
+    {
+      "rang": 7,
+      "score": 2.00694,
+      "id": "820b83d9-8a41-5742-8a41-c4fa423407be",
+      "source_url": "https://f1.hs-hannover.de/semesterstart-1",
+      "title_anzeige": "f1 › semesterstart 1",
+      "section_heading": "Semesterstart > Begrüßungen > Semesterstart",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Begrüßungen\n##\n[ Erstsemesterbegrüßung aller Bachelor-Studiengänge ](https://f1.hs-hannover.de/semesterstart-1 \"Erstsemesterbegrüßung aller Bachelor-Studiengänge\")\nDie Begrüßung durch den Dekan Prof. Dr. Frank Freund findet am **Freitag, 18.09.2026 um 09:00 Uhr im Audimax (Raum 1A.1.02, Campus Li"
+    },
+    {
+      "rang": 8,
+      "score": 1.92724,
+      "id": "03724501-f2b5-5e06-b3b1-f77f345fb725",
+      "source_url": "https://f1.hs-hannover.de/studium/internationales/information-for-incomings",
+      "title_anzeige": "Information for Incomings",
+      "section_heading": "Information for Incomings > Welcome to Faculty I – Electrical Engineering and Information Technology",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Information for Incomings  \n## Welcome to Faculty I – Electrical Engineering and Information Technology\nThank you for your interest in our university, we would be happy to welcome you at our faculty.\nEvery year, students from different countries study at University of Applied Sciences and Arts in"
+    },
+    {
+      "rang": 9,
+      "score": 1.91034,
+      "id": "57319fae-a700-51ea-85eb-47baaa30faac",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik > Sprechen Sie sich aus.",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "## Sprechen Sie sich aus.\nDas waren viele Informationen, die erstmal verdaut werden müssen. Sie haben Fragen oder Anregungen? Wenden Sie sich gern an uns!\n#### FAKULTÄT I – ELEKTRO- UND INFORMATIONSTECHNIK\nFür die Fakultät I Elektro- und Informationstechnik ist Ihre erste Anlaufstelle das [Dekanat]("
+    },
+    {
+      "rang": 10,
+      "score": 1.81002,
+      "id": "508f16ca-b618-57ea-8df4-4a128ea2a616",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen",
+      "title_anzeige": "f1 › aktuelles › veranstaltungen",
+      "section_heading": "Veranstaltungen > Begrüßung aller Master-Studierenden des 1. Fachsemesters",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "### Begrüßung aller Master-Studierenden des 1. Fachsemesters\n| [Zur Veranstaltung](https://f1.hs-hannover.de/aktuelles/veranstaltungen/erstsemesterbegruessung-aller-master-studierenden)  |\n|  29.09.2026  13:45 Uhr"
+    },
+    {
+      "rang": 11,
+      "score": 1.70821,
+      "id": "d8d1da35-e8a8-5875-b102-4f63be6a6f56",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-technisches-informationsdesign-und-technische-redaktion-itr",
+      "title_anzeige": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Technisches Informationsdesign und Technische Redaktion (ITR)",
+      "section_heading": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Technisches Informationsdesign und Technische Redaktion (ITR) > 21.09.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Zusätzliche Erstsemesterbegrüßung des Studiengangs Technisches Informationsdesign und Technische Redaktion (ITR)  \n##  21.09.2026\n08:45 Uhr\nDie zusätzliche Begrüßung der Erstsemester des Studiengangs Technisches Informationsdesign und Technische Redaktion findet am Montag, 21.09.2026 um 08:45 Uhr "
+    },
+    {
+      "rang": 12,
+      "score": 1.67265,
+      "id": "ebf0d8e6-892e-556d-889d-599102d4dafb",
+      "source_url": "https://f1.hs-hannover.de/service-1-2",
+      "title_anzeige": "- Ordnungen - Module - Akkreditierungen -",
+      "section_heading": "- Ordnungen - Module - Akkreditierungen - > Auf dieser Seite sind für Studierende und Interessierte ausführliche Informationen zu Ordnungen, Modulen und Studienstrukturen aller Studiengänge der Fakultät I aufgelistet. > - Ordnungen - Module - Akkreditierungen - > Auf einen Blick",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Auf dieser Seite sind für Studierende und Interessierte ausführliche Informationen zu Ordnungen, Modulen und Studienstrukturen aller Studiengänge der Fakultät I aufgelistet.\n\n### Auf einen Blick\n* [ Ordnungen ](https://f1.hs-hannover.de/service-1-2#ordnungen)\n* [ Module ](https://f1.hs-hannover."
+    },
+    {
+      "rang": 13,
+      "score": 1.66962,
+      "id": "96b73455-32ae-5171-909a-d998376c935e",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-nachhaltige-elektrische-energieversorgung-nev",
+      "title_anzeige": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV)",
+      "section_heading": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV) > 21.09.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV)  \n##  21.09.2026\n08:45 Uhr\nDie zusätzliche Begrüßung der Erstsemester des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV) findet am Montag, 21.09.2026 um 08:45 Uhr durch die Studiengangs"
+    },
+    {
+      "rang": 14,
+      "score": 1.62456,
+      "id": "03e55fa9-47e3-53c4-85f6-8181c05ea05f",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-angewandte-mathematik-und-data-science-mat",
+      "title_anzeige": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Angewandte Mathematik und Data Science (MAT)",
+      "section_heading": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Angewandte Mathematik und Data Science (MAT) > 21.09.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Zusätzliche Erstsemesterbegrüßung des Studiengangs Angewandte Mathematik und Data Science (MAT)  \n##  21.09.2026\n08:45 Uhr\nDie zusätzliche Begrüßung der Erstsemester des Studiengangs Angewandte Mathematik und Data Science findet am Montag, 21.09.2026 um 08:45 Uhr durch die Studiengangssprecherin P"
+    },
+    {
+      "rang": 15,
+      "score": 1.57411,
+      "id": "3c9c0052-7db9-52d6-98fe-4b292d1e328a",
+      "source_url": "https://f1.hs-hannover.de/studium/elektrotechnik-und-informationstechnik-dual",
+      "title_anzeige": "Dual Studieren in der Elektro- und Informationstechnik",
+      "section_heading": "Dual Studieren in der Elektro- und Informationstechnik > Bachelor Studiengänge der Fakultät I im dualen Studienkonzept",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "##  Bachelor Studiengänge der Fakultät I im dualen Studienkonzept\nDie Fakultät I Elektro- und Informationstechnik der Hochschule Hannover bietet in Kooperation mit verschiedenen Firmen und Berufsschulen seit vielen Jahren ein erfolgreiches duales Studienkonzept an. Das Studienmodell im Praxisverbund"
+    },
+    {
+      "rang": 16,
+      "score": 1.56885,
+      "id": "9afb2174-11b3-5b29-9948-aa4796444241",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/20_Praxisphasenordnung/01_Praxisphasenordnung_F1_2024_v06.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 20 Praxisphasenordnung › 01 Praxisphasenordnung F1 2024 v06",
+      "section_heading": "**Ordnung über die Praxisphase in den Bachelor-Studiengängen der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **§ 1** > **Geltungsbereich**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **Ordnung über die Praxisphase in den Bachelor-Studiengängen der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**\n\n## **§ 1**\n\n## **Geltungsbereich**  \nDiese Ordnung gilt für alle Bachelor-Studiengänge der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannove"
+    },
+    {
+      "rang": 17,
+      "score": 1.56708,
+      "id": "35452d01-0dd7-53dc-8ec4-69461e2d9776",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/erstsemesterbegruessung-aller-master-studierenden",
+      "title_anzeige": "Begrüßung aller Master-Studierenden des 1. Fachsemesters",
+      "section_heading": "Begrüßung aller Master-Studierenden des 1. Fachsemesters > 21.09.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Begrüßung aller Master-Studierenden des 1. Fachsemesters  \n##  21.09.2026\n09:00 Uhr\nDie Erstsemesterbegrüßung der Master-Studiengänge findet am Montag, 21.09.2026 um 08:45 Uhr statt:\nMaster ESA (Sensor- u. Automatisierungstechnik): Raum 1B.0.09\nMaster EEE (Elektrische Energiesysteme u. Elektromobi"
+    },
+    {
+      "rang": 18,
+      "score": 1.47404,
+      "id": "f3ab9d96-5805-5629-8ced-badea7156221",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/Verk_2025_01_F_I__EIT_BTPO.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EIT › Verk 2025 01 F I EIT BTPO — der Hochschule Hannover",
+      "section_heading": "**für den Bachelor-Studiengang Elektrotechnik und Informationstechnik (EIT) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I – Elektro- und Informationstechnik** > **§ 9** > **für den Bachelor-Studiengang Elektrotechnik und Informationstechnik (EIT) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I – Elektro- und Informationstechnik** > **Übergangsbestimmungen**",
+      "chunk_index": 15,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Elektrotechnik und Informationstechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschl"
+    },
+    {
+      "rang": 19,
+      "score": 1.45034,
+      "id": "0858bbe6-2029-577d-bd84-81e578ddb145",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/verk_2025_05_F_I__ITR_BTPO.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › ITR › verk 2025 05 F I ITR BTPO",
+      "section_heading": "**§ 8** > **Übergangsbestimmungen**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 8**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttreten dieser Ordnung im Bachelor-Studiengang Technisches Informationsdesign und Technische Redaktion der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfun"
+    },
+    {
+      "rang": 20,
+      "score": 1.44594,
+      "id": "6104618c-59d2-576d-a02a-f78584a0c9ed",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge",
+      "title_anzeige": "f1 › studium › studiengaenge und programme › bachelor studiengaenge",
+      "section_heading": "Bachelorstudiengänge",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Bachelorstudiengänge  \nVon A wie Angewandte Mathematik bis W wie Wirtschaftsingenieur bietet die Fakultät I verschiedene Bachelorstudiengänge mit attraktiven Berufsbildern und hervorragenden Aussichten für den Berufseinstieg"
+    },
+    {
+      "rang": 21,
+      "score": 1.4366,
+      "id": "b5a486ef-8477-5287-9ffd-465be759a8bf",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+      "title_anzeige": "f1 › 99 Sonstiges › Internationales › Brochure Faculty I II 2026 — Hochschule Hannover",
+      "section_heading": "Faculty I - Electrical Engineering and Information Technologyogy",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## Faculty I - Electrical Engineering and Information Technologyogy  \nThe Engineering Faculties  \nFaculty I offers a high quality engineering education leading to a bachelor or a master degree.  \nGenerally, a bachelor programme takes 7 semesters to complete, including an industrial placement. The de"
+    },
+    {
+      "rang": 22,
+      "score": 1.42641,
+      "id": "68c1594d-45f8-51af-b177-6c1280562959",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_15.05.2026.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › BPO MAT 15.05.2026",
+      "section_heading": "**der Hochschule Hannover** > **§ 8** > **der Hochschule Hannover** > **Übergangsbestimmungen**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 8**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Angewandte Mathematik und Data Science der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschl"
+    },
+    {
+      "rang": 23,
+      "score": 1.41876,
+      "id": "ff0d7ec1-7df5-51f2-8169-276b976fd081",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/ATPO_2015.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 10 Pruefungsordnungen › ATPO 2015",
+      "section_heading": "**Vierter Teil Schlussvorschriften** > **§ 25** > **Übergangsvorschriften**",
+      "chunk_index": 82,
+      "text_vollstaendig": true,
+      "auszug": "## **Vierter Teil Schlussvorschriften**\n\n## **§ 25**\n\n## **Übergangsvorschriften**  \n- (1) Studierende, die zum Zeitpunkt des Inkrafttretens dieser Ordnung in einem DiplomStudiengang studieren, können auf Antrag in den Bachelor-Studiengang wechseln. Für die Anerkennung erbrachter Leistungen gilt § 5"
+    },
+    {
+      "rang": 24,
+      "score": 1.4171,
+      "id": "e88fc22d-44e2-52df-8f90-bf6ec438a91d",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Brueckenkurs/2026-1_Brueckenkurs-Termine.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Brueckenkurs › 2026 1 Brueckenkurs Termine — Mathe (Prof.in Dippel) – 16.02. 20.02.26 und 23.02.25",
+      "section_heading": "**Fakultät I Brückenkurs Sommersemester 2026 16.02. – 26.02.2026** > **Begrüßung: Montag, 16.02.2026 um 09.00 Uhr im Audimax (Raum 1A.1.02)** > **Mathe (Prof.in Dippel) – 16.02. 20.02.26 und 23.02.25**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Fakultät I Brückenkurs Sommersemester 2026 16.02. – 26.02.2026**\n\n## **Begrüßung: Montag, 16.02.2026 um 09.00 Uhr im Audimax (Raum 1A.1.02)**\n\n## **Mathe (Prof.in Dippel) – 16.02. 20.02.26 und 23.02.25**  \n|Mo., 16.02.\nbis\nFr., 20.02.26\nund\nMo., 23.02.26|09.00-12.30|**Vorlesung**|16.-17. u. 23."
+    },
+    {
+      "rang": 25,
+      "score": 1.41434,
+      "id": "6f9490fa-6196-5024-aef7-a9e8af6a8ae2",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > **Wie geht‘s weiter? Zusätzliche Begrüßungen der einzelnen Studiengänge:**",
+      "chunk_index": 59,
+      "text_vollstaendig": true,
+      "auszug": "## **Wie geht‘s weiter? Zusätzliche Begrüßungen der einzelnen Studiengänge:**  \n**Start der Vorlesungen:**  \nWeitere Informationen: https://f1.hs-hannover.de/semesterstart-1 Hochschule Hannover _Dekan Prof. Dr.-Ing. Frank Freund_ Erstsemesterinformation 01.03.2024  \nMontag, 02.03.26, 10 Uhr **nach S"
+    },
+    {
+      "rang": 26,
+      "score": 1.40456,
+      "id": "80617502-68b0-5351-bb20-d338b6f046d2",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_2021-Angewandte_Mathematik_und_Data_Science_verkuendet.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › BPO 2021 Angewandte Mathematik und Data Science verkuendet",
+      "section_heading": "**in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover (MAT PO 2021)** > **§ 10** > **in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover (MAT PO 2021)** > **Übergangsbestimmungen**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 10**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttreten dieser Ordnung im Bachelor-Studiengang Angewandte Mathematik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, längstens "
+    },
+    {
+      "rang": 27,
+      "score": 1.40259,
+      "id": "bd07f824-48bd-5805-a70e-e9d89cc68b68",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/01_F_I_PO_EIT_2019.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EIT › 01 F I PO EIT 2019",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **§ 11** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **Übergangsbestimmungen**",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 11**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Elektrotechnik und Informationstechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung absch"
+    },
+    {
+      "rang": 28,
+      "score": 1.39661,
+      "id": "2690c1c5-591e-5435-859e-25e088f45b87",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Erstsemesterinformation 27.02.2026  \nDekan Prof. Dr.-Ing. Frank Freund  \n**Fakultät I – Elektro- und Informationstechnik** _Dekanat und Verwaltung der Fakultät_  \nDekan: Prof. Dr.-Ing. Frank Freund Studiendekan: Prof. Dr.-Ing. Jan Peter Blath : Organisation/Beratung/Prüfungsangelegenheiten Herr Li"
+    },
+    {
+      "rang": 29,
+      "score": 1.36027,
+      "id": "d044a2f1-b9f7-5e3e-98f3-4735bc9ec202",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Brueckenkurs/2026-1_Brueckenkurs_Einladung.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Brueckenkurs › 2026 1 Brueckenkurs Einladung",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Hochschule Hannover • Ricklinger Stadtweg 120, 30459 Hannover  \nAn die zukünftigen Studierenden der Fakultät I Elektro- und Informationstechnik"
+    },
+    {
+      "rang": 30,
+      "score": 1.34203,
+      "id": "b6960479-71a3-57a5-8130-02486884a367",
+      "source_url": "https://f1.hs-hannover.de/studium/internationales/information-for-incomings/further-recommendations",
+      "title_anzeige": "Further Recommendations",
+      "section_heading": "Further Recommendations > Welcome Weeks",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Welcome Weeks\nThe Welcome Weeks take place two weeks before the start of winter term and we highly recommend all guest students to take part. It offers you the opportunity to start successfully into your studies, to meet other visiting students, to find new friends and to earn credits by particip"
+    },
+    {
+      "rang": 31,
+      "score": 1.29416,
+      "id": "84591bac-b11b-5ed7-a71e-bf9d4cf7945f",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-der-studymint-studierenden",
+      "title_anzeige": "Zusätzliche Erstsemesterbegrüßung des Studiengangs StudyMINT",
+      "section_heading": "Zusätzliche Erstsemesterbegrüßung des Studiengangs StudyMINT > 21.09.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Zusätzliche Erstsemesterbegrüßung des Studiengangs StudyMINT  \n##  21.09.2026\n08:45 Uhr\nDie zusätzliche Begrüßung der StudyMINT-Studierenden findet am Montag, 21.09.2026 um 08:45 Uhr, Raum 1E.0.20 statt.\n[ Teilen ](https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegrue"
+    },
+    {
+      "rang": 32,
+      "score": 1.27031,
+      "id": "b6b116e9-9f97-5d9d-9b9c-8a32d7d6dbc6",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MAT/BPO_MAT_verk25.09.2023.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MAT › BPO MAT verk25.09.2023",
+      "section_heading": "**§ 10** > **Übergangsbestimmungen**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 10**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttreten dieser Ordnung im Bachelor-Studiengang Angewandte Mathematik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, längstens "
+    },
+    {
+      "rang": 33,
+      "score": 1.26903,
+      "id": "b72a5c0f-badf-52c8-aa56-3945afb8b983",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/news",
+      "title_anzeige": "f1 › aktuelles › news",
+      "section_heading": "News > [ Herzlich willkommen, Prof. Dr. Lena Sachse! ](https://www.hs-hannover.de/ueber-uns/organisation/kom/aktuelles/herzlich-willkommen-prof-dr-lena-sachse)",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "### [ Herzlich willkommen, Prof. Dr. Lena Sachse! ](https://www.hs-hannover.de/ueber-uns/organisation/kom/aktuelles/herzlich-willkommen-prof-dr-lena-sachse)\nSeit dem 01. Juli 2026 übernimmt Prof. Dr. Lena Sachse an der Fakultät V – Diakonie, Gesundheit und Soziales, Abteilung Pflege und Gesundheit, "
+    },
+    {
+      "rang": 34,
+      "score": 1.26006,
+      "id": "4cd0681c-cb8b-5bdd-a523-c78622ad7cc8",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/zusaetzliche-erstsemesterbegruessung-des-studiengangs-nachhaltige-elektrische-energieversorgung-nev",
+      "title_anzeige": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV)",
+      "section_heading": "Zusätzliche Erstsemesterbegrüßung des Studiengangs Nachhaltige Elektrische Energieversorgung (NEV) > 21.09.2026 > Veranstaltungsort",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "### Veranstaltungsort\nHochschule Hannover, Fakultät I – Elektro- und Informationstechnik, Campus Linden\nRicklinger Stadtweg 120\n30459 Hannover\nDeutschland\n1B.0.11  \n[ Lageplan  ](https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-linden/ \"La"
+    },
+    {
+      "rang": 35,
+      "score": 1.2409,
+      "id": "40e19d62-4959-52b0-a0b3-299977c67979",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/gleichstellung-und-diversitaet",
+      "title_anzeige": "Gleichstellung und Diversität",
+      "section_heading": "Gleichstellung und Diversität > Herzlich willkommen",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Gleichstellung und Diversität  \n## Herzlich willkommen\nauf den Seiten des Gleichstellungsbüros der Fakultät I. Sie können sich hier über Fördermöglichkeiten und Hilfsangebote informieren, einen individuellen Gesprächstermin vereinbaren oder den für Sie und Ihr Anliegen passenden Gespächspartner r"
+    },
+    {
+      "rang": 36,
+      "score": 1.23167,
+      "id": "0a58b972-84f8-5c5d-86e0-dda216167382",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/68_EAE_WS2025_Stand_15.04.2025_01.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 68 EAE WS2025 Stand 15.04.2025 01 — Studiengang Elektrotechnik und Informationstechnik",
+      "section_heading": "**Modulhandbuch** > Studiengang Elektrotechnik und Informationstechnik",
+      "chunk_index": 0,
+      "text_vollstaendig": false,
+      "auszug": "## **Modulhandbuch**\n\n## Studiengang Elektrotechnik und Informationstechnik  \n(Bachelor of Engineering)  \nVertiefung Elektrische Antriebs- und Energiesysteme  \nPrüfungsordnung: Wintersemester 2025/26  \n**Fakultät I - Elektro- und Informationstechnik Studiengang Elektrotechnik und Informationstechnik"
+    },
+    {
+      "rang": 37,
+      "score": 1.22487,
+      "id": "54134c0d-ce51-5dd0-947b-9a853d9965a9",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/verk_2025_05_F_I__ITR_BTPO.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › ITR › verk 2025 05 F I ITR BTPO",
+      "section_heading": "**§ 7** > **Teilzeitstudium**",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7**\n\n## **Teilzeitstudium**  \n- (1) Das Studium ist teilzeitgeeignet. Ein Teilzeitstudium muss jeweils für ein Studienjahr in Teilzeit beantragt werden. Der Antrag auf ein Teilzeitstudium ist jeweils innerhalb der Rückmeldefristen einzureichen. Abweichend von den Rückmeldefristen können Studi"
+    },
+    {
+      "rang": 38,
+      "score": 1.20884,
+      "id": "35f6d8f3-cd29-5e6d-abcf-a23b40de7c4a",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Flyer_GOING_OUT_FI_A4_2023-neues_Bild.pdf",
+      "title_anzeige": "f1 › 20 Dokumente › 99 Sonstiges › Flyer GOING OUT FI A4 2023 neues Bild — Studienmöglichkeiten",
+      "section_heading": "Partnerhochschulen der Fakultät I > GoING Out StudyING Abroad > Erasmus+ non-Erasmus+",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## Partnerhochschulen der Fakultät I\n\n## GoING Out StudyING Abroad  \n## GoING Out StudyING Abroad\n## Erasmus+ non-Erasmus+  \n|Erasmus+|non-Erasmus+|non-Erasmus+|\n|---|---|---|\n||||\n|Óbuda Budapest, Ungarn\nhttp://erasmus.uni-obuda.hu/\nen/subject-list\nEnschede, Niederlande\n(nur für  den Studiengang EI"
+    },
+    {
+      "rang": 39,
+      "score": 1.1898,
+      "id": "a2c9a18f-9874-5f46-8a1b-bd6a5e006f53",
+      "source_url": "https://f1.hs-hannover.de/studium",
+      "title_anzeige": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "section_heading": "Studium an der Fakultät I Elektro- und Informationstechnik",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Studium an der Fakultät I Elektro- und Informationstechnik\n_ _\nScrollen für mehr Infos!\n[ ![Bachelorstudiengänge](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/30_Grafiken/10_Kacheln_f_Seitenwahl/b_std.jpg?rbiFocus=mobile) ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bach"
+    },
+    {
+      "rang": 40,
+      "score": 1.18751,
+      "id": "b05c05a8-27a0-5496-8945-957446fedb6f",
+      "source_url": "https://f1.hs-hannover.de/teilzeitstudium",
+      "title_anzeige": "Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik",
+      "section_heading": "Teilzeit studieren an der Fakultät I - Elektro- und Informationstechnik > Mögliche Studiengänge für ein Teilzeitstudium",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Mögliche Studiengänge für ein Teilzeitstudium\nDas Teilzeitstudium ist an der Fakultät I für diese Studiengänge möglich:\n* Angewandte Mathematik und Data Science (Bachelor)\n* Elektrotechnik und Informationstechnologie (Bachelor)\n* Mechatronik (Bachelor)\n* Technisches Informationsdesign (Bachelor)\n"
+    },
+    {
+      "rang": 41,
+      "score": 1.17968,
+      "id": "46b66afa-2ad1-57e8-a4a5-2360d0b72619",
+      "source_url": "https://f1.hs-hannover.de/studium/internationales",
+      "title_anzeige": "Wege ins Ausland",
+      "section_heading": "Wege ins Ausland > Neue Wege gehen",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Neue Wege gehen\nAuslandssemester, Praktikum, Sprachkurs oder Summerschool – egal welchen Weg Sie ins Ausland wählen:\nIhr Auslandsaufenthalt bietet für Sie viele Vorteile. Die Kombination aus Auslandserfahrung und der Möglichkeit, Ihr Studienfach von einer anderen Perspektive kennen zu lernen ist "
+    },
+    {
+      "rang": 42,
+      "score": 1.1796,
+      "id": "eabf6fdd-978f-5813-b36d-ee9c3e7b3578",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › 20160518 BPO MEC verk",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **§ 11** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **Übergangsbestimmungen**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 11**\n\n## **Übergangsbestimmungen**  \n- (1) Dieser Besondere Teil der Prüfungsordnung gilt für Studierende, die ab 01.09.2015 im Bachelor-Studiengang Mechatronik im 1. Fachsemester das Studium aufnehmen.  \n- (2) Studierende, die sich zum Zeitpunkt des Inkrafttretens dieser Ordnung, im zweiten "
+    },
+    {
+      "rang": 43,
+      "score": 1.17521,
+      "id": "b1a9d4fb-0b05-5975-9a01-840705c9bd1b",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Engl._Lectures-FI-II_WS_25-26.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 60 Sonstige › Engl. Lectures FI II WS 25 26",
+      "section_heading": "**WELCOME WEEKS**",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## **WELCOME WEEKS**  \nBefore the classes will start, we highly recommend all our exchange students to participate in the welcome weeks / student orientation program. Details will be given to you from the Incoming services. It will offer a chance for you to have a good start in an international envi"
+    },
+    {
+      "rang": 44,
+      "score": 1.16708,
+      "id": "f8fad38f-16c7-5717-935a-1c46fa9a83da",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/informationsveranstaltung-fuer-studierende-zu-auslandsstudienmoeglichkeiten",
+      "title_anzeige": "Informationsveranstaltung für Studierende zu Auslandsstudienmöglichkeiten",
+      "section_heading": "Informationsveranstaltung für Studierende zu Auslandsstudienmöglichkeiten > 29.09.2026",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "# Informationsveranstaltung für Studierende zu Auslandsstudienmöglichkeiten  \n##  29.09.2026\n13:45 Uhr\nHaben Sie schon einmal einen Auslandsaufenthalt in Erwägung gezogen? Sie sollten einmal darüber nachdenken, denn Auslandserfahrungen bieten gleich mehrere Vorteile und sind eine ganz besondere Erfa"
+    },
+    {
+      "rang": 45,
+      "score": 1.1337,
+      "id": "1debfbe3-ed40-5af0-986a-ea32df0a34a3",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EIT/04_Genehmigung_EIT_2015-11-10_gesamt.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EIT › 04 Genehmigung EIT 2015 11 10 gesamt",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Elektrotechnik und Informationstechnik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Elektrotechnik und Informationstechnik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**  \n## **§ 1**"
+    },
+    {
+      "rang": 46,
+      "score": 1.12575,
+      "id": "089f85ff-bdaa-5a0e-9025-36491a034bd9",
+      "source_url": "https://f1.hs-hannover.de/ueber-uns/fachgebiete",
+      "title_anzeige": "Fachgebiete der Fakultät I",
+      "section_heading": "Fachgebiete der Fakultät I",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Fachgebiete der Fakultät I\nDie Fakultät besteht aus 12 Fachgebieten, die jeweils die für die Ausbildung erforderlichen Labore betreiben und die entsprechenden Lehrveranstaltungen anbieten. Für jedes Fachgebiet sind eine Fachgebietsleitung und eine Stellvertretung benannt, die die organisatorische"
+    },
+    {
+      "rang": 47,
+      "score": 1.12118,
+      "id": "ae993596-2646-56d1-ae09-aff8b04cb107",
+      "source_url": "https://f1.hs-hannover.de/aktuelles/veranstaltungen/informationsveranstaltung-des-masterstudiengangs-sensor-und-automatisierungstechnik-esa",
+      "title_anzeige": "Informationsveranstaltung des Masterstudiengangs Sensor- und Automatisierungstechnik (ESA)",
+      "section_heading": "Informationsveranstaltung des Masterstudiengangs Sensor- und Automatisierungstechnik (ESA) > 10.11.2026 > Veranstaltungsort",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "### Veranstaltungsort  \nRicklinger Stadtweg 120\n30459 Hannover\nCampus Linden\nRaum 1B.1.09  \nf1-dekanat(at)hs-hannover.de\n[ Ihr Weg zu uns  ](https://f1.hs-hannover.de/service/standorte-oeffnungszeiten \"Lageplan ansehen\")"
+    },
+    {
+      "rang": 48,
+      "score": 1.10606,
+      "id": "0bc94eae-00e4-5f0b-8fb2-3d55a2a29b83",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/ITR/20181912_BPO_ITR_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › ITR › 20181912 BPO ITR verk",
+      "section_heading": "**für den Studiengang Technisches Informationsdesign und Technische Redaktion (ITR) mit dem Abschluss Bachelor of Engineering an der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover** > **§ 10** > **für den Studiengang Technisches Informationsdesign und Technische Redaktion (ITR) mit dem Abschluss Bachelor of Engineering an der Fakultät I - Elektro- und Informationstechnik der Hochschule Hannover** > **Übergangsbestimmungen**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 10**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Technische Redaktion der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, längstens "
+    },
+    {
+      "rang": 49,
+      "score": 1.09177,
+      "id": "178463e9-513f-5e79-9721-50f64cb6943f",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/10_Bilder/40_Veranstaltungen/2025_Veranstaltungen/2026-Erstiveranstaltungen.pdf",
+      "title_anzeige": "f1 › 40 Veranstaltungen › 2025 Veranstaltungen › 2026 Erstiveranstaltungen — Veranstaltungen der Fachschaft für Elektro- und Informationstechnik",
+      "section_heading": "- **Freitag der 27.02.2026 „Ers�-Frühstück“ – 10 Uhr**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## - **Freitag der 27.02.2026 „Ers�-Frühstück“ – 10 Uhr**  \nNach der Begrüßung (um 9 Uhr) durch unseren Dekan Prof. Freund gibt es ab ca. 10 Uhr ein leckeres Frühstück und für euch die Möglichkeit euch besser kennenzulernen. Im Anschluss werden wir gemeinsam eine Tour über den Campus machen, damit i"
+    },
+    {
+      "rang": 50,
+      "score": 1.08438,
+      "id": "875f2f7d-031b-5320-8813-dc5a0fa3a6bb",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/master-studiengaenge",
+      "title_anzeige": "f1 › studium › studiengaenge und programme › master studiengaenge",
+      "section_heading": "Masterstudiengänge > Wissenschaftlich fundiertes Masterstudium",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Wissenschaftlich fundiertes Masterstudium\nDie Fakultät I bietet zwei konsekutive, drei-semestrige Masterstudiengänge an. Vorraussetzung ist hierfür der überdurchschnittliche Abschluss in einem siebensemestrigen Bachelorstudiengang der Elektro- und Informationstechnik oder vergleichbaren Studiengä"
+    },
+    {
+      "rang": 51,
+      "score": 1.08329,
+      "id": "ca46a240-1c92-5ade-b289-1d8d6ab8d289",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge",
+      "title_anzeige": "f1 › studium › studiengaenge und programme › bachelor studiengaenge",
+      "section_heading": "Bachelorstudiengänge > 6 Wege zum erfolgreichen Berufseinstieg als Bachelor",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## 6 Wege zum erfolgreichen Berufseinstieg als Bachelor\nDie Fakultät I für Elektro- und Informationstechnik bietet eine hochqualifizierte Ingenieurausbildung in 6 Bachelor-Studiengängen mit Schwerpunkten in den Bereichen Elektrotechnik, Informationstechnik, Betriebswirtschaft, Informatik und Mathema"
+    },
+    {
+      "rang": 52,
+      "score": 1.08186,
+      "id": "f497525c-929b-5d62-be78-9367a4fbb6da",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › FI BTPO BA MEC 15.05.2026",
+      "section_heading": "**der Hochschule Hannover** > **§ 9** > **der Hochschule Hannover** > **Übergangsbestimmungen**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttreten dieser Ordnung im Bachelor-Studiengang Mechatronik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, längstens jedoch bis "
+    },
+    {
+      "rang": 53,
+      "score": 1.0814,
+      "id": "b3d768ad-c7c6-57a6-a153-3e5f6bf62ea4",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/Internationales/Brochure_Faculty_I_II_2026.pdf",
+      "title_anzeige": "f1 › 99 Sonstiges › Internationales › Brochure Faculty I II 2026 — Hochschule Hannover",
+      "section_heading": "Campus Map",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## Campus Map  \nFaculty I – Electrical Engineering and Information Technology and Faculty II – Mechanical Engineering and Bioprocess Engineering are located at the main campus „Linden“ in the heart of the city.  \n> ADRESS CAMPUS LINDEN Ricklinger Stadtweg 120, 30459 Hanover, Germany"
+    },
+    {
+      "rang": 54,
+      "score": 1.033,
+      "id": "f845368a-3804-56fe-a24d-e20331c7a53c",
+      "source_url": "https://f1.hs-hannover.de/studium/studienstart",
+      "title_anzeige": "Mit Durchblick durchs Studium",
+      "section_heading": "Mit Durchblick durchs Studium > [Allgemeine Erstsemesterinformationen der Hochschule Hannover](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "### [Allgemeine Erstsemesterinformationen der Hochschule Hannover](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen)\n[ Weiterlesen ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemest"
+    },
+    {
+      "rang": 55,
+      "score": 1.01975,
+      "id": "66308d1e-aab2-5b84-9ad2-f67d35f9e67c",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/60_Sonstige/Brochure_Faculty_I_II_2023-3.11.23_neue_Fotos-Einzelseiten_6.11.23.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 60 Sonstige › Brochure Faculty I II 2023 3.11.23 neue Fotos Einzelseiten 6.11.23",
+      "section_heading": "The Engineering Faculties > Faculty I - Electrical Engineering and Information Technologyogy",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "The study programs may change slightly, see website.  \nBachelor Degrees (B.Eng.)  \n- Industrial Electrical Engineering Electrical Engineering and Information Technology (EIT) _with specializations in:_  \n- 1) Automation Technolgy/ Process Informatics  \n- 2) Electronics  \n- 3) Electrical Drive Engine"
+    },
+    {
+      "rang": 56,
+      "score": 1.01269,
+      "id": "c80a1536-b98c-5087-aad2-343d0988365a",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulassungsordnung/Bachelorstdg/20060612__Zul_Ordng__Bachelor_allg._Teil.pdf",
+      "title_anzeige": "f1 › 30 Zulassungsordnung › Bachelorstdg › 20060612 Zul Ordng Bachelor allg. Teil — § 1 Präambel",
+      "section_heading": "**Ordnung über die Zulassung zum Studium grundständiger, örtlich zulassungsbeschränkter Bachelor-Studiengänge der Fachhochschule Hannover (Bachelor-Zulassungsordnung, ZulO-BA) Allgemeiner Teil (ZulO-BA, Tl. A)** > **§ 6 Inkrafttreten**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 6 Inkrafttreten**  \nDiese Ordnung tritt nach Genehmigung durch das Präsidium und Beschluss durch den Senat am Tag nach der Veröffentlichung im Verkündungsblatt der Fachhochschule Hannover in Kraft.  \nAllgemeiner Teil der Ordnung für die Zulassung zum Studium grundständiger, örtlich zulassungs"
+    },
+    {
+      "rang": 57,
+      "score": 1.00755,
+      "id": "93f67d66-1888-5153-991f-5b0d45d8cbf8",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/20193009_BPO_EWI_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EWI › 20193009 BPO EWI verk",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **§ 11** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang** > **Übergangsbestimmungen**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 11**\n\n## **Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Wirtschaftsingenieur Elektrotechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschlie"
+    },
+    {
+      "rang": 58,
+      "score": 1.00407,
+      "id": "6e8a3615-e489-5173-ba77-f128b38dcb17",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_EIT-SFT.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch EIT SFT",
+      "section_heading": "**Angestrebte Lernergebnisse** > Die Studierenden",
+      "chunk_index": 61,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**\n\n## Die Studierenden  \n- kennen verschiedene Lernstrategien und haben sich mit ihren personalen Kompetenzen auseinandergesetzt.  \n- können ihr eigenes Lernverhalten einschätzen und bei Bedarf Unterstützung einholen.  \n- können alleine und in Gruppen fachliche Themen"
+    },
+    {
+      "rang": 59,
+      "score": 0.99119,
+      "id": "fff6fe90-d91c-5e72-96fc-5996b6f02780",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/EWI/BPO_EWI_verkuendet_2025.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › EWI › BPO EWI verkuendet 2025",
+      "section_heading": "**der Hochschule Hannover** > **§ 9 Übergangsbestimmungen**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9 Übergangsbestimmungen**  \n- (1)  Studierende, die vor Inkrafttreten dieser Ordnung im Bachelor-Studiengang Wirtschaftsingenieur Elektrotechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, läng"
+    },
+    {
+      "rang": 60,
+      "score": 0.97347,
+      "id": "5254dda2-7e92-55f5-94e6-2611b9b13ce7",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/20_Praxisphasenordnung/20121213_Praxisphasen-Ordnung.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 20 Praxisphasenordnung › 20121213 Praxisphasen Ordnung",
+      "section_heading": "**§  1 Geltungsbereich**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **§  1 Geltungsbereich**  \nDiese  \"Ordnung  für  die  Praxisphase(n)  (PraO)\"  gilt  für  alle  Bachelor-Studiengänge  der  Fakultät  I  - Elektro-  und  Informationstechnik  der  Hochschule  Hannover."
+    },
+    {
+      "rang": 61,
+      "score": 2.46354,
+      "id": "26a4b006-bde1-52b5-965e-67f8dc1bbe68",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2020.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2020 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "1. Rahmenbedingungen und Geschäftsverlauf > **1.1 Hochschulstruktur**",
+      "chunk_index": 82,
+      "text_vollstaendig": false,
+      "auszug": "Die Hochschule Hannover bietet mit über 60 akkreditierten Studiengängen ein breit aufgestelltes Fächerspektrum. Neben den Bereichen Ingenieur-, Wirtschafts- und Kulturwissenschaften, Informatik und Gestaltung sowie Sozialwesen sind an der Hochschule auch Medien- und Kreativstudiengänge von hoher int"
+    },
+    {
+      "rang": 62,
+      "score": 1.97141,
+      "id": "86d66da0-4fb4-55f8-91f6-dafa28b93181",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2015 — Hannover",
+      "section_heading": "**1.1 Hochschulstruktur**",
+      "chunk_index": 76,
+      "text_vollstaendig": false,
+      "auszug": "KEIN ORIGINAL  \nWintersemester 2015/2016 bei rund 12 %. Der Frauenanteil unter den Studierenden im Wintersemester 2015/2016 ist erneut leicht angestiegen auf jetzt 41 %.  \nGut die Hälfte der Studierenden belegte Studiengänge der beiden größten Fakultäten Maschinenbau und Bioverfahrenstechnik sowie M"
+    },
+    {
+      "rang": 63,
+      "score": 1.93634,
+      "id": "7cdc2f37-b31f-58b8-b2f3-b629c028d559",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2014.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2014 — Hochschule Hannover Hannover",
+      "section_heading": "**1.1 Hochschulstruktur**",
+      "chunk_index": 67,
+      "text_vollstaendig": false,
+      "auszug": "Etwa die Hälfte der Studierenden belegte Studiengänge der Fachrichtungen Maschinenbau, Bioverfahrenstechnik[1] , Medien, Information und Design[2] . Mit gut 2.000 Studierenden ist die Fakultät Wirtschaft und Informatik[3] die drittgrößte Fakultät, gefolgt von den beiden Fakultäten Elektro- und Infor"
+    },
+    {
+      "rang": 64,
+      "score": 1.90692,
+      "id": "1b7d5725-7832-5ee3-abd2-b678e2de9dd1",
+      "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+      "title_anzeige": "itr › landing page › news",
+      "section_heading": "News",
+      "chunk_index": 147,
+      "text_vollstaendig": true,
+      "auszug": "Bei der Erstsemesterbegrüßung am 05.10.2020 werden sich die MentorInnen persönlich bei den Studienanfängern vorstellen und sich gegenseitig bekannt machen. Allen Erstsemestern wünschen wir an dieser Stelle einen guten und erfolgreichen Start in den neuen Lebensabschnitt namens Studium.\n* ## Zwei Fac"
+    },
+    {
+      "rang": 65,
+      "score": 1.88454,
+      "id": "f81ff7b8-5fb1-5ac5-bb6a-003a0ebd45cf",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2017.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2017 — Hannover",
+      "section_heading": "**1.1 Hochschulstruktur**",
+      "chunk_index": 76,
+      "text_vollstaendig": false,
+      "auszug": "## **1.1 Hochschulstruktur**  \nDie fünf Fakultäten der Hochschule sind an fünf Standorten in Hannover untergebracht: Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogram"
+    },
+    {
+      "rang": 66,
+      "score": 1.81988,
+      "id": "5f638e90-3d26-51bb-bdf5-8275b7975980",
+      "source_url": "https://itr.wp.hs-hannover.de/landing-page/news",
+      "title_anzeige": "itr › landing page › news",
+      "section_heading": "News",
+      "chunk_index": 34,
+      "text_vollstaendig": true,
+      "auszug": "* ## Semesterstart und Einführungsveranstaltung für Erst- und Zweitsemester\n##### Februar 2024202401\nDer Semesterbeginn rückt näher. Am 1.3. begrüßen unser Dekan und die Fachschaft alle Erstsemester um 9 Uhr im Audimax, anschließend gibt es ein gemeinsames Frühstück. Nach der Stärkung folgt um 12 Uh"
+    },
+    {
+      "rang": 67,
+      "score": 1.77452,
+      "id": "a2e2acda-d1f9-5d69-8482-6e74173903c4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "Studierende der Fakultät I",
+      "chunk_index": 36,
+      "text_vollstaendig": false,
+      "auszug": "## Studierende der Fakultät I  \nnach Studienjahr und Staatsangehörigkeit (Stichtag: 15. November eines Jahres)  \n1600\n1400\n1200\n1000\n800\n600\n400\n200\n0\nWS WS WS WS WS WS WS\n15/16 16/17 17/18 18/19 19/20 20/21 21/22\nStudierende gesamt deutsche Studierende  \nStudierende der Fakultät I nach Studiengang "
+    },
+    {
+      "rang": 68,
+      "score": 1.7587,
+      "id": "c525fa7d-6a27-56d8-865b-e8e2036e3906",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2018 — Hannover",
+      "section_heading": "**1.1. Hochschulstruktur**",
+      "chunk_index": 77,
+      "text_vollstaendig": false,
+      "auszug": "## **1.1. Hochschulstruktur**  \nDie fünf Fakultäten der Hochschule sind an fünf Standorten in Hannover untergebracht: Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogra"
+    },
+    {
+      "rang": 69,
+      "score": 1.75219,
+      "id": "aba26e43-a005-58cd-a52c-37e8399b0dc3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2019.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2019 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**1.1. Hochschulstruktur**",
+      "chunk_index": 83,
+      "text_vollstaendig": false,
+      "auszug": "## **1.1. Hochschulstruktur**  \nDie fünf Fakultäten der Hochschule Hannover sind an fünf Standorten in Hannover untergebracht: Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Stud"
+    },
+    {
+      "rang": 70,
+      "score": 1.74163,
+      "id": "a6ccf6dc-1ab8-5f71-858f-2ea7f6f2f8f6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2016 — Hochschule Hannover",
+      "section_heading": "**1.1 Hochschulstruktur**",
+      "chunk_index": 85,
+      "text_vollstaendig": true,
+      "auszug": "## **1.1 Hochschulstruktur**  \nDie fünf Fakultäten der Hochschule sind an fünf Standorten in Hannover untergebracht: Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogram"
+    },
+    {
+      "rang": 71,
+      "score": 1.46249,
+      "id": "e7f76b82-3296-5006-aac1-1d90d0617020",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/02-2022/01_10_Fortschreibung_GSP_Senat.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2022 › 01 10 Fortschreibung GSP Senat",
+      "section_heading": "**2 Ursachen/Situationsanalyse**",
+      "chunk_index": 69,
+      "text_vollstaendig": true,
+      "auszug": "||WiMi’sges.|4,23|20|17,5|82,5|38,4|61,6|-|-|\n||dav. Promov.|0|1|0|100|-|-|-|-|\n|||||||||||\n||Techn. Dienst|2,8|24,5|10,3|89,7|9,6|90,4|-|-|\n||Lehrbeauftragte|640|4.029|13,7|86,3|-|-|-|-|\n||Studierende|225|1.206|15,7|84,3|20|80|20|80|\n||Stud. Mitarb.|1.005|3.503|22,3|77,7|25|75|25|75|\n|||||||||||\n||"
+    },
+    {
+      "rang": 72,
+      "score": 1.4136,
+      "id": "40738243-54e6-56ad-8569-98bfc63fc488",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+      "title_anzeige": "Herzlich Willkommen an der Hochschule Hannover",
+      "section_heading": "Herzlich Willkommen an der Hochschule Hannover > Informationen aus den Fakultäten > Herzlich Willkommen an der Hochschule Hannover > Fakultät I - Elektro- und Informationstechnik:",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Informationen aus den Fakultäten\n\n## Fakultät I - Elektro- und Informationstechnik:\n![](https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Bilder_Teaser/Fak.I.png?rbiFocus=mobile)\n* [Standorte & Öffnungszeiten](https://f1.hs-hannover.de/service/stando"
+    },
+    {
+      "rang": 73,
+      "score": 1.41195,
+      "id": "89587ab3-21de-5ee5-8fd7-a0f81156ecde",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "HsH – Hier studiert 34 Hannover. > Frauen in MINT",
+      "chunk_index": 108,
+      "text_vollstaendig": false,
+      "auszug": "des an der Fakultät I (Elektro- und Informationstechnik) angesiedelten Programms StudyFLEX bei, in dem das erste Semester auf zwei Semester gestreckt wird und die Studierenden durch zusätzliches individuelles Coaching mehr Zeit haben, fachliche Grundlagen zu vertiefen."
+    },
+    {
+      "rang": 74,
+      "score": 1.41137,
+      "id": "6b39a78f-6b22-50a2-b542-222ed057b1b6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2022.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2022 — BESTÄTIGUNGSVERMERK",
+      "section_heading": "**1 Rahmenbedingungen und Geschäftsverlauf** > **1.1 Hochschulstruktur**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "Am Standort Linden befinden sich die Fakultäten I, II und IV. Die Fakultät II hat darüber hinaus einen zweiten Standort in Ahlem. In Kleefeld bietet die Fakultät V ihre Studienprogramme an. Auf der Expo Plaza sind die Fakultät III und neben dem Präsidium auch die meisten Einrichtungen der Hochschulv"
+    },
+    {
+      "rang": 75,
+      "score": 1.35082,
+      "id": "4640d547-8bae-5411-b3fd-86e644c84c1b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/02-2022/01_10_Fortschreibung_GSP_Senat.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2022 › 01 10 Fortschreibung GSP Senat",
+      "section_heading": "Fakultät IV Wirtschaft und Informatik",
+      "chunk_index": 93,
+      "text_vollstaendig": true,
+      "auszug": "Gleichstellungsbeauftragte*n|\n|2|Allen neuen Kolleg*innen mit Lehraufgaben wird\nvom jeweiligen Studiendekan durch persönliche\nAnsprache aktiv empfohlen, am WindH-\nWeiterbildungsprogramm teilzunehmen.|Der Dekan spricht diese Maßnahme bereits bei anstehenden\nBerufungsverhandlungen regelmäßig direkt an"
+    },
+    {
+      "rang": 76,
+      "score": 1.34973,
+      "id": "51fe5a77-0899-58a9-8402-69467a830e31",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/veranstaltungen",
+      "title_anzeige": "www › organisation › kom › veranstaltungen",
+      "section_heading": "Veranstaltungen > Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "### Begrüßung aller Bachelor-Studierenden des 1. Fachsemesters\n| [Zur Veranstaltung](https://f1.hs-hannover.de/aktuelles/veranstaltungen/begruessung-aller-bachelor-studierenden-des-1-fachsemesters)  |\n|  18.09.2026  14:00 Uhr"
+    },
+    {
+      "rang": 77,
+      "score": 1.31356,
+      "id": "c7771515-69c0-51a8-a068-343ab00059d4",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2013.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2013 — Jahresabschluss zum 31. Dezember 2013 und Lagebericht",
+      "section_heading": "**Jahresabschluss zum 31. Dezember 2013 und Lagebericht** > 1.1 Hochschulstruktur",
+      "chunk_index": 53,
+      "text_vollstaendig": false,
+      "auszug": "- 3 Fakultät IV: Wirtschaft und Informatik  \n- 4 Fakultät I: Elektro- und Informationstechnik  \n- 5 Fakultät V: Diakonie, Gesundheit und Soziales  \n22.004321-1409047␣  \n3␣  \nHochschule Hannover  \nAlle Fakultäten verfolgen gemeinsam das Ziel, ihre Absolventinnen und Absolventen darin zu stärken, fach"
+    },
+    {
+      "rang": 78,
+      "score": 1.31272,
+      "id": "f6a48f1b-d9da-50c0-b759-d6683aa6f904",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/07_Brandschutzordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2010 › 07 Brandschutzordnung — Brandschutzordnung Der Fachhochschule Hannover (FHH)",
+      "section_heading": "Sammelplätze",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "## Sammelplätze  \n- Europa-Center: auf der Westseite des Gebäudes, in der Allee hoch zur Expo-Plaza  \n- Design-Center: auf der Ostseite des Gebäudes, vor dem Haupteingang in der Allee  \n- Seilbahnstation: an der Ostseite des Gebäudes, Weltausstellungsallee  \n- Planet M: an der Ostseite des Gebäudes,"
+    },
+    {
+      "rang": 79,
+      "score": 1.30622,
+      "id": "2804c57d-3101-513b-90a5-05f3417aeb73",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/02-2003/Verkuendungsblatt_02_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2003 › Verkuendungsblatt 02 2003 — Verkündungsblatt",
+      "section_heading": "**Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "# **Immatrikulationsordnung der Fachhochschule Hannover (In der Fassung der 4. Änderung, zuletzt geändert mit Veröffentlichung im Verkündungsblatt der FHH vom 13.6.2002, beschlossen in der 177. Senatssitzung am 28. Januar 2003, genehmigt in der 11. Sitzung des Präsidiums am 24.2.2003)**  \nGemäß § 19"
+    },
+    {
+      "rang": 80,
+      "score": 1.30311,
+      "id": "7e882f45-ab99-5f61-9039-7e36be28def8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2016 — Hochschule Hannover",
+      "section_heading": "**6. Prognosebericht**",
+      "chunk_index": 161,
+      "text_vollstaendig": true,
+      "auszug": "Mit der Verstetigung von 654 Studienanfängerplätzen im Rahmen des Fachhochschulentwicklungsprogramms hat sich die Raumsituation endgültig als zentrales Thema der nächsten Jahre etabliert. Der Hochschule Hannover muss es im Zusammenspiel mit dem Land gelingen, hier Abhilfe zu schaffen, um von den Stu"
+    },
+    {
+      "rang": 81,
+      "score": 1.28096,
+      "id": "dcd0b551-6533-5682-83bd-d18bd6d44fd3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gleichstellung/queer-guide",
+      "title_anzeige": "www › organisation › gleichstellung › queer guide",
+      "section_heading": "Queer Guide der Hochschulen in Hannover > Events? Queer Hannover: https://queer-hannover.de/events > Hochschulen",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "[Insta: flinta_hmtmh ](https://www.instagram.com/flinta_hmtmh/)\n_Beratung - Gruppe - Freizeit - Hochschulen - Vernetzung_\n**Vornamensänderung**\nAn der HMTMH können sich Studierende mit einer Kopie des Ergänzungsausweises der dgti e.V. formlos an das Immatrikulationsamt (I-Amt@hmtm-hannover.de) wende"
+    },
+    {
+      "rang": 82,
+      "score": 1.25785,
+      "id": "f774fda7-c9be-5075-a535-ea4a8d2ca09a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+      "title_anzeige": "www › Organisation › Strategische Hochschulentwicklung › HsH Diversity Audit Abschlussbericht",
+      "section_heading": "Diversity-Audit »Vielfalt gestalten« _des Stifterverbandes für die deutsche Wissenschaft_ > Grunddaten zur Hochschule Hannover > Diversity-Audit »Vielfalt gestalten« _des Stifterverbandes für die deutsche Wissenschaft_ > _Hochschule Hannover (HsH)_",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "Zur schnelleren Integration unserer Erstsemester und zur Überbrückung von Startschwierigkeiten beim Studienanfang bietet die Hochschule ein breites Spektrum von Tutorien und fachspezifischen Brückenkursen an. Mit diesen Maßnahmen wird zudem die Erhöhung des Frauenanteils und die bessere Integration "
+    },
+    {
+      "rang": 83,
+      "score": 1.20526,
+      "id": "2a95fadf-fc1f-529a-ae28-6bffaca68531",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-lehre/moodle-bbb-infos-fuer-studierende/linksammlung-fuer-erstsemester-studierende",
+      "title_anzeige": "www › servicezentrum lehre › moodle bbb infos fuer studierende › linksammlung fuer erstsemester studierende — Links zum Studienstart",
+      "section_heading": "Links zum Studienstart > Weitere Infos",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Fakultät 1: <https://f1.hs-hannover.de/studium/studienstart>\nFakultät 2: <https://f2.hs-hannover.de/studium/studierende/erstsemesterinformationen>\nFakultät 3: <https://f3.hs-hannover.de/studium/informationen-fuer-erstsemester>\nFakultät 4: <https://f4.hs-hannover.de/studium/erstsemesterinformation>\nF"
+    },
+    {
+      "rang": 84,
+      "score": 1.17393,
+      "id": "481e154a-ad75-558c-978b-8cd1c59d055f",
+      "source_url": "https://itr.wp.hs-hannover.de/kontakt",
+      "title_anzeige": "itr › kontakt",
+      "section_heading": "Impressum",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "#\n# Impressum\n#####  Herausgeber\nHochschule Hannover Fakultät I – Elektro- und Informationstechnik Ricklinger Stadtweg 120 30459 Hannover Telefon: +49 511 9296-1201 E-Mail: f1-dekanat@hs-hannover.de\nDie Hochschule Hannover ist eine Körperschaft des öffentlichen Rechts. Die Fakultät I – Elektro- und "
+    },
+    {
+      "rang": 85,
+      "score": 1.15544,
+      "id": "0b7c5c0c-0eba-5d8a-87f3-fd466297e12c",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/gebaeudemanagement/standorte/standorte-und-anfahrt/standort-expo-plaza",
+      "title_anzeige": "www › standorte › standorte und anfahrt › standort expo plaza — Campus Expo Plaza",
+      "section_heading": "Campus Expo Plaza",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n##  Campus Expo Plaza\nDie Hochschule ist am Standort Expo Plaza unter den Hausnummern 2, 3, 4, 12 und an der Lissabonner Allee 1 zu finden. Hier sind die Fakultät III – Medien, Information und Design sowie das Präsidium und Teile der Hochschulverwaltu"
+    },
+    {
+      "rang": 86,
+      "score": 1.14388,
+      "id": "923d3537-431f-5ac8-8fd9-3f505f2e09ed",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 03 Spezifische Stipendienordnung der Fakultaet I abgestimmt 2 — § 1 Präambel",
+      "section_heading": "**§ 2 Stipendien**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "Die Fakultät I unterstützt die Vergabe von „Hin- und Weg“ Stipendien. Diese werden nach Maßgabe der Richtlinie der Hochschule Hannover zur Vergabe von „Hin- und Weg“ Stipendien vergeben.  \nSpezifische Stipendienordnung der Fakultät I – Elektro- und Informationstechnik"
+    },
+    {
+      "rang": 87,
+      "score": 1.10948,
+      "id": "17f3b686-e799-59b5-acdb-a6955a5629d5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "Kommunikation, der Hochschule Hannover|III|\n|2026|04|15.05.2026|I|Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik (MEC) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I–Elektro-und Informationstechnik der Hochschule Hannover|I|\n|2026|04|15.05.2026|I|B"
+    },
+    {
+      "rang": 88,
+      "score": 1.10059,
+      "id": "ec47e7a9-740b-5434-96ae-e75ac107dbc3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/03_Spezifische_Stipendienordnung_der_Fakultaet_I-abgestimmt__2_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 03 Spezifische Stipendienordnung der Fakultaet I abgestimmt 2 — § 1 Präambel",
+      "section_heading": "**§ 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“**",
+      "chunk_index": 6,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 5 Stipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang „Technische Redaktion“**  \nStipendien für einen herausragenden ersten Studienabschnitt im Bachelorstudiengang  \n„Technische Redaktion“ werden aufgrund besonderer Leistungen im ersten Studienabschnitt vergeben"
+    },
+    {
+      "rang": 89,
+      "score": 1.08637,
+      "id": "c5c418a1-eb64-5028-a90a-ea536d19b5a2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/07_Brandschutzordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2010 › 07 Brandschutzordnung — Brandschutzordnung Der Fachhochschule Hannover (FHH)",
+      "section_heading": "Sammelplätze",
+      "chunk_index": 31,
+      "text_vollstaendig": false,
+      "auszug": "- Sammelplatz für die übrigen Blöcke: auf der Wiese zwischen Block 7, Isotopenlabor und Gebäude Fakultät IV  \nBrandschutzordnung der Fachhochschule Hannover (FHH)  \nVerkündungsblatt der FHH  \nNr. 7/2010 vom 18.11.2010  \n- Hauptgebäude Abteilung BV: Parkplatz vor dem Gebäude  \n- Internat Abteilung BV"
+    },
+    {
+      "rang": 90,
+      "score": 1.06888,
+      "id": "87909ceb-7e35-5c3c-bea5-c6fc20fdb7f2",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten",
+      "title_anzeige": "D3- Akademische Angelegenheiten",
+      "section_heading": "D3- Akademische Angelegenheiten > Herzlich willkommen...",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Herzlich willkommen...\nauf den Informationsseiten des Dezernats - Akademische Angelegenheiten der Hochschule Hannover (HsH).\nDas Dezernat 3 - Akademische Angelegenheiten ist für die Beratung und Betreuung von Studieninteressierten in Zulassungsangelegenheiten, die Beratung und Betreuung von Studi"
+    },
+    {
+      "rang": 91,
+      "score": 1.06682,
+      "id": "5462e4b9-5657-533b-8bc0-403f897d9117",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › 4 Stipendienordnung der Fakulta t I 2017 — Präambel",
+      "section_heading": "**§5** > **Stipendien für einen herausragenden ersten Studienabschnitt in den Bachelorstudiengängen „Angewandte Mathematik“, „Technische Redaktion“, „Elektrotechnik und Informationstechnik“, „Mechatronik“ und „Wirtschaftsingenieur Elektrotechnik“**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "## **§5**\n## **Stipendien für einen herausragenden ersten Studienabschnitt in den Bachelorstudiengängen „Angewandte Mathematik“, „Technische Redaktion“, „Elektrotechnik und Informationstechnik“, „Mechatronik“ und „Wirtschaftsingenieur Elektrotechnik“**  \nStipendien für einen herausragenden ersten St"
+    },
+    {
+      "rang": 92,
+      "score": 1.06615,
+      "id": "b2e51591-ae38-5fa2-aef1-62fdf7a0af9c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/04_PO__EIT.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2018 › 04 PO EIT",
+      "section_heading": "**§ 11 Übergangsbestimmungen**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 11 Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Elektrotechnik und Informationstechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, "
+    },
+    {
+      "rang": 93,
+      "score": 1.06303,
+      "id": "e974ddbd-59c7-580b-a07f-1fd2d7c0d9d8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/05_5.AEnderung-Immatrikulationsordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2010 › 05 5.AEnderung Immatrikulationsordnung — Immatrikulationsordnung der Fachhochschule Hannover (FHH)",
+      "section_heading": "**§ 1 Immatrikulation**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 1 Immatrikulation**  \n(1) Bewerberinnen und Bewerber werden auf Antrag durch die Immatrikulation als Studentinnen und Studenten in die Fachhochschule Hannover aufgenommen und für den gewählten Studiengang eingeschrieben. Mit der Immatrikulation werden sie Mitglieder der Fachhochschule Hannove"
+    },
+    {
+      "rang": 94,
+      "score": 1.05957,
+      "id": "43e13659-06b5-5159-b3c8-f49069bfda97",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/11-2016/01_PO-BIA_20160811.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 11 2016 › 01 PO BIA 20160811",
+      "section_heading": "**Abteilung Design und Medien, der Hochschule Hannover** > **§ 6** > **Abteilung Design und Medien, der Hochschule Hannover** > **Inkrafttreten**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "Verkündungsblatt Nr. 11/2016 vom 15.11.2016  \nDezernat III / PO BIA / 27.09.2016  \nNr. 11/2016 vom 15.11.2016  \nVerkündungsblatt der Hochschule Hannover  \n|**Bachelor- Studiengang Innenarchitektur (BIA)**|**Bachelor- Studiengang Innenarchitektur (BIA)**|**Bachelor- Studiengang Innenarchitektur (BIA)"
+    },
+    {
+      "rang": 95,
+      "score": 1.04122,
+      "id": "15eb1c1c-5368-53a5-8bb7-00a705b6d8e1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/PO_BBA.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › PO BBA",
+      "section_heading": "**§ 6** > **Zulassung zu den Prüfungen des ersten Studienabschnitts**",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 6**\n## **Zulassung zu den Prüfungen des ersten Studienabschnitts**  \n- (1) Studierende, die nicht zuvor an dieser oder einer anderen Hochschule studiert haben, sind von Amts wegen zu den Prüfungen des ersten Studienabschnitts zugelassen.  \n- (2) Studierende, die zuvor an einer anderen Hochsch"
+    },
+    {
+      "rang": 96,
+      "score": 1.03521,
+      "id": "e6f1d223-de60-582a-a6f5-17a80de1dd0a",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium",
+      "title_anzeige": "Flyer und Infomaterial zum Studium",
+      "section_heading": "Flyer und Infomaterial zum Studium > Flyer und Broschüren nach Fakultäten",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## Flyer und Broschüren nach Fakultäten\n[ Fakultät I - Elektro und Informationstechnik ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/informationsmaterial-zum-studium \"Fakultät I - Elektro und Informationstechnik\")\nHier finden Sie die Materialien der Faku"
+    },
+    {
+      "rang": 97,
+      "score": 1.03051,
+      "id": "e8531dcc-11c6-5851-a3c4-239bb5bfe50a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "section_heading": "**Bachelor-Studiengang International Business Studies (IBS) - 8 Semester  - Neufassung**",
+      "chunk_index": 41,
+      "text_vollstaendig": false,
+      "auszug": "**84**|||||||||||||\n|**Die Prüfungsanmeldung des 1. Semesters erfolgt  nach § 7 Abs. 2 durch die Prüfungsverwaltung**|||||||||||||  \nDezernat III / PO IBS / 02.07.2018  \nNr. 10/2018 vom 30.09.2018  \nVerkündungsblatt der Hochschule Hannover"
+    },
+    {
+      "rang": 98,
+      "score": 1.02967,
+      "id": "e4f9d62f-1d52-59a6-9c62-17bb0650bd11",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/HsH_Verkuendungsblatt_12_2018.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2018 › HsH Verkuendungsblatt 12 2018 — Ausgabe 12/2018",
+      "section_heading": "**§ 11 Übergangsbestimmungen**",
+      "chunk_index": 37,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 11 Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Wirtschaftsingenieur Elektrotechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, län"
+    },
+    {
+      "rang": 99,
+      "score": 1.00404,
+      "id": "f481f93d-74af-585d-b842-2f1403d8c9d5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/uebersicht_verkuendungsblatt_gesamt.pdf",
+      "title_anzeige": "www › Organe und Gremien › Verkuendungsblatt › uebersicht verkuendungsblatt gesamt — Übersicht der Verkündungsblätter seit 1998",
+      "section_heading": "**Übersicht der Verkündungsblätter seit 1998**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "Hochschule Hannover|I|  \n## **Übersicht der Verkündungsblätter seit 1998**  \n|||||||\n|---|---|---|---|---|---|\n|**Jahr**|**Nr.**|**Datum**|**Geltungsbereich**|**Inhalt**|**betreuende OE**|\n|||||||\n|2025|8|04.07.2025|I|Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang „Wirtschaftsingen"
+    },
+    {
+      "rang": 100,
+      "score": 0.99599,
+      "id": "921358d2-1ff7-5ee6-aa0d-72b7cf19d730",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "section_heading": "**§ 2 Stipendien**",
+      "chunk_index": 90,
+      "text_vollstaendig": false,
+      "auszug": "Die Fakultät I unterstützt die Vergabe von „Hin- und Weg“ Stipendien. Diese werden nach Maßgabe der Richtlinie der Hochschule Hannover zur Vergabe von „Hin- und Weg“ Stipendien vergeben.  \nSpezifische Stipendienordnung der Fakultät I – Elektro- und Informationstechnik  \nVerkündungsblatt der Hochschu"
+    },
+    {
+      "rang": 101,
+      "score": 0.99154,
+      "id": "152141c8-74d1-5ea9-bea6-9e932656e76e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2009/05-2009/02-BBI-PO_BT.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2009 › 02 BBI PO BT",
+      "section_heading": "**Fakultät IV**",
+      "chunk_index": 31,
+      "text_vollstaendig": false,
+      "auszug": "- 3 -  \nNr. 5/2009 vom 17.8.2009 **Fakultät IV**  \nVerkündungsblatt der FHH  \nZweiter Studienabschnitt Bachelor Bank- und Versicherungswesen (BBI)  \nAnlage B2 (BBI)  \n|**Fakultät IV**\nZweiter Studienabschnitt Bachelor Bank- und Versicherungswesen (BBI)\nAnlage B2 (BBI)|**Fakultät IV**\nZweiter Studien"
+    },
+    {
+      "rang": 102,
+      "score": 0.98962,
+      "id": "ec2d4aad-75fb-5283-873d-75f145526040",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/Green_Office/Umsetzung_IKSK_hsh_20-12-04.pdf",
+      "title_anzeige": "www › Strategische Hochschulentwicklung › Green Office › Umsetzung IKSK hsh 20 12 04 — – Konzept zur Umsetzung –",
+      "section_heading": "**Integriertes Klimaschutzkonzept Hochschule Hannover** > C-14 Klimaschutz im Rahmen der Erstsemester-Einführung",
+      "chunk_index": 38,
+      "text_vollstaendig": true,
+      "auszug": "|C-14.5|Management der Umsetzung|\n|C-14.6|Begleitende Öffentlichkeitsarbeit|\n|C-14.7|Erfolgskontrolle|\n|C-14.8|Weiterentwicklung|  \nKosteneinschätzung: keine (Personalressourcen)  \nIndikatoren für Monitoring: Anzahl der Teilnehmer, Feedback  \nC-15 Klimaschutzprojekte im Servicezentrum Beratung/S1?"
+    },
+    {
+      "rang": 103,
+      "score": 0.9868,
+      "id": "464b2dc4-01d6-55d9-a114-4f52521df5eb",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › HsH Verkuendungsblatt 06 2017 20220701 — Verkündungsblatt",
+      "section_heading": "**§6** > **Stipendien für eine herausragende Vorleistung in den** > **Masterstudiengängen der Fakultät I**",
+      "chunk_index": 95,
+      "text_vollstaendig": false,
+      "auszug": "## **§6**\n\n## **Stipendien für eine herausragende Vorleistung in den**\n\n## **Masterstudiengängen der Fakultät I**  \nStipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.  \nAntragsberechtigt sind alle im ersten Semes"
+    },
+    {
+      "rang": 104,
+      "score": 0.96521,
+      "id": "2858308a-22e1-55e0-b44a-9e66068cffa8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/01-PO-Elektro-und_Informationstechnik.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2012 › 01 PO Elektro und Informationstechnik",
+      "section_heading": "**`Besonderer Teil der Prüfungsordnung für den Studiengang Elektrotechnik und Informationstechnik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover`** > **`§ 10 Inkrafttreten`**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **`§ 10 Inkrafttreten`**  \nDiese  Prüfungsordnung tritt nach ihrer Genehmigung durch das Präsidium der Hochschule Hannover am Tag nach ihrer Bekanntmachung im Verkündungsblatt der Hochschule Hannover in Kraft. Sie gilt für Studierende, die ihr Studium im BachelorStudiengang Elektrotechnik und Inf"
+    },
+    {
+      "rang": 105,
+      "score": 0.96205,
+      "id": "f8329b20-ec57-5d39-b427-9c3d761bed6c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/02-_PO_EWI_.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2018 › 02 PO EWI",
+      "section_heading": "**§ 11 Übergangsbestimmungen**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 11 Übergangsbestimmungen**  \n- (1) Studierende, die vor Inkrafttretens dieser Ordnung im Bachelor-Studiengang Wirtschaftsingenieur Elektrotechnik der Fakultät I – Elektro- und Informationstechnik immatrikuliert sind, können ihr Studium nach der bisher gültigen Prüfungsordnung abschließen, län"
+    },
+    {
+      "rang": 106,
+      "score": 0.96073,
+      "id": "da7abc6f-b95c-5e7b-9cc0-638cc87a879c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "section_heading": "**§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**",
+      "chunk_index": 98,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I Stipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.**  \nAntragsberechtigt sind alle im ersten Semester eines Masters"
+    },
+    {
+      "rang": 107,
+      "score": 0.953,
+      "id": "529227c6-7360-57cd-b3b7-21b0ca9e4b75",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/02_Fakultaet_I_Praxisphasenordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2012 › 02 Fakultaet I Praxisphasenordnung",
+      "section_heading": "**§ 10 Inkrafttreten**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "Der Fakultät I -  Elektro- und Informationstechnik  \nnachfolgend Student(in) genannt, wird folgender"
+    },
+    {
+      "rang": 108,
+      "score": 0.95168,
+      "id": "dda3a69b-30d8-593f-bbe4-b9df9124bd69",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/02_Neufassung_I-Ordnung-07_05_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 02 Neufassung I Ordnung 07 05 2013 — Immatrikulationsordnung der Hochschule Hannover (HsH)",
+      "section_heading": "**§ 1 Immatrikulation**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 1 Immatrikulation**  \n- (1) Bewerberinnen und Bewerber werden auf Antrag durch die Immatrikulation als Studentinnen und Studenten in die Hochschule Hannover aufgenommen und für den gewählten Studiengang eingeschrieben. Mit der Immatrikulation werden sie Mitglieder der Hochschule Hannover mit "
+    },
+    {
+      "rang": 109,
+      "score": 0.93988,
+      "id": "da1a55d9-e1e9-54d8-a933-7716a7cf80ce",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/4_Stipendienordnung_der_Fakulta__t_I_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › 4 Stipendienordnung der Fakulta t I 2017 — Präambel",
+      "section_heading": "**Stipendien für eine herausragende Vorleistung in den** > **Masterstudiengängen der Fakultät I**",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## **Stipendien für eine herausragende Vorleistung in den**\n\n## **Masterstudiengängen der Fakultät I**  \nStipendien für eine herausragende Vorleistung in den Masterstudiengängen der Fakultät I werden aufgrund besonderer Vorleistungen vergeben.  \nAntragsberechtigt sind alle im ersten Semester eines M"
+    },
+    {
+      "rang": 110,
+      "score": 0.93049,
+      "id": "32f8f575-fa4f-5bc5-beaf-5c26e8fcc0d9",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/08-2025/hsh_verkuendungsblatt_nr_08_2025.pdf",
+      "title_anzeige": "www › Verkuendungsblaetter › 08 2025 › hsh verkuendungsblatt nr 08 2025 — Ausgabe 08/2025",
+      "section_heading": "**der Hochschule Hannover** > **§ 9** > **der Hochschule Hannover** > **Inkrafttreten**",
+      "chunk_index": 216,
+      "text_vollstaendig": false,
+      "auszug": "Nr. 08/2025 vom 04.07.2025  \nVerküdungsblatt der Hochschule Hannover  \n|**Bachelor-Studiengang BIU - 7 Semester / 210 Cr**|**Bachelor-Studiengang BIU - 7 Semester / 210 Cr**|**Bachelor-Studiengang BIU - 7 Semester / 210 Cr**|**Bachelor-Studiengang BIU - 7 Semester / 210 Cr**|**Bachelor-Studiengang B"
+    },
+    {
+      "rang": 111,
+      "score": 0.92425,
+      "id": "c98c977b-5668-53a9-895e-59246358e661",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2018.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2018 — Hannover",
+      "section_heading": "**2.1. Studienangebot und Studiennachfrage[1]**",
+      "chunk_index": 92,
+      "text_vollstaendig": false,
+      "auszug": "mequote|\n||Bewer-\nbungen||Aufnahme-\nkapazität||Annah-\nmequote||Einschrei-\nbungen\n(1. bzw.\n4. FS)||Bew./\nPlatz||\n|I\nII\nIII\nIV\nV|802|472\n676\n672\n602\n423|499|1,6\n2,4\n4,4\n6,2\n9,7|95%|931\n1.596\n2.470\n3.357\n3.186|493|524\n767\n670\n614\n410|1,8|94%\n89%\n95%\n99%\n99%|\n||1.795||757||89%||683||2,1||\n||3.037||684||"
+    },
+    {
+      "rang": 112,
+      "score": 0.9063,
+      "id": "aff3e4e1-8899-5f51-8cba-c9d84282b63e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/10-2024/04_PO_IBS.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2024 › 04 PO IBS",
+      "section_heading": "**§ 6 Zulassung zu den Prüfungen des ersten Studienabschnitts (Bachelorvorprüfung)**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 6 Zulassung zu den Prüfungen des ersten Studienabschnitts (Bachelorvorprüfung)**  \n- (1) Studierende, die nicht zuvor an dieser oder einer anderen Hochschule studiert haben, sind von Amts wegen zu den Prüfungen der Bachelorvorprüfung zugelassen.  \n- (2) Studierende, die zuvor an einer anderen"
+    },
+    {
+      "rang": 113,
+      "score": 0.90405,
+      "id": "ec47413d-a346-57c4-bfcc-04eda2a6616d",
+      "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/unsere-austauschprogramme",
+      "title_anzeige": "Unsere Austauschprogramme",
+      "section_heading": "Unsere Austauschprogramme > 2plus3-Programm",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## 2plus3-Programm\n![Sommerschule an der Zhejiang University of Science and Technology](https://www.hs-hannover.de/fileadmin/_processed_/0/b/csm_ZUST_Sommerschule_Birthe_Spindler_02a251d708.jpg?rbiFocus=mobile)\n© Birthe Spindler\nSeit über 20 Jahren heißt die Hochschule Hannover Studierende der ZUST "
+    },
+    {
+      "rang": 114,
+      "score": 0.90253,
+      "id": "34e1cae6-fae8-555c-ab5d-a2b24a7a51b7",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/14._Antrag_auf_Zulassung_als_Gasthoerer_deutsch.pdf",
+      "title_anzeige": "www › Studierendenverwaltung › Antraege › 14. Antrag auf Zulassung als Gasthoerer deutsch",
+      "section_heading": "**Hochschule Hannover Akademische Angelegenheiten Ricklinger Stadtweg 120 30459 Hannover** > **Antrag auf Zulassung als Gasthörerin/Gasthörer gemäß § 12 Immatrikulationsordnung (IO)**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Hochschule Hannover Akademische Angelegenheiten Ricklinger Stadtweg 120 30459 Hannover**\n\n## **Antrag auf Zulassung als Gasthörerin/Gasthörer gemäß § 12 Immatrikulationsordnung (IO)**  \n**(Zutreffendes bitte ankreuzen!)**  \n**Sommersemester 20____ (Fristende 31.03.)**  \n**Wintersemester 20____ "
+    },
+    {
+      "rang": 115,
+      "score": 0.89162,
+      "id": "66f30333-57a0-590e-b995-81aa4b9377da",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-lehre/tag-der-lehre-und-hsh-lehrpreisverleihung",
+      "title_anzeige": "Tag der Lehre an der HsH",
+      "section_heading": "Tag der Lehre an der HsH > Servicezentrum Lehre > Zielgruppe im Fokus: Am Tag der Lehre 2026 stand die Perspektive unserer Studierenden im Mittelpunkt",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Zielgruppe im Fokus: Am Tag der Lehre 2026 stand die Perspektive unserer Studierenden im Mittelpunkt\nNach der Verleihung des Lehrpreises gab die Talkrunde „First Campus: Nicht alle starten gleich“ Einblicke in die Erfahrungen von Studierenden der ersten Generation. Wir wollten gemeinsam herausfi"
+    },
+    {
+      "rang": 116,
+      "score": 0.88604,
+      "id": "2c64ff4d-cbcf-59e1-87df-d6a5adfc9b34",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Mittwoch_10.09.pdf",
+      "title_anzeige": "www › Studienberatung › HIT › 2025 09 08 HIT Terminuebersicht Mittwoch 10.09",
+      "section_heading": "",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "Vorstellung der Studiengänge 10:00 Uhr, Workshops in den Studiengängen 11-13 Uhr, Start stündlich, Werkstattführungen 11-13 Uhr, Start stündlich,  Ausstellungen 10-14 Uhr  \nVeranstaltungen Campus Expo Plaza: Die Studiengänge der Fakultät III – Design und Medien bieten Veranstaltungen an der Expo Pla"
+    },
+    {
+      "rang": 117,
+      "score": 0.87813,
+      "id": "d7ab5024-a347-571f-8188-0c376aa321ab",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/10-2018/06_IBS_BT-PO_mit_Anlagen_20182.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 10 2018 › 06 IBS BT PO mit Anlagen 20182",
+      "section_heading": "**§ 6** > **Zulassung zu den Prüfungen des ersten Studienabschnitts** > **(Bachelorvorprüfung)**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 6**\n\n## **Zulassung zu den Prüfungen des ersten Studienabschnitts**\n## **(Bachelorvorprüfung)**  \n- (1) Studierende, die nicht zuvor an dieser oder einer anderen Hochschule studiert haben, sind von Amts wegen zu den Prüfungen der Bachelorvorprüfung zugelassen.  \n- (2) Studierende, die zuvor a"
+    },
+    {
+      "rang": 118,
+      "score": 0.8693,
+      "id": "4957da27-02d6-5aea-b8bc-e8a45b3cd4dc",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Forschung/Forschung/08_Forschungscluster/Industrie_4.0/Schautafel_Annastift-HsH.pdf",
+      "title_anzeige": "www › 08 Forschungscluster › Industrie 4.0 › Schautafel Annastift HsH",
+      "section_heading": "",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "Entwicklung technischer Hilfsmittel zur Unterstützung im Alltag und ihre Akzeptanz  \n_Eine Kooperation von: DIAKOVERE Annastift Leben und Lernen Fakultät I – Elektro- und Informationstechnik Fakultät V – Diakonie, Gesundheit und Soziales_  \n_Für Menschen mit körperlichen Behinderungen sollen unter V"
+    },
+    {
+      "rang": 119,
+      "score": 0.8624,
+      "id": "cabe0ea2-b71b-5e23-acf4-970149220056",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+      "title_anzeige": "Herzlich Willkommen an der Hochschule Hannover",
+      "section_heading": "Herzlich Willkommen an der Hochschule Hannover > Das Wichtigste zum Studienstart...",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Das Wichtigste zum Studienstart...\nSie haben sich für einen Studiengang der Hochschule Hannover entschieden und wurden zum Studium zugelassen.\nZur ersten Orientierung bieten wir Ihnen auf dieser Seite Informationen, die für Sie zu Beginn Ihres Studiums besonders wichtig sind.\nAm besten schauen Si"
+    },
+    {
+      "rang": 120,
+      "score": 0.85658,
+      "id": "86345834-44f2-517b-9c07-d8324cbcd1f2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/07-2018/02_Auslauf-Ordnung_Bachelor_E_N_I.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2018 › 02 Auslauf Ordnung Bachelor E N I — an der Fakultät I – Elektro- und Informationstechnik",
+      "section_heading": "**§ 4** > **Schlussbestimmungen und Aufhebung der Ordnungen**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 4**\n\n## **Schlussbestimmungen und Aufhebung der Ordnungen**  \n- (1) Nach Ablauf des Sommersemesters 2020 verlieren die Studierenden der in § 1 Abs. 1 genannten Bachelor-Studiengänge den Prüfungsanspruch.  \n- (2) Die Studierenden der genannten Bachelor-Studiengänge werden von dieser Auslaufreg"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "f1",
+  "fakultaet_erkannt": "f1",
+  "token_budget": {
+    "verwendet": 6684,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 3.61,
+    "kandidaten_s": 0.03,
+    "llm_auswahl_s": 3.04,
+    "docs_laden_s": 0.08,
+    "quellen_s": 6.76,
+    "antwort_llm_s": 2.98,
+    "gesamt_s": 9.74
+  },
+  "auswahl_begruendung": "{\"selected\":[2,1,5,23]}"
+}

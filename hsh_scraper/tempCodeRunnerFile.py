@@ -1,1 +1,0 @@
-d_dotenv(Path(__file__).parent / ".env")

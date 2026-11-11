@@ -1,0 +1,489 @@
+{
+  "fall": {
+    "id": "q11",
+    "case_type": "direct",
+    "question": "Wo verweist die Fakultät IV für Prüfungsanmeldung und Notenspiegel im Bereich Wirtschaftsinformatik?",
+    "reference_answer": "Die Fakultät IV führt im Studium-Service der Abteilung Wirtschaftsinformatik den Link iCMS – Online Anmeldung Prüfungen auf. Dieser Link wird als Online-Portal der HsH für Prüfungsanmeldung, Notenspiegel usw. beschrieben.",
+    "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-wirtschaftsinformatik",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die relevante Stelle liegt im Studium-Service der Abteilung Wirtschaftsinformatik der Fakultät IV.",
+      "Der Link heißt iCMS – Online Anmeldung Prüfungen.",
+      "iCMS wird als Online-Portal der HsH für Prüfungsanmeldung und Notenspiegel beschrieben."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [
+      "Nur allgemein Campusmanagement nennen, ohne iCMS oder Notenspiegel zu erwähnen.",
+      "Eine andere Fakultät als Quelle verwenden."
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Die Antwort soll iCMS als Online-Portal der HsH für Prüfungsanmeldung und Notenspiegel nennen und sich auf die Fakultät-IV-Seite beziehen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "iCMS",
+      "Notenspiegel"
+    ],
+    "gold_im_korpus": true
+  },
+  "modell": "meta-llama-3.1-8b-instruct",
+  "zeitstempel": "2026-08-17T16:44:58",
+  "dauer_s": 4.26,
+  "fehler": null,
+  "antwort": "Die Fakultät IV verweist für Prüfungsanmeldung und Notenspiegel im Bereich Wirtschaftsinformatik auf folgende Dokumente:\n\n*   [Infodokument zur Prüfungsanmeldung für das SoSe 2026](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-02-20-WI-Pruefungsanmeldung_im_SoSe_2026.pdf \"Initiates file download\")\n*   [Anleitung für Studierende zur Prüfungsanmeldung im Campusmanagement-Portal](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf \"Initiates file download\") (Stand: 01.06.2026)\n\nDiese Dokumente sind auf der Website der Fakultät IV unter [f4.hs-hannover.de](http://f4.hs-hannover.de) abrufbar.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f4 › WI › Informationen › 26 02 20 WI Pruefungsanmeldung im SoSe 2026 — Prüfungsanmeldung im SoSe 2026",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-02-20-WI-Pruefungsanmeldung_im_SoSe_2026.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Prüfungsanmeldung im SoSe 2026\n  ## I. Für welche Studierenden gilt die Online-Anmeldung?\n  ## II. Wo ist der Zugang zur Online-Anmeldung?\n  ## III. Für welche Prüfungen gilt die Online-Anmeldung?\n  ## IV. Welche Fristen sind bei der Online-Anmeldung zu beachten?\n  ## – 04. Mai 25. Mai 2026\n  ## Achtung:\n  ## V. Wie meldet man sich zur Wiederholung bestandener Prüfungen an?\n  ## VI. Was ist im Fall von Krankheit zu beachten?\n  ## VII. Welche Fristen sind für das Ablegen von Prüfungen einzuhalten?\n  ## VIII. Nur für BIS und VIF: Unter welchen Voraussetzungen darf man Prüfungen im zweiten Studienabschnitt ablegen?\n  ## IX. Nur für BIS: Wie erfolgt die Wahl des Schwerpunktes im zweiten Studienabschnitt?\n  ## X. Wer kann weitere Fragen beantworten?"
+    },
+    {
+      "nr": 2,
+      "titel": "f4 › service › formulare und informationen › abteilung wirtschaftsinformatik",
+      "url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-wirtschaftsinformatik",
+      "fakultaet": "f4",
+      "struktur": "    ### Studium Service Abteilung WI"
+    },
+    {
+      "nr": 3,
+      "titel": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch PO2016",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## 1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik\n  ## 1.1 Fakultäts- und Abteilungsstruktur\n  ## Dekanat\n  ## Erstsemester-Aufnahme\n  ## Lehrveranstaltungen\n  ## Prüfungsordnung\n  ## Prüfungsausschuss\n  ## Studienkommission\n  ## Auslandssemester\n  ## IT-Team\n  ## Fachschaftsrat\n  ## Fördergemeinschaft und Alumni-Vereinigung (FAWuI)\n  ## E-Mail\n  ## 2. Bachelor-Studiengang Wirtschaftsinformatik (BIS)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Studienvoraussetzungen\n  ## 2.3 Studienaufnahme und Gebühren\n  ## 2.4 Aufbau des Studiums\n  ## 2.4.1 Grundsätzliches zum Aufbau des Studiums\n  ## 2.4.2 Übersicht über das Studium\n  ## 2.4.3 Erster Studienabschnitt\n  ## 2.4.4 Zweiter Studienabschnitt\n  ## 2.4.5 Studienschwerpunkte\n  ## Information Management (IM)\n  ## Supply Chain Management (SCM)\n  ## Customer Relationship Management (CRM)\n  ## Business Intelligence (BI)\n  ## 2.4.6 Praxisphasen\n  ## 2.5 Weitere Aspekte des Studiums\n  ## 2.5.1 Internationale Angebote\n  ## 2.5.2 Soziale Kompetenz\n  ## Erster Studienabschnitt\n  ## Zweiter Studienabschnitt\n  ## 3. Personenverzeichnis\n  ## 3.1 Professorinnen / Professoren / Lehrkräfte für besondere Aufgaben der WI\n  ## 3.2 Mitarbeiterinnen/Mitarbeiter der Technik und Datenverarbeitung\n  ## 3.3 Mitarbeiterinnen/Mitarbeiter der Verwaltung\n  ## 4. Modulhandbuch\n  ## BIS – MODULHANDBUCH\n  ## Modulhandbuch für den Studiengang Bachelor Wirtschaftsinformatik, PO-Version 16 WiSe\n  ## Inhaltsverzeichnis\n  ## 1. Studienabschnitt\n  ## Modul  BIS-101 BWL 1\n  ## Teilmodul  BIS-101-01 Grundsatzentscheidungen der BWL\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Teilmodul  BIS-101-02 Produktion"
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › WI › Ordnungen › 05 VIF Studienhandbuch VIF PO 2025 ohne MHB 25 10 07",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Dekanat\n  ## Aufnahme von Erstsemestern\n  ## Lehrveranstaltungen\n  ## Prüfungsordnung\n  ## Prüfungsausschuss\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## IT-Team\n  ## Fachschaftsrat\n  ## 1.2 Kontaktdaten\n  ## 2. Bachelor-Studiengang Verwaltungsinformatik (VIF)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Berufsperspektiven\n  ## 2.3 Studienvoraussetzungen\n  ## 2.4 Studienbeginn und Studiengebühren\n  ## 2.5 Unterstützung im Studium (Stipendium)\n  ## 2.6 Regeln (Ordnungen) im Studium\n  ## 2.7 Aufbau des Studiums\n  ## 2.7.1 Grundsätzliches zum Aufbau des Studiums\n  ## 2.7.2 Übersicht über das Studium\n  ## 2.7.3 Aufbau des Studiums Fachrichtung Allgemeine Verwaltung\n  ## 2.7.4 Aufbau des Studiums Fachrichtung Polizei\n  ## 2.8 Soziale Kompetenz\n  ## 3. Modulhandbuch"
+    },
+    {
+      "nr": 5,
+      "titel": "f4 › WI › Ordnungen › 05 VIF Studien Modulhandbuch PO2020 240301",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Dekanat\n  ## Aufnahme von Erstsemestern\n  ## Lehrveranstaltungen\n  ## Prüfungsordnung\n  ## f4.hs-hannover.de/studium/bachelor-studiengaenge/verwaltungsinformatik-vif\n  ## Prüfungsausschuss\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## IT-Team\n  ## Fördergemeinschaft und Alumni-Vereinigung (FAWuI)\n  ## Fachschaftsrat\n  ## 1.2 Kontaktdaten\n  ## 2. Bachelor-Studiengang Verwaltungsinformatik (VIF)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Berufsperspektiven\n  ## 2.3 Studienvoraussetzungen\n  ## 2.4 Studienbeginn und Studiengebühren\n  ## 2.5 Unterstützung im Studium (Stipendium)\n  ## 2.6 Regeln (Ordnungen) im Studium\n  ## 2.7 Aufbau des Studiums\n  ## 2.7.1 Grundsätzliches zum Aufbau des Studiums\n  ## 2.7.2 Übersicht über das Studium\n  ## 2.7.3 Erster Studienabschnitt\n  ## 2.7.4 Zweiter Studienabschnitt mit Praxisphasen und Bachelorarbeit\n  ## 2.7.5 Studienablauf\n  ## 2.8 Soziale Kompetenz\n  ## Modulhandbuch für den Studiengang Bachelor Verwaltungsinformatik, PO-Version 20 SoSe\n  ## Inhaltsverzeichnis\n  ## 1. Studienabschnitt\n  ## Modul  VIF-101 Staatsrecht\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  VIF-101-01 Staatsrecht\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  VIF-102 Verwaltungshandeln\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  VIF-102-01 Verwaltungshandeln\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  VIF-105 Rechtsanwendung in der Verwaltung\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  VIF-105-01 Rechtsanwendung in der Verwaltung\n  ## Angestrebte Lernergebnisse\n  ## Inhalt"
+    },
+    {
+      "nr": 6,
+      "titel": "Herzlich Willkommen",
+      "url": "https://f4.hs-hannover.de",
+      "fakultaet": "f4",
+      "struktur": "# Herzlich Willkommen\n    ### an der Fakultät IV\n    ### Wirtschaft und Informatik\n  ## Studiengangsangebot der Fakultät IV\n    ### Wichtiges in Kürze\n  ## Die Fakultät IV in Zahlen\n  ## Gute Gründe für ein Studium an der Hochschule Hannover in der Fakultät IV\n  ## Aktuelle Veranstaltungen\n    ###  Von Rohdaten zu Entscheidungen: Entwicklung einer BI-Architektur auf Basis der Medallion-Architektur für datengetriebene Prozesse in der Bauwirtschaft \n    ###  Die Abteilung Wirtschaftsinformatik der Fakultät IV feierte erfolgreiche Studienabschlüsse \n    ###  Mission erfüllt: Die Abteilung Betriebswirtschaft feiert ihre Absolventinnen und Absolventen! \n    ### Kontakt:\n    ### Lageplan Campus Linden\n    ### Externer Inhalt"
+    },
+    {
+      "nr": 7,
+      "titel": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch BIS PO 2018 25 10 07",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## 1.1 Fakultäts- und Abteilungsstruktur\n  ## Dekanat\n  ## Erstsemester-Aufnahme\n  ## Lehrveranstaltungen\n  ## Prüfungsordnung\n  ## Prüfungsausschuss\n  ## Studienkommission\n  ## Auslandssemester\n  ## IT-Team\n  ## Fachschaftsrat\n  ## Fördergemeinschaft und Alumni-Vereinigung (FAWuI)\n  ## 1.2 Kontaktdaten\n  ## 2. Bachelor-Studiengang Wirtschaftsinformatik (BIS)\n  ## 2.1 Ziel und Inhalt des Studiums\n  ## 2.2 Studienvoraussetzungen\n  ## 2.3 Studienaufnahme und Gebühren\n  ## 2.4 Aufbau des Studiums\n  ## 2.4.1 Grundsätzliches zum Aufbau des Studiums\n  ## 2.4.2 Übersicht über das Studium\n  ## 2.4.3 Erster Studienabschnitt\n  ## 2.4.4 Zweiter Studienabschnitt\n  ## 2.4.5 Studienschwerpunkte\n  ## Information Management (IM)\n  ## Supply Chain Management (SCM)\n  ## Customer Relationship Management (CRM)\n  ## Business Intelligence (BI)\n  ## 2.4.6 Praxisphase und Bachelor-Arbeit\n  ## 2.5 Weitere Aspekte des Studiums\n  ## 2.5.1 Internationale Angebote\n  ## 2.5.2 Soziale Kompetenz\n  ## Erster Studienabschnitt\n  ## Zweiter Studienabschnitt\n  ## 3. Personenverzeichnis\n  ## 3.1 Professorinnen / Professoren / Lehrkräfte für besondere Aufgaben der WI\n  ## 3.2 Mitarbeiterinnen/Mitarbeiter der Verwaltung\n  ## 4. Modulhandbuch\n  ## Wirtschaftsinformatik (BIS) – MODULHANDBUCH\n  ## Prüfungsformen\n  ## Modulhandbuch für den Studiengang Bachelor Wirtschaftsinformatik, PO-Version 18 WiSe\n  ## Inhaltsverzeichnis\n  ## 1. Studienabschnitt\n  ## Modul  BIS-104 BWL 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  BIS-104-01 Grundsatzentscheidungen der BWL\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Teilmodul  BIS-104-02 VWL - Grundlagen"
+    },
+    {
+      "nr": 8,
+      "titel": "Prüfungsplan WI",
+      "url": "https://f4.hs-hannover.de/studium/plaene-und-termine/pruefungsplan/abteilung-wirtschaftsinformatik",
+      "fakultaet": "f4",
+      "struktur": "# Prüfungsplan WI"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 8,
+      "titel": "Prüfungsplan WI",
+      "url": "https://f4.hs-hannover.de/studium/plaene-und-termine/pruefungsplan/abteilung-wirtschaftsinformatik"
+    },
+    {
+      "nr": 1,
+      "titel": "f4 › WI › Informationen › 26 02 20 WI Pruefungsanmeldung im SoSe 2026 — Prüfungsanmeldung im SoSe 2026",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-02-20-WI-Pruefungsanmeldung_im_SoSe_2026.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch PO2016",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf"
+    },
+    {
+      "nr": 7,
+      "titel": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch BIS PO 2018 25 10 07",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Prüfungsplan WI",
+      "url": "https://f4.hs-hannover.de/studium/plaene-und-termine/pruefungsplan/abteilung-wirtschaftsinformatik",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Prüfungsplan WI",
+      "snippets": [
+        "#  Prüfungsplan WI\n_ _\nScrollen für mehr Infos!\n* **Informationen zur Prüfungsanmeldung für die Studiengänge der Abt. Wirtschaftsinformatik**\n[Infodokument zur Prüfungsanmeldung für das SoSe 2026](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-02-20-WI-Pruefungsanmeldung_im_SoSe_2026.pdf \"Initiates file download\")\n[Anleitung für Studierende zur Prüfungsanmeldung im Campusmanagement-Portal](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Pruefungsplan/WI/260601-Kurzanleitung_Pruefungsan-_und_-abmeldung_ueberarbeitet.pdf \"Initiates file download\") (Stand: 01.06.2026)"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f4 › WI › Informationen › 26 02 20 WI Pruefungsanmeldung im SoSe 2026 — Prüfungsanmeldung im SoSe 2026",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-02-20-WI-Pruefungsanmeldung_im_SoSe_2026.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Prüfungsanmeldung im SoSe 2026**",
+      "snippets": [
+        "**Fakultät IV, Abteilung Wirtschaftsinformatik**\n\n## **Prüfungsanmeldung im SoSe 2026**\n\n## **I. Für welche Studierenden gilt die Online-Anmeldung?**  \nFür alle Bachelor- und Master-Studierenden der Abteilung Wirtschaftsinformatik ist die Online-Anmeldung zwingend erforderlich.  \nFür ausländische Gaststudierende ist die Online-Anmeldung nicht möglich. Ausländische Gaststudierende melden sich zu den Prüfungen an, indem sie sich beim Team International Programmes (TIP) in entsprechende Anmeldelisten eintragen."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.26278,
+      "id": "43f60b4c-8b5f-553e-8072-fecc213fe0b6",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-02-20-WI-Pruefungsanmeldung_im_SoSe_2026.pdf",
+      "title_anzeige": "f4 › WI › Informationen › 26 02 20 WI Pruefungsanmeldung im SoSe 2026 — Prüfungsanmeldung im SoSe 2026",
+      "section_heading": "**Prüfungsanmeldung im SoSe 2026**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "**Fakultät IV, Abteilung Wirtschaftsinformatik**\n\n## **Prüfungsanmeldung im SoSe 2026**\n\n## **I. Für welche Studierenden gilt die Online-Anmeldung?**  \nFür alle Bachelor- und Master-Studierenden der Abteilung Wirtschaftsinformatik ist die Online-Anmeldung zwingend erforderlich.  \nFür ausländische Ga"
+    },
+    {
+      "rang": 2,
+      "score": 1.81482,
+      "id": "c08ab669-5277-51b8-9f60-8e80cfeb43f3",
+      "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-wirtschaftsinformatik",
+      "title_anzeige": "f4 › service › formulare und informationen › abteilung wirtschaftsinformatik",
+      "section_heading": "Studium Service Abteilung WI",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "### Studium Service Abteilung WI\n[ Anerkennung von Studien- und Prüfungsleistungen ](https://f4.hs-hannover.de/service/formulare-und-informationen/abteilung-wirtschaftsinformatik/anerkennung-von-studien-und-pruefungsleistungen)\n[ Anerkennung beruflicher Kompetenzen ](https://f4.hs-hannover.de/servic"
+    },
+    {
+      "rang": 3,
+      "score": 1.55206,
+      "id": "355deb2f-1dcc-5712-ac53-89cfecea19db",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch PO2016",
+      "section_heading": "Fördergemeinschaft und Alumni-Vereinigung (FAWuI)",
+      "chunk_index": 22,
+      "text_vollstaendig": false,
+      "auszug": "- Hilfen zum weiteren Ausbau, zur Erhaltung und zur Erneuerung der Einrichtungen der Fakultät  \n- Verleihung von Preisen für besondere wissenschaftliche Leistungen, z. B. den jährlich mit bis zu 4.600 € dotierten FaWuI-Preis für den besten Studierenden  \n- Ausbau der Beziehungen zur Wirtschaft durch"
+    },
+    {
+      "rang": 4,
+      "score": 1.53934,
+      "id": "de0c5760-5694-574b-b3cd-97c0e1593163",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 VIF Studienhandbuch VIF PO 2025 ohne MHB 25 10 07",
+      "section_heading": "",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "Wir wünschen Ihnen Erfolg und vor allem Freude in einem Studium, das Ihnen neue Horizonte eröffnet. Zögern Sie nicht, uns bei Problemen, die es in jedem Studium geben kann, direkt anzusprechen.  \nProf. Dr. Michael Bienert (Dekan) Prof. Dr.-Ing. Peter Merz (Studiendekan)  \n1. Allgemeines zur Fakultät"
+    },
+    {
+      "rang": 5,
+      "score": 1.52983,
+      "id": "4f0632cd-b8b5-5bec-83c4-0c1f1555f059",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-PO2016.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch PO2016",
+      "section_heading": "Inhaltsverzeichnis > 1. Studienabschnitt",
+      "chunk_index": 94,
+      "text_vollstaendig": false,
+      "auszug": "## Inhaltsverzeichnis\n\n## 1. Studienabschnitt  \n|---|---|  \nStand: 09. Juni 2021  \nFakultät IV - Wirtschaft und Informatik, Bachelorstudiengang Wirtschaftsinformatik  \n|---|---|  \n|Pflichtmodule 2.|Studienabschnitt|  \nStand: 09. Juni 2021  \nFakultät IV - Wirtschaft und Informatik, Bachelorstudiengan"
+    },
+    {
+      "rang": 6,
+      "score": 1.5265,
+      "id": "b27b4195-6894-5be7-ad6e-b31c5ffa6fc3",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 VIF Studien Modulhandbuch PO2020 240301",
+      "section_heading": "",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "1  Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik  \n1.  Allgemeines zur Fakultät IV und zur Abteilung Wirtschaftsinformatik  \n- 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der Hochschule Hannover ist in drei Abteilungen organisiert: Betriebswirts"
+    },
+    {
+      "rang": 7,
+      "score": 1.51919,
+      "id": "d24b618d-155b-549d-bd02-defe8e59a29d",
+      "source_url": "https://f4.hs-hannover.de",
+      "title_anzeige": "Herzlich Willkommen",
+      "section_heading": "Herzlich Willkommen > an der Fakultät IV > Herzlich Willkommen > Wirtschaft und Informatik",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Herzlich Willkommen  \n### an der Fakultät IV\n\n### Wirtschaft und Informatik\n_ _\nScrollen für mehr Infos!\nDie Fakultät IV – Wirtschaft und Informatik bietet ihren Studierenden in den Bereichen Betriebswirtschaft, Informatik und Wirtschaftsinformatik wissenschaftlich fundierte, berufsqualifizierend"
+    },
+    {
+      "rang": 8,
+      "score": 1.46871,
+      "id": "471e8149-2cb6-5b29-90d1-7e1e5c203ce0",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch BIS PO 2018 25 10 07",
+      "section_heading": "",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "Wir wünschen Ihnen Erfolg und vor allem Freude in einem Studium, das Ihnen neue Horizonte eröffnen soll. Zögern Sie nicht, uns bei Problemen, die es in jedem Studium geben kann, direkt anzusprechen.  \nProf. Dr. Michael Bienert (Dekan)  \nProf. Dr.-Ing. Peter Merz (Studiendekan)  \n1. Allgemeines zur F"
+    },
+    {
+      "rang": 9,
+      "score": 1.45218,
+      "id": "bd83d01b-fc61-5206-8168-72d7827f2e2a",
+      "source_url": "https://f4.hs-hannover.de/studium/plaene-und-termine/pruefungsplan/abteilung-wirtschaftsinformatik",
+      "title_anzeige": "Prüfungsplan WI",
+      "section_heading": "Prüfungsplan WI",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Prüfungsplan WI\n_ _\nScrollen für mehr Infos!\n* **Informationen zur Prüfungsanmeldung für die Studiengänge der Abt. Wirtschaftsinformatik**\n[Infodokument zur Prüfungsanmeldung für das SoSe 2026](https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-02-20-WI-Pr"
+    },
+    {
+      "rang": 10,
+      "score": 1.44848,
+      "id": "8c885918-f7c4-5842-b6fa-55b14c325dd9",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Erstsemesterinfo/Erstsemesterbegruessung.pdf",
+      "title_anzeige": "f4 › WI › Erstsemesterinfo › Erstsemesterbegruessung",
+      "section_heading": "**Die Fakultät IV – Wirtschaft und Informatik**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **Die Fakultät IV – Wirtschaft und Informatik**  \nFakultät IV\nDekanat\nAbteilung\nAbteilung Informatik Abteilung BWL\nWirtschaftsinformatik\nStudiendekanat\nPrüfungsamt\n-\nStudienkommission\nPrüfungskommission\nien  \n**Hochschule Hannover** _Erstsemesterbegrüßung Abteilung Wirtschaftsinformatik_  \nSeite "
+    },
+    {
+      "rang": 11,
+      "score": 1.4024,
+      "id": "f06638fe-0957-5e14-84e9-484ab512abb0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Broschueren/2022-26_Hochschulentwicklungsplan_Web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › Broschueren › 2022 26 Hochschulentwicklungsplan Web",
+      "section_heading": "Wirtschaft und Informatik > Wirtschaft und Informatik",
+      "chunk_index": 53,
+      "text_vollstaendig": false,
+      "auszug": "## Wirtschaft und Informatik\nDie Fakultät IV – Wirtschaft und Informatik bietet ihren Studierenden in den Bereichen Betriebswirtschaftslehre, Informatik und Wirtschaftsinformatik eine wissenschaftlich fundierte, berufsqualifizierende Ausbildung auf hohem Niveau und in persönlicher Betreuungsatmosphä"
+    },
+    {
+      "rang": 12,
+      "score": 1.38306,
+      "id": "dea4c227-7e02-58bc-925d-f1939ca109f9",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-BIS-Studien-Modulhandbuch-BIS-PO_2018-25-10-07.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 BIS Studien Modulhandbuch BIS PO 2018 25 10 07",
+      "section_heading": "Angestrebte Lernergebnisse",
+      "chunk_index": 155,
+      "text_vollstaendig": false,
+      "auszug": "Stand: 15. Mai 2025  \nFakultät IV - Wirtschaft und Informatik, Bachelorstudiengang Wirtschaftsinformatik"
+    },
+    {
+      "rang": 13,
+      "score": 1.33026,
+      "id": "93bfc73e-b5c6-59a8-adbc-5cdb447e536c",
+      "source_url": "https://mint.hs-hannover.de/fileadmin/5_%C3%9Cber_uns/Ver%C3%B6ffentlichungen/MINT-Mentoring_Flyer.pdf",
+      "title_anzeige": "mint › 5 Über uns › Veröffentlichungen › MINT Mentoring Flyer",
+      "section_heading": "Fakultät IV > Wirtschaft und Informatik",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Fakultät IV\n\n## Wirtschaft und Informatik  \n- Angewandte Informatik  \n- Mediendesigninformatik  \n- Verwaltungsinformatik  \n- Wirtschaftsinformatik"
+    },
+    {
+      "rang": 14,
+      "score": 1.26213,
+      "id": "ffe6604c-47a0-565e-9489-fe805c45527d",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-MDT-Studien-Modulhandbuch-PO2021-240317.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 MDT Studien Modulhandbuch PO2021 240317",
+      "section_heading": "",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "Prof. Dr. Michael Bienert (Dekan)  \nProf. Dr.-Ing. Peter Merz (Studiendekan)  \n1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik  \n1. Allgemeines zur Fakultät IV, Abteilung Wirtschaftsinformatik  \n- 1.1 Fakultäts- und Abteilungsstruktur  \nDie Fakultät IV – Wirtschaft und Informatik der"
+    },
+    {
+      "rang": 15,
+      "score": 1.06828,
+      "id": "02d66615-5e27-5356-a2da-78135b348f90",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/01-2018/HsH_Verkuendungsblatt_01_2018.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2018 › HsH Verkuendungsblatt 01 2018 — Ausgabe 01/2018",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)** > **mit dem Abschluss Bachelor of Science** > **in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, der Hochschule Hannover (BIS PO 2016)** > **§ 1**",
+      "chunk_index": 81,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)**\n\n# **mit dem Abschluss Bachelor of Science**\n\n# **in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, der Hochschule Hannover (BIS PO 2016)**  \n## **§ 1**"
+    },
+    {
+      "rang": 16,
+      "score": 1.04316,
+      "id": "8be456a4-b946-5d88-9fbf-7793f5955ff5",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-BIS-PO2018-240514.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 01 BIS PO2018 240514",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS) mit dem Abschluss Bachelor of Science in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, an der Hochschule Hannover (BIS PO 2018)** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS) mit dem Abschluss Bachelor of Science in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, an der Hochschule Hannover (BIS PO 2018)**  \n## **§ 1**"
+    },
+    {
+      "rang": 17,
+      "score": 1.03852,
+      "id": "c4eae2f0-3883-52b3-8e1f-5761897de70b",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studien-Modulhandbuch-PO2020-240301.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 VIF Studien Modulhandbuch PO2020 240301",
+      "section_heading": "f4.hs-hannover.de/studium/bachelor-studiengaenge/verwaltungsinformatik-vif",
+      "chunk_index": 10,
+      "text_vollstaendig": false,
+      "auszug": "## f4.hs-hannover.de/studium/bachelor-studiengaenge/verwaltungsinformatik-vif  \nBei Abweichungen zwischen Informationen/Darstellungen in der Prüfungsordnung und anderen Informationsmaterialien/-quellen sind letztendlich immer die Angaben in der Prüfungsordnung gültig und bindend.  \n- 4 -  \n1  Allgem"
+    },
+    {
+      "rang": 18,
+      "score": 1.02588,
+      "id": "b643a1f8-84b9-5819-b63f-949d38a37707",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Termine-Sprechzeiten/26-06-26-WiSe2026-Abt._WI_Semesterstarttermine.pdf",
+      "title_anzeige": "f4 › WI › Termine Sprechzeiten › 26 06 26 WiSe2026 Abt. WI Semesterstarttermine — - Semesterstart Termine WiSe 2026",
+      "section_heading": "_nur für BIS:_",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "Die genauen Termine entnehmen Sie bitte dem Terminplan.  \nHochschule Hannover | Fakultät IV – Abteilung Wirtschaftsinformatik                                                           Stand:  05.06.2026 (Änderungen vorbehalten)"
+    },
+    {
+      "rang": 19,
+      "score": 1.01625,
+      "id": "602880bc-bc59-5684-bd40-982205484f53",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-BIS-PO2016-190410.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 01 BIS PO2016 190410",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)** > **mit dem Abschluss Bachelor of Science in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, der Hochschule Hannover (BIS PO 2016)** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)**\n\n# **mit dem Abschluss Bachelor of Science in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, der Hochschule Hannover (BIS PO 2016)**  \n## **§ 1**"
+    },
+    {
+      "rang": 20,
+      "score": 1.00272,
+      "id": "b84a0306-4e56-5441-aef2-9e62f857305d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/04-2016/05_BIS_PO_2016.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2016 › 05 BIS PO 2016",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)** > **mit dem Abschluss Bachelor of Science** > **in der Fakultät IV – Wirtschaft und Informatik,** > **Abteilung Wirtschaftsinformatik, der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)**\n\n# **mit dem Abschluss Bachelor of Science**\n\n# **in der Fakultät IV – Wirtschaft und Informatik,**\n\n# **Abteilung Wirtschaftsinformatik, der Hochschule Hannover**  \n## **§ 1**"
+    },
+    {
+      "rang": 21,
+      "score": 0.99918,
+      "id": "e69c96cd-e92a-5304-a478-c479ae674b01",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-BIS-PO2018-AEnderung-Verkuendungsblatt_BTPO.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 01 BIS PO2018 AEnderung Verkuendungsblatt BTPO",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)**  \n**mit dem Abschluss Bachelor of Science an der Fakultät IV – Wirtschaft und Informatik, der Hochschule Hannover (BIS PO 2018)**"
+    },
+    {
+      "rang": 22,
+      "score": 0.99055,
+      "id": "4627410a-1e7b-5e41-a743-a9a937a0fb7d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/PDF__Sonstige/IMAGE_Praesentation_27.06.2025_web.pdf",
+      "title_anzeige": "www › Kommunikation und Marketing › PDF Sonstige › IMAGE Praesentation 27.06.2025 web — _01._ Wir – die HsH",
+      "section_heading": "**Unsere Standorte** > **Fakultät IV** > **Unsere Standorte** > _Wirtschaft & Informatik_",
+      "chunk_index": 26,
+      "text_vollstaendig": true,
+      "auszug": "## **Fakultät IV**\n\n## _Wirtschaft & Informatik_  \n- :  \n- Die Fakultät gliedert sich in **drei Abteilungen** Wirtschaftsinformatik  \n- Informatik"
+    },
+    {
+      "rang": 23,
+      "score": 0.96703,
+      "id": "126d7037-6f37-5889-b08b-d4b31775dfb1",
+      "source_url": "https://mint.hs-hannover.de/fileadmin/5_%C3%9Cber_uns/Ver%C3%B6ffentlichungen/StudyMINT_Flyer.pdf",
+      "title_anzeige": "mint › 5 Über uns › Veröffentlichungen › StudyMINT Flyer — Bewerbung",
+      "section_heading": "FAKULTÄT IV - Wirtschaft und Informatik",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## FAKULTÄT IV - Wirtschaft und Informatik  \nWirtschaftsinformatik, Verwaltungsinformatik und Angewandte Mathematik.  \nWas kann ich mit\nmeinem STUDIUM\nnach dem Studium\nanfangen?\nWas gibt es\nüberhaupt für\nSTUDIENGÄNGE?\nIch interessiere\nmich für TECHNIK!\nAber was ist das\nrichtige STUDIUM für mich?"
+    },
+    {
+      "rang": 24,
+      "score": 0.96581,
+      "id": "5163a44b-852d-5fb0-a9f8-73ca2cea9bfc",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-BIS-PO2018-190517.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 01 BIS PO2018 190517",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)** > **mit dem Abschluss Bachelor of Science in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, der Hochschule Hannover (BIS PO 2018)** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)**\n\n# **mit dem Abschluss Bachelor of Science in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, der Hochschule Hannover (BIS PO 2018)**  \n## **§ 1**"
+    },
+    {
+      "rang": 25,
+      "score": 0.95091,
+      "id": "23bcca37-32bb-526c-8fa0-62daf13a3765",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/20-09-28-Hinweise_2._Studienabschnitt_BIS.pdf",
+      "title_anzeige": "f4 › WI › Informationen › 20 09 28 Hinweise 2. Studienabschnitt BIS",
+      "section_heading": "**Wahl des Schwerpunktes**",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "##  **Wahl des Schwerpunktes**  \nVoraussetzung für die Prüfungsanmeldung im Schwerpunkt und in den Ergänzungsmodulen ist, dass Sie sich bei der Prüfungsverwaltung (Frau Miehe) zu Ihrem gewünschten Schwerpunkt angemeldet haben.  \n_Das Formular hierfür finden Sie auf den Webseiten der Fakultät unter S"
+    },
+    {
+      "rang": 26,
+      "score": 0.95069,
+      "id": "28ef6346-5fb3-56e7-bc7d-de89b74e3050",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/01-BIS-PO2026-30.07.2026_Verkuendungsblatt.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 01 BIS PO2026 30.07.2026 Verkuendungsblatt",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)** > **mit dem Abschluss Bachelor of Science** > **an der Fakultät IV – Wirtschaft und Informatik, der Hochschule Hannover (BIS PO 2026)** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS)**\n\n# **mit dem Abschluss Bachelor of Science**\n\n# **an der Fakultät IV – Wirtschaft und Informatik, der Hochschule Hannover (BIS PO 2026)**  \n## **§ 1**"
+    },
+    {
+      "rang": 27,
+      "score": 0.9491,
+      "id": "7f500ddf-5c95-54cb-a701-b5bc84d6c635",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt/aeltere-ausgaben/ausgaben-2018",
+      "title_anzeige": "www › verkuendungsblatt › aeltere ausgaben › ausgaben 2018 — Ausgabe Nr. 12/2018 vom 19.12.2018",
+      "section_heading": "Ausgabe Nr. 01/2018 vom 15.01.2018",
+      "chunk_index": 43,
+      "text_vollstaendig": true,
+      "auszug": "[Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS) mit dem Abschluss Bachelor of Science in der Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik, der Hochschule Hannover (BIS PO 2016)](https://www.hs-hannover.de/fileadmin/HsH/Forms/H"
+    },
+    {
+      "rang": 28,
+      "score": 0.93891,
+      "id": "3ad58ee1-b86e-5bf6-a1c5-2435bbe0d152",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/04-Studienverlaufsplan-VIF-PO2020.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 04 Studienverlaufsplan VIF PO2020 — 1. Studienabschnitt VIF",
+      "section_heading": "2. Studienabschnitt VIF",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## 2. Studienabschnitt VIF  \n**Hochschule Hannover** Fakultät IV, Abteilung Wirtschaftsinformatik"
+    },
+    {
+      "rang": 29,
+      "score": 0.93578,
+      "id": "beca412b-9520-515f-a233-29e7bd4945b2",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Ordnungen/05-VIF-Studienhandbuch-VIF-PO_2025_ohne_MHB-25-10-07.pdf",
+      "title_anzeige": "f4 › WI › Ordnungen › 05 VIF Studienhandbuch VIF PO 2025 ohne MHB 25 10 07",
+      "section_heading": "Fachschaftsrat",
+      "chunk_index": 19,
+      "text_vollstaendig": false,
+      "auszug": "Wir sind gerne für Euch da, wenn ihr uns braucht. Sprecht uns einfach an, wenn Ihr uns seht oder kommt zu uns in unser Büro (Raum 1J.0.37). Oder besucht unsere Facebook Seite oder unseren Instagram Account. Ein Klick auf unsere Seiten lohnt sich immer.  \n- 7 -  \n1. Allgemeines zur Fakultät IV, Abtei"
+    },
+    {
+      "rang": 30,
+      "score": 0.92495,
+      "id": "cb64f964-e51c-5a12-8fd7-d2eeb42d86f3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organe-und-gremien/verkuendungsblatt",
+      "title_anzeige": "www › ueber uns › organe und gremien › verkuendungsblatt",
+      "section_heading": "Ausgabe Nr. 04/2026 vom 15.05.2026",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "[Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Wirtschaftsinformatik (BIS) mit dem Abschluss Bachelor of Science an der Fakultät IV – Wirtschaft und Informatik, der Hochschule Hannover (BIS PO 2018)](https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Orga"
+    }
+  ],
+  "token_budget": {
+    "verwendet": 4468,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.93,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 0.2,
+    "docs_laden_s": 0.55,
+    "quellen_s": 2.69,
+    "antwort_llm_s": 1.4,
+    "gesamt_s": 4.09
+  },
+  "auswahl_begruendung": "{\n  \"selected\": [8, 1, 3, 7]\n}"
+}

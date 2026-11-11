@@ -1,0 +1,572 @@
+{
+  "fall": {
+    "id": "q08",
+    "case_type": "direct",
+    "question": "Wann muss ich den Semesterbeitrag für die Rückmeldung bezahlen?",
+    "reference_answer": "Die Rückmeldung findet für das Sommersemester vom 01.01. bis 31.01. eines jeden Jahres und für das Wintersemester vom 15.06. bis 15.07. eines jeden Jahres statt. Für die Rückmeldung ist die Überweisung des Semesterbeitrags oder des Semesterbeitrags plus Langzeitgebühr erforderlich. Die Rückmeldung gilt nur als erfolgt, wenn der Betrag auf dem Konto der Hochschule eingegangen ist.",
+    "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Rückmeldefrist Sommersemester: 01.01. bis 31.01.",
+      "Rückmeldefrist Wintersemester: 15.06. bis 15.07.",
+      "Der Semesterbeitrag muss überwiesen werden.",
+      "Die Rückmeldung gilt erst mit Zahlungseingang auf dem Hochschulkonto als erfolgt."
+    ],
+    "optional_facts": [
+      "Bei Langzeitgebühr ist Semesterbeitrag plus Langzeitgebühr zu überweisen."
+    ],
+    "forbidden_claims": [
+      "Nur das Überweisungsdatum statt Zahlungseingang als ausreichend darstellen.",
+      "Andere Rückmeldefristen nennen."
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Die Antwort muss die beiden Rückmeldefristen und die Bedingung des Zahlungseingangs auf dem Hochschulkonto nennen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "01.01.",
+      "31.01.",
+      "15.06.",
+      "15.07."
+    ],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "d8daae67-e322-5746-9caa-106f760349b9",
+      "246b3a92-d4d9-5efe-8727-89fdee56c39b",
+      "c8c1fcba-5950-5243-a006-cd2b79957004",
+      "26af5170-b2e7-5e3b-a0ae-757966b02604",
+      "baa7d96a-7729-5fd8-ac44-8b81ff1b0eda",
+      "10624b77-d9a6-5c20-8646-c86d5daed7e0",
+      "fe7043bb-6d1d-56db-9055-20f841d42a06",
+      "cc46d297-98cb-5e78-b2eb-0d3c02af60fa",
+      "edaff7f7-c033-5fd8-a772-74c2342d59e2",
+      "b19987d1-db99-50c7-85c2-046fcaf76868",
+      "732422e4-4592-5a07-b88f-e88153735b02",
+      "3da6d4a0-b9e1-5aa8-b4c2-10fb12b073db"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-22T08:22:16",
+  "dauer_s": 11.08,
+  "fehler": null,
+  "antwort": "Für das **Sommersemester** muss die Rückmeldung vom **01.01. bis 31.01.** erfolgen; für das **Wintersemester** vom **15.06. bis 15.07.**: „Die Rückmeldung findet * für das Sommersemester 01.01 - 31.01. eines jeden Jahres * für das Wintersemester 15.06. - 15.07. eines jeden Jahres statt.\" [1]\n\nFür das **Wintersemester 2026/27** musste der Semesterbeitrag bis spätestens **15. Juli 2026** eingegangen sein: „Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt.\" [1] Entscheidend ist der Zahlungseingang bei der Hochschule: „Die Rückmeldung gilt nur als erfolgt, wenn Semesterbeitrag oder Semesterbeitrag und Langzeitstudiengebühr auf dem Konto der Hochschule eingegangen sind.\" [1]",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "Semesterbeitrag und Rückmeldung",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+      "fakultaet": "",
+      "struktur": "# Semesterbeitrag und Rückmeldung\n  ## Der Semesterbeitrag...\n    ### Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt. Vielen Dank für Ihre Unterstützung.\n  ## Rückmeldung/ Semesterbeiträge\n  ## Sie benötigen Hilfe..."
+    },
+    {
+      "nr": 2,
+      "titel": "www › organisation › akademische angelegenheiten › studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende",
+      "fakultaet": "",
+      "struktur": "# Studierende\n  ## Alles rund ums Studium an der Hochschule Hannover an einem Ort:\n    ### Auf einen Blick\n  ## Themen vertiefen\n  ## Weiterlesen\n  ## Termine & Fristen\n  ## Semesterbeitrag und Rückmeldung\n  ## Antragsformulare\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 3,
+      "titel": "www › akademische angelegenheiten › studierende › exmatrikulation 1",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/exmatrikulation-1",
+      "fakultaet": "",
+      "struktur": "# Exmatrikulation\n  ## Exmatrikulationsgründe\n  ## Weiterlesen\n  ## Termine & Fristen\n  ## Semesterbeitrag und Rückmeldung\n  ## Antragsformulare\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 4,
+      "titel": "Herzlich Willkommen an der Hochschule Hannover",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+      "fakultaet": "",
+      "struktur": "# Herzlich Willkommen an der Hochschule Hannover\n  ## Das Wichtigste zum Studienstart...\n    ### Auf einen Blick\n  ## Informationen aus den Fakultäten\n  ## Fakultät I - Elektro- und Informationstechnik:\n  ## Fakultät II - Maschinenbau und Bioverfahrenstechnik:\n  ## Fakultät III - Medien, Information und Design:\n  ## Fakultät IV - Wirtschaft und Informatik:\n  ## Fakultät V - Diakonie, Gesundheit und Soziales:\n  ## Wichtige Links\n  ## Weiterlesen\n  ## Termine & Fristen\n  ## Semesterbeitrag und Rückmeldung\n  ## Antragsformulare\n  ## Benötigen Sie Hilfe...\n  ## Öffnungszeiten:"
+    },
+    {
+      "nr": 5,
+      "titel": "FAQ für Studierende und Studienbewerber*innen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "fakultaet": "",
+      "struktur": "# FAQ für Studierende und Studienbewerberinnen\n  ## Ihre Frage - unsere Antwort\n  ## Fragen vor dem Studium\n  ## Fragen vor der Bewerbung\n  ## Fragen nach der Bewerbung\n  ## Fragen zum Studienstart\n  ## Fragen zum Wechsel des Studiengangs oder der Hochschule\n  ## Fragen zur Unterbrechung des Studiums\n  ## Fragen zum Ende des Studiums\n  ## Allgemeine Fragen"
+    },
+    {
+      "nr": 6,
+      "titel": "f4 › WI › Informationen › 26 01 23 Hinweise zum Abschluss Semester BIS 2026 01 23 — 7. Semester: Praxisphase mit Bachelor-Arbeit",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-01-23-Hinweise_zum_Abschluss-Semester_BIS__2026-01-23_.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Hinweise zum Abschluss-Semester\n  ## im Bachelor-Studiengang Wirtschaftsinformatik (BIS) )\n  ## 7. Semester: Praxisphase mit Bachelor-Arbeit\n  ## 1. Voraussetzungen für die Zulassung und Vorbereitung des Abschluss-Semesters\n  ## 2. Anmeldung zur Praxisphase\n  ## Mit dem Betreuer sollten Sie nun auch den gesamten Ablauf Ihres Abschluss-Semesters besprechen.\n  ## 3. Antrag auf Zulassung zur Bachelor-Arbeit\n  ## 4. Zulassung zur Bachelor-Arbeit\n  ## 5. Anfertigen der Bachelor-Arbeit\n  ## 6. Abgabe der Bachelor-Arbeit\n  ## 7. Abschluss der Praxisphase\n  ## 8. Bewertung der Bachelor-Arbeit\n  ## 9. Abholen von Zeugnis und Urkunde; Exmatrikulation\n  ## Zeitplanung für das Sommer- bzw. Wintersemester als Abschluss-Semester\n  ## Für die Zeitplanung sind folgende Mindestdurchlaufzeiten zu berücksichtigen:\n  ## FAQs … zum zeitlichen Rahmen für das Abschluss-Semester\n  ## FAQs … zur Verzahnung von zweiter Praxisphase und Bachelor-Arbeit\n  ## Kann meine Bachelor-Arbeit auch theoretischer Natur sein?\n  ## FAQs … zu den Zulassungsvoraussetzungen\n  ## FAQs … zum Thema / Titel der Bachelor-Arbeit\n  ## Was muss ich bei der Wahl des Themas beachten?\n  ## Kann ich das Thema später noch einmal ändern?\n  ## FAQs … zu Bearbeitungszeit und Abgabetermin\n  ## Kann die Bearbeitungszeit der Bachelor-Arbeit verlängert werden?\n  ## FAQs … zur rechtzeitigen Abgabe der Bachelor-Arbeit\n  ## FAQs … zum Kolloquium\n  ## Was ist das Kolloquium zur Bachelor-Arbeit?\n  ## Muss ich in jedem Fall ein Kolloquium machen?\n  ## Wie wirkt sich das Kolloquium auf die Note aus?\n  ## FAQs … zu Abbruch, Nichtbestehen und Wiederholung der Bachelor-Arbeit\n  ## Was passiert, wenn meine Bachelor-Arbeit mit „nicht ausreichend“ bewertet wird?\n  ## Kann ich eine nicht bestandene Arbeit durch ein Kolloquium noch „retten“?\n  ## FAQs … zu weiteren Themen\n  ## FAQs … zu den Studiengängen VIF und MDT\n  ## Zum Schluss\n  ## Sehr geehrte Studierende,\n  ## Prof. Dr. Bernd Obermöller\n  ## Stand: Januar 2026"
+    },
+    {
+      "nr": 7,
+      "titel": "f4 › BWL › Formulare Und Informationen › 2025 03 13 Informationen zu Praxisphasen und Bachelor Arbeit — Informationen zu den Praxisphasen und zur Bachelor-Arbeit",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/2025_03_13_Informationen_zu_Praxisphasen_und_Bachelor-Arbeit_.pdf",
+      "fakultaet": "f4",
+      "struktur": "# Informationen zu den Praxisphasen und zur Bachelor-Arbeit\n  ## Inhaltsverzeichnis\n  ## 1 Allgemeines\n  ## 2 Praxisphasen\n  ## 2.1 Planung\n  ## 2.2 Organisation und Durchführung\n  ## 2.3 Vertragsdauer, Mindestlohn und Urlaub[1]\n  ## 2.4 Unterstützung bei der Bewerbung und Ansprechpartner/innen\n  ## 1. Leitfäden (siehe moodle):\n  ## 2. Stellenangebote:\n  ## 3. Persönliche Beratung:\n  ## 3 Bachelor-Arbeit\n  ## 3.1 Planung\n  ## 3.2 Organisation und Durchführung\n  ## 4 Kolloquium\n  ## 5 FAQ\n  ## 5.1 Praxisphasen\n  ## Muss eine Praxisphase zeitlich genau in einem Semester liegen?\n  ## Darf eine Praxisphase auch länger als 3 Monate dauern?\n  ## Kann ein Auslandsstudiensemester als Praxisphase anerkannt werden?\n  ## 5.2 Bachelor-Arbeit und Kolloquium\n  ## - Kann die Bearbeitungszeit der Bachelor Arbeit verlängert werden?\n  ## Was passiert, wenn ich meine Bachelor-Arbeit abbreche?\n  ## Kann die Bachelor-Arbeit früher als offiziell vorgesehen abgegeben werden?\n  ## - Wo kann ich meine fertige Bachelor Arbeit abgeben?\n  ## - Was passiert, wenn ich meine Bachelor Arbeit nicht rechtzeitig abgebe?\n  ## Was ist das Kolloquium zur Bachelor-Arbeit?\n  ## Muss ich in jedem Fall ein Kolloquium machen?\n  ## Wie wirkt sich das Kolloquium auf die Note aus?\n  ## Was passiert, wenn meine Bachelor-Arbeit mit nicht ausreichend bewertet wird?\n  ## Kann ich eine nicht bestandene Arbeit durch ein Kolloquium noch „retten“?\n  ## Kann ich die Bachelor-Arbeit auch in englischer Sprache abfassen?"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Grundordnung der Hochschule Hannover\n  ## Präambel\n  ## § 1\n  ## Rechtsstellung, Sitz\n  ## § 2\n  ## Ziele und Aufgaben\n  ## § 3\n  ## Organisation der Hochschule\n  ## § 4\n  ## Organe der Hochschulen\n  ## § 5\n  ## Institute\n  ## § 6\n  ## Präsidium\n  ## § 7\n  ## Senat\n  ## § 8\n  ## Hochschulrat\n  ## § 9\n  ## Bildung und Zusammensetzung von Kommissionen mit besonderen Aufgaben\n  ## und weiteren beratenden Gremien\n  ## § 10 Dekanat\n  ## § 11\n  ## Fakultätsrat\n  ## § 12\n  ## Wissenschaftliche Einrichtungen und Kooperationen\n  ## § 13\n  ## Mitglieder und Angehörige\n  ## § 14\n  ## Allgemeine Grundsätze der Mitwirkung\n  ## § 15\n  ## Rechtsstellung der Mitglieder von Gremien\n  ## § 16\n  ## Beschlüsse\n  ## § 17\n  ## Öffentlichkeit\n  ## § 18\n  ## Gleichstellungsbeauftragte\n  ## § 19\n  ## Bestellung von Honorarprofessorinnen und Honorarprofessoren\n  ## § 20\n  ## Ernennung von Ehrensenatorinnen und Ehrensenatoren\n  ## § 21\n  ## Berufung von Professorinnen und Professoren\n  ## § 22\n  ## Veröffentlichungen und Bekanntmachungen\n  ## § 23\n  ## Änderung der Grundordnung\n  ## § 24"
+    },
+    {
+      "nr": 9,
+      "titel": "f2 › Studierendenverwaltung › Gesetze Ordnungen Richtlinien › Immatrikulationsordnung der Hochschule vom 12.06.2013",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Immatrikulationsordnung_der_Hochschule_vom_12.06.2013.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Immatrikulationsordnung der Hochschule Hannover (HsH)\n  ## Übersicht\n  ## § 1 Immatrikulation\n  ## § 2 Frist und Form der Anträge auf Immatrikulation\n  ## § 3 Rücknahme der Immatrikulation\n  ## § 4 Versagung der Immatrikulation\n  ## § 5 Exmatrikulation auf eigenen Antrag\n  ## § 6 Exmatrikulation aus besonderem Grund\n  ## § 7 Rückmeldung\n  ## § 8 Beurlaubung\n  ## § 9 Gleichzeitiges Studium mehrerer Studiengänge\n  ## § 10 Teilzeitstudium\n  ## § 11 Austauschstudium\n  ## § 12\n  ## Gasthörerinnen und Gasthörer\n  ## § 13 Zuständigkeiten\n  ## § 14 Inkrafttreten"
+    },
+    {
+      "nr": 10,
+      "titel": "www › Verkuendungsblatt › 04 2013 › 02 Neufassung I Ordnung 07 05 2013 — Immatrikulationsordnung der Hochschule Hannover (HsH)",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/02_Neufassung_I-Ordnung-07_05_2013.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Immatrikulationsordnung der Hochschule Hannover (HsH)\n  ## Übersicht\n  ## § 1 Immatrikulation\n  ## § 2 Frist und Form der Anträge auf Immatrikulation\n  ## § 4 Versagung der Immatrikulation\n  ## § 5 Exmatrikulation auf eigenen Antrag\n  ## § 6 Exmatrikulation aus besonderem Grund\n  ## § 8 Beurlaubung\n  ## § 10 Teilzeitstudium\n  ## § 11 Austauschstudium\n  ## § 12\n  ## Gasthörerinnen und Gasthörer\n  ## § 13 Zuständigkeiten\n  ## § 14 Inkrafttreten"
+    },
+    {
+      "nr": 11,
+      "titel": "f3 › studium › faqs 1",
+      "url": "https://f3.hs-hannover.de/studium/faqs-1",
+      "fakultaet": "f3",
+      "struktur": "# FAQ\n  ## Hier finden Sie Antworten auf häufig gestellte Fragen, die vor Studienbeginn und während des Studiums aufkommen können.\n  ## Vor Studiumbeginn\n  ## Im Studium"
+    },
+    {
+      "nr": 12,
+      "titel": "Religionspädagogik und Soziale Arbeit (BRS)",
+      "url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs",
+      "fakultaet": "f5",
+      "struktur": "# Religionspädagogik und Soziale Arbeit (BRS)\n    ### Wann geht es los?\n    ### Auf einen Blick\n# Kurzübersicht\n  ## Zielgruppe des Studiengangs\n  ## Youtube-Kanal der Fakultät V\n    ### Externer Inhalt\n  ## Diakonin / Gemeindepädagogin werden\n    ### Externer Inhalt\n  ## Termine und aktuelle Informationen\n  ## Informationen für Studieninteressierte & Studierende\n    ### Beratungsangebote für Studierende & Studieninteressierte \n    ### Bewerbung\n    ### Erstsemesterinformation\n    ### Zulassungsordnung/Prüfungsordnung\n    ### Semesterbeitrag & Rückmeldung\n    ### Wege ins Ausland\n    ### Ästhetische Werkstätten & Soziale Kulturarbeit\n    ### Lehr- und Lernwerkstatt\n    ### Alumni-Netzwerk Soziale Arbeit\n  ## Studienverlauf & -inhalt\n  ## Praxisbezug und Praktika\n  ## Radioandachten von Studierenden\n    ### Praktikum (M 11 (PO 2020/21) / M 23 (PO 2026))\n    ### Integriertes Berufsanerkennungsjahr (IBA)\n  ## Ansprechpersonen Praktikumsamt (M 11 (PO 2020/21) / M 23 (PO 2026) & IBA)\n    ### Beauftragter für Praktika & Praxiskontakte\n    ### Beauftragter für Praktika & Praxiskontakte\n    ### Sachbearbeitung Praktikumsamt\n  ## Hauptamtlich Lehrende der Abteilung Religionspädagogik und Diakonie\n  ## Ansprechpersonen Studiengang\n  ## Bewerbung & Immatrikulation\n    ### Studiendekanin\n    ### Sekretariat\n    ### Fachstudienberatung intern (eingeschriebene Studierende)\n    ### Fachstudienberatung extern (Studieninteressierte und Gasthörende)\n    ### Studiendekanatsassistenz\n    ### Prüfungsamt\n  ## Beratung durch Mitarbeitende der Evangelisch-lutherischen Landeskirche Hannovers für den Studiengang\n  ## Weitere Informationen\n  ## Anfahrt zum Campus Kleefeld"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 1,
+      "titel": "Semesterbeitrag und Rückmeldung",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung"
+    },
+    {
+      "nr": 9,
+      "titel": "f2 › Studierendenverwaltung › Gesetze Ordnungen Richtlinien › Immatrikulationsordnung der Hochschule vom 12.06.2013",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Immatrikulationsordnung_der_Hochschule_vom_12.06.2013.pdf"
+    },
+    {
+      "nr": 5,
+      "titel": "FAQ für Studierende und Studienbewerber*innen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq"
+    },
+    {
+      "nr": 2,
+      "titel": "www › organisation › akademische angelegenheiten › studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Semesterbeitrag und Rückmeldung",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Semesterbeitrag und Rückmeldung > Der Semesterbeitrag... > Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt. Vielen Dank für Ihre Unterstützung. > Semesterbeitrag und Rückmeldung > Rückmeldung/ Semesterbeiträge > Semesterbeitrag und Rückmeldung",
+      "snippets": [
+        "IBAN: DE 41 2505 0000 0151 8018 34\nBIC: NOLADE2HXXX  \n**Tragen Sie bitte im Verwendungszweck folgende Angaben ein:**\n**1. Zeile:**\nMatrikelnummer der Studierenden\n**2. Zeile:**\nVornamen und Nachname der Studierenden  \n**Beispiel für den Verwendungszweck:**  \n123456\nKim Musterperson\n[ Wichtige Hinweise über Semesterbeiträge ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung \"Wichtige Hinweise über Semesterbeiträge\")\n* Beachten Sie, dass für Studierende in **Weiterbildungsstudiengänge andere Semesterbeiträge** gelten. Dies liegt an den unterschiedlichen Vertragsinhalten der einzelnen Vertragspartner.\n* **Ratenzahlungen sind nicht möglich!**  \n[ Rückmeldung & Rückmeldefristen ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung \"Rückmeldung & Rückmeldefristen\")\nDie Rückmeldung findet\n* für das Sommersemester 01.01 - 31.01. eines jeden Jahres\n\nDie Rückmeldung findet\n* für das Sommersemester 01.01 - 31.01. eines jeden Jahres\n* für das Wintersemester 15.06. - 15.07. eines jeden Jahres  \nstatt.\nFür Ihre Rückmeldung ist die Überweisung des Semesterbeitrages oder Semesterbeitrag und Langzeitgebühr erforderlich.[ Weitere Informationen zur Langzeitstudiengebühr finden Sie hier. ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/langzeitstudiengebuehren)\nDie Rückmeldung gilt nur als erfolgt, wenn Semesterbeitrag oder Semesterbeitrag und Langzeitstudiengebühr auf dem Konto der Hochschule eingegangen sind.\nBitte beachten Sie die Fristen, sonst sind Sie nach Mahnung unter Fristsetzung gemäß § 19 Absatz 6 Niedersächsisches Hochschulgesetz (NHG) zum Ende des Semesters exmatrikuliert. Wird die Exmatrikulation sowie die Rückerstattung der Abgaben und Entgelte vor oder innerhalb eines Monats nach Vorlesungsbeginn beantragt, werden geleistete Abgaben und Entgelte erstattet.",
+        "### Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt. Vielen Dank für Ihre Unterstützung.",
+        "Die Rückmeldung findet\n* für das Sommersemester 01.01 - 31.01. eines jeden Jahres\n* für das Wintersemester 15.06. - 15.07. eines jeden Jahres  \nstatt.\nFür Ihre Rückmeldung ist die Überweisung des Semesterbeitrages oder Semesterbeitrag und Langzeitgebühr erforderlich.[ Weitere Informationen zur Langzeitstudiengebühr finden Sie hier. ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/langzeitstudiengebuehren)\nDie Rückmeldung gilt nur als erfolgt, wenn Semesterbeitrag oder Semesterbeitrag und Langzeitstudiengebühr auf dem Konto der Hochschule eingegangen sind.\nBitte beachten Sie die Fristen, sonst sind Sie nach Mahnung unter Fristsetzung gemäß § 19 Absatz 6 Niedersächsisches Hochschulgesetz (NHG) zum Ende des Semesters exmatrikuliert. Wird die Exmatrikulation sowie die Rückerstattung der Abgaben und Entgelte vor oder innerhalb eines Monats nach Vorlesungsbeginn beantragt, werden geleistete Abgaben und Entgelte erstattet."
+      ],
+      "zitate": [
+        "Die Rückmeldung findet * für das Sommersemester 01.01 - 31.01. eines jeden Jahres * für das Wintersemester 15.06. - 15.07. eines jeden Jahres statt.",
+        "Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt.",
+        "Die Rückmeldung gilt nur als erfolgt, wenn Semesterbeitrag oder Semesterbeitrag und Langzeitstudiengebühr auf dem Konto der Hochschule eingegangen sind."
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f2 › Studierendenverwaltung › Gesetze Ordnungen Richtlinien › Immatrikulationsordnung der Hochschule vom 12.06.2013",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Immatrikulationsordnung_der_Hochschule_vom_12.06.2013.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**§ 7 Rückmeldung**",
+      "snippets": [
+        "## **§ 7 Rückmeldung**  \n- (1) Eingeschriebene Studierende, die ihr Studium fortsetzen wollen, haben sich innerhalb der letzten vier Wochen der Vorlesungszeit des vorangehenden  Semesters zurückzumelden. Eine Rückmeldung in ausgelaufene Studiengänge ist nicht möglich. Beurlaubte Studierende haben sich für das dem Urlaubssemester folgende Semester zurückzumelden.  Dies gilt ebenso für Studierende, die sich im Praxissemester oder im Rahmen eines internationalen Studiengangs im Ausland befinden.  \n- (2) Der Nachweis über die Zahlung der gemäß NHG fälligen Abgaben und Entgelte und der EntgeltO der Hochschule gilt als Rückmeldung.  Ohne diese Nachweise gilt die Rückmeldung als nicht erfolgt.  \n- (3) Studierende sind bei Fristversäumnis unter Hinweis auf die Exmatrikulationsmöglichkeiten unter Beachtung des § 28 VwVfG zu mahnen,  es ist eine angemessene Nachfrist einzuräumen."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "FAQ für Studierende und Studienbewerber*innen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "FAQ für Studierende und Studienbewerber*innen > Fragen zum Studienstart > FAQ für Studierende und Studienbewerber*innen",
+      "snippets": [
+        "[ Wann sind die Rückmeldefristen? ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq \"Wann sind die Rückmeldefristen?\")\nDie Rückmeldefristen sowie die aktuellen Zahlungsinformationen zum Semesterbeitrag stehen auf der Seite [**Semesterbeitrag und Rückmeldung**](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung) der Hochschule Hannover.\nDort sind für jedes Semester die **konkreten Rückmeldezeiträume** , die Höhe des Semesterbeitrags und wichtige Hinweise zur fristgerechten Rückmeldung aufgeführt.\n[ Auslandsstudium: Ist ein Semester oder mehrere im Ausland möglich? ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq \"Auslandsstudium: Ist ein Semester oder mehrere im Ausland möglich?\")\nJa, ein oder mehrere Semester im Ausland sind möglich.",
+        "Aktuelle Beträge, die genaue Zusammensetzung des Semesterbeitrags sowie die **Rückmeldefristen** stehen im Bereich [**Semesterbeitrag und Rückmeldung**](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)**.**\n[ Mein Zeugnis liegt noch nicht vor, kann ich mich dann bewerben?  ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq \"Mein Zeugnis liegt noch nicht vor, kann ich mich dann bewerben? \")\nWenn die Durchschnittsnote der Hochschulzugangsberechtigung noch nicht feststeht, das Abschlusszeugnis aber voraussichtlich **vor Ende der Bewerbungsfrist** ausgestellt wird, gilt:\nMit der **Bewerbung warten** , bis das Zeugnis vorliegt und die Abschlussnote eingetragen ist.\nAnschließend die Bewerbung mit**vollständigen Angaben** fristgerecht abschicken."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › organisation › akademische angelegenheiten › studierende",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Studierende > Semesterbeitrag und Rückmeldung",
+      "snippets": [
+        "## Weiterlesen\n\n##  Termine & Fristen\nHier erhalten Sie eine Übersicht über alle relevanten Termine und Fristen des Dezernats - Akademische Angelegenheiten während des Studiums für das laufende und die kommenden Semester – der Überblick kommt mit dem nächsten Klick.\n![Termine & Fristen](https://www.hs-hannover.de/fileadmin/_processed_/e/f/csm_ChatGPT_Image_3._Maerz_2026__07_09_01_737caba551.png?rbiFocus=mobile)\n[ Weiterlesen ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/wichtige-termine-fristen)\n\n##  Semesterbeitrag und Rückmeldung\nAlle Studierenden zahlen jedes Semester den Semesterbeitrag. Eine Immatrikulation ist nur bei Erfüllung der Beitragspflicht möglich. Bitte achten Sie auf die Rückmeldefristen für die einzelnen Semester eines Jahres.\n![Semesterbeitrag und Rückmeldung](https://www.hs-hannover.de/fileadmin/_processed_/3/f/csm_ChatGPT_Image_3._Maerz_2026__07_17_20_d1abe474cb.png?rbiFocus=mobile)\n[ Weiterlesen ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)\n\n##  Antragsformulare\nAuf dieser Seite können Sie alle Anträge des Dezernats Akademische Angelegenheiten finden. Die meisten Anträge können Sie direkt online stellen, vereinzelt müssen diese noch per E-Mail gestellt werden, indem Sie die entsprechende PDF-Datei nutzen und uns ausgefüllt zusenden.\n![Anträge für Studieninteressierte und Studierende](https://www.hs-hannover.de/fileadmin/_processed_/1/2/csm_ChatGPT_Image_3._Maerz_2026__07_00_40_cba35b50ca.png?rbiFocus=mobile)\n[ Weiterlesen ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/antragsformulare)"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.21317,
+      "id": "10624b77-d9a6-5c20-8646-c86d5daed7e0",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+      "title_anzeige": "Semesterbeitrag und Rückmeldung",
+      "section_heading": "Semesterbeitrag und Rückmeldung > Der Semesterbeitrag... > Die Rückmeldung für das Wintersemester 2026/27 wird bis spätestens 15.Juli 2026 benötigt. Vielen Dank für Ihre Unterstützung. > Semesterbeitrag und Rückmeldung > Rückmeldung/ Semesterbeiträge > Semesterbeitrag und Rückmeldung",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "IBAN: DE 41 2505 0000 0151 8018 34\nBIC: NOLADE2HXXX  \n**Tragen Sie bitte im Verwendungszweck folgende Angaben ein:**\n**1. Zeile:**\nMatrikelnummer der Studierenden\n**2. Zeile:**\nVornamen und Nachname der Studierenden  \n**Beispiel für den Verwendungszweck:**  \n123456\nKim Musterperson\n[ Wichtige Hinwei"
+    },
+    {
+      "rang": 2,
+      "score": 3.06187,
+      "id": "246b3a92-d4d9-5efe-8727-89fdee56c39b",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung",
+      "title_anzeige": "Semesterbeitrag und Rückmeldung",
+      "section_heading": "Semesterbeitrag und Rückmeldung > Der Semesterbeitrag...",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "![](https://www.hs-hannover.de/fileadmin/_processed_/3/f/csm_ChatGPT_Image_3._Maerz_2026__07_17_20_92b528ddd8.png?rbiFocus=mobile)\n\n#  Semesterbeitrag und Rückmeldung  \n## Der Semesterbeitrag...\nist jedes Semester vollständig zu zahlen. Eine Immatrikulation oder Rückmeldung wird erst vorgenommen, we"
+    },
+    {
+      "rang": 3,
+      "score": 2.88676,
+      "id": "ec7b174e-9b4f-5679-834d-4a2639b341c8",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende",
+      "title_anzeige": "www › organisation › akademische angelegenheiten › studierende",
+      "section_heading": "Studierende > Semesterbeitrag und Rückmeldung",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Weiterlesen\n\n##  Termine & Fristen\nHier erhalten Sie eine Übersicht über alle relevanten Termine und Fristen des Dezernats - Akademische Angelegenheiten während des Studiums für das laufende und die kommenden Semester – der Überblick kommt mit dem nächsten Klick.\n![Termine & Fristen](https://www."
+    },
+    {
+      "rang": 4,
+      "score": 2.88271,
+      "id": "c0b4fbf5-86fc-5abc-879a-0594ad22975a",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/exmatrikulation-1",
+      "title_anzeige": "www › akademische angelegenheiten › studierende › exmatrikulation 1",
+      "section_heading": "Exmatrikulation > Semesterbeitrag und Rückmeldung",
+      "chunk_index": 10,
+      "text_vollstaendig": true,
+      "auszug": "##  Semesterbeitrag und Rückmeldung\nAlle Studierenden zahlen jedes Semester den Semesterbeitrag. Eine Immatrikulation ist nur bei Erfüllung der Beitragspflicht möglich. Bitte achten Sie auf die Rückmeldefristen für die einzelnen Semester eines Jahres.\n![Semesterbeitrag und Rückmeldung](https://www.h"
+    },
+    {
+      "rang": 5,
+      "score": 2.86527,
+      "id": "b8a13312-fe54-5f19-80bc-b6d452b95254",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/erstsemesterinformationen",
+      "title_anzeige": "Herzlich Willkommen an der Hochschule Hannover",
+      "section_heading": "Herzlich Willkommen an der Hochschule Hannover > Semesterbeitrag und Rückmeldung",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "##  Semesterbeitrag und Rückmeldung\nAlle Studierenden zahlen jedes Semester den Semesterbeitrag. Eine Immatrikulation ist nur bei Erfüllung der Beitragspflicht möglich. Bitte achten Sie auf die Rückmeldefristen für die einzelnen Semester eines Jahres.\n![Semesterbeitrag und Rückmeldung](https://www.h"
+    },
+    {
+      "rang": 6,
+      "score": 2.7056,
+      "id": "133f885f-cbf7-5078-a73c-bb17ef8e7745",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "title_anzeige": "FAQ für Studierende und Studienbewerber*innen",
+      "section_heading": "FAQ für Studierende und Studienbewerber*innen > Fragen zum Studienstart > FAQ für Studierende und Studienbewerber*innen",
+      "chunk_index": 42,
+      "text_vollstaendig": true,
+      "auszug": "[ Wann sind die Rückmeldefristen? ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq \"Wann sind die Rückmeldefristen?\")\nDie Rückmeldefristen sowie die aktuellen Zahlungsinformationen zum Semesterbeitrag stehen auf der Seite [**Semesterbeitrag und Rückmeldung**](https"
+    },
+    {
+      "rang": 7,
+      "score": 2.64655,
+      "id": "a151b17d-91db-592f-ad22-d86079df0f9b",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/exmatrikulation-1",
+      "title_anzeige": "www › akademische angelegenheiten › studierende › exmatrikulation 1",
+      "section_heading": "Exmatrikulation > Exmatrikulationsgründe > Exmatrikulation",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "Studierende, die sich nicht innerhalb der vorgegebenen Frist für das kommende Semester mit dem fälligen [Semesterbeitrag ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)sowie ggf. die [Langzeitstudiengebühr ](https://www.hs"
+    },
+    {
+      "rang": 8,
+      "score": 2.34919,
+      "id": "b830dbfb-b4b8-5e91-ae0c-9b04ec25ef75",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/WI/Informationen/26-01-23-Hinweise_zum_Abschluss-Semester_BIS__2026-01-23_.pdf",
+      "title_anzeige": "f4 › WI › Informationen › 26 01 23 Hinweise zum Abschluss Semester BIS 2026 01 23 — 7. Semester: Praxisphase mit Bachelor-Arbeit",
+      "section_heading": "FAQs … zum zeitlichen Rahmen für das Abschluss-Semester",
+      "chunk_index": 19,
+      "text_vollstaendig": false,
+      "auszug": "In welchen Fällen muss ich mich zu dem auf das Abschluss-Semester folgende Semester noch einmal zurückmelden?  \nEs kommt darauf an. Wenn Ihre Bachelor-Arbeit und der Praxisphasenbericht so rechtzeitig bewertet werden, dass etwa Mitte August bzw. Mitte Februar alle Noten bei der Prüfungsverwaltung vo"
+    },
+    {
+      "rang": 9,
+      "score": 2.34215,
+      "id": "902ec24d-cde4-5aea-8b80-ba369363f89a",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "title_anzeige": "FAQ für Studierende und Studienbewerber*innen",
+      "section_heading": "FAQ für Studierende und Studienbewerber*innen > Fragen vor der Bewerbung > FAQ für Studierende und Studienbewerber*innen",
+      "chunk_index": 23,
+      "text_vollstaendig": true,
+      "auszug": "Aktuelle Beträge, die genaue Zusammensetzung des Semesterbeitrags sowie die **Rückmeldefristen** stehen im Bereich [**Semesterbeitrag und Rückmeldung**](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)**.**\n[ Mein Zeugnis lie"
+    },
+    {
+      "rang": 10,
+      "score": 2.32131,
+      "id": "8c2082be-6706-5f4f-bbef-3eef49e7cf55",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/2025_03_13_Informationen_zu_Praxisphasen_und_Bachelor-Arbeit_.pdf",
+      "title_anzeige": "f4 › BWL › Formulare Und Informationen › 2025 03 13 Informationen zu Praxisphasen und Bachelor Arbeit — Informationen zu den Praxisphasen und zur Bachelor-Arbeit",
+      "section_heading": "**Informationen zu den Praxisphasen und zur Bachelor-Arbeit** > 5.2 Bachelor-Arbeit und Kolloquium",
+      "chunk_index": 80,
+      "text_vollstaendig": true,
+      "auszug": "## 5.2 Bachelor-Arbeit und Kolloquium  \nIn welchen Fällen muss ich mich zu dem auf das letzte Fachsemester nachfolgende Semester noch einmal zurückmelden?  \nEs kommt darauf an. Wenn Ihre Bachelor-Arbeit und der Praxisphasenbericht rechtzeitig bewertet werden, sodass zum Ende des Semesters (31.08. od"
+    },
+    {
+      "rang": 11,
+      "score": 2.26085,
+      "id": "830aa4c2-e75d-5d38-90cf-44d78fae7f63",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/HSH_Verkuendungsblatt_04_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › HSH Verkuendungsblatt 04 2013 — Verkündungsblatt",
+      "section_heading": "**§ 7 Rückmeldung**",
+      "chunk_index": 72,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Rückmeldung**  \n- (1) Eingeschriebene Studierende, die ihr Studium fortsetzen wollen, haben sich innerhalb der letzten vier Wochen der Vorlesungszeit des vorangehenden Semesters zurückzumelden. Eine Rückmeldung in ausgelaufene Studiengänge ist nicht möglich. Beurlaubte Studierende haben sic"
+    },
+    {
+      "rang": 12,
+      "score": 2.26074,
+      "id": "27c02817-dc93-5946-ad45-002263f5217c",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Gesetze_Ordnungen_Richtlinien/Immatrikulationsordnung_der_Hochschule_vom_12.06.2013.pdf",
+      "title_anzeige": "f2 › Studierendenverwaltung › Gesetze Ordnungen Richtlinien › Immatrikulationsordnung der Hochschule vom 12.06.2013",
+      "section_heading": "**§ 7 Rückmeldung**",
+      "chunk_index": 21,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Rückmeldung**  \n- (1) Eingeschriebene Studierende, die ihr Studium fortsetzen wollen, haben sich innerhalb der letzten vier Wochen der Vorlesungszeit des vorangehenden  Semesters zurückzumelden. Eine Rückmeldung in ausgelaufene Studiengänge ist nicht möglich. Beurlaubte Studierende haben si"
+    },
+    {
+      "rang": 13,
+      "score": 2.21848,
+      "id": "d1b8be24-8e5a-5f0e-9e1f-60edda59f22e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/02_Neufassung_I-Ordnung-07_05_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 02 Neufassung I Ordnung 07 05 2013 — Immatrikulationsordnung der Hochschule Hannover (HsH)",
+      "section_heading": "**§ 6 Exmatrikulation aus besonderem Grund**",
+      "chunk_index": 21,
+      "text_vollstaendig": false,
+      "auszug": "__________________________________________________________________________________ Immatrikulationsordnung der Hochschule Hannover (HsH) Seite 7 von 11  \n**§ 7 Rückmeldung**  \n- (1) Eingeschriebene Studierende, die ihr Studium fortsetzen wollen, haben sich innerhalb der letzten vier Wochen der Vorle"
+    },
+    {
+      "rang": 14,
+      "score": 2.17377,
+      "id": "4ee41769-61c5-5979-b055-d1cc58e216b5",
+      "source_url": "https://f3.hs-hannover.de/studium/faqs-1",
+      "title_anzeige": "f3 › studium › faqs 1",
+      "section_heading": "FAQ > Im Studium > FAQ",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "[ Immatrikulationsbescheinigung: Wo bekomme ich eine Immatrikulationsbescheinigung? ](https://f3.hs-hannover.de/studium/faqs-1 \"Immatrikulationsbescheinigung: Wo bekomme ich eine Immatrikulationsbescheinigung?\")\nNach erfolgreicher Rückmeldung stehen Ihnen die aktuelle Immatrikulationsbescheinigung u"
+    },
+    {
+      "rang": 15,
+      "score": 2.15442,
+      "id": "a13111ab-5a19-548d-87bc-8276b6a0b921",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/religionspaedagogik-und-soziale-arbeit-brs",
+      "title_anzeige": "Religionspädagogik und Soziale Arbeit (BRS)",
+      "section_heading": "Kurzübersicht > Informationen für Studieninteressierte & Studierende > [Semesterbeitrag & Rückmeldung](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)",
+      "chunk_index": 41,
+      "text_vollstaendig": false,
+      "auszug": "### [Semesterbeitrag & Rückmeldung](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)\n[ Weiterlesen ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)\n"
+    },
+    {
+      "rang": 16,
+      "score": 2.15206,
+      "id": "d24e9f6c-64e1-5903-b734-4ceaa2dcca96",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw",
+      "title_anzeige": "Soziale Arbeit - grundständig (BSW)",
+      "section_heading": "Kurzübersicht > Informationen für Studieninteressierte & Studierende > [Semesterbeitrag & Rückmeldung](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)",
+      "chunk_index": 37,
+      "text_vollstaendig": false,
+      "auszug": "### [Semesterbeitrag & Rückmeldung](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)\n[ Weiterlesen ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/semesterbeitrag-und-rueckmeldung)\n"
+    },
+    {
+      "rang": 17,
+      "score": 2.1172,
+      "id": "baa0fd51-5d0a-5e06-afc1-6d8e4ef77a9b",
+      "source_url": "https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/unsere-austauschprogramme",
+      "title_anzeige": "Unsere Austauschprogramme",
+      "section_heading": "Unsere Austauschprogramme",
+      "chunk_index": 31,
+      "text_vollstaendig": true,
+      "auszug": "[ Rückmeldung ](https://www.hs-hannover.de/internationales/wege-an-die-hochschule-hannover/austauschstudierende/unsere-austauschprogramme \"Rückmeldung\")\nWenn Sie Ihr Studium für das kommende Semester an der Hochschule Hannover fortsetzen wollen, müssen Sie sich zurückmelden. Die Rückmeldung ist in j"
+    },
+    {
+      "rang": 18,
+      "score": 2.05862,
+      "id": "79a726fa-eafc-5eda-99a7-c9221e882e13",
+      "source_url": "https://f3.hs-hannover.de/studium/semestertermine",
+      "title_anzeige": "Semestertermine an der Hochschule Hannover",
+      "section_heading": "Semestertermine an der Hochschule Hannover > Fristen > Semestertermine an der Hochschule Hannover",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "Di. bis Do.: 09:00 Uhr - 12:00 Uhr\nDi. bis Do.: 13:00 Uhr - 15:00 Uhr\nMontag und Freitag keine Sprechstunde\nGerne können Sie uns außerhalb unserer Sprechstunden per E-Mail erreichen.\nE-Mail: [studierendenservice(at)hs-hannover.de](https://typo3backend-live.hs-hannover.de/ueber-uns/organisation/akade"
+    },
+    {
+      "rang": 19,
+      "score": 2.03694,
+      "id": "d2cc4512-85bd-5e2c-bd43-9d48c9524cef",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/beurlaubung",
+      "title_anzeige": "www › akademische angelegenheiten › studierende › beurlaubung",
+      "section_heading": "Beurlaubung > Hinweise",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "„Auch während einer Beurlaubung bleibt der Studierendenstatus bestehen. Daher ist eine Rückmeldung erforderlich. Dies setzt die Zahlung des Semesterbeitrags voraus. Studierende mit Wohnsitz in Hannover müssen den Studentenwerksbeitrag in Höhe von derzeit 130 Euro weiterhin entrichten. Ohne fristgere"
+    },
+    {
+      "rang": 20,
+      "score": 1.85969,
+      "id": "d1060a30-4907-5520-8f01-9a5be44c8305",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/wichtige-termine-fristen",
+      "title_anzeige": "Termine & Fristen",
+      "section_heading": "Termine & Fristen > Fristen",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "## Fristen\n[ Rückmeldung für das kommende Semester ](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/wichtige-termine-fristen \"Rückmeldung für das kommende Semester\")\n* für das Sommersemester 01. Januar - 31. Januar eines jeden Jahres\n* für das Wintersemeste"
+    },
+    {
+      "rang": 21,
+      "score": 1.8238,
+      "id": "60f1f2c0-48b5-5b15-9bc0-7f2012e8918e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2013/04-2013/02_Neufassung_I-Ordnung-07_05_2013.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2013 › 02 Neufassung I Ordnung 07 05 2013 — Immatrikulationsordnung der Hochschule Hannover (HsH)",
+      "section_heading": "**§ 6 Exmatrikulation aus besonderem Grund**",
+      "chunk_index": 22,
+      "text_vollstaendig": false,
+      "auszug": "- (2) Der Nachweis über die Zahlung der gemäß NHG fälligen Abgaben und Entgelte und der EntgeltO der Hochschule gilt als Rückmeldung. Ohne diese Nachweise gilt die Rückmeldung als nicht erfolgt.  \n- (3) Studierende sind bei Fristversäumnis unter Hinweis auf die Exmatrikulationsmöglichkeiten unter Be"
+    },
+    {
+      "rang": 22,
+      "score": 1.78127,
+      "id": "2ff71498-0c5d-576c-8151-63be1fd71b35",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/05_5.AEnderung-Immatrikulationsordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2010 › 05 5.AEnderung Immatrikulationsordnung — Immatrikulationsordnung der Fachhochschule Hannover (FHH)",
+      "section_heading": "**§ 7 Rückmeldung**",
+      "chunk_index": 21,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 7 Rückmeldung**  \n(1) Eingeschriebene Studierende, die ihr Studium fortsetzen wollen, haben sich innerhalb der letzten vier Wochen der Vorlesungszeit des vorangehenden Semesters zurückzumelden. Beurlaubte Studierende haben sich für das dem Urlaubssemester folgende Semester zurückzumelden. Die"
+    },
+    {
+      "rang": 23,
+      "score": 1.76384,
+      "id": "b164b3a2-9415-53b1-bc63-350ff4c5aeac",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Dual/Kooperationsvertrag_dual.pdf",
+      "title_anzeige": "f2 › Abt M › Dual › Kooperationsvertrag dual — Kooperationsvereinbarung",
+      "section_heading": "Duale Bachelor-Studiengänge",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Duale Bachelor- und Masterstudiengänge  \nIn Bachelor- wie Master-Studiengängen sind nicht die Unternehmen, sondern die dual Studierenden persönlich zur semesterweisen Rückmeldung bei der Hochschule Hannover verpflichtet.  \nDas «Unternehmen» verpflichtet sich, duale Studierende im Studium und in der "
+    },
+    {
+      "rang": 24,
+      "score": 1.75143,
+      "id": "b7e4ef03-2c6c-5725-9c54-f2070e9804c8",
+      "source_url": "https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw",
+      "title_anzeige": "Soziale Arbeit - grundständig (BSW)",
+      "section_heading": "Kurzübersicht > Informationen für Studieninteressierte & Studierende > [Erstsemesterinformation](https://f5.hs-hannover.de/studium/erstsemesterinformation)",
+      "chunk_index": 36,
+      "text_vollstaendig": false,
+      "auszug": "### [Erstsemesterinformation](https://f5.hs-hannover.de/studium/erstsemesterinformation)\n[ Weiterlesen ](https://f5.hs-hannover.de/studium/erstsemesterinformation)\n[ Teilen ](https://f5.hs-hannover.de/studium/bachelor-studiengaenge/soziale-arbeit-grundstaendig-bsw \"Teilen\")\n[ ![](https://f5.hs-hanno"
+    },
+    {
+      "rang": 25,
+      "score": 1.69271,
+      "id": "6543d1ed-5f19-561b-9f26-13fc92cb2413",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2021/04-2021/03_PUE_-_GebO_WbgStg_29.06.2020Wu.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2021 › 03 PUE GebO WbgStg 29.06.2020Wu — an der Hochschule Hannover (Gebührenordnung PUE 2021)",
+      "section_heading": "**für den Weiterbildungsstudiengang** > **§ 1** > **für den Weiterbildungsstudiengang** > **Semesterbeitrag und Studiengebühren**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 1**\n\n## **Semesterbeitrag und Studiengebühren**  \n- (1) Der Master-Weiterbildungsstudiengang „Prozessmanagement und Usability Engineering Industrie 4.0“ ist gebührenpflichtig. Studierende dieses Master-Weiterbildungsstudiengangs sind verpflichtet, pro Semester einen Semesterbeitrag (Abs. 2) u"
+    },
+    {
+      "rang": 26,
+      "score": 1.6225,
+      "id": "82dfdddf-6ff8-56b6-ba61-892b60a2d696",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 2025 08 25 InfobroschuereErstsemesterInformatik 2025 2026 0825 — IN DEN STUDIENGÄNGEN",
+      "section_heading": "**9 Termine** > **Abteilung Informatik Termine für das Wintersemester 2025/26**",
+      "chunk_index": 47,
+      "text_vollstaendig": true,
+      "auszug": "|Samstag, 31. Januar 2026|Letzter Termin für die Rückmeldung zum Sommersemester|\n|Sonntag, 1. Februar 2026|Beginn der vorlesungsfreien Zeit|\n|Sonntag, 1. Februar bis\nSamstag, 28. Februar 2026|Lehrveranstaltungsspezifische Blocktermine und Projektabgaben\n(insb. Mediendesigninformatik)|\n|Samstag, 28. "
+    },
+    {
+      "rang": 27,
+      "score": 1.58372,
+      "id": "1baafa16-e82d-54a2-a7ce-eef6515d392e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/13.Antrag_auf_Widerruf_der_Immatrikulation.pdf",
+      "title_anzeige": "www › Studierendenverwaltung › Antraege › 13.Antrag auf Widerruf der Immatrikulation",
+      "section_heading": "**Bitte zutreffendes ankreuzen:**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **Bitte zutreffendes ankreuzen:**  \nDie mir bereits zugesandte CampusCard füge ich diesem Verzicht bei  \nIch habe meine CampusCard noch nicht erhalten  \nDatum:_____________________ Unterschrift:______________________________  \n**Der bereits eingezahlte Semesterbeitrag wird nur bei Abgabe der Camp"
+    },
+    {
+      "rang": 28,
+      "score": 1.57579,
+      "id": "1dfb41a3-f296-5582-8ed6-ea743a5237cf",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BJO_Journalistik_Studiengangsflyer_A5_202303.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Studiengangsflyer › BJO Journalistik Studiengangsflyer A5 202303 — Worum geht es?",
+      "section_heading": "Semesterbeitrag",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## Semesterbeitrag  \nAlle Studierenden zahlen jedes Semester den Semesterbeitrag. Dieser setzt sich zusammen aus: GVH-Ticket, landesweites Semesterticket, Studentenschaft, Studentenwerk, Verwaltungskostenbeitrag. Weitere Informationen:  \nDie Freischaltung des Bewerbungsportals für das Wintersemester"
+    },
+    {
+      "rang": 29,
+      "score": 1.54254,
+      "id": "6d70e625-f2d7-567c-a1ea-7f48088a0af1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Studierendenverwaltung/Antraege/Semesterbeitraege_WiSe_2026_27.pdf",
+      "title_anzeige": "www › Studierendenverwaltung › Antraege › Semesterbeitraege WiSe 2026 27",
+      "section_heading": "**€ Zahlungsinformationen**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## **€ Zahlungsinformationen**  \nDen Semesterbeitrag und eventuelle Langzeitstudiengebühren überweisen Sie bitte auf folgendes Konto:  \n**Empfänger:** Hochschule Hannover **IBAN: DE41 2505 0000 0151 8018 34 BIC: NOLADE2HXXX**"
+    },
+    {
+      "rang": 30,
+      "score": 1.5288,
+      "id": "1740d58e-e977-57c2-b109-95eddb71fc6a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblaetter/11-2025/01_InPro_-_GebO_Lesefassung.pdf",
+      "title_anzeige": "www › Verkuendungsblaetter › 11 2025 › 01 InPro GebO Lesefassung — an der Hochschule Hannover",
+      "section_heading": "**§ 1** > **Semesterbeitrag und Studiengebühren**",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 1**\n\n## **Semesterbeitrag und Studiengebühren**  \n- (1) Der Master-Weiterbildungsstudiengang „Intelligente Produktion“ ist gebührenpflichtig. Studierende dieses Master-Weiterbildungsstudiengangs sind verpflichtet, pro Semester einen Semesterbeitrag (Abs. 2) und Studiengebühren (§§ 2 und 3) zu"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 29290,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.79,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 2.38,
+    "docs_laden_s": 0.08,
+    "quellen_s": 4.26,
+    "antwort_llm_s": 6.61,
+    "gesamt_s": 10.87
+  },
+  "auswahl_begruendung": "{\"selected\":[1,9,5,2]}"
+}

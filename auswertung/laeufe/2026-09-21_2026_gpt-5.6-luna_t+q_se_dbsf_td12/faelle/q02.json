@@ -1,0 +1,643 @@
+{
+  "fall": {
+    "id": "q02",
+    "case_type": "direct",
+    "question": "Ist der Bachelorstudiengang Mechatronik zulassungsfrei und welches Vorpraktikum wird verlangt?",
+    "reference_answer": "Der Bachelorstudiengang Mechatronik ist zulassungsfrei. Studienbewerber*innen müssen vor Aufnahme des Studiums ein Vorpraktikum von 6 Wochen oder eine fachbezogene Ausbildung nachweisen. Ist der Nachweis zum Immatrikulationsschluss nicht möglich, kann das Vorpraktikum bis zum Ende des 2. Semesters nachgeholt werden.",
+    "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+    "expected_behavior": "direct_answer",
+    "source_policy": "accepted_sources",
+    "accepted_source_urls": [
+      "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge"
+    ],
+    "required_facts": [
+      "Mechatronik ist zulassungsfrei.",
+      "Es werden 6 Wochen Vorpraktikum oder eine fachbezogene Ausbildung verlangt.",
+      "Das Vorpraktikum kann bis zum Ende des 2. Semesters nachgeholt werden."
+    ],
+    "optional_facts": [
+      "Der Nachweis soll grundsätzlich vor Aufnahme des Studiums erfolgen."
+    ],
+    "forbidden_claims": [
+      "Einen Numerus clausus oder eine andere Zulassungsbeschränkung behaupten.",
+      "Eine andere Praktikumsdauer nennen."
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Wichtig sind Zulassungsfreiheit, 6 Wochen Vorpraktikum bzw. fachbezogene Ausbildung und die Nachholmöglichkeit bis Ende des 2. Semesters.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "zulassungsfrei",
+      "6 Wochen"
+    ],
+    "source_policy_original": "exact_gold_source",
+    "quellen_geprueft": "2026-09-14",
+    "quellen_grund": "Zentrale Studienangebotsseite: Mechatronik zulassungsfrei, Vorpraktikum.",
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "bb6c1b20-71a7-50e8-a81e-bf15a9825bde",
+      "3be1272b-154d-509a-8546-7a5ea3757b66",
+      "041c7708-134f-5e7d-a48d-663d56546cc6",
+      "42dabbe8-8a3f-5f45-841c-f2c7a8a3912b",
+      "77398a15-3259-5a06-b90c-6b504d51833a",
+      "a2b7e1db-08db-59e3-9e06-49c36e2859e0",
+      "848bdf79-09fa-5fe6-87e5-d2f9e3517329",
+      "67fbc2c4-539c-50d9-9a39-22fd680d91ea",
+      "97b2f132-e356-530d-81d5-9f53c52d0650",
+      "0e13032b-8610-5d21-ae2b-67d6bbf5da51",
+      "8bada32e-3f44-5b98-94fa-a1af40238cd9",
+      "e096decc-9eb6-5c1f-b1fc-ab4a0d1eda35",
+      "aebfab59-ab6c-578b-a997-e35d98617e76",
+      "ad35f28b-336d-5985-a486-7d0b45425374",
+      "d92b3f30-252b-5496-bead-81094bf7bf9e",
+      "53780e74-3e1e-5456-a89e-faba4b06a47d",
+      "de9b37fe-0aec-54ea-a48c-c72f9f513ec8",
+      "d6bc5ad9-9a7c-53d1-8154-fa42a66276c4",
+      "675a2057-3cda-5506-8e4a-7ccc7eb852e5",
+      "1967526c-ce80-5148-93b8-82fe02c0459d",
+      "15b2cc61-85bb-579b-a22f-b2358c409589",
+      "5f9e653c-7f22-57cc-af17-2d61b369673a",
+      "6591f371-c155-555a-ad35-a7bed0110102",
+      "600d1a14-e191-5d51-8e06-f7e6ac574208",
+      "34363b10-23e9-58f7-b486-4de3e72975b9",
+      "ca73b3b3-dbab-51b7-bf77-65a0cb3d2214",
+      "32cec630-2039-5f12-8244-67cebdae40d9",
+      "02e47908-2c74-5d57-970d-8dbc274c45c1",
+      "4aa0e1d8-eeb9-5525-b2fa-fd6c0c8ceb70",
+      "ec6a8684-abf2-5e8c-af55-b79cec25570c",
+      "5fde8560-02b2-50d2-b321-5eff5dec115e",
+      "22a84a03-2404-5c6a-aff8-c10210d29d4b",
+      "bf071083-3e12-5ef1-94b7-f347f51cbef6",
+      "362470b8-af8f-57ee-9c45-125b466de868",
+      "ad25eb6e-b80c-5219-b332-56fa2a8db3aa",
+      "cfee4aea-f74a-54da-987e-998dcd7c4d2b",
+      "1faca48d-2af1-5d4b-9522-b4fd55acebc4",
+      "3e66c7c2-b5d0-52f2-9a0f-4e9baf4df8dd",
+      "260fe66d-d1fc-5887-a2dc-6daad8c1d51a",
+      "03f850d1-3712-5abd-82f9-b9642eab74b1",
+      "2247a2a6-9663-56df-8ae1-da3d6875a288",
+      "cf9d3d2f-4c3f-5514-b679-54d8bafef455",
+      "a238a32d-d6e1-5749-a2f1-87bb3a09864b",
+      "bf968a32-bfbc-506a-bf41-bf6f2e900d4a",
+      "0ba7c28e-88d4-5e0c-b7bf-0face3c89a0e",
+      "e74f2598-0721-5802-97e8-47e637961071",
+      "cad099a2-7cee-5c37-9f60-b26fb8d39f72",
+      "6d76a83c-be80-5f5b-9e1f-e7440af2d21f",
+      "407086c0-150f-5a89-8670-fd39ff02a528",
+      "052850c1-bfea-52d1-9fd9-2de72304edc6",
+      "62636fb0-6a46-529e-80b2-66c6f57368fc",
+      "0deecfaf-5a2e-5af6-8f88-d45018d151c1",
+      "76721ed6-4d14-52fd-b13d-3dce35f8c38f",
+      "b3b42739-c7e5-57a7-9fa6-5486e30dec08",
+      "446cee81-58e5-5e20-9ff4-ed0bb144482c",
+      "fbc58f2e-9e95-5bf3-8b77-07582450d447",
+      "d0390dba-c6f7-5d65-ba0e-7b86bddb8390",
+      "0a60e8e1-3cb3-5b95-b2a4-f175c921df86",
+      "3bc9c2b1-4a8c-5b64-8f34-8ddb43e1e163",
+      "f9304fe1-f205-51c2-a958-8496b441f7c3",
+      "00f47d14-fe52-5895-bddd-93259381eb20",
+      "f14c2990-a3d9-52ab-9573-dc6d375d813d",
+      "39ea99ad-cde2-5ae3-be5d-aeaef86dbdeb",
+      "e3988412-30b2-5649-add3-7b36d7a5795c",
+      "3fc8a822-9dd4-5ee5-8f2d-e59e3621b3f2",
+      "7c5e3847-d5ea-5084-ac40-9c3e0f6bcad4",
+      "aa0732ee-9b5e-5b60-bfac-d49ebc43d8fb",
+      "326b5f2c-aea3-556f-a1ab-48dbe403d3c7",
+      "6a70a1cb-b0f8-5c8f-8703-3b32d229adcc"
+    ],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:27:47",
+  "dauer_s": 11.95,
+  "fehler": null,
+  "antwort": "Ja. Der Bachelorstudiengang Mechatronik an der Fakultät I ist „zulassungsfrei\" [1].\n\nVorausgesetzt wird ein „Vorpraktikum von 6 Wochen bzw. eine fachbezogene Ausbildung\" [1]. Das Vorpraktikum muss „bis zum Beginn des 3.Semesters komplett absolviert sein\" [2]; dabei „müssen nicht alle Bereiche abgedeckt werden\" [2].\n\nAls mögliche Bereiche nennt die Hochschule unter anderem:\n\n- „Grundausbildung in Metall- und Kunststoffverarbeitung\" [2]\n- „Grundfertigkeiten der Verarbeitung\" [2]\n- „Messen und Prüfen (Qualitätssicherung)\" [2]\n- „Automatisierungstechnik (Fertigungstechniken)\" [2]\n- „Einblicke in betriebliche Arbeitsprozessen\" [2]\n\nDas Praktikum kann „geteilt und in verschiedenen Unternehmen/Einrichtungen geleistet werden\" [2].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › studium › studienangebot › bachelor studiengaenge — Filter auswählen",
+      "url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "fakultaet": "",
+      "struktur": "# Bachelor-Studiengänge\n    ### Filter auswählen\n  ## Abteilung Religionspädagogik und Soziale Arbeit\n  ## Angewandte Informatik (BIN)\n  ## Angewandte Mathematik und Data Science (MAT)\n  ## Bank- und Versicherungswesen (BBI)\n  ## Betriebswirtschaftslehre (BBA)\n  ## Biotechnologie und Umwelttechnik (BIU)\n  ## Dual Studieren in der Elektro- und Informationstechnik\n  ## Elektrotechnik und Informationstechnik (EIT)\n  ## Future Food Systems (LVT)\n  ## Green Engineering – Energietechnik und Verfahrenstechnik (GEV)\n  ## Heilpädagogik - Inklusive Bildung und Begleitung - berufsbegleitend (HBI)\n  ## Heilpädagogik - Inklusive Bildung und Begleitung (BAH)\n  ## Informationsmanagement (BIM)\n  ## Informationsmanagement berufsbegleitend (BIB)\n  ## Ingenieurinformatik Maschinenbau (IIM)\n  ## Ingenieurinformatik Maschinenbau dual (IID)\n  ## Innenarchitektur (BIA)\n  ## Integrated Media & Communication (IMC) Dual\n  ## International Business Studies (IBS)\n  ## Journalistik (BJO)\n  ## Konstruktionstechnik dual (KTD)\n  ## Lebensmittelverpackungstechnologie (LMV)\n  ## Maschinenbau (MAB)\n  ## Mechatronik (MEC)\n  ## Mechatronik dual (MTD)"
+    },
+    {
+      "nr": 2,
+      "titel": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "fakultaet": "",
+      "struktur": "  ## B e s o n d e r e r  T e i l  d e r  P r ü f u n g s o r d n u n g für den Studiengang Mechatronik (BME) mit dem Abschluss Bachelor of Engineering an der Fakultät I – Elektro- und Informationstechnik der Fachhochschule Hannover (FHH)\n  ## § 1\n  ## Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Vorprüfung\n  ## § 4\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## §5\n  ## Technische Wahlpflichtfächer und  Wahlpflichtlabore\n  ## §6\n  ## Übergangsbestimmung\n  ## §7\n  ## Inkrafttreten\n  ## Anlage B2 zum Studiengang Mechatronik\n  ## Legende:"
+    },
+    {
+      "nr": 3,
+      "titel": "f1 › 10 Bachelorstdg › MEC › 20160518 BPO MEC verk",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Bestehen der Vor- und Bachelor-Prüfung\n  ## § 6\n  ## Endgültiges Nichtbestehen der Vor- und Bachelor-Prüfung\n  ## § 7\n  ## Wiederholung von Prüfungsleistungen\n  ## § 8\n  ## Bachelor-Arbeit\n  ## § 9\n  ## Teilzeitstudium\n  ## § 10\n  ## Internationale Studienoption\n  ## § 11\n  ## Übergangsbestimmungen\n  ## § 12\n  ## Inkrafttreten\n  ## 2. Änderung\n  ## 3. Änderung\n  ## Anlage B1: 1. Studienabschnitt Studiengang Mechatronik (MEC)\n  ## Anlage B2: 2. Studienabschnitt Studiengang Mechatronik (MEC)\n  ## Summe Credits 120\n  ## Anlage B2-plus: 2. Studienabschnitt Studiengang Mechatronik Internationale MEC-plus\n  ## Im Ausland zu erbringende Leistungen"
+    },
+    {
+      "nr": 4,
+      "titel": "f1 › 10 Bachelorstdg › MEC › FI BTPO BA MEC 15.05.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik (MEC) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I – Elektro- und Informationstechnik\n# der Hochschule Hannover\n  ## § 1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Studiensemester im Ausland\n  ## § 5\n  ## Wiederholung von Prüfungsleistungen\n  ## § 6\n  ## Bachelor-Arbeit\n  ## § 7\n  ## Teilzeitstudium\n  ## § 8\n  ## Internationale Studienoption\n  ## § 9\n  ## Übergangsbestimmungen\n  ## § 10\n  ## Inkrafttreten\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Ergänzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 5,
+      "titel": "www › Verkuendungsblatt › 01 2012 › 03 PO Mechatronik",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/03-PO-Mechatronik.pdf",
+      "fakultaet": "",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover\n  ## § 1 Hochschulgrad\n  ## § 2\n  ## Dauer und Gliederung des Studiums\n  ## § 3\n  ## Studiensemester im Ausland\n  ## § 4 Pflicht- und Wahlpflichtmodule\n  ## § 5\n  ## Bachelor-Arbeit\n  ## § 6 Inkrafttreten\n  ## Anlage B1\n  ## Anlage B2"
+    },
+    {
+      "nr": 6,
+      "titel": "Benötigte Vorpraktika",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+      "fakultaet": "",
+      "struktur": "# Benötigte Vorpraktika\n  ## Benötigte Vorpraktika\n  ## Anforderungen nach Fakultät:"
+    },
+    {
+      "nr": 7,
+      "titel": "FAQ für Studierende und Studienbewerber*innen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "fakultaet": "",
+      "struktur": "# FAQ für Studierende und Studienbewerberinnen\n  ## Ihre Frage - unsere Antwort\n  ## Fragen vor dem Studium\n  ## Fragen vor der Bewerbung\n  ## Fragen nach der Bewerbung\n  ## Fragen zum Studienstart\n  ## Fragen zum Wechsel des Studiengangs oder der Hochschule\n  ## Fragen zur Unterbrechung des Studiums\n  ## Fragen zum Ende des Studiums\n  ## Allgemeine Fragen"
+    },
+    {
+      "nr": 8,
+      "titel": "f2 › Ordnungen › MTD › 02 MTD PO 2019 Neu 20220701",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/02-MTD_PO_2019-Neu-20220701.pdf",
+      "fakultaet": "f2",
+      "struktur": "# Besonderer Teil der Prüfungsordnung für den dualen Bachelor-Studiengang\n# Mechatronik (MTD)\n# mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover\n  ## §1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Abweichende Regelungen zum Allgemeinen Teil der Prüfungsordnung\n  ## § 5\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 6\n  ## Übergangsbestimmung\n  ## § 7\n  ## Inkrafttreten\n  ## 2. Änderung:\n  ## 3. Änderung:\n  ## 4. Änderung:\n  ## Bachelor-Studiengang Mechatronik dual (MTD) - 7 Semester\n  ## Hinweise:\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weitere Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch."
+    },
+    {
+      "nr": 9,
+      "titel": "f2 › Dual › Flyer u. Informationsmaterial › Flyer MTD dual Fakulta tII WEB — Wozu qualifiziert das Studium?",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Dual/Flyer_u._Informationsmaterial/Flyer_MTD_dual_Fakulta__tII_WEB.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Wozu qualifiziert das Studium?\n  ## Welche Vorteile bietet das Studium?\n  ## Kontakt\n  ## Die Studieninhalte im Überblick\n  ## Bachelorstudiengang Mechatronik (dual)\n  ## Wie studiere ich?\n  ## Studienorganisation im Überblick\n  ## Wie kann ich mich bewerben?"
+    },
+    {
+      "nr": 10,
+      "titel": "Mechatronik (MEC)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "fakultaet": "f1",
+      "struktur": "# Mechatronik (MEC)\n    ### Auf einen Blick\n# Kurzübersicht\n# Schnittstelle zwischen den Disziplinen\n  ## Studieninhalte\n  ## Optionen\n    ### Und so könnte es für Sie als Absolventin oder Absolvent des Bachelor-Studiengangs Mechatronik weitergehen:\n  ## Qualifikationsziele\n  ## Dokumente\n  ## Kontakt\n    ### Studiengangsleiter\n# Haben wir Ihr Interesse geweckt?"
+    },
+    {
+      "nr": 11,
+      "titel": "Duale Studiengänge",
+      "url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+      "fakultaet": "",
+      "struktur": "# Duale Studiengänge\n    ### Filter auswählen\n  ## Dual Studieren in der Elektro- und Informationstechnik\n  ## Ingenieurinformatik Maschinenbau dual (IID)\n  ## Integrated Media & Communication (IMC) Dual\n  ## Konstruktionstechnik dual (KTD)\n  ## Maschinenbau - Produktionssysteme dual (MPD)\n  ## Mechatronik dual (MTD)\n  ## Produktionstechnik dual (PTD)\n  ## Wertschöpfungsmanagement im Maschinenbau dual (WMM)\n  ## Wirtschaftsingenieur/in (Technischer Vertrieb) dual (WTD)\n  ## Wirtschaftsingenieurwesen Maschinenbau dual (WID)"
+    },
+    {
+      "nr": 12,
+      "titel": "f2 › Ordnungen › MTD › 5 MTD 2017 20220701",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/5_MTD_2017_20220701.pdf",
+      "fakultaet": "f2",
+      "struktur": "# Besonderer Teil der Prüfungsordnung\n# für den dualen Bachelor-Studiengang Mechatronik (MTD) mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II, Maschinenbau und Bioverfahrenstechnik, der Hochschule Hannover\n  ## §1\n  ## Anwendbarkeit des Allgemeinen Teils der Prüfungsordnung\n  ## § 2\n  ## Hochschulgrad\n  ## § 3\n  ## Dauer und Gliederung des Studiums\n  ## § 4\n  ## Abweichende Regelungen zum Allgemeinen Teil der Prüfungsordnung\n  ## § 5\n  ## Bachelor-Prüfung, Bachelor-Arbeit\n  ## § 6\n  ## Übergangsbestimmung\n  ## § 7\n  ## Inkrafttreten\n  ## Dualer Bachelor-Studiengang Mechatronik - 7 Semester\n  ## Ein Credit entspricht einem Workload von 30 Stunden\n  ## Legende der Abkürzungen (Angaben zu Modulen und Teilmodulen, Prüfungsleistung):\n  ## Abkürzungen:\n  ## Arten der Prüfungsleistungen:\n  ## Weiter Inhalte und Voraussetzungen entnehmen Sie bitte dem Modulhandbuch."
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 10,
+      "titel": "Mechatronik (MEC)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec"
+    },
+    {
+      "nr": 6,
+      "titel": "Benötigte Vorpraktika",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum"
+    },
+    {
+      "nr": 7,
+      "titel": "FAQ für Studierende und Studienbewerber*innen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq"
+    },
+    {
+      "nr": 1,
+      "titel": "www › studium › studienangebot › bachelor studiengaenge — Filter auswählen",
+      "url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Mechatronik (MEC)",
+      "url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Kurzübersicht",
+      "snippets": [
+        "# Kurzübersicht\n* **Abschluss**\nBachelor of Engineering (B.Eng.)\n* **Studienbeginn**\nSommer- und Wintersemester\n* **Fächergruppe**\nTechnik, MINT, Maschinenbau, Mathematik\n* **Studienform**\nVoll- und Teilzeit\n* **Zulassungsmodus**\nzulassungsfrei\n* **Interessensgebiet**\nElektrotechnik, Ingenieurwissenschaft, Technik, Maschinen, Maschinenbau\n* **Regelstudienzeit**\n7 Semester\n* **Bewerbungsschluss**\n28. Februar und 15. September (Sommer- / Wintersemester)\n* **Vorpraktikum**\nStudienbewerber und -bewerberinnen haben vor Aufnahme des Studiums (15.07. oder 15.01.) ein Vorpraktikum von 6 Wochen bzw. eine fachbezogene Ausbildung nachzuweisen. Ist der Nachweis zum Immatrikulationsschluss nicht möglich, kann das Vorpraktikum bis zum Ende des 2. Semesters nachgeholt werden.\n[Weitere Informationen](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum \"Praktikumsordnung\")"
+      ],
+      "zitate": [
+        "zulassungsfrei",
+        "Vorpraktikum von 6 Wochen bzw. eine fachbezogene Ausbildung"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Benötigte Vorpraktika",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Benötigte Vorpraktika > Anforderungen nach Fakultät: > Benötigte Vorpraktika",
+      "snippets": [
+        "## Anforderungen nach Fakultät:\n##\n[ Fakultät I - Elektro- und Informationstechnik ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum \"Fakultät I - Elektro- und Informationstechnik\")\nFür die Studiengänge Energietechnik und Informationstechnik, Mechatronik sowie Wirtschaftsingenieur Elektrotechnik wird ein Vorpraktikum von **6 Wochen** vorausgesetzt. Das Vorpraktikum **muss bis zum Beginn des 3.Semesters komplett absolviert sein** ; es müssen nicht alle Bereiche abgedeckt werden.\nDie Bereiche sind:\n• Grundausbildung in Metall- und Kunststoffverarbeitung (z.B. Formung)\n• Grundfertigkeiten der Verarbeitung (Bsp. Schaltungsaufbau, Verdrahtungen, Löten, etc.)\n• Messen und Prüfen (Qualitätssicherung)\n• Automatisierungstechnik (Fertigungstechniken)\n• Einblicke in betriebliche Arbeitsprozessen (Arbeitsvorbereitung, Projektabwicklung, etc.)\nFür den Studiengang Wirtschaftsingenieur Elektrotechnik sind auch folgende Bereiche möglich:\nund/oder Wirtschaft:",
+        "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n# Benötigte Vorpraktika  \n##  Benötigte Vorpraktika\nEinige Studiengänge verlagen als Zulassungsvoraussetzung ein Vorpraktikum. Wird ein Vorpraktikum verlangt, so müssen Sie sich selbst um einen geeigneten Praktikumsplatz bemühen.\nDas Unternehmen oder die Einrichtung, wo Sie das Vorpraktikum absolvieren, muss aber weder ein Ausbildungs- noch ein Meisterbetrieb sein; auch auf die Größe kommt es nicht an. Das Praktikum muss auch nicht an einem Stück absolviert werden. Es kann auch geteilt und in verschiedenen Unternehmen/Einrichtungen geleistet werden.\nDas Vorpraktikum gilt als erfüllt bei\n- einem einschlägigen Praktikum (Klasse 11) für den FOS-Abschluss (z.B. \"Metalltechnik\" für Elektrotechnik und Maschinenbau),\n- einer einschlägig abgeschlossenen Berufsausbildung (z.B. Tischler*in für Produktdesign) oder\n- absolviertem Zivildienst, einem FSJ oder dem Bundesfreiwilligendienst in einer sozialen Einrichtung für die Studiengänge Soziale Arbeit und Heilpädagogik."
+      ],
+      "zitate": [
+        "bis zum Beginn des 3.Semesters komplett absolviert sein",
+        "müssen nicht alle Bereiche abgedeckt werden",
+        "Grundausbildung in Metall- und Kunststoffverarbeitung",
+        "Grundfertigkeiten der Verarbeitung",
+        "Messen und Prüfen (Qualitätssicherung)",
+        "Automatisierungstechnik (Fertigungstechniken)",
+        "Einblicke in betriebliche Arbeitsprozessen",
+        "geteilt und in verschiedenen Unternehmen/Einrichtungen geleistet werden"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "FAQ für Studierende und Studienbewerber*innen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "FAQ für Studierende und Studienbewerber*innen > Fragen vor der Bewerbung > FAQ für Studierende und Studienbewerber*innen",
+      "snippets": [
+        "Die Zulassung zu einem Bachelorstudium an der Hochschule Hannover kann je nach Studiengang an unterschiedliche Voraussetzungen geknüpft sein. Das gilt für **zulassungsfreie** und **zulassungsbeschränkte** Studiengänge sowie für einen **Wechsel von Hochschule oder Studiengang**. Die Details sind jeweils in den [Ordnungen](https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studieninteressierte/zugangsvoraussetzungen) und Studiengangsbeschreibungen geregelt.\nNeben der **Hochschulzugangsberechtigung** und der **Abschlussnote** können zum Beispiel folgende Voraussetzungen eine Rolle spielen:\n* künstlerische Eignungsprüfung bzw. **Portfolio**\n* **Vorpraktikum**\n* **Ausbildungsvertrag** (bei dualen Studiengängen)\n* bestimmte **Sprachkenntnisse**\n* ggf. weitere Elemente wie **Tests** , **Auswahlgespräch** oder **Motivationsschreiben**  \nEs lohnt sich, die Anforderungen des gewünschten Studiengangs im Vorfeld genau zu prüfen."
+      ],
+      "zitate": [
+        "zulassungsfrei"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "www › studium › studienangebot › bachelor studiengaenge — Filter auswählen",
+      "url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Bachelor-Studiengänge > Mechatronik (MEC)",
+      "snippets": [
+        "## Angewandte Mathematik und Data Science (MAT)\n* **Abschluss** Bachelor of Science (B.Sc.)\n* **Studienbeginn** Wintersemester\n* **Fächergruppe** Mathematik, Wirtschaftsmathematik, MINT, Technik\n* **Studienform** Voll- und Teilzeit\n* **Zulassungsmodus** zulassungsfrei\n* **Interessensgebiet** Mathematik, Data Science, Wirtschaft, Technik\n* **Regelstudienzeit** 7 Semester\n* **Bewerbungsschluss** 15. September (Wintersemester)\n* **Vertiefungen / Studienschwerpunkte**\n* Technomathematik\n* Wirtschaftmathematik  \n[ Details zum Studiengang ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/angewandte-mathematik-und-data-science-mat)",
+        "* Elektrische Antriebs- und Energiesysteme (EAE)\n* Smarte Elektronik (SEL)\n* Systementwicklung und künstliche Intelligenz (SKI)\n* **Vorpraktikum** Studienbewerber und -bewerberinnen haben vor Aufnahme des Studiums (15.07. oder 15.01.) ein Vorpraktikum von 6 Wochen bzw. eine fachbezogene Ausbildung nachzuweisen. Ist der Nachweis zum Immatrikulationsschluss nicht möglich, kann das Vorpraktikum bis zum Ende des 2. Semesters nachgeholt werden. [Weitere Informationen](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum)  \n[ Details zum Studiengang ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1)"
+      ],
+      "zitate": [
+        "zulassungsfrei",
+        "Vorpraktikum von 6 Wochen bzw. eine fachbezogene Ausbildung"
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.2067,
+      "id": "76721ed6-4d14-52fd-b13d-3dce35f8c38f",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "title_anzeige": "www › studium › studienangebot › bachelor studiengaenge — Filter auswählen",
+      "section_heading": "Bachelor-Studiengänge > Mechatronik (MEC)",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "## Maschinenbau (MAB)\n* **Abschluss** Bachelor of Engineering (B.Eng.)\n* **Studienbeginn** Sommer- und Wintersemester\n* **Studienform** Voll- und Teilzeit\n* **Zulassungsmodus** zulassungsfrei\n* **Regelstudienzeit** 7 Semester\n* **Bewerbungsschluss** 28. Februar oder 31. August eines Jahres\n* **Verti"
+    },
+    {
+      "rang": 2,
+      "score": 2.2698,
+      "id": "1bc7ae9d-787f-5d72-949b-cd8e46063ae3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "section_heading": "**`§ 2`** > **`Dauer und Gliederung des Studiums`**",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## **`§ 1`**\n\n## **`Hochschulgrad`**  \nNach bestandener Bachelor-Prüfung verleiht die Hochschule den Hochschulgrad Bachelor of Engineering (B.Eng.). Darüber stellt die Hochschule eine Urkunde mit dem Datum des Zeugnisses aus (Anlage A1 des Allgemeinen Teils der Prüfungsordnung).\n\n## **`§ 2`**\n## **`"
+    },
+    {
+      "rang": 3,
+      "score": 2.2668,
+      "id": "7ca2d0aa-6dfb-5914-9791-de16a4f2529f",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › 20160518 BPO MEC verk",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **§ 3** > **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**  \n## **§ 1**\n\n## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der "
+    },
+    {
+      "rang": 4,
+      "score": 2.15123,
+      "id": "c0dd3de2-2efc-50e7-a7a1-0864a8fe9218",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › FI BTPO BA MEC 15.05.2026",
+      "section_heading": "**der Hochschule Hannover** > **§ 3** > **der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Mechatronik einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit).  \n- (2) Das Bachelor-Studium gliedert sich in einen erste"
+    },
+    {
+      "rang": 5,
+      "score": 2.00433,
+      "id": "42866c90-c208-5a76-a703-237e01cba863",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/01-2012/03-PO-Mechatronik.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 01 2012 › 03 PO Mechatronik",
+      "section_heading": "**`Besonderer Teil der Prüfungsordnung für den Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover`** > **`§ 2`** > **`Besonderer Teil der Prüfungsordnung für den Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover`** > **`Dauer und Gliederung des Studiums`**",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "## **`§ 2`**\n## **`Dauer und Gliederung des Studiums`**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für den BachelorStudiengang Mechatronik einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit).  \n- (2) Das Bachelor-Studium gliedert sich in einen e"
+    },
+    {
+      "rang": 6,
+      "score": 1.86498,
+      "id": "74c48e55-8e77-518a-b616-cbf03002a5aa",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+      "title_anzeige": "Benötigte Vorpraktika",
+      "section_heading": "Benötigte Vorpraktika > Anforderungen nach Fakultät: > Benötigte Vorpraktika",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "An der Fakultät II wird nur für die Studiengänge Maschinenbau, Verfahrenstechnik, Energietechnik- und Umwelttechnik, Ingenieurinformatik Maschinenbau sowie Wirtschaftsingenieur Maschinenbau ein Vorpraktikum vorausgesetzt. Das Vorpraktikum sollte bis zum Studienantritt absolviert sein, der Nachweis ü"
+    },
+    {
+      "rang": 7,
+      "score": 1.83934,
+      "id": "88c95aa4-d9cb-501d-94c3-d9b8fde368a5",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum",
+      "title_anzeige": "Benötigte Vorpraktika",
+      "section_heading": "Benötigte Vorpraktika > Anforderungen nach Fakultät: > Benötigte Vorpraktika",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Anforderungen nach Fakultät:\n##\n[ Fakultät I - Elektro- und Informationstechnik ](https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/zulassung/vorpraktikum \"Fakultät I - Elektro- und Informationstechnik\")\nFür die Studiengänge Energietechnik und Informationst"
+    },
+    {
+      "rang": 8,
+      "score": 1.83618,
+      "id": "e860521f-a91a-58df-8f84-4e629ffcf867",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/faq",
+      "title_anzeige": "FAQ für Studierende und Studienbewerber*innen",
+      "section_heading": "FAQ für Studierende und Studienbewerber*innen > Fragen vor der Bewerbung > FAQ für Studierende und Studienbewerber*innen",
+      "chunk_index": 25,
+      "text_vollstaendig": true,
+      "auszug": "* Das Praktikum muss **nicht am Stück** absolviert werden.\nEs kann auf mehrere Zeiträume verteilt und bei verschiedenen Unternehmen/Einrichtungen abgeleistet werden.  \nWeitere Informationen zu Dauer, Inhalten und Nachweisen des Vorpraktikums stehen in den **Studiengangsbeschreibungen** und auf den *"
+    },
+    {
+      "rang": 9,
+      "score": 1.83368,
+      "id": "dbe80b4d-a4e0-58fe-934f-3e712d519986",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/02-MTD_PO_2019-Neu-20220701.pdf",
+      "title_anzeige": "f2 › Ordnungen › MTD › 02 MTD PO 2019 Neu 20220701",
+      "section_heading": "**mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **§ 3** > **mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für die dualen BachelorStudiengänge einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit). Im Falle der Ausbildungsintegration wird das Studium um ein J"
+    },
+    {
+      "rang": 10,
+      "score": 1.81519,
+      "id": "a8c13343-2fa0-59d3-b0bf-5ce282ed3508",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Dual/Flyer_u._Informationsmaterial/Flyer_MTD_dual_Fakulta__tII_WEB.pdf",
+      "title_anzeige": "f2 › Dual › Flyer u. Informationsmaterial › Flyer MTD dual Fakulta tII WEB — Wozu qualifiziert das Studium?",
+      "section_heading": "Bachelorstudiengang Mechatronik (dual)",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Bachelorstudiengang Mechatronik (dual)  \n- Leichtere Finanzierung des Studiums  \n- Frühzeitige Integration in den Betrieb  \n- Verknüpfung von Theorie und Praxis  \n- Optionales Masterstudium  \n- Direkter Berufseinstieg ohne Einarbeitung"
+    },
+    {
+      "rang": 11,
+      "score": 1.81162,
+      "id": "446cee81-58e5-5e20-9ff4-ed0bb144482c",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/bachelor-studiengaenge",
+      "title_anzeige": "www › studium › studienangebot › bachelor studiengaenge — Filter auswählen",
+      "section_heading": "Bachelor-Studiengänge > Mechatronik dual (MTD)",
+      "chunk_index": 31,
+      "text_vollstaendig": true,
+      "auszug": "## Mechatronik dual (MTD)\n* **Abschluss** Bachelor of Engineering (B.Eng.)\n* **Studienbeginn** Wintersemester\n* **Studienform** dual\n* **Zulassungsmodus** zulassungsfrei\n* **Interessensgebiet** MINT, Technik, Mechatronik, Maschinenbau, Informatik\n* **Regelstudienzeit** 7 (210 CP)\n* **Bewerbungsschlu"
+    },
+    {
+      "rang": 12,
+      "score": 1.80973,
+      "id": "42dabbe8-8a3f-5f45-841c-f2c7a8a3912b",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "title_anzeige": "Mechatronik (MEC)",
+      "section_heading": "Kurzübersicht",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "# Kurzübersicht\n* **Abschluss**\nBachelor of Engineering (B.Eng.)\n* **Studienbeginn**\nSommer- und Wintersemester\n* **Fächergruppe**\nTechnik, MINT, Maschinenbau, Mathematik\n* **Studienform**\nVoll- und Teilzeit\n* **Zulassungsmodus**\nzulassungsfrei\n* **Interessensgebiet**\nElektrotechnik, Ingenieurwissen"
+    },
+    {
+      "rang": 13,
+      "score": 1.78536,
+      "id": "decca4fd-c9d0-5b0b-8ff6-0355b3f87969",
+      "source_url": "https://www.hs-hannover.de/studium/studienangebot/duale-studiengaenge",
+      "title_anzeige": "Duale Studiengänge",
+      "section_heading": "Duale Studiengänge > Mechatronik dual (MTD)",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## Mechatronik dual (MTD)\n* **Abschluss** Bachelor of Engineering (B.Eng.)\n* **Studienbeginn** Wintersemester\n* **Studienform** dual\n* **Zulassungsmodus** zulassungsfrei\n* **Interessensgebiet** MINT, Technik, Mechatronik, Maschinenbau, Informatik\n* **Regelstudienzeit** 7 (210 CP)\n* **Bewerbungsschlu"
+    },
+    {
+      "rang": 14,
+      "score": 1.77038,
+      "id": "acc4e317-84db-5e2a-a5c6-055b85e9c162",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/5_MTD_2017_20220701.pdf",
+      "title_anzeige": "f2 › Ordnungen › MTD › 5 MTD 2017 20220701",
+      "section_heading": "**für den dualen Bachelor-Studiengang Mechatronik (MTD) mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II, Maschinenbau und Bioverfahrenstechnik, der Hochschule Hannover** > **§ 3** > **für den dualen Bachelor-Studiengang Mechatronik (MTD) mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II, Maschinenbau und Bioverfahrenstechnik, der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für die dualen Bachelorstudiengänge einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit). Im Falle der Ausbildungsintegration wird das Studium um ein J"
+    },
+    {
+      "rang": 15,
+      "score": 1.72933,
+      "id": "1da35cc6-04b6-55a4-b19d-47bda48a38d1",
+      "source_url": "https://f2.hs-hannover.de/studium/bachelor-studiengaenge/mechatronik-dual-mtd",
+      "title_anzeige": "Mechatronik dual (MTD)",
+      "section_heading": "Kurzübersicht",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "# Kurzübersicht\n* **Abschluss**\nBachelor of Engineering (B.Eng.)\n* **Studienbeginn**\nWintersemester\n* **Studienform**\ndual\n* **Zulassungsmodus**\nzulassungsfrei\n* **Interessensgebiet**\nMINT, Technik, Mechatronik, Maschinenbau, Informatik\n* **Regelstudienzeit**\n7 (210 CP)\n* **Bewerbungsschluss**\n31. A"
+    },
+    {
+      "rang": 16,
+      "score": 1.60531,
+      "id": "9a251a22-01da-55f4-8fc1-56c57843b256",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch MEC WS2023 V3 — Modulhandbuch für den Studiengang Mechatronik PO-Version WS2023",
+      "section_heading": "**Einleitung** > **Struktur des Studiengangs**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Einleitung**\n## **Struktur des Studiengangs**  \nDas Bachelor-Studium Mechatronik ist untergliedert in einen ersten Studienabschnitt mit einer Regelstudienzeit von drei Semestern und einen zweiten Studienabschnitt mit einer Regelstudienzeit von vier Semestern.  \nIn den ersten drei Semestern erle"
+    },
+    {
+      "rang": 17,
+      "score": 1.58945,
+      "id": "1447484c-faa8-5de5-8d4f-af146a3b6b83",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1",
+      "title_anzeige": "Elektrotechnik und Informationstechnik (EIT)",
+      "section_heading": "Sie wollen nicht nur wissen, wie Dinge funktionieren ... > Dokumente > Sie wollen nicht nur wissen, wie Dinge funktionieren ...",
+      "chunk_index": 26,
+      "text_vollstaendig": true,
+      "auszug": "[Modulübersichten der alten PO (2011)](https://f1.hsh-intern.hs-hannover.de/service/studierende/moduluebersichten-der-alten-pos/index.html)\n[ Ordnungen ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/elektrotechnik-und-informationstechnik-eit-2-1 \"Ordnungen\")\n*"
+    },
+    {
+      "rang": 18,
+      "score": 1.54339,
+      "id": "52e8d8cc-e0e9-56cf-8631-678cffc89fce",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi",
+      "title_anzeige": "Wirtschaftsingenieur Elektrotechnik (EWI)",
+      "section_heading": "Elektrotechnik mit wirtschaftlichen Zusammenhängen verbinden > Dokumente und Ordnungen > Elektrotechnik mit wirtschaftlichen Zusammenhängen verbinden",
+      "chunk_index": 25,
+      "text_vollstaendig": true,
+      "auszug": "[ Ordnungen ](https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/wirtschaftsingenieur-elektrotechnik-ewi \"Ordnungen\")\n* [Vorpraktikumsordnung](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/Vorprak"
+    },
+    {
+      "rang": 19,
+      "score": 1.53349,
+      "id": "631ca10a-66c1-5e6a-8546-86a9c123a454",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/12-2023/hsh_verkuendungsblatt_nr_12_2023.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2023 › hsh verkuendungsblatt nr 12 2023 — Ausgabe 12/2023",
+      "section_heading": "**§ 11** > **Inkrafttreten**",
+      "chunk_index": 26,
+      "text_vollstaendig": false,
+      "auszug": "|** Zulassungsvoraussetzungist eine Anwesenheit von mind. 80% an der ÜbungEIT-110-02 oder ein anderweitiger Nachweis derpraktischen Befähigung.|||||||||||||\n|**Σ=Cr / 1. Stud. Abschnitt / Pflichtmodule**\n**90**|||||||||||||\n|**Gesamt / 1. Stud. Abschnitt**\n**90**|||||||||||||  \nDezernat 3 / PO MEC /"
+    },
+    {
+      "rang": 20,
+      "score": 1.4832,
+      "id": "25f931e1-312f-5dd2-be83-54fa7ce93ceb",
+      "source_url": "https://f1.hs-hannover.de/service-1-2",
+      "title_anzeige": "- Ordnungen - Module - Akkreditierungen -",
+      "section_heading": "- Ordnungen - Module - Akkreditierungen - > Ordnungen > - Ordnungen - Module - Akkreditierungen -",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Ordnungen\n##\n[ Zulassungsordnung Bachelor-Studiengänge ](https://f1.hs-hannover.de/service-1-2 \"Zulassungsordnung Bachelor-Studiengänge\")\n[Bachelor-Zulassungsordnung, ZulO-BA Allgemeiner Teil (ZulO-BA, Tl. A)](https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/30_Zulass"
+    },
+    {
+      "rang": 21,
+      "score": 1.47384,
+      "id": "aae4723d-1c35-5d31-8d95-479c056ee01f",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/BPO_MEC-12.2023.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › BPO MEC 12.2023",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**"
+    },
+    {
+      "rang": 22,
+      "score": 1.46639,
+      "id": "c0e69301-e80e-5086-959d-8320443fc7ee",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_MEC_WS2023_V3.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch MEC WS2023 V3 — Modulhandbuch für den Studiengang Mechatronik PO-Version WS2023",
+      "section_heading": "**Lernergebnisse und Qualifikationsziele des Studiengangs**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **Lernergebnisse und Qualifikationsziele des Studiengangs**  \nÜbergeordnetes Qualifikationsziel des Bachelor-Studiengangs Mechatronik an der HsH ist die Vorbereitung der Absolvent*innen durch eine anwendungsorientierte, integrale Ausbildung auf eine qualifizierte berufspraktische Tätigkeit im Ber"
+    },
+    {
+      "rang": 23,
+      "score": 1.462,
+      "id": "848bdf79-09fa-5fe6-87e5-d2f9e3517329",
+      "source_url": "https://f1.hs-hannover.de/studium/studiengaenge-und-programme/bachelor-studiengaenge/mechatronik-mec",
+      "title_anzeige": "Mechatronik (MEC)",
+      "section_heading": "Schnittstelle zwischen den Disziplinen > Studieninhalte",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Studieninhalte\nDer Bachelorstudiengang Mechatronik umfasst 7 Semester und ist in zwei Studienabschnitte gegliedert.\nIm ersten Studienabschnitt (1.–3. Semester) erlernen Sie die grundlegenden mathematischen, natur- und ingenieurwissenschaftlichen Zusammenhänge, die für Behandeln und Lösen mechatro"
+    },
+    {
+      "rang": 24,
+      "score": 1.39497,
+      "id": "31493425-4a4c-57e2-961c-42974578868d",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/FI_BTPO_BA_MEC_15.05.2026.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › FI BTPO BA MEC 15.05.2026",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik (MEC) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I – Elektro- und Informationstechnik** > **der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik (MEC) mit dem Abschluss Bachelor of Engineering (B.Eng.) an der Fakultät I – Elektro- und Informationstechnik**\n\n# **der Hochschule Hannover**  \n## **§ 1**"
+    },
+    {
+      "rang": 25,
+      "score": 1.35745,
+      "id": "8686a63a-adea-510a-8a46-b74e89ff4189",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/05-2016/HsH_Verkuendungsblatt_05_2016.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2016 › HsH Verkuendungsblatt 05 2016 — Ausgabe 05/2016",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung** > **für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **Besonderer Teil der Prüfungsordnung**\n\n# **für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**  \n## **§ 1**"
+    },
+    {
+      "rang": 26,
+      "score": 1.35652,
+      "id": "99feb3e5-80bc-5746-b7de-1ad0035bb556",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/09-2010/02_Mechatronik-2010.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 09 2010 › 02 Mechatronik 2010",
+      "section_heading": "**`§ 2`** > **`Dauer und Gliederung des Studiums`**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "- (3) Studiensemester Ausland  \n- (1) Die Fakultät I – Elektro- und Informationstechnik unterstützt den Erwerb von Credits durch Studiensemester im Ausland.  \n- (2) Die Anerkennung von im Ausland erbrachten Leistungen geschieht auf der Basis von individuellen Learning Agreements, die von allen Betei"
+    },
+    {
+      "rang": 27,
+      "score": 1.33107,
+      "id": "c510a74c-8aec-5c7e-bca1-403b1857a5dd",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/studienberatung/studieninteressierte-1",
+      "title_anzeige": "Informationen für Studieninteressierte",
+      "section_heading": "Informationen für Studieninteressierte > FAQs für Studieninteressierte",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "Die formale Voraussetzung für alle Master-Studiengänge an der Hochschule Hannover ist ein erstes abgeschlossenes Studium (Bachelor oder Diplom).\nDie weiteren Zulassungsvoraussetzungen werden von den Fakultäten definiert und können in den Zulassungsordnungen nachgelesen oder im Dekanat erfragt werden"
+    },
+    {
+      "rang": 28,
+      "score": 1.3258,
+      "id": "6593f132-2c0d-5065-abdd-5c0d04bb3864",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/MTD/F2_dual_BA_MTD_BTPO_2025-07-25.pdf",
+      "title_anzeige": "f2 › Ordnungen › MTD › F2 dual BA MTD BTPO 2025 07 25",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den dualen Bachelor-Studiengang Mechatronik (MTD) mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **§ 3** > **Besonderer Teil der Prüfungsordnung für den dualen Bachelor-Studiengang Mechatronik (MTD) mit dem Abschluss Bachelor of Engineering (B.Eng.) in der Fakultät II - Maschinenbau und Bioverfahrenstechnik der Hochschule Hannover** > **Dauer und Gliederung des Studiums**",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 3**\n## **Dauer und Gliederung des Studiums**  \n- (1) Die Studienzeit, in der das Studium abgeschlossen werden kann, beträgt für die dualen Bachelor-Studiengänge einschließlich der Bachelor-Prüfung sieben Semester (Regelstudienzeit). Im Falle der Ausbildungsintegration wird das Studium um ein "
+    },
+    {
+      "rang": 29,
+      "score": 1.32478,
+      "id": "23a87e31-3c03-50c8-b9b8-a496db8babd3",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Ordnungen/xZulassungsordnungen/02_MTD_ZZO_Stand_2022-02-07_Final.pdf",
+      "title_anzeige": "f2 › Ordnungen › xZulassungsordnungen › 02 MTD ZZO Stand 2022 02 07 Final — § 1 Geltungsbereich",
+      "section_heading": "**Ordnung über den Zugang und die Zulassung für den Bachelor-Studiengang “Mechatronik dual (MTD)” an der Fakultät II - Maschinenbau und Bioverfahrenstechnik, der Hochschule Hannover** > **§ 1 Geltungsbereich**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Ordnung über den Zugang und die Zulassung für den Bachelor-Studiengang “Mechatronik dual (MTD)” an der Fakultät II - Maschinenbau und Bioverfahrenstechnik, der Hochschule Hannover**\n\n## **§ 1 Geltungsbereich**  \nIn Ergänzung des Allgemeinen Teils der Bachelor-Zulassungsordnung der Hochschule Ha"
+    },
+    {
+      "rang": 30,
+      "score": 1.32198,
+      "id": "54f1939f-7272-5c3e-840d-6361ba9db1b5",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/10_Pruefungsordnungen/10_Bachelorstdg/MEC/20160518_BPO_MEC_verk.pdf",
+      "title_anzeige": "f1 › 10 Bachelorstdg › MEC › 20160518 BPO MEC verk",
+      "section_heading": "**Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover** > **§ 1**",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "# **Besonderer Teil der Prüfungsordnung für den Bachelor-Studiengang Mechatronik mit dem Abschluss Bachelor of Engineering in der Fakultät I – Elektro- und Informationstechnik der Hochschule Hannover**  \n## **§ 1**"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 33849,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 4.58,
+    "kandidaten_s": 0.0,
+    "llm_auswahl_s": 3.46,
+    "docs_laden_s": 0.12,
+    "quellen_s": 8.16,
+    "antwort_llm_s": 3.49,
+    "gesamt_s": 11.65
+  },
+  "auswahl_begruendung": "{\"selected\":[10,6,7,1]}"
+}

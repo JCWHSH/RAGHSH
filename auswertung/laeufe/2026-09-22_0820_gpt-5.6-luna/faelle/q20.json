@@ -1,0 +1,542 @@
+{
+  "fall": {
+    "id": "q20",
+    "case_type": "direct",
+    "question": "Welche Informationen nennt die HsH in der Meldung „Schulungsangebot für Tutor*innen ab 13. Februar 2019“?",
+    "reference_answer": "Die HsH meldet ein fakultätsübergreifendes Schulungsangebot für Tutor*innen des Zentrums für Lehre und Beratung. Die Quelle nennt Tutor*innen aus höheren Semestern der Bachelor- und Master-Studiengänge, denen Schulungen angeboten werden, um eigene Kompetenzen auszubauen und Erfahrungen zu sammeln. Die Teilnahme an den Modulen ist freiwillig und sollte möglichst vorher mit den verantwortlichen Lehrenden abgesprochen werden, damit eventuell anfallende Mehrstunden vergütet und im Vertrag berücksichtigt werden können.",
+    "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/kom/aktuelles/schulungsangebot-fuer-tutorinnen-ab-13-februar-2019",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Das Zentrum für Lehre und Beratung bietet ein fakultätsübergreifendes Schulungsangebot für Tutor*innen an.",
+      "Die Quelle nennt ein Schulungsangebot für Tutor*innen aus höheren Semestern der Bachelor- und Master-Studiengänge.",
+      "Die Teilnahme sollte möglichst vorher mit den verantwortlichen Lehrenden abgesprochen werden."
+    ],
+    "optional_facts": [
+      "Die Teilnahme an den Modulen ist freiwillig.",
+      "Die Absprache ist relevant, damit eventuell anfallende Mehrstunden vergütet und im Vertrag berücksichtigt werden können.",
+      "Das Schulungsangebot soll Kompetenzen ausbauen und Erfahrung ermöglichen."
+    ],
+    "forbidden_claims": [
+      "Ein konkretes Bewerbungsformular oder Bewerbungsverfahren erfinden.",
+      "Eine aktuelle Bewerbungsfrist aus der Quelle ableiten."
+    ],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Die Frage ist exakt auf die HsH-Meldung vom 14.02.2019 ausgerichtet. Die Antwort darf kein Bewerbungsverfahren oder eine aktuelle Bewerbungsfrist erfinden.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "Zentrum für Lehre und Beratung"
+    ],
+    "gold_im_korpus": false,
+    "gold_punkte": [],
+    "beleg_punkte": [],
+    "beleg_urls": []
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-22T08:24:28",
+  "dauer_s": 9.97,
+  "fehler": null,
+  "antwort": "„Dazu liegen mir keine Informationen aus den offiziellen Dokumenten der HsH vor.“",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 25 26 › VV BRS WiSe 25 26 PO 2020 2021 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-25-26/VV_BRS-WiSe-25-26-PO-2020-2021-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2021\n  ## Modul   BRS-101  Einführung in das Studium und Erstsemesterprojekt\n  ## 5WBRS01101 Einführung in das Studium\n  ## Kommentar:\n  ## 5WBRS01102 Einführung in kirchlich-diakonische Arbeitsfelder\n  ## Kommentar:\n  ## Bemerkung 1:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## 5WBRS01201 Stadtteilerkundung - Gruppe 1\n  ## Kommentar:\n  ## 5WBRS01202 Stadtteilerkundung - Gruppe 2\n  ## Kommentar:\n  ## 5WBRS01203 Stadtteilerkundung - Gruppe 3\n  ## Kommentar:\n  ## 5WBRS01204 Stadtteilerkundung - Gruppe 4\n  ## Kommentar:\n  ## 5WBRS01301 Einführung in das wissenschaftliche Arbeiten\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester\n  ## 5WBRS01302 Präsentationstechniken\n  ## Bemerkung 1:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## Kommentar:\n  ## 5WBRS01101 Einführung in das Studium\n  ## Kommentar:\n  ## 5WBRS01102 Einführung in kirchlich-diakonische Arbeitsfelder\n  ## Kommentar:\n  ## 5WBRS01103 Einführung in die Religions- und Gemeindepädagogik\n  ## Bemerkung 1:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## Teilmodul     Projektorientiertes Lernen\n  ## 5WBRS01201 Stadtteilerkundung - Gruppe 1\n  ## Kommentar:\n  ## 5WBRS01202 Stadtteilerkundung - Gruppe 2\n  ## Kommentar:\n  ## 5WBRS01203 Stadtteilerkundung - Gruppe 3\n  ## Kommentar:\n  ## 5WBRS01204 Stadtteilerkundung - Gruppe 4\n  ## Kommentar:\n  ## 5WBRS01301 Einführung in das wissenschaftliche Arbeiten\n  ## Kommentar:"
+    },
+    {
+      "nr": 2,
+      "titel": "www › Organisation › Strategische Hochschulentwicklung › HsH Diversity Audit Abschlussbericht",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+      "fakultaet": "",
+      "struktur": "# Diversity-Audit »Vielfalt gestalten« des Stifterverbandes für die deutsche Wissenschaft\n  ## Abschlussbericht der Hochschule Hannover\n  ## Inhalt\n  ## Links zu ergänzenden Dokumenten\n  ## 1. Leitbild der HsH\n  ## 2. Gutes Lehren und Lernen - Leitsätze der Hochschuldidaktik\n  ## 3. 9. Fortschreibung des Gleichstellungsplans\n  ## 4. Leitfaden zur geschlechtergerechten Sprache\n  ## Grunddaten zur Hochschule Hannover\n  ## Hochschule Hannover (HsH)\n  ## I. Diversitätsstrategie der Hochschule Hannover\n  ## 1. Unsere Vision\n  ## 2. Unser Leitbild\n  ## 3.  Instrument Zielvereinbarungen mit dem\n  ## Ministerium für Wissenschaft und Kultur\n  ## 4.  Instrument Gleichstellungsplan\n  ## 5. Konsolidierung und Strategieprozess\n  ## II. Veränderungen\n  ## 1. Zahlen und Daten\n  ## Zusammensetzung Studierende\n  ## 2. Projekte zur Unterstützung der Zielsetzung des Diversity-Audits\n  ## a) Schwerpunkt Lehre\n  ## ~~„QpLuS – Qualität pro Lehre und Studium“~~\n  ## ~~Gender MINT~~\n  ## ~~„same diference“ Koordination Gender & Diversity der Fakultät III~~\n  ## ~~Gender-Koordinierungsstelle an der Fakultät V~~\n  ## ~~Projekt „Werkzeugkasten für diversitätssensible Lehre (Toolkit Diversity)“~~\n  ## ~~Tutorienprogramm~~\n  ## ~~Schreibwerkstatt~~\n  ## ~~intoSTUDY – Studienvorbereitung für Gefüchtete~~\n  ## b) Schwerpunkt Beratung\n  ## ~~MyStudy~~\n  ## ~~STHAGE~~\n  ## ~~Weiterbildung zu Gender- und Diversitätskompetenz~~\n  ## ~~Raum der Stille~~\n  ## Übersicht Schwerpunkt Beratung\n  ## c) Schwerpunkt Gender\n  ## ~~Gender-Netz – LAGEN Beitritt~~\n  ## ~~Genderaspekte in der Forschung~~\n  ## ~~Leitfaden geschlechtergerechte Sprache~~\n  ## ~~AStA Queer Referat~~\n  ## d) Schwerpunkt Gesundheit\n  ## ~~SBV - Inklusionsvereinbarung~~\n  ## ~~Beschäftigtenbefragung~~\n  ## Übersicht Schwerpunkt Gesundheit\n  ## 3. Ergebnisse der Audit Arbeitsgruppen\n  ## ~~AG EduScrum: Neue Lehr- und Lernformen~~\n  ## ~~AG Diversität im Projektmanagement - Begleitung der Teamarbeit einer studentischen Projektgruppe~~\n  ## ~~AG Kommunikation: Eine Diversity-Vision für die HsH~~\n  ## ~~Prozessbegleitung bei der Entwicklung bedarfsgerechter Studiengänge (vorzeitig aufgelöst)~~"
+    },
+    {
+      "nr": 3,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2018\n  ## Modul   BSW-101  Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## 3WBSA01101 Einführung in das Studium\n  ## Kommentar:\n  ## 3WBSA01201 Mentoringgruppe - Gr. 1\n  ## Kommentar:\n  ## 3WBSA01202 Mentoringgruppe - Gr. 2\n  ## Kommentar:\n  ## 3WBSA01203 Mentoringgruppe - Gr. 3\n  ## Kommentar:\n  ## 3WBSA01204 Mentoringgruppe - Gr. 4\n  ## Kommentar:\n  ## 3WBSA01205 Mentoringgruppe - Gr. 5\n  ## Kommentar:\n  ## 3WBSA01206 Mentoringgruppe - Gr. 6\n  ## Kommentar:\n  ## 3WBSA01207 Mentoringgruppe - Gr. 7\n  ## Kommentar:\n  ## 3WBSA01208 Mentoringgruppe - Gr. 8\n  ## Kommentar:\n  ## 3WBSA01209 Mentoringgruppe - Gr. 9\n  ## Kommentar:\n  ## 3WBSA01210 Mentoringgruppe - Gr. 10\n  ## Kommentar:\n  ## 3WBSA01211 Mentoringgruppe - Gr. 11\n  ## Kommentar:\n  ## 3WBSA01212 Themenvergabe und Präsentation\n  ## 3WBSA01213 Auswertung und Abschlussvortrag\n  ## 3WBSA01301 Einführung wissenschaftl. Arbeiten - Gr. 1\n  ## Kommentar:\n  ## Kommentar:\n  ## 3WBSA01303 Einführung wissenschaftl. Arbeiten - Gr. 3\n  ## Kommentar:\n  ## Kommentar:\n  ## 3WBSA01305 Präsentationstechniken - Gr. 1\n  ## Kommentar:\n  ## 3WBSA01306 Präsentationstechniken - Gr. 2\n  ## Kommentar:\n  ## 3WBSA01307 Präsentationstechniken - Gr. 3\n  ## Kommentar:\n  ## 3WBSA01308 Präsentationstechniken - Gr. 4\n  ## Kommentar:\n  ## 3WBSA01309 Online-Recherche - Gr. 1\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt.\n  ## Kommentar:\n  ## 3WBSA01310 Online-Recherche - Gr. 2\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt."
+    },
+    {
+      "nr": 4,
+      "titel": "f5 › Vorlesungsverzeichnis › SoSe 2025 › BSW PO20201 KLEIN",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/SoSe_2025/BSW_PO20201_KLEIN.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2020\n  ## Modul   BSW-101  Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## 5SBSA01101 Einführung in das Studium\n  ## Kommentar:\n  ## Teilmodul     Projektorientiertes Lernen\n  ## 5SBSA01201 Mentoringgruppe - Gr. 1\n  ## Kommentar:\n  ## 5SBSA01202 Mentoringgruppe - Gr. 2\n  ## Kommentar:\n  ## 5SBSA01203 Mentoringgruppe - Gr. 3\n  ## Kommentar:\n  ## 5SBSA01204 Mentoringgruppe - Gr. 4\n  ## Kommentar:\n  ## 5SBSA01205 Mentoringgruppe - Gr. 5\n  ## Kommentar:\n  ## 5SBSA01206 Mentoringgruppe - Gr. 6\n  ## Kommentar:\n  ## 5SBSA01207 Mentoringgruppe - Gr. 7\n  ## Kommentar:\n  ## 5SBSA01208 Mentoringgruppe - Gr. 8\n  ## Kommentar:\n  ## 5SBSA01209 Mentoringgruppe - Gr. 9\n  ## Kommentar:\n  ## 5SBSA01210 Mentoringgruppe - Gr. 10\n  ## Kommentar:\n  ## 5SBSA01211 Themenvergabe und Präsentation\n  ## 5SBSA01212 Auswertung und Abschlussvortrag\n  ## Kommentar:\n  ## Kommentar:\n  ## Kommentar:\n  ## Kommentar:\n  ## 5SBSA01305 Präsentationstechniken - Gr. 1\n  ## Kommentar:\n  ## 5SBSA01306 Präsentationstechniken - Gr. 2\n  ## Kommentar:\n  ## 5SBSA01307 Präsentationstechniken - Gr. 3\n  ## Kommentar:\n  ## 5SBSA01308 Präsentationstechniken - Gr. 4\n  ## Kommentar:\n  ## 5SBSA01309 Online-Recherche - Gr. 1\n  ## Kommentar:\n  ## 5SBSA01310 Online-Recherche - Gr. 2\n  ## Kommentar:\n  ## 5SBSA01311 Online-Recherche - Gr. 3\n  ## Kommentar:\n  ## 5SBSA01312 Online-Recherche - Gr. 4\n  ## Kommentar:\n  ## 5SBSA01313 Online-Recherche - Gr. 5\n  ## Kommentar:"
+    },
+    {
+      "nr": 5,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BSW PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Bachelor Soziale Arbeit (BSW) - PO 2020 & PO 2021\n  ## Modul   BSW-101  Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## Teilmodul     Einführung in das Studium\n  ## 4WBSA01101 Einführung in das Studium\n  ## Kommentar:\n  ## Teilmodul     Projektorientiertes Lernen\n  ## 4WBSA01201 Mentoringgruppe - Gr. 1\n  ## Kommentar:\n  ## 4WBSA01202 Mentoringgruppe - Gr. 2\n  ## Kommentar:\n  ## 4WBSA01203 Mentoringgruppe - Gr. 3\n  ## Kommentar:\n  ## 4WBSA01204 Mentoringgruppe - Gr. 4\n  ## Kommentar:\n  ## 4WBSA01205 Mentoringgruppe - Gr. 5\n  ## Kommentar:\n  ## 4WBSA01206 Mentoringgruppe - Gr. 6\n  ## Kommentar:\n  ## 4WBSA01207 Mentoringgruppe - Gr. 7\n  ## Kommentar:\n  ## 4WBSA01208 Mentoringgruppe - Gr. 8\n  ## Kommentar:\n  ## 4WBSA01209 Mentoringgruppe - Gr. 9\n  ## Kommentar:\n  ## 4WBSA01210 Mentoringgruppe - Gr. 10\n  ## Kommentar:\n  ## 4WBSA01212 Themenvergabe und Präsentation\n  ## 4WBSA01213 Auswertung und Abschlussvortrag\n  ## 4WBSA01301 Einführung wissenschaftl. Arbeiten - Gr. 1\n  ## Kommentar:\n  ## Kommentar:\n  ## 4WBSA01303 Einführung wissenschaftl. Arbeiten - Gr. 3\n  ## Kommentar:\n  ## Kommentar:\n  ## 4WBSA01305 Präsentationstechniken - Gr. 1\n  ## Kommentar:\n  ## 4WBSA01306 Präsentationstechniken - Gr. 2\n  ## Kommentar:\n  ## 4WBSA01306 Präsentationstechniken - Gr. 3\n  ## Kommentar:\n  ## 4WBSA01308 Präsentationstechniken - Gr. 4\n  ## Kommentar:\n  ## 4WBSA01309 Online-Recherche - Gr. 1\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt.\n  ## Kommentar:\n  ## 4WBSA01310 Online-Recherche - Gr. 2\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt."
+    },
+    {
+      "nr": 6,
+      "titel": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS SoSe 2025 PO 2020 klein",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2020\n  ## Modul   BRS-102  Fachwissenschaftliche Grundlagen der Sozialen Arbeit\n  ## Modul   BRS-103  Gesellschaftliche Bedingungen Sozialer Arbeit I\n  ## 5SBSA03101 Kommunalpolitik und Soziale Arbeit\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## 5SBSA03104 Was ist Soziale Arbeit? Theorien Sozialer Arbeit und ihre soziologischen Grundlagen\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## 5SBSA03203 Race, Class and Gender in Theory and Practice\n  ## Kommentar:\n  ## Literatur:\n  ## 5SBSA03204 Soziale Ungleichheiten und gesellschaftlicher Wandel\n  ## Kommentar:\n  ## Literatur:\n  ## 5SBSA03205 Nachhaltigkeits- und Umweltethiken in ihrer Relevanz für die Soziale Arbeit\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## 5SBSA03206 Teilhabe durch leichte und einfache Sprache unter dem Fokus politischer Bildung\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## 5SBSA03104 Was ist Soziale Arbeit? Theorien Sozialer Arbeit und ihre soziologischen Grundlagen\n  ## Kommentar:\n  ## Literatur:\n  ## 5SBSA03201 Demokratie in Gefahr?\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## 5SBSA03203 Race, Class and Gender in Theory and Practice\n  ## Kommentar:\n  ## Literatur:\n  ## 5SBSA03204 Soziale Ungleichheiten und gesellschaftlicher Wandel"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Finanzmanagement › Studienqualitaetsmittel › 20210518 Protokoll 28.Sitzung Senatskommission Studienqualitaetsmittel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20210518_Protokoll_28.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Protokoll\n  ## über die 28. Sitzung der Senatskommission Studienqualitätsmittel der Hochschule Hannover am 18.05.2021 als Videokonferenz über https://meet.gwdg.de/b/geo-tlc-0i6-d1l .\n  ## TOP 1: Begrüßung\n  ## TOP 2: Feststellung der Tagesordnung\n  ## TOP 3: Herstellung der Hochschulöffentlichkeit / Rederecht der Gäste\n  ## TOP 4: Genehmigung des Protokolls der Sitzung vom 08.12.2020 (Anlagen 1a – 1b)\n  ## TOP 5: Stellungnahme Personalkosten-Verschiebung Z2 (Anlage 2)\n  ## TOP 6: Anträge an die Kommission\n  ## 6.2 Fak. II (Herr Stahl), Akquise zur Stipendieneinwerbung, 0,5 E11, unbefristet, ab 01.09.2021, 37.683,50 EUR (Anlage 4)\n  ## 6.5 Fak. I (Herr Kutzner), LabView Lizenz, 2021 – 01.03.2021 – 29.02.2024, 9.728,25 EUR p.a. (Anlage 7)\n  ## 6.6 Z3 (Frau Rex), Tutorien 2021/2022, 01.09.201 – 31.08.2022, 38.000,00 EUR (Anlage 8)\n  ## 6.7 D5 (Herr Hellmich), Unterstützung von Prüfungsangeboten in den Poolräumen der Hochschul-IT, SoSe 2021 – SoSe 2023, 63.000,00 EUR (Anlage 9)\n  ## 6.8 D5 (Herr Hellmich), Anteil der Studierenden am Microsoft Campus Vertrag, Anpas– sung auf 20.000,00 EUR, SoSe 2021 SoSe 2023 (Anlage 10)\n  ## Nicht-öffentlicher Teil der Sitzung\n  ## TOP 7: Information zur Verteilung und Verwendung von Studienqualitätsmitteln (Anlagen 11a – 11g)\n  ## a) Zuweisung Mittelverteilung SQM\n  ## b) neue und bewilligte Anträge SQM der letzten vier Semester\n  ## c) Mittelabfluss SQM 2021\n  ## d) Hochrechnung Personalkosten SQM\n  ## e) aus zentralen SQM jährlich bereitgestellte Budgets\n  ## f) Zuweisungen und Restmittel\n  ## g) Verfügbare zentrale SQM zum Stichtag 26.03.2021\n  ## TOP 8: Interne Beratung und Beschlussfassung zu den Anträgen\n  ## 6.2 Fak. II (Herr Stahl), Akquise zur Stipendieneinwerbung, 0,5 E11, unbefristet, ab 01.09.2021, 37.683,50 EUR p.a. (Anlage 4)\n  ## 6.3.1 Z3 (Frau Petersen), Mentoring Flex-Programm zum Berufseinstieg der Studierenden – der HsH, 0,25 E11, 01.01.2022 31.12.2024, 19.000,00 EUR (Anlage 5)\n  ## 6.4 Z1 (Herr Nowak), Antrag auf Besetzung durch Stundenreduzierung freigewordene Anteile einer festen SQM-Stelle, 01.01.2021 – 31.08.2022, kostenneutral (Anlage 6)\n  ## 6.5 Fak. I (Herr Kutzner), LabView Lizenz, 2021 – 01.03.2021 – 29.02.2024, 9.728,25 EUR p.a. (Anlage 7)\n  ## 6.6 Z3 (Frau Rex), Tutorien 2021/2022, 01.09.201 – 31.08.2022, 38.000,00 EUR (Anlage 8)\n  ## 6.7 D5 (Herr Hellmich), Unterstützung von Prüfungsangeboten in den Poolräumen der Hochschul-IT, SoSe 2021 – SoSe 2023, 63.000,00 EUR (Anlage 9)\n  ## TOP 9: Information Jahresrückblick 2020 – Z3 Career Center (Anlage 12)\n  ## TOP 10: Verschiedenes"
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › BSW PO 2021 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2021-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2021\n  ## Modul   BSW-101  Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## 4SBSA01101 Einführung in das Studium\n  ## Kommentar:\n  ## 4SBSA01201 Mentoringgruppe - Gr. 1\n  ## Kommentar:\n  ## 4SBSA01202 Mentoringgruppe - Gr. 2\n  ## Kommentar:\n  ## 4SBSA01203 Mentoringgruppe - Gr. 3\n  ## Kommentar:\n  ## 4SBSA01204 Mentoringgruppe - Gr. 4\n  ## Kommentar:\n  ## 4SBSA01205 Mentoringgruppe - Gr. 5\n  ## Kommentar:\n  ## 4SBSA01206 Mentoringgruppe - Gr. 6\n  ## Kommentar:\n  ## 4SBSA01207 Mentoringgruppe - Gr. 7\n  ## Kommentar:\n  ## 4SBSA01208 Mentoringgruppe - Gr. 8\n  ## Kommentar:\n  ## 4SBSA01209 Mentoringgruppe - Gr. 9\n  ## Kommentar:\n  ## 4SBSA01210 Mentoringgruppe - Gr. 10\n  ## Kommentar:\n  ## 4SBSA01212 Themenvergabe und Präsentation\n  ## 4SBSA01213 Auswertung und Abschlussvortrag\n  ## Kommentar:\n  ## Kommentar:\n  ## Kommentar:\n  ## Kommentar:\n  ## 4SBSA01305 Präsentationstechniken - Gr. 1\n  ## Kommentar:\n  ## Kommentar:\n  ## 4SBSA01307 Präsentationstechniken - Gr. 3\n  ## Kommentar:\n  ## 4SBSA01308 Präsentationstechniken - Gr. 4\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## 4SBSA01309 Online-Recherche - Gr. 1\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## 4SBSA01310 Online-Recherche - Gr. 2\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## 4SBSA01311 Online-Recherche - Gr. 3\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt.\n  ## Kommentar:\n  ## 4SBSA01312 Online-Recherche - Gr. 4"
+    },
+    {
+      "nr": 9,
+      "titel": "www › Finanzmanagement › Studienqualitaetsmittel › 20251014 Protokoll 37.Sitzung Senatskommission Studienqualitaetsmittel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20251014_Protokoll_37.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Protokoll\n  ## über die 37. Sitzung der Senatskommission Studienqualitätsmittel der Hochschule Hannover am 14.10.2025 im Senatssitzungssaal (Präsidium), Expo Plaza 4, 30539 Hannover\n  ## TOP 1: Begrüßung\n  ## TOP 2: Feststellung der Tagesordnung\n  ## TOP 3: Herstellung der Hochschulöffentlichkeit / Rederecht der Gäste\n  ## TOP 4: Genehmigung des Protokolls der 36. Sitzung vom 14.10.2025 (Anlage 1)\n  ## TOP 5: Grundsatzbeschluss Zeitraum Personalangelegenheiten (Anlage 2)\n  ## TOP 6: Anträge an die Kommission (Anlage 3)\n  ## 6.1 D5 (Frau Tietz), Studierendenbetreuung Cloud-Dienste, 1,0 E9b, ab 01.11.2025, unbefristet, 62.821,00 EUR p.a. (Anlage 4)\n  ## Nicht-öffentlicher Teil der Sitzung\n  ## TOP 7: Information zur Verteilung und Verwendung von Studienqualitätsmitteln (Anlagen 14a – 14e)\n  ## a) neue und bewilligte Anträge SQM der letzten vier Semester\n  ## b) Mittelabfluss dezentrale SQM 2025\n  ## c) Hochrechnung Personalkosten SQM\n  ## d) Zuweisungen und Restmittel\n  ## e) Verfügbare zentrale SQM zum Stichtag 14.10.2025\n  ## TOP 8: Interne Beratung und Beschlussfassung zu den Anträgen\n  ## 6.3 Z1 (Herr Nowak), Erhalt der Öffnungszeiten der Bibliothek, 01.02.2026 – 28.02.2027, 65.000,00 EUR (Anlage 6)\n  ## 6.8 neu Z3 (Frau Dieckmann), Maßnahmen zur Verbesserung der Studienbedingungen für Hochschulangehörige mit Familienverantwortung 2026, 6.100,00 EUR unter Berücksichtigung (Anlage nicht TOP)\n  ## 6.10 neu Z2 (Herr Tjettmers), (Sachmittel-)Budget für das Z2 – Servicezentrum Lehre, 01.03.2026 – 28.02.2027, 30.000,00 EUR unter Berücksichtigung der Restsalden. (Anlage 12)\n  ## TOP 9: Verschiedenes"
+    },
+    {
+      "nr": 10,
+      "titel": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › BSW PO 2018 klein",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2018-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2018\n  ## Modul   BSW-101  Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## Teilmodul     Einführung in das Studium\n  ## 4SBSA01101 Einführung in das Studium\n  ## Kommentar:\n  ## Teilmodul     Projektorientiertes Lernen\n  ## 4SBSA01201 Mentoringgruppe - Gr. 1\n  ## Kommentar:\n  ## 4SBSA01202 Mentoringgruppe - Gr. 2\n  ## Kommentar:\n  ## 4SBSA01203 Mentoringgruppe - Gr. 3\n  ## Kommentar:\n  ## 4SBSA01204 Mentoringgruppe - Gr. 4\n  ## Kommentar:\n  ## 4SBSA01205 Mentoringgruppe - Gr. 5\n  ## Kommentar:\n  ## 4SBSA01206 Mentoringgruppe - Gr. 6\n  ## Kommentar:\n  ## 4SBSA01207 Mentoringgruppe - Gr. 7\n  ## Kommentar:\n  ## 4SBSA01208 Mentoringgruppe - Gr. 8\n  ## Kommentar:\n  ## 4SBSA01209 Mentoringgruppe - Gr. 9\n  ## Kommentar:\n  ## 4SBSA01210 Mentoringgruppe - Gr. 10\n  ## Kommentar:\n  ## 4SBSA01212 Themenvergabe und Präsentation\n  ## 4SBSA01213 Auswertung und Abschlussvortrag\n  ## Kommentar:\n  ## Kommentar:\n  ## Kommentar:\n  ## Kommentar:\n  ## 4SBSA01305 Präsentationstechniken - Gr. 1\n  ## Kommentar:\n  ## 4SBSA01306 Präsentationstechniken - Gr. 2\n  ## Kommentar:\n  ## 4SBSA01307 Präsentationstechniken - Gr. 3\n  ## Kommentar:\n  ## 4SBSA01308 Präsentationstechniken - Gr. 4\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## 4SBSA01309 Online-Recherche - Gr. 1\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt.\n  ## Kommentar:\n  ## 4SBSA01310 Online-Recherche - Gr. 2\n  ## Bemerkung 1:\n  ## Die LV findet online statt.\n  ## Kommentar:"
+    },
+    {
+      "nr": 11,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BRS PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2020\n  ## Modul   BRS-101  Einführung in das Studium und Erstsemesterprojekt\n  ## 4WBRS01101 Einführung in das Studium\n  ## Kommentar:\n  ## Literatur:\n  ## 4WBRS01102 Einführung in kirchlich-diakonische Arbeitsfelder\n  ## Bemerkung 1:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## Kommentar:\n  ## 4WBRS01103 Einführung in die Religions- und Gemeindepädagogik\n  ## Kommentar:\n  ## Literatur:\n  ## 4WBRS01104 Einführung in die Diakoniewissenschaft - Teil 1: Geschichte und Theologie\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## Teilmodul     Projektorientiertes Lernen\n  ## 4WBRS01201 Stadtteilerkundung - Gruppe 1\n  ## Kommentar:\n  ## Pflichtveranstaltung im 1. Semester\n  ## 4WBRS01202 Stadtteilerkundung - Gruppe 2\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester\n  ## 4WBRS01203 Stadtteilerkundung - Gruppe 3\n  ## Kommentar:\n  ## Pflichtveranstaltung für 1. Semester\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester\n  ## Kommentar:\n  ## Pflichtveranstaltung für das 1. Semester\n  ## 4WBRS01302 Präsentationstechniken\n  ## Bemerkung 1:\n  ## Pflichtveranstaltung für das 1. Semester.\n  ## Kommentar:\n  ## Modul   BRS-102  Fachwissenschaftliche Grundlagen der Sozialen Arbeit\n  ## Teilmodul     Geschichte und Theorien der Sozialen Arbeit\n  ## Kommentar:\n  ## Literatur:\n  ## 4WBSA02102 Theorien der Sozialen Arbeit - Gr. 2\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:\n  ## Literatur:\n  ## Kommentar:"
+    },
+    {
+      "nr": 12,
+      "titel": "f4 › Stundenplan › BWL › 2026 04 28 BBA 1StA",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_04_28_BBA_1StA.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Stundenplan Betriebswirtschaftslehre – BBA 1. Studienabschnitt\n  ## Sommersemester 2026 Vorlesungszeit: 02.03. – 12.06.2026 Prüfungszeit: 15.06. -10.07.2026\n  ## Tutorien\n  ## Tutorien\n  ## Tutorien\n  ## Hinweise:\n  ## Stundenplan Betriebswirtschaftslehre – BBA 1. Semester\n  ## Stundenplan Betriebswirtschaftslehre – BBA 2. Semester\n  ## Stundenplan Betriebswirtschaftslehre – BBA 3. Semester"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 2,
+      "titel": "www › Organisation › Strategische Hochschulentwicklung › HsH Diversity Audit Abschlussbericht",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Finanzmanagement › Studienqualitaetsmittel › 20210518 Protokoll 28.Sitzung Senatskommission Studienqualitaetsmittel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20210518_Protokoll_28.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf"
+    },
+    {
+      "nr": 12,
+      "titel": "f4 › Stundenplan › BWL › 2026 04 28 BBA 1StA",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_04_28_BBA_1StA.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "www › Organisation › Strategische Hochschulentwicklung › HsH Diversity Audit Abschlussbericht",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Diversity-Audit »Vielfalt gestalten« _des Stifterverbandes für die deutsche Wissenschaft_ > ~~_Tutorienprogramm_~~",
+      "snippets": [
+        "- → Habitus, soziale Milieus und Lernstrategien im Studium, → Praxisreflexion: Unterschiedliche Lernkulturen und ihre Relevanz im Studium und → Einführung in die interkulturelle Handlungskompetenz.  \nDie beiden ersten Module thematisieren die Auswirkungen der sozialen Herkunft in Bezug auf Lernstrategien bzw. Lernvoraussetzungen und sollen die Tutor*innen für die Bedeutung sozialer Ungleichheit im Lernprozess sensibilisieren. Das Modul zur Interkulturellen Handlungskompetenz (IKHK) wird von qualifizierten Lehrbeauftragten betreut, die auch in Lehrveranstaltungen des Ressort Interkulturalität, Integration und Diversität der ZE Soziale Öffnung unterrichten. Inhaltlich orientiert sich das Modul an diesen Lehrangeboten.\n\nBei ausbaufähigen Teilnahmezahlen konnten in den vergangenen 18 Monaten etwa 30 Studierende in den genannten Modulen geschult werden. Dieses Angebot soll im gleichen Umfang fortgesetzt werden. Zukünftig ist darüber hinaus ein weiteres Modulangebot zu Gender-Aspekten in der tutoriellen Lehre geplant. Das Tutor*innenprogramm läuft aktuell bis 2023.\n\n## ~~_Schreibwerkstatt_~~  \nViele Studierende der Hochschule, insbesondere Studierende der ersten Generation und Studierende, die Deutsch als Fremdsprache lernen, zeigen grundlegende Unsicherheiten und Schwierigkeiten im literalen Kompetenzbereich. Die Unsicherheiten betreffen vor allem die schriftlich geprägte, akademische Alltagssprache. Der Soziolekt wirkt abschreckend und erschwert den Zugang zum akademischen Milieu und das selbstbewusste Handeln in demselben. Die Mitarbeiter*innen der Schreibwerkstatt zeigen und erklären Formen und Funktionen der akademischen Alltagssprache und Fachsprachen. Die Maßnahmen und Angebote der Schreibwerkstatt werden so gut angenommen und positiv bewertet, dass die beiden halben Stellen inzwischen entfristet und die Maßnahme damit nachhaltig verankert wurde.",
+        "## ~~_Tutorienprogramm_~~  \nIm FEP Tutorienprogramm, das vom MWK Niedersachsen finanziert wird, betreuen und unterstützen Tutor*innen aus höheren Semestern kleine Lerngruppen von Studierenden. Auf diese Tätigkeit werden sie mit einem Schulungsangebot vorbereitet, welches drei Schwerpunkte umfasst:  \n- → Habitus, soziale Milieus und Lernstrategien im Studium, → Praxisreflexion: Unterschiedliche Lernkulturen und ihre Relevanz im Studium und → Einführung in die interkulturelle Handlungskompetenz."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › Finanzmanagement › Studienqualitaetsmittel › 20210518 Protokoll 28.Sitzung Senatskommission Studienqualitaetsmittel",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20210518_Protokoll_28.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/02052022_.pdf",
+        "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20200616__Protokoll_25.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf"
+      ],
+      "abschnitt": "6.6 Z3 (Frau Rex), Tutorien 2021/2022, 01.09.201 – 31.08.2022, 38.000,00 EUR (Anlage 8)",
+      "snippets": [
+        "## 6.6 Z3 (Frau Rex), Tutorien 2021/2022, 01.09.201 – 31.08.2022, 38.000,00 EUR (Anlage 8)  \nFrau Petersen stellt den Antrag in Abwesenheit von Frau Rex vor. Frau Rex koordiniere die Incomings an die HsH. Die Mittel werden für studentische Hilfskräfte benötigt. Diese sollen die Incomings beim Erstkontakt, der Einreise, Kontaktherstellung zu Behörden etc. unterstützen. Geplant seien jeweils sechs Tutor*innen mit jeweils 25 Monatsstunden.  \nHerr Bonse-Rohmann erkundigt sich, wie der Kontakt als Ergänzung zu den Fakultäten ablaufe und wie lange die ausländischen Studierenden in der Regel an die Hochschule Hannover studieren. In den Fakultäten zielt die Betreuung rein auf den fachlichen Austausch der Studieninhalte ab, wohingegen das Angebot des Servicezentrum Beratung auf den sozialen Servicebereich abziele, z.B. dem Willkommenheißen an der HsH. Der Aufenthalt an der HsH betrage mindestens ein Semester."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f4 › Stundenplan › BWL › 2026 04 28 BBA 1StA",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_04_28_BBA_1StA.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Hinweise:**",
+      "snippets": [
+        "- Die ebenfalls zur Auswahl stehenden **Sprachkurse** werden vom Language Center angeboten. Informationen und Anmeldung über https://hs-h.de/lc. Ansprechpartnerin ist Mareen Witte.  \n-  \n- Wir empfehlen die regelmäßige Teilnahme an den Tutorien.  \n- Wenn nicht anders vermerkt, so starten alle Veranstaltungen ab dem 02.03. zu den Zeiten 8:00, 10:00, 12:30, 14:15, 16:00 und 18:00 Uhr. Bitte beachten Sie die individuellen Angaben je Veranstaltung/Modul in Moodle auf dem Schwarzen Brett und in den Moodle-Auftritten der Veranstaltungen/Module.  \nStand 29.04.2026, Änderungen vorbehalten"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.41919,
+      "id": "c56ea9da-9d86-505c-860e-7c6e1c94c212",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-25-26/VV_BRS-WiSe-25-26-PO-2020-2021-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 25 26 › VV BRS WiSe 25 26 PO 2020 2021 klein — Inhaltsverzeichnis",
+      "section_heading": "**5WBSA06102 Tutorium: Handlungstheoretische Grundlagen Sozialer Arbeit - Gr. 2**",
+      "chunk_index": 570,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|\n|||||Tutor*innen|\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|\n|||||Tutor*innen|\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|\n|||||Tutor*innen|  \nTermin: 26.09.2025 - 26.09.2025 Termin: 10.10.2025 - 10.10.2025 Termin: 17.10.2025 - 17.10.2025 Termin: 24"
+    },
+    {
+      "rang": 2,
+      "score": 2.03783,
+      "id": "aad32791-2c42-5997-a4b5-3f5245e7bdf5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+      "title_anzeige": "www › Organisation › Strategische Hochschulentwicklung › HsH Diversity Audit Abschlussbericht",
+      "section_heading": "Diversity-Audit »Vielfalt gestalten« _des Stifterverbandes für die deutsche Wissenschaft_ > ~~_Tutorienprogramm_~~",
+      "chunk_index": 44,
+      "text_vollstaendig": true,
+      "auszug": "- → Habitus, soziale Milieus und Lernstrategien im Studium, → Praxisreflexion: Unterschiedliche Lernkulturen und ihre Relevanz im Studium und → Einführung in die interkulturelle Handlungskompetenz.  \nDie beiden ersten Module thematisieren die Auswirkungen der sozialen Herkunft in Bezug auf Lernstrat"
+    },
+    {
+      "rang": 3,
+      "score": 1.98614,
+      "id": "6fc45016-a61c-5fd1-bc0d-ad380256cb53",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "section_heading": "**3WBSA06 Informationsveranstaltung Modul 6 (für Beginn M 6 im SoSe 2024)**",
+      "chunk_index": 503,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.1.20|Stender, Wolfram|Termin: 06.10.2023 - 06.10.2023|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.1.20|Stender, Wolfram|Termin: 13.10.2023 - 13.10.2023|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.1.20|Stender, Wolfram|Termin: 20.10.2023 - 20.10.2023|\n|||||Tutor*innen||\n|T|Fr|11:"
+    },
+    {
+      "rang": 4,
+      "score": 1.89617,
+      "id": "a61596fd-15da-5191-9606-463c6a1c3370",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/SoSe_2025/BSW_PO20201_KLEIN.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › SoSe 2025 › BSW PO20201 KLEIN",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 451,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3F.0.05|Stender, Wolfram|Termin: 04.04.2025 - 04.04.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.02|Stender, Wolfram|Termin: 11.04.2025 - 11.04.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.1.21|Stender, Wolfram|Termin: 25.04.2025 - 25.04.2025|\n|||||Tutor*innen||\n|T|Fr|11:"
+    },
+    {
+      "rang": 5,
+      "score": 1.8888,
+      "id": "9077b7c3-1fdc-5b30-ba89-982e7b5fc57a",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BSW PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 539,
+      "text_vollstaendig": false,
+      "auszug": "|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.23|Stender, Wolfram|Termin: 11.10.2024 - 11.10.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.27|Stender, Wolfram|Termin: 18.10.2024 - 18.10.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.27|Stender, Wolfram|Termin: 25.10.2024 - 25.10.2024|\n|||||Tuto"
+    },
+    {
+      "rang": 6,
+      "score": 1.84735,
+      "id": "0d792094-c72e-589e-bc6e-936368baae97",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS SoSe 2025 PO 2020 klein",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 344,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.0.27|Stender, Wolfram|Termin: 13.06.2025 - 13.06.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.27|Stender, Wolfram|Termin: 20.06.2025 - 20.06.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.27|Stender, Wolfram|Termin: 27.06.2025 - 27.06.2025|\n|||||Tutor*innen||"
+    },
+    {
+      "rang": 7,
+      "score": 1.84291,
+      "id": "3d5e6c1f-539d-5db9-ae87-45ec3b2a6904",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-2024-25/BSW-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BSW PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**4WBSA06 Informationsveranstaltung Modul 6 (für Beginn M 6 im SoSe 2025)**",
+      "chunk_index": 534,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 27.09.2024 - 27.09.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 04.10.2024 - 04.10.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 11.10.2024 - 11.10.2024|\n|||||Tutor*innen||\n|T|Fr|11:"
+    },
+    {
+      "rang": 8,
+      "score": 1.78809,
+      "id": "22c5e2ca-e9c6-547b-b2f1-2b37112ed7b2",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20210518_Protokoll_28.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "title_anzeige": "www › Finanzmanagement › Studienqualitaetsmittel › 20210518 Protokoll 28.Sitzung Senatskommission Studienqualitaetsmittel",
+      "section_heading": "6.6 Z3 (Frau Rex), Tutorien 2021/2022, 01.09.201 – 31.08.2022, 38.000,00 EUR (Anlage 8)",
+      "chunk_index": 20,
+      "text_vollstaendig": false,
+      "auszug": "## 6.6 Z3 (Frau Rex), Tutorien 2021/2022, 01.09.201 – 31.08.2022, 38.000,00 EUR (Anlage 8)  \nFrau Petersen stellt den Antrag in Abwesenheit von Frau Rex vor. Frau Rex koordiniere die Incomings an die HsH. Die Mittel werden für studentische Hilfskräfte benötigt. Diese sollen die Incomings beim Erstko"
+    },
+    {
+      "rang": 9,
+      "score": 1.76968,
+      "id": "2f3efa88-0878-5896-8d60-6f12da8755c5",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/SoSe_2025/BSW_PO20201_KLEIN.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › SoSe 2025 › BSW PO20201 KLEIN",
+      "section_heading": "**5SBSA06101 Tutorium: Handlungstheoretische Grundlagen Sozialer Arbeit - Gr. 1**",
+      "chunk_index": 437,
+      "text_vollstaendig": false,
+      "auszug": "|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 16.05.2025 - 16.05.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 30.05.2025 - 30.05.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 06.06.2025 - 06.06.2025|\n|||||Tuto"
+    },
+    {
+      "rang": 10,
+      "score": 1.74657,
+      "id": "fd4e7d9c-6b1f-5f45-9672-95745195db4d",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2021-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › BSW PO 2021 klein — Inhaltsverzeichnis",
+      "section_heading": "**4SBSA06101 Tutorium: Was ist Soziale Arbeit? Handlungstheoretische Grundlagen - Gr. 1**",
+      "chunk_index": 691,
+      "text_vollstaendig": false,
+      "auszug": "|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 17.05.2024 - 17.05.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3H.0.08|Stender, Wolfram|Termin: 24.05.2024 - 24.05.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 07.06.2024 - 07.06.2024|\n|||||Tuto"
+    },
+    {
+      "rang": 11,
+      "score": 1.61906,
+      "id": "4e8bbd78-267d-5fb5-afe8-296d88ad1252",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS SoSe 2025 PO 2020 klein",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 297,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.0.12|Stender, Wolfram|Termin: 04.04.2025 - 04.04.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3H.0.08|Stender, Wolfram|Termin: 11.04.2025 - 11.04.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.12|Stender, Wolfram|Termin: 25.04.2025 - 25.04.2025|\n|||||Tutor*innen||\n|T|Fr|11:"
+    },
+    {
+      "rang": 12,
+      "score": 1.53825,
+      "id": "18e9557f-e93a-551a-848e-82507b4337c6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20251014_Protokoll_37.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "title_anzeige": "www › Finanzmanagement › Studienqualitaetsmittel › 20251014 Protokoll 37.Sitzung Senatskommission Studienqualitaetsmittel",
+      "section_heading": "6.1 D5 (Frau Tietz), Studierendenbetreuung Cloud-Dienste, 1,0 E9b, ab 01.11.2025, unbefristet, 62.821,00 EUR p.a. (Anlage 4)",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "6.4 S1 (Frau Lohmann), Schulungen im Tutorienprogramm (Restmittelübertrag aus – 2025 und Aufstockung auf 8.200,00 EUR, 01.01.2026 31.12.2026, 8.200,00 EUR (Anlage 7)  \nHerr Bruns stellt den Antrag vor. Das Tutorienprogramm sei 2015 als Teil des FHEntwicklungsprogramms entstanden. Die ursprüngliche G"
+    },
+    {
+      "rang": 13,
+      "score": 1.49703,
+      "id": "2d9f7bde-738c-5ca7-b54c-293abfa48177",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+      "title_anzeige": "www › Organisation › Strategische Hochschulentwicklung › HsH Diversity Audit Abschlussbericht",
+      "section_heading": "Diversity-Audit »Vielfalt gestalten« _des Stifterverbandes für die deutsche Wissenschaft_ > ~~_Tutorienprogramm_~~",
+      "chunk_index": 42,
+      "text_vollstaendig": true,
+      "auszug": "## ~~_Tutorienprogramm_~~  \nIm FEP Tutorienprogramm, das vom MWK Niedersachsen finanziert wird, betreuen und unterstützen Tutor*innen aus höheren Semestern kleine Lerngruppen von Studierenden. Auf diese Tätigkeit werden sie mit einem Schulungsangebot vorbereitet, welches drei Schwerpunkte umfasst:  "
+    },
+    {
+      "rang": 14,
+      "score": 1.47743,
+      "id": "e549c21c-e619-5d80-8314-88766fe92c9f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › BSW PO 2018 klein",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 437,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 05.04.2024 - 05.04.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3H.0.09|Stender, Wolfram|Termin: 12.04.2024 - 12.04.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 19.04.2024 - 19.04.2024|\n|||||Tutor*innen||\n|T|Fr|11:"
+    },
+    {
+      "rang": 15,
+      "score": 1.47435,
+      "id": "4be2dd99-ae31-58ed-8f19-47accf2a2edb",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2018 klein — Inhaltsverzeichnis",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 403,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.1.21|Stender, Wolfram|Termin: 27.10.2023 - 27.10.2023|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3F.0.04|Stender, Wolfram|Termin: 03.11.2023 - 03.11.2023|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.1.21|Stender, Wolfram|Termin: 10.11.2023 - 10.11.2023|\n|||||Tutor*innen||\n|T|Fr|11:"
+    },
+    {
+      "rang": 16,
+      "score": 1.47331,
+      "id": "31e288e2-8878-5145-8276-43bccefd1a33",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BRS PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 440,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.0.27|Stender, Wolfram|Termin: 04.10.2024 - 04.10.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.23|Stender, Wolfram|Termin: 11.10.2024 - 11.10.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.27|Stender, Wolfram|Termin: 18.10.2024 - 18.10.2024|\n|||||Tutor*innen||\n|T|Fr|11:"
+    },
+    {
+      "rang": 17,
+      "score": 1.45445,
+      "id": "38c2f84d-9053-5b68-a23e-32374c706211",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › BSW PO 2018 klein",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 450,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.0.07|Stender, Wolfram|Termin: 03.05.2024 - 03.05.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.07|Stender, Wolfram|Termin: 10.05.2024 - 10.05.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.07|Stender, Wolfram|Termin: 17.05.2024 - 17.05.2024|\n|||||Tutor*innen||\n|T|Fr|11:"
+    },
+    {
+      "rang": 18,
+      "score": 1.43512,
+      "id": "4aeda0bf-a8de-5c38-a7ac-7ef19df391e5",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-2024-25/BRS-PO-2020-WiSe-24-25-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2024 25 › BRS PO 2020 WiSe 24 25 klein — Inhaltsverzeichnis",
+      "section_heading": "**4WBSA06 Informationsveranstaltung Modul 6 (für Beginn M 6 im SoSe 2025)**",
+      "chunk_index": 436,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.1.22|Stender, Wolfram|Termin: 18.10.2024 - 18.10.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 25.10.2024 - 25.10.2024|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 01.11.2024 - 01.11.2024|\n|||||Tutor*innen||\n|T|Fr|11:"
+    },
+    {
+      "rang": 19,
+      "score": 1.41425,
+      "id": "46a8f440-023d-5b6b-bf02-703ed7811f28",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_04_28_BBA_1StA.pdf",
+      "title_anzeige": "f4 › Stundenplan › BWL › 2026 04 28 BBA 1StA",
+      "section_heading": "**Hinweise:**",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "- Die ebenfalls zur Auswahl stehenden **Sprachkurse** werden vom Language Center angeboten. Informationen und Anmeldung über https://hs-h.de/lc. Ansprechpartnerin ist Mareen Witte.  \n-  \n- Wir empfehlen die regelmäßige Teilnahme an den Tutorien.  \n- Wenn nicht anders vermerkt, so starten alle Verans"
+    },
+    {
+      "rang": 20,
+      "score": 1.40503,
+      "id": "955fcdab-c4f5-5966-b939-f3905c5e0b3a",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2026/VV-BRS-PO-2021-SoSe-2026-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2026 › VV BRS PO 2021 SoSe 2026 klein — Inhaltsverzeichnis",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 383,
+      "text_vollstaendig": false,
+      "auszug": "|S|Fr|11:00 - 13:00|3E.0.27|Stender, Wolfram|Termin: 17.04.2026 - 17.04.2026|\n|||||Tutor*innen||\n|S|Fr|11:00 - 13:00|3E.0.27|Stender, Wolfram|Termin: 24.04.2026 - 24.04.2026|\n|||||Tutor*innen||\n|S|Fr|11:00 - 13:00|3E.0.27|Stender, Wolfram|Termin: 15.05.2026 - 15.05.2026|\n|||||Tutor*innen||\n|S|Fr|11:"
+    },
+    {
+      "rang": 21,
+      "score": 1.34966,
+      "id": "737655e2-0b33-5a7b-afd3-fbfcd0157aae",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/Stundenplan/BWL/2026_07_15_BBA_1StA.pdf",
+      "title_anzeige": "f4 › Stundenplan › BWL › 2026 07 15 BBA 1StA — Wintersemester 2026/2027",
+      "section_heading": "**Hinweise:**",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "- Die ebenfalls zur Auswahl stehenden **Sprachkurse** werden vom Language Center angeboten. Informationen und Anmeldung über https://hs-h.de/lc. Ansprechpartnerin ist Mareen Witte.  \n- Wir empfehlen die regelmäßige Teilnahme an den Tutorien.  \n- Wenn nicht anders vermerkt, so starten alle Veranstalt"
+    },
+    {
+      "rang": 22,
+      "score": 1.34512,
+      "id": "ee645eaf-f9c8-5b1b-8efa-c9b668f42750",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2021-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS SoSe 2025 PO 2021 klein",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 343,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 13.06.2025 - 13.06.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 20.06.2025 - 20.06.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 27.06.2025 - 27.06.2025|\n|||||Tutor*innen||"
+    },
+    {
+      "rang": 23,
+      "score": 1.31183,
+      "id": "beb5ea20-02f1-518f-a055-c16de6a5ee37",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2026/VV-BRS-PO-2021-SoSe-2026-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2026 › VV BRS PO 2021 SoSe 2026 klein — Inhaltsverzeichnis",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 382,
+      "text_vollstaendig": false,
+      "auszug": "## **Literatur:**  \nLiteratur wird im Tutorium bekanntgegeben.  \n|**6SBSA06102 Tutorium: Handlungstheoretische Grundlagen Sozialer Arbeit - Gr. 2**|**6SBSA06102 Tutorium: Handlungstheoretische Grundlagen Sozialer Arbeit - Gr. 2**|**6SBSA06102 Tutorium: Handlungstheoretische Grundlagen Sozialer Arbei"
+    },
+    {
+      "rang": 24,
+      "score": 1.21322,
+      "id": "431a877c-63e5-51ee-bf15-cba71ae1ca77",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20241015_Protokoll_35.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "title_anzeige": "www › Finanzmanagement › Studienqualitaetsmittel › 20241015 Protokoll 35.Sitzung Senatskommission Studienqualitaetsmittel",
+      "section_heading": "4.1 Z1 (Herr Nowak), Erhalt der Öffnungszeiten der Bibliothek, 01.02.2025 – 28.02.2026, 60.000,00 EUR (Anlage 2)",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "4.2 S1 (Frau Lohmann), Schulungen im Tutorienprogramm (Restmittelübertrag aus 2024 und Aufstockung auf 8.200,00 EUR) (Anlage 3)  \nHerr Bruns stellt den Antrag vor. Das Tutorienprogramm existiere seit 2015. Jährlich werden hierfür zusätzliche Landesmittel in Höhe von 400.000 – 450.000 Euro für vom MW"
+    },
+    {
+      "rang": 25,
+      "score": 1.15243,
+      "id": "397883db-fda8-5d1b-a494-57de057747ed",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV-WiSe-23-24/BSW-WiSe-23-24-PO-2020-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 23 24 › BSW WiSe 23 24 PO 2020 klein — Inhaltsverzeichnis",
+      "section_heading": "**3WBSA06101 Tutorium: Was ist Soziale Arbeit? Handlungstheoretische Grundlagen - Gr. 1**",
+      "chunk_index": 609,
+      "text_vollstaendig": false,
+      "auszug": "|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.1.20|Stender, Wolfram|Termin: 10.11.2023 - 10.11.2023|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3F.0.05|Stender, Wolfram|Termin: 17.11.2023 - 17.11.2023|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.1.20|Stender, Wolfram|Termin: 01.12.2023 - 01.12.2023|\n|||||Tuto"
+    },
+    {
+      "rang": 26,
+      "score": 1.12009,
+      "id": "5a652088-acf3-5d2f-b5c9-ee1eda82efc3",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/career-center/daad-projekt-hsh2career",
+      "title_anzeige": "Career Service for Internationals: Projekt HsH2Career",
+      "section_heading": "Career Service for Internationals: Projekt HsH2Career > Aktuelle Termine",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "**Wissenschaftssprache und Wissenschaftliches Schreibe:** Mittwoch, 09. September 2026, 09:00 - 12:45 Uhr\n**Was ist erlaubt? Gute wissenschaftliche Praxis im Studium:** Donnerstag, 10. September 2026, 09:00 - 12:45 Uhr\n**Literatur recherchieren und lesen:** Freitag, 11. September 2026, 09:00 - 12:45"
+    },
+    {
+      "rang": 27,
+      "score": 1.1128,
+      "id": "de62ac60-2c97-5a24-a601-909c3bb29d3e",
+      "source_url": "https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/team/jan-weisberg",
+      "title_anzeige": "www › schreibwerkstatt › team › jan weisberg",
+      "section_heading": "Jan Weisberg",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Jan Weisberg\n_Koordination der Schreibwerkstatt_\n* * *\nHochschule Hannover\nServicezentrum Lehre\nRicklinger Stadtweg 120, Raum 1J.2.55\n30459 Hannover\n[jan.weisberg(at)hs-hannover.de](https://www.hs-hannover.de/hsh-akademie/wissenswelt-sprachen-und-studienkompetenzen/schreibwerkstatt/team/jan-weisb"
+    },
+    {
+      "rang": 28,
+      "score": 1.08687,
+      "id": "cd98feeb-9b03-5a64-b7c7-dcb7530f27fe",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV-WiSe-25-26/VV_BRS-WiSe-25-26-PO-2020-2021-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 25 26 › VV BRS WiSe 25 26 PO 2020 2021 klein — Inhaltsverzeichnis",
+      "section_heading": "**5WBSA06107 Tutorium: Handlungstheoretische Grundlagen Sozialer Arbeit - Gr. 7**",
+      "chunk_index": 587,
+      "text_vollstaendig": false,
+      "auszug": "|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.1.21|Stender, Wolfram|Termin: 28.11.2025 - 28.11.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.1.21|Stender, Wolfram|Termin: 05.12.2025 - 05.12.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.1.21|Stender, Wolfram|Termin: 12.12.2025 - 12.12.2025|\n|||||Tuto"
+    },
+    {
+      "rang": 29,
+      "score": 1.08584,
+      "id": "86e9cd47-afd5-5d2f-91bf-883217f6ab0a",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2021-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS SoSe 2025 PO 2021 klein",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 342,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 04.04.2025 - 04.04.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 11.04.2025 - 11.04.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.05|Stender, Wolfram|Termin: 25.04.2025 - 25.04.2025|\n|||||Tutor*innen||\n|T|Fr|11:"
+    },
+    {
+      "rang": 30,
+      "score": 1.07615,
+      "id": "dcb6669b-0a66-5023-84f3-d489c0547a4c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_WiSe-2025-26/VV-BSW-WiSe-25-26-PO-2020-2021-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV WiSe 2025 26 › VV BSW WiSe 25 26 PO 2020 2021 klein — Inhaltsverzeichnis",
+      "section_heading": "**Literatur:**",
+      "chunk_index": 627,
+      "text_vollstaendig": false,
+      "auszug": "|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 26.09.2025 - 26.09.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 10.10.2025 - 10.10.2025|\n|||||Tutor*innen||\n|T|Fr|11:00 - 13:00|3E.0.22|Stender, Wolfram|Termin: 17.10.2025 - 17.10.2025|\n|||||Tutor*innen||\n|T|Fr|11:"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 44717,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.98,
+    "kandidaten_s": 0.02,
+    "llm_auswahl_s": 5.59,
+    "docs_laden_s": 0.47,
+    "quellen_s": 8.06,
+    "antwort_llm_s": 1.75,
+    "gesamt_s": 9.81
+  },
+  "auswahl_begruendung": "{\"selected\":[2,7,12,3]}"
+}

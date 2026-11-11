@@ -1,0 +1,23 @@
+2026-09-15 19:59:54 INFO    lauf: Lauf 2026-09-15_1959_meta-llama-3.1-8b-instruct
+2026-09-15 19:59:54 INFO    lauf: Modell : meta-llama-3.1-8b-instruct
+2026-09-15 19:59:54 INFO    lauf: Arme   : ['text'] / ['sparse_expanded']  Fusion: dbsf
+2026-09-15 19:59:54 INFO    lauf: Punkte : 121134
+2026-09-15 19:59:54 INFO    httpx: HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2026-09-15 20:00:16 INFO    lauf: Lauf 2026-09-15_1959_meta-llama-3.1-8b-instruct
+2026-09-15 20:00:16 INFO    lauf: Modell : meta-llama-3.1-8b-instruct
+2026-09-15 20:00:16 INFO    lauf: Arme   : ['text'] / ['sparse_expanded']  Fusion: dbsf
+2026-09-15 20:00:16 INFO    lauf: Punkte : 121134
+2026-09-15 20:00:16 INFO    lauf: Vertrag: ba551d1 (1 Fälle)
+2026-09-15 20:00:16 INFO    lauf: Fälle  : 1 offen von 1
+2026-09-15 20:00:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-15 20:00:16 INFO    mcp.client.streamable_http: Received session ID: ba65be1bd5c844e58d2dd23f8b43a836
+2026-09-15 20:00:16 INFO    mcp.client.streamable_http: Negotiated protocol version: 2025-11-25
+2026-09-15 20:00:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 202 Accepted"
+2026-09-15 20:00:16 INFO    httpx: HTTP Request: GET http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-15 20:00:16 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-15 20:00:23 INFO    httpx: HTTP Request: POST http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-15 20:00:23 INFO    httpx: HTTP Request: DELETE http://127.0.0.1:8765/mcp "HTTP/1.1 200 OK"
+2026-09-15 20:00:23 INFO    lauf: [ 1/1] ✓    7.0s  q12  Gibt es Parkplätze am HsH-Campus Linden?
+2026-09-15 20:00:23 INFO    lauf: Fertig in 0.1 min (Arbeit 0.1 · Pausen 0.0 · ungetrackt 0.0)
+2026-09-15 20:00:23 INFO    lauf: Rohdaten: /home/christian/RAGHSH/hsh_scraper/eval_gold/laeufe/2026-09-15_1959_meta-llama-3.1-8b-instruct
+2026-09-15 20:00:23 INFO    lauf: Auswertung: python eval_gold/auswertung.py 2026-09-15_1959_meta-llama-3.1-8b-instruct

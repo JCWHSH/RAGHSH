@@ -1,0 +1,528 @@
+{
+  "fall": {
+    "id": "g32",
+    "case_type": "direct",
+    "question": "Warum haben die Studierenden die interaktiven Lernbausteine kaum angenommen?",
+    "reference_answer": "Weil parallel nicht-interaktive Materialien bereitstanden und die vertrauten Folien gewählt wurden.",
+    "source_url": "https://q-plus-im.wp.hs-hannover.de/erfolgreicher-projektabschluss",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "sehen wir in der gleichzeitigen Bereitstellung von nicht interaktiven Lernressourcen, sodass eine Wahl für das Altbekannte in Form von Folien stattfand"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ sonstiges/fakt. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "999a15fa-e321-52f5-949a-2f845eb2ab82",
+      "d6c7e5b5-53c0-5b7d-b345-34695c06031b",
+      "f2c74363-e87c-56a2-9ed0-2a920b27fc87",
+      "c86bee51-cc23-5387-81b2-353c60baf721",
+      "9983535c-f25c-579b-ac4a-1fd4afd98d27",
+      "dc3b9bf6-e4de-5599-a71b-6427e72811ca",
+      "b7fc26ca-a204-5540-bc1f-3f6d67faafb3",
+      "c6be3ade-fc14-5212-a5b4-973d3b4e5fa1",
+      "bf36c2a5-c40e-59fb-8450-4703c05d0727"
+    ],
+    "beleg_punkte": [
+      "c86bee51-cc23-5387-81b2-353c60baf721"
+    ],
+    "beleg_urls": [
+      "https://q-plus-im.wp.hs-hannover.de/erfolgreicher-projektabschluss"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:37:22",
+  "dauer_s": 9.32,
+  "fehler": null,
+  "antwort": "Die geringe Nutzung hatte laut Abschlussbericht mehrere Gründe:\n\n- **Gleichzeitig standen vertraute, nicht-interaktive Materialien bereit:** „Gründe für die unerwartet geringe Nutzung der interaktiven h5p Ressourcen sehen wir in der gleichzeitigen Bereitstellung von nicht interaktiven Lernressourcen, sodass eine Wahl für das Altbekannte in Form von Folien stattfand.\" [2]\n- **Die Vorteile von h5p wurden offenbar nicht früh genug vermittelt:** „Den Studierenden muss möglichst schon zu Beginn der Veranstaltungen klar sein, um was es sich bei h5p handelt und wo die Vorteile gegenüber den herkömmlichen Lernmaterialen liegen.\" [2]\n- **Möglicherweise bevorzugten Studierende den geringsten Aufwand zur Erreichung der Lernziele:** „Ein weiterer Grund für die geringe Nutzung neuer Inhaltsformen mag auch der seit Corona weit verbreitete Weg des geringsten Widerstands zur Lernzielerreichung sein.\" [2]\n- **Ein Zusammenhang mit der Motivation ist nur vorläufig erkennbar:** „Ein Zusammenhang zwischen Studierendenmotivation und h5p-Nutzung ist grob erkennbar, aber bisher nicht repräsentativ nachweisbar.\" [2]\n\nAls Konsequenz wird empfohlen, „die Auswahl an Lernmaterial ausschließlich auf die interaktiven Lernmodule mit h5p zu begrenzen.\" [2]",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "q-plus-im › 220707 Abschlussbericht qplus Steinberg Wittich",
+      "url": "http://q-plus-im.wp.hs-hannover.de/wp-content/uploads/2022/07/220707_Abschlussbericht_qplus_Steinberg_Wittich.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Abschlussbericht\n  ## – Komm‘ Se digital lernen!\n  ## Antragstellende\n  ## Förderprogramm\n  ## Zeitraum:\n  ## Inhalt\n  ## 1 Kurzbeschreibung\n  ## 2 Beschreibung\n  ## Abweichungen vom ursprünglich geplanten Vorgehen\n  ## 3 Erzielte Ergebnisse\n  ## 3.1 Klares Kompetenzprofil im Studium\n  ## 3.1.1 Selbsteinschätzung zu Studienbeginn\n  ## Fachkompetenzen\n  ## “ Fertigkeiten\n  ## Personale Kompetenz\n  ## „Sozialkompetenz\n  ## „Selbständigkeit\n  ## 3.1.2 Selbsteinschätzung zum Abschluss des ersten Studienabschnitts\n  ## 3.1.3 Selbsteinschätzung zum Ende des Studiums\n  ## 3.2 Lernumgebung mit Selbstlernmaterialien als angeleitetes Selbststudium mit tutorieller Betreuung\n  ## 3.2.1 Moodle als etabliertes Lern-Management-System\n  ## 3.2.2 Stud.IP als Campus-Management-System und bündelndes Eingangsportal\n  ## 3.2.3 WordPress als Content-Management-System in der Lehrpraxis\n  ## 3.3 Lernarrangements als angeleitetes Selbststudium durch Lehrende\n  ## Beispiele für Lernarrangements der Stufen A bis E\n  ## Stufe A: Knowledge Snacks als Glossar zu Fachbegriffen im Informationsmanagement\n  ## Beispiel Eintrag im Glossar zu Open Educational Ressource:\n  ## Beispiel-Instagrambeitrag zu Open Educational Resources\n  ## Stufe B: Screencasts zu Wissenschaftlichen Arbeitstechniken BIM / BIB im Wintersemester 2021/22\n  ## Stufe B: Suchmaschinentrailer\n  ## Stufe B: Modul Grundlagen der Informationsverarbeitung BIM / BIB Wintersemester 2021 /22\n  ## Stufe C: Suchmaschinentrailer mit h5p Interaktionen\n  ## Stufe D: Modul Informationskompetenz vermitteln BIM / BIB Sommersemester 2021 (6. Semester)\n  ## Weitere Beispiele für Lernmaterialien\n  ## Stufe E: Teilmodul WWW-Techniken 1 BIM1/BIB1 Wintersemester 21/22\n  ## Stufe E: Von Studierenden erstellte Lernressourcen als Teil der Prüfungsleistung im Teilmodul Content Management (BIM3/BIB3) im Wintersemester 21/22\n  ## Stufe E: Von Studierenden erstellte Lernressourcen als Teil der Prüfungsleistung im Modul Informationskompetenz vermitteln\n  ## Bewertung der Materialien insgesamt\n  ## 3.4 Veröffentlichung der von Studierenden erstellten Artefakte\n  ## 3.4.1 WebLab: Studentische Arbeiten von der Schublade ins Web\n  ## Abbildung 17: Screenshot WebLab – aktuelle Beiträge\n  ## 3.4.2 E-Portfolios für Studierende: Ein mehrstufiges E-Portfolio-Modell\n  ## Stufe 1: Erweiterte Profilseite in Stud.IP als E-Portfolio\n  ## Stufe 2: Strukturiertes E-Portfolio in Courseware\n  ## Stufe 3: Freies E-Portfolio in WordPress\n  ## 3.5 Begleitende Evaluation\n  ## Bewertung insgesamt\n  ## 3.6 Geänderte Prüfformate\n  ## 4 Weitere oder offene Arbeiten im Vorhaben\n  ## 5 Veröffentlichungen zu Ergebnissen des Vorhabens"
+    },
+    {
+      "nr": 2,
+      "titel": "q-plus-im › erfolgreicher projektabschluss",
+      "url": "https://q-plus-im.wp.hs-hannover.de/erfolgreicher-projektabschluss",
+      "fakultaet": "",
+      "struktur": "    ### Schreibe einen Kommentar Antwort abbrechen\n    ### Schreibe einen Kommentar Antwort abbrechen\n    ### Schreibe einen Kommentar Antwort abbrechen"
+    },
+    {
+      "nr": 3,
+      "titel": "f5 › Alumni Netzwerk Soziale Arbeit › Alumni Newsletter › Alumni Newsletter Nr. 5 final — _Liebe Leserinnen,_",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._5_final.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Alumni-Newsletter\n  ## Informationen aus der Abteilung Soziale Arbeit\n  ## Ausgabe 5 | Januar 2023\n  ## Editorial\n  ## Liebe Leserinnen,\n  ## Rückblick der Studiendekanin Anja Reinecke-Terner\n  ## Alumni-Newsletter\n  ## Informationen aus der Abteilung Soziale Arbeit\n  ## Ausgabe 5 | Januar 2023\n  ## Zuhören\n  ## Interview mit Maren Burkhardt\n  ## Alumni-Newsletter\n  ## Informationen aus der Abteilung Soziale Arbeit\n  ## Ausgabe 5 | Januar 2023\n  ## Nachhaltigkeit an der HsH – das „Green Office“\n  ## Interview mit Bünyamin Werker\n  ## Alumni-Newsletter\n  ## Informationen aus der Abteilung Soziale Arbeit\n  ## Alumnitreffen: Rück- und Ausblick\n  ## Ergebnisse des 1. Netzwerktreffens:\n  ## Veranstaltungshinweise\n  ## 08.02.2023, 9:00 - 13:30 Uhr\n  ## 24.03.2023, 14:30 - 18:00 Uhr\n  ## 28.04.2023, 9:00 - 13:30 Uhr\n  ## 12.10.2023, abends\n  ## Haftungsbeschränkung:\n  ## IMPRESSUM"
+    },
+    {
+      "nr": 4,
+      "titel": "f4 › Informatik › Modulhandbuecher › 2024 04 29 modules MIN 20WS DE — Inhaltsverzeichnis",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/2024-04-29-modules-MIN-20WS-DE.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Modulhandbuch für den Studiengang Master Angewandte Informatik, PO Version 20 WS\n  ## Inhaltsverzeichnis\n  ## Fakultät IV - Wirtschaft und Informatik, Master Angewandte Informatik\n  ## Fakultät IV - Wirtschaft und Informatik, Master Angewandte Informatik\n  ## Modul MIN-301 Softwarearchitekturen\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MIN-301-01 Softwarearchitekturen\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MIN-302 Projekt- und Qualitätsmanagement\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MIN-302-01 Projekt- und Qualitätsmanagement\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MIN-303 Visualisierung und HCI\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MIN-303-01 Visualisierung und HCI\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MIN-304 Theorie der Algorithmen und Komplexität\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MIN-304-01 Theorie der Algorithmen und Komplexität\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MIN-305 Seminar\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MIN-305-01 Seminar\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MIN-306 Masterprojekt\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MIN-306-01 Masterprojekt\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit"
+    },
+    {
+      "nr": 5,
+      "titel": "f4 › Modulhandbuecher › Archiv › Modulhandbuch MDI 20170206 1 — 1. Studienabschnitt",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/Archiv/Modulhandbuch_MDI_20170206_1.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## Modulhandbuch für den Studiengang Bachelor Mediendesigninformatik, PO-Version 15 WS\n  ## Inhaltsverzeichnis\n  ## 1. Studienabschnitt\n  ## Modul  MDI-100 Mathematik 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  BIN-100-01 Mathematik 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDI-101 Startprojekt\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  BIN-101-01 Startprojekt\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDI-102 Programmieren 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDI-102-01 Programmieren 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDI-103 Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  BIN-103-01 Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDI-104 Animation 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDI-104-01 Animation 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul  MDI-105 Bildbearbeitung 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul  MDI-105-01 Bildbearbeitung 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums"
+    },
+    {
+      "nr": 6,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM 2017",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Vorwort\n  ## Teil I.\n  ## Studienhandbuch\n# 1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation\n  ## 1.1 Fakultäts- und Abteilungsstruktur\n  ## 1.2 Kleines Hochschullexikon\n  ## Dekanat\n  ## Erstsemester-Aufnahme\n  ## Lehrveranstaltungen\n  ## Moodle\n  ## iCMS\n  ## SWS\n  ## Credits, ECTS\n  ## Prüfungsordnung\n  ## Prüfungskommission\n  ## Studienkommission\n  ## Zentrale Studierendenverwaltung\n  ## Auslandssemester\n  ## Studienpreise\n  ## 1.3 Kontaktdaten\n  ## Anschrift\n  ## Besucheradresse\n  ## E-Mail\n  ## Fax\n  ## Dekan der Fakultät III\n  ## Studiendekanin der Abteilung Information und Kommunikation\n  ## Studiengangskoordinator\n  ## Praktikumsbeauftragte\n  ## stv. Vorsitzender des Prüfungsausschusses\n  ## Studiengangsassistent\n  ## Prüfungsverwaltung\n  ## IT-Service-Desk\n  ## IT-Team der Abteilung IK\n  ## 1.4 Personenverzeichnis\n  ## 2 Bachelor-Studiengang Informationsmanagement (BIM)\n  ## 2.1 Studienvoraussetzung\n  ## 2.2 Studienaufnahme und Gebühren\n  ## 2.3 Ziel und Inhalt des Studiums\n  ## 2.4 Aufbau des Studiums\n  ## 2.4.1 Grundsätzliches zum Aufbau\n  ## 2.4.2 Pflicht, Wahlpflicht- und Wahlmodule\n  ## 2.4.3 Kompetenzfelder\n  ## Kombinationen, die aktiv unterstützt werden, da sie zu am Arbeitsmarkt nachgefragten Berufsprofilen führen, sind:\n  ## Die Kombinationen, die nicht aktiv unterstützt werden, sind:\n  ## 2.4.4 Praxisphasen\n  ## 2.5 Prüfungsordnung\n  ## 2.6 Modulhandbuch\n  ## 2.6.1 Modulabhängigkeiten\n  ## 2.6.2 Modulprüfungen"
+    },
+    {
+      "nr": 7,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BME PO 2022 23 — _Modulhandbuch für den Bachelorstudiengang Mediendesign_",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BME_PO_2022_23.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Modulhandbuch für den Bachelorstudiengang Mediendesign\n  ## BA Mediendesign Studienverlaufsplan\n  ## 1. Semester 2. Semester 3. Semester\n  ## 4. Semester 5. Semester 6. Semester 7. Semester 8. Semester\n  ## Bachelor-Studiengang Mediendesign BME - 8 Semester\n  ## BA Mediendesign BME-121 Entwurfstechniken I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer\n  ## Häufigkeit des Angebots\n  ## Qualifikationsziele\n  ## Art, Gewichtung\n  ## ECTS-Punkte\n  ## Workload\n  ## Voraussetzungen\n  ## Verwendbarkeit\n  ## Lehrinhalte\n  ## Prüfungsformen\n  ## Lehr- und Lernmethoden\n  ## Modulverantwortlicher\n  ## BA Mediendesign BME-121 Entwurfstechniken I\n  ## Lehrveranstaltungen\n  ## Gewichtung\n  ## Lehr- und Lernmethoden\n  ## Prüfungsformen\n  ## BA Mediendesign BME-133 Fachtheorie I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer\n  ## Häufigkeit des Angebots\n  ## Art, Gewichtung\n  ## ECTS-Punkte\n  ## Workload\n  ## Qualifikationsziele\n  ## Voraussetzungen\n  ## Verwendbarkeit\n  ## Prüfungsformen\n  ## Lehr- und Lernmethoden\n  ## Modulverantwortlicher\n  ## Lehrinhalte\n  ## BA Mediendesign BME-133 Fachtheorie I\n  ## Lehrveranstaltungen\n  ## Gewichtung\n  ## Lehr- und Lernmethoden\n  ## Prüfungsformen\n  ## BA Mediendesign BME-122 Qualifikation I\n  ## Semester\n  ## Prüfungsumfang /-dauer\n  ## Dauer\n  ## Häufigkeit des Angebots"
+    },
+    {
+      "nr": 8,
+      "titel": "imc › IMC Broschuere",
+      "url": "http://imc.f3.hs-hannover.de/PDF/IMC_Broschuere.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Bachelor Integrated Media & Communication dual\n  ## dual BA IMC im Überblick\n  ##   Die Wochenanzahl der Praktika\n  ## Erster Studienabschnitt 1.– 4. Semester\n  ## Voraussetzungen\n  ## Inhalte\n  ## Was Sie noch mitbringen sollten\n  ## Dozentinnen\n  ## Studiencharakteristika im Überblick\n  ## Ausstattung und Lage\n  ## Studiengangsprofil\n  ## Berufsperspektiven in\n  ## Solider Einstieg in die Agenturwelt\n  ## Kommunikationsagenturen\n  ## „Ich sehe noch große Entwicklungsmöglich-\n  ## Feedback aus den Praxisphasen\n  ## Berufsperspektiven in der Unternehmenskommunikation\n  ## Digitalisierung und Vernetzung: BA IMC[dual] entspricht den neuen Anforderungen\n  ## Studieninhalte\n  ## Denken in Zusammenhängen\n  ## Didaktisches Grundprinzip: „vier K“\n  ## Wechsel der Lernorte\n  ## Überdurchschnittlich viele Lehrveranstaltungen\n  ## Fachliche Säulen\n  ## Prüfungsformen\n  ## ▶ Erstes Semester\n  ## ▶ Zweites Semester\n  ## Seminare HsH\n  ## Module mit Lehrveranstaltungen\n  ## ▶ Drittes Semester\n  ## Module mit Lehrveranstaltungen\n  ## ▶ Viertes Semester\n  ## Seminare HsH\n  ## Module mit Lehrveranstaltungen\n  ## ▶ Fünftes Semester\n  ## Module mit Lehrveranstaltungen\n  ## Module mit Lehrveranstaltungen\n  ## ▶  Sechstes und siebtes Semester\n  ## Seminare HsH\n  ## Module mit Lehrveranstaltungen\n  ## ▶  Achtes Semester: Bachelorarbeit\n  ## Feedback von IMC-Studierenden\n  ## Theresa, 7. Semester\n  ## Alena, 7. Semester\n  ## Lisa, 7. Semester\n  ## Janis, 7. Semester\n  ## Jannick, 7. Semester\n  ## Vanessa, 7. Semester\n  ## Tipps für den Bewerbungsprozess\n  ## Suche nach einer | einem Praxispartnerin"
+    },
+    {
+      "nr": 9,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch IMC ab WiSe 19 20 — Bachelor-Studiengang Integrated Media and Communication",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_IMC_ab_WiSe_19_20.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Modulhandbuch\n  ## Bachelor-Studiengang Integrated Media and Communication\n  ## Inhaltsverzeichnis\n  ## Anlage B.2. Modulhandbuch"
+    },
+    {
+      "nr": 10,
+      "titel": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM ab WiSe 26 27 — Studiengang B.A. Informationsmanagement",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Modulhandbuch\n  ## Studiengang B.A. Informationsmanagement\n  ## Vorwort\n  ## Modulübersicht\n  ## BIM-111 Grundlagen Informationsmanagement\n  ## BIM-112 Informationsorganisation und -recherche\n  ## BIM-113 Grundlagen der Informatik\n  ## BIM-114 Einführung in die Programmierung\n  ## BIM-115 Methodenkompetenz\n  ## BIM-116 Informationskompetenz I\n  ## Lehrinhalte\n  ## BIM-121 Webtechnologie\n  ## BIM-122 Empirische Sozialforschung\n  ## BIM-123 Datenmanagement\n  ## BIM-124 Formalerschließung I\n  ## BIM-125 Informationsdesign\n  ## Lehrinhalte\n  ## BIM-126 Programmierung und Datenmanagement\n  ## BIM-131 Informationssysteme und Fachinformation\n  ## BIM-132 Datenschutzrecht und Urheberrecht\n  ## Lehrinhalte\n  ## Datenschutzrecht\n  ## Urheberrecht\n  ## Lehrmethoden\n  ## BIM-133 Kommunikation\n  ## BIM-134 Praxis der Erschließung\n  ## BIM-135 Wissensrepräsentation\n  ## Qualifikationsziele\n  ## Lehrinhalte\n  ## BIM-136 Web Science\n  ## BIM-141 Praxisphase I\n  ## Qualifikationsziele\n  ## Lehrinhalte\n  ## BIM-251 Projekt- und Wissensmanagement\n  ## BIM-252 Aktuelle Fragen im Informationsmanagement\n  ## BIM-253 Formalerschließung II\n  ## BIM-254 Interaktive Medien\n  ## BIM-255 Informationsermittlung und -evaluation\n  ## BIM-256 Information Retrieval\n  ## Lehrinhalte\n  ## BIM-257 Digitale Bibliothek\n  ## BIM-258 Open Data & Infrastrukturen\n  ## BIM-261 Informationsmarkt und Management von Informationseinrichtungen\n  ## BIM-262 Softwareentwicklung und Datenbanken\n  ## BIM-263 Informationsgeschichte und Informationsethik\n  ## BIM-265 Internationalisierung\n  ## BIM-266 Informationskompetenz II\n  ## BIM-267 Text- und Datamining\n  ## BIM-271 Praxisphase II\n  ## BIM-272 Abschlussarbeit"
+    },
+    {
+      "nr": 11,
+      "titel": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch ITR",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Modulhandbuch für den Studiengang Bachelor Informationsdesign und Technische Redaktion PO-Version WS2018\n  ## Einleitung\n  ## Studieninhalte\n  ## Teilzeitstudium\n  ## Qualifikationsziele\n  ## … kennen:\n  ## … können:\n  ## … kennen:\n  ## … können:\n  ## ... kennen:\n  ## … kennen:\n  ## … können:\n  ## … kennen:\n  ## … können:\n  ## … kennen:\n  ## … können:\n  ## … verfügen:\n  ## Module des 1. Studienabschnitts\n  ## Modul ITR-101 Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul ITR-101-01 Grundlagen der Informatik\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-102 Mathematik und Technische Mechanik\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul ITR-102-01 Mathematik und Technische Mechanik\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-103 Visuelle Kommunikation - Typografie, Farbe und Prepress\n  ## Teilmodul ITR-103-01 Visuelle Kommunikation - Design, Farbe und Prepress\n  ## Farbe\n  ## Druck und Prepress\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-104 Schreiben für den digitalen Nutzungskontext\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul ITR-104-01 Schreiben für den digitalen Nutzungskontext\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul ITR-105 Grundlagen der Technischen Redaktion\n  ## Angestrebte Lernergebnisse"
+    },
+    {
+      "nr": 12,
+      "titel": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch MAT",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_MAT.pdf",
+      "fakultaet": "f1",
+      "struktur": "  ## Modulhandbuch für den Studiengang Angewandte Mathematik PO-Version WS2018\n  ## Einleitung\n  ## Ziele des Studiengangs und zu erwerbende Kompetenzen\n  ## Mathematischer Kompetenzaufbau in drei Stufen\n  ## A) Mathematische Begriffsbildungen und Beweise\n  ## B) Algorithmen und schematisches Rechnen\n  ## C) Mathematische Modellierungskompetenzen\n  ## Zielematrix\n  ## Teilzeitstudium\n  ## Legende der Prüfungsformen (laut allgemeiner Teil der PO)\n  ## Pflichtmodule des 1. Studienabschnitts\n  ## Modul MAT-101 Analysis 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MAT-101-01 Analysis 1\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MAT-104 Lineare Algebra 1\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MAT-104-01 Lineare Algebra 1\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MAT-107 Grundlagen Informatik\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MAB-106-02 Grundlagen Informatik\n  ## Angestrebte Lernergebnisse\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Teilmodul MAT-107-02 Grundlagen Informatik Übungen\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MAT-111 Programmieren\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MAT-111-01 Programmieren 2\n  ## Inhalt\n  ## Anforderungen der Präsenzzeit\n  ## Anforderungen des Selbststudiums\n  ## Literatur\n  ## Modul MAT-117 Mathematik Lernen lernen\n  ## Angestrebte Lernergebnisse\n  ## Teilmodul MAT-117-01 Mathematik Lernen lernen\n  ## Inhalt"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 1,
+      "titel": "q-plus-im › 220707 Abschlussbericht qplus Steinberg Wittich",
+      "url": "http://q-plus-im.wp.hs-hannover.de/wp-content/uploads/2022/07/220707_Abschlussbericht_qplus_Steinberg_Wittich.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "q-plus-im › erfolgreicher projektabschluss",
+      "url": "https://q-plus-im.wp.hs-hannover.de/erfolgreicher-projektabschluss"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "q-plus-im › 220707 Abschlussbericht qplus Steinberg Wittich",
+      "url": "http://q-plus-im.wp.hs-hannover.de/wp-content/uploads/2022/07/220707_Abschlussbericht_qplus_Steinberg_Wittich.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Bewertung insgesamt**",
+      "snippets": [
+        "Gründe für die unerwartet geringe Nutzung der interaktiven h5p Ressourcen sehen wir in der gleichzeitigen Bereitstellung von nicht interaktiven Lernressourcen, sodass eine Wahl für das Altbekannte in Form von Folien stattfand. Bei zukünftigen Veranstaltungen ist ratsam, die Auswahl an Lernmaterial ausschließlich auf die interaktiven Lernmodule mit h5p zu begrenzen. Auch sehen wir Verbesserungsbedarf in der beständigen Kommunikation der neuen h5p-Lernmodule. Den Studierenden muss möglichst schon zu Beginn der Veranstaltungen klar sein, um was es sich bei h5p handelt und wo die Vorteile gegenüber den herkömmlichen Lernmaterialen liegen. Ein weiterer Grund für die geringe Nutzung neuer Inhaltsformen mag auch die seit Corona weiter verbreitete Weg des geringsten Widerstands zur Lernzielerreichung sein. Ein Zusammenhang zwischen Studierendenmotivation und h5pNutzung ist grob erkennbar, aber nicht repräsentativ nachweisbar bisher."
+      ],
+      "zitate": [
+        "Gründe für die unerwartet geringe Nutzung der interaktiven h5p Ressourcen sehen wir in der gleichzeitigen Bereitstellung von nicht interaktiven Lernressourcen, sodass eine Wahl für das Altbekannte in Form von Folien stattfand.",
+        "Den Studierenden muss möglichst schon zu Beginn der Veranstaltungen klar sein, um was es sich bei h5p handelt und wo die Vorteile gegenüber den herkömmlichen Lernmaterialen liegen.",
+        "die Auswahl an Lernmaterial ausschließlich auf die interaktiven Lernmodule mit h5p zu begrenzen."
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "q-plus-im › erfolgreicher projektabschluss",
+      "url": "https://q-plus-im.wp.hs-hannover.de/erfolgreicher-projektabschluss",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "",
+      "snippets": [
+        "Gründe für die unerwartet geringe Nutzung der interaktiven h5p Ressourcen sehen wir in der gleichzeitigen Bereitstellung von nicht interaktiven Lernressourcen, sodass eine Wahl für das Altbekannte in Form von Folien stattfand. Bei zukünftigen Veranstaltungen ist es ratsam, die Auswahl an Lernmaterial ausschließlich auf die interaktiven Lernmodule mit h5p zu begrenzen. Auch sehen wir Verbesserungsbedarf in der beständigen Kommunikation der neuen h5p-Lernmodule. Den Studierenden muss möglichst schon zu Beginn der Veranstaltungen klar sein, um was es sich bei h5p handelt und wo die Vorteile gegenüber den herkömmlichen Lernmaterialen liegen. Ein weiterer Grund für die geringe Nutzung neuer Inhaltsformen mag auch der seit Corona weit verbreitete Weg des geringsten Widerstands zur Lernzielerreichung sein. Ein Zusammenhang zwischen Studierendenmotivation und h5p-Nutzung ist grob erkennbar, aber bisher nicht repräsentativ nachweisbar ."
+      ],
+      "zitate": [
+        "Gründe für die unerwartet geringe Nutzung der interaktiven h5p Ressourcen sehen wir in der gleichzeitigen Bereitstellung von nicht interaktiven Lernressourcen, sodass eine Wahl für das Altbekannte in Form von Folien stattfand.",
+        "Den Studierenden muss möglichst schon zu Beginn der Veranstaltungen klar sein, um was es sich bei h5p handelt und wo die Vorteile gegenüber den herkömmlichen Lernmaterialen liegen.",
+        "Ein weiterer Grund für die geringe Nutzung neuer Inhaltsformen mag auch der seit Corona weit verbreitete Weg des geringsten Widerstands zur Lernzielerreichung sein.",
+        "die Auswahl an Lernmaterial ausschließlich auf die interaktiven Lernmodule mit h5p zu begrenzen."
+      ],
+      "verifiziert": true
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.1343,
+      "id": "d02b07f1-8554-569f-b2d5-192dc5a6cec7",
+      "source_url": "http://q-plus-im.wp.hs-hannover.de/wp-content/uploads/2022/07/220707_Abschlussbericht_qplus_Steinberg_Wittich.pdf",
+      "title_anzeige": "q-plus-im › 220707 Abschlussbericht qplus Steinberg Wittich",
+      "section_heading": "**Bewertung insgesamt**",
+      "chunk_index": 97,
+      "text_vollstaendig": true,
+      "auszug": "Zum Einsatz von interaktiven Lernmodulen mit h5p ist anzumerken, dass die Nutzung durch die Studierenden bei BIM und BIB nicht in dem Masse erfolgte, wie von uns erwartet.  \nHochschule Hannover – Fakultät 3  \nQpLuS IM _:_ Komm‘ Se digital lernen!  \nAbschlussbericht  \n2022  \nInsbesondere hier muss vo"
+    },
+    {
+      "rang": 2,
+      "score": 3.07486,
+      "id": "3c72fcc7-7788-5700-b69d-1612a0bebcfd",
+      "source_url": "http://q-plus-im.wp.hs-hannover.de/wp-content/uploads/2022/07/220707_Abschlussbericht_qplus_Steinberg_Wittich.pdf",
+      "title_anzeige": "q-plus-im › 220707 Abschlussbericht qplus Steinberg Wittich",
+      "section_heading": "**Bewertung insgesamt**",
+      "chunk_index": 95,
+      "text_vollstaendig": true,
+      "auszug": "||9|17|\n|Anzahl Teilnehmende|||\n||||\n||2,1 (4 Gruppeneinreichungen)|1,1 (6 Gruppeneinreichungen)|\n|Notendurchschnitt|||\n||||\n||1,7|1,8|\n|Bewertung Arbeitsmaterial in\nHochschulevaluation|||\n||||  \nAuswertung zur quantitativen Nutzung der Ressourcen ist aus datenschutzrechtlichen Rechten nicht möglich"
+    },
+    {
+      "rang": 3,
+      "score": 3.01533,
+      "id": "f2c74363-e87c-56a2-9ed0-2a920b27fc87",
+      "source_url": "https://q-plus-im.wp.hs-hannover.de/erfolgreicher-projektabschluss",
+      "title_anzeige": "q-plus-im › erfolgreicher projektabschluss",
+      "section_heading": "",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "Die abschließende Bewertung führt zu der Erkenntnis, dass die Erstellung von digitalen Lernressourcen mit erheblichem technischem und zeitlichem Aufwand verbunden ist. Eine längerfristige Nutzung der Ressourcen ist nur bei inhaltlich stabilen Informationen gewährleistet. Lernressourcen der Stufen B "
+    },
+    {
+      "rang": 4,
+      "score": 2.34352,
+      "id": "ba02852f-b122-5793-a5bc-00cde268e2bb",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._5_final.pdf",
+      "title_anzeige": "f5 › Alumni Netzwerk Soziale Arbeit › Alumni Newsletter › Alumni Newsletter Nr. 5 final — _Liebe Leserinnen,_",
+      "section_heading": "Rückblick der Studiendekanin Anja Reinecke-Terner",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "in den Räumen und vielen Sorgen, die Lehrende und Studierende begleiteten. Wir probierten hybride Lösungen aus, doch stellten viele Lehrende fest, dass die Studierenden oft noch auf der Online-Seite blieben, was sicher auch Gründe hatte, somit fehlte die vorher gewohnte Alltags- und Lernkultur auf d"
+    },
+    {
+      "rang": 5,
+      "score": 2.28653,
+      "id": "c86bee51-cc23-5387-81b2-353c60baf721",
+      "source_url": "https://q-plus-im.wp.hs-hannover.de/erfolgreicher-projektabschluss",
+      "title_anzeige": "q-plus-im › erfolgreicher projektabschluss",
+      "section_heading": "",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "Gründe für die unerwartet geringe Nutzung der interaktiven h5p Ressourcen sehen wir in der gleichzeitigen Bereitstellung von nicht interaktiven Lernressourcen, sodass eine Wahl für das Altbekannte in Form von Folien stattfand. Bei zukünftigen Veranstaltungen ist es ratsam, die Auswahl an Lernmateria"
+    },
+    {
+      "rang": 6,
+      "score": 2.04961,
+      "id": "8ac953a8-edb5-5676-9d16-8e7392af86f2",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/2024-04-29-modules-MIN-20WS-DE.pdf",
+      "title_anzeige": "f4 › Informatik › Modulhandbuecher › 2024 04 29 modules MIN 20WS DE — Inhaltsverzeichnis",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 102,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDie Studierenden erwerben ein solides Verständnis für fortgeschrittene interaktive und immersive Systeme, z.B. virtuelle und erweiterte Realität, 3D-Eingabegeräte, Bewegungssteuerungen, komplexe Interaktionen, grafische Benutzeroberflächen, multimodale Interaktion"
+    },
+    {
+      "rang": 7,
+      "score": 1.92246,
+      "id": "4d32298d-0c10-5420-b9df-ffa899aac43f",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/Archiv/Modulhandbuch_MDI_20170206_1.pdf",
+      "title_anzeige": "f4 › Modulhandbuecher › Archiv › Modulhandbuch MDI 20170206 1 — 1. Studienabschnitt",
+      "section_heading": "Angestrebte Lernergebnisse",
+      "chunk_index": 91,
+      "text_vollstaendig": false,
+      "auszug": "## Angestrebte Lernergebnisse  \nDie Studierenden beherrschen grundlegende Techniken und Prinzipien zur Erstellung interaktiver Inhalte mit Autorensystemen. Sie sind in der Lage, selbständig Lösungsansätze für einfache Problemstellungen aus dem Bereich der interaktiven Medien zu finden."
+    },
+    {
+      "rang": 8,
+      "score": 1.73565,
+      "id": "5584df94-93ba-5e22-9676-46814cda780f",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/2024-04-29-modules-MIN-20WS-DE.pdf",
+      "title_anzeige": "f4 › Informatik › Modulhandbuecher › 2024 04 29 modules MIN 20WS DE — Inhaltsverzeichnis",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 100,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDie Studierenden erwerben ein solides Verständnis für fortgeschrittene interaktive und immersive Systeme, z.B. virtuelle und erweiterte Realität, 3D-Eingabegeräte, Bewegungssteuerungen, komplexe Interaktionen, grafische Benutzeroberflächen, multimodale Interaktion"
+    },
+    {
+      "rang": 9,
+      "score": 1.70536,
+      "id": "06fc64d5-d8f7-5659-8346-a02399842a20",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_2017.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM 2017",
+      "section_heading": "**1 Allgemeines zur Fakultät III, Abteilung Information und Kommunikation** > **Qualifikationsziele**",
+      "chunk_index": 203,
+      "text_vollstaendig": false,
+      "auszug": "## **Qualifikationsziele**  \nDie Studierenden können digitale Bild-, Audio- und Videoformate anwendungsspezifisch erstellen und kombinieren. Sie konzipieren und implementieren mediale Angebote wie Animationen oder interaktive Anwendungen für den Online- und Offline-Einsatz. Dabei ist ihnen der Umgan"
+    },
+    {
+      "rang": 10,
+      "score": 1.6992,
+      "id": "55ac2c0f-3265-5d90-97ce-a98aeeccd0d1",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/Archiv/Modulhandbuch_MDI_20170206_1.pdf",
+      "title_anzeige": "f4 › Modulhandbuecher › Archiv › Modulhandbuch MDI 20170206 1 — 1. Studienabschnitt",
+      "section_heading": "Angestrebte Lernergebnisse",
+      "chunk_index": 89,
+      "text_vollstaendig": false,
+      "auszug": "## Angestrebte Lernergebnisse  \nDie Studierenden beherrschen grundlegende Techniken und Prinzipien zur Erstellung interaktiver Inhalte mit Autorensystemen. Sie sind in der Lage, selbständig Lösungsansätze für einfache Problemstellungen aus dem Bereich der interaktiven Medien zu finden.  \nStand: 06. "
+    },
+    {
+      "rang": 11,
+      "score": 1.62967,
+      "id": "c28f7cee-64ae-51a1-9c4b-febe84c0f136",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher2/Modulhandbuch_BME_PO_2022_23.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher2 › Modulhandbuch BME PO 2022 23 — _Modulhandbuch für den Bachelorstudiengang Mediendesign_",
+      "section_heading": "_**Qualifikationsziele**_",
+      "chunk_index": 157,
+      "text_vollstaendig": false,
+      "auszug": "## _**Qualifikationsziele**_  \nContent Design Entwurf: Die Studierenden sind in der Lage, einfache Konzepte selbständig umzusetzen und über eine analytische Auseinandersetzung mit dem Ergebnis zu neuen Erkenntnissen zu gelangen.  \nGeschichte Interaktiver Systeme: Die Studierenden sind mit den gestal"
+    },
+    {
+      "rang": 12,
+      "score": 1.6287,
+      "id": "5e51f7c4-1d66-5bc8-ae9b-82223e0e56a8",
+      "source_url": "http://imc.f3.hs-hannover.de/PDF/IMC_Broschuere.pdf",
+      "title_anzeige": "imc › IMC Broschuere",
+      "section_heading": "_▶ Zweites Semester_",
+      "chunk_index": 47,
+      "text_vollstaendig": true,
+      "auszug": "## _▶ Zweites Semester_  \nDas Modul Interaktive Medien führt in die Konzeption und Erstellung interaktiver Medien ein. Es stehen die konzeptionell planerischen Grundlagen im Vordergrund. Eine Zielgruppendefinition nutzt die im ersten Semester im Überblick vermittelten Methoden _(Moodboard, Semiometr"
+    },
+    {
+      "rang": 13,
+      "score": 1.49134,
+      "id": "541f1a47-db43-5c2b-ae62-48f5d2f1f4d9",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_IMC_ab_WiSe_19_20.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch IMC ab WiSe 19 20 — Bachelor-Studiengang Integrated Media and Communication",
+      "section_heading": "**Inhaltsverzeichnis** > Anlage B.2. Modulhandbuch",
+      "chunk_index": 40,
+      "text_vollstaendig": true,
+      "auszug": "|**Credits**|3|\n|**Präsenzstunden**|51|\n|**Stunden Selbststudium**|39|\n|**Empfehlungen zum**\n**Selbststudium**|Aktive Auseinandersetzung mit dem Thema.|\n|**Empfohlene**\n**Voraussetzungen**|Analyse von Webseiten unterschiedlicher Struktur und\nKomplexität, HTML, CSS|\n|**Gruppengröße**|24|\n|**Angestreb"
+    },
+    {
+      "rang": 14,
+      "score": 1.4531,
+      "id": "f35dfa6b-96ee-5f05-9588-bdccbd337282",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM ab WiSe 26 27 — Studiengang B.A. Informationsmanagement",
+      "section_heading": "**BIM-254 Interaktive Medien**",
+      "chunk_index": 87,
+      "text_vollstaendig": true,
+      "auszug": "Programmier- und Konzeptwerkzeugen wird gefördert (Kreativität, Lösungsfähigkeit, Digital Literacy, Digital\nLearning).|||||||\n|**Lehrinhalte**|||||||\n|•\nFortgeschrittene Konzepte der Interaktion (Interaktive Systeme und Interaktionsdesign)\n•\nFortgeschrittene Konzepte, Werkzeuge und Technologien für "
+    },
+    {
+      "rang": 15,
+      "score": 1.45204,
+      "id": "7ed98eda-b009-5485-8bd4-3540d895928e",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_ITR.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch ITR",
+      "section_heading": "User Interface (UI)",
+      "chunk_index": 197,
+      "text_vollstaendig": false,
+      "auszug": "## User Interface (UI)  \nDie Studierenden können Grundlagen der menschlichen Wahrnehmung und Gestaltgesetze für elektronische Medien beschreiben.  \nDie Studierenden können unterschiedliche User Interfaces und Graphic User Interfaces klassifizieren. Die Studierenden können (proprietäre) Software und "
+    },
+    {
+      "rang": 16,
+      "score": 1.41273,
+      "id": "ad16f07f-3b33-58d2-95f3-18002b3a9f7b",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_MAT.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch MAT",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 52,
+      "text_vollstaendig": false,
+      "auszug": "Die Studierenden kennen verschiedene Lernstrategien und haben sich mit ihrem eigenen Lernverhalten systematisch auseinandergesetzt. Die Studierenden wissen, wie sie persönlich am besten lernen (zeitliche Koordination, Lernstrategien) und wie sie bei Bedarf weitere Unterstützung einholen.  \nStand 05."
+    },
+    {
+      "rang": 17,
+      "score": 1.34236,
+      "id": "900cb2a7-611f-5a2b-9c24-f583b9341ce6",
+      "source_url": "https://mint.hs-hannover.de/studieren",
+      "title_anzeige": "mint › studieren",
+      "section_heading": "MINT-Studiengänge erfolgreich meistern",
+      "chunk_index": 9,
+      "text_vollstaendig": false,
+      "auszug": "enttäuschte Erwartungen, fehlender Praxisbezug, aber auch persönliche Gründe. Hinzu kommt in der Coronapandemie die Umstellung auf digitale Semester, in denen die Lehre nur auf Distanz stattfindet. Dies erschwert vor allem Studienanfängerinnen und -anfängern sich mit Kommilitoninnen und Kommilitonen"
+    },
+    {
+      "rang": 18,
+      "score": 1.31749,
+      "id": "e23611fd-1bcd-5a41-b5df-e55bbb26b487",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Ordnungen/10.03.2026_Modulhandbuch_neue_PO_Module_BBA_Stand_10.03.2026.pdf",
+      "title_anzeige": "f4 › BWL › Ordnungen › 10.03.2026 Modulhandbuch neue PO Module BBA Stand 10.03.2026 — Abkürzungsverzeichnis",
+      "section_heading": "**Modulhandbuch für den Bachelor-Studiengang Betriebswirtschaftslehre (BBA) PO 2018 WiSe (Version 2024)** > **BBA-415** > **Modulhandbuch für den Bachelor-Studiengang Betriebswirtschaftslehre (BBA) PO 2018 WiSe (Version 2024)** > **Mathematische Grundla en g**",
+      "chunk_index": 43,
+      "text_vollstaendig": false,
+      "auszug": "verstehen und kritisch zu hinterfragen.||||  \n- Für typische Aufgabenstellungen können sie die passenden erlernten Verfahren auswählen, anwenden und die Ergebnisse interpretieren.  \n- In den Übungen können die Studierenden Verständnisprobleme aktiv durch Nachfragen auflösen und bewältigen komplexere"
+    },
+    {
+      "rang": 19,
+      "score": 1.26329,
+      "id": "2e52c4bd-a283-56a8-b32e-be8245779bd9",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_20250106.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM 20250106 — Studiengang B.A. Informationsmanagement",
+      "section_heading": "**Qualifikationsziele**",
+      "chunk_index": 86,
+      "text_vollstaendig": true,
+      "auszug": "## **Qualifikationsziele**  \nDie Studierenden sind nach Abschluss des Moduls in der Lage:  \n- selbständig und in Teams interaktive Inhalte mittels gängiger Technologien und Werkzeuge zu entwickeln sowie diese zu veröffentlichen,  \n- komplexe interaktive Medienangebote einzuordnen, zu konzipieren und"
+    },
+    {
+      "rang": 20,
+      "score": 1.24273,
+      "id": "00c301f4-1b15-5423-8c17-9e86de919135",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_II/Modulhandbuecher/TNR_20102.pdf",
+      "title_anzeige": "f2 › Fakultaet II › Modulhandbuecher › TNR 20102",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 276,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nStudierende können komplexe Aufgabenstel-lungen analysieren, Lösungen erarbeiten und bewerten. Sie können Voraussetzungen zur Projektierung und Realisierung prüfen, Ar-beitsmittel und Methoden fachgerecht einset-zen und erforderlichen Unterlagen erstellen."
+    },
+    {
+      "rang": 21,
+      "score": 1.23717,
+      "id": "d91b930f-d9f0-5f0f-afbc-0131494e6253",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/2018_2_Modulhandbuch_MAT.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › 2018 2 Modulhandbuch MAT",
+      "section_heading": "**Teilmodul MAT-117-01 Mathematik Lernen lernen**",
+      "chunk_index": 55,
+      "text_vollstaendig": false,
+      "auszug": "Die Studierenden kennen verschiedene Lernstrategien und haben sich mit ihrem eigenen Lernverhalten systematisch auseinandergesetzt. Die Studierenden wissen, wie sie persönlich am besten lernen (zeitliche Koordination, Lernstrategien) und wie sie bei Bedarf weitere Unterstützung einholen.  \nDie Studi"
+    },
+    {
+      "rang": 22,
+      "score": 1.22639,
+      "id": "3762bda9-cae7-500e-85a0-2cc65bbd6537",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Modulhandbuecher/Modulhandbuch_BIM_ab_WiSe_26_27.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Modulhandbuecher › Modulhandbuch BIM ab WiSe 26 27 — Studiengang B.A. Informationsmanagement",
+      "section_heading": "**BIM-254 Interaktive Medien**",
+      "chunk_index": 86,
+      "text_vollstaendig": true,
+      "auszug": "•\nselbständig und in Teams erweiterte, interaktive Inhalte mittels gängiger Technologien und\nWerkzeuge zu entwickeln sowie diese kontextspezifisch zu veröffentlichen,\n•\nkomplexe interaktive Medienangebote einzuordnen, zu konzipieren und implementieren,\n•\nInteraktion sowohl physisch als auch digital "
+    },
+    {
+      "rang": 23,
+      "score": 1.22232,
+      "id": "5a1195b2-6ce5-50f2-b819-2dfb6d135d8c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/Netzwerke_-_Romppel.pdf",
+      "title_anzeige": "f5 › Personen › Romppel › Netzwerke Romppel",
+      "section_heading": "7.3.2 Veränderungen im Forschungsprozess",
+      "chunk_index": 732,
+      "text_vollstaendig": true,
+      "auszug": "mit, ihre Fragen flossen punktuell über Interviews nicht über den Gesamtprozess mit ein. Das wird vermutlich das Interesse an den Ergebnissen schmälern und weniger Auswirkungen auf ihre Arbeitsweisen haben."
+    },
+    {
+      "rang": 24,
+      "score": 1.2092,
+      "id": "ccb9704e-17fe-5cdc-a019-fdef2fde3054",
+      "source_url": "https://itr.wp.hs-hannover.de/wp-content/uploads/2025/06/Modulhandbuch_1202_75_ITR_WS2025_final.pdf",
+      "title_anzeige": "itr › Modulhandbuch 1202 75 ITR WS2025 final",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 57,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDie Studierenden  \n- kennen verschiedene Lernstrategien und haben sich mit ihren personalen Kompetenzen auseinandergesetzt.  \n- können ihr eigenes Lernverhalten einschätzen und bei Bedarf Unterstützung einholen.  \n- können alleine und in Gruppen fachliche Themen b"
+    },
+    {
+      "rang": 25,
+      "score": 1.20896,
+      "id": "4b6e14f3-5723-5b5b-a982-c19711ec48c9",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/10_Ordnungen/40_Modulkatalog/Modulhandbuch_1202_75_ITR_WS2025_final.pdf",
+      "title_anzeige": "f1 › 10 Ordnungen › 40 Modulkatalog › Modulhandbuch 1202 75 ITR WS2025 final",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 57,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDie Studierenden  \n- kennen verschiedene Lernstrategien und haben sich mit ihren personalen Kompetenzen auseinandergesetzt.  \n- können ihr eigenes Lernverhalten einschätzen und bei Bedarf Unterstützung einholen.  \n- können alleine und in Gruppen fachliche Themen b"
+    },
+    {
+      "rang": 26,
+      "score": 1.1882,
+      "id": "9c504ab7-1f68-53c6-bca8-4e39a3b3deb3",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._2.pdf",
+      "title_anzeige": "f5 › Alumni Netzwerk Soziale Arbeit › Alumni Newsletter › Alumni Newsletter Nr. 2 — _Informationen aus der Abteilung Soziale Arbeit_",
+      "section_heading": "Lehre in Zeiten der Pandemie",
+      "chunk_index": 35,
+      "text_vollstaendig": false,
+      "auszug": "Sicher gab und gibt es Lichtmomente der Online-Lehre und auch gute Rückmeldungen, doch im Kern sind wir eine Präsenzhochschule. Soziale Arbeit lebt von präsenten Interaktionen, gewachsenen Beziehungen sowohl zwischen den Studierenden selbst als auch zwischen den Lehrenden und Studierenden. Inzwische"
+    },
+    {
+      "rang": 27,
+      "score": 1.15502,
+      "id": "3a6e1120-de5f-5429-b282-302e11044ede",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Simon_2017_Pflegepersonal_Ergebnisqualitaet_in_deutschen_KH.pdf",
+      "title_anzeige": "f5 › UEber uns › Personen › Simon 2017 Pflegepersonal Ergebnisqualitaet in deutschen KH",
+      "section_heading": "**4.2.1 Indikatoren**",
+      "chunk_index": 168,
+      "text_vollstaendig": true,
+      "auszug": "ist\nhier\nder\neinschlägigen\nForschungslite-‐ ratur\nbeziehungsweise\nhochwertigen\nReviews\nentnommen.\nWas\nwann\nwo\nerforscht wurde,\nfolgte\ndabei\nKriterien,\nvon\ndenen\nkeineswegs\nangenommen\nwerden\nkann,\ndass sie\nimmer\naus\nrein\nfachlichen\nÜberlegungen\nabgeleitet\nwaren.\nNicht\nselten\ndürften\nfür die\nAuswahl\nd"
+    },
+    {
+      "rang": 28,
+      "score": 1.13945,
+      "id": "d2a7236b-0c74-5186-a2bd-e335fc04d8db",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Modulhandbuecher/2024-04-29-modules-MDI-23WS-DE.pdf",
+      "title_anzeige": "f4 › Informatik › Modulhandbuecher › 2024 04 29 modules MDI 23WS DE — Inhaltsverzeichnis",
+      "section_heading": "**Angestrebte Lernergebnisse**",
+      "chunk_index": 235,
+      "text_vollstaendig": false,
+      "auszug": "## **Angestrebte Lernergebnisse**  \nDie Studierenden sollen nach Abschluss des Kurses in der Lage sein, unterschiedliche Techniken und Methoden zur visuellen Darstellung von linearen und nonlinearen Inhalten, Ideen und Konzepten von Onlineinhalten praktisch anzuwenden. Sie sollen die Wirkungsweise v"
+    },
+    {
+      "rang": 29,
+      "score": 1.07763,
+      "id": "93d0d4f9-0978-5e54-9c17-4056825600cf",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Strategische_Hochschulentwicklung/HsH_Diversity_Audit_Abschlussbericht.pdf",
+      "title_anzeige": "www › Organisation › Strategische Hochschulentwicklung › HsH Diversity Audit Abschlussbericht",
+      "section_heading": "Diversity-Audit »Vielfalt gestalten« _des Stifterverbandes für die deutsche Wissenschaft_ > ~~_AG Diversität im Projektmanagement - Begleitung der Teamarbeit einer studentischen Projektgruppe_~~",
+      "chunk_index": 74,
+      "text_vollstaendig": true,
+      "auszug": "Konkret wurde das Pilotprojekt mit einer Gruppe von Studierenden aus der Fakultät II im Wintersemester 2018/19 erprobt. Die Herausforderung für die studentische Projektgruppe bestand darin, mit allen Beteiligten in Hochschule und Unternehmen in ausreichender Form zu kommunizieren und ihren fachliche"
+    },
+    {
+      "rang": 30,
+      "score": 1.0542,
+      "id": "6104eeb0-66a2-5d86-a91a-0f3ab4d90cef",
+      "source_url": "https://f3.hs-hannover.de/studium/master-studiengaenge/kommunikationsmanagement-mko/studienstruktur",
+      "title_anzeige": "f3 › master studiengaenge › kommunikationsmanagement mko › studienstruktur",
+      "section_heading": "Studienstruktur > Kommunikationsmanagement und Public Relations",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Studienstruktur  \n## Kommunikationsmanagement und Public Relations\nSymmetrisch. Dialogorientiert. Interaktiv. Kommunikation kann bewegen. Strategische, vorausschauende PR-Arbeit ist eine Management-Funktion und gestaltet aktiv Prozesse in Organisationen. Kommunikator*innen von morgen müssen nicht"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 29431,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.74,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 2.87,
+    "docs_laden_s": 0.07,
+    "quellen_s": 4.69,
+    "antwort_llm_s": 4.43,
+    "gesamt_s": 9.12
+  },
+  "auswahl_begruendung": "{\"selected\":[1, 2]}"
+}

@@ -1,0 +1,516 @@
+{
+  "fall": {
+    "id": "q13",
+    "case_type": "direct",
+    "question": "Gibt es Lern- oder Arbeitsplätze in den Bibliotheken der HsH?",
+    "reference_answer": "Ja. Die Bibliothek der HsH schreibt im A-Z-Bereich unter Arbeitsplätze, dass Arbeitsplätze in Bibliotheken ohne Voranmeldung benutzt werden können.",
+    "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Ja, es gibt Arbeitsplätze in den Bibliotheken.",
+      "Die Arbeitsplätze können ohne Voranmeldung benutzt werden."
+    ],
+    "optional_facts": [
+      "Die Aussage steht im A-Z-Bereich unter Arbeitsplätze."
+    ],
+    "forbidden_claims": [
+      "Nicht belegte Gruppenraum- oder Buchungsregeln ergänzen.",
+      "Eine Voranmeldung als notwendig darstellen."
+    ],
+    "case_difficulty": "leicht",
+    "fairness_risk": "mittel",
+    "evaluation_notes": "Die Antwort soll nur die belegte Aussage zu Arbeitsplätzen in Bibliotheken enthalten. Keine nicht belegten Gruppenraum- oder Buchungsregeln hinzufügen.",
+    "herkunft": "chargy_beidawi",
+    "fakultaet": "",
+    "pflicht_begriffe": [
+      "ohne Voranmeldung"
+    ],
+    "gold_im_korpus": true
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-08-18T10:24:28",
+  "dauer_s": 5.54,
+  "fehler": null,
+  "antwort": "Ja. In den Bibliotheken der HsH gibt es Arbeitsplätze: „Arbeitsplätze in Bibliotheken können ohne Voranmeldung benutzt werden.\" [2] Die Bibliothek im Kurt-Schwitters-Forum verfügt außerdem über „Lesesäle der Bibliothek\" [2].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "A - Z",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z",
+      "fakultaet": "",
+      "struktur": "# A - Z\n    ### A - Z\n  ## Die Bibliothek von A - Z\n  ## A\n  ## Die Bibliothek von A - Z\n  ## B - E\n  ## Die Bibliothek von A - Z\n  ## F - K\n  ## Die Bibliothek von A - Z\n  ## L - N\n  ## Die Bibliothek von A - Z\n  ## O - R\n  ## Die Bibliothek von A - Z\n  ## S - T\n  ## Die Bibliothek von A - Z\n  ## U - Z"
+    },
+    {
+      "nr": 2,
+      "titel": "Informationsmanagement berufsbegleitend (BIB)",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+      "fakultaet": "f3",
+      "struktur": "# Informationsmanagement berufsbegleitend (BIB)\n  ## Praxisnahe Methoden und das Fachwissen zur Informationsarbeit\n    ### Auf einen Blick\n# Kurzübersicht\n# Das Studium\n    ### »Durch die Praxisnähe des berufsbegleitenden Studiums werden die Studierenden ideal auf den Berufsalltag vorbereitet.«\n    ### »Sie bilden sich aufbauend auf der bestehenden Berufserfahrung in Ihrem Betätigungsfeld weiter, erweitern und aktualisieren Ihre Kenntnisse.«\n    ### ---\n    ### ---\n    ### ---\n    ### ---\n    ### ---\n# News des Studiengangs\n    ###  Nachlese BiblioCon2026 \n    ###  Geschafft: Abschluss Bachelor BIB \n    ###  Informationsveranstaltung zum Studiengang BIB \n    ### Studiengangsfachberatung\n    ### Weiterführende Informationen\n    ### Downloads"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Bibliothek › Allgemeine Dateien › Wissenschaftliche Bibliotheken in Hannover 2019 — Inhaltsverzeichnis",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Wissenschaftliche-Bibliotheken-in-Hannover-2019.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Wissenschaftliche Bibliotheken in Hannover\n  ## Inhaltsverzeichnis\n  ## HOBSY-BIBLIOTHEKEN\n  ## Was ist HOBSY?\n  ## Welche Vorteile bietet HOBSY?\n  ## EINHEITLICHE BENUTZUNGSKARTE\n  ## GESAMTKATALOG\n  ## BIBLIOTHEKSÜBERGREIFENDE RÜCKGABE\n  ## Bibliotheksübergreifende Rückgabe\n  ## Benutzungskarte\n  ## Nutzerkonto\n  ## WIE LAUTET DAS PASSWORT FÜR MEIN BIBLIOTHEKSKONTO?\n  ## WAS IST BEI EINER ÄNDERUNG MEINER DATEN ZU BEACHTEN?\n  ## WAS MACHE ICH, WENN ICH MEINE KARTE VERLOREN HABE?\n  ## NOCH FRAGEN?\n  ## Bibliotheken nach Fachgebieten\n  ## Bibliothek im Kurt-Schwitters-Forum (KSF)\n  ## Evangelisch-lutherische Landeskirche Hannovers, Bibliothek des Landeskirchenamts\n  ## Gottfried Wilhelm Leibniz Bibliothek Niedersächsische Landesbibliothek (GWLB)\n  ## Hochschule Hannover (HsH) Teilbibliothek Bioverfahrenstechnik\n  ## Medizinische Hochschule Hannover (MHH) Bibliothek\n  ## Niedersächsischer Landtag Bibliothek\n  ## Stadtbibliothek Hannover (mit Musikbibliothek)\n  ## Stadtbibliothek Hannover Stadtteilbibliotheken\n  ## Technische Informationsbibliothek (TIB) TIB Technik/Naturwissenschaften\n  ## Technische Informationsbibliothek (TIB) TIB Sozialwissenschaften\n  ## Stiftung Tierärztliche Hochschule Hannover (TiHo) Bibliothek\n  ## Weitere wissenschaftliche Bibliotheken\n  ## Service für Schulen\n  ## WIR BIETEN\n  ## IHRE VORTEILE\n  ## Impressum\n  ## www.hobsy.de"
+    },
+    {
+      "nr": 4,
+      "titel": "Unsere Standorte",
+      "url": "https://hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten",
+      "fakultaet": "",
+      "struktur": "# Unsere Standorte\n  ## Literatur und Information an vier Standorten\n    ### Auf einen Blick\n  ## Zentralbibliothek\n    ### Hier finden Sie uns\n    ### Services\n  ## Teilbibliothek Bioverfahrenstechnik\n    ### Hier finden Sie uns\n    ### Services\n  ## Teilbibliothek Diakonie, Gesundheit und Soziales\n    ### Hier finden Sie uns\n    ### Services\n  ## Bibliothek im Kurt-Schwitters-Forum\n    ### Hier finden Sie uns"
+    },
+    {
+      "nr": 5,
+      "titel": "Informationen für Bibliotheken",
+      "url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/informationen-fuer-bibliotheken",
+      "fakultaet": "f3",
+      "struktur": "# Informationen für Bibliotheken\n    ### Stimmen aus dem Studiengang\n  ## Weiterlesen ...\n  ## Das Studium\n  ## Weitere Informationen"
+    },
+    {
+      "nr": 6,
+      "titel": "Häufig gestellte Fragen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+      "fakultaet": "",
+      "struktur": "# Häufig gestellte Fragen\n  ## FAQ\n    ### Wo kann ich vorgemerkte Bücher abholen?\n    ### Ich kann das Buch nicht selbst abholen. Kann ich jemand anderen schicken?\n    ### Wie melde ich mich an?\n    ### Ich bin kein Mitglied der Hochschule Hannover (mehr). Darf ich trotzdem ausleihen?\n    ### Wie lange ist meine Karte gültig?\n    ### Was mache ich, wenn ich meine Karte verloren habe?\n    ### Wie lautet mein Passwort?\n    ### Welche Kosten entstehen bei einer Fernleihe?\n    ### Wie lange dauert die Lieferung von Literatur per Fernleihe?\n    ### Kann ich die Leihfrist von per Fernleihe entliehenen Büchern verlängern?\n    ### Kann ich Literatur per Fernleihe bestellen, die in der Bibliothek der Hochschule Hannover derzeit verliehen ist?\n    ### Ich brauche die Literatur so dringend, dass eine Lieferung per Fernleihe u.U. zu lange dauert. Gibt es eine einen Service mit garantierter Lieferzeit?\n    ### Wie bekomme ich ein Guthabenkonto zur selbstständigen Bestellung von Fernleihen?\n    ### Ist die von mir gesuchte Literatur in der Bibliothek der Hochschule Hannover vorhanden?\n    ### Ist die von mir gewünschte Literatur in Hannover vorhanden?\n    ### Was kann ich tun, wenn die von mir gewünschte Literatur nicht in Hannover vorhanden ist?\n    ### Wie kann ich auf von der Bibliothek angebotene E-Books und elektronische Zeitschriften zugreifen?\n    ### Wie finde ich Zeitschriftenaufsätze?\n    ### Wie finde ich Informationen zu einem bestimmten Thema?\n    ### Wie finde ich an der Hochschule Hannover geschriebene Abschlussarbeiten?\n    ### Wie bekomme ich Hilfe bei der Literatursuche?\n    ### Wie lang ist der Campus geöffnet, um den Rückgabekasten zu nutzen?\n    ### Wo kann ich ausgeliehene Medien zurückgeben?\n    ### Kann ich entliehene Bücher auch per Post zurückschicken?\n    ### Kann ich ausstehende Gebühren auch überweisen?"
+    },
+    {
+      "nr": 7,
+      "titel": "Informationen für Erstsemester",
+      "url": "https://f3.hs-hannover.de/studium/informationen-fuer-erstsemester",
+      "fakultaet": "f3",
+      "struktur": "# Informationen für Erstsemester\n  ## Erstsemesterwoche der Abteilung Design und Medien 2026\n    ### Studiengänge der Abteilung Design und Medien (DM)\n  ## Eindrücke aus der Erstsemesterwoche DM 2025\n  ## Erstsemesterwoche der Abteilung Information und Kommunikation 2026\n    ### Studiengänge der Abteilung Information und Kommunikation (IK)\n  ## Eindrücke aus der Erstsemesterwoche IK 2025\n  ## Wissenswertes zum Studienstart\n  ## Kontakt:"
+    },
+    {
+      "nr": 8,
+      "titel": "f4 › Informatik › Broschueren › 2025 08 25 InfobroschuereErstsemesterInformatik 2025 2026 0825 — IN DEN STUDIENGÄNGEN",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+      "fakultaet": "f4",
+      "struktur": "  ## TIPPS UND HINWEISE\n  ## FÜR STUDIENANFÄNGERINNEN UND STUDIENANFÄNGER\n  ## IN DEN STUDIENGÄNGEN\n  ## Sehr geehrte Studentin, sehr geehrter Student,\n  ## 1 Welche rechtlichen Grundlagen gibt es für mein Studium?\n  ## 1.1 Die Prüfungsordnung für Ihren Studiengang (PO)\n  ## 1.2 Weitere Rechtsvorschriften\n  ## 2 Welche Arten von Lehrveranstaltungen gibt es?\n  ## 2.1 Bachelor-Studiengänge\n  ## 2.1.1 Pflichtfächer\n  ## 2.1.2 Wahlfächer\n  ## 2.2 Master-Studiengang\n  ## 2.2.1 Gemeinsame Pflichtfächer\n  ## 2.2.2 Schwerpunktfächer\n  ## 3 Was muss ich tun, um Prüfungsleistungen erbringen zu können?\n  ## Lesen Sie also regelmäßig Ihre E-Mails!\n  ## In folgenden Fällen wird Krankheit als triftiger Grund für das Fernbleiben von einer Prüfung in der Abteilung Informatik als unverzüglich angezeigt angesehen:\n  ## 4 Welche Prüfungen habe ich bestanden? Gibt es Leistungsnachweise oder Scheine?\n  ## 5 Wenn ich eine Prüfung nicht bestanden habe, was dann?\n  ## 5.1 Module und Prüfungen\n  ## 5.2 Vorprüfung in Bachelor-Studiengängen\n  ## 5.3 Wiederholungsversuche\n  ## 6 Notenverbesserung\n  ## 6.1 Voraussetzungen\n  ## 6.2 Wertung\n  ## 7 Weitere nützliche Hinweise\n  ## 7.1 Unfall auf dem Weg zur Hochschule oder beim Hochschul-Sport – was tun?\n  ## 7.2 Psychologisch-Therapeutische Beratung für Studierende (PTB)\n  ## 7.3 Abfall – alles egal, oder?\n  ## 7.4 Interesse an einem Auslandsaufenthalt?\n  ## 7.5 BAföG und Studienfinanzierung\n  ## 7.6 HsH-Akademie\n  ## Englisch-Kurse können erst ab der Stufe 4 oder höher anerkannt werden.\n  ## 7.7 Fachschaftsrat Informatik (FSRI)\n  ## 7.8 Druckaccount\n  ## 7.9 Allgemeiner Studentenausschuss (AStA)\n  ## 7.10 Bibliothek\n  ## 7.11 Mensa und Cafeteria\n  ## 7.12 Familienservice\n  ## 7.13 Servicecentrum Beratung: Wir beraten und begleiten Sie im Studium\n  ## 7.14 Schwarzes Brett\n  ## 8 Campusplan, Öffnungszeiten, Kontaktdaten\n  ## 8.2 Öffnungszeiten\n  ## 8.2.1 Gebäude 1H\n  ## 8.2.2 Expo Plaza 2 (Design Center)\n  ## 8.3 Anschrift und Rufnummer auf einen Blick\n  ## 9 Termine\n  ## Abteilung Informatik Termine für das Wintersemester 2025/26\n  ## Weitere Hinweise:\n  ## 1. Antrag auf ein Teilzeitstudium:"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 4,
+      "titel": "Unsere Standorte",
+      "url": "https://hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten"
+    },
+    {
+      "nr": 1,
+      "titel": "A - Z",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z"
+    },
+    {
+      "nr": 6,
+      "titel": "Häufig gestellte Fragen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq"
+    },
+    {
+      "nr": 8,
+      "titel": "f4 › Informatik › Broschueren › 2025 08 25 InfobroschuereErstsemesterInformatik 2025 2026 0825 — IN DEN STUDIENGÄNGEN",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Unsere Standorte",
+      "url": "https://hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Unsere Standorte > Teilbibliothek Diakonie, Gesundheit und Soziales > Services",
+      "snippets": [
+        "### Services\n[ Anschaffungsvorschlag ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/anschaffungsvorschlag)\n[ Aufnahmewunsch für die Mediothek ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/formulare-sonstiges/mediothek)\n[ Fernleihwunsch ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/formulare-sonstiges/fernleihe-dgs)\n[ Semesterapparate ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/formulare-sonstiges/semesterapparate-dgs)\n[ Ausleihkonto ](https://opac.tib.eu/LBS_WEB/borrower/borrower.htm?USR=1161&BES=4&LAN=DU)\n[ Neuanmeldung HsH ](https://reg.lbs.tib.eu/registration/hsh)\n[ Suche im Katalog HsH + KSF ](https://katalog.bib.hs-hannover.de/vufind/)\n[ Suche im Katalog Teilbestand DGS ](https://opac.tib.eu/DB=4.5/LNG=DU/)\n[ Öffnungszeiten ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten/#c26518)",
+        "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n# Unsere Standorte  \n##  Literatur und Information an vier Standorten\nDie Bibliothek der Hochschule Hannover versorgt die Mitglieder der Hochschule sowie andere interessierte Leserinnen und Leser mit Literatur, Literaturinformationen und anderen Informationsträgern sowie elektronischen Fachinformationen. Sie gliedert sich in eine Zentralbibliothek am Ricklinger Stadtweg und drei Teilbibliotheken an den Hochschulstandorten Hannover-Kleefeld, Kurt-Schwitters-Forum (Expo Plaza), Hannover-Ahlem."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "A - Z",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "A - Z > Die Bibliothek von A - Z > A - Z > A",
+      "snippets": [
+        "[ Anschaffungsvorschläge ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z \"Anschaffungsvorschläge\")\nAnschaffungsvorschläge sind willkommen und können formlos oder über dieses [Formular](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/anschaffungsvorschlag) abgegeben werden:\n[ Arbeitsplätze ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z \"Arbeitsplätze\")\nArbeitsplätze in Bibliotheken können ohne Voranmeldung benutzt werden.\n[ Ausbildung ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z \"Ausbildung\")\nDie Bibliothek stellt einen **Ausbildungsplatz** zur bzw. zum Fachangestellten für Medien- und Informationsdienste (FaMI), Fachrichtung Bibliothek, zur Verfügung."
+      ],
+      "zitate": [
+        "Arbeitsplätze in Bibliotheken können ohne Voranmeldung benutzt werden."
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "Häufig gestellte Fragen",
+      "url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+      "crawl_date": "2026-08-06",
+      "fremde_fundstellen": [],
+      "abschnitt": "Häufig gestellte Fragen > FAQ > Wo kann ich ausgeliehene Medien zurückgeben?",
+      "snippets": [
+        "* [Bibliothek im Kurt-Schwitters-Forum](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten/#bibliothek-im-kurt-schwitters-forum)\n* [Bibliothek der Medizinischen Hochschule Hannover (MHH)](http://www.mh-hannover.de/bibliothek.html)\n* [Bibliothek der Stiftung Tiermedizinische Hochschule (TiHo)](http://www.tiho-hannover.de/kliniken-institute/bibliothek/)\n* [Bibliothek des Landeskirchenamts](https://www.landeskirche-hannovers.de/evlka-de/wir-ueber-uns/weitere-einrichtungen/bibliothek)"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f4 › Informatik › Broschueren › 2025 08 25 InfobroschuereErstsemesterInformatik 2025 2026 0825 — IN DEN STUDIENGÄNGEN",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**7.10 Bibliothek**",
+      "snippets": [
+        "## **7.10 Bibliothek**  \nDie Bibliothek versorgt die Hochschule mit Literatur, Literaturinformationen und mit elektronischer Fachinformation. Am Standort Linden stehen etwa 100.000 Bände und 300 laufende gedruckte Zeitschriften zur Verfügung. Darüber hinaus werden über 60.000 elektronische Fachzeitschriften im Volltext angeboten. Das Datenbankinformationssystem der Bibliothek listet im Fachgebiet Informatik über 70 Fachdatenbanken, die an der HsH genutzt werden können. Eine Auswahl elektronischer Bücher im Volltext (E-books) vervollständigt das Angebot. https://www.hs-hannover.de/?id=427."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.37494,
+      "id": "169a024d-cf73-516f-bd2e-b64a31e602a5",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z",
+      "title_anzeige": "A - Z",
+      "section_heading": "A - Z > Die Bibliothek von A - Z > A - Z > A",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "[ Anmeldung ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z \"Anmeldung\")\nWenn Sie in den Bibliotheken der Hochschule Hannover etwas ausleihen möchten, müssen Sie sich zuvor als Nutzerin oder Nutzer registrieren lassen. Dazu füllen Sie bitte folgendes Onlineformular aus:\n[Neuanmeld"
+    },
+    {
+      "rang": 2,
+      "score": 1.55193,
+      "id": "39385fb9-ff1b-50cf-aecd-0517dd48b473",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z",
+      "title_anzeige": "A - Z",
+      "section_heading": "A - Z > Die Bibliothek von A - Z > A - Z > B - E",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "[ E-Mail-Benachrichtigungen ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/a-z \"E-Mail-Benachrichtigungen\")\nWenn Sie Ihre E-Mail-Adresse angegeben haben, werden Sie an den bevorstehenden Leihfristablauf der von Ihnen entliehenen Medien erinnert. (Hieraus lässt sich jedoch kein Rechts"
+    },
+    {
+      "rang": 3,
+      "score": 1.50335,
+      "id": "95f2e3cc-1736-5aee-ad90-6a72c6596504",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib",
+      "title_anzeige": "Informationsmanagement berufsbegleitend (BIB)",
+      "section_heading": "Das Studium",
+      "chunk_index": 20,
+      "text_vollstaendig": true,
+      "auszug": "Detaillierte Angaben zu den Modulen wie z.B. Inhalte, Lernziele und Anforderungen an die Präsenzzeit und das Selbststudium, Veranstaltungsart, angestrebte Gruppengröße sowie mögliche Prüfungsformen finden Sie in den **Modulhandbüchern:**\n[**ab WiSe 26/27**](https://f3.hs-hannover.de/fileadmin/HsH/Fo"
+    },
+    {
+      "rang": 4,
+      "score": 1.33063,
+      "id": "30775a8f-440d-5a50-be1d-9e7b06ff8ac0",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Wissenschaftliche-Bibliotheken-in-Hannover-2019.pdf",
+      "title_anzeige": "www › Bibliothek › Allgemeine Dateien › Wissenschaftliche Bibliotheken in Hannover 2019 — Inhaltsverzeichnis",
+      "section_heading": "Bibliotheken nach Fachgebieten",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## Bibliotheken nach Fachgebieten  \nGEISTES- UND SOZIALWISSENSCHAFTEN  \n- 10 EVANGELISCH-LUTHERISCHE LANDESKIRCHE HANNOVERS – BIBLIOTHEK  \n- 11 GOTTFRIED WILHELM LEIBNIZ BIBLIOTHEK (GWLB)  \n- 15 HOCHSCHULE HANNOVER (HsH) – TEILBIBLIOTHEK DIAKONIE, GESUNDHEIT UND SOZIALES  \n- 17 NIEDERSÄCHSISCHER LAN"
+    },
+    {
+      "rang": 5,
+      "score": 1.20748,
+      "id": "c23a7771-6be0-5444-93fb-8287411bb13e",
+      "source_url": "https://hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten",
+      "title_anzeige": "Unsere Standorte",
+      "section_heading": "Unsere Standorte > Teilbibliothek Diakonie, Gesundheit und Soziales > Services",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "### Services\n[ Anschaffungsvorschlag ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/anschaffungsvorschlag)\n[ Aufnahmewunsch für die Mediothek ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/formulare-sonstiges/mediothek)\n[ Fernleihwunsch ](https://www.hs-hanno"
+    },
+    {
+      "rang": 6,
+      "score": 1.20191,
+      "id": "7cdd443f-f19c-56b8-9e5c-19193a82d5b6",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Wissenschaftliche-Bibliotheken-in-Hannover-2019.pdf",
+      "title_anzeige": "www › Bibliothek › Allgemeine Dateien › Wissenschaftliche Bibliotheken in Hannover 2019 — Inhaltsverzeichnis",
+      "section_heading": "HOBSY-BIBLIOTHEKEN",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "## HOBSY-BIBLIOTHEKEN  \n- 9 BIBLIOTHEK IM KURT-SCHWITTERS-FORUM (KSF)  \n- 10 EVANGELISCH-LUTHERISCHE LANDESKIRCHE HANNOVERS – BIBLIOTHEK  \n- 11 GOTTFRIED WILHELM LEIBNIZ BIBLIOTHEK – NIEDERSÄCHSISCHE LANDESBIBLIOTHEK (GWLB)  \n- 12 HOCHSCHULE FÜR MUSIK, THEATER UND MEDIEN HANNOVER (HMTMH) – BIBLIOTHE"
+    },
+    {
+      "rang": 7,
+      "score": 1.12525,
+      "id": "8c0deb23-5414-5c2e-bcf7-66e85b2b0c8e",
+      "source_url": "https://f3.hs-hannover.de/studium/bachelor-studiengaenge/informationsmanagement-berufsbegleitend-bib/informationen-fuer-bibliotheken",
+      "title_anzeige": "Informationen für Bibliotheken",
+      "section_heading": "Informationen für Bibliotheken > Informationen für Bibliotheken",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Informationen für Bibliotheken\n* * *\n###\nInformationen für Bibliotheken\n* * *\nPersonalabteilungen von Hochschulen und Stadtbibliotheken signalisieren für die kommenden Jahre einen erhöhten Fachkräftebedarf. Die Hochschulen reagieren mit der Bereitstellung von zusätzlichen Studienplätzen für regul"
+    },
+    {
+      "rang": 8,
+      "score": 1.1116,
+      "id": "beaa96c1-d99c-593c-ba79-e17e1e283462",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/faq",
+      "title_anzeige": "Häufig gestellte Fragen",
+      "section_heading": "Häufig gestellte Fragen > FAQ > Wo kann ich ausgeliehene Medien zurückgeben?",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "* [Bibliothek im Kurt-Schwitters-Forum](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten/#bibliothek-im-kurt-schwitters-forum)\n* [Bibliothek der Medizinischen Hochschule Hannover (MHH)](http://www.mh-hannover.de/bibliothek.html)\n* [Bibliothek der Stiftung Ti"
+    },
+    {
+      "rang": 9,
+      "score": 1.10966,
+      "id": "da44a7a1-b9d5-5c37-aaf4-fe5452fbe1d7",
+      "source_url": "https://f3.hs-hannover.de/studium/informationen-fuer-erstsemester",
+      "title_anzeige": "Informationen für Erstsemester",
+      "section_heading": "Informationen für Erstsemester > Wissenswertes zum Studienstart > Informationen für Erstsemester",
+      "chunk_index": 25,
+      "text_vollstaendig": false,
+      "auszug": "[ Nutzung der Bibliothek ](https://f3.hs-hannover.de/studium/informationen-fuer-erstsemester \"Nutzung der Bibliothek\")\nSie benötigen für Ihr Studium Fachliteratur, möchten Unterrichtsmaterialien verfielfältigen oder suchen einen Recherche-/Ruhearbeitsplatz? Dann sind Sie in der Bibliothek der Expo P"
+    },
+    {
+      "rang": 10,
+      "score": 1.10789,
+      "id": "0afa620a-71dd-5fed-984c-709adcbf781a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/Informatik/Broschueren/2025-08-25-InfobroschuereErstsemesterInformatik_2025-2026_0825.pdf",
+      "title_anzeige": "f4 › Informatik › Broschueren › 2025 08 25 InfobroschuereErstsemesterInformatik 2025 2026 0825 — IN DEN STUDIENGÄNGEN",
+      "section_heading": "**7.10 Bibliothek**",
+      "chunk_index": 36,
+      "text_vollstaendig": true,
+      "auszug": "## **7.10 Bibliothek**  \nDie Bibliothek versorgt die Hochschule mit Literatur, Literaturinformationen und mit elektronischer Fachinformation. Am Standort Linden stehen etwa 100.000 Bände und 300 laufende gedruckte Zeitschriften zur Verfügung. Darüber hinaus werden über 60.000 elektronische Fachzeits"
+    },
+    {
+      "rang": 11,
+      "score": 1.10466,
+      "id": "3ad0a063-2c80-5981-9377-a65203bd5be2",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services",
+      "title_anzeige": "Services der Hochschulbibliothek",
+      "section_heading": "Services der Hochschulbibliothek > Services von A-Z",
+      "chunk_index": 8,
+      "text_vollstaendig": true,
+      "auszug": "##  Services von A-Z\n[ Anschaffungsvorschlag ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/anschaffungsvorschlag)\n[ Beratung ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/beratung)\n[ Broschüren ](https://www.hs-hannover.de/ueber-uns/organisation/bi"
+    },
+    {
+      "rang": 12,
+      "score": 1.09606,
+      "id": "ad832661-ee37-59c6-bc48-e21152248209",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/profil",
+      "title_anzeige": "Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert",
+      "section_heading": "Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert > Studieren und Forschen an der HsH > Hochschule Hannover (HsH): Innovativ, vielfältig, zukunftsorientiert",
+      "chunk_index": 17,
+      "text_vollstaendig": true,
+      "auszug": "[Hier](https://www.hs-hannover.de/ueber-uns/profil/informationen-fuer-studierende-und-lehrende) finden Sie weitere Informationen über die Interessensvertretung für Studierende und Angebote der Studienförderung. Lernen Sie außerdem die HsH in Bildern kennen oder verschaffen Sie sich einen Überblick ü"
+    },
+    {
+      "rang": 13,
+      "score": 1.09144,
+      "id": "18e880b3-870a-5d6f-a4bc-90ef22b580b9",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/broschueren",
+      "title_anzeige": "www › bibliothek › services › broschueren — Broschüren",
+      "section_heading": "Broschüren",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n# Broschüren\n![](https://www.hs-hannover.de/fileadmin/_processed_/b/a/csm_Flyer_Fenster_37d3d78314.jpg?rbiFocus=mobile)\nDie Broschüren erhalten Sie in gedruckter Form auch an unseren Ausleihtheken.\n[ Info 1: Neu in der Bibliothek - Erste Schritte ](htt"
+    },
+    {
+      "rang": 14,
+      "score": 1.07721,
+      "id": "19957d02-be9f-5719-9793-84eebcb22a11",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/05-2007/2-BenO_FHH_AEnd1.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2007 › 2 BenO FHH AEnd1 — Benutzungsordnung für die Bibliothek der Fachhochschule Hannover",
+      "section_heading": "**1 Allgemeines** > **1.1 Geltungsbereich**",
+      "chunk_index": 5,
+      "text_vollstaendig": false,
+      "auszug": "## **1 Allgemeines**\n\n## **1.1 Geltungsbereich**  \n- (1) Diese Benutzungsordnung gilt für die Bibliothek der Fachhochschule Hannover. Sie gilt auch für die gemeinsam mit der Hochschule für Musik und Theater genutzte Teilbibliothek im Kurt-Schwitters-Forum, sofern nicht andere Regelungen vertraglich "
+    },
+    {
+      "rang": 15,
+      "score": 1.02183,
+      "id": "e728ca57-313d-509e-87e1-71efdf5d9e0a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/05-2003/Verkuendungsblatt_05_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2003 › Verkuendungsblatt 05 2003 — Verkündungsblatt",
+      "section_heading": "**1 Allgemeines** > **1.1 Geltungsbereich**",
+      "chunk_index": 37,
+      "text_vollstaendig": true,
+      "auszug": "## **1 Allgemeines**\n\n## **1.1 Geltungsbereich**  \n- (1) Diese Benutzungsordnung gilt für die Bibliothek der Fachhochschule Hannover. Sie gilt auch für die gemeinsam mit der Hochschule für Musik und Theater Hannover genutzte Teilbibliothek im Kurt-Schwitters-Forum, sofern nicht andere Regelungen ver"
+    },
+    {
+      "rang": 16,
+      "score": 0.99946,
+      "id": "8b3caa91-6106-53e1-94eb-76f69824d3b1",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/literatursuche",
+      "title_anzeige": "www › organisation › bibliothek › literatursuche",
+      "section_heading": "Literatursuche > FAQ zur Literatursuche",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "Sie haben die Möglichkeit, uns einen [Anschaffungsvorschlag](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/anschaffungsvorschlag) zu machen. Wenn die gewünschte Literatur in unser Sammelgebiet passt und ausreichend finanzielle Mittel vorhanden sind, beschaffen wir gern die vo"
+    },
+    {
+      "rang": 17,
+      "score": 0.97405,
+      "id": "2b9cc026-7103-59e7-9d12-10a1fa8bdea2",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/akademische-angelegenheiten/studierende/campuscard",
+      "title_anzeige": "www › akademische angelegenheiten › studierende › campuscard",
+      "section_heading": "CampusCard",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n# CampusCard\nDie CampusCard der HsH gilt als Studierendenausweis und Ausweis in allen Bibliotheken des HOBSY-Verbundes in Hannover.\nSie ermöglicht Ihnen das bargeldlose Bezahlen in den Mensen des Studentenwerks Hannover und das Aufladen Ihres Druckkont"
+    },
+    {
+      "rang": 18,
+      "score": 0.96327,
+      "id": "ad5cfde0-1ed1-579e-922a-88dc16838bae",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_07.03.2025.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 07.03.2025 — Sehr geehrte Lehrbeauftragte,",
+      "section_heading": "**20. Nutzung der Bibliotheken der Hochschule Hannover** > **Wie melde ich mich für die Nutzung der (Teil-)Bibliotheken der Hochschule Hannover an?**",
+      "chunk_index": 53,
+      "text_vollstaendig": false,
+      "auszug": "## **20. Nutzung der Bibliotheken der Hochschule Hannover**\n## **Wie melde ich mich für die Nutzung der (Teil-)Bibliotheken der Hochschule Hannover an?**  \n- Online-Anmeldung für die Bibliothek der HsH bzw. Online-Anmeldung für die Bibliothek im KSF ausfüllen (dieser Schritt entfällt, wenn Sie berei"
+    },
+    {
+      "rang": 19,
+      "score": 0.95935,
+      "id": "e8d4a222-7ac9-5132-b62c-55517014ed94",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/2_Bibliotheksordnung_2017.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › 2 Bibliotheksordnung 2017",
+      "section_heading": "**1 Organisation der Bibliothek**",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "## **1 Organisation der Bibliothek**  \nDie Bibliothek der Hochschule Hannover (im Folgenden: Hochschulbibliothek) besteht aus der Zentralbibliothek und den Teilbibliotheken. Sie ist Mitglied des Gemeinsamen Bibliotheksverbundes (GBV)."
+    },
+    {
+      "rang": 20,
+      "score": 0.9471,
+      "id": "02f679fd-9307-55f9-a9f4-b81f4afdf906",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Infos_fuer_Lehrbeauftragte/Lehrbeauftragtenbroschuere/Infopaket_fuer_LBA_BSW_BRS_Fassung_04.02.2026.pdf",
+      "title_anzeige": "f5 › Infos fuer Lehrbeauftragte › Lehrbeauftragtenbroschuere › Infopaket fuer LBA BSW BRS Fassung 04.02.2026",
+      "section_heading": "**21. Nutzung der Bibliotheken der Hochschule Hannover** > **Wie melde ich mich für die Nutzung der (Teil-)Bibliotheken der Hochschule Hannover an?**",
+      "chunk_index": 61,
+      "text_vollstaendig": true,
+      "auszug": "## **21. Nutzung der Bibliotheken der Hochschule Hannover**\n## **Wie melde ich mich für die Nutzung der (Teil-)Bibliotheken der Hochschule Hannover an?**  \n- Online-Anmeldung für die Bibliothek der HsH bzw. Online-Anmeldung für die Bibliothek im KSF ausfüllen (dieser Schritt entfällt, wenn Sie berei"
+    },
+    {
+      "rang": 21,
+      "score": 0.93416,
+      "id": "57dc4713-60a0-5ed7-9a19-25efefe1a04a",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2003/05-2003/Verkuendungsblatt_05_2003.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2003 › Verkuendungsblatt 05 2003 — Verkündungsblatt",
+      "section_heading": "**2.4 Verhalten in der Bibliothek**",
+      "chunk_index": 45,
+      "text_vollstaendig": true,
+      "auszug": "- (5) Die Bibliothek kann die Benutzung von drahtlosen Telefonen, Datenverarbeitungsgeräten oder anderen Geräten untersagen oder auf besondere Arbeitsplätze beschränken.  \nBenutzungsordnung für die Bibliothek der FHH i.d.F.d.Bek. v. 28.5.2003  \nNr. 5 vom 28.5.2003                              Verkün"
+    },
+    {
+      "rang": 22,
+      "score": 0.9263,
+      "id": "35213682-c2ca-5b52-a628-bf42316018d5",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2007/05-2007/2-BenO_FHH_AEnd1.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 05 2007 › 2 BenO FHH AEnd1 — Benutzungsordnung für die Bibliothek der Fachhochschule Hannover",
+      "section_heading": "**2.4 Verhalten in der Bibliothek**",
+      "chunk_index": 12,
+      "text_vollstaendig": false,
+      "auszug": "- (5) Die Bibliothek kann die Benutzung von drahtlosen Telefonen, Datenverarbeitungsgeräten oder anderen Geräten untersagen oder auf besondere Arbeitsplätze beschränken."
+    },
+    {
+      "rang": 23,
+      "score": 0.9149,
+      "id": "e0862e3d-1c6b-58f6-a4a7-516817256e6f",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/02-2020/02_DV_Jahresgespraeche_20200310.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 02 2020 › 02 DV Jahresgespraeche 20200310 — Dienstvereinbarung",
+      "section_heading": "**4. Vereinbarung über individuelle Personalentwicklungsmaßnahmen**",
+      "chunk_index": 62,
+      "text_vollstaendig": false,
+      "auszug": "## **4. Vereinbarung über individuelle Personalentwicklungsmaßnahmen**  \n- **4.1. Geplante Qualifizierungs- und Fördermaßnahmen on the job** (z.B. Lernen am Arbeitsplatz, Wahrnehmung von Vertretungen, Sonderaufgaben, Übertragung von Aufgaben und Verantwortung, Selbstlernen, Halten von Vorträgen, Mit"
+    },
+    {
+      "rang": 24,
+      "score": 0.89668,
+      "id": "e4533019-4836-5ac4-8c61-d2b102a02047",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Erstsemesterinformationen/BSW-Soziale_Arbeit_grundstaendig/SoSe_2026/Erstsemesterinformationen_BSW_SoSe_2026.pdf",
+      "title_anzeige": "f5 › BSW Soziale Arbeit grundstaendig › SoSe 2026 › Erstsemesterinformationen BSW SoSe 2026",
+      "section_heading": "**Ihr Account der Hochschule Hannover (HsH-Account)**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "## **Ihr Account der Hochschule Hannover (HsH-Account)**  \nNach erfolgreicher Immatrikulation wird ein HsH-Account für Sie erstellt. Wenn dieser bereit ist, erhalten Sie eine E-Mail an Ihre private E-Mail-Adresse, die Sie bei der Immatrikulation angegeben haben. Darin finden Sie alle weiteren Inform"
+    },
+    {
+      "rang": 25,
+      "score": 0.89307,
+      "id": "abced2f6-b332-581f-be25-7d324e33a925",
+      "source_url": "https://hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten",
+      "title_anzeige": "Unsere Standorte",
+      "section_heading": "Unsere Standorte > Literatur und Information an vier Standorten",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n\n# Unsere Standorte  \n##  Literatur und Information an vier Standorten\nDie Bibliothek der Hochschule Hannover versorgt die Mitglieder der Hochschule sowie andere interessierte Leserinnen und Leser mit Literatur, Literaturinformationen und anderen Infor"
+    },
+    {
+      "rang": 26,
+      "score": 0.88275,
+      "id": "262cb11c-4b44-588d-941a-739ce90cd92b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2017/06-2017/HsH_Verkuendungsblatt_06_2017-20220701.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2017 › HsH Verkuendungsblatt 06 2017 20220701 — Verkündungsblatt",
+      "section_heading": "**Benutzungsordnung für die Bibliothek der Hochschule Hannover**",
+      "chunk_index": 41,
+      "text_vollstaendig": false,
+      "auszug": "## **Benutzungsordnung für die Bibliothek der Hochschule Hannover**  \n(Benutzungsordnung HsH/B – BenO HsH/B)  \nGemäß § 41 Abs. 1 S. 1 des Niedersächsischen Hochschulgesetzes (NHG) erlässt der Senat der Hochschule Hannover diese Benutzungsordnung"
+    },
+    {
+      "rang": 27,
+      "score": 0.88128,
+      "id": "a5fbe6c0-b3ef-570e-be6b-f58e43245005",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Info4.pdf",
+      "title_anzeige": "www › Bibliothek › Allgemeine Dateien › Info4 — Was ist bei Verlust des Bibliotheksausweises zu beachten?",
+      "section_heading": "Die Bibliotheken im HOBSY-Verbund",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Die Bibliotheken im HOBSY-Verbund  \n- Bibliothek der Hochschule Hannover (HsH)  \n- Bibliothek der Hochschule für Musik, Theater und Medien Teilbibliothek Emmichplatz (HMTMH)  \n- Bibliothek der Medizinischen Hochschule (MHH)  \n- Bibliothek der Stiftung Tierärztliche Hochschule (TiHo)  \n- Bibliothe"
+    },
+    {
+      "rang": 28,
+      "score": 0.87179,
+      "id": "0856f2ae-71b0-5a61-a970-5e2b917348d5",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek",
+      "title_anzeige": "Die Bibliothek der Hochschule Hannover",
+      "section_heading": "Die Bibliothek der Hochschule Hannover > Standorte > [Zentralbibliothek](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten#c26485)",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "### [Zentralbibliothek](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/standorte-und-oeffnungszeiten#c26485)\nDie Zentralbibliothek versorgt in erster Linie die Fakultäten I, II und IV auf dem Campus Linden mit Literatur der Fachgebiete Elektro- und Informationstechnik, Informatik, Masc"
+    },
+    {
+      "rang": 29,
+      "score": 0.8693,
+      "id": "307f832e-b452-5685-9271-129d7896a627",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh",
+      "title_anzeige": "www › bibliothek › services › publizieren an der hsh",
+      "section_heading": "Kooperationen mit Verlagen",
+      "chunk_index": 38,
+      "text_vollstaendig": true,
+      "auszug": "[ PLOS ](https://www.hs-hannover.de/ueber-uns/organisation/bibliothek/services/publizieren-an-der-hsh \"PLOS\")\nDie von der Bibliothek finanzierte Publikationsvereinbarung beinhaltet, dass Hochschulmitglieder ohne weitere Kosten in den [Open-Access-Zeitschriften von PLOS](https://plos.org/your-journal"
+    },
+    {
+      "rang": 30,
+      "score": 0.8673,
+      "id": "d4799f04-f34f-5009-a094-3b94327a560b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Bibliothek/Allgemeine_Dateien/Info8.pdf",
+      "title_anzeige": "www › Bibliothek › Allgemeine Dateien › Info8 — Mahnungen",
+      "section_heading": "Fernleihe",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "## Fernleihe  \nIn der Bibliothek der HsH nicht vorhandene Literatur kann aus anderen Bibliotheken bestellt werden. Die Gebühr für eine Bestellung beträgt 1,50 Euro. Lassen Sie sich ein Guthabenkonto einrichten, um selbstständig Bestellungen aufgeben zu können. Das Formular dazu erhalten Sie am Ausle"
+    }
+  ],
+  "token_budget": {
+    "verwendet": 32075,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.81,
+    "kandidaten_s": 0.0,
+    "llm_auswahl_s": 2.16,
+    "docs_laden_s": 0.11,
+    "quellen_s": 4.09,
+    "antwort_llm_s": 1.26,
+    "gesamt_s": 5.34
+  },
+  "auswahl_begruendung": "{\"selected\":[4,1,6,8]}"
+}

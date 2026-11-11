@@ -1,0 +1,510 @@
+{
+  "fall": {
+    "id": "g01",
+    "case_type": "direct",
+    "question": "In welchem Raum kann ich Stoffe für ein Projekt einfärben?",
+    "reference_answer": "In der Färbeküche der Kostümwerkstatt, Raum 2A.1.11.",
+    "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "**Färbeküche** // 2A.1.11"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ studiengang/ort. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "a3ec1fd1-6237-51af-bde7-e265e1902e78",
+      "51032d00-a232-5de5-b886-7eef21d7186b",
+      "95f413c3-3913-5f5c-8a3a-9d18a2f52eca",
+      "c924c5fd-f0dc-5ea0-9600-692f67d2e80d",
+      "c8056e30-c9c7-5f7d-b64a-bd3bf40b0820",
+      "b2c030bd-c4ae-56ac-9f7f-adc25e4cdd1e",
+      "2d4eb5a6-6d97-53de-a83a-80e8a3ce64d2"
+    ],
+    "beleg_punkte": [
+      "51032d00-a232-5de5-b886-7eef21d7186b"
+    ],
+    "beleg_urls": [
+      "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:54:56",
+  "dauer_s": 6.23,
+  "fehler": null,
+  "antwort": "Stoffe können Sie in der Färbeküche „Raum 2A.1.11 – Färbeküche\" [1] einfärben. Dort stehen unter anderem „1 Färbekessel\" [1] und „1 Waschmaschine\" [1] zur Verfügung.",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f3 › studium › werkstaettenlaborestudios",
+      "url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios",
+      "fakultaet": "f3",
+      "struktur": "# Werkstätten/Labs/Studios\n    ### Die Werkstätten\n  ## Praxis während des Studiums"
+    },
+    {
+      "nr": 2,
+      "titel": "f3 › studium › werkstaettenlaborestudios › druckwerkstatt printshop",
+      "url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/druckwerkstatt-printshop",
+      "fakultaet": "f3",
+      "struktur": "  ## Beratungs- und Produktionszeiten (selbst drucken) in der vorlesungsfreien Zeit\n  ## f3-dm-druck@hs-hannover.de\n  ## Bald im Urlaub\n  ## Schnell & einfach drucken\n  ##  Selber drucken • binden • basteln\n  ## Wir beraten\n    ### Preise · Papiere · Druck(er)\n    ### Bindungen\n    ### Tipps & Downloads\n  ## Über die Werkstatt\n    ### Druck\n    ### Binden\n    ### und vieles mehr"
+    },
+    {
+      "nr": 3,
+      "titel": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › BSW PO 2018 klein",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2018-klein.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Inhaltsverzeichnis\n  ## Prüfungsordnungsversion 2018\n  ## Modul   BSW-101  Einführung in Soziale Arbeit und Erstsemesterprojekt\n  ## Teilmodul     Einführung in das Studium\n  ## 4SBSA01101 Einführung in das Studium\n  ## Kommentar:\n  ## Teilmodul     Projektorientiertes Lernen\n  ## 4SBSA01201 Mentoringgruppe - Gr. 1\n  ## Kommentar:\n  ## 4SBSA01202 Mentoringgruppe - Gr. 2\n  ## Kommentar:\n  ## 4SBSA01203 Mentoringgruppe - Gr. 3\n  ## Kommentar:\n  ## 4SBSA01204 Mentoringgruppe - Gr. 4\n  ## Kommentar:\n  ## 4SBSA01205 Mentoringgruppe - Gr. 5\n  ## Kommentar:\n  ## 4SBSA01206 Mentoringgruppe - Gr. 6\n  ## Kommentar:\n  ## 4SBSA01207 Mentoringgruppe - Gr. 7\n  ## Kommentar:\n  ## 4SBSA01208 Mentoringgruppe - Gr. 8\n  ## Kommentar:\n  ## 4SBSA01209 Mentoringgruppe - Gr. 9\n  ## Kommentar:\n  ## 4SBSA01210 Mentoringgruppe - Gr. 10\n  ## Kommentar:\n  ## 4SBSA01212 Themenvergabe und Präsentation\n  ## 4SBSA01213 Auswertung und Abschlussvortrag\n  ## Kommentar:\n  ## Kommentar:\n  ## Kommentar:\n  ## Kommentar:\n  ## 4SBSA01305 Präsentationstechniken - Gr. 1\n  ## Kommentar:\n  ## 4SBSA01306 Präsentationstechniken - Gr. 2\n  ## Kommentar:\n  ## 4SBSA01307 Präsentationstechniken - Gr. 3\n  ## Kommentar:\n  ## 4SBSA01308 Präsentationstechniken - Gr. 4\n  ## Bemerkung 1:\n  ## Kommentar:\n  ## 4SBSA01309 Online-Recherche - Gr. 1\n  ## Bemerkung 1:\n  ## Die LV findet in Präsenz statt.\n  ## Kommentar:\n  ## 4SBSA01310 Online-Recherche - Gr. 2\n  ## Bemerkung 1:\n  ## Die LV findet online statt.\n  ## Kommentar:"
+    },
+    {
+      "nr": 4,
+      "titel": "f3 › studium › werkstaettenlaborestudios › kostuemwerkstatt",
+      "url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt",
+      "fakultaet": "f3",
+      "struktur": "# Kostümwerkstatt\n  ## Räume\n    ### Ansprechperson\n  ## Über die Werkstatt\n    ### Kostüme\n    ### Färben\n    ### Masken\n    ### Verarbeiten\n    ### Geräte und Nutzung durch Studierende in der Kostüm- und Maskenwerkstatt"
+    },
+    {
+      "nr": 5,
+      "titel": "f3 › Werkstaetten › Naehwerkstatt › 2022 09 28 NW Werkstattordnung — Leitung der Werkstätten",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Werkstaetten/Naehwerkstatt/2022-09-28-NW-Werkstattordnung.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Werkstattordnung für Nähwerkstatt und Bügelraum\n  ## Leitung der Werkstätten\n  ## Voraussetzungen für das Arbeiten in der Nähwerkstatt und im Bügelraum\n  ## Kontakt\n  ## Räume\n  ## Regelung der Betriebszeiten\n  ## Umgang mit Maschinen, Werkzeug und Material\n  ## Sicheres Verhalten in den Werkstatträumen\n  ## Allgemein\n  ## Fakultät III\n  ## Ver- und Gebote\n  ## Grundsätze des sicheren Arbeitens in den Werkstätten\n  ## Umgang mit Mängeln und Störungen\n  ## Arbeitsende\n  ## Verhalten bei Gefahr\n  ## Feuer\n  ## Unfall\n  ## Unfallmeldung\n  ## Beschäftigungsbeschränkungen\n  ## Haftung\n  ## Ausschluss\n  ## Inkrafttreten\n  ## Checkliste vor dem Verlassen der Werkstatt"
+    },
+    {
+      "nr": 6,
+      "titel": "www › Studienberatung › HIT › 2025 09 08 HIT Terminuebersicht Mittwoch 10.09",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Mittwoch_10.09.pdf",
+      "fakultaet": "",
+      "struktur": ""
+    },
+    {
+      "nr": 7,
+      "titel": "f3 › Fakultaet III › Studiengangsflyer › BPD Produktdesign Studiengangsflyer A5 2024005 — Worum geht es?",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BPD_Produktdesign_Studiengangsflyer_A5_2024005.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Worum geht es?\n  ## Was werde ich lernen?\n  ## Wie werde ich lernen?\n  ## »Die Persönlichkeit jedes einzelnen Studierenden steht im Vordergrund des Produktdesignstudiums.«\n  ## Kann ich im Ausland studieren?\n  ## Wer unterstützt mich dabei?\n  ## »Bei uns sind Theorie und Praxis eng verknüpft – beste Ausstattung inklusive.«\n  ## Wie sammle ich Berufserfahrung?\n  ## Wo kann ich später arbeiten?\n  ## Studiendauer\n  ## Studienberatung\n  ## Semesterbeitrag\n  ## Bewerbung\n  ## Kontakt\n  ## Hochschule Hannover"
+    },
+    {
+      "nr": 8,
+      "titel": "www › Verkuendungsblatt › 06 2002 › Verkuendungsblatt 06 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/06-2002/Verkuendungsblatt_06_2002.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Inhalt:\n  ## Richtlinien zur Sicherung guter wissenschaftlicher Praxis und zum Umgang mit wissenschaftlichem Fehlverhalten an der Fachhochschule Hannover\n  ## 1. Allgemeine Zielsetzung, Grundlagen\n  ## 2. Verpflichtung zu guter wissenschaftlicher Praxis\n  ## a) Allgemeines\n  ## b) Spezielle Anforderungen\n  ## 3. Wissenschaftliches Fehlverhalten\n  ## b) Verletzung geistigen Eigentums\n  ## 4. Regelung zur Aufklärung wissenschaftlichen Fehlverhaltens\n  ## a) Ombudspersonen\n  ## b) Kommission\n  ## 5. Verfahren bei Verdacht auf wissenschaftliches Fehlverhalten\n  ## 6. Sanktionen\n  ## 7. In-Kraft-Treten\n  ## Geschäftsordnung für Sitzungen des Präsidiums der Fachhochschule Hannover\n  ## § 1: Einberufung, Termine, Beschlussfähigkeit, Vertretung\n  ## § 2: Beratung und Beschlussfassung\n  ## § 4: Sitzungsniederschrift\n  ## § 5: Inkrafttreten\n  ## Brandschutzordnung\n  ## der\n  ## Fachhochschule Hannover\n  ## 0   Allgemeines\n  ## 2.1 Brandverhütung\n  ## 2.2 Brand- und Rauchausbreitung\n  ## 4   Schlussbestimmungen\n  ## 0     Allgemeines\n  ## 1    Brandschutzordnung Teil A\n  ## 2    Brandschutzordnung Teil B\n  ## 2.1  Brandverhütung\n  ## Rauchverbote und Verbot von offenem Licht\n  ## Lagerung und Verwendung von feuergefährlichen und explosionsgefährlichen Stoffen, insbesondere leicht brennbaren Flüssigkeiten\n  ## Entsorgung von Abfällen\n  ## Allgemeiner Umgang mit elektrischen Betriebsmitteln\n  ## Betrieb von elektrischen Haushaltsgeräten\n  ## Meldung von Schäden und kleinen Brandereignissen\n  ## Feuergefährliche Arbeiten\n  ## Parkende Fahrzeuge im Gebäude\n  ## Ausstellungen im Design-Center\n  ## 2.2  Brand- und Rauchausbreitung\n  ## Brand- und Rauchabschnittstüren\n  ## Installationsschachttüren und Elektroverteiler\n  ## 2.3  Flucht- und Rettungswege\n  ## Rettungswege\n  ## Kenntnis über Rettungswege\n  ## 2.4  Melde und Löscheinrichtungen\n  ## Meldeeinrichtungen\n  ## Löscheinrichtungen\n  ## Freihalten aller Einrichtungen"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 4,
+      "titel": "f3 › studium › werkstaettenlaborestudios › kostuemwerkstatt",
+      "url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt"
+    },
+    {
+      "nr": 1,
+      "titel": "f3 › studium › werkstaettenlaborestudios",
+      "url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios"
+    },
+    {
+      "nr": 5,
+      "titel": "f3 › Werkstaetten › Naehwerkstatt › 2022 09 28 NW Werkstattordnung — Leitung der Werkstätten",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Werkstaetten/Naehwerkstatt/2022-09-28-NW-Werkstattordnung.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f3 › studium › werkstaettenlaborestudios › kostuemwerkstatt",
+      "url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Kostümwerkstatt > Räume",
+      "snippets": [
+        "##\n[ Raum 2A.1.01 – Kostümatelier ](https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt \"Raum 2A.1.01 – Kostümatelier\")\n* Arbeitsraum mit Verdunkelung\n* Beamer\n* Fotohintergrund\n* Leuchttisch\n* Schneiderbüsten\n* Anprobenspiegel\n* 1 Haushaltsnähmaschine  \n[ Raum 2A.1.05 – Maskenatelier ](https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt \"Raum 2A.1.05 – Maskenatelier\")\n* 1 Waschbecken mit Gipsabscheider\n* 1 Friseurwaschbecken\n* 3 Schminkplätze\n* 3 Arbeitsplätze (Gipsarbeiten)\n* Perückenfundus\n* Anprobenraum mit Spiegel  \n[ Raum 2A.1.11 – Färbeküche ](https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt \"Raum 2A.1.11 – Färbeküche\")\n* 1 Waschmaschine\n* 1 Färbekessel\n* 1 Wäschetrockner\n* 4 Herdplatten  \n[ Raum 2A.-2.02 – Kostümfundus ](https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt \"Raum 2A.-2.02 – Kostümfundus\")\nFundus mit Öffnungszeiten zur Ausleihe / siehe Aushang"
+      ],
+      "zitate": [
+        "Raum 2A.1.11 – Färbeküche",
+        "1 Färbekessel",
+        "1 Waschmaschine"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f3 › studium › werkstaettenlaborestudios",
+      "url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Werkstätten/Labs/Studios",
+      "snippets": [
+        "![Metallplatte mit einer Radierung eines Waschbären](https://f3.hs-hannover.de/fileadmin/_processed_/0/1/csm_Werkstaetten_Uebersicht_web_9d30df99f2.jpg?rbiFocus=mobile)\n\n#  Werkstätten/Labs/Studios\nLiebe Studierende,\nwir als Werkstätten und Labore unterstützen Sie bei Ihren Projekten. Sie erwartet ein Team aus Mitarbeiter*innen, welches viel Berufserfahrung sowohl aus dem Handwerk als auch der freien Marktwirtschaft mit sich bringt. Mit den verschiedensten Materialien arbeiten – vom Holz, über Stoff, Pappe und Papier, Kunststoff oder auch dem experimentellen Umgang mit außergwöhnlichen Werkststoffen – dies erwartet Sie in unseren Räumen.\nSprechen Sie Ihre Projekte frühzeitig mit uns ab, um noch Korrekturen zu ermöglichen und unnötige Arbeitsschritte zu ersparen.\n**Wussten Sie schon?**\nÜber [Stud.IP ](https://f3-studip.fh-h.de/)gibt es die Möglichkeit Arbeitsplätze zu buchen. Bei Fragen, sprechen Sie uns einfach gern an.\nWir freuen uns auf Sie!\nDas Team der Werkstätten\n\n### Die Werkstätten\nIn einem kurzen Video – anhand eines Beispiels – erhält man einen ersten Einblick in die Werkstätten unserer Fakultät. Bei den Terminen von [Design probieren Design studieren](https://www.designstudieren-hsh.de/designstudium-einblick/) gibt es darüber hinaus auch Führungen durch die Werkstätten.\nSie möchten als Studierende*r die Werkstätten nutzen? Kommen Sie einfach vorbei und wir besprechen das Projekt! Kontakte zu den einzelnen Werkstätten sind auf den Unterseiten zu finden. Bitte beachten Sie hier auch die Öffnungs- und Schließzeiten der jeweiligen Werkstatt.\nWir freuen uns auf Sie!"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f3 › Werkstaetten › Naehwerkstatt › 2022 09 28 NW Werkstattordnung — Leitung der Werkstätten",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Werkstaetten/Naehwerkstatt/2022-09-28-NW-Werkstattordnung.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Ver- und Gebote**",
+      "snippets": [
+        "## **Ver- und Gebote**  \n- Das Essen, Trinken und Rauchen ist in den Räumen grundsätzlich untersagt.  \n- Auch das Mitbringen von Flaschen ist zu unterlassen.  \n- Gesundheitsgefährdende Stoffe (Lacke, Spachtelmasse, Kleber, Spray, Verdünnungen, Färbemittel) dürfen nicht in der Werkstatt verarbeitet werden.  \n- Fetthaltige, abfärbende Textilien dürfen nicht an den Bügelplätzen verarbeitet werden und weder Kunst- noch Echtfell gebügelt werden.  \n- Beschichtete, grobe, metallische Textilien, Leder und Papier können in diesen Werkstätten nur nach Absprache mit dem Werkstattleiter bearbeitet werden.  \n- Bauchfreies Bügeln ist nicht gestattet."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 1.80782,
+      "id": "6be8e4a3-a6dd-5357-88c3-70354b6b717e",
+      "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios",
+      "title_anzeige": "f3 › studium › werkstaettenlaborestudios",
+      "section_heading": "Werkstätten/Labs/Studios",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "![Metallplatte mit einer Radierung eines Waschbären](https://f3.hs-hannover.de/fileadmin/_processed_/0/1/csm_Werkstaetten_Uebersicht_web_9d30df99f2.jpg?rbiFocus=mobile)\n\n#  Werkstätten/Labs/Studios\nLiebe Studierende,\nwir als Werkstätten und Labore unterstützen Sie bei Ihren Projekten. Sie erwartet e"
+    },
+    {
+      "rang": 2,
+      "score": 1.59609,
+      "id": "6530fb0a-e053-5b2e-8a40-6779a7022f92",
+      "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/druckwerkstatt-printshop",
+      "title_anzeige": "f3 › studium › werkstaettenlaborestudios › druckwerkstatt printshop",
+      "section_heading": "Über die Werkstatt",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "![Druckwerkstatt der Fakultät 3, Hochschule Hannover // Arbeiten in der Druckwerkstatt](https://f3.hs-hannover.de/fileadmin/_processed_/b/e/csm_HsH_Druckwerkstatt_Auslage-Plakate_ddf2608b07.jpg?rbiFocus=mobile)\n![Druckwerkstatt der Fakultät 3, Hochschule Hannover // Arbeiten in der Druckwerkstatt](h"
+    },
+    {
+      "rang": 3,
+      "score": 1.45569,
+      "id": "be897e4b-bbc7-50e9-98f8-c52615352751",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Soziale_Arbeit_grundstaendig/Vorlesungsverzeichnis/VV_SoSe_2024/BSW-PO-2018-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2024 › BSW PO 2018 klein",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 1094,
+      "text_vollstaendig": false,
+      "auszug": "## **Bemerkung 1:**  \nWerkstatteinweisung am ersten Termin.  \nTeilnahme nur mit festem, geschlossenem Schuhwerk möglich.\n\n## **Kommentar:**  \nIn diesem Werkstattseminar werden wir uns mit dem Material Papier beschäftigen. Zuerst werden wir das Thema „Nachhaltigkeit” berühren, in dem wir aus Papierab"
+    },
+    {
+      "rang": 4,
+      "score": 1.17442,
+      "id": "51032d00-a232-5de5-b886-7eef21d7186b",
+      "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt",
+      "title_anzeige": "f3 › studium › werkstaettenlaborestudios › kostuemwerkstatt",
+      "section_heading": "Kostümwerkstatt > Räume",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Kostümwerkstatt  \n## Räume\n**Kostümatelier** // 2A.1.01\n**Maskenatelier** // 2A.1.05\n**Färbeküche** // 2A.1.11\n**Kostümfundus** // 2A.-2.02"
+    },
+    {
+      "rang": 5,
+      "score": 1.16322,
+      "id": "9825612b-fea7-5ec4-8672-8edcf5603e5b",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Werkstaetten/Naehwerkstatt/2022-09-28-NW-Werkstattordnung.pdf",
+      "title_anzeige": "f3 › Werkstaetten › Naehwerkstatt › 2022 09 28 NW Werkstattordnung — Leitung der Werkstätten",
+      "section_heading": "**Ver- und Gebote**",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "## **Ver- und Gebote**  \n- Das Essen, Trinken und Rauchen ist in den Räumen grundsätzlich untersagt.  \n- Auch das Mitbringen von Flaschen ist zu unterlassen.  \n- Gesundheitsgefährdende Stoffe (Lacke, Spachtelmasse, Kleber, Spray, Verdünnungen, Färbemittel) dürfen nicht in der Werkstatt verarbeitet w"
+    },
+    {
+      "rang": 6,
+      "score": 1.15229,
+      "id": "ab58716a-6c4d-5639-a31b-60cbb537c350",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Mittwoch_10.09.pdf",
+      "title_anzeige": "www › Studienberatung › HIT › 2025 09 08 HIT Terminuebersicht Mittwoch 10.09",
+      "section_heading": "",
+      "chunk_index": 3,
+      "text_vollstaendig": false,
+      "auszug": "Rohren stoffe, Produkte und Leibniz Universität, Informationsmanagement Prozesse Raum B302 Campus Linden, Online: https://go.lu-h.de/ Raum 1A.0.35 Campus Linden, Raum 1A.1.29 HIT_B302_Tag2 13.30 bis 14.15 Biotechnologie/ UmweltTechnische Redaktion und Bau einer Windturbine Regenerative Krafttechnik "
+    },
+    {
+      "rang": 7,
+      "score": 1.14979,
+      "id": "051e3ce1-79b2-5519-ba4a-33fe1eafe024",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Studiengangsflyer/2024/BPD_Produktdesign_Studiengangsflyer_A5_2024005.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Studiengangsflyer › BPD Produktdesign Studiengangsflyer A5 2024005 — Worum geht es?",
+      "section_heading": "»Die Persönlichkeit jedes einzelnen Studierenden steht im Vordergrund des Produktdesignstudiums.«",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "Fräsen ermöglichen die Realisierung von Formideen, die auch mit Mixed-RealityWerkzeugen im VR-Lab generiert werden. Spritz- und Lackierräume gehören ebenso dazu, genau wie Experimentierwerkstätten mit Siebdruck, Gips und Grips – reichlich Raum, um Erfahrungen mit ungewöhnlichen Materialien, Farben, "
+    },
+    {
+      "rang": 8,
+      "score": 1.09208,
+      "id": "b2c030bd-c4ae-56ac-9f7f-adc25e4cdd1e",
+      "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt",
+      "title_anzeige": "f3 › studium › werkstaettenlaborestudios › kostuemwerkstatt",
+      "section_heading": "Kostümwerkstatt",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "##\n[ Raum 2A.1.01 – Kostümatelier ](https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kostuemwerkstatt \"Raum 2A.1.01 – Kostümatelier\")\n* Arbeitsraum mit Verdunkelung\n* Beamer\n* Fotohintergrund\n* Leuchttisch\n* Schneiderbüsten\n* Anprobenspiegel\n* 1 Haushaltsnähmaschine  \n[ Raum 2A.1.05 – Mas"
+    },
+    {
+      "rang": 9,
+      "score": 1.02524,
+      "id": "6acdc6fa-df42-5eb9-a1c6-10c09c7ee3e1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/06-2002/Verkuendungsblatt_06_2002.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2002 › Verkuendungsblatt 06 2002 — Verkündungsblatt",
+      "section_heading": "**Lagerung und Verwendung von feuergefährlichen und explosionsgefährlichen Stoffen, insbesondere leicht brennbaren Flüssigkeiten**",
+      "chunk_index": 35,
+      "text_vollstaendig": true,
+      "auszug": "## **Lagerung und Verwendung von feuergefährlichen und explosionsgefährlichen Stoffen, insbesondere leicht brennbaren Flüssigkeiten**  \n- Brennbare Flüssigkeiten dürfen nur in speziellen Lagerräumen oder Sicherheitsschränken gelagert werden.  \n- Wenn brennbare Flüssigkeiten vorübergehend in einem Kü"
+    },
+    {
+      "rang": 10,
+      "score": 0.99817,
+      "id": "c5f1902f-338c-596d-bb89-25f7bd5ebf12",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/99_Sonstiges/bioland-Fachmagazin-01-2021-Ins_richtige_Licht_setzen_original_1_.pdf",
+      "title_anzeige": "www › 20 Dokumente › 99 Sonstiges › bioland Fachmagazin 01 2021 Ins richtige Licht setzen original 1",
+      "section_heading": "Das ganze Spektrum für Puten",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "Wellenlänge/nm\nQUELLE: PROJEKT OPTILIMA  bioland-Fachmagazin\nSpektrale Beleuchtungsstärke (mW/m² nm)  \nWährend Sehzellen des Menschen für Blau, Grün und Rot empfindlich sind, können insbesondere tagaktive Vögel neben dem blauen, grünen und roten Spektralbereich auch violettes oder auch ultraviolette"
+    },
+    {
+      "rang": 11,
+      "score": 0.9856,
+      "id": "50923bbc-49ae-52d2-93db-550ab31fec8a",
+      "source_url": "https://f3.hs-hannover.de/studium/abschlussarbeiten/abschlussarbeiten-innenarchitektur/bia-becker-vanessa",
+      "title_anzeige": "Lokal Pavillon",
+      "section_heading": "Lokal Pavillon",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Lokal Pavillon  \nVanessa Becker  \n© Vanessa Becker\nDas Projekt entwickelt ein neues Verständnis von Place-Making-Strategien im industriell geprägten, urbanen Raum und fokussiert die Stärkung lokaler Gemeinschaften. Im Zentrum stehen der Aufbau sozialer Netzwerke, die Förderung interkulturellen Au"
+    },
+    {
+      "rang": 12,
+      "score": 0.97217,
+      "id": "f20c0a87-66ac-553e-81c9-fbbfbb50a0e3",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Studium/Bachelor/Relpaed/Vorlesungsverzeichnis/VV_SoSe-2025/BRS-SoSe-2025-PO-2020-klein.pdf",
+      "title_anzeige": "f5 › Vorlesungsverzeichnis › VV SoSe 2025 › BRS SoSe 2025 PO 2020 klein",
+      "section_heading": "**Kommentar:**",
+      "chunk_index": 1339,
+      "text_vollstaendig": false,
+      "auszug": "## **Kommentar:**  \nWir werden in der Grafikwerkstatt arbeiten und die verschiedenen Möglichkeiten des Linolschnitts erproben. Dabei schneiden wir mit Schnitzmessern Linien und Flächen in eine Linoleumplatte und erstellen so einen Druckstock, mit dem wir Bilder drucken können. Da wir mit scharfen We"
+    },
+    {
+      "rang": 13,
+      "score": 0.9695,
+      "id": "3e313b94-da74-53e5-b097-ee2474f0dd5f",
+      "source_url": "https://f5.hs-hannover.de/studium/die-werkstatt-haus-3e/soziale-kulturarbeit-aesthetische-praxis",
+      "title_anzeige": "Ästhetische Werkstätten & Soziale Kulturarbeit",
+      "section_heading": "Ästhetische Werkstätten & Soziale Kulturarbeit > [Räume](https://f5.hs-hannover.de/studium/die-werkstatt-haus-3e/soziale-kulturarbeit-aesthetische-praxis/raeume)",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "### [Räume](https://f5.hs-hannover.de/studium/die-werkstatt-haus-3e/soziale-kulturarbeit-aesthetische-praxis/raeume)\nEin Einblick in die verschiedenen Arbeitsräume und Werkstätten, deren Ausstattung und die Möglichkeiten, in ihnen tätig zu werden. Von der Keramikwerkstatt über die Studiobühne bis zu"
+    },
+    {
+      "rang": 14,
+      "score": 0.95561,
+      "id": "0c7df9d5-e811-5d4d-92f2-e154f4123d6c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Ordnungen_Fak._V/Ordnung_fuer_die_Werkstaetten_der_Fakultaet_V.pdf",
+      "title_anzeige": "f5 › UEber uns › Ordnungen Fak. V › Ordnung fuer die Werkstaetten der Fakultaet V",
+      "section_heading": "**Werkstattordnung Fachhochschule Hannover Fakultät V, Diakonie Gesundheit und Soziales** > **Voraussetzungen für die Arbeit in der Werkstatt**",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## **Voraussetzungen für die Arbeit in der Werkstatt**  \nIn den Werkstätten dürfen Studierende der Fakultät zur Realisierung von Projekten im Rahmen von Seminaren, Übungen und Vorbereitung von Prüfungen arbeiten.  \nDarüber hinaus müssen die Studierenden vor Aufnahme ihrer Tätigkeit in der Werkstatt,"
+    },
+    {
+      "rang": 15,
+      "score": 0.92994,
+      "id": "8b31744d-3815-5933-b129-d21a49b7aa7d",
+      "source_url": "https://f3.hs-hannover.de/internationales/elective-courses",
+      "title_anzeige": "Elective Courses | ISP",
+      "section_heading": "Elective Courses | ISP > Summer Semester > Design.class > Elective Courses | ISP",
+      "chunk_index": 32,
+      "text_vollstaendig": false,
+      "auszug": "Limited places for international students from other faculties.\n[ Natural Colours | 3 cps ](https://f3.hs-hannover.de/internationales/elective-courses \"Natural Colours | 3 cps\")\nContent\nThis seminar introduces students to regional and traditional dye plants and their application on fabric and paper."
+    },
+    {
+      "rang": 16,
+      "score": 0.92379,
+      "id": "d664ecfc-d501-5ce6-8641-951b60701cac",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Internationales/LABi3/1_Obuda_Hosierecyle.pdf",
+      "title_anzeige": "www › Internationales › LABi3 › 1 Obuda Hosierecyle — Circular Economy in the Textile Industry",
+      "section_heading": "**The proposed impact of the project**",
+      "chunk_index": 16,
+      "text_vollstaendig": true,
+      "auszug": "## **The proposed impact of the project**  \nThe point of the collection is to draw attention. One should stop in front of him and think for a moment about what this unique piece of furniture can be made of. The colour palettes created and chosen also contain many eye-catching colours. These pink, or"
+    },
+    {
+      "rang": 17,
+      "score": 0.9081,
+      "id": "da0ad1c2-9cd7-502c-a8ad-309243faad29",
+      "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/naehwerkstatt",
+      "title_anzeige": "f3 › studium › werkstaettenlaborestudios › naehwerkstatt",
+      "section_heading": "Nähwerkstatt > Räume",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Räume\n**Nähwerkstatt**\nExpo Plaza 2 / 2A.1.24\n**Bügelraum**\nExpo Plaza 2 / 2A.1.21"
+    },
+    {
+      "rang": 18,
+      "score": 0.90035,
+      "id": "ad69e224-2c8f-5f1d-875c-1349ce6e6b2e",
+      "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/druckwerkstatt-printshop/downloads",
+      "title_anzeige": "f3 › studium › werkstaettenlaborestudios › druckwerkstatt printshop",
+      "section_heading": "Colourmanagement",
+      "chunk_index": 7,
+      "text_vollstaendig": false,
+      "auszug": "[Settings der Druckwerkstatt (Colourmanagement)](https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Werkstaetten/Druckwerkstatt/Downloads/Druckwerkstatt_Download_Colormanagement_Setting.zip)\nWir arbeiten mit festen Farbeinstellungen. Diese können im Photoshop eingestellt und über Adobe Bridge für"
+    },
+    {
+      "rang": 19,
+      "score": 0.89996,
+      "id": "7e3fe0bf-069a-5d66-ad98-c7b5b1712340",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Besondere_PO_2005.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › Besondere PO 2005 — Verkündungsblatt",
+      "section_heading": "**Nr. 5/2006 vom 31.3.2006 Verkündungsblatt der FHH Seite 4 von 96** > **§ 7 Bewertung und Benotung der Bachelor-Arbeit**",
+      "chunk_index": 155,
+      "text_vollstaendig": false,
+      "auszug": "Wirkung von Farbe im\nGestaltungsprozess|Erwerb von Grundkenntnissen in der\nAuswahl, der Handhabung und der\nemotionalen Wirkung von Materialien\nim Gestaltungsprozess|Förderung des kreativen,\nexperimentellen und konzeptionellen\nArbeitens und Denkens in der\ndreidimensionalen Formfindung.\nErkennen und A"
+    },
+    {
+      "rang": 20,
+      "score": 0.88294,
+      "id": "8214a16f-9b79-5fd8-bf55-d7971259b8d5",
+      "source_url": "https://f5.hs-hannover.de/studium/die-werkstatt-haus-3e/soziale-kulturarbeit-aesthetische-praxis/raeume",
+      "title_anzeige": "Räume & Werkstätten des Arbeitsbereichs",
+      "section_heading": "Räume & Werkstätten des Arbeitsbereichs > Grafikwerkstatt",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "## Grafikwerkstatt\nIn der Grafikwerkstatt gibt es verschiedene Zeichen- und Malutensilien wie z.B. Pastell, Aquarell und Gouachefarben, es kann auch auf Leinwand an der Staffelei gearbeitet werden. Weiterhin ist die Werkstatt mit einer Druck- sowie einer Spindelpresse ausgestattet, so das einfache b"
+    },
+    {
+      "rang": 21,
+      "score": 0.88286,
+      "id": "f8620321-6835-5683-b5e3-c68ae359483c",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_Mittwoch_10.09.pdf",
+      "title_anzeige": "www › Studienberatung › HIT › 2025 09 08 HIT Terminuebersicht Mittwoch 10.09",
+      "section_heading": "",
+      "chunk_index": 2,
+      "text_vollstaendig": false,
+      "auszug": "Online: https://go.lu-h.de/ Labor für regenerative Raum 1A.0.36 Online: https://go.lu-h.de/ HIT_F102_Tag2 Energiesysteme und im Kälte-Klima-Labor HIT_B302_Tag2 Campus Linden, Treffpunkt: Raum 1E.1.36 10.30 bis 11.15 VeranstaltungsmanageDuale Studiengänge im Wie kann ich Zukunft ment Maschinenbau kon"
+    },
+    {
+      "rang": 22,
+      "score": 0.87666,
+      "id": "52995b6d-d74e-5a5c-920f-4ecadcf34903",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Studienberatung/HIT/2025-09-08-HIT_Terminuebersicht_final.pdf",
+      "title_anzeige": "www › Studienberatung › HIT › 2025 09 08 HIT Terminuebersicht final — Dienstag, 09.09.2025 (Stand 08.09.2025)",
+      "section_heading": "**Zeiten** > **Dienstag, 09.09.2025 (Stand 08.09.2025)**",
+      "chunk_index": 8,
+      "text_vollstaendig": false,
+      "auszug": "für klare Struktutige Werkstoffe, Produkren te und Prozesse Leibniz Universität, Informationsmanagement Raum B302 Campus Linden, Campus Linden, Online: https://go.lu-h.de/ Raum 1A.0.35 Raum 1A.1.29 HIT_B302_Tag2 13.30 bis 14.15 Biotechnologie/ UmweltTechnische Redaktion und Bau einer Windturbine Reg"
+    },
+    {
+      "rang": 23,
+      "score": 0.87453,
+      "id": "0dd7049f-bee2-5ebd-be15-01fa77dfb704",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Ordnungen_DM/Besondere_PO_2009.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Ordnungen DM › Besondere PO 2009",
+      "section_heading": "",
+      "chunk_index": 168,
+      "text_vollstaendig": false,
+      "auszug": "Farbe im Gestaltungsprozess|Erwerb von Grundkenntnissen in der\nAuswahl, der Handhabung und der\nemotionalen Wirkung von Materialien im\nGestaltungsprozess|Förderung des kreativen, experimentellen\nund konzeptionellen Arbeitens und\nDenkens in der dreidimensionalen\nFormfindung. Erkennen und Anwenden\nvers"
+    },
+    {
+      "rang": 24,
+      "score": 0.86768,
+      "id": "79f5e203-1889-51b7-b4bc-741004bf6205",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2020/06-2020/01_Benutzungsordnung_Medienwerkstatt_Fakultaet_III_11_06_2020.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2020 › 01 Benutzungsordnung Medienwerkstatt Fakultaet III 11 06 2020",
+      "section_heading": "5 Nutzung der Räumlichkeiten und Gerätschaften",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## 5 Nutzung der Räumlichkeiten und Gerätschaften  \n- 5.1 Den Mitgliedern und Angehörigen der Fakultät III können nach einer technischen Einweisung Gerätschaften, Seminarräume, Schnitträume, Projekträume, Tonstudio, Hörfunkstudio und Moderationsstudio für Projekte im Rahmen von Studium und Lehre übe"
+    },
+    {
+      "rang": 25,
+      "score": 0.85656,
+      "id": "f3eff6bf-bca0-50b6-a6cc-a2fa30a71882",
+      "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/kuenstlerische-werkstatt",
+      "title_anzeige": "Künstlerische Werkstatt",
+      "section_heading": "Künstlerische Werkstatt > Über die Werkstätten",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "## Über die Werkstätten\nDie künstlerische Werkstatt versteht sich als offener Raum für Recherche, Experiment und Produktion. Sie bietet Studierenden die Möglichkeit, sich mit unterschiedlichen Materialien, Werkzeugen und Werkprozessen auseinanderzusetzen und eigene gestalterische Fragestellungen pra"
+    },
+    {
+      "rang": 26,
+      "score": 0.83253,
+      "id": "7f693143-f6ae-5dd5-bf77-373be05e1403",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Forschungen/Institute/IVEK/20191010_Beispiel_fuer_Numerische_Stroemungssimulation_Gottschlich.pdf",
+      "title_anzeige": "www › Institute › IVEK › 20191010 Beispiel fuer Numerische Stroemungssimulation Gottschlich — Beispiel für Numerische Strömungssimulation (CFD)",
+      "section_heading": "**Rechenergebnisse**",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "Der Quark hat vor dem Durchgang durch die Platte eine Temperatur von 40°C danach ca. 5-6°C. Tendenziell ist wegen der Randgängigkeit quer zur Platte eine Temperaturverteilung zu beobachten. Besonders im unteren Bereich ist die Kühltemperatur des Quarks offenbar schnell erreicht.  \nDie Geschwindigkei"
+    },
+    {
+      "rang": 27,
+      "score": 0.8308,
+      "id": "4cbfc43b-0f8e-5838-8bae-c10f6ce7702f",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/erfolgsgeschichten.pdf",
+      "title_anzeige": "f5 › Personen › Romppel › erfolgsgeschichten — Erfolgsgeschichten der Gemeinwesenarbeit",
+      "section_heading": "**Gab es Entwicklungsphasen des Projektes?**",
+      "chunk_index": 102,
+      "text_vollstaendig": true,
+      "auszug": "## **Gab es Entwicklungsphasen des Projektes?**  \nJa, eine Phase war, die  Räume anzumieten. Es war zu klären, wer ist auf dem Papier Mieter und wer vom Verein unterschreibt es. Und dann die Renovierung der Räume, wir haben zwar von der Genossenschaft einen relativ günstigen Mietpreis gekriegt, aber"
+    },
+    {
+      "rang": 28,
+      "score": 0.82361,
+      "id": "d665ded1-cc1f-57aa-8a02-8808063398e5",
+      "source_url": "https://f2.hs-hannover.de/forschung/labore/abt-maschinenbau/waermetechnik",
+      "title_anzeige": "Labor für Wärmetechnik",
+      "section_heading": "Labor für Wärmetechnik > Dampferzeuger",
+      "chunk_index": 6,
+      "text_vollstaendig": true,
+      "auszug": "## Dampferzeuger\nIm Dampferzeuger (Raum 1D.-1.06), hier ein Großwasserraumkessel, wird das Kreislaufmedium (hier: Wasser, es gibt aber auch Anlagen mit anderen Stoffen, z.B. organische Fluide) vorgewärmt, bei hohem Druck zum Sieden gebracht und überhitzt. Der überhitzte Dampf wird dann über eine Hei"
+    },
+    {
+      "rang": 29,
+      "score": 0.8102,
+      "id": "2860ca60-5b3a-569d-af9a-ad6551c6e311",
+      "source_url": "https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/materialwerkstatt",
+      "title_anzeige": "next.materials // Materialwerkstatt",
+      "section_heading": "next.materials // Materialwerkstatt",
+      "chunk_index": 9,
+      "text_vollstaendig": true,
+      "auszug": "[ Arbeitsplätze ](https://f3.hs-hannover.de/studium/werkstaettenlaborestudios/materialwerkstatt \"Arbeitsplätze\")\nDie Materialwerkstatt bietet innerhalb der Öffnungszeiten zwei digitale Arbeitsplätze sowie großzügige Arbeitsflächen für Materialexperimente/Collagen an.  \n##\n[ Materialbibliothek digita"
+    },
+    {
+      "rang": 30,
+      "score": 0.80305,
+      "id": "2c920abf-1fdc-5088-90ed-cdf882d712c1",
+      "source_url": "https://mint.hs-hannover.de/fuer-lehrkraefte/workshops/primarbereich",
+      "title_anzeige": "mint › fuer lehrkraefte › workshops › primarbereich",
+      "section_heading": "Rotkohl und Blaukraut – Wie ändert sich die Farbe von Rotkohlsaft?",
+      "chunk_index": 24,
+      "text_vollstaendig": false,
+      "auszug": "##  Rotkohl und Blaukraut – Wie ändert sich die Farbe von Rotkohlsaft?\n![Schülerinnen und Schüler halten Reagenzgläser](https://mint.hs-hannover.de/fileadmin/_processed_/8/4/csm_Workshop_P012_2016-08-23_0008_7e2fed01e5.jpg)\n**Zielgruppe** : Primarstufe, Klasse 1 bis 4\n**Ort** : Standort Bismarckstra"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 5765,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.74,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 2.84,
+    "docs_laden_s": 0.06,
+    "quellen_s": 4.64,
+    "antwort_llm_s": 1.42,
+    "gesamt_s": 6.06
+  },
+  "auswahl_begruendung": "{\"selected\":[4,1,5]}"
+}

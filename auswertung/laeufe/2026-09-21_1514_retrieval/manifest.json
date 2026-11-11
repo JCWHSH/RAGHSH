@@ -1,0 +1,50 @@
+{
+  "lauf_id": "2026-09-21_1514_retrieval",
+  "gestartet": "2026-09-21T15:14:05",
+  "modus": "retrieval",
+  "modell": "",
+  "experiment": {},
+  "fallauswahl": "alle",
+  "fallzahl": 75,
+  "notiz": "Baseline B0: 75 Fälle, Produktion (t + se, DBSF), mit Arm-Diagnose",
+  "pause_s": 0.0,
+  "premium": false,
+  "fallbasis": {
+    "hash": "adc76e82f310a2dd0eabdcd0e223a318c3642fe97aeecf460ba78359fa94c277",
+    "hash_auswahl": "adc76e82f310a2dd0eabdcd0e223a318c3642fe97aeecf460ba78359fa94c277",
+    "fallzahl": 75,
+    "stand": "2026-09-21T15:13:33"
+  },
+  "konfiguration": {
+    "DENSE_ARMS": [
+      "text"
+    ],
+    "SPARSE_ARMS": [
+      "sparse_expanded"
+    ],
+    "TOP_K": 8,
+    "CANDIDATE_LIMIT": 200,
+    "DEDUP_BUFFER": 4,
+    "MAX_PER_URL": 2,
+    "AUGMENT_TOP_N": 3,
+    "SPARSE_LANGUAGE": "german",
+    "COLLECTION_NAME": "hsh_knowledge",
+    "FUSION": "dbsf",
+    "RAG_CANDIDATE_K": 30,
+    "TOP_DOCS": 8,
+    "SELECT_N": 4,
+    "MAX_CONTEXT_TOKENS": 100000,
+    "points_count": 121134,
+    "git_commit": "2ea39a4",
+    "reranker_aktiv": false,
+    "keyword_boost": true,
+    "_wirksam": true
+  },
+  "laufzeit": {
+    "wall_clock_s": 330.6,
+    "gemessen_s": 330.0,
+    "geplante_pausen_s": 0.0,
+    "ungetrackt_s": 0.6,
+    "beendet": "2026-09-21T15:19:36"
+  }
+}

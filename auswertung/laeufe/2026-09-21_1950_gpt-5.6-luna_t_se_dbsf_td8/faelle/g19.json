@@ -1,0 +1,533 @@
+{
+  "fall": {
+    "id": "g19",
+    "case_type": "direct",
+    "question": "Was soll ich tun, wenn in meinem Gebäude ein Amoklauf gemeldet wird?",
+    "reference_answer": "Im Raum bleiben, die Tür verschließen oder verbarrikadieren und per Zuruf alarmieren.",
+    "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/sonstiges/einfuehrung-inarbeitssicherheit-und-gesundheitsschutzfuer-studierende-an-der-hsh-fakultaet-iv/raeumung-von-gebaeuden-im-gefahrfall",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Im Raum verbleiben"
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "mittel",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ verwaltung_service/vorgehen. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "c16ad6c2-2ab4-5f6d-b14d-c25ae533916e",
+      "3a3a7c29-e261-5b8e-b1de-2250b3b3eb45",
+      "6f2b67a2-1819-5ad6-b4f3-7c2189e427d6",
+      "e17a2cd0-c180-5d58-ba0b-69a77b148448",
+      "0545fc3b-cf50-5dea-b8eb-78f1b70a8df3",
+      "d384f8b6-45a9-5553-b931-f86e14d304d5",
+      "97031a2c-32cc-5255-8d02-c67e9fc8c5e1",
+      "e1a2c8e3-d37f-5782-9a93-35ab3c07d086"
+    ],
+    "beleg_punkte": [
+      "e17a2cd0-c180-5d58-ba0b-69a77b148448"
+    ],
+    "beleg_urls": [
+      "https://f4.hs-hannover.de/service/formulare-und-informationen/sonstiges/einfuehrung-inarbeitssicherheit-und-gesundheitsschutzfuer-studierende-an-der-hsh-fakultaet-iv/raeumung-von-gebaeuden-im-gefahrfall"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T19:57:45",
+  "dauer_s": 9.42,
+  "fehler": null,
+  "antwort": "Für Fakultät IV nennt das Dokument für den „Sonderfall: Verhaltensgrundsätzen bei extremen Gewalttaten“ folgende Maßnahmen:\n\n- „Im Raum verbleiben\" [1]\n- „Tür verschließen / verbarrikadieren\" [1]\n- „Alarmierung durch „Zuruf“ (Akustisches Signal nicht vorhanden)\" [1]",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "www › Gleichstellung › Gleichstellung PDF › EU Strategie fuer Gleichstellung von LGBTIQ Personen 2020 2025",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Gleichstellung/Gleichstellung_PDF/EU-Strategie_fuer_Gleichstellung_von_LGBTIQ-Personen_2020-2025.pdf",
+      "fakultaet": "",
+      "struktur": "  ## MITTEILUNG DER KOMMISSION AN DAS EUROPÄISCHE PARLAMENT, DEN RAT, DEN EUROPÄISCHEN WIRTSCHAFTS- UND SOZIALAUSSCHUSS UND DEN AUSSCHUSS DER REGIONEN\n  ## AUF DEM WEG ZUR GLEICHSTELLUNG VON LGBTIQ: IN DER EU MAN SELBST SEIN DÜRFEN\n  ## Ursula von der Leyen (Präsidentin der Europäischen Kommission) Rede zur Lage der Union 2020\n  ## 1. BEKÄMPFUNG DER DISKRIMINIERUNG VON LGBTIQ-PERSONEN\n  ## 1.1 Durchsetzung und Verbesserung des rechtlichen Schutzes vor Diskriminierung\n  ## 1.2 Förderung der Inklusion und Vielfalt am Arbeitsplatz\n  ## 1.3 Bekämpfung der Ungleichheit in Bildung, Gesundheit, Kultur und Sport\n  ## 1.4 Wahrung der Rechte von LGBTIQ, die internationalen Schutz beantragen\n  ## Schlüsselmaßnahmen der Europäischen Kommission:\n  ## Die Europäische Kommission wird die Mitgliedstaaten dabei unterstützen,\n  ## 2. GEWÄHRLEISTUNG DER SICHERHEIT VON LGBTIQ-PERSONEN\n  ## 2.1 Verstärkung des rechtlichen Schutzes von LGBTIQ-Personen vor Hassdelikten, Hetze und Gewalt\n  ## 2.2 Stärkung der Maßnahmen zur Bekämpfung von gegen LGBTIQ gerichtete Hetze und Desinformation\n  ## 2.3 Meldung von Hassdelikten gegen LGBTIQ und Austausch bewährter Verfahren\n  ## 2.4 Schutz und Förderung der körperlichen und geistigen Gesundheit von LGBTIQ-Personen\n  ## Schlüsselmaßnahmen der Europäischen Kommission:\n  ## Die Europäische Kommission wird die Mitgliedstaaten dabei unterstützen,\n  ## 3. AUFBAU VON GESELLSCHAFTEN, DIE LGBTIQ EINSCHLIEßEN\n  ## 3.1 Sicherstellen der Rechte von LGBTIQ-Personen in grenzüberschreitenden Fällen\n  ## 3.2 Verbesserung des rechtlichen Schutzes für Regenbogenfamilien in grenzüberschreitenden Situationen\n  ## 3.3 Verbesserung der Anerkennung von trans und nichtbinären Identitäten und von intersexuellen Personen\n  ## 3.4 Förderung eines positiven Umfelds für die Zivilgesellschaft\n  ## Schlüsselmaßnahmen der Europäischen Kommission:\n  ## 4. FÜHRUNGSROLLE BEI DER FORDERUNG NACH DER GLEICHSTELLUNG VON LGBTIQ IN DER GANZEN WELT\n  ## 4.1 Stärkung des Engagements der EU in Bezug auf Probleme von LGBTIQ in all ihren Außenbeziehungen\n  ## Schlüsselmaßnahmen der Europäischen Kommission:\n  ## 5. UMSETZUNG DER STRATEGIE: UMFASSENDE NUTZUNG DER EUINITIATIVEN\n  ## Schlüsselmaßnahmen der Europäischen Kommission:\n  ## Die Europäische Kommission wird die Mitgliedstaaten dabei unterstützen,\n  ## 6. FAZIT: ZUSAMMENARBEIT FÜR DIE GLEICHSTELLUNG VON LGBTIQ"
+    },
+    {
+      "nr": 2,
+      "titel": "www › Verkuendungsblatt › 06 2002 › Verkuendungsblatt 06 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/06-2002/Verkuendungsblatt_06_2002.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Verkündungsblatt\n  ## Inhalt:\n  ## Richtlinien zur Sicherung guter wissenschaftlicher Praxis und zum Umgang mit wissenschaftlichem Fehlverhalten an der Fachhochschule Hannover\n  ## 1. Allgemeine Zielsetzung, Grundlagen\n  ## 2. Verpflichtung zu guter wissenschaftlicher Praxis\n  ## a) Allgemeines\n  ## b) Spezielle Anforderungen\n  ## 3. Wissenschaftliches Fehlverhalten\n  ## b) Verletzung geistigen Eigentums\n  ## 4. Regelung zur Aufklärung wissenschaftlichen Fehlverhaltens\n  ## a) Ombudspersonen\n  ## b) Kommission\n  ## 5. Verfahren bei Verdacht auf wissenschaftliches Fehlverhalten\n  ## 6. Sanktionen\n  ## 7. In-Kraft-Treten\n  ## Geschäftsordnung für Sitzungen des Präsidiums der Fachhochschule Hannover\n  ## § 1: Einberufung, Termine, Beschlussfähigkeit, Vertretung\n  ## § 2: Beratung und Beschlussfassung\n  ## § 4: Sitzungsniederschrift\n  ## § 5: Inkrafttreten\n  ## Brandschutzordnung\n  ## der\n  ## Fachhochschule Hannover\n  ## 0   Allgemeines\n  ## 2.1 Brandverhütung\n  ## 2.2 Brand- und Rauchausbreitung\n  ## 4   Schlussbestimmungen\n  ## 0     Allgemeines\n  ## 1    Brandschutzordnung Teil A\n  ## 2    Brandschutzordnung Teil B\n  ## 2.1  Brandverhütung\n  ## Rauchverbote und Verbot von offenem Licht\n  ## Lagerung und Verwendung von feuergefährlichen und explosionsgefährlichen Stoffen, insbesondere leicht brennbaren Flüssigkeiten\n  ## Entsorgung von Abfällen\n  ## Allgemeiner Umgang mit elektrischen Betriebsmitteln\n  ## Betrieb von elektrischen Haushaltsgeräten\n  ## Meldung von Schäden und kleinen Brandereignissen\n  ## Feuergefährliche Arbeiten\n  ## Parkende Fahrzeuge im Gebäude\n  ## Ausstellungen im Design-Center\n  ## 2.2  Brand- und Rauchausbreitung\n  ## Brand- und Rauchabschnittstüren\n  ## Installationsschachttüren und Elektroverteiler\n  ## 2.3  Flucht- und Rettungswege\n  ## Rettungswege\n  ## Kenntnis über Rettungswege\n  ## 2.4  Melde und Löscheinrichtungen\n  ## Meldeeinrichtungen\n  ## Löscheinrichtungen\n  ## Freihalten aller Einrichtungen"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 07 2010 › 07 Brandschutzordnung — Brandschutzordnung Der Fachhochschule Hannover (FHH)",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/07_Brandschutzordnung.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Brandschutzordnung Der Fachhochschule Hannover (FHH)\n  ## 0     Geltungsbereich\n  ## 1    Brandschutzordnung Teil A\n  ## 2    Brandschutzordnung Teil B\n  ## 2.1  Brandverhütung\n  ## Rauchverbote und Verbot von offenem Licht\n  ## Umgang mit feuergefährlichen und explosionsgefährlichen Stoffen, insbesondere leicht brennbaren Flüssigkeiten\n  ## Entsorgung von Abfällen\n  ## Betrieb von elektrischen Geräten\n  ## Meldung von Schäden und kleinen Brandereignissen\n  ## Feuergefährliche Arbeiten\n  ## Parkende Fahrzeuge im Gebäude\n  ## Ausstellungen und Veranstaltungen\n  ## 2.2  Brand- und Rauchausbreitung\n  ## Brand- und Rauchschutztüren\n  ## In keinem Fall dürfen derartige Türen aufgekeilt, festgebunden oder mit Gegenständen verstellt werden. Türschließmechanismen dürfen nicht ausgehängt, verändert oder beschädigt werden.\n  ## Installationsschachttüren und Elektroverteiler\n  ## 2.3  Flucht- und Rettungswege\n  ## Flucht und Rettungswege\n  ## Kenntnis über Rettungswege\n  ## 2.4  Melde und Löscheinrichtungen\n  ## Meldeeinrichtungen\n  ## Löscheinrichtungen\n  ## Freihalten aller Einrichtungen\n  ## 2.5.  Verhalten im Brandfall\n  ## Bewahren Sie Ruhe. Handeln Sie überlegt. Personenschutz geht immer vor Sachschutz.\n  ## Brand melden\n  ## Alarmsignale und Anweisungen beachten\n  ## In Sicherheit bringen\n  ## Sammelplätze\n  ## Löschversuche unternehmen\n  ## Achtung:\n  ## Besondere Verhaltensregeln\n  ## 2.6  Verhaltensregeln nach dem Brand\n  ## 3    Brandschutzordnung Teil C\n  ## Brandschutzhelfer\n  ## 4    Schlussbestimmungen\n  ## Verhalten im Brandfall Ruhe bewahren\n  ## 1. Brand melden\n  ## 2. In Sicherheit bringen\n  ## 3. Löschversuch unternehmen\n  ## Alarmplan\n  ## Wichtige Hinweise für den Notfall\n  ## Weitere interne Rufnummern\n  ## Anhang 3 Erlaubnisschein für Heißarbeiten\n  ## Erlaubnisschein\n  ## Für Schweißen, Schneiden und verwandte Verfahren\n  ## Mindestanforderungen an den Brandschutz bei Veranstaltungen"
+    },
+    {
+      "nr": 4,
+      "titel": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "fakultaet": "f1",
+      "struktur": "# Erstsemesterinformation 27.02.2026\n  ## Zahlen und Daten zur Hochschule:\n  ## Standorte\n  ## Fünf Bachelorstudiengänge\n  ## ▪ Mechatronik (MEC)\n  ## Konsekutive Masterstudiengänge der Fakultät\n  ## Veranstaltungstypen\n  ## Vorlesungszeiten\n  ## Mensazeiten\n  ## Starter-Kit\n  ## ▪ Taschenrechner (nicht programmierbar)\n  ## Rechtliche Informationen\n  ## 1. HsH-Emailadresse ist offizielle Post\n  ## 2. Umgang mit Materialien und Medien\n  ## Informationen zur Campuscard und Öffi-Ticket etc.\n  ## Materialien in Moodle Online-Kurse zu den Vorlesungen\n  ## Erreichbarkeit/Kommunikation von/mit Lehrenden ProfessorInnen, Lehrbeauftragte, MitarbeiterInnen\n  ## Wahl der Stundenpläne / Start-ING EIT MEC EWI\n  ## Vorlesungszeiten Seminargruppe Z1 Stdg. Elektrotechnik und Informationstechnik\n  ## Vorlesungszeiten Seminargruppe N1 Stdg. Nachhaltige Elektrische Energieversorgung (NEV)\n  ## Vorlesungszeiten Seminargruppe M1 Stdg. Mechatronik\n  ## Wahl eines Start-ING Kurses\n  ## Für das Modul Start-ING besteht Anwesenheitspflicht .\n  ## Vorlesungszeiten Seminargruppe R2 Stdg. Technisches Informationsdesign und Technische Redaktion\n  ## Orientierung im Gebäude Ricklinger Stadtweg 120\n  ## Orientierung im Gebäude Bismarckstraße\n  ## Informationen zu Arbeitssicherheit und Gesundheitsschutz\n  ## ▪ Versicherungsschutz bei Unfällen\n  ## ▪ Mutterschutz\n  ## ▪ Medizinische Notfälle, Erste-Hilfe\n  ## ▪ Räumung von Gebäuden im Gefahrfall\n  ## Versicherungsschutz bei Unfällen Wer und was ist versichert?\n  ## Versicherungsschutz bei Unfällen Was ist nicht versichert?\n  ## ▪ private Studienfahrten\n  ## ▪ private Aktivitäten auf dem Gelände der Hochschule\n  ## Versicherungsschutz bei Unfällen Informationen - LUKN\n  ## ➢ Weitere Informationen erhalten Sie im Internet\n  ## Versicherungsschutz bei Unfällen Unfallmeldung\n  ## Versicherungsschutz bei Unfällen Unfallmeldung - Unfallanzeige\n  ## ▪ Weitere Informationen erhalten Sie bei Ihren Ansprechpersonen in der Studierendenverwaltung, Dezernat III\n  ## Mutterschutz\n  ## ▪ Weitere Informationen erhalten Sie bei den Ansprechpersonen des Familienservice\n  ## Medizinische Notfälle – Erste Hilfe Erste-Hilfe-Plakate, Notfallplan/Notrufnummern in den Gebäuden der HsH\n  ## Meldung von Notfällen Notrufnummern, Notrufmeldung\n  ## Medizinische Notfälle\n  ## Feuer\n  ## Bei VoIP-Telefonen keine Vorwahl der „00“ !\n  ## Medizinische Notfälle – Erste Hilfe\n  ## Kennzeichnung, Standorte – Defibrillatoren, Erste Hilfe Material\n  ## Medizinische Notfälle – Erste Hilfe"
+    },
+    {
+      "nr": 5,
+      "titel": "Räumung von Gebäuden im Gefahrfall",
+      "url": "https://f4.hs-hannover.de/service/formulare-und-informationen/sonstiges/einfuehrung-inarbeitssicherheit-und-gesundheitsschutzfuer-studierende-an-der-hsh-fakultaet-iv/raeumung-von-gebaeuden-im-gefahrfall",
+      "fakultaet": "f4",
+      "struktur": "# Räumung von Gebäuden im Gefahrfall\n  ## Alarmierungskette\n  ## Sonderfall: Verhaltensgrundsätzen bei extremen Gewalttaten\n  ## Alarmierungs- und Räumungssignale\n  ## Alarmierung (Brandfall)\n  ## Räumung"
+    },
+    {
+      "nr": 6,
+      "titel": "www › forschungsfinder forschungsprojekte › forschungsprojekte uebersicht › teilautomatisiertes threat hunting mit graph neural networks fuer automatisierungsumgebungen graphwatch — Projektbeschreibung",
+      "url": "https://www.hs-hannover.de/forschung/forschungsfinder-forschungsprojekte/forschungsprojekte-uebersicht/teilautomatisiertes-threat-hunting-mit-graph-neural-networks-fuer-automatisierungsumgebungen-graphwatch",
+      "fakultaet": "",
+      "struktur": "  ## Projektbeschreibung\n  ## GraphWatch - Teilautomatisiertes Threat Hunting mit Graph Neural Networks für Automatisierungsumgebungen"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Verkuendungsblatt › 12 2018 › 05 MeldeRichtli — 1. Einleitung",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/05-MeldeRichtli.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Richtlinie\n  ## Behandlung von Informationssicherheits- und Datenschutzvorfällen an der Hochschule Hannover (Melderichtlinie)\n  ## 1. Einleitung\n  ## 2. Geltungsbereich\n  ## 3. Definition\n  ## 4. Festlegung der Verantwortung\n  ## 5. Sanktionen\n  ## 6. Planung\n  ## 7. Erkennen von IS-Vorfällen\n  ## 8. Meldung von IS-Vorfällen an interne Stellen\n  ## 9. Meldung von IS-Vorfällen an externe Stellen\n  ## 10. Reaktion auf IS-Vorfälle\n  ## 11. Überprüfung der Richtlinie\n  ## 12. Zweckbindung und Vertraulichkeit des Verfahrens\n  ## 13. Ausnahmeregelung\n  ## 14. Inkrafttreten"
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › service › raumbuchungen — Informationen",
+      "url": "https://f5.hs-hannover.de/service/raumbuchungen",
+      "fakultaet": "f5",
+      "struktur": "# Raumbuchungsformular\n  ## Informationen"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 5,
+      "titel": "Räumung von Gebäuden im Gefahrfall",
+      "url": "https://f4.hs-hannover.de/service/formulare-und-informationen/sonstiges/einfuehrung-inarbeitssicherheit-und-gesundheitsschutzfuer-studierende-an-der-hsh-fakultaet-iv/raeumung-von-gebaeuden-im-gefahrfall"
+    },
+    {
+      "nr": 4,
+      "titel": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "www › Verkuendungsblatt › 07 2010 › 07 Brandschutzordnung — Brandschutzordnung Der Fachhochschule Hannover (FHH)",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/07_Brandschutzordnung.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "www › Verkuendungsblatt › 06 2002 › Verkuendungsblatt 06 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/06-2002/Verkuendungsblatt_06_2002.pdf"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Räumung von Gebäuden im Gefahrfall",
+      "url": "https://f4.hs-hannover.de/service/formulare-und-informationen/sonstiges/einfuehrung-inarbeitssicherheit-und-gesundheitsschutzfuer-studierende-an-der-hsh-fakultaet-iv/raeumung-von-gebaeuden-im-gefahrfall",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Räumung von Gebäuden im Gefahrfall",
+      "snippets": [
+        "## Sonderfall: Verhaltensgrundsätzen bei extremen Gewalttaten\n* Im Raum verbleiben\n* Tür verschließen / verbarrikadieren\n* Alarmierung durch „Zuruf“ (Akustisches Signal nicht vorhanden)"
+      ],
+      "zitate": [
+        "Im Raum verbleiben",
+        "Tür verschließen / verbarrikadieren",
+        "Zuruf“ (Akustisches Signal nicht vorhanden)"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "crawl_date": "2026-08-05",
+      "fremde_fundstellen": [],
+      "abschnitt": "Erstsemesterinformation 27.02.2026 > **Räumung von Gebäuden im Gefahrfall** > Erstsemesterinformation 27.02.2026 > **Alarm / Alarmierung**",
+      "snippets": [
+        "## **Räumung von Gebäuden im Gefahrfall**\n\n## **Alarm / Alarmierung**  \n1. ALARMIEREN  \n2. GEBÄUDE VERLASSEN  \n3. SAMMELN",
+        "## **Räumung von Gebäuden im Gefahrfall Alarmierungs- und Räumungssignale**  \n1. Alarmieren / Alarm 2. Gebäude verlassen 3. Sammeln\nAlarm-/Räumungssignal, Fakultät I und II, Campus Linden (Brandmeldeanlage)\nAlarm-/Räumungssignal Sirene Megafon  \nHochschule Hannover _Dekan Prof. Dr.-Ing. Frank Freund_ Erstsemesterinformation 01.03.2024  \nSeite 38"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 07 2010 › 07 Brandschutzordnung — Brandschutzordnung Der Fachhochschule Hannover (FHH)",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/07_Brandschutzordnung.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/06-2002/Verkuendungsblatt_06_2002.pdf"
+      ],
+      "abschnitt": "**Alarmsignale und Anweisungen beachten**",
+      "snippets": [
+        "In allen Liegenschaften, in denen ein Pförtner beschäftigt ist, sollte auch dieser benachrichtigt werden.  \nAnschließend müssen zwei Personen abgestellt werden, die die Einsatzfahrzeuge der Feuerwehr an der nächstgelegenen Zufahrt und an der Brandmeldezentrale erwarten und sie einweisen.  \nBrandschutzordnung der Fachhochschule Hannover (FHH)  \nVerkündungsblatt der FHH  \nNr. 7/2010 vom 18.11.2010\n\n## **Alarmsignale und Anweisungen beachten**  \n- Die Alarmierung im Brandfalle erfolgt in den Gebäuden der Fakultäten III und IV, der Bibliothek in Ricklingen und in der Blumhardstraße mittels eines Signaltons. In einigen Räumen gibt es zusätzliche Blitzleuchten. Die Signale stellen eine unverzügliche Aufforderung zum Verlassen des Gebäudes dar.  \n- In den Liegenschaften, in denen bereits Brandschutzhelfer ausgebildet wurden, gehen die Brandschutzhelfer zusätzlich durch die Gebäude und fordern zum Verlassen der Räumlichkeiten auf. Den Anweisungen der Brandschutzhelfer ist Folge zu leisten. Erkennen kann man die Brandschutzhelfer an den Armbinden.  \n- Die Leitung auf der Brandstelle hat zunächst die Leitung der betroffenen Einrichtung . Mit dem Eintreffen der Feuerwehr übernimmt die Feuerwehr die Leitung. Deren Anweisungen sind zu befolgen.  \n(Hinweis: Probefeueralarme in Zusammenhang mit Räumungsübungen werden im Vorfeld bekannt gegeben.)",
+        "## **In Sicherheit bringen**  \n- Verlassen Sie das Gebäude über die gekennzeichneten Fluchtwege.  \n- Aufzüge dürfen nicht benutzt werden.  \n- Schließen Sie Türen hinter sich, damit die Ausbreitung von Feuer- und Rauch vermieden wird.  \n- Informieren Sie umstehenden Personen durch Zurufen.  \n- Nehmen sie hilfsbedürftige Personen wie Verletzte und Gehbehinderte mit.  \n- Bei Rauchentwicklung den Bereich gebückt oder kriechend verlassen, da in Bodennähe die Sicht und die Luft besser ist.  \n- Wenn Flure und Treppenhäuser unpassierbar sind schließen Sie die Tür und machen sich am Fenster deutlich bemerkbar durch Rufen, Tuchschwenken etc. und warten Sie auf Hilfe.  \n- Nach Verlassen des Gebäudes teilen Sie der Leitung an der Brandstelle (wenn keine vorhanden ist den Brandschutzhelfern) eventuelle Besonderheiten mit, z.B. zurück gebliebene Personen, kritische Versuchsaufbauten, etc."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "www › Verkuendungsblatt › 06 2002 › Verkuendungsblatt 06 2002 — Verkündungsblatt",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/06-2002/Verkuendungsblatt_06_2002.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Alarmsignale beachten**",
+      "snippets": [
+        "## **2.5 Verhalten im Brandfall**  \nKleine Brände sofort löschen. Bestehen Zweifel, ob der Kleinbrand gelöscht werden kann oder besteht eine Gefährdung von Personen, dann ist wie folgt zu verfahren:  \nBrand melden  \n**Feuermelder betätigen** : Scheibe einschlagen und Druckknopf fest drücken.  \noder  \n**Telefon** benutzen       (00)112* **Wer meldet?** Name, Standort, Telefonnummer **Was ist passiert** ?  Feuer, Unfall, Anzahl verletzter Personen **Wo ist es passiert?** Genaue Bezeichnung des Brandortes/Notfallortes **Warten** , bis das Gespräch vom Angerufenen beendet wird (Rückfragen!)  \nStellen Sie eine Person ab, die die Einsatzfahrzeuge der Feuerwehr auf der Straße erwartet und sie einweist.  \n* In Nienburg wird zur Amtsholung an Stelle der 00 die R-Taste gedrückt.\n\n## **Alarmsignale beachten**  \n- **Feueralarme sind unbedingt zu beachten.**  \n- Geräte, die an das Stromnetz angeschlossen sind, sofort ausschalten.  \n- Fenster und Türen schließen  \n(Hinweis: Probefeueralarme in Zusammenhang mit Räumungsübungen werden im Vorfeld bekannt gegeben.)\n\n## **In Sicherheit bringen**  \n- Verlassen Sie das Gebäude über die gekennzeichneten Fluchtwege. Aufzüge dürfen nicht benutzt werden.  \n- Schließen Sie Türen hinter sich, damit die Ausbreitung von Feuer- und Rauch vermieden wird.  \n- Informieren Sie umstehenden Personen durch Zurufen.  \n- Nehmen sie hilfsbedürftige Personen wie Verletzte und Rollstuhlfahrer mit.  \n**Brandschutzordnung der FHH**  \nNr. 6 vom 12.12.2002           Verkündungsblatt der Fachhochschule Hannover `15`  \n- Versammeln Sie sich in der Nähe des Notausgangs in gebührendem Abstand vom Gebäude. Vergewissern Sie sich, dass alle Personen anwesend sind, mit denen sie gerade zusammen gearbeitet oder studiert haben.",
+        "## **In Sicherheit bringen**  \n- Verlassen Sie das Gebäude über die gekennzeichneten Fluchtwege. Aufzüge dürfen nicht benutzt werden.  \n- Schließen Sie Türen hinter sich, damit die Ausbreitung von Feuer- und Rauch vermieden wird.  \n- Informieren Sie umstehenden Personen durch Zurufen.  \n- Nehmen sie hilfsbedürftige Personen wie Verletzte und Rollstuhlfahrer mit.  \n**Brandschutzordnung der FHH**  \nNr. 6 vom 12.12.2002           Verkündungsblatt der Fachhochschule Hannover `15`  \n- Versammeln Sie sich in der Nähe des Notausgangs in gebührendem Abstand vom Gebäude. Vergewissern Sie sich, dass alle Personen anwesend sind, mit denen sie gerade zusammen gearbeitet oder studiert haben."
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 2.56952,
+      "id": "71e53be2-eb73-5176-87fd-0ad4f8b56070",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Gleichstellung/Gleichstellung_PDF/EU-Strategie_fuer_Gleichstellung_von_LGBTIQ-Personen_2020-2025.pdf",
+      "title_anzeige": "www › Gleichstellung › Gleichstellung PDF › EU Strategie fuer Gleichstellung von LGBTIQ Personen 2020 2025",
+      "section_heading": "**2. GEWÄHRLEISTUNG DER SICHERHEIT VON LGBTIQ-PERSONEN**",
+      "chunk_index": 65,
+      "text_vollstaendig": true,
+      "auszug": "Jede Person hat das Recht auf Sicherheit, sei es zu Hause, in der Öffentlichkeit oder im Internet. LGBTIQ-Personen sind unverhältnismäßig stark von Hassdelikten, Hetze und Gewalt betroffen.[46] Die Kommission hat im Jahr 2016 mit IT-Unternehmen einen freiwilligen Verhaltenskodex zur Bekämpfung von H"
+    },
+    {
+      "rang": 2,
+      "score": 2.2426,
+      "id": "fb3d7751-a82e-5767-8709-57de3edd4309",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/06-2002/Verkuendungsblatt_06_2002.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2002 › Verkuendungsblatt 06 2002 — Verkündungsblatt",
+      "section_heading": "**Alarmsignale beachten**",
+      "chunk_index": 51,
+      "text_vollstaendig": true,
+      "auszug": "## **2.5 Verhalten im Brandfall**  \nKleine Brände sofort löschen. Bestehen Zweifel, ob der Kleinbrand gelöscht werden kann oder besteht eine Gefährdung von Personen, dann ist wie folgt zu verfahren:  \nBrand melden  \n**Feuermelder betätigen** : Scheibe einschlagen und Druckknopf fest drücken.  \noder "
+    },
+    {
+      "rang": 3,
+      "score": 1.44721,
+      "id": "145736ec-ad04-56b1-a917-1b411701978d",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/07_Brandschutzordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2010 › 07 Brandschutzordnung — Brandschutzordnung Der Fachhochschule Hannover (FHH)",
+      "section_heading": "**Alarmsignale und Anweisungen beachten**",
+      "chunk_index": 27,
+      "text_vollstaendig": false,
+      "auszug": "In allen Liegenschaften, in denen ein Pförtner beschäftigt ist, sollte auch dieser benachrichtigt werden.  \nAnschließend müssen zwei Personen abgestellt werden, die die Einsatzfahrzeuge der Feuerwehr an der nächstgelegenen Zufahrt und an der Brandmeldezentrale erwarten und sie einweisen.  \nBrandschu"
+    },
+    {
+      "rang": 4,
+      "score": 1.42157,
+      "id": "0728e575-d9fe-5c9e-8eed-814e53361b01",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2010/07-2010/07_Brandschutzordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 07 2010 › 07 Brandschutzordnung — Brandschutzordnung Der Fachhochschule Hannover (FHH)",
+      "section_heading": "**In Sicherheit bringen**",
+      "chunk_index": 28,
+      "text_vollstaendig": false,
+      "auszug": "## **In Sicherheit bringen**  \n- Verlassen Sie das Gebäude über die gekennzeichneten Fluchtwege.  \n- Aufzüge dürfen nicht benutzt werden.  \n- Schließen Sie Türen hinter sich, damit die Ausbreitung von Feuer- und Rauch vermieden wird.  \n- Informieren Sie umstehenden Personen durch Zurufen.  \n- Nehmen"
+    },
+    {
+      "rang": 5,
+      "score": 1.36477,
+      "id": "edab444e-7781-5a52-9542-c2e73eb0acff",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > **Räumung von Gebäuden im Gefahrfall** > Erstsemesterinformation 27.02.2026 > **Alarm / Alarmierung**",
+      "chunk_index": 39,
+      "text_vollstaendig": true,
+      "auszug": "## **Räumung von Gebäuden im Gefahrfall**\n\n## **Alarm / Alarmierung**  \n1. ALARMIEREN  \n2. GEBÄUDE VERLASSEN  \n3. SAMMELN"
+    },
+    {
+      "rang": 6,
+      "score": 1.33453,
+      "id": "3a3a7c29-e261-5b8e-b1de-2250b3b3eb45",
+      "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/sonstiges/einfuehrung-inarbeitssicherheit-und-gesundheitsschutzfuer-studierende-an-der-hsh-fakultaet-iv/raeumung-von-gebaeuden-im-gefahrfall",
+      "title_anzeige": "Räumung von Gebäuden im Gefahrfall",
+      "section_heading": "Räumung von Gebäuden im Gefahrfall",
+      "chunk_index": 1,
+      "text_vollstaendig": true,
+      "auszug": "#  Räumung von Gebäuden im Gefahrfall  \n(Alarmierung, Fluchtwege, Sammelstellen)"
+    },
+    {
+      "rang": 7,
+      "score": 1.31674,
+      "id": "817ff473-4022-5289-8284-9ae1b000865a",
+      "source_url": "https://www.hs-hannover.de/forschung/forschungsfinder-forschungsprojekte/forschungsprojekte-uebersicht/teilautomatisiertes-threat-hunting-mit-graph-neural-networks-fuer-automatisierungsumgebungen-graphwatch",
+      "title_anzeige": "www › forschungsfinder forschungsprojekte › forschungsprojekte uebersicht › teilautomatisiertes threat hunting mit graph neural networks fuer automatisierungsumgebungen graphwatch — Projektbeschreibung",
+      "section_heading": "Projektbeschreibung",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "Angriff, insbesondere bei besonders gefährlichen und langanhaltenden Angriffen, die aus mehreren Teilschritten bestehen. Die vom gelernten Verhalten abweichenden Elemente der Graphen können an den Sicherheitsbeauftragten gemeldet werden, der diese detailliert untersuchen und ggfs. erforderliche weit"
+    },
+    {
+      "rang": 8,
+      "score": 1.31156,
+      "id": "dbf6c215-ad88-510f-af27-bd7c046ea9cf",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2002/06-2002/Verkuendungsblatt_06_2002.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2002 › Verkuendungsblatt 06 2002 — Verkündungsblatt",
+      "section_heading": "**In Sicherheit bringen**",
+      "chunk_index": 52,
+      "text_vollstaendig": true,
+      "auszug": "## **In Sicherheit bringen**  \n- Verlassen Sie das Gebäude über die gekennzeichneten Fluchtwege. Aufzüge dürfen nicht benutzt werden.  \n- Schließen Sie Türen hinter sich, damit die Ausbreitung von Feuer- und Rauch vermieden wird.  \n- Informieren Sie umstehenden Personen durch Zurufen.  \n- Nehmen sie"
+    },
+    {
+      "rang": 9,
+      "score": 1.27114,
+      "id": "90389465-9475-588a-93f6-2c5bff8b83f5",
+      "source_url": "https://f1.hs-hannover.de/fileadmin/HsH/Fakultaet_I/20_Dokumente/30_Zeitplaene/Erstsemester/Erstsemester_SoSe26_Entwurf.pdf",
+      "title_anzeige": "f1 › 30 Zeitplaene › Erstsemester › Erstsemester SoSe26 Entwurf — Erstsemesterinformation 27.02.2026",
+      "section_heading": "Erstsemesterinformation 27.02.2026 > **Räumung von Gebäuden im Gefahrfall Alarmierungs- und Räumungssignale**",
+      "chunk_index": 41,
+      "text_vollstaendig": true,
+      "auszug": "## **Räumung von Gebäuden im Gefahrfall Alarmierungs- und Räumungssignale**  \n1. Alarmieren / Alarm 2. Gebäude verlassen 3. Sammeln\nAlarm-/Räumungssignal, Fakultät I und II, Campus Linden (Brandmeldeanlage)\nAlarm-/Räumungssignal Sirene Megafon  \nHochschule Hannover _Dekan Prof. Dr.-Ing. Frank Freund"
+    },
+    {
+      "rang": 10,
+      "score": 1.16607,
+      "id": "6e45e3d8-7b11-5451-ab81-b44cdcc5786b",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/05-MeldeRichtli.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2018 › 05 MeldeRichtli — 1. Einleitung",
+      "section_heading": "**9. Meldung von IS-Vorfällen an externe Stellen**",
+      "chunk_index": 17,
+      "text_vollstaendig": false,
+      "auszug": "## **9. Meldung von IS-Vorfällen an externe Stellen**  \nExterne Stellen sind Aufsichts- und Strafverfolgungsbehörden, andere öffentliche Stellen oder Verbände. Die Meldung an externe Stellen und die Kommunikation mit den Stellen erfolgt ausschließlich durch die Hochschulleitung oder eine von ihr bea"
+    },
+    {
+      "rang": 11,
+      "score": 1.09896,
+      "id": "b265fc20-27e8-55ae-874e-0c93873927a3",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2018/12-2018/05-MeldeRichtli.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 12 2018 › 05 MeldeRichtli — 1. Einleitung",
+      "section_heading": "**8. Meldung von IS-Vorfällen an interne Stellen**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **8. Meldung von IS-Vorfällen an interne Stellen**  \nIS-Vorfälle sind durch die den Vorfall feststellenden Person generell und sofort bei Bekanntwerden der für das jeweilige informationsverarbeitende Verfahren verantwortlichen Stelle zu melden. Im Zweifel wird der Vorfall dem IT-Service-Desk geme"
+    },
+    {
+      "rang": 12,
+      "score": 1.07439,
+      "id": "9101e987-777e-5464-a964-b7f865363920",
+      "source_url": "https://f5.hs-hannover.de/service/raumbuchungen",
+      "title_anzeige": "f5 › service › raumbuchungen — Informationen",
+      "section_heading": "Raumbuchungsformular > Informationen",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "[Zurück](javascript:history.back\\(\\); \"Zurück\")\n# Raumbuchungsformular  \n## Informationen\n* Unten stehendes Formular ist nur für **Interne**\n(Lehrende, Lehrbeauftragte, Mitarbeitende, studentische Gremien etc.)\n* Für Raumbuchungen in den [Öffnungszeiten der Gebäude](https://f5.hs-hannover.de/ueber-u"
+    },
+    {
+      "rang": 13,
+      "score": 1.04188,
+      "id": "39135893-91f3-59fe-a632-95836e3eca07",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20210518_Protokoll_28.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "title_anzeige": "www › Finanzmanagement › Studienqualitaetsmittel › 20210518 Protokoll 28.Sitzung Senatskommission Studienqualitaetsmittel",
+      "section_heading": "6.7 D5 (Herr Hellmich), Unterstützung von Prüfungsangeboten in den Poolräumen der Hochschul-IT, SoSe 2021 – SoSe 2023, 63.000,00 EUR (Anlage 9)",
+      "chunk_index": 24,
+      "text_vollstaendig": false,
+      "auszug": "Herr Huck stellt klar, dass seitens der Fakultät II kein zusätzlicher Bedarf gemeldet wurde und erkundigt sich, ob dies aus anderen Fakultäten der Fall war, da er in der Vorwoche von seinem Dekan hiernach gefragt wurde. Herr Hellmich erklärt, dass er am Tag der Sitzung ein längeres Telefonat mit Her"
+    },
+    {
+      "rang": 14,
+      "score": 0.96088,
+      "id": "269ca544-244d-5cbf-9596-45dbd28b64fb",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/Netzwerke_-_Romppel.pdf",
+      "title_anzeige": "f5 › Personen › Romppel › Netzwerke Romppel",
+      "section_heading": "5. ERGEBNISSE DER PRAXISFORSCHUNG",
+      "chunk_index": 369,
+      "text_vollstaendig": true,
+      "auszug": "## 5. ERGEBNISSE DER PRAXISFORSCHUNG  \nwicklung Vahrenheides reagiert werden, die eine nahezu unveränderte Sozialstruktur der Bewohnerschaft ergab, mit gehäuften Problemen durch Arbeitslosigkeit, Armut und verdichteten Wohnformen. Das fehlende Engagement von Erwachsenen, deren mangelnde Beteiligung,"
+    },
+    {
+      "rang": 15,
+      "score": 0.93155,
+      "id": "78488fe9-46e9-5e4b-9c52-253960e1dead",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2016.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2016 — Hochschule Hannover",
+      "section_heading": "**Planung und Entwicklung von Bauvorhaben**",
+      "chunk_index": 135,
+      "text_vollstaendig": true,
+      "auszug": "Außerdem haben am Standort Linden Konzeptgespräche und Untersuchungen für ein neues Brandschutzkonzept mit neuer Brandmeldezentrale (BMZ) sowie unabhängig davon die Bestandsuntersuchung der Wärmeversorgungsanlagen und der Elektroversorgung der Liegenschaft Campus Linden stattgefunden.  \nFür die in 2"
+    },
+    {
+      "rang": 16,
+      "score": 0.91781,
+      "id": "0545fc3b-cf50-5dea-b8eb-78f1b70a8df3",
+      "source_url": "https://f4.hs-hannover.de/service/formulare-und-informationen/sonstiges/einfuehrung-inarbeitssicherheit-und-gesundheitsschutzfuer-studierende-an-der-hsh-fakultaet-iv/raeumung-von-gebaeuden-im-gefahrfall",
+      "title_anzeige": "Räumung von Gebäuden im Gefahrfall",
+      "section_heading": "Räumung von Gebäuden im Gefahrfall > Alarmierungs- und Räumungssignale",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Alarmierungs- und Räumungssignale\nAlarmierung erfolgt durch:\n* Akustische Signalgeber (Hupen, Sirenen, Fanfaren etc.)\n* Optische Alarmierungsmittel\n* Telefonanlagen\n* Megaphone\n* Zuruf („Feuer, Feuer, Feuer, …“)"
+    },
+    {
+      "rang": 17,
+      "score": 0.9096,
+      "id": "666973bb-467b-5d3b-bd7f-5c83beaaccbc",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/Organisation/Praesidiumsbuero_und_Hochschulplanung/HinSchG.pdf",
+      "title_anzeige": "www › Organisation › Praesidiumsbuero und Hochschulplanung › HinSchG — Teil I",
+      "section_heading": "**Gesetz für einen besseren Schutz hinweisgebender Personen sowie zur Umsetzung der Richtlinie zum Schutz von Personen, die Verstöße gegen das Unionsrecht melden** * > **§ 17** > **Gesetz für einen besseren Schutz hinweisgebender Personen sowie zur Umsetzung der Richtlinie zum Schutz von Personen, die Verstöße gegen das Unionsrecht melden** * > **Verfahren bei internen Meldungen**",
+      "chunk_index": 55,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 17**\n## **Verfahren bei internen Meldungen**  \n(1) Die interne Meldestelle  \n1. bestätigt der hinweisgebenden Person den Eingang einer Meldung spätestens nach sieben Tagen,  \n2. prüft, ob der gemeldete Verstoß in den sachlichen Anwendungsbereich nach § 2 fällt,  \n3. hält mit der hinweisgebend"
+    },
+    {
+      "rang": 18,
+      "score": 0.89446,
+      "id": "b9708f91-1e49-5235-b633-2c276c9ea2d4",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/Ueber_Uns/Initiativen/INFluencers/26-07-18-INFluencers-Hello-Robot-Python.pdf",
+      "title_anzeige": "f4 › Initiativen › INFluencers › 26 07 18 INFluencers Hello Robot Python — Die INFluencers",
+      "section_heading": "Workshop: Roboter in Bewegung setzen mit Python",
+      "chunk_index": 1,
+      "text_vollstaendig": false,
+      "auszug": "## Workshop: Roboter in Bewegung setzen mit Python  \nfür Mädchen 13 – 15 Jahre am 18.07.26 von 11:00 – 15:30 Uhr  \nDieser Roboter braucht dich!  \nErst mit deinem Code weiß er, was er tun soll: Fahren? Anhalten? Hindernissen ausweichen?  \nIn unserem Workshop bekommst du einen Einblick in die Welt des"
+    },
+    {
+      "rang": 19,
+      "score": 0.87587,
+      "id": "386ca61a-e403-5e75-bdc4-5f207467bde1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/04-2016/HsH_Verkuendungsblatt_04_2016.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2016 › HsH Verkuendungsblatt 04 2016 — Ausgabe 04/2016",
+      "section_heading": "**§ 10** > **Verhalten bei Sachbeschädigung, Diebstählen und Einbrüchen**",
+      "chunk_index": 16,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 10**\n\n## **Verhalten bei Sachbeschädigung, Diebstählen und Einbrüchen**  \nStraftaten, insbesondere Sachbeschädigungen, Diebstähle und Einbrüche, sind unverzüglich zu melden. Eingetretene Schäden sind festzuhalten. Die Erstattung einer Strafanzeige erfolgt durch den Leiter der jeweiligen Organ"
+    },
+    {
+      "rang": 20,
+      "score": 0.85784,
+      "id": "f2660847-13c4-5c2f-a372-8ceaf2822210",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/04-2016/01_Richtlinie_Hausordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2016 › 01 Richtlinie Hausordnung",
+      "section_heading": "**§ 10** > **Verhalten bei Sachbeschädigung, Diebstählen und Einbrüchen**",
+      "chunk_index": 14,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 10**\n\n## **Verhalten bei Sachbeschädigung, Diebstählen und Einbrüchen**  \nStraftaten, insbesondere Sachbeschädigungen, Diebstähle und Einbrüche, sind unverzüglich zu melden. Eingetretene Schäden sind festzuhalten. Die Erstattung einer Strafanzeige erfolgt durch den Leiter der jeweiligen Organ"
+    },
+    {
+      "rang": 21,
+      "score": 0.85219,
+      "id": "fcad1686-65eb-5bd0-b424-4b8fe396c20c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Simon__2022__Stellungnahme_KHPflEG.pdf",
+      "title_anzeige": "f5 › UEber uns › Personen › Simon 2022 Stellungnahme KHPflEG",
+      "section_heading": "**Zusammenfassung**",
+      "chunk_index": 42,
+      "text_vollstaendig": true,
+      "auszug": "Wenn nur die Daten der Ist-Personalbesetzung und der ermittelten Soll-Personalbesetzung gemeldet werden sollen, vermittelt dies den Eindruck, dass das BMG allein an der Frage interessiert ist, ob"
+    },
+    {
+      "rang": 22,
+      "score": 0.85203,
+      "id": "9438a928-6f8f-59cb-bdf0-b3bceb450766",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Hausrecht.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Hausrecht — Richtlinie",
+      "section_heading": "**§ 9** > **Verhalten im Notfall, bei Schäden oder drohenden Schäden**",
+      "chunk_index": 12,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 9**\n\n## **Verhalten im Notfall, bei Schäden oder drohenden Schäden**  \n- (1)  Bei Brand oder in Notfällen ist über jedes Telefon der Hochschule unter den Notrufnummern  \n- **(00)110** Polizei  \noder  \n- **(00)112** Feuerwehr/Rettungsleitstelle  \ndie erforderliche Hilfe selbst herbeizuholen.  "
+    },
+    {
+      "rang": 23,
+      "score": 0.85186,
+      "id": "f48d0df5-297b-5509-b41d-8359e8e0fcf1",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2016/04-2016/01_Richtlinie_Hausordnung.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 04 2016 › 01 Richtlinie Hausordnung",
+      "section_heading": "**§ 9** > **Verhalten im Notfall, bei Schäden oder drohenden Schäden**",
+      "chunk_index": 13,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 9**\n\n## **Verhalten im Notfall, bei Schäden oder drohenden Schäden**  \n- (1) Bei Brand oder in Notfällen ist über jedes Telefon der Hochschule unter den Notrufnummern  \n- **(00)110** Polizei  \noder  \n- **(00)112** Feuerwehr/Rettungsleitstelle  \ndie erforderliche Hilfe selbst herbeizuholen.  \n"
+    },
+    {
+      "rang": 24,
+      "score": 0.84972,
+      "id": "c3da471b-3917-5656-8b24-e4e5182e6383",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Alumni-Netzwerk_Soziale_Arbeit/Alumni-Newsletter/Alumni-Newsletter_Nr._6_final.pdf",
+      "title_anzeige": "f5 › Alumni Netzwerk Soziale Arbeit › Alumni Newsletter › Alumni Newsletter Nr. 6 final — _Informationen aus der Abteilung Soziale Arbeit_",
+      "section_heading": "Sommerfest „Campus Summer Life“",
+      "chunk_index": 18,
+      "text_vollstaendig": true,
+      "auszug": "_R.H.: Deine Aufgabe ist es, an einer Hochschule zu lehren und zu forschen. Welche Ziele verfolgst Du in der Lehre? Was ist Dir wichtig im Umgang mit Studierenden?_  \nM.W.: Mein Ziel ist, dass die Studierenden ins Handeln und in die Auseinandersetzung kommen. Studieren kommt ja aus dem Latein – „mit"
+    },
+    {
+      "rang": 25,
+      "score": 0.80365,
+      "id": "469dd926-3c58-503e-b355-06816286fb22",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_III/Hausrecht.pdf",
+      "title_anzeige": "f3 › Fakultaet III › Hausrecht — Richtlinie",
+      "section_heading": "**§ 10** > **Verhalten bei Sachbeschädigung, Diebstählen und Einbrüchen**",
+      "chunk_index": 13,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 10**\n\n## **Verhalten bei Sachbeschädigung, Diebstählen und Einbrüchen**  \nStraftaten, insbesondere Sachbeschädigungen, Diebstähle und Einbrüche, sind unverzüglich zu melden. Eingetretene Schäden sind festzuhalten. Die Erstattung einer Strafanzeige erfolgt durch den Leiter der jeweiligen Organ"
+    },
+    {
+      "rang": 26,
+      "score": 0.78587,
+      "id": "7fe539e6-e467-5c09-8ab2-3c00f51ea9a8",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Simon_Mehmecke__2017__Nurse-to-Patient_Ratios.pdf",
+      "title_anzeige": "f5 › UEber uns › Personen › Simon Mehmecke 2017 Nurse to Patient Ratios — WORKING PAPER FORSCHUNGSFÖRDERUNG",
+      "section_heading": "**Diskussion**",
+      "chunk_index": 135,
+      "text_vollstaendig": true,
+      "auszug": "Hervorzuheben sind die Regelungen zur Überprüfung und Durchsetzung der Einhaltung der Rechtsvorschriften. Bei der Überwachung setzt man in Oregon offensichtlich in starkem Maße auf die Beschäftigten in der Pflege, Patienten und Angehörige. Durch die Auflage, dass eine Telefonnummer, bei der Verstöße"
+    },
+    {
+      "rang": 27,
+      "score": 0.77704,
+      "id": "94345617-ffda-53fb-9161-6b8248b78b33",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/Organisation/Praesidiumsbuero_und_Hochschulplanung/HinSchG.pdf",
+      "title_anzeige": "www › Organisation › Praesidiumsbuero und Hochschulplanung › HinSchG — Teil I",
+      "section_heading": "**Gesetz für einen besseren Schutz hinweisgebender Personen sowie zur Umsetzung der Richtlinie zum Schutz von Personen, die Verstöße gegen das Unionsrecht melden** * > **§ 7** > **Gesetz für einen besseren Schutz hinweisgebender Personen sowie zur Umsetzung der Richtlinie zum Schutz von Personen, die Verstöße gegen das Unionsrecht melden** * > **Wahlrecht zwischen interner und externer Meldung**",
+      "chunk_index": 33,
+      "text_vollstaendig": true,
+      "auszug": "## **§ 7**\n## **Wahlrecht zwischen interner und externer Meldung**  \n(1) Personen, die beabsichtigen, Informationen über einen Verstoß zu melden, können wählen, ob sie sich an eine interne Meldestelle (§ 12) oder eine externe Meldestelle (§§ 19 bis 24) wenden. Diese Personen sollten in den Fällen, i"
+    },
+    {
+      "rang": 28,
+      "score": 0.76179,
+      "id": "65610ee0-5fa3-53ff-a682-d08eebe7fbca",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Werkstaetten/Naehwerkstatt/2022-09-28-NW-Werkstattordnung.pdf",
+      "title_anzeige": "f3 › Werkstaetten › Naehwerkstatt › 2022 09 28 NW Werkstattordnung — Leitung der Werkstätten",
+      "section_heading": "**Feuer**",
+      "chunk_index": 15,
+      "text_vollstaendig": true,
+      "auszug": "## **Feuer**  \n- Die nötigen Informationen entnehmen sie der Brandschutzordnung und dem ausgehängten Alarmplan.  \n- Bei Feueralarm ist das Hochschulgebäude unverzüglich auf dem kürzesten Weg zu verlassen und erst nach Entwarnung wieder zu betreten.  \n- Der Sammelplatz ist draußen vor dem deutschen P"
+    },
+    {
+      "rang": 29,
+      "score": 0.75947,
+      "id": "0a153f61-e1c9-53e3-a2a0-58184d313386",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Jahresabschluss/HsH_JA_2015.pdf",
+      "title_anzeige": "www › Finanzmanagement › Jahresabschluss › HsH JA 2015 — Hannover",
+      "section_heading": "**2.9 Entwicklungen der baulichen Anlagen und Bauvorhaben** > **Baumaßnahmen**",
+      "chunk_index": 122,
+      "text_vollstaendig": false,
+      "auszug": "Am Standort Kleefeld wurde der Neubau eines Seminargebäudes, als Ersatz für das sogenannte Haus 8, fertiggestellt. In diesem Jahr 2016 soll ein weiterer Neubau „Haus 9“ die Raumanforderungen ergänzen. Zudem sollen die Außenanlagen neugestaltet werden.  \nIn der Liegenschaft Ahlem ist die erste Phase "
+    },
+    {
+      "rang": 30,
+      "score": 0.75294,
+      "id": "7825cc4c-fdc1-53e1-9629-7e7008c9ca29",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/Studentische_Hilfskraft_-_Anlagen.pdf",
+      "title_anzeige": "f5 › Service › HiWi werden › Studentische Hilfskraft Anlagen — V e r s c h w i e g e n h e i t s e r k l ä r u n g",
+      "section_heading": "**Allgemeine Angaben zur Person**",
+      "chunk_index": 29,
+      "text_vollstaendig": false,
+      "auszug": "**- Erklärung / Seite 3 -** zu Az Ich bin Pflichtmitglied/freiwilliges Mitglied einer **gesetzlichen** Krankenkasse Mitglied einer **privaten** Krankenkasse ***** ( **Nachweis** ist beigefügt) **(*Nur bei privater Krankenversicherung:)** Ich war zuletzt (vorher) bei folgender gesetzlichen Krankenkas"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 35468,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.72,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 1.98,
+    "docs_laden_s": 0.11,
+    "quellen_s": 3.82,
+    "antwort_llm_s": 5.39,
+    "gesamt_s": 9.21
+  },
+  "auswahl_begruendung": "{\"selected\":[5,4,3,2]}"
+}

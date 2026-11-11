@@ -1,0 +1,567 @@
+{
+  "fall": {
+    "id": "g07",
+    "case_type": "direct",
+    "question": "Wie lange bindet mich der Verzicht auf die Rentenversicherung in meinem Minijob?",
+    "reference_answer": "Für die gesamte Dauer der Beschäftigung; ein Widerruf ist nicht möglich.",
+    "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/6_Antrag_auf_Befreiung_07_2015.pdf",
+    "expected_behavior": "direct_answer",
+    "source_policy": "exact_gold_source",
+    "accepted_source_urls": [],
+    "required_facts": [
+      "Die Befreiung von der Versicherungspflicht ist für die Dauer der Beschäftigung(en) bindend; sie kann nicht widerrufen werden."
+    ],
+    "optional_facts": [],
+    "forbidden_claims": [],
+    "case_difficulty": "leicht",
+    "fairness_risk": "niedrig",
+    "evaluation_notes": "Aus eval/fragen.csv, Typ stellenausschreibung/fakt. Ohne Pflichtbegriffe — für Retrieval-Experimente aufgenommen (21.09.2026).",
+    "herkunft": "eval_gold_50",
+    "fakultaet": "",
+    "pflicht_begriffe": [],
+    "gold_im_korpus": true,
+    "gold_punkte": [
+      "5dcf8ef4-f049-56e0-ae4f-19cb4746921a",
+      "05c0d1de-8000-570f-88f3-ceb819d8be7f",
+      "5953088d-a9aa-579c-902c-835930f27335",
+      "b5bd0f63-48ae-5feb-b62c-f02daa4edf56",
+      "c6b6a5ea-40eb-58fc-a6d9-f6835ce3c534",
+      "1b171033-2eee-5439-8f9c-40cabd281ce5",
+      "674963d5-0f18-5931-90e2-2ff42a21c830",
+      "c67ff2a7-c54d-5821-835c-25d235cf3844",
+      "d94cd493-f799-59e4-a5e0-ef12fbbe297f",
+      "f972f807-8af9-5d24-a0ad-5786658b5cac"
+    ],
+    "beleg_punkte": [
+      "b5bd0f63-48ae-5feb-b62c-f02daa4edf56"
+    ],
+    "beleg_urls": [
+      "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/6_Antrag_auf_Befreiung_07_2015.pdf"
+    ]
+  },
+  "modell": "openai/gpt-5.6-luna",
+  "zeitstempel": "2026-09-21T20:08:44",
+  "dauer_s": 6.59,
+  "fehler": null,
+  "antwort": "Der Verzicht auf die Rentenversicherungspflicht bindet Sie „für die Dauer der Beschäftigung(en)\"; eine Rücknahme ist „nicht möglich\" [1]. Bei mehreren gleichzeitig ausgeübten Minijobs gilt der Antrag „für alle\" diese Beschäftigungen [1].",
+  "kandidaten": [
+    {
+      "nr": 1,
+      "titel": "f5 › Service › HiWi werden › 6 Antrag auf Befreiung 07 2015 — Allgemeines",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/6_Antrag_auf_Befreiung_07_2015.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Merkblatt über die möglichen Folgen einer Befreiung von der Rentenversicherungspflicht\n  ## Allgemeines\n  ## Vorteile der vollen Beitragszahlung zur Rentenversicherung\n  ## Antrag auf Befreiung von der Rentenversicherungspflicht\n  ## Konsequenzen aus der Befreiung von der Rentenversicherungspflicht\n  ## Antrag auf Befreiung von der Rentenversicherungspflicht bei einer geringfügig entlohnten Beschäftigung nach § 6 Absatz 1b Sozialgesetzbuch Sechstes Buch (SGB VI)\n  ## Arbeitnehmer:\n  ## Hinweis für den Arbeitgeber:"
+    },
+    {
+      "nr": 2,
+      "titel": "f5 › Service › HiWi werden › Studentische Hilfskraft Anlagen — V e r s c h w i e g e n h e i t s e r k l ä r u n g",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/Studentische_Hilfskraft_-_Anlagen.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## V e r s c h w i e g e n h e i t s e r k l ä r u n g\n  ## Merkblatt zur Sozialversicherungspflicht für Studierende\n  ## Kranken-, Pflege- und Arbeitslosenversicherung\n  ## Darüber hinaus ist folgendes zu beachten:\n  ## Wegfall (Ende) des „Werkstudenten-Privilegs“:\n  ## SONDERFÄLLE:\n  ## HINWEIS: Die Beendigung und etwaige Unterbrechungen des Studiums sind dem zuständigen Entgeltreferat des NLBV unverzüglich mitzuteilen (bitte Belege beifügen)!\n  ## Rentenversicherung\n  ## Allgemeine Angaben zur Person\n  ## Besteuerung\n  ## Rentenversicherungspflicht bei einer geringfügig entlohnten Beschäftigung nach - § 6 Absatz 1b SGB VI Antrag auf Befreiung von der Versicherungspflicht\n  ## Arbeitnehmer/in:\n  ## - – Arbeitgeber (Personaldienststelle z. B. Schule) ggf. Abrechnungsstelle NLBV:\n  ## Abrechnungsstelle NLBV (Entgeltreferat):\n  ## Hinweis für den Arbeitgeber:\n  ## Merkblatt zur Aufklärung über die möglichen Folgen einer Befreiung von der Renten-versicherungspflicht\n  ## Allgemeines\n  ## Vorteile der vollen Beitragszahlung zur Rentenversicherung\n  ## Antrag auf Befreiung von der Rentenversicherungspflicht\n  ## Konsequenzen aus der Befreiung von der Rentenversicherungspflicht"
+    },
+    {
+      "nr": 3,
+      "titel": "f5 › Service › HiWi werden › 5 Klaerung der Versicherungspflicht von Studenten 12 2012",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/5_Klaerung_der_Versicherungspflicht_von_Studenten_12_2012.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Prüfung der Sozialversicherungspflicht\n  ## Sehr geehrte\n  ## Merkblatt zur Sozialversicherungspflicht für Studenten\n  ## Kranken-, Pflege- und Arbeitslosenversicherung\n  ## Darüber hinaus ist folgendes zu beachten:\n  ## Rentenversicherung\n  ## Klärung der Versicherungspflicht von Studenten ( Bitte füllen Sie diesen Vordruck sorgfältig und vollständig aus! - Ihre Angaben sind für die Prüfung Ihrer Sozialversicherungspflicht sehr wichtig! )"
+    },
+    {
+      "nr": 4,
+      "titel": "f3 › Stellenangebote Studierende › SoSe2026 › 14.04.2026Nds Krebsgesellschaft Minijob Social Media — Minijob: Social Media",
+      "url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Stellenangebote_Studierende/SoSe2026/14.04.2026Nds_Krebsgesellschaft_Minijob_Social_Media.pdf",
+      "fakultaet": "f3",
+      "struktur": "  ## Minijob: Social Media"
+    },
+    {
+      "nr": 5,
+      "titel": "f2 › Abt M › Gleichstellung FII › drittstaaten studierende mit behinderungen faq 2018",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/drittstaaten-studierende_mit_behinderungen-faq-2018.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Zur Autorin\n  ## Herausgeber\n  ## Gefördert vom\n  ## Umschlaggestaltung\n  ## Welche sozialrechtlichen Ansprüche haben Studierende mit Behinderungen und chronischen Krankheiten aus Drittstaaten?\n  ## Which social security rights claims do students from third countries with disabilities and chronic illnesses have?\n  ## Inhalt\n  ## Contents\n  ## Vorbemerkung\n  ## Internationale Studierende müssen vor Aufnahme eines Studiums in Deutschland verschiedene aufenthaltsrechtliche und sozialrechtliche Fragen klären. Die rechtliche Situation von Studierenden aus Drittstaaten (nicht EU, EWR, Schweiz), die zum Zweck des Studiums nach Deutschland kommen, folgt dabei spezifischen Regelungen.\n  ## Die vorliegende Kurzübersicht zu häufig gestellten Fragen bezieht sich nur auf Drittstaatsangehörige, die zum Zweck des Studiums nach Deutschland kommen (§ 16 AufenthG).\n  ## Aufenthaltsrechtliche Fragen\n  ## Darf das Visum oder die Aufenthaltserlaubnis zum Zweck des Studiums\n  ## abgelehnt werden, weil eine Behinderung vorliegt?\n  ## Welche Bedingungen müssen erfüllt werden, um ein Studienvisum zu erhalten?\n  ## Wenn eine Bedingung nicht erfüllt ist, gibt es dann trotzdem eine Möglichkeit, in Deutschland zu studieren?\n  ## Wann darf das Studienvisum abgelehnt werden?\n  ## Gibt es eine zeitliche Begrenzung für den Aufenthalt zu Studienzwecken?\n  ## Kann ich eine Arbeit aufnehmen oder eine Ausbildung machen, wenn die Anforderungen des Studiums zu hoch sind oder das Studium mir nicht gefällt?\n  ## Was passiert, wenn sich meine Krankheit verschlimmert und ich mein Studium aufgeben muss?\n  ## Wie geht es nach der erfolgreichen Beendigung meines Studiums weiter?\n  ## Kann ich in Deutschland Sozialleistungen zum Ausgleich behinderungsbedingter Nachteile in Anspruch nehmen?\n  ## Beratung\n  ## Wo kann ich mich über Leistungen zum Ausgleich behinderungsbedingter Nachteile beraten lassen?\n  ## Krankenversicherung, Gesundheits- und Pflegeleistungen\n  ## Welche Möglichkeiten der Krankenversicherung bestehen für mich in Deutschland?\n  ## 1. Die gesetzliche Pflichtversicherung\n  ## 2. Die Familienversicherung\n  ## 3. Pflichtversicherung als Arbeitnehmerin während des Studiums\n  ## 4. Freiwillige Versicherung in der GKV\n  ## 5. Sachleistungsaushilfe für Angehörige der Abkommensstaaten\n  ## 6. Privatversicherung\n  ## Welche Leistungen kann ich erhalten, wenn ich in der gesetzlichen studentischen Krankenversicherung versichert bin?\n  ## Auf welche Gesundheitsleistungen habe ich sonst noch Anspruch?\n  ## 1. Leistungen der gesetzlichen Unfallversicherung\n  ## 2. Leistungen nach dem Opferentschädigungsgesetz\n  ## Auf welche Pflegeleistungen habe ich Anspruch?\n  ## 1. Leistungen der Pflegeversicherung\n  ## 2. Hilfe zur Pflege\n  ## 3. Leistungen der Unfallversicherung und der Versorgungsämter\n  ## Teilhabeleistungen für Studierende mit Behinderung\n  ## Welche Unterstützungsleistungen für Studierende mit Behinderungen erbringen die Hochschulen?\n  ## Welche staatlichen Sozialleistungen zum Ausgleich behinderungsbedingter Nachteile kann ich während des Studiums in Anspruch nehmen?\n  ## 1. Unfallversicherung und Opferentschädigungsrecht\n  ## 2. Leistungen der Eingliederungshilfe\n  ## 3. Leistungen der Teilhabe am Arbeitsleben\n  ## Sicherung des Lebensunterhalts\n  ## Gibt es Leistungen zur Sicherung des Lebensunterhalts für Studierende mit einer Behinderung aus Drittstaaten?\n  ## Wann bestehen Ansprüche nach dem Bundesausbildungsförderungsgesetz (BAföG)?\n  ## In welchen Situationen können Studierende aus Drittstaaten Leistungen des Jobcenters in Anspruch nehmen?"
+    },
+    {
+      "nr": 6,
+      "titel": "f2 › Abt M › Gleichstellung FII › eu studierende mit behinderungen faq 2018",
+      "url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/eu-studierende_mit_behinderungen-faq-2018.pdf",
+      "fakultaet": "f2",
+      "struktur": "  ## Zur Autorin\n  ## Herausgeber\n  ## Gefördert vom\n  ## Umschlaggestaltung\n  ## Welche sozialrechtlichen Ansprüche haben Studierende mit Behinderungen und chronischen Krankheiten aus Staaten der EU, des EWR und der Schweiz?\n  ## Which social security rights claims do students\n  ## Inhalt\n  ## Contents\n  ## Vorbemerkung\n  ##  Wenn im Folgenden von Unionsbürgerinnen gesprochen wird, so werden die Angehörigen des EWR und der Schweiz eingeschlossen, weil auf sie das Freizügigkeitsrecht und die Sozialrechtskoordinierung der EU angewendet werden.\n  ## Aufenthaltsrechtliche Fragen\n  ## Welche Anforderungen müssen für ein Studium in Deutschland erfüllt sein?\n  ## Gibt es eine zeitliche Begrenzung für den Aufenthalt zu Studienzwecken?\n  ## Kann ich eine Arbeit aufnehmen oder eine Ausbildung machen, wenn die Anforderungen des Studiums zu hoch sind oder das Studium mir nicht gefällt?\n  ## Was passiert, wenn sich meine Krankheit verschlimmert und ich mein Studium aufgeben muss?\n  ## Gibt es nach der erfolgreichen Beendigung des Studiums Einschränkungen bei der Aufnahme einer Beschäftigung oder selbständigen Erwerbstätigkeit? Nein.\n  ## Kann ich Sozialleistungen zum Ausgleich behinderungsbedingter Nachteile in Deutschland in Anspruch nehmen?\n  ## Beratung\n  ## Wo kann ich mich über Leistungen zum Ausgleich behinderungsbedingter Nachteile beraten lassen?\n  ## Krankenversicherung, Gesundheits- und Pflegeleistungen\n  ## 1. Die gesetzliche Pflichtversicherung\n  ## 2. Sachleistungsaushilfe für in einem anderen EU-Staat versicherte Unionsbürgerinnen\n  ## 3. Die Familienversicherung\n  ## 4. Pflichtversicherung als Arbeitnehmerin während des Studiums\n  ## 5. Freiwillige Versicherung in der GKV\n  ## 6. Privatversicherung\n  ## Welche Leistungen kann ich erhalten, wenn ich in der gesetzlichen studentischen Krankenversicherung versichert bin?\n  ## Auf welche Gesundheitsleistungen habe ich sonst noch Anspruch?\n  ## 1. Leistungen der gesetzlichen Unfallversicherung\n  ## 2. Leistungen nach dem Opferentschädigungsgesetz\n  ## Auf welche Pflegeleistungen habe ich Anspruch?\n  ## 1. Leistungen der Pflegeversicherung\n  ## 2. Hilfe zur Pflege\n  ## 3. Leistungen der Unfallversicherungen und Versorgungsämter\n  ## Teilhabeleistungen für Studierende mit Behinderung\n  ## Welche Unterstützungsleistungen für Studierende mit Behinderungen erbringen die Hochschulen?\n  ## 1. Unfallversicherung und Opferentschädigungsrecht\n  ## 2. Leistungen des Herkunftslandes\n  ## 3. Leistungen der Eingliederungshilfe\n  ## 4. Leistungen zur Teilhabe am Arbeitsleben\n  ## Sicherung des Lebensunterhalts\n  ## Gibt es Anspruch auf Leistungen zur Sicherung des Lebensunterhalts für Studierende mit einer Behinderung aus EU, EWR und der Schweiz?\n  ## Wann bestehen Ansprüche nach dem Bundesausbildungsförderungsgesetz (BAföG)?\n  ## In welchen Situationen kann ich Leistungen des Jobcenters in Anspruch nehmen?\n  ## Gibt es einen Anspruch auf Wohngeld?\n  ## Gibt es Leistungen zum Lebensunterhalt aus der Gesetzlichen Krankenversicherung?\n  ## Gibt es Leistungen zum Lebensunterhalt aus der gesetzlichen\n  ## Unfallversicherung oder nach dem Opferentschädigungsgesetz?\n  ## Kann ich Blindengeld erhalten?\n  ## Kann ich existenzsichernde Hilfen erhalten, wenn eine unvorhergesehene, schwerwiegende Notlage auftritt?"
+    },
+    {
+      "nr": 7,
+      "titel": "www › Landingpages › HannoTalents › Dein Weg zur Promotion Ratgeber GUP Kolleg HsH 04.09.25",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Landingpages/HannoTalents/Dein_Weg_zur_Promotion_Ratgeber-GUP-Kolleg_HsH_04.09.25.pdf",
+      "fakultaet": "",
+      "struktur": "  ## DEIN WEG ZUR PROMOTION\n  ## I mpressum\n  ## Gestaltung:\n  ## Autorinnen:\n  ## Inhaltsverzeichnis\n  ## Abbildungsverzeichnis\n  ## EINLEITUNG: DIE PROMOTION ALS PROJEKT\n  ## KAPITEL 1: ORIENTIERUNG UND VORBEREITUNG\n  ## Vorbereitung der Promotion im Masterstudium\n  ## Zum Weiterlesen:\n  ## Kooperativ promovieren mit der HsH\n  ## Zum Weiterlesen:\n  ## Betreuungsvereinbarung und Registrierung an der HsH\n  ## Frühzeitig Suche nach einer Betreuung beginnen\n  ## Promotionsordnungen sichten\n  ## Tipp:\n  ## Zum Weiterlesen:\n  ## KAPITEL 2: VON DER ERSTEN IDEE ZUM EXPOSÉ\n  ## Was muss ein Exposé enthalten?\n  ## Zum Weiterlesen:\n  ## Welche Funktion hat ein Exposé?\n  ## Zum Weiterlesen:\n  ## Welche Qualitätsansprüche werden an das Exposé gestellt?\n  ## Tipp:\n  ## Problembereich/Ausgangspunkt\n  ## Forschungsstand und Literaturrecherche\n  ## Fragestellung\n  ## Zum Weiterlesen:\n  ## Methodenauswahl\n  ## Materialzugang\n  ## Tipp: Ethikantrag frühzeitig schreiben\n  ## Arbeits- und Zeitplan\n  ## Vorläufige Gliederung\n  ## Literaturverzeichnis\n  ## Beispielhafte Meilensteine für eine Promotion im Bereich Gesundheitswissenschaften\n  ## KAPITEL 3: FINANZIERUNGSMÖGLICHKEITEN\n  ## Projektstelle als wissenschaftlicher Mitarbeiterin\n  ## Berufsbegleitende Promotion und Tandem-Promotion\n  ## Stipendien und Stiftungsförderung\n  ## Vorteile eines Stipendiums\n  ## (Mögliche) Nachteile und Aspekte der Absicherung\n  ## Fördermöglichkeiten\n  ## Zum Weiterlesen:\n  ## KAPITEL 4: PROMOTION IN DEN GESUNDHEITS- UND PFLEGEWISSENSCHAFTEN – TÜRÖFFNER FÜR KARRIEREN IN WISSENSCHAFT, PRAXIS UND POLITIK\n  ## KAPITEL 5: HANNOTALENTS UND DAS GUP-KOLLEG – VERNETZUNG, WEITERBILDUNG UND QUALIFIZIERUNG\n  ## Das Promotions- und Praxiskolleg Gesundheits- und Pflegewissenschaften\n  ## Wie kann ich als Promotionsinteressierter am GuP-Kolleg mitwirken?\n  ## Kontakt\n  ## Das Leitungsteam\n  ## LITERATURVERZEICHNIS"
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › service › hiwi werden — DU MÖCHTEST STUDENTISCHE HILFSKRAFT WERDEN? SO GEHT ES….",
+      "url": "https://f5.hs-hannover.de/service/hiwi-werden",
+      "fakultaet": "f5",
+      "struktur": "  ## DU MÖCHTEST STUDENTISCHE HILFSKRAFT WERDEN? SO GEHT ES….\n  ## Neueinstellung\n  ## Wiedereinstellung / Weiterbeschäftigung\n  ## Ansprechpartnerinnen\n  ## Abteilung Soziale Arbeit\n  ## Abteilung Pflege und Gesundheit / Heilpädagogik / Religionspädagogik"
+    },
+    {
+      "nr": 9,
+      "titel": "f5 › UEber uns › Personen › Simon 2008 Sechzehn Jahre Budgetdeckelung verdi Studie",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Simon__2008__Sechzehn_Jahre_Budgetdeckelung__verdi-Studie_.pdf",
+      "fakultaet": "f5",
+      "struktur": "# Sechzehn Jahre Deckelung der Krankenhausbudgets\n  ## Impressum\n  ## Vorwort zur Studie\n  ## Sechzehn Jahre Deckelung der Krankenhausbudgets: Eine kritische Bestandsaufnahme\n  ## Glossar\n  ## Zusammenfassung\n  ## Inhalt\n  ## Einleitung\n  ## Historischer Rückblick und Auswirkungen\n  ## Historischer Rückblick\n  ## Die 1. Phase (1993–1995): Ein Deckel mit Löchern\n  ## Die 2. Phase (1996–2002): Verschärfte Budgetdeckelung\n  ## Die 3. Phase (2003–2008): Einführung eines gedeckelten DRG-Systems\n  ## Auswirkungen der Budgetdeckelung\n  ## Keine dramatische Zunahme von Krankenhausschließungen\n  ## Reduzierung der Personalkosten als wichtigste Überlebensstrategie von Krankenhäusern\n  ## Tabelle 2: Personal in Krankenhäusern\n  ## Stellenabbau trotz\n  ## steigender Fallzahlen\n  ## Auswirkungen auf die Versorgungsqualität\n  ## Ausgaben steigen stärker als die Veränderungsrate nach § 71 SGB V: Die wichtigsten Gründe\n  ## Kritik der Budgetdeckelung\n  ## Eine technisch-funktionale Kritik\n  ## der Budgetdeckelung\n  ## Das Problem der Vorhersagbarkeit zukünftiger beitragspflichtiger Einnahmen\n  ## Das zweistufige Deckelungsverfahren von 1993 bis 1998\n  ## Tabelle 4: Veränderungsraten im Vergleich\n  ## Das Deckelungssystem ab 1999/2000\n  ## Weitere technisch-funktionale Einwände\n  ## Beitragspflichtige Einnahmen je Mitglied: Eine ungeeignete Orientierungsgröße\n  ## Einheitliche Veränderungsrate für finanzstarke und finanzschwache Kassen\n  ## Der willkürliche Charakter der Budgetdeckelung\n  ## Zwischenfazit\n  ## Eine grundsätzlich-normative Kritik der Budgetdeckelung\n  ## Zur Bedeutung des Bedarfsdeckungsprinzips in der GKV für die Deckelung der Krankenhausbudgets\n  ## Zur Verwendung der Begriffe ›Wirtschaftlichkeit‹ und ›Wirtschaftlichkeitsreserven‹\n  ## Die Zielhierarchie staatlicher Krankenhauspolitik und ihre\n  ## Bedeutung für die Budgetdeckelung\n  ## Das Kernproblem der gesetzlichen Krankenversicherung: Die Erosion der Einnahmegrundlage\n  ## Schlussbetrachtung\n  ## Literatur\n  ## AG Krankenhauswesen, der AOLG (2004): 1. Bericht zur\n  ## Billing, Arend/ Thalhammer, Monika./ Pflaum, Michael\n  ## Eichhorn, Peter/ Seelos, Hans-Jürgen/ Schulenburg, Johann-\n  ## Lang, Thomas A./ Hodge, Margaret; Olson, Valerie et al.\n  ## Langsbear, Annette J./ Sheldon, Trevor A./ Maynard, Alan\n  ## Lauterbach, Karl W./ Lüngen, Markus/ Meurer, Uta et al.\n  ## Numata, Yuka/ Schulzer, Michael/ Wal, Rena van der et al.\n  ## Schöning, Brigitte/ Luithlen, Eberhard/ Scheinert, Hanns\n  ## SVRKAiG, Sachverständigenrat für die Konzertierte Aktion"
+    },
+    {
+      "nr": 10,
+      "titel": "www › Servicezentrum Beratung › Familienservice › bessere vereinbarkeit von famiie pflege und beruf broschuere data",
+      "url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/bessere-vereinbarkeit-von-famiie-pflege-und-beruf-broschuere-data.pdf",
+      "fakultaet": "",
+      "struktur": "  ## Inhalt\n  ## I. Einleitung\n  ## Die Regelungen im Überblick:\n  ## Rechtsansprüche nach dem Pflegezeitgesetz (PflegeZG) und dem Familienpflegezeitgesetz (FPfZG)\n  ## II. Das Pflegeunterstützungsgeld\n  ## III. Freistellungen nach dem Pflegezeitgesetz (PflegeZG) und dem Familienpflegezeitgesetz (FPfZG)\n  ## IV. Förderung durch ein zinsloses Darlehen\n  ## V.\n  ## Ankündigungsfristen, unter­ schiedliche Anwendbarkeit je nach Unternehmensgröße, Kündigungsschutz\n  ## Kurzzeitige Arbeitsverhinderung\n  ## Pflegezeit\n  ## Familienpflegezeit\n  ## Kündigungsschutz\n  ## VI.\n  ## Voraussetzungen für die Inanspruch­ nahme der kurz zeitigen Auszeit aufgrund von Arbeitsverhinderung und der Freistellungen\n  ## Wer gehört zu den nahen Angehörigen?\n  ## Wann ist von Pflegebedürftigkeit auszugehen?\n  ## Was ist unter häuslicher Umgebung zu verstehen?\n  ## VII. Die soziale Absicherung von Pflegepersonen\n  ## Rentenansprüche von Pflegepersonen:\n  ## Unfallversicherung\n  ## Arbeitslosenversicherung\n  ## VIII. Häufige Fragen und Antworten\n  ## Wie sind Beschäftigte während der bis zu zehntägigen Auszeit finanziell abgesichert?\n  ## Wer hat Anspruch auf die Pflegezeit?\n  ## Wie lange kann die Pflegezeit in Anspruch genommen werden?\n  ## Kann die Pflegezeit verlängert werden?\n  ## Welche Auswirkungen hat die Pflegezeit auf den Urlaubs­ anspruch?\n  ## Besteht während der Pflegezeit Kündigungsschutz?\n  ## Wann endet die Pflegezeit?\n  ## Welche Förderung erhalten Beschäftigte, die die Pflegezeit in Anspruch nehmen?\n  ## Was passiert, wenn das Darlehen nicht zurückgezahlt werden kann?\n  ## Wo ist das Darlehen zu beantragen?\n  ## Wer hat Anspruch auf Familienpflegezeit?\n  ## Wie lange kann Familienpflegezeit in Anspruch genommen werden?\n  ## Besteht während der Familienpflegezeit Kündigungsschutz?\n  ## Was passiert, wenn die oder der Beschäftigte das Darlehen nicht zurückzahlen kann?\n  ## Wann endet die Familienpflegezeit?\n  ## IX. Nützliche Kontakte für pflegende Angehörige\n  ## Informationsportal www.wege­zur­pflege.de\n  ## Pflegetelefon des Bundesministeriums für Familie, Senioren,\n  ## Frauen und Jugend\n  ## Internetseite des Bundesministeriums für Gesundheit\n  ## www.bundesgesundheitsministerium.de\n  ## Pflegekassen beziehungsweise private Versicherungsunternehmen\n  ## Bundesministerium für Familie, Senioren, Frauen und Jugend\n  ## (BMFSFJ)\n  ## Bundesamt für Familie und zivilgesellschaftliche Aufgaben (BAFzA)\n  ## Bundesministerium für Gesundheit (BMG)\n  ## Bundesministerium für Arbeit und Soziales (BMAS)"
+    },
+    {
+      "nr": 11,
+      "titel": "f4 › BWL › Formulare Und Informationen › 2025 03 13 Informationen zu Praxisphasen und Bachelor Arbeit — Informationen zu den Praxisphasen und zur Bachelor-Arbeit",
+      "url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/2025_03_13_Informationen_zu_Praxisphasen_und_Bachelor-Arbeit_.pdf",
+      "fakultaet": "f4",
+      "struktur": "# Informationen zu den Praxisphasen und zur Bachelor-Arbeit\n  ## Inhaltsverzeichnis\n  ## 1 Allgemeines\n  ## 2 Praxisphasen\n  ## 2.1 Planung\n  ## 2.2 Organisation und Durchführung\n  ## 2.3 Vertragsdauer, Mindestlohn und Urlaub[1]\n  ## 2.4 Unterstützung bei der Bewerbung und Ansprechpartner/innen\n  ## 1. Leitfäden (siehe moodle):\n  ## 2. Stellenangebote:\n  ## 3. Persönliche Beratung:\n  ## 3 Bachelor-Arbeit\n  ## 3.1 Planung\n  ## 3.2 Organisation und Durchführung\n  ## 4 Kolloquium\n  ## 5 FAQ\n  ## 5.1 Praxisphasen\n  ## Muss eine Praxisphase zeitlich genau in einem Semester liegen?\n  ## Darf eine Praxisphase auch länger als 3 Monate dauern?\n  ## Kann ein Auslandsstudiensemester als Praxisphase anerkannt werden?\n  ## 5.2 Bachelor-Arbeit und Kolloquium\n  ## - Kann die Bearbeitungszeit der Bachelor Arbeit verlängert werden?\n  ## Was passiert, wenn ich meine Bachelor-Arbeit abbreche?\n  ## Kann die Bachelor-Arbeit früher als offiziell vorgesehen abgegeben werden?\n  ## - Wo kann ich meine fertige Bachelor Arbeit abgeben?\n  ## - Was passiert, wenn ich meine Bachelor Arbeit nicht rechtzeitig abgebe?\n  ## Was ist das Kolloquium zur Bachelor-Arbeit?\n  ## Muss ich in jedem Fall ein Kolloquium machen?\n  ## Wie wirkt sich das Kolloquium auf die Note aus?\n  ## Was passiert, wenn meine Bachelor-Arbeit mit nicht ausreichend bewertet wird?\n  ## Kann ich eine nicht bestandene Arbeit durch ein Kolloquium noch „retten“?\n  ## Kann ich die Bachelor-Arbeit auch in englischer Sprache abfassen?"
+    },
+    {
+      "nr": 12,
+      "titel": "f5 › Personen › Romppel › 20100325 Textinhalt A4 NBA Evaluation — Danksagung",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/20100325_Textinhalt_A4_NBA_Evaluation.pdf",
+      "fakultaet": "f5",
+      "struktur": "  ## Danksagung\n  ## 1. Einleitung\n  ## Aufgabenstellung\n  ## Methoden\n  ## 2. Ausgangssituation Wohngebiet Canarisweg\n  ## Städtebau und Architektur\n  ## Segregation\n  ## Außenwahrnehmung\n  ## Teil eines Stadtteils\n  ## Durchgangsquartier\n  ## Nachbarschaften\n  ## Quartiersbezogene Arbeit\n  ## Qualität der Nachbarschaftsarbeit\n  ## Konzept\n  ## Finanzierung\n  ## Rolle im Stadtteil\n  ## Management\n  ## Mitarbeitende\n  ## Wertschätzung für die Bewohner\n  ## Erreichen der Zielgruppen\n  ## Kontakte und soziale Netze\n  ## Interkulturelles Zusammenleben\n  ## Identifikation mit dem\n  ## Viertel\n  ## Bürgerschaftliches Engagement\n  ## Beratung\n  ## Bildung\n  ## Beschäftigungsförderung\n  ## Beziehungen der Bewohnerschaft zur Außenwelt\n  ## Verbindung mit Mühlenberg\n  ## Image\n  ## Soziale Stabilisierung\n  ## Empfehlungen\n  ##  NBA fortsetzen\n  ##  Auf Dauer anlegen\n  ##  Grundfinanzierung herstellen\n  ##  Sponsoring ausbauen\n  ##  Beschäftigung schaffen\n  ##  Qualifizierung erweitern\n  ##  Ziele kontrollieren\n  ##  Bedarfe ermitteln\n  ##  Aktivierung verstärken\n  ##  Außenorientierung fördern\n  ##  Vernetzung weiterentwickeln\n  ##  Kooperationen ausweiten\n  ## 4. Zukunft Wohngebiet Canarisweg\n  ## Rahmenbedingungen der Gebietsentwicklung\n  ## Aktive Quartiersentwicklung\n  ## Soziale und bauliche Veränderungen\n  ## Empfehlungen"
+    }
+  ],
+  "ausgewaehlte_docs": [
+    {
+      "nr": 1,
+      "titel": "f5 › Service › HiWi werden › 6 Antrag auf Befreiung 07 2015 — Allgemeines",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/6_Antrag_auf_Befreiung_07_2015.pdf"
+    },
+    {
+      "nr": 2,
+      "titel": "f5 › Service › HiWi werden › Studentische Hilfskraft Anlagen — V e r s c h w i e g e n h e i t s e r k l ä r u n g",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/Studentische_Hilfskraft_-_Anlagen.pdf"
+    },
+    {
+      "nr": 3,
+      "titel": "f5 › Service › HiWi werden › 5 Klaerung der Versicherungspflicht von Studenten 12 2012",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/5_Klaerung_der_Versicherungspflicht_von_Studenten_12_2012.pdf"
+    },
+    {
+      "nr": 8,
+      "titel": "f5 › service › hiwi werden — DU MÖCHTEST STUDENTISCHE HILFSKRAFT WERDEN? SO GEHT ES….",
+      "url": "https://f5.hs-hannover.de/service/hiwi-werden"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "f5 › Service › HiWi werden › 6 Antrag auf Befreiung 07 2015 — Allgemeines",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/6_Antrag_auf_Befreiung_07_2015.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Merkblatt über die möglichen Folgen einer Befreiung von der Rentenversicherungspflicht** > **Allgemeines**",
+      "snippets": [
+        "## **Antrag auf Befreiung von der Rentenversicherungspflicht**  \nIst die Versicherungspflicht nicht gewollt, kann sich der Arbeitnehmer von ihr befreien lassen. Hierzu muss er seinem Arbeitgeber - möglichst mit dem beiliegenden Formular - schriftlich mitteilen, dass er die Befreiung von der Versicherungspflicht in der Rentenversicherung wünscht. Übt der Arbeitnehmer mehrere geringfügig entlohnte Beschäftigungen aus, kann der Antrag auf Befreiung nur einheitlich für alle zeitgleich ausgeübten geringfügigen Beschäftigungen gestellt werden. Über den Befreiungsantrag hat der Arbeitnehmer alle weiteren - auch zukünftige - Arbeitgeber zu informieren, bei denen er eine geringfügig entlohnte Beschäftigung ausübt. Die Befreiung von der Versicherungspflicht ist für die Dauer der Beschäftigung(en) bindend; sie kann nicht widerrufen werden.",
+        "## **Antrag auf Befreiung von der Rentenversicherungspflicht bei einer geringfügig entlohnten Beschäftigung nach § 6 Absatz 1b Sozialgesetzbuch Sechstes Buch (SGB VI)**\n## **Arbeitnehmer:**  \nName: Vorname: Rentenversicherungsnummer:  \nHiermit beantrage ich die Befreiung von der Versicherungspflicht in der Rentenversicherung im Rahmen meiner geringfügig entlohnten Beschäftigung und verzichte damit auf den Erwerb von Pflichtbeitragszeiten. Ich habe die Hinweise auf dem „Merkblatt über die möglichen Folgen einer Befreiung von der Rentenversicherungspflicht“ zur Kenntnis genommen.  \nMir ist bekannt, dass der Befreiungsantrag für alle von mir zeitgleich ausgeübten geringfügig entlohnten Beschäftigungen gilt und  für die Dauer der Beschäftigungen bindend ist; eine Rücknahme ist nicht möglich. Ich verpflichte mich, alle weiteren Arbeitgeber, bei denen ich eine geringfügig entlohnte Beschäftigung ausübe, über diesen Befreiungsantrag zu informieren.  \n_____________________  __________________________________\n(Ort, Datum)   (Unterschrift des Arbeitnehmers)\nArbeitgeber:\nName: ___________________________________________\nBetriebsnummer:"
+      ],
+      "zitate": [
+        "für die Dauer der Beschäftigung(en)",
+        "nicht möglich"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f5 › Service › HiWi werden › Studentische Hilfskraft Anlagen — V e r s c h w i e g e n h e i t s e r k l ä r u n g",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/Studentische_Hilfskraft_-_Anlagen.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/5_Klaerung_der_Versicherungspflicht_von_Studenten_12_2012.pdf",
+        "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/6_Antrag_auf_Befreiung_07_2015.pdf"
+      ],
+      "abschnitt": "**Merkblatt zur Aufklärung über die möglichen Folgen einer Befreiung von der Renten-versicherungspflicht** > **Allgemeines**",
+      "snippets": [
+        "## **Antrag auf Befreiung von der Rentenversicherungspflicht**  \nIst die Versicherungspflicht nicht gewollt, kann sich der Arbeitnehmer von ihr befreien lassen. Hierzu muss er seinem Arbeitgeber - möglichst mit dem beiliegenden Formular - schriftlich mitteilen, dass er die Befreiung von der Versicherungspflicht in der Rentenversicherung wünscht. Übt der Arbeitnehmer mehrere geringfügig entlohnte Beschäftigungen aus, kann der Antrag auf Befreiung nur einheitlich **für alle** zeitgleich ausgeübten geringfügigen Beschäftigungen gestellt werden. Über den Befreiungsantrag hat der Arbeitnehmer alle weiteren - auch zukünftige - Arbeitgeber zu informieren, bei denen er eine geringfügig entlohnte Beschäftigung ausübt. Die Befreiung von der Versicherungspflicht ist für die Dauer der Beschäftigung(en) **bindend** ; sie kann **nicht** widerrufen werden.",
+        "Merkmal „Hauptarbeitgeber“ zurückgemeldet werden (Ergänzender **Hinweis für Studierende:** Ein gewöhnliches Studium ist keine Hauptbeschäftigung im  keine Hauptbeschäftigung im  Hauptbeschäftigung im steuerrechtlichen Sinn). Bei einer Nebenbeschäftigung kommt nur die Steuerklasse 6 infrage. Teilt der Arbeitnehmer dem Arbeitgeber keine Steuer-IdNr. mit, so ist ein Abruf der ELStAM nicht möglich. In dem Falle hat die Versteuerung ebenfalls nach **Steuerklasse 6** zu erfolgen. Mein Arbeitsverhältnis ab beim Land Niedersachsen bei ist die Hauptbeschäftigung* (Anmeldung bei der ELStAM-Datenbank als Hauptarbeitgeber). eine Nebenbeschäftigung (immer Steuerklasse 6). *HINWEIS (siehe auch oben): Ein gewöhnliches (nicht duales oder triales) Studium ist **keine** Hauptbeschäftigung im steuerrechtlichen Sinn. Um auch schon vor Erhalt der Anmeldebestätigung der ELStAM- Datenbank die Versteuerung korrekt vornehmen zu können, werden die nachstehenden Angaben benötigt: Meine **Steuermerkmale** sind:"
+      ],
+      "zitate": [
+        "für die Dauer der Beschäftigung(en)",
+        "nicht möglich"
+      ],
+      "verifiziert": true
+    },
+    {
+      "titel": "f5 › Service › HiWi werden › 5 Klaerung der Versicherungspflicht von Studenten 12 2012",
+      "url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/5_Klaerung_der_Versicherungspflicht_von_Studenten_12_2012.pdf",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "**Rentenversicherung**",
+      "snippets": [
+        "Für Personen, die ihr Studium als **Teilzeitstudium** absolvieren, für das sie aufgrund einer Beschäftigung und / oder anderer Verpflichtungen **nicht mehr als die Hälfte des nach der Studienordnung für das Vollzeitstudium vorgesehenen Studienumfangs** aufwenden können, sind die Grundsätze über die Versicherungsfreiheit von Studenten **nicht** anzuwenden. Sie gelten **nicht** als ordentlich Studierende im Sinne der Sozialversicherung. Gleiches gilt für Studierende an Fernuniversitäten, die dort ein entsprechend reduziertes Teilzeitstudium absolvieren.  \nVordr. 8051 (OFD-LBV / IuK 90 – 12.12)  \n**- 2 -**\n\n## **Rentenversicherung**\nHinsichtlich der Rentenversicherungspflicht gelten für Studentinnen und Studenten die gleichen Vorschriften wie für jeden anderen Beschäftigten auch. Rentenversicherungsfrei ist eine Beschäftigung danach, wenn sie **kurzfristig** im Sinne von § 8 SGB IV ist. Bei **geringfügig entlohnter** Beschäftigung besteht für Neueinstellungen ab dem **01.01.2013** grundsätzlich Rentenversicherungspflicht. Die Befreiung von der Rentenversicherungspflicht ist bei einer derartigen Beschäftigung jedoch möglich; sie kann bei der zuständigen Abrechnungsstelle - hier: OFD Niedersachsen – LBV - **schriftlich** beantragt werden. Die Minijobzentrale muss dem Antrag zustimmen (in der Regel wird das der Fall sein). Bei **geringfügig entlohnten** Beschäftigungen mit Einstellung (Beginn) vor dem 01.01.2013 (Bestandsfälle nach altem Recht) besteht, solange das regelmäßige mtl. Entgelt weiterhin bis zu 400 Euro beträgt, Rentenversicherungsfreiheit, soweit nicht auf diese verzichtet wurde bzw. - mit Wirkung für\n\nnach altem Recht) besteht, solange das regelmäßige mtl. Entgelt weiterhin bis zu 400 Euro beträgt, Rentenversicherungsfreiheit, soweit nicht auf diese verzichtet wurde bzw. - mit Wirkung für die Zukunft - wird (so genannte Option).\n**- 1 -**  \n**Oberfinanzdirektion Niedersachsen LBV**",
+        "Nur für **geringfügig entlohnt** Beschäftigte (regelmäßiges monatliches Entgelt bis zu 450 Euro): Wenn Sie a) keiner Hauptbeschäftigung nachgehen, sondern nur eine oder mehrere geringfügig entlohnte Beschäftigungen mit einem Entgelt / Gesamtentgelt bis zu 450 Euro ausüben, **oder** b) einer Hauptbeschäftigung nachgehen und daneben nur eine (einzige) - d. h. diese - geringfügig entlohnte Nebenbeschäftigung ausüben **oder** c) neben einer Hauptbeschäftigung mehrere für sich betrachtet geringfügig entlohnte Nebenbeschäftigungen mit einem Gesamtentgelt von über 450 Euro ausüben und es sich hier - bei dieser Beschäftigung - um die erste (zuerst aufgenommene) geringfügig entlohnte Nebenbeschäftigung handelt und Sie die **Möglichkeit des Verzichts auf die grundsätzlich bestehende Rentenversicherungspflicht** in Anspruch nehmen möchten, bitte ich Sie, die beiliegende **Erklärung zur gesetzlichen Rentenversicherung** umgehend ausgefüllt an mich zurück zu senden. - Bitte beachten Sie unbedingt"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    },
+    {
+      "titel": "f5 › service › hiwi werden — DU MÖCHTEST STUDENTISCHE HILFSKRAFT WERDEN? SO GEHT ES….",
+      "url": "https://f5.hs-hannover.de/service/hiwi-werden",
+      "crawl_date": "2026-08-01",
+      "fremde_fundstellen": [],
+      "abschnitt": "Wiedereinstellung / Weiterbeschäftigung",
+      "snippets": [
+        "4. Klärung der Sozialversicherungspflicht\n5. Angaben zur Zahlungsaufnahme (inkl. SEPA-Angaben)\n6. Erklärung zur steuerlichen Behandlung\n7. Antrag auf Befreiung von der Rentenversicherungspflicht (Dieser ist bei einer Beschäftigung von bis zu 22 Stunden monatlich immer beizufügen, außer bei bewusstem Verzicht!)\n8. Immatrikulationsbescheinigung für das/die Semester der Beschäftigung (nur bei studentischen Hilfskräften; Kopie in 2-facher Ausfertigung jeweils)\n9. Kopie der Urkunde des Studienabschlusses bei wissenschaftlichen Hilfskräften und studentischen Hilfskräften mit Abschluss; 2-fache Ausfertigung (bzw. eine aktuelle Bestätigung des Prüfungsamtes, dass der erfolgreiche Abschluss erfolgt ist und dass die Urkunden noch in Bearbeitung sind)  \n* * *",
+        "4. Angaben zur Zahlungsaufnahme (inkl. SEPA-Angaben) ([Muster](https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/4_Angaben_zur_Zahlungsaufnahme_07_2015.pdf))\n5. Klärung der Sozialversicherungspflicht ([Muster](https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/5_Klaerung_der_Versicherungspflicht_von_Studenten_12_2012.pdf))\n6. Erklärung zur steuerlichen Behandlung ([Muster](https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/7_Erklaerung_zur_steuerlichen_Behandlung_01_2014.pdf))\n7. Sozialversicherungsausweis (nur Kopie)\n8. Antrag auf Befreiung von der Rentenversicherungspflicht (Dieser ist bei einer Beschäftigung von bis zu 22 Stunden monatlich immer beizufügen, außer bei bewusstem Verzicht!) ([Muster](https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/6_Antrag_auf_Befreiung_07_2015.pdf))"
+      ],
+      "zitate": [],
+      "verifiziert": false
+    }
+  ],
+  "chunks": [
+    {
+      "rang": 1,
+      "score": 3.72307,
+      "id": "5dcf8ef4-f049-56e0-ae4f-19cb4746921a",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/6_Antrag_auf_Befreiung_07_2015.pdf",
+      "title_anzeige": "f5 › Service › HiWi werden › 6 Antrag auf Befreiung 07 2015 — Allgemeines",
+      "section_heading": "**Merkblatt über die möglichen Folgen einer Befreiung von der Rentenversicherungspflicht** > **Allgemeines**",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## **Merkblatt über die möglichen Folgen einer Befreiung von der Rentenversicherungspflicht**\n\n## **Allgemeines**  \nSeit dem 1. Januar 2013 unterliegen Arbeitnehmer, die eine geringfügig entlohnte Beschäftigung (450-Euro-Minijob) ausüben, grundsätzlich der Versicherungs- und vollen Beitragspflicht i"
+    },
+    {
+      "rang": 2,
+      "score": 3.6892,
+      "id": "e8013dfa-fa44-5f5e-a4c1-313bae06ff23",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/Studentische_Hilfskraft_-_Anlagen.pdf",
+      "title_anzeige": "f5 › Service › HiWi werden › Studentische Hilfskraft Anlagen — V e r s c h w i e g e n h e i t s e r k l ä r u n g",
+      "section_heading": "**Merkblatt zur Aufklärung über die möglichen Folgen einer Befreiung von der Renten-versicherungspflicht** > **Allgemeines**",
+      "chunk_index": 44,
+      "text_vollstaendig": false,
+      "auszug": "## **Abrechnungsstelle NLBV (Entgeltreferat):**  \nReferat:  \nDie Befreiung wirkt ab . T T M M J J J J  \n(Ort, Datum) (Unterschrift der Abrechnungsstelle)\n\n## **Merkblatt zur Aufklärung über die möglichen Folgen einer Befreiung von der Renten-versicherungspflicht**\n\n## **Allgemeines**  \nSeit dem 1. J"
+    },
+    {
+      "rang": 3,
+      "score": 3.59666,
+      "id": "91c26ab8-1b4a-54e1-b29a-52a06aec8875",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/5_Klaerung_der_Versicherungspflicht_von_Studenten_12_2012.pdf",
+      "title_anzeige": "f5 › Service › HiWi werden › 5 Klaerung der Versicherungspflicht von Studenten 12 2012",
+      "section_heading": "**Rentenversicherung**",
+      "chunk_index": 15,
+      "text_vollstaendig": false,
+      "auszug": "Für Personen, die ihr Studium als **Teilzeitstudium** absolvieren, für das sie aufgrund einer Beschäftigung und / oder anderer Verpflichtungen **nicht mehr als die Hälfte des nach der Studienordnung für das Vollzeitstudium vorgesehenen Studienumfangs** aufwenden können, sind die Grundsätze über die "
+    },
+    {
+      "rang": 4,
+      "score": 2.98078,
+      "id": "c6b6a5ea-40eb-58fc-a6d9-f6835ce3c534",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/6_Antrag_auf_Befreiung_07_2015.pdf",
+      "title_anzeige": "f5 › Service › HiWi werden › 6 Antrag auf Befreiung 07 2015 — Allgemeines",
+      "section_heading": "**Antrag auf Befreiung von der Rentenversicherungspflicht**",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "Die Befreiung wirkt grundsätzlich ab Beginn des Kalendermonats des Eingangs beim Arbeitgeber, frühestens ab Beschäftigungsbeginn. Voraussetzung ist, dass der Arbeitgeber der Minijob-Zentrale die Befreiung bis zur nächsten Entgeltabrechnung, spätestens innerhalb von 6 Wochen nach Eingang des Befreiun"
+    },
+    {
+      "rang": 5,
+      "score": 2.6898,
+      "id": "8f3191b0-e8b6-5c85-b7fd-139ecf9b7d31",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/Studentische_Hilfskraft_-_Anlagen.pdf",
+      "title_anzeige": "f5 › Service › HiWi werden › Studentische Hilfskraft Anlagen — V e r s c h w i e g e n h e i t s e r k l ä r u n g",
+      "section_heading": "**HINWEIS:** Die **Beendigung** und etwaige **Unterbrechungen** des Studiums sind dem zuständigen Entgeltreferat des NLBV **unverzüglich** mitzuteilen (bitte Belege beifügen)! > **Rentenversicherung**",
+      "chunk_index": 19,
+      "text_vollstaendig": false,
+      "auszug": "## **HINWEIS:** Die **Beendigung** und etwaige **Unterbrechungen** des Studiums sind dem zuständigen Entgeltreferat des NLBV **unverzüglich** mitzuteilen (bitte Belege beifügen)!\n## **Rentenversicherung**  \nHinsichtlich der Rentenversicherungspflicht gelten für Studierende ansonsten dieselben Vorsch"
+    },
+    {
+      "rang": 6,
+      "score": 2.66027,
+      "id": "812c9598-5106-50ad-976d-cc5e0fb7cc7c",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/5_Klaerung_der_Versicherungspflicht_von_Studenten_12_2012.pdf",
+      "title_anzeige": "f5 › Service › HiWi werden › 5 Klaerung der Versicherungspflicht von Studenten 12 2012",
+      "section_heading": "**Prüfung der Sozialversicherungspflicht** > Sehr geehrte",
+      "chunk_index": 4,
+      "text_vollstaendig": false,
+      "auszug": "Nur für **geringfügig entlohnt** Beschäftigte (regelmäßiges monatliches Entgelt bis zu 450 Euro): Wenn Sie a) keiner Hauptbeschäftigung nachgehen, sondern nur eine oder mehrere geringfügig entlohnte Beschäftigungen mit einem Entgelt / Gesamtentgelt bis zu 450 Euro ausüben, **oder** b) einer Hauptbes"
+    },
+    {
+      "rang": 7,
+      "score": 1.70526,
+      "id": "965bebbf-3353-5ba8-bbd8-98a50c344a37",
+      "source_url": "https://f3.hs-hannover.de/fileadmin/HsH/Fakultaet_III/Downloads/Stellenangebote_Studierende/SoSe2026/14.04.2026Nds_Krebsgesellschaft_Minijob_Social_Media.pdf",
+      "title_anzeige": "f3 › Stellenangebote Studierende › SoSe2026 › 14.04.2026Nds Krebsgesellschaft Minijob Social Media — Minijob: Social Media",
+      "section_heading": "Minijob: Social Media",
+      "chunk_index": 0,
+      "text_vollstaendig": true,
+      "auszug": "## Minijob: Social Media  \nSie haben digital den Durchblick, kennen sich mit Mediengestaltung und verschiedenen Social-Media-Kanälen aus, verfügen über ein gutes Gespür für Gestaltung und Bildsprache, sind gut organisiert und arbeiten gern eigenverantwortlich und zuverlässig? Dann freuen wir uns dar"
+    },
+    {
+      "rang": 8,
+      "score": 1.47381,
+      "id": "0601f730-7e7b-5ed0-89d5-6d676e135e5f",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/drittstaaten-studierende_mit_behinderungen-faq-2018.pdf",
+      "title_anzeige": "f2 › Abt M › Gleichstellung FII › drittstaaten studierende mit behinderungen faq 2018",
+      "section_heading": "**3. Pflichtversicherung als Arbeitnehmer*in während des Studiums**",
+      "chunk_index": 30,
+      "text_vollstaendig": false,
+      "auszug": "## **3. Pflichtversicherung als Arbeitnehmer*in während des Studiums**  \nDie Pflichtversicherung als Arbeitnehmer*in setzt für Studierende erst bei einer Beschäftigung von mehr als 20 Wochenstunden ein. Um diese Versicherung auch über das Ende der Tätigkeit hinaus als freiwillige Versicherung fortfü"
+    },
+    {
+      "rang": 9,
+      "score": 1.46378,
+      "id": "5fda611c-9886-54a2-bfb3-612b87bcfae3",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/eu-studierende_mit_behinderungen-faq-2018.pdf",
+      "title_anzeige": "f2 › Abt M › Gleichstellung FII › eu studierende mit behinderungen faq 2018",
+      "section_heading": "**4. Pflichtversicherung als Arbeitnehmer*in während des Studiums**",
+      "chunk_index": 29,
+      "text_vollstaendig": false,
+      "auszug": "## **4. Pflichtversicherung als Arbeitnehmer*in während des Studiums**  \nDie Pflichtversicherung als Arbeitnehmer*in setzt für Studierende erst bei einer Beschäftigung von mehr als 20 Wochenstunden ein. Um diese Versicherung auch über das Ende der Tätigkeit hinaus als freiwillige Versicherung fortfü"
+    },
+    {
+      "rang": 10,
+      "score": 1.3258,
+      "id": "03b094e9-5ccd-5a84-8f04-c838f2b29e76",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Landingpages/HannoTalents/Dein_Weg_zur_Promotion_Ratgeber-GUP-Kolleg_HsH_04.09.25.pdf",
+      "title_anzeige": "www › Landingpages › HannoTalents › Dein Weg zur Promotion Ratgeber GUP Kolleg HsH 04.09.25",
+      "section_heading": "(Mögliche) Nachteile und Aspekte der Absicherung",
+      "chunk_index": 62,
+      "text_vollstaendig": true,
+      "auszug": "## (Mögliche) Nachteile und Aspekte der Absicherung  \nZu beachten ist, dass Stipendien häufig auf maximal drei Jahre begrenzt sind und in der Regel nicht verlängerbar sind. Hinzu kommen möglicherweise:  \n- Politische oder konfessionelle Bindungen je nach Stiftung  \n- Keine Einzahlungen in die Renten"
+    },
+    {
+      "rang": 11,
+      "score": 1.28987,
+      "id": "9d5fd868-6017-563c-a399-0d8d10a6c78c",
+      "source_url": "https://f5.hs-hannover.de/service/hiwi-werden",
+      "title_anzeige": "f5 › service › hiwi werden — DU MÖCHTEST STUDENTISCHE HILFSKRAFT WERDEN? SO GEHT ES….",
+      "section_heading": "Wiedereinstellung / Weiterbeschäftigung",
+      "chunk_index": 5,
+      "text_vollstaendig": true,
+      "auszug": "4. Klärung der Sozialversicherungspflicht\n5. Angaben zur Zahlungsaufnahme (inkl. SEPA-Angaben)\n6. Erklärung zur steuerlichen Behandlung\n7. Antrag auf Befreiung von der Rentenversicherungspflicht (Dieser ist bei einer Beschäftigung von bis zu 22 Stunden monatlich immer beizufügen, außer bei bewusstem"
+    },
+    {
+      "rang": 12,
+      "score": 1.23502,
+      "id": "8b45aa5c-8538-5db0-bdc6-c27964148306",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/drittstaaten-studierende_mit_behinderungen-faq-2018.pdf",
+      "title_anzeige": "f2 › Abt M › Gleichstellung FII › drittstaaten studierende mit behinderungen faq 2018",
+      "section_heading": "**3. Mandatory health insurance for employees while studying**",
+      "chunk_index": 92,
+      "text_vollstaendig": false,
+      "auszug": "## **3. Mandatory health insurance for employees while studying**  \nFor students, mandatory health insurance for employees only sets in if individuals are employed for more than 20 hours a week. In order to also be able to maintain this insurance as voluntary health insurance beyond the respective o"
+    },
+    {
+      "rang": 13,
+      "score": 1.23335,
+      "id": "b318c2f1-18c1-5883-8d11-15dadce983ad",
+      "source_url": "https://f2.hs-hannover.de/fileadmin/HsH/Fakultaet_II/Abt_M/Dokumente/Gleichstellung_FII/eu-studierende_mit_behinderungen-faq-2018.pdf",
+      "title_anzeige": "f2 › Abt M › Gleichstellung FII › eu studierende mit behinderungen faq 2018",
+      "section_heading": "**4. Mandatory health insurance for employees while studying**",
+      "chunk_index": 90,
+      "text_vollstaendig": false,
+      "auszug": "## **4. Mandatory health insurance for employees while studying**  \nFor students, mandatory health insurance for employees only sets in if individuals are employed for more than 20 hours a week. In order to also be able to maintain this insurance as voluntary health insurance beyond the respective o"
+    },
+    {
+      "rang": 14,
+      "score": 1.21876,
+      "id": "23722745-7824-5622-a5fa-52b446b3fcae",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Simon__2008__Sechzehn_Jahre_Budgetdeckelung__verdi-Studie_.pdf",
+      "title_anzeige": "f5 › UEber uns › Personen › Simon 2008 Sechzehn Jahre Budgetdeckelung verdi Studie",
+      "section_heading": "Sechzehn Jahre Deckelung der Krankenhausbudgets > Das Kernproblem der gesetzlichen Krankenversicherung: Die Erosion der Einnahmegrundlage",
+      "chunk_index": 224,
+      "text_vollstaendig": false,
+      "auszug": "sowohl gegenüber der Rentenversicherung als auch der Arbeitslosenversicherung in einer finanziellen Verantwortung stand und steht, beispielsweise durch eine gesetzliche Verpflichtung zur Deckung von Haushaltsdefiziten der Arbeitslosenversicherung oder die Anbindung des Bundeszuschusses für die Rente"
+    },
+    {
+      "rang": 15,
+      "score": 1.21397,
+      "id": "be0a97b2-f587-5f2d-9e7d-21410adf916e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/bessere-vereinbarkeit-von-famiie-pflege-und-beruf-broschuere-data.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › bessere vereinbarkeit von famiie pflege und beruf broschuere data",
+      "section_heading": "Rentenansprüche von Pflegepersonen:",
+      "chunk_index": 35,
+      "text_vollstaendig": true,
+      "auszug": "## Rentenansprüche von Pflegepersonen:  \nDie Pflegeversicherung zahlt die Beiträge zur Rentenversiche rung, wenn die Pflegeperson nicht mehr als 30 Stunden in der Woche erwerbstätig ist. Die Höhe der Beiträge ist abhängig vom Pflegegrad und davon, ob nur Pflegegeld, ambulante Pflegesachleistungen od"
+    },
+    {
+      "rang": 16,
+      "score": 1.20351,
+      "id": "fd14349b-491d-5f62-b637-be3bf9034199",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/2025_03_13_Informationen_zu_Praxisphasen_und_Bachelor-Arbeit_.pdf",
+      "title_anzeige": "f4 › BWL › Formulare Und Informationen › 2025 03 13 Informationen zu Praxisphasen und Bachelor Arbeit — Informationen zu den Praxisphasen und zur Bachelor-Arbeit",
+      "section_heading": "**Informationen zu den Praxisphasen und zur Bachelor-Arbeit** > 2.3 Vertragsdauer, Mindestlohn und Urlaub[1]",
+      "chunk_index": 29,
+      "text_vollstaendig": true,
+      "auszug": "Je nach vertragsrechtlicher Gestaltung der Praxistätigkeit hat dies Auswirkungen auf die Vergütung. Das Gesetz sieht vor, dass Pflichtpraktika grundsätzlich nicht mit dem Mindestlohn vergütet werden müssen. Pflichtpraktikanten dürfen also auch mit einer geringeren Vergütung entlohnt werden. Freiwill"
+    },
+    {
+      "rang": 17,
+      "score": 1.18026,
+      "id": "de731a90-46e1-5ec5-abe4-b775b361d5c1",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Romppel/20100325_Textinhalt_A4_NBA_Evaluation.pdf",
+      "title_anzeige": "f5 › Personen › Romppel › 20100325 Textinhalt A4 NBA Evaluation — Danksagung",
+      "section_heading": "Mitarbeitende",
+      "chunk_index": 63,
+      "text_vollstaendig": true,
+      "auszug": "wieder eingearbeitet werden. Bisher dauerten die Maßnahmen für eine Person in der Regel ein Jahr (oder bei Verlängerung maximal zwei Jahre), in Zukunft sind sie nur noch auf ein halbes Jahr befristet (eine Verlängerung für eine bestimmte Person bleibt prinzipiell möglich). Diese Verkürzung wird nich"
+    },
+    {
+      "rang": 18,
+      "score": 1.16583,
+      "id": "4a3c9917-11fd-5f52-9557-7c7013585d6e",
+      "source_url": "https://f5.hs-hannover.de/service/hiwi-werden",
+      "title_anzeige": "f5 › service › hiwi werden — DU MÖCHTEST STUDENTISCHE HILFSKRAFT WERDEN? SO GEHT ES….",
+      "section_heading": "Neueinstellung",
+      "chunk_index": 2,
+      "text_vollstaendig": true,
+      "auszug": "4. Angaben zur Zahlungsaufnahme (inkl. SEPA-Angaben) ([Muster](https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/Service/HiWi_werden/4_Angaben_zur_Zahlungsaufnahme_07_2015.pdf))\n5. Klärung der Sozialversicherungspflicht ([Muster](https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bi"
+    },
+    {
+      "rang": 19,
+      "score": 1.14546,
+      "id": "a34af735-76d7-55b9-99b1-718f68174681",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Finanzmanagement/Studienqualitaetsmittel/20180612_Protokoll_18.Sitzung_Senatskommission_Studienqualitaetsmittel.pdf",
+      "title_anzeige": "www › Finanzmanagement › Studienqualitaetsmittel › 20180612 Protokoll 18.Sitzung Senatskommission Studienqualitaetsmittel",
+      "section_heading": "5.4 StuPa (Herr Blohm), Minijob 450 EUR, 15.08.2018 – 14.08.2020, Umsetzung der Sozialordnung, 6.404,40 EUR p.a. (Anlage 5)",
+      "chunk_index": 11,
+      "text_vollstaendig": true,
+      "auszug": "## 5.4 StuPa (Herr Blohm), Minijob 450 EUR, 15.08.2018 – 14.08.2020, Umsetzung der Sozialordnung, 6.404,40 EUR p.a. (Anlage 5)  \nHerr Blohm stellt seinen Antrag vor. Der Antrag wurde bereits in der letzten Sitzung der Senatskommission Studienqualitätsmittel gestellt – hier jedoch als 0,5 VZÄ, E6, TV"
+    },
+    {
+      "rang": 20,
+      "score": 1.13642,
+      "id": "c83d85d5-7261-5397-901f-e9f7eeda830a",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/MBD/2022-01-04-01_Informationen_zu_Praxis-und_Forschungsphasen.pdf",
+      "title_anzeige": "f4 › BWL › MBD › 2022 01 04 01 Informationen zu Praxis und Forschungsphasen",
+      "section_heading": "**3 Vertragsdauer und Mindestlohn**",
+      "chunk_index": 14,
+      "text_vollstaendig": true,
+      "auszug": "Die vertragsrechtliche Gestaltung der Praxis- bzw. Forschungstätigkeit hat Auswirkungen auf die Vergütung der Tätigkeit. Das Gesetz sieht vor, dass Pflichtpraktika grundsätzlich _nicht_ mit dem Mindestlohn vergütet werden müssen. Freiwillige ausbildungsbegleitende Praktika dagegen unterliegen ab ein"
+    },
+    {
+      "rang": 21,
+      "score": 1.10331,
+      "id": "9dec0843-8598-5dcb-8807-833f1f2b0fa8",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/2025_03_13_Informationen_zu_Praxisphasen_und_Bachelor-Arbeit_.pdf",
+      "title_anzeige": "f4 › BWL › Formulare Und Informationen › 2025 03 13 Informationen zu Praxisphasen und Bachelor Arbeit — Informationen zu den Praxisphasen und zur Bachelor-Arbeit",
+      "section_heading": "**Informationen zu den Praxisphasen und zur Bachelor-Arbeit** > 2.3 Vertragsdauer, Mindestlohn und Urlaub[1]",
+      "chunk_index": 30,
+      "text_vollstaendig": true,
+      "auszug": "nicht mindestlohnpflichtig ist. Aus der Praxis sind uns solche Fälle nicht bekannt. Das heißt, Praktika mit einer Gesamtdauer von bis zu 6 Monaten, also 3 Monate Pflichtpraktikum und 3 Monate freiwilliges ausbildungsbegleitendes Praktikum, müssen daher grundsätzlich nicht mit dem Mindestlohn vergüte"
+    },
+    {
+      "rang": 22,
+      "score": 1.07304,
+      "id": "1eba9bc7-6a61-5859-9a44-a79fccbe3e4b",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Gleichstellungsbuero/MWK_Gesetzestext_Web-1.pdf",
+      "title_anzeige": "f5 › UEber uns › Gleichstellungsbuero › MWK Gesetzestext Web 1",
+      "section_heading": "§ 55 a Besondere Bestimmungen für die Errichtung von Stiftungen des öffentlichen Rechts",
+      "chunk_index": 245,
+      "text_vollstaendig": true,
+      "auszug": "3.   die Nachversicherung in der gesetzlichen Rentenversicherung für ausgeschiedene Beamtinnen und Beamte sowie sonstige Beschäftigte, denen durch Gewährleistungsentscheidung eine Anwartschaft auf Versorgung bei verminderter Erwerbsfähigkeit und im Alter sowie auf Hinterbliebenenversorgung gewährlei"
+    },
+    {
+      "rang": 23,
+      "score": 1.07057,
+      "id": "af6a138e-20e5-5a9f-ac20-8d55549c0725",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Servicezentrum_Beratung/Familienservice/bessere-vereinbarkeit-von-famiie-pflege-und-beruf-broschuere-data.pdf",
+      "title_anzeige": "www › Servicezentrum Beratung › Familienservice › bessere vereinbarkeit von famiie pflege und beruf broschuere data",
+      "section_heading": "Kündigungsschutz",
+      "chunk_index": 26,
+      "text_vollstaendig": true,
+      "auszug": "## Kündigungsschutz  \nDer Arbeitgeber darf Ihnen von der Ankündigung – höchstens jedoch **zwölf Wochen** vor dem angekündigten Freistellungs beginn – bis zur Beendigung der kurzzeitigen Arbeitsverhinde rung beziehungsweise der Freistellungen nach dem PflegeZG oder dem FPfZG nicht kündigen. In besond"
+    },
+    {
+      "rang": 24,
+      "score": 1.06539,
+      "id": "d0d8e304-a1e7-56f5-b4d5-a7b5fda0cbf6",
+      "source_url": "https://f4.hs-hannover.de/fileadmin/HsH/Forms/Fakultaet_IV/StudServ/OFI/BWL/Formulare_Und_Informationen/2021-12-30-_Praxis-_und_Forschungsphasenvertrag_Master.pdf",
+      "title_anzeige": "f4 › BWL › Formulare Und Informationen › 2021 12 30 Praxis und Forschungsphasenvertrag Master — Vertrag über die Praxis- /Forschungsphase",
+      "section_heading": "§7 Kündigung des Vertrages",
+      "chunk_index": 7,
+      "text_vollstaendig": true,
+      "auszug": "## §7 Kündigung des Vertrages  \nDer Vertrag endet, ohne dass es einer Kündigung bedarf, mit Ablauf der in § 2 Absatz 1 Nr. 1 genannten Frist.  \nDaneben kann der Vertrag gekündigt werden  \n- (1) ohne Angabe von Gründen innerhalb von 3 Wochen,  \n- (2) bei Aufgabe oder Änderung des Studien- oder Praxis"
+    },
+    {
+      "rang": 25,
+      "score": 1.0558,
+      "id": "fc019827-2713-517f-9077-9f037d8b466f",
+      "source_url": "https://www.hs-hannover.de/ueber-uns/organisation/servicezentrum-beratung/familienservice/familienverantwortung/beruf-und",
+      "title_anzeige": "Beruf und Familienverantwortung",
+      "section_heading": "Beruf und Familienverantwortung > Schwangerschaft und Elternzeit > Beruf und Familienverantwortung",
+      "chunk_index": 3,
+      "text_vollstaendig": true,
+      "auszug": "**Mutterschutz**\nDer Mutterschutz beginnt in der Regel **sechs Wochen vor der voraussichtlichen Entbindung**. In dieser Zeit darf die schwangere Person nur auf eigenen Wunsch und unter bestimmten Bedingungen weiterarbeiten. **Nach der Geburt gilt ein** **Arbeitsverbot von acht Wochen**. (Bei Früh- u"
+    },
+    {
+      "rang": 26,
+      "score": 1.0514,
+      "id": "4bb5baf6-17e0-5cf0-b3dd-ce09f87e87ff",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Organisation/Kommunikation_und_Marketing/Landingpages/HannoTalents/Dein_Weg_zur_Promotion_Ratgeber-GUP-Kolleg_HsH_04.09.25.pdf",
+      "title_anzeige": "www › Landingpages › HannoTalents › Dein Weg zur Promotion Ratgeber GUP Kolleg HsH 04.09.25",
+      "section_heading": "**Projektstelle als wissenschaftliche*r Mitarbeiter*in**",
+      "chunk_index": 54,
+      "text_vollstaendig": true,
+      "auszug": "Das WissZeitVG regelt grundsätzlich, dass Nachwuchs-Wissenschaftler*innen insgesamt nicht länger als 12 Jahre befristet beschäftigt sein sollen - maximal 6 Jahre in der Promotionsphase und 6 Jahre als Postdoc. Es gibt jedoch eine familienpolitische Komponente: Erstens kann die zulässige Befristungsd"
+    },
+    {
+      "rang": 27,
+      "score": 1.02128,
+      "id": "ca2410ce-a7b6-5915-8205-c2188c8063ff",
+      "source_url": "https://f5.hs-hannover.de/fileadmin/HsH/Fakultaet_V/Bilder_Datein/UEber_uns/Personen/Paper_Schwarz-gelbe_GesPol__2010_04_03_.pdf",
+      "title_anzeige": "f5 › UEber uns › Personen › Paper Schwarz gelbe GesPol 2010 04 03 — Michael Simon",
+      "section_heading": "**4.2.1.3 VerlustdesVersicherungsschutzes**",
+      "chunk_index": 287,
+      "text_vollstaendig": true,
+      "auszug": "ein vollständiger Ausschluss vom Versicherungsschutz für diese Versicherten nicht mehr möglich. Aber auch für sie folgen aus einem Beitragsrückstand deutliche Ein‐ schränkungendesVersicherungsschutzes,sobspw.dasRuhenderLeistungenunddie Beschränkung der Leistungsgewährung auf akute Erkrankungen und S"
+    },
+    {
+      "rang": 28,
+      "score": 1.01979,
+      "id": "5b96c26d-51f3-5680-a6e5-ea2408ba53e8",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/03_Praxisphasenordnung_WI.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2012 › 03 Praxisphasenordnung WI",
+      "section_heading": "**§ 7   Kündigung des Vertrages**",
+      "chunk_index": 26,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7   Kündigung des Vertrages**  \nDer Vertrag kann gekündigt werden  \n- ohne Angabe von Gründen innerhalb von drei Wochen,  \n- bei Aufgabe oder Änderung des Studien- oder Praxisphasenzieles jederzeit mit einer Frist von zwei Wochen.  \nDie Kündigung geschieht durch einseitige schriftliche Erklär"
+    },
+    {
+      "rang": 29,
+      "score": 1.01949,
+      "id": "375a0484-10b7-51b8-9c67-cd9b956b1d27",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Forms/Hochschule_Hannover/UEber_uns/Organe_und_Gremien/Verkuendungsblatt/2012/06-2012/HsH_Verkuendungsblatt_06_2012.pdf",
+      "title_anzeige": "www › Verkuendungsblatt › 06 2012 › HsH Verkuendungsblatt 06 2012 — Verkündungsblatt",
+      "section_heading": "**Ordnung für Praxisphasen an der Hochschule Hannover, Fakultät IV – Wirtschaft und Informatik, Abteilung Wirtschaftsinformatik (Praxisphasenordnung-WI; PraO-WI)** > **§ 7 Kündigung des Vertrages**",
+      "chunk_index": 74,
+      "text_vollstaendig": false,
+      "auszug": "## **§ 7 Kündigung des Vertrages**  \nDer Vertrag kann gekündigt werden  \n- ohne Angabe von Gründen innerhalb von drei Wochen,  \n– bei Aufgabe oder Änderung des Studien- oder Praxisphasenzieles jederzeit mit einer Frist von zwei Wochen.  \nDie Kündigung geschieht durch einseitige schriftliche Erklärun"
+    },
+    {
+      "rang": 30,
+      "score": 0.99151,
+      "id": "c7645af0-efd1-5027-865e-12383394c49e",
+      "source_url": "https://www.hs-hannover.de/fileadmin/HsH/Hochschule_Hannover/Weiterbildung/Dokumente/HsH-Akademie_allgemein/AGB_der_HsH-Akademie.pdf",
+      "title_anzeige": "www › Weiterbildung › HsH Akademie allgemein › AGB der HsH Akademie — Anmeldung und Bestätigung",
+      "section_heading": "Rücktritt der/s Teilnehmenden",
+      "chunk_index": 4,
+      "text_vollstaendig": true,
+      "auszug": "## Rücktritt der/s Teilnehmenden  \nDie Rücknahme einer Anmeldung hat schriftlich zu erfolgen.  \nBei Rücknahme einer Anmeldung wird eine Bearbeitungsgebühr in Höhe von 100 € erhoben, erfolgt diese später als 3 Wochen bis zu 10 Tagen vor dem Veranstaltungstermin ist die Hälfte des Veranstaltungsentgel"
+    }
+  ],
+  "arme": {},
+  "fakultaet_wirksam": "",
+  "fakultaet_erkannt": "",
+  "token_budget": {
+    "verwendet": 23604,
+    "maximum": 100000
+  },
+  "zeiten": {
+    "hybrid_suche_s": 1.67,
+    "kandidaten_s": 0.01,
+    "llm_auswahl_s": 2.35,
+    "docs_laden_s": 0.09,
+    "quellen_s": 4.12,
+    "antwort_llm_s": 2.29,
+    "gesamt_s": 6.41
+  },
+  "auswahl_begruendung": "{\"selected\":[1,2,3,8]}"
+}
